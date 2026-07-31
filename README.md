@@ -124,3 +124,4 @@ python run.py
 - The extractor is dynamic and heuristic-driven. It does not hardcode section-specific DGFT rules.
 - Sample output files are included in `output/` to show expected artifact shape before a live PDF is added.
 "# dekai" 
+"# dekai" 
