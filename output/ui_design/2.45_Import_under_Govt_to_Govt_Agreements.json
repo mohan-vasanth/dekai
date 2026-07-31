@@ -1,0 +1,37 @@
+{
+  "section": "2.45",
+  "ui": [
+    {
+      "screen_id": "Import_under_Govt_to_Govt_Agreements_overview",
+      "name": "Import under Govt. to Govt. Agreements Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_under_Govt_to_Govt_Agreements_submission",
+      "name": "Import under Govt. to Govt. Agreements Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "govt_flag",
+        "under_flag",
+        "goods_flag",
+        "import_flag",
+        "allowed_flag"
+      ]
+    }
+  ]
+}

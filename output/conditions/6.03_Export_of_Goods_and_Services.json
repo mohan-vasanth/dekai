@@ -1,0 +1,63 @@
+{
+  "section": "6.03",
+  "conditions": [
+    "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.",
+    "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+    "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+    "Where unit opts to continue,\nDC/Designated Officer will extend validity of the LOP/LOI.",
+    "If no\nintimation in this regard is received from unit within a period of\nsix months of expiry of the validity, DC/Designated Officer will,\nsuomoto, take action to cancel approval under the scheme and\ntake further action in this regard.",
+    "Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.",
+    "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.03.1",
+      "if": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+    },
+    {
+      "id": "6.6.03.2",
+      "if": "This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate."
+    },
+    {
+      "id": "6.6.03.3",
+      "if": "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment."
+    },
+    {
+      "id": "6.6.03.4",
+      "if": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate."
+    },
+    {
+      "id": "6.6.03.5",
+      "if": "Where unit opts to continue,\nDC/Designated Officer will extend validity of the LOP/LOI.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "Where unit opts to continue,\nDC/Designated Officer will extend validity of the LOP/LOI."
+    },
+    {
+      "id": "6.6.03.6",
+      "if": "If no\nintimation in this regard is received from unit within a period of\nsix months of expiry of the validity, DC/Designated Officer will,\nsuomoto, take action to cancel approval under the scheme and\ntake further action in this regard.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "If no\nintimation in this regard is received from unit within a period of\nsix months of expiry of the validity, DC/Designated Officer will,\nsuomoto, take action to cancel approval under the scheme and\ntake further action in this regard."
+    },
+    {
+      "id": "6.6.03.7",
+      "if": "Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC."
+    },
+    {
+      "id": "6.6.03.8",
+      "if": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+    }
+  ]
+}

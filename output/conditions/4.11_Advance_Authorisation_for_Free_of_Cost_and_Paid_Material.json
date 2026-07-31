@@ -1,0 +1,14 @@
+{
+  "section": "4.11",
+  "conditions": [
+    "4.11 Advance Authorisation for Free of Cost and Paid Material\nAuthorisations granted in terms of paragraph 4.19 of FTP, a specific endorsement by\nRegional Authority shall be made in the condition sheet of Advance Authorisation,\ndisallowing remittances for material being supplied free of cost."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.11.1",
+      "if": "4.11 Advance Authorisation for Free of Cost and Paid Material\nAuthorisations granted in terms of paragraph 4.19 of FTP, a specific endorsement by\nRegional Authority shall be made in the condition sheet of Advance Authorisation,\ndisallowing remittances for material being supplied free of cost.",
+      "then": "Route for review",
+      "source": "4.11 Advance Authorisation for Free of Cost and Paid Material\nAuthorisations granted in terms of paragraph 4.19 of FTP, a specific endorsement by\nRegional Authority shall be made in the condition sheet of Advance Authorisation,\ndisallowing remittances for material being supplied free of cost."
+    }
+  ]
+}

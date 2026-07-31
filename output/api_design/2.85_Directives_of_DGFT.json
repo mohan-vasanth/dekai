@@ -1,0 +1,53 @@
+{
+  "section": "2.85",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.85",
+      "purpose": "Retrieve knowledge payload for section 2.85",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Directives-of-DGFT/validate",
+      "purpose": "Validate inputs and documents for Directives of DGFT",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Directives-of-DGFT/execute",
+      "purpose": "Trigger business action for 2.85 Directives of DGFT\nDGFT may direct any registering authority to register or deregister an exporter or\notherwise issue such other directions to them consistent with and in order to\nimplement provisions of FT (D&R) Act, Rules and Orders made there under, FTP or\nthis Handbook.",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

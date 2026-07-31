@@ -1,0 +1,77 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.03",
+  "title": "Export of Goods and Services",
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_03-R001",
+      "rule_description": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "trigger": "Export of Goods and Services",
+      "condition": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "validation": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "action": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services."
+    },
+    {
+      "rule_id": "CH6-SEC6_03-R002",
+      "rule_description": "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+      "trigger": "Export of Goods and Services",
+      "condition": "This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.",
+      "validation": "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "action": "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services."
+    },
+    {
+      "rule_id": "CH6-SEC6_03-R003",
+      "rule_description": "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "trigger": "Export of Goods and Services",
+      "condition": "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+      "validation": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "action": "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services."
+    },
+    {
+      "rule_id": "CH6-SEC6_03-R004",
+      "rule_description": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "trigger": "Export of Goods and Services",
+      "condition": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "validation": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "action": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services."
+    },
+    {
+      "rule_id": "CH6-SEC6_03-R005",
+      "rule_description": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "trigger": "Export of Goods and Services",
+      "condition": "Where unit opts to continue,\nDC/Designated Officer will extend validity of the LOP/LOI.",
+      "validation": "(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "action": "Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services."
+    },
+    {
+      "rule_id": "CH6-SEC6_03-R006",
+      "rule_description": "(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "trigger": "Export of Goods and Services",
+      "condition": "If no\nintimation in this regard is received from unit within a period of\nsix months of expiry of the validity, DC/Designated Officer will,\nsuomoto, take action to cancel approval under the scheme and\ntake further action in this regard.",
+      "validation": "(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "action": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "IF detected context matches section rule THEN enforce: Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+    "IF detected context matches section rule THEN enforce: (c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+    "IF detected context matches section rule THEN enforce: Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+    "IF detected context matches section rule THEN enforce: (b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "IF detected context matches section rule THEN enforce: (c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+    "IF validations pass THEN recommend action: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+  ]
+}

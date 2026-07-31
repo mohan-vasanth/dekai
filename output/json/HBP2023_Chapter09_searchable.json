@@ -1,0 +1,1147 @@
+{
+  "source_pdf": "HBP2023_Chapter09.pdf",
+  "sections": [
+    {
+      "chapter_number": "9",
+      "chapter_title": "Promoting Cross Border Trade in Digital Economy",
+      "section": "9.00",
+      "title": "Policy",
+      "purpose": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+      "purpose_thanglish": "Indha Policy section-la, 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+      "summary": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+      "business_meaning": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+      "business_explanation": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+      "business_explanation_thanglish": "Indha Policy section-la, 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+      "business_logic": [],
+      "business_rules": [
+        {
+          "rule_id": "CH9-SEC9_00-R001",
+          "rule_description": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+          "trigger": "Policy",
+          "condition": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+          "validation": "Not explicitly covered in uploaded documents.",
+          "action": "Manual review required.",
+          "exception": "No explicit exception found in uploaded documents.",
+          "output": "DEKAI should produce a compliance decision for 9.00 - Policy."
+        }
+      ],
+      "conditions": [
+        "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy."
+      ],
+      "condition_logic": [
+        {
+          "id": "9.9.00.1",
+          "if": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+          "then": "Route for review",
+          "source": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy."
+        }
+      ],
+      "validations": [],
+      "exceptions": [],
+      "dependencies": [
+        "9"
+      ],
+      "documents": [],
+      "required_documents": [],
+      "authorities": [],
+      "timelines": [],
+      "actions": [],
+      "workflow": [
+        "Evaluate condition: 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy."
+      ],
+      "workflow_ascii": "Policy\nEvaluate condition: 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+      "decision_tree": [
+        "IF section 9.00 applies THEN proceed with standard DGFT workflow"
+      ],
+      "decision_tree_ascii": "Policy Decision\nIF section 9.00 applies THEN proceed with standard DGFT workflow",
+      "examples": [
+        "User asks to process Policy; the platform checks conditions, validations, and documents before action."
+      ],
+      "real_world_example": "Example: an importer or exporter invokes Policy, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the policy process.",
+      "real_world_example_thanglish": "Indha Policy section-la, Example: an importer or exporter invokes Policy, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the policy process.",
+      "ai_rules": [],
+      "database_fields": [
+        {
+          "name": "section_code",
+          "type": "string",
+          "required": true,
+          "source": "parsed_section_heading"
+        },
+        {
+          "name": "section_title",
+          "type": "string",
+          "required": true,
+          "source": "parsed_section_heading"
+        },
+        {
+          "name": "the_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:The"
+        },
+        {
+          "name": "from_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:from"
+        },
+        {
+          "name": "given_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:given"
+        },
+        {
+          "name": "under_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:under"
+        },
+        {
+          "name": "cross_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:Cross"
+        },
+        {
+          "name": "india_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:India"
+        },
+        {
+          "name": "trade_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:Trade"
+        },
+        {
+          "name": "policy_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:Policy"
+        }
+      ],
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/9.00",
+          "purpose": "Retrieve knowledge payload for section 9.00",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Policy/validate",
+          "purpose": "Validate inputs and documents for Policy",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "screen_id": "Policy_overview",
+          "name": "Policy Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Policy_submission",
+          "name": "Policy Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "from_flag",
+            "given_flag",
+            "under_flag",
+            "cross_flag",
+            "india_flag"
+          ]
+        }
+      ],
+      "error_messages": [
+        "Validation failed because the section requirements were not fully met."
+      ],
+      "questions_users_may_ask": [
+        "What does Policy require?",
+        "Which documents are needed for Policy?",
+        "How does DEKAI validate Policy requests?"
+      ],
+      "expected_ai_answers": [
+        "Policy requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+        "Required documents are inferred from the section text: no explicit documents were detected.",
+        "DEKAI validates Policy by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+      ],
+      "faq": [
+        {
+          "question_en": "What is the purpose of section 9.00?",
+          "answer_en": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+          "question_thanglish": "Indha Policy section-la, What is the purpose of section 9.00?",
+          "answer_thanglish": "Indha Policy section-la, 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy."
+        },
+        {
+          "question_en": "What documents are required under Policy?",
+          "answer_en": "Not explicitly covered in uploaded documents.",
+          "question_thanglish": "Indha Policy section-la, What documents are required under Policy?",
+          "answer_thanglish": "Indha Policy section-la, Not explicitly covered in uploaded documents."
+        },
+        {
+          "question_en": "Which authority handles Policy?",
+          "answer_en": "Not explicitly covered in uploaded documents.",
+          "question_thanglish": "Indha Policy section-la, Which authority handles Policy?",
+          "answer_thanglish": "Indha Policy section-la, Not explicitly covered in uploaded documents."
+        }
+      ],
+      "ai_question_and_answer_examples": [
+        {
+          "question_en": "User asks: How do I comply with Policy?",
+          "answer_en": "AI answers: DEKAI should evaluate section 9.00, apply the extracted rules, and guide the user through Evaluate condition: 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy..",
+          "question_thanglish": "Indha Policy section-la, User asks: How do I comply with Policy?",
+          "answer_thanglish": "Indha Policy section-la, AI answers: DEKAI should evaluate section 9.00, apply the extracted rules, and guide the user through Evaluate condition: 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.."
+        },
+        {
+          "question_en": "User asks: Which validations apply to Policy?",
+          "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+          "question_thanglish": "Indha Policy section-la, User asks: Which validations apply to Policy?",
+          "answer_thanglish": "Indha Policy section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+        }
+      ],
+      "dekai_ai_implementation_notes": [
+        "Capture chapter 9, section 9.00, title, and page references as immutable knowledge metadata.",
+        "Bind validations for Policy into a rule engine keyed by the rule IDs extracted for this section."
+      ],
+      "dekai_ai_implementation_notes_thanglish": [
+        "Indha Policy section-la, Capture chapter 9, section 9.00, title, and page references as immutable knowledge metadata.",
+        "Indha Policy section-la, Bind validations for Policy into a rule engine keyed by the rule IDs extracted for this section."
+      ],
+      "keywords": [
+        "The",
+        "from",
+        "given",
+        "under",
+        "Cross",
+        "India",
+        "Trade",
+        "Policy",
+        "Border",
+        "chapter",
+        "Foreign",
+        "relation",
+        "notified",
+        "elaborates",
+        "procedures",
+        "E-Commerce"
+      ],
+      "search_keywords": [
+        "The",
+        "from",
+        "given",
+        "under",
+        "Cross",
+        "India",
+        "Trade",
+        "Policy",
+        "Border",
+        "chapter",
+        "Foreign",
+        "relation",
+        "notified",
+        "elaborates",
+        "procedures",
+        "E-Commerce"
+      ],
+      "intent": "Provide knowledge guidance for Policy.",
+      "tags": [
+        "9.00",
+        "Policy",
+        "dgft"
+      ],
+      "related_sections": [],
+      "related_chapters": [],
+      "related_rules": [],
+      "page_numbers": [
+        2
+      ],
+      "pages": [
+        2
+      ],
+      "source_document": "HBP2023_Chapter09.pdf",
+      "raw_text": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+      "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.\"]",
+      "plantuml": "@startuml\nstart\n:Evaluate condition\\: 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.;\nstop\n@enduml"
+    },
+    {
+      "chapter_number": "9",
+      "chapter_title": "Promoting Cross Border Trade in Digital Economy",
+      "section": "9.01",
+      "title": "Foreign Trade Policy Benefits/Schemes to e-Commerce",
+      "purpose": "9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.",
+      "purpose_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement kandippa be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.",
+      "summary": "9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.",
+      "business_meaning": "Foreign Trade Policy Benefits/Schemes to e-Commerce governs how DGFT business controls should be applied, validated, and enforced.",
+      "business_explanation": "Foreign Trade Policy Benefits/Schemes to e-Commerce explains the operating rule set that DEKAI should enforce. Key control points include 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.",
+      "business_explanation_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, Foreign Trade Policy Benefits/Schemes to e-Commerce explains the operating rule set that DEKAI should enforce. Key control points include 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement kandippa be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.",
+      "business_logic": [
+        "9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters."
+      ],
+      "business_rules": [
+        {
+          "rule_id": "CH9-SEC9_01-R001",
+          "rule_description": "9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.",
+          "trigger": "Foreign Trade Policy Benefits/Schemes to e-Commerce",
+          "condition": "Not explicitly covered in uploaded documents.",
+          "validation": "9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.",
+          "action": "Manual review required.",
+          "exception": "No explicit exception found in uploaded documents.",
+          "output": "DEKAI should produce a compliance decision for 9.01 - Foreign Trade Policy Benefits/Schemes to e-Commerce."
+        }
+      ],
+      "conditions": [],
+      "condition_logic": [],
+      "validations": [
+        "9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters."
+      ],
+      "exceptions": [],
+      "dependencies": [],
+      "documents": [],
+      "required_documents": [],
+      "authorities": [],
+      "timelines": [],
+      "actions": [],
+      "workflow": [
+        "Run validation: 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters."
+      ],
+      "workflow_ascii": "Foreign Trade Policy Benefits/Schemes to e-Commerce\nRun validation: 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.",
+      "decision_tree": [
+        "IF section 9.01 applies THEN proceed with standard DGFT workflow"
+      ],
+      "decision_tree_ascii": "Foreign Trade Policy Benefits/Schemes to e-Commerce Decision\nIF section 9.01 applies THEN proceed with standard DGFT workflow",
+      "examples": [
+        "User asks to process Foreign Trade Policy Benefits/Schemes to e-Commerce; the platform checks conditions, validations, and documents before action."
+      ],
+      "real_world_example": "Example: an importer or exporter invokes Foreign Trade Policy Benefits/Schemes to e-Commerce, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the foreign trade policy benefits/schemes to e-commerce process.",
+      "real_world_example_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, Example: an importer or exporter invokes Foreign Trade Policy Benefits/Schemes to e-Commerce, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the foreign trade policy benefits/schemes to e-commerce process.",
+      "ai_rules": [
+        "IF detected context matches section rule THEN enforce: 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters."
+      ],
+      "database_fields": [
+        {
+          "name": "section_code",
+          "type": "string",
+          "required": true,
+          "source": "parsed_section_heading"
+        },
+        {
+          "name": "section_title",
+          "type": "string",
+          "required": true,
+          "source": "parsed_section_heading"
+        },
+        {
+          "name": "trade_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:Trade"
+        },
+        {
+          "name": "shall_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:shall"
+        },
+        {
+          "name": "policy_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:Policy"
+        },
+        {
+          "name": "ensure_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:ensure"
+        },
+        {
+          "name": "foreign_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:Foreign"
+        },
+        {
+          "name": "suitable_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:Suitable"
+        },
+        {
+          "name": "seamless_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:seamless"
+        },
+        {
+          "name": "delivery_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:delivery"
+        }
+      ],
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/9.01",
+          "purpose": "Retrieve knowledge payload for section 9.01",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Foreign-Trade-Policy-Benefits-Schemes-to-e-Commerce/validate",
+          "purpose": "Validate inputs and documents for Foreign Trade Policy Benefits/Schemes to e-Commerce",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "screen_id": "Foreign_Trade_Policy_Benefits_Schemes_to_e_Commerce_overview",
+          "name": "Foreign Trade Policy Benefits/Schemes to e-Commerce Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Foreign_Trade_Policy_Benefits_Schemes_to_e_Commerce_submission",
+          "name": "Foreign Trade Policy Benefits/Schemes to e-Commerce Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "trade_flag",
+            "shall_flag",
+            "policy_flag",
+            "ensure_flag",
+            "foreign_flag",
+            "suitable_flag"
+          ]
+        }
+      ],
+      "error_messages": [
+        "Validation failed because the section requirements were not fully met."
+      ],
+      "questions_users_may_ask": [
+        "What does Foreign Trade Policy Benefits/Schemes to e-Commerce require?",
+        "Which documents are needed for Foreign Trade Policy Benefits/Schemes to e-Commerce?",
+        "How does DEKAI validate Foreign Trade Policy Benefits/Schemes to e-Commerce requests?"
+      ],
+      "expected_ai_answers": [
+        "Foreign Trade Policy Benefits/Schemes to e-Commerce requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+        "Required documents are inferred from the section text: no explicit documents were detected.",
+        "DEKAI validates Foreign Trade Policy Benefits/Schemes to e-Commerce by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+      ],
+      "faq": [
+        {
+          "question_en": "What is the purpose of section 9.01?",
+          "answer_en": "Foreign Trade Policy Benefits/Schemes to e-Commerce explains the operating rule set that DEKAI should enforce. Key control points include 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.",
+          "question_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, What is the purpose of section 9.01?",
+          "answer_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, Foreign Trade Policy Benefits/Schemes to e-Commerce explains the operating rule set that DEKAI should enforce. Key control points include 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement kandippa be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters."
+        },
+        {
+          "question_en": "What documents are required under Foreign Trade Policy Benefits/Schemes to e-Commerce?",
+          "answer_en": "Not explicitly covered in uploaded documents.",
+          "question_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, What documents are required under Foreign Trade Policy Benefits/Schemes to e-Commerce?",
+          "answer_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, Not explicitly covered in uploaded documents."
+        },
+        {
+          "question_en": "Which authority handles Foreign Trade Policy Benefits/Schemes to e-Commerce?",
+          "answer_en": "Not explicitly covered in uploaded documents.",
+          "question_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, Which authority handles Foreign Trade Policy Benefits/Schemes to e-Commerce?",
+          "answer_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, Not explicitly covered in uploaded documents."
+        }
+      ],
+      "ai_question_and_answer_examples": [
+        {
+          "question_en": "User asks: How do I comply with Foreign Trade Policy Benefits/Schemes to e-Commerce?",
+          "answer_en": "AI answers: DEKAI should evaluate section 9.01, apply the extracted rules, and guide the user through Run validation: 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters..",
+          "question_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, User asks: How do I comply with Foreign Trade Policy Benefits/Schemes to e-Commerce?",
+          "answer_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, AI answers: DEKAI should evaluate section 9.01, apply the extracted rules, and guide the user through Run validation: 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement kandippa be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.."
+        },
+        {
+          "question_en": "User asks: Which validations apply to Foreign Trade Policy Benefits/Schemes to e-Commerce?",
+          "answer_en": "AI answers: Applicable validations are 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.",
+          "question_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, User asks: Which validations apply to Foreign Trade Policy Benefits/Schemes to e-Commerce?",
+          "answer_thanglish": "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, AI answers: Applicable validations are 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement kandippa be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters."
+        }
+      ],
+      "dekai_ai_implementation_notes": [
+        "Capture chapter 9, section 9.01, title, and page references as immutable knowledge metadata.",
+        "Bind validations for Foreign Trade Policy Benefits/Schemes to e-Commerce into a rule engine keyed by the rule IDs extracted for this section."
+      ],
+      "dekai_ai_implementation_notes_thanglish": [
+        "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, Capture chapter 9, section 9.01, title, and page references as immutable knowledge metadata.",
+        "Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, Bind validations for Foreign Trade Policy Benefits/Schemes to e-Commerce into a rule engine keyed by the rule IDs extracted for this section."
+      ],
+      "keywords": [
+        "Trade",
+        "shall",
+        "Policy",
+        "ensure",
+        "Foreign",
+        "Suitable",
+        "seamless",
+        "delivery",
+        "Exporters",
+        "e-Commerce",
+        "enablement",
+        "undertaken",
+        "Benefits/Schemes"
+      ],
+      "search_keywords": [
+        "Trade",
+        "shall",
+        "Policy",
+        "ensure",
+        "Foreign",
+        "Suitable",
+        "seamless",
+        "delivery",
+        "Exporters",
+        "e-Commerce",
+        "enablement",
+        "undertaken",
+        "Benefits/Schemes"
+      ],
+      "intent": "Provide knowledge guidance for Foreign Trade Policy Benefits/Schemes to e-Commerce.",
+      "tags": [
+        "9.01",
+        "Foreign Trade Policy Benefits/Schemes to e-Commerce",
+        "business-rule",
+        "dgft"
+      ],
+      "related_sections": [],
+      "related_chapters": [],
+      "related_rules": [
+        "9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters."
+      ],
+      "page_numbers": [
+        2
+      ],
+      "pages": [
+        2
+      ],
+      "source_document": "HBP2023_Chapter09.pdf",
+      "raw_text": "9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.",
+      "mermaid": "flowchart TD\n    S1[\"Run validation: 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.\"]",
+      "plantuml": "@startuml\nstart\n:Run validation\\: 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce\nExporters\nSuitable IT enablement shall be undertaken to ensure seamless delivery of\nForeign Trade Policy Benefits/Schemes to e-Commerce Exporters.;\nstop\n@enduml"
+    },
+    {
+      "chapter_number": "9",
+      "chapter_title": "Promoting Cross Border Trade in Digital Economy",
+      "section": "9.02",
+      "title": "E-COMMERCE EXPORT HUBs (ECEHs)",
+      "purpose": "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+      "purpose_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, application for creation/notification of an ECEH area kandippa be made\nto the DGFT.",
+      "summary": "9.02 E-COMMERCE EXPORT HUBs (ECEHs)\na) Creation of ECEH\ni. Application for creation/notification of an ECEH area shall be made\nto the DGFT. ii.",
+      "business_meaning": "E-COMMERCE EXPORT HUBs (ECEHs) governs how DGFT business controls should be applied, validated, and enforced.",
+      "business_explanation": "E-COMMERCE EXPORT HUBs (ECEHs) explains the operating rule set that DEKAI should enforce. Key control points include Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+      "business_explanation_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, E-COMMERCE export HUBs (ECEHs) explains the operating rule set that DEKAI should enforce. Key control points include application for creation/notification of an ECEH area kandippa be made\nto the DGFT.",
+      "business_logic": [
+        "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+        "DGFT\nshall constitute a committee for evaluation of ECEH applications.",
+        "The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time.",
+        "DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.",
+        "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.",
+        "The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard.",
+        "DGFT shall notify procedures for supervision and inspections at\nECEHs."
+      ],
+      "business_rules": [
+        {
+          "rule_id": "CH9-SEC9_02-R001",
+          "rule_description": "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+          "trigger": "E-COMMERCE EXPORT HUBs (ECEHs)",
+          "condition": "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+          "validation": "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+          "action": "Manual review required.",
+          "exception": "No explicit exception found in uploaded documents.",
+          "output": "DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs)."
+        },
+        {
+          "rule_id": "CH9-SEC9_02-R002",
+          "rule_description": "DGFT\nshall constitute a committee for evaluation of ECEH applications.",
+          "trigger": "E-COMMERCE EXPORT HUBs (ECEHs)",
+          "condition": "DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.",
+          "validation": "DGFT\nshall constitute a committee for evaluation of ECEH applications.",
+          "action": "Manual review required.",
+          "exception": "No explicit exception found in uploaded documents.",
+          "output": "DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs)."
+        },
+        {
+          "rule_id": "CH9-SEC9_02-R003",
+          "rule_description": "The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time.",
+          "trigger": "E-COMMERCE EXPORT HUBs (ECEHs)",
+          "condition": "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.",
+          "validation": "The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time.",
+          "action": "Manual review required.",
+          "exception": "No explicit exception found in uploaded documents.",
+          "output": "DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs)."
+        },
+        {
+          "rule_id": "CH9-SEC9_02-R004",
+          "rule_description": "DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.",
+          "trigger": "E-COMMERCE EXPORT HUBs (ECEHs)",
+          "condition": "DGFT shall notify procedures for supervision and inspections at\nECEHs.",
+          "validation": "DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.",
+          "action": "Manual review required.",
+          "exception": "No explicit exception found in uploaded documents.",
+          "output": "DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs)."
+        },
+        {
+          "rule_id": "CH9-SEC9_02-R005",
+          "rule_description": "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.",
+          "trigger": "E-COMMERCE EXPORT HUBs (ECEHs)",
+          "condition": "DGFT shall notify procedures for supervision and inspections at\nECEHs.",
+          "validation": "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.",
+          "action": "Manual review required.",
+          "exception": "No explicit exception found in uploaded documents.",
+          "output": "DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs)."
+        },
+        {
+          "rule_id": "CH9-SEC9_02-R006",
+          "rule_description": "The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard.",
+          "trigger": "E-COMMERCE EXPORT HUBs (ECEHs)",
+          "condition": "DGFT shall notify procedures for supervision and inspections at\nECEHs.",
+          "validation": "The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard.",
+          "action": "Manual review required.",
+          "exception": "No explicit exception found in uploaded documents.",
+          "output": "DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs)."
+        },
+        {
+          "rule_id": "CH9-SEC9_02-R007",
+          "rule_description": "DGFT shall notify procedures for supervision and inspections at\nECEHs.",
+          "trigger": "E-COMMERCE EXPORT HUBs (ECEHs)",
+          "condition": "DGFT shall notify procedures for supervision and inspections at\nECEHs.",
+          "validation": "DGFT shall notify procedures for supervision and inspections at\nECEHs.",
+          "action": "Manual review required.",
+          "exception": "No explicit exception found in uploaded documents.",
+          "output": "DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs)."
+        }
+      ],
+      "conditions": [
+        "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+        "DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.",
+        "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.",
+        "DGFT shall notify procedures for supervision and inspections at\nECEHs."
+      ],
+      "condition_logic": [
+        {
+          "id": "9.9.02.1",
+          "if": "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+          "then": "Route for review",
+          "source": "Application for creation/notification of an ECEH area shall be made\nto the DGFT."
+        },
+        {
+          "id": "9.9.02.2",
+          "if": "DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.",
+          "then": "Route for review",
+          "source": "DGFT may specify export products or markets, which shall not be\neligible for ECEH operations."
+        },
+        {
+          "id": "9.9.02.3",
+          "if": "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.",
+          "then": "Route for review",
+          "source": "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately."
+        },
+        {
+          "id": "9.9.02.4",
+          "if": "DGFT shall notify procedures for supervision and inspections at\nECEHs.",
+          "then": "Route for review",
+          "source": "DGFT shall notify procedures for supervision and inspections at\nECEHs."
+        }
+      ],
+      "validations": [
+        "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+        "DGFT\nshall constitute a committee for evaluation of ECEH applications.",
+        "The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time.",
+        "DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.",
+        "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.",
+        "The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard.",
+        "DGFT shall notify procedures for supervision and inspections at\nECEHs."
+      ],
+      "exceptions": [],
+      "dependencies": [],
+      "documents": [
+        "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+        "DGFT\nshall constitute a committee for evaluation of ECEH applications.",
+        "The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard."
+      ],
+      "required_documents": [
+        "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+        "DGFT\nshall constitute a committee for evaluation of ECEH applications.",
+        "The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard."
+      ],
+      "authorities": [
+        "DGFT",
+        "The authority for approval for an ECEH vests with the DGFT"
+      ],
+      "timelines": [
+        "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately."
+      ],
+      "actions": [],
+      "workflow": [
+        "Evaluate condition: Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+        "Evaluate condition: DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.",
+        "Evaluate condition: The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.",
+        "Run validation: Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+        "Run validation: DGFT\nshall constitute a committee for evaluation of ECEH applications.",
+        "Run validation: The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time."
+      ],
+      "workflow_ascii": "E-COMMERCE EXPORT HUBs (ECEHs)\nEvaluate condition: Application for creation/notification of an ECEH area shall be made\nto the DGFT.\n   |\n   v\nEvaluate condition: DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.\n   |\n   v\nEvaluate condition: The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.\n   |\n   v\nRun validation: Application for creation/notification of an ECEH area shall be made\nto the DGFT.\n   |\n   v\nRun validation: DGFT\nshall constitute a committee for evaluation of ECEH applications.\n   |\n   v\nRun validation: The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time.",
+      "decision_tree": [
+        "IF section 9.02 applies THEN proceed with standard DGFT workflow"
+      ],
+      "decision_tree_ascii": "E-COMMERCE EXPORT HUBs (ECEHs) Decision\nIF section 9.02 applies THEN proceed with standard DGFT workflow",
+      "examples": [
+        "User asks to process E-COMMERCE EXPORT HUBs (ECEHs); the platform checks conditions, validations, and documents before action."
+      ],
+      "real_world_example": "Example: an importer or exporter invokes E-COMMERCE EXPORT HUBs (ECEHs), submits Application for creation/notification of an ECEH area shall be made\nto the DGFT., DGFT\nshall constitute a committee for evaluation of ECEH applications., The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard., and DEKAI uses the extracted rules to follow the e-commerce export hubs (ecehs) process.",
+      "real_world_example_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, Example: an importer or exporter invokes E-COMMERCE export HUBs (ECEHs), submits application for creation/notification of an ECEH area kandippa be made\nto the DGFT., DGFT\nkandippa constitute a committee for evaluation of ECEH applications., The ECEH developer kandippa provide an annual statement of accounts as\nper instructions in this regard., and DEKAI uses the extracted rules to follow the e-commerce export hubs (ecehs) process.",
+      "ai_rules": [
+        "IF detected context matches section rule THEN enforce: Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+        "IF detected context matches section rule THEN enforce: DGFT\nshall constitute a committee for evaluation of ECEH applications.",
+        "IF detected context matches section rule THEN enforce: The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time.",
+        "IF detected context matches section rule THEN enforce: DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.",
+        "IF detected context matches section rule THEN enforce: The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.",
+        "IF detected context matches section rule THEN enforce: The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard."
+      ],
+      "database_fields": [
+        {
+          "name": "section_code",
+          "type": "string",
+          "required": true,
+          "source": "parsed_section_heading"
+        },
+        {
+          "name": "section_title",
+          "type": "string",
+          "required": true,
+          "source": "parsed_section_heading"
+        },
+        {
+          "name": "for_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:for"
+        },
+        {
+          "name": "the_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:the"
+        },
+        {
+          "name": "any_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:any"
+        },
+        {
+          "name": "iii_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:iii"
+        },
+        {
+          "name": "may_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:may"
+        },
+        {
+          "name": "not_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:not"
+        },
+        {
+          "name": "per_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:per"
+        },
+        {
+          "name": "and_flag",
+          "type": "boolean",
+          "required": false,
+          "source": "keyword:and"
+        },
+        {
+          "name": "document_1_submitted",
+          "type": "boolean",
+          "required": true,
+          "source": "Application for creation/notification of an ECEH area shall be made\nto the DGFT."
+        },
+        {
+          "name": "document_2_submitted",
+          "type": "boolean",
+          "required": true,
+          "source": "DGFT\nshall constitute a committee for evaluation of ECEH applications."
+        },
+        {
+          "name": "document_3_submitted",
+          "type": "boolean",
+          "required": true,
+          "source": "The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard."
+        }
+      ],
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/9.02",
+          "purpose": "Retrieve knowledge payload for section 9.02",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/E-COMMERCE-EXPORT-HUBs-ECEHs/validate",
+          "purpose": "Validate inputs and documents for E-COMMERCE EXPORT HUBs (ECEHs)",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ],
+      "ui": [
+        {
+          "screen_id": "E_COMMERCE_EXPORT_HUBs_ECEHs_overview",
+          "name": "E-COMMERCE EXPORT HUBs (ECEHs) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "E_COMMERCE_EXPORT_HUBs_ECEHs_submission",
+          "name": "E-COMMERCE EXPORT HUBs (ECEHs) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "any_flag",
+            "iii_flag",
+            "may_flag",
+            "not_flag"
+          ]
+        }
+      ],
+      "error_messages": [
+        "Validation failed because the section requirements were not fully met."
+      ],
+      "questions_users_may_ask": [
+        "What does E-COMMERCE EXPORT HUBs (ECEHs) require?",
+        "Which documents are needed for E-COMMERCE EXPORT HUBs (ECEHs)?",
+        "How does DEKAI validate E-COMMERCE EXPORT HUBs (ECEHs) requests?"
+      ],
+      "expected_ai_answers": [
+        "E-COMMERCE EXPORT HUBs (ECEHs) requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+        "Required documents are inferred from the section text: Application for creation/notification of an ECEH area shall be made\nto the DGFT., DGFT\nshall constitute a committee for evaluation of ECEH applications., The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard.",
+        "DEKAI validates E-COMMERCE EXPORT HUBs (ECEHs) by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+      ],
+      "faq": [
+        {
+          "question_en": "What is the purpose of section 9.02?",
+          "answer_en": "E-COMMERCE EXPORT HUBs (ECEHs) explains the operating rule set that DEKAI should enforce. Key control points include Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+          "question_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, What is the purpose of section 9.02?",
+          "answer_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, E-COMMERCE export HUBs (ECEHs) explains the operating rule set that DEKAI should enforce. Key control points include application for creation/notification of an ECEH area kandippa be made\nto the DGFT."
+        },
+        {
+          "question_en": "What documents are required under E-COMMERCE EXPORT HUBs (ECEHs)?",
+          "answer_en": "Application for creation/notification of an ECEH area shall be made\nto the DGFT., DGFT\nshall constitute a committee for evaluation of ECEH applications., The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard.",
+          "question_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, What documents are required under E-COMMERCE export HUBs (ECEHs)?",
+          "answer_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, application for creation/notification of an ECEH area kandippa be made\nto the DGFT., DGFT\nkandippa constitute a committee for evaluation of ECEH applications., The ECEH developer kandippa provide an annual statement of accounts as\nper instructions in this regard."
+        },
+        {
+          "question_en": "Which authority handles E-COMMERCE EXPORT HUBs (ECEHs)?",
+          "answer_en": "DGFT, The authority for approval for an ECEH vests with the DGFT",
+          "question_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, Which authority handles E-COMMERCE export HUBs (ECEHs)?",
+          "answer_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, DGFT, The authority for approval for an ECEH vests with the DGFT"
+        }
+      ],
+      "ai_question_and_answer_examples": [
+        {
+          "question_en": "User asks: How do I comply with E-COMMERCE EXPORT HUBs (ECEHs)?",
+          "answer_en": "AI answers: DEKAI should evaluate section 9.02, apply the extracted rules, and guide the user through Evaluate condition: Application for creation/notification of an ECEH area shall be made\nto the DGFT..",
+          "question_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, User asks: How do I comply with E-COMMERCE export HUBs (ECEHs)?",
+          "answer_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, AI answers: DEKAI should evaluate section 9.02, apply the extracted rules, and guide the user through Evaluate condition: application for creation/notification of an ECEH area kandippa be made\nto the DGFT.."
+        },
+        {
+          "question_en": "User asks: Which validations apply to E-COMMERCE EXPORT HUBs (ECEHs)?",
+          "answer_en": "AI answers: Applicable validations are Application for creation/notification of an ECEH area shall be made\nto the DGFT., DGFT\nshall constitute a committee for evaluation of ECEH applications., The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time.",
+          "question_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, User asks: Which validations apply to E-COMMERCE export HUBs (ECEHs)?",
+          "answer_thanglish": "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, AI answers: Applicable validations are application for creation/notification of an ECEH area kandippa be made\nto the DGFT., DGFT\nkandippa constitute a committee for evaluation of ECEH applications., The\nCommittee kandippa have a member from the Department of Revenue besides\nany other members as required from time-to-time."
+        }
+      ],
+      "dekai_ai_implementation_notes": [
+        "Capture chapter 9, section 9.02, title, and page references as immutable knowledge metadata.",
+        "Bind validations for E-COMMERCE EXPORT HUBs (ECEHs) into a rule engine keyed by the rule IDs extracted for this section.",
+        "Expose document upload controls for: Application for creation/notification of an ECEH area shall be made\nto the DGFT., DGFT\nshall constitute a committee for evaluation of ECEH applications., The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard..",
+        "Route escalations or approvals to: DGFT, The authority for approval for an ECEH vests with the DGFT."
+      ],
+      "dekai_ai_implementation_notes_thanglish": [
+        "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, Capture chapter 9, section 9.02, title, and page references as immutable knowledge metadata.",
+        "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, Bind validations for E-COMMERCE export HUBs (ECEHs) into a rule engine keyed by the rule IDs extracted for this section.",
+        "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, Expose document upload controls for: application for creation/notification of an ECEH area kandippa be made\nto the DGFT., DGFT\nkandippa constitute a committee for evaluation of ECEH applications., The ECEH developer kandippa provide an annual statement of accounts as\nper instructions in this regard..",
+        "Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, Route escalations or approvals to: DGFT, The authority for approval for an ECEH vests with the DGFT."
+      ],
+      "keywords": [
+        "for",
+        "the",
+        "any",
+        "iii",
+        "may",
+        "not",
+        "per",
+        "and",
+        "HUBs",
+        "ECEH",
+        "area",
+        "made",
+        "DGFT",
+        "with",
+        "have",
+        "from",
+        "list",
+        "that",
+        "this",
+        "also"
+      ],
+      "search_keywords": [
+        "for",
+        "the",
+        "any",
+        "iii",
+        "may",
+        "not",
+        "per",
+        "and",
+        "HUBs",
+        "ECEH",
+        "area",
+        "made",
+        "DGFT",
+        "with",
+        "have",
+        "from",
+        "list",
+        "that",
+        "this",
+        "also"
+      ],
+      "intent": "Provide knowledge guidance for E-COMMERCE EXPORT HUBs (ECEHs).",
+      "tags": [
+        "9.02",
+        "E-COMMERCE EXPORT HUBs (ECEHs)",
+        "business-rule",
+        "document-driven",
+        "dgft"
+      ],
+      "related_sections": [],
+      "related_chapters": [],
+      "related_rules": [
+        "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+        "DGFT\nshall constitute a committee for evaluation of ECEH applications.",
+        "The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time.",
+        "DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.",
+        "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately."
+      ],
+      "page_numbers": [
+        2
+      ],
+      "pages": [
+        2
+      ],
+      "source_document": "HBP2023_Chapter09.pdf",
+      "raw_text": "9.02 E-COMMERCE EXPORT HUBs (ECEHs)\na) Creation of ECEH\ni. Application for creation/notification of an ECEH area shall be made\nto the DGFT.\nii. The authority for approval for an ECEH vests with the DGFT. DGFT\nshall constitute a committee for evaluation of ECEH applications. The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time.\niii. DGFT may specify export products or markets, which shall not be\neligible for ECEH operations. The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.\nb) Administration of ECEH\ni. The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard.\nii. DGFT shall notify procedures for supervision and inspections at\nECEHs. An independent evaluation and assessment mechanism may also be\ndeveloped.\npg. 168\npg. 168\nChapter-9\nPromoting Cross Border Trade in Digital Economy\n9.02 E-COMMERCE EXPORT HUBs (ECEHs)\na) Creation of ECEH\ni.\nApplication for creation/notification of an ECEH area shall be made\nto the DGFT.\nii.\nThe authority for approval for an ECEH vests with the DGFT. DGFT\nshall constitute a committee for evaluation of ECEH applications. The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time.\niii.\nDGFT may specify export products or markets, which shall not be\neligible for ECEH operations. The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.\nb) Administration of ECEH\ni.\nThe ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard.\nii.\nDGFT shall notify procedures for supervision and inspections at\nECEHs. An independent evaluation and assessment mechanism may also be\ndeveloped.",
+      "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Application for creation/notification of an ECEH area shall be made\nto the DGFT.\"]\n    S2[\"Evaluate condition: DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.\"]\n    S2 --> S3\n    S4[\"Run validation: Application for creation/notification of an ECEH area shall be made\nto the DGFT.\"]\n    S3 --> S4\n    S5[\"Run validation: DGFT\nshall constitute a committee for evaluation of ECEH applications.\"]\n    S4 --> S5\n    S6[\"Run validation: The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time.\"]\n    S5 --> S6",
+      "plantuml": "@startuml\nstart\n:Evaluate condition\\: Application for creation/notification of an ECEH area shall be made\nto the DGFT.;\n:Evaluate condition\\: DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.;\n:Evaluate condition\\: The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.;\n:Run validation\\: Application for creation/notification of an ECEH area shall be made\nto the DGFT.;\n:Run validation\\: DGFT\nshall constitute a committee for evaluation of ECEH applications.;\n:Run validation\\: The\nCommittee shall have a member from the Department of Revenue besides\nany other members as required from time-to-time.;\nstop\n@enduml"
+    }
+  ],
+  "glossary": {
+    "COMMERCE": "Referenced in section title 'E-COMMERCE EXPORT HUBs (ECEHs)'.",
+    "DGFT": "Referenced in context: Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+    "ECEH": "Referenced in section title 'E-COMMERCE EXPORT HUBs (ECEHs)'.",
+    "EXPORT": "Referenced in section title 'E-COMMERCE EXPORT HUBs (ECEHs)'.",
+    "IT": "Referenced in section title 'Foreign Trade Policy Benefits/Schemes to e-Commerce'."
+  },
+  "entities": {
+    "keywords": [
+      "Benefits/Schemes",
+      "Border",
+      "Cross",
+      "DGFT",
+      "E-Commerce",
+      "ECEH",
+      "Exporters",
+      "Foreign",
+      "HUBs",
+      "India",
+      "Policy",
+      "Suitable",
+      "The",
+      "Trade",
+      "also",
+      "and",
+      "any",
+      "area",
+      "chapter",
+      "delivery",
+      "e-Commerce",
+      "elaborates",
+      "enablement",
+      "ensure",
+      "for",
+      "from",
+      "given",
+      "have",
+      "iii",
+      "list",
+      "made",
+      "may",
+      "not",
+      "notified",
+      "per",
+      "procedures",
+      "relation",
+      "seamless",
+      "shall",
+      "that",
+      "the",
+      "this",
+      "under",
+      "undertaken",
+      "with"
+    ],
+    "documents": [
+      "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+      "DGFT\nshall constitute a committee for evaluation of ECEH applications.",
+      "The ECEH developer shall provide an annual statement of accounts as\nper instructions in this regard."
+    ],
+    "authorities": [
+      "DGFT",
+      "The authority for approval for an ECEH vests with the DGFT"
+    ],
+    "tags": [
+      "9.00",
+      "9.01",
+      "9.02",
+      "E-COMMERCE EXPORT HUBs (ECEHs)",
+      "Foreign Trade Policy Benefits/Schemes to e-Commerce",
+      "Policy",
+      "business-rule",
+      "dgft",
+      "document-driven"
+    ],
+    "chapters": [
+      "9"
+    ]
+  },
+  "dependency_edges": [
+    {
+      "source_section": "9.00",
+      "target": "9",
+      "relation": "references"
+    }
+  ]
+}

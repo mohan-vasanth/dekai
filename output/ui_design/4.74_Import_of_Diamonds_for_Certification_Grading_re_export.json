@@ -1,0 +1,47 @@
+{
+  "section": "4.74",
+  "ui": [
+    {
+      "screen_id": "Import_of_Diamonds_for_Certification_Grading_re_export_overview",
+      "name": "Import of Diamonds for Certification/Grading & re-export Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Diamonds_for_Certification_Grading_re_export_submission",
+      "name": "Import of Diamonds for Certification/Grading & re-export Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "has_flag",
+        "ftp_flag",
+        "the_flag",
+        "and_flag",
+        "far_flag"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Diamonds_for_Certification_Grading_re_export_exceptions",
+      "name": "Import of Diamonds for Certification/Grading & re-export Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

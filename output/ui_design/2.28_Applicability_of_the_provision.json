@@ -1,0 +1,37 @@
+{
+  "section": "2.28",
+  "ui": [
+    {
+      "screen_id": "Applicability_of_the_provision_overview",
+      "name": "Applicability of the provision Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Applicability_of_the_provision_submission",
+      "name": "Applicability of the provision Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "for_flag",
+        "lut_flag",
+        "both_flag",
+        "bank_flag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.34",
+  "title": "Execution of BG/LUT",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_34-R001",
+      "rule_description": "4.34 Execution of BG/LUT\n(a) Authorisation holder shall execute Bank Guarantee / Legal Undertaking, as\nthe case maybe, in terms of paragraph 2.29 of Handbook of Procedures.",
+      "trigger": "Execution of BG/LUT",
+      "condition": "(b) In case BG / LUT has been redeemed, Advance Authorisation holder can get\nduty free inputs processed from any manufacturer under Actual User\ncondition as per job work regulations prescribed in terms of provisions of GST\nActs under intimation to the Customs authority.",
+      "validation": "4.34 Execution of BG/LUT\n(a) Authorisation holder shall execute Bank Guarantee / Legal Undertaking, as\nthe case maybe, in terms of paragraph 2.29 of Handbook of Procedures.",
+      "action": "Manual review required.",
+      "exception": "However, such restriction\nshall not be applicable in case of transferable DFIA holder.",
+      "output": "DEKAI should produce a compliance decision for 4.34 - Execution of BG/LUT."
+    },
+    {
+      "rule_id": "CH4-SEC4_34-R002",
+      "rule_description": "However, such restriction\nshall not be applicable in case of transferable DFIA holder.",
+      "trigger": "Execution of BG/LUT",
+      "condition": "However, such restriction\nshall not be applicable in case of transferable DFIA holder.",
+      "validation": "However, such restriction\nshall not be applicable in case of transferable DFIA holder.",
+      "action": "Manual review required.",
+      "exception": "However, such restriction\nshall not be applicable in case of transferable DFIA holder.",
+      "output": "DEKAI should produce a compliance decision for 4.34 - Execution of BG/LUT."
+    },
+    {
+      "rule_id": "CH4-SEC4_34-R003",
+      "rule_description": "4.34 Execution of BG/LUT\n(a)\nAuthorisation holder shall execute Bank Guarantee / Legal Undertaking, as\nthe case maybe, in terms of paragraph 2.29 of Handbook of Procedures.",
+      "trigger": "Execution of BG/LUT",
+      "condition": "(b)\nIn case BG / LUT has been redeemed, Advance Authorisation holder can get\nduty free inputs processed from any manufacturer under Actual User\ncondition as per job work regulations prescribed in terms of provisions of GST\nActs under intimation to the Customs authority.",
+      "validation": "4.34 Execution of BG/LUT\n(a)\nAuthorisation holder shall execute Bank Guarantee / Legal Undertaking, as\nthe case maybe, in terms of paragraph 2.29 of Handbook of Procedures.",
+      "action": "Manual review required.",
+      "exception": "However, such restriction\nshall not be applicable in case of transferable DFIA holder.",
+      "output": "DEKAI should produce a compliance decision for 4.34 - Execution of BG/LUT."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.34 Execution of BG/LUT\n(a) Authorisation holder shall execute Bank Guarantee / Legal Undertaking, as\nthe case maybe, in terms of paragraph 2.29 of Handbook of Procedures.",
+    "IF detected context matches section rule THEN enforce: However, such restriction\nshall not be applicable in case of transferable DFIA holder.",
+    "IF detected context matches section rule THEN enforce: 4.34 Execution of BG/LUT\n(a)\nAuthorisation holder shall execute Bank Guarantee / Legal Undertaking, as\nthe case maybe, in terms of paragraph 2.29 of Handbook of Procedures."
+  ]
+}

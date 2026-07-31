@@ -1,0 +1,510 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.48",
+  "title": "EXIM Facilitation Committee",
+  "purpose": "27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.",
+  "purpose_thanglish": "Indha EXIM Facilitation Committee section-la, 27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.",
+  "summary": "2.48 EXIM Facilitation Committee\n(a) Restricted item Authorisation may be granted by DGFT or any other RA\nauthorised by him in this behalf. DGFT / RA may take assistance and advice\nof a Facilitation Committee while granting authorisation. The Assistance of\ntechnical authorities may also be taken by seeking their comments in writing.",
+  "business_meaning": "EXIM Facilitation Committee governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "EXIM Facilitation Committee explains the operating rule set that DEKAI should enforce. Key control points include (iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under. The section also drives actions such as NRAI/Department of Sports\nwill maintain the required records..",
+  "business_explanation_thanglish": "Indha EXIM Facilitation Committee section-la, EXIM Facilitation Committee explains the operating rule set that DEKAI should enforce. Key control points include (iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under. The section also drives actions such as NRAI/Department of Sports\nwill maintain the required records..",
+  "business_logic": [
+    "(iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.",
+    "Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police.",
+    "27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+    "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+    "(c) EXIM Facilitation Committee (EFC) shall normally meet once every month.",
+    "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_48-R001",
+      "rule_description": "(iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.",
+      "trigger": "EXIM Facilitation Committee",
+      "condition": "27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.",
+      "validation": "NRAI/Department of Sports\nwill maintain the required records.",
+      "action": "NRAI/Department of Sports\nwill maintain the required records.",
+      "exception": "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+      "output": "DEKAI should produce a compliance decision for 2.48 - EXIM Facilitation Committee."
+    },
+    {
+      "rule_id": "CH2-SEC2_48-R002",
+      "rule_description": "Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police.",
+      "trigger": "EXIM Facilitation Committee",
+      "condition": "(iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.",
+      "validation": "27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+      "action": "27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+      "exception": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "output": "DEKAI should produce a compliance decision for 2.48 - EXIM Facilitation Committee."
+    },
+    {
+      "rule_id": "CH2-SEC2_48-R003",
+      "rule_description": "27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+      "trigger": "EXIM Facilitation Committee",
+      "condition": "(v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import.",
+      "validation": "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+      "action": "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+      "exception": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "output": "DEKAI should produce a compliance decision for 2.48 - EXIM Facilitation Committee."
+    },
+    {
+      "rule_id": "CH2-SEC2_48-R004",
+      "rule_description": "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+      "trigger": "EXIM Facilitation Committee",
+      "condition": "The transferee can\nsubsequently transfer/resell to any buyer as certified by the NRAI or\nDepartment of Sports for the sole purpose of pursuing shooting as a\nsport after one year from the date of its first sale.",
+      "validation": "(c) EXIM Facilitation Committee (EFC) shall normally meet once every month.",
+      "action": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "exception": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "output": "DEKAI should produce a compliance decision for 2.48 - EXIM Facilitation Committee."
+    },
+    {
+      "rule_id": "CH2-SEC2_48-R005",
+      "rule_description": "(c) EXIM Facilitation Committee (EFC) shall normally meet once every month.",
+      "trigger": "EXIM Facilitation Committee",
+      "condition": "Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police.",
+      "validation": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "action": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "exception": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "output": "DEKAI should produce a compliance decision for 2.48 - EXIM Facilitation Committee."
+    },
+    {
+      "rule_id": "CH2-SEC2_48-R006",
+      "rule_description": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "trigger": "EXIM Facilitation Committee",
+      "condition": "so",
+      "validation": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "action": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "exception": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "output": "DEKAI should produce a compliance decision for 2.48 - EXIM Facilitation Committee."
+    }
+  ],
+  "conditions": [
+    "27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.",
+    "(iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.",
+    "(v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import.",
+    "The transferee can\nsubsequently transfer/resell to any buyer as certified by the NRAI or\nDepartment of Sports for the sole purpose of pursuing shooting as a\nsport after one year from the date of its first sale.",
+    "Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police.",
+    "27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+    "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+    "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.48.1",
+      "if": "27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.",
+      "then": "NRAI/Department of Sports\nwill maintain the required records.",
+      "source": "27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import."
+    },
+    {
+      "id": "2.2.48.2",
+      "if": "(iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.",
+      "then": "NRAI/Department of Sports\nwill maintain the required records.",
+      "source": "(iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under."
+    },
+    {
+      "id": "2.2.48.3",
+      "if": "(v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import.",
+      "then": "NRAI/Department of Sports\nwill maintain the required records.",
+      "source": "(v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import."
+    },
+    {
+      "id": "2.2.48.4",
+      "if": "The transferee can\nsubsequently transfer/resell to any buyer as certified by the NRAI or\nDepartment of Sports for the sole purpose of pursuing shooting as a\nsport after one year from the date of its first sale.",
+      "then": "NRAI/Department of Sports\nwill maintain the required records.",
+      "source": "The transferee can\nsubsequently transfer/resell to any buyer as certified by the NRAI or\nDepartment of Sports for the sole purpose of pursuing shooting as a\nsport after one year from the date of its first sale."
+    },
+    {
+      "id": "2.2.48.5",
+      "if": "Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police.",
+      "then": "NRAI/Department of Sports\nwill maintain the required records.",
+      "source": "Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police."
+    },
+    {
+      "id": "2.2.48.6",
+      "if": "so",
+      "then": "NRAI/Department of Sports\nwill maintain the required records.",
+      "source": "27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant."
+    },
+    {
+      "id": "2.2.48.7",
+      "if": "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+      "then": "NRAI/Department of Sports\nwill maintain the required records.",
+      "source": "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port."
+    },
+    {
+      "id": "2.2.48.8",
+      "if": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "then": "NRAI/Department of Sports\nwill maintain the required records.",
+      "source": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis."
+    }
+  ],
+  "validations": [
+    "NRAI/Department of Sports\nwill maintain the required records.",
+    "27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+    "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+    "(c) EXIM Facilitation Committee (EFC) shall normally meet once every month.",
+    "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis."
+  ],
+  "exceptions": [
+    "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+    "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis."
+  ],
+  "dependencies": [
+    "93"
+  ],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [
+    "DGFT",
+    "RA",
+    "EXIM Facilitation Committee",
+    "Restricted item Authorisation may be granted by DGFT or any other RA",
+    "DGFT / RA",
+    "Facilitation Committee",
+    "customs",
+    "customs authority",
+    "Technical Authorities"
+  ],
+  "timelines": [
+    "27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.",
+    "(iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.",
+    "(v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import.",
+    "The transferee can\nsubsequently transfer/resell to any buyer as certified by the NRAI or\nDepartment of Sports for the sole purpose of pursuing shooting as a\nsport after one year from the date of its first sale.",
+    "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+    "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis."
+  ],
+  "actions": [
+    "NRAI/Department of Sports\nwill maintain the required records.",
+    "27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+    "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+    "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis."
+  ],
+  "workflow": [
+    "Evaluate condition: 27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.",
+    "Evaluate condition: (iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.",
+    "Evaluate condition: (v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import.",
+    "NRAI/Department of Sports\nwill maintain the required records.",
+    "27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+    "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+    "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+    "Run validation: NRAI/Department of Sports\nwill maintain the required records.",
+    "Run validation: 27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+    "Run validation: Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+    "Handle exception: Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port."
+  ],
+  "workflow_ascii": "EXIM Facilitation Committee\nEvaluate condition: 27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.\n   |\n   v\nEvaluate condition: (iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.\n   |\n   v\nEvaluate condition: (v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import.\n   |\n   v\nNRAI/Department of Sports\nwill maintain the required records.\n   |\n   v\n27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.\n   |\n   v\nAuthorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.\n   |\n   v\nWhere a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.\n   |\n   v\nRun validation: NRAI/Department of Sports\nwill maintain the required records.\n   |\n   v\nRun validation: 27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.\n   |\n   v\nRun validation: Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.\n   |\n   v\nHandle exception: Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+  "decision_tree": [
+    "IF 27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import. THEN NRAI/Department of Sports\nwill maintain the required records.",
+    "IF (iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under. THEN NRAI/Department of Sports\nwill maintain the required records.",
+    "IF (v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import. THEN NRAI/Department of Sports\nwill maintain the required records.",
+    "IF The transferee can\nsubsequently transfer/resell to any buyer as certified by the NRAI or\nDepartment of Sports for the sole purpose of pursuing shooting as a\nsport after one year from the date of its first sale. THEN NRAI/Department of Sports\nwill maintain the required records.",
+    "IF Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police. THEN NRAI/Department of Sports\nwill maintain the required records.",
+    "IF exception applies (Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.) THEN route to manual review",
+    "IF exception applies (Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "EXIM Facilitation Committee Decision\nIF 27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import. THEN NRAI/Department of Sports\nwill maintain the required records.\n   |\n   v\nIF (iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under. THEN NRAI/Department of Sports\nwill maintain the required records.\n   |\n   v\nIF (v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import. THEN NRAI/Department of Sports\nwill maintain the required records.\n   |\n   v\nIF The transferee can\nsubsequently transfer/resell to any buyer as certified by the NRAI or\nDepartment of Sports for the sole purpose of pursuing shooting as a\nsport after one year from the date of its first sale. THEN NRAI/Department of Sports\nwill maintain the required records.\n   |\n   v\nIF Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police. THEN NRAI/Department of Sports\nwill maintain the required records.\n   |\n   v\nIF exception applies (Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.) THEN route to manual review\n   |\n   v\nIF exception applies (Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.) THEN route to manual review",
+  "examples": [
+    "User asks to process EXIM Facilitation Committee; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes EXIM Facilitation Committee, submits the prescribed DGFT records, and DEKAI uses the extracted rules to nrai/department of sports\nwill maintain the required records..",
+  "real_world_example_thanglish": "Indha EXIM Facilitation Committee section-la, Example: an importer or exporter invokes EXIM Facilitation Committee, submits the prescribed DGFT records, and DEKAI uses the extracted rules to nrai/department of sports\nwill maintain the required records..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.",
+    "IF detected context matches section rule THEN enforce: Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police.",
+    "IF detected context matches section rule THEN enforce: 27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+    "IF detected context matches section rule THEN enforce: Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+    "IF detected context matches section rule THEN enforce: (c) EXIM Facilitation Committee (EFC) shall normally meet once every month.",
+    "IF detected context matches section rule THEN enforce: Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+    "IF validations pass THEN recommend action: NRAI/Department of Sports\nwill maintain the required records."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "any_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:any"
+    },
+    {
+      "name": "him_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:him"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:The"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "iii_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:iii"
+    },
+    {
+      "name": "two_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:two"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.48",
+      "purpose": "Retrieve knowledge payload for section 2.48",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/EXIM-Facilitation-Committee/validate",
+      "purpose": "Validate inputs and documents for EXIM Facilitation Committee",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/EXIM-Facilitation-Committee/execute",
+      "purpose": "Trigger business action for NRAI/Department of Sports\nwill maintain the required records.",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "EXIM_Facilitation_Committee_overview",
+      "name": "EXIM Facilitation Committee Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "EXIM_Facilitation_Committee_submission",
+      "name": "EXIM Facilitation Committee Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "any_flag",
+        "him_flag",
+        "and_flag",
+        "the_flag",
+        "for_flag"
+      ]
+    },
+    {
+      "screen_id": "EXIM_Facilitation_Committee_exceptions",
+      "name": "EXIM Facilitation Committee Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does EXIM Facilitation Committee require?",
+    "Which documents are needed for EXIM Facilitation Committee?",
+    "How does DEKAI validate EXIM Facilitation Committee requests?",
+    "What action should be taken for EXIM Facilitation Committee?"
+  ],
+  "expected_ai_answers": [
+    "EXIM Facilitation Committee requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates EXIM Facilitation Committee by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: NRAI/Department of Sports\nwill maintain the required records."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.48?",
+      "answer_en": "EXIM Facilitation Committee explains the operating rule set that DEKAI should enforce. Key control points include (iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under. The section also drives actions such as NRAI/Department of Sports\nwill maintain the required records..",
+      "question_thanglish": "Indha EXIM Facilitation Committee section-la, What is the purpose of section 2.48?",
+      "answer_thanglish": "Indha EXIM Facilitation Committee section-la, EXIM Facilitation Committee explains the operating rule set that DEKAI should enforce. Key control points include (iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under. The section also drives actions such as NRAI/Department of Sports\nwill maintain the required records.."
+    },
+    {
+      "question_en": "What documents are required under EXIM Facilitation Committee?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha EXIM Facilitation Committee section-la, What documents are required under EXIM Facilitation Committee?",
+      "answer_thanglish": "Indha EXIM Facilitation Committee section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles EXIM Facilitation Committee?",
+      "answer_en": "DGFT, RA, EXIM Facilitation Committee, Restricted item Authorisation may be granted by DGFT or any other RA, DGFT / RA, Facilitation Committee, customs, customs authority, Technical Authorities",
+      "question_thanglish": "Indha EXIM Facilitation Committee section-la, Which authority handles EXIM Facilitation Committee?",
+      "answer_thanglish": "Indha EXIM Facilitation Committee section-la, DGFT, RA, EXIM Facilitation Committee, Restricted item Authorisation may be granted by DGFT or any other RA, DGFT / RA, Facilitation Committee, customs, customs authority, Technical Authorities"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with EXIM Facilitation Committee?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.48, apply the extracted rules, and guide the user through Evaluate condition: 27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import..",
+      "question_thanglish": "Indha EXIM Facilitation Committee section-la, User asks: How do I comply with EXIM Facilitation Committee?",
+      "answer_thanglish": "Indha EXIM Facilitation Committee section-la, AI answers: DEKAI should evaluate section 2.48, apply the extracted rules, and guide the user through Evaluate condition: 27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to EXIM Facilitation Committee?",
+      "answer_en": "AI answers: Applicable validations are NRAI/Department of Sports\nwill maintain the required records., 27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant., Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+      "question_thanglish": "Indha EXIM Facilitation Committee section-la, User asks: Which validations apply to EXIM Facilitation Committee?",
+      "answer_thanglish": "Indha EXIM Facilitation Committee section-la, AI answers: Applicable validations are NRAI/Department of Sports\nwill maintain the required records., 27\n(b) import/export authorisations for a restricted item, if so, directed by the competent\nauthority, kandippa be issued for import/ export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant., Authorisation holder kandippa import at the port specified in the Authorisation and\nthereafter all imports against said authorisation kandippa be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.48, title, and page references as immutable knowledge metadata.",
+    "Bind validations for EXIM Facilitation Committee into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: DGFT, RA, EXIM Facilitation Committee, Restricted item Authorisation may be granted by DGFT or any other RA.",
+    "Trigger manual review when exception clauses are detected."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha EXIM Facilitation Committee section-la, Capture chapter 2, section 2.48, title, and page references as immutable knowledge metadata.",
+    "Indha EXIM Facilitation Committee section-la, Bind validations for EXIM Facilitation Committee into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha EXIM Facilitation Committee section-la, Route escalations or approvals to: DGFT, RA, EXIM Facilitation Committee, Restricted item Authorisation may be granted by DGFT or any other RA.",
+    "Indha EXIM Facilitation Committee section-la, Trigger manual review when exception clauses are detected."
+  ],
+  "keywords": [
+    "may",
+    "any",
+    "him",
+    "and",
+    "The",
+    "for",
+    "iii",
+    "two",
+    "age",
+    "Act",
+    "ITC",
+    "can",
+    "one",
+    "its",
+    "sea",
+    "air",
+    "LCS",
+    "per",
+    "all",
+    "EFC"
+  ],
+  "search_keywords": [
+    "may",
+    "any",
+    "him",
+    "and",
+    "The",
+    "for",
+    "iii",
+    "two",
+    "age",
+    "Act",
+    "ITC",
+    "can",
+    "one",
+    "its",
+    "sea",
+    "air",
+    "LCS",
+    "per",
+    "all",
+    "EFC"
+  ],
+  "intent": "Support EXIM Facilitation Committee processing and compliance validation.",
+  "tags": [
+    "2.48",
+    "EXIM Facilitation Committee",
+    "business-rule",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "(iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.",
+    "Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police.",
+    "27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+    "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+    "(c) EXIM Facilitation Committee (EFC) shall normally meet once every month."
+  ],
+  "page_numbers": [
+    18,
+    19
+  ],
+  "pages": [
+    18,
+    19
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.48 EXIM Facilitation Committee\n(a) Restricted item Authorisation may be granted by DGFT or any other RA\nauthorised by him in this behalf. DGFT / RA may take assistance and advice\nof a Facilitation Committee while granting authorisation. The Assistance of\ntechnical authorities may also be taken by seeking their comments in writing.\nFacilitation Committee will consist of representatives of Technical\nAuthorities and Departments / Ministries concerned.\npg. 27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.\n(iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.\n(v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import. The transferee can\nsubsequently transfer/resell to any buyer as certified by the NRAI or\nDepartment of Sports for the sole purpose of pursuing shooting as a\nsport after one year from the date of its first sale. Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police. NRAI/Department of Sports\nwill maintain the required records.\nIMPORT OF RESTRICTED ITEMS\n2.48 EXIM Facilitation Committee\n(a)\nRestricted item Authorisation may be granted by DGFT or any other RA\nauthorised by him in this behalf. DGFT / RA may take assistance and advice\nof a Facilitation Committee while granting authorisation. The Assistance of\ntechnical authorities may also be taken by seeking their comments in writing.\nFacilitation Committee will consist of representatives of Technical\nAuthorities and Departments / Ministries concerned.\npg. 27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.\nAuthorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.\n(c) EXIM Facilitation Committee (EFC) shall normally meet once every month.\nWhere a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.\"]\n    S2[\"Evaluate condition: (iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: (v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import.\"]\n    S2 --> S3\n    S4[\"NRAI/Department of Sports\nwill maintain the required records.\"]\n    S3 --> S4\n    S5[\"27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.\"]\n    S4 --> S5\n    S6[\"Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.\"]\n    S5 --> S6\n    S7[\"Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.\"]\n    S6 --> S7\n    S8[\"Run validation: NRAI/Department of Sports\nwill maintain the required records.\"]\n    S7 --> S8\n    S9[\"Run validation: 27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.\"]\n    S8 --> S9\n    S10[\"Run validation: Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.\"]\n    S9 --> S10\n    S11[\"Handle exception: Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.\"]\n    S10 --> S11",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 27\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.;\n:Evaluate condition\\: (iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.;\n:Evaluate condition\\: (v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import.;\n:NRAI/Department of Sports\nwill maintain the required records.;\n:27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.;\n:Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.;\n:Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.;\n:Run validation\\: NRAI/Department of Sports\nwill maintain the required records.;\n:Run validation\\: 27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.;\n:Run validation\\: Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.;\n:Handle exception\\: Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.;\nstop\n@enduml"
+}

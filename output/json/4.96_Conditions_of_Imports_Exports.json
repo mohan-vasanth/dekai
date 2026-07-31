@@ -1,0 +1,474 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.96",
+  "title": "Conditions of Imports & Exports",
+  "purpose": "Imports and exports shall be permitted only through Mumbai Airport.",
+  "purpose_thanglish": "Indha Conditions of Imports & Exports section-la, Imports and exports kandippa be permitted only through Mumbai Airport.",
+  "summary": "4.96 Conditions of Imports & Exports\ni. Imports and exports shall be permitted only through Mumbai Airport. ii.",
+  "business_meaning": "Conditions of Imports & Exports governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Conditions of Imports & Exports explains the operating rule set that DEKAI should enforce. Key control points include Imports and exports shall be permitted only through Mumbai Airport. The section also drives actions such as Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued..",
+  "business_explanation_thanglish": "Indha Conditions of Imports & Exports section-la, Conditions of Imports & Exports explains the operating rule set that DEKAI should enforce. Key control points include Imports and exports kandippa be permitted only through Mumbai Airport. The section also drives actions such as Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued..",
+  "business_logic": [
+    "Imports and exports shall be permitted only through Mumbai Airport.",
+    "The import is subject to pre-Import condition.",
+    "The export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents).",
+    "One to one correlation between import and\nexport shall not be required.",
+    "The holder of DIA must achieve a minimum value addition of 10% by realizing\nin Freely Convertible Currency.",
+    "Provision of Para 2.52 (d) of FTP 2023, shall\nnot be applicable to this scheme.",
+    "Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_96-R001",
+      "rule_description": "Imports and exports shall be permitted only through Mumbai Airport.",
+      "trigger": "Conditions of Imports & Exports",
+      "condition": "The import is subject to pre-Import condition.",
+      "validation": "Imports and exports shall be permitted only through Mumbai Airport.",
+      "action": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.96 - Conditions of Imports & Exports."
+    },
+    {
+      "rule_id": "CH4-SEC4_96-R002",
+      "rule_description": "The import is subject to pre-Import condition.",
+      "trigger": "Conditions of Imports & Exports",
+      "condition": "Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.",
+      "validation": "The export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents).",
+      "action": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.96 - Conditions of Imports & Exports."
+    },
+    {
+      "rule_id": "CH4-SEC4_96-R003",
+      "rule_description": "The export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents).",
+      "trigger": "Conditions of Imports & Exports",
+      "condition": "Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation.",
+      "validation": "One to one correlation between import and\nexport shall not be required.",
+      "action": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.96 - Conditions of Imports & Exports."
+    },
+    {
+      "rule_id": "CH4-SEC4_96-R004",
+      "rule_description": "One to one correlation between import and\nexport shall not be required.",
+      "trigger": "Conditions of Imports & Exports",
+      "condition": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "validation": "The holder of DIA must achieve a minimum value addition of 10% by realizing\nin Freely Convertible Currency.",
+      "action": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.96 - Conditions of Imports & Exports."
+    },
+    {
+      "rule_id": "CH4-SEC4_96-R005",
+      "rule_description": "The holder of DIA must achieve a minimum value addition of 10% by realizing\nin Freely Convertible Currency.",
+      "trigger": "Conditions of Imports & Exports",
+      "condition": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "validation": "Provision of Para 2.52 (d) of FTP 2023, shall\nnot be applicable to this scheme.",
+      "action": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.96 - Conditions of Imports & Exports."
+    },
+    {
+      "rule_id": "CH4-SEC4_96-R006",
+      "rule_description": "Provision of Para 2.52 (d) of FTP 2023, shall\nnot be applicable to this scheme.",
+      "trigger": "Conditions of Imports & Exports",
+      "condition": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "validation": "Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.",
+      "action": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.96 - Conditions of Imports & Exports."
+    },
+    {
+      "rule_id": "CH4-SEC4_96-R007",
+      "rule_description": "Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.",
+      "trigger": "Conditions of Imports & Exports",
+      "condition": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "validation": "Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation.",
+      "action": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.96 - Conditions of Imports & Exports."
+    }
+  ],
+  "conditions": [
+    "The import is subject to pre-Import condition.",
+    "Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.",
+    "Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation.",
+    "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.96.1",
+      "if": "The import is subject to pre-Import condition.",
+      "then": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "source": "The import is subject to pre-Import condition."
+    },
+    {
+      "id": "4.4.96.2",
+      "if": "Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.",
+      "then": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "source": "Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority."
+    },
+    {
+      "id": "4.4.96.3",
+      "if": "Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation.",
+      "then": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "source": "Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation."
+    },
+    {
+      "id": "4.4.96.4",
+      "if": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "then": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "source": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
+    }
+  ],
+  "validations": [
+    "Imports and exports shall be permitted only through Mumbai Airport.",
+    "The export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents).",
+    "One to one correlation between import and\nexport shall not be required.",
+    "The holder of DIA must achieve a minimum value addition of 10% by realizing\nin Freely Convertible Currency.",
+    "Provision of Para 2.52 (d) of FTP 2023, shall\nnot be applicable to this scheme.",
+    "Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.",
+    "Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation."
+  ],
+  "exceptions": [],
+  "dependencies": [
+    "2.52"
+  ],
+  "documents": [
+    "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
+  ],
+  "required_documents": [
+    "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
+  ],
+  "authorities": [
+    "Customs",
+    "Customs Authority",
+    "Before clearance of goods through Customs",
+    "Code as per Customs"
+  ],
+  "timelines": [
+    "Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.",
+    "Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation."
+  ],
+  "actions": [
+    "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
+  ],
+  "workflow": [
+    "Evaluate condition: The import is subject to pre-Import condition.",
+    "Evaluate condition: Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.",
+    "Evaluate condition: Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation.",
+    "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+    "Run validation: Imports and exports shall be permitted only through Mumbai Airport.",
+    "Run validation: The export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents).",
+    "Run validation: One to one correlation between import and\nexport shall not be required."
+  ],
+  "workflow_ascii": "Conditions of Imports & Exports\nEvaluate condition: The import is subject to pre-Import condition.\n   |\n   v\nEvaluate condition: Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.\n   |\n   v\nEvaluate condition: Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation.\n   |\n   v\nShipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.\n   |\n   v\nRun validation: Imports and exports shall be permitted only through Mumbai Airport.\n   |\n   v\nRun validation: The export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents).\n   |\n   v\nRun validation: One to one correlation between import and\nexport shall not be required.",
+  "decision_tree": [
+    "IF The import is subject to pre-Import condition. THEN Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+    "IF Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority. THEN Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+    "IF Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation. THEN Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+    "IF Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued. THEN Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
+  ],
+  "decision_tree_ascii": "Conditions of Imports & Exports Decision\nIF The import is subject to pre-Import condition. THEN Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.\n   |\n   v\nIF Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority. THEN Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.\n   |\n   v\nIF Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation. THEN Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.\n   |\n   v\nIF Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued. THEN Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+  "examples": [
+    "User asks to process Conditions of Imports & Exports; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Conditions of Imports & Exports, submits Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued., and DEKAI uses the extracted rules to shipping bills with relevant scheme\ncode as per customs notification need to be endorsed with the diamond\nimprest authorization number, to establish co-relation of exports with the dia\nissued..",
+  "real_world_example_thanglish": "Indha Conditions of Imports & Exports section-la, Example: an importer or exporter invokes Conditions of Imports & Exports, submits Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued., and DEKAI uses the extracted rules to shipping bills with relevant scheme\ncode as per customs notification need to be endorsed with the diamond\nimprest authorization number, to establish co-relation of exports with the dia\nissued..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Imports and exports shall be permitted only through Mumbai Airport.",
+    "IF detected context matches section rule THEN enforce: The import is subject to pre-Import condition.",
+    "IF detected context matches section rule THEN enforce: The export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents).",
+    "IF detected context matches section rule THEN enforce: One to one correlation between import and\nexport shall not be required.",
+    "IF detected context matches section rule THEN enforce: The holder of DIA must achieve a minimum value addition of 10% by realizing\nin Freely Convertible Currency.",
+    "IF detected context matches section rule THEN enforce: Provision of Para 2.52 (d) of FTP 2023, shall\nnot be applicable to this scheme.",
+    "IF validations pass THEN recommend action: Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:The"
+    },
+    {
+      "name": "iii_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:iii"
+    },
+    {
+      "name": "cut_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Cut"
+    },
+    {
+      "name": "one_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:One"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "dia_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DIA"
+    },
+    {
+      "name": "ftp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:FTP"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.96",
+      "purpose": "Retrieve knowledge payload for section 4.96",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Conditions-of-Imports-Exports/validate",
+      "purpose": "Validate inputs and documents for Conditions of Imports & Exports",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Conditions-of-Imports-Exports/execute",
+      "purpose": "Trigger business action for Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Conditions_of_Imports_Exports_overview",
+      "name": "Conditions of Imports & Exports Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Conditions_of_Imports_Exports_submission",
+      "name": "Conditions of Imports & Exports Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "the_flag",
+        "iii_flag",
+        "cut_flag",
+        "one_flag",
+        "not_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Deemed exports are not allowed under this scheme."
+  ],
+  "questions_users_may_ask": [
+    "What does Conditions of Imports & Exports require?",
+    "Which documents are needed for Conditions of Imports & Exports?",
+    "How does DEKAI validate Conditions of Imports & Exports requests?",
+    "What action should be taken for Conditions of Imports & Exports?"
+  ],
+  "expected_ai_answers": [
+    "Conditions of Imports & Exports requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+    "DEKAI validates Conditions of Imports & Exports by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4.96?",
+      "answer_en": "Conditions of Imports & Exports explains the operating rule set that DEKAI should enforce. Key control points include Imports and exports shall be permitted only through Mumbai Airport. The section also drives actions such as Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued..",
+      "question_thanglish": "Indha Conditions of Imports & Exports section-la, What is the purpose of section 4.96?",
+      "answer_thanglish": "Indha Conditions of Imports & Exports section-la, Conditions of Imports & Exports explains the operating rule set that DEKAI should enforce. Key control points include Imports and exports kandippa be permitted only through Mumbai Airport. The section also drives actions such as Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.."
+    },
+    {
+      "question_en": "What documents are required under Conditions of Imports & Exports?",
+      "answer_en": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "question_thanglish": "Indha Conditions of Imports & Exports section-la, What documents are required under Conditions of Imports & Exports?",
+      "answer_thanglish": "Indha Conditions of Imports & Exports section-la, Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
+    },
+    {
+      "question_en": "Which authority handles Conditions of Imports & Exports?",
+      "answer_en": "Customs, Customs Authority, Before clearance of goods through Customs, Code as per Customs",
+      "question_thanglish": "Indha Conditions of Imports & Exports section-la, Which authority handles Conditions of Imports & Exports?",
+      "answer_thanglish": "Indha Conditions of Imports & Exports section-la, Customs, Customs authority, Before clearance of goods through Customs, Code as per Customs"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Conditions of Imports & Exports?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4.96, apply the extracted rules, and guide the user through Evaluate condition: The import is subject to pre-Import condition..",
+      "question_thanglish": "Indha Conditions of Imports & Exports section-la, User asks: How do I comply with Conditions of Imports & Exports?",
+      "answer_thanglish": "Indha Conditions of Imports & Exports section-la, AI answers: DEKAI should evaluate section 4.96, apply the extracted rules, and guide the user through Evaluate condition: The import is subject to pre-import condition.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Conditions of Imports & Exports?",
+      "answer_en": "AI answers: Applicable validations are Imports and exports shall be permitted only through Mumbai Airport., The export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents)., One to one correlation between import and\nexport shall not be required.",
+      "question_thanglish": "Indha Conditions of Imports & Exports section-la, User asks: Which validations apply to Conditions of Imports & Exports?",
+      "answer_thanglish": "Indha Conditions of Imports & Exports section-la, AI answers: Applicable validations are Imports and exports kandippa be permitted only through Mumbai Airport., The export obligation kandippa be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents)., One to one correlation between import and\nexport kandippa not be required."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 4.96, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Conditions of Imports & Exports into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued..",
+    "Route escalations or approvals to: Customs, Customs Authority, Before clearance of goods through Customs, Code as per Customs."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Conditions of Imports & Exports section-la, Capture chapter 4, section 4.96, title, and page references as immutable knowledge metadata.",
+    "Indha Conditions of Imports & Exports section-la, Bind validations for Conditions of Imports & Exports into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Conditions of Imports & Exports section-la, Expose document upload controls for: Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued..",
+    "Indha Conditions of Imports & Exports section-la, Route escalations or approvals to: Customs, Customs authority, Before clearance of goods through Customs, Code as per Customs."
+  ],
+  "keywords": [
+    "and",
+    "The",
+    "iii",
+    "Cut",
+    "One",
+    "not",
+    "DIA",
+    "FTP",
+    "are",
+    "vii",
+    "may",
+    "per",
+    "only",
+    "with",
+    "each",
+    "more",
+    "than",
+    "must",
+    "Para",
+    "this"
+  ],
+  "search_keywords": [
+    "and",
+    "The",
+    "iii",
+    "Cut",
+    "One",
+    "not",
+    "DIA",
+    "FTP",
+    "are",
+    "vii",
+    "may",
+    "per",
+    "only",
+    "with",
+    "each",
+    "more",
+    "than",
+    "must",
+    "Para",
+    "this"
+  ],
+  "intent": "Support Conditions of Imports & Exports processing and compliance validation.",
+  "tags": [
+    "4.96",
+    "Conditions of Imports & Exports",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "Imports and exports shall be permitted only through Mumbai Airport.",
+    "The import is subject to pre-Import condition.",
+    "The export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents).",
+    "One to one correlation between import and\nexport shall not be required.",
+    "The holder of DIA must achieve a minimum value addition of 10% by realizing\nin Freely Convertible Currency."
+  ],
+  "page_numbers": [
+    56
+  ],
+  "pages": [
+    56
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "4.96 Conditions of Imports & Exports\ni. Imports and exports shall be permitted only through Mumbai Airport.\nii. The import is subject to pre-Import condition.\niii. The export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents). One to one correlation between import and\nexport shall not be required.\niv. The holder of DIA must achieve a minimum value addition of 10% by realizing\nin Freely Convertible Currency. Provision of Para 2.52 (d) of FTP 2023, shall\nnot be applicable to this scheme.\nv. Deemed exports are not allowed under this scheme.\nvi. Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.\nvii. Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation. Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.\n4.96 Conditions of Imports & Exports\ni.\nImports and exports shall be permitted only through Mumbai Airport.\nii.\nThe import is subject to pre-Import condition.\niii.\nThe export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents). One to one correlation between import and\nexport shall not be required.\niv.\nThe holder of DIA must achieve a minimum value addition of 10% by realizing\nin Freely Convertible Currency. Provision of Para 2.52 (d) of FTP 2023, shall\nnot be applicable to this scheme.\nv.\nDeemed exports are not allowed under this scheme.\nvi.\nBefore clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.\nvii.\nOnly those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation. Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: The import is subject to pre-Import condition.\"]\n    S2[\"Evaluate condition: Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation.\"]\n    S2 --> S3\n    S4[\"Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.\"]\n    S3 --> S4\n    S5[\"Run validation: Imports and exports shall be permitted only through Mumbai Airport.\"]\n    S4 --> S5\n    S6[\"Run validation: The export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents).\"]\n    S5 --> S6\n    S7[\"Run validation: One to one correlation between import and\nexport shall not be required.\"]\n    S6 --> S7",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: The import is subject to pre-Import condition.;\n:Evaluate condition\\: Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.;\n:Evaluate condition\\: Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation.;\n:Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.;\n:Run validation\\: Imports and exports shall be permitted only through Mumbai Airport.;\n:Run validation\\: The export obligation shall be fulfilled exclusively through physical export of\nNatural Cut and Polished Diamonds, with each diamond weighing no more\nthan ¼ of a Carat (25 Cents).;\n:Run validation\\: One to one correlation between import and\nexport shall not be required.;\nstop\n@enduml"
+}

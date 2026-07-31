@@ -1,0 +1,32 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.61",
+  "title": "Entitlement",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_61-R001",
+      "rule_description": "4.61 Entitlement\nEntitlement of quantity of gold / silver / platinum against the export of Articles\nmade out of these metals shall be quantity of gold / silver / platinum in item of\nexport plus claimed wastage / manufacturing loss within admissible limits.",
+      "trigger": "Entitlement",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "4.61 Entitlement\nEntitlement of quantity of gold / silver / platinum against the export of Articles\nmade out of these metals shall be quantity of gold / silver / platinum in item of\nexport plus claimed wastage / manufacturing loss within admissible limits.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.61 - Entitlement."
+    },
+    {
+      "rule_id": "CH4-SEC4_61-R002",
+      "rule_description": "In\nthe case of Studded Jewellery, the calculation of the quantum of precious metal\nshall be done excluding the weight of studding.",
+      "trigger": "Entitlement",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "In\nthe case of Studded Jewellery, the calculation of the quantum of precious metal\nshall be done excluding the weight of studding.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.61 - Entitlement."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.61 Entitlement\nEntitlement of quantity of gold / silver / platinum against the export of Articles\nmade out of these metals shall be quantity of gold / silver / platinum in item of\nexport plus claimed wastage / manufacturing loss within admissible limits.",
+    "IF detected context matches section rule THEN enforce: In\nthe case of Studded Jewellery, the calculation of the quantum of precious metal\nshall be done excluding the weight of studding."
+  ]
+}

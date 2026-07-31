@@ -1,0 +1,22 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.26",
+  "title": "Mechanism for issuing duplicates",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_26-R001",
+      "rule_description": "2.26 Mechanism for issuing duplicates\nRA concerned shall obtain a report regarding utilization of such Authorisation from\nCustom authority at port of registration before issuing duplicate, for balance unutilized.",
+      "trigger": "Mechanism for issuing duplicates",
+      "condition": "2.26 Mechanism for issuing duplicates\nRA concerned shall obtain a report regarding utilization of such Authorisation from\nCustom authority at port of registration before issuing duplicate, for balance unutilized.",
+      "validation": "2.26 Mechanism for issuing duplicates\nRA concerned shall obtain a report regarding utilization of such Authorisation from\nCustom authority at port of registration before issuing duplicate, for balance unutilized.",
+      "action": "2.26 Mechanism for issuing duplicates\nRA concerned shall obtain a report regarding utilization of such Authorisation from\nCustom authority at port of registration before issuing duplicate, for balance unutilized.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.26 - Mechanism for issuing duplicates."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.26 Mechanism for issuing duplicates\nRA concerned shall obtain a report regarding utilization of such Authorisation from\nCustom authority at port of registration before issuing duplicate, for balance unutilized.",
+    "IF validations pass THEN recommend action: 2.26 Mechanism for issuing duplicates\nRA concerned shall obtain a report regarding utilization of such Authorisation from\nCustom authority at port of registration before issuing duplicate, for balance unutilized."
+  ]
+}

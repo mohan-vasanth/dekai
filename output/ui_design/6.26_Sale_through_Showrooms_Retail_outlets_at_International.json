@@ -1,0 +1,37 @@
+{
+  "section": "6.26",
+  "ui": [
+    {
+      "screen_id": "Sale_through_Showrooms_Retail_outlets_at_International_overview",
+      "name": "Sale through Showrooms / Retail outlets at International Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Sale_through_Showrooms_Retail_outlets_at_International_submission",
+      "name": "Sale through Showrooms / Retail outlets at International Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "set_flag",
+        "for_flag",
+        "sale_flag",
+        "eous_flag",
+        "with_flag"
+      ]
+    }
+  ]
+}

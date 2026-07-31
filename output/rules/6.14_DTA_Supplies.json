@@ -1,0 +1,32 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.14",
+  "title": "DTA Supplies",
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_14-R001",
+      "rule_description": "6.14 DTA Supplies\nNotwithstanding provision of DTA sales in Paragraph 6.07 of FTP, such DTA\nsales shall not affect application, to any goods, of any other prohibition or\nregulation affecting import thereof in force at the time, when such goods are\nimported.",
+      "trigger": "DTA Supplies",
+      "condition": "6.14 DTA Supplies\nNotwithstanding provision of DTA sales in Paragraph 6.07 of FTP, such DTA\nsales shall not affect application, to any goods, of any other prohibition or\nregulation affecting import thereof in force at the time, when such goods are\nimported.",
+      "validation": "6.14 DTA Supplies\nNotwithstanding provision of DTA sales in Paragraph 6.07 of FTP, such DTA\nsales shall not affect application, to any goods, of any other prohibition or\nregulation affecting import thereof in force at the time, when such goods are\nimported.",
+      "action": "Manual review required.",
+      "exception": "6.14 DTA Supplies\nNotwithstanding provision of DTA sales in Paragraph 6.07 of FTP, such DTA\nsales shall not affect application, to any goods, of any other prohibition or\nregulation affecting import thereof in force at the time, when such goods are\nimported.",
+      "output": "DEKAI should produce a compliance decision for 6.14 - DTA Supplies."
+    },
+    {
+      "rule_id": "CH6-SEC6_14-R002",
+      "rule_description": "This also does not confer any immunity, exemption or relaxation at\nany time from any commitment or compliance with any requirements to which\nimporter may be subject to under other laws or regulations.",
+      "trigger": "DTA Supplies",
+      "condition": "This also does not confer any immunity, exemption or relaxation at\nany time from any commitment or compliance with any requirements to which\nimporter may be subject to under other laws or regulations.",
+      "validation": "6.14 DTA Supplies\nNotwithstanding provision of DTA sales in Paragraph 6.07 of FTP, such DTA\nsales shall not affect application, to any goods, of any other prohibition or\nregulation affecting import thereof in force at the time, when such goods are\nimported.",
+      "action": "Manual review required.",
+      "exception": "This also does not confer any immunity, exemption or relaxation at\nany time from any commitment or compliance with any requirements to which\nimporter may be subject to under other laws or regulations.",
+      "output": "DEKAI should produce a compliance decision for 6.14 - DTA Supplies."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 6.14 DTA Supplies\nNotwithstanding provision of DTA sales in Paragraph 6.07 of FTP, such DTA\nsales shall not affect application, to any goods, of any other prohibition or\nregulation affecting import thereof in force at the time, when such goods are\nimported.",
+    "IF detected context matches section rule THEN enforce: This also does not confer any immunity, exemption or relaxation at\nany time from any commitment or compliance with any requirements to which\nimporter may be subject to under other laws or regulations."
+  ]
+}

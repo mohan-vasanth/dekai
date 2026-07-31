@@ -1,0 +1,14 @@
+{
+  "section": "6.26",
+  "conditions": [
+    "Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.26.1",
+      "if": "Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs.",
+      "then": "Route for review",
+      "source": "Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs."
+    }
+  ]
+}

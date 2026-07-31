@@ -1,0 +1,57 @@
+{
+  "section": "4.95",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.95",
+      "purpose": "Retrieve knowledge payload for section 4.95",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Filing-of-Application-for-Diamond-Imprest-Authorisation-DIA/validate",
+      "purpose": "Validate inputs and documents for Filing of Application for Diamond Imprest Authorisation (DIA)",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Filing-of-Application-for-Diamond-Imprest-Authorisation-DIA/execute",
+      "purpose": "Trigger business action for Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "section": "4.27",
+  "conditions": [
+    "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "If in the intervening period (i.e.",
+    "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+    "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+    "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.27.1",
+      "if": "application is approved",
+      "then": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+      "source": "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority."
+    },
+    {
+      "id": "4.4.27.2",
+      "if": "If in the intervening period (i.e.",
+      "then": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+      "source": "If in the intervening period (i.e."
+    },
+    {
+      "id": "4.4.27.3",
+      "if": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+      "then": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+      "source": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified."
+    },
+    {
+      "id": "4.4.27.4",
+      "if": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "then": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+      "source": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant."
+    },
+    {
+      "id": "4.4.27.5",
+      "if": "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+      "then": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+      "source": "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs."
+    }
+  ]
+}

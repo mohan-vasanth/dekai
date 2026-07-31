@@ -1,0 +1,37 @@
+{
+  "section": "9.01",
+  "ui": [
+    {
+      "screen_id": "Foreign_Trade_Policy_Benefits_Schemes_to_e_Commerce_overview",
+      "name": "Foreign Trade Policy Benefits/Schemes to e-Commerce Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Foreign_Trade_Policy_Benefits_Schemes_to_e_Commerce_submission",
+      "name": "Foreign Trade Policy Benefits/Schemes to e-Commerce Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "trade_flag",
+        "shall_flag",
+        "policy_flag",
+        "ensure_flag",
+        "foreign_flag",
+        "suitable_flag"
+      ]
+    }
+  ]
+}

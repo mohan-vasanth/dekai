@@ -1,0 +1,54 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.87",
+  "title": "Personal Carriage of Gems & Jewellery Export Parcels",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_87-R001",
+      "rule_description": "Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+      "trigger": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "condition": "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "validation": "Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+      "action": "Manual review required.",
+      "exception": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "output": "DEKAI should produce a compliance decision for 4.87 - Personal Carriage of Gems & Jewellery Export Parcels."
+    },
+    {
+      "rule_id": "CH4-SEC4_87-R002",
+      "rule_description": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "trigger": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "condition": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "validation": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "action": "Manual review required.",
+      "exception": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "output": "DEKAI should produce a compliance decision for 4.87 - Personal Carriage of Gems & Jewellery Export Parcels."
+    },
+    {
+      "rule_id": "CH4-SEC4_87-R003",
+      "rule_description": "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "trigger": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "condition": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "validation": "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "action": "Manual review required.",
+      "exception": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "output": "DEKAI should produce a compliance decision for 4.87 - Personal Carriage of Gems & Jewellery Export Parcels."
+    },
+    {
+      "rule_id": "CH4-SEC4_87-R004",
+      "rule_description": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "trigger": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "condition": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "validation": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "action": "Manual review required.",
+      "exception": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "output": "DEKAI should produce a compliance decision for 4.87 - Personal Carriage of Gems & Jewellery Export Parcels."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+    "IF detected context matches section rule THEN enforce: Export proceeds shall, however, be realised through normal banking\nchannel.",
+    "IF detected context matches section rule THEN enforce: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+    "IF detected context matches section rule THEN enforce: (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP."
+  ]
+}

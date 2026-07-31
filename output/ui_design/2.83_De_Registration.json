@@ -1,0 +1,37 @@
+{
+  "section": "2.83",
+  "ui": [
+    {
+      "screen_id": "De_Registration_overview",
+      "name": "De- Registration Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "De_Registration_submission",
+      "name": "De- Registration Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "for_flag",
+        "and_flag",
+        "the_flag",
+        "epc_flag",
+        "all_flag"
+      ]
+    }
+  ]
+}

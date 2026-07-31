@@ -1,0 +1,5456 @@
+{
+  "resources": [
+    "Policy",
+    "General-Provision",
+    "Applicant-details",
+    "Advance-Authorisation",
+    "Advance-Authorisation-for-items-which-are-otherwise-prohibited-for",
+    "Fixation-of-Norms",
+    "Self-Declared-Authorisations-where-SION-does-not-exist",
+    "Cases-involving-Acetic-Anhydride-Ephedrine-and-Pseudo-ephedrine",
+    "Cases-requiring-Sanitary-Import-Permit",
+    "Advance-Authorisation-for-applicants-with-multiple-units",
+    "Advance-Authorisation-for-Free-of-Cost-and-Paid-Material",
+    "Entitlement",
+    "Authorisation-in-Excess-of-Entitlement",
+    "Application-and-On-line-Inter-Ministerial-Consultations-for-fixation-of",
+    "Undertaking",
+    "Fixation-of-norms-by-Norms-Committees",
+    "Time-limit-for-Representation",
+    "Provision-for-Pharmaceutical-Products",
+    "Processing-of-Application-for-Pharmaceutical-Products",
+    "Redemption-of-Authorisation-issued-under-paragraph-4-18-of-HBP",
+    "Maintenance-of-Proper-Accounts-for-Authorisations-issued-under",
+    "Standardisation-of-Adhoc-Norms",
+    "Modification-of-SION",
+    "Amendment-of-Export-item-and-inputs",
+    "Revision-of-SION-by-NC",
+    "Description-of-an-Advance-Authorisation",
+    "Exports-Deemed-Export-supplies-in-anticipation-or-subsequent-to",
+    "Exporters-Risk",
+    "Admissibility-of-drawback-in-case-of-rejection-of-application",
+    "Advance-Authorisation-or-DFIA-for-Intermediate-Supplies",
+    "Advance-Release-Order-ARO",
+    "Application-of-ARO",
+    "Facility-of-Supporting-Manufacturer-Jobber-co-licensee",
+    "Execution-of-BG-LUT",
+    "Port-of-Registration",
+    "Facility-of-Clubbing-of-Authorisations",
+    "Enhancement-Reduction-in-the-value-of-Advance-Authorisation",
+    "Application-fee-for-enhancement",
+    "Validity-period-for-import-and-Revalidation-of-Authorisation",
+    "Export-Obligation-EO-Period-and-its-Extension",
+    "Provisional-clearance-of-export-consignment",
+    "Re-export-of-goods-imported-under-Advance-Authorisation",
+    "Monitoring-of-Export-Obligation",
+    "Advance-Authorisation-for-Annual-Requirement",
+    "Special-Advance-Authorisation-for-export-of-Articles-of-Apparel",
+    "Fulfilment-of-Export-Obligation",
+    "Redemption-No-Bond-Certificate",
+    "Transitional-Arrangement-for-Authorisations-issued-upto",
+    "Regularisation-of-Bonafide-Default",
+    "Payment-of-Customs-Duty-and-Interest-in-case-of-bonafide-default",
+    "Maintenance-of-Proper-Accounts",
+    "Application",
+    "Facility-for-Split-DFIA",
+    "Re-export-of-goods-imported-under-DFIA-Scheme",
+    "Maintenance-of-proper-accounts-of-import-and-its-utilisation",
+    "Application-for-Replenishment-Authorisation",
+    "Wastage-Norms",
+    "Value-Addition",
+    "Loss-of-Gem-and-Jewellery-in-transit",
+    "Gem-Jewellery-Replenishment-Authorisations",
+    "Agency-Commission",
+    "Endorsement-on-Shipping-Bill-and-Invoice",
+    "Conditions-of-Exports",
+    "Proof-of-Exports",
+    "Conversion-of-Purity-Fineness",
+    "Release-of-Gold-Silver-Platinum-by-Nominated-Agencies",
+    "Terms-of-payment",
+    "Port-of-Export",
+    "Export-by-Post",
+    "Export-of-Cut-Polished-Diamonds-for-Certification-Grading-Re",
+    "Import-of-Diamonds-for-Certification-Grading-re-export",
+    "Enlistment-Authorisation-of-Laboratories-for-Certification",
+    "Export-against-Supply-by-Foreign-Buyer",
+    "Export-Procedure-Payment-of-Customs-Duty",
+    "Maintenance-of-Accounts",
+    "Export-through-Exhibitions-Export-Promotion-Tours-Export-of",
+    "Export-against-supply-by-Nominated-Agencies",
+    "Replenishment-Basis",
+    "Outright-Purchase-Basis-in-Advance",
+    "Loan-Basis",
+    "Exports-against-Advance-Authorisation",
+    "Regularistion-of-Bonafide-Default",
+    "Replenishment-Authorisation-for-Import-of-Consumables-etc",
+    "Personal-Carriage-of-Gems-Jewellery-Export-Parcels",
+    "Personal-Carriage-of-Gems-Jewellery-Import-Parcels",
+    "Duty-free-import-of-samples",
+    "Re-import-of-rejected-jewellery",
+    "Diamond-Jewellery-Dollar-Accounts",
+    "Export-and-import-of-Diamond-Gemstone-Jewellery-on",
+    "Guidelines-Monitoring-for-import-of-precious-metal-by-the",
+    "Filing-of-Annual-RODTEP-Return-ARR",
+    "Filing-of-Application-for-Diamond-Imprest-Authorisation-DIA",
+    "Conditions-of-Imports-Exports",
+    "Regularisation-of-Bonafide-Default-in-fulfilment-of-export"
+  ],
+  "sections": [
+    {
+      "section": "4.01",
+      "title": "Policy",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.01",
+          "purpose": "Retrieve knowledge payload for section 4.01",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Policy/validate",
+          "purpose": "Validate inputs and documents for Policy",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.02",
+      "title": "General Provision",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.02",
+          "purpose": "Retrieve knowledge payload for section 4.02",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/General-Provision/validate",
+          "purpose": "Validate inputs and documents for General Provision",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/General-Provision/execute",
+          "purpose": "Trigger business action for Applicant\ncould be either Registered office or Head office or a branch office or a\nmanufacturing unit of the IEC holder.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.03",
+      "title": "Applicant details",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.03",
+          "purpose": "Retrieve knowledge payload for section 4.03",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Applicant-details/validate",
+          "purpose": "Validate inputs and documents for Applicant details",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.04",
+      "title": "Advance Authorisation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.04",
+          "purpose": "Retrieve knowledge payload for section 4.04",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Advance-Authorisation/validate",
+          "purpose": "Validate inputs and documents for Advance Authorisation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.05",
+      "title": "Advance Authorisation for items which are otherwise prohibited for",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.05",
+          "purpose": "Retrieve knowledge payload for section 4.05",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Advance-Authorisation-for-items-which-are-otherwise-prohibited-for/validate",
+          "purpose": "Validate inputs and documents for Advance Authorisation for items which are otherwise prohibited for",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Advance-Authorisation-for-items-which-are-otherwise-prohibited-for/execute",
+          "purpose": "Trigger business action for (ii) The Export Obligation Period (EOP) of Advance Authorisations issued for such\nitems shall be 90 days from the date of clearance of import consignment and\nno extension in EOP shall be allowed.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.06",
+      "title": "Fixation of Norms",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.06",
+          "purpose": "Retrieve knowledge payload for section 4.06",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Fixation-of-Norms/validate",
+          "purpose": "Validate inputs and documents for Fixation of Norms",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Fixation-of-Norms/execute",
+          "purpose": "Trigger business action for 4.06 Fixation of Norms\n(i) In case where norms have not been notified or where applicant wants to get the\nad-hoc norms fixed before making an application for Advance Authorisation,\napplication in ANF 4B, along with prescribed documents, shall be uploaded online to\nconcerned Norms Committee (NC) in DGFT headquarters for fixation of SION/Adhoc\nnorm.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.07",
+      "title": "Self-Declared Authorisations where SION does not exist",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.07",
+          "purpose": "Retrieve knowledge payload for section 4.07",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Self-Declared-Authorisations-where-SION-does-not-exist/validate",
+          "purpose": "Validate inputs and documents for Self-Declared Authorisations where SION does not exist",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Self-Declared-Authorisations-where-SION-does-not-exist/execute",
+          "purpose": "Trigger business action for 4.07 Self-Declared Authorisations where SION does not exist\n(i) Regional Authority may also issue Advance Authorisation where there is no\nSION/valid Ad hoc Norms for an export product or where SION / Ad hoc\nnorms have been notified / published but exporter intends to use additional\ninputs in the manufacturing process, based on self-declaration by applicant.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.08",
+      "title": "Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.08",
+          "purpose": "Retrieve knowledge payload for section 4.08",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Cases-involving-Acetic-Anhydride-Ephedrine-and-Pseudo-ephedrine/validate",
+          "purpose": "Validate inputs and documents for Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Cases-involving-Acetic-Anhydride-Ephedrine-and-Pseudo-ephedrine/execute",
+          "purpose": "Trigger business action for 81\n(v)\nApplicant or his supporting manufacturer/co-licensee shall maintain a\nproper\naccount\nof\nconsumption\nand\nutilization\nof\nduty\nfree\nimported/domestically procured inputs against each authorisation, as\nprescribed in Appendix-4H.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.09",
+      "title": "Cases requiring Sanitary Import Permit.",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.09",
+          "purpose": "Retrieve knowledge payload for section 4.09",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Cases-requiring-Sanitary-Import-Permit/validate",
+          "purpose": "Validate inputs and documents for Cases requiring Sanitary Import Permit.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Cases-requiring-Sanitary-Import-Permit/execute",
+          "purpose": "Trigger business action for (i) Where import of meat and meat products of any kind including fresh, chilled\nand frozen meat, tissue or organs of poultry, pig, sheep, goat; egg & egg\npowder; milk & milk products; bovine, ovine and caprine embryos, ova or\nsemen; and pet food products of animal origin has been sought as an input\nunder Advance Authorisation, the Regional Authority, while issuing Advance\nAuthorisation shall endorse a condition that before effecting imports of any\nof these inputs, Sanitary Import Permit shall be obtained from the Department\nof Animal Husbandry, Dairying and Fisheries(DAHDF).",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.10",
+      "title": "Advance Authorisation for applicants with multiple units",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.10",
+          "purpose": "Retrieve knowledge payload for section 4.10",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Advance-Authorisation-for-applicants-with-multiple-units/validate",
+          "purpose": "Validate inputs and documents for Advance Authorisation for applicants with multiple units",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Advance-Authorisation-for-applicants-with-multiple-units/execute",
+          "purpose": "Trigger business action for However, such duty free material imported or procured\nagainst Advance Authorisation can also be taken from the port directly to the\nproject site of the project authority, subject to furnishing a bond to the\ncustoms authority at the port of import complying with the other provisions\nas per Department of Revenue guidelines, if any.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.11",
+      "title": "Advance Authorisation for Free of Cost and Paid Material",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.11",
+          "purpose": "Retrieve knowledge payload for section 4.11",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Advance-Authorisation-for-Free-of-Cost-and-Paid-Material/validate",
+          "purpose": "Validate inputs and documents for Advance Authorisation for Free of Cost and Paid Material",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.12",
+      "title": "Entitlement",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.12",
+          "purpose": "Retrieve knowledge payload for section 4.12",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Entitlement/validate",
+          "purpose": "Validate inputs and documents for Entitlement",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Entitlement/execute",
+          "purpose": "Trigger business action for 4.12 Entitlement\nMaximum CIF value of one or more authorisations to be issued under paragraph\n4.07 of Handbook of Procedures shall be as under:\n(i) For Status Holders – up to 300% of FOB and / or FOR value of preceding\nyear’s exports and/or supplies.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.13",
+      "title": "Authorisation in Excess of Entitlement",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.13",
+          "purpose": "Retrieve knowledge payload for section 4.13",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Authorisation-in-Excess-of-Entitlement/validate",
+          "purpose": "Validate inputs and documents for Authorisation in Excess of Entitlement",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Authorisation-in-Excess-of-Entitlement/execute",
+          "purpose": "Trigger business action for 4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.14",
+      "title": "Application and On-line Inter-Ministerial Consultations for fixation of",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.14",
+          "purpose": "Retrieve knowledge payload for section 4.14",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-and-On-line-Inter-Ministerial-Consultations-for-fixation-of/validate",
+          "purpose": "Validate inputs and documents for Application and On-line Inter-Ministerial Consultations for fixation of",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.15",
+      "title": "Undertaking",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.15",
+          "purpose": "Retrieve knowledge payload for section 4.15",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Undertaking/validate",
+          "purpose": "Validate inputs and documents for Undertaking",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Undertaking/execute",
+          "purpose": "Trigger business action for 84\n31.03.2026.i Since all decisions of the Norms Committees are available in the\nform of minutes on the DGFT website, all other applicants of Advance\nAuthorisation are also eligible to apply and get their authorisations based\non such ratified norms on repeat basis during validity of these norms.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.16",
+      "title": "Fixation of norms by Norms Committees",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.16",
+          "purpose": "Retrieve knowledge payload for section 4.16",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Fixation-of-norms-by-Norms-Committees/validate",
+          "purpose": "Validate inputs and documents for Fixation of norms by Norms Committees",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Fixation-of-norms-by-Norms-Committees/execute",
+          "purpose": "Trigger business action for (ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.17",
+      "title": "Time limit for Representation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.17",
+          "purpose": "Retrieve knowledge payload for section 4.17",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Time-limit-for-Representation/validate",
+          "purpose": "Validate inputs and documents for Time limit for Representation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Time-limit-for-Representation/execute",
+          "purpose": "Trigger business action for 4.17 Time limit for Representation\nApplicant may file representation against the decision of the Norms Committee with\nregard to the fixation of norms within a period of 90 days from the date of uploading\npg.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.18",
+      "title": "Provision for Pharmaceutical Products",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.18",
+          "purpose": "Retrieve knowledge payload for section 4.18",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Provision-for-Pharmaceutical-Products/validate",
+          "purpose": "Validate inputs and documents for Provision for Pharmaceutical Products",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Provision-for-Pharmaceutical-Products/execute",
+          "purpose": "Trigger business action for 4.18 Provision for Pharmaceutical Products\nRegional Authority may issue Advance Authorisation for pharmaceutical products\nmanufactured through Non-Infringing (NI) process.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.19",
+      "title": "Processing of Application for Pharmaceutical Products.",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.19",
+          "purpose": "Retrieve knowledge payload for section 4.19",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Processing-of-Application-for-Pharmaceutical-Products/validate",
+          "purpose": "Validate inputs and documents for Processing of Application for Pharmaceutical Products.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Processing-of-Application-for-Pharmaceutical-Products/execute",
+          "purpose": "Trigger business action for (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.20",
+      "title": "Redemption of Authorisation issued under paragraph 4.18 of HBP",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.20",
+          "purpose": "Retrieve knowledge payload for section 4.20",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Redemption-of-Authorisation-issued-under-paragraph-4-18-of-HBP/validate",
+          "purpose": "Validate inputs and documents for Redemption of Authorisation issued under paragraph 4.18 of HBP",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Redemption-of-Authorisation-issued-under-paragraph-4-18-of-HBP/execute",
+          "purpose": "Trigger business action for 4.20 Redemption of Authorisation issued under paragraph 4.18 of HBP\nProvisions contained in paragraph 4.49 of HBP, except sub-paragraph (f), shall be\napplicable.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.21",
+      "title": "Maintenance of Proper Accounts for Authorisations issued under",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.21",
+          "purpose": "Retrieve knowledge payload for section 4.21",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-Proper-Accounts-for-Authorisations-issued-under/validate",
+          "purpose": "Validate inputs and documents for Maintenance of Proper Accounts for Authorisations issued under",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-Proper-Accounts-for-Authorisations-issued-under/execute",
+          "purpose": "Trigger business action for 4.21 Maintenance of Proper Accounts for Authorisations issued under\nPara 4.18 of HBP\nEvery Advance Authorisation holder shall maintain a true and proper account of\nconsumption and utilization of duty free imported / domestically procured inputs\nagainst each authorisation as prescribed in Appendix 4-I.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.22",
+      "title": "Standardisation of Adhoc Norms",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.22",
+          "purpose": "Retrieve knowledge payload for section 4.22",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Standardisation-of-Adhoc-Norms/validate",
+          "purpose": "Validate inputs and documents for Standardisation of Adhoc Norms",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Standardisation-of-Adhoc-Norms/execute",
+          "purpose": "Trigger business action for As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.23",
+      "title": "Modification of SION",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.23",
+          "purpose": "Retrieve knowledge payload for section 4.23",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Modification-of-SION/validate",
+          "purpose": "Validate inputs and documents for Modification of SION",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.24",
+      "title": "Amendment of Export item and inputs",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.24",
+          "purpose": "Retrieve knowledge payload for section 4.24",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Amendment-of-Export-item-and-inputs/validate",
+          "purpose": "Validate inputs and documents for Amendment of Export item and inputs",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Amendment-of-Export-item-and-inputs/execute",
+          "purpose": "Trigger business action for 4.24 Amendment of Export item and inputs\n(i) An application for amendment of an export item or input or quantity of input\nunder SION or under ad-hoc Norms shall be filed online in ANF 4B.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.25",
+      "title": "Revision of SION by NC",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.25",
+          "purpose": "Retrieve knowledge payload for section 4.25",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Revision-of-SION-by-NC/validate",
+          "purpose": "Validate inputs and documents for Revision of SION by NC",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Revision-of-SION-by-NC/execute",
+          "purpose": "Trigger business action for Exporters are required to submit revised data in ANF 4B for such revision.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.26",
+      "title": "Description of an Advance Authorisation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.26",
+          "purpose": "Retrieve knowledge payload for section 4.26",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Description-of-an-Advance-Authorisation/validate",
+          "purpose": "Validate inputs and documents for Description of an Advance Authorisation",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.27",
+      "title": "Exports/Deemed Export supplies in anticipation or subsequent to",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.27",
+          "purpose": "Retrieve knowledge payload for section 4.27",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Exports-Deemed-Export-supplies-in-anticipation-or-subsequent-to/validate",
+          "purpose": "Validate inputs and documents for Exports/Deemed Export supplies in anticipation or subsequent to",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Exports-Deemed-Export-supplies-in-anticipation-or-subsequent-to/execute",
+          "purpose": "Trigger business action for 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.28",
+      "title": "Exporters Risk",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.28",
+          "purpose": "Retrieve knowledge payload for section 4.28",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Exporters-Risk/validate",
+          "purpose": "Validate inputs and documents for Exporters Risk",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.29",
+      "title": "Admissibility of drawback in case of rejection of application",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.29",
+          "purpose": "Retrieve knowledge payload for section 4.29",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Admissibility-of-drawback-in-case-of-rejection-of-application/validate",
+          "purpose": "Validate inputs and documents for Admissibility of drawback in case of rejection of application",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Admissibility-of-drawback-in-case-of-rejection-of-application/execute",
+          "purpose": "Trigger business action for 4.29 Admissibility of drawback in case of rejection of application\nCustoms authorities in terms of Do R rules against shipping bills filed and processed\nunder an Advance Authorisation, in case application for an Advance Authorisation is\nrejected or modified by Regional Authority, may permit drawback.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.30",
+      "title": "Advance Authorisation or DFIA for Intermediate Supplies",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.30",
+          "purpose": "Retrieve knowledge payload for section 4.30",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Advance-Authorisation-or-DFIA-for-Intermediate-Supplies/validate",
+          "purpose": "Validate inputs and documents for Advance Authorisation or DFIA for Intermediate Supplies",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Advance-Authorisation-or-DFIA-for-Intermediate-Supplies/execute",
+          "purpose": "Trigger business action for 89\nissue of an Authorisation.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.31",
+      "title": "Advance Release Order (ARO)",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.31",
+          "purpose": "Retrieve knowledge payload for section 4.31",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Advance-Release-Order-ARO/validate",
+          "purpose": "Validate inputs and documents for Advance Release Order (ARO)",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Advance-Release-Order-ARO/execute",
+          "purpose": "Trigger business action for A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.32",
+      "title": "Application of ARO",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.32",
+          "purpose": "Retrieve knowledge payload for section 4.32",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-of-ARO/validate",
+          "purpose": "Validate inputs and documents for Application of ARO",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-of-ARO/execute",
+          "purpose": "Trigger business action for 90\n(b)\nAdvance Authorisation or DFIA for Intermediate supply shall be issued after\nmaking Authorisation of ultimate exporter invalid for direct import of item,\nto be supplied by intermediate manufacturer.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.33",
+      "title": "Facility of Supporting Manufacturer/Jobber/co-licensee",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.33",
+          "purpose": "Retrieve knowledge payload for section 4.33",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Facility-of-Supporting-Manufacturer-Jobber-co-licensee/validate",
+          "purpose": "Validate inputs and documents for Facility of Supporting Manufacturer/Jobber/co-licensee",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Facility-of-Supporting-Manufacturer-Jobber-co-licensee/execute",
+          "purpose": "Trigger business action for If applicant desires to have name of any manufacturer or\njobber added to authorisation, he may apply.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.34",
+      "title": "Execution of BG/LUT",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.34",
+          "purpose": "Retrieve knowledge payload for section 4.34",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Execution-of-BG-LUT/validate",
+          "purpose": "Validate inputs and documents for Execution of BG/LUT",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.35",
+      "title": "Port of Registration",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.35",
+          "purpose": "Retrieve knowledge payload for section 4.35",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Port-of-Registration/validate",
+          "purpose": "Validate inputs and documents for Port of Registration",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Port-of-Registration/execute",
+          "purpose": "Trigger business action for 4.35 Port of Registration\n(a) Advance Authorisation shall be issued for purpose of import and export\nthrough one of sea ports or airports or ICDs or LCS specified below.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.36",
+      "title": "Facility of Clubbing of Authorisations",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.36",
+          "purpose": "Retrieve knowledge payload for section 4.36",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Facility-of-Clubbing-of-Authorisations/validate",
+          "purpose": "Validate inputs and documents for Facility of Clubbing of Authorisations",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Facility-of-Clubbing-of-Authorisations/execute",
+          "purpose": "Trigger business action for 4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.37",
+      "title": "Enhancement/Reduction in the value of Advance Authorisation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.37",
+          "purpose": "Retrieve knowledge payload for section 4.37",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Enhancement-Reduction-in-the-value-of-Advance-Authorisation/validate",
+          "purpose": "Validate inputs and documents for Enhancement/Reduction in the value of Advance Authorisation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Enhancement-Reduction-in-the-value-of-Advance-Authorisation/execute",
+          "purpose": "Trigger business action for However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.38",
+      "title": "Application fee for enhancement",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.38",
+          "purpose": "Retrieve knowledge payload for section 4.38",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-fee-for-enhancement/validate",
+          "purpose": "Validate inputs and documents for Application fee for enhancement",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-fee-for-enhancement/execute",
+          "purpose": "Trigger business action for 4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.39",
+      "title": "Validity period for import and Revalidation of Authorisation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.39",
+          "purpose": "Retrieve knowledge payload for section 4.39",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Validity-period-for-import-and-Revalidation-of-Authorisation/validate",
+          "purpose": "Validate inputs and documents for Validity period for import and Revalidation of Authorisation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Validity-period-for-import-and-Revalidation-of-Authorisation/execute",
+          "purpose": "Trigger business action for 4.39 Validity period for import and Revalidation of Authorisation\n(a) Validity period for import of Advance Authorisation shall be 12 months from\nthe date of issue of Authorisation.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.40",
+      "title": "Export Obligation (EO) Period and its Extension",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.40",
+          "purpose": "Retrieve knowledge payload for section 4.40",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-Obligation-EO-Period-and-its-Extension/validate",
+          "purpose": "Validate inputs and documents for Export Obligation (EO) Period and its Extension",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-Obligation-EO-Period-and-its-Extension/execute",
+          "purpose": "Trigger business action for 4.40 Export Obligation (EO) Period and its Extension\n(a) Period for fulfilment of export obligation under Advance Authorisation shall\nbe 18 months from the date of issue of Authorisation.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.41",
+      "title": "Provisional clearance of export consignment",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.41",
+          "purpose": "Retrieve knowledge payload for section 4.41",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Provisional-clearance-of-export-consignment/validate",
+          "purpose": "Validate inputs and documents for Provisional clearance of export consignment",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.42",
+      "title": "Re-export of goods imported under Advance Authorisation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.42",
+          "purpose": "Retrieve knowledge payload for section 4.42",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Re-export-of-goods-imported-under-Advance-Authorisation/validate",
+          "purpose": "Validate inputs and documents for Re-export of goods imported under Advance Authorisation",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Re-export-of-goods-imported-under-Advance-Authorisation/execute",
+          "purpose": "Trigger business action for The authorisation holder has to inform the Regional Authority who\nhas issued the authorisation before re-export of such defective goods.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.43",
+      "title": "Monitoring of Export Obligation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.43",
+          "purpose": "Retrieve knowledge payload for section 4.43",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Monitoring-of-Export-Obligation/validate",
+          "purpose": "Validate inputs and documents for Monitoring of Export Obligation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Monitoring-of-Export-Obligation/execute",
+          "purpose": "Trigger business action for 4.43 Monitoring of Export Obligation\n(a) Regional Authority, with whom undertaking is executed by Advance\nAuthorisation holder, shall maintain a proper record in a master register\npg.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.44",
+      "title": "Advance Authorisation for Annual Requirement",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.44",
+          "purpose": "Retrieve knowledge payload for section 4.44",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Advance-Authorisation-for-Annual-Requirement/validate",
+          "purpose": "Validate inputs and documents for Advance Authorisation for Annual Requirement",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Advance-Authorisation-for-Annual-Requirement/execute",
+          "purpose": "Trigger business action for In addition, this information may be generated\nfrom Computer System and maintained in a book form.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.45",
+      "title": "Special Advance Authorisation for export of Articles of Apparel",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.45",
+          "purpose": "Retrieve knowledge payload for section 4.45",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Special-Advance-Authorisation-for-export-of-Articles-of-Apparel/validate",
+          "purpose": "Validate inputs and documents for Special Advance Authorisation for export of Articles of Apparel",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Special-Advance-Authorisation-for-export-of-Articles-of-Apparel/execute",
+          "purpose": "Trigger business action for 101\nAdvance Authorisation given above would apply except the following:\n(i)\nAuthorisation holder shall have flexibility to export any product\nfalling under export product group using duty exempted material.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.46",
+      "title": "Fulfilment of Export Obligation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.46",
+          "purpose": "Retrieve knowledge payload for section 4.46",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Fulfilment-of-Export-Obligation/validate",
+          "purpose": "Validate inputs and documents for Fulfilment of Export Obligation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Fulfilment-of-Export-Obligation/execute",
+          "purpose": "Trigger business action for 4.46 Fulfilment of Export Obligation\nAuthorisation holder shall file online application in ANF 4F to Regional Authority\nconcerned and upload prescribed documents in support of fulfilment of Export\nObligation.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.47",
+      "title": "Redemption/No Bond Certificate",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.47",
+          "purpose": "Retrieve knowledge payload for section 4.47",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Redemption-No-Bond-Certificate/validate",
+          "purpose": "Validate inputs and documents for Redemption/No Bond Certificate",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Redemption-No-Bond-Certificate/execute",
+          "purpose": "Trigger business action for 4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.48",
+      "title": "Transitional Arrangement for Authorisations issued upto",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.48",
+          "purpose": "Retrieve knowledge payload for section 4.48",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Transitional-Arrangement-for-Authorisations-issued-upto/validate",
+          "purpose": "Validate inputs and documents for Transitional Arrangement for Authorisations issued upto",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Transitional-Arrangement-for-Authorisations-issued-upto/execute",
+          "purpose": "Trigger business action for 4.48 Transitional Arrangement for Authorisations issued upto\n31.03.2023\n(a) Advance Licences including Advance Licence for Annual Requirement\nissued up to 31.03.2023 shall be governed by respective provisions\ncontained in Chapter-7 of HBP v1(RE-2001), Chapter 4 of HBP v1 (2002-\n2007) as Notified on 31.03.2002, Chapter 4 of HBP v1 (2004- 2009) as\nnotified on 31.08.2004, Chapter 4 of HBP v1 (2009-14) as notified on\npg.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.49",
+      "title": "Regularisation of Bonafide Default",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.49",
+          "purpose": "Retrieve knowledge payload for section 4.49",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Regularisation-of-Bonafide-Default/validate",
+          "purpose": "Validate inputs and documents for Regularisation of Bonafide Default",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Regularisation-of-Bonafide-Default/execute",
+          "purpose": "Trigger business action for 4.49 Regularisation of Bonafide Default\nCases of bonafide default in fulfilment of Export Obligation may be regularised\nby Regional Authority as under:\n(a) If Export Obligation is fulfilled in terms of value, but there is a shortfall\nin terms of quantity, the Authorisation holder shall, for regularisation,\npay:\n(i) To customs authorities, customs duty on unutilized value of\nimported / indigenously procured material along with interest as\nnotified by Do R.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.50",
+      "title": "Payment of Customs Duty and Interest in case of bonafide default",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.50",
+          "purpose": "Retrieve knowledge payload for section 4.50",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Payment-of-Customs-Duty-and-Interest-in-case-of-bonafide-default/validate",
+          "purpose": "Validate inputs and documents for Payment of Customs Duty and Interest in case of bonafide default",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Payment-of-Customs-Duty-and-Interest-in-case-of-bonafide-default/execute",
+          "purpose": "Trigger business action for 4.50 Payment of Customs Duty and Interest in case of bonafide default\nin Export Obligation\n(a) Customs duty with interest as notified by Do R to be recovered from\nAuthorisation holder on account of regularisation or enforcement of\nBG/LUT, shall be deposited by Authorisation holder in relevant Head of\nAccount of Customs Revenue i.e., \"Major Head 0037 - Customs and minor\nhead 001-Import Duties” Online through ICEGATE Payment Gateway\nwithin 30 days of demand raised by Regional / Customs Authority and\ndocumentary evidence shall be produced to this effect to Regional\nAuthority / Customs Authority immediately.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.51",
+      "title": "Maintenance of Proper Accounts",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.51",
+          "purpose": "Retrieve knowledge payload for section 4.51",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-Proper-Accounts/validate",
+          "purpose": "Validate inputs and documents for Maintenance of Proper Accounts",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-Proper-Accounts/execute",
+          "purpose": "Trigger business action for 4.51 Maintenance of Proper Accounts\nEvery Advance Authorisation holder shall maintain a true and proper account\nof consumption and utilisation of duty free imported / domestically procured\ngoods against each authorisation as prescribed in Appendix 4H or 4I, as\napplicable.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.52",
+      "title": "Policy",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.52",
+          "purpose": "Retrieve knowledge payload for section 4.52",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Policy/validate",
+          "purpose": "Validate inputs and documents for Policy",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.53",
+      "title": "Application",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.53",
+          "purpose": "Retrieve knowledge payload for section 4.53",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application/validate",
+          "purpose": "Validate inputs and documents for Application",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application/execute",
+          "purpose": "Trigger business action for (e) An application for such amendments in unutilized and un-transferred\nDFIAs, which are system-related and corrective in nature, shall be filed\nin ANF 4G.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.54",
+      "title": "Facility for Split DFIA",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.54",
+          "purpose": "Retrieve knowledge payload for section 4.54",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Facility-for-Split-DFIA/validate",
+          "purpose": "Validate inputs and documents for Facility for Split DFIA",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Facility-for-Split-DFIA/execute",
+          "purpose": "Trigger business action for 10 lakh\neach and multiples thereof may also be issued, on request at the time of seeking\ntransferability.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.55",
+      "title": "Re-export of goods imported under DFIA Scheme",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.55",
+          "purpose": "Retrieve knowledge payload for section 4.55",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Re-export-of-goods-imported-under-DFIA-Scheme/validate",
+          "purpose": "Validate inputs and documents for Re-export of goods imported under DFIA Scheme",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Re-export-of-goods-imported-under-DFIA-Scheme/execute",
+          "purpose": "Trigger business action for (ii) Based on the certificate, a fresh DFIA shall be issued by Regional\nAuthority concerned.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.56",
+      "title": "Maintenance of proper accounts of import and its utilisation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.56",
+          "purpose": "Retrieve knowledge payload for section 4.56",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-proper-accounts-of-import-and-its-utilisation/validate",
+          "purpose": "Validate inputs and documents for Maintenance of proper accounts of import and its utilisation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-proper-accounts-of-import-and-its-utilisation/execute",
+          "purpose": "Trigger business action for 4.56 Maintenance of proper accounts of import and its utilisation\nOriginal DFIA holder shall maintain a true and proper account of consumption\nand utilisation of duty free imported / domestically procured goods against\neach authorisation as prescribed in Appendix 4H.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.57",
+      "title": "General Provision",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.57",
+          "purpose": "Retrieve knowledge payload for section 4.57",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/General-Provision/validate",
+          "purpose": "Validate inputs and documents for General Provision",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.58",
+      "title": "Application for Replenishment Authorisation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.58",
+          "purpose": "Retrieve knowledge payload for section 4.58",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-for-Replenishment-Authorisation/validate",
+          "purpose": "Validate inputs and documents for Application for Replenishment Authorisation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-for-Replenishment-Authorisation/execute",
+          "purpose": "Trigger business action for 4.58 Application for Replenishment Authorisation\n(a) Application for REP Authorisation shall be filed online in ANF-4H and\nupload the documents prescribed therein to concerned Regional\nAuthority as per Appendix 4A.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.59",
+      "title": "Wastage Norms",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.59",
+          "purpose": "Retrieve knowledge payload for section 4.59",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Wastage-Norms/validate",
+          "purpose": "Validate inputs and documents for Wastage Norms",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.60",
+      "title": "Value Addition",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.60",
+          "purpose": "Retrieve knowledge payload for section 4.60",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Value-Addition/validate",
+          "purpose": "Validate inputs and documents for Value Addition",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.61",
+      "title": "Entitlement",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.61",
+          "purpose": "Retrieve knowledge payload for section 4.61",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Entitlement/validate",
+          "purpose": "Validate inputs and documents for Entitlement",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.62",
+      "title": "Loss of Gem and Jewellery in transit",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.62",
+          "purpose": "Retrieve knowledge payload for section 4.62",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Loss-of-Gem-and-Jewellery-in-transit/validate",
+          "purpose": "Validate inputs and documents for Loss of Gem and Jewellery in transit",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.63",
+      "title": "Gem & Jewellery Replenishment Authorisations",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.63",
+          "purpose": "Retrieve knowledge payload for section 4.63",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Gem-Jewellery-Replenishment-Authorisations/validate",
+          "purpose": "Validate inputs and documents for Gem & Jewellery Replenishment Authorisations",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Gem-Jewellery-Replenishment-Authorisations/execute",
+          "purpose": "Trigger business action for Gem REP Authorisations issued against\nexport of studded gold / silver / platinum jewellery articles, shall also\nbe valid for import of cut and polished precious / semi- precious stones\nother than emerald up to 10% of CIF value of Authorisation within its\noverall CIF value.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.64",
+      "title": "Agency Commission",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.64",
+          "purpose": "Retrieve knowledge payload for section 4.64",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Agency-Commission/validate",
+          "purpose": "Validate inputs and documents for Agency Commission",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Agency-Commission/execute",
+          "purpose": "Trigger business action for 4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.65",
+      "title": "Endorsement on Shipping Bill and Invoice",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.65",
+          "purpose": "Retrieve knowledge payload for section 4.65",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Endorsement-on-Shipping-Bill-and-Invoice/validate",
+          "purpose": "Validate inputs and documents for Endorsement on Shipping Bill and Invoice",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.66",
+      "title": "Conditions of Exports",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.66",
+          "purpose": "Retrieve knowledge payload for section 4.66",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conditions-of-Exports/validate",
+          "purpose": "Validate inputs and documents for Conditions of Exports",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.67",
+      "title": "Proof of Exports",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.67",
+          "purpose": "Retrieve knowledge payload for section 4.67",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Proof-of-Exports/validate",
+          "purpose": "Validate inputs and documents for Proof of Exports",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Proof-of-Exports/execute",
+          "purpose": "Trigger business action for 4.67 Proof of Exports\na) Exporter has to furnish the proof of exports, wherever required for\nexport of gold / silver / platinum jewellery and articles thereof, by\nfurnishing following documents:\n(i) Self-attested copy of Exporter’s copy of the Shipping Bill;\n(ii) Tax invoice for export/supplies as prescribed under\nCGST/SGST/UT GST rules whose particulars are uploaded on LEO\ncopy of Shipping Bill\n(iii) Bank certificate/e-BRC of realisation in Appendix 2U/ export\nrealisations from RBI's EDPMS wherever available in DGFT IT\nsystem.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.68",
+      "title": "Conversion of Purity/Fineness",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.68",
+          "purpose": "Retrieve knowledge payload for section 4.68",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conversion-of-Purity-Fineness/validate",
+          "purpose": "Validate inputs and documents for Conversion of Purity/Fineness",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.69",
+      "title": "Release of Gold/Silver/Platinum by Nominated Agencies",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.69",
+          "purpose": "Retrieve knowledge payload for section 4.69",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Release-of-Gold-Silver-Platinum-by-Nominated-Agencies/validate",
+          "purpose": "Validate inputs and documents for Release of Gold/Silver/Platinum by Nominated Agencies",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.70",
+      "title": "Terms of payment",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.70",
+          "purpose": "Retrieve knowledge payload for section 4.70",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Terms-of-payment/validate",
+          "purpose": "Validate inputs and documents for Terms of payment",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Terms-of-payment/execute",
+          "purpose": "Trigger business action for 4.70 Terms of payment\nExport of gold / silver / platinum jewellery and articles thereof shall be against\nirrevocable letter of credit, payment of cash on delivery basis, Documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.71",
+      "title": "Port of Export",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.71",
+          "purpose": "Retrieve knowledge payload for section 4.71",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Port-of-Export/validate",
+          "purpose": "Validate inputs and documents for Port of Export",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Port-of-Export/execute",
+          "purpose": "Trigger business action for d)\nInstructions issued by Customs Department in this regard should be\nfollowed mutatis mutandis.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.72",
+      "title": "Export by Post",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.72",
+          "purpose": "Retrieve knowledge payload for section 4.72",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-by-Post/validate",
+          "purpose": "Validate inputs and documents for Export by Post",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-by-Post/execute",
+          "purpose": "Trigger business action for At the time of exports, exporter shall submit following documents:\n(i) Shipping bills or Tax invoice for export/supplies as prescribed under\nCGST/SGST/UT GST rules presented at foreign Post Office;\n(ii) Certificate from nominated agencies indicating price at which gold/\nsilver/platinum was booked or given on outright sale basis or loan basis;\n(iii) Three copies of Tax invoices for export/supplies as prescribed under\nCGST/SGST/UT GST rules.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.73",
+      "title": "Export of Cut & Polished Diamonds for Certification/Grading & Re-",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.73",
+          "purpose": "Retrieve knowledge payload for section 4.73",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-of-Cut-Polished-Diamonds-for-Certification-Grading-Re/validate",
+          "purpose": "Validate inputs and documents for Export of Cut & Polished Diamonds for Certification/Grading & Re-",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.74",
+      "title": "Import of Diamonds for Certification/Grading & re-export",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.74",
+          "purpose": "Retrieve knowledge payload for section 4.74",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Import-of-Diamonds-for-Certification-Grading-re-export/validate",
+          "purpose": "Validate inputs and documents for Import of Diamonds for Certification/Grading & re-export",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Import-of-Diamonds-for-Certification-Grading-re-export/execute",
+          "purpose": "Trigger business action for In addition, a separate self-certificate shall\nbe attached by GIA (or any other approved agency) along with the\nshipping bill at the time of shipment, for matching of the imports to that\nof the exports as per the documents and GIA (or any other approved\nagency) certificate.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.75",
+      "title": "Enlistment /Authorisation of Laboratories for Certification/",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.75",
+          "purpose": "Retrieve knowledge payload for section 4.75",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Enlistment-Authorisation-of-Laboratories-for-Certification/validate",
+          "purpose": "Validate inputs and documents for Enlistment /Authorisation of Laboratories for Certification/",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Enlistment-Authorisation-of-Laboratories-for-Certification/execute",
+          "purpose": "Trigger business action for 4.75 Enlistment /Authorisation of Laboratories for Certification/\nGrading of Diamonds of 0.25 carat and above\nApplications for enlistment of laboratories should be submitted to Gems and\npg.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.76",
+      "title": "Export against Supply by Foreign Buyer",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.76",
+          "purpose": "Retrieve knowledge payload for section 4.76",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-against-Supply-by-Foreign-Buyer/validate",
+          "purpose": "Validate inputs and documents for Export against Supply by Foreign Buyer",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-against-Supply-by-Foreign-Buyer/execute",
+          "purpose": "Trigger business action for (b) In case of direct supply of gold/silver/platinum, alloys, findings and\nmountings of gold/silver/platinum and plain semi-finished\ngold/silver/platinum jewellery to status holder/ exporter, Status\nHolder/exporter shall furnish a Bank Guarantee/LUT, as per Customs\nRules and regulations to Customs equivalent to Basic Customs Duty\nleviable on imported gold/ silver/ platinum, alloys, findings and\nmountings of gold/ silver/ platinum and plain semi- finished gold/\nsilver/ platinum jewellery etc.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.77",
+      "title": "Export Procedure/Payment of Customs Duty",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.77",
+          "purpose": "Retrieve knowledge payload for section 4.77",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-Procedure-Payment-of-Customs-Duty/validate",
+          "purpose": "Validate inputs and documents for Export Procedure/Payment of Customs Duty",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-Procedure-Payment-of-Customs-Duty/execute",
+          "purpose": "Trigger business action for 4.77 Export Procedure/Payment of Customs Duty\npg.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.78",
+      "title": "Maintenance of Accounts",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.78",
+          "purpose": "Retrieve knowledge payload for section 4.78",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-Accounts/validate",
+          "purpose": "Validate inputs and documents for Maintenance of Accounts",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-Accounts/execute",
+          "purpose": "Trigger business action for 4.78 Maintenance of Accounts\nNominated Agency shall maintain complete account, consignment-wise, of the\ngold, silver, platinum, mountings, findings/ plain semi-finished gold/silver/\nplatinum jewellery etc.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.79",
+      "title": "Export through Exhibitions/Export Promotion Tours/ Export of",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.79",
+          "purpose": "Retrieve knowledge payload for section 4.79",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-through-Exhibitions-Export-Promotion-Tours-Export-of/validate",
+          "purpose": "Validate inputs and documents for Export through Exhibitions/Export Promotion Tours/ Export of",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-through-Exhibitions-Export-Promotion-Tours-Export-of/execute",
+          "purpose": "Trigger business action for (g)\nIn case of exports through nominated agency, exporter shall submit\nproof of exports to nominated agency within 15 days of exports, who\nshall, after verifying documents, release admissible quantity of the gold/\nsilver/ platinum etc.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.80",
+      "title": "Export against supply by Nominated Agencies",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.80",
+          "purpose": "Retrieve knowledge payload for section 4.80",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-against-supply-by-Nominated-Agencies/validate",
+          "purpose": "Validate inputs and documents for Export against supply by Nominated Agencies",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-against-supply-by-Nominated-Agencies/execute",
+          "purpose": "Trigger business action for 4.80 Export against supply by Nominated Agencies\nExporter may obtain gold/silver/ platinum on following basis:\n(i) Replenishment basis after completion of exports;\n(ii) Outright purchase basis in advance;\n(iii) Loan basis.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.81",
+      "title": "Replenishment Basis",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.81",
+          "purpose": "Retrieve knowledge payload for section 4.81",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Replenishment-Basis/validate",
+          "purpose": "Validate inputs and documents for Replenishment Basis",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Replenishment-Basis/execute",
+          "purpose": "Trigger business action for 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.82",
+      "title": "Outright Purchase Basis in Advance",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.82",
+          "purpose": "Retrieve knowledge payload for section 4.82",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Outright-Purchase-Basis-in-Advance/validate",
+          "purpose": "Validate inputs and documents for Outright Purchase Basis in Advance",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Outright-Purchase-Basis-in-Advance/execute",
+          "purpose": "Trigger business action for 4.82 Outright Purchase Basis in Advance\n(a) Exporter may obtain required quantity of precious metal in advance on\noutright purchase basis subject to furnishing of BG/LUT to nominated\nagencies for an amount as may be prescribed by nominated agency.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.83",
+      "title": "Loan Basis",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.83",
+          "purpose": "Retrieve knowledge payload for section 4.83",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Loan-Basis/validate",
+          "purpose": "Validate inputs and documents for Loan Basis",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Loan-Basis/execute",
+          "purpose": "Trigger business action for 4.83 Loan Basis\n(a) Exporter may obtain required quantity of precious metal on loan basis\nsubject to furnishing of BG / LUT, for customs duty to nominated\nagencies for an amount as may be prescribed by nominated agencies.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.84",
+      "title": "Exports against Advance Authorisation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.84",
+          "purpose": "Retrieve knowledge payload for section 4.84",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Exports-against-Advance-Authorisation/validate",
+          "purpose": "Validate inputs and documents for Exports against Advance Authorisation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Exports-against-Advance-Authorisation/execute",
+          "purpose": "Trigger business action for 4.84 Exports against Advance Authorisation\n(a) Procedure applicable to Advance Authorisations under Chapter 4 of\nHandbook of Procedures shall generally apply to this scheme except\nnorms for value addition, Export Obligation period and regularization of\ndefault.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.85",
+      "title": "Regularistion of Bonafide Default",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.85",
+          "purpose": "Retrieve knowledge payload for section 4.85",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Regularistion-of-Bonafide-Default/validate",
+          "purpose": "Validate inputs and documents for Regularistion of Bonafide Default",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Regularistion-of-Bonafide-Default/execute",
+          "purpose": "Trigger business action for 4.85 Regularistion of Bonafide Default\nCases of bonafide default in fulfillment of Export Obligation by an exporter who\nhas obtained precious metals from nominated agencies may be regularised\nprovided exporter has paid customs duty along-with interest thereon as\nnotified by Do R.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.86",
+      "title": "Replenishment Authorisation for Import of Consumables etc.",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.86",
+          "purpose": "Retrieve knowledge payload for section 4.86",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Replenishment-Authorisation-for-Import-of-Consumables-etc/validate",
+          "purpose": "Validate inputs and documents for Replenishment Authorisation for Import of Consumables etc.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.87",
+      "title": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.87",
+          "purpose": "Retrieve knowledge payload for section 4.87",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Personal-Carriage-of-Gems-Jewellery-Export-Parcels/validate",
+          "purpose": "Validate inputs and documents for Personal Carriage of Gems & Jewellery Export Parcels",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.88",
+      "title": "Personal Carriage of Gems & Jewellery Import Parcels",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.88",
+          "purpose": "Retrieve knowledge payload for section 4.88",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Personal-Carriage-of-Gems-Jewellery-Import-Parcels/validate",
+          "purpose": "Validate inputs and documents for Personal Carriage of Gems & Jewellery Import Parcels",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.89",
+      "title": "Duty free import of samples",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.89",
+          "purpose": "Retrieve knowledge payload for section 4.89",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Duty-free-import-of-samples/validate",
+          "purpose": "Validate inputs and documents for Duty free import of samples",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.90",
+      "title": "Re-import of rejected jewellery",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.90",
+          "purpose": "Retrieve knowledge payload for section 4.90",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Re-import-of-rejected-jewellery/validate",
+          "purpose": "Validate inputs and documents for Re-import of rejected jewellery",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Re-import-of-rejected-jewellery/execute",
+          "purpose": "Trigger business action for 4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport of preceding year) with refund of any duty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.91",
+      "title": "Diamond & Jewellery Dollar Accounts",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.91",
+          "purpose": "Retrieve knowledge payload for section 4.91",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Diamond-Jewellery-Dollar-Accounts/validate",
+          "purpose": "Validate inputs and documents for Diamond & Jewellery Dollar Accounts",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.92",
+      "title": "Export and import of Diamond, Gemstone & Jewellery on",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.92",
+          "purpose": "Retrieve knowledge payload for section 4.92",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-and-import-of-Diamond-Gemstone-Jewellery-on/validate",
+          "purpose": "Validate inputs and documents for Export and import of Diamond, Gemstone & Jewellery on",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.93",
+      "title": "Guidelines/ Monitoring for import of precious metal by the",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.93",
+          "purpose": "Retrieve knowledge payload for section 4.93",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Guidelines-Monitoring-for-import-of-precious-metal-by-the/validate",
+          "purpose": "Validate inputs and documents for Guidelines/ Monitoring for import of precious metal by the",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Guidelines-Monitoring-for-import-of-precious-metal-by-the/execute",
+          "purpose": "Trigger business action for 4.93 Guidelines/ Monitoring for import of precious metal by the\nNominated Agencies\nThe guidelines on import of precious metal by the nominated agencies and\nmonitoring are as under:\n(a) Following guidelines for monitoring the import of precious metal and\nits distribution and / or own use by the Nominated Agencies will be\nfollowed, (other than the Banks nominated by RBI for this purpose):\n(i) Every Nominated Agency is required to maintain records of\nimports of precious metal (both quantity and value) and its\ndistribution for the purpose of exports of value added product as\nwell as for the purpose of domestic consumption as per the format\ngiven in Appendix 4-M of Hand Book of Procedures.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.94",
+      "title": "Filing of Annual RODTEP Return (ARR)",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.94",
+          "purpose": "Retrieve knowledge payload for section 4.94",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Filing-of-Annual-RODTEP-Return-ARR/validate",
+          "purpose": "Validate inputs and documents for Filing of Annual RODTEP Return (ARR)",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Filing-of-Annual-RODTEP-Return-ARR/execute",
+          "purpose": "Trigger business action for 129\nNominated Agencies\nThe guidelines on import of precious metal by the nominated agencies and\nmonitoring are as under:\n(a)\nFollowing guidelines for monitoring the import of precious metal and\nits distribution and / or own use by the Nominated Agencies will be\nfollowed, (other than the Banks nominated by RBI for this purpose):\n(i)\nEvery Nominated Agency is required to maintain records of\nimports of precious metal (both quantity and value) and its\ndistribution for the purpose of exports of value added product as\nwell as for the purpose of domestic consumption as per the format\ngiven in Appendix 4-M of Hand Book of Procedures.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.95",
+      "title": "Filing of Application for Diamond Imprest Authorisation (DIA)",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.95",
+          "purpose": "Retrieve knowledge payload for section 4.95",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Filing-of-Application-for-Diamond-Imprest-Authorisation-DIA/validate",
+          "purpose": "Validate inputs and documents for Filing of Application for Diamond Imprest Authorisation (DIA)",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Filing-of-Application-for-Diamond-Imprest-Authorisation-DIA/execute",
+          "purpose": "Trigger business action for Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.96",
+      "title": "Conditions of Imports & Exports",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.96",
+          "purpose": "Retrieve knowledge payload for section 4.96",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conditions-of-Imports-Exports/validate",
+          "purpose": "Validate inputs and documents for Conditions of Imports & Exports",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conditions-of-Imports-Exports/execute",
+          "purpose": "Trigger business action for Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.97",
+      "title": "General Provision",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.97",
+          "purpose": "Retrieve knowledge payload for section 4.97",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/General-Provision/validate",
+          "purpose": "Validate inputs and documents for General Provision",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/General-Provision/execute",
+          "purpose": "Trigger business action for Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.98",
+      "title": "Fulfilment of export obligation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.98",
+          "purpose": "Retrieve knowledge payload for section 4.98",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Fulfilment-of-export-obligation/validate",
+          "purpose": "Validate inputs and documents for Fulfilment of export obligation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Fulfilment-of-export-obligation/execute",
+          "purpose": "Trigger business action for 4.98 Fulfilment of export obligation\nDiamond Imprest Authorisation holder shall file online application in ANF 4K to\nRegional Authority concerned, as specified in Appendix 4A and upload prescribed\ndocuments in support of fulfilment of export obligation.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4.99",
+      "title": "Regularisation of Bonafide Default in fulfilment of export",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4.99",
+          "purpose": "Retrieve knowledge payload for section 4.99",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Regularisation-of-Bonafide-Default-in-fulfilment-of-export/validate",
+          "purpose": "Validate inputs and documents for Regularisation of Bonafide Default in fulfilment of export",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Regularisation-of-Bonafide-Default-in-fulfilment-of-export/execute",
+          "purpose": "Trigger business action for 4.99 Regularisation of Bonafide Default in fulfilment of export\nobligation\nCases of bonafide default in fulfilment of Export Obligation may be regularised by\nRegional Authority as under:\n(i) The DIA holder shall, for regularization, pay to Customs Authorities, Customs\nduty on unutilized value of imported material along with interest as notified\nby Do R.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    }
+  ]
+}

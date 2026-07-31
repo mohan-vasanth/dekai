@@ -1,0 +1,65 @@
+{
+  "section": "2.52",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.52",
+      "purpose": "Retrieve knowledge payload for section 2.52",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Recognition-as-Pre-shipment-Inspection-Agency-PSIA-and-issuance/validate",
+      "purpose": "Validate inputs and documents for Recognition as Pre-shipment Inspection Agency (PSIA) and issuance",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Recognition-as-Pre-shipment-Inspection-Agency-PSIA-and-issuance/execute",
+      "purpose": "Trigger business action for 2.52 Recognition as Pre-shipment Inspection Agency (PSIA) and issuance\nof Pre- shipment Certificate (PSIC)\n(a) Applications for recognition in respect of PSIAs have to be made online on\nDGFT Website (https://dgft.gov.in) by payment of applicable fee in terms of\nAppendix 2K of FTP.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

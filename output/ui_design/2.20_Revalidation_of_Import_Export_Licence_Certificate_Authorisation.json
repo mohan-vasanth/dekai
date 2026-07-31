@@ -1,0 +1,47 @@
+{
+  "section": "2.20",
+  "ui": [
+    {
+      "screen_id": "Revalidation_of_Import_Export_Licence_Certificate_Authorisation_overview",
+      "name": "Revalidation of Import / Export Licence Certificate/ Authorisation / Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Revalidation_of_Import_Export_Licence_Certificate_Authorisation_submission",
+      "name": "Revalidation of Import / Export Licence Certificate/ Authorisation / Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "may_flag",
+        "six_flag",
+        "the_flag",
+        "and_flag",
+        "not_flag"
+      ]
+    },
+    {
+      "screen_id": "Revalidation_of_Import_Export_Licence_Certificate_Authorisation_exceptions",
+      "name": "Revalidation of Import / Export Licence Certificate/ Authorisation / Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "4.62",
+  "ui": [
+    {
+      "screen_id": "Loss_of_Gem_and_Jewellery_in_transit_overview",
+      "name": "Loss of Gem and Jewellery in transit Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Loss_of_Gem_and_Jewellery_in_transit_submission",
+      "name": "Loss of Gem and Jewellery in transit Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "gem_flag",
+        "and_flag",
+        "out_flag",
+        "has_flag",
+        "for_flag",
+        "rep_flag"
+      ]
+    }
+  ]
+}

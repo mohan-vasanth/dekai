@@ -1,0 +1,21 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.04",
+  "title": "Advance Authorisation",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_04-R001",
+      "rule_description": "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+      "trigger": "Advance Authorisation",
+      "condition": "Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.",
+      "validation": "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.04 - Advance Authorisation."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A."
+  ]
+}

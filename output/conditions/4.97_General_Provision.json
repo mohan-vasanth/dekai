@@ -1,0 +1,28 @@
+{
+  "section": "4.97",
+  "conditions": [
+    "No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.",
+    "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+    "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.97.1",
+      "if": "No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA."
+    },
+    {
+      "id": "4.4.97.2",
+      "if": "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority."
+    },
+    {
+      "id": "4.4.97.3",
+      "if": "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue."
+    }
+  ]
+}

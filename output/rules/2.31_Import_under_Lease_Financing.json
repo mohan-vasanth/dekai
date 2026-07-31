@@ -1,0 +1,32 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.31",
+  "title": "Import under Lease Financing",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_31-R001",
+      "rule_description": "2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+      "trigger": "Import under Lease Financing",
+      "condition": "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+      "validation": "2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.31 - Import under Lease Financing."
+    },
+    {
+      "rule_id": "CH2-SEC2_31-R002",
+      "rule_description": "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+      "trigger": "Import under Lease Financing",
+      "condition": "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+      "validation": "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.31 - Import under Lease Financing."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+    "IF detected context matches section rule THEN enforce: Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing"
+  ]
+}

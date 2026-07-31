@@ -1,0 +1,47 @@
+{
+  "section": "8.05",
+  "ui": [
+    {
+      "screen_id": "Choice_to_pursue_other_options_overview",
+      "name": "Choice to pursue other options Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Choice_to_pursue_other_options_submission",
+      "name": "Choice to pursue other options Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "and_flag",
+        "are_flag",
+        "any_flag",
+        "two_flag"
+      ]
+    },
+    {
+      "screen_id": "Choice_to_pursue_other_options_exceptions",
+      "name": "Choice to pursue other options Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

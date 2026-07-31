@@ -1,0 +1,35 @@
+{
+  "section": "2.02",
+  "conditions": [
+    "2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.",
+    "Country specific\nprohibitions/limitations, if any, are specified in the FTP or the ITC(HS).",
+    "APPLICATIONS\n2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.",
+    "Country\nspecific\nprohibitions/limitations, if any, are specified in the FTP or the ITC(HS)."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.02.1",
+      "if": "2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.",
+      "then": "Route for review",
+      "source": "2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e."
+    },
+    {
+      "id": "2.2.02.2",
+      "if": "any",
+      "then": "Route for review",
+      "source": "Country specific\nprohibitions/limitations, if any, are specified in the FTP or the ITC(HS)."
+    },
+    {
+      "id": "2.2.02.3",
+      "if": "APPLICATIONS\n2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.",
+      "then": "Route for review",
+      "source": "APPLICATIONS\n2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e."
+    },
+    {
+      "id": "2.2.02.4",
+      "if": "any",
+      "then": "Route for review",
+      "source": "Country\nspecific\nprohibitions/limitations, if any, are specified in the FTP or the ITC(HS)."
+    }
+  ]
+}

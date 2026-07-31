@@ -1,0 +1,47 @@
+{
+  "section": "5.06",
+  "ui": [
+    {
+      "screen_id": "Import_of_spares_tools_refractories_and_catalysts_overview",
+      "name": "Import of spares, tools, refractories and catalysts Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_of_spares_tools_refractories_and_catalysts_submission",
+      "name": "Import of spares, tools, refractories and catalysts Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "for_flag",
+        "sub_flag",
+        "iii_flag",
+        "ftp_flag",
+        "the_flag"
+      ]
+    },
+    {
+      "screen_id": "Import_of_spares_tools_refractories_and_catalysts_exceptions",
+      "name": "Import of spares, tools, refractories and catalysts Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "section": "5.10",
+  "conditions": [
+    "(b) In case the Authorisation holder wants to export through a third\nparty, export documents viz., shipping bills/Bill of exports etc.",
+    "shall\nindicate name of both authorisation holder and supporting\nmanufacturer, if any, along with EPCG authorisation number.",
+    "The goods exported through third party should be\nmanufactured by the EPCG authorisation holder or the supporting\n5\n5\n(b)\nThe said “Certificate of supplies from SEZ\" shall be marked in\nquadruplicate with a copy each to the authorisation holder, SEZ supplier\nunit, designated officer at SEZ and the relevant port customs authorities.",
+    "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+    "(c)\nIn cases where the request for issue of \"Certificate of supplies from SEZ\" is\nmade in due course, it shall be accompanied with an authorisation\nutilization status issued by the relevant Customs authorities mentioned on\nthe authorisation for the RA to verify the actual utilization of authorisation\nat the time of application.",
+    "The certificate may be issued to the extent of\nquantity available as per utilization status.",
+    "In case the request for\n\"Certificate of supplies from SEZ\" is made along with the application for\nauthorisation, the same procedure shall apply.",
+    "(b)\nIn case the Authorisation holder wants to export through a third\nparty, export documents viz., shipping bills/Bill of exports etc.",
+    "The goods exported through third party should be\nmanufactured by the EPCG authorisation holder or the supporting\nmanufacturer where the capital goods imported under the\nauthorisation have been installed.",
+    "(c) Disclaimer certificate from third party that they shall not use such\nproceeds towards EO fulfillment of any EPCG authorisation (s)\nobtained by them.",
+    "(a) ARE 1 certificate issued by Central Excise/Tax invoice for\nexport prescribed under the GST rules with due authentication\nby the Customs verifying the exports along with the shipping\nbill number, date and EPCG authorisation number, or\n(b) Invoice duly incorporating the relevant EPCG\nauthorisation number & date at the time of dispatch in case the\nunit is not registered with Central Excise/GST.",
+    "(v) Disclaimer certificate from third party exporter that they shall\nnot use such proceeds towards EO fulfillment of any EPCG\nauthorisation(s) obtained by them.",
+    "6\n6\nmanufacturer where the capital goods imported under the\nauthorisation have been installed.",
+    "(c)\nDisclaimer certificate from third party that they shall not use such\nproceeds towards EO fulfillment of any EPCG authorisation (s)\nobtained by them.",
+    "(a) ARE 1 certificate issued by Central Excise/Tax invoice for\nexport prescribed under the GST rules with due authentication\nby the Customs verifying the exports along with the shipping\nbill number, date and EPCG authorisation number, or\n(b)\nInvoice\nduly\nincorporating\nthe\nrelevant\nEPCG\nauthorisation number & date at the time of dispatch in case the\nunit is not registered with Central Excise/GST.",
+    "(v)\nDisclaimer certificate from third party exporter that they shall\nnot use such proceeds towards EO fulfillment of any EPCG\nauthorisation(s) obtained by them."
+  ],
+  "condition_logic": [
+    {
+      "id": "5.5.10.1",
+      "if": "(b) In case the Authorisation holder wants to export through a third\nparty, export documents viz., shipping bills/Bill of exports etc.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "(b) In case the Authorisation holder wants to export through a third\nparty, export documents viz., shipping bills/Bill of exports etc."
+    },
+    {
+      "id": "5.5.10.2",
+      "if": "any",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "shall\nindicate name of both authorisation holder and supporting\nmanufacturer, if any, along with EPCG authorisation number."
+    },
+    {
+      "id": "5.5.10.3",
+      "if": "The goods exported through third party should be\nmanufactured by the EPCG authorisation holder or the supporting\n5\n5\n(b)\nThe said “Certificate of supplies from SEZ\" shall be marked in\nquadruplicate with a copy each to the authorisation holder, SEZ supplier\nunit, designated officer at SEZ and the relevant port customs authorities.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "The goods exported through third party should be\nmanufactured by the EPCG authorisation holder or the supporting\n5\n5\n(b)\nThe said “Certificate of supplies from SEZ\" shall be marked in\nquadruplicate with a copy each to the authorisation holder, SEZ supplier\nunit, designated officer at SEZ and the relevant port customs authorities."
+    },
+    {
+      "id": "5.5.10.4",
+      "if": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted."
+    },
+    {
+      "id": "5.5.10.5",
+      "if": "(c)\nIn cases where the request for issue of \"Certificate of supplies from SEZ\" is\nmade in due course, it shall be accompanied with an authorisation\nutilization status issued by the relevant Customs authorities mentioned on\nthe authorisation for the RA to verify the actual utilization of authorisation\nat the time of application.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "(c)\nIn cases where the request for issue of \"Certificate of supplies from SEZ\" is\nmade in due course, it shall be accompanied with an authorisation\nutilization status issued by the relevant Customs authorities mentioned on\nthe authorisation for the RA to verify the actual utilization of authorisation\nat the time of application."
+    },
+    {
+      "id": "5.5.10.6",
+      "if": "The certificate may be issued to the extent of\nquantity available as per utilization status.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "The certificate may be issued to the extent of\nquantity available as per utilization status."
+    },
+    {
+      "id": "5.5.10.7",
+      "if": "In case the request for\n\"Certificate of supplies from SEZ\" is made along with the application for\nauthorisation, the same procedure shall apply.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "In case the request for\n\"Certificate of supplies from SEZ\" is made along with the application for\nauthorisation, the same procedure shall apply."
+    },
+    {
+      "id": "5.5.10.8",
+      "if": "(b)\nIn case the Authorisation holder wants to export through a third\nparty, export documents viz., shipping bills/Bill of exports etc.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "(b)\nIn case the Authorisation holder wants to export through a third\nparty, export documents viz., shipping bills/Bill of exports etc."
+    },
+    {
+      "id": "5.5.10.9",
+      "if": "The goods exported through third party should be\nmanufactured by the EPCG authorisation holder or the supporting\nmanufacturer where the capital goods imported under the\nauthorisation have been installed.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "The goods exported through third party should be\nmanufactured by the EPCG authorisation holder or the supporting\nmanufacturer where the capital goods imported under the\nauthorisation have been installed."
+    },
+    {
+      "id": "5.5.10.10",
+      "if": "(c) Disclaimer certificate from third party that they shall not use such\nproceeds towards EO fulfillment of any EPCG authorisation (s)\nobtained by them.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "(c) Disclaimer certificate from third party that they shall not use such\nproceeds towards EO fulfillment of any EPCG authorisation (s)\nobtained by them."
+    },
+    {
+      "id": "5.5.10.11",
+      "if": "(a) ARE 1 certificate issued by Central Excise/Tax invoice for\nexport prescribed under the GST rules with due authentication\nby the Customs verifying the exports along with the shipping\nbill number, date and EPCG authorisation number, or\n(b) Invoice duly incorporating the relevant EPCG\nauthorisation number & date at the time of dispatch in case the\nunit is not registered with Central Excise/GST.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "(a) ARE 1 certificate issued by Central Excise/Tax invoice for\nexport prescribed under the GST rules with due authentication\nby the Customs verifying the exports along with the shipping\nbill number, date and EPCG authorisation number, or\n(b) Invoice duly incorporating the relevant EPCG\nauthorisation number & date at the time of dispatch in case the\nunit is not registered with Central Excise/GST."
+    },
+    {
+      "id": "5.5.10.12",
+      "if": "(v) Disclaimer certificate from third party exporter that they shall\nnot use such proceeds towards EO fulfillment of any EPCG\nauthorisation(s) obtained by them.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "(v) Disclaimer certificate from third party exporter that they shall\nnot use such proceeds towards EO fulfillment of any EPCG\nauthorisation(s) obtained by them."
+    },
+    {
+      "id": "5.5.10.13",
+      "if": "6\n6\nmanufacturer where the capital goods imported under the\nauthorisation have been installed.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "6\n6\nmanufacturer where the capital goods imported under the\nauthorisation have been installed."
+    },
+    {
+      "id": "5.5.10.14",
+      "if": "(c)\nDisclaimer certificate from third party that they shall not use such\nproceeds towards EO fulfillment of any EPCG authorisation (s)\nobtained by them.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "(c)\nDisclaimer certificate from third party that they shall not use such\nproceeds towards EO fulfillment of any EPCG authorisation (s)\nobtained by them."
+    },
+    {
+      "id": "5.5.10.15",
+      "if": "(a) ARE 1 certificate issued by Central Excise/Tax invoice for\nexport prescribed under the GST rules with due authentication\nby the Customs verifying the exports along with the shipping\nbill number, date and EPCG authorisation number, or\n(b)\nInvoice\nduly\nincorporating\nthe\nrelevant\nEPCG\nauthorisation number & date at the time of dispatch in case the\nunit is not registered with Central Excise/GST.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "(a) ARE 1 certificate issued by Central Excise/Tax invoice for\nexport prescribed under the GST rules with due authentication\nby the Customs verifying the exports along with the shipping\nbill number, date and EPCG authorisation number, or\n(b)\nInvoice\nduly\nincorporating\nthe\nrelevant\nEPCG\nauthorisation number & date at the time of dispatch in case the\nunit is not registered with Central Excise/GST."
+    },
+    {
+      "id": "5.5.10.16",
+      "if": "(v)\nDisclaimer certificate from third party exporter that they shall\nnot use such proceeds towards EO fulfillment of any EPCG\nauthorisation(s) obtained by them.",
+      "then": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "source": "(v)\nDisclaimer certificate from third party exporter that they shall\nnot use such proceeds towards EO fulfillment of any EPCG\nauthorisation(s) obtained by them."
+    }
+  ]
+}

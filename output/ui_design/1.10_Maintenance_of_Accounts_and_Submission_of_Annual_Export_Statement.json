@@ -1,0 +1,37 @@
+{
+  "section": "1.10",
+  "ui": [
+    {
+      "screen_id": "Maintenance_of_Accounts_and_Submission_of_Annual_Export_Statement_overview",
+      "name": "Maintenance of Accounts and Submission of Annual Export Statement Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Maintenance_of_Accounts_and_Submission_of_Annual_Export_Statement_submission",
+      "name": "Maintenance of Accounts and Submission of Annual Export Statement Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "its_flag",
+        "has_flag",
+        "for_flag",
+        "two_flag",
+        "the_flag"
+      ]
+    }
+  ]
+}

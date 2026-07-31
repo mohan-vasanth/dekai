@@ -1,0 +1,37 @@
+{
+  "section": "4.25",
+  "ui": [
+    {
+      "screen_id": "Revision_of_SION_by_NC_overview",
+      "name": "Revision of SION by NC Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Revision_of_SION_by_NC_submission",
+      "name": "Revision of SION by NC Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "its_flag",
+        "are_flag",
+        "anf_flag",
+        "for_flag",
+        "and_flag"
+      ]
+    }
+  ]
+}

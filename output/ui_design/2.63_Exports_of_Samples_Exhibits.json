@@ -1,0 +1,37 @@
+{
+  "section": "2.63",
+  "ui": [
+    {
+      "screen_id": "Exports_of_Samples_Exhibits_overview",
+      "name": "Exports of Samples / Exhibits Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Exports_of_Samples_Exhibits_submission",
+      "name": "Exports of Samples / Exhibits Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "any_flag",
+        "for_flag",
+        "are_flag",
+        "may_flag",
+        "per_flag"
+      ]
+    }
+  ]
+}

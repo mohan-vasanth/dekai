@@ -1,0 +1,21 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.90",
+  "title": "Certificates of Origin (Co O)",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_90-R001",
+      "rule_description": "(iii) Further, as per the conditions required to avail GSP benefit under self-\ncertification system, the beneficiary country needs to have a verification system of\nsuch self-certified certificates of origin.",
+      "trigger": "Certificates of Origin (Co O)",
+      "condition": "2.90 Certificates of Origin (Co O)\n(a) Certificate of Origin (Co O) is an instrument to establish evidence on origin of\ngoods imported into any country.",
+      "validation": "(iii) Further, as per the conditions required to avail GSP benefit under self-\ncertification system, the beneficiary country needs to have a verification system of\nsuch self-certified certificates of origin.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.90 - Certificates of Origin (Co O)."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (iii) Further, as per the conditions required to avail GSP benefit under self-\ncertification system, the beneficiary country needs to have a verification system of\nsuch self-certified certificates of origin."
+  ]
+}

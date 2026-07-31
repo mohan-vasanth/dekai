@@ -1,0 +1,39 @@
+{
+  "section": "6.18",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.18",
+      "purpose": "Retrieve knowledge payload for section 6.18",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Application-for-grant-of-entitlements/validate",
+      "purpose": "Validate inputs and documents for Application for grant of entitlements",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

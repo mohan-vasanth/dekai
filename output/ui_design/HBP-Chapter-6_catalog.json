@@ -1,0 +1,1866 @@
+{
+  "screen_ids": [
+    "Scheme_overview",
+    "Scheme_submission",
+    "Application_Approval_Renewal_of_approval_overview",
+    "Application_Approval_Renewal_of_approval_submission",
+    "Application_Approval_Renewal_of_approval_exceptions",
+    "Legal_Undertaking_LUT_overview",
+    "Legal_Undertaking_LUT_submission",
+    "Legal_Undertaking_LUT_exceptions",
+    "Export_of_Goods_and_Services_overview",
+    "Export_of_Goods_and_Services_submission",
+    "Import_Domestic_Procurement_of_Goods_overview",
+    "Import_Domestic_Procurement_of_Goods_submission",
+    "Repair_Remaking_of_Jewellery_overview",
+    "Repair_Remaking_of_Jewellery_submission",
+    "Conditions_of_Import_overview",
+    "Conditions_of_Import_submission",
+    "Conditions_of_Import_exceptions",
+    "Taking_out_of_Fax_Machines_Laptop_Computers_outside_overview",
+    "Taking_out_of_Fax_Machines_Laptop_Computers_outside_submission",
+    "Facility_of_working_from_a_place_outside_the_unit_overview",
+    "Facility_of_working_from_a_place_outside_the_unit_submission",
+    "Leasing_of_Capital_Goods_overview",
+    "Leasing_of_Capital_Goods_submission",
+    "Net_Foreign_Exchange_NFE_Earnings_overview",
+    "Net_Foreign_Exchange_NFE_Earnings_submission",
+    "Net_Foreign_Exchange_NFE_Earnings_exceptions",
+    "Maintenance_of_Accounts_overview",
+    "Maintenance_of_Accounts_submission",
+    "Maintenance_of_Accounts_exceptions",
+    "Monitoring_of_NFE_overview",
+    "Monitoring_of_NFE_submission",
+    "Conversion_of_Scrap_Dust_sweeping_of_Gold_Silver_overview",
+    "Conversion_of_Scrap_Dust_sweeping_of_Gold_Silver_submission",
+    "Conversion_of_Scrap_Dust_sweeping_of_Gold_Silver_exceptions",
+    "DTA_Supplies_overview",
+    "DTA_Supplies_submission",
+    "DTA_Supplies_exceptions",
+    "Supplies_to_other_EOU_EHTP_STP_SEZ_BTP_Units_overview",
+    "Supplies_to_other_EOU_EHTP_STP_SEZ_BTP_Units_submission",
+    "Supplies_to_other_EOU_EHTP_STP_SEZ_BTP_Units_exceptions",
+    "Transfer_of_Power_from_one_Unit_to_another_overview",
+    "Transfer_of_Power_from_one_Unit_to_another_submission",
+    "Supply_of_Precious_Semi_precious_Synthetic_Stones_from_DTA_overview",
+    "Supply_of_Precious_Semi_precious_Synthetic_Stones_from_DTA_submission",
+    "Supply_of_Precious_Semi_precious_Synthetic_Stones_from_DTA_exceptions",
+    "Application_for_grant_of_entitlements_overview",
+    "Application_for_grant_of_entitlements_submission",
+    "Export_through_Other_Exporters_overview",
+    "Export_through_Other_Exporters_submission",
+    "Export_through_Other_Exporters_exceptions",
+    "Other_Entitlements_overview",
+    "Other_Entitlements_submission",
+    "Other_Entitlements_exceptions",
+    "Contract_Farming_overview",
+    "Contract_Farming_submission",
+    "Exports_through_Exhibitions_Export_Promotion_Tour_overview",
+    "Exports_through_Exhibitions_Export_Promotion_Tour_submission",
+    "Exports_through_Exhibitions_Export_Promotion_Tour_exceptions",
+    "Personal_Carriage_of_Gems_and_Jewellery_as_samples_for_Export_overview",
+    "Personal_Carriage_of_Gems_and_Jewellery_as_samples_for_Export_submission",
+    "Export_through_Show_rooms_abroad_Duty_free_shops_overview",
+    "Export_through_Show_rooms_abroad_Duty_free_shops_submission",
+    "Export_through_Show_rooms_abroad_Duty_free_shops_exceptions",
+    "Sale_through_Showrooms_Retail_outlets_at_International_overview",
+    "Sale_through_Showrooms_Retail_outlets_at_International_submission",
+    "Personal_Carriage_of_Import_Export_Parcels_including_overview",
+    "Personal_Carriage_of_Import_Export_Parcels_including_submission",
+    "Personal_Carriage_of_Import_Export_Parcels_including_exceptions",
+    "Replacement_Repair_of_Imported_Indigenous_Goods_overview",
+    "Replacement_Repair_of_Imported_Indigenous_Goods_submission",
+    "Replacement_Repair_of_Imported_Indigenous_Goods_exceptions",
+    "Samples_overview",
+    "Samples_submission",
+    "Donation_of_Computer_and_Computer_Peripherals_overview",
+    "Donation_of_Computer_and_Computer_Peripherals_submission",
+    "Distinct_Identity_overview",
+    "Distinct_Identity_submission",
+    "Distinct_Identity_exceptions",
+    "Unit_Approval_Committee_for_EOUs_overview",
+    "Unit_Approval_Committee_for_EOUs_submission",
+    "Approval_of_EHTP_STP_BTP_Units_overview",
+    "Approval_of_EHTP_STP_BTP_Units_submission",
+    "Approval_of_EHTP_STP_BTP_Units_exceptions",
+    "Powers_of_DC_Designated_Officer_overview",
+    "Powers_of_DC_Designated_Officer_submission",
+    "Powers_of_DC_Designated_Officer_exceptions",
+    "Change_of_Location_Inclusion_of_Additional_Location_with_BOA_overview",
+    "Change_of_Location_Inclusion_of_Additional_Location_with_BOA_submission",
+    "Clearance_of_Capital_Goods_in_DTA_overview",
+    "Clearance_of_Capital_Goods_in_DTA_submission",
+    "Depreciation_Norms_overview",
+    "Depreciation_Norms_submission",
+    "Conversion_overview",
+    "Conversion_submission",
+    "Conversion_exceptions",
+    "Fast_Track_Clearance_Procedure_overview",
+    "Fast_Track_Clearance_Procedure_submission",
+    "Fast_Track_Clearance_Procedure_exceptions",
+    "Time_Bound_Disposal_of_Applications_overview",
+    "Time_Bound_Disposal_of_Applications_submission",
+    "Formats_of_various_letters_permissions_to_EOUs_overview",
+    "Formats_of_various_letters_permissions_to_EOUs_submission"
+  ],
+  "sections": [
+    {
+      "section": "6.00",
+      "title": "Scheme",
+      "ui": [
+        {
+          "screen_id": "Scheme_overview",
+          "name": "Scheme Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Scheme_submission",
+          "name": "Scheme Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "ftp_flag",
+            "eous_flag",
+            "stps_flag",
+            "btps_flag",
+            "ehtps_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.01",
+      "title": "Application / Approval / Renewal of approval",
+      "ui": [
+        {
+          "screen_id": "Application_Approval_Renewal_of_approval_overview",
+          "name": "Application / Approval / Renewal of approval Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Application_Approval_Renewal_of_approval_submission",
+          "name": "Application / Approval / Renewal of approval Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "eou_flag",
+            "anf_flag",
+            "may_flag",
+            "per_flag",
+            "and_flag"
+          ]
+        },
+        {
+          "screen_id": "Application_Approval_Renewal_of_approval_exceptions",
+          "name": "Application / Approval / Renewal of approval Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.02",
+      "title": "Legal Undertaking (LUT)",
+      "ui": [
+        {
+          "screen_id": "Legal_Undertaking_LUT_overview",
+          "name": "Legal Undertaking (LUT) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Legal_Undertaking_LUT_submission",
+          "name": "Legal Undertaking (LUT) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "lut_flag",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "all_flag",
+            "for_flag"
+          ]
+        },
+        {
+          "screen_id": "Legal_Undertaking_LUT_exceptions",
+          "name": "Legal Undertaking (LUT) Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.03",
+      "title": "Export of Goods and Services",
+      "ui": [
+        {
+          "screen_id": "Export_of_Goods_and_Services_overview",
+          "name": "Export of Goods and Services Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Export_of_Goods_and_Services_submission",
+          "name": "Export of Goods and Services Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "may_flag",
+            "inr_flag",
+            "not_flag",
+            "fix_flag",
+            "who_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.04",
+      "title": "Import / Domestic Procurement of Goods",
+      "ui": [
+        {
+          "screen_id": "Import_Domestic_Procurement_of_Goods_overview",
+          "name": "Import / Domestic Procurement of Goods Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_Domestic_Procurement_of_Goods_submission",
+          "name": "Import / Domestic Procurement of Goods Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "dta_flag",
+            "raw_flag",
+            "and_flag",
+            "its_flag",
+            "new_flag",
+            "the_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.05",
+      "title": "Repair / Remaking of Jewellery",
+      "ui": [
+        {
+          "screen_id": "Repair_Remaking_of_Jewellery_overview",
+          "name": "Repair / Remaking of Jewellery Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Repair_Remaking_of_Jewellery_submission",
+          "name": "Repair / Remaking of Jewellery Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "for_flag",
+            "eous_flag",
+            "gold_flag",
+            "plain_flag",
+            "after_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.06",
+      "title": "Conditions of Import",
+      "ui": [
+        {
+          "screen_id": "Conditions_of_Import_overview",
+          "name": "Conditions of Import Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Conditions_of_Import_submission",
+          "name": "Conditions of Import Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "and_flag",
+            "may_flag",
+            "for_flag"
+          ]
+        },
+        {
+          "screen_id": "Conditions_of_Import_exceptions",
+          "name": "Conditions of Import Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.07",
+      "title": "Taking out of Fax Machines / Laptop / Computers outside",
+      "ui": [
+        {
+          "screen_id": "Taking_out_of_Fax_Machines_Laptop_Computers_outside_overview",
+          "name": "Taking out of Fax Machines / Laptop / Computers outside Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Taking_out_of_Fax_Machines_Laptop_Computers_outside_submission",
+          "name": "Taking out of Fax Machines / Laptop / Computers outside Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "out_flag",
+            "fax_flag",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "may_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.08",
+      "title": "Facility of working from a place outside the unit",
+      "ui": [
+        {
+          "screen_id": "Facility_of_working_from_a_place_outside_the_unit_overview",
+          "name": "Facility of working from a place outside the unit Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Facility_of_working_from_a_place_outside_the_unit_submission",
+          "name": "Facility of working from a place outside the unit Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "eou_flag",
+            "stp_flag",
+            "iii_flag",
+            "btp_flag",
+            "may_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.09",
+      "title": "Leasing of Capital Goods",
+      "ui": [
+        {
+          "screen_id": "Leasing_of_Capital_Goods_overview",
+          "name": "Leasing of Capital Goods Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Leasing_of_Capital_Goods_submission",
+          "name": "Leasing of Capital Goods Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "for_flag",
+            "nfe_flag",
+            "ftp_flag",
+            "free_flag",
+            "cost_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.10",
+      "title": "Net Foreign Exchange (NFE) Earnings",
+      "ui": [
+        {
+          "screen_id": "Net_Foreign_Exchange_NFE_Earnings_overview",
+          "name": "Net Foreign Exchange (NFE) Earnings Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Net_Foreign_Exchange_NFE_Earnings_submission",
+          "name": "Net Foreign Exchange (NFE) Earnings Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "net_flag",
+            "nfe_flag",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "the_flag"
+          ]
+        },
+        {
+          "screen_id": "Net_Foreign_Exchange_NFE_Earnings_exceptions",
+          "name": "Net Foreign Exchange (NFE) Earnings Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.11",
+      "title": "Maintenance of Accounts",
+      "ui": [
+        {
+          "screen_id": "Maintenance_of_Accounts_overview",
+          "name": "Maintenance of Accounts Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Maintenance_of_Accounts_submission",
+          "name": "Maintenance of Accounts Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "and_flag",
+            "the_flag",
+            "use_flag"
+          ]
+        },
+        {
+          "screen_id": "Maintenance_of_Accounts_exceptions",
+          "name": "Maintenance of Accounts Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.12",
+      "title": "Monitoring of NFE",
+      "ui": [
+        {
+          "screen_id": "Monitoring_of_NFE_overview",
+          "name": "Monitoring of NFE Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Monitoring_of_NFE_submission",
+          "name": "Monitoring of NFE Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "nfe_flag",
+            "per_flag",
+            "stp_flag",
+            "btp_flag",
+            "eous_flag",
+            "anfs_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.13",
+      "title": "Conversion of Scrap / Dust / sweeping of Gold / Silver /",
+      "ui": [
+        {
+          "screen_id": "Conversion_of_Scrap_Dust_sweeping_of_Gold_Silver_overview",
+          "name": "Conversion of Scrap / Dust / sweeping of Gold / Silver / Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Conversion_of_Scrap_Dust_sweeping_of_Gold_Silver_submission",
+          "name": "Conversion of Scrap / Dust / sweeping of Gold / Silver / Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "eou_flag",
+            "stp_flag",
+            "and_flag",
+            "dta_flag",
+            "gst_flag"
+          ]
+        },
+        {
+          "screen_id": "Conversion_of_Scrap_Dust_sweeping_of_Gold_Silver_exceptions",
+          "name": "Conversion of Scrap / Dust / sweeping of Gold / Silver / Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.14",
+      "title": "DTA Supplies",
+      "ui": [
+        {
+          "screen_id": "DTA_Supplies_overview",
+          "name": "DTA Supplies Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "DTA_Supplies_submission",
+          "name": "DTA Supplies Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "dta_flag",
+            "ftp_flag",
+            "not_flag",
+            "any_flag",
+            "the_flag",
+            "are_flag"
+          ]
+        },
+        {
+          "screen_id": "DTA_Supplies_exceptions",
+          "name": "DTA Supplies Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.15",
+      "title": "Supplies to other EOU / EHTP / STP / SEZ / BTP Units",
+      "ui": [
+        {
+          "screen_id": "Supplies_to_other_EOU_EHTP_STP_SEZ_BTP_Units_overview",
+          "name": "Supplies to other EOU / EHTP / STP / SEZ / BTP Units Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Supplies_to_other_EOU_EHTP_STP_SEZ_BTP_Units_submission",
+          "name": "Supplies to other EOU / EHTP / STP / SEZ / BTP Units Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "eou_flag",
+            "stp_flag",
+            "sez_flag",
+            "btp_flag",
+            "nfe_flag",
+            "are_flag"
+          ]
+        },
+        {
+          "screen_id": "Supplies_to_other_EOU_EHTP_STP_SEZ_BTP_Units_exceptions",
+          "name": "Supplies to other EOU / EHTP / STP / SEZ / BTP Units Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.16",
+      "title": "Transfer of Power from one Unit to another",
+      "ui": [
+        {
+          "screen_id": "Transfer_of_Power_from_one_Unit_to_another_overview",
+          "name": "Transfer of Power from one Unit to another Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Transfer_of_Power_from_one_Unit_to_another_submission",
+          "name": "Transfer of Power from one Unit to another Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "one_flag",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "from_flag",
+            "unit_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.17",
+      "title": "Supply of Precious / Semi-precious / Synthetic Stones from DTA",
+      "ui": [
+        {
+          "screen_id": "Supply_of_Precious_Semi_precious_Synthetic_Stones_from_DTA_overview",
+          "name": "Supply of Precious / Semi-precious / Synthetic Stones from DTA Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Supply_of_Precious_Semi_precious_Synthetic_Stones_from_DTA_submission",
+          "name": "Supply of Precious / Semi-precious / Synthetic Stones from DTA Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "dta_flag",
+            "and_flag",
+            "for_flag",
+            "hbp_flag",
+            "vol_flag",
+            "are_flag"
+          ]
+        },
+        {
+          "screen_id": "Supply_of_Precious_Semi_precious_Synthetic_Stones_from_DTA_exceptions",
+          "name": "Supply of Precious / Semi-precious / Synthetic Stones from DTA Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.18",
+      "title": "Application for grant of entitlements",
+      "ui": [
+        {
+          "screen_id": "Application_for_grant_of_entitlements_overview",
+          "name": "Application for grant of entitlements Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Application_for_grant_of_entitlements_submission",
+          "name": "Application for grant of entitlements Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "all_flag",
+            "may_flag",
+            "made_flag",
+            "grant_flag",
+            "officer_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.19",
+      "title": "Export through Other Exporters",
+      "ui": [
+        {
+          "screen_id": "Export_through_Other_Exporters_overview",
+          "name": "Export through Other Exporters Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Export_through_Other_Exporters_submission",
+          "name": "Export through Other Exporters Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "may_flag",
+            "any_flag",
+            "sez_flag"
+          ]
+        },
+        {
+          "screen_id": "Export_through_Other_Exporters_exceptions",
+          "name": "Export through Other Exporters Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.20",
+      "title": "Other Entitlements",
+      "ui": [
+        {
+          "screen_id": "Other_Entitlements_overview",
+          "name": "Other Entitlements Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Other_Entitlements_submission",
+          "name": "Other Entitlements Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "fob_flag",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "can_flag",
+            "its_flag"
+          ]
+        },
+        {
+          "screen_id": "Other_Entitlements_exceptions",
+          "name": "Other Entitlements Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.22",
+      "title": "Contract Farming",
+      "ui": [
+        {
+          "screen_id": "Contract_Farming_overview",
+          "name": "Contract Farming Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Contract_Farming_submission",
+          "name": "Contract Farming Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "out_flag",
+            "and_flag",
+            "dta_flag",
+            "boa_flag",
+            "eou_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.23",
+      "title": "Exports through Exhibitions / Export Promotion Tour",
+      "ui": [
+        {
+          "screen_id": "Exports_through_Exhibitions_Export_Promotion_Tour_overview",
+          "name": "Exports through Exhibitions / Export Promotion Tour Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Exports_through_Exhibitions_Export_Promotion_Tour_submission",
+          "name": "Exports through Exhibitions / Export Promotion Tour Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "may_flag",
+            "for_flag",
+            "its_flag"
+          ]
+        },
+        {
+          "screen_id": "Exports_through_Exhibitions_Export_Promotion_Tour_exceptions",
+          "name": "Exports through Exhibitions / Export Promotion Tour Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.24",
+      "title": "Personal Carriage of Gems and Jewellery as samples for Export",
+      "ui": [
+        {
+          "screen_id": "Personal_Carriage_of_Gems_and_Jewellery_as_samples_for_Export_overview",
+          "name": "Personal Carriage of Gems and Jewellery as samples for Export Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Personal_Carriage_of_Gems_and_Jewellery_as_samples_for_Export_submission",
+          "name": "Personal Carriage of Gems and Jewellery as samples for Export Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "for_flag",
+            "cut_flag",
+            "eou_flag",
+            "has_flag",
+            "two_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.25",
+      "title": "Export through Show-rooms abroad / Duty free shops",
+      "ui": [
+        {
+          "screen_id": "Export_through_Show_rooms_abroad_Duty_free_shops_overview",
+          "name": "Export through Show-rooms abroad / Duty free shops Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Export_through_Show_rooms_abroad_Duty_free_shops_submission",
+          "name": "Export through Show-rooms abroad / Duty free shops Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "set_flag",
+            "not_flag",
+            "duty_flag",
+            "free_flag",
+            "also_flag"
+          ]
+        },
+        {
+          "screen_id": "Export_through_Show_rooms_abroad_Duty_free_shops_exceptions",
+          "name": "Export through Show-rooms abroad / Duty free shops Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.26",
+      "title": "Sale through Showrooms / Retail outlets at International",
+      "ui": [
+        {
+          "screen_id": "Sale_through_Showrooms_Retail_outlets_at_International_overview",
+          "name": "Sale through Showrooms / Retail outlets at International Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Sale_through_Showrooms_Retail_outlets_at_International_submission",
+          "name": "Sale through Showrooms / Retail outlets at International Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "set_flag",
+            "for_flag",
+            "sale_flag",
+            "eous_flag",
+            "with_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.27",
+      "title": "Personal Carriage of Import / Export Parcels including",
+      "ui": [
+        {
+          "screen_id": "Personal_Carriage_of_Import_Export_Parcels_including_overview",
+          "name": "Personal Carriage of Import / Export Parcels including Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Personal_Carriage_of_Import_Export_Parcels_including_submission",
+          "name": "Personal Carriage of Import / Export Parcels including Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "his_flag",
+            "and_flag",
+            "iii_flag",
+            "cod_flag",
+            "are_flag"
+          ]
+        },
+        {
+          "screen_id": "Personal_Carriage_of_Import_Export_Parcels_including_exceptions",
+          "name": "Personal Carriage of Import / Export Parcels including Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.28",
+      "title": "Replacement / Repair of Imported / Indigenous Goods",
+      "ui": [
+        {
+          "screen_id": "Replacement_Repair_of_Imported_Indigenous_Goods_overview",
+          "name": "Replacement / Repair of Imported / Indigenous Goods Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Replacement_Repair_of_Imported_Indigenous_Goods_submission",
+          "name": "Replacement / Repair of Imported / Indigenous Goods Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "for_flag",
+            "any_flag",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag"
+          ]
+        },
+        {
+          "screen_id": "Replacement_Repair_of_Imported_Indigenous_Goods_exceptions",
+          "name": "Replacement / Repair of Imported / Indigenous Goods Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.29",
+      "title": "Samples",
+      "ui": [
+        {
+          "screen_id": "Samples_overview",
+          "name": "Samples Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Samples_submission",
+          "name": "Samples Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "may_flag",
+            "and_flag",
+            "dta_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.30",
+      "title": "Donation of Computer and Computer Peripherals",
+      "ui": [
+        {
+          "screen_id": "Donation_of_Computer_and_Computer_Peripherals_overview",
+          "name": "Donation of Computer and Computer Peripherals Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Donation_of_Computer_and_Computer_Peripherals_submission",
+          "name": "Donation of Computer and Computer Peripherals Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "may_flag",
+            "gst_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.31",
+      "title": "Distinct Identity",
+      "ui": [
+        {
+          "screen_id": "Distinct_Identity_overview",
+          "name": "Distinct Identity Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Distinct_Identity_submission",
+          "name": "Distinct Identity Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "two_flag",
+            "not_flag",
+            "for_flag"
+          ]
+        },
+        {
+          "screen_id": "Distinct_Identity_exceptions",
+          "name": "Distinct Identity Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.32",
+      "title": "Unit Approval Committee for EOUs",
+      "ui": [
+        {
+          "screen_id": "Unit_Approval_Committee_for_EOUs_overview",
+          "name": "Unit Approval Committee for EOUs Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Unit_Approval_Committee_for_EOUs_submission",
+          "name": "Unit Approval Committee for EOUs Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "may_flag",
+            "ftp_flag",
+            "and_flag",
+            "fob_flag",
+            "not_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.33",
+      "title": "Approval of EHTP / STP / BTP Units",
+      "ui": [
+        {
+          "screen_id": "Approval_of_EHTP_STP_BTP_Units_overview",
+          "name": "Approval of EHTP / STP / BTP Units Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Approval_of_EHTP_STP_BTP_Units_submission",
+          "name": "Approval of EHTP / STP / BTP Units Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "stp_flag",
+            "btp_flag",
+            "d&r_flag",
+            "act_flag",
+            "for_flag",
+            "new_flag"
+          ]
+        },
+        {
+          "screen_id": "Approval_of_EHTP_STP_BTP_Units_exceptions",
+          "name": "Approval of EHTP / STP / BTP Units Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.34",
+      "title": "Powers of DC / Designated Officer",
+      "ui": [
+        {
+          "screen_id": "Powers_of_DC_Designated_Officer_overview",
+          "name": "Powers of DC / Designated Officer Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Powers_of_DC_Designated_Officer_submission",
+          "name": "Powers of DC / Designated Officer Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "dta_flag",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "and_flag",
+            "per_flag"
+          ]
+        },
+        {
+          "screen_id": "Powers_of_DC_Designated_Officer_exceptions",
+          "name": "Powers of DC / Designated Officer Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.35",
+      "title": "Change of Location / Inclusion of Additional Location with BOA",
+      "ui": [
+        {
+          "screen_id": "Change_of_Location_Inclusion_of_Additional_Location_with_BOA_overview",
+          "name": "Change of Location / Inclusion of Additional Location with BOA Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Change_of_Location_Inclusion_of_Additional_Location_with_BOA_submission",
+          "name": "Change of Location / Inclusion of Additional Location with BOA Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "boa_flag",
+            "may_flag",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag",
+            "and_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.36",
+      "title": "Clearance of Capital Goods in DTA",
+      "ui": [
+        {
+          "screen_id": "Clearance_of_Capital_Goods_in_DTA_overview",
+          "name": "Clearance of Capital Goods in DTA Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Clearance_of_Capital_Goods_in_DTA_submission",
+          "name": "Clearance of Capital Goods in DTA Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "dta_flag",
+            "per_flag",
+            "ftp_flag",
+            "and_flag",
+            "d&r_flag",
+            "act_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.37",
+      "title": "Depreciation Norms",
+      "ui": [
+        {
+          "screen_id": "Depreciation_Norms_overview",
+          "name": "Depreciation Norms Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Depreciation_Norms_submission",
+          "name": "Depreciation Norms Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "case_flag",
+            "year_flag",
+            "than_flag",
+            "rate_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.38",
+      "title": "Conversion",
+      "ui": [
+        {
+          "screen_id": "Conversion_overview",
+          "name": "Conversion Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Conversion_submission",
+          "name": "Conversion Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "dta_flag",
+            "may_flag",
+            "for_flag",
+            "eou_flag",
+            "stp_flag",
+            "btp_flag"
+          ]
+        },
+        {
+          "screen_id": "Conversion_exceptions",
+          "name": "Conversion Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.39",
+      "title": "Fast Track Clearance Procedure",
+      "ui": [
+        {
+          "screen_id": "Fast_Track_Clearance_Procedure_overview",
+          "name": "Fast Track Clearance Procedure Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Fast_Track_Clearance_Procedure_submission",
+          "name": "Fast Track Clearance Procedure Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "ftp_flag",
+            "for_flag",
+            "may_flag",
+            "two_flag",
+            "the_flag",
+            "set_flag"
+          ]
+        },
+        {
+          "screen_id": "Fast_Track_Clearance_Procedure_exceptions",
+          "name": "Fast Track Clearance Procedure Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.40",
+      "title": "Time Bound Disposal of Applications",
+      "ui": [
+        {
+          "screen_id": "Time_Bound_Disposal_of_Applications_overview",
+          "name": "Time Bound Disposal of Applications Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Time_Bound_Disposal_of_Applications_submission",
+          "name": "Time Bound Disposal of Applications Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "all_flag",
+            "and_flag",
+            "for_flag",
+            "lut_flag",
+            "dta_flag",
+            "day_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.41",
+      "title": "Formats of various letters/permissions to EOUs",
+      "ui": [
+        {
+          "screen_id": "Formats_of_various_letters_permissions_to_EOUs_overview",
+          "name": "Formats of various letters/permissions to EOUs Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Formats_of_various_letters_permissions_to_EOUs_submission",
+          "name": "Formats of various letters/permissions to EOUs Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "not_flag",
+            "are_flag",
+            "dcs_flag",
+            "may_flag"
+          ]
+        }
+      ]
+    }
+  ]
+}

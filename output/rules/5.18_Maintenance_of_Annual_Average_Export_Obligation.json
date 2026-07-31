@@ -1,0 +1,21 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.18",
+  "title": "Maintenance of Annual Average Export Obligation",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_18-R001",
+      "rule_description": "IF validations pass THEN recommend action: 5.18 Maintenance of Annual Average Export Obligation\nThe excess exports done towards the average export obligation fulfilment of an\nEPCG authorisation during a year can be used to offset any shortfall in the Average\nEO done in other year(s) of the EO period or the block period as the case may be\nprovided Average EO imposed is maintained on an overall basis, within the block\nperiod or the EO period as applicable.",
+      "trigger": "Maintenance of Annual Average Export Obligation",
+      "condition": "Section 5.18 is applicable",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "5.18 Maintenance of Annual Average Export Obligation\nThe excess exports done towards the average export obligation fulfilment of an\nEPCG authorisation during a year can be used to offset any shortfall in the Average\nEO done in other year(s) of the EO period or the block period as the case may be\nprovided Average EO imposed is maintained on an overall basis, within the block\nperiod or the EO period as applicable.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.18 - Maintenance of Annual Average Export Obligation."
+    }
+  ],
+  "ai_rules": [
+    "IF validations pass THEN recommend action: 5.18 Maintenance of Annual Average Export Obligation\nThe excess exports done towards the average export obligation fulfilment of an\nEPCG authorisation during a year can be used to offset any shortfall in the Average\nEO done in other year(s) of the EO period or the block period as the case may be\nprovided Average EO imposed is maintained on an overall basis, within the block\nperiod or the EO period as applicable."
+  ]
+}

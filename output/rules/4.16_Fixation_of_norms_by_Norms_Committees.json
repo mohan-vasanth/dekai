@@ -1,0 +1,44 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.16",
+  "title": "Fixation of norms by Norms Committees",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_16-R001",
+      "rule_description": "(ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "trigger": "Fixation of norms by Norms Committees",
+      "condition": "(ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "validation": "(ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "action": "(ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "exception": "However, bond waiver / redemption shall not be allowed\npending fixation of norms in such cases.",
+      "output": "DEKAI should produce a compliance decision for 4.16 - Fixation of norms by Norms Committees."
+    },
+    {
+      "rule_id": "CH4-SEC4_16-R002",
+      "rule_description": "However, bond waiver / redemption shall not be allowed\npending fixation of norms in such cases.",
+      "trigger": "Fixation of norms by Norms Committees",
+      "condition": "In case SION for the said\nproduct is notified, SION would be made applicable for deciding wastage\nnorms and Export Obligation.",
+      "validation": "(iii) In cases where entitlement of the applicant for grant of Advance\nAuthorisation as per paragraph 4.12 of HBP was lower than the quantity of\ninput applied by the applicant under Advance Authorisation and export\nobligation is completed while fixation of norms by Norms Committee is\npending, entitlement for authorisation as given in paragraph 4.12 of HBP may\nbe re-credited upon production of documentary evidence (copies of Shipping\nbill / bill of export/ Tax invoice for supply prescribed under CGST/SGST/UT\nGST rules) showing fulfilment of export obligation in respect of previous\nauthorisations.",
+      "action": "(ii)\nIn case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "exception": "However, bond waiver / redemption shall not be allowed\npending fixation of norms in such cases.",
+      "output": "DEKAI should produce a compliance decision for 4.16 - Fixation of norms by Norms Committees."
+    },
+    {
+      "rule_id": "CH4-SEC4_16-R003",
+      "rule_description": "(ii)\nIn case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "trigger": "Fixation of norms by Norms Committees",
+      "condition": "(iii) In cases where entitlement of the applicant for grant of Advance\nAuthorisation as per paragraph 4.12 of HBP was lower than the quantity of\ninput applied by the applicant under Advance Authorisation and export\nobligation is completed while fixation of norms by Norms Committee is\npending, entitlement for authorisation as given in paragraph 4.12 of HBP may\nbe re-credited upon production of documentary evidence (copies of Shipping\nbill / bill of export/ Tax invoice for supply prescribed under CGST/SGST/UT\nGST rules) showing fulfilment of export obligation in respect of previous\nauthorisations.",
+      "validation": "However, bond waiver / redemption shall not be allowed\npending fixation of norms in such cases.",
+      "action": "(ii)\nIn case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "exception": "However, bond waiver / redemption shall not be allowed\npending fixation of norms in such cases.",
+      "output": "DEKAI should produce a compliance decision for 4.16 - Fixation of norms by Norms Committees."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+    "IF detected context matches section rule THEN enforce: However, bond waiver / redemption shall not be allowed\npending fixation of norms in such cases.",
+    "IF detected context matches section rule THEN enforce: (ii)\nIn case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+    "IF validations pass THEN recommend action: (ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP."
+  ]
+}

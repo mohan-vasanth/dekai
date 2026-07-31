@@ -1,0 +1,47 @@
+{
+  "section": "10.06",
+  "ui": [
+    {
+      "screen_id": "Inter_Ministerial_Working_Group_IMWG_overview",
+      "name": "Inter Ministerial Working Group (IMWG) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Inter_Ministerial_Working_Group_IMWG_submission",
+      "name": "Inter Ministerial Working Group (IMWG) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "for_flag",
+        "itc_flag",
+        "and_flag",
+        "are_flag",
+        "its_flag"
+      ]
+    },
+    {
+      "screen_id": "Inter_Ministerial_Working_Group_IMWG_exceptions",
+      "name": "Inter Ministerial Working Group (IMWG) Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

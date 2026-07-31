@@ -1,0 +1,47 @@
+{
+  "section": "10.12",
+  "ui": [
+    {
+      "screen_id": "Issue_of_authorisations_for_repair_replacement_of_defective_overview",
+      "name": "Issue of authorisations for repair/replacement of defective Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Issue_of_authorisations_for_repair_replacement_of_defective_submission",
+      "name": "Issue of authorisations for repair/replacement of defective Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "may_flag",
+        "and_flag",
+        "iii_flag",
+        "anf_flag"
+      ]
+    },
+    {
+      "screen_id": "Issue_of_authorisations_for_repair_replacement_of_defective_exceptions",
+      "name": "Issue of authorisations for repair/replacement of defective Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

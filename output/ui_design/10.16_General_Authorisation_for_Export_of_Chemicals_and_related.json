@@ -1,0 +1,37 @@
+{
+  "section": "10.16",
+  "ui": [
+    {
+      "screen_id": "General_Authorisation_for_Export_of_Chemicals_and_related_overview",
+      "name": "General Authorisation for Export of Chemicals and related Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "General_Authorisation_for_Export_of_Chemicals_and_related_submission",
+      "name": "General Authorisation for Export of Chemicals and related Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "and_flag",
+        "the_flag",
+        "sub_flag",
+        "not_flag",
+        "are_flag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "section": "1.06",
+  "conditions": [
+    "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.",
+    "(b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC."
+  ],
+  "condition_logic": [
+    {
+      "id": "1.1.06.1",
+      "if": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.",
+      "then": "Route for review",
+      "source": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate."
+    },
+    {
+      "id": "1.1.06.2",
+      "if": "(b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+      "then": "Route for review",
+      "source": "(b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC."
+    }
+  ]
+}

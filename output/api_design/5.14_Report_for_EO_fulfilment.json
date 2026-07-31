@@ -1,0 +1,57 @@
+{
+  "section": "5.14",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5.14",
+      "purpose": "Retrieve knowledge payload for section 5.14",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Report-for-EO-fulfilment/validate",
+      "purpose": "Validate inputs and documents for Report for EO fulfilment",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Report-for-EO-fulfilment/execute",
+      "purpose": "Trigger business action for 5.14 Report for EO fulfilment\nAuthorisation holder shall submit to RA concerned a report on fulfilment of export\nobligation through online mode after expiry of first block period of four years and\ncontinuously till the expiry of valid EO period.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

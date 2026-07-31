@@ -1,0 +1,54 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.69",
+  "title": "Release of Gold/Silver/Platinum by Nominated Agencies",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_69-R001",
+      "rule_description": "4.69 Release of Gold/Silver/Platinum by Nominated Agencies\nGold / silver / platinum shall be released to exporter of jewellery by nominated\nagencies/RBI authorised banks in multiples of 10 gms or in Ten Tola Bars in\nrespect of gold.",
+      "trigger": "Release of Gold/Silver/Platinum by Nominated Agencies",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "4.69 Release of Gold/Silver/Platinum by Nominated Agencies\nGold / silver / platinum shall be released to exporter of jewellery by nominated\nagencies/RBI authorised banks in multiples of 10 gms or in Ten Tola Bars in\nrespect of gold.",
+      "action": "Manual review required.",
+      "exception": "However, silver shall be released to exporters in multiples of 1\nKg only.",
+      "output": "DEKAI should produce a compliance decision for 4.69 - Release of Gold/Silver/Platinum by Nominated Agencies."
+    },
+    {
+      "rule_id": "CH4-SEC4_69-R002",
+      "rule_description": "However, silver shall be released to exporters in multiples of 1\nKg only.",
+      "trigger": "Release of Gold/Silver/Platinum by Nominated Agencies",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "However, silver shall be released to exporters in multiples of 1\nKg only.",
+      "action": "Manual review required.",
+      "exception": "However, silver shall be released to exporters in multiples of 1\nKg only.",
+      "output": "DEKAI should produce a compliance decision for 4.69 - Release of Gold/Silver/Platinum by Nominated Agencies."
+    },
+    {
+      "rule_id": "CH4-SEC4_69-R003",
+      "rule_description": "Any balance of gold/ silver/ platinum shall be available to exporter\nalong with his future entitlement.",
+      "trigger": "Release of Gold/Silver/Platinum by Nominated Agencies",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Any balance of gold/ silver/ platinum shall be available to exporter\nalong with his future entitlement.",
+      "action": "Manual review required.",
+      "exception": "However, silver shall be released to exporters in multiples of 1\nKg only.",
+      "output": "DEKAI should produce a compliance decision for 4.69 - Release of Gold/Silver/Platinum by Nominated Agencies."
+    },
+    {
+      "rule_id": "CH4-SEC4_69-R004",
+      "rule_description": "Gold/ silver shall be released by the\nnominated agencies in terms of 0.995 fineness or more and platinum in terms\nof 0.900 fineness or more.",
+      "trigger": "Release of Gold/Silver/Platinum by Nominated Agencies",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Gold/ silver shall be released by the\nnominated agencies in terms of 0.995 fineness or more and platinum in terms\nof 0.900 fineness or more.",
+      "action": "Manual review required.",
+      "exception": "However, silver shall be released to exporters in multiples of 1\nKg only.",
+      "output": "DEKAI should produce a compliance decision for 4.69 - Release of Gold/Silver/Platinum by Nominated Agencies."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.69 Release of Gold/Silver/Platinum by Nominated Agencies\nGold / silver / platinum shall be released to exporter of jewellery by nominated\nagencies/RBI authorised banks in multiples of 10 gms or in Ten Tola Bars in\nrespect of gold.",
+    "IF detected context matches section rule THEN enforce: However, silver shall be released to exporters in multiples of 1\nKg only.",
+    "IF detected context matches section rule THEN enforce: Any balance of gold/ silver/ platinum shall be available to exporter\nalong with his future entitlement.",
+    "IF detected context matches section rule THEN enforce: Gold/ silver shall be released by the\nnominated agencies in terms of 0.995 fineness or more and platinum in terms\nof 0.900 fineness or more."
+  ]
+}

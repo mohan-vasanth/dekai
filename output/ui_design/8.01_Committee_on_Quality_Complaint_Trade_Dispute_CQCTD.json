@@ -1,0 +1,37 @@
+{
+  "section": "8.01",
+  "ui": [
+    {
+      "screen_id": "Committee_on_Quality_Complaint_Trade_Dispute_CQCTD_overview",
+      "name": "Committee on Quality Complaint & Trade Dispute (CQCTD) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Committee_on_Quality_Complaint_Trade_Dispute_CQCTD_submission",
+      "name": "Committee on Quality Complaint & Trade Dispute (CQCTD) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "and_flag",
+        "the_flag",
+        "has_flag",
+        "cla_flag",
+        "new_flag"
+      ]
+    }
+  ]
+}

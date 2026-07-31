@@ -1,0 +1,47 @@
+{
+  "section": "5.16",
+  "ui": [
+    {
+      "screen_id": "Extension_in_Export_Obligation_Period_overview",
+      "name": "Extension in Export Obligation Period Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Extension_in_Export_Obligation_Period_submission",
+      "name": "Extension in Export Obligation Period Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "hbp_flag",
+        "the_flag",
+        "two_flag",
+        "one_flag",
+        "may_flag",
+        "fee_flag"
+      ]
+    },
+    {
+      "screen_id": "Extension_in_Export_Obligation_Period_exceptions",
+      "name": "Extension in Export Obligation Period Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

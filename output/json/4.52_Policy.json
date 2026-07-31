@@ -1,0 +1,284 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.52",
+  "title": "Policy",
+  "purpose": "4.52 Policy\nPolicy relating to the Duty-Free Import Authorisation (DFIA) Scheme is\nprescribed in Chapter 4 of FTP.",
+  "purpose_thanglish": "Indha Policy section-la, 4.52 Policy\nPolicy relating to the Duty-Free import Authorisation (DFIA) Scheme is\nprescribed in Chapter 4 of FTP.",
+  "summary": "4.52 Policy\nPolicy relating to the Duty-Free Import Authorisation (DFIA) Scheme is\nprescribed in Chapter 4 of FTP.",
+  "business_meaning": "4.52 Policy\nPolicy relating to the Duty-Free Import Authorisation (DFIA) Scheme is\nprescribed in Chapter 4 of FTP.",
+  "business_explanation": "4.52 Policy\nPolicy relating to the Duty-Free Import Authorisation (DFIA) Scheme is\nprescribed in Chapter 4 of FTP.",
+  "business_explanation_thanglish": "Indha Policy section-la, 4.52 Policy\nPolicy relating to the Duty-Free import Authorisation (DFIA) Scheme is\nprescribed in Chapter 4 of FTP.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_52-R001",
+      "rule_description": "4.52 Policy\nPolicy relating to the Duty-Free Import Authorisation (DFIA) Scheme is\nprescribed in Chapter 4 of FTP.",
+      "trigger": "Policy",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.52 - Policy."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [
+    "4"
+  ],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 4.52 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Policy\nReview section 4.52 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 4.52 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Policy Decision\nIF section 4.52 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Policy; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Policy, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the policy process.",
+  "real_world_example_thanglish": "Indha Policy section-la, Example: an importer or exporter invokes Policy, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the policy process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "ftp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:FTP"
+    },
+    {
+      "name": "dfia_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DFIA"
+    },
+    {
+      "name": "policy_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Policy"
+    },
+    {
+      "name": "import_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Import"
+    },
+    {
+      "name": "scheme_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Scheme"
+    },
+    {
+      "name": "chapter_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Chapter"
+    },
+    {
+      "name": "relating_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:relating"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.52",
+      "purpose": "Retrieve knowledge payload for section 4.52",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Policy/validate",
+      "purpose": "Validate inputs and documents for Policy",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Policy_overview",
+      "name": "Policy Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Policy_submission",
+      "name": "Policy Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "ftp_flag",
+        "dfia_flag",
+        "policy_flag",
+        "import_flag",
+        "scheme_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Policy require?",
+    "Which documents are needed for Policy?",
+    "How does DEKAI validate Policy requests?"
+  ],
+  "expected_ai_answers": [
+    "Policy requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Policy by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4.52?",
+      "answer_en": "4.52 Policy\nPolicy relating to the Duty-Free Import Authorisation (DFIA) Scheme is\nprescribed in Chapter 4 of FTP.",
+      "question_thanglish": "Indha Policy section-la, What is the purpose of section 4.52?",
+      "answer_thanglish": "Indha Policy section-la, 4.52 Policy\nPolicy relating to the Duty-Free import Authorisation (DFIA) Scheme is\nprescribed in Chapter 4 of FTP."
+    },
+    {
+      "question_en": "What documents are required under Policy?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Policy section-la, What documents are required under Policy?",
+      "answer_thanglish": "Indha Policy section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Policy?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Policy section-la, Which authority handles Policy?",
+      "answer_thanglish": "Indha Policy section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Policy?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4.52, apply the extracted rules, and guide the user through Review section 4.52 requirements.",
+      "question_thanglish": "Indha Policy section-la, User asks: How do I comply with Policy?",
+      "answer_thanglish": "Indha Policy section-la, AI answers: DEKAI should evaluate section 4.52, apply the extracted rules, and guide the user through Review section 4.52 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Policy?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Policy section-la, User asks: Which validations apply to Policy?",
+      "answer_thanglish": "Indha Policy section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 4.52, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Policy into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Policy section-la, Capture chapter 4, section 4.52, title, and page references as immutable knowledge metadata.",
+    "Indha Policy section-la, Bind validations for Policy into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "the",
+    "FTP",
+    "DFIA",
+    "Policy",
+    "Import",
+    "Scheme",
+    "Chapter",
+    "relating",
+    "Duty-Free",
+    "prescribed",
+    "Authorisation"
+  ],
+  "search_keywords": [
+    "the",
+    "FTP",
+    "DFIA",
+    "Policy",
+    "Import",
+    "Scheme",
+    "Chapter",
+    "relating",
+    "Duty-Free",
+    "prescribed",
+    "Authorisation"
+  ],
+  "intent": "Provide knowledge guidance for Policy.",
+  "tags": [
+    "4.52",
+    "Policy",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    33
+  ],
+  "pages": [
+    33
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "4.52 Policy\nPolicy relating to the Duty-Free Import Authorisation (DFIA) Scheme is\nprescribed in Chapter 4 of FTP.",
+  "mermaid": "flowchart TD\n    S1[\"Review section 4.52 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 4.52 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

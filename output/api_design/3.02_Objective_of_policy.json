@@ -1,0 +1,38 @@
+{
+  "section": "3.02",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/3.02",
+      "purpose": "Retrieve knowledge payload for section 3.02",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Objective-of-policy/validate",
+      "purpose": "Validate inputs and documents for Objective of policy",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

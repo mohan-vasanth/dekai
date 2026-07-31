@@ -1,0 +1,47 @@
+{
+  "section": "2.02",
+  "ui": [
+    {
+      "screen_id": "Countries_of_Imports_Exports_overview",
+      "name": "Countries of Imports/Exports Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Countries_of_Imports_Exports_submission",
+      "name": "Countries of Imports/Exports Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "can_flag",
+        "any_flag",
+        "are_flag",
+        "the_flag",
+        "ftp_flag",
+        "itc_flag"
+      ]
+    },
+    {
+      "screen_id": "Countries_of_Imports_Exports_exceptions",
+      "name": "Countries of Imports/Exports Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

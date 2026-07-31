@@ -1,0 +1,47 @@
+{
+  "section": "4.16",
+  "ui": [
+    {
+      "screen_id": "Fixation_of_norms_by_Norms_Committees_overview",
+      "name": "Fixation of norms by Norms Committees Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Fixation_of_norms_by_Norms_Committees_submission",
+      "name": "Fixation of norms by Norms Committees Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "all_flag",
+        "for_flag",
+        "pay_flag",
+        "and_flag",
+        "per_flag",
+        "hbp_flag"
+      ]
+    },
+    {
+      "screen_id": "Fixation_of_norms_by_Norms_Committees_exceptions",
+      "name": "Fixation of norms by Norms Committees Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.19",
+  "title": "Validity of Scrips",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_19-R001",
+      "rule_description": "2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.",
+      "trigger": "Validity of Scrips",
+      "condition": "Section 2.19 is applicable",
+      "validation": "2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.",
+      "action": "2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.19 - Validity of Scrips."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.",
+    "IF validations pass THEN recommend action: 2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made."
+  ]
+}

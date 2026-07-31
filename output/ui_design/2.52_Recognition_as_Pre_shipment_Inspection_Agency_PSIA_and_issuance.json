@@ -1,0 +1,47 @@
+{
+  "section": "2.52",
+  "ui": [
+    {
+      "screen_id": "Recognition_as_Pre_shipment_Inspection_Agency_PSIA_and_issuance_overview",
+      "name": "Recognition as Pre-shipment Inspection Agency (PSIA) and issuance Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Recognition_as_Pre_shipment_Inspection_Agency_PSIA_and_issuance_submission",
+      "name": "Recognition as Pre-shipment Inspection Agency (PSIA) and issuance Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "pre_flag",
+        "for_flag",
+        "gov_flag",
+        "fee_flag",
+        "ftp_flag"
+      ]
+    },
+    {
+      "screen_id": "Recognition_as_Pre_shipment_Inspection_Agency_PSIA_and_issuance_exceptions",
+      "name": "Recognition as Pre-shipment Inspection Agency (PSIA) and issuance Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

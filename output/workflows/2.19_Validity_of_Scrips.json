@@ -1,0 +1,10 @@
+{
+  "section": "2.19",
+  "workflow": [
+    "2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.",
+    "Run validation: 2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made."
+  ],
+  "workflow_ascii": "Validity of Scrips\n2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.\n   |\n   v\nRun validation: 2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.",
+  "mermaid": "flowchart TD\n    S1[\"2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.\"]\n    S2[\"Run validation: 2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.;\n:Run validation\\: 2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.;\nstop\n@enduml"
+}

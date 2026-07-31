@@ -1,0 +1,126 @@
+{
+  "section": "2.76",
+  "conditions": [
+    "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+    "(b)\nSpecific permission of RBI.",
+    "PROVISIONS RELATED TO QUALITY CERTIFICATION:\n2.76 Track and Trace system for export of drug formulations\nProcedure for Implementation of the Track and Trace system for export of drug\nformulations will be as under:\npg.",
+    "The manufacturer or the exporter of drug formulations will print the barcode as\nper GS1 Global Standard at different packaging levels to facilitate tracking and tracing\nof their products.",
+    "The details are as follows:\na) Primary Level:\nIncorporation of two-dimensional (2D) barcode encoding unique and universal\nglobal product identification code in the format of 14 digits Global Trade Item\nNumber (GTIN) along with batch number, expiry date and a unique serial\nnumber of the primary pack.",
+    "The bar code labeling at primary level is exempted\ntill further notification; however, the above-mentioned details are required to\nbe printed in human readable form on optional basis till further notification.",
+    "b) Secondary level:\nIncorporation of one or two dimensional (1D or 2D) barcode encoding unique\nand universal global product identification code in the format of 14 digits\nGlobal Trade Item Number (GTIN) along with batch number, expiry date and a\nunique serial number of the secondary pack.",
+    "However, in case of monocartons\nmanufacturer or exporter shall affix bar code on mono carton containing one\nprimary pack on optional basis till further notification.",
+    "c) Tertiary Level:\nIncorporation of one dimensional (1D) barcode encoding unique and universal\nglobal product identification code in the format of 14 digits Global Trade Item\nNumber (GTIN) along with batch number, expiry date and a unique serial\nnumber of the tertiary pack i.e., Serial Shipping Container Code (SSCC).",
+    "Maintenance of data of Parent-Child relationship:\nThe data mentioned in (ii) above shall be uploaded on the central portal of the\nGovernment of India (http://dava.gov.in) by the manufacturer or exporter or its\ndesignated agency before release of the drug formulations for sale or distribution.",
+    "In case, the Government of the importing country has mandated a specific\nrequirement, the exporter has the option of adhering to the same and in such a case, it\nwould not be necessary to comply with the stipulation under sub para (i) to (iv) above\nand if an exporter is seeking to avail such exemption from bar coding prescribed by\nthe Government of India as above, the exporter is given the option to move an\napplication to the Pharmaceutical Export Promotion Council of India (Pharmexcil) for\nthis purpose, clearly specifying the nature of such an exemption in the interest of the\nexports from the country.",
+    "However, the tertiary level of\npackaging will have additional printing of barcode as per Para 2 (i) (c) in addition to\nimporting country’s requirement, if any.",
+    "Export of drugs manufactured by SSI and non-SSI units and having\nmanufacturing date on or before 31.03.2023 are exempted from maintenance of data\nin the Parent-Child relationship for three levels of packaging and its uploading on\nCentral Portal (http://dava.gov.in).",
+    "vii All drugs manufactured by SSI or non-SSI units and having manufacturing date\nafter 31.03.2023 can be exported only if both tertiary and secondary packaging carry\nbarcoding as applicable and the relevant data as prescribed by DGFT is uploaded on\nthe Central Portal.",
+    "vii\nAll drugs manufactured by SSI or non-SSI units and having manufacturing date\nafter 31.03.2023 can be exported only if both tertiary and secondary packaging carry\nbarcoding as applicable and the relevant data as prescribed by DGFT is uploaded on\nthe Central Portal.",
+    "42\n(b) All relevant guidelines regarding grant of specific exemption(s) if any,\nprocedure of data requirement / maintenance / upload on central portal\nand clarifications issued under this notification etc.",
+    "http://dava.gov.in\n(c) It will be the responsibility of the drug manufactures/exporters as the\ncase may be, to satisfy the customs authorities that the export\nconsignment satisfies the conditions of the Notification."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.76.1",
+      "if": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate."
+    },
+    {
+      "id": "2.2.76.2",
+      "if": "(b)\nSpecific permission of RBI.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "(b)\nSpecific permission of RBI."
+    },
+    {
+      "id": "2.2.76.3",
+      "if": "PROVISIONS RELATED TO QUALITY CERTIFICATION:\n2.76 Track and Trace system for export of drug formulations\nProcedure for Implementation of the Track and Trace system for export of drug\nformulations will be as under:\npg.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "PROVISIONS RELATED TO QUALITY CERTIFICATION:\n2.76 Track and Trace system for export of drug formulations\nProcedure for Implementation of the Track and Trace system for export of drug\nformulations will be as under:\npg."
+    },
+    {
+      "id": "2.2.76.4",
+      "if": "The manufacturer or the exporter of drug formulations will print the barcode as\nper GS1 Global Standard at different packaging levels to facilitate tracking and tracing\nof their products.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "The manufacturer or the exporter of drug formulations will print the barcode as\nper GS1 Global Standard at different packaging levels to facilitate tracking and tracing\nof their products."
+    },
+    {
+      "id": "2.2.76.5",
+      "if": "The details are as follows:\na) Primary Level:\nIncorporation of two-dimensional (2D) barcode encoding unique and universal\nglobal product identification code in the format of 14 digits Global Trade Item\nNumber (GTIN) along with batch number, expiry date and a unique serial\nnumber of the primary pack.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "The details are as follows:\na) Primary Level:\nIncorporation of two-dimensional (2D) barcode encoding unique and universal\nglobal product identification code in the format of 14 digits Global Trade Item\nNumber (GTIN) along with batch number, expiry date and a unique serial\nnumber of the primary pack."
+    },
+    {
+      "id": "2.2.76.6",
+      "if": "The bar code labeling at primary level is exempted\ntill further notification; however, the above-mentioned details are required to\nbe printed in human readable form on optional basis till further notification.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "The bar code labeling at primary level is exempted\ntill further notification; however, the above-mentioned details are required to\nbe printed in human readable form on optional basis till further notification."
+    },
+    {
+      "id": "2.2.76.7",
+      "if": "b) Secondary level:\nIncorporation of one or two dimensional (1D or 2D) barcode encoding unique\nand universal global product identification code in the format of 14 digits\nGlobal Trade Item Number (GTIN) along with batch number, expiry date and a\nunique serial number of the secondary pack.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "b) Secondary level:\nIncorporation of one or two dimensional (1D or 2D) barcode encoding unique\nand universal global product identification code in the format of 14 digits\nGlobal Trade Item Number (GTIN) along with batch number, expiry date and a\nunique serial number of the secondary pack."
+    },
+    {
+      "id": "2.2.76.8",
+      "if": "However, in case of monocartons\nmanufacturer or exporter shall affix bar code on mono carton containing one\nprimary pack on optional basis till further notification.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "However, in case of monocartons\nmanufacturer or exporter shall affix bar code on mono carton containing one\nprimary pack on optional basis till further notification."
+    },
+    {
+      "id": "2.2.76.9",
+      "if": "c) Tertiary Level:\nIncorporation of one dimensional (1D) barcode encoding unique and universal\nglobal product identification code in the format of 14 digits Global Trade Item\nNumber (GTIN) along with batch number, expiry date and a unique serial\nnumber of the tertiary pack i.e., Serial Shipping Container Code (SSCC).",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "c) Tertiary Level:\nIncorporation of one dimensional (1D) barcode encoding unique and universal\nglobal product identification code in the format of 14 digits Global Trade Item\nNumber (GTIN) along with batch number, expiry date and a unique serial\nnumber of the tertiary pack i.e., Serial Shipping Container Code (SSCC)."
+    },
+    {
+      "id": "2.2.76.10",
+      "if": "Maintenance of data of Parent-Child relationship:\nThe data mentioned in (ii) above shall be uploaded on the central portal of the\nGovernment of India (http://dava.gov.in) by the manufacturer or exporter or its\ndesignated agency before release of the drug formulations for sale or distribution.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "Maintenance of data of Parent-Child relationship:\nThe data mentioned in (ii) above shall be uploaded on the central portal of the\nGovernment of India (http://dava.gov.in) by the manufacturer or exporter or its\ndesignated agency before release of the drug formulations for sale or distribution."
+    },
+    {
+      "id": "2.2.76.11",
+      "if": "In case, the Government of the importing country has mandated a specific\nrequirement, the exporter has the option of adhering to the same and in such a case, it\nwould not be necessary to comply with the stipulation under sub para (i) to (iv) above\nand if an exporter is seeking to avail such exemption from bar coding prescribed by\nthe Government of India as above, the exporter is given the option to move an\napplication to the Pharmaceutical Export Promotion Council of India (Pharmexcil) for\nthis purpose, clearly specifying the nature of such an exemption in the interest of the\nexports from the country.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "In case, the Government of the importing country has mandated a specific\nrequirement, the exporter has the option of adhering to the same and in such a case, it\nwould not be necessary to comply with the stipulation under sub para (i) to (iv) above\nand if an exporter is seeking to avail such exemption from bar coding prescribed by\nthe Government of India as above, the exporter is given the option to move an\napplication to the Pharmaceutical Export Promotion Council of India (Pharmexcil) for\nthis purpose, clearly specifying the nature of such an exemption in the interest of the\nexports from the country."
+    },
+    {
+      "id": "2.2.76.12",
+      "if": "However, the tertiary level of\npackaging will have additional printing of barcode as per Para 2 (i) (c) in addition to\nimporting country’s requirement, if any.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "However, the tertiary level of\npackaging will have additional printing of barcode as per Para 2 (i) (c) in addition to\nimporting country’s requirement, if any."
+    },
+    {
+      "id": "2.2.76.13",
+      "if": "Export of drugs manufactured by SSI and non-SSI units and having\nmanufacturing date on or before 31.03.2023 are exempted from maintenance of data\nin the Parent-Child relationship for three levels of packaging and its uploading on\nCentral Portal (http://dava.gov.in).",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "Export of drugs manufactured by SSI and non-SSI units and having\nmanufacturing date on or before 31.03.2023 are exempted from maintenance of data\nin the Parent-Child relationship for three levels of packaging and its uploading on\nCentral Portal (http://dava.gov.in)."
+    },
+    {
+      "id": "2.2.76.14",
+      "if": "vii All drugs manufactured by SSI or non-SSI units and having manufacturing date\nafter 31.03.2023 can be exported only if both tertiary and secondary packaging carry\nbarcoding as applicable and the relevant data as prescribed by DGFT is uploaded on\nthe Central Portal.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "vii All drugs manufactured by SSI or non-SSI units and having manufacturing date\nafter 31.03.2023 can be exported only if both tertiary and secondary packaging carry\nbarcoding as applicable and the relevant data as prescribed by DGFT is uploaded on\nthe Central Portal."
+    },
+    {
+      "id": "2.2.76.15",
+      "if": "vii\nAll drugs manufactured by SSI or non-SSI units and having manufacturing date\nafter 31.03.2023 can be exported only if both tertiary and secondary packaging carry\nbarcoding as applicable and the relevant data as prescribed by DGFT is uploaded on\nthe Central Portal.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "vii\nAll drugs manufactured by SSI or non-SSI units and having manufacturing date\nafter 31.03.2023 can be exported only if both tertiary and secondary packaging carry\nbarcoding as applicable and the relevant data as prescribed by DGFT is uploaded on\nthe Central Portal."
+    },
+    {
+      "id": "2.2.76.16",
+      "if": "any",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "42\n(b) All relevant guidelines regarding grant of specific exemption(s) if any,\nprocedure of data requirement / maintenance / upload on central portal\nand clarifications issued under this notification etc."
+    },
+    {
+      "id": "2.2.76.17",
+      "if": "http://dava.gov.in\n(c) It will be the responsibility of the drug manufactures/exporters as the\ncase may be, to satisfy the customs authorities that the export\nconsignment satisfies the conditions of the Notification.",
+      "then": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+      "source": "http://dava.gov.in\n(c) It will be the responsibility of the drug manufactures/exporters as the\ncase may be, to satisfy the customs authorities that the export\nconsignment satisfies the conditions of the Notification."
+    }
+  ]
+}

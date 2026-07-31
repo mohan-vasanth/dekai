@@ -1,0 +1,37 @@
+{
+  "section": "2.41",
+  "ui": [
+    {
+      "screen_id": "Other_Conditions_for_Import_of_Replacement_Goods_overview",
+      "name": "Other Conditions for Import of Replacement Goods Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Other_Conditions_for_Import_of_Replacement_Goods_submission",
+      "name": "Other Conditions for Import of Replacement Goods Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "who_flag",
+        "has_flag",
+        "not_flag",
+        "may_flag",
+        "per_flag"
+      ]
+    }
+  ]
+}

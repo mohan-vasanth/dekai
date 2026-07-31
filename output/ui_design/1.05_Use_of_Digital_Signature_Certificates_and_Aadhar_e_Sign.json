@@ -1,0 +1,37 @@
+{
+  "section": "1.05",
+  "ui": [
+    {
+      "screen_id": "Use_of_Digital_Signature_Certificates_and_Aadhar_e_Sign_overview",
+      "name": "Use of Digital Signature Certificates and Aadhar e-Sign Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Use_of_Digital_Signature_Certificates_and_Aadhar_e_Sign_submission",
+      "name": "Use of Digital Signature Certificates and Aadhar e-Sign Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "use_flag",
+        "and_flag",
+        "dsc_flag",
+        "any_flag",
+        "dgft_flag",
+        "sign_flag"
+      ]
+    }
+  ]
+}

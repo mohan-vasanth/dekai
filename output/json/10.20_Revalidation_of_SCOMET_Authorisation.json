@@ -1,0 +1,508 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "10.20",
+  "title": "Revalidation of SCOMET Authorisation",
+  "purpose": "Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure.",
+  "purpose_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure.",
+  "summary": "10.20 Revalidation of SCOMET Authorisation\npg. 1114\npg. C.",
+  "business_meaning": "Revalidation of SCOMET Authorisation governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Revalidation of SCOMET Authorisation explains the operating rule set that DEKAI should enforce. Key control points include The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na. The section also drives actions such as To issue a Show Cause Notice;\niii..",
+  "business_explanation_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, Revalidation of SCOMET Authorisation explains the operating rule set that DEKAI should enforce. Key control points include The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na. The section also drives actions such as To issue a Show Cause Notice;\niii..",
+  "business_logic": [
+    "The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na.",
+    "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+    "The firm shall be liable for action in accordance with the\nFT(D&R) Act, the Rules and Orders made there under, the Foreign Trade\nPolicy (FTP), and any other applicable laws and regulations.",
+    "The period of renewal of\nauthorisation shall be counted from the date of actual expiry of authorisation."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC10_20-R001",
+      "rule_description": "The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na.",
+      "trigger": "Revalidation of SCOMET Authorisation",
+      "condition": "Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd.",
+      "validation": "Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure.",
+      "action": "To issue a Show Cause Notice;\niii.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10.20 - Revalidation of SCOMET Authorisation."
+    },
+    {
+      "rule_id": "CH10-SEC10_20-R002",
+      "rule_description": "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+      "trigger": "Revalidation of SCOMET Authorisation",
+      "condition": "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+      "validation": "Any other relevant documents as may be required\nD.",
+      "action": "To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10.20 - Revalidation of SCOMET Authorisation."
+    },
+    {
+      "rule_id": "CH10-SEC10_20-R003",
+      "rule_description": "The firm shall be liable for action in accordance with the\nFT(D&R) Act, the Rules and Orders made there under, the Foreign Trade\nPolicy (FTP), and any other applicable laws and regulations.",
+      "trigger": "Revalidation of SCOMET Authorisation",
+      "condition": "To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii.",
+      "validation": "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+      "action": "Revalidation to export\nauthorisations issued for Technology/Software transfer under any category is not\npermitted.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10.20 - Revalidation of SCOMET Authorisation."
+    },
+    {
+      "rule_id": "CH10-SEC10_20-R004",
+      "rule_description": "The period of renewal of\nauthorisation shall be counted from the date of actual expiry of authorisation.",
+      "trigger": "Revalidation of SCOMET Authorisation",
+      "condition": "To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc.",
+      "validation": "The firm shall be liable for action in accordance with the\nFT(D&R) Act, the Rules and Orders made there under, the Foreign Trade\nPolicy (FTP), and any other applicable laws and regulations.",
+      "action": "SCOMET Authorisations issued under GAEC, GAICT, GAER, GAEIS,\nGAET, GAED policy cannot be revalidate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10.20 - Revalidation of SCOMET Authorisation."
+    }
+  ],
+  "conditions": [
+    "Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd.",
+    "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+    "To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii.",
+    "To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.10.20.1",
+      "if": "Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd.",
+      "then": "To issue a Show Cause Notice;\niii.",
+      "source": "Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd."
+    },
+    {
+      "id": "10.10.20.2",
+      "if": "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+      "then": "To issue a Show Cause Notice;\niii.",
+      "source": "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter."
+    },
+    {
+      "id": "10.10.20.3",
+      "if": "To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii.",
+      "then": "To issue a Show Cause Notice;\niii.",
+      "source": "To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii."
+    },
+    {
+      "id": "10.10.20.4",
+      "if": "To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc.",
+      "then": "To issue a Show Cause Notice;\niii.",
+      "source": "To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc."
+    }
+  ],
+  "validations": [
+    "Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure.",
+    "Any other relevant documents as may be required\nD.",
+    "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+    "The firm shall be liable for action in accordance with the\nFT(D&R) Act, the Rules and Orders made there under, the Foreign Trade\nPolicy (FTP), and any other applicable laws and regulations.",
+    "10.20\nRevalidation of SCOMET Authorisation\nExport Authorisation for SCOMET items may be revalidated, on merits for a period\nof six months at a time and maximum upto 12 months by the DGFT (Hqrs).",
+    "The period of renewal of\nauthorisation shall be counted from the date of actual expiry of authorisation.",
+    "Export Authorisation for SCOMET items may be revalidated, on merits for a period\nof six months at a time and maximum upto 12 months by the DGFT (Hqrs)."
+  ],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [
+    "Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure.",
+    "The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na.",
+    "Application in ANF 10A proforma\nc.",
+    "Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd.",
+    "Shipping documents (e.g., Shipping Bills, Commercial Invoices, Airway\nBills and Bills of Lading and any other related Trade documents)\ne.",
+    "Any other relevant documents as may be required\nD.",
+    "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+    "To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii.",
+    "or for non-submission of mandatory documents within\nthe prescribed timelines or for non-compliance with the conditions of\nSCOMET policy.",
+    "An\napplication for grant of revalidation may be made in prescribed proforma [ANF\n10F] 30 days prior to the expiry of authorisation."
+  ],
+  "required_documents": [
+    "Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure.",
+    "The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na.",
+    "Application in ANF 10A proforma\nc.",
+    "Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd.",
+    "Shipping documents (e.g., Shipping Bills, Commercial Invoices, Airway\nBills and Bills of Lading and any other related Trade documents)\ne.",
+    "Any other relevant documents as may be required\nD.",
+    "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+    "To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii.",
+    "or for non-submission of mandatory documents within\nthe prescribed timelines or for non-compliance with the conditions of\nSCOMET policy.",
+    "An\napplication for grant of revalidation may be made in prescribed proforma [ANF\n10F] 30 days prior to the expiry of authorisation."
+  ],
+  "authorities": [
+    "DGFT",
+    "Action by the DGFT",
+    "All voluntary disclosure cases shall be placed by DGFT",
+    "Central Government"
+  ],
+  "timelines": [
+    "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+    "or for non-submission of mandatory documents within\nthe prescribed timelines or for non-compliance with the conditions of\nSCOMET policy.",
+    "10.20\nRevalidation of SCOMET Authorisation\nExport Authorisation for SCOMET items may be revalidated, on merits for a period\nof six months at a time and maximum upto 12 months by the DGFT (Hqrs).",
+    "An\napplication for grant of revalidation may be made in prescribed proforma [ANF\n10F] 30 days prior to the expiry of authorisation.",
+    "The\ntotal period of extension will not exceed 12 months.",
+    "Export Authorisation for SCOMET items may be revalidated, on merits for a period\nof six months at a time and maximum upto 12 months by the DGFT (Hqrs)."
+  ],
+  "actions": [
+    "To issue a Show Cause Notice;\niii.",
+    "To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc.",
+    "Revalidation to export\nauthorisations issued for Technology/Software transfer under any category is not\npermitted.",
+    "SCOMET Authorisations issued under GAEC, GAICT, GAER, GAEIS,\nGAET, GAED policy cannot be revalidate."
+  ],
+  "workflow": [
+    "Evaluate condition: Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd.",
+    "Evaluate condition: Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+    "Evaluate condition: To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii.",
+    "To issue a Show Cause Notice;\niii.",
+    "To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc.",
+    "Revalidation to export\nauthorisations issued for Technology/Software transfer under any category is not\npermitted.",
+    "SCOMET Authorisations issued under GAEC, GAICT, GAER, GAEIS,\nGAET, GAED policy cannot be revalidate.",
+    "Run validation: Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure.",
+    "Run validation: Any other relevant documents as may be required\nD.",
+    "Run validation: Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter."
+  ],
+  "workflow_ascii": "Revalidation of SCOMET Authorisation\nEvaluate condition: Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd.\n   |\n   v\nEvaluate condition: Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.\n   |\n   v\nEvaluate condition: To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii.\n   |\n   v\nTo issue a Show Cause Notice;\niii.\n   |\n   v\nTo issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc.\n   |\n   v\nRevalidation to export\nauthorisations issued for Technology/Software transfer under any category is not\npermitted.\n   |\n   v\nSCOMET Authorisations issued under GAEC, GAICT, GAER, GAEIS,\nGAET, GAED policy cannot be revalidate.\n   |\n   v\nRun validation: Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure.\n   |\n   v\nRun validation: Any other relevant documents as may be required\nD.\n   |\n   v\nRun validation: Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+  "decision_tree": [
+    "IF Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd. THEN To issue a Show Cause Notice;\niii.",
+    "IF Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter. THEN To issue a Show Cause Notice;\niii.",
+    "IF To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii. THEN To issue a Show Cause Notice;\niii.",
+    "IF To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc. THEN To issue a Show Cause Notice;\niii."
+  ],
+  "decision_tree_ascii": "Revalidation of SCOMET Authorisation Decision\nIF Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd. THEN To issue a Show Cause Notice;\niii.\n   |\n   v\nIF Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter. THEN To issue a Show Cause Notice;\niii.\n   |\n   v\nIF To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii. THEN To issue a Show Cause Notice;\niii.\n   |\n   v\nIF To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc. THEN To issue a Show Cause Notice;\niii.",
+  "examples": [
+    "User asks to process Revalidation of SCOMET Authorisation; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Revalidation of SCOMET Authorisation, submits Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure., The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na., Application in ANF 10A proforma\nc., and DEKAI uses the extracted rules to to issue a show cause notice;\niii..",
+  "real_world_example_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, Example: an importer or exporter invokes Revalidation of SCOMET Authorisation, submits documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure., The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na., application in ANF 10A proforma\nc., and DEKAI uses the extracted rules to to issue a show cause notice;\niii..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na.",
+    "IF detected context matches section rule THEN enforce: Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+    "IF detected context matches section rule THEN enforce: The firm shall be liable for action in accordance with the\nFT(D&R) Act, the Rules and Orders made there under, the Foreign Trade\nPolicy (FTP), and any other applicable laws and regulations.",
+    "IF detected context matches section rule THEN enforce: The period of renewal of\nauthorisation shall be counted from the date of actual expiry of authorisation.",
+    "IF validations pass THEN recommend action: To issue a Show Cause Notice;\niii."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:The"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "anf_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ANF"
+    },
+    {
+      "name": "etc_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:etc"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "any_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:any"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Application in ANF 10A proforma\nc."
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd."
+    },
+    {
+      "name": "document_5_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Shipping documents (e.g., Shipping Bills, Commercial Invoices, Airway\nBills and Bills of Lading and any other related Trade documents)\ne."
+    },
+    {
+      "name": "document_6_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Any other relevant documents as may be required\nD."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/10.20",
+      "purpose": "Retrieve knowledge payload for section 10.20",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Revalidation-of-SCOMET-Authorisation/validate",
+      "purpose": "Validate inputs and documents for Revalidation of SCOMET Authorisation",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Revalidation-of-SCOMET-Authorisation/execute",
+      "purpose": "Trigger business action for To issue a Show Cause Notice;\niii.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Revalidation_of_SCOMET_Authorisation_overview",
+      "name": "Revalidation of SCOMET Authorisation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Revalidation_of_SCOMET_Authorisation_submission",
+      "name": "Revalidation of SCOMET Authorisation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "may_flag",
+        "not_flag",
+        "anf_flag",
+        "etc_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Revalidation of SCOMET Authorisation require?",
+    "Which documents are needed for Revalidation of SCOMET Authorisation?",
+    "How does DEKAI validate Revalidation of SCOMET Authorisation requests?",
+    "What action should be taken for Revalidation of SCOMET Authorisation?"
+  ],
+  "expected_ai_answers": [
+    "Revalidation of SCOMET Authorisation requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure., The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na., Application in ANF 10A proforma\nc., Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd., Shipping documents (e.g., Shipping Bills, Commercial Invoices, Airway\nBills and Bills of Lading and any other related Trade documents)\ne.",
+    "DEKAI validates Revalidation of SCOMET Authorisation by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: To issue a Show Cause Notice;\niii."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 10.20?",
+      "answer_en": "Revalidation of SCOMET Authorisation explains the operating rule set that DEKAI should enforce. Key control points include The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na. The section also drives actions such as To issue a Show Cause Notice;\niii..",
+      "question_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, What is the purpose of section 10.20?",
+      "answer_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, Revalidation of SCOMET Authorisation explains the operating rule set that DEKAI should enforce. Key control points include The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na. The section also drives actions such as To issue a Show Cause Notice;\niii.."
+    },
+    {
+      "question_en": "What documents are required under Revalidation of SCOMET Authorisation?",
+      "answer_en": "Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure., The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na., Application in ANF 10A proforma\nc., Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd., Shipping documents (e.g., Shipping Bills, Commercial Invoices, Airway\nBills and Bills of Lading and any other related Trade documents)\ne., Any other relevant documents as may be required\nD., Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter., To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii., or for non-submission of mandatory documents within\nthe prescribed timelines or for non-compliance with the conditions of\nSCOMET policy., An\napplication for grant of revalidation may be made in prescribed proforma [ANF\n10F] 30 days prior to the expiry of authorisation.",
+      "question_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, What documents are required under Revalidation of SCOMET Authorisation?",
+      "answer_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure., The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na., application in ANF 10A proforma\nc., Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd., Shipping documents (e.g., Shipping Bills, Commercial Invoices, Airway\nBills and Bills of Lading and any other related Trade documents)\ne., Any other relevant documents as may be required\nD., Action by the DGFT:\nAll voluntary disclosure cases kandippa be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter., To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii., or for non-submission of mandatory documents within\nthe prescribed timelines or for non-compliance with the conditions of\nSCOMET policy., An\napplication for grant of revalidation may be made in prescribed proforma [ANF\n10F] 30 days prior to the expiry of authorisation."
+    },
+    {
+      "question_en": "Which authority handles Revalidation of SCOMET Authorisation?",
+      "answer_en": "DGFT, Action by the DGFT, All voluntary disclosure cases shall be placed by DGFT, Central Government",
+      "question_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, Which authority handles Revalidation of SCOMET Authorisation?",
+      "answer_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, DGFT, Action by the DGFT, All voluntary disclosure cases kandippa be placed by DGFT, Central Government"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Revalidation of SCOMET Authorisation?",
+      "answer_en": "AI answers: DEKAI should evaluate section 10.20, apply the extracted rules, and guide the user through Evaluate condition: Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd..",
+      "question_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, User asks: How do I comply with Revalidation of SCOMET Authorisation?",
+      "answer_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, AI answers: DEKAI should evaluate section 10.20, apply the extracted rules, and guide the user through Evaluate condition: Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Revalidation of SCOMET Authorisation?",
+      "answer_en": "AI answers: Applicable validations are Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure., Any other relevant documents as may be required\nD., Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+      "question_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, User asks: Which validations apply to Revalidation of SCOMET Authorisation?",
+      "answer_thanglish": "Indha Revalidation of SCOMET Authorisation section-la, AI answers: Applicable validations are documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure., Any other relevant documents as may be required\nD., Action by the DGFT:\nAll voluntary disclosure cases kandippa be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 10, section 10.20, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Revalidation of SCOMET Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure., The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na., Application in ANF 10A proforma\nc., Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd., Shipping documents (e.g., Shipping Bills, Commercial Invoices, Airway\nBills and Bills of Lading and any other related Trade documents)\ne., Any other relevant documents as may be required\nD..",
+    "Route escalations or approvals to: DGFT, Action by the DGFT, All voluntary disclosure cases shall be placed by DGFT, Central Government."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Revalidation of SCOMET Authorisation section-la, Capture chapter 10, section 10.20, title, and page references as immutable knowledge metadata.",
+    "Indha Revalidation of SCOMET Authorisation section-la, Bind validations for Revalidation of SCOMET Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Revalidation of SCOMET Authorisation section-la, Expose document upload controls for: documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure., The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na., application in ANF 10A proforma\nc., Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd., Shipping documents (e.g., Shipping Bills, Commercial Invoices, Airway\nBills and Bills of Lading and any other related Trade documents)\ne., Any other relevant documents as may be required\nD..",
+    "Indha Revalidation of SCOMET Authorisation section-la, Route escalations or approvals to: DGFT, Action by the DGFT, All voluntary disclosure cases kandippa be placed by DGFT, Central Government."
+  ],
+  "keywords": [
+    "for",
+    "The",
+    "may",
+    "not",
+    "ANF",
+    "etc",
+    "and",
+    "any",
+    "All",
+    "its",
+    "iii",
+    "D&R",
+    "Act",
+    "FTP",
+    "six",
+    "IMWG",
+    "made",
+    "firm",
+    "rank",
+    "with"
+  ],
+  "search_keywords": [
+    "for",
+    "The",
+    "may",
+    "not",
+    "ANF",
+    "etc",
+    "and",
+    "any",
+    "All",
+    "its",
+    "iii",
+    "D&R",
+    "Act",
+    "FTP",
+    "six",
+    "IMWG",
+    "made",
+    "firm",
+    "rank",
+    "with"
+  ],
+  "intent": "Support Revalidation of SCOMET Authorisation processing and compliance validation.",
+  "tags": [
+    "10.20",
+    "Revalidation of SCOMET Authorisation",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na.",
+    "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+    "The firm shall be liable for action in accordance with the\nFT(D&R) Act, the Rules and Orders made there under, the Foreign Trade\nPolicy (FTP), and any other applicable laws and regulations.",
+    "The period of renewal of\nauthorisation shall be counted from the date of actual expiry of authorisation."
+  ],
+  "page_numbers": [
+    46,
+    47,
+    48
+  ],
+  "pages": [
+    46,
+    47,
+    48
+  ],
+  "source_document": "Chapter+10+HBP+(19.05.2026).pdf",
+  "raw_text": "10.20 Revalidation of SCOMET Authorisation\npg.\n1114\npg.\nC. Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure. The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na. Disclosure Proforma (Appendix attached)\nb. Application in ANF 10A proforma\nc. Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd. Shipping documents (e.g., Shipping Bills, Commercial Invoices, Airway\nBills and Bills of Lading and any other related Trade documents)\ne. Any other relevant documents as may be required\nD. Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter. The IMWG would consider each case\non merit in accordance with the provisions of the Export and Import Policy\ndetermined by the Central Government from time to time, and the relevant Indian\nlaws and regulations. The IMWG would consider and make recommendations to\nDGFT on the following:\ni. To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii. To issue a Show Cause Notice;\niii. To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc. or for non-submission of mandatory documents within\nthe prescribed timelines or for non-compliance with the conditions of\nSCOMET policy. The firm shall be liable for action in accordance with the\nFT(D&R) Act, the Rules and Orders made there under, the Foreign Trade\nPolicy (FTP), and any other applicable laws and regulations.\niv. DGFT would subsequently apprise the IMWG of the action taken by them in\nthese cases (Regularizing the previous export or suitable action taken\npursuant to (i)/(ii)/(iii) above, as the case may be).\n10.20\nRevalidation of SCOMET Authorisation\nExport Authorisation for SCOMET items may be revalidated, on merits for a period\nof six months at a time and maximum upto 12 months by the DGFT (Hqrs). An\napplication for grant of revalidation may be made in prescribed proforma [ANF\n10F] 30 days prior to the expiry of authorisation. The period of renewal of\nauthorisation shall be counted from the date of actual expiry of authorisation. The\ntotal period of extension will not exceed 12 months. Revalidation to export\nauthorisations issued for Technology/Software transfer under any category is not\npermitted. SCOMET Authorisations issued under GAEC, GAICT, GAER, GAEIS,\nGAET, GAED policy cannot be revalidate.\npg.\n1115\npg.\nExport Authorisation for SCOMET items may be revalidated, on merits for a period\nof six months at a time and maximum upto 12 months by the DGFT (Hqrs). An\napplication for grant of revalidation may be made in prescribed proforma [ANF\n10F] 30 days prior to the expiry of authorisation. The period of renewal of\nauthorisation shall be counted from the date of actual expiry of authorisation. The\ntotal period of extension will not exceed 12 months. Revalidation to export\nauthorisations issued for Technology/Software transfer under any category is not\npermitted. SCOMET Authorisations issued under GAEC, GAICT, GAER, GAEIS,\nGAET, GAED policy cannot be revalidate.\npg.\n1116\npg.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd.\"]\n    S2[\"Evaluate condition: Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii.\"]\n    S2 --> S3\n    S4[\"To issue a Show Cause Notice;\niii.\"]\n    S3 --> S4\n    S5[\"To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc.\"]\n    S4 --> S5\n    S6[\"Revalidation to export\nauthorisations issued for Technology/Software transfer under any category is not\npermitted.\"]\n    S5 --> S6\n    S7[\"SCOMET Authorisations issued under GAEC, GAICT, GAER, GAEIS,\nGAET, GAED policy cannot be revalidate.\"]\n    S6 --> S7\n    S8[\"Run validation: Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure.\"]\n    S7 --> S8\n    S9[\"Run validation: Any other relevant documents as may be required\nD.\"]\n    S8 --> S9\n    S10[\"Run validation: Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.\"]\n    S9 --> S10",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd.;\n:Evaluate condition\\: Action by the DGFT\\:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.;\n:Evaluate condition\\: To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii.;\n:To issue a Show Cause Notice;\niii.;\n:To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc.;\n:Revalidation to export\nauthorisations issued for Technology/Software transfer under any category is not\npermitted.;\n:SCOMET Authorisations issued under GAEC, GAICT, GAER, GAEIS,\nGAET, GAED policy cannot be revalidate.;\n:Run validation\\: Documents required while filing for Voluntary Disclosure\\:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure.;\n:Run validation\\: Any other relevant documents as may be required\nD.;\n:Run validation\\: Action by the DGFT\\:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.;\nstop\n@enduml"
+}

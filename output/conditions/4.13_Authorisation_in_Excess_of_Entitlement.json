@@ -1,0 +1,21 @@
+{
+  "section": "4.13",
+  "conditions": [
+    "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+    "Regional Authority\nshall make a specific endorsement to this effect on authorisation."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.13.1",
+      "if": "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+      "then": "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+      "source": "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties."
+    },
+    {
+      "id": "4.4.13.2",
+      "if": "Regional Authority\nshall make a specific endorsement to this effect on authorisation.",
+      "then": "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+      "source": "Regional Authority\nshall make a specific endorsement to this effect on authorisation."
+    }
+  ]
+}

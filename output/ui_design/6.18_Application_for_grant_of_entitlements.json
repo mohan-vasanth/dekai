@@ -1,0 +1,37 @@
+{
+  "section": "6.18",
+  "ui": [
+    {
+      "screen_id": "Application_for_grant_of_entitlements_overview",
+      "name": "Application for grant of entitlements Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Application_for_grant_of_entitlements_submission",
+      "name": "Application for grant of entitlements Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "all_flag",
+        "may_flag",
+        "made_flag",
+        "grant_flag",
+        "officer_flag"
+      ]
+    }
+  ]
+}

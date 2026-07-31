@@ -1,0 +1,47 @@
+{
+  "section": "4.47",
+  "ui": [
+    {
+      "screen_id": "Redemption_No_Bond_Certificate_overview",
+      "name": "Redemption/No Bond Certificate Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Redemption_No_Bond_Certificate_submission",
+      "name": "Redemption/No Bond Certificate Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "can_flag",
+        "and_flag",
+        "are_flag",
+        "for_flag",
+        "has_flag"
+      ]
+    },
+    {
+      "screen_id": "Redemption_No_Bond_Certificate_exceptions",
+      "name": "Redemption/No Bond Certificate Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

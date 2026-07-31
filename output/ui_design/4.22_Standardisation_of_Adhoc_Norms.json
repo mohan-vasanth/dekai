@@ -1,0 +1,47 @@
+{
+  "section": "4.22",
+  "ui": [
+    {
+      "screen_id": "Standardisation_of_Adhoc_Norms_overview",
+      "name": "Standardisation of Adhoc Norms Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Standardisation_of_Adhoc_Norms_submission",
+      "name": "Standardisation of Adhoc Norms Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "anf_flag",
+        "may_flag",
+        "not_flag",
+        "per_flag",
+        "iii_flag"
+      ]
+    },
+    {
+      "screen_id": "Standardisation_of_Adhoc_Norms_exceptions",
+      "name": "Standardisation of Adhoc Norms Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

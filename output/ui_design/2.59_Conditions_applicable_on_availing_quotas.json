@@ -1,0 +1,47 @@
+{
+  "section": "2.59",
+  "ui": [
+    {
+      "screen_id": "Conditions_applicable_on_availing_quotas_overview",
+      "name": "Conditions applicable on availing quotas Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Conditions_applicable_on_availing_quotas_submission",
+      "name": "Conditions applicable on availing quotas Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "all_flag",
+        "are_flag",
+        "the_flag",
+        "may_flag",
+        "efc_flag",
+        "oil_flag"
+      ]
+    },
+    {
+      "screen_id": "Conditions_applicable_on_availing_quotas_exceptions",
+      "name": "Conditions applicable on availing quotas Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "4.89",
+  "ui": [
+    {
+      "screen_id": "Duty_free_import_of_samples_overview",
+      "name": "Duty free import of samples Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Duty_free_import_of_samples_submission",
+      "name": "Duty free import of samples Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "the_flag",
+        "per_flag",
+        "duty_flag",
+        "free_flag",
+        "gems_flag"
+      ]
+    }
+  ]
+}

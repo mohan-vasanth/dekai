@@ -1,0 +1,33 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.26",
+  "title": "Green Technology Products",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_26-R001",
+      "rule_description": "15\n15\n20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions\ncontained in HBP 2015-20.",
+      "trigger": "Green Technology Products",
+      "condition": "15\n15\n20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions\ncontained in HBP 2015-20.",
+      "validation": "15\n15\n20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions\ncontained in HBP 2015-20.",
+      "action": "The EPCG Authorisations issued between notification\nof HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by\nprovisions contained in HBP 2015-20 (RE-2017).",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.26 - Green Technology Products."
+    },
+    {
+      "rule_id": "CH5-SEC5_26-R002",
+      "rule_description": "The EPCG Authorisations issued between notification\nof HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by\nprovisions contained in HBP 2015-20 (RE-2017).",
+      "trigger": "Green Technology Products",
+      "condition": "The EPCG Authorisations issued between notification\nof HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by\nprovisions contained in HBP 2015-20 (RE-2017).",
+      "validation": "The EPCG Authorisations issued between notification\nof HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by\nprovisions contained in HBP 2015-20 (RE-2017).",
+      "action": "The EPCG Authorisations issued between notification\nof HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by\nprovisions contained in HBP 2015-20 (RE-2017).",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.26 - Green Technology Products."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 15\n15\n20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions\ncontained in HBP 2015-20.",
+    "IF detected context matches section rule THEN enforce: The EPCG Authorisations issued between notification\nof HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by\nprovisions contained in HBP 2015-20 (RE-2017).",
+    "IF validations pass THEN recommend action: The EPCG Authorisations issued between notification\nof HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by\nprovisions contained in HBP 2015-20 (RE-2017)."
+  ]
+}

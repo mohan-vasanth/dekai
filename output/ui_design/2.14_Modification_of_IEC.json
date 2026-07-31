@@ -1,0 +1,37 @@
+{
+  "section": "2.14",
+  "ui": [
+    {
+      "screen_id": "Modification_of_IEC_overview",
+      "name": "Modification of IEC Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Modification_of_IEC_submission",
+      "name": "Modification of IEC Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "iec_flag",
+        "can_flag",
+        "and_flag",
+        "any_flag",
+        "the_flag",
+        "are_flag"
+      ]
+    }
+  ]
+}

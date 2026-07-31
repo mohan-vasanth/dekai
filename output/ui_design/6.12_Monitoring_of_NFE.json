@@ -1,0 +1,37 @@
+{
+  "section": "6.12",
+  "ui": [
+    {
+      "screen_id": "Monitoring_of_NFE_overview",
+      "name": "Monitoring of NFE Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Monitoring_of_NFE_submission",
+      "name": "Monitoring of NFE Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "nfe_flag",
+        "per_flag",
+        "stp_flag",
+        "btp_flag",
+        "eous_flag",
+        "anfs_flag"
+      ]
+    }
+  ]
+}

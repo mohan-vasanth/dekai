@@ -1,0 +1,47 @@
+{
+  "section": "4.76",
+  "ui": [
+    {
+      "screen_id": "Export_against_Supply_by_Foreign_Buyer_overview",
+      "name": "Export against Supply by Foreign Buyer Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_against_Supply_by_Foreign_Buyer_submission",
+      "name": "Export against Supply by Foreign Buyer Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "etc_flag",
+        "per_flag",
+        "tax_flag",
+        "act_flag",
+        "lut_flag"
+      ]
+    },
+    {
+      "screen_id": "Export_against_Supply_by_Foreign_Buyer_exceptions",
+      "name": "Export against Supply by Foreign Buyer Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

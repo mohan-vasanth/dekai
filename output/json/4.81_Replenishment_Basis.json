@@ -1,0 +1,679 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.81",
+  "title": "Replenishment Basis",
+  "purpose": "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+  "purpose_thanglish": "Indha Replenishment Basis section-la, 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+  "summary": "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum. Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage. (b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.",
+  "business_meaning": "Replenishment Basis governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Replenishment Basis explains the operating rule set that DEKAI should enforce. Key control points include Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage. The section also drives actions such as 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum..",
+  "business_explanation_thanglish": "Indha Replenishment Basis section-la, Replenishment Basis explains the operating rule set that DEKAI should enforce. Key control points include Quantity of precious metal booked with\nnominated agency kandippa be equivalent to precious metal content in the\nexport product and admissible wastage. The section also drives actions such as 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum..",
+  "business_logic": [
+    "Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.",
+    "(b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.",
+    "Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg.",
+    "Items not sold abroad\nwithin 365 days shall be re-imported.",
+    "Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.",
+    "(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.",
+    "In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.",
+    "(f)\nNominated Agencies shall maintain a complete account of exports made,\ngoods sold abroad, goods re-imported, and metals purchased abroad\nand imported into India.",
+    "Such account shall be maintained for a\nminimum period of three years from date of close of exhibition.",
+    "(b)\nApplicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.",
+    "Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\n30 days from date of export whichever is later.",
+    "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+    "Exporter must fix price within credit terms\nallowed to buyer and realise proceeds within the due date of the credit\nterms or 180 days, whichever is earlier.",
+    "Exporter exporting on a notional\nbasis under Replenishment Scheme must book the same quantity of gold\nwith Nominated Agency on same rate that he may have booked with\nbuyer.",
+    "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+    "Price shall be actual price at which gold/silver/platinum is\npurchased by nominated agencies plus permitted service charges levied\nby nominated agencies shall be included with the price of gold/ silver/\nplatinum for value addition.",
+    "Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_81-R001",
+      "rule_description": "Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.",
+      "trigger": "Replenishment Basis",
+      "condition": "Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.",
+      "validation": "Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.",
+      "action": "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+      "exception": "(i)\nExport of branded jewellery is also permitted with approval of Gem\n& Jewellery EPC for display/sale in permitted shops setup abroad\nor in showroom of their distributors/ agents.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R002",
+      "rule_description": "(b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.",
+      "trigger": "Replenishment Basis",
+      "condition": "(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.",
+      "validation": "(b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.",
+      "action": "(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R003",
+      "rule_description": "Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg.",
+      "trigger": "Replenishment Basis",
+      "condition": "In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.",
+      "validation": "Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg.",
+      "action": "(f)\nNominated Agencies shall maintain a complete account of exports made,\ngoods sold abroad, goods re-imported, and metals purchased abroad\nand imported into India.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R004",
+      "rule_description": "Items not sold abroad\nwithin 365 days shall be re-imported.",
+      "trigger": "Replenishment Basis",
+      "condition": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "validation": "Items not sold abroad\nwithin 365 days shall be re-imported.",
+      "action": "Such account shall be maintained for a\nminimum period of three years from date of close of exhibition.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R005",
+      "rule_description": "Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.",
+      "trigger": "Replenishment Basis",
+      "condition": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "validation": "Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.",
+      "action": "4.81 Replenishment Basis\n(a)\nExporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R006",
+      "rule_description": "(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.",
+      "trigger": "Replenishment Basis",
+      "condition": "Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased.",
+      "validation": "(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.",
+      "action": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R007",
+      "rule_description": "In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.",
+      "trigger": "Replenishment Basis",
+      "condition": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+      "validation": "In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.",
+      "action": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R008",
+      "rule_description": "(f)\nNominated Agencies shall maintain a complete account of exports made,\ngoods sold abroad, goods re-imported, and metals purchased abroad\nand imported into India.",
+      "trigger": "Replenishment Basis",
+      "condition": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+      "validation": "(f)\nNominated Agencies shall maintain a complete account of exports made,\ngoods sold abroad, goods re-imported, and metals purchased abroad\nand imported into India.",
+      "action": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R009",
+      "rule_description": "Such account shall be maintained for a\nminimum period of three years from date of close of exhibition.",
+      "trigger": "Replenishment Basis",
+      "condition": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+      "validation": "Such account shall be maintained for a\nminimum period of three years from date of close of exhibition.",
+      "action": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R010",
+      "rule_description": "(b)\nApplicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.",
+      "trigger": "Replenishment Basis",
+      "condition": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+      "validation": "(b)\nApplicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.",
+      "action": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R011",
+      "rule_description": "Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\n30 days from date of export whichever is later.",
+      "trigger": "Replenishment Basis",
+      "condition": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+      "validation": "Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\n30 days from date of export whichever is later.",
+      "action": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R012",
+      "rule_description": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "trigger": "Replenishment Basis",
+      "condition": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+      "validation": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "action": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R013",
+      "rule_description": "Exporter must fix price within credit terms\nallowed to buyer and realise proceeds within the due date of the credit\nterms or 180 days, whichever is earlier.",
+      "trigger": "Replenishment Basis",
+      "condition": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+      "validation": "Exporter must fix price within credit terms\nallowed to buyer and realise proceeds within the due date of the credit\nterms or 180 days, whichever is earlier.",
+      "action": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R014",
+      "rule_description": "Exporter exporting on a notional\nbasis under Replenishment Scheme must book the same quantity of gold\nwith Nominated Agency on same rate that he may have booked with\nbuyer.",
+      "trigger": "Replenishment Basis",
+      "condition": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+      "validation": "Exporter exporting on a notional\nbasis under Replenishment Scheme must book the same quantity of gold\nwith Nominated Agency on same rate that he may have booked with\nbuyer.",
+      "action": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R015",
+      "rule_description": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "trigger": "Replenishment Basis",
+      "condition": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+      "validation": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "action": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R016",
+      "rule_description": "Price shall be actual price at which gold/silver/platinum is\npurchased by nominated agencies plus permitted service charges levied\nby nominated agencies shall be included with the price of gold/ silver/\nplatinum for value addition.",
+      "trigger": "Replenishment Basis",
+      "condition": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+      "validation": "Price shall be actual price at which gold/silver/platinum is\npurchased by nominated agencies plus permitted service charges levied\nby nominated agencies shall be included with the price of gold/ silver/\nplatinum for value addition.",
+      "action": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    },
+    {
+      "rule_id": "CH4-SEC4_81-R017",
+      "rule_description": "Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased.",
+      "trigger": "Replenishment Basis",
+      "condition": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+      "validation": "Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased.",
+      "action": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "exception": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "output": "DEKAI should produce a compliance decision for 4.81 - Replenishment Basis."
+    }
+  ],
+  "conditions": [
+    "Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.",
+    "(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.",
+    "In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.",
+    "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+    "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+    "Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased.",
+    "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.81.1",
+      "if": "Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.",
+      "then": "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+      "source": "Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad."
+    },
+    {
+      "id": "4.4.81.2",
+      "if": "(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.",
+      "then": "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+      "source": "(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO."
+    },
+    {
+      "id": "4.4.81.3",
+      "if": "In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.",
+      "then": "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+      "source": "In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition."
+    },
+    {
+      "id": "4.4.81.4",
+      "if": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+      "then": "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+      "source": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank."
+    },
+    {
+      "id": "4.4.81.5",
+      "if": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+      "then": "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+      "source": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent."
+    },
+    {
+      "id": "4.4.81.6",
+      "if": "Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased.",
+      "then": "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+      "source": "Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased."
+    },
+    {
+      "id": "4.4.81.7",
+      "if": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+      "then": "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+      "source": "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised."
+    }
+  ],
+  "validations": [
+    "Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.",
+    "(b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.",
+    "Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg.",
+    "Items not sold abroad\nwithin 365 days shall be re-imported.",
+    "Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.",
+    "(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.",
+    "In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.",
+    "(f)\nNominated Agencies shall maintain a complete account of exports made,\ngoods sold abroad, goods re-imported, and metals purchased abroad\nand imported into India.",
+    "Such account shall be maintained for a\nminimum period of three years from date of close of exhibition.",
+    "(b)\nApplicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.",
+    "Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\n30 days from date of export whichever is later.",
+    "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+    "Exporter must fix price within credit terms\nallowed to buyer and realise proceeds within the due date of the credit\nterms or 180 days, whichever is earlier.",
+    "Exporter exporting on a notional\nbasis under Replenishment Scheme must book the same quantity of gold\nwith Nominated Agency on same rate that he may have booked with\nbuyer.",
+    "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+    "Price shall be actual price at which gold/silver/platinum is\npurchased by nominated agencies plus permitted service charges levied\nby nominated agencies shall be included with the price of gold/ silver/\nplatinum for value addition.",
+    "Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased."
+  ],
+  "exceptions": [
+    "(i)\nExport of branded jewellery is also permitted with approval of Gem\n& Jewellery EPC for display/sale in permitted shops setup abroad\nor in showroom of their distributors/ agents.",
+    "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank."
+  ],
+  "dependencies": [],
+  "documents": [
+    "LEO copy of Shipping Bill",
+    "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+    "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+    "Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased."
+  ],
+  "required_documents": [
+    "LEO copy of Shipping Bill",
+    "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+    "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+    "Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased."
+  ],
+  "authorities": [
+    "Copy of the approval letter issued by Government"
+  ],
+  "timelines": [
+    "Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg.",
+    "Items not sold abroad\nwithin 365 days shall be re-imported.",
+    "Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.",
+    "In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.",
+    "Such account shall be maintained for a\nminimum period of three years from date of close of exhibition.",
+    "Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\n30 days from date of export whichever is later.",
+    "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
+    "Exporter must fix price within credit terms\nallowed to buyer and realise proceeds within the due date of the credit\nterms or 180 days, whichever is earlier.",
+    "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+    "Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised."
+  ],
+  "actions": [
+    "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+    "(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.",
+    "(f)\nNominated Agencies shall maintain a complete account of exports made,\ngoods sold abroad, goods re-imported, and metals purchased abroad\nand imported into India.",
+    "Such account shall be maintained for a\nminimum period of three years from date of close of exhibition.",
+    "4.81 Replenishment Basis\n(a)\nExporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+    "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent."
+  ],
+  "workflow": [
+    "Evaluate condition: Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.",
+    "Evaluate condition: (ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.",
+    "Evaluate condition: In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.",
+    "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+    "(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.",
+    "(f)\nNominated Agencies shall maintain a complete account of exports made,\ngoods sold abroad, goods re-imported, and metals purchased abroad\nand imported into India.",
+    "Such account shall be maintained for a\nminimum period of three years from date of close of exhibition.",
+    "4.81 Replenishment Basis\n(a)\nExporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+    "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.",
+    "Run validation: Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.",
+    "Run validation: (b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.",
+    "Run validation: Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg.",
+    "Handle exception: (i)\nExport of branded jewellery is also permitted with approval of Gem\n& Jewellery EPC for display/sale in permitted shops setup abroad\nor in showroom of their distributors/ agents."
+  ],
+  "workflow_ascii": "Replenishment Basis\nEvaluate condition: Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.\n   |\n   v\nEvaluate condition: (ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.\n   |\n   v\nEvaluate condition: In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.\n   |\n   v\n4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.\n   |\n   v\n(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.\n   |\n   v\n(f)\nNominated Agencies shall maintain a complete account of exports made,\ngoods sold abroad, goods re-imported, and metals purchased abroad\nand imported into India.\n   |\n   v\nSuch account shall be maintained for a\nminimum period of three years from date of close of exhibition.\n   |\n   v\n4.81 Replenishment Basis\n(a)\nExporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.\n   |\n   v\nNominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.\n   |\n   v\nRun validation: Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.\n   |\n   v\nRun validation: (b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.\n   |\n   v\nRun validation: Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg.\n   |\n   v\nHandle exception: (i)\nExport of branded jewellery is also permitted with approval of Gem\n& Jewellery EPC for display/sale in permitted shops setup abroad\nor in showroom of their distributors/ agents.",
+  "decision_tree": [
+    "IF Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad. THEN 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+    "IF (ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO. THEN 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+    "IF In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition. THEN 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+    "IF However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank. THEN 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+    "IF Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent. THEN 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+    "IF exception applies ((i)\nExport of branded jewellery is also permitted with approval of Gem\n& Jewellery EPC for display/sale in permitted shops setup abroad\nor in showroom of their distributors/ agents.) THEN route to manual review",
+    "IF exception applies (However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Replenishment Basis Decision\nIF Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad. THEN 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.\n   |\n   v\nIF (ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO. THEN 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.\n   |\n   v\nIF In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition. THEN 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.\n   |\n   v\nIF However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank. THEN 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.\n   |\n   v\nIF Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent. THEN 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.\n   |\n   v\nIF exception applies ((i)\nExport of branded jewellery is also permitted with approval of Gem\n& Jewellery EPC for display/sale in permitted shops setup abroad\nor in showroom of their distributors/ agents.) THEN route to manual review\n   |\n   v\nIF exception applies (However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.) THEN route to manual review",
+  "examples": [
+    "User asks to process Replenishment Basis; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Replenishment Basis, submits LEO copy of Shipping Bill, However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank., Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent., and DEKAI uses the extracted rules to 4.81 replenishment basis\n(a) exporter may apply to nominated agency for booking of precious metal\ngold/silver/platinum..",
+  "real_world_example_thanglish": "Indha Replenishment Basis section-la, Example: an importer or exporter invokes Replenishment Basis, submits LEO copy of Shipping Bill, However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period kandippa stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank., Nominated agencies kandippa purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent., and DEKAI uses the extracted rules to 4.81 replenishment basis\n(a) exporter may apply to nominated agency for booking of precious metal\ngold/silver/platinum..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.",
+    "IF detected context matches section rule THEN enforce: (b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.",
+    "IF detected context matches section rule THEN enforce: Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg.",
+    "IF detected context matches section rule THEN enforce: Items not sold abroad\nwithin 365 days shall be re-imported.",
+    "IF detected context matches section rule THEN enforce: Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.",
+    "IF detected context matches section rule THEN enforce: (ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.",
+    "IF validations pass THEN recommend action: 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "gem_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Gem"
+    },
+    {
+      "name": "epc_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:EPC"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "end_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:end"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "LEO copy of Shipping Bill"
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent."
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.81",
+      "purpose": "Retrieve knowledge payload for section 4.81",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Replenishment-Basis/validate",
+      "purpose": "Validate inputs and documents for Replenishment Basis",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Replenishment-Basis/execute",
+      "purpose": "Trigger business action for 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Replenishment_Basis_overview",
+      "name": "Replenishment Basis Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Replenishment_Basis_submission",
+      "name": "Replenishment Basis Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "for_flag",
+        "the_flag",
+        "and_flag",
+        "gem_flag",
+        "epc_flag"
+      ]
+    },
+    {
+      "screen_id": "Replenishment_Basis_exceptions",
+      "name": "Replenishment Basis Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Replenishment Basis require?",
+    "Which documents are needed for Replenishment Basis?",
+    "How does DEKAI validate Replenishment Basis requests?",
+    "What action should be taken for Replenishment Basis?"
+  ],
+  "expected_ai_answers": [
+    "Replenishment Basis requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: LEO copy of Shipping Bill, However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank., Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent., Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased.",
+    "DEKAI validates Replenishment Basis by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4.81?",
+      "answer_en": "Replenishment Basis explains the operating rule set that DEKAI should enforce. Key control points include Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage. The section also drives actions such as 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum..",
+      "question_thanglish": "Indha Replenishment Basis section-la, What is the purpose of section 4.81?",
+      "answer_thanglish": "Indha Replenishment Basis section-la, Replenishment Basis explains the operating rule set that DEKAI should enforce. Key control points include Quantity of precious metal booked with\nnominated agency kandippa be equivalent to precious metal content in the\nexport product and admissible wastage. The section also drives actions such as 4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.."
+    },
+    {
+      "question_en": "What documents are required under Replenishment Basis?",
+      "answer_en": "LEO copy of Shipping Bill, However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank., Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent., Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased.",
+      "question_thanglish": "Indha Replenishment Basis section-la, What documents are required under Replenishment Basis?",
+      "answer_thanglish": "Indha Replenishment Basis section-la, LEO copy of Shipping Bill, However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period kandippa stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank., Nominated agencies kandippa purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent., Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nkandippa be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased."
+    },
+    {
+      "question_en": "Which authority handles Replenishment Basis?",
+      "answer_en": "Copy of the approval letter issued by Government",
+      "question_thanglish": "Indha Replenishment Basis section-la, Which authority handles Replenishment Basis?",
+      "answer_thanglish": "Indha Replenishment Basis section-la, Copy of the approval letter issued by Government"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Replenishment Basis?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4.81, apply the extracted rules, and guide the user through Evaluate condition: Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad..",
+      "question_thanglish": "Indha Replenishment Basis section-la, User asks: How do I comply with Replenishment Basis?",
+      "answer_thanglish": "Indha Replenishment Basis section-la, AI answers: DEKAI should evaluate section 4.81, apply the extracted rules, and guide the user through Evaluate condition: Exporter kandippa book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Replenishment Basis?",
+      "answer_en": "AI answers: Applicable validations are Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage., (b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale., Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg.",
+      "question_thanglish": "Indha Replenishment Basis section-la, User asks: Which validations apply to Replenishment Basis?",
+      "answer_thanglish": "Indha Replenishment Basis section-la, AI answers: Applicable validations are Quantity of precious metal booked with\nnominated agency kandippa be equivalent to precious metal content in the\nexport product and admissible wastage., (b) Applicant kandippa at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which kandippa\nbe adjusted at actual sale., Exports kandippa be effected within a period of\n120 days from date of booking and drawal of precious metal kandippa be\ncompleted within a period of 150 days from date of booking or within\npg."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 4.81, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Replenishment Basis into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: LEO copy of Shipping Bill, However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank., Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent., Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased..",
+    "Route escalations or approvals to: Copy of the approval letter issued by Government.",
+    "Trigger manual review when exception clauses are detected."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Replenishment Basis section-la, Capture chapter 4, section 4.81, title, and page references as immutable knowledge metadata.",
+    "Indha Replenishment Basis section-la, Bind validations for Replenishment Basis into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Replenishment Basis section-la, Expose document upload controls for: LEO copy of Shipping Bill, However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period kandippa stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank., Nominated agencies kandippa purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent., Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nkandippa be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased..",
+    "Indha Replenishment Basis section-la, Route escalations or approvals to: Copy of the approval letter issued by Government.",
+    "Indha Replenishment Basis section-la, Trigger manual review when exception clauses are detected."
+  ],
+  "keywords": [
+    "may",
+    "for",
+    "the",
+    "and",
+    "Gem",
+    "EPC",
+    "not",
+    "end",
+    "LEO",
+    "Tax",
+    "its",
+    "fix",
+    "due",
+    "CIF",
+    "who",
+    "has",
+    "get",
+    "are",
+    "with",
+    "time"
+  ],
+  "search_keywords": [
+    "may",
+    "for",
+    "the",
+    "and",
+    "Gem",
+    "EPC",
+    "not",
+    "end",
+    "LEO",
+    "Tax",
+    "its",
+    "fix",
+    "due",
+    "CIF",
+    "who",
+    "has",
+    "get",
+    "are",
+    "with",
+    "time"
+  ],
+  "intent": "Support Replenishment Basis processing and compliance validation.",
+  "tags": [
+    "4.81",
+    "Replenishment Basis",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.",
+    "(b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.",
+    "Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg.",
+    "Items not sold abroad\nwithin 365 days shall be re-imported.",
+    "Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad."
+  ],
+  "page_numbers": [
+    48,
+    49
+  ],
+  "pages": [
+    48,
+    49
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum. Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.\n(b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale. Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg. 123\npg. 123\n(e)\nExport of branded jewellery.\n(i)\nExport of branded jewellery is also permitted with approval of Gem\n& Jewellery EPC for display/sale in permitted shops setup abroad\nor in showroom of their distributors/ agents. Items not sold abroad\nwithin 365 days shall be re-imported. Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.\n(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO. In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.\n(f)\nNominated Agencies shall maintain a complete account of exports made,\ngoods sold abroad, goods re-imported, and metals purchased abroad\nand imported into India. Such account shall be maintained for a\nminimum period of three years from date of close of exhibition.\n4.81 Replenishment Basis\n(a)\nExporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum. Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.\n(b)\nApplicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale. Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\n30 days from date of export whichever is later. However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank. Exporter must fix price within credit terms\nallowed to buyer and realise proceeds within the due date of the credit\nterms or 180 days, whichever is earlier. Exporter exporting on a notional\nbasis under Replenishment Scheme must book the same quantity of gold\nwith Nominated Agency on same rate that he may have booked with\nbuyer. Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent. Price shall be actual price at which gold/silver/platinum is\npurchased by nominated agencies plus permitted service charges levied\nby nominated agencies shall be included with the price of gold/ silver/\nplatinum for value addition. Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased. Exporter exporting under notional rate will get\nreplenishment only after proceeds are realised.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.\"]\n    S2[\"Evaluate condition: (ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.\"]\n    S2 --> S3\n    S4[\"4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.\"]\n    S3 --> S4\n    S5[\"(ii) Following documents shall be submitted for claiming such\nreplenishment:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.\"]\n    S4 --> S5\n    S6[\"(f)\nNominated Agencies shall maintain a complete account of exports made,\ngoods sold abroad, goods re-imported, and metals purchased abroad\nand imported into India.\"]\n    S5 --> S6\n    S7[\"Such account shall be maintained for a\nminimum period of three years from date of close of exhibition.\"]\n    S6 --> S7\n    S8[\"4.81 Replenishment Basis\n(a)\nExporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.\"]\n    S7 --> S8\n    S9[\"Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.\"]\n    S8 --> S9\n    S10[\"Run validation: Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.\"]\n    S9 --> S10\n    S11[\"Run validation: (b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.\"]\n    S10 --> S11\n    S12[\"Run validation: Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg.\"]\n    S11 --> S12\n    S13[\"Handle exception: (i)\nExport of branded jewellery is also permitted with approval of Gem\n& Jewellery EPC for display/sale in permitted shops setup abroad\nor in showroom of their distributors/ agents.\"]\n    S12 --> S13",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Exporter shall book with\nnominated agency within 120 days after the end of stipulated\nperiod of 365 days, gold/silver/platinum for replenishment\ncontent against items sold abroad.;\n:Evaluate condition\\: (ii) Following documents shall be submitted for claiming such\nreplenishment\\:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.;\n:Evaluate condition\\: In case of exhibitions organised by nominated agencies,\ngold/silver/ platinum shall be imported as replenishment by\nnominated agencies within 60 days from close of exhibition.;\n:4.81 Replenishment Basis\n(a) Exporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.;\n:(ii) Following documents shall be submitted for claiming such\nreplenishment\\:\n(a) LEO copy of Shipping Bill with Tax invoice for export supplies;\n(b) Copy of the approval letter issued by Government/GJEPC;\n(c) Certificate from Nominated Agency / GJEPC as in Appendix 4-\nO.;\n:(f)\nNominated Agencies shall maintain a complete account of exports made,\ngoods sold abroad, goods re-imported, and metals purchased abroad\nand imported into India.;\n:Such account shall be maintained for a\nminimum period of three years from date of close of exhibition.;\n:4.81 Replenishment Basis\n(a)\nExporter may apply to Nominated Agency for booking of precious metal\ngold/silver/platinum.;\n:Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent.;\n:Run validation\\: Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.;\n:Run validation\\: (b) Applicant shall at the time of booking deposit an earnest money for a\nminimum amount of 20% of notional price of precious metal, which shall\nbe adjusted at actual sale.;\n:Run validation\\: Exports shall be effected within a period of\n120 days from date of booking and drawal of precious metal shall be\ncompleted within a period of 150 days from date of booking or within\npg.;\n:Handle exception\\: (i)\nExport of branded jewellery is also permitted with approval of Gem\n& Jewellery EPC for display/sale in permitted shops setup abroad\nor in showroom of their distributors/ agents.;\nstop\n@enduml"
+}

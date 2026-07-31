@@ -1,0 +1,112 @@
+{
+  "section": "4.77",
+  "conditions": [
+    "GJEPC will forward the application after\nverification of bona fides with their clear recommendation for in principle\napproval of DGFT.",
+    "After in principle approval of DGFT is granted, GJEPC will\nconduct inspection of the facility to verify the availability of equipments,\ntechnical manpower as well as other infrastructure required for the Laboratory,\nto function as Authorised Laboratory for certification/ grading of diamonds of\n0.25 carat and above.",
+    "Even where export order is received by an Associate, goods\nshall be cleared through Customs by nominated agency only and not by\nAssociate.",
+    "In case of exports by exporter, a self-\ndeclaration shall be provided to this effect;\n(iii) Name of Customs House through which gold/ silver/\nplatinum/plain semi-finished gold/ silver/ platinum jewellery was\nimported and corresponding Bill of Entry No.",
+    "(d) Each shipping bill shall be valid for exports only through Customs House\nlocated at the place where office of Nominated Agency / exporter\nconcerned is situated.",
+    "It shall be valid for shipment for a period of seven\ndays including the date on which endorsement was made by nominated\nagency in case of exports through nominated agency.",
+    "If exports cannot\nbe made within this period, exporter shall file a fresh shipping bill.",
+    "(e) At the time of export, exporter shall submit following documents:\n(i) Shipping bill with two extra copies where exports are made from\na Customs House other than Customs House through which\ncorresponding import of gold/ silver/ platinum/plain semi-\nfinished gold/silver/ platinum jewellery was effected.",
+    "In other\ncases, shipping bill with an extra copy;\n(ii) Three copies of tax invoices for export/ supplies as prescribed\nunder CGST/SGST/UT GST rules;\n(iii) Certificate from nominated agency indicating quantity and value\nof items supplied by foreign buyer.",
+    "In case of exports by exporter, a self-\ndeclaration shall be provided to this effect;\n(iii) Name\nof\nCustoms\nHouse\nthrough\nwhich\ngold/\nsilver/\nplatinum/plain semi-finished gold/ silver/ platinum jewellery was\nimported and corresponding Bill of Entry No.",
+    "(d)\nEach shipping bill shall be valid for exports only through Customs House\nlocated at the place where office of Nominated Agency / exporter\nconcerned is situated.",
+    "(e)\nAt the time of export, exporter shall submit following documents:\n(i)\nShipping bill with two extra copies where exports are made from\na Customs House other than Customs House through which\ncorresponding import of gold/ silver/ platinum/plain semi-\nfinished gold/silver/ platinum jewellery was effected.",
+    "(g) In case of exports through nominated agency, exporter shall submit\nproof of exports to nominated agency within 15 days of exports, who\nshall, after verifying documents, release admissible quantity of the gold/\nsilver/ platinum etc.",
+    "Integrated Goods and Services tax and Compensation Cess leviable\nunder Section 3(7) AND 3(9) of Customs Tariff Act shall be payable\nseparately on imports.",
+    "BG /LUT shall be redeemed only when the\nexporter has furnished proof of exports to nominated agency and\naccounted for the use of items supplied in advance in export product."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.77.1",
+      "if": "GJEPC will forward the application after\nverification of bona fides with their clear recommendation for in principle\napproval of DGFT.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "GJEPC will forward the application after\nverification of bona fides with their clear recommendation for in principle\napproval of DGFT."
+    },
+    {
+      "id": "4.4.77.2",
+      "if": "After in principle approval of DGFT is granted, GJEPC will\nconduct inspection of the facility to verify the availability of equipments,\ntechnical manpower as well as other infrastructure required for the Laboratory,\nto function as Authorised Laboratory for certification/ grading of diamonds of\n0.25 carat and above.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "After in principle approval of DGFT is granted, GJEPC will\nconduct inspection of the facility to verify the availability of equipments,\ntechnical manpower as well as other infrastructure required for the Laboratory,\nto function as Authorised Laboratory for certification/ grading of diamonds of\n0.25 carat and above."
+    },
+    {
+      "id": "4.4.77.3",
+      "if": "Even where export order is received by an Associate, goods\nshall be cleared through Customs by nominated agency only and not by\nAssociate.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "Even where export order is received by an Associate, goods\nshall be cleared through Customs by nominated agency only and not by\nAssociate."
+    },
+    {
+      "id": "4.4.77.4",
+      "if": "In case of exports by exporter, a self-\ndeclaration shall be provided to this effect;\n(iii) Name of Customs House through which gold/ silver/\nplatinum/plain semi-finished gold/ silver/ platinum jewellery was\nimported and corresponding Bill of Entry No.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "In case of exports by exporter, a self-\ndeclaration shall be provided to this effect;\n(iii) Name of Customs House through which gold/ silver/\nplatinum/plain semi-finished gold/ silver/ platinum jewellery was\nimported and corresponding Bill of Entry No."
+    },
+    {
+      "id": "4.4.77.5",
+      "if": "(d) Each shipping bill shall be valid for exports only through Customs House\nlocated at the place where office of Nominated Agency / exporter\nconcerned is situated.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "(d) Each shipping bill shall be valid for exports only through Customs House\nlocated at the place where office of Nominated Agency / exporter\nconcerned is situated."
+    },
+    {
+      "id": "4.4.77.6",
+      "if": "It shall be valid for shipment for a period of seven\ndays including the date on which endorsement was made by nominated\nagency in case of exports through nominated agency.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "It shall be valid for shipment for a period of seven\ndays including the date on which endorsement was made by nominated\nagency in case of exports through nominated agency."
+    },
+    {
+      "id": "4.4.77.7",
+      "if": "If exports cannot\nbe made within this period, exporter shall file a fresh shipping bill.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "If exports cannot\nbe made within this period, exporter shall file a fresh shipping bill."
+    },
+    {
+      "id": "4.4.77.8",
+      "if": "(e) At the time of export, exporter shall submit following documents:\n(i) Shipping bill with two extra copies where exports are made from\na Customs House other than Customs House through which\ncorresponding import of gold/ silver/ platinum/plain semi-\nfinished gold/silver/ platinum jewellery was effected.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "(e) At the time of export, exporter shall submit following documents:\n(i) Shipping bill with two extra copies where exports are made from\na Customs House other than Customs House through which\ncorresponding import of gold/ silver/ platinum/plain semi-\nfinished gold/silver/ platinum jewellery was effected."
+    },
+    {
+      "id": "4.4.77.9",
+      "if": "In other\ncases, shipping bill with an extra copy;\n(ii) Three copies of tax invoices for export/ supplies as prescribed\nunder CGST/SGST/UT GST rules;\n(iii) Certificate from nominated agency indicating quantity and value\nof items supplied by foreign buyer.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "In other\ncases, shipping bill with an extra copy;\n(ii) Three copies of tax invoices for export/ supplies as prescribed\nunder CGST/SGST/UT GST rules;\n(iii) Certificate from nominated agency indicating quantity and value\nof items supplied by foreign buyer."
+    },
+    {
+      "id": "4.4.77.10",
+      "if": "In case of exports by exporter, a self-\ndeclaration shall be provided to this effect;\n(iii) Name\nof\nCustoms\nHouse\nthrough\nwhich\ngold/\nsilver/\nplatinum/plain semi-finished gold/ silver/ platinum jewellery was\nimported and corresponding Bill of Entry No.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "In case of exports by exporter, a self-\ndeclaration shall be provided to this effect;\n(iii) Name\nof\nCustoms\nHouse\nthrough\nwhich\ngold/\nsilver/\nplatinum/plain semi-finished gold/ silver/ platinum jewellery was\nimported and corresponding Bill of Entry No."
+    },
+    {
+      "id": "4.4.77.11",
+      "if": "(d)\nEach shipping bill shall be valid for exports only through Customs House\nlocated at the place where office of Nominated Agency / exporter\nconcerned is situated.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "(d)\nEach shipping bill shall be valid for exports only through Customs House\nlocated at the place where office of Nominated Agency / exporter\nconcerned is situated."
+    },
+    {
+      "id": "4.4.77.12",
+      "if": "(e)\nAt the time of export, exporter shall submit following documents:\n(i)\nShipping bill with two extra copies where exports are made from\na Customs House other than Customs House through which\ncorresponding import of gold/ silver/ platinum/plain semi-\nfinished gold/silver/ platinum jewellery was effected.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "(e)\nAt the time of export, exporter shall submit following documents:\n(i)\nShipping bill with two extra copies where exports are made from\na Customs House other than Customs House through which\ncorresponding import of gold/ silver/ platinum/plain semi-\nfinished gold/silver/ platinum jewellery was effected."
+    },
+    {
+      "id": "4.4.77.13",
+      "if": "(g) In case of exports through nominated agency, exporter shall submit\nproof of exports to nominated agency within 15 days of exports, who\nshall, after verifying documents, release admissible quantity of the gold/\nsilver/ platinum etc.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "(g) In case of exports through nominated agency, exporter shall submit\nproof of exports to nominated agency within 15 days of exports, who\nshall, after verifying documents, release admissible quantity of the gold/\nsilver/ platinum etc."
+    },
+    {
+      "id": "4.4.77.14",
+      "if": "Integrated Goods and Services tax and Compensation Cess leviable\nunder Section 3(7) AND 3(9) of Customs Tariff Act shall be payable\nseparately on imports.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "Integrated Goods and Services tax and Compensation Cess leviable\nunder Section 3(7) AND 3(9) of Customs Tariff Act shall be payable\nseparately on imports."
+    },
+    {
+      "id": "4.4.77.15",
+      "if": "BG /LUT shall be redeemed only when the\nexporter has furnished proof of exports to nominated agency and\naccounted for the use of items supplied in advance in export product.",
+      "then": "4.77 Export Procedure/Payment of Customs Duty\npg.",
+      "source": "BG /LUT shall be redeemed only when the\nexporter has furnished proof of exports to nominated agency and\naccounted for the use of items supplied in advance in export product."
+    }
+  ]
+}

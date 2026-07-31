@@ -1,0 +1,42 @@
+{
+  "section": "4.14",
+  "conditions": [
+    "4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i) Application filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days.",
+    "(ii) The concerned Technical / Administrative Ministry / Department / Scientific\nand Technological institutions or any other agency as the case may be,\nmay communicate its views / comments / recommendations within 45 days\nelectronically/online.",
+    "In case no comments are received within 90 days,\nNorms Committee may take a view based on the facts available on record.",
+    "However, a certain\npercentage of cases as flagged by the RMS may be referred to Norms\nCommittee for validation / review.vi\n4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i)\nApplication filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days.",
+    "(ii)\nThe concerned Technical / Administrative Ministry / Department / Scientific\nand Technological institutions or any other agency as the case may be,\nmay communicate its views / comments / recommendations within 45 days\nelectronically/online."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.14.1",
+      "if": "4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i) Application filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days.",
+      "then": "Route for review",
+      "source": "4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i) Application filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days."
+    },
+    {
+      "id": "4.4.14.2",
+      "if": "(ii) The concerned Technical / Administrative Ministry / Department / Scientific\nand Technological institutions or any other agency as the case may be,\nmay communicate its views / comments / recommendations within 45 days\nelectronically/online.",
+      "then": "Route for review",
+      "source": "(ii) The concerned Technical / Administrative Ministry / Department / Scientific\nand Technological institutions or any other agency as the case may be,\nmay communicate its views / comments / recommendations within 45 days\nelectronically/online."
+    },
+    {
+      "id": "4.4.14.3",
+      "if": "In case no comments are received within 90 days,\nNorms Committee may take a view based on the facts available on record.",
+      "then": "Route for review",
+      "source": "In case no comments are received within 90 days,\nNorms Committee may take a view based on the facts available on record."
+    },
+    {
+      "id": "4.4.14.4",
+      "if": "However, a certain\npercentage of cases as flagged by the RMS may be referred to Norms\nCommittee for validation / review.vi\n4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i)\nApplication filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days.",
+      "then": "Route for review",
+      "source": "However, a certain\npercentage of cases as flagged by the RMS may be referred to Norms\nCommittee for validation / review.vi\n4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i)\nApplication filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days."
+    },
+    {
+      "id": "4.4.14.5",
+      "if": "(ii)\nThe concerned Technical / Administrative Ministry / Department / Scientific\nand Technological institutions or any other agency as the case may be,\nmay communicate its views / comments / recommendations within 45 days\nelectronically/online.",
+      "then": "Route for review",
+      "source": "(ii)\nThe concerned Technical / Administrative Ministry / Department / Scientific\nand Technological institutions or any other agency as the case may be,\nmay communicate its views / comments / recommendations within 45 days\nelectronically/online."
+    }
+  ]
+}

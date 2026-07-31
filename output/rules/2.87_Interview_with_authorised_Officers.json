@@ -1,0 +1,21 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.87",
+  "title": "Interview with authorised Officers",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_87-R001",
+      "rule_description": "Interactions to\nthe extent possible should be through online medium/video conference.",
+      "trigger": "Interview with authorised Officers",
+      "condition": "Interviews /clarifications may also be sought through E-mails.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.87 - Interview with authorised Officers."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Interactions to\nthe extent possible should be through online medium/video conference."
+  ]
+}

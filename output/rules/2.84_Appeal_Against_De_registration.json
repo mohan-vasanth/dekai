@@ -1,0 +1,22 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.84",
+  "title": "Appeal Against De-registration",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_84-R001",
+      "rule_description": "2.84 Appeal Against De-registration\nA person aggrieved by a decision of registering authority in respect of any matter\nconnected with issue of RCMC may prefer an appeal to DGFT or an officer designated\nin this behalf within 45 days against said decision and decision of appellate authority\nshall be final.",
+      "trigger": "Appeal Against De-registration",
+      "condition": "Section 2.84 is applicable",
+      "validation": "2.84 Appeal Against De-registration\nA person aggrieved by a decision of registering authority in respect of any matter\nconnected with issue of RCMC may prefer an appeal to DGFT or an officer designated\nin this behalf within 45 days against said decision and decision of appellate authority\nshall be final.",
+      "action": "2.84 Appeal Against De-registration\nA person aggrieved by a decision of registering authority in respect of any matter\nconnected with issue of RCMC may prefer an appeal to DGFT or an officer designated\nin this behalf within 45 days against said decision and decision of appellate authority\nshall be final.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.84 - Appeal Against De-registration."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.84 Appeal Against De-registration\nA person aggrieved by a decision of registering authority in respect of any matter\nconnected with issue of RCMC may prefer an appeal to DGFT or an officer designated\nin this behalf within 45 days against said decision and decision of appellate authority\nshall be final.",
+    "IF validations pass THEN recommend action: 2.84 Appeal Against De-registration\nA person aggrieved by a decision of registering authority in respect of any matter\nconnected with issue of RCMC may prefer an appeal to DGFT or an officer designated\nin this behalf within 45 days against said decision and decision of appellate authority\nshall be final."
+  ]
+}

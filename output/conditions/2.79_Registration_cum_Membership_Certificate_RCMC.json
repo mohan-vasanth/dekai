@@ -1,0 +1,49 @@
+{
+  "section": "2.79",
+  "conditions": [
+    "2.79 Registration- cum- Membership Certificate (RCMC)\n(a) An exporter may, on application given in ANF 2C register and become a\nmember of EPC.",
+    "On being admitted to membership, applicant shall be granted\nforthwith Registration-cum-Membership Certificate (RCMC) of EPC concerned, in\npg.",
+    "43\n(b)\nAll relevant guidelines regarding grant of specific exemption(s) if any,\nprocedure of data requirement / maintenance / upload on central portal\nand clarifications issued under this notification etc.",
+    "http://dava.gov.in\n(c)\nIt will be the responsibility of the drug manufactures/exporters as the\ncase may be, to satisfy the customs authorities that the export\nconsignment satisfies the conditions of the Notification.",
+    "EXPORT PROMOTION COUNCIL (EPC)/ COMMODITY BOARDS\n2.79 Registration- cum- Membership Certificate (RCMC)\n(a)\nAn exporter may, on application given in ANF 2C register and become a\nmember of EPC.",
+    "In case an exporter desires to get registration as a\nmanufacturer exporter, he shall furnish evidence to that effect."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.79.1",
+      "if": "2.79 Registration- cum- Membership Certificate (RCMC)\n(a) An exporter may, on application given in ANF 2C register and become a\nmember of EPC.",
+      "then": "2.79 Registration- cum- Membership Certificate (RCMC)\n(a) An exporter may, on application given in ANF 2C register and become a\nmember of EPC.",
+      "source": "2.79 Registration- cum- Membership Certificate (RCMC)\n(a) An exporter may, on application given in ANF 2C register and become a\nmember of EPC."
+    },
+    {
+      "id": "2.2.79.2",
+      "if": "On being admitted to membership, applicant shall be granted\nforthwith Registration-cum-Membership Certificate (RCMC) of EPC concerned, in\npg.",
+      "then": "2.79 Registration- cum- Membership Certificate (RCMC)\n(a) An exporter may, on application given in ANF 2C register and become a\nmember of EPC.",
+      "source": "On being admitted to membership, applicant shall be granted\nforthwith Registration-cum-Membership Certificate (RCMC) of EPC concerned, in\npg."
+    },
+    {
+      "id": "2.2.79.3",
+      "if": "any",
+      "then": "2.79 Registration- cum- Membership Certificate (RCMC)\n(a) An exporter may, on application given in ANF 2C register and become a\nmember of EPC.",
+      "source": "43\n(b)\nAll relevant guidelines regarding grant of specific exemption(s) if any,\nprocedure of data requirement / maintenance / upload on central portal\nand clarifications issued under this notification etc."
+    },
+    {
+      "id": "2.2.79.4",
+      "if": "http://dava.gov.in\n(c)\nIt will be the responsibility of the drug manufactures/exporters as the\ncase may be, to satisfy the customs authorities that the export\nconsignment satisfies the conditions of the Notification.",
+      "then": "2.79 Registration- cum- Membership Certificate (RCMC)\n(a) An exporter may, on application given in ANF 2C register and become a\nmember of EPC.",
+      "source": "http://dava.gov.in\n(c)\nIt will be the responsibility of the drug manufactures/exporters as the\ncase may be, to satisfy the customs authorities that the export\nconsignment satisfies the conditions of the Notification."
+    },
+    {
+      "id": "2.2.79.5",
+      "if": "EXPORT PROMOTION COUNCIL (EPC)/ COMMODITY BOARDS\n2.79 Registration- cum- Membership Certificate (RCMC)\n(a)\nAn exporter may, on application given in ANF 2C register and become a\nmember of EPC.",
+      "then": "2.79 Registration- cum- Membership Certificate (RCMC)\n(a) An exporter may, on application given in ANF 2C register and become a\nmember of EPC.",
+      "source": "EXPORT PROMOTION COUNCIL (EPC)/ COMMODITY BOARDS\n2.79 Registration- cum- Membership Certificate (RCMC)\n(a)\nAn exporter may, on application given in ANF 2C register and become a\nmember of EPC."
+    },
+    {
+      "id": "2.2.79.6",
+      "if": "In case an exporter desires to get registration as a\nmanufacturer exporter, he shall furnish evidence to that effect.",
+      "then": "2.79 Registration- cum- Membership Certificate (RCMC)\n(a) An exporter may, on application given in ANF 2C register and become a\nmember of EPC.",
+      "source": "In case an exporter desires to get registration as a\nmanufacturer exporter, he shall furnish evidence to that effect."
+    }
+  ]
+}

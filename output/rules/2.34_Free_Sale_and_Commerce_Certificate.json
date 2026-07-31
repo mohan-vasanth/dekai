@@ -1,0 +1,55 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.34",
+  "title": "Free Sale and Commerce Certificate",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_34-R001",
+      "rule_description": "Validity of such certificate shall be two years from\ndate of issue unless otherwise specified.",
+      "trigger": "Free Sale and Commerce Certificate",
+      "condition": "2.34 Free Sale and Commerce Certificate\n(a) (i) RAs may issue, on application, Free Sale and Commerce certificate for export\nof items not covered under Drugs & Cosmetics Act, 1940, which have usage in\nhospitals, nursing homes and clinics, for medical and surgical purposes and are\nnot prohibited for export.",
+      "validation": "Validity of such certificate shall be two years from\ndate of issue unless otherwise specified.",
+      "action": "2.34 Free Sale and Commerce Certificate\n(a) (i) RAs may issue, on application, Free Sale and Commerce certificate for export\nof items not covered under Drugs & Cosmetics Act, 1940, which have usage in\nhospitals, nursing homes and clinics, for medical and surgical purposes and are\nnot prohibited for export.",
+      "exception": "Validity of such certificate shall be two years from\ndate of issue unless otherwise specified.",
+      "output": "DEKAI should produce a compliance decision for 2.34 - Free Sale and Commerce Certificate."
+    },
+    {
+      "rule_id": "CH2-SEC2_34-R002",
+      "rule_description": "RA shall issue Free Sale and Commerce Certificate as per\nAnnexure B of ANF 2H.",
+      "trigger": "Free Sale and Commerce Certificate",
+      "condition": "Validity of such certificate shall be two years from\ndate of issue unless otherwise specified.",
+      "validation": "RA shall issue Free Sale and Commerce Certificate as per\nAnnexure B of ANF 2H.",
+      "action": "Validity of such certificate shall be two years from\ndate of issue unless otherwise specified.",
+      "exception": "Validity of such certificate shall be two years from date of issue unless\notherwise specified.",
+      "output": "DEKAI should produce a compliance decision for 2.34 - Free Sale and Commerce Certificate."
+    },
+    {
+      "rule_id": "CH2-SEC2_34-R003",
+      "rule_description": "Validity of such certificate shall be two years from date of issue unless\notherwise specified.",
+      "trigger": "Free Sale and Commerce Certificate",
+      "condition": "(ii) For items falling under the Drug & Cosmetics Act, 1940, application for issue\nof Free Sale & Commerce Certificate may be made to the Central Drug Standards\nControl Organisation (CDSCO)\npg.",
+      "validation": "Validity of such certificate shall be two years from date of issue unless\notherwise specified.",
+      "action": "(ii) For items falling under the Drug & Cosmetics Act, 1940, application for issue\nof Free Sale & Commerce Certificate may be made to the Central Drug Standards\nControl Organisation (CDSCO)\npg.",
+      "exception": "Validity of such certificate shall be two years from date of issue unless\notherwise specified.",
+      "output": "DEKAI should produce a compliance decision for 2.34 - Free Sale and Commerce Certificate."
+    },
+    {
+      "rule_id": "CH2-SEC2_34-R004",
+      "rule_description": "RA shall issue Free Sale and\nCommerce Certificate as per Annexure B of ANF 2H.",
+      "trigger": "Free Sale and Commerce Certificate",
+      "condition": "21\n2.34 Free Sale and Commerce Certificate\n(a)\n(i) RAs may issue, on application, Free Sale and Commerce certificate for export\nof items not covered under Drugs & Cosmetics Act, 1940, which have usage in\nhospitals, nursing homes and clinics, for medical and surgical purposes and are\nnot prohibited for export.",
+      "validation": "RA shall issue Free Sale and\nCommerce Certificate as per Annexure B of ANF 2H.",
+      "action": "21\n2.34 Free Sale and Commerce Certificate\n(a)\n(i) RAs may issue, on application, Free Sale and Commerce certificate for export\nof items not covered under Drugs & Cosmetics Act, 1940, which have usage in\nhospitals, nursing homes and clinics, for medical and surgical purposes and are\nnot prohibited for export.",
+      "exception": "Validity of such certificate shall be two years from date of issue unless\notherwise specified.",
+      "output": "DEKAI should produce a compliance decision for 2.34 - Free Sale and Commerce Certificate."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Validity of such certificate shall be two years from\ndate of issue unless otherwise specified.",
+    "IF detected context matches section rule THEN enforce: RA shall issue Free Sale and Commerce Certificate as per\nAnnexure B of ANF 2H.",
+    "IF detected context matches section rule THEN enforce: Validity of such certificate shall be two years from date of issue unless\notherwise specified.",
+    "IF detected context matches section rule THEN enforce: RA shall issue Free Sale and\nCommerce Certificate as per Annexure B of ANF 2H.",
+    "IF validations pass THEN recommend action: 2.34 Free Sale and Commerce Certificate\n(a) (i) RAs may issue, on application, Free Sale and Commerce certificate for export\nof items not covered under Drugs & Cosmetics Act, 1940, which have usage in\nhospitals, nursing homes and clinics, for medical and surgical purposes and are\nnot prohibited for export."
+  ]
+}

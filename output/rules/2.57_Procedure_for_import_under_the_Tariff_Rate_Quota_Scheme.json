@@ -1,0 +1,44 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.57",
+  "title": "Procedure for import under the Tariff Rate Quota Scheme",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_57-R001",
+      "rule_description": "(b) Tariff Rate Quota (TRQ) Imports for Crude Soya-bean oil and Crude Sunflower\nseed oil shall be allocated during financial year 2022-23 only, up to quantities\nper year as indicated below.",
+      "trigger": "Procedure for import under the Tariff Rate Quota Scheme",
+      "condition": "2.57 Procedure for import under the Tariff Rate Quota Scheme\n(a) Imports under the Tariff Rate Quota Scheme is governed as per the Customs\nNotification No.",
+      "validation": "(b) Tariff Rate Quota (TRQ) Imports for Crude Soya-bean oil and Crude Sunflower\nseed oil shall be allocated during financial year 2022-23 only, up to quantities\nper year as indicated below.",
+      "action": "28/2020-Customs dated 23.06.2020 of Department of Revenue,\nMinistry of Finance, Government of India as amended from time to time.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.57 - Procedure for import under the Tariff Rate Quota Scheme."
+    },
+    {
+      "rule_id": "CH2-SEC2_57-R002",
+      "rule_description": "34\nItem Description | ITC(HS) | TRQ per Year (in\n| | MT)\nnumber) and container number shall be clearly readable in that\nphoto.",
+      "trigger": "Procedure for import under the Tariff Rate Quota Scheme",
+      "condition": "(b) Tariff Rate Quota (TRQ) Imports for Crude Soya-bean oil and Crude Sunflower\nseed oil shall be allocated during financial year 2022-23 only, up to quantities\nper year as indicated below.",
+      "validation": "34\nItem Description | ITC(HS) | TRQ per Year (in\n| | MT)\nnumber) and container number shall be clearly readable in that\nphoto.",
+      "action": "Another photo of Inspector shall be captured with sealed\ncontainer with same container number on the door clearly readable\n(vi)\nPhoto of Instrument used for inspection (as indicated at serial no\n(h) of PSIC) shall be captured along with container seal, having\ncontainer seal number and instrument serial number, visible in the\nsame photo\n(e)\nThe photographs and/ or video clippings [as per 2.53(d) above] shall be\nuploaded on DGFT website (https://www.dgft.gov.in ICP/) by PSIA at the\ntime of issue of PSIC.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.57 - Procedure for import under the Tariff Rate Quota Scheme."
+    },
+    {
+      "rule_id": "CH2-SEC2_57-R003",
+      "rule_description": "Another photo of Inspector shall be captured with sealed\ncontainer with same container number on the door clearly readable\n(vi)\nPhoto of Instrument used for inspection (as indicated at serial no\n(h) of PSIC) shall be captured along with container seal, having\ncontainer seal number and instrument serial number, visible in the\nsame photo\n(e)\nThe photographs and/ or video clippings [as per 2.53(d) above] shall be\nuploaded on DGFT website (https://www.dgft.gov.in ICP/) by PSIA at the\ntime of issue of PSIC.",
+      "trigger": "Procedure for import under the Tariff Rate Quota Scheme",
+      "condition": "(b) Tariff Rate Quota (TRQ) Imports for Crude Soya-bean oil and Crude Sunflower\nseed oil shall be allocated during financial year 2022-23 only, up to quantities\nper year as indicated below.",
+      "validation": "Another photo of Inspector shall be captured with sealed\ncontainer with same container number on the door clearly readable\n(vi)\nPhoto of Instrument used for inspection (as indicated at serial no\n(h) of PSIC) shall be captured along with container seal, having\ncontainer seal number and instrument serial number, visible in the\nsame photo\n(e)\nThe photographs and/ or video clippings [as per 2.53(d) above] shall be\nuploaded on DGFT website (https://www.dgft.gov.in ICP/) by PSIA at the\ntime of issue of PSIC.",
+      "action": "Another photo of Inspector shall be captured with sealed\ncontainer with same container number on the door clearly readable\n(vi)\nPhoto of Instrument used for inspection (as indicated at serial no\n(h) of PSIC) shall be captured along with container seal, having\ncontainer seal number and instrument serial number, visible in the\nsame photo\n(e)\nThe photographs and/ or video clippings [as per 2.53(d) above] shall be\nuploaded on DGFT website (https://www.dgft.gov.in ICP/) by PSIA at the\ntime of issue of PSIC.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.57 - Procedure for import under the Tariff Rate Quota Scheme."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (b) Tariff Rate Quota (TRQ) Imports for Crude Soya-bean oil and Crude Sunflower\nseed oil shall be allocated during financial year 2022-23 only, up to quantities\nper year as indicated below.",
+    "IF detected context matches section rule THEN enforce: 34\nItem Description | ITC(HS) | TRQ per Year (in\n| | MT)\nnumber) and container number shall be clearly readable in that\nphoto.",
+    "IF detected context matches section rule THEN enforce: Another photo of Inspector shall be captured with sealed\ncontainer with same container number on the door clearly readable\n(vi)\nPhoto of Instrument used for inspection (as indicated at serial no\n(h) of PSIC) shall be captured along with container seal, having\ncontainer seal number and instrument serial number, visible in the\nsame photo\n(e)\nThe photographs and/ or video clippings [as per 2.53(d) above] shall be\nuploaded on DGFT website (https://www.dgft.gov.in ICP/) by PSIA at the\ntime of issue of PSIC.",
+    "IF validations pass THEN recommend action: 28/2020-Customs dated 23.06.2020 of Department of Revenue,\nMinistry of Finance, Government of India as amended from time to time."
+  ]
+}

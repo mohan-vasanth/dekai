@@ -1,0 +1,37 @@
+{
+  "section": "6.40",
+  "ui": [
+    {
+      "screen_id": "Time_Bound_Disposal_of_Applications_overview",
+      "name": "Time Bound Disposal of Applications Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Time_Bound_Disposal_of_Applications_submission",
+      "name": "Time Bound Disposal of Applications Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "all_flag",
+        "and_flag",
+        "for_flag",
+        "lut_flag",
+        "dta_flag",
+        "day_flag"
+      ]
+    }
+  ]
+}

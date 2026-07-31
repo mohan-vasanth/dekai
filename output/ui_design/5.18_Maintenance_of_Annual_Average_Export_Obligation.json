@@ -1,0 +1,37 @@
+{
+  "section": "5.18",
+  "ui": [
+    {
+      "screen_id": "Maintenance_of_Annual_Average_Export_Obligation_overview",
+      "name": "Maintenance of Annual Average Export Obligation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Maintenance_of_Annual_Average_Export_Obligation_submission",
+      "name": "Maintenance of Annual Average Export Obligation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "can_flag",
+        "any_flag",
+        "may_flag",
+        "done_flag",
+        "epcg_flag"
+      ]
+    }
+  ]
+}

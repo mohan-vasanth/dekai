@@ -1,0 +1,35 @@
+{
+  "section": "2.41",
+  "conditions": [
+    "2.41 Other Conditions for Import of Replacement Goods\n(a) In case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation.",
+    "(b) This procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost.",
+    "24\n2.41 Other Conditions for Import of Replacement Goods\n(a)\nIn case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation.",
+    "(b)\nThis procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.41.1",
+      "if": "2.41 Other Conditions for Import of Replacement Goods\n(a) In case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation.",
+      "then": "2.41 Other Conditions for Import of Replacement Goods\n(a) In case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation.",
+      "source": "2.41 Other Conditions for Import of Replacement Goods\n(a) In case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation."
+    },
+    {
+      "id": "2.2.41.2",
+      "if": "(b) This procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost.",
+      "then": "2.41 Other Conditions for Import of Replacement Goods\n(a) In case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation.",
+      "source": "(b) This procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost."
+    },
+    {
+      "id": "2.2.41.3",
+      "if": "24\n2.41 Other Conditions for Import of Replacement Goods\n(a)\nIn case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation.",
+      "then": "2.41 Other Conditions for Import of Replacement Goods\n(a) In case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation.",
+      "source": "24\n2.41 Other Conditions for Import of Replacement Goods\n(a)\nIn case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation."
+    },
+    {
+      "id": "2.2.41.4",
+      "if": "(b)\nThis procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost.",
+      "then": "2.41 Other Conditions for Import of Replacement Goods\n(a) In case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation.",
+      "source": "(b)\nThis procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "section": "4.44",
+  "ui": [
+    {
+      "screen_id": "Advance_Authorisation_for_Annual_Requirement_overview",
+      "name": "Advance Authorisation for Annual Requirement Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Advance_Authorisation_for_Annual_Requirement_submission",
+      "name": "Advance Authorisation for Annual Requirement Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "anf_flag",
+        "all_flag",
+        "and_flag",
+        "may_flag",
+        "six_flag"
+      ]
+    },
+    {
+      "screen_id": "Advance_Authorisation_for_Annual_Requirement_exceptions",
+      "name": "Advance Authorisation for Annual Requirement Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

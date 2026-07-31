@@ -1,0 +1,21 @@
+{
+  "section": "4.02",
+  "conditions": [
+    "(ii) Applicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application.",
+    "(ii)\nApplicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.02.1",
+      "if": "any",
+      "then": "Applicant\ncould be either Registered office or Head office or a branch office or a\nmanufacturing unit of the IEC holder.",
+      "source": "(ii) Applicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application."
+    },
+    {
+      "id": "4.4.02.2",
+      "if": "any",
+      "then": "Applicant\ncould be either Registered office or Head office or a branch office or a\nmanufacturing unit of the IEC holder.",
+      "source": "(ii)\nApplicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application."
+    }
+  ]
+}

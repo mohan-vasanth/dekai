@@ -1,0 +1,30 @@
+# DGFT Knowledge Extraction Report
+
+## Summary
+- source_pdf: Chapter-7-of-HBP-2023.pdf
+- page_count: 6
+- section_count: 12
+- rule_count: 86
+- condition_count: 37
+- workflow_count: 76
+- validation_count: 47
+- exception_count: 15
+- timeline_count: 17
+- authority_count: 18
+- glossary_count: 24
+
+## Section Metrics
+| section | title | rules | conditions | validations | exceptions | timelines | authorities | documents |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 7.00 | Policy | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 7.01 | General Provision | 4 | 0 | 4 | 2 | 0 | 3 | 4 |
+| 7.02 | Criteria for claiming Benefits | 13 | 5 | 13 | 7 | 0 | 3 | 4 |
+| 7.03 | Procedure for claiming benefits | 13 | 12 | 13 | 3 | 3 | 4 | 14 |
+| 7.04 | Procedure for claiming TED refund on Fuel | 1 | 2 | 1 | 0 | 0 | 0 | 1 |
+| 7.05 | Frequency of application and time period for claiming TED / | 3 | 8 | 2 | 1 | 7 | 1 | 11 |
+| 7.06 | Rate of Drawback | 0 | 2 | 0 | 1 | 0 | 1 | 1 |
+| 7.07 | Time barred / supplementary claim | 1 | 1 | 1 | 0 | 1 | 0 | 0 |
+| 7.08 | Exemption from payment of TED | 1 | 1 | 1 | 1 | 0 | 1 | 0 |
+| 7.09 | Applicability of other Rules | 1 | 1 | 1 | 0 | 0 | 1 | 0 |
+| 7.10 | Payment of interest | 10 | 5 | 10 | 0 | 6 | 2 | 3 |
+| 7.11 | Internal Audit Mechanism | 1 | 0 | 1 | 0 | 0 | 2 | 0 |

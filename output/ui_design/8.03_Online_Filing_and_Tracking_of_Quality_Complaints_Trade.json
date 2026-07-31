@@ -1,0 +1,37 @@
+{
+  "section": "8.03",
+  "ui": [
+    {
+      "screen_id": "Online_Filing_and_Tracking_of_Quality_Complaints_Trade_overview",
+      "name": "Online Filing and Tracking of Quality Complaints/Trade Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Online_Filing_and_Tracking_of_Quality_Complaints_Trade_submission",
+      "name": "Online Filing and Tracking of Quality Complaints/Trade Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "for_flag",
+        "www_flag",
+        "gov_flag",
+        "the_flag",
+        "can_flag"
+      ]
+    }
+  ]
+}

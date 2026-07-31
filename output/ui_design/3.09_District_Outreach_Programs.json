@@ -1,0 +1,37 @@
+{
+  "section": "3.09",
+  "ui": [
+    {
+      "screen_id": "District_Outreach_Programs_overview",
+      "name": "District Outreach Programs Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "District_Outreach_Programs_submission",
+      "name": "District Outreach Programs Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "ras_flag",
+        "all_flag",
+        "for_flag",
+        "each_flag"
+      ]
+    }
+  ]
+}

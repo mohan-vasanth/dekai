@@ -1,0 +1,65 @@
+{
+  "section": "4.07",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.07",
+      "purpose": "Retrieve knowledge payload for section 4.07",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Self-Declared-Authorisations-where-SION-does-not-exist/validate",
+      "purpose": "Validate inputs and documents for Self-Declared Authorisations where SION does not exist",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Self-Declared-Authorisations-where-SION-does-not-exist/execute",
+      "purpose": "Trigger business action for 4.07 Self-Declared Authorisations where SION does not exist\n(i) Regional Authority may also issue Advance Authorisation where there is no\nSION/valid Ad hoc Norms for an export product or where SION / Ad hoc\nnorms have been notified / published but exporter intends to use additional\ninputs in the manufacturing process, based on self-declaration by applicant.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

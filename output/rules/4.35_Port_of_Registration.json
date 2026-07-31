@@ -1,0 +1,107 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.35",
+  "title": "Port of Registration",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_35-R001",
+      "rule_description": "4.35 Port of Registration\n(a) Advance Authorisation shall be issued for purpose of import and export\nthrough one of sea ports or airports or ICDs or LCS specified below.",
+      "trigger": "Port of Registration",
+      "condition": "4.35 Port of Registration\n(a) Advance Authorisation shall be issued for purpose of import and export\nthrough one of sea ports or airports or ICDs or LCS specified below.",
+      "validation": "4.35 Port of Registration\n(a) Advance Authorisation shall be issued for purpose of import and export\nthrough one of sea ports or airports or ICDs or LCS specified below.",
+      "action": "4.35 Port of Registration\n(a) Advance Authorisation shall be issued for purpose of import and export\nthrough one of sea ports or airports or ICDs or LCS specified below.",
+      "exception": "Authorisation holder shall register authorisation at the port specified in\nauthorisation and thereafter all imports against said authorisation shall be\nmade only through that port, unless the authorisation holder obtains\npermission from customs authority concerned to import through any other\nspecified port.",
+      "output": "DEKAI should produce a compliance decision for 4.35 - Port of Registration."
+    },
+    {
+      "rule_id": "CH4-SEC4_35-R002",
+      "rule_description": "Authorisation holder shall register authorisation at the port specified in\nauthorisation and thereafter all imports against said authorisation shall be\nmade only through that port, unless the authorisation holder obtains\npermission from customs authority concerned to import through any other\nspecified port.",
+      "trigger": "Port of Registration",
+      "condition": "Authorisation holder shall register authorisation at the port specified in\nauthorisation and thereafter all imports against said authorisation shall be\nmade only through that port, unless the authorisation holder obtains\npermission from customs authority concerned to import through any other\nspecified port.",
+      "validation": "Authorisation holder shall register authorisation at the port specified in\nauthorisation and thereafter all imports against said authorisation shall be\nmade only through that port, unless the authorisation holder obtains\npermission from customs authority concerned to import through any other\nspecified port.",
+      "action": "Authorisation holder shall register authorisation at the port specified in\nauthorisation and thereafter all imports against said authorisation shall be\nmade only through that port, unless the authorisation holder obtains\npermission from customs authority concerned to import through any other\nspecified port.",
+      "exception": "However, exports may be made through any of the specified\nports.",
+      "output": "DEKAI should produce a compliance decision for 4.35 - Port of Registration."
+    },
+    {
+      "rule_id": "CH4-SEC4_35-R003",
+      "rule_description": "However, authorisation holder shall be solely\nresponsible for imported items and fulfilment of Export Obligation.",
+      "trigger": "Port of Registration",
+      "condition": "However, exports may be made through any of the specified\nports.",
+      "validation": "However, authorisation holder shall be solely\nresponsible for imported items and fulfilment of Export Obligation.",
+      "action": "4.35 Port of Registration\n(a)\nAdvance Authorisation shall be issued for purpose of import and export\nthrough one of sea ports or airports or ICDs or LCS specified below.",
+      "exception": "However, authorisation holder shall be solely\nresponsible for imported items and fulfilment of Export Obligation.",
+      "output": "DEKAI should produce a compliance decision for 4.35 - Port of Registration."
+    },
+    {
+      "rule_id": "CH4-SEC4_35-R004",
+      "rule_description": "4.35 Port of Registration\n(a)\nAdvance Authorisation shall be issued for purpose of import and export\nthrough one of sea ports or airports or ICDs or LCS specified below.",
+      "trigger": "Port of Registration",
+      "condition": "4.35 Port of Registration\n(a)\nAdvance Authorisation shall be issued for purpose of import and export\nthrough one of sea ports or airports or ICDs or LCS specified below.",
+      "validation": "4.35 Port of Registration\n(a)\nAdvance Authorisation shall be issued for purpose of import and export\nthrough one of sea ports or airports or ICDs or LCS specified below.",
+      "action": "(c) For imports from Airport / Seaport / ICD / LCS other than port of registration,\na TRA shall be issued by the customs authority at the port of registration to\ncustoms authority at port of import.",
+      "exception": "However, this requirement of TRA shall\nnot be required if the port of registration and port(s) of imports are EDI\nenabled and the authorisation holder has registered its authorisation.",
+      "output": "DEKAI should produce a compliance decision for 4.35 - Port of Registration."
+    },
+    {
+      "rule_id": "CH4-SEC4_35-R005",
+      "rule_description": "(c) For imports from Airport / Seaport / ICD / LCS other than port of registration,\na TRA shall be issued by the customs authority at the port of registration to\ncustoms authority at port of import.",
+      "trigger": "Port of Registration",
+      "condition": "SEZ:\nAs notified by Central Government any SEZ can be a specified port for import\nand export.",
+      "validation": "(c) For imports from Airport / Seaport / ICD / LCS other than port of registration,\na TRA shall be issued by the customs authority at the port of registration to\ncustoms authority at port of import.",
+      "action": "However, this requirement of TRA shall\nnot be required if the port of registration and port(s) of imports are EDI\nenabled and the authorisation holder has registered its authorisation.",
+      "exception": "However, this requirement of TRA shall\nnot be required if the port of registration and port(s) of imports are EDI\nenabled and the authorisation holder has registered its authorisation.",
+      "output": "DEKAI should produce a compliance decision for 4.35 - Port of Registration."
+    },
+    {
+      "rule_id": "CH4-SEC4_35-R006",
+      "rule_description": "However, this requirement of TRA shall\nnot be required if the port of registration and port(s) of imports are EDI\nenabled and the authorisation holder has registered its authorisation.",
+      "trigger": "Port of Registration",
+      "condition": "However, this requirement of TRA shall\nnot be required if the port of registration and port(s) of imports are EDI\nenabled and the authorisation holder has registered its authorisation.",
+      "validation": "However, this requirement of TRA shall\nnot be required if the port of registration and port(s) of imports are EDI\nenabled and the authorisation holder has registered its authorisation.",
+      "action": "(d) For procurement from SEZs, where no TRA is issued by customs, RA may issue\na \"Certificate of supplies from SEZ\", containing details as given in Para\n4.30 (e) for the requested item, after making the import item \"Invalid for\ndirect imports\".",
+      "exception": "However, this requirement of TRA shall\nnot be required if the port of registration and port(s) of imports are EDI\nenabled and the authorisation holder has registered its authorisation.",
+      "output": "DEKAI should produce a compliance decision for 4.35 - Port of Registration."
+    },
+    {
+      "rule_id": "CH4-SEC4_35-R007",
+      "rule_description": "The \"Certificate of supplies from SEZ\" shall be marked in\nquadruplicate with a copy each to the authorisation holder, SEZ supplier unit,\ndesignated officer at SEZ, and the relevant port customs authorities.",
+      "trigger": "Port of Registration",
+      "condition": "(d) For procurement from SEZs, where no TRA is issued by customs, RA may issue\na \"Certificate of supplies from SEZ\", containing details as given in Para\n4.30 (e) for the requested item, after making the import item \"Invalid for\ndirect imports\".",
+      "validation": "(d) For procurement from SEZs, where no TRA is issued by customs, RA may issue\na \"Certificate of supplies from SEZ\", containing details as given in Para\n4.30 (e) for the requested item, after making the import item \"Invalid for\ndirect imports\".",
+      "action": "The\nabove certificate shall be issued as an online amendment to the authorisation\nand has to be transmitted after verifying usage of issued authorisation in case\nit is already registered with customs at the time of application for the\ncertificate.",
+      "exception": "However, this requirement of TRA shall\nnot be required if the port of registration and port(s) of imports are EDI\nenabled and the authorisation holder has registered its authorisation.",
+      "output": "DEKAI should produce a compliance decision for 4.35 - Port of Registration."
+    },
+    {
+      "rule_id": "CH4-SEC4_35-R008",
+      "rule_description": "The\nabove certificate shall be issued as an online amendment to the authorisation\nand has to be transmitted after verifying usage of issued authorisation in case\nit is already registered with customs at the time of application for the\ncertificate.",
+      "trigger": "Port of Registration",
+      "condition": "The \"Certificate of supplies from SEZ\" shall be marked in\nquadruplicate with a copy each to the authorisation holder, SEZ supplier unit,\ndesignated officer at SEZ, and the relevant port customs authorities.",
+      "validation": "The \"Certificate of supplies from SEZ\" shall be marked in\nquadruplicate with a copy each to the authorisation holder, SEZ supplier unit,\ndesignated officer at SEZ, and the relevant port customs authorities.",
+      "action": "(c)\nFor imports from Airport / Seaport / ICD / LCS other than port of registration,\na TRA shall be issued by the customs authority at the port of registration to\ncustoms authority at port of import.",
+      "exception": "However, this requirement of TRA shall\nnot be required if the port of registration and port(s) of imports are EDI\nenabled and the authorisation holder has registered its authorisation.",
+      "output": "DEKAI should produce a compliance decision for 4.35 - Port of Registration."
+    },
+    {
+      "rule_id": "CH4-SEC4_35-R009",
+      "rule_description": "(c)\nFor imports from Airport / Seaport / ICD / LCS other than port of registration,\na TRA shall be issued by the customs authority at the port of registration to\ncustoms authority at port of import.",
+      "trigger": "Port of Registration",
+      "condition": "The\nabove certificate shall be issued as an online amendment to the authorisation\nand has to be transmitted after verifying usage of issued authorisation in case\nit is already registered with customs at the time of application for the\ncertificate.",
+      "validation": "The\nabove certificate shall be issued as an online amendment to the authorisation\nand has to be transmitted after verifying usage of issued authorisation in case\nit is already registered with customs at the time of application for the\ncertificate.",
+      "action": "(d)\nFor procurement from SEZs, where no TRA is issued by customs, RA may issue\na \"Certificate of supplies from SEZ\", containing details as given in Para\n4.30 (e) for the requested item, after making the import item \"Invalid for\ndirect imports\".",
+      "exception": "However, this requirement of TRA shall\nnot be required if the port of registration and port(s) of imports are EDI\nenabled and the authorisation holder has registered its authorisation.",
+      "output": "DEKAI should produce a compliance decision for 4.35 - Port of Registration."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.35 Port of Registration\n(a) Advance Authorisation shall be issued for purpose of import and export\nthrough one of sea ports or airports or ICDs or LCS specified below.",
+    "IF detected context matches section rule THEN enforce: Authorisation holder shall register authorisation at the port specified in\nauthorisation and thereafter all imports against said authorisation shall be\nmade only through that port, unless the authorisation holder obtains\npermission from customs authority concerned to import through any other\nspecified port.",
+    "IF detected context matches section rule THEN enforce: However, authorisation holder shall be solely\nresponsible for imported items and fulfilment of Export Obligation.",
+    "IF detected context matches section rule THEN enforce: 4.35 Port of Registration\n(a)\nAdvance Authorisation shall be issued for purpose of import and export\nthrough one of sea ports or airports or ICDs or LCS specified below.",
+    "IF detected context matches section rule THEN enforce: (c) For imports from Airport / Seaport / ICD / LCS other than port of registration,\na TRA shall be issued by the customs authority at the port of registration to\ncustoms authority at port of import.",
+    "IF detected context matches section rule THEN enforce: However, this requirement of TRA shall\nnot be required if the port of registration and port(s) of imports are EDI\nenabled and the authorisation holder has registered its authorisation.",
+    "IF validations pass THEN recommend action: 4.35 Port of Registration\n(a) Advance Authorisation shall be issued for purpose of import and export\nthrough one of sea ports or airports or ICDs or LCS specified below."
+  ]
+}

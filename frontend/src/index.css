@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --background: #f3f5f1;
+  --surface: rgba(255, 255, 255, 0.82);
+  --panel: rgba(255, 255, 255, 0.94);
+  --panel-subtle: #f7f8f4;
+  --panel-strong: #e8f3ef;
+  --foreground: #16211d;
+  --muted-foreground: #5f6b65;
+  --border: rgba(22, 33, 29, 0.08);
+  --accent: #0f766e;
+  --accent-strong: #115e59;
+  --accent-foreground: #f8fffd;
+  --danger: #dc2626;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --background: #0f1412;
+  --surface: rgba(19, 24, 22, 0.82);
+  --panel: rgba(20, 26, 24, 0.94);
+  --panel-subtle: #171f1c;
+  --panel-strong: #1d2a25;
+  --foreground: #f3f6f2;
+  --muted-foreground: #9aa8a1;
+  --border: rgba(243, 246, 242, 0.1);
+  --accent: #34d399;
+  --accent-strong: #14b8a6;
+  --accent-foreground: #06291e;
+  --danger: #f87171;
+  color-scheme: dark;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    background:
+      radial-gradient(circle at top left, rgba(15, 118, 110, 0.1), transparent 28%),
+      radial-gradient(circle at bottom right, rgba(52, 211, 153, 0.08), transparent 24%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.55), transparent 30%),
+      var(--background);
+    color: var(--foreground);
+    font-family: "Manrope", system-ui, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Sora", "Manrope", sans-serif;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--accent) 24%, white);
+    color: var(--foreground);
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply rounded-[2rem] border p-6 backdrop-blur-xl;
+    border-color: var(--border);
+    background: var(--panel);
+    box-shadow: 0 24px 80px rgba(15, 23, 42, 0.08);
+  }
+
+  .field {
+    @apply h-14 w-full rounded-2xl border px-4 text-sm outline-none transition;
+    border-color: var(--border);
+    background: var(--panel);
+    color: var(--foreground);
+  }
+
+  .field::placeholder {
+    color: var(--muted-foreground);
+  }
+
+  .field:focus {
+    border-color: color-mix(in srgb, var(--accent) 42%, var(--border));
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 10%, transparent);
+  }
+}

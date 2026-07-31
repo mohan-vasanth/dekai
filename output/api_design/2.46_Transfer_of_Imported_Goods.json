@@ -1,0 +1,59 @@
+{
+  "section": "2.46",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.46",
+      "purpose": "Retrieve knowledge payload for section 2.46",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Transfer-of-Imported-Goods/validate",
+      "purpose": "Validate inputs and documents for Transfer of Imported Goods",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Transfer-of-Imported-Goods/execute",
+      "purpose": "Trigger business action for Following information along with supporting documents shall\nbe furnished with request for grant of permission for transfer, to the issuing authority:\n(i) Reasons for transfer of imported material;\n(ii) Name, address, IEC number and industrial Authorisation registration, if\nany, of transferee;\n(iii) Description, quantity and value of goods imported and those sought to be\ntransferred;\n(iv) Copies of import Authorisation and bills of entry relating to imports made;\n(v) Terms and conditions of transfer as agreed upon between buyer and\nseller.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

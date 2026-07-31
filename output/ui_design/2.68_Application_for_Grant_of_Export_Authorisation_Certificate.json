@@ -1,0 +1,37 @@
+{
+  "section": "2.68",
+  "ui": [
+    {
+      "screen_id": "Application_for_Grant_of_Export_Authorisation_Certificate_overview",
+      "name": "Application for Grant of Export Authorisation/Certificate/ Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Application_for_Grant_of_Export_Authorisation_Certificate_submission",
+      "name": "Application for Grant of Export Authorisation/Certificate/ Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "and_flag",
+        "itc_flag",
+        "may_flag",
+        "anf_flag",
+        "efc_flag"
+      ]
+    }
+  ]
+}

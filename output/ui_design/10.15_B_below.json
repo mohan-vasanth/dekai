@@ -1,0 +1,47 @@
+{
+  "section": "10.15",
+  "ui": [
+    {
+      "screen_id": "B_below_overview",
+      "name": "B below. Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "B_below_submission",
+      "name": "B below. Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "and_flag",
+        "the_flag",
+        "may_flag",
+        "icp_flag",
+        "any_flag"
+      ]
+    },
+    {
+      "screen_id": "B_below_exceptions",
+      "name": "B below. Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

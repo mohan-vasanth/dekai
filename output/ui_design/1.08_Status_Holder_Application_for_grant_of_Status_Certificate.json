@@ -1,0 +1,37 @@
+{
+  "section": "1.08",
+  "ui": [
+    {
+      "screen_id": "Status_Holder_Application_for_grant_of_Status_Certificate_overview",
+      "name": "Status Holder: Application for grant of Status Certificate Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Status_Holder_Application_for_grant_of_Status_Certificate_submission",
+      "name": "Status Holder: Application for grant of Status Certificate Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "anf_flag",
+        "and_flag",
+        "per_flag",
+        "file_flag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chapter_number": "7",
+  "chapter_title": "Deemed Exports",
+  "section": "7.07",
+  "title": "Time barred / supplementary claim",
+  "business_rules": [
+    {
+      "rule_id": "CH7-SEC7_07-R001",
+      "rule_description": "7.07 Time barred / supplementary claim\nIn case claim is filed after prescribed time period, provision of late cut, under\nParagraph 11.02 of HBP and provision of supplementary claim under Paragraph\n11.03 of HBP shall be applicable.",
+      "trigger": "Time barred / supplementary claim",
+      "condition": "7.07 Time barred / supplementary claim\nIn case claim is filed after prescribed time period, provision of late cut, under\nParagraph 11.02 of HBP and provision of supplementary claim under Paragraph\n11.03 of HBP shall be applicable.",
+      "validation": "7.07 Time barred / supplementary claim\nIn case claim is filed after prescribed time period, provision of late cut, under\nParagraph 11.02 of HBP and provision of supplementary claim under Paragraph\n11.03 of HBP shall be applicable.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.07 - Time barred / supplementary claim."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 7.07 Time barred / supplementary claim\nIn case claim is filed after prescribed time period, provision of late cut, under\nParagraph 11.02 of HBP and provision of supplementary claim under Paragraph\n11.03 of HBP shall be applicable."
+  ]
+}

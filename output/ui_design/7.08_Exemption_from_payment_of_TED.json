@@ -1,0 +1,47 @@
+{
+  "section": "7.08",
+  "ui": [
+    {
+      "screen_id": "Exemption_from_payment_of_TED_overview",
+      "name": "Exemption from payment of TED Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Exemption_from_payment_of_TED_submission",
+      "name": "Exemption from payment of TED Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "ted_flag",
+        "for_flag",
+        "from_flag",
+        "duty_flag",
+        "shall_flag",
+        "excise_flag"
+      ]
+    },
+    {
+      "screen_id": "Exemption_from_payment_of_TED_exceptions",
+      "name": "Exemption from payment of TED Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

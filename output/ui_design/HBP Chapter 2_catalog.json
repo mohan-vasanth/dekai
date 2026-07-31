@@ -1,0 +1,4395 @@
+{
+  "screen_ids": [
+    "Policy_overview",
+    "Policy_submission",
+    "Coverage_overview",
+    "Coverage_submission",
+    "Countries_of_Imports_Exports_overview",
+    "Countries_of_Imports_Exports_submission",
+    "Countries_of_Imports_Exports_exceptions",
+    "Filing_of_Application_overview",
+    "Filing_of_Application_submission",
+    "Territorial_Jurisdiction_of_RA_overview",
+    "Territorial_Jurisdiction_of_RA_submission",
+    "Territorial_Jurisdiction_of_RA_exceptions",
+    "Incomplete_Application_overview",
+    "Incomplete_Application_submission",
+    "Application_Fee_overview",
+    "Application_Fee_submission",
+    "Application_Fee_exceptions",
+    "IEC_Number_Exempted_Categories_overview",
+    "IEC_Number_Exempted_Categories_submission",
+    "IEC_Number_Exempted_Categories_exceptions",
+    "Application_for_IEC_overview",
+    "Application_for_IEC_submission",
+    "Application_for_IEC_exceptions",
+    "IEC_Format_overview",
+    "IEC_Format_submission",
+    "Validity_of_IEC_overview",
+    "Validity_of_IEC_submission",
+    "Validity_of_IEC_exceptions",
+    "Validity_of_IEC_for_EOUs_SEZs_overview",
+    "Validity_of_IEC_for_EOUs_SEZs_submission",
+    "One_PAN_One_IEC_overview",
+    "One_PAN_One_IEC_submission",
+    "Surrender_of_IEC_overview",
+    "Surrender_of_IEC_submission",
+    "Modification_of_IEC_overview",
+    "Modification_of_IEC_submission",
+    "Profile_of_Importer_Exporter_overview",
+    "Profile_of_Importer_Exporter_submission",
+    "Validity_period_of_Authorisation_Licence_Certificate_overview",
+    "Validity_period_of_Authorisation_Licence_Certificate_submission",
+    "Validity_period_of_Authorisation_Licence_Certificate_exceptions",
+    "Date_of_reckoning_of_Import_Export_overview",
+    "Date_of_reckoning_of_Import_Export_submission",
+    "Date_of_reckoning_of_Import_Export_exceptions",
+    "Validity_of_Authorisation_Licence_for_import_export_overview",
+    "Validity_of_Authorisation_Licence_for_import_export_submission",
+    "Validity_of_Authorisation_Licence_for_import_export_exceptions",
+    "Validity_of_Scrips_overview",
+    "Validity_of_Scrips_submission",
+    "Revalidation_of_Import_Export_Licence_Certificate_Authorisation_overview",
+    "Revalidation_of_Import_Export_Licence_Certificate_Authorisation_submission",
+    "Revalidation_of_Import_Export_Licence_Certificate_Authorisation_exceptions",
+    "Authority_to_Revalidate_overview",
+    "Authority_to_Revalidate_submission",
+    "Application_for_Revalidation_overview",
+    "Application_for_Revalidation_submission",
+    "Duplicate_copies_of_Export_Import_Authorisation_overview",
+    "Duplicate_copies_of_Export_Import_Authorisation_submission",
+    "Duplicate_copies_of_Export_Import_Authorisation_exceptions",
+    "Documents_required_for_duplicate_copy_of_freely_transferable_overview",
+    "Documents_required_for_duplicate_copy_of_freely_transferable_submission",
+    "Exception_overview",
+    "Exception_submission",
+    "Exception_exceptions",
+    "Mechanism_for_issuing_duplicates_overview",
+    "Mechanism_for_issuing_duplicates_submission",
+    "Validity_of_duplicate_Authorisation_overview",
+    "Validity_of_duplicate_Authorisation_submission",
+    "Applicability_of_the_provision_overview",
+    "Applicability_of_the_provision_submission",
+    "Execution_of_BG_Legal_undertaking_for_Advance_Authorisation_overview",
+    "Execution_of_BG_Legal_undertaking_for_Advance_Authorisation_submission",
+    "A_Any_firm_company_coming_under_the_NCLT_proceedings_shall_make_a_overview",
+    "A_Any_firm_company_coming_under_the_NCLT_proceedings_shall_make_a_submission",
+    "Advance_Payment_overview",
+    "Advance_Payment_submission",
+    "Advance_Payment_exceptions",
+    "Import_under_Lease_Financing_overview",
+    "Import_under_Lease_Financing_submission",
+    "Submission_of_Certified_Copies_of_Documents_overview",
+    "Submission_of_Certified_Copies_of_Documents_submission",
+    "Warehousing_Facility_overview",
+    "Warehousing_Facility_submission",
+    "Warehousing_Facility_exceptions",
+    "Free_Sale_and_Commerce_Certificate_overview",
+    "Free_Sale_and_Commerce_Certificate_submission",
+    "Free_Sale_and_Commerce_Certificate_exceptions",
+    "End_User_Certificate_overview",
+    "End_User_Certificate_submission",
+    "Imports_under_Indo_US_Memorandum_of_Understanding_overview",
+    "Imports_under_Indo_US_Memorandum_of_Understanding_submission",
+    "Imports_under_Indo_US_Memorandum_of_Understanding_exceptions",
+    "Import_of_Consumer_or_Other_goods_as_Gifts_overview",
+    "Import_of_Consumer_or_Other_goods_as_Gifts_submission",
+    "Import_of_Consumer_or_Other_goods_as_Gifts_exceptions",
+    "Import_of_Cheque_Books_Ticket_Forms_etc_overview",
+    "Import_of_Cheque_Books_Ticket_Forms_etc_submission",
+    "Import_of_Reconditioned_Second_Hand_Aircraft_Spares_overview",
+    "Import_of_Reconditioned_Second_Hand_Aircraft_Spares_submission",
+    "Import_of_Replacement_Goods_overview",
+    "Import_of_Replacement_Goods_submission",
+    "Import_of_Replacement_Goods_exceptions",
+    "Other_Conditions_for_Import_of_Replacement_Goods_overview",
+    "Other_Conditions_for_Import_of_Replacement_Goods_submission",
+    "Import_of_Overseas_Office_Equipment_overview",
+    "Import_of_Overseas_Office_Equipment_submission",
+    "Import_of_Ammunition_by_Licensed_Authorised_Arms_Dealers_overview",
+    "Import_of_Ammunition_by_Licensed_Authorised_Arms_Dealers_submission",
+    "Duty_Free_Imports_for_specific_Sectors_overview",
+    "Duty_Free_Imports_for_specific_Sectors_submission",
+    "Import_under_Govt_to_Govt_Agreements_overview",
+    "Import_under_Govt_to_Govt_Agreements_submission",
+    "Transfer_of_Imported_Goods_overview",
+    "Transfer_of_Imported_Goods_submission",
+    "Import_Export_of_Restricted_Items_overview",
+    "Import_Export_of_Restricted_Items_submission",
+    "EXIM_Facilitation_Committee_overview",
+    "EXIM_Facilitation_Committee_submission",
+    "EXIM_Facilitation_Committee_exceptions",
+    "Import_of_Restricted_items_required_by_Hotels_Restaurants_Travel_overview",
+    "Import_of_Restricted_items_required_by_Hotels_Restaurants_Travel_submission",
+    "Import_of_Restricted_items_required_by_Hotels_Restaurants_Travel_exceptions",
+    "Import_of_Restricted_items_for_R_D_by_units_of_Government_overview",
+    "Import_of_Restricted_items_for_R_D_by_units_of_Government_submission",
+    "Import_of_Restricted_items_for_R_D_by_units_of_Government_exceptions",
+    "Import_of_Metallic_Waste_and_Scrap_overview",
+    "Import_of_Metallic_Waste_and_Scrap_submission",
+    "Import_of_Metallic_Waste_and_Scrap_exceptions",
+    "Recognition_as_Pre_shipment_Inspection_Agency_PSIA_and_issuance_overview",
+    "Recognition_as_Pre_shipment_Inspection_Agency_PSIA_and_issuance_submission",
+    "Recognition_as_Pre_shipment_Inspection_Agency_PSIA_and_issuance_exceptions",
+    "Responsibility_and_Liability_of_PSIA_and_Importer_overview",
+    "Responsibility_and_Liability_of_PSIA_and_Importer_submission",
+    "Import_of_other_kinds_of_metallic_waste_and_scraps_overview",
+    "Import_of_other_kinds_of_metallic_waste_and_scraps_submission",
+    "Imports_of_seconds_and_defectives_overview",
+    "Imports_of_seconds_and_defectives_submission",
+    "Services_of_Inspection_and_Certification_Agencies_overview",
+    "Services_of_Inspection_and_Certification_Agencies_submission",
+    "Services_of_Inspection_and_Certification_Agencies_exceptions",
+    "Procedure_for_import_under_the_Tariff_Rate_Quota_Scheme_overview",
+    "Procedure_for_import_under_the_Tariff_Rate_Quota_Scheme_submission",
+    "Eligible_entities_for_allocation_of_quota_overview",
+    "Eligible_entities_for_allocation_of_quota_submission",
+    "Eligible_entities_for_allocation_of_quota_exceptions",
+    "Conditions_applicable_on_availing_quotas_overview",
+    "Conditions_applicable_on_availing_quotas_submission",
+    "Conditions_applicable_on_availing_quotas_exceptions",
+    "Exhibits_Required_for_National_and_International_Exhibitions_or_Fairs_overview",
+    "Exhibits_Required_for_National_and_International_Exhibitions_or_Fairs_submission",
+    "Exhibits_Required_for_National_and_International_Exhibitions_or_Fairs_exceptions",
+    "Sale_of_Exhibits_overview",
+    "Sale_of_Exhibits_submission",
+    "Sale_of_Exhibits_exceptions",
+    "Import_of_Samples_overview",
+    "Import_of_Samples_submission",
+    "Import_of_Samples_exceptions",
+    "Exports_of_Samples_Exhibits_overview",
+    "Exports_of_Samples_Exhibits_submission",
+    "Export_Policy_overview",
+    "Export_Policy_submission",
+    "Export_Policy_exceptions",
+    "Gifts_Spares_Replacement_Goods_overview",
+    "Gifts_Spares_Replacement_Goods_submission",
+    "Export_by_post_overview",
+    "Export_by_post_submission",
+    "Direct_negotiation_of_export_documents_overview",
+    "Direct_negotiation_of_export_documents_submission",
+    "Application_for_Grant_of_Export_Authorisation_Certificate_overview",
+    "Application_for_Grant_of_Export_Authorisation_Certificate_submission",
+    "Export_of_Items_under_STE_overview",
+    "Export_of_Items_under_STE_submission",
+    "Free_of_Cost_Exports_for_status_holders_overview",
+    "Free_of_Cost_Exports_for_status_holders_submission",
+    "Admissibility_of_benefits_on_payment_through_insurance_cover_overview",
+    "Admissibility_of_benefits_on_payment_through_insurance_cover_submission",
+    "RBI_write_off_on_export_proceeds_realization_overview",
+    "RBI_write_off_on_export_proceeds_realization_submission",
+    "RBI_write_off_on_export_proceeds_realization_exceptions",
+    "Conversion_of_Shipping_Bill_from_one_Scheme_to_another_overview",
+    "Conversion_of_Shipping_Bill_from_one_Scheme_to_another_submission",
+    "Offsetting_of_Export_Proceeds_overview",
+    "Offsetting_of_Export_Proceeds_submission",
+    "Quality_Certification_overview",
+    "Quality_Certification_submission",
+    "Track_and_Trace_system_for_export_of_drug_formulations_overview",
+    "Track_and_Trace_system_for_export_of_drug_formulations_submission",
+    "Track_and_Trace_system_for_export_of_drug_formulations_exceptions",
+    "Registering_Authorities_overview",
+    "Registering_Authorities_submission",
+    "Criteria_for_EPCs_as_Registering_Authorities_overview",
+    "Criteria_for_EPCs_as_Registering_Authorities_submission",
+    "Criteria_for_EPCs_as_Registering_Authorities_exceptions",
+    "Registration_cum_Membership_Certificate_RCMC_overview",
+    "Registration_cum_Membership_Certificate_RCMC_submission",
+    "Registration_cum_Membership_Certificate_RCMC_exceptions",
+    "Applying_for_RCMC_overview",
+    "Applying_for_RCMC_submission",
+    "Applying_for_RCMC_exceptions",
+    "Validity_Period_of_RCMC_overview",
+    "Validity_Period_of_RCMC_submission",
+    "Validity_Period_of_RCMC_exceptions",
+    "Intimation_Regarding_Change_in_Constitution_of_Business_of_RCMC_overview",
+    "Intimation_Regarding_Change_in_Constitution_of_Business_of_RCMC_submission",
+    "Intimation_Regarding_Change_in_Constitution_of_Business_of_RCMC_exceptions",
+    "De_Registration_overview",
+    "De_Registration_submission",
+    "Appeal_Against_De_registration_overview",
+    "Appeal_Against_De_registration_submission",
+    "Directives_of_DGFT_overview",
+    "Directives_of_DGFT_submission",
+    "Identity_Cards_for_Importers_Exporters_overview",
+    "Identity_Cards_for_Importers_Exporters_submission",
+    "Interview_with_authorised_Officers_overview",
+    "Interview_with_authorised_Officers_submission",
+    "Free_Trade_Agreements_FTAs_Preferential_Trade_Agreements_overview",
+    "Free_Trade_Agreements_FTAs_Preferential_Trade_Agreements_submission",
+    "Free_Trade_Agreements_FTAs_Preferential_Trade_Agreements_exceptions",
+    "Unilateral_Tariff_Preferences_overview",
+    "Unilateral_Tariff_Preferences_submission",
+    "Unilateral_Tariff_Preferences_exceptions",
+    "Certificates_of_Origin_Co_O_overview",
+    "Certificates_of_Origin_Co_O_submission",
+    "Rules_of_Origin_Preferential_overview",
+    "Rules_of_Origin_Preferential_submission",
+    "TRQ_under_FTA_CECA_overview",
+    "TRQ_under_FTA_CECA_submission",
+    "Rules_of_Origin_Non_Preferential_overview",
+    "Rules_of_Origin_Non_Preferential_submission",
+    "Approved_Exporter_Scheme_AES_for_self_certification_overview",
+    "Approved_Exporter_Scheme_AES_for_self_certification_submission",
+    "Application_to_PIC_overview",
+    "Application_to_PIC_submission",
+    "Application_to_PRC_overview",
+    "Application_to_PRC_submission",
+    "Application_to_EPCG_Committee_overview",
+    "Application_to_EPCG_Committee_submission"
+  ],
+  "sections": [
+    {
+      "section": "2.00",
+      "title": "Policy",
+      "ui": [
+        {
+          "screen_id": "Policy_overview",
+          "name": "Policy Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Policy_submission",
+          "name": "Policy Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "the_flag",
+            "ftp_flag",
+            "given_flag",
+            "policy_flag",
+            "general_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.01",
+      "title": "Coverage",
+      "ui": [
+        {
+          "screen_id": "Coverage_overview",
+          "name": "Coverage Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Coverage_submission",
+          "name": "Coverage Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "ftp_flag",
+            "are_flag",
+            "out_flag",
+            "this_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.02",
+      "title": "Countries of Imports/Exports",
+      "ui": [
+        {
+          "screen_id": "Countries_of_Imports_Exports_overview",
+          "name": "Countries of Imports/Exports Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Countries_of_Imports_Exports_submission",
+          "name": "Countries of Imports/Exports Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "can_flag",
+            "any_flag",
+            "are_flag",
+            "the_flag",
+            "ftp_flag",
+            "itc_flag"
+          ]
+        },
+        {
+          "screen_id": "Countries_of_Imports_Exports_exceptions",
+          "name": "Countries of Imports/Exports Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.03",
+      "title": "Filing of Application",
+      "ui": [
+        {
+          "screen_id": "Filing_of_Application_overview",
+          "name": "Filing of Application Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Filing_of_Application_submission",
+          "name": "Filing of Application Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "ftp_flag",
+            "may_flag",
+            "gov_flag",
+            "are_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.04",
+      "title": "Territorial Jurisdiction of RA",
+      "ui": [
+        {
+          "screen_id": "Territorial_Jurisdiction_of_RA_overview",
+          "name": "Territorial Jurisdiction of RA Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Territorial_Jurisdiction_of_RA_submission",
+          "name": "Territorial Jurisdiction of RA Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "ras_flag",
+            "and_flag",
+            "the_flag",
+            "each_flag",
+            "given_flag",
+            "aayat_flag"
+          ]
+        },
+        {
+          "screen_id": "Territorial_Jurisdiction_of_RA_exceptions",
+          "name": "Territorial Jurisdiction of RA Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.05",
+      "title": "Incomplete Application",
+      "ui": [
+        {
+          "screen_id": "Incomplete_Application_overview",
+          "name": "Incomplete Application Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Incomplete_Application_submission",
+          "name": "Incomplete Application Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "for_flag",
+            "may_flag",
+            "are_flag",
+            "not_flag",
+            "with_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.06",
+      "title": "Application Fee",
+      "ui": [
+        {
+          "screen_id": "Application_Fee_overview",
+          "name": "Application Fee Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Application_Fee_submission",
+          "name": "Application Fee Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "fee_flag",
+            "the_flag",
+            "for_flag",
+            "and_flag",
+            "are_flag",
+            "iec_flag"
+          ]
+        },
+        {
+          "screen_id": "Application_Fee_exceptions",
+          "name": "Application Fee Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.07",
+      "title": "IEC Number Exempted Categories",
+      "ui": [
+        {
+          "screen_id": "IEC_Number_Exempted_Categories_overview",
+          "name": "IEC Number Exempted Categories Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "IEC_Number_Exempted_Categories_submission",
+          "name": "IEC Number Exempted Categories Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "iec_flag",
+            "for_flag",
+            "and_flag",
+            "the_flag",
+            "are_flag",
+            "sub_flag"
+          ]
+        },
+        {
+          "screen_id": "IEC_Number_Exempted_Categories_exceptions",
+          "name": "IEC Number Exempted Categories Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.08",
+      "title": "Application for IEC",
+      "ui": [
+        {
+          "screen_id": "Application_for_IEC_overview",
+          "name": "Application for IEC Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Application_for_IEC_submission",
+          "name": "Application for IEC Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "iec_flag",
+            "the_flag",
+            "gov_flag",
+            "fee_flag",
+            "and_flag"
+          ]
+        },
+        {
+          "screen_id": "Application_for_IEC_exceptions",
+          "name": "Application for IEC Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.09",
+      "title": "IEC Format",
+      "ui": [
+        {
+          "screen_id": "IEC_Format_overview",
+          "name": "IEC Format Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "IEC_Format_submission",
+          "name": "IEC Format Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "iec_flag",
+            "the_flag",
+            "may_flag",
+            "any_flag",
+            "copy_flag",
+            "dgft_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.10",
+      "title": "Validity of IEC",
+      "ui": [
+        {
+          "screen_id": "Validity_of_IEC_overview",
+          "name": "Validity of IEC Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Validity_of_IEC_submission",
+          "name": "Validity of IEC Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "iec_flag",
+            "the_flag",
+            "all_flag",
+            "can_flag",
+            "ftp_flag",
+            "have_flag"
+          ]
+        },
+        {
+          "screen_id": "Validity_of_IEC_exceptions",
+          "name": "Validity of IEC Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.11",
+      "title": "Validity of IEC for EOUs / SEZs",
+      "ui": [
+        {
+          "screen_id": "Validity_of_IEC_for_EOUs_SEZs_overview",
+          "name": "Validity of IEC for EOUs / SEZs Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Validity_of_IEC_for_EOUs_SEZs_submission",
+          "name": "Validity of IEC for EOUs / SEZs Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "iec_flag",
+            "for_flag",
+            "dta_flag",
+            "sez_flag",
+            "eous_flag",
+            "sezs_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.12",
+      "title": "One PAN-One IEC",
+      "ui": [
+        {
+          "screen_id": "One_PAN_One_IEC_overview",
+          "name": "One PAN-One IEC Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "One_PAN_One_IEC_submission",
+          "name": "One PAN-One IEC Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "one_flag",
+            "iec_flag",
+            "pan_flag",
+            "only_flag",
+            "shall_flag",
+            "issued_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.13",
+      "title": "Surrender of IEC",
+      "ui": [
+        {
+          "screen_id": "Surrender_of_IEC_overview",
+          "name": "Surrender of IEC Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Surrender_of_IEC_submission",
+          "name": "Surrender of IEC Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "iec_flag",
+            "not_flag",
+            "may_flag",
+            "the_flag",
+            "can_flag",
+            "all_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.14",
+      "title": "Modification of IEC",
+      "ui": [
+        {
+          "screen_id": "Modification_of_IEC_overview",
+          "name": "Modification of IEC Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Modification_of_IEC_submission",
+          "name": "Modification of IEC Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "iec_flag",
+            "can_flag",
+            "and_flag",
+            "any_flag",
+            "the_flag",
+            "are_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.15",
+      "title": "Profile of Importer / Exporter",
+      "ui": [
+        {
+          "screen_id": "Profile_of_Importer_Exporter_overview",
+          "name": "Profile of Importer / Exporter Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Profile_of_Importer_Exporter_submission",
+          "name": "Profile of Importer / Exporter Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "iec_flag",
+            "for_flag",
+            "and_flag",
+            "any_flag",
+            "are_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.16",
+      "title": "Validity period of Authorisation/ Licence / Certificate /",
+      "ui": [
+        {
+          "screen_id": "Validity_period_of_Authorisation_Licence_Certificate_overview",
+          "name": "Validity period of Authorisation/ Licence / Certificate / Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Validity_period_of_Authorisation_Licence_Certificate_submission",
+          "name": "Validity period of Authorisation/ Licence / Certificate / Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "for_flag",
+            "iii_flag",
+            "per_flag",
+            "ftp_flag",
+            "vii_flag"
+          ]
+        },
+        {
+          "screen_id": "Validity_period_of_Authorisation_Licence_Certificate_exceptions",
+          "name": "Validity period of Authorisation/ Licence / Certificate / Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.17",
+      "title": "Date of reckoning of Import / Export",
+      "ui": [
+        {
+          "screen_id": "Date_of_reckoning_of_Import_Export_overview",
+          "name": "Date of reckoning of Import / Export Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Date_of_reckoning_of_Import_Export_submission",
+          "name": "Date of reckoning of Import / Export Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "not_flag",
+            "the_flag",
+            "for_flag",
+            "ftp_flag",
+            "let_flag"
+          ]
+        },
+        {
+          "screen_id": "Date_of_reckoning_of_Import_Export_exceptions",
+          "name": "Date of reckoning of Import / Export Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.18",
+      "title": "Validity of Authorisation/ Licence for import/export",
+      "ui": [
+        {
+          "screen_id": "Validity_of_Authorisation_Licence_for_import_export_overview",
+          "name": "Validity of Authorisation/ Licence for import/export Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Validity_of_Authorisation_Licence_for_import_export_submission",
+          "name": "Validity of Authorisation/ Licence for import/export Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "may_flag",
+            "own_flag",
+            "and_flag",
+            "must_flag"
+          ]
+        },
+        {
+          "screen_id": "Validity_of_Authorisation_Licence_for_import_export_exceptions",
+          "name": "Validity of Authorisation/ Licence for import/export Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.19",
+      "title": "Validity of Scrips",
+      "ui": [
+        {
+          "screen_id": "Validity_of_Scrips_overview",
+          "name": "Validity of Scrips Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Validity_of_Scrips_submission",
+          "name": "Validity of Scrips Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "ftp_flag",
+            "must_flag",
+            "date_flag",
+            "duty_flag",
+            "made_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.20",
+      "title": "Revalidation of Import / Export Licence Certificate/ Authorisation /",
+      "ui": [
+        {
+          "screen_id": "Revalidation_of_Import_Export_Licence_Certificate_Authorisation_overview",
+          "name": "Revalidation of Import / Export Licence Certificate/ Authorisation / Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Revalidation_of_Import_Export_Licence_Certificate_Authorisation_submission",
+          "name": "Revalidation of Import / Export Licence Certificate/ Authorisation / Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "may_flag",
+            "six_flag",
+            "the_flag",
+            "and_flag",
+            "not_flag"
+          ]
+        },
+        {
+          "screen_id": "Revalidation_of_Import_Export_Licence_Certificate_Authorisation_exceptions",
+          "name": "Revalidation of Import / Export Licence Certificate/ Authorisation / Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.21",
+      "title": "Authority to Revalidate",
+      "ui": [
+        {
+          "screen_id": "Authority_to_Revalidate_overview",
+          "name": "Authority to Revalidate Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Authority_to_Revalidate_submission",
+          "name": "Authority to Revalidate Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "the_flag",
+            "such_flag",
+            "head_flag",
+            "under_flag",
+            "above_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.22",
+      "title": "Application for Revalidation",
+      "ui": [
+        {
+          "screen_id": "Application_for_Revalidation_overview",
+          "name": "Application for Revalidation Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Application_for_Revalidation_submission",
+          "name": "Application for Revalidation Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "may_flag",
+            "the_flag",
+            "has_flag",
+            "made_flag",
+            "which_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.23",
+      "title": "Duplicate copies of Export / Import Authorisation",
+      "ui": [
+        {
+          "screen_id": "Duplicate_copies_of_Export_Import_Authorisation_overview",
+          "name": "Duplicate copies of Export / Import Authorisation Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Duplicate_copies_of_Export_Import_Authorisation_submission",
+          "name": "Duplicate copies of Export / Import Authorisation Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "may_flag",
+            "any_flag",
+            "not_flag",
+            "the_flag",
+            "iii_flag"
+          ]
+        },
+        {
+          "screen_id": "Duplicate_copies_of_Export_Import_Authorisation_exceptions",
+          "name": "Duplicate copies of Export / Import Authorisation Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.24",
+      "title": "Documents required for duplicate copy of freely transferable",
+      "ui": [
+        {
+          "screen_id": "Documents_required_for_duplicate_copy_of_freely_transferable_overview",
+          "name": "Documents required for duplicate copy of freely transferable Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Documents_required_for_duplicate_copy_of_freely_transferable_submission",
+          "name": "Documents required for duplicate copy of freely transferable Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "may_flag",
+            "fee_flag",
+            "fir_flag",
+            "iii_flag",
+            "copy_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.25",
+      "title": "Exception",
+      "ui": [
+        {
+          "screen_id": "Exception_overview",
+          "name": "Exception Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Exception_submission",
+          "name": "Exception Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "nos_flag",
+            "iii_flag",
+            "not_flag",
+            "for_flag",
+            "six_flag"
+          ]
+        },
+        {
+          "screen_id": "Exception_exceptions",
+          "name": "Exception Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.26",
+      "title": "Mechanism for issuing duplicates",
+      "ui": [
+        {
+          "screen_id": "Mechanism_for_issuing_duplicates_overview",
+          "name": "Mechanism for issuing duplicates Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Mechanism_for_issuing_duplicates_submission",
+          "name": "Mechanism for issuing duplicates Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "such_flag",
+            "from_flag",
+            "port_flag",
+            "shall_flag",
+            "obtain_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.27",
+      "title": "Validity of duplicate Authorisation",
+      "ui": [
+        {
+          "screen_id": "Validity_of_duplicate_Authorisation_overview",
+          "name": "Validity of duplicate Authorisation Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Validity_of_duplicate_Authorisation_submission",
+          "name": "Validity of duplicate Authorisation Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "has_flag",
+            "with_flag",
+            "shall_flag",
+            "period_flag",
+            "request_flag",
+            "expired_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.28",
+      "title": "Applicability of the provision",
+      "ui": [
+        {
+          "screen_id": "Applicability_of_the_provision_overview",
+          "name": "Applicability of the provision Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Applicability_of_the_provision_submission",
+          "name": "Applicability of the provision Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "for_flag",
+            "lut_flag",
+            "both_flag",
+            "bank_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.29",
+      "title": "Execution of BG/Legal undertaking for Advance Authorisation/",
+      "ui": [
+        {
+          "screen_id": "Execution_of_BG_Legal_undertaking_for_Advance_Authorisation_overview",
+          "name": "Execution of BG/Legal undertaking for Advance Authorisation/ Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Execution_of_BG_Legal_undertaking_for_Advance_Authorisation_submission",
+          "name": "Execution of BG/Legal undertaking for Advance Authorisation/ Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "was_flag",
+            "lut_flag",
+            "per_flag",
+            "has_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.29",
+      "title": "A Any firm/ company coming under the NCLT proceedings shall make a",
+      "ui": [
+        {
+          "screen_id": "A_Any_firm_company_coming_under_the_NCLT_proceedings_shall_make_a_overview",
+          "name": "A Any firm/ company coming under the NCLT proceedings shall make a Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "A_Any_firm_company_coming_under_the_NCLT_proceedings_shall_make_a_submission",
+          "name": "A Any firm/ company coming under the NCLT proceedings shall make a Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "any_flag",
+            "the_flag",
+            "ftp_flag",
+            "and_flag",
+            "law_flag",
+            "d&r_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.30",
+      "title": "Advance Payment",
+      "ui": [
+        {
+          "screen_id": "Advance_Payment_overview",
+          "name": "Advance Payment Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Advance_Payment_submission",
+          "name": "Advance Payment Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "for_flag",
+            "the_flag",
+            "lut_flag",
+            "per_flag",
+            "has_flag"
+          ]
+        },
+        {
+          "screen_id": "Advance_Payment_exceptions",
+          "name": "Advance Payment Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.31",
+      "title": "Import under Lease Financing",
+      "ui": [
+        {
+          "screen_id": "Import_under_Lease_Financing_overview",
+          "name": "Import under Lease Financing Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_under_Lease_Financing_submission",
+          "name": "Import under Lease Financing Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "eou_flag",
+            "sez_flag",
+            "for_flag",
+            "ftp_flag",
+            "are_flag",
+            "even_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.32",
+      "title": "Submission of Certified Copies of Documents",
+      "ui": [
+        {
+          "screen_id": "Submission_of_Certified_Copies_of_Documents_overview",
+          "name": "Submission of Certified Copies of Documents Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Submission_of_Certified_Copies_of_Documents_submission",
+          "name": "Submission of Certified Copies of Documents Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "can_flag",
+            "him_flag",
+            "have_flag",
+            "been_flag",
+            "same_flag",
+            "duly_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.33",
+      "title": "Warehousing Facility",
+      "ui": [
+        {
+          "screen_id": "Warehousing_Facility_overview",
+          "name": "Warehousing Facility Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Warehousing_Facility_submission",
+          "name": "Warehousing Facility Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "set_flag",
+            "dta_flag",
+            "per_flag",
+            "act_flag",
+            "ftp_flag"
+          ]
+        },
+        {
+          "screen_id": "Warehousing_Facility_exceptions",
+          "name": "Warehousing Facility Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.34",
+      "title": "Free Sale and Commerce Certificate",
+      "ui": [
+        {
+          "screen_id": "Free_Sale_and_Commerce_Certificate_overview",
+          "name": "Free Sale and Commerce Certificate Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Free_Sale_and_Commerce_Certificate_submission",
+          "name": "Free Sale and Commerce Certificate Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "ras_flag",
+            "may_flag",
+            "for_flag",
+            "not_flag",
+            "act_flag"
+          ]
+        },
+        {
+          "screen_id": "Free_Sale_and_Commerce_Certificate_exceptions",
+          "name": "Free Sale and Commerce Certificate Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.35",
+      "title": "End User Certificate",
+      "ui": [
+        {
+          "screen_id": "End_User_Certificate_overview",
+          "name": "End User Certificate Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "End_User_Certificate_submission",
+          "name": "End User Certificate Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "end_flag",
+            "any_flag",
+            "the_flag",
+            "may_flag",
+            "euc_flag",
+            "per_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.36",
+      "title": "Imports under Indo-US Memorandum of Understanding",
+      "ui": [
+        {
+          "screen_id": "Imports_under_Indo_US_Memorandum_of_Understanding_overview",
+          "name": "Imports under Indo-US Memorandum of Understanding Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Imports_under_Indo_US_Memorandum_of_Understanding_submission",
+          "name": "Imports under Indo-US Memorandum of Understanding Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "raw_flag",
+            "and_flag",
+            "usa_flag",
+            "are_flag",
+            "the_flag",
+            "for_flag"
+          ]
+        },
+        {
+          "screen_id": "Imports_under_Indo_US_Memorandum_of_Understanding_exceptions",
+          "name": "Imports under Indo-US Memorandum of Understanding Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.37",
+      "title": "Import of Consumer or Other goods as Gifts",
+      "ui": [
+        {
+          "screen_id": "Import_of_Consumer_or_Other_goods_as_Gifts_overview",
+          "name": "Import of Consumer or Other goods as Gifts Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Consumer_or_Other_goods_as_Gifts_submission",
+          "name": "Import of Consumer or Other goods as Gifts Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "ftp_flag",
+            "for_flag",
+            "itc_flag",
+            "the_flag",
+            "anf_flag",
+            "any_flag"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Consumer_or_Other_goods_as_Gifts_exceptions",
+          "name": "Import of Consumer or Other goods as Gifts Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.38",
+      "title": "Import of Cheque Books /Ticket Forms etc.",
+      "ui": [
+        {
+          "screen_id": "Import_of_Cheque_Books_Ticket_Forms_etc_overview",
+          "name": "Import of Cheque Books /Ticket Forms etc. Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Cheque_Books_Ticket_Forms_etc_submission",
+          "name": "Import of Cheque Books /Ticket Forms etc. Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "etc_flag",
+            "and_flag",
+            "may_flag",
+            "bank_flag",
+            "such_flag",
+            "books_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.39",
+      "title": "Import of Reconditioned/ Second Hand Aircraft Spares",
+      "ui": [
+        {
+          "screen_id": "Import_of_Reconditioned_Second_Hand_Aircraft_Spares_overview",
+          "name": "Import of Reconditioned/ Second Hand Aircraft Spares Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Reconditioned_Second_Hand_Aircraft_Spares_submission",
+          "name": "Import of Reconditioned/ Second Hand Aircraft Spares Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "not_flag",
+            "noc_flag",
+            "hand_flag",
+            "dgca_flag",
+            "civil_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.40",
+      "title": "Import of Replacement Goods",
+      "ui": [
+        {
+          "screen_id": "Import_of_Replacement_Goods_overview",
+          "name": "Import of Replacement Goods Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Replacement_Goods_submission",
+          "name": "Import of Replacement Goods Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "for_flag",
+            "use_flag",
+            "may_flag",
+            "the_flag",
+            "have_flag"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Replacement_Goods_exceptions",
+          "name": "Import of Replacement Goods Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.41",
+      "title": "Other Conditions for Import of Replacement Goods",
+      "ui": [
+        {
+          "screen_id": "Other_Conditions_for_Import_of_Replacement_Goods_overview",
+          "name": "Other Conditions for Import of Replacement Goods Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Other_Conditions_for_Import_of_Replacement_Goods_submission",
+          "name": "Other Conditions for Import of Replacement Goods Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "who_flag",
+            "has_flag",
+            "not_flag",
+            "may_flag",
+            "per_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.42",
+      "title": "Import of Overseas Office Equipment",
+      "ui": [
+        {
+          "screen_id": "Import_of_Overseas_Office_Equipment_overview",
+          "name": "Import of Overseas Office Equipment Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Overseas_Office_Equipment_submission",
+          "name": "Import of Overseas Office Equipment Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "set_flag",
+            "rbi_flag",
+            "and_flag",
+            "may_flag",
+            "with_flag",
+            "used_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.43",
+      "title": "Import of Ammunition by Licensed /Authorised Arms Dealers",
+      "ui": [
+        {
+          "screen_id": "Import_of_Ammunition_by_Licensed_Authorised_Arms_Dealers_overview",
+          "name": "Import of Ammunition by Licensed /Authorised Arms Dealers Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Ammunition_by_Licensed_Authorised_Arms_Dealers_submission",
+          "name": "Import of Ammunition by Licensed /Authorised Arms Dealers Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "are_flag",
+            "may_flag",
+            "and_flag",
+            "iii_flag",
+            "m_m_flag",
+            "man_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.44",
+      "title": "Duty Free Imports for specific Sectors",
+      "ui": [
+        {
+          "screen_id": "Duty_Free_Imports_for_specific_Sectors_overview",
+          "name": "Duty Free Imports for specific Sectors Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Duty_Free_Imports_for_specific_Sectors_submission",
+          "name": "Duty Free Imports for specific Sectors Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "r&d_flag",
+            "and_flag",
+            "fob_flag",
+            "the_flag",
+            "may_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.45",
+      "title": "Import under Govt. to Govt. Agreements",
+      "ui": [
+        {
+          "screen_id": "Import_under_Govt_to_Govt_Agreements_overview",
+          "name": "Import under Govt. to Govt. Agreements Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_under_Govt_to_Govt_Agreements_submission",
+          "name": "Import under Govt. to Govt. Agreements Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "govt_flag",
+            "under_flag",
+            "goods_flag",
+            "import_flag",
+            "allowed_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.46",
+      "title": "Transfer of Imported Goods",
+      "ui": [
+        {
+          "screen_id": "Transfer_of_Imported_Goods_overview",
+          "name": "Transfer of Imported Goods Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Transfer_of_Imported_Goods_submission",
+          "name": "Transfer of Imported Goods Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "are_flag",
+            "and_flag",
+            "the_flag",
+            "for_flag",
+            "iec_flag",
+            "any_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.47",
+      "title": "Import /Export of Restricted Items",
+      "ui": [
+        {
+          "screen_id": "Import_Export_of_Restricted_Items_overview",
+          "name": "Import /Export of Restricted Items Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_Export_of_Restricted_Items_submission",
+          "name": "Import /Export of Restricted Items Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "itc_flag",
+            "may_flag",
+            "anf_flag",
+            "has_flag",
+            "made_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.48",
+      "title": "EXIM Facilitation Committee",
+      "ui": [
+        {
+          "screen_id": "EXIM_Facilitation_Committee_overview",
+          "name": "EXIM Facilitation Committee Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "EXIM_Facilitation_Committee_submission",
+          "name": "EXIM Facilitation Committee Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "any_flag",
+            "him_flag",
+            "and_flag",
+            "the_flag",
+            "for_flag"
+          ]
+        },
+        {
+          "screen_id": "EXIM_Facilitation_Committee_exceptions",
+          "name": "EXIM Facilitation Committee Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.49",
+      "title": "Import of Restricted items required by Hotels, Restaurants, Travel",
+      "ui": [
+        {
+          "screen_id": "Import_of_Restricted_items_required_by_Hotels_Restaurants_Travel_overview",
+          "name": "Import of Restricted items required by Hotels, Restaurants, Travel Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Restricted_items_required_by_Hotels_Restaurants_Travel_submission",
+          "name": "Import of Restricted items required by Hotels, Restaurants, Travel Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "for_flag",
+            "itc_flag",
+            "may_flag",
+            "are_flag",
+            "own_flag"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Restricted_items_required_by_Hotels_Restaurants_Travel_exceptions",
+          "name": "Import of Restricted items required by Hotels, Restaurants, Travel Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.50",
+      "title": "Import of Restricted items for R&D by units of Government",
+      "ui": [
+        {
+          "screen_id": "Import_of_Restricted_items_for_R_D_by_units_of_Government_overview",
+          "name": "Import of Restricted items for R&D by units of Government Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Restricted_items_for_R_D_by_units_of_Government_submission",
+          "name": "Import of Restricted items for R&D by units of Government Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "r&d_flag",
+            "all_flag",
+            "and_flag",
+            "may_flag",
+            "stes_flag"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Restricted_items_for_R_D_by_units_of_Government_exceptions",
+          "name": "Import of Restricted items for R&D by units of Government Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.51",
+      "title": "Import of Metallic Waste and Scrap",
+      "ui": [
+        {
+          "screen_id": "Import_of_Metallic_Waste_and_Scrap_overview",
+          "name": "Import of Metallic Waste and Scrap Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Metallic_Waste_and_Scrap_submission",
+          "name": "Import of Metallic Waste and Scrap Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "any_flag",
+            "the_flag",
+            "not_flag",
+            "saw_flag",
+            "may_flag"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Metallic_Waste_and_Scrap_exceptions",
+          "name": "Import of Metallic Waste and Scrap Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.52",
+      "title": "Recognition as Pre-shipment Inspection Agency (PSIA) and issuance",
+      "ui": [
+        {
+          "screen_id": "Recognition_as_Pre_shipment_Inspection_Agency_PSIA_and_issuance_overview",
+          "name": "Recognition as Pre-shipment Inspection Agency (PSIA) and issuance Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Recognition_as_Pre_shipment_Inspection_Agency_PSIA_and_issuance_submission",
+          "name": "Recognition as Pre-shipment Inspection Agency (PSIA) and issuance Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "pre_flag",
+            "for_flag",
+            "gov_flag",
+            "fee_flag",
+            "ftp_flag"
+          ]
+        },
+        {
+          "screen_id": "Recognition_as_Pre_shipment_Inspection_Agency_PSIA_and_issuance_exceptions",
+          "name": "Recognition as Pre-shipment Inspection Agency (PSIA) and issuance Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.53",
+      "title": "Responsibility and Liability of PSIA and Importer",
+      "ui": [
+        {
+          "screen_id": "Responsibility_and_Liability_of_PSIA_and_Importer_overview",
+          "name": "Responsibility and Liability of PSIA and Importer Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Responsibility_and_Liability_of_PSIA_and_Importer_submission",
+          "name": "Responsibility and Liability of PSIA and Importer Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "any_flag",
+            "the_flag",
+            "for_flag",
+            "act_flag",
+            "may_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.54",
+      "title": "Import of other kinds of metallic waste and scraps",
+      "ui": [
+        {
+          "screen_id": "Import_of_other_kinds_of_metallic_waste_and_scraps_overview",
+          "name": "Import of other kinds of metallic waste and scraps Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_of_other_kinds_of_metallic_waste_and_scraps_submission",
+          "name": "Import of other kinds of metallic waste and scraps Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "itc_flag",
+            "will_flag",
+            "other_flag",
+            "kinds_flag",
+            "waste_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.55",
+      "title": "Imports of seconds and defectives",
+      "ui": [
+        {
+          "screen_id": "Imports_of_seconds_and_defectives_overview",
+          "name": "Imports of seconds and defectives Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Imports_of_seconds_and_defectives_submission",
+          "name": "Imports of seconds and defectives Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "for_flag",
+            "pet_flag",
+            "itc_flag",
+            "rags_flag",
+            "waste_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.56",
+      "title": "Services of Inspection and Certification Agencies",
+      "ui": [
+        {
+          "screen_id": "Services_of_Inspection_and_Certification_Agencies_overview",
+          "name": "Services of Inspection and Certification Agencies Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Services_of_Inspection_and_Certification_Agencies_submission",
+          "name": "Services of Inspection and Certification Agencies Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "any_flag",
+            "may_flag",
+            "the_flag",
+            "for_flag",
+            "per_flag"
+          ]
+        },
+        {
+          "screen_id": "Services_of_Inspection_and_Certification_Agencies_exceptions",
+          "name": "Services of Inspection and Certification Agencies Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.57",
+      "title": "Procedure for import under the Tariff Rate Quota Scheme",
+      "ui": [
+        {
+          "screen_id": "Procedure_for_import_under_the_Tariff_Rate_Quota_Scheme_overview",
+          "name": "Procedure for import under the Tariff Rate Quota Scheme Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Procedure_for_import_under_the_Tariff_Rate_Quota_Scheme_submission",
+          "name": "Procedure for import under the Tariff Rate Quota Scheme Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "per_flag",
+            "trq_flag",
+            "oil_flag",
+            "and_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.58",
+      "title": "Eligible entities for allocation of quota",
+      "ui": [
+        {
+          "screen_id": "Eligible_entities_for_allocation_of_quota_overview",
+          "name": "Eligible entities for allocation of quota Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Eligible_entities_for_allocation_of_quota_submission",
+          "name": "Eligible entities for allocation of quota Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "hbp_flag",
+            "and_flag",
+            "oil_flag",
+            "fat_flag"
+          ]
+        },
+        {
+          "screen_id": "Eligible_entities_for_allocation_of_quota_exceptions",
+          "name": "Eligible entities for allocation of quota Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.59",
+      "title": "Conditions applicable on availing quotas",
+      "ui": [
+        {
+          "screen_id": "Conditions_applicable_on_availing_quotas_overview",
+          "name": "Conditions applicable on availing quotas Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Conditions_applicable_on_availing_quotas_submission",
+          "name": "Conditions applicable on availing quotas Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "all_flag",
+            "are_flag",
+            "the_flag",
+            "may_flag",
+            "efc_flag",
+            "oil_flag"
+          ]
+        },
+        {
+          "screen_id": "Conditions_applicable_on_availing_quotas_exceptions",
+          "name": "Conditions applicable on availing quotas Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.60",
+      "title": "Exhibits Required for National and International Exhibitions or Fairs",
+      "ui": [
+        {
+          "screen_id": "Exhibits_Required_for_National_and_International_Exhibitions_or_Fairs_overview",
+          "name": "Exhibits Required for National and International Exhibitions or Fairs Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Exhibits_Required_for_National_and_International_Exhibitions_or_Fairs_submission",
+          "name": "Exhibits Required for National and International Exhibitions or Fairs Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "the_flag",
+            "six_flag",
+            "ata_flag",
+            "etc_flag"
+          ]
+        },
+        {
+          "screen_id": "Exhibits_Required_for_National_and_International_Exhibitions_or_Fairs_exceptions",
+          "name": "Exhibits Required for National and International Exhibitions or Fairs Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.61",
+      "title": "Sale of Exhibits",
+      "ui": [
+        {
+          "screen_id": "Sale_of_Exhibits_overview",
+          "name": "Sale of Exhibits Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Sale_of_Exhibits_submission",
+          "name": "Sale of Exhibits Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "itc_flag",
+            "for_flag",
+            "may_flag",
+            "cif_flag",
+            "are_flag",
+            "iii_flag"
+          ]
+        },
+        {
+          "screen_id": "Sale_of_Exhibits_exceptions",
+          "name": "Sale of Exhibits Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.62",
+      "title": "Import of Samples",
+      "ui": [
+        {
+          "screen_id": "Import_of_Samples_overview",
+          "name": "Import of Samples Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Samples_submission",
+          "name": "Import of Samples Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "itc_flag",
+            "new_flag",
+            "tea_flag",
+            "not_flag"
+          ]
+        },
+        {
+          "screen_id": "Import_of_Samples_exceptions",
+          "name": "Import of Samples Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.63",
+      "title": "Exports of Samples / Exhibits",
+      "ui": [
+        {
+          "screen_id": "Exports_of_Samples_Exhibits_overview",
+          "name": "Exports of Samples / Exhibits Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Exports_of_Samples_Exhibits_submission",
+          "name": "Exports of Samples / Exhibits Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "any_flag",
+            "for_flag",
+            "are_flag",
+            "may_flag",
+            "per_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.64",
+      "title": "Export Policy",
+      "ui": [
+        {
+          "screen_id": "Export_Policy_overview",
+          "name": "Export Policy Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Export_Policy_submission",
+          "name": "Export Policy Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "ftp_flag",
+            "itc_flag",
+            "may_flag",
+            "but_flag",
+            "and_flag",
+            "list_flag"
+          ]
+        },
+        {
+          "screen_id": "Export_Policy_exceptions",
+          "name": "Export Policy Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.65",
+      "title": "Gifts / Spares / Replacement Goods",
+      "ui": [
+        {
+          "screen_id": "Gifts_Spares_Replacement_Goods_overview",
+          "name": "Gifts / Spares / Replacement Goods Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Gifts_Spares_Replacement_Goods_submission",
+          "name": "Gifts / Spares / Replacement Goods Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "ftp_flag",
+            "may_flag",
+            "anf_flag",
+            "made_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.66",
+      "title": "Export by post",
+      "ui": [
+        {
+          "screen_id": "Export_by_post_overview",
+          "name": "Export by post Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Export_by_post_submission",
+          "name": "Export by post Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "are_flag",
+            "not_flag",
+            "due_flag",
+            "may_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.67",
+      "title": "Direct negotiation of export documents",
+      "ui": [
+        {
+          "screen_id": "Direct_negotiation_of_export_documents_overview",
+          "name": "Direct negotiation of export documents Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Direct_negotiation_of_export_documents_submission",
+          "name": "Direct negotiation of export documents Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "not_flag",
+            "rbi_flag",
+            "for_flag",
+            "per_flag",
+            "tax_flag",
+            "brc_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.68",
+      "title": "Application for Grant of Export Authorisation/Certificate/",
+      "ui": [
+        {
+          "screen_id": "Application_for_Grant_of_Export_Authorisation_Certificate_overview",
+          "name": "Application for Grant of Export Authorisation/Certificate/ Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Application_for_Grant_of_Export_Authorisation_Certificate_submission",
+          "name": "Application for Grant of Export Authorisation/Certificate/ Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "itc_flag",
+            "may_flag",
+            "anf_flag",
+            "efc_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.69",
+      "title": "Export of Items under (STE)",
+      "ui": [
+        {
+          "screen_id": "Export_of_Items_under_STE_overview",
+          "name": "Export of Items under (STE) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Export_of_Items_under_STE_submission",
+          "name": "Export of Items under (STE) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "ste_flag",
+            "anf_flag",
+            "for_flag",
+            "itc_flag",
+            "may_flag",
+            "per_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.70",
+      "title": "Free of Cost Exports for status holders",
+      "ui": [
+        {
+          "screen_id": "Free_of_Cost_Exports_for_status_holders_overview",
+          "name": "Free of Cost Exports for status holders Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Free_of_Cost_Exports_for_status_holders_submission",
+          "name": "Free of Cost Exports for status holders Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "and_flag",
+            "not_flag",
+            "any_flag",
+            "free_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.71",
+      "title": "Admissibility of benefits on payment through insurance cover",
+      "ui": [
+        {
+          "screen_id": "Admissibility_of_benefits_on_payment_through_insurance_cover_overview",
+          "name": "Admissibility of benefits on payment through insurance cover Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Admissibility_of_benefits_on_payment_through_insurance_cover_submission",
+          "name": "Admissibility of benefits on payment through insurance cover Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "ftp_flag",
+            "and_flag",
+            "the_flag",
+            "edi_flag",
+            "brc_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.72",
+      "title": "RBI write-off on export proceeds realization",
+      "ui": [
+        {
+          "screen_id": "RBI_write_off_on_export_proceeds_realization_overview",
+          "name": "RBI write-off on export proceeds realization Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "RBI_write_off_on_export_proceeds_realization_submission",
+          "name": "RBI write-off on export proceeds realization Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "rbi_flag",
+            "not_flag",
+            "the_flag",
+            "any_flag",
+            "for_flag",
+            "off_flag"
+          ]
+        },
+        {
+          "screen_id": "RBI_write_off_on_export_proceeds_realization_exceptions",
+          "name": "RBI write-off on export proceeds realization Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.73",
+      "title": "Conversion of Shipping Bill from one Scheme to another",
+      "ui": [
+        {
+          "screen_id": "Conversion_of_Shipping_Bill_from_one_Scheme_to_another_overview",
+          "name": "Conversion of Shipping Bill from one Scheme to another Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Conversion_of_Shipping_Bill_from_one_Scheme_to_another_submission",
+          "name": "Conversion of Shipping Bill from one Scheme to another Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "one_flag",
+            "any_flag",
+            "has_flag",
+            "not_flag",
+            "the_flag",
+            "act_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.74",
+      "title": "Offsetting of Export Proceeds",
+      "ui": [
+        {
+          "screen_id": "Offsetting_of_Export_Proceeds_overview",
+          "name": "Offsetting of Export Proceeds Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Offsetting_of_Export_Proceeds_submission",
+          "name": "Offsetting of Export Proceeds Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "rbi_flag",
+            "any_flag",
+            "can_flag",
+            "his_flag",
+            "and_flag",
+            "made_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.75",
+      "title": "Quality Certification",
+      "ui": [
+        {
+          "screen_id": "Quality_Certification_overview",
+          "name": "Quality Certification Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Quality_Certification_submission",
+          "name": "Quality Certification Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "has_flag",
+            "for_flag",
+            "iso_flag",
+            "and_flag",
+            "the_flag",
+            "web_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.76",
+      "title": "Track and Trace system for export of drug formulations",
+      "ui": [
+        {
+          "screen_id": "Track_and_Trace_system_for_export_of_drug_formulations_overview",
+          "name": "Track and Trace system for export of drug formulations Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Track_and_Trace_system_for_export_of_drug_formulations_submission",
+          "name": "Track and Trace system for export of drug formulations Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "for_flag",
+            "the_flag",
+            "his_flag",
+            "rbi_flag",
+            "per_flag"
+          ]
+        },
+        {
+          "screen_id": "Track_and_Trace_system_for_export_of_drug_formulations_exceptions",
+          "name": "Track and Trace system for export of drug formulations Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.77",
+      "title": "Registering Authorities",
+      "ui": [
+        {
+          "screen_id": "Registering_Authorities_overview",
+          "name": "Registering Authorities Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Registering_Authorities_submission",
+          "name": "Registering Authorities Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "its_flag",
+            "the_flag",
+            "body_flag",
+            "dgft_flag",
+            "this_flag",
+            "rcmc_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.78",
+      "title": "Criteria for EPCs as Registering Authorities",
+      "ui": [
+        {
+          "screen_id": "Criteria_for_EPCs_as_Registering_Authorities_overview",
+          "name": "Criteria for EPCs as Registering Authorities Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Criteria_for_EPCs_as_Registering_Authorities_submission",
+          "name": "Criteria for EPCs as Registering Authorities Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "and_flag",
+            "are_flag",
+            "not_flag",
+            "two_flag"
+          ]
+        },
+        {
+          "screen_id": "Criteria_for_EPCs_as_Registering_Authorities_exceptions",
+          "name": "Criteria for EPCs as Registering Authorities Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.79",
+      "title": "Registration- cum- Membership Certificate (RCMC)",
+      "ui": [
+        {
+          "screen_id": "Registration_cum_Membership_Certificate_RCMC_overview",
+          "name": "Registration- cum- Membership Certificate (RCMC) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Registration_cum_Membership_Certificate_RCMC_submission",
+          "name": "Registration- cum- Membership Certificate (RCMC) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "cum_flag",
+            "may_flag",
+            "anf_flag",
+            "and_flag",
+            "epc_flag",
+            "all_flag"
+          ]
+        },
+        {
+          "screen_id": "Registration_cum_Membership_Certificate_RCMC_exceptions",
+          "name": "Registration- cum- Membership Certificate (RCMC) Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.80",
+      "title": "Applying for RCMC",
+      "ui": [
+        {
+          "screen_id": "Applying_for_RCMC_overview",
+          "name": "Applying for RCMC Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Applying_for_RCMC_submission",
+          "name": "Applying for RCMC Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "has_flag",
+            "his_flag",
+            "the_flag",
+            "not_flag",
+            "any_flag"
+          ]
+        },
+        {
+          "screen_id": "Applying_for_RCMC_exceptions",
+          "name": "Applying for RCMC Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.81",
+      "title": "Validity Period of RCMC",
+      "ui": [
+        {
+          "screen_id": "Validity_Period_of_RCMC_overview",
+          "name": "Validity Period of RCMC Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Validity_Period_of_RCMC_submission",
+          "name": "Validity Period of RCMC Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "was_flag",
+            "and_flag",
+            "for_flag",
+            "the_flag",
+            "rcmc_flag",
+            "from_flag"
+          ]
+        },
+        {
+          "screen_id": "Validity_Period_of_RCMC_exceptions",
+          "name": "Validity Period of RCMC Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.82",
+      "title": "Intimation Regarding Change in Constitution of Business of RCMC",
+      "ui": [
+        {
+          "screen_id": "Intimation_Regarding_Change_in_Constitution_of_Business_of_RCMC_overview",
+          "name": "Intimation Regarding Change in Constitution of Business of RCMC Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Intimation_Regarding_Change_in_Constitution_of_Business_of_RCMC_submission",
+          "name": "Intimation Regarding Change in Constitution of Business of RCMC Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "one_flag",
+            "may_flag",
+            "get_flag",
+            "and_flag",
+            "epc_flag",
+            "rcmc_flag"
+          ]
+        },
+        {
+          "screen_id": "Intimation_Regarding_Change_in_Constitution_of_Business_of_RCMC_exceptions",
+          "name": "Intimation Regarding Change in Constitution of Business of RCMC Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.83",
+      "title": "De- Registration",
+      "ui": [
+        {
+          "screen_id": "De_Registration_overview",
+          "name": "De- Registration Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "De_Registration_submission",
+          "name": "De- Registration Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "for_flag",
+            "and_flag",
+            "the_flag",
+            "epc_flag",
+            "all_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.84",
+      "title": "Appeal Against De-registration",
+      "ui": [
+        {
+          "screen_id": "Appeal_Against_De_registration_overview",
+          "name": "Appeal Against De-registration Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Appeal_Against_De_registration_submission",
+          "name": "Appeal Against De-registration Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "any_flag",
+            "may_flag",
+            "and_flag",
+            "with_flag",
+            "rcmc_flag",
+            "dgft_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.85",
+      "title": "Directives of DGFT",
+      "ui": [
+        {
+          "screen_id": "Directives_of_DGFT_overview",
+          "name": "Directives of DGFT Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Directives_of_DGFT_submission",
+          "name": "Directives of DGFT Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "any_flag",
+            "and_flag",
+            "d&r_flag",
+            "act_flag",
+            "ftp_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.86",
+      "title": "Identity Cards for Importers /Exporters",
+      "ui": [
+        {
+          "screen_id": "Identity_Cards_for_Importers_Exporters_overview",
+          "name": "Identity Cards for Importers /Exporters Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Identity_Cards_for_Importers_Exporters_submission",
+          "name": "Identity Cards for Importers /Exporters Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "may_flag",
+            "not_flag",
+            "can_flag",
+            "per_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.87",
+      "title": "Interview with authorised Officers",
+      "ui": [
+        {
+          "screen_id": "Interview_with_authorised_Officers_overview",
+          "name": "Interview with authorised Officers Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Interview_with_authorised_Officers_submission",
+          "name": "Interview with authorised Officers Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "the_flag",
+            "with_flag",
+            "also_flag",
+            "grant_flag",
+            "their_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.88",
+      "title": "Free Trade Agreements (FTAs) / Preferential Trade Agreements",
+      "ui": [
+        {
+          "screen_id": "Free_Trade_Agreements_FTAs_Preferential_Trade_Agreements_overview",
+          "name": "Free Trade Agreements (FTAs) / Preferential Trade Agreements Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Free_Trade_Agreements_FTAs_Preferential_Trade_Agreements_submission",
+          "name": "Free Trade Agreements (FTAs) / Preferential Trade Agreements Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "has_flag",
+            "for_flag",
+            "non_flag",
+            "and_flag",
+            "may_flag",
+            "the_flag"
+          ]
+        },
+        {
+          "screen_id": "Free_Trade_Agreements_FTAs_Preferential_Trade_Agreements_exceptions",
+          "name": "Free Trade Agreements (FTAs) / Preferential Trade Agreements Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.89",
+      "title": "Unilateral Tariff Preferences",
+      "ui": [
+        {
+          "screen_id": "Unilateral_Tariff_Preferences_overview",
+          "name": "Unilateral Tariff Preferences Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Unilateral_Tariff_Preferences_submission",
+          "name": "Unilateral Tariff Preferences Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "are_flag",
+            "gsp_flag",
+            "new_flag",
+            "iii_flag",
+            "vii_flag"
+          ]
+        },
+        {
+          "screen_id": "Unilateral_Tariff_Preferences_exceptions",
+          "name": "Unilateral Tariff Preferences Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.90",
+      "title": "Certificates of Origin (Co O)",
+      "ui": [
+        {
+          "screen_id": "Certificates_of_Origin_Co_O_overview",
+          "name": "Certificates of Origin (Co O) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Certificates_of_Origin_Co_O_submission",
+          "name": "Certificates of Origin (Co O) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "any_flag",
+            "the_flag",
+            "gsp_flag",
+            "rex_flag",
+            "fee_flag",
+            "are_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.91",
+      "title": "Rules of Origin (Preferential)",
+      "ui": [
+        {
+          "screen_id": "Rules_of_Origin_Preferential_overview",
+          "name": "Rules of Origin (Preferential) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Rules_of_Origin_Preferential_submission",
+          "name": "Rules of Origin (Preferential) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "are_flag",
+            "for_flag",
+            "fta_flag",
+            "pta_flag",
+            "and_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.92",
+      "title": "TRQ under FTA/CECA",
+      "ui": [
+        {
+          "screen_id": "TRQ_under_FTA_CECA_overview",
+          "name": "TRQ under FTA/CECA Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "TRQ_under_FTA_CECA_submission",
+          "name": "TRQ under FTA/CECA Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "trq_flag",
+            "for_flag",
+            "the_flag",
+            "are_flag",
+            "two_flag",
+            "viz_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.93",
+      "title": "Rules of Origin (Non-Preferential)",
+      "ui": [
+        {
+          "screen_id": "Rules_of_Origin_Non_Preferential_overview",
+          "name": "Rules of Origin (Non-Preferential) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Rules_of_Origin_Non_Preferential_submission",
+          "name": "Rules of Origin (Non-Preferential) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "are_flag",
+            "the_flag",
+            "per_flag",
+            "ftp_flag",
+            "and_flag",
+            "for_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.94",
+      "title": "Approved Exporter Scheme (AES) for self-certification",
+      "ui": [
+        {
+          "screen_id": "Approved_Exporter_Scheme_AES_for_self_certification_overview",
+          "name": "Approved Exporter Scheme (AES) for self-certification Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Approved_Exporter_Scheme_AES_for_self_certification_submission",
+          "name": "Approved Exporter Scheme (AES) for self-certification Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "aes_flag",
+            "for_flag",
+            "the_flag",
+            "are_flag",
+            "anf_flag",
+            "and_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.95",
+      "title": "Application to PIC",
+      "ui": [
+        {
+          "screen_id": "Application_to_PIC_overview",
+          "name": "Application to PIC Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Application_to_PIC_submission",
+          "name": "Application to PIC Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "pic_flag",
+            "for_flag",
+            "any_flag",
+            "anf_flag",
+            "the_flag",
+            "ftp_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.96",
+      "title": "Application to PRC",
+      "ui": [
+        {
+          "screen_id": "Application_to_PRC_overview",
+          "name": "Application to PRC Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Application_to_PRC_submission",
+          "name": "Application to PRC Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "prc_flag",
+            "the_flag",
+            "ftp_flag",
+            "fee_flag",
+            "and_flag",
+            "for_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2.97",
+      "title": "Application to EPCG Committee",
+      "ui": [
+        {
+          "screen_id": "Application_to_EPCG_Committee_overview",
+          "name": "Application to EPCG Committee Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Application_to_EPCG_Committee_submission",
+          "name": "Application to EPCG Committee Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "ftp_flag",
+            "fee_flag",
+            "and_flag",
+            "may_flag",
+            "epcg_flag"
+          ]
+        }
+      ]
+    }
+  ]
+}

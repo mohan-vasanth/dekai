@@ -1,0 +1,22 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.05",
+  "title": "Port of Registration",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_05-R001",
+      "rule_description": "5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.",
+      "trigger": "Port of Registration",
+      "condition": "However, exports can be made from any port\nspecified in paragraph 4.35 of HBP.",
+      "validation": "5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.",
+      "action": "5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.",
+      "exception": "However, exports can be made from any port\nspecified in paragraph 4.35 of HBP.",
+      "output": "DEKAI should produce a compliance decision for 5.05 - Port of Registration."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.",
+    "IF validations pass THEN recommend action: 5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports."
+  ]
+}

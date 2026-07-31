@@ -1,0 +1,35 @@
+{
+  "section": "2.71",
+  "conditions": [
+    "RA after satisfying itself of the bona fide of the claim, will obtain\napproval of Additional DGFT (EDI) and then will upload the value (in lieu of\ne BRC value) in EDI system of DGFT for processing of the case.",
+    "(b) If the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing.",
+    "If the claim value is mentioned only in equivalent INR, RA will\nconvert this INR value in equivalent US$ using the exchange rate (published by\nCBEC) applicable on the date of settlement of insurance claim”.",
+    "(b)\nIf the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.71.1",
+      "if": "RA after satisfying itself of the bona fide of the claim, will obtain\napproval of Additional DGFT (EDI) and then will upload the value (in lieu of\ne BRC value) in EDI system of DGFT for processing of the case.",
+      "then": "2.71 Admissibility of benefits on payment through insurance cover\n(I) Payment through ECGC cover would count for benefits under FTP.",
+      "source": "RA after satisfying itself of the bona fide of the claim, will obtain\napproval of Additional DGFT (EDI) and then will upload the value (in lieu of\ne BRC value) in EDI system of DGFT for processing of the case."
+    },
+    {
+      "id": "2.2.71.2",
+      "if": "(b) If the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing.",
+      "then": "2.71 Admissibility of benefits on payment through insurance cover\n(I) Payment through ECGC cover would count for benefits under FTP.",
+      "source": "(b) If the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing."
+    },
+    {
+      "id": "2.2.71.3",
+      "if": "the claim value is mentioned only in equivalent INR",
+      "then": "2.71 Admissibility of benefits on payment through insurance cover\n(I) Payment through ECGC cover would count for benefits under FTP.",
+      "source": "If the claim value is mentioned only in equivalent INR, RA will\nconvert this INR value in equivalent US$ using the exchange rate (published by\nCBEC) applicable on the date of settlement of insurance claim”."
+    },
+    {
+      "id": "2.2.71.4",
+      "if": "(b)\nIf the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing.",
+      "then": "2.71 Admissibility of benefits on payment through insurance cover\n(I) Payment through ECGC cover would count for benefits under FTP.",
+      "source": "(b)\nIf the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing."
+    }
+  ]
+}

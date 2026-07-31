@@ -1,0 +1,37 @@
+{
+  "section": "4.28",
+  "ui": [
+    {
+      "screen_id": "Exporters_Risk_overview",
+      "name": "Exporters Risk Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Exporters_Risk_submission",
+      "name": "Exporters Risk Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "risk_flag",
+        "made_flag",
+        "grant_flag",
+        "shall_flag",
+        "exports_flag"
+      ]
+    }
+  ]
+}

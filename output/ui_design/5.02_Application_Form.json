@@ -1,0 +1,37 @@
+{
+  "section": "5.02",
+  "ui": [
+    {
+      "screen_id": "Application_Form_overview",
+      "name": "Application Form Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Application_Form_submission",
+      "name": "Application Form Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "may_flag",
+        "anf_flag",
+        "form_flag",
+        "made_flag",
+        "head_flag"
+      ]
+    }
+  ]
+}

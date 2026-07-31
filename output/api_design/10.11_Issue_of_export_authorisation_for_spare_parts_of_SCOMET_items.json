@@ -1,0 +1,57 @@
+{
+  "section": "10.11",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/10.11",
+      "purpose": "Retrieve knowledge payload for section 10.11",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Issue-of-export-authorisation-for-spare-parts-of-SCOMET-items/validate",
+      "purpose": "Validate inputs and documents for Issue of export authorisation for spare parts of SCOMET items",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Issue-of-export-authorisation-for-spare-parts-of-SCOMET-items/execute",
+      "purpose": "Trigger business action for 10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

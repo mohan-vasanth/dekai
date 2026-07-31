@@ -1,0 +1,47 @@
+{
+  "section": "5.25",
+  "ui": [
+    {
+      "screen_id": "Clubbing_of_EPCG_authorisations_overview",
+      "name": "Clubbing of EPCG authorisations Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Clubbing_of_EPCG_authorisations_submission",
+      "name": "Clubbing of EPCG authorisations Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "two_flag",
+        "the_flag",
+        "for_flag",
+        "can_flag",
+        "anf_flag",
+        "are_flag"
+      ]
+    },
+    {
+      "screen_id": "Clubbing_of_EPCG_authorisations_exceptions",
+      "name": "Clubbing of EPCG authorisations Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

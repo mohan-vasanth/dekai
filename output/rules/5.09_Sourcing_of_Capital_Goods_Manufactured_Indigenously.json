@@ -1,0 +1,97 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.09",
+  "title": "Sourcing of Capital Goods Manufactured Indigenously",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_09-R001",
+      "rule_description": "5.09 Sourcing of Capital Goods Manufactured Indigenously\n(a) EPCG authorisation holder intending to source capital goods manufactured\nindigenously shall make a request to the RA for issuance of Invalidation\nLetter or Advance Release Order (ARO).",
+      "trigger": "Sourcing of Capital Goods Manufactured Indigenously",
+      "condition": "Section 5.09 is applicable",
+      "validation": "5.09 Sourcing of Capital Goods Manufactured Indigenously\n(a) EPCG authorisation holder intending to source capital goods manufactured\nindigenously shall make a request to the RA for issuance of Invalidation\nLetter or Advance Release Order (ARO).",
+      "action": "(e) RA concerned will issue the invalidation letter/ARO, in quadruplicate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.09 - Sourcing of Capital Goods Manufactured Indigenously."
+    },
+    {
+      "rule_id": "CH5-SEC5_09-R002",
+      "rule_description": "(b) Deemed export benefits as given in paragraph 7.03 of FTP shall be\navailable.",
+      "trigger": "Sourcing of Capital Goods Manufactured Indigenously",
+      "condition": "Section 5.09 is applicable",
+      "validation": "(b) Deemed export benefits as given in paragraph 7.03 of FTP shall be\navailable.",
+      "action": "(e)\nRA concerned will issue the invalidation letter/ARO, in quadruplicate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.09 - Sourcing of Capital Goods Manufactured Indigenously."
+    },
+    {
+      "rule_id": "CH5-SEC5_09-R003",
+      "rule_description": "(d) Applicant shall give the name and address of the manufacturer(s) of\ncapital goods.",
+      "trigger": "Sourcing of Capital Goods Manufactured Indigenously",
+      "condition": "Section 5.09 is applicable",
+      "validation": "(d) Applicant shall give the name and address of the manufacturer(s) of\ncapital goods.",
+      "action": "(e)\nRA concerned will issue the invalidation letter/ARO, in quadruplicate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.09 - Sourcing of Capital Goods Manufactured Indigenously."
+    },
+    {
+      "rule_id": "CH5-SEC5_09-R004",
+      "rule_description": "(f) Validity period of invalidation letter/ARO shall be co-terminous with the\nvalidity period of EPCG authorisation.",
+      "trigger": "Sourcing of Capital Goods Manufactured Indigenously",
+      "condition": "Section 5.09 is applicable",
+      "validation": "(f) Validity period of invalidation letter/ARO shall be co-terminous with the\nvalidity period of EPCG authorisation.",
+      "action": "(e)\nRA concerned will issue the invalidation letter/ARO, in quadruplicate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.09 - Sourcing of Capital Goods Manufactured Indigenously."
+    },
+    {
+      "rule_id": "CH5-SEC5_09-R005",
+      "rule_description": "5.09 Sourcing of Capital Goods Manufactured Indigenously\n(a)\nEPCG authorisation holder intending to source capital goods manufactured\nindigenously shall make a request to the RA for issuance of Invalidation\nLetter or Advance Release Order (ARO).",
+      "trigger": "Sourcing of Capital Goods Manufactured Indigenously",
+      "condition": "Section 5.09 is applicable",
+      "validation": "5.09 Sourcing of Capital Goods Manufactured Indigenously\n(a)\nEPCG authorisation holder intending to source capital goods manufactured\nindigenously shall make a request to the RA for issuance of Invalidation\nLetter or Advance Release Order (ARO).",
+      "action": "(e)\nRA concerned will issue the invalidation letter/ARO, in quadruplicate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.09 - Sourcing of Capital Goods Manufactured Indigenously."
+    },
+    {
+      "rule_id": "CH5-SEC5_09-R006",
+      "rule_description": "(b)\nDeemed export benefits as given in paragraph 7.03 of FTP shall be\navailable.",
+      "trigger": "Sourcing of Capital Goods Manufactured Indigenously",
+      "condition": "Section 5.09 is applicable",
+      "validation": "(b)\nDeemed export benefits as given in paragraph 7.03 of FTP shall be\navailable.",
+      "action": "(e)\nRA concerned will issue the invalidation letter/ARO, in quadruplicate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.09 - Sourcing of Capital Goods Manufactured Indigenously."
+    },
+    {
+      "rule_id": "CH5-SEC5_09-R007",
+      "rule_description": "(d)\nApplicant shall give the name and address of the manufacturer(s) of\ncapital goods.",
+      "trigger": "Sourcing of Capital Goods Manufactured Indigenously",
+      "condition": "Section 5.09 is applicable",
+      "validation": "(d)\nApplicant shall give the name and address of the manufacturer(s) of\ncapital goods.",
+      "action": "(e)\nRA concerned will issue the invalidation letter/ARO, in quadruplicate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.09 - Sourcing of Capital Goods Manufactured Indigenously."
+    },
+    {
+      "rule_id": "CH5-SEC5_09-R008",
+      "rule_description": "(f)\nValidity period of invalidation letter/ARO shall be co-terminous with the\nvalidity period of EPCG authorisation.",
+      "trigger": "Sourcing of Capital Goods Manufactured Indigenously",
+      "condition": "Section 5.09 is applicable",
+      "validation": "(f)\nValidity period of invalidation letter/ARO shall be co-terminous with the\nvalidity period of EPCG authorisation.",
+      "action": "(e)\nRA concerned will issue the invalidation letter/ARO, in quadruplicate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.09 - Sourcing of Capital Goods Manufactured Indigenously."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 5.09 Sourcing of Capital Goods Manufactured Indigenously\n(a) EPCG authorisation holder intending to source capital goods manufactured\nindigenously shall make a request to the RA for issuance of Invalidation\nLetter or Advance Release Order (ARO).",
+    "IF detected context matches section rule THEN enforce: (b) Deemed export benefits as given in paragraph 7.03 of FTP shall be\navailable.",
+    "IF detected context matches section rule THEN enforce: (d) Applicant shall give the name and address of the manufacturer(s) of\ncapital goods.",
+    "IF detected context matches section rule THEN enforce: (f) Validity period of invalidation letter/ARO shall be co-terminous with the\nvalidity period of EPCG authorisation.",
+    "IF detected context matches section rule THEN enforce: 5.09 Sourcing of Capital Goods Manufactured Indigenously\n(a)\nEPCG authorisation holder intending to source capital goods manufactured\nindigenously shall make a request to the RA for issuance of Invalidation\nLetter or Advance Release Order (ARO).",
+    "IF detected context matches section rule THEN enforce: (b)\nDeemed export benefits as given in paragraph 7.03 of FTP shall be\navailable.",
+    "IF validations pass THEN recommend action: (e) RA concerned will issue the invalidation letter/ARO, in quadruplicate."
+  ]
+}

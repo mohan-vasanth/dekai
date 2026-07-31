@@ -1,0 +1,21 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.97",
+  "title": "Application to EPCG Committee",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_97-R001",
+      "rule_description": "(b) Additional DGFT in-charge of EPCG shall be the Chairman of the EPCG\nCommittee, with Joint DGFT (EPCG) as Member Secretary and official from\nDepartment of Revenue as member.",
+      "trigger": "Application to EPCG Committee",
+      "condition": "Representative(s) from concerned line\nMinistry / Department may be co-opted as member, as and when required.",
+      "validation": "2.97 Application to EPCG Committee\n(a) Application to the Export Promotion Capital Goods (EPCG) Committee under\nPara 2.59 of FTP is to be made online in ANF-2D with the prescribed fee in\nterms of Appendix-2K with required documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.97 - Application to EPCG Committee."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (b) Additional DGFT in-charge of EPCG shall be the Chairman of the EPCG\nCommittee, with Joint DGFT (EPCG) as Member Secretary and official from\nDepartment of Revenue as member."
+  ]
+}

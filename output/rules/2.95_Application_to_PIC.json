@@ -1,0 +1,21 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.95",
+  "title": "Application to PIC",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_95-R001",
+      "rule_description": "2.95 Application to PIC\nApplication for seeking interpretation of any policy provision shall be made in ANF-\n2F to Policy Interpretation Committee (in the Hqrs.) under Para 2.58(b) of FTP.",
+      "trigger": "Application to PIC",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "2.95 Application to PIC\nApplication for seeking interpretation of any policy provision shall be made in ANF-\n2F to Policy Interpretation Committee (in the Hqrs.) under Para 2.58(b) of FTP.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.95 - Application to PIC."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.95 Application to PIC\nApplication for seeking interpretation of any policy provision shall be made in ANF-\n2F to Policy Interpretation Committee (in the Hqrs.) under Para 2.58(b) of FTP."
+  ]
+}

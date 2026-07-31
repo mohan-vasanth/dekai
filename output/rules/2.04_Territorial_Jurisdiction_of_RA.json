@@ -1,0 +1,22 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.04",
+  "title": "Territorial Jurisdiction of RA",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_04-R001",
+      "rule_description": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "trigger": "Territorial Jurisdiction of RA",
+      "condition": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "validation": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "action": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "exception": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "output": "DEKAI should produce a compliance decision for 2.04 - Territorial Jurisdiction of RA."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+    "IF validations pass THEN recommend action: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ]
+}

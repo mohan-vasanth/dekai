@@ -1,0 +1,33 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.75",
+  "title": "Quality Certification",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_75-R001",
+      "rule_description": "Agencies authorised to grant Quality Certification:\n(a) List of such agencies authorised to grant quality certification is given in\nAppendix-2I\n(b) For ISO 9000 (Series) and for ISO 14000 (Series), the Agencies accredited with\nNational Accreditation Board for Certification Bodies (NABCB) under Quality\nCouncil of India shall be deemed to be authorised under this Policy.",
+      "trigger": "Quality Certification",
+      "condition": "2.75 Quality Certification\nIt has been a constant endeavour to promote quality standards in export product /\nunits manufacturing export product.",
+      "validation": "Agencies authorised to grant Quality Certification:\n(a) List of such agencies authorised to grant quality certification is given in\nAppendix-2I\n(b) For ISO 9000 (Series) and for ISO 14000 (Series), the Agencies accredited with\nNational Accreditation Board for Certification Bodies (NABCB) under Quality\nCouncil of India shall be deemed to be authorised under this Policy.",
+      "action": "(d) Any agency desirous of enlistment in Appendix 2I may submit their application\nas per Annexure I to Appendix 2I to the DGFT.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.75 - Quality Certification."
+    },
+    {
+      "rule_id": "CH2-SEC2_75-R002",
+      "rule_description": "Agencies authorised to grant Quality Certification:\n(a)\nList of such agencies authorised to grant quality certification is given in\nAppendix-2I\n(b)\nFor ISO 9000 (Series) and for ISO 14000 (Series), the Agencies accredited with\nNational Accreditation Board for Certification Bodies (NABCB) under Quality\nCouncil of India shall be deemed to be authorised under this Policy.",
+      "trigger": "Quality Certification",
+      "condition": "Agencies authorised to grant Quality Certification:\n(a) List of such agencies authorised to grant quality certification is given in\nAppendix-2I\n(b) For ISO 9000 (Series) and for ISO 14000 (Series), the Agencies accredited with\nNational Accreditation Board for Certification Bodies (NABCB) under Quality\nCouncil of India shall be deemed to be authorised under this Policy.",
+      "validation": "Agencies authorised to grant Quality Certification:\n(a)\nList of such agencies authorised to grant quality certification is given in\nAppendix-2I\n(b)\nFor ISO 9000 (Series) and for ISO 14000 (Series), the Agencies accredited with\nNational Accreditation Board for Certification Bodies (NABCB) under Quality\nCouncil of India shall be deemed to be authorised under this Policy.",
+      "action": "(d)\nAny agency desirous of enlistment in Appendix 2I may submit their application\nas per Annexure I to Appendix 2I to the DGFT.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.75 - Quality Certification."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Agencies authorised to grant Quality Certification:\n(a) List of such agencies authorised to grant quality certification is given in\nAppendix-2I\n(b) For ISO 9000 (Series) and for ISO 14000 (Series), the Agencies accredited with\nNational Accreditation Board for Certification Bodies (NABCB) under Quality\nCouncil of India shall be deemed to be authorised under this Policy.",
+    "IF detected context matches section rule THEN enforce: Agencies authorised to grant Quality Certification:\n(a)\nList of such agencies authorised to grant quality certification is given in\nAppendix-2I\n(b)\nFor ISO 9000 (Series) and for ISO 14000 (Series), the Agencies accredited with\nNational Accreditation Board for Certification Bodies (NABCB) under Quality\nCouncil of India shall be deemed to be authorised under this Policy.",
+    "IF validations pass THEN recommend action: (d) Any agency desirous of enlistment in Appendix 2I may submit their application\nas per Annexure I to Appendix 2I to the DGFT."
+  ]
+}

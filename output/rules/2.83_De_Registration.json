@@ -1,0 +1,33 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.83",
+  "title": "De- Registration",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_83-R001",
+      "rule_description": "Before such de-registration, RCMC holder shall\nbe given a show cause notice by registering authority, and an adequate and\nreasonable opportunity to make a representation against the proposed de-\nregistration.",
+      "trigger": "De- Registration",
+      "condition": "2.83 De- Registration\nRegistering authority may de-register an RCMC holder for a specified period for\nviolation of conditions of registration.",
+      "validation": "Before such de-registration, RCMC holder shall\nbe given a show cause notice by registering authority, and an adequate and\nreasonable opportunity to make a representation against the proposed de-\nregistration.",
+      "action": "2.83 De- Registration\nRegistering authority may de-register an RCMC holder for a specified period for\nviolation of conditions of registration.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.83 - De- Registration."
+    },
+    {
+      "rule_id": "CH2-SEC2_83-R002",
+      "rule_description": "Upon de– registration, concerned EPC shall intimate the same to all RAs.",
+      "trigger": "De- Registration",
+      "condition": "Before such de-registration, RCMC holder shall\nbe given a show cause notice by registering authority, and an adequate and\nreasonable opportunity to make a representation against the proposed de-\nregistration.",
+      "validation": "Upon de– registration, concerned EPC shall intimate the same to all RAs.",
+      "action": "Before such de-registration, RCMC holder shall\nbe given a show cause notice by registering authority, and an adequate and\nreasonable opportunity to make a representation against the proposed de-\nregistration.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.83 - De- Registration."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Before such de-registration, RCMC holder shall\nbe given a show cause notice by registering authority, and an adequate and\nreasonable opportunity to make a representation against the proposed de-\nregistration.",
+    "IF detected context matches section rule THEN enforce: Upon de– registration, concerned EPC shall intimate the same to all RAs.",
+    "IF validations pass THEN recommend action: 2.83 De- Registration\nRegistering authority may de-register an RCMC holder for a specified period for\nviolation of conditions of registration."
+  ]
+}

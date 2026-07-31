@@ -1,0 +1,21 @@
+{
+  "section": "4.63",
+  "conditions": [
+    "In addition, Authorisation shall also be valid for\nimport of empty jewellery boxes up to 5% of value of Authorisation\nwithin its overall CIF value.",
+    "Gem REP Authorisations issued against\nexport of studded gold / silver / platinum jewellery articles, shall also\nbe valid for import of cut and polished precious / semi- precious stones\nother than emerald up to 10% of CIF value of Authorisation within its\noverall CIF value."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.63.1",
+      "if": "In addition, Authorisation shall also be valid for\nimport of empty jewellery boxes up to 5% of value of Authorisation\nwithin its overall CIF value.",
+      "then": "Gem REP Authorisations issued against\nexport of studded gold / silver / platinum jewellery articles, shall also\nbe valid for import of cut and polished precious / semi- precious stones\nother than emerald up to 10% of CIF value of Authorisation within its\noverall CIF value.",
+      "source": "In addition, Authorisation shall also be valid for\nimport of empty jewellery boxes up to 5% of value of Authorisation\nwithin its overall CIF value."
+    },
+    {
+      "id": "4.4.63.2",
+      "if": "Gem REP Authorisations issued against\nexport of studded gold / silver / platinum jewellery articles, shall also\nbe valid for import of cut and polished precious / semi- precious stones\nother than emerald up to 10% of CIF value of Authorisation within its\noverall CIF value.",
+      "then": "Gem REP Authorisations issued against\nexport of studded gold / silver / platinum jewellery articles, shall also\nbe valid for import of cut and polished precious / semi- precious stones\nother than emerald up to 10% of CIF value of Authorisation within its\noverall CIF value.",
+      "source": "Gem REP Authorisations issued against\nexport of studded gold / silver / platinum jewellery articles, shall also\nbe valid for import of cut and polished precious / semi- precious stones\nother than emerald up to 10% of CIF value of Authorisation within its\noverall CIF value."
+    }
+  ]
+}

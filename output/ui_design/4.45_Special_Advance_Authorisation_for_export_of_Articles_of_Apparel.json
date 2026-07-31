@@ -1,0 +1,47 @@
+{
+  "section": "4.45",
+  "ui": [
+    {
+      "screen_id": "Special_Advance_Authorisation_for_export_of_Articles_of_Apparel_overview",
+      "name": "Special Advance Authorisation for export of Articles of Apparel Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Special_Advance_Authorisation_for_export_of_Articles_of_Apparel_submission",
+      "name": "Special Advance Authorisation for export of Articles of Apparel Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "and_flag",
+        "itc_flag",
+        "far_flag",
+        "are_flag",
+        "not_flag"
+      ]
+    },
+    {
+      "screen_id": "Special_Advance_Authorisation_for_export_of_Articles_of_Apparel_exceptions",
+      "name": "Special Advance Authorisation for export of Articles of Apparel Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

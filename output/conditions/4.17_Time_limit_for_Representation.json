@@ -1,0 +1,56 @@
+{
+  "section": "4.17",
+  "conditions": [
+    "85\nApplicant shall give an undertaking that he shall abide by norms fixed by Norms\nCommittee and accordingly take following actions without any demur:\n(i)\nPay customs duty saved, together with interest as notified by Do R, on excess\ninputs as per norms fixed by NC.",
+    "However, in case Norms Committee allows\nlower norms for one, more, or all inputs, authorisation holder will have\noption to undertake additional EO in proportion to excess inputs.",
+    "(ii)\nIn case application is rejected by Norms Committee, authorisation holder\nshall pay duty saved amount along with interest on inputs, as applicable as\nnotified by Do R.",
+    "In cases of domestically procured inputs, the amount to be\npaid shall be based on exemptions/refund availed on customs\nduty/taxes/cess by the domestic supplier.",
+    "(iii)\nApplicant shall deposit amount as per paragraph 4.49(a)(ii) of HBP in case\nthe inputs were not freely importable.",
+    "Representation beyond 90 days shall be subject to\npayment of composition fee of Rs.",
+    "However, no representation against the\ndecision of Norms Committee after the period of 12 months from the date of\nuploading of the decision on DGFT website will be entertained."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.17.1",
+      "if": "85\nApplicant shall give an undertaking that he shall abide by norms fixed by Norms\nCommittee and accordingly take following actions without any demur:\n(i)\nPay customs duty saved, together with interest as notified by Do R, on excess\ninputs as per norms fixed by NC.",
+      "then": "4.17 Time limit for Representation\nApplicant may file representation against the decision of the Norms Committee with\nregard to the fixation of norms within a period of 90 days from the date of uploading\npg.",
+      "source": "85\nApplicant shall give an undertaking that he shall abide by norms fixed by Norms\nCommittee and accordingly take following actions without any demur:\n(i)\nPay customs duty saved, together with interest as notified by Do R, on excess\ninputs as per norms fixed by NC."
+    },
+    {
+      "id": "4.4.17.2",
+      "if": "However, in case Norms Committee allows\nlower norms for one, more, or all inputs, authorisation holder will have\noption to undertake additional EO in proportion to excess inputs.",
+      "then": "4.17 Time limit for Representation\nApplicant may file representation against the decision of the Norms Committee with\nregard to the fixation of norms within a period of 90 days from the date of uploading\npg.",
+      "source": "However, in case Norms Committee allows\nlower norms for one, more, or all inputs, authorisation holder will have\noption to undertake additional EO in proportion to excess inputs."
+    },
+    {
+      "id": "4.4.17.3",
+      "if": "(ii)\nIn case application is rejected by Norms Committee, authorisation holder\nshall pay duty saved amount along with interest on inputs, as applicable as\nnotified by Do R.",
+      "then": "4.17 Time limit for Representation\nApplicant may file representation against the decision of the Norms Committee with\nregard to the fixation of norms within a period of 90 days from the date of uploading\npg.",
+      "source": "(ii)\nIn case application is rejected by Norms Committee, authorisation holder\nshall pay duty saved amount along with interest on inputs, as applicable as\nnotified by Do R."
+    },
+    {
+      "id": "4.4.17.4",
+      "if": "In cases of domestically procured inputs, the amount to be\npaid shall be based on exemptions/refund availed on customs\nduty/taxes/cess by the domestic supplier.",
+      "then": "4.17 Time limit for Representation\nApplicant may file representation against the decision of the Norms Committee with\nregard to the fixation of norms within a period of 90 days from the date of uploading\npg.",
+      "source": "In cases of domestically procured inputs, the amount to be\npaid shall be based on exemptions/refund availed on customs\nduty/taxes/cess by the domestic supplier."
+    },
+    {
+      "id": "4.4.17.5",
+      "if": "(iii)\nApplicant shall deposit amount as per paragraph 4.49(a)(ii) of HBP in case\nthe inputs were not freely importable.",
+      "then": "4.17 Time limit for Representation\nApplicant may file representation against the decision of the Norms Committee with\nregard to the fixation of norms within a period of 90 days from the date of uploading\npg.",
+      "source": "(iii)\nApplicant shall deposit amount as per paragraph 4.49(a)(ii) of HBP in case\nthe inputs were not freely importable."
+    },
+    {
+      "id": "4.4.17.6",
+      "if": "Representation beyond 90 days shall be subject to\npayment of composition fee of Rs.",
+      "then": "4.17 Time limit for Representation\nApplicant may file representation against the decision of the Norms Committee with\nregard to the fixation of norms within a period of 90 days from the date of uploading\npg.",
+      "source": "Representation beyond 90 days shall be subject to\npayment of composition fee of Rs."
+    },
+    {
+      "id": "4.4.17.7",
+      "if": "However, no representation against the\ndecision of Norms Committee after the period of 12 months from the date of\nuploading of the decision on DGFT website will be entertained.",
+      "then": "4.17 Time limit for Representation\nApplicant may file representation against the decision of the Norms Committee with\nregard to the fixation of norms within a period of 90 days from the date of uploading\npg.",
+      "source": "However, no representation against the\ndecision of Norms Committee after the period of 12 months from the date of\nuploading of the decision on DGFT website will be entertained."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "4.41",
+  "ui": [
+    {
+      "screen_id": "Provisional_clearance_of_export_consignment_overview",
+      "name": "Provisional clearance of export consignment Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Provisional_clearance_of_export_consignment_submission",
+      "name": "Provisional clearance of export consignment Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "and_flag",
+        "for_flag",
+        "when_flag",
+        "allow_flag",
+        "export_flag"
+      ]
+    }
+  ]
+}

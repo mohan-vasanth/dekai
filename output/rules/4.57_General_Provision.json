@@ -1,0 +1,21 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.57",
+  "title": "General Provision",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_57-R001",
+      "rule_description": "Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.",
+      "trigger": "General Provision",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.57 - General Provision."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A."
+  ]
+}

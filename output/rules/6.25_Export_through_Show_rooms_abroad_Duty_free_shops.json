@@ -1,0 +1,21 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.25",
+  "title": "Export through Show-rooms abroad / Duty free shops",
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_25-R001",
+      "rule_description": "Items not sold abroad\nwithin 180 days shall be re- imported within 45 days.",
+      "trigger": "Export through Show-rooms abroad / Duty free shops",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Items not sold abroad\nwithin 180 days shall be re- imported within 45 days.",
+      "action": "Manual review required.",
+      "exception": "6.25 Export through Show-rooms abroad / Duty free shops\nExport of goods is also permitted for display / sale in permitted shops set up\nabroad or in showrooms of their distributors / agents.",
+      "output": "DEKAI should produce a compliance decision for 6.25 - Export through Show-rooms abroad / Duty free shops."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Items not sold abroad\nwithin 180 days shall be re- imported within 45 days."
+  ]
+}

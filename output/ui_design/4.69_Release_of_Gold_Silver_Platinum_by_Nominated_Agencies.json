@@ -1,0 +1,47 @@
+{
+  "section": "4.69",
+  "ui": [
+    {
+      "screen_id": "Release_of_Gold_Silver_Platinum_by_Nominated_Agencies_overview",
+      "name": "Release of Gold/Silver/Platinum by Nominated Agencies Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Release_of_Gold_Silver_Platinum_by_Nominated_Agencies_submission",
+      "name": "Release of Gold/Silver/Platinum by Nominated Agencies Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "gms_flag",
+        "ten_flag",
+        "any_flag",
+        "his_flag",
+        "the_flag",
+        "and_flag"
+      ]
+    },
+    {
+      "screen_id": "Release_of_Gold_Silver_Platinum_by_Nominated_Agencies_exceptions",
+      "name": "Release of Gold/Silver/Platinum by Nominated Agencies Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

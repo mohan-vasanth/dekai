@@ -1,0 +1,317 @@
+{
+  "chapter_number": "3",
+  "chapter_title": "Developing Districts as Export Hubs",
+  "section": "3.07",
+  "title": "Nodal DGFT Regional Authority",
+  "purpose": "3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts.",
+  "purpose_thanglish": "Indha Nodal DGFT Regional Authority section-la, 3.07 Nodal DGFT Regional authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nauthority and the nodal RA kandippa be responsible for the Districts under their\njurisdiction for all activities related to Districts as export Hubs initiative in those\nDistricts.",
+  "summary": "3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts. Appendix 1A has the list of DGFT Regional Authorities with their District and\nState wise Jurisdiction.",
+  "business_meaning": "Nodal DGFT Regional Authority governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Nodal DGFT Regional Authority explains the operating rule set that DEKAI should enforce. Key control points include 3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts.",
+  "business_explanation_thanglish": "Indha Nodal DGFT Regional Authority section-la, Nodal DGFT Regional authority explains the operating rule set that DEKAI should enforce. Key control points include 3.07 Nodal DGFT Regional authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nauthority and the nodal RA kandippa be responsible for the Districts under their\njurisdiction for all activities related to Districts as export Hubs initiative in those\nDistricts.",
+  "business_logic": [
+    "3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH3-SEC3_07-R001",
+      "rule_description": "3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts.",
+      "trigger": "Nodal DGFT Regional Authority",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3.07 - Nodal DGFT Regional Authority."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [
+    "3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts."
+  ],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [
+    "DGFT",
+    "RA",
+    "Regional Authority",
+    "Nodal DGFT Regional Authority",
+    "Districts of the States/UTs have been assigned to the Jurisdictional DGFT",
+    "Authority and the nodal RA",
+    "DGFT Regional Authorities"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Run validation: 3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts."
+  ],
+  "workflow_ascii": "Nodal DGFT Regional Authority\nRun validation: 3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts.",
+  "decision_tree": [
+    "IF section 3.07 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Nodal DGFT Regional Authority Decision\nIF section 3.07 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Nodal DGFT Regional Authority; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Nodal DGFT Regional Authority, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the nodal dgft regional authority process.",
+  "real_world_example_thanglish": "Indha Nodal DGFT Regional Authority section-la, Example: an importer or exporter invokes Nodal DGFT Regional authority, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the nodal dgft regional authority process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "all_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:all"
+    },
+    {
+      "name": "has_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:has"
+    },
+    {
+      "name": "dgft_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DGFT"
+    },
+    {
+      "name": "have_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:have"
+    },
+    {
+      "name": "been_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:been"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/3.07",
+      "purpose": "Retrieve knowledge payload for section 3.07",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Nodal-DGFT-Regional-Authority/validate",
+      "purpose": "Validate inputs and documents for Nodal DGFT Regional Authority",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Nodal_DGFT_Regional_Authority_overview",
+      "name": "Nodal DGFT Regional Authority Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Nodal_DGFT_Regional_Authority_submission",
+      "name": "Nodal DGFT Regional Authority Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "for_flag",
+        "all_flag",
+        "has_flag",
+        "dgft_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Nodal DGFT Regional Authority require?",
+    "Which documents are needed for Nodal DGFT Regional Authority?",
+    "How does DEKAI validate Nodal DGFT Regional Authority requests?"
+  ],
+  "expected_ai_answers": [
+    "Nodal DGFT Regional Authority requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Nodal DGFT Regional Authority by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 3.07?",
+      "answer_en": "Nodal DGFT Regional Authority explains the operating rule set that DEKAI should enforce. Key control points include 3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts.",
+      "question_thanglish": "Indha Nodal DGFT Regional Authority section-la, What is the purpose of section 3.07?",
+      "answer_thanglish": "Indha Nodal DGFT Regional Authority section-la, Nodal DGFT Regional authority explains the operating rule set that DEKAI should enforce. Key control points include 3.07 Nodal DGFT Regional authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nauthority and the nodal RA kandippa be responsible for the Districts under their\njurisdiction for all activities related to Districts as export Hubs initiative in those\nDistricts."
+    },
+    {
+      "question_en": "What documents are required under Nodal DGFT Regional Authority?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Nodal DGFT Regional Authority section-la, What documents are required under Nodal DGFT Regional authority?",
+      "answer_thanglish": "Indha Nodal DGFT Regional Authority section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Nodal DGFT Regional Authority?",
+      "answer_en": "DGFT, RA, Regional Authority, Nodal DGFT Regional Authority, Districts of the States/UTs have been assigned to the Jurisdictional DGFT, Authority and the nodal RA, DGFT Regional Authorities",
+      "question_thanglish": "Indha Nodal DGFT Regional Authority section-la, Which authority handles Nodal DGFT Regional authority?",
+      "answer_thanglish": "Indha Nodal DGFT Regional Authority section-la, DGFT, RA, Regional authority, Nodal DGFT Regional authority, Districts of the States/UTs have been assigned to the Jurisdictional DGFT, authority and the nodal RA, DGFT Regional Authorities"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Nodal DGFT Regional Authority?",
+      "answer_en": "AI answers: DEKAI should evaluate section 3.07, apply the extracted rules, and guide the user through Run validation: 3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts..",
+      "question_thanglish": "Indha Nodal DGFT Regional Authority section-la, User asks: How do I comply with Nodal DGFT Regional authority?",
+      "answer_thanglish": "Indha Nodal DGFT Regional Authority section-la, AI answers: DEKAI should evaluate section 3.07, apply the extracted rules, and guide the user through Run validation: 3.07 Nodal DGFT Regional authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nauthority and the nodal RA kandippa be responsible for the Districts under their\njurisdiction for all activities related to Districts as export Hubs initiative in those\nDistricts.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Nodal DGFT Regional Authority?",
+      "answer_en": "AI answers: Applicable validations are 3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts.",
+      "question_thanglish": "Indha Nodal DGFT Regional Authority section-la, User asks: Which validations apply to Nodal DGFT Regional authority?",
+      "answer_thanglish": "Indha Nodal DGFT Regional Authority section-la, AI answers: Applicable validations are 3.07 Nodal DGFT Regional authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nauthority and the nodal RA kandippa be responsible for the Districts under their\njurisdiction for all activities related to Districts as export Hubs initiative in those\nDistricts."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 3, section 3.07, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Nodal DGFT Regional Authority into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: DGFT, RA, Regional Authority, Nodal DGFT Regional Authority."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Nodal DGFT Regional Authority section-la, Capture chapter 3, section 3.07, title, and page references as immutable knowledge metadata.",
+    "Indha Nodal DGFT Regional Authority section-la, Bind validations for Nodal DGFT Regional authority into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Nodal DGFT Regional Authority section-la, Route escalations or approvals to: DGFT, RA, Regional authority, Nodal DGFT Regional authority."
+  ],
+  "keywords": [
+    "the",
+    "and",
+    "for",
+    "all",
+    "has",
+    "DGFT",
+    "have",
+    "been",
+    "Hubs",
+    "list",
+    "with",
+    "wise",
+    "Nodal",
+    "shall",
+    "under",
+    "their",
+    "those",
+    "State",
+    "Export",
+    "related"
+  ],
+  "search_keywords": [
+    "the",
+    "and",
+    "for",
+    "all",
+    "has",
+    "DGFT",
+    "have",
+    "been",
+    "Hubs",
+    "list",
+    "with",
+    "wise",
+    "Nodal",
+    "shall",
+    "under",
+    "their",
+    "those",
+    "State",
+    "Export",
+    "related"
+  ],
+  "intent": "Provide knowledge guidance for Nodal DGFT Regional Authority.",
+  "tags": [
+    "3.07",
+    "Nodal DGFT Regional Authority",
+    "business-rule",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts."
+  ],
+  "page_numbers": [
+    6
+  ],
+  "pages": [
+    6
+  ],
+  "source_document": "HBP2023_Chapter03.pdf",
+  "raw_text": "3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts. Appendix 1A has the list of DGFT Regional Authorities with their District and\nState wise Jurisdiction.",
+  "mermaid": "flowchart TD\n    S1[\"Run validation: 3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts.\"]",
+  "plantuml": "@startuml\nstart\n:Run validation\\: 3.07 Nodal DGFT Regional Authority\nDistricts of the States/UTs have been assigned to the Jurisdictional DGFT Regional\nAuthority and the nodal RA shall be responsible for the Districts under their\njurisdiction for all activities related to Districts as Export Hubs initiative in those\nDistricts.;\nstop\n@enduml"
+}

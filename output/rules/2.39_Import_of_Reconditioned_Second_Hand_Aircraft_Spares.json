@@ -1,0 +1,21 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.39",
+  "title": "Import of Reconditioned/ Second Hand Aircraft Spares",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_39-R001",
+      "rule_description": "2.39 Import of Reconditioned/ Second Hand Aircraft Spares\nImport Authorisation for reconditioned / second hand aircraft spares is not required\nsubject to NOC/ recommendation of Director General of Civil Aviation (DGCA),\nGovernment of India.",
+      "trigger": "Import of Reconditioned/ Second Hand Aircraft Spares",
+      "condition": "2.39 Import of Reconditioned/ Second Hand Aircraft Spares\nImport Authorisation for reconditioned / second hand aircraft spares is not required\nsubject to NOC/ recommendation of Director General of Civil Aviation (DGCA),\nGovernment of India.",
+      "validation": "2.39 Import of Reconditioned/ Second Hand Aircraft Spares\nImport Authorisation for reconditioned / second hand aircraft spares is not required\nsubject to NOC/ recommendation of Director General of Civil Aviation (DGCA),\nGovernment of India.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.39 - Import of Reconditioned/ Second Hand Aircraft Spares."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.39 Import of Reconditioned/ Second Hand Aircraft Spares\nImport Authorisation for reconditioned / second hand aircraft spares is not required\nsubject to NOC/ recommendation of Director General of Civil Aviation (DGCA),\nGovernment of India."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "9.02",
+  "ui": [
+    {
+      "screen_id": "E_COMMERCE_EXPORT_HUBs_ECEHs_overview",
+      "name": "E-COMMERCE EXPORT HUBs (ECEHs) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "E_COMMERCE_EXPORT_HUBs_ECEHs_submission",
+      "name": "E-COMMERCE EXPORT HUBs (ECEHs) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "any_flag",
+        "iii_flag",
+        "may_flag",
+        "not_flag"
+      ]
+    }
+  ]
+}

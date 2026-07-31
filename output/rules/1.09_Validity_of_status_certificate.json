@@ -1,0 +1,55 @@
+{
+  "chapter_number": "1",
+  "chapter_title": "Legal Framework and Trade Facilitation",
+  "section": "1.09",
+  "title": "Validity of status certificate",
+  "business_rules": [
+    {
+      "rule_id": "CH1-SEC1_09-R001",
+      "rule_description": "1.09 Validity of status certificate\n(a) Any Status Certificate issued under FTP 2015-20 to an IEC holder shall remain\nvalid only till 30.09.2023.",
+      "trigger": "Validity of status certificate",
+      "condition": "1.09 Validity of status certificate\n(a) Any Status Certificate issued under FTP 2015-20 to an IEC holder shall remain\nvalid only till 30.09.2023.",
+      "validation": "1.09 Validity of status certificate\n(a) Any Status Certificate issued under FTP 2015-20 to an IEC holder shall remain\nvalid only till 30.09.2023.",
+      "action": "1.09 Validity of status certificate\n(a) Any Status Certificate issued under FTP 2015-20 to an IEC holder shall remain\nvalid only till 30.09.2023.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.09 - Validity of status certificate."
+    },
+    {
+      "rule_id": "CH1-SEC1_09-R002",
+      "rule_description": "(b) Status Certificates issued under this FTP shall be valid for a period of 5 years\nfrom the date on which application for recognition was filed.",
+      "trigger": "Validity of status certificate",
+      "condition": "(b) Status Certificates issued under this FTP shall be valid for a period of 5 years\nfrom the date on which application for recognition was filed.",
+      "validation": "(b) Status Certificates issued under this FTP shall be valid for a period of 5 years\nfrom the date on which application for recognition was filed.",
+      "action": "(b) Status Certificates issued under this FTP shall be valid for a period of 5 years\nfrom the date on which application for recognition was filed.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.09 - Validity of status certificate."
+    },
+    {
+      "rule_id": "CH1-SEC1_09-R003",
+      "rule_description": "1.09 Validity of status certificate\n(a)\nAny Status Certificate issued under FTP 2015-20 to an IEC holder shall remain\nvalid only till 30.09.2023.",
+      "trigger": "Validity of status certificate",
+      "condition": "(c) On achieving higher status threshold as per Para 1.26 of FTP a firm can, at its\ndiscretion, upgrade their status holder category after surrender of the previous\nCertificate and applying as per para 1.08 above.",
+      "validation": "1.09 Validity of status certificate\n(a)\nAny Status Certificate issued under FTP 2015-20 to an IEC holder shall remain\nvalid only till 30.09.2023.",
+      "action": "(c) On achieving higher status threshold as per Para 1.26 of FTP a firm can, at its\ndiscretion, upgrade their status holder category after surrender of the previous\nCertificate and applying as per para 1.08 above.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.09 - Validity of status certificate."
+    },
+    {
+      "rule_id": "CH1-SEC1_09-R004",
+      "rule_description": "(b)\nStatus Certificates issued under this FTP shall be valid for a period of 5 years\nfrom the date on which application for recognition was filed.",
+      "trigger": "Validity of status certificate",
+      "condition": "1.09 Validity of status certificate\n(a)\nAny Status Certificate issued under FTP 2015-20 to an IEC holder shall remain\nvalid only till 30.09.2023.",
+      "validation": "(b)\nStatus Certificates issued under this FTP shall be valid for a period of 5 years\nfrom the date on which application for recognition was filed.",
+      "action": "1.09 Validity of status certificate\n(a)\nAny Status Certificate issued under FTP 2015-20 to an IEC holder shall remain\nvalid only till 30.09.2023.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.09 - Validity of status certificate."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 1.09 Validity of status certificate\n(a) Any Status Certificate issued under FTP 2015-20 to an IEC holder shall remain\nvalid only till 30.09.2023.",
+    "IF detected context matches section rule THEN enforce: (b) Status Certificates issued under this FTP shall be valid for a period of 5 years\nfrom the date on which application for recognition was filed.",
+    "IF detected context matches section rule THEN enforce: 1.09 Validity of status certificate\n(a)\nAny Status Certificate issued under FTP 2015-20 to an IEC holder shall remain\nvalid only till 30.09.2023.",
+    "IF detected context matches section rule THEN enforce: (b)\nStatus Certificates issued under this FTP shall be valid for a period of 5 years\nfrom the date on which application for recognition was filed.",
+    "IF validations pass THEN recommend action: 1.09 Validity of status certificate\n(a) Any Status Certificate issued under FTP 2015-20 to an IEC holder shall remain\nvalid only till 30.09.2023."
+  ]
+}

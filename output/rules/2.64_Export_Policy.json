@@ -1,0 +1,21 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.64",
+  "title": "Export Policy",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_64-R001",
+      "rule_description": "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+      "trigger": "Export Policy",
+      "condition": "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+      "output": "DEKAI should produce a compliance decision for 2.64 - Export Policy."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified."
+  ]
+}

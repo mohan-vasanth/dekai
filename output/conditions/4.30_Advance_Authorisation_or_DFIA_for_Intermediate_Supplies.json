@@ -1,0 +1,70 @@
+{
+  "section": "4.30",
+  "conditions": [
+    "(b)\nIf application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "If in the intervening period (i.e.",
+    "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+    "(c)\nThe export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+    "(d)\nInputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+    "(b) Advance Authorisation or DFIA for Intermediate supply shall be issued after\nmaking Authorisation of ultimate exporter invalid for direct import of item,\nto be supplied by intermediate manufacturer.",
+    "The above stated evidence is not required if invalidation is\napplied along with the application of Advance Authorisation.",
+    "(d) Facility of Advance Authorisation shall be available even in cases where\nintermediate supplier has supplied or intend to supply material subsequent to\nfulfilment of EO by exporter holding Advance Authorisation / DFIA from\nwhere invalidation letter was issued.",
+    "(e) The invalidation letter shall specify the following:\n(i) Name, Address and GSTIN of supplier;\n(ii) GSTIN & Address of recipient unit of Advance\nAuthorisation/DFIA holder where inputs would be processed;\n(iii) Name, description including specifications, where applicable, and\nquantity of items; and\n(iv) Individual value of items to be procured."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.30.1",
+      "if": "application is approved",
+      "then": "89\nissue of an Authorisation.",
+      "source": "(b)\nIf application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority."
+    },
+    {
+      "id": "4.4.30.2",
+      "if": "If in the intervening period (i.e.",
+      "then": "89\nissue of an Authorisation.",
+      "source": "If in the intervening period (i.e."
+    },
+    {
+      "id": "4.4.30.3",
+      "if": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+      "then": "89\nissue of an Authorisation.",
+      "source": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified."
+    },
+    {
+      "id": "4.4.30.4",
+      "if": "(c)\nThe export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "then": "89\nissue of an Authorisation.",
+      "source": "(c)\nThe export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant."
+    },
+    {
+      "id": "4.4.30.5",
+      "if": "(d)\nInputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+      "then": "89\nissue of an Authorisation.",
+      "source": "(d)\nInputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs."
+    },
+    {
+      "id": "4.4.30.6",
+      "if": "(b) Advance Authorisation or DFIA for Intermediate supply shall be issued after\nmaking Authorisation of ultimate exporter invalid for direct import of item,\nto be supplied by intermediate manufacturer.",
+      "then": "89\nissue of an Authorisation.",
+      "source": "(b) Advance Authorisation or DFIA for Intermediate supply shall be issued after\nmaking Authorisation of ultimate exporter invalid for direct import of item,\nto be supplied by intermediate manufacturer."
+    },
+    {
+      "id": "4.4.30.7",
+      "if": "The above stated evidence is not required if invalidation is\napplied along with the application of Advance Authorisation.",
+      "then": "89\nissue of an Authorisation.",
+      "source": "The above stated evidence is not required if invalidation is\napplied along with the application of Advance Authorisation."
+    },
+    {
+      "id": "4.4.30.8",
+      "if": "(d) Facility of Advance Authorisation shall be available even in cases where\nintermediate supplier has supplied or intend to supply material subsequent to\nfulfilment of EO by exporter holding Advance Authorisation / DFIA from\nwhere invalidation letter was issued.",
+      "then": "89\nissue of an Authorisation.",
+      "source": "(d) Facility of Advance Authorisation shall be available even in cases where\nintermediate supplier has supplied or intend to supply material subsequent to\nfulfilment of EO by exporter holding Advance Authorisation / DFIA from\nwhere invalidation letter was issued."
+    },
+    {
+      "id": "4.4.30.9",
+      "if": "(e) The invalidation letter shall specify the following:\n(i) Name, Address and GSTIN of supplier;\n(ii) GSTIN & Address of recipient unit of Advance\nAuthorisation/DFIA holder where inputs would be processed;\n(iii) Name, description including specifications, where applicable, and\nquantity of items; and\n(iv) Individual value of items to be procured.",
+      "then": "89\nissue of an Authorisation.",
+      "source": "(e) The invalidation letter shall specify the following:\n(i) Name, Address and GSTIN of supplier;\n(ii) GSTIN & Address of recipient unit of Advance\nAuthorisation/DFIA holder where inputs would be processed;\n(iii) Name, description including specifications, where applicable, and\nquantity of items; and\n(iv) Individual value of items to be procured."
+    }
+  ]
+}

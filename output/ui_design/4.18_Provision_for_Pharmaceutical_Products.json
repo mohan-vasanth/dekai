@@ -1,0 +1,37 @@
+{
+  "section": "4.18",
+  "ui": [
+    {
+      "screen_id": "Provision_for_Pharmaceutical_Products_overview",
+      "name": "Provision for Pharmaceutical Products Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Provision_for_Pharmaceutical_Products_submission",
+      "name": "Provision for Pharmaceutical Products Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "may_flag",
+        "can_flag",
+        "the_flag",
+        "not_flag",
+        "and_flag"
+      ]
+    }
+  ]
+}

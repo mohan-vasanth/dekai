@@ -1,0 +1,47 @@
+{
+  "section": "4.38",
+  "ui": [
+    {
+      "screen_id": "Application_fee_for_enhancement_overview",
+      "name": "Application fee for enhancement Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Application_fee_for_enhancement_submission",
+      "name": "Application fee for enhancement Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "fee_flag",
+        "for_flag",
+        "the_flag",
+        "cif_flag",
+        "and_flag",
+        "has_flag"
+      ]
+    },
+    {
+      "screen_id": "Application_fee_for_enhancement_exceptions",
+      "name": "Application fee for enhancement Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

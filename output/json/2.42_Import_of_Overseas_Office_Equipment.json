@@ -1,0 +1,296 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.42",
+  "title": "Import of Overseas Office Equipment",
+  "purpose": "Defines the operational requirements for Import of Overseas Office Equipment.",
+  "purpose_thanglish": "Indha Import of Overseas Office Equipment section-la, Defines the operational requirements for import of Overseas Office Equipment.",
+  "summary": "2.42 Import of Overseas Office Equipment\nOn winding up of overseas offices, set up with approval of RBI, used office equipment\nand other items may be imported without Authorisation.",
+  "business_meaning": "2.42 Import of Overseas Office Equipment\nOn winding up of overseas offices, set up with approval of RBI, used office equipment\nand other items may be imported without Authorisation.",
+  "business_explanation": "2.42 Import of Overseas Office Equipment\nOn winding up of overseas offices, set up with approval of RBI, used office equipment\nand other items may be imported without Authorisation.",
+  "business_explanation_thanglish": "Indha Import of Overseas Office Equipment section-la, 2.42 import of Overseas Office Equipment\nOn winding up of overseas offices, set up with approval of RBI, used office equipment\nand other items may be imported without Authorisation.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_42-R001",
+      "rule_description": "2.42 Import of Overseas Office Equipment\nOn winding up of overseas offices, set up with approval of RBI, used office equipment\nand other items may be imported without Authorisation.",
+      "trigger": "Import of Overseas Office Equipment",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.42 - Import of Overseas Office Equipment."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 2.42 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Import of Overseas Office Equipment\nReview section 2.42 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 2.42 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Import of Overseas Office Equipment Decision\nIF section 2.42 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Import of Overseas Office Equipment; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Import of Overseas Office Equipment, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the import of overseas office equipment process.",
+  "real_world_example_thanglish": "Indha Import of Overseas Office Equipment section-la, Example: an importer or exporter invokes import of Overseas Office Equipment, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the import of overseas office equipment process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "set_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:set"
+    },
+    {
+      "name": "rbi_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:RBI"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "with_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:with"
+    },
+    {
+      "name": "used_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:used"
+    },
+    {
+      "name": "other_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:other"
+    },
+    {
+      "name": "items_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:items"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.42",
+      "purpose": "Retrieve knowledge payload for section 2.42",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-of-Overseas-Office-Equipment/validate",
+      "purpose": "Validate inputs and documents for Import of Overseas Office Equipment",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Import_of_Overseas_Office_Equipment_overview",
+      "name": "Import of Overseas Office Equipment Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Overseas_Office_Equipment_submission",
+      "name": "Import of Overseas Office Equipment Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "set_flag",
+        "rbi_flag",
+        "and_flag",
+        "may_flag",
+        "with_flag",
+        "used_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Import of Overseas Office Equipment require?",
+    "Which documents are needed for Import of Overseas Office Equipment?",
+    "How does DEKAI validate Import of Overseas Office Equipment requests?"
+  ],
+  "expected_ai_answers": [
+    "Import of Overseas Office Equipment requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Import of Overseas Office Equipment by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.42?",
+      "answer_en": "2.42 Import of Overseas Office Equipment\nOn winding up of overseas offices, set up with approval of RBI, used office equipment\nand other items may be imported without Authorisation.",
+      "question_thanglish": "Indha Import of Overseas Office Equipment section-la, What is the purpose of section 2.42?",
+      "answer_thanglish": "Indha Import of Overseas Office Equipment section-la, 2.42 import of Overseas Office Equipment\nOn winding up of overseas offices, set up with approval of RBI, used office equipment\nand other items may be imported without Authorisation."
+    },
+    {
+      "question_en": "What documents are required under Import of Overseas Office Equipment?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Import of Overseas Office Equipment section-la, What documents are required under import of Overseas Office Equipment?",
+      "answer_thanglish": "Indha Import of Overseas Office Equipment section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Import of Overseas Office Equipment?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Import of Overseas Office Equipment section-la, Which authority handles import of Overseas Office Equipment?",
+      "answer_thanglish": "Indha Import of Overseas Office Equipment section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Import of Overseas Office Equipment?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.42, apply the extracted rules, and guide the user through Review section 2.42 requirements.",
+      "question_thanglish": "Indha Import of Overseas Office Equipment section-la, User asks: How do I comply with import of Overseas Office Equipment?",
+      "answer_thanglish": "Indha Import of Overseas Office Equipment section-la, AI answers: DEKAI should evaluate section 2.42, apply the extracted rules, and guide the user through Review section 2.42 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Import of Overseas Office Equipment?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Import of Overseas Office Equipment section-la, User asks: Which validations apply to import of Overseas Office Equipment?",
+      "answer_thanglish": "Indha Import of Overseas Office Equipment section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.42, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Import of Overseas Office Equipment into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Import of Overseas Office Equipment section-la, Capture chapter 2, section 2.42, title, and page references as immutable knowledge metadata.",
+    "Indha Import of Overseas Office Equipment section-la, Bind validations for import of Overseas Office Equipment into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "set",
+    "RBI",
+    "and",
+    "may",
+    "with",
+    "used",
+    "other",
+    "items",
+    "Import",
+    "Office",
+    "winding",
+    "offices",
+    "without",
+    "Overseas",
+    "approval",
+    "imported",
+    "Equipment",
+    "Authorisation"
+  ],
+  "search_keywords": [
+    "set",
+    "RBI",
+    "and",
+    "may",
+    "with",
+    "used",
+    "other",
+    "items",
+    "Import",
+    "Office",
+    "winding",
+    "offices",
+    "without",
+    "Overseas",
+    "approval",
+    "imported",
+    "Equipment",
+    "Authorisation"
+  ],
+  "intent": "Provide knowledge guidance for Import of Overseas Office Equipment.",
+  "tags": [
+    "2.42",
+    "Import of Overseas Office Equipment",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    16
+  ],
+  "pages": [
+    16
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.42 Import of Overseas Office Equipment\nOn winding up of overseas offices, set up with approval of RBI, used office equipment\nand other items may be imported without Authorisation.",
+  "mermaid": "flowchart TD\n    S1[\"Review section 2.42 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 2.42 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

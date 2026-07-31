@@ -1,0 +1,59 @@
+{
+  "section": "2.59",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.59",
+      "purpose": "Retrieve knowledge payload for section 2.59",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Conditions-applicable-on-availing-quotas/validate",
+      "purpose": "Validate inputs and documents for Conditions applicable on availing quotas",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Conditions-applicable-on-availing-quotas/execute",
+      "purpose": "Trigger business action for 2.59 Conditions applicable on availing quotas\nAll eligible entities are eligible to avail quotas subject to the conditions as detailed\nbelow:\n(i) All eligible entities desiring availment of quota as mentioned above, may make\nan online application to EFC in ANF-2M to DGFT, completed application forms\nalong with prescribed documents must be submitted on or before 1st March of\neach financial year preceding to the year of quota\npg.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

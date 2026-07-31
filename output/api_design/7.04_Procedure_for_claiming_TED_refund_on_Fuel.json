@@ -1,0 +1,55 @@
+{
+  "section": "7.04",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/7.04",
+      "purpose": "Retrieve knowledge payload for section 7.04",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Procedure-for-claiming-TED-refund-on-Fuel/validate",
+      "purpose": "Validate inputs and documents for Procedure for claiming TED refund on Fuel",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Procedure-for-claiming-TED-refund-on-Fuel/execute",
+      "purpose": "Trigger business action for 7.04 Procedure for claiming TED refund on Fuel\nFor supply of High Speed Diesel (HSD) from Depots of domestic oil Public Sector\nUndertakings under Paragraph 7.02(b) of FTP, terminal excise duty shall be\nrefunded on the basis of duty paid certificate issued by concerned domestic oil\nPublic Sector Undertaking in the format given in Annexure-IV to ANF-7A.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

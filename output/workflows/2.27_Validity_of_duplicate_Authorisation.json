@@ -1,0 +1,11 @@
+{
+  "section": "2.27",
+  "workflow": [
+    "Evaluate condition: No\nrequest shall be entertained if validity has expired.",
+    "Run validation: 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+    "Run validation: No\nrequest shall be entertained if validity has expired."
+  ],
+  "workflow_ascii": "Validity of duplicate Authorisation\nEvaluate condition: No\nrequest shall be entertained if validity has expired.\n   |\n   v\nRun validation: 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.\n   |\n   v\nRun validation: No\nrequest shall be entertained if validity has expired.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: No\nrequest shall be entertained if validity has expired.\"]\n    S2[\"Run validation: 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.\"]\n    S1 --> S2\n    S3[\"Run validation: No\nrequest shall be entertained if validity has expired.\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: No\nrequest shall be entertained if validity has expired.;\n:Run validation\\: 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.;\n:Run validation\\: No\nrequest shall be entertained if validity has expired.;\nstop\n@enduml"
+}

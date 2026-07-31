@@ -1,0 +1,28 @@
+{
+  "section": "2.15",
+  "conditions": [
+    "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+    "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "15\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.15.1",
+      "if": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "then": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "source": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year."
+    },
+    {
+      "id": "2.2.15.2",
+      "if": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "then": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "source": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP."
+    },
+    {
+      "id": "2.2.15.3",
+      "if": "15\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc.",
+      "then": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "source": "15\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc."
+    }
+  ]
+}

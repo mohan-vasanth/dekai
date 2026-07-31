@@ -1,0 +1,53 @@
+{
+  "section": "4.78",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.78",
+      "purpose": "Retrieve knowledge payload for section 4.78",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Maintenance-of-Accounts/validate",
+      "purpose": "Validate inputs and documents for Maintenance of Accounts",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Maintenance-of-Accounts/execute",
+      "purpose": "Trigger business action for 4.78 Maintenance of Accounts\nNominated Agency shall maintain complete account, consignment-wise, of the\ngold, silver, platinum, mountings, findings/ plain semi-finished gold/silver/\nplatinum jewellery etc.",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

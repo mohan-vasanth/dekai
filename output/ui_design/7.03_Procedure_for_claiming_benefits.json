@@ -1,0 +1,47 @@
+{
+  "section": "7.03",
+  "ui": [
+    {
+      "screen_id": "Procedure_for_claiming_benefits_overview",
+      "name": "Procedure for claiming benefits Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Procedure_for_claiming_benefits_submission",
+      "name": "Procedure for claiming benefits Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "iec_flag",
+        "per_flag",
+        "hbp_flag",
+        "can_flag",
+        "anf_flag"
+      ]
+    },
+    {
+      "screen_id": "Procedure_for_claiming_benefits_exceptions",
+      "name": "Procedure for claiming benefits Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

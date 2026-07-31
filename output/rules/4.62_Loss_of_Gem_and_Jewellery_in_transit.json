@@ -1,0 +1,21 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.62",
+  "title": "Loss of Gem and Jewellery in transit",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_62-R001",
+      "rule_description": "4.62 Loss of Gem and Jewellery in transit\nConsignments of gem and jewellery items exported out of country and lost in\ntransit after exports, where foreign exchange against such exports has been\nrealised or insurance claims settled, will also be eligible for REP Authorisation.",
+      "trigger": "Loss of Gem and Jewellery in transit",
+      "condition": "4.62 Loss of Gem and Jewellery in transit\nConsignments of gem and jewellery items exported out of country and lost in\ntransit after exports, where foreign exchange against such exports has been\nrealised or insurance claims settled, will also be eligible for REP Authorisation.",
+      "validation": "4.62 Loss of Gem and Jewellery in transit\nConsignments of gem and jewellery items exported out of country and lost in\ntransit after exports, where foreign exchange against such exports has been\nrealised or insurance claims settled, will also be eligible for REP Authorisation.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.62 - Loss of Gem and Jewellery in transit."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.62 Loss of Gem and Jewellery in transit\nConsignments of gem and jewellery items exported out of country and lost in\ntransit after exports, where foreign exchange against such exports has been\nrealised or insurance claims settled, will also be eligible for REP Authorisation."
+  ]
+}

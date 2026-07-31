@@ -1,0 +1,22 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.12",
+  "title": "One PAN-One IEC",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_12-R001",
+      "rule_description": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "trigger": "One PAN-One IEC",
+      "condition": "Section 2.12 is applicable",
+      "validation": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "action": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.12 - One PAN-One IEC."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+    "IF validations pass THEN recommend action: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN."
+  ]
+}

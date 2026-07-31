@@ -1,0 +1,37 @@
+{
+  "section": "2.67",
+  "ui": [
+    {
+      "screen_id": "Direct_negotiation_of_export_documents_overview",
+      "name": "Direct negotiation of export documents Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Direct_negotiation_of_export_documents_submission",
+      "name": "Direct negotiation of export documents Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "not_flag",
+        "rbi_flag",
+        "for_flag",
+        "per_flag",
+        "tax_flag",
+        "brc_flag"
+      ]
+    }
+  ]
+}

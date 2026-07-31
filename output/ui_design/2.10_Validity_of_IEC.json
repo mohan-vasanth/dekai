@@ -1,0 +1,47 @@
+{
+  "section": "2.10",
+  "ui": [
+    {
+      "screen_id": "Validity_of_IEC_overview",
+      "name": "Validity of IEC Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Validity_of_IEC_submission",
+      "name": "Validity of IEC Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "iec_flag",
+        "the_flag",
+        "all_flag",
+        "can_flag",
+        "ftp_flag",
+        "have_flag"
+      ]
+    },
+    {
+      "screen_id": "Validity_of_IEC_exceptions",
+      "name": "Validity of IEC Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

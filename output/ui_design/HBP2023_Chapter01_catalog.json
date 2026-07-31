@@ -1,0 +1,497 @@
+{
+  "screen_ids": [
+    "Notification_of_Procedure_overview",
+    "Notification_of_Procedure_submission",
+    "Notification_of_Procedure_exceptions",
+    "Objective_overview",
+    "Objective_submission",
+    "Definition_overview",
+    "Definition_submission",
+    "E_governance_of_Foreign_Trade_in_DGFT_overview",
+    "E_governance_of_Foreign_Trade_in_DGFT_submission",
+    "Use_of_Digital_Signature_Certificates_and_Aadhar_e_Sign_overview",
+    "Use_of_Digital_Signature_Certificates_and_Aadhar_e_Sign_submission",
+    "Conversion_of_Currencies_in_e_BRCs_overview",
+    "Conversion_of_Currencies_in_e_BRCs_submission",
+    "Generation_of_e_BRC_where_payments_are_realised_through_Insurance_overview",
+    "Generation_of_e_BRC_where_payments_are_realised_through_Insurance_submission",
+    "Status_Holder_Application_for_grant_of_Status_Certificate_overview",
+    "Status_Holder_Application_for_grant_of_Status_Certificate_submission",
+    "Validity_of_status_certificate_overview",
+    "Validity_of_status_certificate_submission",
+    "Maintenance_of_Accounts_and_Submission_of_Annual_Export_Statement_overview",
+    "Maintenance_of_Accounts_and_Submission_of_Annual_Export_Statement_submission",
+    "Refusal_Suspension_Cancellation_of_Certificate_overview",
+    "Refusal_Suspension_Cancellation_of_Certificate_submission",
+    "Appeal_overview",
+    "Appeal_submission"
+  ],
+  "sections": [
+    {
+      "section": "1.01",
+      "title": "Notification of Procedure",
+      "ui": [
+        {
+          "screen_id": "Notification_of_Procedure_overview",
+          "name": "Notification of Procedure Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Notification_of_Procedure_submission",
+          "name": "Notification of Procedure Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "ftp_flag",
+            "any_flag",
+            "for_flag",
+            "act_flag",
+            "and_flag"
+          ]
+        },
+        {
+          "screen_id": "Notification_of_Procedure_exceptions",
+          "name": "Notification of Procedure Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1.02",
+      "title": "Objective",
+      "ui": [
+        {
+          "screen_id": "Objective_overview",
+          "name": "Objective Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Objective_submission",
+          "name": "Objective Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "d&r_flag",
+            "act_flag",
+            "and_flag",
+            "ftp_flag",
+            "are_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1.03",
+      "title": "Definition",
+      "ui": [
+        {
+          "screen_id": "Definition_overview",
+          "name": "Definition Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Definition_submission",
+          "name": "Definition Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "and_flag",
+            "d&r_flag",
+            "act_flag",
+            "ftp_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1.04",
+      "title": "E-governance of Foreign Trade in DGFT",
+      "ui": [
+        {
+          "screen_id": "E_governance_of_Foreign_Trade_in_DGFT_overview",
+          "name": "E-governance of Foreign Trade in DGFT Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "E_governance_of_Foreign_Trade_in_DGFT_submission",
+          "name": "E-governance of Foreign Trade in DGFT Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "are_flag",
+            "and_flag",
+            "the_flag",
+            "gov_flag",
+            "iec_flag",
+            "can_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1.05",
+      "title": "Use of Digital Signature Certificates and Aadhar e-Sign",
+      "ui": [
+        {
+          "screen_id": "Use_of_Digital_Signature_Certificates_and_Aadhar_e_Sign_overview",
+          "name": "Use of Digital Signature Certificates and Aadhar e-Sign Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Use_of_Digital_Signature_Certificates_and_Aadhar_e_Sign_submission",
+          "name": "Use of Digital Signature Certificates and Aadhar e-Sign Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "use_flag",
+            "and_flag",
+            "dsc_flag",
+            "any_flag",
+            "dgft_flag",
+            "sign_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1.06",
+      "title": "Conversion of Currencies in e-BRCs",
+      "ui": [
+        {
+          "screen_id": "Conversion_of_Currencies_in_e_BRCs_overview",
+          "name": "Conversion of Currencies in e-BRCs Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Conversion_of_Currencies_in_e_BRCs_submission",
+          "name": "Conversion of Currencies in e-BRCs Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "are_flag",
+            "the_flag",
+            "brc_flag",
+            "inr_flag",
+            "let_flag",
+            "leo_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1.07",
+      "title": "Generation of e BRC where payments are realised through Insurance",
+      "ui": [
+        {
+          "screen_id": "Generation_of_e_BRC_where_payments_are_realised_through_Insurance_overview",
+          "name": "Generation of e BRC where payments are realised through Insurance Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Generation_of_e_BRC_where_payments_are_realised_through_Insurance_submission",
+          "name": "Generation of e BRC where payments are realised through Insurance Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "brc_flag",
+            "are_flag",
+            "the_flag",
+            "and_flag",
+            "edi_flag",
+            "for_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1.08",
+      "title": "Status Holder: Application for grant of Status Certificate",
+      "ui": [
+        {
+          "screen_id": "Status_Holder_Application_for_grant_of_Status_Certificate_overview",
+          "name": "Status Holder: Application for grant of Status Certificate Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Status_Holder_Application_for_grant_of_Status_Certificate_submission",
+          "name": "Status Holder: Application for grant of Status Certificate Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "anf_flag",
+            "and_flag",
+            "per_flag",
+            "file_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1.09",
+      "title": "Validity of status certificate",
+      "ui": [
+        {
+          "screen_id": "Validity_of_status_certificate_overview",
+          "name": "Validity of status certificate Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Validity_of_status_certificate_submission",
+          "name": "Validity of status certificate Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "any_flag",
+            "ftp_flag",
+            "iec_flag",
+            "for_flag",
+            "the_flag",
+            "was_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1.10",
+      "title": "Maintenance of Accounts and Submission of Annual Export Statement",
+      "ui": [
+        {
+          "screen_id": "Maintenance_of_Accounts_and_Submission_of_Annual_Export_Statement_overview",
+          "name": "Maintenance of Accounts and Submission of Annual Export Statement Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Maintenance_of_Accounts_and_Submission_of_Annual_Export_Statement_submission",
+          "name": "Maintenance of Accounts and Submission of Annual Export Statement Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "its_flag",
+            "has_flag",
+            "for_flag",
+            "two_flag",
+            "the_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1.11",
+      "title": "Refusal /Suspension /Cancellation of Certificate",
+      "ui": [
+        {
+          "screen_id": "Refusal_Suspension_Cancellation_of_Certificate_overview",
+          "name": "Refusal /Suspension /Cancellation of Certificate Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Refusal_Suspension_Cancellation_of_Certificate_submission",
+          "name": "Refusal /Suspension /Cancellation of Certificate Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "his_flag",
+            "has_flag",
+            "any_flag",
+            "act_flag",
+            "and_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1.12",
+      "title": "Appeal",
+      "ui": [
+        {
+          "screen_id": "Appeal_overview",
+          "name": "Appeal Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Appeal_submission",
+          "name": "Appeal Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "who_flag",
+            "not_flag",
+            "may_flag",
+            "and_flag",
+            "any_flag",
+            "with_flag"
+          ]
+        }
+      ]
+    }
+  ]
+}

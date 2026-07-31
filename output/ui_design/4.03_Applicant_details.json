@@ -1,0 +1,37 @@
+{
+  "section": "4.03",
+  "ui": [
+    {
+      "screen_id": "Applicant_details_overview",
+      "name": "Applicant details Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Applicant_details_submission",
+      "name": "Applicant details Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "iec_flag",
+        "the_flag",
+        "unit_flag",
+        "name_flag",
+        "rcmc_flag"
+      ]
+    }
+  ]
+}

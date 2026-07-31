@@ -1,0 +1,26 @@
+# DGFT Knowledge Extraction Report
+
+## Summary
+- source_pdf: HBP2023_Chapter03.pdf
+- page_count: 6
+- section_count: 8
+- rule_count: 19
+- condition_count: 31
+- workflow_count: 27
+- validation_count: 13
+- exception_count: 0
+- timeline_count: 0
+- authority_count: 53
+- glossary_count: 15
+
+## Section Metrics
+| section | title | rules | conditions | validations | exceptions | timelines | authorities | documents |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 3.01 | Policy | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 3.02 | Objective of policy | 0 | 1 | 0 | 0 | 0 | 1 | 0 |
+| 3.03 | District Export Promotion Committees -Institutional Mechanism at | 0 | 14 | 2 | 0 | 0 | 16 | 0 |
+| 3.05 | District Export Action Plans for Each District | 2 | 13 | 5 | 0 | 0 | 5 | 0 |
+| 3.06 | State/UT Export Promotion Committees | 3 | 1 | 3 | 0 | 0 | 9 | 0 |
+| 3.07 | Nodal DGFT Regional Authority | 1 | 0 | 1 | 0 | 0 | 7 | 0 |
+| 3.08 | Online Monitoring of District Export Action Plans | 0 | 0 | 0 | 0 | 0 | 6 | 0 |
+| 3.09 | District Outreach Programs | 2 | 2 | 2 | 0 | 0 | 9 | 0 |

@@ -1,0 +1,32 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.58",
+  "title": "Eligible entities for allocation of quota",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_58-R001",
+      "rule_description": "2.58 Eligible entities for allocation of quota\nThe following entities shall be eligible for allocation of quota with reference to\npara 2.57(a) of HBP:\n(a) Milk Powder (Tariff Code No.",
+      "trigger": "Eligible entities for allocation of quota",
+      "condition": "2.58 Eligible entities for allocation of quota\nThe following entities shall be eligible for allocation of quota with reference to\npara 2.57(a) of HBP:\n(a) Milk Powder (Tariff Code No.",
+      "validation": "2.58 Eligible entities for allocation of quota\nThe following entities shall be eligible for allocation of quota with reference to\npara 2.57(a) of HBP:\n(a) Milk Powder (Tariff Code No.",
+      "action": "Manual review required.",
+      "exception": "0402.10 or 0402.21) and White Butter, Butter oil,\nAnhydrous Milk Fat (0405): National Dairy Development Board (NDDB),\nNational Cooperative Dairy Federation (NCDF) and National Agricultural\nCooperative Marketing Federation of India Ltd.",
+      "output": "DEKAI should produce a compliance decision for 2.58 - Eligible entities for allocation of quota."
+    },
+    {
+      "rule_id": "CH2-SEC2_58-R002",
+      "rule_description": "2.58 Eligible entities for allocation of quota\nThe following entities shall be eligible for allocation of quota with reference to\npara 2.57(a) of HBP:\n(a)\nMilk Powder (Tariff Code No.",
+      "trigger": "Eligible entities for allocation of quota",
+      "condition": "(b) Maize (corn) (Tariff Code No.",
+      "validation": "1512.11) and Refined rape, colza, canola or mustard oil, other (Tariff Code No.",
+      "action": "Manual review required.",
+      "exception": "0402.10 or 0402.21) and White Butter, Butter oil,\nAnhydrous Milk Fat (0405): National Dairy Development Board (NDDB),\nNational Cooperative Dairy Federation (NCDF) and National Agricultural\nCooperative Marketing Federation of India Ltd.",
+      "output": "DEKAI should produce a compliance decision for 2.58 - Eligible entities for allocation of quota."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.58 Eligible entities for allocation of quota\nThe following entities shall be eligible for allocation of quota with reference to\npara 2.57(a) of HBP:\n(a) Milk Powder (Tariff Code No.",
+    "IF detected context matches section rule THEN enforce: 2.58 Eligible entities for allocation of quota\nThe following entities shall be eligible for allocation of quota with reference to\npara 2.57(a) of HBP:\n(a)\nMilk Powder (Tariff Code No."
+  ]
+}

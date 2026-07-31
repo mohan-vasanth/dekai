@@ -1,0 +1,217 @@
+{
+  "screen_ids": [
+    "Committee_on_Quality_Complaint_Trade_Dispute_CQCTD_overview",
+    "Committee_on_Quality_Complaint_Trade_Dispute_CQCTD_submission",
+    "Composition_of_the_CQCTD_overview",
+    "Composition_of_the_CQCTD_submission",
+    "Online_Filing_and_Tracking_of_Quality_Complaints_Trade_overview",
+    "Online_Filing_and_Tracking_of_Quality_Complaints_Trade_submission",
+    "Mechanism_for_resolving_Quality_Complaints_Trade_Disputes_overview",
+    "Mechanism_for_resolving_Quality_Complaints_Trade_Disputes_submission",
+    "Choice_to_pursue_other_options_overview",
+    "Choice_to_pursue_other_options_submission",
+    "Choice_to_pursue_other_options_exceptions"
+  ],
+  "sections": [
+    {
+      "section": "8.01",
+      "title": "Committee on Quality Complaint & Trade Dispute (CQCTD)",
+      "ui": [
+        {
+          "screen_id": "Committee_on_Quality_Complaint_Trade_Dispute_CQCTD_overview",
+          "name": "Committee on Quality Complaint & Trade Dispute (CQCTD) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Committee_on_Quality_Complaint_Trade_Dispute_CQCTD_submission",
+          "name": "Committee on Quality Complaint & Trade Dispute (CQCTD) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "the_flag",
+            "has_flag",
+            "cla_flag",
+            "new_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "8.02",
+      "title": "Composition of the CQCTD",
+      "ui": [
+        {
+          "screen_id": "Composition_of_the_CQCTD_overview",
+          "name": "Composition of the CQCTD Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Composition_of_the_CQCTD_submission",
+          "name": "Composition of the CQCTD Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "may_flag",
+            "bis_flag",
+            "and_flag",
+            "any_flag",
+            "dgft_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "8.03",
+      "title": "Online Filing and Tracking of Quality Complaints/Trade",
+      "ui": [
+        {
+          "screen_id": "Online_Filing_and_Tracking_of_Quality_Complaints_Trade_overview",
+          "name": "Online Filing and Tracking of Quality Complaints/Trade Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Online_Filing_and_Tracking_of_Quality_Complaints_Trade_submission",
+          "name": "Online Filing and Tracking of Quality Complaints/Trade Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "for_flag",
+            "www_flag",
+            "gov_flag",
+            "the_flag",
+            "can_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "8.04",
+      "title": "Mechanism for resolving Quality Complaints/Trade Disputes",
+      "ui": [
+        {
+          "screen_id": "Mechanism_for_resolving_Quality_Complaints_Trade_Disputes_overview",
+          "name": "Mechanism for resolving Quality Complaints/Trade Disputes Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Mechanism_for_resolving_Quality_Complaints_Trade_Disputes_submission",
+          "name": "Mechanism for resolving Quality Complaints/Trade Disputes Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "and_flag",
+            "act_flag",
+            "iii_flag",
+            "has_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "8.05",
+      "title": "Choice to pursue other options",
+      "ui": [
+        {
+          "screen_id": "Choice_to_pursue_other_options_overview",
+          "name": "Choice to pursue other options Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Choice_to_pursue_other_options_submission",
+          "name": "Choice to pursue other options Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "and_flag",
+            "are_flag",
+            "any_flag",
+            "two_flag"
+          ]
+        },
+        {
+          "screen_id": "Choice_to_pursue_other_options_exceptions",
+          "name": "Choice to pursue other options Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    }
+  ]
+}

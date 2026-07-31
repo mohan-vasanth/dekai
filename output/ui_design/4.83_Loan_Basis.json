@@ -1,0 +1,47 @@
+{
+  "section": "4.83",
+  "ui": [
+    {
+      "screen_id": "Loan_Basis_overview",
+      "name": "Loan Basis Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Loan_Basis_submission",
+      "name": "Loan Basis Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "lut_flag",
+        "for_flag",
+        "and_flag",
+        "tax_flag",
+        "the_flag"
+      ]
+    },
+    {
+      "screen_id": "Loan_Basis_exceptions",
+      "name": "Loan Basis Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

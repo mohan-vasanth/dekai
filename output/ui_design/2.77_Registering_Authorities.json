@@ -1,0 +1,37 @@
+{
+  "section": "2.77",
+  "ui": [
+    {
+      "screen_id": "Registering_Authorities_overview",
+      "name": "Registering Authorities Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Registering_Authorities_submission",
+      "name": "Registering Authorities Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "its_flag",
+        "the_flag",
+        "body_flag",
+        "dgft_flag",
+        "this_flag",
+        "rcmc_flag"
+      ]
+    }
+  ]
+}

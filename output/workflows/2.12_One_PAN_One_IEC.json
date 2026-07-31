@@ -1,0 +1,10 @@
+{
+  "section": "2.12",
+  "workflow": [
+    "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+    "Run validation: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN."
+  ],
+  "workflow_ascii": "One PAN-One IEC\n2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.\n   |\n   v\nRun validation: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+  "mermaid": "flowchart TD\n    S1[\"2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.\"]\n    S2[\"Run validation: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.;\n:Run validation\\: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.;\nstop\n@enduml"
+}

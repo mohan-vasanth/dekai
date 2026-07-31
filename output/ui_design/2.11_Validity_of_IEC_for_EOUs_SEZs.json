@@ -1,0 +1,37 @@
+{
+  "section": "2.11",
+  "ui": [
+    {
+      "screen_id": "Validity_of_IEC_for_EOUs_SEZs_overview",
+      "name": "Validity of IEC for EOUs / SEZs Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Validity_of_IEC_for_EOUs_SEZs_submission",
+      "name": "Validity of IEC for EOUs / SEZs Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "iec_flag",
+        "for_flag",
+        "dta_flag",
+        "sez_flag",
+        "eous_flag",
+        "sezs_flag"
+      ]
+    }
+  ]
+}

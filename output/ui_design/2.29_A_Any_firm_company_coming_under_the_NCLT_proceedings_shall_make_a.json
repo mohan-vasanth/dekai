@@ -1,0 +1,37 @@
+{
+  "section": "2.29",
+  "ui": [
+    {
+      "screen_id": "A_Any_firm_company_coming_under_the_NCLT_proceedings_shall_make_a_overview",
+      "name": "A Any firm/ company coming under the NCLT proceedings shall make a Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "A_Any_firm_company_coming_under_the_NCLT_proceedings_shall_make_a_submission",
+      "name": "A Any firm/ company coming under the NCLT proceedings shall make a Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "any_flag",
+        "the_flag",
+        "ftp_flag",
+        "and_flag",
+        "law_flag",
+        "d&r_flag"
+      ]
+    }
+  ]
+}

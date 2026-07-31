@@ -1,0 +1,334 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.31",
+  "title": "Import under Lease Financing",
+  "purpose": "2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+  "purpose_thanglish": "Indha Import under Lease Financing section-la, 2.31 import under Lease Financing\nimport under lease financing kandippa be available under EOU/ SEZ scheme.",
+  "summary": "2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme. Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+  "business_meaning": "Import under Lease Financing governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Import under Lease Financing explains the operating rule set that DEKAI should enforce. Key control points include 2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+  "business_explanation_thanglish": "Indha Import under Lease Financing section-la, import under Lease Financing explains the operating rule set that DEKAI should enforce. Key control points include 2.31 import under Lease Financing\nimport under lease financing kandippa be available under EOU/ SEZ scheme.",
+  "business_logic": [
+    "2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+    "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing"
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_31-R001",
+      "rule_description": "2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+      "trigger": "Import under Lease Financing",
+      "condition": "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+      "validation": "2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.31 - Import under Lease Financing."
+    },
+    {
+      "rule_id": "CH2-SEC2_31-R002",
+      "rule_description": "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+      "trigger": "Import under Lease Financing",
+      "condition": "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+      "validation": "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.31 - Import under Lease Financing."
+    }
+  ],
+  "conditions": [
+    "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing"
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.31.1",
+      "if": "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+      "then": "Route for review",
+      "source": "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing"
+    }
+  ],
+  "validations": [
+    "2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+    "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing"
+  ],
+  "exceptions": [],
+  "dependencies": [
+    "7.03"
+  ],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+    "Run validation: 2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+    "Run validation: Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing"
+  ],
+  "workflow_ascii": "Import under Lease Financing\nEvaluate condition: Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing\n   |\n   v\nRun validation: 2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.\n   |\n   v\nRun validation: Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+  "decision_tree": [
+    "IF section 2.31 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Import under Lease Financing Decision\nIF section 2.31 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Import under Lease Financing; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Import under Lease Financing, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the import under lease financing process.",
+  "real_world_example_thanglish": "Indha Import under Lease Financing section-la, Example: an importer or exporter invokes import under Lease Financing, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the import under lease financing process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+    "IF detected context matches section rule THEN enforce: Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing"
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "eou_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:EOU"
+    },
+    {
+      "name": "sez_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:SEZ"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "ftp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:FTP"
+    },
+    {
+      "name": "are_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:are"
+    },
+    {
+      "name": "even_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:even"
+    },
+    {
+      "name": "under_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:under"
+    },
+    {
+      "name": "lease_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Lease"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.31",
+      "purpose": "Retrieve knowledge payload for section 2.31",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-under-Lease-Financing/validate",
+      "purpose": "Validate inputs and documents for Import under Lease Financing",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Import_under_Lease_Financing_overview",
+      "name": "Import under Lease Financing Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_under_Lease_Financing_submission",
+      "name": "Import under Lease Financing Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "eou_flag",
+        "sez_flag",
+        "for_flag",
+        "ftp_flag",
+        "are_flag",
+        "even_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Import under Lease Financing require?",
+    "Which documents are needed for Import under Lease Financing?",
+    "How does DEKAI validate Import under Lease Financing requests?"
+  ],
+  "expected_ai_answers": [
+    "Import under Lease Financing requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Import under Lease Financing by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.31?",
+      "answer_en": "Import under Lease Financing explains the operating rule set that DEKAI should enforce. Key control points include 2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+      "question_thanglish": "Indha Import under Lease Financing section-la, What is the purpose of section 2.31?",
+      "answer_thanglish": "Indha Import under Lease Financing section-la, import under Lease Financing explains the operating rule set that DEKAI should enforce. Key control points include 2.31 import under Lease Financing\nimport under lease financing kandippa be available under EOU/ SEZ scheme."
+    },
+    {
+      "question_en": "What documents are required under Import under Lease Financing?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Import under Lease Financing section-la, What documents are required under import under Lease Financing?",
+      "answer_thanglish": "Indha Import under Lease Financing section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Import under Lease Financing?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Import under Lease Financing section-la, Which authority handles import under Lease Financing?",
+      "answer_thanglish": "Indha Import under Lease Financing section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Import under Lease Financing?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.31, apply the extracted rules, and guide the user through Evaluate condition: Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing.",
+      "question_thanglish": "Indha Import under Lease Financing section-la, User asks: How do I comply with import under Lease Financing?",
+      "answer_thanglish": "Indha Import under Lease Financing section-la, AI answers: DEKAI should evaluate section 2.31, apply the extracted rules, and guide the user through Evaluate condition: Domestic\nsupply of capital goods to eligible categories of deemed exports kandippa be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Import under Lease Financing?",
+      "answer_en": "AI answers: Applicable validations are 2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme., Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+      "question_thanglish": "Indha Import under Lease Financing section-la, User asks: Which validations apply to import under Lease Financing?",
+      "answer_thanglish": "Indha Import under Lease Financing section-la, AI answers: Applicable validations are 2.31 import under Lease Financing\nimport under lease financing kandippa be available under EOU/ SEZ scheme., Domestic\nsupply of capital goods to eligible categories of deemed exports kandippa be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing"
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.31, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Import under Lease Financing into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Import under Lease Financing section-la, Capture chapter 2, section 2.31, title, and page references as immutable knowledge metadata.",
+    "Indha Import under Lease Financing section-la, Bind validations for import under Lease Financing into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "EOU",
+    "SEZ",
+    "for",
+    "FTP",
+    "are",
+    "even",
+    "under",
+    "Lease",
+    "shall",
+    "goods",
+    "cases",
+    "where",
+    "Import",
+    "scheme",
+    "supply",
+    "deemed",
+    "export",
+    "capital",
+    "exports",
+    "Domestic"
+  ],
+  "search_keywords": [
+    "EOU",
+    "SEZ",
+    "for",
+    "FTP",
+    "are",
+    "even",
+    "under",
+    "Lease",
+    "shall",
+    "goods",
+    "cases",
+    "where",
+    "Import",
+    "scheme",
+    "supply",
+    "deemed",
+    "export",
+    "capital",
+    "exports",
+    "Domestic"
+  ],
+  "intent": "Provide knowledge guidance for Import under Lease Financing.",
+  "tags": [
+    "2.31",
+    "Import under Lease Financing",
+    "business-rule",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.",
+    "Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing"
+  ],
+  "page_numbers": [
+    12
+  ],
+  "pages": [
+    12
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme. Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing\"]\n    S2[\"Run validation: 2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.\"]\n    S1 --> S2\n    S3[\"Run validation: Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing;\n:Run validation\\: 2.31 Import under Lease Financing\nImport under lease financing shall be available under EOU/ SEZ scheme.;\n:Run validation\\: Domestic\nsupply of capital goods to eligible categories of deemed exports shall be eligible for\nbenefits of deemed export as in paragraph 7.03 of FTP, even in cases where supplies\nare under lease financing;\nstop\n@enduml"
+}

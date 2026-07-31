@@ -1,0 +1,37 @@
+{
+  "section": "3.03",
+  "ui": [
+    {
+      "screen_id": "District_Export_Promotion_Committees_Institutional_Mechanism_at_overview",
+      "name": "District Export Promotion Committees -Institutional Mechanism at Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "District_Export_Promotion_Committees_Institutional_Mechanism_at_submission",
+      "name": "District Export Promotion Committees -Institutional Mechanism at Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "has_flag",
+        "the_flag",
+        "and_flag",
+        "its_flag",
+        "dic_flag",
+        "etc_flag"
+      ]
+    }
+  ]
+}

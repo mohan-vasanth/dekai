@@ -1,0 +1,37 @@
+{
+  "section": "4.64",
+  "ui": [
+    {
+      "screen_id": "Agency_Commission_overview",
+      "name": "Agency Commission Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Agency_Commission_submission",
+      "name": "Agency Commission Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "are_flag",
+        "pay_flag",
+        "the_flag",
+        "rbi_flag",
+        "gold_flag",
+        "laid_flag"
+      ]
+    }
+  ]
+}

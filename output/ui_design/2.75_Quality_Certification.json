@@ -1,0 +1,37 @@
+{
+  "section": "2.75",
+  "ui": [
+    {
+      "screen_id": "Quality_Certification_overview",
+      "name": "Quality Certification Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Quality_Certification_submission",
+      "name": "Quality Certification Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "has_flag",
+        "for_flag",
+        "iso_flag",
+        "and_flag",
+        "the_flag",
+        "web_flag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "5.26",
+  "ui": [
+    {
+      "screen_id": "Green_Technology_Products_overview",
+      "name": "Green Technology Products Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Green_Technology_Products_submission",
+      "name": "Green Technology Products Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "ftp_flag",
+        "for_flag",
+        "are_flag",
+        "and_flag",
+        "iii_flag"
+      ]
+    }
+  ]
+}

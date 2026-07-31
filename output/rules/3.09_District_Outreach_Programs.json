@@ -1,0 +1,33 @@
+{
+  "chapter_number": "3",
+  "chapter_title": "Developing Districts as Export Hubs",
+  "section": "3.09",
+  "title": "District Outreach Programs",
+  "business_rules": [
+    {
+      "rule_id": "CH3-SEC3_09-R001",
+      "rule_description": "3.09 District Outreach Programs\nEach Jurisdictional DGFT RA in collaboration with the State and District\nadministration and concerned agencies/EPCs of Central and State Government shall\nprepare a calendar of activities in each District to conduct awareness and training\nprograms to promote exports from the District.",
+      "trigger": "District Outreach Programs",
+      "condition": "| | | Mid-term and long-term export strategy/suggestions to promote |\n| | | | exports of identified products/services from the district.",
+      "validation": "3.09 District Outreach Programs\nEach Jurisdictional DGFT RA in collaboration with the State and District\nadministration and concerned agencies/EPCs of Central and State Government shall\nprepare a calendar of activities in each District to conduct awareness and training\nprograms to promote exports from the District.",
+      "action": "|\nDGFT would develop an online monitoring portal that maybe accessed on the DGFT\nwebsite to enable the States/ DGFT RAs to upload all information related to the\nproducts/services with export potential of every District.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3.09 - District Outreach Programs."
+    },
+    {
+      "rule_id": "CH3-SEC3_09-R002",
+      "rule_description": "Wide publicity shall be given to these\noutreach events to reach every potential exporter in the District.",
+      "trigger": "District Outreach Programs",
+      "condition": "Mid-term and long-term export strategy/suggestions to promote\nexports of identified products/services from the district.",
+      "validation": "Wide publicity shall be given to these\noutreach events to reach every potential exporter in the District.",
+      "action": "|\nDGFT would develop an online monitoring portal that maybe accessed on the DGFT\nwebsite to enable the States/ DGFT RAs to upload all information related to the\nproducts/services with export potential of every District.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3.09 - District Outreach Programs."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 3.09 District Outreach Programs\nEach Jurisdictional DGFT RA in collaboration with the State and District\nadministration and concerned agencies/EPCs of Central and State Government shall\nprepare a calendar of activities in each District to conduct awareness and training\nprograms to promote exports from the District.",
+    "IF detected context matches section rule THEN enforce: Wide publicity shall be given to these\noutreach events to reach every potential exporter in the District.",
+    "IF validations pass THEN recommend action: |\nDGFT would develop an online monitoring portal that maybe accessed on the DGFT\nwebsite to enable the States/ DGFT RAs to upload all information related to the\nproducts/services with export potential of every District."
+  ]
+}

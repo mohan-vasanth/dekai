@@ -1,0 +1,14 @@
+{
+  "section": "6.05",
+  "conditions": [
+    "6.05 Repair / Remaking of Jewellery\nEOUs may import plain / studded gold / platinum or silver jewellery for export\nafter repairs /remaking."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.05.1",
+      "if": "6.05 Repair / Remaking of Jewellery\nEOUs may import plain / studded gold / platinum or silver jewellery for export\nafter repairs /remaking.",
+      "then": "Route for review",
+      "source": "6.05 Repair / Remaking of Jewellery\nEOUs may import plain / studded gold / platinum or silver jewellery for export\nafter repairs /remaking."
+    }
+  ]
+}

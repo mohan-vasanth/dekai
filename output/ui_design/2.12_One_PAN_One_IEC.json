@@ -1,0 +1,37 @@
+{
+  "section": "2.12",
+  "ui": [
+    {
+      "screen_id": "One_PAN_One_IEC_overview",
+      "name": "One PAN-One IEC Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "One_PAN_One_IEC_submission",
+      "name": "One PAN-One IEC Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "one_flag",
+        "iec_flag",
+        "pan_flag",
+        "only_flag",
+        "shall_flag",
+        "issued_flag"
+      ]
+    }
+  ]
+}

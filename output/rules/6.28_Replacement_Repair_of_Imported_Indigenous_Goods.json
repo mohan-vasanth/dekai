@@ -1,0 +1,21 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.28",
+  "title": "Replacement / Repair of Imported / Indigenous Goods",
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_28-R001",
+      "rule_description": "IF validations pass THEN recommend action: Any foreign exchange payment for this\npurpose will also be allowed.",
+      "trigger": "Replacement / Repair of Imported / Indigenous Goods",
+      "condition": "However, if goods have been consumed /\ndestroyed in process of testing etc.",
+      "validation": "However, no permission will be\nrequired for sending capital goods for repair within country.",
+      "action": "Any foreign exchange payment for this\npurpose will also be allowed.",
+      "exception": "However, no permission will be\nrequired for sending capital goods for repair within country.",
+      "output": "DEKAI should produce a compliance decision for 6.28 - Replacement / Repair of Imported / Indigenous Goods."
+    }
+  ],
+  "ai_rules": [
+    "IF validations pass THEN recommend action: Any foreign exchange payment for this\npurpose will also be allowed."
+  ]
+}

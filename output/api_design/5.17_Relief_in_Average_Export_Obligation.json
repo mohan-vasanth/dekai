@@ -1,0 +1,38 @@
+{
+  "section": "5.17",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5.17",
+      "purpose": "Retrieve knowledge payload for section 5.17",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Relief-in-Average-Export-Obligation/validate",
+      "purpose": "Validate inputs and documents for Relief in Average Export Obligation",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

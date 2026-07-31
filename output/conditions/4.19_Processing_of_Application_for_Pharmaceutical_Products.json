@@ -1,0 +1,35 @@
+{
+  "section": "4.19",
+  "conditions": [
+    "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+    "The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures.",
+    "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+    "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.19.1",
+      "if": "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "then": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "source": "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant."
+    },
+    {
+      "id": "4.4.19.2",
+      "if": "The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures.",
+      "then": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "source": "The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures."
+    },
+    {
+      "id": "4.4.19.3",
+      "if": "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+      "then": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "source": "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation."
+    },
+    {
+      "id": "4.4.19.4",
+      "if": "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "then": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "source": "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant."
+    }
+  ]
+}

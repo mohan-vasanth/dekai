@@ -1,0 +1,37 @@
+{
+  "section": "4.19",
+  "ui": [
+    {
+      "screen_id": "Processing_of_Application_for_Pharmaceutical_Products_overview",
+      "name": "Processing of Application for Pharmaceutical Products. Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Processing_of_Application_for_Pharmaceutical_Products_submission",
+      "name": "Processing of Application for Pharmaceutical Products. Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "anf_flag",
+        "the_flag",
+        "due_flag",
+        "and_flag",
+        "its_flag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "10.07",
+  "ui": [
+    {
+      "screen_id": "Applicability_of_Weapon_of_Mass_Development_Act_WMD_Act_overview",
+      "name": "Applicability of Weapon of Mass Development Act (WMD Act) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Applicability_of_Weapon_of_Mass_Development_Act_WMD_Act_submission",
+      "name": "Applicability of Weapon of Mass Development Act (WMD Act) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "act_flag",
+        "wmd_flag",
+        "not_flag",
+        "may_flag",
+        "the_flag",
+        "and_flag"
+      ]
+    }
+  ]
+}

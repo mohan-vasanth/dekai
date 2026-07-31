@@ -1,0 +1,77 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.39",
+  "title": "Validity period for import and Revalidation of Authorisation",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_39-R001",
+      "rule_description": "4.39 Validity period for import and Revalidation of Authorisation\n(a) Validity period for import of Advance Authorisation shall be 12 months from\nthe date of issue of Authorisation.",
+      "trigger": "Validity period for import and Revalidation of Authorisation",
+      "condition": "Section 4.39 is applicable",
+      "validation": "4.39 Validity period for import and Revalidation of Authorisation\n(a) Validity period for import of Advance Authorisation shall be 12 months from\nthe date of issue of Authorisation.",
+      "action": "4.39 Validity period for import and Revalidation of Authorisation\n(a) Validity period for import of Advance Authorisation shall be 12 months from\nthe date of issue of Authorisation.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.39 - Validity period for import and Revalidation of Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_39-R002",
+      "rule_description": "(b) Validity of Advance Authorisation for supplies under Chapter-7 of FTP shall\nbe co-terminus with contracted duration of project execution or 12months\nfrom the date of issue of Authorisation, whichever is later.",
+      "trigger": "Validity period for import and Revalidation of Authorisation",
+      "condition": "Section 4.39 is applicable",
+      "validation": "(b) Validity of Advance Authorisation for supplies under Chapter-7 of FTP shall\nbe co-terminus with contracted duration of project execution or 12months\nfrom the date of issue of Authorisation, whichever is later.",
+      "action": "(b) Validity of Advance Authorisation for supplies under Chapter-7 of FTP shall\nbe co-terminus with contracted duration of project execution or 12months\nfrom the date of issue of Authorisation, whichever is later.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.39 - Validity period for import and Revalidation of Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_39-R003",
+      "rule_description": "(c) For Advance Authorisations not covered under Para 4.39(b) above, only one\nrevalidation for twelve months from expiry date shall be allowed.",
+      "trigger": "Validity period for import and Revalidation of Authorisation",
+      "condition": "Section 4.39 is applicable",
+      "validation": "(c) For Advance Authorisations not covered under Para 4.39(b) above, only one\nrevalidation for twelve months from expiry date shall be allowed.",
+      "action": "Applications for any\nsuch revalidation may be submitted online to the concerned Regional\nAuthority.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.39 - Validity period for import and Revalidation of Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_39-R004",
+      "rule_description": "4.39 Validity period for import and Revalidation of Authorisation\n(a)\nValidity period for import of Advance Authorisation shall be 12 months from\nthe date of issue of Authorisation.",
+      "trigger": "Validity period for import and Revalidation of Authorisation",
+      "condition": "Section 4.39 is applicable",
+      "validation": "4.39 Validity period for import and Revalidation of Authorisation\n(a)\nValidity period for import of Advance Authorisation shall be 12 months from\nthe date of issue of Authorisation.",
+      "action": "4.39 Validity period for import and Revalidation of Authorisation\n(a)\nValidity period for import of Advance Authorisation shall be 12 months from\nthe date of issue of Authorisation.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.39 - Validity period for import and Revalidation of Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_39-R005",
+      "rule_description": "(b)\nValidity of Advance Authorisation for supplies under Chapter-7 of FTP shall\nbe co-terminus with contracted duration of project execution or 12months\nfrom the date of issue of Authorisation, whichever is later.",
+      "trigger": "Validity period for import and Revalidation of Authorisation",
+      "condition": "Section 4.39 is applicable",
+      "validation": "(b)\nValidity of Advance Authorisation for supplies under Chapter-7 of FTP shall\nbe co-terminus with contracted duration of project execution or 12months\nfrom the date of issue of Authorisation, whichever is later.",
+      "action": "(b)\nValidity of Advance Authorisation for supplies under Chapter-7 of FTP shall\nbe co-terminus with contracted duration of project execution or 12months\nfrom the date of issue of Authorisation, whichever is later.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.39 - Validity period for import and Revalidation of Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_39-R006",
+      "rule_description": "(c)\nFor Advance Authorisations not covered under Para 4.39(b) above, only one\nrevalidation for twelve months from expiry date shall be allowed.",
+      "trigger": "Validity period for import and Revalidation of Authorisation",
+      "condition": "Section 4.39 is applicable",
+      "validation": "(c)\nFor Advance Authorisations not covered under Para 4.39(b) above, only one\nrevalidation for twelve months from expiry date shall be allowed.",
+      "action": "(b)\nValidity of Advance Authorisation for supplies under Chapter-7 of FTP shall\nbe co-terminus with contracted duration of project execution or 12months\nfrom the date of issue of Authorisation, whichever is later.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.39 - Validity period for import and Revalidation of Authorisation."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.39 Validity period for import and Revalidation of Authorisation\n(a) Validity period for import of Advance Authorisation shall be 12 months from\nthe date of issue of Authorisation.",
+    "IF detected context matches section rule THEN enforce: (b) Validity of Advance Authorisation for supplies under Chapter-7 of FTP shall\nbe co-terminus with contracted duration of project execution or 12months\nfrom the date of issue of Authorisation, whichever is later.",
+    "IF detected context matches section rule THEN enforce: (c) For Advance Authorisations not covered under Para 4.39(b) above, only one\nrevalidation for twelve months from expiry date shall be allowed.",
+    "IF detected context matches section rule THEN enforce: 4.39 Validity period for import and Revalidation of Authorisation\n(a)\nValidity period for import of Advance Authorisation shall be 12 months from\nthe date of issue of Authorisation.",
+    "IF detected context matches section rule THEN enforce: (b)\nValidity of Advance Authorisation for supplies under Chapter-7 of FTP shall\nbe co-terminus with contracted duration of project execution or 12months\nfrom the date of issue of Authorisation, whichever is later.",
+    "IF detected context matches section rule THEN enforce: (c)\nFor Advance Authorisations not covered under Para 4.39(b) above, only one\nrevalidation for twelve months from expiry date shall be allowed.",
+    "IF validations pass THEN recommend action: 4.39 Validity period for import and Revalidation of Authorisation\n(a) Validity period for import of Advance Authorisation shall be 12 months from\nthe date of issue of Authorisation."
+  ]
+}

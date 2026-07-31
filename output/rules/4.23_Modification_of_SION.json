@@ -1,0 +1,21 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.23",
+  "title": "Modification of SION",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_23-R001",
+      "rule_description": "4.23 Modification of SION\nAn application for modification of existing SION shall be filed online in ANF 4B to\nthe concerned Norms Committee in DGFT headquarters.",
+      "trigger": "Modification of SION",
+      "condition": "4.23 Modification of SION\nAn application for modification of existing SION shall be filed online in ANF 4B to\nthe concerned Norms Committee in DGFT headquarters.",
+      "validation": "4.23 Modification of SION\nAn application for modification of existing SION shall be filed online in ANF 4B to\nthe concerned Norms Committee in DGFT headquarters.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.23 - Modification of SION."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.23 Modification of SION\nAn application for modification of existing SION shall be filed online in ANF 4B to\nthe concerned Norms Committee in DGFT headquarters."
+  ]
+}

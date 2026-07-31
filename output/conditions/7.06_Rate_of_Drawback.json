@@ -1,0 +1,21 @@
+{
+  "section": "7.06",
+  "conditions": [
+    "7.06 Rate of Drawback\nNormally drawback may be allowed as per All Industry Rate fixed by Do R in the\nDrawback Schedule where no CENVAT credit has been availed by supplier goods.",
+    "However, an application in ANF-7A, along with documents prescribed in ANF-7A\n& Appendix-7E, may be made to RA or DC concerned, as the case may be, for\nfixation of brand rate where All Industry Rate of Drawback is not available or same\nis less than 4/5th of duties actually paid on raw materials or components used in\nthe production or manufacture of the said goods."
+  ],
+  "condition_logic": [
+    {
+      "id": "7.7.06.1",
+      "if": "7.06 Rate of Drawback\nNormally drawback may be allowed as per All Industry Rate fixed by Do R in the\nDrawback Schedule where no CENVAT credit has been availed by supplier goods.",
+      "then": "Route for review",
+      "source": "7.06 Rate of Drawback\nNormally drawback may be allowed as per All Industry Rate fixed by Do R in the\nDrawback Schedule where no CENVAT credit has been availed by supplier goods."
+    },
+    {
+      "id": "7.7.06.2",
+      "if": "However, an application in ANF-7A, along with documents prescribed in ANF-7A\n& Appendix-7E, may be made to RA or DC concerned, as the case may be, for\nfixation of brand rate where All Industry Rate of Drawback is not available or same\nis less than 4/5th of duties actually paid on raw materials or components used in\nthe production or manufacture of the said goods.",
+      "then": "Route for review",
+      "source": "However, an application in ANF-7A, along with documents prescribed in ANF-7A\n& Appendix-7E, may be made to RA or DC concerned, as the case may be, for\nfixation of brand rate where All Industry Rate of Drawback is not available or same\nis less than 4/5th of duties actually paid on raw materials or components used in\nthe production or manufacture of the said goods."
+    }
+  ]
+}

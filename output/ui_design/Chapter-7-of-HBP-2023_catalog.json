@@ -1,0 +1,552 @@
+{
+  "screen_ids": [
+    "Policy_overview",
+    "Policy_submission",
+    "General_Provision_overview",
+    "General_Provision_submission",
+    "General_Provision_exceptions",
+    "Criteria_for_claiming_Benefits_overview",
+    "Criteria_for_claiming_Benefits_submission",
+    "Criteria_for_claiming_Benefits_exceptions",
+    "Procedure_for_claiming_benefits_overview",
+    "Procedure_for_claiming_benefits_submission",
+    "Procedure_for_claiming_benefits_exceptions",
+    "Procedure_for_claiming_TED_refund_on_Fuel_overview",
+    "Procedure_for_claiming_TED_refund_on_Fuel_submission",
+    "Frequency_of_application_and_time_period_for_claiming_TED_overview",
+    "Frequency_of_application_and_time_period_for_claiming_TED_submission",
+    "Frequency_of_application_and_time_period_for_claiming_TED_exceptions",
+    "Rate_of_Drawback_overview",
+    "Rate_of_Drawback_submission",
+    "Rate_of_Drawback_exceptions",
+    "Time_barred_supplementary_claim_overview",
+    "Time_barred_supplementary_claim_submission",
+    "Exemption_from_payment_of_TED_overview",
+    "Exemption_from_payment_of_TED_submission",
+    "Exemption_from_payment_of_TED_exceptions",
+    "Applicability_of_other_Rules_overview",
+    "Applicability_of_other_Rules_submission",
+    "Payment_of_interest_overview",
+    "Payment_of_interest_submission",
+    "Internal_Audit_Mechanism_overview",
+    "Internal_Audit_Mechanism_submission"
+  ],
+  "sections": [
+    {
+      "section": "7.00",
+      "title": "Policy",
+      "ui": [
+        {
+          "screen_id": "Policy_overview",
+          "name": "Policy Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Policy_submission",
+          "name": "Policy Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "ftp_flag",
+            "given_flag",
+            "policy_flag",
+            "deemed_flag",
+            "exports_flag",
+            "chapter_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.01",
+      "title": "General Provision",
+      "ui": [
+        {
+          "screen_id": "General_Provision_overview",
+          "name": "General Provision Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "General_Provision_submission",
+          "name": "General Provision Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "per_flag",
+            "dta_flag",
+            "and_flag",
+            "eou_flag"
+          ]
+        },
+        {
+          "screen_id": "General_Provision_exceptions",
+          "name": "General Provision Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.02",
+      "title": "Criteria for claiming Benefits",
+      "ui": [
+        {
+          "screen_id": "Criteria_for_claiming_Benefits_overview",
+          "name": "Criteria for claiming Benefits Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Criteria_for_claiming_Benefits_submission",
+          "name": "Criteria for claiming Benefits Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "hbp_flag",
+            "ftp_flag",
+            "per_flag",
+            "ted_flag",
+            "aro_flag"
+          ]
+        },
+        {
+          "screen_id": "Criteria_for_claiming_Benefits_exceptions",
+          "name": "Criteria for claiming Benefits Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.03",
+      "title": "Procedure for claiming benefits",
+      "ui": [
+        {
+          "screen_id": "Procedure_for_claiming_benefits_overview",
+          "name": "Procedure for claiming benefits Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Procedure_for_claiming_benefits_submission",
+          "name": "Procedure for claiming benefits Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "iec_flag",
+            "per_flag",
+            "hbp_flag",
+            "can_flag",
+            "anf_flag"
+          ]
+        },
+        {
+          "screen_id": "Procedure_for_claiming_benefits_exceptions",
+          "name": "Procedure for claiming benefits Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.04",
+      "title": "Procedure for claiming TED refund on Fuel",
+      "ui": [
+        {
+          "screen_id": "Procedure_for_claiming_TED_refund_on_Fuel_overview",
+          "name": "Procedure for claiming TED refund on Fuel Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Procedure_for_claiming_TED_refund_on_Fuel_submission",
+          "name": "Procedure for claiming TED refund on Fuel Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "ted_flag",
+            "hsd_flag",
+            "oil_flag",
+            "ftp_flag",
+            "the_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.05",
+      "title": "Frequency of application and time period for claiming TED /",
+      "ui": [
+        {
+          "screen_id": "Frequency_of_application_and_time_period_for_claiming_TED_overview",
+          "name": "Frequency of application and time period for claiming TED / Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Frequency_of_application_and_time_period_for_claiming_TED_submission",
+          "name": "Frequency of application and time period for claiming TED / Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "for_flag",
+            "ted_flag",
+            "ftp_flag",
+            "may_flag",
+            "the_flag"
+          ]
+        },
+        {
+          "screen_id": "Frequency_of_application_and_time_period_for_claiming_TED_exceptions",
+          "name": "Frequency of application and time period for claiming TED / Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.06",
+      "title": "Rate of Drawback",
+      "ui": [
+        {
+          "screen_id": "Rate_of_Drawback_overview",
+          "name": "Rate of Drawback Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Rate_of_Drawback_submission",
+          "name": "Rate of Drawback Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "may_flag",
+            "per_flag",
+            "all_flag",
+            "the_flag",
+            "has_flag",
+            "for_flag"
+          ]
+        },
+        {
+          "screen_id": "Rate_of_Drawback_exceptions",
+          "name": "Rate of Drawback Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.07",
+      "title": "Time barred / supplementary claim",
+      "ui": [
+        {
+          "screen_id": "Time_barred_supplementary_claim_overview",
+          "name": "Time barred / supplementary claim Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Time_barred_supplementary_claim_submission",
+          "name": "Time barred / supplementary claim Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "cut_flag",
+            "hbp_flag",
+            "and_flag",
+            "time_flag",
+            "case_flag",
+            "late_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.08",
+      "title": "Exemption from payment of TED",
+      "ui": [
+        {
+          "screen_id": "Exemption_from_payment_of_TED_overview",
+          "name": "Exemption from payment of TED Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Exemption_from_payment_of_TED_submission",
+          "name": "Exemption from payment of TED Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "ted_flag",
+            "for_flag",
+            "from_flag",
+            "duty_flag",
+            "shall_flag",
+            "excise_flag"
+          ]
+        },
+        {
+          "screen_id": "Exemption_from_payment_of_TED_exceptions",
+          "name": "Exemption from payment of TED Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.09",
+      "title": "Applicability of other Rules",
+      "ui": [
+        {
+          "screen_id": "Applicability_of_other_Rules_overview",
+          "name": "Applicability of other Rules Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Applicability_of_other_Rules_submission",
+          "name": "Applicability of other Rules Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "hbp_flag",
+            "and_flag",
+            "tax_flag",
+            "the_flag",
+            "may_flag",
+            "laid_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.10",
+      "title": "Payment of interest",
+      "ui": [
+        {
+          "screen_id": "Payment_of_interest_overview",
+          "name": "Payment of interest Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Payment_of_interest_submission",
+          "name": "Payment of interest Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "not_flag",
+            "add_flag",
+            "ftp_flag",
+            "for_flag",
+            "and_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.11",
+      "title": "Internal Audit Mechanism",
+      "ui": [
+        {
+          "screen_id": "Internal_Audit_Mechanism_overview",
+          "name": "Internal Audit Mechanism Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Internal_Audit_Mechanism_submission",
+          "name": "Internal Audit Mechanism Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "per_flag",
+            "ftp_flag",
+            "and_flag",
+            "out_flag",
+            "dgft_flag"
+          ]
+        }
+      ]
+    }
+  ]
+}

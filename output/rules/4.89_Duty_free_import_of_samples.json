@@ -1,0 +1,21 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.89",
+  "title": "Duty free import of samples",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_89-R001",
+      "rule_description": "4.89 Duty free import of samples\nDuty free import of gems and jewellery samples upto Rs 3 lakh or 0.25% of the\naverage of last three years export turnover of gems and jewellery items,\nwhichever is lower, shall be allowed in a financial year as per Customs\nnotification.",
+      "trigger": "Duty free import of samples",
+      "condition": "4.89 Duty free import of samples\nDuty free import of gems and jewellery samples upto Rs 3 lakh or 0.25% of the\naverage of last three years export turnover of gems and jewellery items,\nwhichever is lower, shall be allowed in a financial year as per Customs\nnotification.",
+      "validation": "4.89 Duty free import of samples\nDuty free import of gems and jewellery samples upto Rs 3 lakh or 0.25% of the\naverage of last three years export turnover of gems and jewellery items,\nwhichever is lower, shall be allowed in a financial year as per Customs\nnotification.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.89 - Duty free import of samples."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.89 Duty free import of samples\nDuty free import of gems and jewellery samples upto Rs 3 lakh or 0.25% of the\naverage of last three years export turnover of gems and jewellery items,\nwhichever is lower, shall be allowed in a financial year as per Customs\nnotification."
+  ]
+}

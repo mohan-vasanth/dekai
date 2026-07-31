@@ -1,0 +1,22 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.70",
+  "title": "Terms of payment",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_70-R001",
+      "rule_description": "4.70 Terms of payment\nExport of gold / silver / platinum jewellery and articles thereof shall be against\nirrevocable letter of credit, payment of cash on delivery basis, Documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles.",
+      "trigger": "Terms of payment",
+      "condition": "Section 4.70 is applicable",
+      "validation": "4.70 Terms of payment\nExport of gold / silver / platinum jewellery and articles thereof shall be against\nirrevocable letter of credit, payment of cash on delivery basis, Documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles.",
+      "action": "4.70 Terms of payment\nExport of gold / silver / platinum jewellery and articles thereof shall be against\nirrevocable letter of credit, payment of cash on delivery basis, Documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.70 - Terms of payment."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.70 Terms of payment\nExport of gold / silver / platinum jewellery and articles thereof shall be against\nirrevocable letter of credit, payment of cash on delivery basis, Documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles.",
+    "IF validations pass THEN recommend action: 4.70 Terms of payment\nExport of gold / silver / platinum jewellery and articles thereof shall be against\nirrevocable letter of credit, payment of cash on delivery basis, Documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles."
+  ]
+}

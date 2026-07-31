@@ -1,0 +1,44 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.25",
+  "title": "Revision of SION by NC",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_25-R001",
+      "rule_description": "4.25 Revision of SION by NC\nNorms Committee may identify SIONs which in its opinion are required to be\nreviewed.",
+      "trigger": "Revision of SION by NC",
+      "condition": "4.25 Revision of SION by NC\nNorms Committee may identify SIONs which in its opinion are required to be\nreviewed.",
+      "validation": "4.25 Revision of SION by NC\nNorms Committee may identify SIONs which in its opinion are required to be\nreviewed.",
+      "action": "Exporters are required to submit revised data in ANF 4B for such revision.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.25 - Revision of SION by NC."
+    },
+    {
+      "rule_id": "CH4-SEC4_25-R002",
+      "rule_description": "Exporters are required to submit revised data in ANF 4B for such revision.",
+      "trigger": "Revision of SION by NC",
+      "condition": "4.25 Revision of SION by NC\nNorms Committee may identify SIONs which in its opinion are required to be\nreviewed.",
+      "validation": "Exporters are required to submit revised data in ANF 4B for such revision.",
+      "action": "Exporters are required to submit revised data in ANF 4B for such revision.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.25 - Revision of SION by NC."
+    },
+    {
+      "rule_id": "CH4-SEC4_25-R003",
+      "rule_description": "Otherwise, applicant\nshall not be allowed to take benefit of Advance Authorisation scheme.",
+      "trigger": "Revision of SION by NC",
+      "condition": "4.25 Revision of SION by NC\nNorms Committee may identify SIONs which in its opinion are required to be\nreviewed.",
+      "validation": "as may be required by DGFT / EPC for revision of SION.",
+      "action": "Exporters are required to submit revised data in ANF 4B for such revision.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.25 - Revision of SION by NC."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.25 Revision of SION by NC\nNorms Committee may identify SIONs which in its opinion are required to be\nreviewed.",
+    "IF detected context matches section rule THEN enforce: Exporters are required to submit revised data in ANF 4B for such revision.",
+    "IF detected context matches section rule THEN enforce: Otherwise, applicant\nshall not be allowed to take benefit of Advance Authorisation scheme.",
+    "IF validations pass THEN recommend action: Exporters are required to submit revised data in ANF 4B for such revision."
+  ]
+}

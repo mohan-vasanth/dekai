@@ -1,0 +1,47 @@
+{
+  "section": "4.79",
+  "ui": [
+    {
+      "screen_id": "Export_through_Exhibitions_Export_Promotion_Tours_Export_of_overview",
+      "name": "Export through Exhibitions/Export Promotion Tours/ Export of Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_through_Exhibitions_Export_Promotion_Tours_Export_of_submission",
+      "name": "Export through Exhibitions/Export Promotion Tours/ Export of Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "its_flag",
+        "for_flag",
+        "any_flag",
+        "the_flag",
+        "two_flag",
+        "and_flag"
+      ]
+    },
+    {
+      "screen_id": "Export_through_Exhibitions_Export_Promotion_Tours_Export_of_exceptions",
+      "name": "Export through Exhibitions/Export Promotion Tours/ Export of Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

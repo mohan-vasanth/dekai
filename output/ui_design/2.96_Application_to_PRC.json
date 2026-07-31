@@ -1,0 +1,37 @@
+{
+  "section": "2.96",
+  "ui": [
+    {
+      "screen_id": "Application_to_PRC_overview",
+      "name": "Application to PRC Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Application_to_PRC_submission",
+      "name": "Application to PRC Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "prc_flag",
+        "the_flag",
+        "ftp_flag",
+        "fee_flag",
+        "and_flag",
+        "for_flag"
+      ]
+    }
+  ]
+}

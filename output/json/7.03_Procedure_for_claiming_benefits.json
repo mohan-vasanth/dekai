@@ -1,0 +1,723 @@
+{
+  "chapter_number": "7",
+  "chapter_title": "Deemed Exports",
+  "section": "7.03",
+  "title": "Procedure for claiming benefits",
+  "purpose": "7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+  "purpose_thanglish": "Indha Procedure for claiming benefits section-la, 7.03 Procedure for claiming benefits\n(a) application kandippa be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+  "summary": "7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP. (b) Application can be made by Registered office / Head office or\nManufacturing unit. (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+  "business_meaning": "Procedure for claiming benefits governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Procedure for claiming benefits explains the operating rule set that DEKAI should enforce. Key control points include 7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP. The section also drives actions such as (b) Application can be made by Registered office / Head office or\nManufacturing unit..",
+  "business_explanation_thanglish": "Indha Procedure for claiming benefits section-la, Procedure for claiming benefits explains the operating rule set that DEKAI should enforce. Key control points include 7.03 Procedure for claiming benefits\n(a) application kandippa be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP. The section also drives actions such as (b) application can be made by Registered office / Head office or\nManufacturing unit..",
+  "business_logic": [
+    "7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+    "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "No physical copy of application is\nrequired to be submitted to Regional Authority.",
+    "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+    "159\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+    "A DTA\nUnit shall claim benefits from the concerned RA.",
+    "(c)\nIn respect of supply of goods to an EPCG Authorisation holder, against\nInvalidation Letter, application for Advance Authorisation / DFIA shall be\nmade as per procedures given in Chapter 4 of HBP.",
+    "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+    "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+    "7.03 Procedure for claiming benefits\n(a)\nApplication shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+    "(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH7-SEC7_03-R001",
+      "rule_description": "7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "any",
+      "validation": "7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+      "action": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "exception": "However, for supplies covered in Para 7.02 B (d) to (g) of FTP, Para 7.05 (b)\nof HBP is applicable.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_03-R002",
+      "rule_description": "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+      "validation": "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+      "action": "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+      "exception": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_03-R003",
+      "rule_description": "No physical copy of application is\nrequired to be submitted to Regional Authority.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+      "validation": "No physical copy of application is\nrequired to be submitted to Regional Authority.",
+      "action": "No physical copy of application is\nrequired to be submitted to Regional Authority.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_03-R004",
+      "rule_description": "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+      "validation": "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+      "action": "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_03-R005",
+      "rule_description": "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+      "validation": "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+      "action": "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_03-R006",
+      "rule_description": "159\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "(d)\nIn respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C.",
+      "validation": "159\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+      "action": "(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_03-R007",
+      "rule_description": "A DTA\nUnit shall claim benefits from the concerned RA.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "validation": "A DTA\nUnit shall claim benefits from the concerned RA.",
+      "action": "159\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_03-R008",
+      "rule_description": "(c)\nIn respect of supply of goods to an EPCG Authorisation holder, against\nInvalidation Letter, application for Advance Authorisation / DFIA shall be\nmade as per procedures given in Chapter 4 of HBP.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "any",
+      "validation": "(c)\nIn respect of supply of goods to an EPCG Authorisation holder, against\nInvalidation Letter, application for Advance Authorisation / DFIA shall be\nmade as per procedures given in Chapter 4 of HBP.",
+      "action": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_03-R009",
+      "rule_description": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+      "validation": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+      "action": "(d)\nIn respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_03-R010",
+      "rule_description": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "(e)\nClaim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+      "validation": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "action": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_03-R011",
+      "rule_description": "7.03 Procedure for claiming benefits\n(a)\nApplication shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted.",
+      "validation": "7.03 Procedure for claiming benefits\n(a)\nApplication shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+      "action": "(b)\nApplication can be made by Registered office / Head office or\nManufacturing unit.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_03-R012",
+      "rule_description": "(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "(g) Sub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods.",
+      "validation": "(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+      "action": "(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_03-R013",
+      "rule_description": "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+      "trigger": "Procedure for claiming benefits",
+      "condition": "(g) Sub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods.",
+      "validation": "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+      "action": "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.03 - Procedure for claiming benefits."
+    }
+  ],
+  "conditions": [
+    "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+    "(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+    "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+    "(d)\nIn respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C.",
+    "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+    "(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "(e)\nClaim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+    "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted.",
+    "(g) Sub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods."
+  ],
+  "condition_logic": [
+    {
+      "id": "7.7.03.1",
+      "if": "any",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application."
+    },
+    {
+      "id": "7.7.03.2",
+      "if": "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application."
+    },
+    {
+      "id": "7.7.03.3",
+      "if": "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted."
+    },
+    {
+      "id": "7.7.03.4",
+      "if": "(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP."
+    },
+    {
+      "id": "7.7.03.5",
+      "if": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product."
+    },
+    {
+      "id": "7.7.03.6",
+      "if": "(d)\nIn respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(d)\nIn respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C."
+    },
+    {
+      "id": "7.7.03.7",
+      "if": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A."
+    },
+    {
+      "id": "7.7.03.8",
+      "if": "any",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application."
+    },
+    {
+      "id": "7.7.03.9",
+      "if": "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application."
+    },
+    {
+      "id": "7.7.03.10",
+      "if": "(e)\nClaim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(e)\nClaim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP."
+    },
+    {
+      "id": "7.7.03.11",
+      "if": "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted."
+    },
+    {
+      "id": "7.7.03.12",
+      "if": "(g) Sub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(g) Sub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods."
+    }
+  ],
+  "validations": [
+    "7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+    "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "No physical copy of application is\nrequired to be submitted to Regional Authority.",
+    "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+    "159\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+    "A DTA\nUnit shall claim benefits from the concerned RA.",
+    "(c)\nIn respect of supply of goods to an EPCG Authorisation holder, against\nInvalidation Letter, application for Advance Authorisation / DFIA shall be\nmade as per procedures given in Chapter 4 of HBP.",
+    "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+    "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+    "7.03 Procedure for claiming benefits\n(a)\nApplication shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+    "(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application."
+  ],
+  "exceptions": [
+    "However, for supplies covered in Para 7.02 B (d) to (g) of FTP, Para 7.05 (b)\nof HBP is applicable.",
+    "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+    "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption."
+  ],
+  "dependencies": [
+    "7.01",
+    "7.08",
+    "7.02",
+    "7.05",
+    "4"
+  ],
+  "documents": [
+    "7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+    "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+    "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "No physical copy of application is\nrequired to be submitted to Regional Authority.",
+    "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+    "(c)\nIn respect of supply of goods to an EPCG Authorisation holder, against\nInvalidation Letter, application for Advance Authorisation / DFIA shall be\nmade as per procedures given in Chapter 4 of HBP.",
+    "Project Authority Certificate",
+    "7.03 Procedure for claiming benefits\n(a)\nApplication shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+    "(b)\nApplication can be made by Registered office / Head office or\nManufacturing unit.",
+    "(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "In other words, supply documents have to be\nnegotiated through bank only.",
+    "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted."
+  ],
+  "required_documents": [
+    "7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+    "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+    "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "No physical copy of application is\nrequired to be submitted to Regional Authority.",
+    "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+    "(c)\nIn respect of supply of goods to an EPCG Authorisation holder, against\nInvalidation Letter, application for Advance Authorisation / DFIA shall be\nmade as per procedures given in Chapter 4 of HBP.",
+    "Project Authority Certificate",
+    "7.03 Procedure for claiming benefits\n(a)\nApplication shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+    "(b)\nApplication can be made by Registered office / Head office or\nManufacturing unit.",
+    "(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "In other words, supply documents have to be\nnegotiated through bank only.",
+    "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted."
+  ],
+  "authorities": [
+    "Regional Authority",
+    "RA",
+    "Unit shall claim benefits from the concerned RA",
+    "Project Authority"
+  ],
+  "timelines": [
+    "(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+    "(e)\nClaim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+    "(g) Sub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods."
+  ],
+  "actions": [
+    "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+    "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "No physical copy of application is\nrequired to be submitted to Regional Authority.",
+    "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+    "(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+    "159\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+    "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+    "(d)\nIn respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C.",
+    "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+    "(b)\nApplication can be made by Registered office / Head office or\nManufacturing unit.",
+    "(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "(e)\nClaim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+    "(f) Claim can be filed against payment received through normal banking\nchannel, as per e-BRC.",
+    "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted."
+  ],
+  "workflow": [
+    "Evaluate condition: (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "Evaluate condition: (d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "Evaluate condition: In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+    "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+    "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "No physical copy of application is\nrequired to be submitted to Regional Authority.",
+    "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+    "(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+    "Run validation: 7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+    "Run validation: (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "Run validation: No physical copy of application is\nrequired to be submitted to Regional Authority.",
+    "Handle exception: However, for supplies covered in Para 7.02 B (d) to (g) of FTP, Para 7.05 (b)\nof HBP is applicable."
+  ],
+  "workflow_ascii": "Procedure for claiming benefits\nEvaluate condition: (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.\n   |\n   v\nEvaluate condition: (d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.\n   |\n   v\nEvaluate condition: In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.\n   |\n   v\n(b) Application can be made by Registered office / Head office or\nManufacturing unit.\n   |\n   v\n(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.\n   |\n   v\nNo physical copy of application is\nrequired to be submitted to Regional Authority.\n   |\n   v\n(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.\n   |\n   v\nIn case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.\n   |\n   v\n(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.\n   |\n   v\nRun validation: 7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.\n   |\n   v\nRun validation: (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.\n   |\n   v\nRun validation: No physical copy of application is\nrequired to be submitted to Regional Authority.\n   |\n   v\nHandle exception: However, for supplies covered in Para 7.02 B (d) to (g) of FTP, Para 7.05 (b)\nof HBP is applicable.",
+  "decision_tree": [
+    "IF (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application. THEN (b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+    "IF (d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application. THEN (b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+    "IF In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted. THEN (b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+    "IF (e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP. THEN (b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+    "IF If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product. THEN (b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+    "IF exception applies (However, for supplies covered in Para 7.02 B (d) to (g) of FTP, Para 7.05 (b)\nof HBP is applicable.) THEN route to manual review",
+    "IF exception applies (However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.) THEN route to manual review",
+    "IF exception applies (TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Procedure for claiming benefits Decision\nIF (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application. THEN (b) Application can be made by Registered office / Head office or\nManufacturing unit.\n   |\n   v\nIF (d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application. THEN (b) Application can be made by Registered office / Head office or\nManufacturing unit.\n   |\n   v\nIF In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted. THEN (b) Application can be made by Registered office / Head office or\nManufacturing unit.\n   |\n   v\nIF (e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP. THEN (b) Application can be made by Registered office / Head office or\nManufacturing unit.\n   |\n   v\nIF If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product. THEN (b) Application can be made by Registered office / Head office or\nManufacturing unit.\n   |\n   v\nIF exception applies (However, for supplies covered in Para 7.02 B (d) to (g) of FTP, Para 7.05 (b)\nof HBP is applicable.) THEN route to manual review\n   |\n   v\nIF exception applies (However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.) THEN route to manual review\n   |\n   v\nIF exception applies (TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.) THEN route to manual review",
+  "examples": [
+    "User asks to process Procedure for claiming benefits; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Procedure for claiming benefits, submits 7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP., (b) Application can be made by Registered office / Head office or\nManufacturing unit., (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application., and DEKAI uses the extracted rules to (b) application can be made by registered office / head office or\nmanufacturing unit..",
+  "real_world_example_thanglish": "Indha Procedure for claiming benefits section-la, Example: an importer or exporter invokes Procedure for claiming benefits, submits 7.03 Procedure for claiming benefits\n(a) application kandippa be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP., (b) application can be made by Registered office / Head office or\nManufacturing unit., (c) Applicant kandippa upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application., and DEKAI uses the extracted rules to (b) application can be made by registered office / head office or\nmanufacturing unit..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+    "IF detected context matches section rule THEN enforce: (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "IF detected context matches section rule THEN enforce: No physical copy of application is\nrequired to be submitted to Regional Authority.",
+    "IF detected context matches section rule THEN enforce: (d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "IF detected context matches section rule THEN enforce: In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+    "IF detected context matches section rule THEN enforce: 159\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+    "IF validations pass THEN recommend action: (b) Application can be made by Registered office / Head office or\nManufacturing unit."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "iec_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:IEC"
+    },
+    {
+      "name": "per_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:per"
+    },
+    {
+      "name": "hbp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:HBP"
+    },
+    {
+      "name": "can_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:can"
+    },
+    {
+      "name": "anf_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ANF"
+    },
+    {
+      "name": "any_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:any"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(b) Application can be made by Registered office / Head office or\nManufacturing unit."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application."
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "No physical copy of application is\nrequired to be submitted to Regional Authority."
+    },
+    {
+      "name": "document_5_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application."
+    },
+    {
+      "name": "document_6_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/7.03",
+      "purpose": "Retrieve knowledge payload for section 7.03",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Procedure-for-claiming-benefits/validate",
+      "purpose": "Validate inputs and documents for Procedure for claiming benefits",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Procedure-for-claiming-benefits/execute",
+      "purpose": "Trigger business action for (b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Procedure_for_claiming_benefits_overview",
+      "name": "Procedure for claiming benefits Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Procedure_for_claiming_benefits_submission",
+      "name": "Procedure for claiming benefits Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "iec_flag",
+        "per_flag",
+        "hbp_flag",
+        "can_flag",
+        "anf_flag"
+      ]
+    },
+    {
+      "screen_id": "Procedure_for_claiming_benefits_exceptions",
+      "name": "Procedure for claiming benefits Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Procedure for claiming benefits require?",
+    "Which documents are needed for Procedure for claiming benefits?",
+    "How does DEKAI validate Procedure for claiming benefits requests?",
+    "What action should be taken for Procedure for claiming benefits?"
+  ],
+  "expected_ai_answers": [
+    "Procedure for claiming benefits requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: 7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP., (b) Application can be made by Registered office / Head office or\nManufacturing unit., (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application., No physical copy of application is\nrequired to be submitted to Regional Authority., (d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "DEKAI validates Procedure for claiming benefits by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: (b) Application can be made by Registered office / Head office or\nManufacturing unit."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 7.03?",
+      "answer_en": "Procedure for claiming benefits explains the operating rule set that DEKAI should enforce. Key control points include 7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP. The section also drives actions such as (b) Application can be made by Registered office / Head office or\nManufacturing unit..",
+      "question_thanglish": "Indha Procedure for claiming benefits section-la, What is the purpose of section 7.03?",
+      "answer_thanglish": "Indha Procedure for claiming benefits section-la, Procedure for claiming benefits explains the operating rule set that DEKAI should enforce. Key control points include 7.03 Procedure for claiming benefits\n(a) application kandippa be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP. The section also drives actions such as (b) application can be made by Registered office / Head office or\nManufacturing unit.."
+    },
+    {
+      "question_en": "What documents are required under Procedure for claiming benefits?",
+      "answer_en": "7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP., (b) Application can be made by Registered office / Head office or\nManufacturing unit., (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application., No physical copy of application is\nrequired to be submitted to Regional Authority., (d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application., In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted., (c)\nIn respect of supply of goods to an EPCG Authorisation holder, against\nInvalidation Letter, application for Advance Authorisation / DFIA shall be\nmade as per procedures given in Chapter 4 of HBP., Project Authority Certificate, 7.03 Procedure for claiming benefits\n(a)\nApplication shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP., (b)\nApplication can be made by Registered office / Head office or\nManufacturing unit., (c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application., (d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application., In other words, supply documents have to be\nnegotiated through bank only., In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted.",
+      "question_thanglish": "Indha Procedure for claiming benefits section-la, What documents are required under Procedure for claiming benefits?",
+      "answer_thanglish": "Indha Procedure for claiming benefits section-la, 7.03 Procedure for claiming benefits\n(a) application kandippa be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP., (b) application can be made by Registered office / Head office or\nManufacturing unit., (c) Applicant kandippa upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application., No physical copy of application is\nrequired to be submitted to Regional authority., (d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A kandippa be obtained\nfrom supplier and kandippa be submitted along with the application., In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods kandippa be submitted., (c)\nIn respect of supply of goods to an EPCG Authorisation holder, against\nInvalidation Letter, application for Advance Authorisation / DFIA kandippa be\nmade as per procedures given in Chapter 4 of HBP., Project authority Certificate, 7.03 Procedure for claiming benefits\n(a)\napplication kandippa be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP., (b)\napplication can be made by Registered office / Head office or\nManufacturing unit., (c)\nApplicant kandippa upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application., (d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A kandippa be obtained\nfrom supplier and kandippa be submitted along with the application., In other words, supply documents have to be\nnegotiated through bank only., In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nauthority, in Appendix-7D, has also to be submitted."
+    },
+    {
+      "question_en": "Which authority handles Procedure for claiming benefits?",
+      "answer_en": "Regional Authority, RA, Unit shall claim benefits from the concerned RA, Project Authority",
+      "question_thanglish": "Indha Procedure for claiming benefits section-la, Which authority handles Procedure for claiming benefits?",
+      "answer_thanglish": "Indha Procedure for claiming benefits section-la, Regional authority, RA, Unit kandippa claim benefits from the concerned RA, Project authority"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Procedure for claiming benefits?",
+      "answer_en": "AI answers: DEKAI should evaluate section 7.03, apply the extracted rules, and guide the user through Evaluate condition: (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application..",
+      "question_thanglish": "Indha Procedure for claiming benefits section-la, User asks: How do I comply with Procedure for claiming benefits?",
+      "answer_thanglish": "Indha Procedure for claiming benefits section-la, AI answers: DEKAI should evaluate section 7.03, apply the extracted rules, and guide the user through Evaluate condition: (c) Applicant kandippa upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Procedure for claiming benefits?",
+      "answer_en": "AI answers: Applicable validations are 7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP., (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application., No physical copy of application is\nrequired to be submitted to Regional Authority.",
+      "question_thanglish": "Indha Procedure for claiming benefits section-la, User asks: Which validations apply to Procedure for claiming benefits?",
+      "answer_thanglish": "Indha Procedure for claiming benefits section-la, AI answers: Applicable validations are 7.03 Procedure for claiming benefits\n(a) application kandippa be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP., (c) Applicant kandippa upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application., No physical copy of application is\nrequired to be submitted to Regional authority."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 7, section 7.03, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Procedure for claiming benefits into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: 7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP., (b) Application can be made by Registered office / Head office or\nManufacturing unit., (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application., No physical copy of application is\nrequired to be submitted to Regional Authority., (d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application., In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted..",
+    "Route escalations or approvals to: Regional Authority, RA, Unit shall claim benefits from the concerned RA, Project Authority.",
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 7.01, 7.02, 7.05, 7.08."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Procedure for claiming benefits section-la, Capture chapter 7, section 7.03, title, and page references as immutable knowledge metadata.",
+    "Indha Procedure for claiming benefits section-la, Bind validations for Procedure for claiming benefits into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Procedure for claiming benefits section-la, Expose document upload controls for: 7.03 Procedure for claiming benefits\n(a) application kandippa be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP., (b) application can be made by Registered office / Head office or\nManufacturing unit., (c) Applicant kandippa upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application., No physical copy of application is\nrequired to be submitted to Regional authority., (d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A kandippa be obtained\nfrom supplier and kandippa be submitted along with the application., In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods kandippa be submitted..",
+    "Indha Procedure for claiming benefits section-la, Route escalations or approvals to: Regional authority, RA, Unit kandippa claim benefits from the concerned RA, Project authority.",
+    "Indha Procedure for claiming benefits section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Procedure for claiming benefits section-la, Show contextual links to related sections: 7.01, 7.02, 7.05, 7.08."
+  ],
+  "keywords": [
+    "for",
+    "IEC",
+    "per",
+    "HBP",
+    "can",
+    "ANF",
+    "any",
+    "the",
+    "TED",
+    "and",
+    "FTP",
+    "not",
+    "DTA",
+    "may",
+    "iii",
+    "Act",
+    "has",
+    "its",
+    "para",
+    "made"
+  ],
+  "search_keywords": [
+    "for",
+    "IEC",
+    "per",
+    "HBP",
+    "can",
+    "ANF",
+    "any",
+    "the",
+    "TED",
+    "and",
+    "FTP",
+    "not",
+    "DTA",
+    "may",
+    "iii",
+    "Act",
+    "has",
+    "its",
+    "para",
+    "made"
+  ],
+  "intent": "Support Procedure for claiming benefits processing and compliance validation.",
+  "tags": [
+    "7.03",
+    "Procedure for claiming benefits",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "7.01",
+    "7.02",
+    "7.05",
+    "7.08"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.",
+    "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "No physical copy of application is\nrequired to be submitted to Regional Authority.",
+    "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted."
+  ],
+  "page_numbers": [
+    3,
+    4
+  ],
+  "pages": [
+    3,
+    4
+  ],
+  "source_document": "Chapter-7-of-HBP-2023.pdf",
+  "raw_text": "7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.\n(b) Application can be made by Registered office / Head office or\nManufacturing unit.\n(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application. No physical copy of application is\nrequired to be submitted to Regional Authority.\n(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application. In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.\n(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.\nHowever, for supplies covered in Para 7.02 B (d) to (g) of FTP, Para 7.05 (b)\nof HBP is applicable.\npg. 159\npg. 159\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned. A DTA\nUnit shall claim benefits from the concerned RA.\n(c)\nIn respect of supply of goods to an EPCG Authorisation holder, against\nInvalidation Letter, application for Advance Authorisation / DFIA shall be\nmade as per procedures given in Chapter 4 of HBP. If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.\n(d)\nIn respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C.\nHowever, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A. TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.\n7.03 Procedure for claiming benefits\n(a)\nApplication shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.\n(b)\nApplication can be made by Registered office / Head office or\nManufacturing unit.\n(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application. No physical copy of application is\nrequired to be submitted to Regional Authority.\n(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application. In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.\n(e)\nClaim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.\nHowever, for supplies covered in Para 7.02 B (d) to (g) of FTP, Para 7.05 (b)\nof HBP is applicable.\n(f) Claim can be filed against payment received through normal banking\nchannel, as per e-BRC. In other words, supply documents have to be\nnegotiated through bank only. In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted.\n(g) Sub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.\"]\n    S2[\"Evaluate condition: (d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.\"]\n    S2 --> S3\n    S4[\"(b) Application can be made by Registered office / Head office or\nManufacturing unit.\"]\n    S3 --> S4\n    S5[\"(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.\"]\n    S4 --> S5\n    S6[\"No physical copy of application is\nrequired to be submitted to Regional Authority.\"]\n    S5 --> S6\n    S7[\"(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.\"]\n    S6 --> S7\n    S8[\"In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.\"]\n    S7 --> S8\n    S9[\"(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.\"]\n    S8 --> S9\n    S10[\"Run validation: 7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.\"]\n    S9 --> S10\n    S11[\"Run validation: (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.\"]\n    S10 --> S11\n    S12[\"Run validation: No physical copy of application is\nrequired to be submitted to Regional Authority.\"]\n    S11 --> S12\n    S13[\"Handle exception: However, for supplies covered in Para 7.02 B (d) to (g) of FTP, Para 7.05 (b)\nof HBP is applicable.\"]\n    S12 --> S13",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.;\n:Evaluate condition\\: (d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.;\n:Evaluate condition\\: In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.;\n:(b) Application can be made by Registered office / Head office or\nManufacturing unit.;\n:(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.;\n:No physical copy of application is\nrequired to be submitted to Regional Authority.;\n:(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.;\n:In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.;\n:(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.;\n:Run validation\\: 7.03 Procedure for claiming benefits\n(a) Application shall be filed online either by supplier or by recipient of\ngoods, having IEC Number as per para 7.01 of HBP.;\n:Run validation\\: (c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.;\n:Run validation\\: No physical copy of application is\nrequired to be submitted to Regional Authority.;\n:Handle exception\\: However, for supplies covered in Para 7.02 B (d) to (g) of FTP, Para 7.05 (b)\nof HBP is applicable.;\nstop\n@enduml"
+}

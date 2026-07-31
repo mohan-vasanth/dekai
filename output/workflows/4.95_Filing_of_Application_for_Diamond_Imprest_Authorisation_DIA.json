@@ -1,0 +1,11 @@
+{
+  "section": "4.95",
+  "workflow": [
+    "Evaluate condition: Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.",
+    "Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.",
+    "Run validation: Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A."
+  ],
+  "workflow_ascii": "Filing of Application for Diamond Imprest Authorisation (DIA)\nEvaluate condition: Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.\n   |\n   v\nApplicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.\n   |\n   v\nRun validation: Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.\"]\n    S2[\"Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.\"]\n    S1 --> S2\n    S3[\"Run validation: Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.;\n:Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.;\n:Run validation\\: Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.;\nstop\n@enduml"
+}

@@ -1,0 +1,47 @@
+{
+  "section": "7.05",
+  "ui": [
+    {
+      "screen_id": "Frequency_of_application_and_time_period_for_claiming_TED_overview",
+      "name": "Frequency of application and time period for claiming TED / Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Frequency_of_application_and_time_period_for_claiming_TED_submission",
+      "name": "Frequency of application and time period for claiming TED / Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "for_flag",
+        "ted_flag",
+        "ftp_flag",
+        "may_flag",
+        "the_flag"
+      ]
+    },
+    {
+      "screen_id": "Frequency_of_application_and_time_period_for_claiming_TED_exceptions",
+      "name": "Frequency of application and time period for claiming TED / Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.41",
+  "title": "Other Conditions for Import of Replacement Goods",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_41-R001",
+      "rule_description": "(b) This procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost.",
+      "trigger": "Other Conditions for Import of Replacement Goods",
+      "condition": "2.41 Other Conditions for Import of Replacement Goods\n(a) In case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation.",
+      "validation": "(b) This procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost.",
+      "action": "2.41 Other Conditions for Import of Replacement Goods\n(a) In case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.41 - Other Conditions for Import of Replacement Goods."
+    },
+    {
+      "rule_id": "CH2-SEC2_41-R002",
+      "rule_description": "(b)\nThis procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost.",
+      "trigger": "Other Conditions for Import of Replacement Goods",
+      "condition": "(b) This procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost.",
+      "validation": "(b)\nThis procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost.",
+      "action": "(b) This procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.41 - Other Conditions for Import of Replacement Goods."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (b) This procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost.",
+    "IF detected context matches section rule THEN enforce: (b)\nThis procedure shall also apply to cases in which short shipment of goods is\ncertified by foreign supplier, who has agreed to replace free of cost.",
+    "IF validations pass THEN recommend action: 2.41 Other Conditions for Import of Replacement Goods\n(a) In case of short-shipment, short-landing or loss in transit, import of replacement\ngoods will be permitted based on certificate issued by customs authorities\nwithout an import Authorisation."
+  ]
+}

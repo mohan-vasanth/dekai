@@ -1,0 +1,307 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.16",
+  "title": "Transfer of Power from one Unit to another",
+  "purpose": "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+  "purpose_thanglish": "Indha Transfer of Power from one Unit to another section-la, 6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+  "summary": "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+  "business_meaning": "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+  "business_explanation": "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+  "business_explanation_thanglish": "Indha Transfer of Power from one Unit to another section-la, 6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_16-R001",
+      "rule_description": "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+      "trigger": "Transfer of Power from one Unit to another",
+      "condition": "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.16 - Transfer of Power from one Unit to another."
+    }
+  ],
+  "conditions": [
+    "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.16.1",
+      "if": "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+      "then": "Route for review",
+      "source": "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs."
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: 6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs."
+  ],
+  "workflow_ascii": "Transfer of Power from one Unit to another\nEvaluate condition: 6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+  "decision_tree": [
+    "IF section 6.16 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Transfer of Power from one Unit to another Decision\nIF section 6.16 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Transfer of Power from one Unit to another; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Transfer of Power from one Unit to another, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the transfer of power from one unit to another process.",
+  "real_world_example_thanglish": "Indha Transfer of Power from one Unit to another section-la, Example: an importer or exporter invokes Transfer of Power from one Unit to another, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the transfer of power from one unit to another process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "one_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:one"
+    },
+    {
+      "name": "eou_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:EOU"
+    },
+    {
+      "name": "stp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:STP"
+    },
+    {
+      "name": "btp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:BTP"
+    },
+    {
+      "name": "from_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:from"
+    },
+    {
+      "name": "unit_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Unit"
+    },
+    {
+      "name": "ehtp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:EHTP"
+    },
+    {
+      "name": "anfs_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ANFs"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.16",
+      "purpose": "Retrieve knowledge payload for section 6.16",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Transfer-of-Power-from-one-Unit-to-another/validate",
+      "purpose": "Validate inputs and documents for Transfer of Power from one Unit to another",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Transfer_of_Power_from_one_Unit_to_another_overview",
+      "name": "Transfer of Power from one Unit to another Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Transfer_of_Power_from_one_Unit_to_another_submission",
+      "name": "Transfer of Power from one Unit to another Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "one_flag",
+        "eou_flag",
+        "stp_flag",
+        "btp_flag",
+        "from_flag",
+        "unit_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Transfer of Power from one Unit to another require?",
+    "Which documents are needed for Transfer of Power from one Unit to another?",
+    "How does DEKAI validate Transfer of Power from one Unit to another requests?"
+  ],
+  "expected_ai_answers": [
+    "Transfer of Power from one Unit to another requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Transfer of Power from one Unit to another by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 6.16?",
+      "answer_en": "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+      "question_thanglish": "Indha Transfer of Power from one Unit to another section-la, What is the purpose of section 6.16?",
+      "answer_thanglish": "Indha Transfer of Power from one Unit to another section-la, 6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs."
+    },
+    {
+      "question_en": "What documents are required under Transfer of Power from one Unit to another?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Transfer of Power from one Unit to another section-la, What documents are required under Transfer of Power from one Unit to another?",
+      "answer_thanglish": "Indha Transfer of Power from one Unit to another section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Transfer of Power from one Unit to another?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Transfer of Power from one Unit to another section-la, Which authority handles Transfer of Power from one Unit to another?",
+      "answer_thanglish": "Indha Transfer of Power from one Unit to another section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Transfer of Power from one Unit to another?",
+      "answer_en": "AI answers: DEKAI should evaluate section 6.16, apply the extracted rules, and guide the user through Evaluate condition: 6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs..",
+      "question_thanglish": "Indha Transfer of Power from one Unit to another section-la, User asks: How do I comply with Transfer of Power from one Unit to another?",
+      "answer_thanglish": "Indha Transfer of Power from one Unit to another section-la, AI answers: DEKAI should evaluate section 6.16, apply the extracted rules, and guide the user through Evaluate condition: 6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Transfer of Power from one Unit to another?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Transfer of Power from one Unit to another section-la, User asks: Which validations apply to Transfer of Power from one Unit to another?",
+      "answer_thanglish": "Indha Transfer of Power from one Unit to another section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 6, section 6.16, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Transfer of Power from one Unit to another into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Transfer of Power from one Unit to another section-la, Capture chapter 6, section 6.16, title, and page references as immutable knowledge metadata.",
+    "Indha Transfer of Power from one Unit to another section-la, Bind validations for Transfer of Power from one Unit to another into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "one",
+    "EOU",
+    "STP",
+    "BTP",
+    "from",
+    "Unit",
+    "EHTP",
+    "ANFs",
+    "Power",
+    "plants",
+    "sector",
+    "another",
+    "Captive",
+    "Transfer",
+    "specific",
+    "Appendix",
+    "permitted",
+    "condition",
+    "prescribed",
+    "Appendices"
+  ],
+  "search_keywords": [
+    "one",
+    "EOU",
+    "STP",
+    "BTP",
+    "from",
+    "Unit",
+    "EHTP",
+    "ANFs",
+    "Power",
+    "plants",
+    "sector",
+    "another",
+    "Captive",
+    "Transfer",
+    "specific",
+    "Appendix",
+    "permitted",
+    "condition",
+    "prescribed",
+    "Appendices"
+  ],
+  "intent": "Provide knowledge guidance for Transfer of Power from one Unit to another.",
+  "tags": [
+    "6.16",
+    "Transfer of Power from one Unit to another",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    10
+  ],
+  "pages": [
+    10
+  ],
+  "source_document": "HBP-Chapter-6.pdf",
+  "raw_text": "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.\"]",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.;\nstop\n@enduml"
+}

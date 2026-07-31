@@ -1,0 +1,37 @@
+{
+  "section": "6.22",
+  "ui": [
+    {
+      "screen_id": "Contract_Farming_overview",
+      "name": "Contract Farming Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Contract_Farming_submission",
+      "name": "Contract Farming Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "out_flag",
+        "and_flag",
+        "dta_flag",
+        "boa_flag",
+        "eou_flag"
+      ]
+    }
+  ]
+}

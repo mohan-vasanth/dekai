@@ -1,0 +1,320 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.50",
+  "title": "Import of Restricted items for R&D by units of Government",
+  "purpose": "2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+  "purpose_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, 2.50 import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+  "summary": "2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+  "business_meaning": "2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+  "business_explanation": "2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+  "business_explanation_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, 2.50 import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_50-R001",
+      "rule_description": "2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+      "trigger": "Import of Restricted items for R&D by units of Government",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+      "action": "Manual review required.",
+      "exception": "2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+      "output": "DEKAI should produce a compliance decision for 2.50 - Import of Restricted items for R&D by units of Government."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [
+    "2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units."
+  ],
+  "exceptions": [
+    "2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units."
+  ],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [
+    "Import of Restricted items for R&D by units of Government",
+    "R&D purpose may be imported without an Authorisation by Government"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Run validation: 2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+    "Handle exception: 2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units."
+  ],
+  "workflow_ascii": "Import of Restricted items for R&D by units of Government\nRun validation: 2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.\n   |\n   v\nHandle exception: 2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+  "decision_tree": [
+    "IF exception applies (2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Import of Restricted items for R&D by units of Government Decision\nIF exception applies (2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.) THEN route to manual review",
+  "examples": [
+    "User asks to process Import of Restricted items for R&D by units of Government; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Import of Restricted items for R&D by units of Government, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the import of restricted items for r&d by units of government process.",
+  "real_world_example_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, Example: an importer or exporter invokes import of Restricted items for R&D by units of Government, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the import of restricted items for r&d by units of government process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "r&d_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:R&D"
+    },
+    {
+      "name": "all_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:All"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "stes_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:STEs"
+    },
+    {
+      "name": "live_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:live"
+    },
+    {
+      "name": "items_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:items"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.50",
+      "purpose": "Retrieve knowledge payload for section 2.50",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-of-Restricted-items-for-R-D-by-units-of-Government/validate",
+      "purpose": "Validate inputs and documents for Import of Restricted items for R&D by units of Government",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Import_of_Restricted_items_for_R_D_by_units_of_Government_overview",
+      "name": "Import of Restricted items for R&D by units of Government Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Restricted_items_for_R_D_by_units_of_Government_submission",
+      "name": "Import of Restricted items for R&D by units of Government Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "r&d_flag",
+        "all_flag",
+        "and_flag",
+        "may_flag",
+        "stes_flag"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Restricted_items_for_R_D_by_units_of_Government_exceptions",
+      "name": "Import of Restricted items for R&D by units of Government Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Import of Restricted items for R&D by units of Government require?",
+    "Which documents are needed for Import of Restricted items for R&D by units of Government?",
+    "How does DEKAI validate Import of Restricted items for R&D by units of Government requests?"
+  ],
+  "expected_ai_answers": [
+    "Import of Restricted items for R&D by units of Government requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Import of Restricted items for R&D by units of Government by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.50?",
+      "answer_en": "2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+      "question_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, What is the purpose of section 2.50?",
+      "answer_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, 2.50 import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units."
+    },
+    {
+      "question_en": "What documents are required under Import of Restricted items for R&D by units of Government?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, What documents are required under import of Restricted items for R&D by units of Government?",
+      "answer_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Import of Restricted items for R&D by units of Government?",
+      "answer_en": "Import of Restricted items for R&D by units of Government, R&D purpose may be imported without an Authorisation by Government",
+      "question_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, Which authority handles import of Restricted items for R&D by units of Government?",
+      "answer_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, import of Restricted items for R&D by units of Government, R&D purpose may be imported without an Authorisation by Government"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Import of Restricted items for R&D by units of Government?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.50, apply the extracted rules, and guide the user through Run validation: 2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units..",
+      "question_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, User asks: How do I comply with import of Restricted items for R&D by units of Government?",
+      "answer_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, AI answers: DEKAI should evaluate section 2.50, apply the extracted rules, and guide the user through Run validation: 2.50 import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Import of Restricted items for R&D by units of Government?",
+      "answer_en": "AI answers: Applicable validations are 2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+      "question_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, User asks: Which validations apply to import of Restricted items for R&D by units of Government?",
+      "answer_thanglish": "Indha Import of Restricted items for R&D by units of Government section-la, AI answers: Applicable validations are 2.50 import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.50, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Import of Restricted items for R&D by units of Government into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: Import of Restricted items for R&D by units of Government, R&D purpose may be imported without an Authorisation by Government.",
+    "Trigger manual review when exception clauses are detected."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Import of Restricted items for R&D by units of Government section-la, Capture chapter 2, section 2.50, title, and page references as immutable knowledge metadata.",
+    "Indha Import of Restricted items for R&D by units of Government section-la, Bind validations for import of Restricted items for R&D by units of Government into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Import of Restricted items for R&D by units of Government section-la, Route escalations or approvals to: import of Restricted items for R&D by units of Government, R&D purpose may be imported without an Authorisation by Government.",
+    "Indha Import of Restricted items for R&D by units of Government section-la, Trigger manual review when exception clauses are detected."
+  ],
+  "keywords": [
+    "for",
+    "R&D",
+    "All",
+    "and",
+    "may",
+    "STEs",
+    "live",
+    "items",
+    "units",
+    "Import",
+    "except",
+    "animals",
+    "purpose",
+    "without",
+    "imported",
+    "required",
+    "Research",
+    "permitted",
+    "Restricted",
+    "Government"
+  ],
+  "search_keywords": [
+    "for",
+    "R&D",
+    "All",
+    "and",
+    "may",
+    "STEs",
+    "live",
+    "items",
+    "units",
+    "Import",
+    "except",
+    "animals",
+    "purpose",
+    "without",
+    "imported",
+    "required",
+    "Research",
+    "permitted",
+    "Restricted",
+    "Government"
+  ],
+  "intent": "Provide knowledge guidance for Import of Restricted items for R&D by units of Government.",
+  "tags": [
+    "2.50",
+    "Import of Restricted items for R&D by units of Government",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    20
+  ],
+  "pages": [
+    20
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.",
+  "mermaid": "flowchart TD\n    S1[\"Run validation: 2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.\"]\n    S2[\"Handle exception: 2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Run validation\\: 2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.;\n:Handle exception\\: 2.50 Import of Restricted items for R&D by units of Government\nAll restricted items and items permitted to be imported by STEs, except live animals,\nrequired for R&D purpose may be imported without an Authorisation by Government\nrecognized Research and Development units.;\nstop\n@enduml"
+}

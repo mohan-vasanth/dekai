@@ -1,0 +1,39 @@
+{
+  "section": "5.23",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5.23",
+      "purpose": "Retrieve knowledge payload for section 5.23",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Re-Export-Repair-Replacement-of-Capital-Goods-Imported/validate",
+      "purpose": "Validate inputs and documents for Re-Export / Repair/Replacement of Capital Goods Imported",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

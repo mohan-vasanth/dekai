@@ -1,0 +1,14 @@
+{
+  "section": "4.62",
+  "conditions": [
+    "4.62 Loss of Gem and Jewellery in transit\nConsignments of gem and jewellery items exported out of country and lost in\ntransit after exports, where foreign exchange against such exports has been\nrealised or insurance claims settled, will also be eligible for REP Authorisation."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.62.1",
+      "if": "4.62 Loss of Gem and Jewellery in transit\nConsignments of gem and jewellery items exported out of country and lost in\ntransit after exports, where foreign exchange against such exports has been\nrealised or insurance claims settled, will also be eligible for REP Authorisation.",
+      "then": "Route for review",
+      "source": "4.62 Loss of Gem and Jewellery in transit\nConsignments of gem and jewellery items exported out of country and lost in\ntransit after exports, where foreign exchange against such exports has been\nrealised or insurance claims settled, will also be eligible for REP Authorisation."
+    }
+  ]
+}

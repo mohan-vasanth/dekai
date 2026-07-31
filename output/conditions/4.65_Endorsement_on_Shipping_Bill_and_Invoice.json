@@ -1,0 +1,28 @@
+{
+  "section": "4.65",
+  "conditions": [
+    "If\npg.",
+    "If\npurity of gold/silver/platinum used is same in respect of all or some of items\nmade out from each of these metals for export, exporter may give total weight of\ngold/silver/platinum and other details of such similar items which are of same\npurity.",
+    "In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.65.1",
+      "if": "If\npg.",
+      "then": "Route for review",
+      "source": "If\npg."
+    },
+    {
+      "id": "4.4.65.2",
+      "if": "If\npurity of gold/silver/platinum used is same in respect of all or some of items\nmade out from each of these metals for export, exporter may give total weight of\ngold/silver/platinum and other details of such similar items which are of same\npurity.",
+      "then": "Route for review",
+      "source": "If\npurity of gold/silver/platinum used is same in respect of all or some of items\nmade out from each of these metals for export, exporter may give total weight of\ngold/silver/platinum and other details of such similar items which are of same\npurity."
+    },
+    {
+      "id": "4.4.65.3",
+      "if": "In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver.",
+      "then": "Route for review",
+      "source": "In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver."
+    }
+  ]
+}

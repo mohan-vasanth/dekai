@@ -1,0 +1,47 @@
+{
+  "section": "2.78",
+  "ui": [
+    {
+      "screen_id": "Criteria_for_EPCs_as_Registering_Authorities_overview",
+      "name": "Criteria for EPCs as Registering Authorities Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Criteria_for_EPCs_as_Registering_Authorities_submission",
+      "name": "Criteria for EPCs as Registering Authorities Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "and_flag",
+        "are_flag",
+        "not_flag",
+        "two_flag"
+      ]
+    },
+    {
+      "screen_id": "Criteria_for_EPCs_as_Registering_Authorities_exceptions",
+      "name": "Criteria for EPCs as Registering Authorities Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

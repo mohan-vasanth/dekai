@@ -1,0 +1,349 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.11",
+  "title": "Realization of Export proceeds",
+  "purpose": "5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+  "purpose_thanglish": "Indha Realization of Export proceeds section-la, 5.11 Realization of export proceeds\nexport proceeds kandippa be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+  "summary": "5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP. Exports to SEZ units/Supplies to developers/co-developers\nirrespective of currency of realization would also be counted for discharge of\nExport Obligation. Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.",
+  "business_meaning": "Realization of Export proceeds governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Realization of Export proceeds explains the operating rule set that DEKAI should enforce. Key control points include 5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+  "business_explanation_thanglish": "Indha Realization of Export proceeds section-la, Realization of export proceeds explains the operating rule set that DEKAI should enforce. Key control points include 5.11 Realization of export proceeds\nexport proceeds kandippa be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+  "business_logic": [
+    "5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+    "Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_11-R001",
+      "rule_description": "5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+      "trigger": "Realization of Export proceeds",
+      "condition": "Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.",
+      "validation": "5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+      "action": "Manual review required.",
+      "exception": "5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+      "output": "DEKAI should produce a compliance decision for 5.11 - Realization of Export proceeds."
+    },
+    {
+      "rule_id": "CH5-SEC5_11-R002",
+      "rule_description": "Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.",
+      "trigger": "Realization of Export proceeds",
+      "condition": "Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.",
+      "validation": "Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.",
+      "action": "Manual review required.",
+      "exception": "5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+      "output": "DEKAI should produce a compliance decision for 5.11 - Realization of Export proceeds."
+    }
+  ],
+  "conditions": [
+    "Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit."
+  ],
+  "condition_logic": [
+    {
+      "id": "5.5.11.1",
+      "if": "Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.",
+      "then": "Route for review",
+      "source": "Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit."
+    }
+  ],
+  "validations": [
+    "5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+    "Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit."
+  ],
+  "exceptions": [
+    "5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP."
+  ],
+  "dependencies": [
+    "2.53"
+  ],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.",
+    "Run validation: 5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+    "Run validation: Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.",
+    "Handle exception: 5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP."
+  ],
+  "workflow_ascii": "Realization of Export proceeds\nEvaluate condition: Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.\n   |\n   v\nRun validation: 5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.\n   |\n   v\nRun validation: Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.\n   |\n   v\nHandle exception: 5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+  "decision_tree": [
+    "IF exception applies (5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Realization of Export proceeds Decision\nIF exception applies (5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.) THEN route to manual review",
+  "examples": [
+    "User asks to process Realization of Export proceeds; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Realization of Export proceeds, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the realization of export proceeds process.",
+  "real_world_example_thanglish": "Indha Realization of Export proceeds section-la, Example: an importer or exporter invokes Realization of export proceeds, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the realization of export proceeds process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+    "IF detected context matches section rule THEN enforce: Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "per_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:per"
+    },
+    {
+      "name": "ftp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:FTP"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "sez_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:SEZ"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "para_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:para"
+    },
+    {
+      "name": "also_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:also"
+    },
+    {
+      "name": "case_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:case"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5.11",
+      "purpose": "Retrieve knowledge payload for section 5.11",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Realization-of-Export-proceeds/validate",
+      "purpose": "Validate inputs and documents for Realization of Export proceeds",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Realization_of_Export_proceeds_overview",
+      "name": "Realization of Export proceeds Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Realization_of_Export_proceeds_submission",
+      "name": "Realization of Export proceeds Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "per_flag",
+        "ftp_flag",
+        "for_flag",
+        "sez_flag",
+        "the_flag",
+        "para_flag"
+      ]
+    },
+    {
+      "screen_id": "Realization_of_Export_proceeds_exceptions",
+      "name": "Realization of Export proceeds Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Realization of Export proceeds require?",
+    "Which documents are needed for Realization of Export proceeds?",
+    "How does DEKAI validate Realization of Export proceeds requests?"
+  ],
+  "expected_ai_answers": [
+    "Realization of Export proceeds requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Realization of Export proceeds by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 5.11?",
+      "answer_en": "Realization of Export proceeds explains the operating rule set that DEKAI should enforce. Key control points include 5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+      "question_thanglish": "Indha Realization of Export proceeds section-la, What is the purpose of section 5.11?",
+      "answer_thanglish": "Indha Realization of Export proceeds section-la, Realization of export proceeds explains the operating rule set that DEKAI should enforce. Key control points include 5.11 Realization of export proceeds\nexport proceeds kandippa be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP."
+    },
+    {
+      "question_en": "What documents are required under Realization of Export proceeds?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Realization of Export proceeds section-la, What documents are required under Realization of export proceeds?",
+      "answer_thanglish": "Indha Realization of Export proceeds section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Realization of Export proceeds?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Realization of Export proceeds section-la, Which authority handles Realization of export proceeds?",
+      "answer_thanglish": "Indha Realization of Export proceeds section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Realization of Export proceeds?",
+      "answer_en": "AI answers: DEKAI should evaluate section 5.11, apply the extracted rules, and guide the user through Evaluate condition: Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit..",
+      "question_thanglish": "Indha Realization of Export proceeds section-la, User asks: How do I comply with Realization of export proceeds?",
+      "answer_thanglish": "Indha Realization of Export proceeds section-la, AI answers: DEKAI should evaluate section 5.11, apply the extracted rules, and guide the user through Evaluate condition: Realization in case of supplies to SEZ units kandippa be from foreign\ncurrency account of the SEZ unit.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Realization of Export proceeds?",
+      "answer_en": "AI answers: Applicable validations are 5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP., Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.",
+      "question_thanglish": "Indha Realization of Export proceeds section-la, User asks: Which validations apply to Realization of export proceeds?",
+      "answer_thanglish": "Indha Realization of Export proceeds section-la, AI answers: Applicable validations are 5.11 Realization of export proceeds\nexport proceeds kandippa be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP., Realization in case of supplies to SEZ units kandippa be from foreign\ncurrency account of the SEZ unit."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 5, section 5.11, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Realization of Export proceeds into a rule engine keyed by the rule IDs extracted for this section.",
+    "Trigger manual review when exception clauses are detected."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Realization of Export proceeds section-la, Capture chapter 5, section 5.11, title, and page references as immutable knowledge metadata.",
+    "Indha Realization of Export proceeds section-la, Bind validations for Realization of export proceeds into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Realization of Export proceeds section-la, Trigger manual review when exception clauses are detected."
+  ],
+  "keywords": [
+    "per",
+    "FTP",
+    "for",
+    "SEZ",
+    "the",
+    "para",
+    "also",
+    "case",
+    "from",
+    "unit",
+    "shall",
+    "under",
+    "would",
+    "units",
+    "Export",
+    "freely",
+    "Indian",
+    "Rupees",
+    "except",
+    "Deemed"
+  ],
+  "search_keywords": [
+    "per",
+    "FTP",
+    "for",
+    "SEZ",
+    "the",
+    "para",
+    "also",
+    "case",
+    "from",
+    "unit",
+    "shall",
+    "under",
+    "would",
+    "units",
+    "Export",
+    "freely",
+    "Indian",
+    "Rupees",
+    "except",
+    "Deemed"
+  ],
+  "intent": "Provide knowledge guidance for Realization of Export proceeds.",
+  "tags": [
+    "5.11",
+    "Realization of Export proceeds",
+    "business-rule",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.",
+    "Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit."
+  ],
+  "page_numbers": [
+    7
+  ],
+  "pages": [
+    7
+  ],
+  "source_document": "HBP2023_Chapter05.pdf",
+  "raw_text": "5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP. Exports to SEZ units/Supplies to developers/co-developers\nirrespective of currency of realization would also be counted for discharge of\nExport Obligation. Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.\"]\n    S2[\"Run validation: 5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.\"]\n    S1 --> S2\n    S3[\"Run validation: Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.\"]\n    S2 --> S3\n    S4[\"Handle exception: 5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.\"]\n    S3 --> S4",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.;\n:Run validation\\: 5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.;\n:Run validation\\: Realization in case of supplies to SEZ units shall be from foreign\ncurrency account of the SEZ unit.;\n:Handle exception\\: 5.11 Realization of Export proceeds\nExport proceeds shall be realized in freely convertible currency or in Indian\nRupees as per para 2.53 of FTP, except for Deemed Exports supplies under\nChapter-7 of FTP.;\nstop\n@enduml"
+}

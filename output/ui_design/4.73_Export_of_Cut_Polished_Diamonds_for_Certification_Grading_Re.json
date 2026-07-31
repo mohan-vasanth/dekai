@@ -1,0 +1,37 @@
+{
+  "section": "4.73",
+  "ui": [
+    {
+      "screen_id": "Export_of_Cut_Polished_Diamonds_for_Certification_Grading_Re_overview",
+      "name": "Export of Cut & Polished Diamonds for Certification/Grading & Re- Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_of_Cut_Polished_Diamonds_for_Certification_Grading_Re_submission",
+      "name": "Export of Cut & Polished Diamonds for Certification/Grading & Re- Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "cut_flag",
+        "for_flag",
+        "are_flag",
+        "and_flag",
+        "gem_flag",
+        "ags_flag"
+      ]
+    }
+  ]
+}

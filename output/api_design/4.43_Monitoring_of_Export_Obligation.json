@@ -1,0 +1,65 @@
+{
+  "section": "4.43",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.43",
+      "purpose": "Retrieve knowledge payload for section 4.43",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Monitoring-of-Export-Obligation/validate",
+      "purpose": "Validate inputs and documents for Monitoring of Export Obligation",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Monitoring-of-Export-Obligation/execute",
+      "purpose": "Trigger business action for 4.43 Monitoring of Export Obligation\n(a) Regional Authority, with whom undertaking is executed by Advance\nAuthorisation holder, shall maintain a proper record in a master register\npg.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "section": "2.29",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.29",
+      "purpose": "Retrieve knowledge payload for section 2.29",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/A-Any-firm-company-coming-under-the-NCLT-proceedings-shall-make-a/validate",
+      "purpose": "Validate inputs and documents for A Any firm/ company coming under the NCLT proceedings shall make a",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/A-Any-firm-company-coming-under-the-NCLT-proceedings-shall-make-a/execute",
+      "purpose": "Trigger business action for 2.29 A Any firm/ company coming under the NCLT proceedings shall make a\nsummary of statement of outstanding export obligations/liabilities under the FTP\nschemes, indicating duty saved amounts and applicable interest till the date of start of\nproceedings before the National Company Law Tribunal (NCLT), any penalty imposed\nunder FT (D&R) Act, any other dues such as fee etc., and submit the same to the RA\nconcerned and to NCLT, before the start of NCLT proceedings as part of the statutory\nfilings.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

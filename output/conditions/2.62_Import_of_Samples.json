@@ -1,0 +1,28 @@
+{
+  "section": "2.62",
+  "conditions": [
+    "Samples of tea not exceeding Rs.2000 (CIF) in one consignment shall be\nallowed without an Authorisation by any person connected with Tea industry.",
+    "(b) Duty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification.",
+    "(b)\nDuty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.62.1",
+      "if": "Samples of tea not exceeding Rs.2000 (CIF) in one consignment shall be\nallowed without an Authorisation by any person connected with Tea industry.",
+      "then": "Route for review",
+      "source": "Samples of tea not exceeding Rs.2000 (CIF) in one consignment shall be\nallowed without an Authorisation by any person connected with Tea industry."
+    },
+    {
+      "id": "2.2.62.2",
+      "if": "(b) Duty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification.",
+      "then": "Route for review",
+      "source": "(b) Duty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification."
+    },
+    {
+      "id": "2.2.62.3",
+      "if": "(b)\nDuty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification.",
+      "then": "Route for review",
+      "source": "(b)\nDuty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "4.70",
+  "ui": [
+    {
+      "screen_id": "Terms_of_payment_overview",
+      "name": "Terms of payment Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Terms_of_payment_submission",
+      "name": "Terms of payment Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "gold_flag",
+        "cash_flag",
+        "terms_flag",
+        "shall_flag",
+        "basis_flag"
+      ]
+    }
+  ]
+}

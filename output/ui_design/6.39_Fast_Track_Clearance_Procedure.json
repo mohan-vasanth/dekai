@@ -1,0 +1,47 @@
+{
+  "section": "6.39",
+  "ui": [
+    {
+      "screen_id": "Fast_Track_Clearance_Procedure_overview",
+      "name": "Fast Track Clearance Procedure Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Fast_Track_Clearance_Procedure_submission",
+      "name": "Fast Track Clearance Procedure Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "ftp_flag",
+        "for_flag",
+        "may_flag",
+        "two_flag",
+        "the_flag",
+        "set_flag"
+      ]
+    },
+    {
+      "screen_id": "Fast_Track_Clearance_Procedure_exceptions",
+      "name": "Fast Track Clearance Procedure Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

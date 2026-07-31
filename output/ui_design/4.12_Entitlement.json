@@ -1,0 +1,47 @@
+{
+  "section": "4.12",
+  "ui": [
+    {
+      "screen_id": "Entitlement_overview",
+      "name": "Entitlement Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Entitlement_submission",
+      "name": "Entitlement Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "cif_flag",
+        "one_flag",
+        "for_flag",
+        "fob_flag",
+        "and_flag",
+        "iii_flag"
+      ]
+    },
+    {
+      "screen_id": "Entitlement_exceptions",
+      "name": "Entitlement Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

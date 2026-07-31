@@ -1,0 +1,14 @@
+{
+  "section": "2.10",
+  "conditions": [
+    "2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.10.1",
+      "if": "2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.",
+      "then": "Route for review",
+      "source": "2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority."
+    }
+  ]
+}

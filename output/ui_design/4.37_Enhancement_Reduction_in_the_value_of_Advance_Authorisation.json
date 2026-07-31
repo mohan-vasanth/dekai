@@ -1,0 +1,47 @@
+{
+  "section": "4.37",
+  "ui": [
+    {
+      "screen_id": "Enhancement_Reduction_in_the_value_of_Advance_Authorisation_overview",
+      "name": "Enhancement/Reduction in the value of Advance Authorisation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Enhancement_Reduction_in_the_value_of_Advance_Authorisation_submission",
+      "name": "Enhancement/Reduction in the value of Advance Authorisation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "per_flag",
+        "may_flag",
+        "for_flag",
+        "cif_flag",
+        "fob_flag"
+      ]
+    },
+    {
+      "screen_id": "Enhancement_Reduction_in_the_value_of_Advance_Authorisation_exceptions",
+      "name": "Enhancement/Reduction in the value of Advance Authorisation Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

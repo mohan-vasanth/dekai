@@ -1,0 +1,21 @@
+{
+  "section": "2.57",
+  "conditions": [
+    "2.57 Procedure for import under the Tariff Rate Quota Scheme\n(a) Imports under the Tariff Rate Quota Scheme is governed as per the Customs\nNotification No.",
+    "(b) Tariff Rate Quota (TRQ) Imports for Crude Soya-bean oil and Crude Sunflower\nseed oil shall be allocated during financial year 2022-23 only, up to quantities\nper year as indicated below."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.57.1",
+      "if": "2.57 Procedure for import under the Tariff Rate Quota Scheme\n(a) Imports under the Tariff Rate Quota Scheme is governed as per the Customs\nNotification No.",
+      "then": "28/2020-Customs dated 23.06.2020 of Department of Revenue,\nMinistry of Finance, Government of India as amended from time to time.",
+      "source": "2.57 Procedure for import under the Tariff Rate Quota Scheme\n(a) Imports under the Tariff Rate Quota Scheme is governed as per the Customs\nNotification No."
+    },
+    {
+      "id": "2.2.57.2",
+      "if": "(b) Tariff Rate Quota (TRQ) Imports for Crude Soya-bean oil and Crude Sunflower\nseed oil shall be allocated during financial year 2022-23 only, up to quantities\nper year as indicated below.",
+      "then": "28/2020-Customs dated 23.06.2020 of Department of Revenue,\nMinistry of Finance, Government of India as amended from time to time.",
+      "source": "(b) Tariff Rate Quota (TRQ) Imports for Crude Soya-bean oil and Crude Sunflower\nseed oil shall be allocated during financial year 2022-23 only, up to quantities\nper year as indicated below."
+    }
+  ]
+}

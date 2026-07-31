@@ -1,0 +1,569 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.37",
+  "title": "Enhancement/Reduction in the value of Advance Authorisation",
+  "purpose": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+  "purpose_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, 4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+  "summary": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation. However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued. pg.",
+  "business_meaning": "Enhancement/Reduction in the value of Advance Authorisation governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Enhancement/Reduction in the value of Advance Authorisation explains the operating rule set that DEKAI should enforce. Key control points include 95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC. The section also drives actions such as However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued..",
+  "business_explanation_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Enhancement/Reduction in the value of Advance Authorisation explains the operating rule set that DEKAI should enforce. Key control points include 95\ninputs kandippa be accounted for as per SION/Ad-Hoc Norms fixed by NC. The section also drives actions such as However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued..",
+  "business_logic": [
+    "95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC.",
+    "(xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.",
+    "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+    "(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+    "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+    "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+    "(b) Clubbing of such Authorisations shall be allowed provided all exports\nare completed within initial/extended Export Obligation period\nreckoned from date of earliest import in any of the Authorisations\nproposed to be clubbed.",
+    "In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION.",
+    "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_37-R001",
+      "rule_description": "95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC.",
+      "trigger": "Enhancement/Reduction in the value of Advance Authorisation",
+      "condition": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+      "validation": "95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC.",
+      "action": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "exception": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "output": "DEKAI should produce a compliance decision for 4.37 - Enhancement/Reduction in the value of Advance Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_37-R002",
+      "rule_description": "(xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.",
+      "trigger": "Enhancement/Reduction in the value of Advance Authorisation",
+      "condition": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "validation": "(xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.",
+      "action": "(xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.",
+      "exception": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "output": "DEKAI should produce a compliance decision for 4.37 - Enhancement/Reduction in the value of Advance Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_37-R003",
+      "rule_description": "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+      "trigger": "Enhancement/Reduction in the value of Advance Authorisation",
+      "condition": "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+      "validation": "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+      "action": "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+      "exception": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "output": "DEKAI should produce a compliance decision for 4.37 - Enhancement/Reduction in the value of Advance Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_37-R004",
+      "rule_description": "(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+      "trigger": "Enhancement/Reduction in the value of Advance Authorisation",
+      "condition": "The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations.",
+      "validation": "(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+      "action": "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+      "exception": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "output": "DEKAI should produce a compliance decision for 4.37 - Enhancement/Reduction in the value of Advance Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_37-R005",
+      "rule_description": "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+      "trigger": "Enhancement/Reduction in the value of Advance Authorisation",
+      "condition": "(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+      "validation": "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+      "action": "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+      "exception": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "output": "DEKAI should produce a compliance decision for 4.37 - Enhancement/Reduction in the value of Advance Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_37-R006",
+      "rule_description": "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+      "trigger": "Enhancement/Reduction in the value of Advance Authorisation",
+      "condition": "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+      "validation": "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+      "action": "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+      "exception": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "output": "DEKAI should produce a compliance decision for 4.37 - Enhancement/Reduction in the value of Advance Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_37-R007",
+      "rule_description": "(b) Clubbing of such Authorisations shall be allowed provided all exports\nare completed within initial/extended Export Obligation period\nreckoned from date of earliest import in any of the Authorisations\nproposed to be clubbed.",
+      "trigger": "Enhancement/Reduction in the value of Advance Authorisation",
+      "condition": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a)\nIn respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i)\nfor enhancement / reduction in CIF value of Advance Authorisation;\n(ii)\nEnhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+      "validation": "(b) Clubbing of such Authorisations shall be allowed provided all exports\nare completed within initial/extended Export Obligation period\nreckoned from date of earliest import in any of the Authorisations\nproposed to be clubbed.",
+      "action": "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+      "exception": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "output": "DEKAI should produce a compliance decision for 4.37 - Enhancement/Reduction in the value of Advance Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_37-R008",
+      "rule_description": "In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION.",
+      "trigger": "Enhancement/Reduction in the value of Advance Authorisation",
+      "condition": "(b) Request for pro-rata enhancement in value and quantity may be made either\nbefore or after exports.",
+      "validation": "In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION.",
+      "action": "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+      "exception": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "output": "DEKAI should produce a compliance decision for 4.37 - Enhancement/Reduction in the value of Advance Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_37-R009",
+      "rule_description": "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority.",
+      "trigger": "Enhancement/Reduction in the value of Advance Authorisation",
+      "condition": "In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION.",
+      "validation": "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority.",
+      "action": "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+      "exception": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "output": "DEKAI should produce a compliance decision for 4.37 - Enhancement/Reduction in the value of Advance Authorisation."
+    }
+  ],
+  "conditions": [
+    "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+    "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+    "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+    "The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations.",
+    "(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+    "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+    "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a)\nIn respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i)\nfor enhancement / reduction in CIF value of Advance Authorisation;\n(ii)\nEnhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+    "(b) Request for pro-rata enhancement in value and quantity may be made either\nbefore or after exports.",
+    "In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION.",
+    "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.37.1",
+      "if": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation."
+    },
+    {
+      "id": "4.4.37.2",
+      "if": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued."
+    },
+    {
+      "id": "4.4.37.3",
+      "if": "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation."
+    },
+    {
+      "id": "4.4.37.4",
+      "if": "The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations."
+    },
+    {
+      "id": "4.4.37.5",
+      "if": "(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA."
+    },
+    {
+      "id": "4.4.37.6",
+      "if": "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted."
+    },
+    {
+      "id": "4.4.37.7",
+      "if": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a)\nIn respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i)\nfor enhancement / reduction in CIF value of Advance Authorisation;\n(ii)\nEnhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a)\nIn respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i)\nfor enhancement / reduction in CIF value of Advance Authorisation;\n(ii)\nEnhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation."
+    },
+    {
+      "id": "4.4.37.8",
+      "if": "(b) Request for pro-rata enhancement in value and quantity may be made either\nbefore or after exports.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "(b) Request for pro-rata enhancement in value and quantity may be made either\nbefore or after exports."
+    },
+    {
+      "id": "4.4.37.9",
+      "if": "In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION."
+    },
+    {
+      "id": "4.4.37.10",
+      "if": "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority."
+    }
+  ],
+  "validations": [
+    "95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC.",
+    "(xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.",
+    "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+    "(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+    "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+    "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+    "(b) Clubbing of such Authorisations shall be allowed provided all exports\nare completed within initial/extended Export Obligation period\nreckoned from date of earliest import in any of the Authorisations\nproposed to be clubbed.",
+    "In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION.",
+    "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority."
+  ],
+  "exceptions": [
+    "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued."
+  ],
+  "dependencies": [],
+  "documents": [
+    "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority."
+  ],
+  "required_documents": [
+    "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority."
+  ],
+  "authorities": [
+    "Regional Authority",
+    "RA",
+    "Customs",
+    "Customs Authority",
+    "RA/Customs Authority"
+  ],
+  "timelines": [
+    "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+    "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+    "The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations.",
+    "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+    "(b) Clubbing of such Authorisations shall be allowed provided all exports\nare completed within initial/extended Export Obligation period\nreckoned from date of earliest import in any of the Authorisations\nproposed to be clubbed.",
+    "(b) Request for pro-rata enhancement in value and quantity may be made either\nbefore or after exports.",
+    "In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION."
+  ],
+  "actions": [
+    "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+    "(xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.",
+    "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+    "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed."
+  ],
+  "workflow": [
+    "Evaluate condition: 4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+    "Evaluate condition: However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+    "Evaluate condition: (xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+    "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+    "(xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.",
+    "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+    "(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+    "Run validation: 95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC.",
+    "Run validation: (xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.",
+    "Run validation: (xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+    "Handle exception: However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued."
+  ],
+  "workflow_ascii": "Enhancement/Reduction in the value of Advance Authorisation\nEvaluate condition: 4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.\n   |\n   v\nEvaluate condition: However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.\n   |\n   v\nEvaluate condition: (xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.\n   |\n   v\nHowever, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.\n   |\n   v\n(xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.\n   |\n   v\nFurther, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.\n   |\n   v\n(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.\n   |\n   v\nRun validation: 95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC.\n   |\n   v\nRun validation: (xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.\n   |\n   v\nRun validation: (xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.\n   |\n   v\nHandle exception: However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+  "decision_tree": [
+    "IF 4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation. THEN However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+    "IF However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued. THEN However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+    "IF (xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation. THEN However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+    "IF The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations. THEN However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+    "IF (xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA. THEN However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+    "IF exception applies (However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Enhancement/Reduction in the value of Advance Authorisation Decision\nIF 4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation. THEN However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.\n   |\n   v\nIF However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued. THEN However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.\n   |\n   v\nIF (xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation. THEN However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.\n   |\n   v\nIF The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations. THEN However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.\n   |\n   v\nIF (xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA. THEN However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.\n   |\n   v\nIF exception applies (However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.) THEN route to manual review",
+  "examples": [
+    "User asks to process Enhancement/Reduction in the value of Advance Authorisation; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Enhancement/Reduction in the value of Advance Authorisation, submits (c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority., and DEKAI uses the extracted rules to however, value\naddition after such enhancement does not fall below minimum value\naddition stipulated (for the export product) in ftp and handbook of\nprocedures laid there under and there is no change in input-output\nnorms and ftp under which advance authorisation was issued..",
+  "real_world_example_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Example: an importer or exporter invokes Enhancement/Reduction in the value of Advance Authorisation, submits (c) application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation kandippa be filed online in ANF 4D to concerned Regional\nauthority., and DEKAI uses the extracted rules to however, value\naddition after such enhancement does not fall below minimum value\naddition stipulated (for the export product) in ftp and handbook of\nprocedures laid there under and there is no change in input-output\nnorms and ftp under which advance authorisation was issued..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC.",
+    "IF detected context matches section rule THEN enforce: (xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.",
+    "IF detected context matches section rule THEN enforce: (xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+    "IF detected context matches section rule THEN enforce: (xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+    "IF detected context matches section rule THEN enforce: Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+    "IF detected context matches section rule THEN enforce: (xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.",
+    "IF validations pass THEN recommend action: However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "per_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:per"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "cif_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:CIF"
+    },
+    {
+      "name": "fob_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:FOB"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.37",
+      "purpose": "Retrieve knowledge payload for section 4.37",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Enhancement-Reduction-in-the-value-of-Advance-Authorisation/validate",
+      "purpose": "Validate inputs and documents for Enhancement/Reduction in the value of Advance Authorisation",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Enhancement-Reduction-in-the-value-of-Advance-Authorisation/execute",
+      "purpose": "Trigger business action for However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Enhancement_Reduction_in_the_value_of_Advance_Authorisation_overview",
+      "name": "Enhancement/Reduction in the value of Advance Authorisation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Enhancement_Reduction_in_the_value_of_Advance_Authorisation_submission",
+      "name": "Enhancement/Reduction in the value of Advance Authorisation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "per_flag",
+        "may_flag",
+        "for_flag",
+        "cif_flag",
+        "fob_flag"
+      ]
+    },
+    {
+      "screen_id": "Enhancement_Reduction_in_the_value_of_Advance_Authorisation_exceptions",
+      "name": "Enhancement/Reduction in the value of Advance Authorisation Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Enhancement/Reduction in the value of Advance Authorisation require?",
+    "Which documents are needed for Enhancement/Reduction in the value of Advance Authorisation?",
+    "How does DEKAI validate Enhancement/Reduction in the value of Advance Authorisation requests?",
+    "What action should be taken for Enhancement/Reduction in the value of Advance Authorisation?"
+  ],
+  "expected_ai_answers": [
+    "Enhancement/Reduction in the value of Advance Authorisation requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: (c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority.",
+    "DEKAI validates Enhancement/Reduction in the value of Advance Authorisation by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4.37?",
+      "answer_en": "Enhancement/Reduction in the value of Advance Authorisation explains the operating rule set that DEKAI should enforce. Key control points include 95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC. The section also drives actions such as However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued..",
+      "question_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, What is the purpose of section 4.37?",
+      "answer_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Enhancement/Reduction in the value of Advance Authorisation explains the operating rule set that DEKAI should enforce. Key control points include 95\ninputs kandippa be accounted for as per SION/Ad-Hoc Norms fixed by NC. The section also drives actions such as However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.."
+    },
+    {
+      "question_en": "What documents are required under Enhancement/Reduction in the value of Advance Authorisation?",
+      "answer_en": "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority.",
+      "question_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, What documents are required under Enhancement/Reduction in the value of Advance Authorisation?",
+      "answer_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, (c) application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation kandippa be filed online in ANF 4D to concerned Regional\nauthority."
+    },
+    {
+      "question_en": "Which authority handles Enhancement/Reduction in the value of Advance Authorisation?",
+      "answer_en": "Regional Authority, RA, Customs, Customs Authority, RA/Customs Authority",
+      "question_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Which authority handles Enhancement/Reduction in the value of Advance Authorisation?",
+      "answer_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Regional authority, RA, Customs, Customs authority, RA/Customs authority"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Enhancement/Reduction in the value of Advance Authorisation?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4.37, apply the extracted rules, and guide the user through Evaluate condition: 4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation..",
+      "question_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, User asks: How do I comply with Enhancement/Reduction in the value of Advance Authorisation?",
+      "answer_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, AI answers: DEKAI should evaluate section 4.37, apply the extracted rules, and guide the user through Evaluate condition: 4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Enhancement/Reduction in the value of Advance Authorisation?",
+      "answer_en": "AI answers: Applicable validations are 95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC., (xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing., (xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+      "question_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, User asks: Which validations apply to Enhancement/Reduction in the value of Advance Authorisation?",
+      "answer_thanglish": "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, AI answers: Applicable validations are 95\ninputs kandippa be accounted for as per SION/Ad-Hoc Norms fixed by NC., (xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing., (xii)\nAfter clubbing, Authorisations kandippa for all purposes, be deemed to be one\nAuthorisation."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 4.37, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Enhancement/Reduction in the value of Advance Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: (c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority..",
+    "Route escalations or approvals to: Regional Authority, RA, Customs, Customs Authority.",
+    "Trigger manual review when exception clauses are detected."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Capture chapter 4, section 4.37, title, and page references as immutable knowledge metadata.",
+    "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Bind validations for Enhancement/Reduction in the value of Advance Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Expose document upload controls for: (c) application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation kandippa be filed online in ANF 4D to concerned Regional\nauthority..",
+    "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Route escalations or approvals to: Regional authority, RA, Customs, Customs authority.",
+    "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Trigger manual review when exception clauses are detected."
+  ],
+  "keywords": [
+    "the",
+    "per",
+    "may",
+    "for",
+    "CIF",
+    "FOB",
+    "and",
+    "not",
+    "FTP",
+    "was",
+    "all",
+    "xii",
+    "one",
+    "xiv",
+    "has",
+    "any",
+    "are",
+    "EOP",
+    "ANF",
+    "such"
+  ],
+  "search_keywords": [
+    "the",
+    "per",
+    "may",
+    "for",
+    "CIF",
+    "FOB",
+    "and",
+    "not",
+    "FTP",
+    "was",
+    "all",
+    "xii",
+    "one",
+    "xiv",
+    "has",
+    "any",
+    "are",
+    "EOP",
+    "ANF",
+    "such"
+  ],
+  "intent": "Support Enhancement/Reduction in the value of Advance Authorisation processing and compliance validation.",
+  "tags": [
+    "4.37",
+    "Enhancement/Reduction in the value of Advance Authorisation",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC.",
+    "(xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.",
+    "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+    "(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+    "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted."
+  ],
+  "page_numbers": [
+    20,
+    21
+  ],
+  "pages": [
+    20,
+    21
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation. However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.\npg. 95\npg. 95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC. In other\nwords all inputs covered in all Authorisations need not be same.\n(xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.\n(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation. The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations.\n(xiii) All cases clubbed, as per earlier provisions would not be reopened.\n(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA. Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.\n(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.\n(b) Clubbing of such Authorisations shall be allowed provided all exports\nare completed within initial/extended Export Obligation period\nreckoned from date of earliest import in any of the Authorisations\nproposed to be clubbed.\n4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a)\nIn respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i)\nfor enhancement / reduction in CIF value of Advance Authorisation;\n(ii)\nEnhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation. However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.\n(b) Request for pro-rata enhancement in value and quantity may be made either\nbefore or after exports. In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION.\n(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.\"]\n    S2[\"Evaluate condition: However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: (xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.\"]\n    S2 --> S3\n    S4[\"However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.\"]\n    S3 --> S4\n    S5[\"(xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.\"]\n    S4 --> S5\n    S6[\"Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.\"]\n    S5 --> S6\n    S7[\"(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.\"]\n    S6 --> S7\n    S8[\"Run validation: 95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC.\"]\n    S7 --> S8\n    S9[\"Run validation: (xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.\"]\n    S8 --> S9\n    S10[\"Run validation: (xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.\"]\n    S9 --> S10\n    S11[\"Handle exception: However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.\"]\n    S10 --> S11",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request\\:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.;\n:Evaluate condition\\: However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.;\n:Evaluate condition\\: (xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.;\n:However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.;\n:(xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.;\n:Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.;\n:(xv)\nAdditional provisions for clubbing of Authorisations covered under\nAppendix-30A (issued under FTP 2009-14) / Appendix-4J (issued under FTP\n2015-20 and FTP 2023) and Authorisations issued with Export Obligation\nPeriod less than 18 months\\:\n(a) Export obligation period of clubbed Authorisations shall be reckoned\nfrom the date of earliest import in any of the Authorisations proposed to\nbe clubbed.;\n:Run validation\\: 95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC.;\n:Run validation\\: (xi)\nMinimum value addition as prescribed in FTP and Procedures for the export\nproduct will be required to be maintained on clubbing.;\n:Run validation\\: (xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.;\n:Handle exception\\: However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.;\nstop\n@enduml"
+}

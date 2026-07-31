@@ -1,0 +1,37 @@
+{
+  "section": "2.54",
+  "ui": [
+    {
+      "screen_id": "Import_of_other_kinds_of_metallic_waste_and_scraps_overview",
+      "name": "Import of other kinds of metallic waste and scraps Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_of_other_kinds_of_metallic_waste_and_scraps_submission",
+      "name": "Import of other kinds of metallic waste and scraps Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "itc_flag",
+        "will_flag",
+        "other_flag",
+        "kinds_flag",
+        "waste_flag"
+      ]
+    }
+  ]
+}

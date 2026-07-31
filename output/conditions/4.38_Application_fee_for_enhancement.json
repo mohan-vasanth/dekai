@@ -1,0 +1,21 @@
+{
+  "section": "4.38",
+  "conditions": [
+    "4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.",
+    "However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.38.1",
+      "if": "4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.",
+      "then": "4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.",
+      "source": "4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation."
+    },
+    {
+      "id": "4.4.38.2",
+      "if": "However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA.",
+      "then": "4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.",
+      "source": "However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "section": "5.07",
+  "conditions": [
+    "‘No Objection\nCertificate’ should be produced from the concerned Development\nCommissioner.",
+    "(c) If a standalone EOU / SEZ unit wishes to de-bond from EOU to EPCG Scheme,\nthere shall be no requirement for maintenance of average export obligation\nand the unit shall be required to maintain only specific export obligation\nequivalent to six times of the proportionate duty saved amount of the\ndepreciated value of capital goods for which the Authorisation has been\nobtained.",
+    "(d) In case one unit of a firm / company opts to de-bond from EOU to EPCG\nScheme, while other unit(s) are DTA units, then the average export\nobligation in respect of the authorisations issued to the firm / company\n(other than de-bonding unit) shall remain unchanged and the average EO,\nafter de-bonding of the unit, shall be fixed by excluding the exports made by\nthe de-bonded unit from the total exports of the firm/ company, which runs\nconcurrently for all the units of the firm/ company.",
+    "In such a case, specific\nEO equivalent to six times of the proportionate duty saved amount on the\ndepreciated value of the Capital Goods would be imposed on the de- bonding\nunit shifting to the EPCG Scheme.",
+    "(c)\nIf a standalone EOU / SEZ unit wishes to de-bond from EOU to EPCG Scheme,\nthere shall be no requirement for maintenance of average export obligation\nand the unit shall be required to maintain only specific export obligation\nequivalent to six times of the proportionate duty saved amount of the\ndepreciated value of capital goods for which the Authorisation has been\nobtained.",
+    "(d)\nIn case one unit of a firm / company opts to de-bond from EOU to EPCG\nScheme, while other unit(s) are DTA units, then the average export\nobligation in respect of the authorisations issued to the firm / company\n(other than de-bonding unit) shall remain unchanged and the average EO,\nafter de-bonding of the unit, shall be fixed by excluding the exports made by\nthe de-bonded unit from the total exports of the firm/ company, which runs\nconcurrently for all the units of the firm/ company."
+  ],
+  "condition_logic": [
+    {
+      "id": "5.5.07.1",
+      "if": "‘No Objection\nCertificate’ should be produced from the concerned Development\nCommissioner.",
+      "then": "5.07 Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG\nScheme\n(a) An EOU/a relocated SEZ unit, while converting to a DTA Unit, may apply for\nan EPCG authorisation along with documents prescribed.",
+      "source": "‘No Objection\nCertificate’ should be produced from the concerned Development\nCommissioner."
+    },
+    {
+      "id": "5.5.07.2",
+      "if": "a standalone EOU / SEZ unit wishes to de-bond from EOU to EPCG Scheme",
+      "then": "5.07 Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG\nScheme\n(a) An EOU/a relocated SEZ unit, while converting to a DTA Unit, may apply for\nan EPCG authorisation along with documents prescribed.",
+      "source": "(c) If a standalone EOU / SEZ unit wishes to de-bond from EOU to EPCG Scheme,\nthere shall be no requirement for maintenance of average export obligation\nand the unit shall be required to maintain only specific export obligation\nequivalent to six times of the proportionate duty saved amount of the\ndepreciated value of capital goods for which the Authorisation has been\nobtained."
+    },
+    {
+      "id": "5.5.07.3",
+      "if": "(d) In case one unit of a firm / company opts to de-bond from EOU to EPCG\nScheme, while other unit(s) are DTA units, then the average export\nobligation in respect of the authorisations issued to the firm / company\n(other than de-bonding unit) shall remain unchanged and the average EO,\nafter de-bonding of the unit, shall be fixed by excluding the exports made by\nthe de-bonded unit from the total exports of the firm/ company, which runs\nconcurrently for all the units of the firm/ company.",
+      "then": "5.07 Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG\nScheme\n(a) An EOU/a relocated SEZ unit, while converting to a DTA Unit, may apply for\nan EPCG authorisation along with documents prescribed.",
+      "source": "(d) In case one unit of a firm / company opts to de-bond from EOU to EPCG\nScheme, while other unit(s) are DTA units, then the average export\nobligation in respect of the authorisations issued to the firm / company\n(other than de-bonding unit) shall remain unchanged and the average EO,\nafter de-bonding of the unit, shall be fixed by excluding the exports made by\nthe de-bonded unit from the total exports of the firm/ company, which runs\nconcurrently for all the units of the firm/ company."
+    },
+    {
+      "id": "5.5.07.4",
+      "if": "In such a case, specific\nEO equivalent to six times of the proportionate duty saved amount on the\ndepreciated value of the Capital Goods would be imposed on the de- bonding\nunit shifting to the EPCG Scheme.",
+      "then": "5.07 Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG\nScheme\n(a) An EOU/a relocated SEZ unit, while converting to a DTA Unit, may apply for\nan EPCG authorisation along with documents prescribed.",
+      "source": "In such a case, specific\nEO equivalent to six times of the proportionate duty saved amount on the\ndepreciated value of the Capital Goods would be imposed on the de- bonding\nunit shifting to the EPCG Scheme."
+    },
+    {
+      "id": "5.5.07.5",
+      "if": "a standalone EOU / SEZ unit wishes to de-bond from EOU to EPCG Scheme",
+      "then": "5.07 Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG\nScheme\n(a) An EOU/a relocated SEZ unit, while converting to a DTA Unit, may apply for\nan EPCG authorisation along with documents prescribed.",
+      "source": "(c)\nIf a standalone EOU / SEZ unit wishes to de-bond from EOU to EPCG Scheme,\nthere shall be no requirement for maintenance of average export obligation\nand the unit shall be required to maintain only specific export obligation\nequivalent to six times of the proportionate duty saved amount of the\ndepreciated value of capital goods for which the Authorisation has been\nobtained."
+    },
+    {
+      "id": "5.5.07.6",
+      "if": "(d)\nIn case one unit of a firm / company opts to de-bond from EOU to EPCG\nScheme, while other unit(s) are DTA units, then the average export\nobligation in respect of the authorisations issued to the firm / company\n(other than de-bonding unit) shall remain unchanged and the average EO,\nafter de-bonding of the unit, shall be fixed by excluding the exports made by\nthe de-bonded unit from the total exports of the firm/ company, which runs\nconcurrently for all the units of the firm/ company.",
+      "then": "5.07 Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG\nScheme\n(a) An EOU/a relocated SEZ unit, while converting to a DTA Unit, may apply for\nan EPCG authorisation along with documents prescribed.",
+      "source": "(d)\nIn case one unit of a firm / company opts to de-bond from EOU to EPCG\nScheme, while other unit(s) are DTA units, then the average export\nobligation in respect of the authorisations issued to the firm / company\n(other than de-bonding unit) shall remain unchanged and the average EO,\nafter de-bonding of the unit, shall be fixed by excluding the exports made by\nthe de-bonded unit from the total exports of the firm/ company, which runs\nconcurrently for all the units of the firm/ company."
+    }
+  ]
+}

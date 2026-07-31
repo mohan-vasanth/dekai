@@ -1,0 +1,53 @@
+{
+  "section": "3.06",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/3.06",
+      "purpose": "Retrieve knowledge payload for section 3.06",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/State-UT-Export-Promotion-Committees/validate",
+      "purpose": "Validate inputs and documents for State/UT Export Promotion Committees",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/State-UT-Export-Promotion-Committees/execute",
+      "purpose": "Trigger business action for The primary function of the SEPC may be to prepare/monitor State specific Export\nPromotion Policy/Strategy, facilitating engagement of exporters with the State\ngovernment, address all export promotion issues at the State level and monitor the\nprogress of DEPCs in each District of the State.",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

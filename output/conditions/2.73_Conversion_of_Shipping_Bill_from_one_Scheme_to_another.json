@@ -1,0 +1,14 @@
+{
+  "section": "2.73",
+  "conditions": [
+    "2.73 Conversion of Shipping Bill from one Scheme to another\nCustoms Authorities, after recording reasons in writing, permit conversion of any\nscheme-shipping bill on which benefit of that scheme has not been availed, in\naccordance with the Regulations under Customs Act, 1962, and exporter would be\nentitled to benefit under scheme in which shipment is subsequently converted."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.73.1",
+      "if": "2.73 Conversion of Shipping Bill from one Scheme to another\nCustoms Authorities, after recording reasons in writing, permit conversion of any\nscheme-shipping bill on which benefit of that scheme has not been availed, in\naccordance with the Regulations under Customs Act, 1962, and exporter would be\nentitled to benefit under scheme in which shipment is subsequently converted.",
+      "then": "Route for review",
+      "source": "2.73 Conversion of Shipping Bill from one Scheme to another\nCustoms Authorities, after recording reasons in writing, permit conversion of any\nscheme-shipping bill on which benefit of that scheme has not been availed, in\naccordance with the Regulations under Customs Act, 1962, and exporter would be\nentitled to benefit under scheme in which shipment is subsequently converted."
+    }
+  ]
+}

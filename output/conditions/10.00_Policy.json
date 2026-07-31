@@ -1,0 +1,14 @@
+{
+  "section": "10.00",
+  "conditions": [
+    "SCOMET, is specified in Chapter 10 of FTP."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.10.00.1",
+      "if": "SCOMET, is specified in Chapter 10 of FTP.",
+      "then": "Route for review",
+      "source": "SCOMET, is specified in Chapter 10 of FTP."
+    }
+  ]
+}

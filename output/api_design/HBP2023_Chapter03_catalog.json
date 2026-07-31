@@ -1,0 +1,371 @@
+{
+  "resources": [
+    "Policy",
+    "Objective-of-policy",
+    "District-Export-Promotion-Committees-Institutional-Mechanism-at",
+    "District-Export-Action-Plans-for-Each-District",
+    "State-UT-Export-Promotion-Committees",
+    "Nodal-DGFT-Regional-Authority",
+    "Online-Monitoring-of-District-Export-Action-Plans",
+    "District-Outreach-Programs"
+  ],
+  "sections": [
+    {
+      "section": "3.01",
+      "title": "Policy",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3.01",
+          "purpose": "Retrieve knowledge payload for section 3.01",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Policy/validate",
+          "purpose": "Validate inputs and documents for Policy",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.02",
+      "title": "Objective of policy",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3.02",
+          "purpose": "Retrieve knowledge payload for section 3.02",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Objective-of-policy/validate",
+          "purpose": "Validate inputs and documents for Objective of policy",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.03",
+      "title": "District Export Promotion Committees -Institutional Mechanism at",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3.03",
+          "purpose": "Retrieve knowledge payload for section 3.03",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/District-Export-Promotion-Committees-Institutional-Mechanism-at/validate",
+          "purpose": "Validate inputs and documents for District Export Promotion Committees -Institutional Mechanism at",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.05",
+      "title": "District Export Action Plans for Each District",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3.05",
+          "purpose": "Retrieve knowledge payload for section 3.05",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/District-Export-Action-Plans-for-Each-District/validate",
+          "purpose": "Validate inputs and documents for District Export Action Plans for Each District",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.06",
+      "title": "State/UT Export Promotion Committees",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3.06",
+          "purpose": "Retrieve knowledge payload for section 3.06",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/State-UT-Export-Promotion-Committees/validate",
+          "purpose": "Validate inputs and documents for State/UT Export Promotion Committees",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/State-UT-Export-Promotion-Committees/execute",
+          "purpose": "Trigger business action for The primary function of the SEPC may be to prepare/monitor State specific Export\nPromotion Policy/Strategy, facilitating engagement of exporters with the State\ngovernment, address all export promotion issues at the State level and monitor the\nprogress of DEPCs in each District of the State.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.07",
+      "title": "Nodal DGFT Regional Authority",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3.07",
+          "purpose": "Retrieve knowledge payload for section 3.07",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Nodal-DGFT-Regional-Authority/validate",
+          "purpose": "Validate inputs and documents for Nodal DGFT Regional Authority",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.08",
+      "title": "Online Monitoring of District Export Action Plans",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3.08",
+          "purpose": "Retrieve knowledge payload for section 3.08",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Online-Monitoring-of-District-Export-Action-Plans/validate",
+          "purpose": "Validate inputs and documents for Online Monitoring of District Export Action Plans",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Online-Monitoring-of-District-Export-Action-Plans/execute",
+          "purpose": "Trigger business action for 3.08 Online Monitoring of District Export Action Plans\nDGFT would develop an online monitoring portal that maybe accessed on the DGFT\nwebsite to enable the States/ DGFT RAs to upload all information related to the\nproducts/services with export potential of every District.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.09",
+      "title": "District Outreach Programs",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3.09",
+          "purpose": "Retrieve knowledge payload for section 3.09",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/District-Outreach-Programs/validate",
+          "purpose": "Validate inputs and documents for District Outreach Programs",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/District-Outreach-Programs/execute",
+          "purpose": "Trigger business action for |\nDGFT would develop an online monitoring portal that maybe accessed on the DGFT\nwebsite to enable the States/ DGFT RAs to upload all information related to the\nproducts/services with export potential of every District.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    }
+  ]
+}

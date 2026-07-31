@@ -1,0 +1,655 @@
+{
+  "resources": [
+    "Policy",
+    "General-Provision",
+    "Criteria-for-claiming-Benefits",
+    "Procedure-for-claiming-benefits",
+    "Procedure-for-claiming-TED-refund-on-Fuel",
+    "Frequency-of-application-and-time-period-for-claiming-TED",
+    "Rate-of-Drawback",
+    "Time-barred-supplementary-claim",
+    "Exemption-from-payment-of-TED",
+    "Applicability-of-other-Rules",
+    "Payment-of-interest",
+    "Internal-Audit-Mechanism"
+  ],
+  "sections": [
+    {
+      "section": "7.00",
+      "title": "Policy",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7.00",
+          "purpose": "Retrieve knowledge payload for section 7.00",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Policy/validate",
+          "purpose": "Validate inputs and documents for Policy",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.01",
+      "title": "General Provision",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7.01",
+          "purpose": "Retrieve knowledge payload for section 7.01",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/General-Provision/validate",
+          "purpose": "Validate inputs and documents for General Provision",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/General-Provision/execute",
+          "purpose": "Trigger business action for 7.01 General Provision\n(a) Supplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.02",
+      "title": "Criteria for claiming Benefits",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7.02",
+          "purpose": "Retrieve knowledge payload for section 7.02",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Criteria-for-claiming-Benefits/validate",
+          "purpose": "Validate inputs and documents for Criteria for claiming Benefits",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Criteria-for-claiming-Benefits/execute",
+          "purpose": "Trigger business action for 7.02 Criteria for claiming Benefits\n(a) (i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.03",
+      "title": "Procedure for claiming benefits",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7.03",
+          "purpose": "Retrieve knowledge payload for section 7.03",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Procedure-for-claiming-benefits/validate",
+          "purpose": "Validate inputs and documents for Procedure for claiming benefits",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Procedure-for-claiming-benefits/execute",
+          "purpose": "Trigger business action for (b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.04",
+      "title": "Procedure for claiming TED refund on Fuel",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7.04",
+          "purpose": "Retrieve knowledge payload for section 7.04",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Procedure-for-claiming-TED-refund-on-Fuel/validate",
+          "purpose": "Validate inputs and documents for Procedure for claiming TED refund on Fuel",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Procedure-for-claiming-TED-refund-on-Fuel/execute",
+          "purpose": "Trigger business action for 7.04 Procedure for claiming TED refund on Fuel\nFor supply of High Speed Diesel (HSD) from Depots of domestic oil Public Sector\nUndertakings under Paragraph 7.02(b) of FTP, terminal excise duty shall be\nrefunded on the basis of duty paid certificate issued by concerned domestic oil\nPublic Sector Undertaking in the format given in Annexure-IV to ANF-7A.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.05",
+      "title": "Frequency of application and time period for claiming TED /",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7.05",
+          "purpose": "Retrieve knowledge payload for section 7.05",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Frequency-of-application-and-time-period-for-claiming-TED/validate",
+          "purpose": "Validate inputs and documents for Frequency of application and time period for claiming TED /",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Frequency-of-application-and-time-period-for-claiming-TED/execute",
+          "purpose": "Trigger business action for 7.05 Frequency of application and time period for claiming TED /\nDrawback\n(a) In respect of supplies covered in Paragraphs 7.02 (a) to (c) of FTP,\napplication for TED refund / drawback (whichever applicable) may be filed\nwithin 12 months from the date of realisation of 100% payment against\nsuch supplies.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.06",
+      "title": "Rate of Drawback",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7.06",
+          "purpose": "Retrieve knowledge payload for section 7.06",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Rate-of-Drawback/validate",
+          "purpose": "Validate inputs and documents for Rate of Drawback",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.07",
+      "title": "Time barred / supplementary claim",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7.07",
+          "purpose": "Retrieve knowledge payload for section 7.07",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Time-barred-supplementary-claim/validate",
+          "purpose": "Validate inputs and documents for Time barred / supplementary claim",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.08",
+      "title": "Exemption from payment of TED",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7.08",
+          "purpose": "Retrieve knowledge payload for section 7.08",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Exemption-from-payment-of-TED/validate",
+          "purpose": "Validate inputs and documents for Exemption from payment of TED",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Exemption-from-payment-of-TED/execute",
+          "purpose": "Trigger business action for 7.08 Exemption from payment of TED\nFor claiming exemption from payment of terminal excise duty, wherever\napplicable, procedure prescribed by Central Excise Authority shall be followed.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.09",
+      "title": "Applicability of other Rules",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7.09",
+          "purpose": "Retrieve knowledge payload for section 7.09",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Applicability-of-other-Rules/validate",
+          "purpose": "Validate inputs and documents for Applicability of other Rules",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Applicability-of-other-Rules/execute",
+          "purpose": "Trigger business action for 7.09 Applicability of other Rules\nSubject to procedure laid down in HBP, Customs and Central Excise Duties and\nService Tax Drawback Rules, 1995 or Customs and Central Excise Duties Drawback\nRules, 2017, as the case may be, shall apply mutatis mutandis to deemed exports\nscheme.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.10",
+      "title": "Payment of interest",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7.10",
+          "purpose": "Retrieve knowledge payload for section 7.10",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Payment-of-interest/validate",
+          "purpose": "Validate inputs and documents for Payment of interest",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Payment-of-interest/execute",
+          "purpose": "Trigger business action for 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7.11",
+      "title": "Internal Audit Mechanism",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7.11",
+          "purpose": "Retrieve knowledge payload for section 7.11",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Internal-Audit-Mechanism/validate",
+          "purpose": "Validate inputs and documents for Internal Audit Mechanism",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    }
+  ]
+}

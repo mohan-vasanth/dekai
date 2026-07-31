@@ -1,0 +1,65 @@
+{
+  "section": "4.48",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.48",
+      "purpose": "Retrieve knowledge payload for section 4.48",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Transitional-Arrangement-for-Authorisations-issued-upto/validate",
+      "purpose": "Validate inputs and documents for Transitional Arrangement for Authorisations issued upto",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Transitional-Arrangement-for-Authorisations-issued-upto/execute",
+      "purpose": "Trigger business action for 4.48 Transitional Arrangement for Authorisations issued upto\n31.03.2023\n(a) Advance Licences including Advance Licence for Annual Requirement\nissued up to 31.03.2023 shall be governed by respective provisions\ncontained in Chapter-7 of HBP v1(RE-2001), Chapter 4 of HBP v1 (2002-\n2007) as Notified on 31.03.2002, Chapter 4 of HBP v1 (2004- 2009) as\nnotified on 31.08.2004, Chapter 4 of HBP v1 (2009-14) as notified on\npg.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

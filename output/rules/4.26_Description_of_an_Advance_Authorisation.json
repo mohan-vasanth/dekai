@@ -1,0 +1,54 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.26",
+  "title": "Description of an Advance Authorisation",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_26-R001",
+      "rule_description": "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a) Names and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b) Quantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",
+      "trigger": "Description of an Advance Authorisation",
+      "condition": "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a) Names and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b) Quantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",
+      "validation": "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a) Names and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b) Quantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.26 - Description of an Advance Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_26-R002",
+      "rule_description": "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c) Aggregate CIF value of imports;\n(d) FOB/FOR value and quantity of exports/supplies; and\n(e) Validity period of import and Export Obligation Period.",
+      "trigger": "Description of an Advance Authorisation",
+      "condition": "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c) Aggregate CIF value of imports;\n(d) FOB/FOR value and quantity of exports/supplies; and\n(e) Validity period of import and Export Obligation Period.",
+      "validation": "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c) Aggregate CIF value of imports;\n(d) FOB/FOR value and quantity of exports/supplies; and\n(e) Validity period of import and Export Obligation Period.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.26 - Description of an Advance Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_26-R003",
+      "rule_description": "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a)\nNames and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b)\nQuantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",
+      "trigger": "Description of an Advance Authorisation",
+      "condition": "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a)\nNames and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b)\nQuantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",
+      "validation": "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a)\nNames and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b)\nQuantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.26 - Description of an Advance Authorisation."
+    },
+    {
+      "rule_id": "CH4-SEC4_26-R004",
+      "rule_description": "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c)\nAggregate CIF value of imports;\n(d)\nFOB/FOR value and quantity of exports/supplies; and\n(e)\nValidity period of import and Export Obligation Period.",
+      "trigger": "Description of an Advance Authorisation",
+      "condition": "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c)\nAggregate CIF value of imports;\n(d)\nFOB/FOR value and quantity of exports/supplies; and\n(e)\nValidity period of import and Export Obligation Period.",
+      "validation": "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c)\nAggregate CIF value of imports;\n(d)\nFOB/FOR value and quantity of exports/supplies; and\n(e)\nValidity period of import and Export Obligation Period.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.26 - Description of an Advance Authorisation."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a) Names and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b) Quantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",
+    "IF detected context matches section rule THEN enforce: Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c) Aggregate CIF value of imports;\n(d) FOB/FOR value and quantity of exports/supplies; and\n(e) Validity period of import and Export Obligation Period.",
+    "IF detected context matches section rule THEN enforce: 4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a)\nNames and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b)\nQuantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",
+    "IF detected context matches section rule THEN enforce: Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c)\nAggregate CIF value of imports;\n(d)\nFOB/FOR value and quantity of exports/supplies; and\n(e)\nValidity period of import and Export Obligation Period."
+  ]
+}

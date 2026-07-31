@@ -1,0 +1,37 @@
+{
+  "section": "4.21",
+  "ui": [
+    {
+      "screen_id": "Maintenance_of_Proper_Accounts_for_Authorisations_issued_under_overview",
+      "name": "Maintenance of Proper Accounts for Authorisations issued under Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Maintenance_of_Proper_Accounts_for_Authorisations_issued_under_submission",
+      "name": "Maintenance of Proper Accounts for Authorisations issued under Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "hbp_flag",
+        "and_flag",
+        "the_flag",
+        "who_flag",
+        "para_flag"
+      ]
+    }
+  ]
+}

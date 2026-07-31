@@ -1,0 +1,313 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.12",
+  "title": "One PAN-One IEC",
+  "purpose": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+  "purpose_thanglish": "Indha One PAN-One IEC section-la, 2.12 One PAN-One IEC\nOnly one IEC kandippa be issued against a single PAN.",
+  "summary": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+  "business_meaning": "One PAN-One IEC governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "One PAN-One IEC explains the operating rule set that DEKAI should enforce. Key control points include 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN. The section also drives actions such as 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN..",
+  "business_explanation_thanglish": "Indha One PAN-One IEC section-la, One PAN-One IEC explains the operating rule set that DEKAI should enforce. Key control points include 2.12 One PAN-One IEC\nOnly one IEC kandippa be issued against a single PAN. The section also drives actions such as 2.12 One PAN-One IEC\nOnly one IEC kandippa be issued against a single PAN..",
+  "business_logic": [
+    "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_12-R001",
+      "rule_description": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "trigger": "One PAN-One IEC",
+      "condition": "Section 2.12 is applicable",
+      "validation": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "action": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.12 - One PAN-One IEC."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [
+    {
+      "id": "2.2.12.1",
+      "if": "Section 2.12 is applicable",
+      "then": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "source": "Derived from uploaded documents"
+    }
+  ],
+  "validations": [
+    "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN."
+  ],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [
+    "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN."
+  ],
+  "workflow": [
+    "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+    "Run validation: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN."
+  ],
+  "workflow_ascii": "One PAN-One IEC\n2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.\n   |\n   v\nRun validation: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+  "decision_tree": [
+    "IF section 2.12 applies THEN 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN."
+  ],
+  "decision_tree_ascii": "One PAN-One IEC Decision\nIF section 2.12 applies THEN 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+  "examples": [
+    "User asks to process One PAN-One IEC; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes One PAN-One IEC, submits the prescribed DGFT records, and DEKAI uses the extracted rules to 2.12 one pan-one iec\nonly one iec shall be issued against a single pan..",
+  "real_world_example_thanglish": "Indha One PAN-One IEC section-la, Example: an importer or exporter invokes One PAN-One IEC, submits the prescribed DGFT records, and DEKAI uses the extracted rules to 2.12 one pan-one iec\nonly one iec kandippa be issued against a single pan..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+    "IF validations pass THEN recommend action: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "one_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:One"
+    },
+    {
+      "name": "iec_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:IEC"
+    },
+    {
+      "name": "pan_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:PAN"
+    },
+    {
+      "name": "only_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Only"
+    },
+    {
+      "name": "shall_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:shall"
+    },
+    {
+      "name": "issued_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:issued"
+    },
+    {
+      "name": "single_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:single"
+    },
+    {
+      "name": "pan_one_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:PAN-One"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.12",
+      "purpose": "Retrieve knowledge payload for section 2.12",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/One-PAN-One-IEC/validate",
+      "purpose": "Validate inputs and documents for One PAN-One IEC",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/One-PAN-One-IEC/execute",
+      "purpose": "Trigger business action for 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "One_PAN_One_IEC_overview",
+      "name": "One PAN-One IEC Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "One_PAN_One_IEC_submission",
+      "name": "One PAN-One IEC Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "one_flag",
+        "iec_flag",
+        "pan_flag",
+        "only_flag",
+        "shall_flag",
+        "issued_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does One PAN-One IEC require?",
+    "Which documents are needed for One PAN-One IEC?",
+    "How does DEKAI validate One PAN-One IEC requests?",
+    "What action should be taken for One PAN-One IEC?"
+  ],
+  "expected_ai_answers": [
+    "One PAN-One IEC requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates One PAN-One IEC by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.12?",
+      "answer_en": "One PAN-One IEC explains the operating rule set that DEKAI should enforce. Key control points include 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN. The section also drives actions such as 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN..",
+      "question_thanglish": "Indha One PAN-One IEC section-la, What is the purpose of section 2.12?",
+      "answer_thanglish": "Indha One PAN-One IEC section-la, One PAN-One IEC explains the operating rule set that DEKAI should enforce. Key control points include 2.12 One PAN-One IEC\nOnly one IEC kandippa be issued against a single PAN. The section also drives actions such as 2.12 One PAN-One IEC\nOnly one IEC kandippa be issued against a single PAN.."
+    },
+    {
+      "question_en": "What documents are required under One PAN-One IEC?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha One PAN-One IEC section-la, What documents are required under One PAN-One IEC?",
+      "answer_thanglish": "Indha One PAN-One IEC section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles One PAN-One IEC?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha One PAN-One IEC section-la, Which authority handles One PAN-One IEC?",
+      "answer_thanglish": "Indha One PAN-One IEC section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with One PAN-One IEC?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.12, apply the extracted rules, and guide the user through 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN..",
+      "question_thanglish": "Indha One PAN-One IEC section-la, User asks: How do I comply with One PAN-One IEC?",
+      "answer_thanglish": "Indha One PAN-One IEC section-la, AI answers: DEKAI should evaluate section 2.12, apply the extracted rules, and guide the user through 2.12 One PAN-One IEC\nOnly one IEC kandippa be issued against a single PAN.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to One PAN-One IEC?",
+      "answer_en": "AI answers: Applicable validations are 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "question_thanglish": "Indha One PAN-One IEC section-la, User asks: Which validations apply to One PAN-One IEC?",
+      "answer_thanglish": "Indha One PAN-One IEC section-la, AI answers: Applicable validations are 2.12 One PAN-One IEC\nOnly one IEC kandippa be issued against a single PAN."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.12, title, and page references as immutable knowledge metadata.",
+    "Bind validations for One PAN-One IEC into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha One PAN-One IEC section-la, Capture chapter 2, section 2.12, title, and page references as immutable knowledge metadata.",
+    "Indha One PAN-One IEC section-la, Bind validations for One PAN-One IEC into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "One",
+    "IEC",
+    "PAN",
+    "Only",
+    "shall",
+    "issued",
+    "single",
+    "PAN-One",
+    "against"
+  ],
+  "search_keywords": [
+    "One",
+    "IEC",
+    "PAN",
+    "Only",
+    "shall",
+    "issued",
+    "single",
+    "PAN-One",
+    "against"
+  ],
+  "intent": "Support One PAN-One IEC processing and compliance validation.",
+  "tags": [
+    "2.12",
+    "One PAN-One IEC",
+    "business-rule",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN."
+  ],
+  "page_numbers": [
+    5
+  ],
+  "pages": [
+    5
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+  "mermaid": "flowchart TD\n    S1[\"2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.\"]\n    S2[\"Run validation: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.;\n:Run validation\\: 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.;\nstop\n@enduml"
+}

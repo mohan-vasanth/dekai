@@ -1,0 +1,47 @@
+{
+  "section": "2.17",
+  "ui": [
+    {
+      "screen_id": "Date_of_reckoning_of_Import_Export_overview",
+      "name": "Date of reckoning of Import / Export Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Date_of_reckoning_of_Import_Export_submission",
+      "name": "Date of reckoning of Import / Export Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "not_flag",
+        "the_flag",
+        "for_flag",
+        "ftp_flag",
+        "let_flag"
+      ]
+    },
+    {
+      "screen_id": "Date_of_reckoning_of_Import_Export_exceptions",
+      "name": "Date of reckoning of Import / Export Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

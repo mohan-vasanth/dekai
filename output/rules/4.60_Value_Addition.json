@@ -1,0 +1,54 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.60",
+  "title": "Value Addition",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_60-R001",
+      "rule_description": "4.60 Value Addition\nUnder scheme for export of jewellery, value addition shall be calculated as per\nParagraph 4.37 of FTP.",
+      "trigger": "Value Addition",
+      "condition": "c) Any jewellery / articles manufactured 2%\nby fully\nmechanized process (not applicable\nunder Advance Authorisation)\nd) Gold / silver / platinum medallions & 1.5%\ncoins (excluding coins of nature of legal\ntender) (not applicable under Advance\nAuthorisation)\ne) Gold / silver / platinum findings / 2.5%\nmountings manufactured by mechanized\nprocess\nf) Gold religious idols (only gods and 10% in case of plain gold\ngoddess of 8 carats and above (upto 24 religious idols (Non studded).",
+      "validation": "4.60 Value Addition\nUnder scheme for export of jewellery, value addition shall be calculated as per\nParagraph 4.37 of FTP.",
+      "action": "Manual review required.",
+      "exception": "Minimum Value Addition shall be:\nSl Items of export Minimum Value\nNo Addition\na) Plain gold / platinum / silver jewellery 3.5%\nand Articles and ornaments like\nMangalsutra containing gold and black\nbeads / imitation stones, except in\nstudded form of jewellery.",
+      "output": "DEKAI should produce a compliance decision for 4.60 - Value Addition."
+    },
+    {
+      "rule_id": "CH4-SEC4_60-R002",
+      "rule_description": "Minimum Value Addition shall be:\nSl Items of export Minimum Value\nNo Addition\na) Plain gold / platinum / silver jewellery 3.5%\nand Articles and ornaments like\nMangalsutra containing gold and black\nbeads / imitation stones, except in\nstudded form of jewellery.",
+      "trigger": "Value Addition",
+      "condition": "carats) 14% in case of plain gold\nreligious idols studded with\ncolour gem stones.",
+      "validation": "Minimum Value Addition shall be:\nSl Items of export Minimum Value\nNo Addition\na) Plain gold / platinum / silver jewellery 3.5%\nand Articles and ornaments like\nMangalsutra containing gold and black\nbeads / imitation stones, except in\nstudded form of jewellery.",
+      "action": "Manual review required.",
+      "exception": "113\nSl | | Items of export | Minimum Value |\nNo | | | Addition |\na) | | Plain gold / platinum / silver jewellery\nand Articles and ornaments like\nMangalsutra containing gold and black\nbeads / imitation stones, except in\nstudded form of jewellery.",
+      "output": "DEKAI should produce a compliance decision for 4.60 - Value Addition."
+    },
+    {
+      "rule_id": "CH4-SEC4_60-R003",
+      "rule_description": "|\n113\n4.60 Value Addition\nUnder scheme for export of jewellery, value addition shall be calculated as per\nParagraph 4.37 of FTP.",
+      "trigger": "Value Addition",
+      "condition": "|\nc) | | Any jewellery / articles manufactured\nby fully\nmechanized process (not applicable\nunder Advance Authorisation) | 2% |\nd) | | Gold / silver / platinum medallions &\ncoins (excluding coins of nature of legal\ntender) (not applicable under Advance\nAuthorisation) | 1.5% |\ne) | | Gold / silver / platinum findings /\nmountings manufactured by mechanized\nprocess | 2.5% |\nf) | | Gold religious idols (only gods and\ngoddess of 8 carats and above (upto 24\ncarats) | 10% in case of plain gold\nreligious idols (Non studded).",
+      "validation": "|\n113\n4.60 Value Addition\nUnder scheme for export of jewellery, value addition shall be calculated as per\nParagraph 4.37 of FTP.",
+      "action": "Manual review required.",
+      "exception": "Minimum Value Addition shall be:\nSl\nNo\nItems of export\nMinimum Value\nAddition\na)\nPlain gold / platinum / silver jewellery\nand\nArticles\nand\nornaments\nlike\nMangalsutra containing gold and black\nbeads / imitation stones, except\nin\nstudded form of jewellery.",
+      "output": "DEKAI should produce a compliance decision for 4.60 - Value Addition."
+    },
+    {
+      "rule_id": "CH4-SEC4_60-R004",
+      "rule_description": "Minimum Value Addition shall be:\nSl\nNo\nItems of export\nMinimum Value\nAddition\na)\nPlain gold / platinum / silver jewellery\nand\nArticles\nand\nornaments\nlike\nMangalsutra containing gold and black\nbeads / imitation stones, except\nin\nstudded form of jewellery.",
+      "trigger": "Value Addition",
+      "condition": "14% in case of plain gold\nreligious idols studded with\ncolour gem stones.",
+      "validation": "Minimum Value Addition shall be:\nSl\nNo\nItems of export\nMinimum Value\nAddition\na)\nPlain gold / platinum / silver jewellery\nand\nArticles\nand\nornaments\nlike\nMangalsutra containing gold and black\nbeads / imitation stones, except\nin\nstudded form of jewellery.",
+      "action": "Manual review required.",
+      "exception": "Minimum Value Addition shall be:\nSl\nNo\nItems of export\nMinimum Value\nAddition\na)\nPlain gold / platinum / silver jewellery\nand\nArticles\nand\nornaments\nlike\nMangalsutra containing gold and black\nbeads / imitation stones, except\nin\nstudded form of jewellery.",
+      "output": "DEKAI should produce a compliance decision for 4.60 - Value Addition."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.60 Value Addition\nUnder scheme for export of jewellery, value addition shall be calculated as per\nParagraph 4.37 of FTP.",
+    "IF detected context matches section rule THEN enforce: Minimum Value Addition shall be:\nSl Items of export Minimum Value\nNo Addition\na) Plain gold / platinum / silver jewellery 3.5%\nand Articles and ornaments like\nMangalsutra containing gold and black\nbeads / imitation stones, except in\nstudded form of jewellery.",
+    "IF detected context matches section rule THEN enforce: |\n113\n4.60 Value Addition\nUnder scheme for export of jewellery, value addition shall be calculated as per\nParagraph 4.37 of FTP.",
+    "IF detected context matches section rule THEN enforce: Minimum Value Addition shall be:\nSl\nNo\nItems of export\nMinimum Value\nAddition\na)\nPlain gold / platinum / silver jewellery\nand\nArticles\nand\nornaments\nlike\nMangalsutra containing gold and black\nbeads / imitation stones, except\nin\nstudded form of jewellery."
+  ]
+}

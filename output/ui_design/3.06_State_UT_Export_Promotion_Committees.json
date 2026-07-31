@@ -1,0 +1,37 @@
+{
+  "section": "3.06",
+  "ui": [
+    {
+      "screen_id": "State_UT_Export_Promotion_Committees_overview",
+      "name": "State/UT Export Promotion Committees Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "State_UT_Export_Promotion_Committees_submission",
+      "name": "State/UT Export Promotion Committees Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "may_flag",
+        "all_flag",
+        "from_flag",
+        "each_flag"
+      ]
+    }
+  ]
+}

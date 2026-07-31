@@ -1,0 +1,37 @@
+{
+  "section": "2.22",
+  "ui": [
+    {
+      "screen_id": "Application_for_Revalidation_overview",
+      "name": "Application for Revalidation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Application_for_Revalidation_submission",
+      "name": "Application for Revalidation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "may_flag",
+        "the_flag",
+        "has_flag",
+        "made_flag",
+        "which_flag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "section": "2.35",
+  "conditions": [
+    "2.35 End User Certificate\nIn case of import of any Free/Restricted items in India, if a foreign Government insists\non certification of the end user of the item before permitting export of the same from\ntheir country.",
+    "the Regional Authority (RA) may issue an End User Certificate (EUC) as\nper Appendix 2Q of Appendices and Aayat Niryat Forms.",
+    "The certificate shall be issued\nbased on an application made under ANF 2J, along with documents prescribed therein.",
+    "The quantity and value in the EUC should be limited to\nthe quantity and value specified in the said restricted authorisation."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.35.1",
+      "if": "2.35 End User Certificate\nIn case of import of any Free/Restricted items in India, if a foreign Government insists\non certification of the end user of the item before permitting export of the same from\ntheir country.",
+      "then": "the Regional Authority (RA) may issue an End User Certificate (EUC) as\nper Appendix 2Q of Appendices and Aayat Niryat Forms.",
+      "source": "2.35 End User Certificate\nIn case of import of any Free/Restricted items in India, if a foreign Government insists\non certification of the end user of the item before permitting export of the same from\ntheir country."
+    },
+    {
+      "id": "2.2.35.2",
+      "if": "the Regional Authority (RA) may issue an End User Certificate (EUC) as\nper Appendix 2Q of Appendices and Aayat Niryat Forms.",
+      "then": "the Regional Authority (RA) may issue an End User Certificate (EUC) as\nper Appendix 2Q of Appendices and Aayat Niryat Forms.",
+      "source": "the Regional Authority (RA) may issue an End User Certificate (EUC) as\nper Appendix 2Q of Appendices and Aayat Niryat Forms."
+    },
+    {
+      "id": "2.2.35.3",
+      "if": "The certificate shall be issued\nbased on an application made under ANF 2J, along with documents prescribed therein.",
+      "then": "the Regional Authority (RA) may issue an End User Certificate (EUC) as\nper Appendix 2Q of Appendices and Aayat Niryat Forms.",
+      "source": "The certificate shall be issued\nbased on an application made under ANF 2J, along with documents prescribed therein."
+    },
+    {
+      "id": "2.2.35.4",
+      "if": "The quantity and value in the EUC should be limited to\nthe quantity and value specified in the said restricted authorisation.",
+      "then": "the Regional Authority (RA) may issue an End User Certificate (EUC) as\nper Appendix 2Q of Appendices and Aayat Niryat Forms.",
+      "source": "The quantity and value in the EUC should be limited to\nthe quantity and value specified in the said restricted authorisation."
+    }
+  ]
+}

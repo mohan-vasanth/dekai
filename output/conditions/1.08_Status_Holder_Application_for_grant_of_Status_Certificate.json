@@ -1,0 +1,35 @@
+{
+  "section": "1.08",
+  "conditions": [
+    "1.08 Status Holder: Application for grant of Status Certificate\n(a) Exporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents.",
+    "(b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+    "1.08 Status Holder: Application for grant of Status Certificate\n(a)\nExporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents.",
+    "(b)\nOnline Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A."
+  ],
+  "condition_logic": [
+    {
+      "id": "1.1.08.1",
+      "if": "1.08 Status Holder: Application for grant of Status Certificate\n(a) Exporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents.",
+      "then": "(b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "source": "1.08 Status Holder: Application for grant of Status Certificate\n(a) Exporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents."
+    },
+    {
+      "id": "1.1.08.2",
+      "if": "(b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "then": "(b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "source": "(b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A."
+    },
+    {
+      "id": "1.1.08.3",
+      "if": "1.08 Status Holder: Application for grant of Status Certificate\n(a)\nExporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents.",
+      "then": "(b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "source": "1.08 Status Holder: Application for grant of Status Certificate\n(a)\nExporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents."
+    },
+    {
+      "id": "1.1.08.4",
+      "if": "(b)\nOnline Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "then": "(b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "source": "(b)\nOnline Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A."
+    }
+  ]
+}

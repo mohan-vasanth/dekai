@@ -1,0 +1,11 @@
+{
+  "section": "2.10",
+  "workflow": [
+    "Evaluate condition: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.",
+    "Run validation: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.",
+    "Handle exception: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority."
+  ],
+  "workflow_ascii": "Validity of IEC\nEvaluate condition: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.\n   |\n   v\nRun validation: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.\n   |\n   v\nHandle exception: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.\"]\n    S2[\"Run validation: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.\"]\n    S1 --> S2\n    S3[\"Handle exception: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.;\n:Run validation\\: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.;\n:Handle exception\\: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.;\nstop\n@enduml"
+}

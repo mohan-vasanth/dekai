@@ -1,0 +1,28 @@
+{
+  "section": "4.34",
+  "conditions": [
+    "(b) In case BG / LUT has been redeemed, Advance Authorisation holder can get\nduty free inputs processed from any manufacturer under Actual User\ncondition as per job work regulations prescribed in terms of provisions of GST\nActs under intimation to the Customs authority.",
+    "However, such restriction\nshall not be applicable in case of transferable DFIA holder.",
+    "(b)\nIn case BG / LUT has been redeemed, Advance Authorisation holder can get\nduty free inputs processed from any manufacturer under Actual User\ncondition as per job work regulations prescribed in terms of provisions of GST\nActs under intimation to the Customs authority."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.34.1",
+      "if": "(b) In case BG / LUT has been redeemed, Advance Authorisation holder can get\nduty free inputs processed from any manufacturer under Actual User\ncondition as per job work regulations prescribed in terms of provisions of GST\nActs under intimation to the Customs authority.",
+      "then": "Route for review",
+      "source": "(b) In case BG / LUT has been redeemed, Advance Authorisation holder can get\nduty free inputs processed from any manufacturer under Actual User\ncondition as per job work regulations prescribed in terms of provisions of GST\nActs under intimation to the Customs authority."
+    },
+    {
+      "id": "4.4.34.2",
+      "if": "However, such restriction\nshall not be applicable in case of transferable DFIA holder.",
+      "then": "Route for review",
+      "source": "However, such restriction\nshall not be applicable in case of transferable DFIA holder."
+    },
+    {
+      "id": "4.4.34.3",
+      "if": "(b)\nIn case BG / LUT has been redeemed, Advance Authorisation holder can get\nduty free inputs processed from any manufacturer under Actual User\ncondition as per job work regulations prescribed in terms of provisions of GST\nActs under intimation to the Customs authority.",
+      "then": "Route for review",
+      "source": "(b)\nIn case BG / LUT has been redeemed, Advance Authorisation holder can get\nduty free inputs processed from any manufacturer under Actual User\ncondition as per job work regulations prescribed in terms of provisions of GST\nActs under intimation to the Customs authority."
+    }
+  ]
+}

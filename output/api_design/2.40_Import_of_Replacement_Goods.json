@@ -1,0 +1,57 @@
+{
+  "section": "2.40",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.40",
+      "purpose": "Retrieve knowledge payload for section 2.40",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-of-Replacement-Goods/validate",
+      "purpose": "Validate inputs and documents for Import of Replacement Goods",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-of-Replacement-Goods/execute",
+      "purpose": "Trigger business action for Such goods shall be allowed clearance by the customs\nauthorities without an import Authorisation provided that:\n(a) Shipment of replacement goods is made within 24 months from date of clearance\nof previously imported goods through Customs or within guarantee period in\ncase of machines or parts thereof where such period is more than 24 months;\nand\n(b) No remittance shall be allowed except for payment of insurance and freight\ncharges where replacement of goods by foreign suppliers is subject to payment\nof insurance and / or freight by importer and documentary evidence to this effect\nis produced while making remittance.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

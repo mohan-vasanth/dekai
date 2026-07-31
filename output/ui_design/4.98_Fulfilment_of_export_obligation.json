@@ -1,0 +1,37 @@
+{
+  "section": "4.98",
+  "ui": [
+    {
+      "screen_id": "Fulfilment_of_export_obligation_overview",
+      "name": "Fulfilment of export obligation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Fulfilment_of_export_obligation_submission",
+      "name": "Fulfilment of export obligation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "anf_flag",
+        "and_flag",
+        "file_flag",
+        "shall_flag",
+        "export_flag",
+        "holder_flag"
+      ]
+    }
+  ]
+}

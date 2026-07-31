@@ -1,0 +1,35 @@
+{
+  "section": "4.96",
+  "conditions": [
+    "The import is subject to pre-Import condition.",
+    "Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.",
+    "Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation.",
+    "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.96.1",
+      "if": "The import is subject to pre-Import condition.",
+      "then": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "source": "The import is subject to pre-Import condition."
+    },
+    {
+      "id": "4.4.96.2",
+      "if": "Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority.",
+      "then": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "source": "Before clearance of goods through Customs, the holder of Diamond Imprest\nAuthorisation (DIA) shall execute a Bond equal to the export obligation of DIA\nalong with a performance Bank Guarantee of an amount equivalent to the duty\nforegone, with concerned Customs Authority."
+    },
+    {
+      "id": "4.4.96.3",
+      "if": "Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation.",
+      "then": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "source": "Only those exports which are made after the date of import, may be accepted\ntowards discharge of export obligation."
+    },
+    {
+      "id": "4.4.96.4",
+      "if": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "then": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued.",
+      "source": "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
+    }
+  ]
+}

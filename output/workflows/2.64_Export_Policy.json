@@ -1,0 +1,10 @@
+{
+  "section": "2.64",
+  "workflow": [
+    "Evaluate condition: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+    "Handle exception: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified."
+  ],
+  "workflow_ascii": "Export Policy\nEvaluate condition: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.\n   |\n   v\nHandle exception: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.\"]\n    S2[\"Handle exception: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.;\n:Handle exception\\: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.;\nstop\n@enduml"
+}

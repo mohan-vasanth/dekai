@@ -1,0 +1,37 @@
+{
+  "section": "8.04",
+  "ui": [
+    {
+      "screen_id": "Mechanism_for_resolving_Quality_Complaints_Trade_Disputes_overview",
+      "name": "Mechanism for resolving Quality Complaints/Trade Disputes Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Mechanism_for_resolving_Quality_Complaints_Trade_Disputes_submission",
+      "name": "Mechanism for resolving Quality Complaints/Trade Disputes Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "and_flag",
+        "act_flag",
+        "iii_flag",
+        "has_flag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.14",
+  "title": "Application and On-line Inter-Ministerial Consultations for fixation of",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_14-R001",
+      "rule_description": "4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i) Application filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days.",
+      "trigger": "Application and On-line Inter-Ministerial Consultations for fixation of",
+      "condition": "4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i) Application filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days.",
+      "validation": "4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i) Application filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days.",
+      "action": "Manual review required.",
+      "exception": "However, a certain\npercentage of cases as flagged by the RMS may be referred to Norms\nCommittee for validation / review.vi\n4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i)\nApplication filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days.",
+      "output": "DEKAI should produce a compliance decision for 4.14 - Application and On-line Inter-Ministerial Consultations for fixation of."
+    },
+    {
+      "rule_id": "CH4-SEC4_14-R002",
+      "rule_description": "However, a certain\npercentage of cases as flagged by the RMS may be referred to Norms\nCommittee for validation / review.vi\n4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i)\nApplication filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days.",
+      "trigger": "Application and On-line Inter-Ministerial Consultations for fixation of",
+      "condition": "(ii) The concerned Technical / Administrative Ministry / Department / Scientific\nand Technological institutions or any other agency as the case may be,\nmay communicate its views / comments / recommendations within 45 days\nelectronically/online.",
+      "validation": "However, a certain\npercentage of cases as flagged by the RMS may be referred to Norms\nCommittee for validation / review.vi\n4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i)\nApplication filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days.",
+      "action": "Manual review required.",
+      "exception": "However, a certain\npercentage of cases as flagged by the RMS may be referred to Norms\nCommittee for validation / review.vi",
+      "output": "DEKAI should produce a compliance decision for 4.14 - Application and On-line Inter-Ministerial Consultations for fixation of."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i) Application filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days.",
+    "IF detected context matches section rule THEN enforce: However, a certain\npercentage of cases as flagged by the RMS may be referred to Norms\nCommittee for validation / review.vi\n4.14 Application and On-line Inter-Ministerial Consultations for fixation of\nnorms/adhoc norms\n(i)\nApplication filed online by the applicant shall be forwarded electronically to\nthe concerned Technical / Administrative Ministry / Department /Scientific\nand Technological institutions or any other agency by the respective Norms\nCommittee in the DGFT headquarters within three days."
+  ]
+}

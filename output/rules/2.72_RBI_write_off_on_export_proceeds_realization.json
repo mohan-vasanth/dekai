@@ -1,0 +1,21 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.72",
+  "title": "RBI write-off on export proceeds realization",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_72-R001",
+      "rule_description": "2.72 RBI write-off on export proceeds realization\nRealization of export proceeds shall not be insisted under Foreign Trade Policy, if the\nReserve Bank of India (RBI) or any “Authorised Bank” (authorised by RBI for this\npurpose) writes off the requirement of realization of export proceeds on merits and\nthe exporter produces a certificate from the concerned Foreign Mission of India about\nthe fact of non-recovery of export proceeds from the buyer.",
+      "trigger": "RBI write-off on export proceeds realization",
+      "condition": "2.72 RBI write-off on export proceeds realization\nRealization of export proceeds shall not be insisted under Foreign Trade Policy, if the\nReserve Bank of India (RBI) or any “Authorised Bank” (authorised by RBI for this\npurpose) writes off the requirement of realization of export proceeds on merits and\nthe exporter produces a certificate from the concerned Foreign Mission of India about\nthe fact of non-recovery of export proceeds from the buyer.",
+      "validation": "2.72 RBI write-off on export proceeds realization\nRealization of export proceeds shall not be insisted under Foreign Trade Policy, if the\nReserve Bank of India (RBI) or any “Authorised Bank” (authorised by RBI for this\npurpose) writes off the requirement of realization of export proceeds on merits and\nthe exporter produces a certificate from the concerned Foreign Mission of India about\nthe fact of non-recovery of export proceeds from the buyer.",
+      "action": "Manual review required.",
+      "exception": "However, this would not\nbe applicable in self – write off cases.",
+      "output": "DEKAI should produce a compliance decision for 2.72 - RBI write-off on export proceeds realization."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.72 RBI write-off on export proceeds realization\nRealization of export proceeds shall not be insisted under Foreign Trade Policy, if the\nReserve Bank of India (RBI) or any “Authorised Bank” (authorised by RBI for this\npurpose) writes off the requirement of realization of export proceeds on merits and\nthe exporter produces a certificate from the concerned Foreign Mission of India about\nthe fact of non-recovery of export proceeds from the buyer."
+  ]
+}

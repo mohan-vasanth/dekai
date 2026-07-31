@@ -1,0 +1,57 @@
+{
+  "section": "2.49",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.49",
+      "purpose": "Retrieve knowledge payload for section 2.49",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-of-Restricted-items-required-by-Hotels-Restaurants-Travel/validate",
+      "purpose": "Validate inputs and documents for Import of Restricted items required by Hotels, Restaurants, Travel",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-of-Restricted-items-required-by-Hotels-Restaurants-Travel/execute",
+      "purpose": "Trigger business action for 28\n(b)\nImport/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

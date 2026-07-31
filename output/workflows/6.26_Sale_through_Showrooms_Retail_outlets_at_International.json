@@ -1,0 +1,10 @@
+{
+  "section": "6.26",
+  "workflow": [
+    "Evaluate condition: Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs.",
+    "Run validation: Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs."
+  ],
+  "workflow_ascii": "Sale through Showrooms / Retail outlets at International\nEvaluate condition: Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs.\n   |\n   v\nRun validation: Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs.\"]\n    S2[\"Run validation: Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs.;\n:Run validation\\: Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs.;\nstop\n@enduml"
+}

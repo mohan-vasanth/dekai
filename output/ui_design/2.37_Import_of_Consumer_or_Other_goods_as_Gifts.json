@@ -1,0 +1,47 @@
+{
+  "section": "2.37",
+  "ui": [
+    {
+      "screen_id": "Import_of_Consumer_or_Other_goods_as_Gifts_overview",
+      "name": "Import of Consumer or Other goods as Gifts Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Consumer_or_Other_goods_as_Gifts_submission",
+      "name": "Import of Consumer or Other goods as Gifts Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "ftp_flag",
+        "for_flag",
+        "itc_flag",
+        "the_flag",
+        "anf_flag",
+        "any_flag"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Consumer_or_Other_goods_as_Gifts_exceptions",
+      "name": "Import of Consumer or Other goods as Gifts Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

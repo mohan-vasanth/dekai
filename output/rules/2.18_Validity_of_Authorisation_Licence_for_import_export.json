@@ -1,0 +1,55 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.18",
+  "title": "Validity of Authorisation/ Licence for import/export",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_18-R001",
+      "rule_description": "2.18 Validity of Authorisation/ Licence for import/export\n(a) Authorisations must be valid on the date of import.",
+      "trigger": "Validity of Authorisation/ Licence for import/export",
+      "condition": "The\naffected exports would only be accounted for EO fulfilment only if the authority\nconcerned approves the EO extension.",
+      "validation": "2.18 Validity of Authorisation/ Licence for import/export\n(a) Authorisations must be valid on the date of import.",
+      "action": "The\naffected exports would only be accounted for EO fulfilment only if the authority\nconcerned approves the EO extension.",
+      "exception": "However, AA/ EPCG Authorisation holder(s)may continue to export\npost the export obligation period at their own risk and responsibility.",
+      "output": "DEKAI should produce a compliance decision for 2.18 - Validity of Authorisation/ Licence for import/export."
+    },
+    {
+      "rule_id": "CH2-SEC2_18-R002",
+      "rule_description": "(b) Similarly, export obligation period of an Authorisation must be valid on the date\nof export.",
+      "trigger": "Validity of Authorisation/ Licence for import/export",
+      "condition": "The\naffected exports would only be accounted for EO fulfilment only if the authority\nconcerned approves the EO extension.",
+      "validation": "(b) Similarly, export obligation period of an Authorisation must be valid on the date\nof export.",
+      "action": "The\naffected exports would only be accounted for EO fulfilment only if the authority\nconcerned approves the EO extension.",
+      "exception": "However, AA/ EPCG Authorisation holder(s)may continue to export\npost the export obligation period at their own risk and responsibility.",
+      "output": "DEKAI should produce a compliance decision for 2.18 - Validity of Authorisation/ Licence for import/export."
+    },
+    {
+      "rule_id": "CH2-SEC2_18-R003",
+      "rule_description": "2.18 Validity of Authorisation/ Licence for import/export\n(a)\nAuthorisations must be valid on the date of import.",
+      "trigger": "Validity of Authorisation/ Licence for import/export",
+      "condition": "The\naffected exports would only be accounted for EO fulfilment only if the authority\nconcerned approves the EO extension.",
+      "validation": "2.18 Validity of Authorisation/ Licence for import/export\n(a)\nAuthorisations must be valid on the date of import.",
+      "action": "The\naffected exports would only be accounted for EO fulfilment only if the authority\nconcerned approves the EO extension.",
+      "exception": "However, AA/ EPCG Authorisation holder(s)may continue to export\npost the export obligation period at their own risk and responsibility.",
+      "output": "DEKAI should produce a compliance decision for 2.18 - Validity of Authorisation/ Licence for import/export."
+    },
+    {
+      "rule_id": "CH2-SEC2_18-R004",
+      "rule_description": "(b)\nSimilarly, export obligation period of an Authorisation must be valid on the date\nof export.",
+      "trigger": "Validity of Authorisation/ Licence for import/export",
+      "condition": "The\naffected exports would only be accounted for EO fulfilment only if the authority\nconcerned approves the EO extension.",
+      "validation": "(b)\nSimilarly, export obligation period of an Authorisation must be valid on the date\nof export.",
+      "action": "The\naffected exports would only be accounted for EO fulfilment only if the authority\nconcerned approves the EO extension.",
+      "exception": "However, AA/ EPCG Authorisation holder(s)may continue to export\npost the export obligation period at their own risk and responsibility.",
+      "output": "DEKAI should produce a compliance decision for 2.18 - Validity of Authorisation/ Licence for import/export."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.18 Validity of Authorisation/ Licence for import/export\n(a) Authorisations must be valid on the date of import.",
+    "IF detected context matches section rule THEN enforce: (b) Similarly, export obligation period of an Authorisation must be valid on the date\nof export.",
+    "IF detected context matches section rule THEN enforce: 2.18 Validity of Authorisation/ Licence for import/export\n(a)\nAuthorisations must be valid on the date of import.",
+    "IF detected context matches section rule THEN enforce: (b)\nSimilarly, export obligation period of an Authorisation must be valid on the date\nof export.",
+    "IF validations pass THEN recommend action: The\naffected exports would only be accounted for EO fulfilment only if the authority\nconcerned approves the EO extension."
+  ]
+}

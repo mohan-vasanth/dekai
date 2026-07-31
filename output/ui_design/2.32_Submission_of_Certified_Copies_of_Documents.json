@@ -1,0 +1,37 @@
+{
+  "section": "2.32",
+  "ui": [
+    {
+      "screen_id": "Submission_of_Certified_Copies_of_Documents_overview",
+      "name": "Submission of Certified Copies of Documents Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Submission_of_Certified_Copies_of_Documents_submission",
+      "name": "Submission of Certified Copies of Documents Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "can_flag",
+        "him_flag",
+        "have_flag",
+        "been_flag",
+        "same_flag",
+        "duly_flag"
+      ]
+    }
+  ]
+}

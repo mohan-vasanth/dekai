@@ -1,0 +1,44 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.85",
+  "title": "Regularistion of Bonafide Default",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_85-R001",
+      "rule_description": "The interest / penalty shall be\nrequired to be paid in cash.",
+      "trigger": "Regularistion of Bonafide Default",
+      "condition": "4.85 Regularistion of Bonafide Default\nCases of bonafide default in fulfillment of Export Obligation by an exporter who\nhas obtained precious metals from nominated agencies may be regularised\nprovided exporter has paid customs duty along-with interest thereon as\nnotified by Do R.",
+      "validation": "The interest / penalty shall be\nrequired to be paid in cash.",
+      "action": "4.85 Regularistion of Bonafide Default\nCases of bonafide default in fulfillment of Export Obligation by an exporter who\nhas obtained precious metals from nominated agencies may be regularised\nprovided exporter has paid customs duty along-with interest thereon as\nnotified by Do R.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.85 - Regularistion of Bonafide Default."
+    },
+    {
+      "rule_id": "CH4-SEC4_85-R002",
+      "rule_description": "In case of Advance Authorisation, the provisions as\ngiven in paragraph 4.49 above shall apply.",
+      "trigger": "Regularistion of Bonafide Default",
+      "condition": "In case of Advance Authorisation, the provisions as\ngiven in paragraph 4.49 above shall apply.",
+      "validation": "In case of Advance Authorisation, the provisions as\ngiven in paragraph 4.49 above shall apply.",
+      "action": "Exporter will have the option to pay customs duty through\nvalid duty credit scrips issued under FTP.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.85 - Regularistion of Bonafide Default."
+    },
+    {
+      "rule_id": "CH4-SEC4_85-R003",
+      "rule_description": "This shall be without prejudice to\nany action that may be taken against exporter under FT(D&R) Act, Order or\nRules issued hereunder as amended from time to time.",
+      "trigger": "Regularistion of Bonafide Default",
+      "condition": "In case of Advance Authorisation, the provisions as\ngiven in paragraph 4.49 above shall apply.",
+      "validation": "This shall be without prejudice to\nany action that may be taken against exporter under FT(D&R) Act, Order or\nRules issued hereunder as amended from time to time.",
+      "action": "In case of Advance Authorisation, the provisions as\ngiven in paragraph 4.49 above shall apply.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.85 - Regularistion of Bonafide Default."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: The interest / penalty shall be\nrequired to be paid in cash.",
+    "IF detected context matches section rule THEN enforce: In case of Advance Authorisation, the provisions as\ngiven in paragraph 4.49 above shall apply.",
+    "IF detected context matches section rule THEN enforce: This shall be without prejudice to\nany action that may be taken against exporter under FT(D&R) Act, Order or\nRules issued hereunder as amended from time to time.",
+    "IF validations pass THEN recommend action: 4.85 Regularistion of Bonafide Default\nCases of bonafide default in fulfillment of Export Obligation by an exporter who\nhas obtained precious metals from nominated agencies may be regularised\nprovided exporter has paid customs duty along-with interest thereon as\nnotified by Do R."
+  ]
+}

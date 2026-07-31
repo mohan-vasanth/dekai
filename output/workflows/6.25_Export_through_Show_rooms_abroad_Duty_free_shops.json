@@ -1,0 +1,10 @@
+{
+  "section": "6.25",
+  "workflow": [
+    "Run validation: Items not sold abroad\nwithin 180 days shall be re- imported within 45 days.",
+    "Handle exception: 6.25 Export through Show-rooms abroad / Duty free shops\nExport of goods is also permitted for display / sale in permitted shops set up\nabroad or in showrooms of their distributors / agents."
+  ],
+  "workflow_ascii": "Export through Show-rooms abroad / Duty free shops\nRun validation: Items not sold abroad\nwithin 180 days shall be re- imported within 45 days.\n   |\n   v\nHandle exception: 6.25 Export through Show-rooms abroad / Duty free shops\nExport of goods is also permitted for display / sale in permitted shops set up\nabroad or in showrooms of their distributors / agents.",
+  "mermaid": "flowchart TD\n    S1[\"Run validation: Items not sold abroad\nwithin 180 days shall be re- imported within 45 days.\"]\n    S2[\"Handle exception: 6.25 Export through Show-rooms abroad / Duty free shops\nExport of goods is also permitted for display / sale in permitted shops set up\nabroad or in showrooms of their distributors / agents.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Run validation\\: Items not sold abroad\nwithin 180 days shall be re- imported within 45 days.;\n:Handle exception\\: 6.25 Export through Show-rooms abroad / Duty free shops\nExport of goods is also permitted for display / sale in permitted shops set up\nabroad or in showrooms of their distributors / agents.;\nstop\n@enduml"
+}

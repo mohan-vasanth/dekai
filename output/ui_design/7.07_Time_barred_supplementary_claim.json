@@ -1,0 +1,37 @@
+{
+  "section": "7.07",
+  "ui": [
+    {
+      "screen_id": "Time_barred_supplementary_claim_overview",
+      "name": "Time barred / supplementary claim Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Time_barred_supplementary_claim_submission",
+      "name": "Time barred / supplementary claim Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "cut_flag",
+        "hbp_flag",
+        "and_flag",
+        "time_flag",
+        "case_flag",
+        "late_flag"
+      ]
+    }
+  ]
+}

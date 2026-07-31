@@ -1,0 +1,35 @@
+{
+  "section": "6.36",
+  "conditions": [
+    "152\nbanding;\nk)\nExercise powers of adjudication under Section 13 read with Section\n11 of FT (D&R) Act, in respect of EOUs as mentioned in Gazette\nNotification No.",
+    "(M.A Series) Circular AP (DIR series Circular No.9 dated\n25.10.2001);\nm)\nIssue eligibility certificates for grant of employment visa to low\nlevel foreign technicians to be engaged by EOUs as per Ministry of\nHome Affairs letter No.",
+    "25022/7/99-F.1 dated 20.9.1999;\nn)\nRegistration-cum-Membership\nCertificate\nFunction\nas\na\nRegistering authority for EOU / EHTP / STP / BTP unit.",
+    "A separate\nRegistration–cum–Membership Certificate shall not be required in\ntheir cases as provided for in Paragraph 2.56 of FTP;\no)\nGreen Card Issue of Green Card automatically after execution of LUT;\np)\nGrant / renewal of Status Certificate in respect of EOUs provided it\ndoes not involve clubbing of FOB value of exports of its parent\ncompany in DTA;\nq)\nPublicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.36.1",
+      "if": "152\nbanding;\nk)\nExercise powers of adjudication under Section 13 read with Section\n11 of FT (D&R) Act, in respect of EOUs as mentioned in Gazette\nNotification No.",
+      "then": "(M.A Series) Circular AP (DIR series Circular No.9 dated\n25.10.2001);\nm)\nIssue eligibility certificates for grant of employment visa to low\nlevel foreign technicians to be engaged by EOUs as per Ministry of\nHome Affairs letter No.",
+      "source": "152\nbanding;\nk)\nExercise powers of adjudication under Section 13 read with Section\n11 of FT (D&R) Act, in respect of EOUs as mentioned in Gazette\nNotification No."
+    },
+    {
+      "id": "6.6.36.2",
+      "if": "(M.A Series) Circular AP (DIR series Circular No.9 dated\n25.10.2001);\nm)\nIssue eligibility certificates for grant of employment visa to low\nlevel foreign technicians to be engaged by EOUs as per Ministry of\nHome Affairs letter No.",
+      "then": "(M.A Series) Circular AP (DIR series Circular No.9 dated\n25.10.2001);\nm)\nIssue eligibility certificates for grant of employment visa to low\nlevel foreign technicians to be engaged by EOUs as per Ministry of\nHome Affairs letter No.",
+      "source": "(M.A Series) Circular AP (DIR series Circular No.9 dated\n25.10.2001);\nm)\nIssue eligibility certificates for grant of employment visa to low\nlevel foreign technicians to be engaged by EOUs as per Ministry of\nHome Affairs letter No."
+    },
+    {
+      "id": "6.6.36.3",
+      "if": "25022/7/99-F.1 dated 20.9.1999;\nn)\nRegistration-cum-Membership\nCertificate\nFunction\nas\na\nRegistering authority for EOU / EHTP / STP / BTP unit.",
+      "then": "(M.A Series) Circular AP (DIR series Circular No.9 dated\n25.10.2001);\nm)\nIssue eligibility certificates for grant of employment visa to low\nlevel foreign technicians to be engaged by EOUs as per Ministry of\nHome Affairs letter No.",
+      "source": "25022/7/99-F.1 dated 20.9.1999;\nn)\nRegistration-cum-Membership\nCertificate\nFunction\nas\na\nRegistering authority for EOU / EHTP / STP / BTP unit."
+    },
+    {
+      "id": "6.6.36.4",
+      "if": "A separate\nRegistration–cum–Membership Certificate shall not be required in\ntheir cases as provided for in Paragraph 2.56 of FTP;\no)\nGreen Card Issue of Green Card automatically after execution of LUT;\np)\nGrant / renewal of Status Certificate in respect of EOUs provided it\ndoes not involve clubbing of FOB value of exports of its parent\ncompany in DTA;\nq)\nPublicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.",
+      "then": "(M.A Series) Circular AP (DIR series Circular No.9 dated\n25.10.2001);\nm)\nIssue eligibility certificates for grant of employment visa to low\nlevel foreign technicians to be engaged by EOUs as per Ministry of\nHome Affairs letter No.",
+      "source": "A separate\nRegistration–cum–Membership Certificate shall not be required in\ntheir cases as provided for in Paragraph 2.56 of FTP;\no)\nGreen Card Issue of Green Card automatically after execution of LUT;\np)\nGrant / renewal of Status Certificate in respect of EOUs provided it\ndoes not involve clubbing of FOB value of exports of its parent\ncompany in DTA;\nq)\nPublicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction."
+    }
+  ]
+}

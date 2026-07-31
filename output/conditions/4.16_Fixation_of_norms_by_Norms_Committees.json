@@ -1,0 +1,42 @@
+{
+  "section": "4.16",
+  "conditions": [
+    "(ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+    "In case SION for the said\nproduct is notified, SION would be made applicable for deciding wastage\nnorms and Export Obligation.",
+    "(iii) In cases where entitlement of the applicant for grant of Advance\nAuthorisation as per paragraph 4.12 of HBP was lower than the quantity of\ninput applied by the applicant under Advance Authorisation and export\nobligation is completed while fixation of norms by Norms Committee is\npending, entitlement for authorisation as given in paragraph 4.12 of HBP may\nbe re-credited upon production of documentary evidence (copies of Shipping\nbill / bill of export/ Tax invoice for supply prescribed under CGST/SGST/UT\nGST rules) showing fulfilment of export obligation in respect of previous\nauthorisations.",
+    "(ii)\nIn case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+    "(iii)\nIn cases where entitlement of the applicant for grant of Advance\nAuthorisation as per paragraph 4.12 of HBP was lower than the quantity of\ninput applied by the applicant under Advance Authorisation and export\nobligation is completed while fixation of norms by Norms Committee is\npending, entitlement for authorisation as given in paragraph 4.12 of HBP may\nbe re-credited upon production of documentary evidence (copies of Shipping\nbill / bill of export/ Tax invoice for supply prescribed under CGST/SGST/UT\nGST rules) showing fulfilment of export obligation in respect of previous\nauthorisations."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.16.1",
+      "if": "(ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "then": "(ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "source": "(ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP."
+    },
+    {
+      "id": "4.4.16.2",
+      "if": "In case SION for the said\nproduct is notified, SION would be made applicable for deciding wastage\nnorms and Export Obligation.",
+      "then": "(ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "source": "In case SION for the said\nproduct is notified, SION would be made applicable for deciding wastage\nnorms and Export Obligation."
+    },
+    {
+      "id": "4.4.16.3",
+      "if": "(iii) In cases where entitlement of the applicant for grant of Advance\nAuthorisation as per paragraph 4.12 of HBP was lower than the quantity of\ninput applied by the applicant under Advance Authorisation and export\nobligation is completed while fixation of norms by Norms Committee is\npending, entitlement for authorisation as given in paragraph 4.12 of HBP may\nbe re-credited upon production of documentary evidence (copies of Shipping\nbill / bill of export/ Tax invoice for supply prescribed under CGST/SGST/UT\nGST rules) showing fulfilment of export obligation in respect of previous\nauthorisations.",
+      "then": "(ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "source": "(iii) In cases where entitlement of the applicant for grant of Advance\nAuthorisation as per paragraph 4.12 of HBP was lower than the quantity of\ninput applied by the applicant under Advance Authorisation and export\nobligation is completed while fixation of norms by Norms Committee is\npending, entitlement for authorisation as given in paragraph 4.12 of HBP may\nbe re-credited upon production of documentary evidence (copies of Shipping\nbill / bill of export/ Tax invoice for supply prescribed under CGST/SGST/UT\nGST rules) showing fulfilment of export obligation in respect of previous\nauthorisations."
+    },
+    {
+      "id": "4.4.16.4",
+      "if": "(ii)\nIn case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "then": "(ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "source": "(ii)\nIn case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP."
+    },
+    {
+      "id": "4.4.16.5",
+      "if": "(iii)\nIn cases where entitlement of the applicant for grant of Advance\nAuthorisation as per paragraph 4.12 of HBP was lower than the quantity of\ninput applied by the applicant under Advance Authorisation and export\nobligation is completed while fixation of norms by Norms Committee is\npending, entitlement for authorisation as given in paragraph 4.12 of HBP may\nbe re-credited upon production of documentary evidence (copies of Shipping\nbill / bill of export/ Tax invoice for supply prescribed under CGST/SGST/UT\nGST rules) showing fulfilment of export obligation in respect of previous\nauthorisations.",
+      "then": "(ii) In case application for fixation of adhoc norms / SION is rejected on ground\nof non-furnishing of required documents/ information to Norms Committee\nor technical authority represented in Norms Committee, authorisation\nholder shall be liable to pay customs duty with interest as notified by Do R\nand amount as per paragraph 4.49(a)(ii) of HBP.",
+      "source": "(iii)\nIn cases where entitlement of the applicant for grant of Advance\nAuthorisation as per paragraph 4.12 of HBP was lower than the quantity of\ninput applied by the applicant under Advance Authorisation and export\nobligation is completed while fixation of norms by Norms Committee is\npending, entitlement for authorisation as given in paragraph 4.12 of HBP may\nbe re-credited upon production of documentary evidence (copies of Shipping\nbill / bill of export/ Tax invoice for supply prescribed under CGST/SGST/UT\nGST rules) showing fulfilment of export obligation in respect of previous\nauthorisations."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "section": "10.15",
+  "conditions": [
+    "Scope and Eligibility: Pre-export authorisation will not be required,\nfor export and/or re-export of SCOMET items including software and\ntechnology under SCOMET Category 8 (except items listed in Appendix 10M),\nsubject to the following conditions:\ni.",
+    "where the export is an Intra-company transfer from the Indian parent\ncompany (applicant exporter) to its foreign subsidiary company or\nfrom the Indian subsidiary of foreign company (applicant exporter) to\nits foreign parent/another subsidiary of foreign parent company and;\nNote: In case of third party involvement in the supply chain, the end user\nhas to be a foreign parent / another subsidiary of foreign parent\ncompany or a subsidiary company of Indian company.",
+    "where the transfer fulfils the conditions mentioned at (a) to (h) below:\na.",
+    "The items/software/technology to be exported/re-exported is\nbased on a Master Service Agreement / Contract between the\nIndian parent company/Indian subsidiary of foreign company\nand foreign subsidiary of Indian company/foreign parent\ncompany of Indian subsidiary for carrying out certain services\nbut not limited to design, encryption, research, development,\ndelivery, validation, calibration, testing, related services, etc.;\nNote 1: As a result of the service carried out by the Indian exporter in\ncase of re-export, the items/software/technology should not undergo\nchange in classification.",
+    "The applicant exporter furnishes either a certified/approved\nInternal Compliance Programme (ICP) or demonstrates\ncompliance to the ICP of the foreign parent company or ICP\ncertified by the Compliance Manager of the company or certified\nby any Government agency such as Authorized Economic\nOperator (AEO) scheme etc.",
+    "The exporter agrees to allow on-site inspection, if required by the\nDGFT or authorized representatives of Government of India;\nf.",
+    "No export authorisation shall be granted to an exporter specified\nat (i) above if they have come to adverse notice previously;\nh."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.10.15.1",
+      "if": "Scope and Eligibility: Pre-export authorisation will not be required,\nfor export and/or re-export of SCOMET items including software and\ntechnology under SCOMET Category 8 (except items listed in Appendix 10M),\nsubject to the following conditions:\ni.",
+      "then": "However, the final decision to approve a GAICT\nauthorisation lies with the relevant authority.",
+      "source": "Scope and Eligibility: Pre-export authorisation will not be required,\nfor export and/or re-export of SCOMET items including software and\ntechnology under SCOMET Category 8 (except items listed in Appendix 10M),\nsubject to the following conditions:\ni."
+    },
+    {
+      "id": "10.10.15.2",
+      "if": "where the export is an Intra-company transfer from the Indian parent\ncompany (applicant exporter) to its foreign subsidiary company or\nfrom the Indian subsidiary of foreign company (applicant exporter) to\nits foreign parent/another subsidiary of foreign parent company and;\nNote: In case of third party involvement in the supply chain, the end user\nhas to be a foreign parent / another subsidiary of foreign parent\ncompany or a subsidiary company of Indian company.",
+      "then": "However, the final decision to approve a GAICT\nauthorisation lies with the relevant authority.",
+      "source": "where the export is an Intra-company transfer from the Indian parent\ncompany (applicant exporter) to its foreign subsidiary company or\nfrom the Indian subsidiary of foreign company (applicant exporter) to\nits foreign parent/another subsidiary of foreign parent company and;\nNote: In case of third party involvement in the supply chain, the end user\nhas to be a foreign parent / another subsidiary of foreign parent\ncompany or a subsidiary company of Indian company."
+    },
+    {
+      "id": "10.10.15.3",
+      "if": "where the transfer fulfils the conditions mentioned at (a) to (h) below:\na.",
+      "then": "However, the final decision to approve a GAICT\nauthorisation lies with the relevant authority.",
+      "source": "where the transfer fulfils the conditions mentioned at (a) to (h) below:\na."
+    },
+    {
+      "id": "10.10.15.4",
+      "if": "The items/software/technology to be exported/re-exported is\nbased on a Master Service Agreement / Contract between the\nIndian parent company/Indian subsidiary of foreign company\nand foreign subsidiary of Indian company/foreign parent\ncompany of Indian subsidiary for carrying out certain services\nbut not limited to design, encryption, research, development,\ndelivery, validation, calibration, testing, related services, etc.;\nNote 1: As a result of the service carried out by the Indian exporter in\ncase of re-export, the items/software/technology should not undergo\nchange in classification.",
+      "then": "However, the final decision to approve a GAICT\nauthorisation lies with the relevant authority.",
+      "source": "The items/software/technology to be exported/re-exported is\nbased on a Master Service Agreement / Contract between the\nIndian parent company/Indian subsidiary of foreign company\nand foreign subsidiary of Indian company/foreign parent\ncompany of Indian subsidiary for carrying out certain services\nbut not limited to design, encryption, research, development,\ndelivery, validation, calibration, testing, related services, etc.;\nNote 1: As a result of the service carried out by the Indian exporter in\ncase of re-export, the items/software/technology should not undergo\nchange in classification."
+    },
+    {
+      "id": "10.10.15.5",
+      "if": "The applicant exporter furnishes either a certified/approved\nInternal Compliance Programme (ICP) or demonstrates\ncompliance to the ICP of the foreign parent company or ICP\ncertified by the Compliance Manager of the company or certified\nby any Government agency such as Authorized Economic\nOperator (AEO) scheme etc.",
+      "then": "However, the final decision to approve a GAICT\nauthorisation lies with the relevant authority.",
+      "source": "The applicant exporter furnishes either a certified/approved\nInternal Compliance Programme (ICP) or demonstrates\ncompliance to the ICP of the foreign parent company or ICP\ncertified by the Compliance Manager of the company or certified\nby any Government agency such as Authorized Economic\nOperator (AEO) scheme etc."
+    },
+    {
+      "id": "10.10.15.6",
+      "if": "The exporter agrees to allow on-site inspection, if required by the\nDGFT or authorized representatives of Government of India;\nf.",
+      "then": "However, the final decision to approve a GAICT\nauthorisation lies with the relevant authority.",
+      "source": "The exporter agrees to allow on-site inspection, if required by the\nDGFT or authorized representatives of Government of India;\nf."
+    },
+    {
+      "id": "10.10.15.7",
+      "if": "No export authorisation shall be granted to an exporter specified\nat (i) above if they have come to adverse notice previously;\nh.",
+      "then": "However, the final decision to approve a GAICT\nauthorisation lies with the relevant authority.",
+      "source": "No export authorisation shall be granted to an exporter specified\nat (i) above if they have come to adverse notice previously;\nh."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "4.58",
+  "ui": [
+    {
+      "screen_id": "Application_for_Replenishment_Authorisation_overview",
+      "name": "Application for Replenishment Authorisation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Application_for_Replenishment_Authorisation_submission",
+      "name": "Application for Replenishment Authorisation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "rep_flag",
+        "and_flag",
+        "the_flag",
+        "per_flag",
+        "six_flag"
+      ]
+    }
+  ]
+}

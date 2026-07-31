@@ -1,0 +1,37 @@
+{
+  "section": "2.09",
+  "ui": [
+    {
+      "screen_id": "IEC_Format_overview",
+      "name": "IEC Format Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "IEC_Format_submission",
+      "name": "IEC Format Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "iec_flag",
+        "the_flag",
+        "may_flag",
+        "any_flag",
+        "copy_flag",
+        "dgft_flag"
+      ]
+    }
+  ]
+}

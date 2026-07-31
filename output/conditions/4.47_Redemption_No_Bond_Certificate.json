@@ -1,0 +1,119 @@
+{
+  "section": "4.47",
+  "conditions": [
+    "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+    "If exports\nmade are less than the export obligation stipulated in the Authorisation,\nrequest for waiver of bond condition, on pro-rata basis, can also be\nconsidered.",
+    "(i) For such a request, an applicant has to file online application\nattaching Shipping Bills and e-BRC/ export realisations from RBI's\nEDPMS wherever available in DGFT IT system.",
+    "In case of deemed exports or export from non-EDI ports,\nthe documents evidencing proof of export/supply shall be\nsubmitted at the counter of Regional Authority concerned giving\nreference of online application in physical form except e- BRC/\nexport realisations from RBI's EDPMS wherever available in DGFT\nIT system.",
+    "(ii) In case Export Obligation has been fulfilled, Regional Authority\nshall issue Bond Waiver Certificate (BWC) and forward a copy to\nthe Customs authority at the port of registration of Authorisation\nenclosing details of shipping bill number(s), date(s), FOB value in\nIndian Rupees as per shipping bill(s) and description of export\nproducts in respect of shipment taken into account for allowing\nwaiver of Bond condition.",
+    "Such bond waiver shall not preclude the\nCustoms Authority from taking bond in terms of the Customs\nnotification.",
+    "(iii) While allowing waiver of Bond for such exports, Regional Authority\nmay revalidate the Authorisation in continuation for further six\nmonths for replenishment of inputs consumed in the production of\nexported product, from the date of endorsement provided\napplicant has made a specific request in ANF 4D and paid requisite\npg.",
+    "102\n4.47 Redemption/No Bond Certificate\n(a)\nBond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+    "(i)\nFor such a request, an applicant has to file online application\nattaching Shipping Bills and e-BRC/ export realisations from RBI's\nEDPMS wherever available in DGFT IT system.",
+    "(iii) While allowing waiver of Bond for such exports, Regional Authority\nmay revalidate the Authorisation in continuation for further six\nmonths for replenishment of inputs consumed in the production of\nexported product, from the date of endorsement provided\napplicant has made a specific request in ANF 4D and paid requisite\nfee for revalidation.",
+    "It will be further subject to condition that\nthe applicant had not obtained revalidation earlier in terms of Para\n4.39 (c) of HBP.",
+    "(iv) Copy of the Bond Waiver Certificate will also be endorsed by the\nRegional Authority to the Customs at the Port of Registration\neventually through EDI mode.",
+    "(b) Export Obligation Discharge Certificate (EODC):\n(i) On completion of exports and imports, the Authorisation holder\nshall submit online application in ANF-4F as in (a) (i) above.",
+    "In such\ncases, if Export Obligation has been fulfilled, the Regional Authority\nmay issue EODC / Redemption Certificate to Authorisation holder\nand forward a copy to the Customs authority at the port of\nregistration of Authorisation indicating the same details of proof of\nfulfilment of Export Obligation as stated in paragraph(a) above\nevidencing fulfilment of Export Obligation.",
+    "(d) Regional Authority shall take action against Authorisation holder in case\nof non-submission of Appendix 4H & 4-I duly filled in, as stipulated in\nparagraph 4.51 below or for any misrepresentation, mis- declaration\nand default detected subsequently in details declared and furnished in\nAppendix 4H & 4-I.",
+    "An endorsement to this effect shall be made by\nRegional Authority in the redemption certificate."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.47.1",
+      "if": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent."
+    },
+    {
+      "id": "4.4.47.2",
+      "if": "If exports\nmade are less than the export obligation stipulated in the Authorisation,\nrequest for waiver of bond condition, on pro-rata basis, can also be\nconsidered.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "If exports\nmade are less than the export obligation stipulated in the Authorisation,\nrequest for waiver of bond condition, on pro-rata basis, can also be\nconsidered."
+    },
+    {
+      "id": "4.4.47.3",
+      "if": "(i) For such a request, an applicant has to file online application\nattaching Shipping Bills and e-BRC/ export realisations from RBI's\nEDPMS wherever available in DGFT IT system.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "(i) For such a request, an applicant has to file online application\nattaching Shipping Bills and e-BRC/ export realisations from RBI's\nEDPMS wherever available in DGFT IT system."
+    },
+    {
+      "id": "4.4.47.4",
+      "if": "In case of deemed exports or export from non-EDI ports,\nthe documents evidencing proof of export/supply shall be\nsubmitted at the counter of Regional Authority concerned giving\nreference of online application in physical form except e- BRC/\nexport realisations from RBI's EDPMS wherever available in DGFT\nIT system.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "In case of deemed exports or export from non-EDI ports,\nthe documents evidencing proof of export/supply shall be\nsubmitted at the counter of Regional Authority concerned giving\nreference of online application in physical form except e- BRC/\nexport realisations from RBI's EDPMS wherever available in DGFT\nIT system."
+    },
+    {
+      "id": "4.4.47.5",
+      "if": "(ii) In case Export Obligation has been fulfilled, Regional Authority\nshall issue Bond Waiver Certificate (BWC) and forward a copy to\nthe Customs authority at the port of registration of Authorisation\nenclosing details of shipping bill number(s), date(s), FOB value in\nIndian Rupees as per shipping bill(s) and description of export\nproducts in respect of shipment taken into account for allowing\nwaiver of Bond condition.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "(ii) In case Export Obligation has been fulfilled, Regional Authority\nshall issue Bond Waiver Certificate (BWC) and forward a copy to\nthe Customs authority at the port of registration of Authorisation\nenclosing details of shipping bill number(s), date(s), FOB value in\nIndian Rupees as per shipping bill(s) and description of export\nproducts in respect of shipment taken into account for allowing\nwaiver of Bond condition."
+    },
+    {
+      "id": "4.4.47.6",
+      "if": "Such bond waiver shall not preclude the\nCustoms Authority from taking bond in terms of the Customs\nnotification.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "Such bond waiver shall not preclude the\nCustoms Authority from taking bond in terms of the Customs\nnotification."
+    },
+    {
+      "id": "4.4.47.7",
+      "if": "(iii) While allowing waiver of Bond for such exports, Regional Authority\nmay revalidate the Authorisation in continuation for further six\nmonths for replenishment of inputs consumed in the production of\nexported product, from the date of endorsement provided\napplicant has made a specific request in ANF 4D and paid requisite\npg.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "(iii) While allowing waiver of Bond for such exports, Regional Authority\nmay revalidate the Authorisation in continuation for further six\nmonths for replenishment of inputs consumed in the production of\nexported product, from the date of endorsement provided\napplicant has made a specific request in ANF 4D and paid requisite\npg."
+    },
+    {
+      "id": "4.4.47.8",
+      "if": "102\n4.47 Redemption/No Bond Certificate\n(a)\nBond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "102\n4.47 Redemption/No Bond Certificate\n(a)\nBond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent."
+    },
+    {
+      "id": "4.4.47.9",
+      "if": "(i)\nFor such a request, an applicant has to file online application\nattaching Shipping Bills and e-BRC/ export realisations from RBI's\nEDPMS wherever available in DGFT IT system.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "(i)\nFor such a request, an applicant has to file online application\nattaching Shipping Bills and e-BRC/ export realisations from RBI's\nEDPMS wherever available in DGFT IT system."
+    },
+    {
+      "id": "4.4.47.10",
+      "if": "(iii) While allowing waiver of Bond for such exports, Regional Authority\nmay revalidate the Authorisation in continuation for further six\nmonths for replenishment of inputs consumed in the production of\nexported product, from the date of endorsement provided\napplicant has made a specific request in ANF 4D and paid requisite\nfee for revalidation.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "(iii) While allowing waiver of Bond for such exports, Regional Authority\nmay revalidate the Authorisation in continuation for further six\nmonths for replenishment of inputs consumed in the production of\nexported product, from the date of endorsement provided\napplicant has made a specific request in ANF 4D and paid requisite\nfee for revalidation."
+    },
+    {
+      "id": "4.4.47.11",
+      "if": "It will be further subject to condition that\nthe applicant had not obtained revalidation earlier in terms of Para\n4.39 (c) of HBP.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "It will be further subject to condition that\nthe applicant had not obtained revalidation earlier in terms of Para\n4.39 (c) of HBP."
+    },
+    {
+      "id": "4.4.47.12",
+      "if": "(iv) Copy of the Bond Waiver Certificate will also be endorsed by the\nRegional Authority to the Customs at the Port of Registration\neventually through EDI mode.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "(iv) Copy of the Bond Waiver Certificate will also be endorsed by the\nRegional Authority to the Customs at the Port of Registration\neventually through EDI mode."
+    },
+    {
+      "id": "4.4.47.13",
+      "if": "(b) Export Obligation Discharge Certificate (EODC):\n(i) On completion of exports and imports, the Authorisation holder\nshall submit online application in ANF-4F as in (a) (i) above.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "(b) Export Obligation Discharge Certificate (EODC):\n(i) On completion of exports and imports, the Authorisation holder\nshall submit online application in ANF-4F as in (a) (i) above."
+    },
+    {
+      "id": "4.4.47.14",
+      "if": "Export Obligation has been fulfilled",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "In such\ncases, if Export Obligation has been fulfilled, the Regional Authority\nmay issue EODC / Redemption Certificate to Authorisation holder\nand forward a copy to the Customs authority at the port of\nregistration of Authorisation indicating the same details of proof of\nfulfilment of Export Obligation as stated in paragraph(a) above\nevidencing fulfilment of Export Obligation."
+    },
+    {
+      "id": "4.4.47.15",
+      "if": "(d) Regional Authority shall take action against Authorisation holder in case\nof non-submission of Appendix 4H & 4-I duly filled in, as stipulated in\nparagraph 4.51 below or for any misrepresentation, mis- declaration\nand default detected subsequently in details declared and furnished in\nAppendix 4H & 4-I.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "(d) Regional Authority shall take action against Authorisation holder in case\nof non-submission of Appendix 4H & 4-I duly filled in, as stipulated in\nparagraph 4.51 below or for any misrepresentation, mis- declaration\nand default detected subsequently in details declared and furnished in\nAppendix 4H & 4-I."
+    },
+    {
+      "id": "4.4.47.16",
+      "if": "An endorsement to this effect shall be made by\nRegional Authority in the redemption certificate.",
+      "then": "4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "source": "An endorsement to this effect shall be made by\nRegional Authority in the redemption certificate."
+    }
+  ]
+}

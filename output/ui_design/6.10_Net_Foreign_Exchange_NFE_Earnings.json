@@ -1,0 +1,47 @@
+{
+  "section": "6.10",
+  "ui": [
+    {
+      "screen_id": "Net_Foreign_Exchange_NFE_Earnings_overview",
+      "name": "Net Foreign Exchange (NFE) Earnings Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Net_Foreign_Exchange_NFE_Earnings_submission",
+      "name": "Net Foreign Exchange (NFE) Earnings Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "net_flag",
+        "nfe_flag",
+        "eou_flag",
+        "stp_flag",
+        "btp_flag",
+        "the_flag"
+      ]
+    },
+    {
+      "screen_id": "Net_Foreign_Exchange_NFE_Earnings_exceptions",
+      "name": "Net Foreign Exchange (NFE) Earnings Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

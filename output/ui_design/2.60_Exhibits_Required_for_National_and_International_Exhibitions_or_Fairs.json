@@ -1,0 +1,47 @@
+{
+  "section": "2.60",
+  "ui": [
+    {
+      "screen_id": "Exhibits_Required_for_National_and_International_Exhibitions_or_Fairs_overview",
+      "name": "Exhibits Required for National and International Exhibitions or Fairs Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Exhibits_Required_for_National_and_International_Exhibitions_or_Fairs_submission",
+      "name": "Exhibits Required for National and International Exhibitions or Fairs Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "and_flag",
+        "the_flag",
+        "six_flag",
+        "ata_flag",
+        "etc_flag"
+      ]
+    },
+    {
+      "screen_id": "Exhibits_Required_for_National_and_International_Exhibitions_or_Fairs_exceptions",
+      "name": "Exhibits Required for National and International Exhibitions or Fairs Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

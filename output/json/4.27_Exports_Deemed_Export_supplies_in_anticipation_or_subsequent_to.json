@@ -1,0 +1,519 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.27",
+  "title": "Exports/Deemed Export supplies in anticipation or subsequent to",
+  "purpose": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\npg.",
+  "purpose_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, 4.27 Exports/Deemed export supplies in anticipation or subsequent to\npg.",
+  "summary": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\npg. 88\npg. 88\nalong-with requisite data in ANF 4B.",
+  "business_meaning": "Exports/Deemed Export supplies in anticipation or subsequent to governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Exports/Deemed Export supplies in anticipation or subsequent to explains the operating rule set that DEKAI should enforce. Key control points include Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued. The section also drives actions such as 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation..",
+  "business_explanation_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Exports/Deemed export supplies in anticipation or subsequent to explains the operating rule set that DEKAI should enforce. Key control points include Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed export\nsupplies with Authorisation issued. The section also drives actions such as 4.27 Exports/Deemed export supplies in anticipation or subsequent to\nissue of an Authorisation..",
+  "business_logic": [
+    "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.",
+    "Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.",
+    "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.",
+    "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+    "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_27-R001",
+      "rule_description": "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.",
+      "trigger": "Exports/Deemed Export supplies in anticipation or subsequent to",
+      "condition": "application is approved",
+      "validation": "(a) Exports / Deemed Export supplies made from the date of EDI generated file\nnumber for an Advance Authorisation, may be accepted towards discharge\nof EO.",
+      "action": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+      "exception": "Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.",
+      "output": "DEKAI should produce a compliance decision for 4.27 - Exports/Deemed Export supplies in anticipation or subsequent to."
+    },
+    {
+      "rule_id": "CH4-SEC4_27-R002",
+      "rule_description": "Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.",
+      "trigger": "Exports/Deemed Export supplies in anticipation or subsequent to",
+      "condition": "If in the intervening period (i.e.",
+      "validation": "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+      "action": "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.",
+      "exception": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "output": "DEKAI should produce a compliance decision for 4.27 - Exports/Deemed Export supplies in anticipation or subsequent to."
+    },
+    {
+      "rule_id": "CH4-SEC4_27-R003",
+      "rule_description": "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+      "trigger": "Exports/Deemed Export supplies in anticipation or subsequent to",
+      "condition": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+      "validation": "For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.",
+      "action": "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+      "exception": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "output": "DEKAI should produce a compliance decision for 4.27 - Exports/Deemed Export supplies in anticipation or subsequent to."
+    },
+    {
+      "rule_id": "CH4-SEC4_27-R004",
+      "rule_description": "For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.",
+      "trigger": "Exports/Deemed Export supplies in anticipation or subsequent to",
+      "condition": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "validation": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "action": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+      "exception": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "output": "DEKAI should produce a compliance decision for 4.27 - Exports/Deemed Export supplies in anticipation or subsequent to."
+    },
+    {
+      "rule_id": "CH4-SEC4_27-R005",
+      "rule_description": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "trigger": "Exports/Deemed Export supplies in anticipation or subsequent to",
+      "condition": "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+      "validation": "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+      "action": "For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.",
+      "exception": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "output": "DEKAI should produce a compliance decision for 4.27 - Exports/Deemed Export supplies in anticipation or subsequent to."
+    },
+    {
+      "rule_id": "CH4-SEC4_27-R006",
+      "rule_description": "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+      "trigger": "Exports/Deemed Export supplies in anticipation or subsequent to",
+      "condition": "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+      "validation": "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+      "action": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "exception": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "output": "DEKAI should produce a compliance decision for 4.27 - Exports/Deemed Export supplies in anticipation or subsequent to."
+    }
+  ],
+  "conditions": [
+    "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "If in the intervening period (i.e.",
+    "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+    "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+    "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.27.1",
+      "if": "application is approved",
+      "then": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+      "source": "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority."
+    },
+    {
+      "id": "4.4.27.2",
+      "if": "If in the intervening period (i.e.",
+      "then": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+      "source": "If in the intervening period (i.e."
+    },
+    {
+      "id": "4.4.27.3",
+      "if": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+      "then": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+      "source": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified."
+    },
+    {
+      "id": "4.4.27.4",
+      "if": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "then": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+      "source": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant."
+    },
+    {
+      "id": "4.4.27.5",
+      "if": "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+      "then": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+      "source": "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs."
+    }
+  ],
+  "validations": [
+    "(a) Exports / Deemed Export supplies made from the date of EDI generated file\nnumber for an Advance Authorisation, may be accepted towards discharge\nof EO.",
+    "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.",
+    "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+    "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs."
+  ],
+  "exceptions": [
+    "Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.",
+    "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant."
+  ],
+  "dependencies": [],
+  "documents": [
+    "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.",
+    "Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.",
+    "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified."
+  ],
+  "required_documents": [
+    "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.",
+    "Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.",
+    "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified."
+  ],
+  "authorities": [],
+  "timelines": [
+    "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs."
+  ],
+  "actions": [
+    "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+    "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.",
+    "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+    "For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.",
+    "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant."
+  ],
+  "workflow": [
+    "Evaluate condition: (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "Evaluate condition: If in the intervening period (i.e.",
+    "Evaluate condition: from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+    "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+    "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.",
+    "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+    "For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.",
+    "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+    "Run validation: (a) Exports / Deemed Export supplies made from the date of EDI generated file\nnumber for an Advance Authorisation, may be accepted towards discharge\nof EO.",
+    "Run validation: (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "Run validation: For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.",
+    "Handle exception: Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be."
+  ],
+  "workflow_ascii": "Exports/Deemed Export supplies in anticipation or subsequent to\nEvaluate condition: (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.\n   |\n   v\nEvaluate condition: If in the intervening period (i.e.\n   |\n   v\nEvaluate condition: from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.\n   |\n   v\n4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.\n   |\n   v\nShipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.\n   |\n   v\n(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.\n   |\n   v\nfrom date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.\n   |\n   v\nFor remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.\n   |\n   v\n(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.\n   |\n   v\nRun validation: (a) Exports / Deemed Export supplies made from the date of EDI generated file\nnumber for an Advance Authorisation, may be accepted towards discharge\nof EO.\n   |\n   v\nRun validation: (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.\n   |\n   v\nRun validation: For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.\n   |\n   v\nHandle exception: Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.",
+  "decision_tree": [
+    "IF (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority. THEN 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+    "IF If in the intervening period (i.e. THEN 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+    "IF from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified. THEN 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+    "IF (c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant. THEN 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+    "IF (d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs. THEN 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+    "IF exception applies (Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.) THEN route to manual review",
+    "IF exception applies ((c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Exports/Deemed Export supplies in anticipation or subsequent to Decision\nIF (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority. THEN 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.\n   |\n   v\nIF If in the intervening period (i.e. THEN 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.\n   |\n   v\nIF from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified. THEN 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.\n   |\n   v\nIF (c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant. THEN 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.\n   |\n   v\nIF (d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs. THEN 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.\n   |\n   v\nIF exception applies (Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.) THEN route to manual review\n   |\n   v\nIF exception applies ((c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.) THEN route to manual review",
+  "examples": [
+    "User asks to process Exports/Deemed Export supplies in anticipation or subsequent to; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Exports/Deemed Export supplies in anticipation or subsequent to, submits Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued., Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be., (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority., and DEKAI uses the extracted rules to 4.27 exports/deemed export supplies in anticipation or subsequent to\nissue of an authorisation..",
+  "real_world_example_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Example: an importer or exporter invokes Exports/Deemed export supplies in anticipation or subsequent to, submits Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed export\nsupplies with Authorisation issued., export/Deemed export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be., (b) If application is approved, authorisation kandippa be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nauthority., and DEKAI uses the extracted rules to 4.27 exports/deemed export supplies in anticipation or subsequent to\nissue of an authorisation..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.",
+    "IF detected context matches section rule THEN enforce: Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.",
+    "IF detected context matches section rule THEN enforce: (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "IF detected context matches section rule THEN enforce: For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.",
+    "IF detected context matches section rule THEN enforce: (c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+    "IF detected context matches section rule THEN enforce: (d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+    "IF validations pass THEN recommend action: 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "anf_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ANF"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "edi_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:EDI"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "tax_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Tax"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "get_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:get"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority."
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.27",
+      "purpose": "Retrieve knowledge payload for section 4.27",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Exports-Deemed-Export-supplies-in-anticipation-or-subsequent-to/validate",
+      "purpose": "Validate inputs and documents for Exports/Deemed Export supplies in anticipation or subsequent to",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Exports-Deemed-Export-supplies-in-anticipation-or-subsequent-to/execute",
+      "purpose": "Trigger business action for 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Exports_Deemed_Export_supplies_in_anticipation_or_subsequent_to_overview",
+      "name": "Exports/Deemed Export supplies in anticipation or subsequent to Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Exports_Deemed_Export_supplies_in_anticipation_or_subsequent_to_submission",
+      "name": "Exports/Deemed Export supplies in anticipation or subsequent to Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "anf_flag",
+        "the_flag",
+        "edi_flag",
+        "for_flag",
+        "may_flag",
+        "tax_flag"
+      ]
+    },
+    {
+      "screen_id": "Exports_Deemed_Export_supplies_in_anticipation_or_subsequent_to_exceptions",
+      "name": "Exports/Deemed Export supplies in anticipation or subsequent to Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Exports/Deemed Export supplies in anticipation or subsequent to require?",
+    "Which documents are needed for Exports/Deemed Export supplies in anticipation or subsequent to?",
+    "How does DEKAI validate Exports/Deemed Export supplies in anticipation or subsequent to requests?",
+    "What action should be taken for Exports/Deemed Export supplies in anticipation or subsequent to?"
+  ],
+  "expected_ai_answers": [
+    "Exports/Deemed Export supplies in anticipation or subsequent to requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued., Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be., (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority., from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+    "DEKAI validates Exports/Deemed Export supplies in anticipation or subsequent to by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4.27?",
+      "answer_en": "Exports/Deemed Export supplies in anticipation or subsequent to explains the operating rule set that DEKAI should enforce. Key control points include Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued. The section also drives actions such as 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation..",
+      "question_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, What is the purpose of section 4.27?",
+      "answer_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Exports/Deemed export supplies in anticipation or subsequent to explains the operating rule set that DEKAI should enforce. Key control points include Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed export\nsupplies with Authorisation issued. The section also drives actions such as 4.27 Exports/Deemed export supplies in anticipation or subsequent to\nissue of an Authorisation.."
+    },
+    {
+      "question_en": "What documents are required under Exports/Deemed Export supplies in anticipation or subsequent to?",
+      "answer_en": "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued., Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be., (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority., from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+      "question_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, What documents are required under Exports/Deemed export supplies in anticipation or subsequent to?",
+      "answer_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed export\nsupplies with Authorisation issued., export/Deemed export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be., (b) If application is approved, authorisation kandippa be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nauthority., from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed export supplies\nalready made till any amendment in norms is notified."
+    },
+    {
+      "question_en": "Which authority handles Exports/Deemed Export supplies in anticipation or subsequent to?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Which authority handles Exports/Deemed export supplies in anticipation or subsequent to?",
+      "answer_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Exports/Deemed Export supplies in anticipation or subsequent to?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4.27, apply the extracted rules, and guide the user through Evaluate condition: (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority..",
+      "question_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, User asks: How do I comply with Exports/Deemed export supplies in anticipation or subsequent to?",
+      "answer_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, AI answers: DEKAI should evaluate section 4.27, apply the extracted rules, and guide the user through Evaluate condition: (b) If application is approved, authorisation kandippa be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nauthority.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Exports/Deemed Export supplies in anticipation or subsequent to?",
+      "answer_en": "AI answers: Applicable validations are (a) Exports / Deemed Export supplies made from the date of EDI generated file\nnumber for an Advance Authorisation, may be accepted towards discharge\nof EO., (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority., For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.",
+      "question_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, User asks: Which validations apply to Exports/Deemed export supplies in anticipation or subsequent to?",
+      "answer_thanglish": "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, AI answers: Applicable validations are (a) Exports / Deemed export supplies made from the date of EDI generated file\nnumber for an Advance Authorisation, may be accepted towards discharge\nof EO., (b) If application is approved, authorisation kandippa be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nauthority., For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation kandippa be\napplicable."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 4.27, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Exports/Deemed Export supplies in anticipation or subsequent to into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued., Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be., (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority., from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified..",
+    "Trigger manual review when exception clauses are detected."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Capture chapter 4, section 4.27, title, and page references as immutable knowledge metadata.",
+    "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Bind validations for Exports/Deemed export supplies in anticipation or subsequent to into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Expose document upload controls for: Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed export\nsupplies with Authorisation issued., export/Deemed export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be., (b) If application is approved, authorisation kandippa be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nauthority., from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed export supplies\nalready made till any amendment in norms is notified..",
+    "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Trigger manual review when exception clauses are detected."
+  ],
+  "keywords": [
+    "ANF",
+    "the",
+    "EDI",
+    "for",
+    "may",
+    "Tax",
+    "and",
+    "get",
+    "any",
+    "not",
+    "data",
+    "made",
+    "from",
+    "date",
+    "file",
+    "with",
+    "also",
+    "case",
+    "will",
+    "till"
+  ],
+  "search_keywords": [
+    "ANF",
+    "the",
+    "EDI",
+    "for",
+    "may",
+    "Tax",
+    "and",
+    "get",
+    "any",
+    "not",
+    "data",
+    "made",
+    "from",
+    "date",
+    "file",
+    "with",
+    "also",
+    "case",
+    "will",
+    "till"
+  ],
+  "intent": "Support Exports/Deemed Export supplies in anticipation or subsequent to processing and compliance validation.",
+  "tags": [
+    "4.27",
+    "Exports/Deemed Export supplies in anticipation or subsequent to",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.",
+    "Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.",
+    "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.",
+    "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant."
+  ],
+  "page_numbers": [
+    13,
+    14
+  ],
+  "pages": [
+    13,
+    14
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "4.27 Exports/Deemed Export supplies in anticipation or subsequent to\npg. 88\npg. 88\nalong-with requisite data in ANF 4B.\n4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.\n(a) Exports / Deemed Export supplies made from the date of EDI generated file\nnumber for an Advance Authorisation, may be accepted towards discharge\nof EO. Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued. Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.\n(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority. If in the intervening period (i.e. from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified. For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.\n(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.\n(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.\"]\n    S2[\"Evaluate condition: If in the intervening period (i.e.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.\"]\n    S2 --> S3\n    S4[\"4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.\"]\n    S3 --> S4\n    S5[\"Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.\"]\n    S4 --> S5\n    S6[\"(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.\"]\n    S5 --> S6\n    S7[\"from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.\"]\n    S6 --> S7\n    S8[\"For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.\"]\n    S7 --> S8\n    S9[\"(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.\"]\n    S8 --> S9\n    S10[\"Run validation: (a) Exports / Deemed Export supplies made from the date of EDI generated file\nnumber for an Advance Authorisation, may be accepted towards discharge\nof EO.\"]\n    S9 --> S10\n    S11[\"Run validation: (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.\"]\n    S10 --> S11\n    S12[\"Run validation: For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.\"]\n    S11 --> S12\n    S13[\"Handle exception: Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.\"]\n    S12 --> S13",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.;\n:Evaluate condition\\: If in the intervening period (i.e.;\n:Evaluate condition\\: from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.;\n:4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.;\n:Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.;\n:(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.;\n:from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.;\n:For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.;\n:(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.;\n:Run validation\\: (a) Exports / Deemed Export supplies made from the date of EDI generated file\nnumber for an Advance Authorisation, may be accepted towards discharge\nof EO.;\n:Run validation\\: (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.;\n:Run validation\\: For remaining exports,\nPolicy / Procedures in force on date of issue of authorisation shall be\napplicable.;\n:Handle exception\\: Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.;\nstop\n@enduml"
+}

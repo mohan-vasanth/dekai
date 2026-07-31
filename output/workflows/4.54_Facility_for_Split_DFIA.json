@@ -1,0 +1,11 @@
+{
+  "section": "4.54",
+  "workflow": [
+    "Evaluate condition: 4.54 Facility for Split DFIA\nSplit Authorisations of DFIA subject to a minimum of CIF value of Rs.",
+    "10 lakh\neach and multiples thereof may also be issued, on request at the time of seeking\ntransferability.",
+    "Run validation: Split-up DFIAs shall be permitted with the same port of\nregistration as appearing on the original DFIA."
+  ],
+  "workflow_ascii": "Facility for Split DFIA\nEvaluate condition: 4.54 Facility for Split DFIA\nSplit Authorisations of DFIA subject to a minimum of CIF value of Rs.\n   |\n   v\n10 lakh\neach and multiples thereof may also be issued, on request at the time of seeking\ntransferability.\n   |\n   v\nRun validation: Split-up DFIAs shall be permitted with the same port of\nregistration as appearing on the original DFIA.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 4.54 Facility for Split DFIA\nSplit Authorisations of DFIA subject to a minimum of CIF value of Rs.\"]\n    S2[\"10 lakh\neach and multiples thereof may also be issued, on request at the time of seeking\ntransferability.\"]\n    S1 --> S2\n    S3[\"Run validation: Split-up DFIAs shall be permitted with the same port of\nregistration as appearing on the original DFIA.\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 4.54 Facility for Split DFIA\nSplit Authorisations of DFIA subject to a minimum of CIF value of Rs.;\n:10 lakh\neach and multiples thereof may also be issued, on request at the time of seeking\ntransferability.;\n:Run validation\\: Split-up DFIAs shall be permitted with the same port of\nregistration as appearing on the original DFIA.;\nstop\n@enduml"
+}

@@ -1,0 +1,311 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.28",
+  "title": "Applicability of the provision",
+  "purpose": "2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24.",
+  "purpose_thanglish": "Indha Applicability of the provision section-la, 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 kandippa be applicable for cases covered under both\nParagraph 2.23 and 2.24.",
+  "summary": "2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24. BANK GUARANTEE /LUT/ CORPORATE GUARANTEE",
+  "business_meaning": "Applicability of the provision governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Applicability of the provision explains the operating rule set that DEKAI should enforce. Key control points include 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24.",
+  "business_explanation_thanglish": "Indha Applicability of the provision section-la, Applicability of the provision explains the operating rule set that DEKAI should enforce. Key control points include 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 kandippa be applicable for cases covered under both\nParagraph 2.23 and 2.24.",
+  "business_logic": [
+    "2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_28-R001",
+      "rule_description": "2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24.",
+      "trigger": "Applicability of the provision",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.28 - Applicability of the provision."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [
+    "2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24."
+  ],
+  "exceptions": [],
+  "dependencies": [
+    "2.26",
+    "2.23",
+    "2.24",
+    "2.27"
+  ],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Run validation: 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24."
+  ],
+  "workflow_ascii": "Applicability of the provision\nRun validation: 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24.",
+  "decision_tree": [
+    "IF section 2.28 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Applicability of the provision Decision\nIF section 2.28 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Applicability of the provision; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Applicability of the provision, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the applicability of the provision process.",
+  "real_world_example_thanglish": "Indha Applicability of the provision section-la, Example: an importer or exporter invokes Applicability of the provision, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the applicability of the provision process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "lut_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:LUT"
+    },
+    {
+      "name": "both_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:both"
+    },
+    {
+      "name": "bank_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:BANK"
+    },
+    {
+      "name": "shall_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:shall"
+    },
+    {
+      "name": "cases_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:cases"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.28",
+      "purpose": "Retrieve knowledge payload for section 2.28",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Applicability-of-the-provision/validate",
+      "purpose": "Validate inputs and documents for Applicability of the provision",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Applicability_of_the_provision_overview",
+      "name": "Applicability of the provision Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Applicability_of_the_provision_submission",
+      "name": "Applicability of the provision Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "for_flag",
+        "lut_flag",
+        "both_flag",
+        "bank_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Applicability of the provision require?",
+    "Which documents are needed for Applicability of the provision?",
+    "How does DEKAI validate Applicability of the provision requests?"
+  ],
+  "expected_ai_answers": [
+    "Applicability of the provision requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Applicability of the provision by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.28?",
+      "answer_en": "Applicability of the provision explains the operating rule set that DEKAI should enforce. Key control points include 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24.",
+      "question_thanglish": "Indha Applicability of the provision section-la, What is the purpose of section 2.28?",
+      "answer_thanglish": "Indha Applicability of the provision section-la, Applicability of the provision explains the operating rule set that DEKAI should enforce. Key control points include 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 kandippa be applicable for cases covered under both\nParagraph 2.23 and 2.24."
+    },
+    {
+      "question_en": "What documents are required under Applicability of the provision?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Applicability of the provision section-la, What documents are required under Applicability of the provision?",
+      "answer_thanglish": "Indha Applicability of the provision section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Applicability of the provision?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Applicability of the provision section-la, Which authority handles Applicability of the provision?",
+      "answer_thanglish": "Indha Applicability of the provision section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Applicability of the provision?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.28, apply the extracted rules, and guide the user through Run validation: 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24..",
+      "question_thanglish": "Indha Applicability of the provision section-la, User asks: How do I comply with Applicability of the provision?",
+      "answer_thanglish": "Indha Applicability of the provision section-la, AI answers: DEKAI should evaluate section 2.28, apply the extracted rules, and guide the user through Run validation: 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 kandippa be applicable for cases covered under both\nParagraph 2.23 and 2.24.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Applicability of the provision?",
+      "answer_en": "AI answers: Applicable validations are 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24.",
+      "question_thanglish": "Indha Applicability of the provision section-la, User asks: Which validations apply to Applicability of the provision?",
+      "answer_thanglish": "Indha Applicability of the provision section-la, AI answers: Applicable validations are 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 kandippa be applicable for cases covered under both\nParagraph 2.23 and 2.24."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.28, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Applicability of the provision into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 2.23, 2.24, 2.26, 2.27."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Applicability of the provision section-la, Capture chapter 2, section 2.28, title, and page references as immutable knowledge metadata.",
+    "Indha Applicability of the provision section-la, Bind validations for Applicability of the provision into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Applicability of the provision section-la, Show contextual links to related sections: 2.23, 2.24, 2.26, 2.27."
+  ],
+  "keywords": [
+    "the",
+    "and",
+    "for",
+    "LUT",
+    "both",
+    "BANK",
+    "shall",
+    "cases",
+    "under",
+    "covered",
+    "provision",
+    "Paragraph",
+    "GUARANTEE",
+    "CORPORATE",
+    "applicable",
+    "Applicability"
+  ],
+  "search_keywords": [
+    "the",
+    "and",
+    "for",
+    "LUT",
+    "both",
+    "BANK",
+    "shall",
+    "cases",
+    "under",
+    "covered",
+    "provision",
+    "Paragraph",
+    "GUARANTEE",
+    "CORPORATE",
+    "applicable",
+    "Applicability"
+  ],
+  "intent": "Provide knowledge guidance for Applicability of the provision.",
+  "tags": [
+    "2.28",
+    "Applicability of the provision",
+    "business-rule",
+    "dgft"
+  ],
+  "related_sections": [
+    "2.23",
+    "2.24",
+    "2.26",
+    "2.27"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24."
+  ],
+  "page_numbers": [
+    10
+  ],
+  "pages": [
+    10
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24.\nBANK GUARANTEE /LUT/ CORPORATE GUARANTEE",
+  "mermaid": "flowchart TD\n    S1[\"Run validation: 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24.\"]",
+  "plantuml": "@startuml\nstart\n:Run validation\\: 2.28 Applicability of the provision\nProvision of Paragraph 2.26 and 2.27 shall be applicable for cases covered under both\nParagraph 2.23 and 2.24.;\nstop\n@enduml"
+}

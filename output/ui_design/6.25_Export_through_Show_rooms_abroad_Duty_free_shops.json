@@ -1,0 +1,47 @@
+{
+  "section": "6.25",
+  "ui": [
+    {
+      "screen_id": "Export_through_Show_rooms_abroad_Duty_free_shops_overview",
+      "name": "Export through Show-rooms abroad / Duty free shops Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_through_Show_rooms_abroad_Duty_free_shops_submission",
+      "name": "Export through Show-rooms abroad / Duty free shops Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "set_flag",
+        "not_flag",
+        "duty_flag",
+        "free_flag",
+        "also_flag"
+      ]
+    },
+    {
+      "screen_id": "Export_through_Show_rooms_abroad_Duty_free_shops_exceptions",
+      "name": "Export through Show-rooms abroad / Duty free shops Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

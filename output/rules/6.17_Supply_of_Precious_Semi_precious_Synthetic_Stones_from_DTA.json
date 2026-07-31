@@ -1,0 +1,54 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.17",
+  "title": "Supply of Precious / Semi-precious / Synthetic Stones from DTA",
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_17-R001",
+      "rule_description": "142\n6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA\nSupplier of precious and semi-precious stones, synthetic stones and processed\npearls from DTA to EOUs shall be eligible for grant of Replenishment\nAuthorisation at rates and for items mentioned in HBP.",
+      "trigger": "Supply of Precious / Semi-precious / Synthetic Stones from DTA",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "142\n6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA\nSupplier of precious and semi-precious stones, synthetic stones and processed\npearls from DTA to EOUs shall be eligible for grant of Replenishment\nAuthorisation at rates and for items mentioned in HBP.",
+      "action": "Manual review required.",
+      "exception": "However,\napplication shall be made to DC concerned.",
+      "output": "DEKAI should produce a compliance decision for 6.17 - Supply of Precious / Semi-precious / Synthetic Stones from DTA."
+    },
+    {
+      "rule_id": "CH6-SEC6_17-R002",
+      "rule_description": "I shall be applicable.",
+      "trigger": "Supply of Precious / Semi-precious / Synthetic Stones from DTA",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "I shall be applicable.",
+      "action": "Manual review required.",
+      "exception": "However,\napplication shall be made to DC concerned.",
+      "output": "DEKAI should produce a compliance decision for 6.17 - Supply of Precious / Semi-precious / Synthetic Stones from DTA."
+    },
+    {
+      "rule_id": "CH6-SEC6_17-R003",
+      "rule_description": "However,\napplication shall be made to DC concerned.",
+      "trigger": "Supply of Precious / Semi-precious / Synthetic Stones from DTA",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "However,\napplication shall be made to DC concerned.",
+      "action": "Manual review required.",
+      "exception": "However,\napplication shall be made to DC concerned.",
+      "output": "DEKAI should produce a compliance decision for 6.17 - Supply of Precious / Semi-precious / Synthetic Stones from DTA."
+    },
+    {
+      "rule_id": "CH6-SEC6_17-R004",
+      "rule_description": "Such supplies to EOUs are not eligible\nfor any of deemed export benefits under Chapter 7 of the FTP.",
+      "trigger": "Supply of Precious / Semi-precious / Synthetic Stones from DTA",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Such supplies to EOUs are not eligible\nfor any of deemed export benefits under Chapter 7 of the FTP.",
+      "action": "Manual review required.",
+      "exception": "However,\napplication shall be made to DC concerned.",
+      "output": "DEKAI should produce a compliance decision for 6.17 - Supply of Precious / Semi-precious / Synthetic Stones from DTA."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 142\n6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA\nSupplier of precious and semi-precious stones, synthetic stones and processed\npearls from DTA to EOUs shall be eligible for grant of Replenishment\nAuthorisation at rates and for items mentioned in HBP.",
+    "IF detected context matches section rule THEN enforce: I shall be applicable.",
+    "IF detected context matches section rule THEN enforce: However,\napplication shall be made to DC concerned.",
+    "IF detected context matches section rule THEN enforce: Such supplies to EOUs are not eligible\nfor any of deemed export benefits under Chapter 7 of the FTP."
+  ]
+}

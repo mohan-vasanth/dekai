@@ -1,0 +1,37 @@
+{
+  "section": "6.35",
+  "ui": [
+    {
+      "screen_id": "Change_of_Location_Inclusion_of_Additional_Location_with_BOA_overview",
+      "name": "Change of Location / Inclusion of Additional Location with BOA Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Change_of_Location_Inclusion_of_Additional_Location_with_BOA_submission",
+      "name": "Change of Location / Inclusion of Additional Location with BOA Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "boa_flag",
+        "may_flag",
+        "eou_flag",
+        "stp_flag",
+        "btp_flag",
+        "and_flag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.56",
+  "title": "Services of Inspection and Certification Agencies",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_56-R001",
+      "rule_description": "(b) Tariff Rate Quota (TRQ) Imports for Crude Soya-bean oil and Crude Sunflower\nseed oil shall be allocated during financial year 2022-23 only, up to quantities\nper year as indicated below.",
+      "trigger": "Services of Inspection and Certification Agencies",
+      "condition": "2.56 Services of Inspection and Certification Agencies\nCustoms or any other Central or State Government authority may avail of services of\nInspection and Certification Agencies in Appendix 2I of the Appendices and Aayat\nNiryat Forms, for certifying residual life as well as valuation / purchase price of capital\ngoods.",
+      "validation": "(b) Tariff Rate Quota (TRQ) Imports for Crude Soya-bean oil and Crude Sunflower\nseed oil shall be allocated during financial year 2022-23 only, up to quantities\nper year as indicated below.",
+      "action": "28/2020-Customs dated 23.06.2020 of Department of Revenue,\nMinistry of Finance, Government of India as amended from time to time.",
+      "exception": "34\n2.57\nCrude Soya-bean oil, whether or not 15071000 20,00,000\ndegummed\nCrude Sunflower seed oil 15121110 20,00,000\nThe duty exemption under the said TRQs may be availed as per the Ministry of\nFinance (Department of Revenue) Notification No.",
+      "output": "DEKAI should produce a compliance decision for 2.56 - Services of Inspection and Certification Agencies."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (b) Tariff Rate Quota (TRQ) Imports for Crude Soya-bean oil and Crude Sunflower\nseed oil shall be allocated during financial year 2022-23 only, up to quantities\nper year as indicated below.",
+    "IF validations pass THEN recommend action: 28/2020-Customs dated 23.06.2020 of Department of Revenue,\nMinistry of Finance, Government of India as amended from time to time."
+  ]
+}

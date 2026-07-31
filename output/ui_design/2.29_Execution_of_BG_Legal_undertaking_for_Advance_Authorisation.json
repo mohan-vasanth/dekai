@@ -1,0 +1,37 @@
+{
+  "section": "2.29",
+  "ui": [
+    {
+      "screen_id": "Execution_of_BG_Legal_undertaking_for_Advance_Authorisation_overview",
+      "name": "Execution of BG/Legal undertaking for Advance Authorisation/ Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Execution_of_BG_Legal_undertaking_for_Advance_Authorisation_submission",
+      "name": "Execution of BG/Legal undertaking for Advance Authorisation/ Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "was_flag",
+        "lut_flag",
+        "per_flag",
+        "has_flag"
+      ]
+    }
+  ]
+}

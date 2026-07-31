@@ -1,0 +1,47 @@
+{
+  "section": "4.36",
+  "ui": [
+    {
+      "screen_id": "Facility_of_Clubbing_of_Authorisations_overview",
+      "name": "Facility of Clubbing of Authorisations Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Facility_of_Clubbing_of_Authorisations_submission",
+      "name": "Facility of Clubbing of Authorisations Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "who_flag",
+        "has_flag",
+        "iii_flag",
+        "and_flag"
+      ]
+    },
+    {
+      "screen_id": "Facility_of_Clubbing_of_Authorisations_exceptions",
+      "name": "Facility of Clubbing of Authorisations Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

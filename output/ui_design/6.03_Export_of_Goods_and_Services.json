@@ -1,0 +1,37 @@
+{
+  "section": "6.03",
+  "ui": [
+    {
+      "screen_id": "Export_of_Goods_and_Services_overview",
+      "name": "Export of Goods and Services Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_of_Goods_and_Services_submission",
+      "name": "Export of Goods and Services Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "may_flag",
+        "inr_flag",
+        "not_flag",
+        "fix_flag",
+        "who_flag"
+      ]
+    }
+  ]
+}

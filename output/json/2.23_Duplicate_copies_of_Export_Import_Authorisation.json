@@ -1,0 +1,535 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.23",
+  "title": "Duplicate copies of Export / Import Authorisation",
+  "purpose": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+  "purpose_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, 2.23 Duplicate copies of export / import Authorisation\nWhere a physical copy of Authorisation/Permissions/ licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+  "summary": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg. 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation. In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+  "business_meaning": "Duplicate copies of Export / Import Authorisation governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Duplicate copies of Export / Import Authorisation explains the operating rule set that DEKAI should enforce. Key control points include In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less. The section also drives actions such as 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg..",
+  "business_explanation_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, Duplicate copies of export / import Authorisation explains the operating rule set that DEKAI should enforce. Key control points include In such cases, revalidation kandippa be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less. The section also drives actions such as 2.23 Duplicate copies of export / import Authorisation\nWhere a physical copy of Authorisation/Permissions/ licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg..",
+  "business_logic": [
+    "In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+    "In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.",
+    "The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+    "RA shall\nverify the same before revalidation is allowed.",
+    "However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.",
+    "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_23-R001",
+      "rule_description": "In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "validation": "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "action": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "exception": "It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R002",
+      "rule_description": "In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "validation": "In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+      "action": "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "exception": "However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R003",
+      "rule_description": "The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "RA shall\nverify the same before revalidation is allowed.",
+      "validation": "It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.",
+      "action": "For example: Authorisation is issued\nhaving initial validity of 12 months on 01.04.2017.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R004",
+      "rule_description": "RA shall\nverify the same before revalidation is allowed.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "validation": "In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.",
+      "action": "The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R005",
+      "rule_description": "However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued.",
+      "validation": "The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+      "action": "RA shall\nverify the same before revalidation is allowed.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R006",
+      "rule_description": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued.",
+      "validation": "RA shall\nverify the same before revalidation is allowed.",
+      "action": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    }
+  ],
+  "conditions": [
+    "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+    "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+    "RA shall\nverify the same before revalidation is allowed.",
+    "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+    "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.23.1",
+      "if": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg."
+    },
+    {
+      "id": "2.2.23.2",
+      "if": "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation."
+    },
+    {
+      "id": "2.2.23.3",
+      "if": "RA shall\nverify the same before revalidation is allowed.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "RA shall\nverify the same before revalidation is allowed."
+    },
+    {
+      "id": "2.2.23.4",
+      "if": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation."
+    },
+    {
+      "id": "2.2.23.5",
+      "if": "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued."
+    }
+  ],
+  "validations": [
+    "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+    "In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+    "It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.",
+    "In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.",
+    "The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+    "RA shall\nverify the same before revalidation is allowed.",
+    "However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.",
+    "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation."
+  ],
+  "exceptions": [
+    "It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.",
+    "However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.",
+    "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation."
+  ],
+  "dependencies": [
+    "11.10"
+  ],
+  "documents": [
+    "Where a physical copy of Authorisation/Permissions/ Licence",
+    "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+    "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued."
+  ],
+  "required_documents": [
+    "Where a physical copy of Authorisation/Permissions/ Licence",
+    "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+    "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued."
+  ],
+  "authorities": [
+    "Customs",
+    "If Authorisation/Scrip rejected by Customs",
+    "DGFT",
+    "It was transmitted to Customs",
+    "DGFT server but it is accepted by Customs",
+    "RA",
+    "DGFT server as well as Customs",
+    "Authorisation/Scrip in the Customs"
+  ],
+  "timelines": [
+    "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+    "In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+    "For example: Authorisation is issued\nhaving initial validity of 12 months on 01.04.2017.",
+    "So, the Authorisation holder loses 7 months (still 5 months validity is\nleft).",
+    "In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.",
+    "RA shall\nverify the same before revalidation is allowed.",
+    "However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.",
+    "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation."
+  ],
+  "actions": [
+    "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+    "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+    "For example: Authorisation is issued\nhaving initial validity of 12 months on 01.04.2017.",
+    "The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+    "RA shall\nverify the same before revalidation is allowed.",
+    "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+    "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued."
+  ],
+  "workflow": [
+    "Evaluate condition: 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+    "Evaluate condition: 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+    "Evaluate condition: RA shall\nverify the same before revalidation is allowed.",
+    "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+    "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+    "For example: Authorisation is issued\nhaving initial validity of 12 months on 01.04.2017.",
+    "The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+    "RA shall\nverify the same before revalidation is allowed.",
+    "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+    "Run validation: 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+    "Run validation: In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+    "Run validation: It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.",
+    "Handle exception: It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017."
+  ],
+  "workflow_ascii": "Duplicate copies of Export / Import Authorisation\nEvaluate condition: 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.\n   |\n   v\nEvaluate condition: 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.\n   |\n   v\nEvaluate condition: RA shall\nverify the same before revalidation is allowed.\n   |\n   v\n2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.\n   |\n   v\n18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.\n   |\n   v\nFor example: Authorisation is issued\nhaving initial validity of 12 months on 01.04.2017.\n   |\n   v\nThe applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.\n   |\n   v\nRA shall\nverify the same before revalidation is allowed.\n   |\n   v\nNotwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.\n   |\n   v\nRun validation: 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.\n   |\n   v\nRun validation: In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.\n   |\n   v\nRun validation: It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.\n   |\n   v\nHandle exception: It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.",
+  "decision_tree": [
+    "IF 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg. THEN 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+    "IF 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation. THEN 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+    "IF RA shall\nverify the same before revalidation is allowed. THEN 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+    "IF Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation. THEN 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+    "IF 18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued. THEN 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+    "IF exception applies (It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.) THEN route to manual review",
+    "IF exception applies (However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.) THEN route to manual review",
+    "IF exception applies (Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Duplicate copies of Export / Import Authorisation Decision\nIF 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg. THEN 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.\n   |\n   v\nIF 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation. THEN 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.\n   |\n   v\nIF RA shall\nverify the same before revalidation is allowed. THEN 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.\n   |\n   v\nIF Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation. THEN 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.\n   |\n   v\nIF 18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued. THEN 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.\n   |\n   v\nIF exception applies (It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.) THEN route to manual review\n   |\n   v\nIF exception applies (However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.) THEN route to manual review\n   |\n   v\nIF exception applies (Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.) THEN route to manual review",
+  "examples": [
+    "For example: Authorisation is issued\nhaving initial validity of 12 months on 01.04.2017."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Duplicate copies of Export / Import Authorisation, submits Where a physical copy of Authorisation/Permissions/ Licence, 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation., 18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued., and DEKAI uses the extracted rules to 2.23 duplicate copies of export / import authorisation\nwhere a physical copy of authorisation/permissions/ licence / certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg..",
+  "real_world_example_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, Example: an importer or exporter invokes Duplicate copies of export / import Authorisation, submits Where a physical copy of Authorisation/Permissions/ licence, 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation., 18\ndeclaration, as given in Appendix 2M, to concerned office where the original licence\nwas issued., and DEKAI uses the extracted rules to 2.23 duplicate copies of export / import authorisation\nwhere a physical copy of authorisation/permissions/ licence / certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+    "IF detected context matches section rule THEN enforce: In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.",
+    "IF detected context matches section rule THEN enforce: The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+    "IF detected context matches section rule THEN enforce: RA shall\nverify the same before revalidation is allowed.",
+    "IF detected context matches section rule THEN enforce: However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.",
+    "IF detected context matches section rule THEN enforce: Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+    "IF validations pass THEN recommend action: 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "any_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:any"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "iii_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:iii"
+    },
+    {
+      "name": "was_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:was"
+    },
+    {
+      "name": "hbp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:HBP"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Where a physical copy of Authorisation/Permissions/ Licence"
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.23",
+      "purpose": "Retrieve knowledge payload for section 2.23",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Duplicate-copies-of-Export-Import-Authorisation/validate",
+      "purpose": "Validate inputs and documents for Duplicate copies of Export / Import Authorisation",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Duplicate-copies-of-Export-Import-Authorisation/execute",
+      "purpose": "Trigger business action for 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Duplicate_copies_of_Export_Import_Authorisation_overview",
+      "name": "Duplicate copies of Export / Import Authorisation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Duplicate_copies_of_Export_Import_Authorisation_submission",
+      "name": "Duplicate copies of Export / Import Authorisation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "may_flag",
+        "any_flag",
+        "not_flag",
+        "the_flag",
+        "iii_flag"
+      ]
+    },
+    {
+      "screen_id": "Duplicate_copies_of_Export_Import_Authorisation_exceptions",
+      "name": "Duplicate copies of Export / Import Authorisation Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Duplicate copies of Export / Import Authorisation require?",
+    "Which documents are needed for Duplicate copies of Export / Import Authorisation?",
+    "How does DEKAI validate Duplicate copies of Export / Import Authorisation requests?",
+    "What action should be taken for Duplicate copies of Export / Import Authorisation?"
+  ],
+  "expected_ai_answers": [
+    "Duplicate copies of Export / Import Authorisation requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: Where a physical copy of Authorisation/Permissions/ Licence, 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation., 18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued.",
+    "DEKAI validates Duplicate copies of Export / Import Authorisation by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.23?",
+      "answer_en": "Duplicate copies of Export / Import Authorisation explains the operating rule set that DEKAI should enforce. Key control points include In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less. The section also drives actions such as 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg..",
+      "question_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, What is the purpose of section 2.23?",
+      "answer_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, Duplicate copies of export / import Authorisation explains the operating rule set that DEKAI should enforce. Key control points include In such cases, revalidation kandippa be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less. The section also drives actions such as 2.23 Duplicate copies of export / import Authorisation\nWhere a physical copy of Authorisation/Permissions/ licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.."
+    },
+    {
+      "question_en": "What documents are required under Duplicate copies of Export / Import Authorisation?",
+      "answer_en": "Where a physical copy of Authorisation/Permissions/ Licence, 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation., 18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued.",
+      "question_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, What documents are required under Duplicate copies of export / import Authorisation?",
+      "answer_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, Where a physical copy of Authorisation/Permissions/ licence, 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation., 18\ndeclaration, as given in Appendix 2M, to concerned office where the original licence\nwas issued."
+    },
+    {
+      "question_en": "Which authority handles Duplicate copies of Export / Import Authorisation?",
+      "answer_en": "Customs, If Authorisation/Scrip rejected by Customs, DGFT, It was transmitted to Customs, DGFT server but it is accepted by Customs, RA, DGFT server as well as Customs, Authorisation/Scrip in the Customs",
+      "question_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, Which authority handles Duplicate copies of export / import Authorisation?",
+      "answer_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, Customs, If Authorisation/Scrip rejected by Customs, DGFT, It was transmitted to Customs, DGFT server but it is accepted by Customs, RA, DGFT server as well as Customs, Authorisation/Scrip in the Customs"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Duplicate copies of Export / Import Authorisation?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.23, apply the extracted rules, and guide the user through Evaluate condition: 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg..",
+      "question_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, User asks: How do I comply with Duplicate copies of export / import Authorisation?",
+      "answer_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, AI answers: DEKAI should evaluate section 2.23, apply the extracted rules, and guide the user through Evaluate condition: 2.23 Duplicate copies of export / import Authorisation\nWhere a physical copy of Authorisation/Permissions/ licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Duplicate copies of Export / Import Authorisation?",
+      "answer_en": "AI answers: Applicable validations are 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation., In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less., It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.",
+      "question_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, User asks: Which validations apply to Duplicate copies of export / import Authorisation?",
+      "answer_thanglish": "Indha Duplicate copies of Export / Import Authorisation section-la, AI answers: Applicable validations are 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation., In such cases, revalidation kandippa be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less., It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.23, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Duplicate copies of Export / Import Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: Where a physical copy of Authorisation/Permissions/ Licence, 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation., 18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued..",
+    "Route escalations or approvals to: Customs, If Authorisation/Scrip rejected by Customs, DGFT, It was transmitted to Customs.",
+    "Trigger manual review when exception clauses are detected."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Duplicate copies of Export / Import Authorisation section-la, Capture chapter 2, section 2.23, title, and page references as immutable knowledge metadata.",
+    "Indha Duplicate copies of Export / Import Authorisation section-la, Bind validations for Duplicate copies of export / import Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Duplicate copies of Export / Import Authorisation section-la, Expose document upload controls for: Where a physical copy of Authorisation/Permissions/ licence, 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation., 18\ndeclaration, as given in Appendix 2M, to concerned office where the original licence\nwas issued..",
+    "Indha Duplicate copies of Export / Import Authorisation section-la, Route escalations or approvals to: Customs, If Authorisation/Scrip rejected by Customs, DGFT, It was transmitted to Customs.",
+    "Indha Duplicate copies of Export / Import Authorisation section-la, Trigger manual review when exception clauses are detected."
+  ],
+  "keywords": [
+    "for",
+    "may",
+    "any",
+    "not",
+    "the",
+    "iii",
+    "was",
+    "HBP",
+    "six",
+    "but",
+    "his",
+    "had",
+    "copy",
+    "lost",
+    "made",
+    "with",
+    "self",
+    "days",
+    "from",
+    "date"
+  ],
+  "search_keywords": [
+    "for",
+    "may",
+    "any",
+    "not",
+    "the",
+    "iii",
+    "was",
+    "HBP",
+    "six",
+    "but",
+    "his",
+    "had",
+    "copy",
+    "lost",
+    "made",
+    "with",
+    "self",
+    "days",
+    "from",
+    "date"
+  ],
+  "intent": "Support Duplicate copies of Export / Import Authorisation processing and compliance validation.",
+  "tags": [
+    "2.23",
+    "Duplicate copies of Export / Import Authorisation",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+    "In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.",
+    "The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+    "RA shall\nverify the same before revalidation is allowed.",
+    "However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server."
+  ],
+  "page_numbers": [
+    9,
+    10
+  ],
+  "pages": [
+    9,
+    10
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg. 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.\nIn such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less. For example: Authorisation is issued\nhaving initial validity of 12 months on 01.04.2017. It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017. So, the Authorisation holder loses 7 months (still 5 months validity is\nleft). In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.\nThe applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim. RA shall\nverify the same before revalidation is allowed.\nHowever, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.\nNotwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.\n2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg. 18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.\"]\n    S2[\"Evaluate condition: 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: RA shall\nverify the same before revalidation is allowed.\"]\n    S2 --> S3\n    S4[\"2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.\"]\n    S3 --> S4\n    S5[\"18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.\"]\n    S4 --> S5\n    S6[\"For example: Authorisation is issued\nhaving initial validity of 12 months on 01.04.2017.\"]\n    S5 --> S6\n    S7[\"The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.\"]\n    S6 --> S7\n    S8[\"RA shall\nverify the same before revalidation is allowed.\"]\n    S7 --> S8\n    S9[\"Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.\"]\n    S8 --> S9\n    S10[\"Run validation: 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.\"]\n    S9 --> S10\n    S11[\"Run validation: In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.\"]\n    S10 --> S11\n    S12[\"Run validation: It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.\"]\n    S11 --> S12\n    S13[\"Handle exception: It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.\"]\n    S12 --> S13",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.;\n:Evaluate condition\\: 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.;\n:Evaluate condition\\: RA shall\nverify the same before revalidation is allowed.;\n:2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.;\n:18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.;\n:For example\\: Authorisation is issued\nhaving initial validity of 12 months on 01.04.2017.;\n:The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.;\n:RA shall\nverify the same before revalidation is allowed.;\n:Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.;\n:Run validation\\: 18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.;\n:Run validation\\: In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.;\n:Run validation\\: It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.;\n:Handle exception\\: It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.;\nstop\n@enduml"
+}

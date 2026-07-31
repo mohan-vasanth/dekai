@@ -1,0 +1,21 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.86",
+  "title": "Replenishment Authorisation for Import of Consumables etc.",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_86-R001",
+      "rule_description": "Application for import of consumables etc., as given in paragraph 4.35 of FTP\nshall be filed online to the concerned Regional Authority in ANF 4H.",
+      "trigger": "Replenishment Authorisation for Import of Consumables etc.",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Application for import of consumables etc., as given in paragraph 4.35 of FTP\nshall be filed online to the concerned Regional Authority in ANF 4H.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.86 - Replenishment Authorisation for Import of Consumables etc.."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Application for import of consumables etc., as given in paragraph 4.35 of FTP\nshall be filed online to the concerned Regional Authority in ANF 4H."
+  ]
+}

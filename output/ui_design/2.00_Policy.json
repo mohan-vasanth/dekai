@@ -1,0 +1,37 @@
+{
+  "section": "2.00",
+  "ui": [
+    {
+      "screen_id": "Policy_overview",
+      "name": "Policy Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Policy_submission",
+      "name": "Policy Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "the_flag",
+        "ftp_flag",
+        "given_flag",
+        "policy_flag",
+        "general_flag"
+      ]
+    }
+  ]
+}

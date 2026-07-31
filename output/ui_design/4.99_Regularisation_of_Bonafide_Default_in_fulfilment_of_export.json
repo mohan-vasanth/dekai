@@ -1,0 +1,37 @@
+{
+  "section": "4.99",
+  "ui": [
+    {
+      "screen_id": "Regularisation_of_Bonafide_Default_in_fulfilment_of_export_overview",
+      "name": "Regularisation of Bonafide Default in fulfilment of export Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Regularisation_of_Bonafide_Default_in_fulfilment_of_export_submission",
+      "name": "Regularisation of Bonafide Default in fulfilment of export Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "the_flag",
+        "dia_flag",
+        "for_flag",
+        "pay_flag",
+        "fob_flag"
+      ]
+    }
+  ]
+}

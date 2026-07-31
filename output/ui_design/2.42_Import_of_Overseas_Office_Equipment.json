@@ -1,0 +1,37 @@
+{
+  "section": "2.42",
+  "ui": [
+    {
+      "screen_id": "Import_of_Overseas_Office_Equipment_overview",
+      "name": "Import of Overseas Office Equipment Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Overseas_Office_Equipment_submission",
+      "name": "Import of Overseas Office Equipment Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "set_flag",
+        "rbi_flag",
+        "and_flag",
+        "may_flag",
+        "with_flag",
+        "used_flag"
+      ]
+    }
+  ]
+}

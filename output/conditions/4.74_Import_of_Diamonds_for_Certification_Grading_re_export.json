@@ -1,0 +1,42 @@
+{
+  "section": "4.74",
+  "conditions": [
+    "4.74 Import of Diamonds for Certification/Grading & re-export\n(a) This facility has been stated in Paragraph 4.41 of FTP.",
+    "At the time of\nimports of diamonds, the bill of entry shall have the detailed description,\nincluding the dimensions / specifications of the diamonds and at the\ntime of re-export after grading/certification, the Bill of Entry details\nshould be endorsed in the shipping bill, so far as the dimensions and\nother specifications/ details of the diamonds are concerned, so as to\nestablish a clear correlation between the imported diamonds and the\ndiamonds being re- exported.",
+    "In addition, a separate self-certificate shall\nbe attached by GIA (or any other approved agency) along with the\nshipping bill at the time of shipment, for matching of the imports to that\nof the exports as per the documents and GIA (or any other approved\nagency) certificate.",
+    "However, as a one-time relaxation, in cases where the re-exporl period\nis expiring on or between 01.03.2026 and 3l.05.2026, such re-export\nperiod shall stand automatically extended by 30 days from the date of\nits expiry.xvii\n4.74 Import of Diamonds for Certification/Grading & re-export\n(a)\nThis facility has been stated in Paragraph 4.41 of FTP.",
+    "However, as a one-time relaxation, in cases where the re-exporl period\nis expiring on or between 01.03.2026 and 3l.05.2026, such re-export\nperiod shall stand automatically extended by 30 days from the date of\nits expiry.xvii"
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.74.1",
+      "if": "4.74 Import of Diamonds for Certification/Grading & re-export\n(a) This facility has been stated in Paragraph 4.41 of FTP.",
+      "then": "In addition, a separate self-certificate shall\nbe attached by GIA (or any other approved agency) along with the\nshipping bill at the time of shipment, for matching of the imports to that\nof the exports as per the documents and GIA (or any other approved\nagency) certificate.",
+      "source": "4.74 Import of Diamonds for Certification/Grading & re-export\n(a) This facility has been stated in Paragraph 4.41 of FTP."
+    },
+    {
+      "id": "4.4.74.2",
+      "if": "At the time of\nimports of diamonds, the bill of entry shall have the detailed description,\nincluding the dimensions / specifications of the diamonds and at the\ntime of re-export after grading/certification, the Bill of Entry details\nshould be endorsed in the shipping bill, so far as the dimensions and\nother specifications/ details of the diamonds are concerned, so as to\nestablish a clear correlation between the imported diamonds and the\ndiamonds being re- exported.",
+      "then": "In addition, a separate self-certificate shall\nbe attached by GIA (or any other approved agency) along with the\nshipping bill at the time of shipment, for matching of the imports to that\nof the exports as per the documents and GIA (or any other approved\nagency) certificate.",
+      "source": "At the time of\nimports of diamonds, the bill of entry shall have the detailed description,\nincluding the dimensions / specifications of the diamonds and at the\ntime of re-export after grading/certification, the Bill of Entry details\nshould be endorsed in the shipping bill, so far as the dimensions and\nother specifications/ details of the diamonds are concerned, so as to\nestablish a clear correlation between the imported diamonds and the\ndiamonds being re- exported."
+    },
+    {
+      "id": "4.4.74.3",
+      "if": "In addition, a separate self-certificate shall\nbe attached by GIA (or any other approved agency) along with the\nshipping bill at the time of shipment, for matching of the imports to that\nof the exports as per the documents and GIA (or any other approved\nagency) certificate.",
+      "then": "In addition, a separate self-certificate shall\nbe attached by GIA (or any other approved agency) along with the\nshipping bill at the time of shipment, for matching of the imports to that\nof the exports as per the documents and GIA (or any other approved\nagency) certificate.",
+      "source": "In addition, a separate self-certificate shall\nbe attached by GIA (or any other approved agency) along with the\nshipping bill at the time of shipment, for matching of the imports to that\nof the exports as per the documents and GIA (or any other approved\nagency) certificate."
+    },
+    {
+      "id": "4.4.74.4",
+      "if": "However, as a one-time relaxation, in cases where the re-exporl period\nis expiring on or between 01.03.2026 and 3l.05.2026, such re-export\nperiod shall stand automatically extended by 30 days from the date of\nits expiry.xvii\n4.74 Import of Diamonds for Certification/Grading & re-export\n(a)\nThis facility has been stated in Paragraph 4.41 of FTP.",
+      "then": "In addition, a separate self-certificate shall\nbe attached by GIA (or any other approved agency) along with the\nshipping bill at the time of shipment, for matching of the imports to that\nof the exports as per the documents and GIA (or any other approved\nagency) certificate.",
+      "source": "However, as a one-time relaxation, in cases where the re-exporl period\nis expiring on or between 01.03.2026 and 3l.05.2026, such re-export\nperiod shall stand automatically extended by 30 days from the date of\nits expiry.xvii\n4.74 Import of Diamonds for Certification/Grading & re-export\n(a)\nThis facility has been stated in Paragraph 4.41 of FTP."
+    },
+    {
+      "id": "4.4.74.5",
+      "if": "However, as a one-time relaxation, in cases where the re-exporl period\nis expiring on or between 01.03.2026 and 3l.05.2026, such re-export\nperiod shall stand automatically extended by 30 days from the date of\nits expiry.xvii",
+      "then": "In addition, a separate self-certificate shall\nbe attached by GIA (or any other approved agency) along with the\nshipping bill at the time of shipment, for matching of the imports to that\nof the exports as per the documents and GIA (or any other approved\nagency) certificate.",
+      "source": "However, as a one-time relaxation, in cases where the re-exporl period\nis expiring on or between 01.03.2026 and 3l.05.2026, such re-export\nperiod shall stand automatically extended by 30 days from the date of\nits expiry.xvii"
+    }
+  ]
+}

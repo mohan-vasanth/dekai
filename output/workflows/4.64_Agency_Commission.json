@@ -1,0 +1,12 @@
+{
+  "section": "4.64",
+  "workflow": [
+    "Evaluate condition: 4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.",
+    "Evaluate condition: Value Addition\nshall be calculated after deducting agency commission.",
+    "4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.",
+    "Run validation: Value Addition\nshall be calculated after deducting agency commission."
+  ],
+  "workflow_ascii": "Agency Commission\nEvaluate condition: 4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.\n   |\n   v\nEvaluate condition: Value Addition\nshall be calculated after deducting agency commission.\n   |\n   v\n4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.\n   |\n   v\nRun validation: Value Addition\nshall be calculated after deducting agency commission.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.\"]\n    S2[\"Evaluate condition: Value Addition\nshall be calculated after deducting agency commission.\"]\n    S1 --> S2\n    S3[\"4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.\"]\n    S2 --> S3\n    S4[\"Run validation: Value Addition\nshall be calculated after deducting agency commission.\"]\n    S3 --> S4",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.;\n:Evaluate condition\\: Value Addition\nshall be calculated after deducting agency commission.;\n:4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.;\n:Run validation\\: Value Addition\nshall be calculated after deducting agency commission.;\nstop\n@enduml"
+}

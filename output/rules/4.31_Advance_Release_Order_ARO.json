@@ -1,0 +1,33 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.31",
+  "title": "Advance Release Order (ARO)",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_31-R001",
+      "rule_description": "4.31 Advance Release Order (ARO)\nApplication shall be filed online in ANF 4A to Regional Authority concerned for grant\nof ARO to procure inputs from indigenous sources / STEs.",
+      "trigger": "Advance Release Order (ARO)",
+      "condition": "A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.",
+      "validation": "4.31 Advance Release Order (ARO)\nApplication shall be filed online in ANF 4A to Regional Authority concerned for grant\nof ARO to procure inputs from indigenous sources / STEs.",
+      "action": "A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.31 - Advance Release Order (ARO)."
+    },
+    {
+      "rule_id": "CH4-SEC4_31-R002",
+      "rule_description": "A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.",
+      "trigger": "Advance Release Order (ARO)",
+      "condition": "A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.",
+      "validation": "A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.",
+      "action": "A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.31 - Advance Release Order (ARO)."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.31 Advance Release Order (ARO)\nApplication shall be filed online in ANF 4A to Regional Authority concerned for grant\nof ARO to procure inputs from indigenous sources / STEs.",
+    "IF detected context matches section rule THEN enforce: A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.",
+    "IF validations pass THEN recommend action: A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "4.55",
+  "ui": [
+    {
+      "screen_id": "Re_export_of_goods_imported_under_DFIA_Scheme_overview",
+      "name": "Re-export of goods imported under DFIA Scheme Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Re_export_of_goods_imported_under_DFIA_Scheme_submission",
+      "name": "Re-export of goods imported under DFIA Scheme Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "are_flag",
+        "for_flag",
+        "use_flag",
+        "may_flag",
+        "per_flag",
+        "the_flag"
+      ]
+    }
+  ]
+}

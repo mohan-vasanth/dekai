@@ -1,0 +1,22 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.68",
+  "title": "Application for Grant of Export Authorisation/Certificate/",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_68-R001",
+      "rule_description": "EFC shall consider\napplications on merits for issue of export Authorisation.",
+      "trigger": "Application for Grant of Export Authorisation/Certificate/",
+      "condition": "2.68 Application for Grant of Export Authorisation/Certificate/\nPermission for non-SCOMET Items\nAn online application for grant of Export Authorisation in respect of restricted items\n[other than items in Special Chemicals, Organisms, Materials, Equipment and\nTechnologies (SCOMET) List] mentioned in Appendix-3 to Schedule 2 of ITC (HS)\nClassifications of Export and Import Items may be made in ANF 2N to DGFT\n(Headquarters) along with documents prescribed therein.",
+      "validation": "EFC shall consider\napplications on merits for issue of export Authorisation.",
+      "action": "EFC shall consider\napplications on merits for issue of export Authorisation.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.68 - Application for Grant of Export Authorisation/Certificate/."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: EFC shall consider\napplications on merits for issue of export Authorisation.",
+    "IF validations pass THEN recommend action: EFC shall consider\napplications on merits for issue of export Authorisation."
+  ]
+}

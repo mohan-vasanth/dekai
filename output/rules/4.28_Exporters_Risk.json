@@ -1,0 +1,21 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.28",
+  "title": "Exporters Risk",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_28-R001",
+      "rule_description": "4.28 Exporters Risk\nExports / supplies made in anticipation of grant of an Advance Authorisation shall\nbe entirely on risk and responsibility of exporter.",
+      "trigger": "Exporters Risk",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "4.28 Exporters Risk\nExports / supplies made in anticipation of grant of an Advance Authorisation shall\nbe entirely on risk and responsibility of exporter.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.28 - Exporters Risk."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.28 Exporters Risk\nExports / supplies made in anticipation of grant of an Advance Authorisation shall\nbe entirely on risk and responsibility of exporter."
+  ]
+}

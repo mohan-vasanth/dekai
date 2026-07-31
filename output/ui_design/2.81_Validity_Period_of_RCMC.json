@@ -1,0 +1,47 @@
+{
+  "section": "2.81",
+  "ui": [
+    {
+      "screen_id": "Validity_Period_of_RCMC_overview",
+      "name": "Validity Period of RCMC Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Validity_Period_of_RCMC_submission",
+      "name": "Validity Period of RCMC Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "was_flag",
+        "and_flag",
+        "for_flag",
+        "the_flag",
+        "rcmc_flag",
+        "from_flag"
+      ]
+    },
+    {
+      "screen_id": "Validity_Period_of_RCMC_exceptions",
+      "name": "Validity Period of RCMC Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

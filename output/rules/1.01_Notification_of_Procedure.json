@@ -1,0 +1,33 @@
+{
+  "chapter_number": "1",
+  "chapter_title": "Legal Framework and Trade Facilitation",
+  "section": "1.01",
+  "title": "Notification of Procedure",
+  "business_rules": [
+    {
+      "rule_id": "CH1-SEC1_01-R001",
+      "rule_description": "The said procedure is contained in following\ncompilations:\n(a) Hand Book of Procedures\n(b) Appendices & Aayat Niryat Forms and\n(c) Standard Input Output Norms (SION)\nThese compilations, as amended from time to time, shall come into force from the date\nof the notification and shall continue to be in operation unless otherwise specified or\namended.",
+      "trigger": "Notification of Procedure",
+      "condition": "1.01 Notification of Procedure\nIn pursuance of the provisions of paragraph 1.03 of Foreign Trade Policy (FTP), the\nDirector General of Foreign Trade (DGFT) hereby notifies the procedure to be\nfollowed by an exporter or importer or by the licensing/Regional Authority or by any\nother authority for purpose of implementing the provisions of Foreign Trade\n(Development & Regulation) Act, the Rules/Orders made there under and the\nprovisions of Foreign Trade Policy.",
+      "validation": "The said procedure is contained in following\ncompilations:\n(a) Hand Book of Procedures\n(b) Appendices & Aayat Niryat Forms and\n(c) Standard Input Output Norms (SION)\nThese compilations, as amended from time to time, shall come into force from the date\nof the notification and shall continue to be in operation unless otherwise specified or\namended.",
+      "action": "The said procedure is contained in following\ncompilations:\n(a) Hand Book of Procedures\n(b) Appendices & Aayat Niryat Forms and\n(c) Standard Input Output Norms (SION)\nThese compilations, as amended from time to time, shall come into force from the date\nof the notification and shall continue to be in operation unless otherwise specified or\namended.",
+      "exception": "The said procedure is contained in following\ncompilations:\n(a) Hand Book of Procedures\n(b) Appendices & Aayat Niryat Forms and\n(c) Standard Input Output Norms (SION)\nThese compilations, as amended from time to time, shall come into force from the date\nof the notification and shall continue to be in operation unless otherwise specified or\namended.",
+      "output": "DEKAI should produce a compliance decision for 1.01 - Notification of Procedure."
+    },
+    {
+      "rule_id": "CH1-SEC1_01-R002",
+      "rule_description": "The said procedure is contained in following\ncompilations:\n(a)\nHand Book of Procedures\n(b)\nAppendices & Aayat Niryat Forms and\n(c)\nStandard Input Output Norms (SION)\nThese compilations, as amended from time to time, shall come into force from the date\nof the notification and shall continue to be in operation unless otherwise specified or\namended.",
+      "trigger": "Notification of Procedure",
+      "condition": "The said procedure is contained in following\ncompilations:\n(a) Hand Book of Procedures\n(b) Appendices & Aayat Niryat Forms and\n(c) Standard Input Output Norms (SION)\nThese compilations, as amended from time to time, shall come into force from the date\nof the notification and shall continue to be in operation unless otherwise specified or\namended.",
+      "validation": "The said procedure is contained in following\ncompilations:\n(a)\nHand Book of Procedures\n(b)\nAppendices & Aayat Niryat Forms and\n(c)\nStandard Input Output Norms (SION)\nThese compilations, as amended from time to time, shall come into force from the date\nof the notification and shall continue to be in operation unless otherwise specified or\namended.",
+      "action": "The said procedure is contained in following\ncompilations:\n(a)\nHand Book of Procedures\n(b)\nAppendices & Aayat Niryat Forms and\n(c)\nStandard Input Output Norms (SION)\nThese compilations, as amended from time to time, shall come into force from the date\nof the notification and shall continue to be in operation unless otherwise specified or\namended.",
+      "exception": "The said procedure is contained in following\ncompilations:\n(a)\nHand Book of Procedures\n(b)\nAppendices & Aayat Niryat Forms and\n(c)\nStandard Input Output Norms (SION)\nThese compilations, as amended from time to time, shall come into force from the date\nof the notification and shall continue to be in operation unless otherwise specified or\namended.",
+      "output": "DEKAI should produce a compliance decision for 1.01 - Notification of Procedure."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: The said procedure is contained in following\ncompilations:\n(a) Hand Book of Procedures\n(b) Appendices & Aayat Niryat Forms and\n(c) Standard Input Output Norms (SION)\nThese compilations, as amended from time to time, shall come into force from the date\nof the notification and shall continue to be in operation unless otherwise specified or\namended.",
+    "IF detected context matches section rule THEN enforce: The said procedure is contained in following\ncompilations:\n(a)\nHand Book of Procedures\n(b)\nAppendices & Aayat Niryat Forms and\n(c)\nStandard Input Output Norms (SION)\nThese compilations, as amended from time to time, shall come into force from the date\nof the notification and shall continue to be in operation unless otherwise specified or\namended.",
+    "IF validations pass THEN recommend action: The said procedure is contained in following\ncompilations:\n(a) Hand Book of Procedures\n(b) Appendices & Aayat Niryat Forms and\n(c) Standard Input Output Norms (SION)\nThese compilations, as amended from time to time, shall come into force from the date\nof the notification and shall continue to be in operation unless otherwise specified or\namended."
+  ]
+}

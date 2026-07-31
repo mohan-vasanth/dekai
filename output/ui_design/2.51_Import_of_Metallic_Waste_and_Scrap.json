@@ -1,0 +1,47 @@
+{
+  "section": "2.51",
+  "ui": [
+    {
+      "screen_id": "Import_of_Metallic_Waste_and_Scrap_overview",
+      "name": "Import of Metallic Waste and Scrap Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Metallic_Waste_and_Scrap_submission",
+      "name": "Import of Metallic Waste and Scrap Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "any_flag",
+        "the_flag",
+        "not_flag",
+        "saw_flag",
+        "may_flag"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Metallic_Waste_and_Scrap_exceptions",
+      "name": "Import of Metallic Waste and Scrap Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

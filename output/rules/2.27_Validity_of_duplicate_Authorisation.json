@@ -1,0 +1,32 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.27",
+  "title": "Validity of duplicate Authorisation",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_27-R001",
+      "rule_description": "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+      "trigger": "Validity of duplicate Authorisation",
+      "condition": "No\nrequest shall be entertained if validity has expired.",
+      "validation": "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.27 - Validity of duplicate Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_27-R002",
+      "rule_description": "No\nrequest shall be entertained if validity has expired.",
+      "trigger": "Validity of duplicate Authorisation",
+      "condition": "No\nrequest shall be entertained if validity has expired.",
+      "validation": "No\nrequest shall be entertained if validity has expired.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.27 - Validity of duplicate Authorisation."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+    "IF detected context matches section rule THEN enforce: No\nrequest shall be entertained if validity has expired."
+  ]
+}

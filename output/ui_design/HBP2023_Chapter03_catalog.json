@@ -1,0 +1,326 @@
+{
+  "screen_ids": [
+    "Policy_overview",
+    "Policy_submission",
+    "Objective_of_policy_overview",
+    "Objective_of_policy_submission",
+    "District_Export_Promotion_Committees_Institutional_Mechanism_at_overview",
+    "District_Export_Promotion_Committees_Institutional_Mechanism_at_submission",
+    "District_Export_Action_Plans_for_Each_District_overview",
+    "District_Export_Action_Plans_for_Each_District_submission",
+    "State_UT_Export_Promotion_Committees_overview",
+    "State_UT_Export_Promotion_Committees_submission",
+    "Nodal_DGFT_Regional_Authority_overview",
+    "Nodal_DGFT_Regional_Authority_submission",
+    "Online_Monitoring_of_District_Export_Action_Plans_overview",
+    "Online_Monitoring_of_District_Export_Action_Plans_submission",
+    "District_Outreach_Programs_overview",
+    "District_Outreach_Programs_submission"
+  ],
+  "sections": [
+    {
+      "section": "3.01",
+      "title": "Policy",
+      "ui": [
+        {
+          "screen_id": "Policy_overview",
+          "name": "Policy Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Policy_submission",
+          "name": "Policy Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "ftp_flag",
+            "hubs_flag",
+            "given_flag",
+            "policy_flag",
+            "export_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.02",
+      "title": "Objective of policy",
+      "ui": [
+        {
+          "screen_id": "Objective_of_policy_overview",
+          "name": "Objective of policy Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Objective_of_policy_submission",
+          "name": "Objective of policy Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "hub_flag",
+            "for_flag",
+            "and_flag",
+            "aim_flag",
+            "any_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.03",
+      "title": "District Export Promotion Committees -Institutional Mechanism at",
+      "ui": [
+        {
+          "screen_id": "District_Export_Promotion_Committees_Institutional_Mechanism_at_overview",
+          "name": "District Export Promotion Committees -Institutional Mechanism at Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "District_Export_Promotion_Committees_Institutional_Mechanism_at_submission",
+          "name": "District Export Promotion Committees -Institutional Mechanism at Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "has_flag",
+            "the_flag",
+            "and_flag",
+            "its_flag",
+            "dic_flag",
+            "etc_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.05",
+      "title": "District Export Action Plans for Each District",
+      "ui": [
+        {
+          "screen_id": "District_Export_Action_Plans_for_Each_District_overview",
+          "name": "District Export Action Plans for Each District Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "District_Export_Action_Plans_for_Each_District_submission",
+          "name": "District Export Action Plans for Each District Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "may_flag",
+            "and_flag",
+            "mai_flag",
+            "each_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.06",
+      "title": "State/UT Export Promotion Committees",
+      "ui": [
+        {
+          "screen_id": "State_UT_Export_Promotion_Committees_overview",
+          "name": "State/UT Export Promotion Committees Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "State_UT_Export_Promotion_Committees_submission",
+          "name": "State/UT Export Promotion Committees Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "may_flag",
+            "all_flag",
+            "from_flag",
+            "each_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.07",
+      "title": "Nodal DGFT Regional Authority",
+      "ui": [
+        {
+          "screen_id": "Nodal_DGFT_Regional_Authority_overview",
+          "name": "Nodal DGFT Regional Authority Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Nodal_DGFT_Regional_Authority_submission",
+          "name": "Nodal DGFT Regional Authority Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "for_flag",
+            "all_flag",
+            "has_flag",
+            "dgft_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.08",
+      "title": "Online Monitoring of District Export Action Plans",
+      "ui": [
+        {
+          "screen_id": "Online_Monitoring_of_District_Export_Action_Plans_overview",
+          "name": "Online Monitoring of District Export Action Plans Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Online_Monitoring_of_District_Export_Action_Plans_submission",
+          "name": "Online Monitoring of District Export Action Plans Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "ras_flag",
+            "all_flag",
+            "for_flag",
+            "dgft_flag",
+            "that_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.09",
+      "title": "District Outreach Programs",
+      "ui": [
+        {
+          "screen_id": "District_Outreach_Programs_overview",
+          "name": "District Outreach Programs Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "District_Outreach_Programs_submission",
+          "name": "District Outreach Programs Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "ras_flag",
+            "all_flag",
+            "for_flag",
+            "each_flag"
+          ]
+        }
+      ]
+    }
+  ]
+}

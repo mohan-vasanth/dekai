@@ -1,0 +1,37 @@
+{
+  "section": "4.57",
+  "ui": [
+    {
+      "screen_id": "General_Provision_overview",
+      "name": "General Provision Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "General_Provision_submission",
+      "name": "General Provision Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "gem_flag",
+        "and_flag",
+        "for_flag",
+        "ftp_flag",
+        "per_flag",
+        "gold_flag"
+      ]
+    }
+  ]
+}

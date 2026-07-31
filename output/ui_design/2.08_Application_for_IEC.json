@@ -1,0 +1,47 @@
+{
+  "section": "2.08",
+  "ui": [
+    {
+      "screen_id": "Application_for_IEC_overview",
+      "name": "Application for IEC Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Application_for_IEC_submission",
+      "name": "Application for IEC Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "iec_flag",
+        "the_flag",
+        "gov_flag",
+        "fee_flag",
+        "and_flag"
+      ]
+    },
+    {
+      "screen_id": "Application_for_IEC_exceptions",
+      "name": "Application for IEC Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

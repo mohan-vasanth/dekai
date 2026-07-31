@@ -1,0 +1,63 @@
+{
+  "section": "4.22",
+  "conditions": [
+    "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.",
+    "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+    "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.22.1",
+      "if": "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant."
+    },
+    {
+      "id": "4.4.22.2",
+      "if": "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation."
+    },
+    {
+      "id": "4.4.22.3",
+      "if": "However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above."
+    },
+    {
+      "id": "4.4.22.4",
+      "if": "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg."
+    },
+    {
+      "id": "4.4.22.5",
+      "if": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized."
+    },
+    {
+      "id": "4.4.22.6",
+      "if": "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant."
+    },
+    {
+      "id": "4.4.22.7",
+      "if": "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation."
+    },
+    {
+      "id": "4.4.22.8",
+      "if": "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B."
+    }
+  ]
+}

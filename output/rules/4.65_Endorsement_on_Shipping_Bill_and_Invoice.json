@@ -1,0 +1,43 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.65",
+  "title": "Endorsement on Shipping Bill and Invoice",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_65-R001",
+      "rule_description": "4.65 Endorsement on Shipping Bill and Invoice\nDuring export of jewellery, shipping bill and invoice presented to customs\nauthorities shall contain description of item, its purity, weight of gold/ silver/\nplatinum content, wastage claimed thereon, total weight of gold/ silver/\nplatinum content plus wastage claimed and its equivalent quantity in terms of\n0.995/0.999 fineness for gold / silver and in terms of 0.9999 fineness for\nplatinum and its value, FOB value of exports and value addition achieved.",
+      "trigger": "Endorsement on Shipping Bill and Invoice",
+      "condition": "If\npg.",
+      "validation": "4.65 Endorsement on Shipping Bill and Invoice\nDuring export of jewellery, shipping bill and invoice presented to customs\nauthorities shall contain description of item, its purity, weight of gold/ silver/\nplatinum content, wastage claimed thereon, total weight of gold/ silver/\nplatinum content plus wastage claimed and its equivalent quantity in terms of\n0.995/0.999 fineness for gold / silver and in terms of 0.9999 fineness for\nplatinum and its value, FOB value of exports and value addition achieved.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.65 - Endorsement on Shipping Bill and Invoice."
+    },
+    {
+      "rule_id": "CH4-SEC4_65-R002",
+      "rule_description": "114\n4.65 Endorsement on Shipping Bill and Invoice\nDuring export of jewellery, shipping bill and invoice presented to customs\nauthorities shall contain description of item, its purity, weight of gold/ silver/\nplatinum content, wastage claimed thereon, total weight of gold/ silver/\nplatinum content plus wastage claimed and its equivalent quantity in terms of\n0.995/0.999 fineness for gold / silver and in terms of 0.9999 fineness for\nplatinum and its value, FOB value of exports and value addition achieved.",
+      "trigger": "Endorsement on Shipping Bill and Invoice",
+      "condition": "If\npurity of gold/silver/platinum used is same in respect of all or some of items\nmade out from each of these metals for export, exporter may give total weight of\ngold/silver/platinum and other details of such similar items which are of same\npurity.",
+      "validation": "114\n4.65 Endorsement on Shipping Bill and Invoice\nDuring export of jewellery, shipping bill and invoice presented to customs\nauthorities shall contain description of item, its purity, weight of gold/ silver/\nplatinum content, wastage claimed thereon, total weight of gold/ silver/\nplatinum content plus wastage claimed and its equivalent quantity in terms of\n0.995/0.999 fineness for gold / silver and in terms of 0.9999 fineness for\nplatinum and its value, FOB value of exports and value addition achieved.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.65 - Endorsement on Shipping Bill and Invoice."
+    },
+    {
+      "rule_id": "CH4-SEC4_65-R003",
+      "rule_description": "In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver.",
+      "trigger": "Endorsement on Shipping Bill and Invoice",
+      "condition": "In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver.",
+      "validation": "In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.65 - Endorsement on Shipping Bill and Invoice."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.65 Endorsement on Shipping Bill and Invoice\nDuring export of jewellery, shipping bill and invoice presented to customs\nauthorities shall contain description of item, its purity, weight of gold/ silver/\nplatinum content, wastage claimed thereon, total weight of gold/ silver/\nplatinum content plus wastage claimed and its equivalent quantity in terms of\n0.995/0.999 fineness for gold / silver and in terms of 0.9999 fineness for\nplatinum and its value, FOB value of exports and value addition achieved.",
+    "IF detected context matches section rule THEN enforce: 114\n4.65 Endorsement on Shipping Bill and Invoice\nDuring export of jewellery, shipping bill and invoice presented to customs\nauthorities shall contain description of item, its purity, weight of gold/ silver/\nplatinum content, wastage claimed thereon, total weight of gold/ silver/\nplatinum content plus wastage claimed and its equivalent quantity in terms of\n0.995/0.999 fineness for gold / silver and in terms of 0.9999 fineness for\nplatinum and its value, FOB value of exports and value addition achieved.",
+    "IF detected context matches section rule THEN enforce: In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver."
+  ]
+}

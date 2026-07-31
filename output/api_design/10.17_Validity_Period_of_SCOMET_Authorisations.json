@@ -1,0 +1,57 @@
+{
+  "section": "10.17",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/10.17",
+      "purpose": "Retrieve knowledge payload for section 10.17",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Validity-Period-of-SCOMET-Authorisations/validate",
+      "purpose": "Validate inputs and documents for Validity Period of SCOMET Authorisations",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Validity-Period-of-SCOMET-Authorisations/execute",
+      "purpose": "Trigger business action for 10.17 Validity Period of SCOMET Authorisations\nThe validity period of SCOMET authorisations from the date of issue shall be as\nfollows, unless specified otherwise\nS.No.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

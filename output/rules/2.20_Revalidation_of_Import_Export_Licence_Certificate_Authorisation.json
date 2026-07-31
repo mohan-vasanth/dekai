@@ -1,0 +1,97 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.20",
+  "title": "Revalidation of Import / Export Licence Certificate/ Authorisation /",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_20-R001",
+      "rule_description": "(c) However, revalidation of freely transferable authorisation / duty credit scrips and\nstock and sale (excluding SCOMET items) authorisation shall not be permitted unless\nvalidity has expired while in custody of Customs Authority / RA / Government\nAuthority.",
+      "trigger": "Revalidation of Import / Export Licence Certificate/ Authorisation /",
+      "condition": "2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ).",
+      "validation": "2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ).",
+      "action": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "exception": "(c) However, revalidation of freely transferable authorisation / duty credit scrips and\nstock and sale (excluding SCOMET items) authorisation shall not be permitted unless\nvalidity has expired while in custody of Customs Authority / RA / Government\nAuthority.",
+      "output": "DEKAI should produce a compliance decision for 2.20 - Revalidation of Import / Export Licence Certificate/ Authorisation /."
+    },
+    {
+      "rule_id": "CH2-SEC2_20-R002",
+      "rule_description": "(d) Revalidation of Authorisation/Duty Credit Scrip shall also be allowed without\ncharging any fee for the period of delay (the period for which authorisation/scrip\nholder was unable to utilise the same) or six months, whichever is less, due to the\nfollowing reasons:\npg.",
+      "trigger": "Revalidation of Import / Export Licence Certificate/ Authorisation /",
+      "condition": "(c) However, revalidation of freely transferable authorisation / duty credit scrips and\nstock and sale (excluding SCOMET items) authorisation shall not be permitted unless\nvalidity has expired while in custody of Customs Authority / RA / Government\nAuthority.",
+      "validation": "(b) Export Authorisation, may be revalidated, on merits for a period of six months a\ntime and maximum upto 12 months by the DGFT (HQ).",
+      "action": "For example: Authorisation is issued\nhaving initial validity of 12 months on 01.04.2017.",
+      "exception": "It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.",
+      "output": "DEKAI should produce a compliance decision for 2.20 - Revalidation of Import / Export Licence Certificate/ Authorisation /."
+    },
+    {
+      "rule_id": "CH2-SEC2_20-R003",
+      "rule_description": "In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+      "trigger": "Revalidation of Import / Export Licence Certificate/ Authorisation /",
+      "condition": "17\n2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ).",
+      "validation": "(c) However, revalidation of freely transferable authorisation / duty credit scrips and\nstock and sale (excluding SCOMET items) authorisation shall not be permitted unless\nvalidity has expired while in custody of Customs Authority / RA / Government\nAuthority.",
+      "action": "The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+      "exception": "However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.",
+      "output": "DEKAI should produce a compliance decision for 2.20 - Revalidation of Import / Export Licence Certificate/ Authorisation /."
+    },
+    {
+      "rule_id": "CH2-SEC2_20-R004",
+      "rule_description": "In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.",
+      "trigger": "Revalidation of Import / Export Licence Certificate/ Authorisation /",
+      "condition": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "validation": "(d) Revalidation of Authorisation/Duty Credit Scrip shall also be allowed without\ncharging any fee for the period of delay (the period for which authorisation/scrip\nholder was unable to utilise the same) or six months, whichever is less, due to the\nfollowing reasons:\npg.",
+      "action": "RA shall\nverify the same before revalidation is allowed.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.20 - Revalidation of Import / Export Licence Certificate/ Authorisation /."
+    },
+    {
+      "rule_id": "CH2-SEC2_20-R005",
+      "rule_description": "The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+      "trigger": "Revalidation of Import / Export Licence Certificate/ Authorisation /",
+      "condition": "RA shall\nverify the same before revalidation is allowed.",
+      "validation": "17\n2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ).",
+      "action": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.20 - Revalidation of Import / Export Licence Certificate/ Authorisation /."
+    },
+    {
+      "rule_id": "CH2-SEC2_20-R006",
+      "rule_description": "RA shall\nverify the same before revalidation is allowed.",
+      "trigger": "Revalidation of Import / Export Licence Certificate/ Authorisation /",
+      "condition": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "validation": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "action": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.20 - Revalidation of Import / Export Licence Certificate/ Authorisation /."
+    },
+    {
+      "rule_id": "CH2-SEC2_20-R007",
+      "rule_description": "However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.",
+      "trigger": "Revalidation of Import / Export Licence Certificate/ Authorisation /",
+      "condition": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "validation": "In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+      "action": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.20 - Revalidation of Import / Export Licence Certificate/ Authorisation /."
+    },
+    {
+      "rule_id": "CH2-SEC2_20-R008",
+      "rule_description": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "trigger": "Revalidation of Import / Export Licence Certificate/ Authorisation /",
+      "condition": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "validation": "It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.",
+      "action": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.20 - Revalidation of Import / Export Licence Certificate/ Authorisation /."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (c) However, revalidation of freely transferable authorisation / duty credit scrips and\nstock and sale (excluding SCOMET items) authorisation shall not be permitted unless\nvalidity has expired while in custody of Customs Authority / RA / Government\nAuthority.",
+    "IF detected context matches section rule THEN enforce: (d) Revalidation of Authorisation/Duty Credit Scrip shall also be allowed without\ncharging any fee for the period of delay (the period for which authorisation/scrip\nholder was unable to utilise the same) or six months, whichever is less, due to the\nfollowing reasons:\npg.",
+    "IF detected context matches section rule THEN enforce: In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+    "IF detected context matches section rule THEN enforce: In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.",
+    "IF detected context matches section rule THEN enforce: The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+    "IF detected context matches section rule THEN enforce: RA shall\nverify the same before revalidation is allowed.",
+    "IF validations pass THEN recommend action: 17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation."
+  ]
+}

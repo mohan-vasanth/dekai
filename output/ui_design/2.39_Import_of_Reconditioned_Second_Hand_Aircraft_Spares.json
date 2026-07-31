@@ -1,0 +1,37 @@
+{
+  "section": "2.39",
+  "ui": [
+    {
+      "screen_id": "Import_of_Reconditioned_Second_Hand_Aircraft_Spares_overview",
+      "name": "Import of Reconditioned/ Second Hand Aircraft Spares Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Reconditioned_Second_Hand_Aircraft_Spares_submission",
+      "name": "Import of Reconditioned/ Second Hand Aircraft Spares Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "not_flag",
+        "noc_flag",
+        "hand_flag",
+        "dgca_flag",
+        "civil_flag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "5.10",
+  "ui": [
+    {
+      "screen_id": "Conditions_for_fulfillment_of_Export_Obligation_overview",
+      "name": "Conditions for fulfillment of Export Obligation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Conditions_for_fulfillment_of_Export_Obligation_submission",
+      "name": "Conditions for fulfillment of Export Obligation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "ftp_flag",
+        "the_flag",
+        "viz_flag",
+        "etc_flag",
+        "and_flag"
+      ]
+    }
+  ]
+}

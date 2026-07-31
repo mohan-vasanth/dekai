@@ -1,0 +1,22 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.89",
+  "title": "Unilateral Tariff Preferences",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_89-R001",
+      "rule_description": "(iii) Further, as per the conditions required to avail GSP benefit under self-\ncertification system, the beneficiary country needs to have a verification system of\nsuch self-certified certificates of origin.",
+      "trigger": "Unilateral Tariff Preferences",
+      "condition": "2.89 Unilateral Tariff Preferences\nUnder these schemes, both developed and developing countries grant unilateral tariff\npreferences to exports from developing countries including Least Developed\nCountries (LDCs).",
+      "validation": "(iii) Further, as per the conditions required to avail GSP benefit under self-\ncertification system, the beneficiary country needs to have a verification system of\nsuch self-certified certificates of origin.",
+      "action": "List of agencies authorised to issue GSP Co O is given in Appendix-2C.",
+      "exception": "However, the provision of Tatkal\ncertificate of origin as being provided by some of the agencies would be\ndiscontinued.",
+      "output": "DEKAI should produce a compliance decision for 2.89 - Unilateral Tariff Preferences."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (iii) Further, as per the conditions required to avail GSP benefit under self-\ncertification system, the beneficiary country needs to have a verification system of\nsuch self-certified certificates of origin.",
+    "IF validations pass THEN recommend action: List of agencies authorised to issue GSP Co O is given in Appendix-2C."
+  ]
+}

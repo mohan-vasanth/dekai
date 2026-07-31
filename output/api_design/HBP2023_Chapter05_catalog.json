@@ -1,0 +1,1393 @@
+{
+  "resources": [
+    "Policy",
+    "Application-Form",
+    "Nexus-Certification",
+    "Certificate-of-Installation-of-Capital-Goods",
+    "Port-of-Registration",
+    "Import-of-spares-tools-refractories-and-catalysts",
+    "Conversion-of-EOU-Relocated-SEZ-Units-to-DTA-Unit-under-EPCG",
+    "Procurement-from-SEZ",
+    "Sourcing-of-Capital-Goods-Manufactured-Indigenously",
+    "Conditions-for-fulfillment-of-Export-Obligation",
+    "Realization-of-Export-proceeds",
+    "Calculation-of-Average-Export-Obligation",
+    "Block-wise-Fulfillment-of-EO",
+    "Report-for-EO-fulfilment",
+    "Extension-in-Export-Obligation-Period",
+    "Relief-in-Average-Export-Obligation",
+    "Maintenance-of-Annual-Average-Export-Obligation",
+    "Automatic-EO-extension-in-the-event-of-ban-on-export-product",
+    "Export-Obligation-Discharge-Certificate-EODC",
+    "Regularization-of-bonafide-default-and-exit-from-EPCG-scheme",
+    "Maintenance-of-Records",
+    "Re-Export-Repair-Replacement-of-Capital-Goods-Imported",
+    "Penal-Action",
+    "Clubbing-of-EPCG-authorisations",
+    "Green-Technology-Products"
+  ],
+  "sections": [
+    {
+      "section": "5.01",
+      "title": "Policy",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.01",
+          "purpose": "Retrieve knowledge payload for section 5.01",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Policy/validate",
+          "purpose": "Validate inputs and documents for Policy",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.02",
+      "title": "Application Form",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.02",
+          "purpose": "Retrieve knowledge payload for section 5.02",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-Form/validate",
+          "purpose": "Validate inputs and documents for Application Form",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-Form/execute",
+          "purpose": "Trigger business action for 5.02 Application Form\nAn application for grant of an authorisation may be made by Registered Office or\nHead Office or a Branch Office or Manufacturing Unit of an eligible exporter to RA\nconcerned in ANF 5A along with documents prescribed therein.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.03",
+      "title": "Nexus Certification",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.03",
+          "purpose": "Retrieve knowledge payload for section 5.03",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Nexus-Certification/validate",
+          "purpose": "Validate inputs and documents for Nexus Certification",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Nexus-Certification/execute",
+          "purpose": "Trigger business action for 5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.04",
+      "title": "Certificate of Installation of Capital Goods",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.04",
+          "purpose": "Retrieve knowledge payload for section 5.04",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Certificate-of-Installation-of-Capital-Goods/validate",
+          "purpose": "Validate inputs and documents for Certificate of Installation of Capital Goods",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Certificate-of-Installation-of-Capital-Goods/execute",
+          "purpose": "Trigger business action for The RA may allow extension of the said period for\nsubmission of certificate, upto valid EO period with a payment of a\ncomposition fee of Rs.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.05",
+      "title": "Port of Registration",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.05",
+          "purpose": "Retrieve knowledge payload for section 5.05",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Port-of-Registration/validate",
+          "purpose": "Validate inputs and documents for Port of Registration",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Port-of-Registration/execute",
+          "purpose": "Trigger business action for 5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.06",
+      "title": "Import of spares, tools, refractories and catalysts",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.06",
+          "purpose": "Retrieve knowledge payload for section 5.06",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Import-of-spares-tools-refractories-and-catalysts/validate",
+          "purpose": "Validate inputs and documents for Import of spares, tools, refractories and catalysts",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Import-of-spares-tools-refractories-and-catalysts/execute",
+          "purpose": "Trigger business action for (c) Authorisation holder shall maintain a register of stock & utilisation of\ncapital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph\n5.01 of FTP imported under the scheme and at the time of application for\nEODC, authorisation holder shall submit certificate from independent\nChartered Engineer confirming their use in the installed capital goods on\nthe basis of such register.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.07",
+      "title": "Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.07",
+          "purpose": "Retrieve knowledge payload for section 5.07",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conversion-of-EOU-Relocated-SEZ-Units-to-DTA-Unit-under-EPCG/validate",
+          "purpose": "Validate inputs and documents for Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conversion-of-EOU-Relocated-SEZ-Units-to-DTA-Unit-under-EPCG/execute",
+          "purpose": "Trigger business action for 5.07 Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG\nScheme\n(a) An EOU/a relocated SEZ unit, while converting to a DTA Unit, may apply for\nan EPCG authorisation along with documents prescribed.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.08",
+      "title": "Procurement from SEZ",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.08",
+          "purpose": "Retrieve knowledge payload for section 5.08",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Procurement-from-SEZ/validate",
+          "purpose": "Validate inputs and documents for Procurement from SEZ",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Procurement-from-SEZ/execute",
+          "purpose": "Trigger business action for 5.08 Procurement from SEZ\n(a) If the request is made along with the application for authorisation for\nprocurement of new Capital goods from SEZs, the RA may issue a\n\"Certificate of supplies from SEZ\", containing the details for the requested\nitems after making the import item \"Invalid for direct imports”.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.09",
+      "title": "Sourcing of Capital Goods Manufactured Indigenously",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.09",
+          "purpose": "Retrieve knowledge payload for section 5.09",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Sourcing-of-Capital-Goods-Manufactured-Indigenously/validate",
+          "purpose": "Validate inputs and documents for Sourcing of Capital Goods Manufactured Indigenously",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Sourcing-of-Capital-Goods-Manufactured-Indigenously/execute",
+          "purpose": "Trigger business action for (e) RA concerned will issue the invalidation letter/ARO, in quadruplicate.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.10",
+      "title": "Conditions for fulfillment of Export Obligation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.10",
+          "purpose": "Retrieve knowledge payload for section 5.10",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conditions-for-fulfillment-of-Export-Obligation/validate",
+          "purpose": "Validate inputs and documents for Conditions for fulfillment of Export Obligation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conditions-for-fulfillment-of-Export-Obligation/execute",
+          "purpose": "Trigger business action for The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.11",
+      "title": "Realization of Export proceeds",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.11",
+          "purpose": "Retrieve knowledge payload for section 5.11",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Realization-of-Export-proceeds/validate",
+          "purpose": "Validate inputs and documents for Realization of Export proceeds",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.12",
+      "title": "Calculation of Average Export Obligation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.12",
+          "purpose": "Retrieve knowledge payload for section 5.12",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Calculation-of-Average-Export-Obligation/validate",
+          "purpose": "Validate inputs and documents for Calculation of Average Export Obligation",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.13",
+      "title": "Block-wise Fulfillment of EO",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.13",
+          "purpose": "Retrieve knowledge payload for section 5.13",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Block-wise-Fulfillment-of-EO/validate",
+          "purpose": "Validate inputs and documents for Block-wise Fulfillment of EO",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Block-wise-Fulfillment-of-EO/execute",
+          "purpose": "Trigger business action for 5.13 Block-wise Fulfillment of EO\n(a) The Authorisation holder under the EPCG scheme shall, while maintaining\nthe average export obligation, fulfill the specific export obligation over\nthe prescribed block period in the following proportions:\nPeriod from the date of issue Minimum export\nof Authorisation obligation to be fulfilled\nBlock of 1st to 4th year 50%\nBlock of 5th and 6th year Balance EO\n(b) The Authorisation holder would intimate the Regional Authority on the\nfulfilment of the export obligation, as well as average exports, within\nthree months of completion of the block.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.14",
+      "title": "Report for EO fulfilment",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.14",
+          "purpose": "Retrieve knowledge payload for section 5.14",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Report-for-EO-fulfilment/validate",
+          "purpose": "Validate inputs and documents for Report for EO fulfilment",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Report-for-EO-fulfilment/execute",
+          "purpose": "Trigger business action for 5.14 Report for EO fulfilment\nAuthorisation holder shall submit to RA concerned a report on fulfilment of export\nobligation through online mode after expiry of first block period of four years and\ncontinuously till the expiry of valid EO period.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.16",
+      "title": "Extension in Export Obligation Period",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.16",
+          "purpose": "Retrieve knowledge payload for section 5.16",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Extension-in-Export-Obligation-Period/validate",
+          "purpose": "Validate inputs and documents for Extension in Export Obligation Period",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Extension-in-Export-Obligation-Period/execute",
+          "purpose": "Trigger business action for 5.16 Extension in Export Obligation Period\n(a) Extension in Export Obligation Period of EPCG authorisation issued prior to\nNotification of Foreign Trade Policy 2023 shall be governed by relevant\nprovisions of HBP applicable on the date of issue of authorisation.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.17",
+      "title": "Relief in Average Export Obligation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.17",
+          "purpose": "Retrieve knowledge payload for section 5.17",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Relief-in-Average-Export-Obligation/validate",
+          "purpose": "Validate inputs and documents for Relief in Average Export Obligation",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.18",
+      "title": "Maintenance of Annual Average Export Obligation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.18",
+          "purpose": "Retrieve knowledge payload for section 5.18",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-Annual-Average-Export-Obligation/validate",
+          "purpose": "Validate inputs and documents for Maintenance of Annual Average Export Obligation",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-Annual-Average-Export-Obligation/execute",
+          "purpose": "Trigger business action for 5.18 Maintenance of Annual Average Export Obligation\nThe excess exports done towards the average export obligation fulfilment of an\nEPCG authorisation during a year can be used to offset any shortfall in the Average\nEO done in other year(s) of the EO period or the block period as the case may be\nprovided Average EO imposed is maintained on an overall basis, within the block\nperiod or the EO period as applicable.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.19",
+      "title": "Automatic EO extension in the event of ban on export product",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.19",
+          "purpose": "Retrieve knowledge payload for section 5.19",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Automatic-EO-extension-in-the-event-of-ban-on-export-product/validate",
+          "purpose": "Validate inputs and documents for Automatic EO extension in the event of ban on export product",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Automatic-EO-extension-in-the-event-of-ban-on-export-product/execute",
+          "purpose": "Trigger business action for 5.19 Automatic EO extension in the event of ban on export product\nWhenever a ban/restriction is imposed on export of any product, export\nobligation period in respect of EPCG authorisations already issued prior to\nimposition of ban on such export products would stand automatically extended\nfor a period equivalent to duration of such ban, without any composition fee.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.20",
+      "title": "Export Obligation Discharge Certificate (EODC)",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.20",
+          "purpose": "Retrieve knowledge payload for section 5.20",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-Obligation-Discharge-Certificate-EODC/validate",
+          "purpose": "Validate inputs and documents for Export Obligation Discharge Certificate (EODC)",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-Obligation-Discharge-Certificate-EODC/execute",
+          "purpose": "Trigger business action for 5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.21",
+      "title": "Regularization of bonafide default and exit from EPCG scheme",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.21",
+          "purpose": "Retrieve knowledge payload for section 5.21",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Regularization-of-bonafide-default-and-exit-from-EPCG-scheme/validate",
+          "purpose": "Validate inputs and documents for Regularization of bonafide default and exit from EPCG scheme",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Regularization-of-bonafide-default-and-exit-from-EPCG-scheme/execute",
+          "purpose": "Trigger business action for (b) In case, EPCG authorisation holder fails to fulfill prescribed export\nobligation, he shall pay customs duty/taxes/cess in proportion of shortfall\nin export obligation along with applicable interest as prescribed by Customs\nAuthority.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.22",
+      "title": "Maintenance of Records",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.22",
+          "purpose": "Retrieve knowledge payload for section 5.22",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-Records/validate",
+          "purpose": "Validate inputs and documents for Maintenance of Records",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-Records/execute",
+          "purpose": "Trigger business action for 5.22 Maintenance of Records\nEvery EPCG authorisation holder shall maintain, for a period of 2 years from date\nof redemption, a true and proper account of exports/ supplies made and services\nrendered towards fulfillment of export obligation.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.23",
+      "title": "Re-Export / Repair/Replacement of Capital Goods Imported",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.23",
+          "purpose": "Retrieve knowledge payload for section 5.23",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Re-Export-Repair-Replacement-of-Capital-Goods-Imported/validate",
+          "purpose": "Validate inputs and documents for Re-Export / Repair/Replacement of Capital Goods Imported",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.24",
+      "title": "Penal Action",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.24",
+          "purpose": "Retrieve knowledge payload for section 5.24",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Penal-Action/validate",
+          "purpose": "Validate inputs and documents for Penal Action",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Penal-Action/execute",
+          "purpose": "Trigger business action for 5.24 Penal Action\nIn case of failure to fulfil export obligation or any other condition of\nauthorisation, authorisation holder shall be liable for action under FT (D&R) Act,\n1992, as amended, Orders and Rules made thereunder, provisions of FTP/HBP,\nCustoms Act, 1962, as amended from time to time or any other law in force.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.25",
+      "title": "Clubbing of EPCG authorisations",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.25",
+          "purpose": "Retrieve knowledge payload for section 5.25",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Clubbing-of-EPCG-authorisations/validate",
+          "purpose": "Validate inputs and documents for Clubbing of EPCG authorisations",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Clubbing-of-EPCG-authorisations/execute",
+          "purpose": "Trigger business action for 5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.26",
+      "title": "Green Technology Products",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.26",
+          "purpose": "Retrieve knowledge payload for section 5.26",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Green-Technology-Products/validate",
+          "purpose": "Validate inputs and documents for Green Technology Products",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Green-Technology-Products/execute",
+          "purpose": "Trigger business action for The EPCG Authorisations issued between notification\nof HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by\nprovisions contained in HBP 2015-20 (RE-2017).",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    }
+  ]
+}

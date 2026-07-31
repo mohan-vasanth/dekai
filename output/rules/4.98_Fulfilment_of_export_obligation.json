@@ -1,0 +1,22 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.98",
+  "title": "Fulfilment of export obligation",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_98-R001",
+      "rule_description": "4.98 Fulfilment of export obligation\nDiamond Imprest Authorisation holder shall file online application in ANF 4K to\nRegional Authority concerned, as specified in Appendix 4A and upload prescribed\ndocuments in support of fulfilment of export obligation.",
+      "trigger": "Fulfilment of export obligation",
+      "condition": "4.98 Fulfilment of export obligation\nDiamond Imprest Authorisation holder shall file online application in ANF 4K to\nRegional Authority concerned, as specified in Appendix 4A and upload prescribed\ndocuments in support of fulfilment of export obligation.",
+      "validation": "4.98 Fulfilment of export obligation\nDiamond Imprest Authorisation holder shall file online application in ANF 4K to\nRegional Authority concerned, as specified in Appendix 4A and upload prescribed\ndocuments in support of fulfilment of export obligation.",
+      "action": "4.98 Fulfilment of export obligation\nDiamond Imprest Authorisation holder shall file online application in ANF 4K to\nRegional Authority concerned, as specified in Appendix 4A and upload prescribed\ndocuments in support of fulfilment of export obligation.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.98 - Fulfilment of export obligation."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.98 Fulfilment of export obligation\nDiamond Imprest Authorisation holder shall file online application in ANF 4K to\nRegional Authority concerned, as specified in Appendix 4A and upload prescribed\ndocuments in support of fulfilment of export obligation.",
+    "IF validations pass THEN recommend action: 4.98 Fulfilment of export obligation\nDiamond Imprest Authorisation holder shall file online application in ANF 4K to\nRegional Authority concerned, as specified in Appendix 4A and upload prescribed\ndocuments in support of fulfilment of export obligation."
+  ]
+}

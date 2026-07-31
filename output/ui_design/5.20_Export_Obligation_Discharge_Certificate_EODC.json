@@ -1,0 +1,37 @@
+{
+  "section": "5.20",
+  "ui": [
+    {
+      "screen_id": "Export_Obligation_Discharge_Certificate_EODC_overview",
+      "name": "Export Obligation Discharge Certificate (EODC) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_Obligation_Discharge_Certificate_EODC_submission",
+      "name": "Export Obligation Discharge Certificate (EODC) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "anf_flag",
+        "the_flag",
+        "and_flag",
+        "api_flag",
+        "has_flag"
+      ]
+    }
+  ]
+}

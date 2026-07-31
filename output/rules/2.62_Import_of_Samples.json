@@ -1,0 +1,65 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.62",
+  "title": "Import of Samples",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_62-R001",
+      "rule_description": "2.62 Import of Samples\n(a) No Authorisation shall be required for Import of bonafide technical and trade\nsamples of items restricted in ITC (HS) except vegetable seeds, bees and new\ndrugs.",
+      "trigger": "Import of Samples",
+      "condition": "Samples of tea not exceeding Rs.2000 (CIF) in one consignment shall be\nallowed without an Authorisation by any person connected with Tea industry.",
+      "validation": "2.62 Import of Samples\n(a) No Authorisation shall be required for Import of bonafide technical and trade\nsamples of items restricted in ITC (HS) except vegetable seeds, bees and new\ndrugs.",
+      "action": "Manual review required.",
+      "exception": "2.62 Import of Samples\n(a) No Authorisation shall be required for Import of bonafide technical and trade\nsamples of items restricted in ITC (HS) except vegetable seeds, bees and new\ndrugs.",
+      "output": "DEKAI should produce a compliance decision for 2.62 - Import of Samples."
+    },
+    {
+      "rule_id": "CH2-SEC2_62-R002",
+      "rule_description": "Samples of tea not exceeding Rs.2000 (CIF) in one consignment shall be\nallowed without an Authorisation by any person connected with Tea industry.",
+      "trigger": "Import of Samples",
+      "condition": "(b) Duty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification.",
+      "validation": "Samples of tea not exceeding Rs.2000 (CIF) in one consignment shall be\nallowed without an Authorisation by any person connected with Tea industry.",
+      "action": "Manual review required.",
+      "exception": "2.62 Import of Samples\n(a)\nNo Authorisation shall be required for Import of bonafide technical and trade\nsamples of items restricted in ITC (HS) except vegetable seeds, bees and new\ndrugs.",
+      "output": "DEKAI should produce a compliance decision for 2.62 - Import of Samples."
+    },
+    {
+      "rule_id": "CH2-SEC2_62-R003",
+      "rule_description": "(b) Duty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification.",
+      "trigger": "Import of Samples",
+      "condition": "(b)\nDuty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification.",
+      "validation": "(b) Duty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification.",
+      "action": "Manual review required.",
+      "exception": "2.62 Import of Samples\n(a)\nNo Authorisation shall be required for Import of bonafide technical and trade\nsamples of items restricted in ITC (HS) except vegetable seeds, bees and new\ndrugs.",
+      "output": "DEKAI should produce a compliance decision for 2.62 - Import of Samples."
+    },
+    {
+      "rule_id": "CH2-SEC2_62-R004",
+      "rule_description": "2.62 Import of Samples\n(a)\nNo Authorisation shall be required for Import of bonafide technical and trade\nsamples of items restricted in ITC (HS) except vegetable seeds, bees and new\ndrugs.",
+      "trigger": "Import of Samples",
+      "condition": "(b)\nDuty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification.",
+      "validation": "2.62 Import of Samples\n(a)\nNo Authorisation shall be required for Import of bonafide technical and trade\nsamples of items restricted in ITC (HS) except vegetable seeds, bees and new\ndrugs.",
+      "action": "Manual review required.",
+      "exception": "2.62 Import of Samples\n(a)\nNo Authorisation shall be required for Import of bonafide technical and trade\nsamples of items restricted in ITC (HS) except vegetable seeds, bees and new\ndrugs.",
+      "output": "DEKAI should produce a compliance decision for 2.62 - Import of Samples."
+    },
+    {
+      "rule_id": "CH2-SEC2_62-R005",
+      "rule_description": "(b)\nDuty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification.",
+      "trigger": "Import of Samples",
+      "condition": "(b)\nDuty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification.",
+      "validation": "(b)\nDuty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification.",
+      "action": "Manual review required.",
+      "exception": "2.62 Import of Samples\n(a)\nNo Authorisation shall be required for Import of bonafide technical and trade\nsamples of items restricted in ITC (HS) except vegetable seeds, bees and new\ndrugs.",
+      "output": "DEKAI should produce a compliance decision for 2.62 - Import of Samples."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.62 Import of Samples\n(a) No Authorisation shall be required for Import of bonafide technical and trade\nsamples of items restricted in ITC (HS) except vegetable seeds, bees and new\ndrugs.",
+    "IF detected context matches section rule THEN enforce: Samples of tea not exceeding Rs.2000 (CIF) in one consignment shall be\nallowed without an Authorisation by any person connected with Tea industry.",
+    "IF detected context matches section rule THEN enforce: (b) Duty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification.",
+    "IF detected context matches section rule THEN enforce: 2.62 Import of Samples\n(a)\nNo Authorisation shall be required for Import of bonafide technical and trade\nsamples of items restricted in ITC (HS) except vegetable seeds, bees and new\ndrugs.",
+    "IF detected context matches section rule THEN enforce: (b)\nDuty free import of samples upto Rs.3,00,000 for all exporters shall be allowed\nas per terms and conditions of Customs Notification."
+  ]
+}

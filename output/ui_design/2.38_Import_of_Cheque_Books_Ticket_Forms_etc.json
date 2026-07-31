@@ -1,0 +1,37 @@
+{
+  "section": "2.38",
+  "ui": [
+    {
+      "screen_id": "Import_of_Cheque_Books_Ticket_Forms_etc_overview",
+      "name": "Import of Cheque Books /Ticket Forms etc. Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Cheque_Books_Ticket_Forms_etc_submission",
+      "name": "Import of Cheque Books /Ticket Forms etc. Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "etc_flag",
+        "and_flag",
+        "may_flag",
+        "bank_flag",
+        "such_flag",
+        "books_flag"
+      ]
+    }
+  ]
+}

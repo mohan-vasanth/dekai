@@ -1,0 +1,21 @@
+{
+  "section": "10.03",
+  "conditions": [
+    "Export Authorisation is, however, required if the SCOMET items are to\nbe physically exported outside the country from SEZ/EOU, i.e.",
+    "All supplies of SCOMET items from DTA to\nSEZ/EOU will be reported to the Development Commissioner (DC) of the\nrespective SEZ/Eo U by the supplier in the prescribed proforma [Annexure 1 to\nAppendix-3 to Schedule 2 of ITC (HS) Classifications of Export and Import Items]\nwithin one week of the supplies getting effected."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.10.03.1",
+      "if": "Export Authorisation is, however, required if the SCOMET items are to\nbe physically exported outside the country from SEZ/EOU, i.e.",
+      "then": "All supplies of SCOMET items from DTA to\nSEZ/EOU will be reported to the Development Commissioner (DC) of the\nrespective SEZ/Eo U by the supplier in the prescribed proforma [Annexure 1 to\nAppendix-3 to Schedule 2 of ITC (HS) Classifications of Export and Import Items]\nwithin one week of the supplies getting effected.",
+      "source": "Export Authorisation is, however, required if the SCOMET items are to\nbe physically exported outside the country from SEZ/EOU, i.e."
+    },
+    {
+      "id": "10.10.03.2",
+      "if": "All supplies of SCOMET items from DTA to\nSEZ/EOU will be reported to the Development Commissioner (DC) of the\nrespective SEZ/Eo U by the supplier in the prescribed proforma [Annexure 1 to\nAppendix-3 to Schedule 2 of ITC (HS) Classifications of Export and Import Items]\nwithin one week of the supplies getting effected.",
+      "then": "All supplies of SCOMET items from DTA to\nSEZ/EOU will be reported to the Development Commissioner (DC) of the\nrespective SEZ/Eo U by the supplier in the prescribed proforma [Annexure 1 to\nAppendix-3 to Schedule 2 of ITC (HS) Classifications of Export and Import Items]\nwithin one week of the supplies getting effected.",
+      "source": "All supplies of SCOMET items from DTA to\nSEZ/EOU will be reported to the Development Commissioner (DC) of the\nrespective SEZ/Eo U by the supplier in the prescribed proforma [Annexure 1 to\nAppendix-3 to Schedule 2 of ITC (HS) Classifications of Export and Import Items]\nwithin one week of the supplies getting effected."
+    }
+  ]
+}

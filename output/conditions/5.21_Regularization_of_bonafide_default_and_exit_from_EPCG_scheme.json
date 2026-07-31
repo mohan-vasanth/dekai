@@ -1,0 +1,42 @@
+{
+  "section": "5.21",
+  "conditions": [
+    "(b) In case, EPCG authorisation holder fails to fulfill prescribed export\nobligation, he shall pay customs duty/taxes/cess in proportion of shortfall\nin export obligation along with applicable interest as prescribed by Customs\nAuthority.",
+    "(c) In case of domestic sourcing of capital goods through invalidation\nletter/ARO, the duties, taxes and cess payable shall be with reference to the\nnotional Customs duties/taxes/cess saved on the FOR value of capital goods\n(including spares, jigs, fixtures, dies and moulds).",
+    "(e) Authorisation holder can also provisionally pay duty and interest suo-\nmoto on the basis of self/own calculation as per the procedure specified in\nparagraph 4.50 of HBP.",
+    "(b)\nIn case, EPCG authorisation holder fails to fulfill prescribed export\nobligation, he shall pay customs duty/taxes/cess in proportion of shortfall\nin export obligation along with applicable interest as prescribed by Customs\nAuthority.",
+    "(c)\nIn case of domestic sourcing of capital goods through invalidation\nletter/ARO, the duties, taxes and cess payable shall be with reference to the\nnotional Customs duties/taxes/cess saved on the FOR value of capital goods\n(including spares, jigs, fixtures, dies and moulds)."
+  ],
+  "condition_logic": [
+    {
+      "id": "5.5.21.1",
+      "if": "(b) In case, EPCG authorisation holder fails to fulfill prescribed export\nobligation, he shall pay customs duty/taxes/cess in proportion of shortfall\nin export obligation along with applicable interest as prescribed by Customs\nAuthority.",
+      "then": "(b) In case, EPCG authorisation holder fails to fulfill prescribed export\nobligation, he shall pay customs duty/taxes/cess in proportion of shortfall\nin export obligation along with applicable interest as prescribed by Customs\nAuthority.",
+      "source": "(b) In case, EPCG authorisation holder fails to fulfill prescribed export\nobligation, he shall pay customs duty/taxes/cess in proportion of shortfall\nin export obligation along with applicable interest as prescribed by Customs\nAuthority."
+    },
+    {
+      "id": "5.5.21.2",
+      "if": "(c) In case of domestic sourcing of capital goods through invalidation\nletter/ARO, the duties, taxes and cess payable shall be with reference to the\nnotional Customs duties/taxes/cess saved on the FOR value of capital goods\n(including spares, jigs, fixtures, dies and moulds).",
+      "then": "(b) In case, EPCG authorisation holder fails to fulfill prescribed export\nobligation, he shall pay customs duty/taxes/cess in proportion of shortfall\nin export obligation along with applicable interest as prescribed by Customs\nAuthority.",
+      "source": "(c) In case of domestic sourcing of capital goods through invalidation\nletter/ARO, the duties, taxes and cess payable shall be with reference to the\nnotional Customs duties/taxes/cess saved on the FOR value of capital goods\n(including spares, jigs, fixtures, dies and moulds)."
+    },
+    {
+      "id": "5.5.21.3",
+      "if": "(e) Authorisation holder can also provisionally pay duty and interest suo-\nmoto on the basis of self/own calculation as per the procedure specified in\nparagraph 4.50 of HBP.",
+      "then": "(b) In case, EPCG authorisation holder fails to fulfill prescribed export\nobligation, he shall pay customs duty/taxes/cess in proportion of shortfall\nin export obligation along with applicable interest as prescribed by Customs\nAuthority.",
+      "source": "(e) Authorisation holder can also provisionally pay duty and interest suo-\nmoto on the basis of self/own calculation as per the procedure specified in\nparagraph 4.50 of HBP."
+    },
+    {
+      "id": "5.5.21.4",
+      "if": "(b)\nIn case, EPCG authorisation holder fails to fulfill prescribed export\nobligation, he shall pay customs duty/taxes/cess in proportion of shortfall\nin export obligation along with applicable interest as prescribed by Customs\nAuthority.",
+      "then": "(b) In case, EPCG authorisation holder fails to fulfill prescribed export\nobligation, he shall pay customs duty/taxes/cess in proportion of shortfall\nin export obligation along with applicable interest as prescribed by Customs\nAuthority.",
+      "source": "(b)\nIn case, EPCG authorisation holder fails to fulfill prescribed export\nobligation, he shall pay customs duty/taxes/cess in proportion of shortfall\nin export obligation along with applicable interest as prescribed by Customs\nAuthority."
+    },
+    {
+      "id": "5.5.21.5",
+      "if": "(c)\nIn case of domestic sourcing of capital goods through invalidation\nletter/ARO, the duties, taxes and cess payable shall be with reference to the\nnotional Customs duties/taxes/cess saved on the FOR value of capital goods\n(including spares, jigs, fixtures, dies and moulds).",
+      "then": "(b) In case, EPCG authorisation holder fails to fulfill prescribed export\nobligation, he shall pay customs duty/taxes/cess in proportion of shortfall\nin export obligation along with applicable interest as prescribed by Customs\nAuthority.",
+      "source": "(c)\nIn case of domestic sourcing of capital goods through invalidation\nletter/ARO, the duties, taxes and cess payable shall be with reference to the\nnotional Customs duties/taxes/cess saved on the FOR value of capital goods\n(including spares, jigs, fixtures, dies and moulds)."
+    }
+  ]
+}

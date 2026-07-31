@@ -1,0 +1,47 @@
+{
+  "section": "4.05",
+  "ui": [
+    {
+      "screen_id": "Advance_Authorisation_for_items_which_are_otherwise_prohibited_for_overview",
+      "name": "Advance Authorisation for items which are otherwise prohibited for Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Advance_Authorisation_for_items_which_are_otherwise_prohibited_for_submission",
+      "name": "Advance Authorisation for items which are otherwise prohibited for Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "are_flag",
+        "and_flag",
+        "itc_flag",
+        "may_flag",
+        "the_flag"
+      ]
+    },
+    {
+      "screen_id": "Advance_Authorisation_for_items_which_are_otherwise_prohibited_for_exceptions",
+      "name": "Advance Authorisation for items which are otherwise prohibited for Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

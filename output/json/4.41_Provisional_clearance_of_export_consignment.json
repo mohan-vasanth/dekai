@@ -1,0 +1,327 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.41",
+  "title": "Provisional clearance of export consignment",
+  "purpose": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+  "purpose_thanglish": "Indha Provisional clearance of export consignment section-la, 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nexport Obligation extension to concerned Regional authority.",
+  "summary": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+  "business_meaning": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+  "business_explanation": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+  "business_explanation_thanglish": "Indha Provisional clearance of export consignment section-la, 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nexport Obligation extension to concerned Regional authority.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_41-R001",
+      "rule_description": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+      "trigger": "Provisional clearance of export consignment",
+      "condition": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.41 - Provisional clearance of export consignment."
+    }
+  ],
+  "conditions": [
+    "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.41.1",
+      "if": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+      "then": "Route for review",
+      "source": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority."
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [
+    "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority."
+  ],
+  "required_documents": [
+    "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority."
+  ],
+  "authorities": [
+    "Regional Authority",
+    "Customs",
+    "Export Obligation extension to concerned Regional Authority"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority."
+  ],
+  "workflow_ascii": "Provisional clearance of export consignment\nEvaluate condition: 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+  "decision_tree": [
+    "IF section 4.41 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Provisional clearance of export consignment Decision\nIF section 4.41 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Provisional clearance of export consignment; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Provisional clearance of export consignment, submits 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority., and DEKAI uses the extracted rules to follow the provisional clearance of export consignment process.",
+  "real_world_example_thanglish": "Indha Provisional clearance of export consignment section-la, Example: an importer or exporter invokes Provisional clearance of export consignment, submits 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nexport Obligation extension to concerned Regional authority., and DEKAI uses the extracted rules to follow the provisional clearance of export consignment process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "when_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:when"
+    },
+    {
+      "name": "allow_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:allow"
+    },
+    {
+      "name": "export_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:export"
+    },
+    {
+      "name": "holder_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:holder"
+    },
+    {
+      "name": "having_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:having"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.41",
+      "purpose": "Retrieve knowledge payload for section 4.41",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Provisional-clearance-of-export-consignment/validate",
+      "purpose": "Validate inputs and documents for Provisional clearance of export consignment",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Provisional_clearance_of_export_consignment_overview",
+      "name": "Provisional clearance of export consignment Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Provisional_clearance_of_export_consignment_submission",
+      "name": "Provisional clearance of export consignment Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "and_flag",
+        "for_flag",
+        "when_flag",
+        "allow_flag",
+        "export_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Provisional clearance of export consignment require?",
+    "Which documents are needed for Provisional clearance of export consignment?",
+    "How does DEKAI validate Provisional clearance of export consignment requests?"
+  ],
+  "expected_ai_answers": [
+    "Provisional clearance of export consignment requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+    "DEKAI validates Provisional clearance of export consignment by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4.41?",
+      "answer_en": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+      "question_thanglish": "Indha Provisional clearance of export consignment section-la, What is the purpose of section 4.41?",
+      "answer_thanglish": "Indha Provisional clearance of export consignment section-la, 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nexport Obligation extension to concerned Regional authority."
+    },
+    {
+      "question_en": "What documents are required under Provisional clearance of export consignment?",
+      "answer_en": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+      "question_thanglish": "Indha Provisional clearance of export consignment section-la, What documents are required under Provisional clearance of export consignment?",
+      "answer_thanglish": "Indha Provisional clearance of export consignment section-la, 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nexport Obligation extension to concerned Regional authority."
+    },
+    {
+      "question_en": "Which authority handles Provisional clearance of export consignment?",
+      "answer_en": "Regional Authority, Customs, Export Obligation extension to concerned Regional Authority",
+      "question_thanglish": "Indha Provisional clearance of export consignment section-la, Which authority handles Provisional clearance of export consignment?",
+      "answer_thanglish": "Indha Provisional clearance of export consignment section-la, Regional authority, Customs, export Obligation extension to concerned Regional authority"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Provisional clearance of export consignment?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4.41, apply the extracted rules, and guide the user through Evaluate condition: 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority..",
+      "question_thanglish": "Indha Provisional clearance of export consignment section-la, User asks: How do I comply with Provisional clearance of export consignment?",
+      "answer_thanglish": "Indha Provisional clearance of export consignment section-la, AI answers: DEKAI should evaluate section 4.41, apply the extracted rules, and guide the user through Evaluate condition: 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nexport Obligation extension to concerned Regional authority.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Provisional clearance of export consignment?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Provisional clearance of export consignment section-la, User asks: Which validations apply to Provisional clearance of export consignment?",
+      "answer_thanglish": "Indha Provisional clearance of export consignment section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 4.41, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Provisional clearance of export consignment into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority..",
+    "Route escalations or approvals to: Regional Authority, Customs, Export Obligation extension to concerned Regional Authority."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Provisional clearance of export consignment section-la, Capture chapter 4, section 4.41, title, and page references as immutable knowledge metadata.",
+    "Indha Provisional clearance of export consignment section-la, Bind validations for Provisional clearance of export consignment into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Provisional clearance of export consignment section-la, Expose document upload controls for: 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nexport Obligation extension to concerned Regional authority..",
+    "Indha Provisional clearance of export consignment section-la, Route escalations or approvals to: Regional authority, Customs, export Obligation extension to concerned Regional authority."
+  ],
+  "keywords": [
+    "may",
+    "and",
+    "for",
+    "when",
+    "allow",
+    "export",
+    "holder",
+    "having",
+    "Customs",
+    "applied",
+    "produces",
+    "evidence",
+    "Regional",
+    "clearance",
+    "extension",
+    "concerned",
+    "Authority",
+    "Obligation",
+    "Provisional",
+    "consignment"
+  ],
+  "search_keywords": [
+    "may",
+    "and",
+    "for",
+    "when",
+    "allow",
+    "export",
+    "holder",
+    "having",
+    "Customs",
+    "applied",
+    "produces",
+    "evidence",
+    "Regional",
+    "clearance",
+    "extension",
+    "concerned",
+    "Authority",
+    "Obligation",
+    "Provisional",
+    "consignment"
+  ],
+  "intent": "Provide knowledge guidance for Provisional clearance of export consignment.",
+  "tags": [
+    "4.41",
+    "Provisional clearance of export consignment",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    24
+  ],
+  "pages": [
+    24
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.\"]",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.;\nstop\n@enduml"
+}

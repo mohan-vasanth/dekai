@@ -1,0 +1,47 @@
+{
+  "section": "2.72",
+  "ui": [
+    {
+      "screen_id": "RBI_write_off_on_export_proceeds_realization_overview",
+      "name": "RBI write-off on export proceeds realization Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "RBI_write_off_on_export_proceeds_realization_submission",
+      "name": "RBI write-off on export proceeds realization Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "rbi_flag",
+        "not_flag",
+        "the_flag",
+        "any_flag",
+        "for_flag",
+        "off_flag"
+      ]
+    },
+    {
+      "screen_id": "RBI_write_off_on_export_proceeds_realization_exceptions",
+      "name": "RBI write-off on export proceeds realization Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.78",
+  "title": "Maintenance of Accounts",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_78-R001",
+      "rule_description": "4.78 Maintenance of Accounts\nNominated Agency shall maintain complete account, consignment-wise, of the\ngold, silver, platinum, mountings, findings/ plain semi-finished gold/silver/\nplatinum jewellery etc.",
+      "trigger": "Maintenance of Accounts",
+      "condition": "Section 4.78 is applicable",
+      "validation": "4.78 Maintenance of Accounts\nNominated Agency shall maintain complete account, consignment-wise, of the\ngold, silver, platinum, mountings, findings/ plain semi-finished gold/silver/\nplatinum jewellery etc.",
+      "action": "4.78 Maintenance of Accounts\nNominated Agency shall maintain complete account, consignment-wise, of the\ngold, silver, platinum, mountings, findings/ plain semi-finished gold/silver/\nplatinum jewellery etc.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.78 - Maintenance of Accounts."
+    },
+    {
+      "rule_id": "CH4-SEC4_78-R002",
+      "rule_description": "Such accounts shall be maintained for a minimum period\nof three years from date of exports.",
+      "trigger": "Maintenance of Accounts",
+      "condition": "Section 4.78 is applicable",
+      "validation": "Such accounts shall be maintained for a minimum period\nof three years from date of exports.",
+      "action": "Such accounts shall be maintained for a minimum period\nof three years from date of exports.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.78 - Maintenance of Accounts."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.78 Maintenance of Accounts\nNominated Agency shall maintain complete account, consignment-wise, of the\ngold, silver, platinum, mountings, findings/ plain semi-finished gold/silver/\nplatinum jewellery etc.",
+    "IF detected context matches section rule THEN enforce: Such accounts shall be maintained for a minimum period\nof three years from date of exports.",
+    "IF validations pass THEN recommend action: 4.78 Maintenance of Accounts\nNominated Agency shall maintain complete account, consignment-wise, of the\ngold, silver, platinum, mountings, findings/ plain semi-finished gold/silver/\nplatinum jewellery etc."
+  ]
+}

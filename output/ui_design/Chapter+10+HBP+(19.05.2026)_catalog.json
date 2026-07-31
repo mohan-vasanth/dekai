@@ -1,0 +1,967 @@
+{
+  "screen_ids": [
+    "Policy_overview",
+    "Policy_submission",
+    "Coverage_overview",
+    "Coverage_submission",
+    "SCOMET_categories_and_licensing_jurisdiction_overview",
+    "SCOMET_categories_and_licensing_jurisdiction_submission",
+    "SCOMET_categories_and_licensing_jurisdiction_exceptions",
+    "Supply_of_SCOMET_Items_from_DTA_to_SEZ_Eo_U_and_outside_overview",
+    "Supply_of_SCOMET_Items_from_DTA_to_SEZ_Eo_U_and_outside_submission",
+    "Supply_of_SCOMET_Items_from_DTA_to_SEZ_Eo_U_and_outside_exceptions",
+    "Application_and_Documentation_for_SCOMET_Authorisation_overview",
+    "Application_and_Documentation_for_SCOMET_Authorisation_submission",
+    "Application_and_Documentation_for_SCOMET_Authorisation_exceptions",
+    "Additional_controls_on_Non_SCOMET_items_for_dual_use_overview",
+    "Additional_controls_on_Non_SCOMET_items_for_dual_use_submission",
+    "Inter_Ministerial_Working_Group_IMWG_overview",
+    "Inter_Ministerial_Working_Group_IMWG_submission",
+    "Inter_Ministerial_Working_Group_IMWG_exceptions",
+    "Applicability_of_Weapon_of_Mass_Development_Act_WMD_Act_overview",
+    "Applicability_of_Weapon_of_Mass_Development_Act_WMD_Act_submission",
+    "Procedure_Guidelines_for_filing_Evaluation_of_Applications_overview",
+    "Procedure_Guidelines_for_filing_Evaluation_of_Applications_submission",
+    "Issue_of_authorisation_for_Repeat_Orders_of_SCOMET_item_s_overview",
+    "Issue_of_authorisation_for_Repeat_Orders_of_SCOMET_item_s_submission",
+    "Issue_of_authorisation_for_Repeat_Orders_of_SCOMET_item_s_exceptions",
+    "Issue_of_export_authorisation_for_spare_parts_of_SCOMET_items_overview",
+    "Issue_of_export_authorisation_for_spare_parts_of_SCOMET_items_submission",
+    "Issue_of_authorisations_for_repair_replacement_of_defective_overview",
+    "Issue_of_authorisations_for_repair_replacement_of_defective_submission",
+    "Issue_of_authorisations_for_repair_replacement_of_defective_exceptions",
+    "Issue_of_export_authorisations_for_overview",
+    "Issue_of_export_authorisations_for_submission",
+    "Issue_of_export_authorisations_for_exceptions",
+    "Issue_of_export_authorisations_for_re_export_return_of_overview",
+    "Issue_of_export_authorisations_for_re_export_return_of_submission",
+    "Issue_of_export_authorisations_for_re_export_return_of_exceptions",
+    "Global_Authorisation_for_Intra_Company_Transfers_GAICT_overview",
+    "Global_Authorisation_for_Intra_Company_Transfers_GAICT_submission",
+    "Global_Authorisation_for_Intra_Company_Transfers_GAICT_exceptions",
+    "B_below_overview",
+    "B_below_submission",
+    "B_below_exceptions",
+    "General_Authorisation_for_Export_of_Chemicals_and_related_overview",
+    "General_Authorisation_for_Export_of_Chemicals_and_related_submission",
+    "Validity_Period_of_SCOMET_Authorisations_overview",
+    "Validity_Period_of_SCOMET_Authorisations_submission",
+    "Validity_Period_of_SCOMET_Authorisations_exceptions",
+    "Record_Keeping_overview",
+    "Record_Keeping_submission",
+    "Voluntary_Self_Disclosure_of_export_of_dual_use_items_overview",
+    "Voluntary_Self_Disclosure_of_export_of_dual_use_items_submission",
+    "Revalidation_of_SCOMET_Authorisation_overview",
+    "Revalidation_of_SCOMET_Authorisation_submission"
+  ],
+  "sections": [
+    {
+      "section": "10.00",
+      "title": "Policy",
+      "ui": [
+        {
+          "screen_id": "Policy_overview",
+          "name": "Policy Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Policy_submission",
+          "name": "Policy Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "use_flag",
+            "and_flag",
+            "viz_flag",
+            "ftp_flag",
+            "dual_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.01",
+      "title": "Coverage",
+      "ui": [
+        {
+          "screen_id": "Coverage_overview",
+          "name": "Coverage Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Coverage_submission",
+          "name": "Coverage Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "for_flag",
+            "use_flag",
+            "this_flag",
+            "dual_flag",
+            "items_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.02",
+      "title": "SCOMET categories and licensing jurisdiction",
+      "ui": [
+        {
+          "screen_id": "SCOMET_categories_and_licensing_jurisdiction_overview",
+          "name": "SCOMET categories and licensing jurisdiction Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "SCOMET_categories_and_licensing_jurisdiction_submission",
+          "name": "SCOMET categories and licensing jurisdiction Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "use_flag",
+            "are_flag",
+            "for_flag",
+            "itc_flag",
+            "ftp_flag"
+          ]
+        },
+        {
+          "screen_id": "SCOMET_categories_and_licensing_jurisdiction_exceptions",
+          "name": "SCOMET categories and licensing jurisdiction Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.03",
+      "title": "Supply of SCOMET Items from DTA to SEZ/Eo U and outside",
+      "ui": [
+        {
+          "screen_id": "Supply_of_SCOMET_Items_from_DTA_to_SEZ_Eo_U_and_outside_overview",
+          "name": "Supply of SCOMET Items from DTA to SEZ/Eo U and outside Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Supply_of_SCOMET_Items_from_DTA_to_SEZ_Eo_U_and_outside_submission",
+          "name": "Supply of SCOMET Items from DTA to SEZ/Eo U and outside Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "dta_flag",
+            "and_flag",
+            "the_flag",
+            "for_flag",
+            "are_flag",
+            "sez_flag"
+          ]
+        },
+        {
+          "screen_id": "Supply_of_SCOMET_Items_from_DTA_to_SEZ_Eo_U_and_outside_exceptions",
+          "name": "Supply of SCOMET Items from DTA to SEZ/Eo U and outside Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.04",
+      "title": "Application and Documentation for SCOMET Authorisation",
+      "ui": [
+        {
+          "screen_id": "Application_and_Documentation_for_SCOMET_Authorisation_overview",
+          "name": "Application and Documentation for SCOMET Authorisation Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Application_and_Documentation_for_SCOMET_Authorisation_submission",
+          "name": "Application and Documentation for SCOMET Authorisation Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "for_flag",
+            "itc_flag",
+            "may_flag",
+            "anf_flag",
+            "the_flag"
+          ]
+        },
+        {
+          "screen_id": "Application_and_Documentation_for_SCOMET_Authorisation_exceptions",
+          "name": "Application and Documentation for SCOMET Authorisation Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.05",
+      "title": "Additional controls on Non-SCOMET items for dual use",
+      "ui": [
+        {
+          "screen_id": "Additional_controls_on_Non_SCOMET_items_for_dual_use_overview",
+          "name": "Additional controls on Non-SCOMET items for dual use Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Additional_controls_on_Non_SCOMET_items_for_dual_use_submission",
+          "name": "Additional controls on Non-SCOMET items for dual use Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "use_flag",
+            "the_flag",
+            "has_flag",
+            "not_flag",
+            "wmd_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.06",
+      "title": "Inter Ministerial Working Group (IMWG)",
+      "ui": [
+        {
+          "screen_id": "Inter_Ministerial_Working_Group_IMWG_overview",
+          "name": "Inter Ministerial Working Group (IMWG) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Inter_Ministerial_Working_Group_IMWG_submission",
+          "name": "Inter Ministerial Working Group (IMWG) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "for_flag",
+            "itc_flag",
+            "and_flag",
+            "are_flag",
+            "its_flag"
+          ]
+        },
+        {
+          "screen_id": "Inter_Ministerial_Working_Group_IMWG_exceptions",
+          "name": "Inter Ministerial Working Group (IMWG) Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.07",
+      "title": "Applicability of Weapon of Mass Development Act (WMD Act)",
+      "ui": [
+        {
+          "screen_id": "Applicability_of_Weapon_of_Mass_Development_Act_WMD_Act_overview",
+          "name": "Applicability of Weapon of Mass Development Act (WMD Act) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Applicability_of_Weapon_of_Mass_Development_Act_WMD_Act_submission",
+          "name": "Applicability of Weapon of Mass Development Act (WMD Act) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "act_flag",
+            "wmd_flag",
+            "not_flag",
+            "may_flag",
+            "the_flag",
+            "and_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.08",
+      "title": "Procedure/ Guidelines for filing / Evaluation of Applications",
+      "ui": [
+        {
+          "screen_id": "Procedure_Guidelines_for_filing_Evaluation_of_Applications_overview",
+          "name": "Procedure/ Guidelines for filing / Evaluation of Applications Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Procedure_Guidelines_for_filing_Evaluation_of_Applications_submission",
+          "name": "Procedure/ Guidelines for filing / Evaluation of Applications Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "itc_flag",
+            "new_flag",
+            "anf_flag",
+            "the_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.09",
+      "title": "Issue of authorisation for Repeat Orders of SCOMET item(s)",
+      "ui": [
+        {
+          "screen_id": "Issue_of_authorisation_for_Repeat_Orders_of_SCOMET_item_s_overview",
+          "name": "Issue of authorisation for Repeat Orders of SCOMET item(s) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Issue_of_authorisation_for_Repeat_Orders_of_SCOMET_item_s_submission",
+          "name": "Issue of authorisation for Repeat Orders of SCOMET item(s) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "any_flag",
+            "the_flag",
+            "anf_flag",
+            "ies_flag"
+          ]
+        },
+        {
+          "screen_id": "Issue_of_authorisation_for_Repeat_Orders_of_SCOMET_item_s_exceptions",
+          "name": "Issue of authorisation for Repeat Orders of SCOMET item(s) Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.11",
+      "title": "Issue of export authorisation for spare parts of SCOMET items",
+      "ui": [
+        {
+          "screen_id": "Issue_of_export_authorisation_for_spare_parts_of_SCOMET_items_overview",
+          "name": "Issue of export authorisation for spare parts of SCOMET items Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Issue_of_export_authorisation_for_spare_parts_of_SCOMET_items_submission",
+          "name": "Issue of export authorisation for spare parts of SCOMET items Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "may_flag",
+            "the_flag",
+            "sale_flag",
+            "also_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.12",
+      "title": "Issue of authorisations for repair/replacement of defective",
+      "ui": [
+        {
+          "screen_id": "Issue_of_authorisations_for_repair_replacement_of_defective_overview",
+          "name": "Issue of authorisations for repair/replacement of defective Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Issue_of_authorisations_for_repair_replacement_of_defective_submission",
+          "name": "Issue of authorisations for repair/replacement of defective Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "may_flag",
+            "and_flag",
+            "iii_flag",
+            "anf_flag"
+          ]
+        },
+        {
+          "screen_id": "Issue_of_authorisations_for_repair_replacement_of_defective_exceptions",
+          "name": "Issue of authorisations for repair/replacement of defective Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.13",
+      "title": "Issue of export authorisations for",
+      "ui": [
+        {
+          "screen_id": "Issue_of_export_authorisations_for_overview",
+          "name": "Issue of export authorisations for Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Issue_of_export_authorisations_for_submission",
+          "name": "Issue of export authorisations for Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "new_flag",
+            "via_flag",
+            "nic_flag",
+            "end_flag"
+          ]
+        },
+        {
+          "screen_id": "Issue_of_export_authorisations_for_exceptions",
+          "name": "Issue of export authorisations for Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.14",
+      "title": "Issue of export authorisations for re-export/return of",
+      "ui": [
+        {
+          "screen_id": "Issue_of_export_authorisations_for_re_export_return_of_overview",
+          "name": "Issue of export authorisations for re-export/return of Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Issue_of_export_authorisations_for_re_export_return_of_submission",
+          "name": "Issue of export authorisations for re-export/return of Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "its_flag",
+            "oem_flag",
+            "has_flag",
+            "end_flag"
+          ]
+        },
+        {
+          "screen_id": "Issue_of_export_authorisations_for_re_export_return_of_exceptions",
+          "name": "Issue of export authorisations for re-export/return of Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.15",
+      "title": "Global Authorisation for Intra-Company Transfers (GAICT)",
+      "ui": [
+        {
+          "screen_id": "Global_Authorisation_for_Intra_Company_Transfers_GAICT_overview",
+          "name": "Global Authorisation for Intra-Company Transfers (GAICT) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Global_Authorisation_for_Intra_Company_Transfers_GAICT_submission",
+          "name": "Global Authorisation for Intra-Company Transfers (GAICT) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "not_flag",
+            "the_flag",
+            "its_flag",
+            "end_flag"
+          ]
+        },
+        {
+          "screen_id": "Global_Authorisation_for_Intra_Company_Transfers_GAICT_exceptions",
+          "name": "Global Authorisation for Intra-Company Transfers (GAICT) Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.15",
+      "title": "B below.",
+      "ui": [
+        {
+          "screen_id": "B_below_overview",
+          "name": "B below. Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "B_below_submission",
+          "name": "B below. Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "the_flag",
+            "may_flag",
+            "icp_flag",
+            "any_flag"
+          ]
+        },
+        {
+          "screen_id": "B_below_exceptions",
+          "name": "B below. Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.16",
+      "title": "General Authorisation for Export of Chemicals and related",
+      "ui": [
+        {
+          "screen_id": "General_Authorisation_for_Export_of_Chemicals_and_related_overview",
+          "name": "General Authorisation for Export of Chemicals and related Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "General_Authorisation_for_Export_of_Chemicals_and_related_submission",
+          "name": "General Authorisation for Export of Chemicals and related Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "the_flag",
+            "sub_flag",
+            "not_flag",
+            "are_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.17",
+      "title": "Validity Period of SCOMET Authorisations",
+      "ui": [
+        {
+          "screen_id": "Validity_Period_of_SCOMET_Authorisations_overview",
+          "name": "Validity Period of SCOMET Authorisations Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Validity_Period_of_SCOMET_Authorisations_submission",
+          "name": "Validity Period of SCOMET Authorisations Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "for_flag",
+            "and_flag",
+            "ies_flag",
+            "iii_flag",
+            "msa_flag"
+          ]
+        },
+        {
+          "screen_id": "Validity_Period_of_SCOMET_Authorisations_exceptions",
+          "name": "Validity Period of SCOMET Authorisations Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.18",
+      "title": "Record Keeping",
+      "ui": [
+        {
+          "screen_id": "Record_Keeping_overview",
+          "name": "Record Keeping Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Record_Keeping_submission",
+          "name": "Record Keeping Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "and_flag",
+            "all_flag",
+            "the_flag",
+            "gaec_flag",
+            "form_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.19",
+      "title": "Voluntary Self Disclosure of export of dual use items",
+      "ui": [
+        {
+          "screen_id": "Voluntary_Self_Disclosure_of_export_of_dual_use_items_overview",
+          "name": "Voluntary Self Disclosure of export of dual use items Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Voluntary_Self_Disclosure_of_export_of_dual_use_items_submission",
+          "name": "Voluntary Self Disclosure of export of dual use items Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "use_flag",
+            "the_flag",
+            "and_flag",
+            "any_flag",
+            "act_flag",
+            "wmd_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.20",
+      "title": "Revalidation of SCOMET Authorisation",
+      "ui": [
+        {
+          "screen_id": "Revalidation_of_SCOMET_Authorisation_overview",
+          "name": "Revalidation of SCOMET Authorisation Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Revalidation_of_SCOMET_Authorisation_submission",
+          "name": "Revalidation of SCOMET Authorisation Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "may_flag",
+            "not_flag",
+            "anf_flag",
+            "etc_flag"
+          ]
+        }
+      ]
+    }
+  ]
+}

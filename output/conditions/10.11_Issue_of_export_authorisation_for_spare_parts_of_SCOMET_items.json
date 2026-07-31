@@ -1,0 +1,21 @@
+{
+  "section": "10.11",
+  "conditions": [
+    "10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same.",
+    "The applicant needs to indicate the requirement of spare parts\nafter judicious and reasonable assessment with justification thereof."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.10.11.1",
+      "if": "10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same.",
+      "then": "10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same.",
+      "source": "10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same."
+    },
+    {
+      "id": "10.10.11.2",
+      "if": "The applicant needs to indicate the requirement of spare parts\nafter judicious and reasonable assessment with justification thereof.",
+      "then": "10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same.",
+      "source": "The applicant needs to indicate the requirement of spare parts\nafter judicious and reasonable assessment with justification thereof."
+    }
+  ]
+}

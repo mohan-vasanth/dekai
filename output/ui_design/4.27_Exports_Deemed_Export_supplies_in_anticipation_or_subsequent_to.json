@@ -1,0 +1,47 @@
+{
+  "section": "4.27",
+  "ui": [
+    {
+      "screen_id": "Exports_Deemed_Export_supplies_in_anticipation_or_subsequent_to_overview",
+      "name": "Exports/Deemed Export supplies in anticipation or subsequent to Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Exports_Deemed_Export_supplies_in_anticipation_or_subsequent_to_submission",
+      "name": "Exports/Deemed Export supplies in anticipation or subsequent to Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "anf_flag",
+        "the_flag",
+        "edi_flag",
+        "for_flag",
+        "may_flag",
+        "tax_flag"
+      ]
+    },
+    {
+      "screen_id": "Exports_Deemed_Export_supplies_in_anticipation_or_subsequent_to_exceptions",
+      "name": "Exports/Deemed Export supplies in anticipation or subsequent to Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

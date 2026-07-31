@@ -1,0 +1,47 @@
+{
+  "section": "6.01",
+  "ui": [
+    {
+      "screen_id": "Application_Approval_Renewal_of_approval_overview",
+      "name": "Application / Approval / Renewal of approval Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Application_Approval_Renewal_of_approval_submission",
+      "name": "Application / Approval / Renewal of approval Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "eou_flag",
+        "anf_flag",
+        "may_flag",
+        "per_flag",
+        "and_flag"
+      ]
+    },
+    {
+      "screen_id": "Application_Approval_Renewal_of_approval_exceptions",
+      "name": "Application / Approval / Renewal of approval Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

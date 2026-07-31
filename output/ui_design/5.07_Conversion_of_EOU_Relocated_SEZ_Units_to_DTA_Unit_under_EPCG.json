@@ -1,0 +1,37 @@
+{
+  "section": "5.07",
+  "ui": [
+    {
+      "screen_id": "Conversion_of_EOU_Relocated_SEZ_Units_to_DTA_Unit_under_EPCG_overview",
+      "name": "Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Conversion_of_EOU_Relocated_SEZ_Units_to_DTA_Unit_under_EPCG_submission",
+      "name": "Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "sez_flag",
+        "dta_flag",
+        "may_flag",
+        "for_flag",
+        "the_flag",
+        "per_flag"
+      ]
+    }
+  ]
+}

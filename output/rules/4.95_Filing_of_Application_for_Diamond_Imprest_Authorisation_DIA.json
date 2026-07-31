@@ -1,0 +1,22 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.95",
+  "title": "Filing of Application for Diamond Imprest Authorisation (DIA)",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_95-R001",
+      "rule_description": "Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.",
+      "trigger": "Filing of Application for Diamond Imprest Authorisation (DIA)",
+      "condition": "Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.",
+      "validation": "Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.",
+      "action": "Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.95 - Filing of Application for Diamond Imprest Authorisation (DIA)."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A.",
+    "IF validations pass THEN recommend action: Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A."
+  ]
+}

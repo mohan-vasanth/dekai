@@ -1,0 +1,47 @@
+{
+  "section": "4.14",
+  "ui": [
+    {
+      "screen_id": "Application_and_On_line_Inter_Ministerial_Consultations_for_fixation_of_overview",
+      "name": "Application and On-line Inter-Ministerial Consultations for fixation of Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Application_and_On_line_Inter_Ministerial_Consultations_for_fixation_of_submission",
+      "name": "Application and On-line Inter-Ministerial Consultations for fixation of Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "for_flag",
+        "the_flag",
+        "any_flag",
+        "may_flag",
+        "its_flag"
+      ]
+    },
+    {
+      "screen_id": "Application_and_On_line_Inter_Ministerial_Consultations_for_fixation_of_exceptions",
+      "name": "Application and On-line Inter-Ministerial Consultations for fixation of Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

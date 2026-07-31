@@ -1,0 +1,37 @@
+{
+  "section": "3.07",
+  "ui": [
+    {
+      "screen_id": "Nodal_DGFT_Regional_Authority_overview",
+      "name": "Nodal DGFT Regional Authority Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Nodal_DGFT_Regional_Authority_submission",
+      "name": "Nodal DGFT Regional Authority Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "for_flag",
+        "all_flag",
+        "has_flag",
+        "dgft_flag"
+      ]
+    }
+  ]
+}

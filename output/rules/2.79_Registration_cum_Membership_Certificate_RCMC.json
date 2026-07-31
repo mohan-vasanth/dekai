@@ -1,0 +1,33 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.79",
+  "title": "Registration- cum- Membership Certificate (RCMC)",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_79-R001",
+      "rule_description": "On being admitted to membership, applicant shall be granted\nforthwith Registration-cum-Membership Certificate (RCMC) of EPC concerned, in\npg.",
+      "trigger": "Registration- cum- Membership Certificate (RCMC)",
+      "condition": "2.79 Registration- cum- Membership Certificate (RCMC)\n(a) An exporter may, on application given in ANF 2C register and become a\nmember of EPC.",
+      "validation": "On being admitted to membership, applicant shall be granted\nforthwith Registration-cum-Membership Certificate (RCMC) of EPC concerned, in\npg.",
+      "action": "2.79 Registration- cum- Membership Certificate (RCMC)\n(a) An exporter may, on application given in ANF 2C register and become a\nmember of EPC.",
+      "exception": "43\n(b)\nAll relevant guidelines regarding grant of specific exemption(s) if any,\nprocedure of data requirement / maintenance / upload on central portal\nand clarifications issued under this notification etc.",
+      "output": "DEKAI should produce a compliance decision for 2.79 - Registration- cum- Membership Certificate (RCMC)."
+    },
+    {
+      "rule_id": "CH2-SEC2_79-R002",
+      "rule_description": "In case an exporter desires to get registration as a\nmanufacturer exporter, he shall furnish evidence to that effect.",
+      "trigger": "Registration- cum- Membership Certificate (RCMC)",
+      "condition": "On being admitted to membership, applicant shall be granted\nforthwith Registration-cum-Membership Certificate (RCMC) of EPC concerned, in\npg.",
+      "validation": "In case an exporter desires to get registration as a\nmanufacturer exporter, he shall furnish evidence to that effect.",
+      "action": "43\n(b)\nAll relevant guidelines regarding grant of specific exemption(s) if any,\nprocedure of data requirement / maintenance / upload on central portal\nand clarifications issued under this notification etc.",
+      "exception": "43\n(b)\nAll relevant guidelines regarding grant of specific exemption(s) if any,\nprocedure of data requirement / maintenance / upload on central portal\nand clarifications issued under this notification etc.",
+      "output": "DEKAI should produce a compliance decision for 2.79 - Registration- cum- Membership Certificate (RCMC)."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: On being admitted to membership, applicant shall be granted\nforthwith Registration-cum-Membership Certificate (RCMC) of EPC concerned, in\npg.",
+    "IF detected context matches section rule THEN enforce: In case an exporter desires to get registration as a\nmanufacturer exporter, he shall furnish evidence to that effect.",
+    "IF validations pass THEN recommend action: 2.79 Registration- cum- Membership Certificate (RCMC)\n(a) An exporter may, on application given in ANF 2C register and become a\nmember of EPC."
+  ]
+}

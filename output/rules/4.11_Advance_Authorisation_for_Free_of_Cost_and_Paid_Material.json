@@ -1,0 +1,32 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.11",
+  "title": "Advance Authorisation for Free of Cost and Paid Material",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_11-R001",
+      "rule_description": "4.11 Advance Authorisation for Free of Cost and Paid Material\nAuthorisations granted in terms of paragraph 4.19 of FTP, a specific endorsement by\nRegional Authority shall be made in the condition sheet of Advance Authorisation,\ndisallowing remittances for material being supplied free of cost.",
+      "trigger": "Advance Authorisation for Free of Cost and Paid Material",
+      "condition": "4.11 Advance Authorisation for Free of Cost and Paid Material\nAuthorisations granted in terms of paragraph 4.19 of FTP, a specific endorsement by\nRegional Authority shall be made in the condition sheet of Advance Authorisation,\ndisallowing remittances for material being supplied free of cost.",
+      "validation": "4.11 Advance Authorisation for Free of Cost and Paid Material\nAuthorisations granted in terms of paragraph 4.19 of FTP, a specific endorsement by\nRegional Authority shall be made in the condition sheet of Advance Authorisation,\ndisallowing remittances for material being supplied free of cost.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.11 - Advance Authorisation for Free of Cost and Paid Material."
+    },
+    {
+      "rule_id": "CH4-SEC4_11-R002",
+      "rule_description": "All imported inputs\nexcluding wastage shall be utilised in manufacturing of export product.",
+      "trigger": "Advance Authorisation for Free of Cost and Paid Material",
+      "condition": "4.11 Advance Authorisation for Free of Cost and Paid Material\nAuthorisations granted in terms of paragraph 4.19 of FTP, a specific endorsement by\nRegional Authority shall be made in the condition sheet of Advance Authorisation,\ndisallowing remittances for material being supplied free of cost.",
+      "validation": "All imported inputs\nexcluding wastage shall be utilised in manufacturing of export product.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.11 - Advance Authorisation for Free of Cost and Paid Material."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.11 Advance Authorisation for Free of Cost and Paid Material\nAuthorisations granted in terms of paragraph 4.19 of FTP, a specific endorsement by\nRegional Authority shall be made in the condition sheet of Advance Authorisation,\ndisallowing remittances for material being supplied free of cost.",
+    "IF detected context matches section rule THEN enforce: All imported inputs\nexcluding wastage shall be utilised in manufacturing of export product."
+  ]
+}

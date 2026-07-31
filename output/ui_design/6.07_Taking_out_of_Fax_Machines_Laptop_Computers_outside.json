@@ -1,0 +1,37 @@
+{
+  "section": "6.07",
+  "ui": [
+    {
+      "screen_id": "Taking_out_of_Fax_Machines_Laptop_Computers_outside_overview",
+      "name": "Taking out of Fax Machines / Laptop / Computers outside Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Taking_out_of_Fax_Machines_Laptop_Computers_outside_submission",
+      "name": "Taking out of Fax Machines / Laptop / Computers outside Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "out_flag",
+        "fax_flag",
+        "eou_flag",
+        "stp_flag",
+        "btp_flag",
+        "may_flag"
+      ]
+    }
+  ]
+}

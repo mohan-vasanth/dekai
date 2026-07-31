@@ -1,0 +1,37 @@
+{
+  "section": "10.05",
+  "ui": [
+    {
+      "screen_id": "Additional_controls_on_Non_SCOMET_items_for_dual_use_overview",
+      "name": "Additional controls on Non-SCOMET items for dual use Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Additional_controls_on_Non_SCOMET_items_for_dual_use_submission",
+      "name": "Additional controls on Non-SCOMET items for dual use Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "use_flag",
+        "the_flag",
+        "has_flag",
+        "not_flag",
+        "wmd_flag"
+      ]
+    }
+  ]
+}

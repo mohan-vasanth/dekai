@@ -1,0 +1,22 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.22",
+  "title": "Maintenance of Records",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_22-R001",
+      "rule_description": "5.22 Maintenance of Records\nEvery EPCG authorisation holder shall maintain, for a period of 2 years from date\nof redemption, a true and proper account of exports/ supplies made and services\nrendered towards fulfillment of export obligation.",
+      "trigger": "Maintenance of Records",
+      "condition": "Section 5.22 is applicable",
+      "validation": "5.22 Maintenance of Records\nEvery EPCG authorisation holder shall maintain, for a period of 2 years from date\nof redemption, a true and proper account of exports/ supplies made and services\nrendered towards fulfillment of export obligation.",
+      "action": "5.22 Maintenance of Records\nEvery EPCG authorisation holder shall maintain, for a period of 2 years from date\nof redemption, a true and proper account of exports/ supplies made and services\nrendered towards fulfillment of export obligation.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.22 - Maintenance of Records."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 5.22 Maintenance of Records\nEvery EPCG authorisation holder shall maintain, for a period of 2 years from date\nof redemption, a true and proper account of exports/ supplies made and services\nrendered towards fulfillment of export obligation.",
+    "IF validations pass THEN recommend action: 5.22 Maintenance of Records\nEvery EPCG authorisation holder shall maintain, for a period of 2 years from date\nof redemption, a true and proper account of exports/ supplies made and services\nrendered towards fulfillment of export obligation."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.64",
+  "title": "Agency Commission",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_64-R001",
+      "rule_description": "4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.",
+      "trigger": "Agency Commission",
+      "condition": "4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.",
+      "validation": "Value Addition\nshall be calculated after deducting agency commission.",
+      "action": "4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.64 - Agency Commission."
+    },
+    {
+      "rule_id": "CH4-SEC4_64-R002",
+      "rule_description": "Value Addition\nshall be calculated after deducting agency commission.",
+      "trigger": "Agency Commission",
+      "condition": "Value Addition\nshall be calculated after deducting agency commission.",
+      "validation": "Value Addition\nshall be calculated after deducting agency commission.",
+      "action": "4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.64 - Agency Commission."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.",
+    "IF detected context matches section rule THEN enforce: Value Addition\nshall be calculated after deducting agency commission.",
+    "IF validations pass THEN recommend action: 4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI."
+  ]
+}

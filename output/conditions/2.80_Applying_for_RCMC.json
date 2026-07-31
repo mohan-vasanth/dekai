@@ -1,0 +1,42 @@
+{
+  "section": "2.80",
+  "conditions": [
+    "(b) In case an export product is not covered by any Export Promotion\nCouncil/Commodity Board etc., RCMC in respect thereof is to be obtained from FIEO.",
+    "Further, in case of multi product exporters, not registered with any EPC, where main\nline of business is yet to be settled, the exporter has an option to obtain RCMC from\nFederation of Indian Exporters Organization (FIEO).",
+    "(c) In respect of multi product exporters having their head office/ registered office\nin the North Eastern States, RCMC may be obtained from Shellac & Forest Products\nExport Promotion Council (except for the products looked after by APEDA, Spices\nBoard and Tea Board).",
+    "(b)\nIn case an export product is not covered by any Export Promotion\nCouncil/Commodity Board etc., RCMC in respect thereof is to be obtained from FIEO.",
+    "(c)\nIn respect of multi product exporters having their head office/ registered office\nin the North Eastern States, RCMC may be obtained from Shellac & Forest Products\nExport Promotion Council (except for the products looked after by APEDA, Spices\nBoard and Tea Board)."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.80.1",
+      "if": "(b) In case an export product is not covered by any Export Promotion\nCouncil/Commodity Board etc., RCMC in respect thereof is to be obtained from FIEO.",
+      "then": "2.80 Applying for RCMC\n(a) While applying for RCMC, an exporter has to declare his main line of business in\nthe application.",
+      "source": "(b) In case an export product is not covered by any Export Promotion\nCouncil/Commodity Board etc., RCMC in respect thereof is to be obtained from FIEO."
+    },
+    {
+      "id": "2.2.80.2",
+      "if": "Further, in case of multi product exporters, not registered with any EPC, where main\nline of business is yet to be settled, the exporter has an option to obtain RCMC from\nFederation of Indian Exporters Organization (FIEO).",
+      "then": "2.80 Applying for RCMC\n(a) While applying for RCMC, an exporter has to declare his main line of business in\nthe application.",
+      "source": "Further, in case of multi product exporters, not registered with any EPC, where main\nline of business is yet to be settled, the exporter has an option to obtain RCMC from\nFederation of Indian Exporters Organization (FIEO)."
+    },
+    {
+      "id": "2.2.80.3",
+      "if": "(c) In respect of multi product exporters having their head office/ registered office\nin the North Eastern States, RCMC may be obtained from Shellac & Forest Products\nExport Promotion Council (except for the products looked after by APEDA, Spices\nBoard and Tea Board).",
+      "then": "2.80 Applying for RCMC\n(a) While applying for RCMC, an exporter has to declare his main line of business in\nthe application.",
+      "source": "(c) In respect of multi product exporters having their head office/ registered office\nin the North Eastern States, RCMC may be obtained from Shellac & Forest Products\nExport Promotion Council (except for the products looked after by APEDA, Spices\nBoard and Tea Board)."
+    },
+    {
+      "id": "2.2.80.4",
+      "if": "(b)\nIn case an export product is not covered by any Export Promotion\nCouncil/Commodity Board etc., RCMC in respect thereof is to be obtained from FIEO.",
+      "then": "2.80 Applying for RCMC\n(a) While applying for RCMC, an exporter has to declare his main line of business in\nthe application.",
+      "source": "(b)\nIn case an export product is not covered by any Export Promotion\nCouncil/Commodity Board etc., RCMC in respect thereof is to be obtained from FIEO."
+    },
+    {
+      "id": "2.2.80.5",
+      "if": "(c)\nIn respect of multi product exporters having their head office/ registered office\nin the North Eastern States, RCMC may be obtained from Shellac & Forest Products\nExport Promotion Council (except for the products looked after by APEDA, Spices\nBoard and Tea Board).",
+      "then": "2.80 Applying for RCMC\n(a) While applying for RCMC, an exporter has to declare his main line of business in\nthe application.",
+      "source": "(c)\nIn respect of multi product exporters having their head office/ registered office\nin the North Eastern States, RCMC may be obtained from Shellac & Forest Products\nExport Promotion Council (except for the products looked after by APEDA, Spices\nBoard and Tea Board)."
+    }
+  ]
+}

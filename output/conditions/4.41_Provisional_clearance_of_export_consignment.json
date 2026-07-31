@@ -1,0 +1,14 @@
+{
+  "section": "4.41",
+  "conditions": [
+    "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.41.1",
+      "if": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority.",
+      "then": "Route for review",
+      "source": "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority."
+    }
+  ]
+}

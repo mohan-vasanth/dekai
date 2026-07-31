@@ -1,0 +1,55 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.03",
+  "title": "Nexus Certification",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_03-R001",
+      "rule_description": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "trigger": "Nexus Certification",
+      "condition": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "validation": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "action": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.03 - Nexus Certification."
+    },
+    {
+      "rule_id": "CH5-SEC5_03-R002",
+      "rule_description": "For issuance of such certificate, the Chartered Engineer\nshall act only in the domain of his/her competence.",
+      "trigger": "Nexus Certification",
+      "condition": "For issuance of such certificate, the Chartered Engineer\nshall act only in the domain of his/her competence.",
+      "validation": "For issuance of such certificate, the Chartered Engineer\nshall act only in the domain of his/her competence.",
+      "action": "In case of fabrication,\nreasonable wastage, if any, anticipated at the time of installation of capital\ngoods shall be certified by the Chartered Engineer in the nexus certificate\nand the same would be mentioned in the condition sheet of the EPCG\nauthorisation at the time of issue.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.03 - Nexus Certification."
+    },
+    {
+      "rule_id": "CH5-SEC5_03-R003",
+      "rule_description": "In case of fabrication,\nreasonable wastage, if any, anticipated at the time of installation of capital\ngoods shall be certified by the Chartered Engineer in the nexus certificate\nand the same would be mentioned in the condition sheet of the EPCG\nauthorisation at the time of issue.",
+      "trigger": "Nexus Certification",
+      "condition": "any",
+      "validation": "In case of fabrication,\nreasonable wastage, if any, anticipated at the time of installation of capital\ngoods shall be certified by the Chartered Engineer in the nexus certificate\nand the same would be mentioned in the condition sheet of the EPCG\nauthorisation at the time of issue.",
+      "action": "The wastage so permitted at the time of\nissuance of authorisation would be allowed to be sold as scrap/waste on\npayment of applicable duty by the authorisation holder.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.03 - Nexus Certification."
+    },
+    {
+      "rule_id": "CH5-SEC5_03-R004",
+      "rule_description": "5.03 Nexus Certification\n(a)\nRA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "trigger": "Nexus Certification",
+      "condition": "any",
+      "validation": "5.03 Nexus Certification\n(a)\nRA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "action": "(b) An application for amendment in the list of import item(s) including\naddition(s)/deletion(s), if any, may be filed with RA concerned provided the\nauthorisation is valid for import.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.03 - Nexus Certification."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+    "IF detected context matches section rule THEN enforce: For issuance of such certificate, the Chartered Engineer\nshall act only in the domain of his/her competence.",
+    "IF detected context matches section rule THEN enforce: In case of fabrication,\nreasonable wastage, if any, anticipated at the time of installation of capital\ngoods shall be certified by the Chartered Engineer in the nexus certificate\nand the same would be mentioned in the condition sheet of the EPCG\nauthorisation at the time of issue.",
+    "IF detected context matches section rule THEN enforce: 5.03 Nexus Certification\n(a)\nRA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+    "IF validations pass THEN recommend action: 5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation."
+  ]
+}

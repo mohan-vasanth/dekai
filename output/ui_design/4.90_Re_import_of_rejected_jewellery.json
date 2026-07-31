@@ -1,0 +1,47 @@
+{
+  "section": "4.90",
+  "ui": [
+    {
+      "screen_id": "Re_import_of_rejected_jewellery_overview",
+      "name": "Re-import of rejected jewellery Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Re_import_of_rejected_jewellery_submission",
+      "name": "Re-import of rejected jewellery Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "fob_flag",
+        "any_flag",
+        "per_flag",
+        "duty_flag",
+        "free_flag"
+      ]
+    },
+    {
+      "screen_id": "Re_import_of_rejected_jewellery_exceptions",
+      "name": "Re-import of rejected jewellery Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

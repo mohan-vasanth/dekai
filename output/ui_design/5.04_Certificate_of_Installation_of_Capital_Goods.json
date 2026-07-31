@@ -1,0 +1,37 @@
+{
+  "section": "5.04",
+  "ui": [
+    {
+      "screen_id": "Certificate_of_Installation_of_Capital_Goods_overview",
+      "name": "Certificate of Installation of Capital Goods Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Certificate_of_Installation_of_Capital_Goods_submission",
+      "name": "Certificate of Installation of Capital Goods Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "his_flag",
+        "may_flag",
+        "for_flag",
+        "fee_flag",
+        "per_flag"
+      ]
+    }
+  ]
+}

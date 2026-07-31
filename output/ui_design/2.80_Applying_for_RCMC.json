@@ -1,0 +1,47 @@
+{
+  "section": "2.80",
+  "ui": [
+    {
+      "screen_id": "Applying_for_RCMC_overview",
+      "name": "Applying for RCMC Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Applying_for_RCMC_submission",
+      "name": "Applying for RCMC Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "has_flag",
+        "his_flag",
+        "the_flag",
+        "not_flag",
+        "any_flag"
+      ]
+    },
+    {
+      "screen_id": "Applying_for_RCMC_exceptions",
+      "name": "Applying for RCMC Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

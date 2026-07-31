@@ -1,0 +1,606 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.22",
+  "title": "Standardisation of Adhoc Norms",
+  "purpose": "4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+  "purpose_thanglish": "Indha Standardisation of Adhoc Norms section-la, 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B kandippa be filed online\nalong with complete data.",
+  "summary": "4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data. Such applications shall be made to concerned\nNorms Committee in DGFT headquarters. (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+  "business_meaning": "Standardisation of Adhoc Norms governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Standardisation of Adhoc Norms explains the operating rule set that DEKAI should enforce. Key control points include 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data. The section also drives actions such as As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized..",
+  "business_explanation_thanglish": "Indha Standardisation of Adhoc Norms section-la, Standardisation of Adhoc Norms explains the operating rule set that DEKAI should enforce. Key control points include 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B kandippa be filed online\nalong with complete data. The section also drives actions such as As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder kandippa be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized..",
+  "business_logic": [
+    "4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+    "Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.",
+    "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+    "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+    "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_22-R001",
+      "rule_description": "4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+      "trigger": "Standardisation of Adhoc Norms",
+      "condition": "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "validation": "4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+      "action": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "exception": "However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.",
+      "output": "DEKAI should produce a compliance decision for 4.22 - Standardisation of Adhoc Norms."
+    },
+    {
+      "rule_id": "CH4-SEC4_22-R002",
+      "rule_description": "Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.",
+      "trigger": "Standardisation of Adhoc Norms",
+      "condition": "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+      "validation": "Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.",
+      "action": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "exception": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "output": "DEKAI should produce a compliance decision for 4.22 - Standardisation of Adhoc Norms."
+    },
+    {
+      "rule_id": "CH4-SEC4_22-R003",
+      "rule_description": "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "trigger": "Standardisation of Adhoc Norms",
+      "condition": "However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.",
+      "validation": "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "action": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "exception": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "output": "DEKAI should produce a compliance decision for 4.22 - Standardisation of Adhoc Norms."
+    },
+    {
+      "rule_id": "CH4-SEC4_22-R004",
+      "rule_description": "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+      "trigger": "Standardisation of Adhoc Norms",
+      "condition": "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+      "validation": "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+      "action": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "exception": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "output": "DEKAI should produce a compliance decision for 4.22 - Standardisation of Adhoc Norms."
+    },
+    {
+      "rule_id": "CH4-SEC4_22-R005",
+      "rule_description": "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+      "trigger": "Standardisation of Adhoc Norms",
+      "condition": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "validation": "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+      "action": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "exception": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "output": "DEKAI should produce a compliance decision for 4.22 - Standardisation of Adhoc Norms."
+    },
+    {
+      "rule_id": "CH4-SEC4_22-R006",
+      "rule_description": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "trigger": "Standardisation of Adhoc Norms",
+      "condition": "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "validation": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "action": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "exception": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "output": "DEKAI should produce a compliance decision for 4.22 - Standardisation of Adhoc Norms."
+    },
+    {
+      "rule_id": "CH4-SEC4_22-R007",
+      "rule_description": "4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+      "trigger": "Standardisation of Adhoc Norms",
+      "condition": "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+      "validation": "4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+      "action": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "exception": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "output": "DEKAI should produce a compliance decision for 4.22 - Standardisation of Adhoc Norms."
+    },
+    {
+      "rule_id": "CH4-SEC4_22-R008",
+      "rule_description": "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "trigger": "Standardisation of Adhoc Norms",
+      "condition": "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B.",
+      "validation": "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "action": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "exception": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "output": "DEKAI should produce a compliance decision for 4.22 - Standardisation of Adhoc Norms."
+    },
+    {
+      "rule_id": "CH4-SEC4_22-R009",
+      "rule_description": "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+      "trigger": "Standardisation of Adhoc Norms",
+      "condition": "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B.",
+      "validation": "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+      "action": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "exception": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "output": "DEKAI should produce a compliance decision for 4.22 - Standardisation of Adhoc Norms."
+    },
+    {
+      "rule_id": "CH4-SEC4_22-R010",
+      "rule_description": "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B.",
+      "trigger": "Standardisation of Adhoc Norms",
+      "condition": "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B.",
+      "validation": "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B.",
+      "action": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "exception": "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+      "output": "DEKAI should produce a compliance decision for 4.22 - Standardisation of Adhoc Norms."
+    }
+  ],
+  "conditions": [
+    "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.",
+    "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+    "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.22.1",
+      "if": "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant."
+    },
+    {
+      "id": "4.4.22.2",
+      "if": "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation."
+    },
+    {
+      "id": "4.4.22.3",
+      "if": "However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above."
+    },
+    {
+      "id": "4.4.22.4",
+      "if": "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg."
+    },
+    {
+      "id": "4.4.22.5",
+      "if": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized."
+    },
+    {
+      "id": "4.4.22.6",
+      "if": "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant."
+    },
+    {
+      "id": "4.4.22.7",
+      "if": "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation."
+    },
+    {
+      "id": "4.4.22.8",
+      "if": "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B.",
+      "then": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "source": "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B."
+    }
+  ],
+  "validations": [
+    "4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+    "Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.",
+    "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+    "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+    "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B."
+  ],
+  "exceptions": [
+    "However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.",
+    "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20)."
+  ],
+  "dependencies": [
+    "4.07",
+    "3"
+  ],
+  "documents": [
+    "4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+    "Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.",
+    "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+    "4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+    "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B."
+  ],
+  "required_documents": [
+    "4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+    "Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.",
+    "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+    "4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+    "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B."
+  ],
+  "authorities": [
+    "DGFT",
+    "Norms Committee in DGFT",
+    "Norms Committee",
+    "Handbook of Procedures shall be filed online to the Norms Committee",
+    "customs"
+  ],
+  "timelines": [
+    "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized."
+  ],
+  "actions": [
+    "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20)."
+  ],
+  "workflow": [
+    "Evaluate condition: (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "Evaluate condition: (ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "Evaluate condition: However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.",
+    "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).",
+    "Run validation: 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+    "Run validation: Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.",
+    "Run validation: (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "Handle exception: However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above."
+  ],
+  "workflow_ascii": "Standardisation of Adhoc Norms\nEvaluate condition: (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.\n   |\n   v\nEvaluate condition: (ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.\n   |\n   v\nEvaluate condition: However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.\n   |\n   v\nAs a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.\n   |\n   v\nHowever, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).\n   |\n   v\nRun validation: 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.\n   |\n   v\nRun validation: Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.\n   |\n   v\nRun validation: (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.\n   |\n   v\nHandle exception: However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.",
+  "decision_tree": [
+    "IF (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant. THEN As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "IF (ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation. THEN As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "IF However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above. THEN As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "IF (iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg. THEN As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "IF As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized. THEN As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "IF exception applies (However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.) THEN route to manual review",
+    "IF exception applies (However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Standardisation of Adhoc Norms Decision\nIF (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant. THEN As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.\n   |\n   v\nIF (ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation. THEN As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.\n   |\n   v\nIF However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above. THEN As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.\n   |\n   v\nIF (iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg. THEN As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.\n   |\n   v\nIF As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized. THEN As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.\n   |\n   v\nIF exception applies (However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.) THEN route to manual review\n   |\n   v\nIF exception applies (However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).) THEN route to manual review",
+  "examples": [
+    "User asks to process Standardisation of Adhoc Norms; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Standardisation of Adhoc Norms, submits 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data., Such applications shall be made to concerned\nNorms Committee in DGFT headquarters., (iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg., and DEKAI uses the extracted rules to as a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by do r, or effect\nadditional export within the eo period to account for the export of the material\nremaining unutilized..",
+  "real_world_example_thanglish": "Indha Standardisation of Adhoc Norms section-la, Example: an importer or exporter invokes Standardisation of Adhoc Norms, submits 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B kandippa be filed online\nalong with complete data., Such applications kandippa be made to concerned\nNorms Committee in DGFT headquarters., (iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures kandippa be filed online to the Norms Committee\npg., and DEKAI uses the extracted rules to as a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder kandippa be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by do r, or effect\nadditional export within the eo period to account for the export of the material\nremaining unutilized..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+    "IF detected context matches section rule THEN enforce: Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.",
+    "IF detected context matches section rule THEN enforce: (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "IF detected context matches section rule THEN enforce: (ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "IF detected context matches section rule THEN enforce: (iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+    "IF detected context matches section rule THEN enforce: As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "IF validations pass THEN recommend action: As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:For"
+    },
+    {
+      "name": "anf_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ANF"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "per_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:per"
+    },
+    {
+      "name": "iii_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:iii"
+    },
+    {
+      "name": "new_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:new"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Such applications shall be made to concerned\nNorms Committee in DGFT headquarters."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg."
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data."
+    },
+    {
+      "name": "document_5_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.22",
+      "purpose": "Retrieve knowledge payload for section 4.22",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Standardisation-of-Adhoc-Norms/validate",
+      "purpose": "Validate inputs and documents for Standardisation of Adhoc Norms",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Standardisation-of-Adhoc-Norms/execute",
+      "purpose": "Trigger business action for As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Standardisation_of_Adhoc_Norms_overview",
+      "name": "Standardisation of Adhoc Norms Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Standardisation_of_Adhoc_Norms_submission",
+      "name": "Standardisation of Adhoc Norms Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "anf_flag",
+        "may_flag",
+        "not_flag",
+        "per_flag",
+        "iii_flag"
+      ]
+    },
+    {
+      "screen_id": "Standardisation_of_Adhoc_Norms_exceptions",
+      "name": "Standardisation of Adhoc Norms Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Standardisation of Adhoc Norms require?",
+    "Which documents are needed for Standardisation of Adhoc Norms?",
+    "How does DEKAI validate Standardisation of Adhoc Norms requests?",
+    "What action should be taken for Standardisation of Adhoc Norms?"
+  ],
+  "expected_ai_answers": [
+    "Standardisation of Adhoc Norms requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data., Such applications shall be made to concerned\nNorms Committee in DGFT headquarters., (iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg., 4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data., (iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B.",
+    "DEKAI validates Standardisation of Adhoc Norms by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4.22?",
+      "answer_en": "Standardisation of Adhoc Norms explains the operating rule set that DEKAI should enforce. Key control points include 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data. The section also drives actions such as As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized..",
+      "question_thanglish": "Indha Standardisation of Adhoc Norms section-la, What is the purpose of section 4.22?",
+      "answer_thanglish": "Indha Standardisation of Adhoc Norms section-la, Standardisation of Adhoc Norms explains the operating rule set that DEKAI should enforce. Key control points include 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B kandippa be filed online\nalong with complete data. The section also drives actions such as As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder kandippa be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.."
+    },
+    {
+      "question_en": "What documents are required under Standardisation of Adhoc Norms?",
+      "answer_en": "4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data., Such applications shall be made to concerned\nNorms Committee in DGFT headquarters., (iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg., 4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data., (iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B.",
+      "question_thanglish": "Indha Standardisation of Adhoc Norms section-la, What documents are required under Standardisation of Adhoc Norms?",
+      "answer_thanglish": "Indha Standardisation of Adhoc Norms section-la, 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B kandippa be filed online\nalong with complete data., Such applications kandippa be made to concerned\nNorms Committee in DGFT headquarters., (iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures kandippa be filed online to the Norms Committee\npg., 4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B kandippa be filed online\nalong with complete data., (iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures kandippa be filed online to the Norms Committee\nalong-with requisite data in ANF 4B."
+    },
+    {
+      "question_en": "Which authority handles Standardisation of Adhoc Norms?",
+      "answer_en": "DGFT, Norms Committee in DGFT, Norms Committee, Handbook of Procedures shall be filed online to the Norms Committee, customs",
+      "question_thanglish": "Indha Standardisation of Adhoc Norms section-la, Which authority handles Standardisation of Adhoc Norms?",
+      "answer_thanglish": "Indha Standardisation of Adhoc Norms section-la, DGFT, Norms Committee in DGFT, Norms Committee, Handbook of Procedures kandippa be filed online to the Norms Committee, customs"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Standardisation of Adhoc Norms?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4.22, apply the extracted rules, and guide the user through Evaluate condition: (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant..",
+      "question_thanglish": "Indha Standardisation of Adhoc Norms section-la, User asks: How do I comply with Standardisation of Adhoc Norms?",
+      "answer_thanglish": "Indha Standardisation of Adhoc Norms section-la, AI answers: DEKAI should evaluate section 4.22, apply the extracted rules, and guide the user through Evaluate condition: (b) import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel kandippa be allowed only to manufacturer having\ncaptive powerplant.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Standardisation of Adhoc Norms?",
+      "answer_en": "AI answers: Applicable validations are 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data., Such applications shall be made to concerned\nNorms Committee in DGFT headquarters., (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "question_thanglish": "Indha Standardisation of Adhoc Norms section-la, User asks: Which validations apply to Standardisation of Adhoc Norms?",
+      "answer_thanglish": "Indha Standardisation of Adhoc Norms section-la, AI answers: Applicable validations are 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B kandippa be filed online\nalong with complete data., Such applications kandippa be made to concerned\nNorms Committee in DGFT headquarters., (b) import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel kandippa be allowed only to manufacturer having\ncaptive powerplant."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 4.22, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Standardisation of Adhoc Norms into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data., Such applications shall be made to concerned\nNorms Committee in DGFT headquarters., (iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg., 4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data., (iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B..",
+    "Route escalations or approvals to: DGFT, Norms Committee in DGFT, Norms Committee, Handbook of Procedures shall be filed online to the Norms Committee.",
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 4.07."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Standardisation of Adhoc Norms section-la, Capture chapter 4, section 4.22, title, and page references as immutable knowledge metadata.",
+    "Indha Standardisation of Adhoc Norms section-la, Bind validations for Standardisation of Adhoc Norms into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Standardisation of Adhoc Norms section-la, Expose document upload controls for: 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B kandippa be filed online\nalong with complete data., Such applications kandippa be made to concerned\nNorms Committee in DGFT headquarters., (iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures kandippa be filed online to the Norms Committee\npg., 4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B kandippa be filed online\nalong with complete data., (iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures kandippa be filed online to the Norms Committee\nalong-with requisite data in ANF 4B..",
+    "Indha Standardisation of Adhoc Norms section-la, Route escalations or approvals to: DGFT, Norms Committee in DGFT, Norms Committee, Handbook of Procedures kandippa be filed online to the Norms Committee.",
+    "Indha Standardisation of Adhoc Norms section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Standardisation of Adhoc Norms section-la, Show contextual links to related sections: 4.07."
+  ],
+  "keywords": [
+    "For",
+    "ANF",
+    "may",
+    "not",
+    "per",
+    "iii",
+    "new",
+    "and",
+    "the",
+    "has",
+    "pay",
+    "FTP",
+    "with",
+    "data",
+    "Such",
+    "made",
+    "DGFT",
+    "fuel",
+    "also",
+    "user"
+  ],
+  "search_keywords": [
+    "For",
+    "ANF",
+    "may",
+    "not",
+    "per",
+    "iii",
+    "new",
+    "and",
+    "the",
+    "has",
+    "pay",
+    "FTP",
+    "with",
+    "data",
+    "Such",
+    "made",
+    "DGFT",
+    "fuel",
+    "also",
+    "user"
+  ],
+  "intent": "Support Standardisation of Adhoc Norms processing and compliance validation.",
+  "tags": [
+    "4.22",
+    "Standardisation of Adhoc Norms",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "4.07"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.",
+    "Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.",
+    "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg."
+  ],
+  "page_numbers": [
+    12,
+    13
+  ],
+  "pages": [
+    12,
+    13
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data. Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.\n(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.\n(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation. However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.\n(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg. 87\npg. 87\nproduct(s) manufactured through NI process. As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized. However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).\n4.22 Standardisation of Adhoc Norms\n(a)\nFor standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data. Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.\n(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.\n(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation. However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.\n(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.\"]\n    S2[\"Evaluate condition: (ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.\"]\n    S2 --> S3\n    S4[\"As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.\"]\n    S3 --> S4\n    S5[\"However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).\"]\n    S4 --> S5\n    S6[\"Run validation: 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.\"]\n    S5 --> S6\n    S7[\"Run validation: Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.\"]\n    S6 --> S7\n    S8[\"Run validation: (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.\"]\n    S7 --> S8\n    S9[\"Handle exception: However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.\"]\n    S8 --> S9",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following\\:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.;\n:Evaluate condition\\: (ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.;\n:Evaluate condition\\: However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.;\n:As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.;\n:However, for the Customs duty component, the authorisation\nholder has also the option to furnish valid duty credit scrip issued under Chapter 3 of\nFTP (2015-20).;\n:Run validation\\: 4.22 Standardisation of Adhoc Norms\n(a) For standardization of norms, an application in ANF 4B shall be filed online\nalong with complete data.;\n:Run validation\\: Such applications shall be made to concerned\nNorms Committee in DGFT headquarters.;\n:Run validation\\: (b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following\\:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.;\n:Handle exception\\: However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.;\nstop\n@enduml"
+}

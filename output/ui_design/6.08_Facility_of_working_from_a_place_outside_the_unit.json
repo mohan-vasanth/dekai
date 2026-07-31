@@ -1,0 +1,37 @@
+{
+  "section": "6.08",
+  "ui": [
+    {
+      "screen_id": "Facility_of_working_from_a_place_outside_the_unit_overview",
+      "name": "Facility of working from a place outside the unit Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Facility_of_working_from_a_place_outside_the_unit_submission",
+      "name": "Facility of working from a place outside the unit Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "eou_flag",
+        "stp_flag",
+        "iii_flag",
+        "btp_flag",
+        "may_flag"
+      ]
+    }
+  ]
+}

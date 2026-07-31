@@ -1,0 +1,37 @@
+{
+  "section": "4.91",
+  "ui": [
+    {
+      "screen_id": "Diamond_Jewellery_Dollar_Accounts_overview",
+      "name": "Diamond & Jewellery Dollar Accounts Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Diamond_Jewellery_Dollar_Accounts_submission",
+      "name": "Diamond & Jewellery Dollar Accounts Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "and_flag",
+        "ftp_flag",
+        "its_flag",
+        "the_flag",
+        "rbi_flag"
+      ]
+    }
+  ]
+}

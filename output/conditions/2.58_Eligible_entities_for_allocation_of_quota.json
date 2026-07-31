@@ -1,0 +1,56 @@
+{
+  "section": "2.58",
+  "conditions": [
+    "2.58 Eligible entities for allocation of quota\nThe following entities shall be eligible for allocation of quota with reference to\npara 2.57(a) of HBP:\n(a) Milk Powder (Tariff Code No.",
+    "(b) Maize (corn) (Tariff Code No.",
+    "(c) Crude sunflower seed or safflower oil or fractions thereof (Tariff Code No.",
+    "1512.11) and Refined rape, colza, canola or mustard oil, other (Tariff Code No.",
+    "2.58 Eligible entities for allocation of quota\nThe following entities shall be eligible for allocation of quota with reference to\npara 2.57(a) of HBP:\n(a)\nMilk Powder (Tariff Code No.",
+    "(b)\nMaize (corn) (Tariff Code No.",
+    "(c)\nCrude sunflower seed or safflower oil or fractions thereof (Tariff Code No."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.58.1",
+      "if": "2.58 Eligible entities for allocation of quota\nThe following entities shall be eligible for allocation of quota with reference to\npara 2.57(a) of HBP:\n(a) Milk Powder (Tariff Code No.",
+      "then": "Route for review",
+      "source": "2.58 Eligible entities for allocation of quota\nThe following entities shall be eligible for allocation of quota with reference to\npara 2.57(a) of HBP:\n(a) Milk Powder (Tariff Code No."
+    },
+    {
+      "id": "2.2.58.2",
+      "if": "(b) Maize (corn) (Tariff Code No.",
+      "then": "Route for review",
+      "source": "(b) Maize (corn) (Tariff Code No."
+    },
+    {
+      "id": "2.2.58.3",
+      "if": "(c) Crude sunflower seed or safflower oil or fractions thereof (Tariff Code No.",
+      "then": "Route for review",
+      "source": "(c) Crude sunflower seed or safflower oil or fractions thereof (Tariff Code No."
+    },
+    {
+      "id": "2.2.58.4",
+      "if": "1512.11) and Refined rape, colza, canola or mustard oil, other (Tariff Code No.",
+      "then": "Route for review",
+      "source": "1512.11) and Refined rape, colza, canola or mustard oil, other (Tariff Code No."
+    },
+    {
+      "id": "2.2.58.5",
+      "if": "2.58 Eligible entities for allocation of quota\nThe following entities shall be eligible for allocation of quota with reference to\npara 2.57(a) of HBP:\n(a)\nMilk Powder (Tariff Code No.",
+      "then": "Route for review",
+      "source": "2.58 Eligible entities for allocation of quota\nThe following entities shall be eligible for allocation of quota with reference to\npara 2.57(a) of HBP:\n(a)\nMilk Powder (Tariff Code No."
+    },
+    {
+      "id": "2.2.58.6",
+      "if": "(b)\nMaize (corn) (Tariff Code No.",
+      "then": "Route for review",
+      "source": "(b)\nMaize (corn) (Tariff Code No."
+    },
+    {
+      "id": "2.2.58.7",
+      "if": "(c)\nCrude sunflower seed or safflower oil or fractions thereof (Tariff Code No.",
+      "then": "Route for review",
+      "source": "(c)\nCrude sunflower seed or safflower oil or fractions thereof (Tariff Code No."
+    }
+  ]
+}

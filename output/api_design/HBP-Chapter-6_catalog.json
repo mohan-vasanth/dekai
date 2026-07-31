@@ -1,0 +1,2170 @@
+{
+  "resources": [
+    "Scheme",
+    "Application-Approval-Renewal-of-approval",
+    "Legal-Undertaking-LUT",
+    "Export-of-Goods-and-Services",
+    "Import-Domestic-Procurement-of-Goods",
+    "Repair-Remaking-of-Jewellery",
+    "Conditions-of-Import",
+    "Taking-out-of-Fax-Machines-Laptop-Computers-outside",
+    "Facility-of-working-from-a-place-outside-the-unit",
+    "Leasing-of-Capital-Goods",
+    "Net-Foreign-Exchange-NFE-Earnings",
+    "Maintenance-of-Accounts",
+    "Monitoring-of-NFE",
+    "Conversion-of-Scrap-Dust-sweeping-of-Gold-Silver",
+    "DTA-Supplies",
+    "Supplies-to-other-EOU-EHTP-STP-SEZ-BTP-Units",
+    "Transfer-of-Power-from-one-Unit-to-another",
+    "Supply-of-Precious-Semi-precious-Synthetic-Stones-from-DTA",
+    "Application-for-grant-of-entitlements",
+    "Export-through-Other-Exporters",
+    "Other-Entitlements",
+    "Contract-Farming",
+    "Exports-through-Exhibitions-Export-Promotion-Tour",
+    "Personal-Carriage-of-Gems-and-Jewellery-as-samples-for-Export",
+    "Export-through-Show-rooms-abroad-Duty-free-shops",
+    "Sale-through-Showrooms-Retail-outlets-at-International",
+    "Personal-Carriage-of-Import-Export-Parcels-including",
+    "Replacement-Repair-of-Imported-Indigenous-Goods",
+    "Samples",
+    "Donation-of-Computer-and-Computer-Peripherals",
+    "Distinct-Identity",
+    "Unit-Approval-Committee-for-EOUs",
+    "Approval-of-EHTP-STP-BTP-Units",
+    "Powers-of-DC-Designated-Officer",
+    "Change-of-Location-Inclusion-of-Additional-Location-with-BOA",
+    "Clearance-of-Capital-Goods-in-DTA",
+    "Depreciation-Norms",
+    "Conversion",
+    "Fast-Track-Clearance-Procedure",
+    "Time-Bound-Disposal-of-Applications",
+    "Formats-of-various-letters-permissions-to-EOUs"
+  ],
+  "sections": [
+    {
+      "section": "6.00",
+      "title": "Scheme",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.00",
+          "purpose": "Retrieve knowledge payload for section 6.00",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Scheme/validate",
+          "purpose": "Validate inputs and documents for Scheme",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.01",
+      "title": "Application / Approval / Renewal of approval",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.01",
+          "purpose": "Retrieve knowledge payload for section 6.01",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-Approval-Renewal-of-approval/validate",
+          "purpose": "Validate inputs and documents for Application / Approval / Renewal of approval",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-Approval-Renewal-of-approval/execute",
+          "purpose": "Trigger business action for 6.01 Application / Approval / Renewal of approval\n(a) For setting up an EOU, three copies of application as in ANF 6A of\nAppendices &ANFs may be submitted to DC.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.02",
+      "title": "Legal Undertaking (LUT)",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.02",
+          "purpose": "Retrieve knowledge payload for section 6.02",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Legal-Undertaking-LUT/validate",
+          "purpose": "Validate inputs and documents for Legal Undertaking (LUT)",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Legal-Undertaking-LUT/execute",
+          "purpose": "Trigger business action for 6.02 Legal Undertaking (LUT)\n(a) Approved EOU / EHTP / STP / BTP unit shall execute an LUT with\nDC / Designated Officer concerned as in Appendix 6E of Appendices\n& ANFs.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.03",
+      "title": "Export of Goods and Services",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.03",
+          "purpose": "Retrieve knowledge payload for section 6.03",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-of-Goods-and-Services/validate",
+          "purpose": "Validate inputs and documents for Export of Goods and Services",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-of-Goods-and-Services/execute",
+          "purpose": "Trigger business action for (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.04",
+      "title": "Import / Domestic Procurement of Goods",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.04",
+          "purpose": "Retrieve knowledge payload for section 6.04",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Import-Domestic-Procurement-of-Goods/validate",
+          "purpose": "Validate inputs and documents for Import / Domestic Procurement of Goods",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Import-Domestic-Procurement-of-Goods/execute",
+          "purpose": "Trigger business action for 137\ngoods to DTA against valid Gems & Jewellery REP as applicable on\npayment of appropriate duty is also permitted.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.05",
+      "title": "Repair / Remaking of Jewellery",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.05",
+          "purpose": "Retrieve knowledge payload for section 6.05",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Repair-Remaking-of-Jewellery/validate",
+          "purpose": "Validate inputs and documents for Repair / Remaking of Jewellery",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.06",
+      "title": "Conditions of Import",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.06",
+          "purpose": "Retrieve knowledge payload for section 6.06",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conditions-of-Import/validate",
+          "purpose": "Validate inputs and documents for Conditions of Import",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conditions-of-Import/execute",
+          "purpose": "Trigger business action for (d) Goods already imported / shipped / arrived before issue of Lo P /\nLo I are also eligible for clearance as provided under para 6.01 (d)\npg.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.07",
+      "title": "Taking out of Fax Machines / Laptop / Computers outside",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.07",
+          "purpose": "Retrieve knowledge payload for section 6.07",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Taking-out-of-Fax-Machines-Laptop-Computers-outside/validate",
+          "purpose": "Validate inputs and documents for Taking out of Fax Machines / Laptop / Computers outside",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Taking-out-of-Fax-Machines-Laptop-Computers-outside/execute",
+          "purpose": "Trigger business action for 6.07 Taking out of Fax Machines / Laptop / Computers outside\napproved premises\n(a) EOU / EHTP / STP / BTP units may install one fax machine at a\nplace of its choice, outside premises of unit, subject to intimation of\nits location to concerned Customs authorities.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.08",
+      "title": "Facility of working from a place outside the unit",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.08",
+          "purpose": "Retrieve knowledge payload for section 6.08",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Facility-of-working-from-a-place-outside-the-unit/validate",
+          "purpose": "Validate inputs and documents for Facility of working from a place outside the unit",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.09",
+      "title": "Leasing of Capital Goods",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.09",
+          "purpose": "Retrieve knowledge payload for section 6.09",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Leasing-of-Capital-Goods/validate",
+          "purpose": "Validate inputs and documents for Leasing of Capital Goods",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Leasing-of-Capital-Goods/execute",
+          "purpose": "Trigger business action for 6.09 Leasing of Capital Goods\nValue of imported capital goods financed through leasing companies or obtained\nfree of cost and / or on loan / lease basis, shall also be taken into account for\npurpose of calculation of NFE as defined in FTP.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.10",
+      "title": "Net Foreign Exchange (NFE) Earnings",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.10",
+          "purpose": "Retrieve knowledge payload for section 6.10",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Net-Foreign-Exchange-NFE-Earnings/validate",
+          "purpose": "Validate inputs and documents for Net Foreign Exchange (NFE) Earnings",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Net-Foreign-Exchange-NFE-Earnings/execute",
+          "purpose": "Trigger business action for Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.11",
+      "title": "Maintenance of Accounts",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.11",
+          "purpose": "Retrieve knowledge payload for section 6.11",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-Accounts/validate",
+          "purpose": "Validate inputs and documents for Maintenance of Accounts",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Maintenance-of-Accounts/execute",
+          "purpose": "Trigger business action for 6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.12",
+      "title": "Monitoring of NFE",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.12",
+          "purpose": "Retrieve knowledge payload for section 6.12",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Monitoring-of-NFE/validate",
+          "purpose": "Validate inputs and documents for Monitoring of NFE",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.13",
+      "title": "Conversion of Scrap / Dust / sweeping of Gold / Silver /",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.13",
+          "purpose": "Retrieve knowledge payload for section 6.13",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conversion-of-Scrap-Dust-sweeping-of-Gold-Silver/validate",
+          "purpose": "Validate inputs and documents for Conversion of Scrap / Dust / sweeping of Gold / Silver /",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conversion-of-Scrap-Dust-sweeping-of-Gold-Silver/execute",
+          "purpose": "Trigger business action for 6.13 Conversion of Scrap / Dust / sweeping of Gold / Silver /\nPlatinum into Standard Bars\nScrap / dust / sweeping of gold / silver / platinum may be sent to Government\nof India Mint / private mint from EOU / EHTP / STP units and returned to them\nin standard bars in accordance with procedure prescribed by Customs\nauthorities, or may be permitted to be sold in DTA on payment of applicable GST\nand compensation cess alongwith reversal of duties of Customs leviable under\nFirst Schedule of the Customs Tariff Act, 1975 availed as exemption on inputs,\non basis of gold / silver / platinum content, as may be notified by Customs\nauthorities.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.14",
+      "title": "DTA Supplies",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.14",
+          "purpose": "Retrieve knowledge payload for section 6.14",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/DTA-Supplies/validate",
+          "purpose": "Validate inputs and documents for DTA Supplies",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.15",
+      "title": "Supplies to other EOU / EHTP / STP / SEZ / BTP Units",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.15",
+          "purpose": "Retrieve knowledge payload for section 6.15",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Supplies-to-other-EOU-EHTP-STP-SEZ-BTP-Units/validate",
+          "purpose": "Validate inputs and documents for Supplies to other EOU / EHTP / STP / SEZ / BTP Units",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.16",
+      "title": "Transfer of Power from one Unit to another",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.16",
+          "purpose": "Retrieve knowledge payload for section 6.16",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Transfer-of-Power-from-one-Unit-to-another/validate",
+          "purpose": "Validate inputs and documents for Transfer of Power from one Unit to another",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.17",
+      "title": "Supply of Precious / Semi-precious / Synthetic Stones from DTA",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.17",
+          "purpose": "Retrieve knowledge payload for section 6.17",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Supply-of-Precious-Semi-precious-Synthetic-Stones-from-DTA/validate",
+          "purpose": "Validate inputs and documents for Supply of Precious / Semi-precious / Synthetic Stones from DTA",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.18",
+      "title": "Application for grant of entitlements",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.18",
+          "purpose": "Retrieve knowledge payload for section 6.18",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-for-grant-of-entitlements/validate",
+          "purpose": "Validate inputs and documents for Application for grant of entitlements",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.19",
+      "title": "Export through Other Exporters",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.19",
+          "purpose": "Retrieve knowledge payload for section 6.19",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-through-Other-Exporters/validate",
+          "purpose": "Validate inputs and documents for Export through Other Exporters",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.20",
+      "title": "Other Entitlements",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.20",
+          "purpose": "Retrieve knowledge payload for section 6.20",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Other-Entitlements/validate",
+          "purpose": "Validate inputs and documents for Other Entitlements",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Other-Entitlements/execute",
+          "purpose": "Trigger business action for b) Sectoral norms as notified by Government shall apply to FDI in\nservice activities.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.22",
+      "title": "Contract Farming",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.22",
+          "purpose": "Retrieve knowledge payload for section 6.22",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Contract-Farming/validate",
+          "purpose": "Validate inputs and documents for Contract Farming",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Contract-Farming/execute",
+          "purpose": "Trigger business action for 6.22 Contract Farming\nEOUs engaged in production / processing of agriculture / horticulture /\naquaculture products may, on basis of annual permission from Customs\nauthorities, take out inputs and equipments (specified in Appendix 6I of\nAppendices & ANFs) to DTA farm subject to following conditions:\na) Supply of inputs by EOUs to contract farm(s) shall be subject to\ninput-output norms approved by DGFT / BOA.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.23",
+      "title": "Exports through Exhibitions / Export Promotion Tour",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.23",
+          "purpose": "Retrieve knowledge payload for section 6.23",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Exports-through-Exhibitions-Export-Promotion-Tour/validate",
+          "purpose": "Validate inputs and documents for Exports through Exhibitions / Export Promotion Tour",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Exports-through-Exhibitions-Export-Promotion-Tour/execute",
+          "purpose": "Trigger business action for For gems and jewellery\nitems, a self-certified photograph of products shall also be\nsubmitted.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.24",
+      "title": "Personal Carriage of Gems and Jewellery as samples for Export",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.24",
+          "purpose": "Retrieve knowledge payload for section 6.24",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Personal-Carriage-of-Gems-and-Jewellery-as-samples-for-Export/validate",
+          "purpose": "Validate inputs and documents for Personal Carriage of Gems and Jewellery as samples for Export",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Personal-Carriage-of-Gems-and-Jewellery-as-samples-for-Export/execute",
+          "purpose": "Trigger business action for b) Unit shall declare personal carriage of such samples to Customs\nwhile leaving country and obtain necessary endorsement.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.25",
+      "title": "Export through Show-rooms abroad / Duty free shops",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.25",
+          "purpose": "Retrieve knowledge payload for section 6.25",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Export-through-Show-rooms-abroad-Duty-free-shops/validate",
+          "purpose": "Validate inputs and documents for Export through Show-rooms abroad / Duty free shops",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.26",
+      "title": "Sale through Showrooms / Retail outlets at International",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.26",
+          "purpose": "Retrieve knowledge payload for section 6.26",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Sale-through-Showrooms-Retail-outlets-at-International/validate",
+          "purpose": "Validate inputs and documents for Sale through Showrooms / Retail outlets at International",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.27",
+      "title": "Personal Carriage of Import / Export Parcels including",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.27",
+          "purpose": "Retrieve knowledge payload for section 6.27",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Personal-Carriage-of-Import-Export-Parcels-including/validate",
+          "purpose": "Validate inputs and documents for Personal Carriage of Import / Export Parcels including",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Personal-Carriage-of-Import-Export-Parcels-including/execute",
+          "purpose": "Trigger business action for 6.27 Personal Carriage of Import / Export Parcels including\nthrough Foreign Bound Passengers\na) For Personal carriage of jewellery by foreign bound passenger,\nfollowing documents shall be submitted by EOUs as proof of\nexports:\ni.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.28",
+      "title": "Replacement / Repair of Imported / Indigenous Goods",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.28",
+          "purpose": "Retrieve knowledge payload for section 6.28",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Replacement-Repair-of-Imported-Indigenous-Goods/validate",
+          "purpose": "Validate inputs and documents for Replacement / Repair of Imported / Indigenous Goods",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Replacement-Repair-of-Imported-Indigenous-Goods/execute",
+          "purpose": "Trigger business action for Any foreign exchange payment for this\npurpose will also be allowed.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.29",
+      "title": "Samples",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.29",
+          "purpose": "Retrieve knowledge payload for section 6.29",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Samples/validate",
+          "purpose": "Validate inputs and documents for Samples",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Samples/execute",
+          "purpose": "Trigger business action for 6.29 Samples\na) EOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.30",
+      "title": "Donation of Computer and Computer Peripherals",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.30",
+          "purpose": "Retrieve knowledge payload for section 6.30",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Donation-of-Computer-and-Computer-Peripherals/validate",
+          "purpose": "Validate inputs and documents for Donation of Computer and Computer Peripherals",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Donation-of-Computer-and-Computer-Peripherals/execute",
+          "purpose": "Trigger business action for 6.30 Donation of Computer and Computer Peripherals\nEOU / EHTP / STP / BTP unit may be allowed by Customs authorities concerned\nto donate imported / indigenously procured (bought or taken on loan) computer\nand computer peripherals, including printer, plotter, scanner, monitor,\nkeyboard and storage units without payment of duty other than applicable taxes\nunder GST Law, two years after their import / procurement and use by units, to\na school run by Central Government, or Government of a State, or a Union\nTerritory, or a local body; an Educational Institution run on non-commercial\nbasis by any organization; a Registered Charitable Hospital; a Public Library; a\nPublic Funded Research and Development Establishment; a Community\nInformation Center run by Central Government or, Government of a State or, a\nUnion Territory or local body; an Adult Education Center run by Central\nGovernment or, Government of a State or, a Union Territory or a local body or,\nan organization of Central Government or, a Government of a State or, a Union\nTerritory as per Customs / Central Excise notification.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.31",
+      "title": "Distinct Identity",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.31",
+          "purpose": "Retrieve knowledge payload for section 6.31",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Distinct-Identity/validate",
+          "purpose": "Validate inputs and documents for Distinct Identity",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.32",
+      "title": "Unit Approval Committee for EOUs",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.32",
+          "purpose": "Retrieve knowledge payload for section 6.32",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Unit-Approval-Committee-for-EOUs/validate",
+          "purpose": "Validate inputs and documents for Unit Approval Committee for EOUs",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Unit-Approval-Committee-for-EOUs/execute",
+          "purpose": "Trigger business action for 149\nunit may re-import with or without payment of duties/taxes as\nprovided at para 6.01(d)(ii) of FTP those samples, which were\nexported by it, under intimation to Custom Authorities, and FOB\nvalue of such samples shall not be counted for NFE purpose and\nother export benefits, if any.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.33",
+      "title": "Approval of EHTP / STP / BTP Units",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.33",
+          "purpose": "Retrieve knowledge payload for section 6.33",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Approval-of-EHTP-STP-BTP-Units/validate",
+          "purpose": "Validate inputs and documents for Approval of EHTP / STP / BTP Units",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Approval-of-EHTP-STP-BTP-Units/execute",
+          "purpose": "Trigger business action for Designated officer\nshall also exercise powers of adjudication under Section 13 read with Section 11\nof FT(D&R) Act, 1992, as amended, in respect of STP / EHTP as mentioned in\nGazette Notification No.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.34",
+      "title": "Powers of DC / Designated Officer",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.34",
+          "purpose": "Retrieve knowledge payload for section 6.34",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Powers-of-DC-Designated-Officer/validate",
+          "purpose": "Validate inputs and documents for Powers of DC / Designated Officer",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Powers-of-DC-Designated-Officer/execute",
+          "purpose": "Trigger business action for (M.A Series) Circular AP (DIR series Circular No.9 dated\n25.10.2001);\nm) Issue eligibility certificates for grant of employment visa to low\nlevel foreign technicians to be engaged by EOUs as per Ministry of\nHome Affairs letter No.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.35",
+      "title": "Change of Location / Inclusion of Additional Location with BOA",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.35",
+          "purpose": "Retrieve knowledge payload for section 6.35",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Change-of-Location-Inclusion-of-Additional-Location-with-BOA/validate",
+          "purpose": "Validate inputs and documents for Change of Location / Inclusion of Additional Location with BOA",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.36",
+      "title": "Clearance of Capital Goods in DTA",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.36",
+          "purpose": "Retrieve knowledge payload for section 6.36",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Clearance-of-Capital-Goods-in-DTA/validate",
+          "purpose": "Validate inputs and documents for Clearance of Capital Goods in DTA",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Clearance-of-Capital-Goods-in-DTA/execute",
+          "purpose": "Trigger business action for (M.A Series) Circular AP (DIR series Circular No.9 dated\n25.10.2001);\nm)\nIssue eligibility certificates for grant of employment visa to low\nlevel foreign technicians to be engaged by EOUs as per Ministry of\nHome Affairs letter No.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.37",
+      "title": "Depreciation Norms",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.37",
+          "purpose": "Retrieve knowledge payload for section 6.37",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Depreciation-Norms/validate",
+          "purpose": "Validate inputs and documents for Depreciation Norms",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.38",
+      "title": "Conversion",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.38",
+          "purpose": "Retrieve knowledge payload for section 6.38",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conversion/validate",
+          "purpose": "Validate inputs and documents for Conversion",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Conversion/execute",
+          "purpose": "Trigger business action for 6.38 Conversion\na) Existing DTA units, may also apply for conversion into an EOU\n/EHTP / STP / BTP unit, but no concession in duties and taxes\nwould be available under scheme for plant, machinery and\nequipment already installed.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.39",
+      "title": "Fast Track Clearance Procedure",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.39",
+          "purpose": "Retrieve knowledge payload for section 6.39",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Fast-Track-Clearance-Procedure/validate",
+          "purpose": "Validate inputs and documents for Fast Track Clearance Procedure",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Fast-Track-Clearance-Procedure/execute",
+          "purpose": "Trigger business action for c) Installation of Computers: Eligible EOUs may install two computers\nin their administrative / registered office outside premises of the\nunit under prior intimation to jurisdictional Asstt.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.40",
+      "title": "Time Bound Disposal of Applications",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.40",
+          "purpose": "Retrieve knowledge payload for section 6.40",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Time-Bound-Disposal-of-Applications/validate",
+          "purpose": "Validate inputs and documents for Time Bound Disposal of Applications",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Time-Bound-Disposal-of-Applications/execute",
+          "purpose": "Trigger business action for for disposal\n(days)\n1 Issue of Lo P / Lo I 15\n2 Conversion of Lo P / Lo I 15\n3 Acceptance of LUT 3\n4 Renewal of LUT 3\n5 Permission for broad banding / Diversification 3\n6 Permission for change in locations 7\n7 Permission for Advance DTA sale 2\n8 Permission for merger of units 7\n9 Permission for enhancement of production capacity 3\n10 Cancellation of Lo P 3\n11 Permission for debonding / exit 7\n12 Permission for DTA sale 2\n13 Eligibility certificate for employment visa for lower 2\nlevel technicians\n14 Issue of Green Card 2\n15 Renewal of Green Card Same\nDay\n16 Permission to lease CG 1\n17 Permission for disposal of scrap / waste 2\n18 Permission for change in name 2\n19 Inter Unit Transfer 2\n20 Wastage Norms, ad-hoc 2\n21 Permission for re-import Same\nday\n22 Permission for re-export Same\nday\n23 Permission for replacement / repair of goods Same\nday\n24 Authorisation of softex form 1\n25 Reimbursement of CST claims 7\n26 Issue of GSP Certificate Same\nday\npg.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6.41",
+      "title": "Formats of various letters/permissions to EOUs",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6.41",
+          "purpose": "Retrieve knowledge payload for section 6.41",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Formats-of-various-letters-permissions-to-EOUs/validate",
+          "purpose": "Validate inputs and documents for Formats of various letters/permissions to EOUs",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Formats-of-various-letters-permissions-to-EOUs/execute",
+          "purpose": "Trigger business action for The Development Commissioners may modify the format or include any additional\nconditions in such letters/permissions as deemed fit, in accordance with the\nprovisions of the Foreign Trade Policy (FTP) and Handbook of Procedures (HBP).",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    }
+  ]
+}

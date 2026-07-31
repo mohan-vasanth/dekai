@@ -1,0 +1,38 @@
+{
+  "section": "1.06",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/1.06",
+      "purpose": "Retrieve knowledge payload for section 1.06",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Conversion-of-Currencies-in-e-BRCs/validate",
+      "purpose": "Validate inputs and documents for Conversion of Currencies in e-BRCs",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

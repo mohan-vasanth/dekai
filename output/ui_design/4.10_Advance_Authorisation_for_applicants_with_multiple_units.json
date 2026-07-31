@@ -1,0 +1,47 @@
+{
+  "section": "4.10",
+  "ui": [
+    {
+      "screen_id": "Advance_Authorisation_for_applicants_with_multiple_units_overview",
+      "name": "Advance Authorisation for applicants with multiple units Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Advance_Authorisation_for_applicants_with_multiple_units_submission",
+      "name": "Advance Authorisation for applicants with multiple units Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "any_flag",
+        "one_flag",
+        "gst_flag",
+        "has_flag",
+        "the_flag"
+      ]
+    },
+    {
+      "screen_id": "Advance_Authorisation_for_applicants_with_multiple_units_exceptions",
+      "name": "Advance Authorisation for applicants with multiple units Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

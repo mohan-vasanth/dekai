@@ -1,0 +1,47 @@
+{
+  "section": "4.87",
+  "ui": [
+    {
+      "screen_id": "Personal_Carriage_of_Gems_Jewellery_Export_Parcels_overview",
+      "name": "Personal Carriage of Gems & Jewellery Export Parcels Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Personal_Carriage_of_Gems_Jewellery_Export_Parcels_submission",
+      "name": "Personal Carriage of Gems & Jewellery Export Parcels Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "all_flag",
+        "and_flag",
+        "dta_flag",
+        "for_flag",
+        "hbp_flag",
+        "are_flag"
+      ]
+    },
+    {
+      "screen_id": "Personal_Carriage_of_Gems_Jewellery_Export_Parcels_exceptions",
+      "name": "Personal Carriage of Gems & Jewellery Export Parcels Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

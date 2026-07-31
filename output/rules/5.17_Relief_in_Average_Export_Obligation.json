@@ -1,0 +1,32 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.17",
+  "title": "Relief in Average Export Obligation",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_17-R001",
+      "rule_description": "(b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+      "trigger": "Relief in Average Export Obligation",
+      "condition": "5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.",
+      "validation": "(b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+      "action": "Manual review required.",
+      "exception": "However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.",
+      "output": "DEKAI should produce a compliance decision for 5.17 - Relief in Average Export Obligation."
+    },
+    {
+      "rule_id": "CH5-SEC5_17-R002",
+      "rule_description": "(b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+      "trigger": "Relief in Average Export Obligation",
+      "condition": "However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.",
+      "validation": "(b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+      "action": "Manual review required.",
+      "exception": "However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.",
+      "output": "DEKAI should produce a compliance decision for 5.17 - Relief in Average Export Obligation."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+    "IF detected context matches section rule THEN enforce: (b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group."
+  ]
+}

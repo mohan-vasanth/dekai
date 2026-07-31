@@ -1,0 +1,37 @@
+{
+  "section": "2.26",
+  "ui": [
+    {
+      "screen_id": "Mechanism_for_issuing_duplicates_overview",
+      "name": "Mechanism for issuing duplicates Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Mechanism_for_issuing_duplicates_submission",
+      "name": "Mechanism for issuing duplicates Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "such_flag",
+        "from_flag",
+        "port_flag",
+        "shall_flag",
+        "obtain_flag"
+      ]
+    }
+  ]
+}

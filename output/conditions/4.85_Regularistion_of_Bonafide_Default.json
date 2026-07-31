@@ -1,0 +1,21 @@
+{
+  "section": "4.85",
+  "conditions": [
+    "4.85 Regularistion of Bonafide Default\nCases of bonafide default in fulfillment of Export Obligation by an exporter who\nhas obtained precious metals from nominated agencies may be regularised\nprovided exporter has paid customs duty along-with interest thereon as\nnotified by Do R.",
+    "In case of Advance Authorisation, the provisions as\ngiven in paragraph 4.49 above shall apply."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.85.1",
+      "if": "4.85 Regularistion of Bonafide Default\nCases of bonafide default in fulfillment of Export Obligation by an exporter who\nhas obtained precious metals from nominated agencies may be regularised\nprovided exporter has paid customs duty along-with interest thereon as\nnotified by Do R.",
+      "then": "4.85 Regularistion of Bonafide Default\nCases of bonafide default in fulfillment of Export Obligation by an exporter who\nhas obtained precious metals from nominated agencies may be regularised\nprovided exporter has paid customs duty along-with interest thereon as\nnotified by Do R.",
+      "source": "4.85 Regularistion of Bonafide Default\nCases of bonafide default in fulfillment of Export Obligation by an exporter who\nhas obtained precious metals from nominated agencies may be regularised\nprovided exporter has paid customs duty along-with interest thereon as\nnotified by Do R."
+    },
+    {
+      "id": "4.4.85.2",
+      "if": "In case of Advance Authorisation, the provisions as\ngiven in paragraph 4.49 above shall apply.",
+      "then": "4.85 Regularistion of Bonafide Default\nCases of bonafide default in fulfillment of Export Obligation by an exporter who\nhas obtained precious metals from nominated agencies may be regularised\nprovided exporter has paid customs duty along-with interest thereon as\nnotified by Do R.",
+      "source": "In case of Advance Authorisation, the provisions as\ngiven in paragraph 4.49 above shall apply."
+    }
+  ]
+}

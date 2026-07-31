@@ -1,0 +1,309 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.12",
+  "title": "Calculation of Average Export Obligation",
+  "purpose": "5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.",
+  "purpose_thanglish": "Indha Calculation of Average Export Obligation section-la, 5.12 Calculation of Average export Obligation\nWhile calculating Average export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.",
+  "summary": "5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.",
+  "business_meaning": "5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.",
+  "business_explanation": "5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.",
+  "business_explanation_thanglish": "Indha Calculation of Average Export Obligation section-la, 5.12 Calculation of Average export Obligation\nWhile calculating Average export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_12-R001",
+      "rule_description": "5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.",
+      "trigger": "Calculation of Average Export Obligation",
+      "condition": "5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.12 - Calculation of Average Export Obligation."
+    }
+  ],
+  "conditions": [
+    "5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account."
+  ],
+  "condition_logic": [
+    {
+      "id": "5.5.12.1",
+      "if": "5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.",
+      "then": "Route for review",
+      "source": "5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account."
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [],
+  "timelines": [
+    "5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account."
+  ],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: 5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account."
+  ],
+  "workflow_ascii": "Calculation of Average Export Obligation\nEvaluate condition: 5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.",
+  "decision_tree": [
+    "IF section 5.12 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Calculation of Average Export Obligation Decision\nIF section 5.12 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Calculation of Average Export Obligation; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Calculation of Average Export Obligation, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the calculation of average export obligation process.",
+  "real_world_example_thanglish": "Indha Calculation of Average Export Obligation section-la, Example: an importer or exporter invokes Calculation of Average export Obligation, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the calculation of average export obligation process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "epcg_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:EPCG"
+    },
+    {
+      "name": "that_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:that"
+    },
+    {
+      "name": "have_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:have"
+    },
+    {
+      "name": "been_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:been"
+    },
+    {
+      "name": "made_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:made"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5.12",
+      "purpose": "Retrieve knowledge payload for section 5.12",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Calculation-of-Average-Export-Obligation/validate",
+      "purpose": "Validate inputs and documents for Calculation of Average Export Obligation",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Calculation_of_Average_Export_Obligation_overview",
+      "name": "Calculation of Average Export Obligation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Calculation_of_Average_Export_Obligation_submission",
+      "name": "Calculation of Average Export Obligation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "not_flag",
+        "epcg_flag",
+        "that_flag",
+        "have_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Calculation of Average Export Obligation require?",
+    "Which documents are needed for Calculation of Average Export Obligation?",
+    "How does DEKAI validate Calculation of Average Export Obligation requests?"
+  ],
+  "expected_ai_answers": [
+    "Calculation of Average Export Obligation requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Calculation of Average Export Obligation by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 5.12?",
+      "answer_en": "5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.",
+      "question_thanglish": "Indha Calculation of Average Export Obligation section-la, What is the purpose of section 5.12?",
+      "answer_thanglish": "Indha Calculation of Average Export Obligation section-la, 5.12 Calculation of Average export Obligation\nWhile calculating Average export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account."
+    },
+    {
+      "question_en": "What documents are required under Calculation of Average Export Obligation?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Calculation of Average Export Obligation section-la, What documents are required under Calculation of Average export Obligation?",
+      "answer_thanglish": "Indha Calculation of Average Export Obligation section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Calculation of Average Export Obligation?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Calculation of Average Export Obligation section-la, Which authority handles Calculation of Average export Obligation?",
+      "answer_thanglish": "Indha Calculation of Average Export Obligation section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Calculation of Average Export Obligation?",
+      "answer_en": "AI answers: DEKAI should evaluate section 5.12, apply the extracted rules, and guide the user through Evaluate condition: 5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account..",
+      "question_thanglish": "Indha Calculation of Average Export Obligation section-la, User asks: How do I comply with Calculation of Average export Obligation?",
+      "answer_thanglish": "Indha Calculation of Average Export Obligation section-la, AI answers: DEKAI should evaluate section 5.12, apply the extracted rules, and guide the user through Evaluate condition: 5.12 Calculation of Average export Obligation\nWhile calculating Average export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Calculation of Average Export Obligation?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Calculation of Average Export Obligation section-la, User asks: Which validations apply to Calculation of Average export Obligation?",
+      "answer_thanglish": "Indha Calculation of Average Export Obligation section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 5, section 5.12, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Calculation of Average Export Obligation into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Calculation of Average Export Obligation section-la, Capture chapter 5, section 5.12, title, and page references as immutable knowledge metadata.",
+    "Indha Calculation of Average Export Obligation section-la, Bind validations for Calculation of Average export Obligation into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "for",
+    "the",
+    "not",
+    "EPCG",
+    "that",
+    "have",
+    "been",
+    "made",
+    "will",
+    "into",
+    "While",
+    "valid",
+    "years",
+    "taken",
+    "Export",
+    "within",
+    "Period",
+    "Average",
+    "exports",
+    "counted"
+  ],
+  "search_keywords": [
+    "for",
+    "the",
+    "not",
+    "EPCG",
+    "that",
+    "have",
+    "been",
+    "made",
+    "will",
+    "into",
+    "While",
+    "valid",
+    "years",
+    "taken",
+    "Export",
+    "within",
+    "Period",
+    "Average",
+    "exports",
+    "counted"
+  ],
+  "intent": "Provide knowledge guidance for Calculation of Average Export Obligation.",
+  "tags": [
+    "5.12",
+    "Calculation of Average Export Obligation",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    7
+  ],
+  "pages": [
+    7
+  ],
+  "source_document": "HBP2023_Chapter05.pdf",
+  "raw_text": "5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.\"]",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 5.12 Calculation of Average Export Obligation\nWhile calculating Average Export Obligation, exports counted/being counted for\nfulfilling specific EO against EPCG Authorisations within valid EO Period (whether\noriginal or extended) that have been made in the preceding 3 years will not be\ntaken into account.;\nstop\n@enduml"
+}

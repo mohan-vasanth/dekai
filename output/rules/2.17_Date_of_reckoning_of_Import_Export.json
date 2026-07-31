@@ -1,0 +1,21 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.17",
+  "title": "Date of reckoning of Import / Export",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_17-R001",
+      "rule_description": "However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export.",
+      "trigger": "Date of reckoning of Import / Export",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export.",
+      "action": "Manual review required.",
+      "exception": "However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export.",
+      "output": "DEKAI should produce a compliance decision for 2.17 - Date of reckoning of Import / Export."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export."
+  ]
+}

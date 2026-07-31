@@ -1,0 +1,65 @@
+{
+  "section": "4.47",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.47",
+      "purpose": "Retrieve knowledge payload for section 4.47",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Redemption-No-Bond-Certificate/validate",
+      "purpose": "Validate inputs and documents for Redemption/No Bond Certificate",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Redemption-No-Bond-Certificate/execute",
+      "purpose": "Trigger business action for 4.47 Redemption/No Bond Certificate\n(a) Bond Waiver:\nIn case Authorisation holder exports first (before effecting imports) by using\nimported inputs/indigenously procured inputs, in that case the\nAuthorisation holder can seek waiver of Bond condition by submitting\nevidence of export made and payment realised to that extent.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

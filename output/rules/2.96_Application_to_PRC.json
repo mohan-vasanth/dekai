@@ -1,0 +1,55 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.96",
+  "title": "Application to PRC",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_96-R001",
+      "rule_description": "Similarly,\nunder Para 2.60 of FTP, application for review of decision of any committee or a\ndecision/order by any subordinate Authority in the Directorate General of\nForeign Trade is required to be submitted online in ANF-2E.",
+      "trigger": "Application to PRC",
+      "condition": "The Additional/Joint DGFT (PRC) shall act as Member Secretary; and\nthe Committee can Co-opt member/s with specific expertise/experience as and\nwhen required.",
+      "validation": "Similarly,\nunder Para 2.60 of FTP, application for review of decision of any committee or a\ndecision/order by any subordinate Authority in the Directorate General of\nForeign Trade is required to be submitted online in ANF-2E.",
+      "action": "Similarly,\nunder Para 2.60 of FTP, application for review of decision of any committee or a\ndecision/order by any subordinate Authority in the Directorate General of\nForeign Trade is required to be submitted online in ANF-2E.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.96 - Application to PRC."
+    },
+    {
+      "rule_id": "CH2-SEC2_96-R002",
+      "rule_description": "(b) Director General of Foreign Trade shall be the Chairman of PRC with all\nAdditional DGFTs, all Joint DGFTs in charge of Policy Divisions in Hqrs as\nmembers.",
+      "trigger": "Application to PRC",
+      "condition": "The Additional/Joint DGFT (PRC) shall act as Member Secretary; and\nthe Committee can Co-opt member/s with specific expertise/experience as and\nwhen required.",
+      "validation": "(b) Director General of Foreign Trade shall be the Chairman of PRC with all\nAdditional DGFTs, all Joint DGFTs in charge of Policy Divisions in Hqrs as\nmembers.",
+      "action": "Similarly,\nunder Para 2.60 of FTP, application for review of decision of any committee or a\ndecision/order by any subordinate Authority in the Directorate General of\nForeign Trade is required to be submitted online in ANF-2E.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.96 - Application to PRC."
+    },
+    {
+      "rule_id": "CH2-SEC2_96-R003",
+      "rule_description": "The Additional/Joint DGFT (PRC) shall act as Member Secretary; and\nthe Committee can Co-opt member/s with specific expertise/experience as and\nwhen required.",
+      "trigger": "Application to PRC",
+      "condition": "The Additional/Joint DGFT (PRC) shall act as Member Secretary; and\nthe Committee can Co-opt member/s with specific expertise/experience as and\nwhen required.",
+      "validation": "The Additional/Joint DGFT (PRC) shall act as Member Secretary; and\nthe Committee can Co-opt member/s with specific expertise/experience as and\nwhen required.",
+      "action": "Similarly,\nunder Para 2.60 of FTP, application for review of decision of any committee or a\ndecision/order by any subordinate Authority in the Directorate General of\nForeign Trade is required to be submitted online in ANF-2E.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.96 - Application to PRC."
+    },
+    {
+      "rule_id": "CH2-SEC2_96-R004",
+      "rule_description": "(b)\nDirector General of Foreign Trade shall be the Chairman of PRC with all\nAdditional DGFTs, all Joint DGFTs in charge of Policy Divisions in Hqrs as\nmembers.",
+      "trigger": "Application to PRC",
+      "condition": "The Additional/Joint DGFT (PRC) shall act as Member Secretary; and\nthe Committee can Co-opt member/s with specific expertise/experience as and\nwhen required.",
+      "validation": "(b)\nDirector General of Foreign Trade shall be the Chairman of PRC with all\nAdditional DGFTs, all Joint DGFTs in charge of Policy Divisions in Hqrs as\nmembers.",
+      "action": "Similarly,\nunder Para 2.60 of FTP, application for review of decision of any committee or a\ndecision/order by any subordinate Authority in the Directorate General of\nForeign Trade is required to be submitted online in ANF-2E.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.96 - Application to PRC."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Similarly,\nunder Para 2.60 of FTP, application for review of decision of any committee or a\ndecision/order by any subordinate Authority in the Directorate General of\nForeign Trade is required to be submitted online in ANF-2E.",
+    "IF detected context matches section rule THEN enforce: (b) Director General of Foreign Trade shall be the Chairman of PRC with all\nAdditional DGFTs, all Joint DGFTs in charge of Policy Divisions in Hqrs as\nmembers.",
+    "IF detected context matches section rule THEN enforce: The Additional/Joint DGFT (PRC) shall act as Member Secretary; and\nthe Committee can Co-opt member/s with specific expertise/experience as and\nwhen required.",
+    "IF detected context matches section rule THEN enforce: (b)\nDirector General of Foreign Trade shall be the Chairman of PRC with all\nAdditional DGFTs, all Joint DGFTs in charge of Policy Divisions in Hqrs as\nmembers.",
+    "IF validations pass THEN recommend action: Similarly,\nunder Para 2.60 of FTP, application for review of decision of any committee or a\ndecision/order by any subordinate Authority in the Directorate General of\nForeign Trade is required to be submitted online in ANF-2E."
+  ]
+}

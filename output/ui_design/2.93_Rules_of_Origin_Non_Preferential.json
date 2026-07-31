@@ -1,0 +1,37 @@
+{
+  "section": "2.93",
+  "ui": [
+    {
+      "screen_id": "Rules_of_Origin_Non_Preferential_overview",
+      "name": "Rules of Origin (Non-Preferential) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Rules_of_Origin_Non_Preferential_submission",
+      "name": "Rules of Origin (Non-Preferential) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "are_flag",
+        "the_flag",
+        "per_flag",
+        "ftp_flag",
+        "and_flag",
+        "for_flag"
+      ]
+    }
+  ]
+}

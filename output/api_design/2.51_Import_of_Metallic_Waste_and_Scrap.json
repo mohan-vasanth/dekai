@@ -1,0 +1,65 @@
+{
+  "section": "2.51",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.51",
+      "purpose": "Retrieve knowledge payload for section 2.51",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-of-Metallic-Waste-and-Scrap/validate",
+      "purpose": "Validate inputs and documents for Import of Metallic Waste and Scrap",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-of-Metallic-Waste-and-Scrap/execute",
+      "purpose": "Trigger business action for 81042010 Magnesium scrap\n(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall\nbe permitted through all ports of India subject to following conditions:\n(i) At the time of the clearance of goods, importer shall furnish to the Customs\npre-shipment inspection certificate as per the format to Appendix 2H from\nany of the Inspection & Certification agencies given in Appendix-2G, to the\neffect that the consignment was checked for radiation level and scrap does\nnot contain radiation level (gamma and neutron) in excess of natural\nbackground.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

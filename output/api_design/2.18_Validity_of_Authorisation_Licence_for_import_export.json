@@ -1,0 +1,55 @@
+{
+  "section": "2.18",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.18",
+      "purpose": "Retrieve knowledge payload for section 2.18",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Validity-of-Authorisation-Licence-for-import-export/validate",
+      "purpose": "Validate inputs and documents for Validity of Authorisation/ Licence for import/export",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Validity-of-Authorisation-Licence-for-import-export/execute",
+      "purpose": "Trigger business action for The\naffected exports would only be accounted for EO fulfilment only if the authority\nconcerned approves the EO extension.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

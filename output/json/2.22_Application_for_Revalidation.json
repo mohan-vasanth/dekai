@@ -1,0 +1,331 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.22",
+  "title": "Application for Revalidation",
+  "purpose": "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.",
+  "purpose_thanglish": "Indha Application for Revalidation section-la, 2.22 application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.",
+  "summary": "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation. PROCEDURE FOR ISSUING DUPLICATE COPIES",
+  "business_meaning": "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.",
+  "business_explanation": "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation. PROCEDURE FOR ISSUING DUPLICATE COPIES",
+  "business_explanation_thanglish": "Indha Application for Revalidation section-la, 2.22 application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation. PROCEDURE FOR ISSUING DUPLICATE COPIES",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_22-R001",
+      "rule_description": "IF validations pass THEN recommend action: 2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.",
+      "trigger": "Application for Revalidation",
+      "condition": "Section 2.22 is applicable",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.22 - Application for Revalidation."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [
+    {
+      "id": "2.2.22.1",
+      "if": "Section 2.22 is applicable",
+      "then": "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.",
+      "source": "Derived from uploaded documents"
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [
+    "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation."
+  ],
+  "required_documents": [
+    "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation."
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [
+    "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation."
+  ],
+  "workflow": [
+    "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation."
+  ],
+  "workflow_ascii": "Application for Revalidation\n2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.",
+  "decision_tree": [
+    "IF section 2.22 applies THEN 2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation."
+  ],
+  "decision_tree_ascii": "Application for Revalidation Decision\nIF section 2.22 applies THEN 2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.",
+  "examples": [
+    "User asks to process Application for Revalidation; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Application for Revalidation, submits 2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation., and DEKAI uses the extracted rules to 2.22 application for revalidation\nan application for revalidation of authorisation may be made to the office which has\nissued the authorisation..",
+  "real_world_example_thanglish": "Indha Application for Revalidation section-la, Example: an importer or exporter invokes application for Revalidation, submits 2.22 application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation., and DEKAI uses the extracted rules to 2.22 application for revalidation\nan application for revalidation of authorisation may be made to the office which has\nissued the authorisation..",
+  "ai_rules": [
+    "IF validations pass THEN recommend action: 2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "has_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:has"
+    },
+    {
+      "name": "made_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:made"
+    },
+    {
+      "name": "which_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:which"
+    },
+    {
+      "name": "office_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:office"
+    },
+    {
+      "name": "issued_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:issued"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.22",
+      "purpose": "Retrieve knowledge payload for section 2.22",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Application-for-Revalidation/validate",
+      "purpose": "Validate inputs and documents for Application for Revalidation",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Application-for-Revalidation/execute",
+      "purpose": "Trigger business action for 2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Application_for_Revalidation_overview",
+      "name": "Application for Revalidation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Application_for_Revalidation_submission",
+      "name": "Application for Revalidation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "may_flag",
+        "the_flag",
+        "has_flag",
+        "made_flag",
+        "which_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Application for Revalidation require?",
+    "Which documents are needed for Application for Revalidation?",
+    "How does DEKAI validate Application for Revalidation requests?",
+    "What action should be taken for Application for Revalidation?"
+  ],
+  "expected_ai_answers": [
+    "Application for Revalidation requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: 2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.",
+    "DEKAI validates Application for Revalidation by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: 2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.22?",
+      "answer_en": "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation. PROCEDURE FOR ISSUING DUPLICATE COPIES",
+      "question_thanglish": "Indha Application for Revalidation section-la, What is the purpose of section 2.22?",
+      "answer_thanglish": "Indha Application for Revalidation section-la, 2.22 application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation. PROCEDURE FOR ISSUING DUPLICATE COPIES"
+    },
+    {
+      "question_en": "What documents are required under Application for Revalidation?",
+      "answer_en": "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.",
+      "question_thanglish": "Indha Application for Revalidation section-la, What documents are required under application for Revalidation?",
+      "answer_thanglish": "Indha Application for Revalidation section-la, 2.22 application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation."
+    },
+    {
+      "question_en": "Which authority handles Application for Revalidation?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Application for Revalidation section-la, Which authority handles application for Revalidation?",
+      "answer_thanglish": "Indha Application for Revalidation section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Application for Revalidation?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.22, apply the extracted rules, and guide the user through 2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation..",
+      "question_thanglish": "Indha Application for Revalidation section-la, User asks: How do I comply with application for Revalidation?",
+      "answer_thanglish": "Indha Application for Revalidation section-la, AI answers: DEKAI should evaluate section 2.22, apply the extracted rules, and guide the user through 2.22 application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Application for Revalidation?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Application for Revalidation section-la, User asks: Which validations apply to application for Revalidation?",
+      "answer_thanglish": "Indha Application for Revalidation section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.22, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Application for Revalidation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: 2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Application for Revalidation section-la, Capture chapter 2, section 2.22, title, and page references as immutable knowledge metadata.",
+    "Indha Application for Revalidation section-la, Bind validations for application for Revalidation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Application for Revalidation section-la, Expose document upload controls for: 2.22 application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.."
+  ],
+  "keywords": [
+    "for",
+    "may",
+    "the",
+    "has",
+    "made",
+    "which",
+    "office",
+    "issued",
+    "COPIES",
+    "ISSUING",
+    "PROCEDURE",
+    "DUPLICATE",
+    "Application",
+    "Revalidation",
+    "authorisation"
+  ],
+  "search_keywords": [
+    "for",
+    "may",
+    "the",
+    "has",
+    "made",
+    "which",
+    "office",
+    "issued",
+    "COPIES",
+    "ISSUING",
+    "PROCEDURE",
+    "DUPLICATE",
+    "Application",
+    "Revalidation",
+    "authorisation"
+  ],
+  "intent": "Support Application for Revalidation processing and compliance validation.",
+  "tags": [
+    "2.22",
+    "Application for Revalidation",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    9
+  ],
+  "pages": [
+    9
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.\nPROCEDURE FOR ISSUING DUPLICATE COPIES",
+  "mermaid": "flowchart TD\n    S1[\"2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.\"]",
+  "plantuml": "@startuml\nstart\n:2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.;\nstop\n@enduml"
+}

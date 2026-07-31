@@ -1,0 +1,362 @@
+{
+  "chapter_number": "1",
+  "chapter_title": "Legal Framework and Trade Facilitation",
+  "section": "1.12",
+  "title": "Appeal",
+  "purpose": "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.",
+  "purpose_thanglish": "Indha Appeal section-la, 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.",
+  "summary": "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days. Decision of DGFT shall be final\nand binding thereon. pg.",
+  "business_meaning": "Appeal governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Appeal explains the operating rule set that DEKAI should enforce. Key control points include Decision of DGFT shall be final\nand binding thereon.",
+  "business_explanation_thanglish": "Indha Appeal section-la, Appeal explains the operating rule set that DEKAI should enforce. Key control points include Decision of DGFT kandippa be final\nand binding thereon.",
+  "business_logic": [
+    "Decision of DGFT shall be final\nand binding thereon.",
+    "9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH1-SEC1_12-R001",
+      "rule_description": "Decision of DGFT shall be final\nand binding thereon.",
+      "trigger": "Appeal",
+      "condition": "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.",
+      "validation": "Decision of DGFT shall be final\nand binding thereon.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.12 - Appeal."
+    },
+    {
+      "rule_id": "CH1-SEC1_12-R002",
+      "rule_description": "9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+      "trigger": "Appeal",
+      "condition": "9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+      "validation": "9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.12 - Appeal."
+    }
+  ],
+  "conditions": [
+    "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.",
+    "9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph."
+  ],
+  "condition_logic": [
+    {
+      "id": "1.1.12.1",
+      "if": "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.",
+      "then": "Route for review",
+      "source": "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days."
+    },
+    {
+      "id": "1.1.12.2",
+      "if": "9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+      "then": "Route for review",
+      "source": "9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph."
+    }
+  ],
+  "validations": [
+    "Decision of DGFT shall be final\nand binding thereon.",
+    "9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph."
+  ],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [
+    "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days."
+  ],
+  "required_documents": [
+    "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days."
+  ],
+  "authorities": [
+    "DGFT",
+    "Decision of DGFT"
+  ],
+  "timelines": [
+    "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.",
+    "9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph."
+  ],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.",
+    "Evaluate condition: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+    "Run validation: Decision of DGFT shall be final\nand binding thereon.",
+    "Run validation: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph."
+  ],
+  "workflow_ascii": "Appeal\nEvaluate condition: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.\n   |\n   v\nEvaluate condition: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.\n   |\n   v\nRun validation: Decision of DGFT shall be final\nand binding thereon.\n   |\n   v\nRun validation: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+  "decision_tree": [
+    "IF section 1.12 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Appeal Decision\nIF section 1.12 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Appeal; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Appeal, submits 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days., and DEKAI uses the extracted rules to follow the appeal process.",
+  "real_world_example_thanglish": "Indha Appeal section-la, Example: an importer or exporter invokes Appeal, submits 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days., and DEKAI uses the extracted rules to follow the appeal process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Decision of DGFT shall be final\nand binding thereon.",
+    "IF detected context matches section rule THEN enforce: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "who_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:who"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "any_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:any"
+    },
+    {
+      "name": "with_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:with"
+    },
+    {
+      "name": "file_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:file"
+    },
+    {
+      "name": "dgft_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DGFT"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/1.12",
+      "purpose": "Retrieve knowledge payload for section 1.12",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Appeal/validate",
+      "purpose": "Validate inputs and documents for Appeal",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Appeal_overview",
+      "name": "Appeal Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Appeal_submission",
+      "name": "Appeal Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "who_flag",
+        "not_flag",
+        "may_flag",
+        "and_flag",
+        "any_flag",
+        "with_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Appeal require?",
+    "Which documents are needed for Appeal?",
+    "How does DEKAI validate Appeal requests?"
+  ],
+  "expected_ai_answers": [
+    "Appeal requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.",
+    "DEKAI validates Appeal by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 1.12?",
+      "answer_en": "Appeal explains the operating rule set that DEKAI should enforce. Key control points include Decision of DGFT shall be final\nand binding thereon.",
+      "question_thanglish": "Indha Appeal section-la, What is the purpose of section 1.12?",
+      "answer_thanglish": "Indha Appeal section-la, Appeal explains the operating rule set that DEKAI should enforce. Key control points include Decision of DGFT kandippa be final\nand binding thereon."
+    },
+    {
+      "question_en": "What documents are required under Appeal?",
+      "answer_en": "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.",
+      "question_thanglish": "Indha Appeal section-la, What documents are required under Appeal?",
+      "answer_thanglish": "Indha Appeal section-la, 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days."
+    },
+    {
+      "question_en": "Which authority handles Appeal?",
+      "answer_en": "DGFT, Decision of DGFT",
+      "question_thanglish": "Indha Appeal section-la, Which authority handles Appeal?",
+      "answer_thanglish": "Indha Appeal section-la, DGFT, Decision of DGFT"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Appeal?",
+      "answer_en": "AI answers: DEKAI should evaluate section 1.12, apply the extracted rules, and guide the user through Evaluate condition: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days..",
+      "question_thanglish": "Indha Appeal section-la, User asks: How do I comply with Appeal?",
+      "answer_thanglish": "Indha Appeal section-la, AI answers: DEKAI should evaluate section 1.12, apply the extracted rules, and guide the user through Evaluate condition: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Appeal?",
+      "answer_en": "AI answers: Applicable validations are Decision of DGFT shall be final\nand binding thereon., 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+      "question_thanglish": "Indha Appeal section-la, User asks: Which validations apply to Appeal?",
+      "answer_thanglish": "Indha Appeal section-la, AI answers: Applicable validations are Decision of DGFT kandippa be final\nand binding thereon., 9\nA reasonable opportunity kandippa be given to Status Holder before taking any action\nunder this paragraph."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 1, section 1.12, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Appeal into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days..",
+    "Route escalations or approvals to: DGFT, Decision of DGFT."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Appeal section-la, Capture chapter 1, section 1.12, title, and page references as immutable knowledge metadata.",
+    "Indha Appeal section-la, Bind validations for Appeal into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Appeal section-la, Expose document upload controls for: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days..",
+    "Indha Appeal section-la, Route escalations or approvals to: DGFT, Decision of DGFT."
+  ],
+  "keywords": [
+    "who",
+    "not",
+    "may",
+    "and",
+    "any",
+    "with",
+    "file",
+    "DGFT",
+    "days",
+    "this",
+    "taken",
+    "shall",
+    "final",
+    "given",
+    "under",
+    "Appeal",
+    "cancel",
+    "Status",
+    "within",
+    "Holder"
+  ],
+  "search_keywords": [
+    "who",
+    "not",
+    "may",
+    "and",
+    "any",
+    "with",
+    "file",
+    "DGFT",
+    "days",
+    "this",
+    "taken",
+    "shall",
+    "final",
+    "given",
+    "under",
+    "Appeal",
+    "cancel",
+    "Status",
+    "within",
+    "Holder"
+  ],
+  "intent": "Provide knowledge guidance for Appeal.",
+  "tags": [
+    "1.12",
+    "Appeal",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "Decision of DGFT shall be final\nand binding thereon.",
+    "9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph."
+  ],
+  "page_numbers": [
+    7
+  ],
+  "pages": [
+    7
+  ],
+  "source_document": "HBP2023_Chapter01.pdf",
+  "raw_text": "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days. Decision of DGFT shall be final\nand binding thereon.\npg. 9\npg. 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.\"]\n    S2[\"Evaluate condition: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.\"]\n    S1 --> S2\n    S3[\"Run validation: Decision of DGFT shall be final\nand binding thereon.\"]\n    S2 --> S3\n    S4[\"Run validation: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.\"]\n    S3 --> S4",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.;\n:Evaluate condition\\: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.;\n:Run validation\\: Decision of DGFT shall be final\nand binding thereon.;\n:Run validation\\: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.;\nstop\n@enduml"
+}

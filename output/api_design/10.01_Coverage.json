@@ -1,0 +1,39 @@
+{
+  "section": "10.01",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/10.01",
+      "purpose": "Retrieve knowledge payload for section 10.01",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Coverage/validate",
+      "purpose": "Validate inputs and documents for Coverage",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

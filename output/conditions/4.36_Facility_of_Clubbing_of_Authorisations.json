@@ -1,0 +1,119 @@
+{
+  "section": "4.36",
+  "conditions": [
+    "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+    "(iv) Facility of clubbing shall also be available for Advance Authorisations for\nAnnual Requirement issued during Foreign Trade Policy period 2009-14,\n2015-20, and 2023 wherever exports and imports have taken place as per\nStandard Input Output Norms (SION) notified.",
+    "Such Authorisations may pertain to different\nfinancial years.",
+    "This is further subject\nto condition that upon clubbing only imports made within 30 months from\nthe date of issue of earliest authorisation shall be considered.",
+    "This is further subject to condition that upon clubbing\nonly exports made within 48 months from the date of issue of earliest\nauthorisation shall be considered.",
+    "Any exports made beyond 48 months of\nearliest authorisation shall not be acceptable for clubbing.iv\n(vii) Exports made during initial or extended EO period of individual\nauthorisations (after payment of composition fee as per provisions of Para\n4.40 of HBP) shall be clubbed.",
+    "(viii) Upon clubbing, if shortfall in value or quantity is noticed, the same shall be\nregularized under the provisions of Para 4.49 of HBP.",
+    "(ix) Clubbing of Authorisations issued with different EO periods shall also be\nallowed.",
+    "4.36 Facility of Clubbing of Authorisations\n(i)\nNo clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+    "(iv)\nFacility of clubbing shall also be available for Advance Authorisations for\nAnnual Requirement issued during Foreign Trade Policy period 2009-14,\n2015-20, and 2023 wherever exports and imports have taken place as per\nStandard Input Output Norms (SION) notified.",
+    "Any exports made beyond 48 months of\nearliest authorisation shall not be acceptable for clubbing.iv\n(vii)\nExports made during initial or extended EO period of individual\nauthorisations (after payment of composition fee as per provisions of Para\n4.40 of HBP) shall be clubbed.",
+    "(ix)\nClubbing of Authorisations issued with different EO periods shall also be\nallowed.",
+    "(xii) After clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+    "The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations.",
+    "(xiv) No clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+    "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.36.1",
+      "if": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed."
+    },
+    {
+      "id": "4.4.36.2",
+      "if": "(iv) Facility of clubbing shall also be available for Advance Authorisations for\nAnnual Requirement issued during Foreign Trade Policy period 2009-14,\n2015-20, and 2023 wherever exports and imports have taken place as per\nStandard Input Output Norms (SION) notified.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "(iv) Facility of clubbing shall also be available for Advance Authorisations for\nAnnual Requirement issued during Foreign Trade Policy period 2009-14,\n2015-20, and 2023 wherever exports and imports have taken place as per\nStandard Input Output Norms (SION) notified."
+    },
+    {
+      "id": "4.4.36.3",
+      "if": "Such Authorisations may pertain to different\nfinancial years.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "Such Authorisations may pertain to different\nfinancial years."
+    },
+    {
+      "id": "4.4.36.4",
+      "if": "This is further subject\nto condition that upon clubbing only imports made within 30 months from\nthe date of issue of earliest authorisation shall be considered.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "This is further subject\nto condition that upon clubbing only imports made within 30 months from\nthe date of issue of earliest authorisation shall be considered."
+    },
+    {
+      "id": "4.4.36.5",
+      "if": "This is further subject to condition that upon clubbing\nonly exports made within 48 months from the date of issue of earliest\nauthorisation shall be considered.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "This is further subject to condition that upon clubbing\nonly exports made within 48 months from the date of issue of earliest\nauthorisation shall be considered."
+    },
+    {
+      "id": "4.4.36.6",
+      "if": "Any exports made beyond 48 months of\nearliest authorisation shall not be acceptable for clubbing.iv\n(vii) Exports made during initial or extended EO period of individual\nauthorisations (after payment of composition fee as per provisions of Para\n4.40 of HBP) shall be clubbed.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "Any exports made beyond 48 months of\nearliest authorisation shall not be acceptable for clubbing.iv\n(vii) Exports made during initial or extended EO period of individual\nauthorisations (after payment of composition fee as per provisions of Para\n4.40 of HBP) shall be clubbed."
+    },
+    {
+      "id": "4.4.36.7",
+      "if": "shortfall in value or quantity is noticed",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "(viii) Upon clubbing, if shortfall in value or quantity is noticed, the same shall be\nregularized under the provisions of Para 4.49 of HBP."
+    },
+    {
+      "id": "4.4.36.8",
+      "if": "(ix) Clubbing of Authorisations issued with different EO periods shall also be\nallowed.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "(ix) Clubbing of Authorisations issued with different EO periods shall also be\nallowed."
+    },
+    {
+      "id": "4.4.36.9",
+      "if": "4.36 Facility of Clubbing of Authorisations\n(i)\nNo clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "4.36 Facility of Clubbing of Authorisations\n(i)\nNo clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed."
+    },
+    {
+      "id": "4.4.36.10",
+      "if": "(iv)\nFacility of clubbing shall also be available for Advance Authorisations for\nAnnual Requirement issued during Foreign Trade Policy period 2009-14,\n2015-20, and 2023 wherever exports and imports have taken place as per\nStandard Input Output Norms (SION) notified.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "(iv)\nFacility of clubbing shall also be available for Advance Authorisations for\nAnnual Requirement issued during Foreign Trade Policy period 2009-14,\n2015-20, and 2023 wherever exports and imports have taken place as per\nStandard Input Output Norms (SION) notified."
+    },
+    {
+      "id": "4.4.36.11",
+      "if": "Any exports made beyond 48 months of\nearliest authorisation shall not be acceptable for clubbing.iv\n(vii)\nExports made during initial or extended EO period of individual\nauthorisations (after payment of composition fee as per provisions of Para\n4.40 of HBP) shall be clubbed.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "Any exports made beyond 48 months of\nearliest authorisation shall not be acceptable for clubbing.iv\n(vii)\nExports made during initial or extended EO period of individual\nauthorisations (after payment of composition fee as per provisions of Para\n4.40 of HBP) shall be clubbed."
+    },
+    {
+      "id": "4.4.36.12",
+      "if": "(ix)\nClubbing of Authorisations issued with different EO periods shall also be\nallowed.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "(ix)\nClubbing of Authorisations issued with different EO periods shall also be\nallowed."
+    },
+    {
+      "id": "4.4.36.13",
+      "if": "(xii) After clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "(xii) After clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation."
+    },
+    {
+      "id": "4.4.36.14",
+      "if": "The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations."
+    },
+    {
+      "id": "4.4.36.15",
+      "if": "(xiv) No clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "(xiv) No clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA."
+    },
+    {
+      "id": "4.4.36.16",
+      "if": "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+      "then": "4.36 Facility of Clubbing of Authorisations\n(i) No clubbing of Authorisations issued on or before 31st March, 2009 shall be\nallowed.",
+      "source": "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted."
+    }
+  ]
+}

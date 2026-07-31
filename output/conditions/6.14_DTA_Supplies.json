@@ -1,0 +1,21 @@
+{
+  "section": "6.14",
+  "conditions": [
+    "6.14 DTA Supplies\nNotwithstanding provision of DTA sales in Paragraph 6.07 of FTP, such DTA\nsales shall not affect application, to any goods, of any other prohibition or\nregulation affecting import thereof in force at the time, when such goods are\nimported.",
+    "This also does not confer any immunity, exemption or relaxation at\nany time from any commitment or compliance with any requirements to which\nimporter may be subject to under other laws or regulations."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.14.1",
+      "if": "6.14 DTA Supplies\nNotwithstanding provision of DTA sales in Paragraph 6.07 of FTP, such DTA\nsales shall not affect application, to any goods, of any other prohibition or\nregulation affecting import thereof in force at the time, when such goods are\nimported.",
+      "then": "Route for review",
+      "source": "6.14 DTA Supplies\nNotwithstanding provision of DTA sales in Paragraph 6.07 of FTP, such DTA\nsales shall not affect application, to any goods, of any other prohibition or\nregulation affecting import thereof in force at the time, when such goods are\nimported."
+    },
+    {
+      "id": "6.6.14.2",
+      "if": "This also does not confer any immunity, exemption or relaxation at\nany time from any commitment or compliance with any requirements to which\nimporter may be subject to under other laws or regulations.",
+      "then": "Route for review",
+      "source": "This also does not confer any immunity, exemption or relaxation at\nany time from any commitment or compliance with any requirements to which\nimporter may be subject to under other laws or regulations."
+    }
+  ]
+}

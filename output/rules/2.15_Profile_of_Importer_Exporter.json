@@ -1,0 +1,22 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.15",
+  "title": "Profile of Importer / Exporter",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_15-R001",
+      "rule_description": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "trigger": "Profile of Importer / Exporter",
+      "condition": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "validation": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "action": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.15 - Profile of Importer / Exporter."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+    "IF validations pass THEN recommend action: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP."
+  ]
+}

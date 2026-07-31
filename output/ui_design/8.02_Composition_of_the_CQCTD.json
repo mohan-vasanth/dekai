@@ -1,0 +1,37 @@
+{
+  "section": "8.02",
+  "ui": [
+    {
+      "screen_id": "Composition_of_the_CQCTD_overview",
+      "name": "Composition of the CQCTD Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Composition_of_the_CQCTD_submission",
+      "name": "Composition of the CQCTD Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "may_flag",
+        "bis_flag",
+        "and_flag",
+        "any_flag",
+        "dgft_flag"
+      ]
+    }
+  ]
+}

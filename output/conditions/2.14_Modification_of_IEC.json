@@ -1,0 +1,49 @@
+{
+  "section": "2.14",
+  "conditions": [
+    "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+    "(e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc.",
+    "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+    "Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc.",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.14.1",
+      "if": "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.",
+      "then": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "source": "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents."
+    },
+    {
+      "id": "2.2.14.2",
+      "if": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "then": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "source": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+    },
+    {
+      "id": "2.2.14.3",
+      "if": "(e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc.",
+      "then": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "source": "(e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc."
+    },
+    {
+      "id": "2.2.14.4",
+      "if": "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+      "then": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "source": "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already."
+    },
+    {
+      "id": "2.2.14.5",
+      "if": "Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc.",
+      "then": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "source": "Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc."
+    },
+    {
+      "id": "2.2.14.6",
+      "if": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "then": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "source": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+    }
+  ]
+}

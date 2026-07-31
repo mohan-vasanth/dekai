@@ -1,0 +1,77 @@
+{
+  "section": "5.03",
+  "conditions": [
+    "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+    "For issuance of such certificate, the Chartered Engineer\nshall act only in the domain of his/her competence.",
+    "In case of fabrication,\nreasonable wastage, if any, anticipated at the time of installation of capital\ngoods shall be certified by the Chartered Engineer in the nexus certificate\nand the same would be mentioned in the condition sheet of the EPCG\nauthorisation at the time of issue.",
+    "(b) An application for amendment in the list of import item(s) including\naddition(s)/deletion(s), if any, may be filed with RA concerned provided the\nauthorisation is valid for import.",
+    "The applicant would give justification for\nseeking such amendment(s) along with fresh nexus certificate from an\nindependent Chartered Engineer.",
+    "(c) An application for amendment in the list of export item(s) including\naddition(s)/deletion(s) if any, may be filed with RA concerned provided the\nExport Obligation period of the authorisation is valid and the CG has nexus\nwith export product.",
+    "The applicant would give justification for seeking such\namendment(s) along with fresh nexus certificate from an independent\nChartered Engineer.",
+    "5.03 Nexus Certification\n(a)\nRA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+    "(b)\nAn application for amendment in the list of import item(s) including\naddition(s)/deletion(s), if any, may be filed with RA concerned provided the\nauthorisation is valid for import.",
+    "(c)\nAn application for amendment in the list of export item(s) including\naddition(s)/deletion(s) if any, may be filed with RA concerned provided the\nExport Obligation period of the authorisation is valid and the CG has nexus\nwith export product."
+  ],
+  "condition_logic": [
+    {
+      "id": "5.5.03.1",
+      "if": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "then": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "source": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation."
+    },
+    {
+      "id": "5.5.03.2",
+      "if": "For issuance of such certificate, the Chartered Engineer\nshall act only in the domain of his/her competence.",
+      "then": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "source": "For issuance of such certificate, the Chartered Engineer\nshall act only in the domain of his/her competence."
+    },
+    {
+      "id": "5.5.03.3",
+      "if": "any",
+      "then": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "source": "In case of fabrication,\nreasonable wastage, if any, anticipated at the time of installation of capital\ngoods shall be certified by the Chartered Engineer in the nexus certificate\nand the same would be mentioned in the condition sheet of the EPCG\nauthorisation at the time of issue."
+    },
+    {
+      "id": "5.5.03.4",
+      "if": "any",
+      "then": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "source": "(b) An application for amendment in the list of import item(s) including\naddition(s)/deletion(s), if any, may be filed with RA concerned provided the\nauthorisation is valid for import."
+    },
+    {
+      "id": "5.5.03.5",
+      "if": "The applicant would give justification for\nseeking such amendment(s) along with fresh nexus certificate from an\nindependent Chartered Engineer.",
+      "then": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "source": "The applicant would give justification for\nseeking such amendment(s) along with fresh nexus certificate from an\nindependent Chartered Engineer."
+    },
+    {
+      "id": "5.5.03.6",
+      "if": "any",
+      "then": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "source": "(c) An application for amendment in the list of export item(s) including\naddition(s)/deletion(s) if any, may be filed with RA concerned provided the\nExport Obligation period of the authorisation is valid and the CG has nexus\nwith export product."
+    },
+    {
+      "id": "5.5.03.7",
+      "if": "The applicant would give justification for seeking such\namendment(s) along with fresh nexus certificate from an independent\nChartered Engineer.",
+      "then": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "source": "The applicant would give justification for seeking such\namendment(s) along with fresh nexus certificate from an independent\nChartered Engineer."
+    },
+    {
+      "id": "5.5.03.8",
+      "if": "5.03 Nexus Certification\n(a)\nRA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "then": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "source": "5.03 Nexus Certification\n(a)\nRA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation."
+    },
+    {
+      "id": "5.5.03.9",
+      "if": "any",
+      "then": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "source": "(b)\nAn application for amendment in the list of import item(s) including\naddition(s)/deletion(s), if any, may be filed with RA concerned provided the\nauthorisation is valid for import."
+    },
+    {
+      "id": "5.5.03.10",
+      "if": "any",
+      "then": "5.03 Nexus Certification\n(a) RA concerned shall, on the basis of nexus certificate from an independent\nChartered Engineer (CEC) submitted by the applicant in Appendix 5A, issue\nEPCG authorisation.",
+      "source": "(c)\nAn application for amendment in the list of export item(s) including\naddition(s)/deletion(s) if any, may be filed with RA concerned provided the\nExport Obligation period of the authorisation is valid and the CG has nexus\nwith export product."
+    }
+  ]
+}

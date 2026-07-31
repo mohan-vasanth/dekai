@@ -1,0 +1,53 @@
+{
+  "section": "10.15",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/10.15",
+      "purpose": "Retrieve knowledge payload for section 10.15",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Global-Authorisation-for-Intra-Company-Transfers-GAICT/validate",
+      "purpose": "Validate inputs and documents for Global Authorisation for Intra-Company Transfers (GAICT)",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Global-Authorisation-for-Intra-Company-Transfers-GAICT/execute",
+      "purpose": "Trigger business action for However, the final decision to approve a GAICT\nauthorisation lies with the relevant authority.",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

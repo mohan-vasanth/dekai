@@ -1,0 +1,47 @@
+{
+  "section": "2.88",
+  "ui": [
+    {
+      "screen_id": "Free_Trade_Agreements_FTAs_Preferential_Trade_Agreements_overview",
+      "name": "Free Trade Agreements (FTAs) / Preferential Trade Agreements Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Free_Trade_Agreements_FTAs_Preferential_Trade_Agreements_submission",
+      "name": "Free Trade Agreements (FTAs) / Preferential Trade Agreements Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "has_flag",
+        "for_flag",
+        "non_flag",
+        "and_flag",
+        "may_flag",
+        "the_flag"
+      ]
+    },
+    {
+      "screen_id": "Free_Trade_Agreements_FTAs_Preferential_Trade_Agreements_exceptions",
+      "name": "Free Trade Agreements (FTAs) / Preferential Trade Agreements Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

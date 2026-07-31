@@ -1,0 +1,47 @@
+{
+  "section": "2.16",
+  "ui": [
+    {
+      "screen_id": "Validity_period_of_Authorisation_Licence_Certificate_overview",
+      "name": "Validity period of Authorisation/ Licence / Certificate / Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Validity_period_of_Authorisation_Licence_Certificate_submission",
+      "name": "Validity period of Authorisation/ Licence / Certificate / Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "for_flag",
+        "iii_flag",
+        "per_flag",
+        "ftp_flag",
+        "vii_flag"
+      ]
+    },
+    {
+      "screen_id": "Validity_period_of_Authorisation_Licence_Certificate_exceptions",
+      "name": "Validity period of Authorisation/ Licence / Certificate / Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

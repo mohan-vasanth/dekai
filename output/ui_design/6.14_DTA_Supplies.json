@@ -1,0 +1,47 @@
+{
+  "section": "6.14",
+  "ui": [
+    {
+      "screen_id": "DTA_Supplies_overview",
+      "name": "DTA Supplies Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "DTA_Supplies_submission",
+      "name": "DTA Supplies Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "dta_flag",
+        "ftp_flag",
+        "not_flag",
+        "any_flag",
+        "the_flag",
+        "are_flag"
+      ]
+    },
+    {
+      "screen_id": "DTA_Supplies_exceptions",
+      "name": "DTA Supplies Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "section": "2.91",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.91",
+      "purpose": "Retrieve knowledge payload for section 2.91",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Rules-of-Origin-Preferential/validate",
+      "purpose": "Validate inputs and documents for Rules of Origin (Preferential)",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Rules-of-Origin-Preferential/execute",
+      "purpose": "Trigger business action for (b) Some of the key criteria used in the determination of the rules of origin are:\n(i) Wholly obtained\n(ii) Change in tariff classification\n(iii) Value addition\n(iv) Non minimal operations\n(c) For exports under India’s FTAs, PTAs and GSP, specified agencies are\nauthorised to issue the certificates of origin, they shall also provide services\nrelating to issue of Co O, including details regarding rules of origin, list of items\ncovered by an agreement, extent of tariff preference, verification and\ncertification of eligibility.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

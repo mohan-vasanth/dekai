@@ -1,0 +1,14 @@
+{
+  "section": "6.15",
+  "conditions": [
+    "6.15 Supplies to other EOU / EHTP / STP / SEZ / BTP Units\nSupplies to other EOU / EHTP / STP / BTP / SEZ units shall be counted towards\nNFE provided that such goods are permissible for procurement by these units."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.15.1",
+      "if": "6.15 Supplies to other EOU / EHTP / STP / SEZ / BTP Units\nSupplies to other EOU / EHTP / STP / BTP / SEZ units shall be counted towards\nNFE provided that such goods are permissible for procurement by these units.",
+      "then": "Route for review",
+      "source": "6.15 Supplies to other EOU / EHTP / STP / SEZ / BTP Units\nSupplies to other EOU / EHTP / STP / BTP / SEZ units shall be counted towards\nNFE provided that such goods are permissible for procurement by these units."
+    }
+  ]
+}

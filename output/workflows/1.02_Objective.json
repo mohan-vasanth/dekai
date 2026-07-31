@@ -1,0 +1,11 @@
+{
+  "section": "1.02",
+  "workflow": [
+    "Review section 1.02 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Objective\nReview section 1.02 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "mermaid": "flowchart TD\n    S1[\"Review section 1.02 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 1.02 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

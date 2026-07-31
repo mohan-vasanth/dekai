@@ -1,0 +1,53 @@
+{
+  "section": "4.13",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.13",
+      "purpose": "Retrieve knowledge payload for section 4.13",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Authorisation-in-Excess-of-Entitlement/validate",
+      "purpose": "Validate inputs and documents for Authorisation in Excess of Entitlement",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Authorisation-in-Excess-of-Entitlement/execute",
+      "purpose": "Trigger business action for 4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

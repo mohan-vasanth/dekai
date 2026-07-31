@@ -1,0 +1,37 @@
+{
+  "section": "6.37",
+  "ui": [
+    {
+      "screen_id": "Depreciation_Norms_overview",
+      "name": "Depreciation Norms Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Depreciation_Norms_submission",
+      "name": "Depreciation Norms Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "and_flag",
+        "case_flag",
+        "year_flag",
+        "than_flag",
+        "rate_flag"
+      ]
+    }
+  ]
+}

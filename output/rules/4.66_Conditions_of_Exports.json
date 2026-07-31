@@ -1,0 +1,21 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.66",
+  "title": "Conditions of Exports",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_66-R001",
+      "rule_description": "4.66 Conditions of Exports\nExports shall be allowed by customs authorities provided endorsement made on\nshipping bill and invoice are correct and value addition achieved is not below\nminimum prescribed in FTP.",
+      "trigger": "Conditions of Exports",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "4.66 Conditions of Exports\nExports shall be allowed by customs authorities provided endorsement made on\nshipping bill and invoice are correct and value addition achieved is not below\nminimum prescribed in FTP.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.66 - Conditions of Exports."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.66 Conditions of Exports\nExports shall be allowed by customs authorities provided endorsement made on\nshipping bill and invoice are correct and value addition achieved is not below\nminimum prescribed in FTP."
+  ]
+}

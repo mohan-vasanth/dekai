@@ -1,0 +1,325 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.57",
+  "title": "General Provision",
+  "purpose": "4.57 General Provision\nPolicy relating to Gem Replenishment Authorisation and scheme for gold/\nsilver/platinum jewellery is given in FTP.",
+  "purpose_thanglish": "Indha General Provision section-la, 4.57 General Provision\nPolicy relating to Gem Replenishment Authorisation and scheme for gold/\nsilver/platinum jewellery is given in FTP.",
+  "summary": "4.57 General Provision\nPolicy relating to Gem Replenishment Authorisation and scheme for gold/\nsilver/platinum jewellery is given in FTP. Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.",
+  "business_meaning": "General Provision governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "General Provision explains the operating rule set that DEKAI should enforce. Key control points include Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.",
+  "business_explanation_thanglish": "Indha General Provision section-la, General Provision explains the operating rule set that DEKAI should enforce. Key control points include application in respect of export\npromotion scheme for gems & jewellery sector kandippa be made to concerned\nRegional authority as per Appendix 4A.",
+  "business_logic": [
+    "Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_57-R001",
+      "rule_description": "Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.",
+      "trigger": "General Provision",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.57 - General Provision."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [
+    "Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A."
+  ],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [
+    "Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A."
+  ],
+  "required_documents": [
+    "Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A."
+  ],
+  "authorities": [
+    "Regional Authority"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Run validation: Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A."
+  ],
+  "workflow_ascii": "General Provision\nRun validation: Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.",
+  "decision_tree": [
+    "IF section 4.57 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "General Provision Decision\nIF section 4.57 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process General Provision; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes General Provision, submits Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A., and DEKAI uses the extracted rules to follow the general provision process.",
+  "real_world_example_thanglish": "Indha General Provision section-la, Example: an importer or exporter invokes General Provision, submits application in respect of export\npromotion scheme for gems & jewellery sector kandippa be made to concerned\nRegional authority as per Appendix 4A., and DEKAI uses the extracted rules to follow the general provision process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "gem_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Gem"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "ftp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:FTP"
+    },
+    {
+      "name": "per_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:per"
+    },
+    {
+      "name": "gold_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:gold"
+    },
+    {
+      "name": "gems_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:gems"
+    },
+    {
+      "name": "made_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:made"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.57",
+      "purpose": "Retrieve knowledge payload for section 4.57",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/General-Provision/validate",
+      "purpose": "Validate inputs and documents for General Provision",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "General_Provision_overview",
+      "name": "General Provision Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "General_Provision_submission",
+      "name": "General Provision Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "gem_flag",
+        "and_flag",
+        "for_flag",
+        "ftp_flag",
+        "per_flag",
+        "gold_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does General Provision require?",
+    "Which documents are needed for General Provision?",
+    "How does DEKAI validate General Provision requests?"
+  ],
+  "expected_ai_answers": [
+    "General Provision requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.",
+    "DEKAI validates General Provision by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4.57?",
+      "answer_en": "General Provision explains the operating rule set that DEKAI should enforce. Key control points include Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.",
+      "question_thanglish": "Indha General Provision section-la, What is the purpose of section 4.57?",
+      "answer_thanglish": "Indha General Provision section-la, General Provision explains the operating rule set that DEKAI should enforce. Key control points include application in respect of export\npromotion scheme for gems & jewellery sector kandippa be made to concerned\nRegional authority as per Appendix 4A."
+    },
+    {
+      "question_en": "What documents are required under General Provision?",
+      "answer_en": "Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.",
+      "question_thanglish": "Indha General Provision section-la, What documents are required under General Provision?",
+      "answer_thanglish": "Indha General Provision section-la, application in respect of export\npromotion scheme for gems & jewellery sector kandippa be made to concerned\nRegional authority as per Appendix 4A."
+    },
+    {
+      "question_en": "Which authority handles General Provision?",
+      "answer_en": "Regional Authority",
+      "question_thanglish": "Indha General Provision section-la, Which authority handles General Provision?",
+      "answer_thanglish": "Indha General Provision section-la, Regional authority"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with General Provision?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4.57, apply the extracted rules, and guide the user through Run validation: Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A..",
+      "question_thanglish": "Indha General Provision section-la, User asks: How do I comply with General Provision?",
+      "answer_thanglish": "Indha General Provision section-la, AI answers: DEKAI should evaluate section 4.57, apply the extracted rules, and guide the user through Run validation: application in respect of export\npromotion scheme for gems & jewellery sector kandippa be made to concerned\nRegional authority as per Appendix 4A.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to General Provision?",
+      "answer_en": "AI answers: Applicable validations are Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.",
+      "question_thanglish": "Indha General Provision section-la, User asks: Which validations apply to General Provision?",
+      "answer_thanglish": "Indha General Provision section-la, AI answers: Applicable validations are application in respect of export\npromotion scheme for gems & jewellery sector kandippa be made to concerned\nRegional authority as per Appendix 4A."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 4.57, title, and page references as immutable knowledge metadata.",
+    "Bind validations for General Provision into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A..",
+    "Route escalations or approvals to: Regional Authority."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha General Provision section-la, Capture chapter 4, section 4.57, title, and page references as immutable knowledge metadata.",
+    "Indha General Provision section-la, Bind validations for General Provision into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha General Provision section-la, Expose document upload controls for: application in respect of export\npromotion scheme for gems & jewellery sector kandippa be made to concerned\nRegional authority as per Appendix 4A..",
+    "Indha General Provision section-la, Route escalations or approvals to: Regional authority."
+  ],
+  "keywords": [
+    "Gem",
+    "and",
+    "for",
+    "FTP",
+    "per",
+    "gold",
+    "gems",
+    "made",
+    "given",
+    "shall",
+    "Policy",
+    "scheme",
+    "export",
+    "sector",
+    "General",
+    "respect",
+    "relating",
+    "Regional",
+    "Appendix",
+    "Provision"
+  ],
+  "search_keywords": [
+    "Gem",
+    "and",
+    "for",
+    "FTP",
+    "per",
+    "gold",
+    "gems",
+    "made",
+    "given",
+    "shall",
+    "Policy",
+    "scheme",
+    "export",
+    "sector",
+    "General",
+    "respect",
+    "relating",
+    "Regional",
+    "Appendix",
+    "Provision"
+  ],
+  "intent": "Provide knowledge guidance for General Provision.",
+  "tags": [
+    "4.57",
+    "General Provision",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A."
+  ],
+  "page_numbers": [
+    35
+  ],
+  "pages": [
+    35
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "4.57 General Provision\nPolicy relating to Gem Replenishment Authorisation and scheme for gold/\nsilver/platinum jewellery is given in FTP. Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.",
+  "mermaid": "flowchart TD\n    S1[\"Run validation: Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.\"]",
+  "plantuml": "@startuml\nstart\n:Run validation\\: Application in respect of export\npromotion scheme for gems & jewellery sector shall be made to concerned\nRegional Authority as per Appendix 4A.;\nstop\n@enduml"
+}

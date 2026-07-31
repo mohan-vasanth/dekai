@@ -1,0 +1,9 @@
+{
+  "section": "4.38",
+  "decision_tree": [
+    "IF 4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation. THEN 4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.",
+    "IF However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA. THEN 4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.",
+    "IF exception applies (However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Application fee for enhancement Decision\nIF 4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation. THEN 4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.\n   |\n   v\nIF However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA. THEN 4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.\n   |\n   v\nIF exception applies (However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA.) THEN route to manual review"
+}

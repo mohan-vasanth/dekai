@@ -1,0 +1,38 @@
+{
+  "section": "6.12",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.12",
+      "purpose": "Retrieve knowledge payload for section 6.12",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Monitoring-of-NFE/validate",
+      "purpose": "Validate inputs and documents for Monitoring of NFE",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

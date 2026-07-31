@@ -1,0 +1,37 @@
+{
+  "section": "2.57",
+  "ui": [
+    {
+      "screen_id": "Procedure_for_import_under_the_Tariff_Rate_Quota_Scheme_overview",
+      "name": "Procedure for import under the Tariff Rate Quota Scheme Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Procedure_for_import_under_the_Tariff_Rate_Quota_Scheme_submission",
+      "name": "Procedure for import under the Tariff Rate Quota Scheme Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "per_flag",
+        "trq_flag",
+        "oil_flag",
+        "and_flag"
+      ]
+    }
+  ]
+}

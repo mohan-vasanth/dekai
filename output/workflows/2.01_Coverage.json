@@ -1,0 +1,10 @@
+{
+  "section": "2.01",
+  "workflow": [
+    "Evaluate condition: Procedure for applications for authorisations/ license/ permissions/\ncertificates for import/export and applications for benefits under FTP are laid out.",
+    "Run validation: 2.01 Coverage\nThis chapter covers procedure for various applications including their complete\ndocumentation."
+  ],
+  "workflow_ascii": "Coverage\nEvaluate condition: Procedure for applications for authorisations/ license/ permissions/\ncertificates for import/export and applications for benefits under FTP are laid out.\n   |\n   v\nRun validation: 2.01 Coverage\nThis chapter covers procedure for various applications including their complete\ndocumentation.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Procedure for applications for authorisations/ license/ permissions/\ncertificates for import/export and applications for benefits under FTP are laid out.\"]\n    S2[\"Run validation: 2.01 Coverage\nThis chapter covers procedure for various applications including their complete\ndocumentation.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Procedure for applications for authorisations/ license/ permissions/\ncertificates for import/export and applications for benefits under FTP are laid out.;\n:Run validation\\: 2.01 Coverage\nThis chapter covers procedure for various applications including their complete\ndocumentation.;\nstop\n@enduml"
+}

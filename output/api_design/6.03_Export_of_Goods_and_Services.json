@@ -1,0 +1,63 @@
+{
+  "section": "6.03",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.03",
+      "purpose": "Retrieve knowledge payload for section 6.03",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Export-of-Goods-and-Services/validate",
+      "purpose": "Validate inputs and documents for Export of Goods and Services",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Export-of-Goods-and-Services/execute",
+      "purpose": "Trigger business action for (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

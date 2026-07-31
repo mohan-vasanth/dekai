@@ -1,0 +1,39 @@
+# DGFT Knowledge Extraction Report
+
+## Summary
+- source_pdf: Chapter+10+HBP+(19.05.2026).pdf
+- page_count: 48
+- section_count: 21
+- rule_count: 300
+- condition_count: 313
+- workflow_count: 181
+- validation_count: 245
+- exception_count: 37
+- timeline_count: 147
+- authority_count: 77
+- glossary_count: 53
+
+## Section Metrics
+| section | title | rules | conditions | validations | exceptions | timelines | authorities | documents |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 10.00 | Policy | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 10.01 | Coverage | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 10.02 | SCOMET categories and licensing jurisdiction | 0 | 7 | 0 | 7 | 0 | 4 | 1 |
+| 10.03 | Supply of SCOMET Items from DTA to SEZ/Eo U and outside | 1 | 2 | 3 | 1 | 1 | 4 | 2 |
+| 10.04 | Application and Documentation for SCOMET Authorisation | 2 | 10 | 6 | 4 | 1 | 5 | 12 |
+| 10.05 | Additional controls on Non-SCOMET items for dual use | 5 | 5 | 5 | 0 | 0 | 3 | 4 |
+| 10.06 | Inter Ministerial Working Group (IMWG) | 6 | 7 | 6 | 2 | 5 | 5 | 5 |
+| 10.07 | Applicability of Weapon of Mass Development Act (WMD Act) | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 10.08 | Procedure/ Guidelines for filing / Evaluation of Applications | 2 | 2 | 2 | 0 | 0 | 3 | 2 |
+| 10.09 | Issue of authorisation for Repeat Orders of SCOMET item(s) | 22 | 27 | 27 | 1 | 15 | 5 | 26 |
+| 10.11 | Issue of export authorisation for spare parts of SCOMET items | 0 | 2 | 0 | 0 | 1 | 0 | 2 |
+| 10.12 | Issue of authorisations for repair/replacement of defective | 29 | 55 | 41 | 4 | 30 | 4 | 36 |
+| 10.13 | Issue of export authorisations for | 20 | 19 | 21 | 3 | 14 | 4 | 15 |
+| 10.14 | Issue of export authorisations for re-export/return of | 4 | 4 | 4 | 1 | 2 | 0 | 2 |
+| 10.15 | Global Authorisation for Intra-Company Transfers (GAICT) | 5 | 7 | 4 | 4 | 0 | 2 | 0 |
+| 10.15 | B below. | 50 | 77 | 55 | 4 | 26 | 12 | 45 |
+| 10.16 | General Authorisation for Export of Chemicals and related | 30 | 45 | 35 | 0 | 18 | 6 | 24 |
+| 10.17 | Validity Period of SCOMET Authorisations | 17 | 17 | 17 | 6 | 16 | 0 | 2 |
+| 10.18 | Record Keeping | 1 | 0 | 1 | 0 | 1 | 0 | 1 |
+| 10.19 | Voluntary Self Disclosure of export of dual use items | 13 | 22 | 11 | 0 | 11 | 16 | 17 |
+| 10.20 | Revalidation of SCOMET Authorisation | 4 | 4 | 7 | 0 | 6 | 4 | 10 |

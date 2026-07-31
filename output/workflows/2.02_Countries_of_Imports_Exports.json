@@ -1,0 +1,12 @@
+{
+  "section": "2.02",
+  "workflow": [
+    "Evaluate condition: 2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.",
+    "Evaluate condition: Country specific\nprohibitions/limitations, if any, are specified in the FTP or the ITC(HS).",
+    "Evaluate condition: APPLICATIONS\n2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.",
+    "Handle exception: 2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e."
+  ],
+  "workflow_ascii": "Countries of Imports/Exports\nEvaluate condition: 2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.\n   |\n   v\nEvaluate condition: Country specific\nprohibitions/limitations, if any, are specified in the FTP or the ITC(HS).\n   |\n   v\nEvaluate condition: APPLICATIONS\n2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.\n   |\n   v\nHandle exception: 2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.\"]\n    S2[\"Evaluate condition: Country specific\nprohibitions/limitations, if any, are specified in the FTP or the ITC(HS).\"]\n    S1 --> S2\n    S3[\"Evaluate condition: APPLICATIONS\n2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.\"]\n    S2 --> S3\n    S4[\"Handle exception: 2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.\"]\n    S3 --> S4",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.;\n:Evaluate condition\\: Country specific\nprohibitions/limitations, if any, are specified in the FTP or the ITC(HS).;\n:Evaluate condition\\: APPLICATIONS\n2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.;\n:Handle exception\\: 2.02 Countries of Imports/Exports\nUnless otherwise specifically provided, international trade (i.e.;\nstop\n@enduml"
+}

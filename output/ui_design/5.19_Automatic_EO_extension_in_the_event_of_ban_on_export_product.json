@@ -1,0 +1,37 @@
+{
+  "section": "5.19",
+  "ui": [
+    {
+      "screen_id": "Automatic_EO_extension_in_the_event_of_ban_on_export_product_overview",
+      "name": "Automatic EO extension in the event of ban on export product Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Automatic_EO_extension_in_the_event_of_ban_on_export_product_submission",
+      "name": "Automatic EO extension in the event of ban on export product Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "ban_flag",
+        "any_flag",
+        "for_flag",
+        "fee_flag",
+        "not_flag"
+      ]
+    }
+  ]
+}

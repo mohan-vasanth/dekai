@@ -1,0 +1,33 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.54",
+  "title": "Facility for Split DFIA",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_54-R001",
+      "rule_description": "4.54 Facility for Split DFIA\nSplit Authorisations of DFIA subject to a minimum of CIF value of Rs.",
+      "trigger": "Facility for Split DFIA",
+      "condition": "4.54 Facility for Split DFIA\nSplit Authorisations of DFIA subject to a minimum of CIF value of Rs.",
+      "validation": "Split-up DFIAs shall be permitted with the same port of\nregistration as appearing on the original DFIA.",
+      "action": "10 lakh\neach and multiples thereof may also be issued, on request at the time of seeking\ntransferability.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.54 - Facility for Split DFIA."
+    },
+    {
+      "rule_id": "CH4-SEC4_54-R002",
+      "rule_description": "Split-up DFIAs shall be permitted with the same port of\nregistration as appearing on the original DFIA.",
+      "trigger": "Facility for Split DFIA",
+      "condition": "4.54 Facility for Split DFIA\nSplit Authorisations of DFIA subject to a minimum of CIF value of Rs.",
+      "validation": "Split-up DFIAs shall be permitted with the same port of\nregistration as appearing on the original DFIA.",
+      "action": "10 lakh\neach and multiples thereof may also be issued, on request at the time of seeking\ntransferability.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.54 - Facility for Split DFIA."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.54 Facility for Split DFIA\nSplit Authorisations of DFIA subject to a minimum of CIF value of Rs.",
+    "IF detected context matches section rule THEN enforce: Split-up DFIAs shall be permitted with the same port of\nregistration as appearing on the original DFIA.",
+    "IF validations pass THEN recommend action: 10 lakh\neach and multiples thereof may also be issued, on request at the time of seeking\ntransferability."
+  ]
+}

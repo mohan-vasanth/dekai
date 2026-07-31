@@ -1,0 +1,44 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.24",
+  "title": "Amendment of Export item and inputs",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_24-R001",
+      "rule_description": "4.24 Amendment of Export item and inputs\n(i) An application for amendment of an export item or input or quantity of input\nunder SION or under ad-hoc Norms shall be filed online in ANF 4B.",
+      "trigger": "Amendment of Export item and inputs",
+      "condition": "(ii) Applicant would give justification for seeking amendment and Regional\nAuthority would consider it with specific approval of Head of Office.",
+      "validation": "4.24 Amendment of Export item and inputs\n(i) An application for amendment of an export item or input or quantity of input\nunder SION or under ad-hoc Norms shall be filed online in ANF 4B.",
+      "action": "4.24 Amendment of Export item and inputs\n(i) An application for amendment of an export item or input or quantity of input\nunder SION or under ad-hoc Norms shall be filed online in ANF 4B.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.24 - Amendment of Export item and inputs."
+    },
+    {
+      "rule_id": "CH4-SEC4_24-R002",
+      "rule_description": "In case of\nany major change in input or request for more wastage to that allowed under\nSION or ad-hoc norm, same should be referred to Norms Committee for\nratification.",
+      "trigger": "Amendment of Export item and inputs",
+      "condition": "In case of\nany major change in input or request for more wastage to that allowed under\nSION or ad-hoc norm, same should be referred to Norms Committee for\nratification.",
+      "validation": "4.24 Amendment of Export item and inputs\n(i)\nAn application for amendment of an export item or input or quantity of input\nunder SION or under ad-hoc Norms shall be filed online in ANF 4B.",
+      "action": "(ii) Applicant would give justification for seeking amendment and Regional\nAuthority would consider it with specific approval of Head of Office.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.24 - Amendment of Export item and inputs."
+    },
+    {
+      "rule_id": "CH4-SEC4_24-R003",
+      "rule_description": "4.24 Amendment of Export item and inputs\n(i)\nAn application for amendment of an export item or input or quantity of input\nunder SION or under ad-hoc Norms shall be filed online in ANF 4B.",
+      "trigger": "Amendment of Export item and inputs",
+      "condition": "(ii)\nApplicant would give justification for seeking amendment and Regional\nAuthority would consider it with specific approval of Head of Office.",
+      "validation": "4.24 Amendment of Export item and inputs\n(i)\nAn application for amendment of an export item or input or quantity of input\nunder SION or under ad-hoc Norms shall be filed online in ANF 4B.",
+      "action": "4.24 Amendment of Export item and inputs\n(i)\nAn application for amendment of an export item or input or quantity of input\nunder SION or under ad-hoc Norms shall be filed online in ANF 4B.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.24 - Amendment of Export item and inputs."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.24 Amendment of Export item and inputs\n(i) An application for amendment of an export item or input or quantity of input\nunder SION or under ad-hoc Norms shall be filed online in ANF 4B.",
+    "IF detected context matches section rule THEN enforce: In case of\nany major change in input or request for more wastage to that allowed under\nSION or ad-hoc norm, same should be referred to Norms Committee for\nratification.",
+    "IF detected context matches section rule THEN enforce: 4.24 Amendment of Export item and inputs\n(i)\nAn application for amendment of an export item or input or quantity of input\nunder SION or under ad-hoc Norms shall be filed online in ANF 4B.",
+    "IF validations pass THEN recommend action: 4.24 Amendment of Export item and inputs\n(i) An application for amendment of an export item or input or quantity of input\nunder SION or under ad-hoc Norms shall be filed online in ANF 4B."
+  ]
+}

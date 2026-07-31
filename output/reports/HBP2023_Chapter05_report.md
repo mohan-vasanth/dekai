@@ -1,0 +1,43 @@
+# DGFT Knowledge Extraction Report
+
+## Summary
+- source_pdf: HBP2023_Chapter05.pdf
+- page_count: 15
+- section_count: 25
+- rule_count: 231
+- condition_count: 100
+- workflow_count: 181
+- validation_count: 127
+- exception_count: 17
+- timeline_count: 34
+- authority_count: 41
+- glossary_count: 38
+
+## Section Metrics
+| section | title | rules | conditions | validations | exceptions | timelines | authorities | documents |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5.01 | Policy | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 5.02 | Application Form | 1 | 0 | 1 | 0 | 0 | 2 | 1 |
+| 5.03 | Nexus Certification | 4 | 10 | 4 | 0 | 2 | 1 | 10 |
+| 5.04 | Certificate of Installation of Capital Goods | 3 | 4 | 3 | 0 | 2 | 4 | 4 |
+| 5.05 | Port of Registration | 1 | 1 | 1 | 1 | 0 | 0 | 0 |
+| 5.06 | Import of spares, tools, refractories and catalysts | 8 | 9 | 8 | 2 | 1 | 5 | 7 |
+| 5.07 | Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG | 5 | 6 | 4 | 0 | 2 | 0 | 3 |
+| 5.08 | Procurement from SEZ | 5 | 8 | 7 | 0 | 2 | 2 | 8 |
+| 5.09 | Sourcing of Capital Goods Manufactured Indigenously | 8 | 0 | 8 | 0 | 0 | 1 | 2 |
+| 5.10 | Conditions for fulfillment of Export Obligation | 17 | 16 | 17 | 0 | 0 | 2 | 20 |
+| 5.11 | Realization of Export proceeds | 2 | 1 | 2 | 1 | 0 | 0 | 0 |
+| 5.12 | Calculation of Average Export Obligation | 0 | 1 | 0 | 0 | 1 | 0 | 0 |
+| 5.13 | Block-wise Fulfillment of EO | 15 | 7 | 15 | 4 | 5 | 5 | 2 |
+| 5.14 | Report for EO fulfilment | 12 | 5 | 12 | 1 | 1 | 4 | 2 |
+| 5.16 | Extension in Export Obligation Period | 13 | 8 | 13 | 6 | 7 | 2 | 0 |
+| 5.17 | Relief in Average Export Obligation | 2 | 3 | 2 | 1 | 3 | 1 | 0 |
+| 5.18 | Maintenance of Annual Average Export Obligation | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
+| 5.19 | Automatic EO extension in the event of ban on export product | 1 | 1 | 1 | 0 | 0 | 0 | 0 |
+| 5.20 | Export Obligation Discharge Certificate (EODC) | 6 | 3 | 6 | 0 | 2 | 3 | 4 |
+| 5.21 | Regularization of bonafide default and exit from EPCG scheme | 7 | 5 | 7 | 0 | 0 | 1 | 0 |
+| 5.22 | Maintenance of Records | 1 | 0 | 1 | 0 | 1 | 0 | 0 |
+| 5.23 | Re-Export / Repair/Replacement of Capital Goods Imported | 3 | 0 | 3 | 0 | 4 | 5 | 1 |
+| 5.24 | Penal Action | 1 | 1 | 1 | 0 | 0 | 1 | 0 |
+| 5.25 | Clubbing of EPCG authorisations | 9 | 9 | 9 | 1 | 0 | 2 | 1 |
+| 5.26 | Green Technology Products | 2 | 2 | 2 | 0 | 0 | 0 | 0 |

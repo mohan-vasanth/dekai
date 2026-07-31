@@ -1,0 +1,21 @@
+{
+  "section": "6.41",
+  "conditions": [
+    "6.41 Formats of various letters/permissions to EOUs\nThe formats of letters and permissions not specified elsewhere, which are granted by\nthe respective Jurisdictional Development Commissioners (DCs) to Export Oriented\nUnits (EOUs), are specified in Appendix - 6N of Appendices and ANFs.",
+    "The Development Commissioners may modify the format or include any additional\nconditions in such letters/permissions as deemed fit, in accordance with the\nprovisions of the Foreign Trade Policy (FTP) and Handbook of Procedures (HBP)."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.41.1",
+      "if": "6.41 Formats of various letters/permissions to EOUs\nThe formats of letters and permissions not specified elsewhere, which are granted by\nthe respective Jurisdictional Development Commissioners (DCs) to Export Oriented\nUnits (EOUs), are specified in Appendix - 6N of Appendices and ANFs.",
+      "then": "The Development Commissioners may modify the format or include any additional\nconditions in such letters/permissions as deemed fit, in accordance with the\nprovisions of the Foreign Trade Policy (FTP) and Handbook of Procedures (HBP).",
+      "source": "6.41 Formats of various letters/permissions to EOUs\nThe formats of letters and permissions not specified elsewhere, which are granted by\nthe respective Jurisdictional Development Commissioners (DCs) to Export Oriented\nUnits (EOUs), are specified in Appendix - 6N of Appendices and ANFs."
+    },
+    {
+      "id": "6.6.41.2",
+      "if": "The Development Commissioners may modify the format or include any additional\nconditions in such letters/permissions as deemed fit, in accordance with the\nprovisions of the Foreign Trade Policy (FTP) and Handbook of Procedures (HBP).",
+      "then": "The Development Commissioners may modify the format or include any additional\nconditions in such letters/permissions as deemed fit, in accordance with the\nprovisions of the Foreign Trade Policy (FTP) and Handbook of Procedures (HBP).",
+      "source": "The Development Commissioners may modify the format or include any additional\nconditions in such letters/permissions as deemed fit, in accordance with the\nprovisions of the Foreign Trade Policy (FTP) and Handbook of Procedures (HBP)."
+    }
+  ]
+}

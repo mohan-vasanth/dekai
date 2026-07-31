@@ -1,0 +1,19 @@
+{
+  "chapter_number": "7",
+  "chapter_title": "Deemed Exports",
+  "section": "7.06",
+  "title": "Rate of Drawback",
+  "business_rules": [
+    {
+      "rule_id": "CH7-SEC7_06-R001",
+      "rule_description": "7.06 Rate of Drawback\nNormally drawback may be allowed as per All Industry Rate fixed by Do R in the\nDrawback Schedule where no CENVAT credit has been availed by supplier goods. However, an application in ANF-7A, along with documents prescribed in ANF-7A\n& Appendix-7E, may be made to RA or DC concerned, as the case may be, for\nfixation of brand rate where All Industry Rate of Drawback is not available or same\nis less than 4/5th of duties actually paid on raw materials or components used in\nthe production or manufacture of the said goods.",
+      "trigger": "Rate of Drawback",
+      "condition": "7.06 Rate of Drawback\nNormally drawback may be allowed as per All Industry Rate fixed by Do R in the\nDrawback Schedule where no CENVAT credit has been availed by supplier goods.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "However, an application in ANF-7A, along with documents prescribed in ANF-7A\n& Appendix-7E, may be made to RA or DC concerned, as the case may be, for\nfixation of brand rate where All Industry Rate of Drawback is not available or same\nis less than 4/5th of duties actually paid on raw materials or components used in\nthe production or manufacture of the said goods.",
+      "output": "DEKAI should produce a compliance decision for 7.06 - Rate of Drawback."
+    }
+  ],
+  "ai_rules": []
+}

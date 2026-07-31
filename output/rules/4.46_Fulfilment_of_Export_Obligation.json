@@ -1,0 +1,22 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.46",
+  "title": "Fulfilment of Export Obligation",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_46-R001",
+      "rule_description": "4.46 Fulfilment of Export Obligation\nAuthorisation holder shall file online application in ANF 4F to Regional Authority\nconcerned and upload prescribed documents in support of fulfilment of Export\nObligation.",
+      "trigger": "Fulfilment of Export Obligation",
+      "condition": "Section 4.46 is applicable",
+      "validation": "4.46 Fulfilment of Export Obligation\nAuthorisation holder shall file online application in ANF 4F to Regional Authority\nconcerned and upload prescribed documents in support of fulfilment of Export\nObligation.",
+      "action": "4.46 Fulfilment of Export Obligation\nAuthorisation holder shall file online application in ANF 4F to Regional Authority\nconcerned and upload prescribed documents in support of fulfilment of Export\nObligation.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.46 - Fulfilment of Export Obligation."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.46 Fulfilment of Export Obligation\nAuthorisation holder shall file online application in ANF 4F to Regional Authority\nconcerned and upload prescribed documents in support of fulfilment of Export\nObligation.",
+    "IF validations pass THEN recommend action: 4.46 Fulfilment of Export Obligation\nAuthorisation holder shall file online application in ANF 4F to Regional Authority\nconcerned and upload prescribed documents in support of fulfilment of Export\nObligation."
+  ]
+}

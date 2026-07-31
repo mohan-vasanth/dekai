@@ -1,0 +1,21 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.37",
+  "title": "Depreciation Norms",
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_37-R001",
+      "rule_description": "(a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.",
+      "trigger": "Depreciation Norms",
+      "condition": "6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.",
+      "validation": "(a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.37 - Depreciation Norms."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows."
+  ]
+}

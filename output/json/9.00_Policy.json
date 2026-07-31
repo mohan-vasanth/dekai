@@ -1,0 +1,301 @@
+{
+  "chapter_number": "9",
+  "chapter_title": "Promoting Cross Border Trade in Digital Economy",
+  "section": "9.00",
+  "title": "Policy",
+  "purpose": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+  "purpose_thanglish": "Indha Policy section-la, 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+  "summary": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+  "business_meaning": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+  "business_explanation": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+  "business_explanation_thanglish": "Indha Policy section-la, 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH9-SEC9_00-R001",
+      "rule_description": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+      "trigger": "Policy",
+      "condition": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 9.00 - Policy."
+    }
+  ],
+  "conditions": [
+    "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy."
+  ],
+  "condition_logic": [
+    {
+      "id": "9.9.00.1",
+      "if": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+      "then": "Route for review",
+      "source": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy."
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [
+    "9"
+  ],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy."
+  ],
+  "workflow_ascii": "Policy\nEvaluate condition: 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+  "decision_tree": [
+    "IF section 9.00 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Policy Decision\nIF section 9.00 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Policy; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Policy, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the policy process.",
+  "real_world_example_thanglish": "Indha Policy section-la, Example: an importer or exporter invokes Policy, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the policy process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:The"
+    },
+    {
+      "name": "from_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:from"
+    },
+    {
+      "name": "given_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:given"
+    },
+    {
+      "name": "under_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:under"
+    },
+    {
+      "name": "cross_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Cross"
+    },
+    {
+      "name": "india_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:India"
+    },
+    {
+      "name": "trade_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Trade"
+    },
+    {
+      "name": "policy_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Policy"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/9.00",
+      "purpose": "Retrieve knowledge payload for section 9.00",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Policy/validate",
+      "purpose": "Validate inputs and documents for Policy",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Policy_overview",
+      "name": "Policy Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Policy_submission",
+      "name": "Policy Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "from_flag",
+        "given_flag",
+        "under_flag",
+        "cross_flag",
+        "india_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Policy require?",
+    "Which documents are needed for Policy?",
+    "How does DEKAI validate Policy requests?"
+  ],
+  "expected_ai_answers": [
+    "Policy requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Policy by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 9.00?",
+      "answer_en": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+      "question_thanglish": "Indha Policy section-la, What is the purpose of section 9.00?",
+      "answer_thanglish": "Indha Policy section-la, 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy."
+    },
+    {
+      "question_en": "What documents are required under Policy?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Policy section-la, What documents are required under Policy?",
+      "answer_thanglish": "Indha Policy section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Policy?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Policy section-la, Which authority handles Policy?",
+      "answer_thanglish": "Indha Policy section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Policy?",
+      "answer_en": "AI answers: DEKAI should evaluate section 9.00, apply the extracted rules, and guide the user through Evaluate condition: 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy..",
+      "question_thanglish": "Indha Policy section-la, User asks: How do I comply with Policy?",
+      "answer_thanglish": "Indha Policy section-la, AI answers: DEKAI should evaluate section 9.00, apply the extracted rules, and guide the user through Evaluate condition: 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Policy?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Policy section-la, User asks: Which validations apply to Policy?",
+      "answer_thanglish": "Indha Policy section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 9, section 9.00, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Policy into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Policy section-la, Capture chapter 9, section 9.00, title, and page references as immutable knowledge metadata.",
+    "Indha Policy section-la, Bind validations for Policy into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "The",
+    "from",
+    "given",
+    "under",
+    "Cross",
+    "India",
+    "Trade",
+    "Policy",
+    "Border",
+    "chapter",
+    "Foreign",
+    "relation",
+    "notified",
+    "elaborates",
+    "procedures",
+    "E-Commerce"
+  ],
+  "search_keywords": [
+    "The",
+    "from",
+    "given",
+    "under",
+    "Cross",
+    "India",
+    "Trade",
+    "Policy",
+    "Border",
+    "chapter",
+    "Foreign",
+    "relation",
+    "notified",
+    "elaborates",
+    "procedures",
+    "E-Commerce"
+  ],
+  "intent": "Provide knowledge guidance for Policy.",
+  "tags": [
+    "9.00",
+    "Policy",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    2
+  ],
+  "pages": [
+    2
+  ],
+  "source_document": "HBP2023_Chapter09.pdf",
+  "raw_text": "9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.\"]",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 9.00 Policy\nThe given chapter elaborates on the procedures in relation to the Policy as\nnotified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the\nForeign Trade Policy.;\nstop\n@enduml"
+}

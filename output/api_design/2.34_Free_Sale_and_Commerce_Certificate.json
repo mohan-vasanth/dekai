@@ -1,0 +1,65 @@
+{
+  "section": "2.34",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.34",
+      "purpose": "Retrieve knowledge payload for section 2.34",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Free-Sale-and-Commerce-Certificate/validate",
+      "purpose": "Validate inputs and documents for Free Sale and Commerce Certificate",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Free-Sale-and-Commerce-Certificate/execute",
+      "purpose": "Trigger business action for 2.34 Free Sale and Commerce Certificate\n(a) (i) RAs may issue, on application, Free Sale and Commerce certificate for export\nof items not covered under Drugs & Cosmetics Act, 1940, which have usage in\nhospitals, nursing homes and clinics, for medical and surgical purposes and are\nnot prohibited for export.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.08",
+  "title": "Facility of working from a place outside the unit",
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_08-R001",
+      "rule_description": "6.08 Facility of working from a place outside the unit\nPerson(s) / employee(s) authorized by a unit of (i) IT related EOU or (ii) STP or\n(iii) EHTP or (iv) BTP may work from a place outside the said unit, subject to\nthe following conditions:\n(i) There must be an Authorisation from the unit specifying the\nduration of such authorisation.",
+      "trigger": "Facility of working from a place outside the unit",
+      "condition": "6.08 Facility of working from a place outside the unit\nPerson(s) / employee(s) authorized by a unit of (i) IT related EOU or (ii) STP or\n(iii) EHTP or (iv) BTP may work from a place outside the said unit, subject to\nthe following conditions:\n(i) There must be an Authorisation from the unit specifying the\nduration of such authorisation.",
+      "validation": "6.08 Facility of working from a place outside the unit\nPerson(s) / employee(s) authorized by a unit of (i) IT related EOU or (ii) STP or\n(iii) EHTP or (iv) BTP may work from a place outside the said unit, subject to\nthe following conditions:\n(i) There must be an Authorisation from the unit specifying the\nduration of such authorisation.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.08 - Facility of working from a place outside the unit."
+    },
+    {
+      "rule_id": "CH6-SEC6_08-R002",
+      "rule_description": "(ii) The Unit shall be responsible for carrying out the work and\nsupervision and shall be liable for any misuse.",
+      "trigger": "Facility of working from a place outside the unit",
+      "condition": "6.08 Facility of working from a place outside the unit\nPerson(s) / employee(s) authorized by a unit of (i) IT related EOU or (ii) STP or\n(iii) EHTP or (iv) BTP may work from a place outside the said unit, subject to\nthe following conditions:\n(i)\nThere must be an Authorisation from the unit specifying the\nduration of such authorisation.",
+      "validation": "(ii) The Unit shall be responsible for carrying out the work and\nsupervision and shall be liable for any misuse.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.08 - Facility of working from a place outside the unit."
+    },
+    {
+      "rule_id": "CH6-SEC6_08-R003",
+      "rule_description": "6.08 Facility of working from a place outside the unit\nPerson(s) / employee(s) authorized by a unit of (i) IT related EOU or (ii) STP or\n(iii) EHTP or (iv) BTP may work from a place outside the said unit, subject to\nthe following conditions:\n(i)\nThere must be an Authorisation from the unit specifying the\nduration of such authorisation.",
+      "trigger": "Facility of working from a place outside the unit",
+      "condition": "6.08 Facility of working from a place outside the unit\nPerson(s) / employee(s) authorized by a unit of (i) IT related EOU or (ii) STP or\n(iii) EHTP or (iv) BTP may work from a place outside the said unit, subject to\nthe following conditions:\n(i)\nThere must be an Authorisation from the unit specifying the\nduration of such authorisation.",
+      "validation": "6.08 Facility of working from a place outside the unit\nPerson(s) / employee(s) authorized by a unit of (i) IT related EOU or (ii) STP or\n(iii) EHTP or (iv) BTP may work from a place outside the said unit, subject to\nthe following conditions:\n(i)\nThere must be an Authorisation from the unit specifying the\nduration of such authorisation.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.08 - Facility of working from a place outside the unit."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 6.08 Facility of working from a place outside the unit\nPerson(s) / employee(s) authorized by a unit of (i) IT related EOU or (ii) STP or\n(iii) EHTP or (iv) BTP may work from a place outside the said unit, subject to\nthe following conditions:\n(i) There must be an Authorisation from the unit specifying the\nduration of such authorisation.",
+    "IF detected context matches section rule THEN enforce: (ii) The Unit shall be responsible for carrying out the work and\nsupervision and shall be liable for any misuse.",
+    "IF detected context matches section rule THEN enforce: 6.08 Facility of working from a place outside the unit\nPerson(s) / employee(s) authorized by a unit of (i) IT related EOU or (ii) STP or\n(iii) EHTP or (iv) BTP may work from a place outside the said unit, subject to\nthe following conditions:\n(i)\nThere must be an Authorisation from the unit specifying the\nduration of such authorisation."
+  ]
+}

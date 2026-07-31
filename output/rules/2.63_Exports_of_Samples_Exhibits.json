@@ -1,0 +1,32 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.63",
+  "title": "Exports of Samples / Exhibits",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_63-R001",
+      "rule_description": "2.63 Exports of Samples / Exhibits\n(a) Exports of trade and technical samples of freely exportable item shall be\nallowed without any limit.",
+      "trigger": "Exports of Samples / Exhibits",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "2.63 Exports of Samples / Exhibits\n(a) Exports of trade and technical samples of freely exportable item shall be\nallowed without any limit.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.63 - Exports of Samples / Exhibits."
+    },
+    {
+      "rule_id": "CH2-SEC2_63-R002",
+      "rule_description": "EXPORTS\n2.63 Exports of Samples / Exhibits\n(a)\nExports of trade and technical samples of freely exportable item shall be\nallowed without any limit.",
+      "trigger": "Exports of Samples / Exhibits",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "EXPORTS\n2.63 Exports of Samples / Exhibits\n(a)\nExports of trade and technical samples of freely exportable item shall be\nallowed without any limit.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.63 - Exports of Samples / Exhibits."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.63 Exports of Samples / Exhibits\n(a) Exports of trade and technical samples of freely exportable item shall be\nallowed without any limit.",
+    "IF detected context matches section rule THEN enforce: EXPORTS\n2.63 Exports of Samples / Exhibits\n(a)\nExports of trade and technical samples of freely exportable item shall be\nallowed without any limit."
+  ]
+}

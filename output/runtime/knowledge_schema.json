@@ -1,0 +1,96 @@
+{
+  "collections": {
+    "documents": [
+      "id",
+      "lineageId",
+      "name",
+      "version",
+      "versionCount",
+      "pages",
+      "sections",
+      "rules",
+      "conditions",
+      "exceptions",
+      "workflows"
+    ],
+    "chapters": [
+      "chapter_number",
+      "chapter_title",
+      "summary_en",
+      "section_count",
+      "rule_count"
+    ],
+    "sections": [
+      "id",
+      "title",
+      "chapterNumber",
+      "documentName",
+      "summary",
+      "businessMeaning",
+      "pages",
+      "keywords",
+      "hsCodes",
+      "eximCodes"
+    ],
+    "rules": [
+      "id",
+      "sectionId",
+      "ruleName",
+      "description",
+      "condition",
+      "exception",
+      "sourcePages"
+    ],
+    "conditions": [
+      "id",
+      "sectionId",
+      "text",
+      "sourcePages"
+    ],
+    "workflows": [
+      "id",
+      "section",
+      "steps",
+      "sourcePages"
+    ],
+    "definitions": [
+      "id",
+      "term",
+      "definition",
+      "sectionId",
+      "sourcePages"
+    ],
+    "chunks": [
+      "id",
+      "sectionId",
+      "text",
+      "sourcePages",
+      "vector",
+      "hsCodes",
+      "eximCodes",
+      "description",
+      "chunkHash",
+      "isTableRow"
+    ],
+    "relationships": [
+      "id",
+      "sourceType",
+      "sourceId",
+      "targetType",
+      "targetId",
+      "relation"
+    ],
+    "versionHistory": [
+      "lineageId",
+      "currentName",
+      "versions"
+    ]
+  },
+  "storage": {
+    "knowledgeIndex": "C:\\Users\\mabis\\OneDrive\\Documents\\New folder\\dekai-dgft-parser\\output\\runtime\\knowledge_index.json",
+    "knowledgeSchema": "C:\\Users\\mabis\\OneDrive\\Documents\\New folder\\dekai-dgft-parser\\output\\runtime\\knowledge_schema.json",
+    "documentVersions": "C:\\Users\\mabis\\OneDrive\\Documents\\New folder\\dekai-dgft-parser\\output\\runtime\\document_versions.json",
+    "chunkDirectory": "C:\\Users\\mabis\\OneDrive\\Documents\\New folder\\dekai-dgft-parser\\output\\chunks",
+    "embeddingDirectory": "C:\\Users\\mabis\\OneDrive\\Documents\\New folder\\dekai-dgft-parser\\output\\embeddings"
+  }
+}

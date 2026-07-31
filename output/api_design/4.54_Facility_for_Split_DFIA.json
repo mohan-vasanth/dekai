@@ -1,0 +1,53 @@
+{
+  "section": "4.54",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.54",
+      "purpose": "Retrieve knowledge payload for section 4.54",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Facility-for-Split-DFIA/validate",
+      "purpose": "Validate inputs and documents for Facility for Split DFIA",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Facility-for-Split-DFIA/execute",
+      "purpose": "Trigger business action for 10 lakh\neach and multiples thereof may also be issued, on request at the time of seeking\ntransferability.",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

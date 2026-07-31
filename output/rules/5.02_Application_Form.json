@@ -1,0 +1,22 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.02",
+  "title": "Application Form",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_02-R001",
+      "rule_description": "5.02 Application Form\nAn application for grant of an authorisation may be made by Registered Office or\nHead Office or a Branch Office or Manufacturing Unit of an eligible exporter to RA\nconcerned in ANF 5A along with documents prescribed therein.",
+      "trigger": "Application Form",
+      "condition": "Section 5.02 is applicable",
+      "validation": "5.02 Application Form\nAn application for grant of an authorisation may be made by Registered Office or\nHead Office or a Branch Office or Manufacturing Unit of an eligible exporter to RA\nconcerned in ANF 5A along with documents prescribed therein.",
+      "action": "5.02 Application Form\nAn application for grant of an authorisation may be made by Registered Office or\nHead Office or a Branch Office or Manufacturing Unit of an eligible exporter to RA\nconcerned in ANF 5A along with documents prescribed therein.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.02 - Application Form."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 5.02 Application Form\nAn application for grant of an authorisation may be made by Registered Office or\nHead Office or a Branch Office or Manufacturing Unit of an eligible exporter to RA\nconcerned in ANF 5A along with documents prescribed therein.",
+    "IF validations pass THEN recommend action: 5.02 Application Form\nAn application for grant of an authorisation may be made by Registered Office or\nHead Office or a Branch Office or Manufacturing Unit of an eligible exporter to RA\nconcerned in ANF 5A along with documents prescribed therein."
+  ]
+}

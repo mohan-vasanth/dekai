@@ -1,0 +1,22 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.19",
+  "title": "Automatic EO extension in the event of ban on export product",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_19-R001",
+      "rule_description": "Authorisation holder would not be required to maintain average EO as well for the\nban period.",
+      "trigger": "Automatic EO extension in the event of ban on export product",
+      "condition": "5.19 Automatic EO extension in the event of ban on export product\nWhenever a ban/restriction is imposed on export of any product, export\nobligation period in respect of EPCG authorisations already issued prior to\nimposition of ban on such export products would stand automatically extended\nfor a period equivalent to duration of such ban, without any composition fee.",
+      "validation": "Authorisation holder would not be required to maintain average EO as well for the\nban period.",
+      "action": "5.19 Automatic EO extension in the event of ban on export product\nWhenever a ban/restriction is imposed on export of any product, export\nobligation period in respect of EPCG authorisations already issued prior to\nimposition of ban on such export products would stand automatically extended\nfor a period equivalent to duration of such ban, without any composition fee.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.19 - Automatic EO extension in the event of ban on export product."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Authorisation holder would not be required to maintain average EO as well for the\nban period.",
+    "IF validations pass THEN recommend action: 5.19 Automatic EO extension in the event of ban on export product\nWhenever a ban/restriction is imposed on export of any product, export\nobligation period in respect of EPCG authorisations already issued prior to\nimposition of ban on such export products would stand automatically extended\nfor a period equivalent to duration of such ban, without any composition fee."
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "10.01",
+  "title": "Coverage",
+  "purpose": "10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.",
+  "purpose_thanglish": "Indha Coverage section-la, 10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.",
+  "summary": "10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.",
+  "business_meaning": "10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.",
+  "business_explanation": "10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.",
+  "business_explanation_thanglish": "Indha Coverage section-la, 10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC10_01-R001",
+      "rule_description": "10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.",
+      "trigger": "Coverage",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10.01 - Coverage."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [
+    "10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET."
+  ],
+  "required_documents": [
+    "10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET."
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 10.01 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Coverage\nReview section 10.01 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 10.01 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Coverage Decision\nIF section 10.01 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Coverage; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Coverage, submits 10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET., and DEKAI uses the extracted rules to follow the coverage process.",
+  "real_world_example_thanglish": "Indha Coverage section-la, Example: an importer or exporter invokes Coverage, submits 10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET., and DEKAI uses the extracted rules to follow the coverage process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "use_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:use"
+    },
+    {
+      "name": "this_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:This"
+    },
+    {
+      "name": "dual_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:dual"
+    },
+    {
+      "name": "items_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:items"
+    },
+    {
+      "name": "under_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:under"
+    },
+    {
+      "name": "covers_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:covers"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/10.01",
+      "purpose": "Retrieve knowledge payload for section 10.01",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Coverage/validate",
+      "purpose": "Validate inputs and documents for Coverage",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Coverage_overview",
+      "name": "Coverage Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Coverage_submission",
+      "name": "Coverage Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "for_flag",
+        "use_flag",
+        "this_flag",
+        "dual_flag",
+        "items_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Coverage require?",
+    "Which documents are needed for Coverage?",
+    "How does DEKAI validate Coverage requests?"
+  ],
+  "expected_ai_answers": [
+    "Coverage requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: 10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.",
+    "DEKAI validates Coverage by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 10.01?",
+      "answer_en": "10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.",
+      "question_thanglish": "Indha Coverage section-la, What is the purpose of section 10.01?",
+      "answer_thanglish": "Indha Coverage section-la, 10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET."
+    },
+    {
+      "question_en": "What documents are required under Coverage?",
+      "answer_en": "10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.",
+      "question_thanglish": "Indha Coverage section-la, What documents are required under Coverage?",
+      "answer_thanglish": "Indha Coverage section-la, 10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET."
+    },
+    {
+      "question_en": "Which authority handles Coverage?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Coverage section-la, Which authority handles Coverage?",
+      "answer_thanglish": "Indha Coverage section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Coverage?",
+      "answer_en": "AI answers: DEKAI should evaluate section 10.01, apply the extracted rules, and guide the user through Review section 10.01 requirements.",
+      "question_thanglish": "Indha Coverage section-la, User asks: How do I comply with Coverage?",
+      "answer_thanglish": "Indha Coverage section-la, AI answers: DEKAI should evaluate section 10.01, apply the extracted rules, and guide the user through Review section 10.01 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Coverage?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Coverage section-la, User asks: Which validations apply to Coverage?",
+      "answer_thanglish": "Indha Coverage section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 10, section 10.01, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Coverage into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: 10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Coverage section-la, Capture chapter 10, section 10.01, title, and page references as immutable knowledge metadata.",
+    "Indha Coverage section-la, Bind validations for Coverage into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Coverage section-la, Expose document upload controls for: 10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.."
+  ],
+  "keywords": [
+    "the",
+    "for",
+    "use",
+    "This",
+    "dual",
+    "items",
+    "under",
+    "covers",
+    "export",
+    "SCOMET",
+    "chapter",
+    "various",
+    "Coverage",
+    "relating",
+    "procedure",
+    "applications"
+  ],
+  "search_keywords": [
+    "the",
+    "for",
+    "use",
+    "This",
+    "dual",
+    "items",
+    "under",
+    "covers",
+    "export",
+    "SCOMET",
+    "chapter",
+    "various",
+    "Coverage",
+    "relating",
+    "procedure",
+    "applications"
+  ],
+  "intent": "Provide knowledge guidance for Coverage.",
+  "tags": [
+    "10.01",
+    "Coverage",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    2
+  ],
+  "pages": [
+    2
+  ],
+  "source_document": "Chapter+10+HBP+(19.05.2026).pdf",
+  "raw_text": "10.01 Coverage\nThis chapter covers the procedure for various applications relating to export of\ndual use items under SCOMET.",
+  "mermaid": "flowchart TD\n    S1[\"Review section 10.01 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 10.01 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

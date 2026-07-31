@@ -1,0 +1,44 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.35",
+  "title": "End User Certificate",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_35-R001",
+      "rule_description": "The certificate shall be issued\nbased on an application made under ANF 2J, along with documents prescribed therein.",
+      "trigger": "End User Certificate",
+      "condition": "2.35 End User Certificate\nIn case of import of any Free/Restricted items in India, if a foreign Government insists\non certification of the end user of the item before permitting export of the same from\ntheir country.",
+      "validation": "The certificate shall be issued\nbased on an application made under ANF 2J, along with documents prescribed therein.",
+      "action": "the Regional Authority (RA) may issue an End User Certificate (EUC) as\nper Appendix 2Q of Appendices and Aayat Niryat Forms.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.35 - End User Certificate."
+    },
+    {
+      "rule_id": "CH2-SEC2_35-R002",
+      "rule_description": "Provided further that, in the case of import of restricted items, the EUC shall be issued\nby RA only for those items in respect of which a restricted authorisation has been\ngranted by DGFT and is valid.",
+      "trigger": "End User Certificate",
+      "condition": "the Regional Authority (RA) may issue an End User Certificate (EUC) as\nper Appendix 2Q of Appendices and Aayat Niryat Forms.",
+      "validation": "Provided further that, in the case of import of restricted items, the EUC shall be issued\nby RA only for those items in respect of which a restricted authorisation has been\ngranted by DGFT and is valid.",
+      "action": "The certificate shall be issued\nbased on an application made under ANF 2J, along with documents prescribed therein.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.35 - End User Certificate."
+    },
+    {
+      "rule_id": "CH2-SEC2_35-R003",
+      "rule_description": "The quantity and value in the EUC should be limited to\nthe quantity and value specified in the said restricted authorisation.",
+      "trigger": "End User Certificate",
+      "condition": "The certificate shall be issued\nbased on an application made under ANF 2J, along with documents prescribed therein.",
+      "validation": "Provided further that, in the case of import of restricted items, the EUC shall be issued\nby RA only for those items in respect of which a restricted authorisation has been\ngranted by DGFT and is valid.",
+      "action": "Provided further that, in the case of import of restricted items, the EUC shall be issued\nby RA only for those items in respect of which a restricted authorisation has been\ngranted by DGFT and is valid.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.35 - End User Certificate."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: The certificate shall be issued\nbased on an application made under ANF 2J, along with documents prescribed therein.",
+    "IF detected context matches section rule THEN enforce: Provided further that, in the case of import of restricted items, the EUC shall be issued\nby RA only for those items in respect of which a restricted authorisation has been\ngranted by DGFT and is valid.",
+    "IF detected context matches section rule THEN enforce: The quantity and value in the EUC should be limited to\nthe quantity and value specified in the said restricted authorisation.",
+    "IF validations pass THEN recommend action: the Regional Authority (RA) may issue an End User Certificate (EUC) as\nper Appendix 2Q of Appendices and Aayat Niryat Forms."
+  ]
+}

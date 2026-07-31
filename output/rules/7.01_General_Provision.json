@@ -1,0 +1,55 @@
+{
+  "chapter_number": "7",
+  "chapter_title": "Deemed Exports",
+  "section": "7.01",
+  "title": "General Provision",
+  "business_rules": [
+    {
+      "rule_id": "CH7-SEC7_01-R001",
+      "rule_description": "7.01 General Provision\n(a) Supplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+      "trigger": "General Provision",
+      "condition": "Section 7.01 is applicable",
+      "validation": "7.01 General Provision\n(a) Supplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+      "action": "7.01 General Provision\n(a) Supplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+      "exception": "7.01 General Provision\n(a) Supplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+      "output": "DEKAI should produce a compliance decision for 7.01 - General Provision."
+    },
+    {
+      "rule_id": "CH7-SEC7_01-R002",
+      "rule_description": "(b) For supply of goods to an EOUs only, DTA supplier shall claim benefits from\nJurisdictional RA and recipient EOU unit shall file application to Jurisdictional\nDevelopment Commissioner of SEZ as per Appendix 6J for claiming benefits\nprovided supplier has not claimed any benefit from Jurisdictional RA.",
+      "trigger": "General Provision",
+      "condition": "Section 7.01 is applicable",
+      "validation": "(b) For supply of goods to an EOUs only, DTA supplier shall claim benefits from\nJurisdictional RA and recipient EOU unit shall file application to Jurisdictional\nDevelopment Commissioner of SEZ as per Appendix 6J for claiming benefits\nprovided supplier has not claimed any benefit from Jurisdictional RA.",
+      "action": "7.01 General Provision\n(a)\nSupplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+      "exception": "7.01 General Provision\n(a)\nSupplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+      "output": "DEKAI should produce a compliance decision for 7.01 - General Provision."
+    },
+    {
+      "rule_id": "CH7-SEC7_01-R003",
+      "rule_description": "7.01 General Provision\n(a)\nSupplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+      "trigger": "General Provision",
+      "condition": "Section 7.01 is applicable",
+      "validation": "7.01 General Provision\n(a)\nSupplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+      "action": "7.01 General Provision\n(a)\nSupplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+      "exception": "7.01 General Provision\n(a)\nSupplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+      "output": "DEKAI should produce a compliance decision for 7.01 - General Provision."
+    },
+    {
+      "rule_id": "CH7-SEC7_01-R004",
+      "rule_description": "(b)\nFor supply of goods to an EOUs only, DTA supplier shall claim benefits from\nJurisdictional RA and recipient EOU unit shall file application to Jurisdictional\nDevelopment Commissioner of SEZ as per Appendix 6J for claiming benefits\nprovided supplier has not claimed any benefit from Jurisdictional RA.",
+      "trigger": "General Provision",
+      "condition": "Section 7.01 is applicable",
+      "validation": "(b)\nFor supply of goods to an EOUs only, DTA supplier shall claim benefits from\nJurisdictional RA and recipient EOU unit shall file application to Jurisdictional\nDevelopment Commissioner of SEZ as per Appendix 6J for claiming benefits\nprovided supplier has not claimed any benefit from Jurisdictional RA.",
+      "action": "7.01 General Provision\n(a)\nSupplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+      "exception": "7.01 General Provision\n(a)\nSupplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+      "output": "DEKAI should produce a compliance decision for 7.01 - General Provision."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 7.01 General Provision\n(a) Supplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+    "IF detected context matches section rule THEN enforce: (b) For supply of goods to an EOUs only, DTA supplier shall claim benefits from\nJurisdictional RA and recipient EOU unit shall file application to Jurisdictional\nDevelopment Commissioner of SEZ as per Appendix 6J for claiming benefits\nprovided supplier has not claimed any benefit from Jurisdictional RA.",
+    "IF detected context matches section rule THEN enforce: 7.01 General Provision\n(a)\nSupplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein.",
+    "IF detected context matches section rule THEN enforce: (b)\nFor supply of goods to an EOUs only, DTA supplier shall claim benefits from\nJurisdictional RA and recipient EOU unit shall file application to Jurisdictional\nDevelopment Commissioner of SEZ as per Appendix 6J for claiming benefits\nprovided supplier has not claimed any benefit from Jurisdictional RA.",
+    "IF validations pass THEN recommend action: 7.01 General Provision\n(a) Supplier / Recipient of goods shall submit application for claiming\ndeemed export benefits, in ANF-7A, along with the documents prescribed\ntherein, to the Jurisdictional RA as per Appendix 1A except for category (b)\nmentioned therein."
+  ]
+}

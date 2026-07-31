@@ -1,0 +1,57 @@
+{
+  "section": "6.02",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.02",
+      "purpose": "Retrieve knowledge payload for section 6.02",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Legal-Undertaking-LUT/validate",
+      "purpose": "Validate inputs and documents for Legal Undertaking (LUT)",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Legal-Undertaking-LUT/execute",
+      "purpose": "Trigger business action for 6.02 Legal Undertaking (LUT)\n(a) Approved EOU / EHTP / STP / BTP unit shall execute an LUT with\nDC / Designated Officer concerned as in Appendix 6E of Appendices\n& ANFs.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

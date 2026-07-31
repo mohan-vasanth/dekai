@@ -1,0 +1,53 @@
+{
+  "section": "2.12",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.12",
+      "purpose": "Retrieve knowledge payload for section 2.12",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/One-PAN-One-IEC/validate",
+      "purpose": "Validate inputs and documents for One PAN-One IEC",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/One-PAN-One-IEC/execute",
+      "purpose": "Trigger business action for 2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

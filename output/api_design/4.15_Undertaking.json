@@ -1,0 +1,61 @@
+{
+  "section": "4.15",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.15",
+      "purpose": "Retrieve knowledge payload for section 4.15",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Undertaking/validate",
+      "purpose": "Validate inputs and documents for Undertaking",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Undertaking/execute",
+      "purpose": "Trigger business action for 84\n31.03.2026.i Since all decisions of the Norms Committees are available in the\nform of minutes on the DGFT website, all other applicants of Advance\nAuthorisation are also eligible to apply and get their authorisations based\non such ratified norms on repeat basis during validity of these norms.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

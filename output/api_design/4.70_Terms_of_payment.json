@@ -1,0 +1,55 @@
+{
+  "section": "4.70",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.70",
+      "purpose": "Retrieve knowledge payload for section 4.70",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Terms-of-payment/validate",
+      "purpose": "Validate inputs and documents for Terms of payment",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Terms-of-payment/execute",
+      "purpose": "Trigger business action for 4.70 Terms of payment\nExport of gold / silver / platinum jewellery and articles thereof shall be against\nirrevocable letter of credit, payment of cash on delivery basis, Documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

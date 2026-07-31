@@ -1,0 +1,22 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.80",
+  "title": "Applying for RCMC",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_80-R001",
+      "rule_description": "The exporter is required to obtain RCMC from the Council which is\nconcerned with the product of his main line of business.",
+      "trigger": "Applying for RCMC",
+      "condition": "(b) In case an export product is not covered by any Export Promotion\nCouncil/Commodity Board etc., RCMC in respect thereof is to be obtained from FIEO.",
+      "validation": "The exporter is required to obtain RCMC from the Council which is\nconcerned with the product of his main line of business.",
+      "action": "2.80 Applying for RCMC\n(a) While applying for RCMC, an exporter has to declare his main line of business in\nthe application.",
+      "exception": "(c) In respect of multi product exporters having their head office/ registered office\nin the North Eastern States, RCMC may be obtained from Shellac & Forest Products\nExport Promotion Council (except for the products looked after by APEDA, Spices\nBoard and Tea Board).",
+      "output": "DEKAI should produce a compliance decision for 2.80 - Applying for RCMC."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: The exporter is required to obtain RCMC from the Council which is\nconcerned with the product of his main line of business.",
+    "IF validations pass THEN recommend action: 2.80 Applying for RCMC\n(a) While applying for RCMC, an exporter has to declare his main line of business in\nthe application."
+  ]
+}

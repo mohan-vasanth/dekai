@@ -1,0 +1,47 @@
+{
+  "section": "4.13",
+  "ui": [
+    {
+      "screen_id": "Authorisation_in_Excess_of_Entitlement_overview",
+      "name": "Authorisation in Excess of Entitlement Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Authorisation_in_Excess_of_Entitlement_submission",
+      "name": "Authorisation in Excess of Entitlement Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "cif_flag",
+        "bank_flag",
+        "from_flag",
+        "make_flag",
+        "this_flag"
+      ]
+    },
+    {
+      "screen_id": "Authorisation_in_Excess_of_Entitlement_exceptions",
+      "name": "Authorisation in Excess of Entitlement Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

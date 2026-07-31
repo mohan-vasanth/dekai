@@ -1,0 +1,57 @@
+{
+  "section": "4.09",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.09",
+      "purpose": "Retrieve knowledge payload for section 4.09",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Cases-requiring-Sanitary-Import-Permit/validate",
+      "purpose": "Validate inputs and documents for Cases requiring Sanitary Import Permit.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Cases-requiring-Sanitary-Import-Permit/execute",
+      "purpose": "Trigger business action for (i) Where import of meat and meat products of any kind including fresh, chilled\nand frozen meat, tissue or organs of poultry, pig, sheep, goat; egg & egg\npowder; milk & milk products; bovine, ovine and caprine embryos, ova or\nsemen; and pet food products of animal origin has been sought as an input\nunder Advance Authorisation, the Regional Authority, while issuing Advance\nAuthorisation shall endorse a condition that before effecting imports of any\nof these inputs, Sanitary Import Permit shall be obtained from the Department\nof Animal Husbandry, Dairying and Fisheries(DAHDF).",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

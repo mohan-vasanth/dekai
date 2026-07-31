@@ -1,0 +1,1238 @@
+{
+  "resources": [
+    "Policy",
+    "Coverage",
+    "SCOMET-categories-and-licensing-jurisdiction",
+    "Supply-of-SCOMET-Items-from-DTA-to-SEZ-Eo-U-and-outside",
+    "Application-and-Documentation-for-SCOMET-Authorisation",
+    "Additional-controls-on-Non-SCOMET-items-for-dual-use",
+    "Inter-Ministerial-Working-Group-IMWG",
+    "Applicability-of-Weapon-of-Mass-Development-Act-WMD-Act",
+    "Procedure-Guidelines-for-filing-Evaluation-of-Applications",
+    "Issue-of-authorisation-for-Repeat-Orders-of-SCOMET-item-s",
+    "Issue-of-export-authorisation-for-spare-parts-of-SCOMET-items",
+    "Issue-of-authorisations-for-repair-replacement-of-defective",
+    "Issue-of-export-authorisations-for",
+    "Issue-of-export-authorisations-for-re-export-return-of",
+    "Global-Authorisation-for-Intra-Company-Transfers-GAICT",
+    "B-below",
+    "General-Authorisation-for-Export-of-Chemicals-and-related",
+    "Validity-Period-of-SCOMET-Authorisations",
+    "Record-Keeping",
+    "Voluntary-Self-Disclosure-of-export-of-dual-use-items",
+    "Revalidation-of-SCOMET-Authorisation"
+  ],
+  "sections": [
+    {
+      "section": "10.00",
+      "title": "Policy",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.00",
+          "purpose": "Retrieve knowledge payload for section 10.00",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Policy/validate",
+          "purpose": "Validate inputs and documents for Policy",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.01",
+      "title": "Coverage",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.01",
+          "purpose": "Retrieve knowledge payload for section 10.01",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Coverage/validate",
+          "purpose": "Validate inputs and documents for Coverage",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.02",
+      "title": "SCOMET categories and licensing jurisdiction",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.02",
+          "purpose": "Retrieve knowledge payload for section 10.02",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/SCOMET-categories-and-licensing-jurisdiction/validate",
+          "purpose": "Validate inputs and documents for SCOMET categories and licensing jurisdiction",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/SCOMET-categories-and-licensing-jurisdiction/execute",
+          "purpose": "Trigger business action for Applicable guidelines are notified by\nthe DAE for Nuclear Transfers (Exports) and Notification of schedule of\nPrescribed Substances, Prescribed Equipment and Technology\" issued\nunder Atomic Energy Act 1962 and Atomic Energy (Working of Mines,\nMinerals and Handling of Prescribed Substance) Rules 1984.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.03",
+      "title": "Supply of SCOMET Items from DTA to SEZ/Eo U and outside",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.03",
+          "purpose": "Retrieve knowledge payload for section 10.03",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Supply-of-SCOMET-Items-from-DTA-to-SEZ-Eo-U-and-outside/validate",
+          "purpose": "Validate inputs and documents for Supply of SCOMET Items from DTA to SEZ/Eo U and outside",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Supply-of-SCOMET-Items-from-DTA-to-SEZ-Eo-U-and-outside/execute",
+          "purpose": "Trigger business action for All supplies of SCOMET items from DTA to\nSEZ/EOU will be reported to the Development Commissioner (DC) of the\nrespective SEZ/Eo U by the supplier in the prescribed proforma [Annexure 1 to\nAppendix-3 to Schedule 2 of ITC (HS) Classifications of Export and Import Items]\nwithin one week of the supplies getting effected.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.04",
+      "title": "Application and Documentation for SCOMET Authorisation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.04",
+          "purpose": "Retrieve knowledge payload for section 10.04",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-and-Documentation-for-SCOMET-Authorisation/validate",
+          "purpose": "Validate inputs and documents for Application and Documentation for SCOMET Authorisation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-and-Documentation-for-SCOMET-Authorisation/execute",
+          "purpose": "Trigger business action for (c) While submitting the online application, all the required documents as\napplicable and specified in relevant Appendices are to be uploaded as PDF\nfiles.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.05",
+      "title": "Additional controls on Non-SCOMET items for dual use",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.05",
+          "purpose": "Retrieve knowledge payload for section 10.05",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Additional-controls-on-Non-SCOMET-items-for-dual-use/validate",
+          "purpose": "Validate inputs and documents for Additional controls on Non-SCOMET items for dual use",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Additional-controls-on-Non-SCOMET-items-for-dual-use/execute",
+          "purpose": "Trigger business action for 10.05 Additional controls on Non-SCOMET items for dual use\n(Catch-all controls)\nIf the exporter has been notified in writing by DGFT or he knows or has reason to\nbelieve that an item not covered in the SCOMET list has a potential risk of use in or\ndiversion to Weapons of Mass Destruction (WMD) or in missile system or military\nuse (including by terrorists and non-state actors), he shall apply for a SCOMET\nauthorisation.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.06",
+      "title": "Inter Ministerial Working Group (IMWG)",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.06",
+          "purpose": "Retrieve knowledge payload for section 10.06",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Inter-Ministerial-Working-Group-IMWG/validate",
+          "purpose": "Validate inputs and documents for Inter Ministerial Working Group (IMWG)",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Inter-Ministerial-Working-Group-IMWG/execute",
+          "purpose": "Trigger business action for This is including but not limited to the control lists of the Nuclear\nSuppliers Group, Missile Technology Control Regime, Australia Group\n(and its Warning List or Awareness Raising Guidelines) and Wassenaar\nArrangement (and its Sensitive List and Very Sensitive List) as amended\nfrom time to time;\nII.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.07",
+      "title": "Applicability of Weapon of Mass Development Act (WMD Act)",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.07",
+          "purpose": "Retrieve knowledge payload for section 10.07",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Applicability-of-Weapon-of-Mass-Development-Act-WMD-Act/validate",
+          "purpose": "Validate inputs and documents for Applicability of Weapon of Mass Development Act (WMD Act)",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.08",
+      "title": "Procedure/ Guidelines for filing / Evaluation of Applications",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.08",
+          "purpose": "Retrieve knowledge payload for section 10.08",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Procedure-Guidelines-for-filing-Evaluation-of-Applications/validate",
+          "purpose": "Validate inputs and documents for Procedure/ Guidelines for filing / Evaluation of Applications",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.09",
+      "title": "Issue of authorisation for Repeat Orders of SCOMET item(s)",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.09",
+          "purpose": "Retrieve knowledge payload for section 10.09",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Issue-of-authorisation-for-Repeat-Orders-of-SCOMET-item-s/validate",
+          "purpose": "Validate inputs and documents for Issue of authorisation for Repeat Orders of SCOMET item(s)",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Issue-of-authorisation-for-Repeat-Orders-of-SCOMET-item-s/execute",
+          "purpose": "Trigger business action for 10.09 Issue of authorisation for Repeat Orders of SCOMET item(s)\nAn application for grant of an Authorisation for repeat orders (excluding Category\n3A401 and software and technology under any category) for export of same\nSCOMET items to the same country/entities shall be made in prescribed proforma\n[ANF 10A] through online SCOMET portal along with other supporting documents,\nas prescribed in Appendix 10B(i) and Appendix 10B(ii).",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.11",
+      "title": "Issue of export authorisation for spare parts of SCOMET items",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.11",
+          "purpose": "Retrieve knowledge payload for section 10.11",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Issue-of-export-authorisation-for-spare-parts-of-SCOMET-items/validate",
+          "purpose": "Validate inputs and documents for Issue of export authorisation for spare parts of SCOMET items",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Issue-of-export-authorisation-for-spare-parts-of-SCOMET-items/execute",
+          "purpose": "Trigger business action for 10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.12",
+      "title": "Issue of authorisations for repair/replacement of defective",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.12",
+          "purpose": "Retrieve knowledge payload for section 10.12",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Issue-of-authorisations-for-repair-replacement-of-defective/validate",
+          "purpose": "Validate inputs and documents for Issue of authorisations for repair/replacement of defective",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Issue-of-authorisations-for-repair-replacement-of-defective/execute",
+          "purpose": "Trigger business action for 10.12 Issue of authorisations for repair/replacement of defective\nSCOMET items\nAn application for grant of an Authorisation for export/re-export of SCOMET\nitems, as the case may be for (i) repair/replacement of imported item(s) abroad\nand return (ii) repair/replacement of indigenous SCOMET items (iii) return of\nitems imported for repair at a repair facility in India and (iv) Authorisation for\nexport of SCOMET items after repair in india (GAER) shall be made in prescribed\nproforma [ANF 10A] through online SCOMET portal along with other supporting\ndocuments, as prescribed in Appendix 10D, 10E, 10F and 10F(i), as applicable.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.13",
+      "title": "Issue of export authorisations for",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.13",
+          "purpose": "Retrieve knowledge payload for section 10.13",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Issue-of-export-authorisations-for/validate",
+          "purpose": "Validate inputs and documents for Issue of export authorisations for",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Issue-of-export-authorisations-for/execute",
+          "purpose": "Trigger business action for 10.13 Issue of export authorisations for\ndemo/display/exhibition/tenders/ RFP/RFQ/NIT of SCOMET items An\npg.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.14",
+      "title": "Issue of export authorisations for re-export/return of",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.14",
+          "purpose": "Retrieve knowledge payload for section 10.14",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Issue-of-export-authorisations-for-re-export-return-of/validate",
+          "purpose": "Validate inputs and documents for Issue of export authorisations for re-export/return of",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Issue-of-export-authorisations-for-re-export-return-of/execute",
+          "purpose": "Trigger business action for 10.14 Issue of export authorisations for re-export/return of\nimported SCOMET items to the same foreign entity or to its OEM\n(including agencies authorized by OEM)\ni.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.15",
+      "title": "Global Authorisation for Intra-Company Transfers (GAICT)",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.15",
+          "purpose": "Retrieve knowledge payload for section 10.15",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Global-Authorisation-for-Intra-Company-Transfers-GAICT/validate",
+          "purpose": "Validate inputs and documents for Global Authorisation for Intra-Company Transfers (GAICT)",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Global-Authorisation-for-Intra-Company-Transfers-GAICT/execute",
+          "purpose": "Trigger business action for However, the final decision to approve a GAICT\nauthorisation lies with the relevant authority.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.15",
+      "title": "B below.",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.15",
+          "purpose": "Retrieve knowledge payload for section 10.15",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/B-below/validate",
+          "purpose": "Validate inputs and documents for B below.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/B-below/execute",
+          "purpose": "Trigger business action for In respect of export/re-export of SCOMET items including software and\ntechnology,the applicant exporter shall submit an application for GAICT\npg.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.16",
+      "title": "General Authorisation for Export of Chemicals and related",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.16",
+          "purpose": "Retrieve knowledge payload for section 10.16",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/General-Authorisation-for-Export-of-Chemicals-and-related/validate",
+          "purpose": "Validate inputs and documents for General Authorisation for Export of Chemicals and related",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/General-Authorisation-for-Export-of-Chemicals-and-related/execute",
+          "purpose": "Trigger business action for In respect of export/re-export of SCOMET items under the Categories / Sub\nCategories of 1C, 1D,1E, 3D001 and 3D004 (excluding software and\ntechnology), as well as chemicals listed in the Appendix 10(N), to the\nspecified countries mentioned in the Appendix 10(N), the applicant\nexporter shall submit an application for GAEC through online SCOMET\nportal and attach information in proforma –ANF-10A;\na.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.17",
+      "title": "Validity Period of SCOMET Authorisations",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.17",
+          "purpose": "Retrieve knowledge payload for section 10.17",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Validity-Period-of-SCOMET-Authorisations/validate",
+          "purpose": "Validate inputs and documents for Validity Period of SCOMET Authorisations",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Validity-Period-of-SCOMET-Authorisations/execute",
+          "purpose": "Trigger business action for 10.17 Validity Period of SCOMET Authorisations\nThe validity period of SCOMET authorisations from the date of issue shall be as\nfollows, unless specified otherwise\nS.No.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.18",
+      "title": "Record Keeping",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.18",
+          "purpose": "Retrieve knowledge payload for section 10.18",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Record-Keeping/validate",
+          "purpose": "Validate inputs and documents for Record Keeping",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Record-Keeping/execute",
+          "purpose": "Trigger business action for 10.18 Record Keeping\nEvery SCOMET export authorisation holder (including for GAICT and GAEC) shall\nmaintain all the relevant records, including all the documents submitted while\nmaking an application for SCOMET Authorisation, in manual or electronic form, for\na period of 5 years or till validity of export authorisation, whichever is higher, from\nthe date of export or import, as applicable.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.19",
+      "title": "Voluntary Self Disclosure of export of dual use items",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.19",
+          "purpose": "Retrieve knowledge payload for section 10.19",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Voluntary-Self-Disclosure-of-export-of-dual-use-items/validate",
+          "purpose": "Validate inputs and documents for Voluntary Self Disclosure of export of dual use items",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Voluntary-Self-Disclosure-of-export-of-dual-use-items/execute",
+          "purpose": "Trigger business action for In case, any exporter fails to comply with the export\ncontrol provisions of the FTDR Act, WMD Act, Customs Act, or any regulation\nrelated to SCOMET, or SCOMET authorisation on export controls issued by DGFT,\na voluntary self disclosure request along with the supporting documents shall\nbe sent to the SCOMET Division of DGFT (Hqrs), New Delhi, through e-mail\n(scomet-dgft@nic.in) immediately after an export violation is discovered.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10.20",
+      "title": "Revalidation of SCOMET Authorisation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10.20",
+          "purpose": "Retrieve knowledge payload for section 10.20",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Revalidation-of-SCOMET-Authorisation/validate",
+          "purpose": "Validate inputs and documents for Revalidation of SCOMET Authorisation",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Revalidation-of-SCOMET-Authorisation/execute",
+          "purpose": "Trigger business action for To issue a Show Cause Notice;\niii.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    }
+  ]
+}

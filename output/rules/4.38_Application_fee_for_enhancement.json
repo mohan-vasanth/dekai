@@ -1,0 +1,21 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.38",
+  "title": "Application fee for enhancement",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_38-R001",
+      "rule_description": "IF validations pass THEN recommend action: 4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.",
+      "trigger": "Application fee for enhancement",
+      "condition": "4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.",
+      "exception": "However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA.",
+      "output": "DEKAI should produce a compliance decision for 4.38 - Application fee for enhancement."
+    }
+  ],
+  "ai_rules": [
+    "IF validations pass THEN recommend action: 4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation."
+  ]
+}

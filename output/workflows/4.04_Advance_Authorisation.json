@@ -1,0 +1,10 @@
+{
+  "section": "4.04",
+  "workflow": [
+    "Evaluate condition: Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.",
+    "Run validation: 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A."
+  ],
+  "workflow_ascii": "Advance Authorisation\nEvaluate condition: Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.\n   |\n   v\nRun validation: 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.\"]\n    S2[\"Run validation: 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.;\n:Run validation\\: 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.;\nstop\n@enduml"
+}

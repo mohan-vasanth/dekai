@@ -1,0 +1,38 @@
+{
+  "section": "4.26",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.26",
+      "purpose": "Retrieve knowledge payload for section 4.26",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Description-of-an-Advance-Authorisation/validate",
+      "purpose": "Validate inputs and documents for Description of an Advance Authorisation",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

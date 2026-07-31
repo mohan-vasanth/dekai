@@ -1,0 +1,66 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.02",
+  "title": "General Provision",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_02-R001",
+      "rule_description": "4.02 General Provision\n(i) Application for grant of Advance Authorisation / Special Advance\nAuthorisation for export of Articles of Apparel and Clothing Accessories /\nAdvance Authorisation for Annual Requirement / Duty Free Import\nAuthorisation (DFIA) shall be filed online (digitally signed) by IEC holder to\nthe concerned jurisdictional Regional Authority as per Appendix 1A.",
+      "trigger": "General Provision",
+      "condition": "any",
+      "validation": "4.02 General Provision\n(i) Application for grant of Advance Authorisation / Special Advance\nAuthorisation for export of Articles of Apparel and Clothing Accessories /\nAdvance Authorisation for Annual Requirement / Duty Free Import\nAuthorisation (DFIA) shall be filed online (digitally signed) by IEC holder to\nthe concerned jurisdictional Regional Authority as per Appendix 1A.",
+      "action": "Applicant\ncould be either Registered office or Head office or a branch office or a\nmanufacturing unit of the IEC holder.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.02 - General Provision."
+    },
+    {
+      "rule_id": "CH4-SEC4_02-R002",
+      "rule_description": "(ii) Applicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application.",
+      "trigger": "General Provision",
+      "condition": "any",
+      "validation": "(ii) Applicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application.",
+      "action": "(ii) Applicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.02 - General Provision."
+    },
+    {
+      "rule_id": "CH4-SEC4_02-R003",
+      "rule_description": "No physical copy of application is required to be\nsubmitted to Regional Authority.",
+      "trigger": "General Provision",
+      "condition": "any",
+      "validation": "No physical copy of application is required to be\nsubmitted to Regional Authority.",
+      "action": "No physical copy of application is required to be\nsubmitted to Regional Authority.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.02 - General Provision."
+    },
+    {
+      "rule_id": "CH4-SEC4_02-R004",
+      "rule_description": "4.02 General Provision\n(i)\nApplication for grant of Advance Authorisation / Special Advance\nAuthorisation for export of Articles of Apparel and Clothing Accessories /\nAdvance Authorisation for Annual Requirement / Duty Free Import\nAuthorisation (DFIA) shall be filed online (digitally signed) by IEC holder to\nthe concerned jurisdictional Regional Authority as per Appendix 1A.",
+      "trigger": "General Provision",
+      "condition": "any",
+      "validation": "4.02 General Provision\n(i)\nApplication for grant of Advance Authorisation / Special Advance\nAuthorisation for export of Articles of Apparel and Clothing Accessories /\nAdvance Authorisation for Annual Requirement / Duty Free Import\nAuthorisation (DFIA) shall be filed online (digitally signed) by IEC holder to\nthe concerned jurisdictional Regional Authority as per Appendix 1A.",
+      "action": "(ii)\nApplicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.02 - General Provision."
+    },
+    {
+      "rule_id": "CH4-SEC4_02-R005",
+      "rule_description": "(ii)\nApplicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application.",
+      "trigger": "General Provision",
+      "condition": "any",
+      "validation": "(ii)\nApplicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application.",
+      "action": "(ii)\nApplicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.02 - General Provision."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.02 General Provision\n(i) Application for grant of Advance Authorisation / Special Advance\nAuthorisation for export of Articles of Apparel and Clothing Accessories /\nAdvance Authorisation for Annual Requirement / Duty Free Import\nAuthorisation (DFIA) shall be filed online (digitally signed) by IEC holder to\nthe concerned jurisdictional Regional Authority as per Appendix 1A.",
+    "IF detected context matches section rule THEN enforce: (ii) Applicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application.",
+    "IF detected context matches section rule THEN enforce: No physical copy of application is required to be\nsubmitted to Regional Authority.",
+    "IF detected context matches section rule THEN enforce: 4.02 General Provision\n(i)\nApplication for grant of Advance Authorisation / Special Advance\nAuthorisation for export of Articles of Apparel and Clothing Accessories /\nAdvance Authorisation for Annual Requirement / Duty Free Import\nAuthorisation (DFIA) shall be filed online (digitally signed) by IEC holder to\nthe concerned jurisdictional Regional Authority as per Appendix 1A.",
+    "IF detected context matches section rule THEN enforce: (ii)\nApplicant shall upload documents as prescribed in ANF 4A, if any, at the time\nof online filing of application.",
+    "IF validations pass THEN recommend action: Applicant\ncould be either Registered office or Head office or a branch office or a\nmanufacturing unit of the IEC holder."
+  ]
+}

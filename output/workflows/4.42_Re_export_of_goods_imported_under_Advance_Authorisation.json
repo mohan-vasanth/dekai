@@ -1,0 +1,10 @@
+{
+  "section": "4.42",
+  "workflow": [
+    "Evaluate condition: The authorisation holder has to inform the Regional Authority who\nhas issued the authorisation before re-export of such defective goods.",
+    "The authorisation holder has to inform the Regional Authority who\nhas issued the authorisation before re-export of such defective goods."
+  ],
+  "workflow_ascii": "Re-export of goods imported under Advance Authorisation\nEvaluate condition: The authorisation holder has to inform the Regional Authority who\nhas issued the authorisation before re-export of such defective goods.\n   |\n   v\nThe authorisation holder has to inform the Regional Authority who\nhas issued the authorisation before re-export of such defective goods.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: The authorisation holder has to inform the Regional Authority who\nhas issued the authorisation before re-export of such defective goods.\"]\n    S2[\"The authorisation holder has to inform the Regional Authority who\nhas issued the authorisation before re-export of such defective goods.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: The authorisation holder has to inform the Regional Authority who\nhas issued the authorisation before re-export of such defective goods.;\n:The authorisation holder has to inform the Regional Authority who\nhas issued the authorisation before re-export of such defective goods.;\nstop\n@enduml"
+}

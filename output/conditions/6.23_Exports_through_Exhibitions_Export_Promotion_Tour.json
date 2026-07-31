@@ -1,0 +1,63 @@
+{
+  "section": "6.23",
+  "conditions": [
+    "6.23 Exports through Exhibitions / Export Promotion Tour\nEOU / EHTP / STP / BTP units may export goods for holding / participating in\nexhibitions abroad, with permission of DC, subject to following conditions:\na) Unit shall produce to Customs authorities letter in original, or its\ncertified copy containing approval of DC.",
+    "For gems and jewellery\nitems, a self-certified photograph of products shall also be\nsubmitted.",
+    "b) In case of re-import, such items, on arrival shall be verified along\nwith export documents before clearance.",
+    "However, in case exporter is participating in more\nthan one exhibition within 45 days of close of first exhibition, then\n60 days shall be counted from date of close of last exhibition.",
+    "d) In case of personal carriage of goods and for holding / participating\nin overseas exhibitions, value of such gems and jewellery shall not\nexceed US $ 5 million.",
+    "6.23 Exports through Exhibitions / Export Promotion Tour\nEOU / EHTP / STP / BTP units may export goods for holding / participating in\nexhibitions abroad, with permission of DC, subject to following conditions:\na)\nUnit shall produce to Customs authorities letter in original, or its\ncertified copy containing approval of DC.",
+    "b)\nIn case of re-import, such items, on arrival shall be verified along\nwith export documents before clearance.",
+    "d)\nIn case of personal carriage of goods and for holding / participating\nin overseas exhibitions, value of such gems and jewellery shall not\nexceed US $ 5 million."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.23.1",
+      "if": "6.23 Exports through Exhibitions / Export Promotion Tour\nEOU / EHTP / STP / BTP units may export goods for holding / participating in\nexhibitions abroad, with permission of DC, subject to following conditions:\na) Unit shall produce to Customs authorities letter in original, or its\ncertified copy containing approval of DC.",
+      "then": "For gems and jewellery\nitems, a self-certified photograph of products shall also be\nsubmitted.",
+      "source": "6.23 Exports through Exhibitions / Export Promotion Tour\nEOU / EHTP / STP / BTP units may export goods for holding / participating in\nexhibitions abroad, with permission of DC, subject to following conditions:\na) Unit shall produce to Customs authorities letter in original, or its\ncertified copy containing approval of DC."
+    },
+    {
+      "id": "6.6.23.2",
+      "if": "For gems and jewellery\nitems, a self-certified photograph of products shall also be\nsubmitted.",
+      "then": "For gems and jewellery\nitems, a self-certified photograph of products shall also be\nsubmitted.",
+      "source": "For gems and jewellery\nitems, a self-certified photograph of products shall also be\nsubmitted."
+    },
+    {
+      "id": "6.6.23.3",
+      "if": "b) In case of re-import, such items, on arrival shall be verified along\nwith export documents before clearance.",
+      "then": "For gems and jewellery\nitems, a self-certified photograph of products shall also be\nsubmitted.",
+      "source": "b) In case of re-import, such items, on arrival shall be verified along\nwith export documents before clearance."
+    },
+    {
+      "id": "6.6.23.4",
+      "if": "However, in case exporter is participating in more\nthan one exhibition within 45 days of close of first exhibition, then\n60 days shall be counted from date of close of last exhibition.",
+      "then": "60 days shall be counted from date of close of last exhibition.",
+      "source": "However, in case exporter is participating in more\nthan one exhibition within 45 days of close of first exhibition, then\n60 days shall be counted from date of close of last exhibition."
+    },
+    {
+      "id": "6.6.23.5",
+      "if": "d) In case of personal carriage of goods and for holding / participating\nin overseas exhibitions, value of such gems and jewellery shall not\nexceed US $ 5 million.",
+      "then": "For gems and jewellery\nitems, a self-certified photograph of products shall also be\nsubmitted.",
+      "source": "d) In case of personal carriage of goods and for holding / participating\nin overseas exhibitions, value of such gems and jewellery shall not\nexceed US $ 5 million."
+    },
+    {
+      "id": "6.6.23.6",
+      "if": "6.23 Exports through Exhibitions / Export Promotion Tour\nEOU / EHTP / STP / BTP units may export goods for holding / participating in\nexhibitions abroad, with permission of DC, subject to following conditions:\na)\nUnit shall produce to Customs authorities letter in original, or its\ncertified copy containing approval of DC.",
+      "then": "For gems and jewellery\nitems, a self-certified photograph of products shall also be\nsubmitted.",
+      "source": "6.23 Exports through Exhibitions / Export Promotion Tour\nEOU / EHTP / STP / BTP units may export goods for holding / participating in\nexhibitions abroad, with permission of DC, subject to following conditions:\na)\nUnit shall produce to Customs authorities letter in original, or its\ncertified copy containing approval of DC."
+    },
+    {
+      "id": "6.6.23.7",
+      "if": "b)\nIn case of re-import, such items, on arrival shall be verified along\nwith export documents before clearance.",
+      "then": "For gems and jewellery\nitems, a self-certified photograph of products shall also be\nsubmitted.",
+      "source": "b)\nIn case of re-import, such items, on arrival shall be verified along\nwith export documents before clearance."
+    },
+    {
+      "id": "6.6.23.8",
+      "if": "d)\nIn case of personal carriage of goods and for holding / participating\nin overseas exhibitions, value of such gems and jewellery shall not\nexceed US $ 5 million.",
+      "then": "For gems and jewellery\nitems, a self-certified photograph of products shall also be\nsubmitted.",
+      "source": "d)\nIn case of personal carriage of goods and for holding / participating\nin overseas exhibitions, value of such gems and jewellery shall not\nexceed US $ 5 million."
+    }
+  ]
+}

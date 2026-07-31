@@ -1,0 +1,21 @@
+{
+  "chapter_number": "7",
+  "chapter_title": "Deemed Exports",
+  "section": "7.11",
+  "title": "Internal Audit Mechanism",
+  "business_rules": [
+    {
+      "rule_id": "CH7-SEC7_11-R001",
+      "rule_description": "7.11 Internal Audit Mechanism\nThe zonal offices of Additional DGFT shall constitute Audit team in their offices as\nper paragraph 7.10 of FTP and shall carry out post Audit.",
+      "trigger": "Internal Audit Mechanism",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "7.11 Internal Audit Mechanism\nThe zonal offices of Additional DGFT shall constitute Audit team in their offices as\nper paragraph 7.10 of FTP and shall carry out post Audit.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.11 - Internal Audit Mechanism."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 7.11 Internal Audit Mechanism\nThe zonal offices of Additional DGFT shall constitute Audit team in their offices as\nper paragraph 7.10 of FTP and shall carry out post Audit."
+  ]
+}

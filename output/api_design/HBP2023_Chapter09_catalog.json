@@ -1,0 +1,129 @@
+{
+  "resources": [
+    "Policy",
+    "Foreign-Trade-Policy-Benefits-Schemes-to-e-Commerce",
+    "E-COMMERCE-EXPORT-HUBs-ECEHs"
+  ],
+  "sections": [
+    {
+      "section": "9.00",
+      "title": "Policy",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/9.00",
+          "purpose": "Retrieve knowledge payload for section 9.00",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Policy/validate",
+          "purpose": "Validate inputs and documents for Policy",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "9.01",
+      "title": "Foreign Trade Policy Benefits/Schemes to e-Commerce",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/9.01",
+          "purpose": "Retrieve knowledge payload for section 9.01",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Foreign-Trade-Policy-Benefits-Schemes-to-e-Commerce/validate",
+          "purpose": "Validate inputs and documents for Foreign Trade Policy Benefits/Schemes to e-Commerce",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "9.02",
+      "title": "E-COMMERCE EXPORT HUBs (ECEHs)",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/9.02",
+          "purpose": "Retrieve knowledge payload for section 9.02",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/E-COMMERCE-EXPORT-HUBs-ECEHs/validate",
+          "purpose": "Validate inputs and documents for E-COMMERCE EXPORT HUBs (ECEHs)",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    }
+  ]
+}

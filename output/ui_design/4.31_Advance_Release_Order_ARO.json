@@ -1,0 +1,37 @@
+{
+  "section": "4.31",
+  "ui": [
+    {
+      "screen_id": "Advance_Release_Order_ARO_overview",
+      "name": "Advance Release Order (ARO) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Advance_Release_Order_ARO_submission",
+      "name": "Advance Release Order (ARO) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "aro_flag",
+        "anf_flag",
+        "for_flag",
+        "hbp_flag",
+        "from_flag",
+        "stes_flag"
+      ]
+    }
+  ]
+}

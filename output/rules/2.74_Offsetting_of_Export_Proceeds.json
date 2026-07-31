@@ -1,0 +1,22 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.74",
+  "title": "Offsetting of Export Proceeds",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_74-R001",
+      "rule_description": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "trigger": "Offsetting of Export Proceeds",
+      "condition": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.74 - Offsetting of Export Proceeds."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+    "IF validations pass THEN recommend action: 2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg."
+  ]
+}

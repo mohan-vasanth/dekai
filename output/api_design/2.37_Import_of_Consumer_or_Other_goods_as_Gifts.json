@@ -1,0 +1,65 @@
+{
+  "section": "2.37",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.37",
+      "purpose": "Retrieve knowledge payload for section 2.37",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-of-Consumer-or-Other-goods-as-Gifts/validate",
+      "purpose": "Validate inputs and documents for Import of Consumer or Other goods as Gifts",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-of-Consumer-or-Other-goods-as-Gifts/execute",
+      "purpose": "Trigger business action for (b) Where recipient of a gift is a charitable, religious or an educational institution\nregistered under any law in force, and gift sought to be imported has been\nexempted from payment of customs duty, such import shall be allowed by\ncustoms authorities without an authorisation.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

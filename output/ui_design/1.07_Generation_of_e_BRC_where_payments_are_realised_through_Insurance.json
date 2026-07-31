@@ -1,0 +1,37 @@
+{
+  "section": "1.07",
+  "ui": [
+    {
+      "screen_id": "Generation_of_e_BRC_where_payments_are_realised_through_Insurance_overview",
+      "name": "Generation of e BRC where payments are realised through Insurance Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Generation_of_e_BRC_where_payments_are_realised_through_Insurance_submission",
+      "name": "Generation of e BRC where payments are realised through Insurance Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "brc_flag",
+        "are_flag",
+        "the_flag",
+        "and_flag",
+        "edi_flag",
+        "for_flag"
+      ]
+    }
+  ]
+}

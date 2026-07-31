@@ -1,0 +1,43 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.92",
+  "title": "Export and import of Diamond, Gemstone & Jewellery on",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_92-R001",
+      "rule_description": "(b) Detailed procedure in this regard shall be governed as per the relevant\nCustoms Rules & Regulations.",
+      "trigger": "Export and import of Diamond, Gemstone & Jewellery on",
+      "condition": "Re-import of these items (either in\ncomplete or partial lot) exported on consignment basis shall be subject\nto condition that exporter follows prescribed provisions of relevant\ncustoms notification to establish that goods are the same which were\nexported.",
+      "validation": "(b) Detailed procedure in this regard shall be governed as per the relevant\nCustoms Rules & Regulations.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.92 - Export and import of Diamond, Gemstone & Jewellery on."
+    },
+    {
+      "rule_id": "CH4-SEC4_92-R002",
+      "rule_description": "Re-import of these items (either in\ncomplete or partial lot) exported on consignment basis shall be subject\nto condition that exporter follows prescribed provisions of relevant\ncustoms notification to establish that goods are the same which were\nexported.",
+      "trigger": "Export and import of Diamond, Gemstone & Jewellery on",
+      "condition": "Re-import of these items (either in\ncomplete or partial lot) exported on consignment basis shall be subject\nto condition that exporter follows prescribed provisions of relevant\ncustoms notification to establish that goods are the same which were\nexported.",
+      "validation": "Re-import of these items (either in\ncomplete or partial lot) exported on consignment basis shall be subject\nto condition that exporter follows prescribed provisions of relevant\ncustoms notification to establish that goods are the same which were\nexported.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.92 - Export and import of Diamond, Gemstone & Jewellery on."
+    },
+    {
+      "rule_id": "CH4-SEC4_92-R003",
+      "rule_description": "(b)\nDetailed procedure in this regard shall be governed as per the relevant\nCustoms Rules & Regulations.",
+      "trigger": "Export and import of Diamond, Gemstone & Jewellery on",
+      "condition": "Re-import of these items (either in\ncomplete or partial lot) exported on consignment basis shall be subject\nto condition that exporter follows prescribed provisions of relevant\ncustoms notification to establish that goods are the same which were\nexported.",
+      "validation": "(b)\nDetailed procedure in this regard shall be governed as per the relevant\nCustoms Rules & Regulations.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.92 - Export and import of Diamond, Gemstone & Jewellery on."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (b) Detailed procedure in this regard shall be governed as per the relevant\nCustoms Rules & Regulations.",
+    "IF detected context matches section rule THEN enforce: Re-import of these items (either in\ncomplete or partial lot) exported on consignment basis shall be subject\nto condition that exporter follows prescribed provisions of relevant\ncustoms notification to establish that goods are the same which were\nexported.",
+    "IF detected context matches section rule THEN enforce: (b)\nDetailed procedure in this regard shall be governed as per the relevant\nCustoms Rules & Regulations."
+  ]
+}

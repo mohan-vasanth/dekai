@@ -1,0 +1,14 @@
+{
+  "section": "2.39",
+  "conditions": [
+    "2.39 Import of Reconditioned/ Second Hand Aircraft Spares\nImport Authorisation for reconditioned / second hand aircraft spares is not required\nsubject to NOC/ recommendation of Director General of Civil Aviation (DGCA),\nGovernment of India."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.39.1",
+      "if": "2.39 Import of Reconditioned/ Second Hand Aircraft Spares\nImport Authorisation for reconditioned / second hand aircraft spares is not required\nsubject to NOC/ recommendation of Director General of Civil Aviation (DGCA),\nGovernment of India.",
+      "then": "Route for review",
+      "source": "2.39 Import of Reconditioned/ Second Hand Aircraft Spares\nImport Authorisation for reconditioned / second hand aircraft spares is not required\nsubject to NOC/ recommendation of Director General of Civil Aviation (DGCA),\nGovernment of India."
+    }
+  ]
+}

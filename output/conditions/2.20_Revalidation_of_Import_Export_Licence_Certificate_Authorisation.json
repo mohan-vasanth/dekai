@@ -1,0 +1,49 @@
+{
+  "section": "2.20",
+  "conditions": [
+    "2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ).",
+    "(c) However, revalidation of freely transferable authorisation / duty credit scrips and\nstock and sale (excluding SCOMET items) authorisation shall not be permitted unless\nvalidity has expired while in custody of Customs Authority / RA / Government\nAuthority.",
+    "17\n2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ).",
+    "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+    "RA shall\nverify the same before revalidation is allowed.",
+    "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.20.1",
+      "if": "2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ).",
+      "then": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "source": "2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ)."
+    },
+    {
+      "id": "2.2.20.2",
+      "if": "(c) However, revalidation of freely transferable authorisation / duty credit scrips and\nstock and sale (excluding SCOMET items) authorisation shall not be permitted unless\nvalidity has expired while in custody of Customs Authority / RA / Government\nAuthority.",
+      "then": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "source": "(c) However, revalidation of freely transferable authorisation / duty credit scrips and\nstock and sale (excluding SCOMET items) authorisation shall not be permitted unless\nvalidity has expired while in custody of Customs Authority / RA / Government\nAuthority."
+    },
+    {
+      "id": "2.2.20.3",
+      "if": "17\n2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ).",
+      "then": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "source": "17\n2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ)."
+    },
+    {
+      "id": "2.2.20.4",
+      "if": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "then": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "source": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation."
+    },
+    {
+      "id": "2.2.20.5",
+      "if": "RA shall\nverify the same before revalidation is allowed.",
+      "then": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "source": "RA shall\nverify the same before revalidation is allowed."
+    },
+    {
+      "id": "2.2.20.6",
+      "if": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "then": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "source": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation."
+    }
+  ]
+}

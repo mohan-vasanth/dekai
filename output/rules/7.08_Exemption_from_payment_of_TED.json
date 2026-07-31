@@ -1,0 +1,22 @@
+{
+  "chapter_number": "7",
+  "chapter_title": "Deemed Exports",
+  "section": "7.08",
+  "title": "Exemption from payment of TED",
+  "business_rules": [
+    {
+      "rule_id": "CH7-SEC7_08-R001",
+      "rule_description": "7.08 Exemption from payment of TED\nFor claiming exemption from payment of terminal excise duty, wherever\napplicable, procedure prescribed by Central Excise Authority shall be followed.",
+      "trigger": "Exemption from payment of TED",
+      "condition": "7.08 Exemption from payment of TED\nFor claiming exemption from payment of terminal excise duty, wherever\napplicable, procedure prescribed by Central Excise Authority shall be followed.",
+      "validation": "7.08 Exemption from payment of TED\nFor claiming exemption from payment of terminal excise duty, wherever\napplicable, procedure prescribed by Central Excise Authority shall be followed.",
+      "action": "7.08 Exemption from payment of TED\nFor claiming exemption from payment of terminal excise duty, wherever\napplicable, procedure prescribed by Central Excise Authority shall be followed.",
+      "exception": "7.08 Exemption from payment of TED\nFor claiming exemption from payment of terminal excise duty, wherever\napplicable, procedure prescribed by Central Excise Authority shall be followed.",
+      "output": "DEKAI should produce a compliance decision for 7.08 - Exemption from payment of TED."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 7.08 Exemption from payment of TED\nFor claiming exemption from payment of terminal excise duty, wherever\napplicable, procedure prescribed by Central Excise Authority shall be followed.",
+    "IF validations pass THEN recommend action: 7.08 Exemption from payment of TED\nFor claiming exemption from payment of terminal excise duty, wherever\napplicable, procedure prescribed by Central Excise Authority shall be followed."
+  ]
+}

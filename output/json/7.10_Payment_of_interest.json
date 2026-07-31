@@ -1,0 +1,556 @@
+{
+  "chapter_number": "7",
+  "chapter_title": "Deemed Exports",
+  "section": "7.10",
+  "title": "Payment of interest",
+  "purpose": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+  "purpose_thanglish": "Indha Payment of interest section-la, 7.10 Payment of interest\n(a) RA kandippa make payment within 30 days from the date of issuance of\nApproval Letter.",
+  "summary": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter. In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP. No separate\napplication for claiming interest is required to be made.",
+  "business_meaning": "Payment of interest governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Payment of interest explains the operating rule set that DEKAI should enforce. Key control points include 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter. The section also drives actions such as 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter..",
+  "business_explanation_thanglish": "Indha Payment of interest section-la, Payment of interest explains the operating rule set that DEKAI should enforce. Key control points include 7.10 Payment of interest\n(a) RA kandippa make payment within 30 days from the date of issuance of\nApproval Letter. The section also drives actions such as 7.10 Payment of interest\n(a) RA kandippa make payment within 30 days from the date of issuance of\nApproval Letter..",
+  "business_logic": [
+    "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+    "No separate\napplication for claiming interest is required to be made.",
+    "A single mandate\nshall be issued to the bank for principal amount and interest.",
+    "No interest shall be paid thereafter.",
+    "RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.",
+    "(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+    "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+    "161\n7.10 Payment of interest\n(a)\nRA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH7-SEC7_10-R001",
+      "rule_description": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "trigger": "Payment of interest",
+      "condition": "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+      "validation": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "action": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R002",
+      "rule_description": "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+      "action": "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R003",
+      "rule_description": "No separate\napplication for claiming interest is required to be made.",
+      "trigger": "Payment of interest",
+      "condition": "No interest shall be paid thereafter.",
+      "validation": "No separate\napplication for claiming interest is required to be made.",
+      "action": "A single mandate\nshall be issued to the bank for principal amount and interest.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R004",
+      "rule_description": "A single mandate\nshall be issued to the bank for principal amount and interest.",
+      "trigger": "Payment of interest",
+      "condition": "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+      "validation": "A single mandate\nshall be issued to the bank for principal amount and interest.",
+      "action": "RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R005",
+      "rule_description": "No interest shall be paid thereafter.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "No interest shall be paid thereafter.",
+      "action": "(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R006",
+      "rule_description": "RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.",
+      "action": "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R007",
+      "rule_description": "(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "action": "161\n7.10 Payment of interest\n(a)\nRA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R008",
+      "rule_description": "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+      "action": "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R009",
+      "rule_description": "161\n7.10 Payment of interest\n(a)\nRA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "161\n7.10 Payment of interest\n(a)\nRA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "action": "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R010",
+      "rule_description": "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "action": "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    }
+  ],
+  "conditions": [
+    "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+    "(b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.",
+    "No interest shall be paid thereafter.",
+    "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+    "(b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount."
+  ],
+  "condition_logic": [
+    {
+      "id": "7.7.10.1",
+      "if": "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP."
+    },
+    {
+      "id": "7.7.10.2",
+      "if": "interest is not added by RA/DC",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "(b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount."
+    },
+    {
+      "id": "7.7.10.3",
+      "if": "No interest shall be paid thereafter.",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "No interest shall be paid thereafter."
+    },
+    {
+      "id": "7.7.10.4",
+      "if": "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "Wherever interest\nis paid, RA shall inform the reason for payment of interest."
+    },
+    {
+      "id": "7.7.10.5",
+      "if": "interest is not added by RA/DC",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "(b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount."
+    }
+  ],
+  "validations": [
+    "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+    "No separate\napplication for claiming interest is required to be made.",
+    "A single mandate\nshall be issued to the bank for principal amount and interest.",
+    "No interest shall be paid thereafter.",
+    "RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.",
+    "(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+    "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+    "161\n7.10 Payment of interest\n(a)\nRA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F."
+  ],
+  "exceptions": [],
+  "dependencies": [
+    "7.09"
+  ],
+  "documents": [
+    "No separate\napplication for claiming interest is required to be made.",
+    "(b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.",
+    "(b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount."
+  ],
+  "required_documents": [
+    "No separate\napplication for claiming interest is required to be made.",
+    "(b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.",
+    "(b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount."
+  ],
+  "authorities": [
+    "RA",
+    "If interest is not added by RA"
+  ],
+  "timelines": [
+    "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+    "(b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.",
+    "No interest shall be paid thereafter.",
+    "161\n7.10 Payment of interest\n(a)\nRA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "(b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount."
+  ],
+  "actions": [
+    "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+    "A single mandate\nshall be issued to the bank for principal amount and interest.",
+    "RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.",
+    "(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+    "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+    "161\n7.10 Payment of interest\n(a)\nRA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F."
+  ],
+  "workflow": [
+    "Evaluate condition: In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+    "Evaluate condition: (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.",
+    "Evaluate condition: No interest shall be paid thereafter.",
+    "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+    "A single mandate\nshall be issued to the bank for principal amount and interest.",
+    "RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.",
+    "(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+    "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+    "Run validation: 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "Run validation: In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+    "Run validation: No separate\napplication for claiming interest is required to be made."
+  ],
+  "workflow_ascii": "Payment of interest\nEvaluate condition: In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.\n   |\n   v\nEvaluate condition: (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.\n   |\n   v\nEvaluate condition: No interest shall be paid thereafter.\n   |\n   v\n7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.\n   |\n   v\nIn case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.\n   |\n   v\nA single mandate\nshall be issued to the bank for principal amount and interest.\n   |\n   v\nRA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.\n   |\n   v\n(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.\n   |\n   v\nWherever interest\nis paid, RA shall inform the reason for payment of interest.\n   |\n   v\nRun validation: 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.\n   |\n   v\nRun validation: In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.\n   |\n   v\nRun validation: No separate\napplication for claiming interest is required to be made.",
+  "decision_tree": [
+    "IF In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP. THEN 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "IF (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount. THEN 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "IF No interest shall be paid thereafter. THEN 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "IF Wherever interest\nis paid, RA shall inform the reason for payment of interest. THEN 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "IF (b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount. THEN 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter."
+  ],
+  "decision_tree_ascii": "Payment of interest Decision\nIF In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP. THEN 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.\n   |\n   v\nIF (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount. THEN 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.\n   |\n   v\nIF No interest shall be paid thereafter. THEN 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.\n   |\n   v\nIF Wherever interest\nis paid, RA shall inform the reason for payment of interest. THEN 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.\n   |\n   v\nIF (b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount. THEN 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+  "examples": [
+    "User asks to process Payment of interest; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Payment of interest, submits No separate\napplication for claiming interest is required to be made., (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount., (b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount., and DEKAI uses the extracted rules to 7.10 payment of interest\n(a) ra shall make payment within 30 days from the date of issuance of\napproval letter..",
+  "real_world_example_thanglish": "Indha Payment of interest section-la, Example: an importer or exporter invokes Payment of interest, submits No separate\napplication for claiming interest is required to be made., (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount., (b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount., and DEKAI uses the extracted rules to 7.10 payment of interest\n(a) ra kandippa make payment within 30 days from the date of issuance of\napproval letter..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "IF detected context matches section rule THEN enforce: In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+    "IF detected context matches section rule THEN enforce: No separate\napplication for claiming interest is required to be made.",
+    "IF detected context matches section rule THEN enforce: A single mandate\nshall be issued to the bank for principal amount and interest.",
+    "IF detected context matches section rule THEN enforce: No interest shall be paid thereafter.",
+    "IF detected context matches section rule THEN enforce: RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.",
+    "IF validations pass THEN recommend action: 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "add_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:add"
+    },
+    {
+      "name": "ftp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:FTP"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "per_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:per"
+    },
+    {
+      "name": "anf_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ANF"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "No separate\napplication for claiming interest is required to be made."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/7.10",
+      "purpose": "Retrieve knowledge payload for section 7.10",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Payment-of-interest/validate",
+      "purpose": "Validate inputs and documents for Payment of interest",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Payment-of-interest/execute",
+      "purpose": "Trigger business action for 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Payment_of_interest_overview",
+      "name": "Payment of interest Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Payment_of_interest_submission",
+      "name": "Payment of interest Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "not_flag",
+        "add_flag",
+        "ftp_flag",
+        "for_flag",
+        "and_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Payment of interest require?",
+    "Which documents are needed for Payment of interest?",
+    "How does DEKAI validate Payment of interest requests?",
+    "What action should be taken for Payment of interest?"
+  ],
+  "expected_ai_answers": [
+    "Payment of interest requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: No separate\napplication for claiming interest is required to be made., (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount., (b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.",
+    "DEKAI validates Payment of interest by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 7.10?",
+      "answer_en": "Payment of interest explains the operating rule set that DEKAI should enforce. Key control points include 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter. The section also drives actions such as 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter..",
+      "question_thanglish": "Indha Payment of interest section-la, What is the purpose of section 7.10?",
+      "answer_thanglish": "Indha Payment of interest section-la, Payment of interest explains the operating rule set that DEKAI should enforce. Key control points include 7.10 Payment of interest\n(a) RA kandippa make payment within 30 days from the date of issuance of\nApproval Letter. The section also drives actions such as 7.10 Payment of interest\n(a) RA kandippa make payment within 30 days from the date of issuance of\nApproval Letter.."
+    },
+    {
+      "question_en": "What documents are required under Payment of interest?",
+      "answer_en": "No separate\napplication for claiming interest is required to be made., (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount., (b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.",
+      "question_thanglish": "Indha Payment of interest section-la, What documents are required under Payment of interest?",
+      "answer_thanglish": "Indha Payment of interest section-la, No separate\napplication for claiming interest is required to be made., (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount., (b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount."
+    },
+    {
+      "question_en": "Which authority handles Payment of interest?",
+      "answer_en": "RA, If interest is not added by RA",
+      "question_thanglish": "Indha Payment of interest section-la, Which authority handles Payment of interest?",
+      "answer_thanglish": "Indha Payment of interest section-la, RA, If interest is not added by RA"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Payment of interest?",
+      "answer_en": "AI answers: DEKAI should evaluate section 7.10, apply the extracted rules, and guide the user through Evaluate condition: In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP..",
+      "question_thanglish": "Indha Payment of interest section-la, User asks: How do I comply with Payment of interest?",
+      "answer_thanglish": "Indha Payment of interest section-la, AI answers: DEKAI should evaluate section 7.10, apply the extracted rules, and guide the user through Evaluate condition: In case payment is not made within the time period as\ngiven above, then RA kandippa add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Payment of interest?",
+      "answer_en": "AI answers: Applicable validations are 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter., In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP., No separate\napplication for claiming interest is required to be made.",
+      "question_thanglish": "Indha Payment of interest section-la, User asks: Which validations apply to Payment of interest?",
+      "answer_thanglish": "Indha Payment of interest section-la, AI answers: Applicable validations are 7.10 Payment of interest\n(a) RA kandippa make payment within 30 days from the date of issuance of\nApproval Letter., In case payment is not made within the time period as\ngiven above, then RA kandippa add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP., No separate\napplication for claiming interest is required to be made."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 7, section 7.10, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Payment of interest into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: No separate\napplication for claiming interest is required to be made., (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount., (b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount..",
+    "Route escalations or approvals to: RA, If interest is not added by RA.",
+    "Show contextual links to related sections: 7.09."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Payment of interest section-la, Capture chapter 7, section 7.10, title, and page references as immutable knowledge metadata.",
+    "Indha Payment of interest section-la, Bind validations for Payment of interest into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Payment of interest section-la, Expose document upload controls for: No separate\napplication for claiming interest is required to be made., (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount., (b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount..",
+    "Indha Payment of interest section-la, Route escalations or approvals to: RA, If interest is not added by RA.",
+    "Indha Payment of interest section-la, Show contextual links to related sections: 7.09."
+  ],
+  "keywords": [
+    "the",
+    "not",
+    "add",
+    "FTP",
+    "for",
+    "and",
+    "per",
+    "ANF",
+    "may",
+    "make",
+    "days",
+    "from",
+    "date",
+    "case",
+    "made",
+    "time",
+    "then",
+    "with",
+    "bank",
+    "paid"
+  ],
+  "search_keywords": [
+    "the",
+    "not",
+    "add",
+    "FTP",
+    "for",
+    "and",
+    "per",
+    "ANF",
+    "may",
+    "make",
+    "days",
+    "from",
+    "date",
+    "case",
+    "made",
+    "time",
+    "then",
+    "with",
+    "bank",
+    "paid"
+  ],
+  "intent": "Support Payment of interest processing and compliance validation.",
+  "tags": [
+    "7.10",
+    "Payment of interest",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "7.09"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+    "No separate\napplication for claiming interest is required to be made.",
+    "A single mandate\nshall be issued to the bank for principal amount and interest.",
+    "No interest shall be paid thereafter."
+  ],
+  "page_numbers": [
+    5
+  ],
+  "pages": [
+    5
+  ],
+  "source_document": "Chapter-7-of-HBP-2023.pdf",
+  "raw_text": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter. In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP. No separate\napplication for claiming interest is required to be made. A single mandate\nshall be issued to the bank for principal amount and interest.\n(b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.\nNo interest shall be paid thereafter. RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.\n(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F. Wherever interest\nis paid, RA shall inform the reason for payment of interest.\npg. 161\npg. 161\n7.10 Payment of interest\n(a)\nRA shall make payment within 30 days from the date of issuance of\nApproval Letter. In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP. No separate\napplication for claiming interest is required to be made. A single mandate\nshall be issued to the bank for principal amount and interest.\n(b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.\nNo interest shall be paid thereafter. RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.\n(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F. Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.\"]\n    S2[\"Evaluate condition: (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: No interest shall be paid thereafter.\"]\n    S2 --> S3\n    S4[\"7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.\"]\n    S3 --> S4\n    S5[\"In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.\"]\n    S4 --> S5\n    S6[\"A single mandate\nshall be issued to the bank for principal amount and interest.\"]\n    S5 --> S6\n    S7[\"RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.\"]\n    S6 --> S7\n    S8[\"(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.\"]\n    S7 --> S8\n    S9[\"Wherever interest\nis paid, RA shall inform the reason for payment of interest.\"]\n    S8 --> S9\n    S10[\"Run validation: 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.\"]\n    S9 --> S10\n    S11[\"Run validation: In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.\"]\n    S10 --> S11\n    S12[\"Run validation: No separate\napplication for claiming interest is required to be made.\"]\n    S11 --> S12",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.;\n:Evaluate condition\\: (b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.;\n:Evaluate condition\\: No interest shall be paid thereafter.;\n:7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.;\n:In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.;\n:A single mandate\nshall be issued to the bank for principal amount and interest.;\n:RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.;\n:(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.;\n:Wherever interest\nis paid, RA shall inform the reason for payment of interest.;\n:Run validation\\: 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.;\n:Run validation\\: In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.;\n:Run validation\\: No separate\napplication for claiming interest is required to be made.;\nstop\n@enduml"
+}

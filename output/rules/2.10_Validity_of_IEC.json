@@ -1,0 +1,21 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.10",
+  "title": "Validity of IEC",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_10-R001",
+      "rule_description": "2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.",
+      "trigger": "Validity of IEC",
+      "condition": "2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.",
+      "validation": "2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.",
+      "action": "Manual review required.",
+      "exception": "2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority.",
+      "output": "DEKAI should produce a compliance decision for 2.10 - Validity of IEC."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.10 Validity of IEC\na) An IEC allotted to an applicant shall have permanent validity unless\nsuspended/cancelled by the competent authority."
+  ]
+}

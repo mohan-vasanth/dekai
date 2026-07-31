@@ -1,0 +1,37 @@
+{
+  "section": "4.80",
+  "ui": [
+    {
+      "screen_id": "Export_against_supply_by_Nominated_Agencies_overview",
+      "name": "Export against supply by Nominated Agencies Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_against_supply_by_Nominated_Agencies_submission",
+      "name": "Export against supply by Nominated Agencies Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "iii_flag",
+        "loan_flag",
+        "basis_flag",
+        "after_flag",
+        "export_flag"
+      ]
+    }
+  ]
+}

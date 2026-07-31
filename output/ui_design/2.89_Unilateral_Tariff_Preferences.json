@@ -1,0 +1,47 @@
+{
+  "section": "2.89",
+  "ui": [
+    {
+      "screen_id": "Unilateral_Tariff_Preferences_overview",
+      "name": "Unilateral Tariff Preferences Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Unilateral_Tariff_Preferences_submission",
+      "name": "Unilateral Tariff Preferences Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "are_flag",
+        "gsp_flag",
+        "new_flag",
+        "iii_flag",
+        "vii_flag"
+      ]
+    },
+    {
+      "screen_id": "Unilateral_Tariff_Preferences_exceptions",
+      "name": "Unilateral Tariff Preferences Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

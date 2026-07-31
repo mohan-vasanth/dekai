@@ -1,0 +1,47 @@
+{
+  "section": "4.94",
+  "ui": [
+    {
+      "screen_id": "Filing_of_Annual_RODTEP_Return_ARR_overview",
+      "name": "Filing of Annual RODTEP Return (ARR) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Filing_of_Annual_RODTEP_Return_ARR_submission",
+      "name": "Filing of Annual RODTEP Return (ARR) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "arr_flag",
+        "the_flag",
+        "and_flag",
+        "ftp_flag",
+        "are_flag",
+        "for_flag"
+      ]
+    },
+    {
+      "screen_id": "Filing_of_Annual_RODTEP_Return_ARR_exceptions",
+      "name": "Filing of Annual RODTEP Return (ARR) Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.64",
+  "title": "Export Policy",
+  "purpose": "2.64 Export Policy\nPolicy relating to Exports is given in Chapter-2 of FTP.",
+  "purpose_thanglish": "Indha Export Policy section-la, 2.64 export Policy\nPolicy relating to Exports is given in Chapter-2 of FTP.",
+  "summary": "2.64 Export Policy\nPolicy relating to Exports is given in Chapter-2 of FTP. Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+  "business_meaning": "Export Policy governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Export Policy explains the operating rule set that DEKAI should enforce. Key control points include Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+  "business_explanation_thanglish": "Indha Export Policy section-la, export Policy explains the operating rule set that DEKAI should enforce. Key control points include Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+  "business_logic": [
+    "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_64-R001",
+      "rule_description": "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+      "trigger": "Export Policy",
+      "condition": "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+      "output": "DEKAI should produce a compliance decision for 2.64 - Export Policy."
+    }
+  ],
+  "conditions": [
+    "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.64.1",
+      "if": "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+      "then": "Route for review",
+      "source": "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified."
+    }
+  ],
+  "validations": [],
+  "exceptions": [
+    "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified."
+  ],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+    "Handle exception: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified."
+  ],
+  "workflow_ascii": "Export Policy\nEvaluate condition: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.\n   |\n   v\nHandle exception: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+  "decision_tree": [
+    "IF exception applies (Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Export Policy Decision\nIF exception applies (Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.) THEN route to manual review",
+  "examples": [
+    "User asks to process Export Policy; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Export Policy, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the export policy process.",
+  "real_world_example_thanglish": "Indha Export Policy section-la, Example: an importer or exporter invokes export Policy, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the export policy process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "ftp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:FTP"
+    },
+    {
+      "name": "itc_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ITC"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "but_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:but"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "list_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:list"
+    },
+    {
+      "name": "given_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:given"
+    },
+    {
+      "name": "items_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:items"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.64",
+      "purpose": "Retrieve knowledge payload for section 2.64",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Export-Policy/validate",
+      "purpose": "Validate inputs and documents for Export Policy",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Export_Policy_overview",
+      "name": "Export Policy Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_Policy_submission",
+      "name": "Export Policy Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "ftp_flag",
+        "itc_flag",
+        "may_flag",
+        "but_flag",
+        "and_flag",
+        "list_flag"
+      ]
+    },
+    {
+      "screen_id": "Export_Policy_exceptions",
+      "name": "Export Policy Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Export Policy require?",
+    "Which documents are needed for Export Policy?",
+    "How does DEKAI validate Export Policy requests?"
+  ],
+  "expected_ai_answers": [
+    "Export Policy requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Export Policy by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.64?",
+      "answer_en": "Export Policy explains the operating rule set that DEKAI should enforce. Key control points include Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+      "question_thanglish": "Indha Export Policy section-la, What is the purpose of section 2.64?",
+      "answer_thanglish": "Indha Export Policy section-la, export Policy explains the operating rule set that DEKAI should enforce. Key control points include Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified."
+    },
+    {
+      "question_en": "What documents are required under Export Policy?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Export Policy section-la, What documents are required under export Policy?",
+      "answer_thanglish": "Indha Export Policy section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Export Policy?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Export Policy section-la, Which authority handles export Policy?",
+      "answer_thanglish": "Indha Export Policy section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Export Policy?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.64, apply the extracted rules, and guide the user through Evaluate condition: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified..",
+      "question_thanglish": "Indha Export Policy section-la, User asks: How do I comply with export Policy?",
+      "answer_thanglish": "Indha Export Policy section-la, AI answers: DEKAI should evaluate section 2.64, apply the extracted rules, and guide the user through Evaluate condition: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Export Policy?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Export Policy section-la, User asks: Which validations apply to export Policy?",
+      "answer_thanglish": "Indha Export Policy section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.64, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Export Policy into a rule engine keyed by the rule IDs extracted for this section.",
+    "Trigger manual review when exception clauses are detected."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Export Policy section-la, Capture chapter 2, section 2.64, title, and page references as immutable knowledge metadata.",
+    "Indha Export Policy section-la, Bind validations for export Policy into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Export Policy section-la, Trigger manual review when exception clauses are detected."
+  ],
+  "keywords": [
+    "FTP",
+    "ITC",
+    "may",
+    "but",
+    "and",
+    "list",
+    "given",
+    "items",
+    "which",
+    "terms",
+    "Export",
+    "Policy",
+    "Exports",
+    "Further",
+    "without",
+    "subject",
+    "relating",
+    "Chapter-",
+    "Schedule",
+    "exported"
+  ],
+  "search_keywords": [
+    "FTP",
+    "ITC",
+    "may",
+    "but",
+    "and",
+    "list",
+    "given",
+    "items",
+    "which",
+    "terms",
+    "Export",
+    "Policy",
+    "Exports",
+    "Further",
+    "without",
+    "subject",
+    "relating",
+    "Chapter-",
+    "Schedule",
+    "exported"
+  ],
+  "intent": "Provide knowledge guidance for Export Policy.",
+  "tags": [
+    "2.64",
+    "Export Policy",
+    "business-rule",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified."
+  ],
+  "page_numbers": [
+    28
+  ],
+  "pages": [
+    28
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.64 Export Policy\nPolicy relating to Exports is given in Chapter-2 of FTP. Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.\"]\n    S2[\"Handle exception: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.;\n:Handle exception\\: Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.;\nstop\n@enduml"
+}

@@ -1,0 +1,14 @@
+{
+  "section": "4.03",
+  "conditions": [
+    "4.03 Applicant details\nWhere applicant is a branch office or a manufacturing unit, name of branch office or\nmanufacturing unit should appear in electronic RCMC and in IEC of the applicant."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.03.1",
+      "if": "4.03 Applicant details\nWhere applicant is a branch office or a manufacturing unit, name of branch office or\nmanufacturing unit should appear in electronic RCMC and in IEC of the applicant.",
+      "then": "Route for review",
+      "source": "4.03 Applicant details\nWhere applicant is a branch office or a manufacturing unit, name of branch office or\nmanufacturing unit should appear in electronic RCMC and in IEC of the applicant."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "2.73",
+  "ui": [
+    {
+      "screen_id": "Conversion_of_Shipping_Bill_from_one_Scheme_to_another_overview",
+      "name": "Conversion of Shipping Bill from one Scheme to another Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Conversion_of_Shipping_Bill_from_one_Scheme_to_another_submission",
+      "name": "Conversion of Shipping Bill from one Scheme to another Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "one_flag",
+        "any_flag",
+        "has_flag",
+        "not_flag",
+        "the_flag",
+        "act_flag"
+      ]
+    }
+  ]
+}

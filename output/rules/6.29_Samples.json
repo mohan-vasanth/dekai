@@ -1,0 +1,33 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.29",
+  "title": "Samples",
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_29-R001",
+      "rule_description": "Following documents should be submitted as proof\nof exports:\ni.",
+      "trigger": "Samples",
+      "condition": "applicable",
+      "validation": "For statutory requirement of Stability & Retention\nsample with manufacturer, an EOU / EHTP / BTP / STP\nunit may re-import with or without payment of duties/taxes as\nprovided at para 6.01(d)(ii) of FTP those samples, which were\nexported by it, under intimation to Custom Authorities, and FOB\nvalue of such samples shall not be counted for NFE purpose and\nother export benefits, if any.",
+      "action": "6.29 Samples\na) EOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.29 - Samples."
+    },
+    {
+      "rule_id": "CH6-SEC6_29-R002",
+      "rule_description": "For statutory requirement of Stability & Retention\nsample with manufacturer, an EOU / EHTP / BTP / STP\nunit may re-import with or without payment of duties/taxes as\nprovided at para 6.01(d)(ii) of FTP those samples, which were\nexported by it, under intimation to Custom Authorities, and FOB\nvalue of such samples shall not be counted for NFE purpose and\nother export benefits, if any.",
+      "trigger": "Samples",
+      "condition": "applicable",
+      "validation": "For statutory requirement of Stability & Retention\nsample with manufacturer, an EOU / EHTP / BTP / STP\nunit may re-import with or without payment of duties/taxes as\nprovided at para 6.01(d)(ii) of FTP those samples, which were\nexported by it, under intimation to Custom Authorities, and FOB\nvalue of such samples shall not be counted for NFE purpose and\nother export benefits, if any.",
+      "action": "b) Remove samples without payment of duty and/or taxes on\nfurnishing a suitable undertaking to Customs authorities for\nbringing back samples within a stipulated period.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.29 - Samples."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Following documents should be submitted as proof\nof exports:\ni.",
+    "IF detected context matches section rule THEN enforce: For statutory requirement of Stability & Retention\nsample with manufacturer, an EOU / EHTP / BTP / STP\nunit may re-import with or without payment of duties/taxes as\nprovided at para 6.01(d)(ii) of FTP those samples, which were\nexported by it, under intimation to Custom Authorities, and FOB\nvalue of such samples shall not be counted for NFE purpose and\nother export benefits, if any.",
+    "IF validations pass THEN recommend action: 6.29 Samples\na) EOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs."
+  ]
+}

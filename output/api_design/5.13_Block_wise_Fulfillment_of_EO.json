@@ -1,0 +1,57 @@
+{
+  "section": "5.13",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5.13",
+      "purpose": "Retrieve knowledge payload for section 5.13",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Block-wise-Fulfillment-of-EO/validate",
+      "purpose": "Validate inputs and documents for Block-wise Fulfillment of EO",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Block-wise-Fulfillment-of-EO/execute",
+      "purpose": "Trigger business action for 5.13 Block-wise Fulfillment of EO\n(a) The Authorisation holder under the EPCG scheme shall, while maintaining\nthe average export obligation, fulfill the specific export obligation over\nthe prescribed block period in the following proportions:\nPeriod from the date of issue Minimum export\nof Authorisation obligation to be fulfilled\nBlock of 1st to 4th year 50%\nBlock of 5th and 6th year Balance EO\n(b) The Authorisation holder would intimate the Regional Authority on the\nfulfilment of the export obligation, as well as average exports, within\nthree months of completion of the block.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

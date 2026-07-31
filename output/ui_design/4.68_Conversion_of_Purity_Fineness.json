@@ -1,0 +1,37 @@
+{
+  "section": "4.68",
+  "ui": [
+    {
+      "screen_id": "Conversion_of_Purity_Fineness_overview",
+      "name": "Conversion of Purity/Fineness Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Conversion_of_Purity_Fineness_submission",
+      "name": "Conversion of Purity/Fineness Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "has_flag",
+        "and_flag",
+        "the_flag",
+        "gold_flag",
+        "used_flag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chapter_number": "7",
+  "chapter_title": "Deemed Exports",
+  "section": "7.04",
+  "title": "Procedure for claiming TED refund on Fuel",
+  "business_rules": [
+    {
+      "rule_id": "CH7-SEC7_04-R001",
+      "rule_description": "7.04 Procedure for claiming TED refund on Fuel\nFor supply of High Speed Diesel (HSD) from Depots of domestic oil Public Sector\nUndertakings under Paragraph 7.02(b) of FTP, terminal excise duty shall be\nrefunded on the basis of duty paid certificate issued by concerned domestic oil\nPublic Sector Undertaking in the format given in Annexure-IV to ANF-7A.",
+      "trigger": "Procedure for claiming TED refund on Fuel",
+      "condition": "7.04 Procedure for claiming TED refund on Fuel\nFor supply of High Speed Diesel (HSD) from Depots of domestic oil Public Sector\nUndertakings under Paragraph 7.02(b) of FTP, terminal excise duty shall be\nrefunded on the basis of duty paid certificate issued by concerned domestic oil\nPublic Sector Undertaking in the format given in Annexure-IV to ANF-7A.",
+      "validation": "7.04 Procedure for claiming TED refund on Fuel\nFor supply of High Speed Diesel (HSD) from Depots of domestic oil Public Sector\nUndertakings under Paragraph 7.02(b) of FTP, terminal excise duty shall be\nrefunded on the basis of duty paid certificate issued by concerned domestic oil\nPublic Sector Undertaking in the format given in Annexure-IV to ANF-7A.",
+      "action": "7.04 Procedure for claiming TED refund on Fuel\nFor supply of High Speed Diesel (HSD) from Depots of domestic oil Public Sector\nUndertakings under Paragraph 7.02(b) of FTP, terminal excise duty shall be\nrefunded on the basis of duty paid certificate issued by concerned domestic oil\nPublic Sector Undertaking in the format given in Annexure-IV to ANF-7A.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 7.04 - Procedure for claiming TED refund on Fuel."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 7.04 Procedure for claiming TED refund on Fuel\nFor supply of High Speed Diesel (HSD) from Depots of domestic oil Public Sector\nUndertakings under Paragraph 7.02(b) of FTP, terminal excise duty shall be\nrefunded on the basis of duty paid certificate issued by concerned domestic oil\nPublic Sector Undertaking in the format given in Annexure-IV to ANF-7A.",
+    "IF validations pass THEN recommend action: 7.04 Procedure for claiming TED refund on Fuel\nFor supply of High Speed Diesel (HSD) from Depots of domestic oil Public Sector\nUndertakings under Paragraph 7.02(b) of FTP, terminal excise duty shall be\nrefunded on the basis of duty paid certificate issued by concerned domestic oil\nPublic Sector Undertaking in the format given in Annexure-IV to ANF-7A."
+  ]
+}

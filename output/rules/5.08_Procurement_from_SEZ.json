@@ -1,0 +1,66 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.08",
+  "title": "Procurement from SEZ",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_08-R001",
+      "rule_description": "The\n\"Certificate of supplies from SEZ\" shall contain the following details:\n(i) Name, Address and GSTIN of SEZ unit;\n(ii) GSTIN & Address of recipient unit of EPCG authorisation holder\nwhere capital goods would be installed;\n(iii) Name, description including specifications, where applicable,\nand quantity of items; and\n(iv) Individual value of items to be procured.",
+      "trigger": "Procurement from SEZ",
+      "condition": "5.08 Procurement from SEZ\n(a) If the request is made along with the application for authorisation for\nprocurement of new Capital goods from SEZs, the RA may issue a\n\"Certificate of supplies from SEZ\", containing the details for the requested\nitems after making the import item \"Invalid for direct imports”.",
+      "validation": "5.08 Procurement from SEZ\n(a) If the request is made along with the application for authorisation for\nprocurement of new Capital goods from SEZs, the RA may issue a\n\"Certificate of supplies from SEZ\", containing the details for the requested\nitems after making the import item \"Invalid for direct imports”.",
+      "action": "5.08 Procurement from SEZ\n(a) If the request is made along with the application for authorisation for\nprocurement of new Capital goods from SEZs, the RA may issue a\n\"Certificate of supplies from SEZ\", containing the details for the requested\nitems after making the import item \"Invalid for direct imports”.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ."
+    },
+    {
+      "rule_id": "CH5-SEC5_08-R002",
+      "rule_description": "(b) The said “Certificate of supplies from SEZ\" shall be marked in\nquadruplicate with a copy each to the authorisation holder, SEZ supplier\nunit, designated officer at SEZ and the relevant port customs authorities.",
+      "trigger": "Procurement from SEZ",
+      "condition": "The\n\"Certificate of supplies from SEZ\" shall contain the following details:\n(i) Name, Address and GSTIN of SEZ unit;\n(ii) GSTIN & Address of recipient unit of EPCG authorisation holder\nwhere capital goods would be installed;\n(iii) Name, description including specifications, where applicable,\nand quantity of items; and\n(iv) Individual value of items to be procured.",
+      "validation": "The\n\"Certificate of supplies from SEZ\" shall contain the following details:\n(i) Name, Address and GSTIN of SEZ unit;\n(ii) GSTIN & Address of recipient unit of EPCG authorisation holder\nwhere capital goods would be installed;\n(iii) Name, description including specifications, where applicable,\nand quantity of items; and\n(iv) Individual value of items to be procured.",
+      "action": "4\n4\n5.08 Procurement from SEZ\n(a)\nIf the request is made along with the application for authorisation for\nprocurement of new Capital goods from SEZs, the RA may issue a\n\"Certificate of supplies from SEZ\", containing the details for the requested\nitems after making the import item \"Invalid for direct imports”.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ."
+    },
+    {
+      "rule_id": "CH5-SEC5_08-R003",
+      "rule_description": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "trigger": "Procurement from SEZ",
+      "condition": "4\n4\n5.08 Procurement from SEZ\n(a)\nIf the request is made along with the application for authorisation for\nprocurement of new Capital goods from SEZs, the RA may issue a\n\"Certificate of supplies from SEZ\", containing the details for the requested\nitems after making the import item \"Invalid for direct imports”.",
+      "validation": "4\n4\n5.08 Procurement from SEZ\n(a)\nIf the request is made along with the application for authorisation for\nprocurement of new Capital goods from SEZs, the RA may issue a\n\"Certificate of supplies from SEZ\", containing the details for the requested\nitems after making the import item \"Invalid for direct imports”.",
+      "action": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ."
+    },
+    {
+      "rule_id": "CH5-SEC5_08-R004",
+      "rule_description": "(c) In cases where the request for issue of \"Certificate of supplies from SEZ\" is\nmade in due course, it shall be accompanied with an authorisation\nutilization status issued by the relevant Customs authorities mentioned on\nthe authorisation for the RA to verify the actual utilization of authorisation\nat the time of application.",
+      "trigger": "Procurement from SEZ",
+      "condition": "(b) The said “Certificate of supplies from SEZ\" shall be marked in\nquadruplicate with a copy each to the authorisation holder, SEZ supplier\nunit, designated officer at SEZ and the relevant port customs authorities.",
+      "validation": "(b) The said “Certificate of supplies from SEZ\" shall be marked in\nquadruplicate with a copy each to the authorisation holder, SEZ supplier\nunit, designated officer at SEZ and the relevant port customs authorities.",
+      "action": "(c) In cases where the request for issue of \"Certificate of supplies from SEZ\" is\nmade in due course, it shall be accompanied with an authorisation\nutilization status issued by the relevant Customs authorities mentioned on\nthe authorisation for the RA to verify the actual utilization of authorisation\nat the time of application.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ."
+    },
+    {
+      "rule_id": "CH5-SEC5_08-R005",
+      "rule_description": "In case the request for\n\"Certificate of supplies from SEZ\" is made along with the application for\nauthorisation, the same procedure shall apply.",
+      "trigger": "Procurement from SEZ",
+      "condition": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "validation": "The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+      "action": "The certificate may be issued to the extent of\nquantity available as per utilization status.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: The\n\"Certificate of supplies from SEZ\" shall contain the following details:\n(i) Name, Address and GSTIN of SEZ unit;\n(ii) GSTIN & Address of recipient unit of EPCG authorisation holder\nwhere capital goods would be installed;\n(iii) Name, description including specifications, where applicable,\nand quantity of items; and\n(iv) Individual value of items to be procured.",
+    "IF detected context matches section rule THEN enforce: (b) The said “Certificate of supplies from SEZ\" shall be marked in\nquadruplicate with a copy each to the authorisation holder, SEZ supplier\nunit, designated officer at SEZ and the relevant port customs authorities.",
+    "IF detected context matches section rule THEN enforce: The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+    "IF detected context matches section rule THEN enforce: (c) In cases where the request for issue of \"Certificate of supplies from SEZ\" is\nmade in due course, it shall be accompanied with an authorisation\nutilization status issued by the relevant Customs authorities mentioned on\nthe authorisation for the RA to verify the actual utilization of authorisation\nat the time of application.",
+    "IF detected context matches section rule THEN enforce: In case the request for\n\"Certificate of supplies from SEZ\" is made along with the application for\nauthorisation, the same procedure shall apply.",
+    "IF validations pass THEN recommend action: 5.08 Procurement from SEZ\n(a) If the request is made along with the application for authorisation for\nprocurement of new Capital goods from SEZs, the RA may issue a\n\"Certificate of supplies from SEZ\", containing the details for the requested\nitems after making the import item \"Invalid for direct imports”."
+  ]
+}

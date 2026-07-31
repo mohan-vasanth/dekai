@@ -1,0 +1,32 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.31",
+  "title": "Distinct Identity",
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_31-R001",
+      "rule_description": "6.31 Distinct Identity\nIf an industrial enterprise is operating both as a domestic unit as well as an EOU\n/ EHTP / STP/ BTP unit, it shall have two distinct identities with separate\naccounts, including separate bank accounts.",
+      "trigger": "Distinct Identity",
+      "condition": "6.31 Distinct Identity\nIf an industrial enterprise is operating both as a domestic unit as well as an EOU\n/ EHTP / STP/ BTP unit, it shall have two distinct identities with separate\naccounts, including separate bank accounts.",
+      "validation": "6.31 Distinct Identity\nIf an industrial enterprise is operating both as a domestic unit as well as an EOU\n/ EHTP / STP/ BTP unit, it shall have two distinct identities with separate\naccounts, including separate bank accounts.",
+      "action": "Manual review required.",
+      "exception": "It is, however, not necessary for it to\nbe a separate legal entity, but it should be possible to distinguish imports and\nexports or supplies effected by EOU / EHTP / STP / BTP units from those made\nby other units of enterprise.",
+      "output": "DEKAI should produce a compliance decision for 6.31 - Distinct Identity."
+    },
+    {
+      "rule_id": "CH6-SEC6_31-R002",
+      "rule_description": "It is, however, not necessary for it to\nbe a separate legal entity, but it should be possible to distinguish imports and\nexports or supplies effected by EOU / EHTP / STP / BTP units from those made\nby other units of enterprise.",
+      "trigger": "Distinct Identity",
+      "condition": "6.31 Distinct Identity\nIf an industrial enterprise is operating both as a domestic unit as well as an EOU\n/ EHTP / STP/ BTP unit, it shall have two distinct identities with separate\naccounts, including separate bank accounts.",
+      "validation": "6.31 Distinct Identity\nIf an industrial enterprise is operating both as a domestic unit as well as an EOU\n/ EHTP / STP/ BTP unit, it shall have two distinct identities with separate\naccounts, including separate bank accounts.",
+      "action": "Manual review required.",
+      "exception": "It is, however, not necessary for it to\nbe a separate legal entity, but it should be possible to distinguish imports and\nexports or supplies effected by EOU / EHTP / STP / BTP units from those made\nby other units of enterprise.",
+      "output": "DEKAI should produce a compliance decision for 6.31 - Distinct Identity."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 6.31 Distinct Identity\nIf an industrial enterprise is operating both as a domestic unit as well as an EOU\n/ EHTP / STP/ BTP unit, it shall have two distinct identities with separate\naccounts, including separate bank accounts.",
+    "IF detected context matches section rule THEN enforce: It is, however, not necessary for it to\nbe a separate legal entity, but it should be possible to distinguish imports and\nexports or supplies effected by EOU / EHTP / STP / BTP units from those made\nby other units of enterprise."
+  ]
+}

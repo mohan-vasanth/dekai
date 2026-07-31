@@ -1,0 +1,38 @@
+{
+  "section": "2.39",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.39",
+      "purpose": "Retrieve knowledge payload for section 2.39",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-of-Reconditioned-Second-Hand-Aircraft-Spares/validate",
+      "purpose": "Validate inputs and documents for Import of Reconditioned/ Second Hand Aircraft Spares",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.21",
+  "title": "Maintenance of Proper Accounts for Authorisations issued under",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_21-R001",
+      "rule_description": "4.21 Maintenance of Proper Accounts for Authorisations issued under\nPara 4.18 of HBP\nEvery Advance Authorisation holder shall maintain a true and proper account of\nconsumption and utilization of duty free imported / domestically procured inputs\nagainst each authorisation as prescribed in Appendix 4-I.",
+      "trigger": "Maintenance of Proper Accounts for Authorisations issued under",
+      "condition": "This record in Appendix 4-\nI format, duly verified and certified by the jurisdictional Customs Authority, or by the\nChartered Engineer (Chemical) along with cross attestation by the Chartered\nAccountant who shall both independently verify the inputs consumed in the process,\nshall be submitted to the concerned Regional Authority at the time of filing\napplication for redemption / bond waiver.",
+      "validation": "4.21 Maintenance of Proper Accounts for Authorisations issued under\nPara 4.18 of HBP\nEvery Advance Authorisation holder shall maintain a true and proper account of\nconsumption and utilization of duty free imported / domestically procured inputs\nagainst each authorisation as prescribed in Appendix 4-I.",
+      "action": "4.21 Maintenance of Proper Accounts for Authorisations issued under\nPara 4.18 of HBP\nEvery Advance Authorisation holder shall maintain a true and proper account of\nconsumption and utilization of duty free imported / domestically procured inputs\nagainst each authorisation as prescribed in Appendix 4-I.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.21 - Maintenance of Proper Accounts for Authorisations issued under."
+    },
+    {
+      "rule_id": "CH4-SEC4_21-R002",
+      "rule_description": "This record in Appendix 4-\nI format, duly verified and certified by the jurisdictional Customs Authority, or by the\nChartered Engineer (Chemical) along with cross attestation by the Chartered\nAccountant who shall both independently verify the inputs consumed in the process,\nshall be submitted to the concerned Regional Authority at the time of filing\napplication for redemption / bond waiver.",
+      "trigger": "Maintenance of Proper Accounts for Authorisations issued under",
+      "condition": "Regional Authority shall compare the\ndetails of Appendix 4-I, with that of the inputs allowed in the authorisation, before\nallowing redemption or bond waiver against individual authorisation.",
+      "validation": "This record in Appendix 4-\nI format, duly verified and certified by the jurisdictional Customs Authority, or by the\nChartered Engineer (Chemical) along with cross attestation by the Chartered\nAccountant who shall both independently verify the inputs consumed in the process,\nshall be submitted to the concerned Regional Authority at the time of filing\napplication for redemption / bond waiver.",
+      "action": "This record in Appendix 4-\nI format, duly verified and certified by the jurisdictional Customs Authority, or by the\nChartered Engineer (Chemical) along with cross attestation by the Chartered\nAccountant who shall both independently verify the inputs consumed in the process,\nshall be submitted to the concerned Regional Authority at the time of filing\napplication for redemption / bond waiver.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.21 - Maintenance of Proper Accounts for Authorisations issued under."
+    },
+    {
+      "rule_id": "CH4-SEC4_21-R003",
+      "rule_description": "Regional Authority shall compare the\ndetails of Appendix 4-I, with that of the inputs allowed in the authorisation, before\nallowing redemption or bond waiver against individual authorisation.",
+      "trigger": "Maintenance of Proper Accounts for Authorisations issued under",
+      "condition": "Such records\nshall be preserved for a period of at least three years from the date of Export\nObligation Discharge Certificate.",
+      "validation": "Regional Authority shall compare the\ndetails of Appendix 4-I, with that of the inputs allowed in the authorisation, before\nallowing redemption or bond waiver against individual authorisation.",
+      "action": "This record in Appendix 4-\nI format, duly verified and certified by the jurisdictional Customs Authority, or by the\nChartered Engineer (Chemical) along with cross attestation by the Chartered\nAccountant who shall both independently verify the inputs consumed in the process,\nshall be submitted to the concerned Regional Authority at the time of filing\napplication for redemption / bond waiver.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.21 - Maintenance of Proper Accounts for Authorisations issued under."
+    },
+    {
+      "rule_id": "CH4-SEC4_21-R004",
+      "rule_description": "Such records\nshall be preserved for a period of at least three years from the date of Export\nObligation Discharge Certificate.",
+      "trigger": "Maintenance of Proper Accounts for Authorisations issued under",
+      "condition": "Such records\nshall be preserved for a period of at least three years from the date of Export\nObligation Discharge Certificate.",
+      "validation": "Such records\nshall be preserved for a period of at least three years from the date of Export\nObligation Discharge Certificate.",
+      "action": "This record in Appendix 4-\nI format, duly verified and certified by the jurisdictional Customs Authority, or by the\nChartered Engineer (Chemical) along with cross attestation by the Chartered\nAccountant who shall both independently verify the inputs consumed in the process,\nshall be submitted to the concerned Regional Authority at the time of filing\napplication for redemption / bond waiver.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.21 - Maintenance of Proper Accounts for Authorisations issued under."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.21 Maintenance of Proper Accounts for Authorisations issued under\nPara 4.18 of HBP\nEvery Advance Authorisation holder shall maintain a true and proper account of\nconsumption and utilization of duty free imported / domestically procured inputs\nagainst each authorisation as prescribed in Appendix 4-I.",
+    "IF detected context matches section rule THEN enforce: This record in Appendix 4-\nI format, duly verified and certified by the jurisdictional Customs Authority, or by the\nChartered Engineer (Chemical) along with cross attestation by the Chartered\nAccountant who shall both independently verify the inputs consumed in the process,\nshall be submitted to the concerned Regional Authority at the time of filing\napplication for redemption / bond waiver.",
+    "IF detected context matches section rule THEN enforce: Regional Authority shall compare the\ndetails of Appendix 4-I, with that of the inputs allowed in the authorisation, before\nallowing redemption or bond waiver against individual authorisation.",
+    "IF detected context matches section rule THEN enforce: Such records\nshall be preserved for a period of at least three years from the date of Export\nObligation Discharge Certificate.",
+    "IF validations pass THEN recommend action: 4.21 Maintenance of Proper Accounts for Authorisations issued under\nPara 4.18 of HBP\nEvery Advance Authorisation holder shall maintain a true and proper account of\nconsumption and utilization of duty free imported / domestically procured inputs\nagainst each authorisation as prescribed in Appendix 4-I."
+  ]
+}

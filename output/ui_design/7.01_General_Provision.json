@@ -1,0 +1,47 @@
+{
+  "section": "7.01",
+  "ui": [
+    {
+      "screen_id": "General_Provision_overview",
+      "name": "General Provision Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "General_Provision_submission",
+      "name": "General Provision Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "per_flag",
+        "dta_flag",
+        "and_flag",
+        "eou_flag"
+      ]
+    },
+    {
+      "screen_id": "General_Provision_exceptions",
+      "name": "General Provision Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

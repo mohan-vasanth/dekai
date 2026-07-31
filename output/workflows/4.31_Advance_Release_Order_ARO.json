@@ -1,0 +1,12 @@
+{
+  "section": "4.31",
+  "workflow": [
+    "Evaluate condition: A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.",
+    "A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.",
+    "Run validation: 4.31 Advance Release Order (ARO)\nApplication shall be filed online in ANF 4A to Regional Authority concerned for grant\nof ARO to procure inputs from indigenous sources / STEs.",
+    "Run validation: A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable."
+  ],
+  "workflow_ascii": "Advance Release Order (ARO)\nEvaluate condition: A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.\n   |\n   v\nA suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.\n   |\n   v\nRun validation: 4.31 Advance Release Order (ARO)\nApplication shall be filed online in ANF 4A to Regional Authority concerned for grant\nof ARO to procure inputs from indigenous sources / STEs.\n   |\n   v\nRun validation: A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.\"]\n    S2[\"A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.\"]\n    S1 --> S2\n    S3[\"Run validation: 4.31 Advance Release Order (ARO)\nApplication shall be filed online in ANF 4A to Regional Authority concerned for grant\nof ARO to procure inputs from indigenous sources / STEs.\"]\n    S2 --> S3\n    S4[\"Run validation: A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.\"]\n    S3 --> S4",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.;\n:A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.;\n:Run validation\\: 4.31 Advance Release Order (ARO)\nApplication shall be filed online in ANF 4A to Regional Authority concerned for grant\nof ARO to procure inputs from indigenous sources / STEs.;\n:Run validation\\: A suitable documentary\nevidence as outlined in Para 4.30 (c) of HBP shall be submitted, if applicable.;\nstop\n@enduml"
+}

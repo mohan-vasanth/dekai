@@ -1,0 +1,22 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.09",
+  "title": "Leasing of Capital Goods",
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_09-R001",
+      "rule_description": "6.09 Leasing of Capital Goods\nValue of imported capital goods financed through leasing companies or obtained\nfree of cost and / or on loan / lease basis, shall also be taken into account for\npurpose of calculation of NFE as defined in FTP.",
+      "trigger": "Leasing of Capital Goods",
+      "condition": "Section 6.09 is applicable",
+      "validation": "6.09 Leasing of Capital Goods\nValue of imported capital goods financed through leasing companies or obtained\nfree of cost and / or on loan / lease basis, shall also be taken into account for\npurpose of calculation of NFE as defined in FTP.",
+      "action": "6.09 Leasing of Capital Goods\nValue of imported capital goods financed through leasing companies or obtained\nfree of cost and / or on loan / lease basis, shall also be taken into account for\npurpose of calculation of NFE as defined in FTP.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.09 - Leasing of Capital Goods."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 6.09 Leasing of Capital Goods\nValue of imported capital goods financed through leasing companies or obtained\nfree of cost and / or on loan / lease basis, shall also be taken into account for\npurpose of calculation of NFE as defined in FTP.",
+    "IF validations pass THEN recommend action: 6.09 Leasing of Capital Goods\nValue of imported capital goods financed through leasing companies or obtained\nfree of cost and / or on loan / lease basis, shall also be taken into account for\npurpose of calculation of NFE as defined in FTP."
+  ]
+}

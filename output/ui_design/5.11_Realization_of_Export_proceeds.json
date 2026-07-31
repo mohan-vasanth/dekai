@@ -1,0 +1,47 @@
+{
+  "section": "5.11",
+  "ui": [
+    {
+      "screen_id": "Realization_of_Export_proceeds_overview",
+      "name": "Realization of Export proceeds Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Realization_of_Export_proceeds_submission",
+      "name": "Realization of Export proceeds Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "per_flag",
+        "ftp_flag",
+        "for_flag",
+        "sez_flag",
+        "the_flag",
+        "para_flag"
+      ]
+    },
+    {
+      "screen_id": "Realization_of_Export_proceeds_exceptions",
+      "name": "Realization of Export proceeds Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

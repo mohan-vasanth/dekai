@@ -1,0 +1,22 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.18",
+  "title": "Provision for Pharmaceutical Products",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_18-R001",
+      "rule_description": "“Input combination permitted under NI process, as\napproved by the concerned agency of the regulated markets”, shall be exporter-\nspecific and country-specific and shall be available only when the exports are\ndestined for the same country.",
+      "trigger": "Provision for Pharmaceutical Products",
+      "condition": "“Input combination permitted under NI process, as\napproved by the concerned agency of the regulated markets”, shall be exporter-\nspecific and country-specific and shall be available only when the exports are\ndestined for the same country.",
+      "validation": "“Input combination permitted under NI process, as\napproved by the concerned agency of the regulated markets”, shall be exporter-\nspecific and country-specific and shall be available only when the exports are\ndestined for the same country.",
+      "action": "4.18 Provision for Pharmaceutical Products\nRegional Authority may issue Advance Authorisation for pharmaceutical products\nmanufactured through Non-Infringing (NI) process.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.18 - Provision for Pharmaceutical Products."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: “Input combination permitted under NI process, as\napproved by the concerned agency of the regulated markets”, shall be exporter-\nspecific and country-specific and shall be available only when the exports are\ndestined for the same country.",
+    "IF validations pass THEN recommend action: 4.18 Provision for Pharmaceutical Products\nRegional Authority may issue Advance Authorisation for pharmaceutical products\nmanufactured through Non-Infringing (NI) process."
+  ]
+}

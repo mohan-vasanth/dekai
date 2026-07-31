@@ -1,0 +1,12 @@
+{
+  "section": "6.17",
+  "workflow": [
+    "Run validation: 142\n6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA\nSupplier of precious and semi-precious stones, synthetic stones and processed\npearls from DTA to EOUs shall be eligible for grant of Replenishment\nAuthorisation at rates and for items mentioned in HBP.",
+    "Run validation: I shall be applicable.",
+    "Run validation: However,\napplication shall be made to DC concerned.",
+    "Handle exception: However,\napplication shall be made to DC concerned."
+  ],
+  "workflow_ascii": "Supply of Precious / Semi-precious / Synthetic Stones from DTA\nRun validation: 142\n6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA\nSupplier of precious and semi-precious stones, synthetic stones and processed\npearls from DTA to EOUs shall be eligible for grant of Replenishment\nAuthorisation at rates and for items mentioned in HBP.\n   |\n   v\nRun validation: I shall be applicable.\n   |\n   v\nRun validation: However,\napplication shall be made to DC concerned.\n   |\n   v\nHandle exception: However,\napplication shall be made to DC concerned.",
+  "mermaid": "flowchart TD\n    S1[\"Run validation: 142\n6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA\nSupplier of precious and semi-precious stones, synthetic stones and processed\npearls from DTA to EOUs shall be eligible for grant of Replenishment\nAuthorisation at rates and for items mentioned in HBP.\"]\n    S2[\"Run validation: I shall be applicable.\"]\n    S1 --> S2\n    S3[\"Run validation: However,\napplication shall be made to DC concerned.\"]\n    S2 --> S3\n    S4[\"Handle exception: However,\napplication shall be made to DC concerned.\"]\n    S3 --> S4",
+  "plantuml": "@startuml\nstart\n:Run validation\\: 142\n6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA\nSupplier of precious and semi-precious stones, synthetic stones and processed\npearls from DTA to EOUs shall be eligible for grant of Replenishment\nAuthorisation at rates and for items mentioned in HBP.;\n:Run validation\\: I shall be applicable.;\n:Run validation\\: However,\napplication shall be made to DC concerned.;\n:Handle exception\\: However,\napplication shall be made to DC concerned.;\nstop\n@enduml"
+}

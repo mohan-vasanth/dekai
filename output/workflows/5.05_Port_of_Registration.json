@@ -1,0 +1,12 @@
+{
+  "section": "5.05",
+  "workflow": [
+    "Evaluate condition: However, exports can be made from any port\nspecified in paragraph 4.35 of HBP.",
+    "5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.",
+    "Run validation: 5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.",
+    "Handle exception: However, exports can be made from any port\nspecified in paragraph 4.35 of HBP."
+  ],
+  "workflow_ascii": "Port of Registration\nEvaluate condition: However, exports can be made from any port\nspecified in paragraph 4.35 of HBP.\n   |\n   v\n5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.\n   |\n   v\nRun validation: 5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.\n   |\n   v\nHandle exception: However, exports can be made from any port\nspecified in paragraph 4.35 of HBP.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: However, exports can be made from any port\nspecified in paragraph 4.35 of HBP.\"]\n    S2[\"5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.\"]\n    S1 --> S2\n    S3[\"Run validation: 5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.\"]\n    S2 --> S3\n    S4[\"Handle exception: However, exports can be made from any port\nspecified in paragraph 4.35 of HBP.\"]\n    S3 --> S4",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: However, exports can be made from any port\nspecified in paragraph 4.35 of HBP.;\n:5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.;\n:Run validation\\: 5.05 Port of Registration\nEPCG Authorisation shall be issued with a single port of registration as per\nparagraph 4.35 of HBP, for imports.;\n:Handle exception\\: However, exports can be made from any port\nspecified in paragraph 4.35 of HBP.;\nstop\n@enduml"
+}

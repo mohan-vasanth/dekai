@@ -1,0 +1,38 @@
+{
+  "section": "6.15",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.15",
+      "purpose": "Retrieve knowledge payload for section 6.15",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Supplies-to-other-EOU-EHTP-STP-SEZ-BTP-Units/validate",
+      "purpose": "Validate inputs and documents for Supplies to other EOU / EHTP / STP / SEZ / BTP Units",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

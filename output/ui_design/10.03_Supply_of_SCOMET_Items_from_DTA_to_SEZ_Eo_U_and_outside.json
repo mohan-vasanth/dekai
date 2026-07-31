@@ -1,0 +1,47 @@
+{
+  "section": "10.03",
+  "ui": [
+    {
+      "screen_id": "Supply_of_SCOMET_Items_from_DTA_to_SEZ_Eo_U_and_outside_overview",
+      "name": "Supply of SCOMET Items from DTA to SEZ/Eo U and outside Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Supply_of_SCOMET_Items_from_DTA_to_SEZ_Eo_U_and_outside_submission",
+      "name": "Supply of SCOMET Items from DTA to SEZ/Eo U and outside Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "dta_flag",
+        "and_flag",
+        "the_flag",
+        "for_flag",
+        "are_flag",
+        "sez_flag"
+      ]
+    },
+    {
+      "screen_id": "Supply_of_SCOMET_Items_from_DTA_to_SEZ_Eo_U_and_outside_exceptions",
+      "name": "Supply of SCOMET Items from DTA to SEZ/Eo U and outside Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

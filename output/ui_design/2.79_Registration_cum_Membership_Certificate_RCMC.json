@@ -1,0 +1,47 @@
+{
+  "section": "2.79",
+  "ui": [
+    {
+      "screen_id": "Registration_cum_Membership_Certificate_RCMC_overview",
+      "name": "Registration- cum- Membership Certificate (RCMC) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Registration_cum_Membership_Certificate_RCMC_submission",
+      "name": "Registration- cum- Membership Certificate (RCMC) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "cum_flag",
+        "may_flag",
+        "anf_flag",
+        "and_flag",
+        "epc_flag",
+        "all_flag"
+      ]
+    },
+    {
+      "screen_id": "Registration_cum_Membership_Certificate_RCMC_exceptions",
+      "name": "Registration- cum- Membership Certificate (RCMC) Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

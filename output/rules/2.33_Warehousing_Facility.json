@@ -1,0 +1,33 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.33",
+  "title": "Warehousing Facility",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_33-R001",
+      "rule_description": "On receipt of goods, such warehouses shall keep these goods for one year\nwithout payment of applicable customs duties.",
+      "trigger": "Warehousing Facility",
+      "condition": "Goods can be cleared against Bill\nof Entry for home consumption, on payment of custom duty and on submission\nof Authorisation wherever required, after an order for clearance of such goods\nfor home consumption is issued by competent customs authorities.",
+      "validation": "On receipt of goods, such warehouses shall keep these goods for one year\nwithout payment of applicable customs duties.",
+      "action": "On receipt of goods, such warehouses shall keep these goods for one year\nwithout payment of applicable customs duties.",
+      "exception": "In case of\nclearance against duty free categories /concessional duty categories, exemption\n/ concession from duty shall be allowed.",
+      "output": "DEKAI should produce a compliance decision for 2.33 - Warehousing Facility."
+    },
+    {
+      "rule_id": "CH2-SEC2_33-R002",
+      "rule_description": "In case of\nclearance against duty free categories /concessional duty categories, exemption\n/ concession from duty shall be allowed.",
+      "trigger": "Warehousing Facility",
+      "condition": "In case of\nclearance against duty free categories /concessional duty categories, exemption\n/ concession from duty shall be allowed.",
+      "validation": "Goods can be cleared against Bill\nof Entry for home consumption, on payment of custom duty and on submission\nof Authorisation wherever required, after an order for clearance of such goods\nfor home consumption is issued by competent customs authorities.",
+      "action": "Goods can be cleared against Bill\nof Entry for home consumption, on payment of custom duty and on submission\nof Authorisation wherever required, after an order for clearance of such goods\nfor home consumption is issued by competent customs authorities.",
+      "exception": "In case of\nclearance against duty free categories /concessional duty categories, exemption\n/ concession from duty shall be allowed.",
+      "output": "DEKAI should produce a compliance decision for 2.33 - Warehousing Facility."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: On receipt of goods, such warehouses shall keep these goods for one year\nwithout payment of applicable customs duties.",
+    "IF detected context matches section rule THEN enforce: In case of\nclearance against duty free categories /concessional duty categories, exemption\n/ concession from duty shall be allowed.",
+    "IF validations pass THEN recommend action: On receipt of goods, such warehouses shall keep these goods for one year\nwithout payment of applicable customs duties."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.24",
+  "title": "Penal Action",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_24-R001",
+      "rule_description": "5.24 Penal Action\nIn case of failure to fulfil export obligation or any other condition of\nauthorisation, authorisation holder shall be liable for action under FT (D&R) Act,\n1992, as amended, Orders and Rules made thereunder, provisions of FTP/HBP,\nCustoms Act, 1962, as amended from time to time or any other law in force.",
+      "trigger": "Penal Action",
+      "condition": "5.24 Penal Action\nIn case of failure to fulfil export obligation or any other condition of\nauthorisation, authorisation holder shall be liable for action under FT (D&R) Act,\n1992, as amended, Orders and Rules made thereunder, provisions of FTP/HBP,\nCustoms Act, 1962, as amended from time to time or any other law in force.",
+      "validation": "5.24 Penal Action\nIn case of failure to fulfil export obligation or any other condition of\nauthorisation, authorisation holder shall be liable for action under FT (D&R) Act,\n1992, as amended, Orders and Rules made thereunder, provisions of FTP/HBP,\nCustoms Act, 1962, as amended from time to time or any other law in force.",
+      "action": "5.24 Penal Action\nIn case of failure to fulfil export obligation or any other condition of\nauthorisation, authorisation holder shall be liable for action under FT (D&R) Act,\n1992, as amended, Orders and Rules made thereunder, provisions of FTP/HBP,\nCustoms Act, 1962, as amended from time to time or any other law in force.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.24 - Penal Action."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 5.24 Penal Action\nIn case of failure to fulfil export obligation or any other condition of\nauthorisation, authorisation holder shall be liable for action under FT (D&R) Act,\n1992, as amended, Orders and Rules made thereunder, provisions of FTP/HBP,\nCustoms Act, 1962, as amended from time to time or any other law in force.",
+    "IF validations pass THEN recommend action: 5.24 Penal Action\nIn case of failure to fulfil export obligation or any other condition of\nauthorisation, authorisation holder shall be liable for action under FT (D&R) Act,\n1992, as amended, Orders and Rules made thereunder, provisions of FTP/HBP,\nCustoms Act, 1962, as amended from time to time or any other law in force."
+  ]
+}

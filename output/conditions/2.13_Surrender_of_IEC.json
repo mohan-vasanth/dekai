@@ -1,0 +1,28 @@
+{
+  "section": "2.13",
+  "conditions": [
+    "2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.",
+    "14\n2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.",
+    "14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.13.1",
+      "if": "an IEC holder does not wish to operate allotted IEC",
+      "then": "Route for review",
+      "source": "2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority."
+    },
+    {
+      "id": "2.2.13.2",
+      "if": "an IEC holder does not wish to operate allotted IEC",
+      "then": "Route for review",
+      "source": "14\n2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority."
+    },
+    {
+      "id": "2.2.13.3",
+      "if": "14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc.",
+      "then": "Route for review",
+      "source": "14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc."
+    }
+  ]
+}

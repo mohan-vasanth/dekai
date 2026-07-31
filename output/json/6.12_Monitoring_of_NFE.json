@@ -1,0 +1,328 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.12",
+  "title": "Monitoring of NFE",
+  "purpose": "6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.",
+  "purpose_thanglish": "Indha Monitoring of NFE section-la, 6.12 Monitoring of NFE\nPerformance of EOUs kandippa be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.",
+  "summary": "6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs. Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority.",
+  "business_meaning": "Monitoring of NFE governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Monitoring of NFE explains the operating rule set that DEKAI should enforce. Key control points include 6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.",
+  "business_explanation_thanglish": "Indha Monitoring of NFE section-la, Monitoring of NFE explains the operating rule set that DEKAI should enforce. Key control points include 6.12 Monitoring of NFE\nPerformance of EOUs kandippa be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.",
+  "business_logic": [
+    "6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.",
+    "Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_12-R001",
+      "rule_description": "6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.",
+      "trigger": "Monitoring of NFE",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.12 - Monitoring of NFE."
+    },
+    {
+      "rule_id": "CH6-SEC6_12-R002",
+      "rule_description": "Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority.",
+      "trigger": "Monitoring of NFE",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.12 - Monitoring of NFE."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [
+    "6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.",
+    "Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority."
+  ],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [
+    "Performance of EOUs shall be monitored by Units Approval Committee",
+    "Customs",
+    "Customs authority"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Run validation: 6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.",
+    "Run validation: Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority."
+  ],
+  "workflow_ascii": "Monitoring of NFE\nRun validation: 6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.\n   |\n   v\nRun validation: Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority.",
+  "decision_tree": [
+    "IF section 6.12 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Monitoring of NFE Decision\nIF section 6.12 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Monitoring of NFE; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Monitoring of NFE, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the monitoring of nfe process.",
+  "real_world_example_thanglish": "Indha Monitoring of NFE section-la, Example: an importer or exporter invokes Monitoring of NFE, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the monitoring of nfe process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.",
+    "IF detected context matches section rule THEN enforce: Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "nfe_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:NFE"
+    },
+    {
+      "name": "per_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:per"
+    },
+    {
+      "name": "stp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:STP"
+    },
+    {
+      "name": "btp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:BTP"
+    },
+    {
+      "name": "eous_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:EOUs"
+    },
+    {
+      "name": "anfs_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ANFs"
+    },
+    {
+      "name": "ehtp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:EHTP"
+    },
+    {
+      "name": "meit_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Meit"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.12",
+      "purpose": "Retrieve knowledge payload for section 6.12",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Monitoring-of-NFE/validate",
+      "purpose": "Validate inputs and documents for Monitoring of NFE",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Monitoring_of_NFE_overview",
+      "name": "Monitoring of NFE Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Monitoring_of_NFE_submission",
+      "name": "Monitoring of NFE Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "nfe_flag",
+        "per_flag",
+        "stp_flag",
+        "btp_flag",
+        "eous_flag",
+        "anfs_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Monitoring of NFE require?",
+    "Which documents are needed for Monitoring of NFE?",
+    "How does DEKAI validate Monitoring of NFE requests?"
+  ],
+  "expected_ai_answers": [
+    "Monitoring of NFE requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Monitoring of NFE by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 6.12?",
+      "answer_en": "Monitoring of NFE explains the operating rule set that DEKAI should enforce. Key control points include 6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.",
+      "question_thanglish": "Indha Monitoring of NFE section-la, What is the purpose of section 6.12?",
+      "answer_thanglish": "Indha Monitoring of NFE section-la, Monitoring of NFE explains the operating rule set that DEKAI should enforce. Key control points include 6.12 Monitoring of NFE\nPerformance of EOUs kandippa be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs."
+    },
+    {
+      "question_en": "What documents are required under Monitoring of NFE?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Monitoring of NFE section-la, What documents are required under Monitoring of NFE?",
+      "answer_thanglish": "Indha Monitoring of NFE section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Monitoring of NFE?",
+      "answer_en": "Performance of EOUs shall be monitored by Units Approval Committee, Customs, Customs authority",
+      "question_thanglish": "Indha Monitoring of NFE section-la, Which authority handles Monitoring of NFE?",
+      "answer_thanglish": "Indha Monitoring of NFE section-la, Performance of EOUs kandippa be monitored by Units Approval Committee, Customs, Customs authority"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Monitoring of NFE?",
+      "answer_en": "AI answers: DEKAI should evaluate section 6.12, apply the extracted rules, and guide the user through Run validation: 6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs..",
+      "question_thanglish": "Indha Monitoring of NFE section-la, User asks: How do I comply with Monitoring of NFE?",
+      "answer_thanglish": "Indha Monitoring of NFE section-la, AI answers: DEKAI should evaluate section 6.12, apply the extracted rules, and guide the user through Run validation: 6.12 Monitoring of NFE\nPerformance of EOUs kandippa be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Monitoring of NFE?",
+      "answer_en": "AI answers: Applicable validations are 6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs., Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority.",
+      "question_thanglish": "Indha Monitoring of NFE section-la, User asks: Which validations apply to Monitoring of NFE?",
+      "answer_thanglish": "Indha Monitoring of NFE section-la, AI answers: Applicable validations are 6.12 Monitoring of NFE\nPerformance of EOUs kandippa be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs., Performance of EHTP /\nSTP / BTP kandippa be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 6, section 6.12, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Monitoring of NFE into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: Performance of EOUs shall be monitored by Units Approval Committee, Customs, Customs authority."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Monitoring of NFE section-la, Capture chapter 6, section 6.12, title, and page references as immutable knowledge metadata.",
+    "Indha Monitoring of NFE section-la, Bind validations for Monitoring of NFE into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Monitoring of NFE section-la, Route escalations or approvals to: Performance of EOUs kandippa be monitored by Units Approval Committee, Customs, Customs authority."
+  ],
+  "keywords": [
+    "NFE",
+    "per",
+    "STP",
+    "BTP",
+    "EOUs",
+    "ANFs",
+    "EHTP",
+    "Meit",
+    "with",
+    "shall",
+    "Units",
+    "given",
+    "jointly",
+    "Customs",
+    "Approval",
+    "Appendix",
+    "monitored",
+    "Committee",
+    "authority",
+    "Monitoring"
+  ],
+  "search_keywords": [
+    "NFE",
+    "per",
+    "STP",
+    "BTP",
+    "EOUs",
+    "ANFs",
+    "EHTP",
+    "Meit",
+    "with",
+    "shall",
+    "Units",
+    "given",
+    "jointly",
+    "Customs",
+    "Approval",
+    "Appendix",
+    "monitored",
+    "Committee",
+    "authority",
+    "Monitoring"
+  ],
+  "intent": "Provide knowledge guidance for Monitoring of NFE.",
+  "tags": [
+    "6.12",
+    "Monitoring of NFE",
+    "business-rule",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.",
+    "Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority."
+  ],
+  "page_numbers": [
+    10
+  ],
+  "pages": [
+    10
+  ],
+  "source_document": "HBP-Chapter-6.pdf",
+  "raw_text": "6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs. Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority.",
+  "mermaid": "flowchart TD\n    S1[\"Run validation: 6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.\"]\n    S2[\"Run validation: Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Run validation\\: 6.12 Monitoring of NFE\nPerformance of EOUs shall be monitored by Units Approval Committee as per\nguidelines given in Appendix 6F of Appendices & ANFs.;\n:Run validation\\: Performance of EHTP /\nSTP / BTP shall be monitored by Meit Y / Do BT jointly with jurisdictional\nCustoms authority.;\nstop\n@enduml"
+}

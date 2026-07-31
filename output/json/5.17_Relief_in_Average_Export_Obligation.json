@@ -1,0 +1,371 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.17",
+  "title": "Relief in Average Export Obligation",
+  "purpose": "5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.",
+  "purpose_thanglish": "Indha Relief in Average Export Obligation section-la, 5.17 Relief in Average export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.",
+  "summary": "5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year. However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline. (b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+  "business_meaning": "Relief in Average Export Obligation governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Relief in Average Export Obligation explains the operating rule set that DEKAI should enforce. Key control points include (b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+  "business_explanation_thanglish": "Indha Relief in Average Export Obligation section-la, Relief in Average export Obligation explains the operating rule set that DEKAI should enforce. Key control points include (b) The sectors /product groups for which this relaxation is to be allowed kandippa\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs kandippa re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+  "business_logic": [
+    "(b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+    "(b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_17-R001",
+      "rule_description": "(b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+      "trigger": "Relief in Average Export Obligation",
+      "condition": "5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.",
+      "validation": "(b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+      "action": "Manual review required.",
+      "exception": "However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.",
+      "output": "DEKAI should produce a compliance decision for 5.17 - Relief in Average Export Obligation."
+    },
+    {
+      "rule_id": "CH5-SEC5_17-R002",
+      "rule_description": "(b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+      "trigger": "Relief in Average Export Obligation",
+      "condition": "However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.",
+      "validation": "(b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+      "action": "Manual review required.",
+      "exception": "However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.",
+      "output": "DEKAI should produce a compliance decision for 5.17 - Relief in Average Export Obligation."
+    }
+  ],
+  "conditions": [
+    "5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.",
+    "However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.",
+    "5.17 Relief in Average Export Obligation\n(a)\nTo provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year."
+  ],
+  "condition_logic": [
+    {
+      "id": "5.5.17.1",
+      "if": "5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.",
+      "then": "Route for review",
+      "source": "5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year."
+    },
+    {
+      "id": "5.5.17.2",
+      "if": "However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.",
+      "then": "Route for review",
+      "source": "However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline."
+    },
+    {
+      "id": "5.5.17.3",
+      "if": "5.17 Relief in Average Export Obligation\n(a)\nTo provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.",
+      "then": "Route for review",
+      "source": "5.17 Relief in Average Export Obligation\n(a)\nTo provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year."
+    }
+  ],
+  "validations": [
+    "(b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+    "(b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group."
+  ],
+  "exceptions": [
+    "However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline."
+  ],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "authorities": [
+    "DGFT"
+  ],
+  "timelines": [
+    "However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.",
+    "(b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+    "(b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group."
+  ],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: 5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.",
+    "Evaluate condition: However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.",
+    "Evaluate condition: 5.17 Relief in Average Export Obligation\n(a)\nTo provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.",
+    "Run validation: (b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+    "Run validation: (b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+    "Handle exception: However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline."
+  ],
+  "workflow_ascii": "Relief in Average Export Obligation\nEvaluate condition: 5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.\n   |\n   v\nEvaluate condition: However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.\n   |\n   v\nEvaluate condition: 5.17 Relief in Average Export Obligation\n(a)\nTo provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.\n   |\n   v\nRun validation: (b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.\n   |\n   v\nRun validation: (b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.\n   |\n   v\nHandle exception: However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.",
+  "decision_tree": [
+    "IF exception applies (However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Relief in Average Export Obligation Decision\nIF exception applies (However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.) THEN route to manual review",
+  "examples": [
+    "User asks to process Relief in Average Export Obligation; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Relief in Average Export Obligation, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the relief in average export obligation process.",
+  "real_world_example_thanglish": "Indha Relief in Average Export Obligation section-la, Example: an importer or exporter invokes Relief in Average export Obligation, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the relief in average export obligation process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+    "IF detected context matches section rule THEN enforce: (b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "has_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:has"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "all_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:all"
+    },
+    {
+      "name": "ras_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:RAs"
+    },
+    {
+      "name": "end_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:end"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5.17",
+      "purpose": "Retrieve knowledge payload for section 5.17",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Relief-in-Average-Export-Obligation/validate",
+      "purpose": "Validate inputs and documents for Relief in Average Export Obligation",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Relief_in_Average_Export_Obligation_overview",
+      "name": "Relief in Average Export Obligation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Relief_in_Average_Export_Obligation_submission",
+      "name": "Relief in Average Export Obligation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "has_flag",
+        "the_flag",
+        "for_flag",
+        "may_flag",
+        "and_flag",
+        "all_flag"
+      ]
+    },
+    {
+      "screen_id": "Relief_in_Average_Export_Obligation_exceptions",
+      "name": "Relief in Average Export Obligation Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Relief in Average Export Obligation require?",
+    "Which documents are needed for Relief in Average Export Obligation?",
+    "How does DEKAI validate Relief in Average Export Obligation requests?"
+  ],
+  "expected_ai_answers": [
+    "Relief in Average Export Obligation requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Relief in Average Export Obligation by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 5.17?",
+      "answer_en": "Relief in Average Export Obligation explains the operating rule set that DEKAI should enforce. Key control points include (b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+      "question_thanglish": "Indha Relief in Average Export Obligation section-la, What is the purpose of section 5.17?",
+      "answer_thanglish": "Indha Relief in Average Export Obligation section-la, Relief in Average export Obligation explains the operating rule set that DEKAI should enforce. Key control points include (b) The sectors /product groups for which this relaxation is to be allowed kandippa\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs kandippa re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group."
+    },
+    {
+      "question_en": "What documents are required under Relief in Average Export Obligation?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Relief in Average Export Obligation section-la, What documents are required under Relief in Average export Obligation?",
+      "answer_thanglish": "Indha Relief in Average Export Obligation section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Relief in Average Export Obligation?",
+      "answer_en": "DGFT",
+      "question_thanglish": "Indha Relief in Average Export Obligation section-la, Which authority handles Relief in Average export Obligation?",
+      "answer_thanglish": "Indha Relief in Average Export Obligation section-la, DGFT"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Relief in Average Export Obligation?",
+      "answer_en": "AI answers: DEKAI should evaluate section 5.17, apply the extracted rules, and guide the user through Evaluate condition: 5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year..",
+      "question_thanglish": "Indha Relief in Average Export Obligation section-la, User asks: How do I comply with Relief in Average export Obligation?",
+      "answer_thanglish": "Indha Relief in Average Export Obligation section-la, AI answers: DEKAI should evaluate section 5.17, apply the extracted rules, and guide the user through Evaluate condition: 5.17 Relief in Average export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Relief in Average Export Obligation?",
+      "answer_en": "AI answers: Applicable validations are (b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group., (b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+      "question_thanglish": "Indha Relief in Average Export Obligation section-la, User asks: Which validations apply to Relief in Average export Obligation?",
+      "answer_thanglish": "Indha Relief in Average Export Obligation section-la, AI answers: Applicable validations are (b) The sectors /product groups for which this relaxation is to be allowed kandippa\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs kandippa re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group., (b)\nThe sectors /product groups for which this relaxation is to be allowed kandippa\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs kandippa re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 5, section 5.17, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Relief in Average Export Obligation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: DGFT.",
+    "Trigger manual review when exception clauses are detected."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Relief in Average Export Obligation section-la, Capture chapter 5, section 5.17, title, and page references as immutable knowledge metadata.",
+    "Indha Relief in Average Export Obligation section-la, Bind validations for Relief in Average export Obligation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Relief in Average Export Obligation section-la, Route escalations or approvals to: DGFT.",
+    "Indha Relief in Average Export Obligation section-la, Trigger manual review when exception clauses are detected."
+  ],
+  "keywords": [
+    "has",
+    "the",
+    "for",
+    "may",
+    "and",
+    "all",
+    "RAs",
+    "end",
+    "that",
+    "more",
+    "than",
+    "year",
+    "case",
+    "over",
+    "base",
+    "will",
+    "have",
+    "this",
+    "DGFT",
+    "those"
+  ],
+  "search_keywords": [
+    "has",
+    "the",
+    "for",
+    "may",
+    "and",
+    "all",
+    "RAs",
+    "end",
+    "that",
+    "more",
+    "than",
+    "year",
+    "case",
+    "over",
+    "base",
+    "will",
+    "have",
+    "this",
+    "DGFT",
+    "those"
+  ],
+  "intent": "Provide knowledge guidance for Relief in Average Export Obligation.",
+  "tags": [
+    "5.17",
+    "Relief in Average Export Obligation",
+    "business-rule",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "(b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+    "(b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group."
+  ],
+  "page_numbers": [
+    12
+  ],
+  "pages": [
+    12
+  ],
+  "source_document": "HBP2023_Chapter05.pdf",
+  "raw_text": "5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year. However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.\n(b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.\n5.17 Relief in Average Export Obligation\n(a)\nTo provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year. However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.\n(b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.\"]\n    S2[\"Evaluate condition: However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: 5.17 Relief in Average Export Obligation\n(a)\nTo provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.\"]\n    S2 --> S3\n    S4[\"Run validation: (b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.\"]\n    S3 --> S4\n    S5[\"Run validation: (b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.\"]\n    S4 --> S5\n    S6[\"Handle exception: However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.\"]\n    S5 --> S6",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 5.17 Relief in Average Export Obligation\n(a) To provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.;\n:Evaluate condition\\: However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.;\n:Evaluate condition\\: 5.17 Relief in Average Export Obligation\n(a)\nTo provide relief to exporters of those sectors where total exports in that\nsector/product group has declined by more than 5% as compared to the\nprevious year, average export obligation for the year may be reduced\nproportionate to reduction in exports of that particular sector/product\ngroup during the relevant year as against the preceding year.;\n:Run validation\\: (b) The sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.;\n:Run validation\\: (b)\nThe sectors /product groups for which this relaxation is to be allowed shall\nbe conveyed by the DGFT to all the RAs within seven months of the end of\nthe previous financial year and the RAs shall re-fix the annual average EO\nfor previous year accordingly for exporters in that sector/ product group.;\n:Handle exception\\: However, in\ncase export decline is continuous over consecutive years, the base year for\ncalculation of eligibility and calculation of reduction in average export\nobligation will be taken as the year after which the exports have shown\ncontinuous decline.;\nstop\n@enduml"
+}

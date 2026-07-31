@@ -1,0 +1,47 @@
+{
+  "section": "10.14",
+  "ui": [
+    {
+      "screen_id": "Issue_of_export_authorisations_for_re_export_return_of_overview",
+      "name": "Issue of export authorisations for re-export/return of Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Issue_of_export_authorisations_for_re_export_return_of_submission",
+      "name": "Issue of export authorisations for re-export/return of Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "its_flag",
+        "oem_flag",
+        "has_flag",
+        "end_flag"
+      ]
+    },
+    {
+      "screen_id": "Issue_of_export_authorisations_for_re_export_return_of_exceptions",
+      "name": "Issue of export authorisations for re-export/return of Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

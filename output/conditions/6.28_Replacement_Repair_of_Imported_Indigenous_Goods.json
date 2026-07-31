@@ -1,0 +1,21 @@
+{
+  "section": "6.28",
+  "conditions": [
+    "However, if goods have been consumed /\ndestroyed in process of testing etc.",
+    "a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.28.1",
+      "if": "However, if goods have been consumed /\ndestroyed in process of testing etc.",
+      "then": "Any foreign exchange payment for this\npurpose will also be allowed.",
+      "source": "However, if goods have been consumed /\ndestroyed in process of testing etc."
+    },
+    {
+      "id": "6.6.28.2",
+      "if": "a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.",
+      "then": "Any foreign exchange payment for this\npurpose will also be allowed.",
+      "source": "a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms."
+    }
+  ]
+}

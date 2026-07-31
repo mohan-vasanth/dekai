@@ -1,0 +1,47 @@
+{
+  "section": "6.02",
+  "ui": [
+    {
+      "screen_id": "Legal_Undertaking_LUT_overview",
+      "name": "Legal Undertaking (LUT) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Legal_Undertaking_LUT_submission",
+      "name": "Legal Undertaking (LUT) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "lut_flag",
+        "eou_flag",
+        "stp_flag",
+        "btp_flag",
+        "all_flag",
+        "for_flag"
+      ]
+    },
+    {
+      "screen_id": "Legal_Undertaking_LUT_exceptions",
+      "name": "Legal Undertaking (LUT) Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

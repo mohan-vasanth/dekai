@@ -1,0 +1,47 @@
+{
+  "section": "2.50",
+  "ui": [
+    {
+      "screen_id": "Import_of_Restricted_items_for_R_D_by_units_of_Government_overview",
+      "name": "Import of Restricted items for R&D by units of Government Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Restricted_items_for_R_D_by_units_of_Government_submission",
+      "name": "Import of Restricted items for R&D by units of Government Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "r&d_flag",
+        "all_flag",
+        "and_flag",
+        "may_flag",
+        "stes_flag"
+      ]
+    },
+    {
+      "screen_id": "Import_of_Restricted_items_for_R_D_by_units_of_Government_exceptions",
+      "name": "Import of Restricted items for R&D by units of Government Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

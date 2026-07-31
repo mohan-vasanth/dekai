@@ -1,0 +1,47 @@
+{
+  "section": "2.48",
+  "ui": [
+    {
+      "screen_id": "EXIM_Facilitation_Committee_overview",
+      "name": "EXIM Facilitation Committee Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "EXIM_Facilitation_Committee_submission",
+      "name": "EXIM Facilitation Committee Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "any_flag",
+        "him_flag",
+        "and_flag",
+        "the_flag",
+        "for_flag"
+      ]
+    },
+    {
+      "screen_id": "EXIM_Facilitation_Committee_exceptions",
+      "name": "EXIM Facilitation Committee Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

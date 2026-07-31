@@ -1,0 +1,47 @@
+{
+  "section": "6.19",
+  "ui": [
+    {
+      "screen_id": "Export_through_Other_Exporters_overview",
+      "name": "Export through Other Exporters Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_through_Other_Exporters_submission",
+      "name": "Export through Other Exporters Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "eou_flag",
+        "stp_flag",
+        "btp_flag",
+        "may_flag",
+        "any_flag",
+        "sez_flag"
+      ]
+    },
+    {
+      "screen_id": "Export_through_Other_Exporters_exceptions",
+      "name": "Export through Other Exporters Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

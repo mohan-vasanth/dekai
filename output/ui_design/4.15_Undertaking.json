@@ -1,0 +1,47 @@
+{
+  "section": "4.15",
+  "ui": [
+    {
+      "screen_id": "Undertaking_overview",
+      "name": "Undertaking Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Undertaking_submission",
+      "name": "Undertaking Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "all_flag",
+        "the_flag",
+        "are_flag",
+        "and_flag",
+        "get_flag",
+        "not_flag"
+      ]
+    },
+    {
+      "screen_id": "Undertaking_exceptions",
+      "name": "Undertaking Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

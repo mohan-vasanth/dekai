@@ -1,0 +1,376 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.04",
+  "title": "Territorial Jurisdiction of RA",
+  "purpose": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+  "purpose_thanglish": "Indha Territorial Jurisdiction of RA section-la, Each application, unless\notherwise specified, kandippa be submitted to jurisdictional RA.",
+  "summary": "2.04 Territorial Jurisdiction of RA\nTerritorial jurisdiction of RAs is given in Appendix 1A of Appendices and Aayat Niryat\nForms. The address of applicant determines the jurisdiction of RA. Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+  "business_meaning": "Territorial Jurisdiction of RA governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Territorial Jurisdiction of RA explains the operating rule set that DEKAI should enforce. Key control points include Each application, unless\notherwise specified, shall be submitted to jurisdictional RA. The section also drives actions such as Each application, unless\notherwise specified, shall be submitted to jurisdictional RA..",
+  "business_explanation_thanglish": "Indha Territorial Jurisdiction of RA section-la, Territorial Jurisdiction of RA explains the operating rule set that DEKAI should enforce. Key control points include Each application, unless\notherwise specified, kandippa be submitted to jurisdictional RA. The section also drives actions such as Each application, unless\notherwise specified, kandippa be submitted to jurisdictional RA..",
+  "business_logic": [
+    "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_04-R001",
+      "rule_description": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "trigger": "Territorial Jurisdiction of RA",
+      "condition": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "validation": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "action": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "exception": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "output": "DEKAI should produce a compliance decision for 2.04 - Territorial Jurisdiction of RA."
+    }
+  ],
+  "conditions": [
+    "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.04.1",
+      "if": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "then": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "source": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+    }
+  ],
+  "validations": [
+    "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ],
+  "exceptions": [
+    "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ],
+  "dependencies": [],
+  "documents": [
+    "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ],
+  "required_documents": [
+    "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ],
+  "authorities": [
+    "RA",
+    "Territorial Jurisdiction of RA",
+    "The address of applicant determines the jurisdiction of RA",
+    "jurisdictional RA"
+  ],
+  "timelines": [],
+  "actions": [
+    "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ],
+  "workflow": [
+    "Evaluate condition: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+    "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+    "Run validation: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+    "Handle exception: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ],
+  "workflow_ascii": "Territorial Jurisdiction of RA\nEvaluate condition: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.\n   |\n   v\nEach application, unless\notherwise specified, shall be submitted to jurisdictional RA.\n   |\n   v\nRun validation: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.\n   |\n   v\nHandle exception: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+  "decision_tree": [
+    "IF Each application, unless\notherwise specified, shall be submitted to jurisdictional RA. THEN Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+    "IF exception applies (Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Territorial Jurisdiction of RA Decision\nIF Each application, unless\notherwise specified, shall be submitted to jurisdictional RA. THEN Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.\n   |\n   v\nIF exception applies (Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.) THEN route to manual review",
+  "examples": [
+    "User asks to process Territorial Jurisdiction of RA; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Territorial Jurisdiction of RA, submits Each application, unless\notherwise specified, shall be submitted to jurisdictional RA., and DEKAI uses the extracted rules to each application, unless\notherwise specified, shall be submitted to jurisdictional ra..",
+  "real_world_example_thanglish": "Indha Territorial Jurisdiction of RA section-la, Example: an importer or exporter invokes Territorial Jurisdiction of RA, submits Each application, unless\notherwise specified, kandippa be submitted to jurisdictional RA., and DEKAI uses the extracted rules to each application, unless\notherwise specified, kandippa be submitted to jurisdictional ra..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+    "IF validations pass THEN recommend action: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "ras_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:RAs"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:The"
+    },
+    {
+      "name": "each_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Each"
+    },
+    {
+      "name": "given_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:given"
+    },
+    {
+      "name": "aayat_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Aayat"
+    },
+    {
+      "name": "forms_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Forms"
+    },
+    {
+      "name": "shall_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:shall"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.04",
+      "purpose": "Retrieve knowledge payload for section 2.04",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Territorial-Jurisdiction-of-RA/validate",
+      "purpose": "Validate inputs and documents for Territorial Jurisdiction of RA",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Territorial-Jurisdiction-of-RA/execute",
+      "purpose": "Trigger business action for Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Territorial_Jurisdiction_of_RA_overview",
+      "name": "Territorial Jurisdiction of RA Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Territorial_Jurisdiction_of_RA_submission",
+      "name": "Territorial Jurisdiction of RA Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "ras_flag",
+        "and_flag",
+        "the_flag",
+        "each_flag",
+        "given_flag",
+        "aayat_flag"
+      ]
+    },
+    {
+      "screen_id": "Territorial_Jurisdiction_of_RA_exceptions",
+      "name": "Territorial Jurisdiction of RA Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Territorial Jurisdiction of RA require?",
+    "Which documents are needed for Territorial Jurisdiction of RA?",
+    "How does DEKAI validate Territorial Jurisdiction of RA requests?",
+    "What action should be taken for Territorial Jurisdiction of RA?"
+  ],
+  "expected_ai_answers": [
+    "Territorial Jurisdiction of RA requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+    "DEKAI validates Territorial Jurisdiction of RA by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.04?",
+      "answer_en": "Territorial Jurisdiction of RA explains the operating rule set that DEKAI should enforce. Key control points include Each application, unless\notherwise specified, shall be submitted to jurisdictional RA. The section also drives actions such as Each application, unless\notherwise specified, shall be submitted to jurisdictional RA..",
+      "question_thanglish": "Indha Territorial Jurisdiction of RA section-la, What is the purpose of section 2.04?",
+      "answer_thanglish": "Indha Territorial Jurisdiction of RA section-la, Territorial Jurisdiction of RA explains the operating rule set that DEKAI should enforce. Key control points include Each application, unless\notherwise specified, kandippa be submitted to jurisdictional RA. The section also drives actions such as Each application, unless\notherwise specified, kandippa be submitted to jurisdictional RA.."
+    },
+    {
+      "question_en": "What documents are required under Territorial Jurisdiction of RA?",
+      "answer_en": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "question_thanglish": "Indha Territorial Jurisdiction of RA section-la, What documents are required under Territorial Jurisdiction of RA?",
+      "answer_thanglish": "Indha Territorial Jurisdiction of RA section-la, Each application, unless\notherwise specified, kandippa be submitted to jurisdictional RA."
+    },
+    {
+      "question_en": "Which authority handles Territorial Jurisdiction of RA?",
+      "answer_en": "RA, Territorial Jurisdiction of RA, The address of applicant determines the jurisdiction of RA, jurisdictional RA",
+      "question_thanglish": "Indha Territorial Jurisdiction of RA section-la, Which authority handles Territorial Jurisdiction of RA?",
+      "answer_thanglish": "Indha Territorial Jurisdiction of RA section-la, RA, Territorial Jurisdiction of RA, The address of applicant determines the jurisdiction of RA, jurisdictional RA"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Territorial Jurisdiction of RA?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.04, apply the extracted rules, and guide the user through Evaluate condition: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA..",
+      "question_thanglish": "Indha Territorial Jurisdiction of RA section-la, User asks: How do I comply with Territorial Jurisdiction of RA?",
+      "answer_thanglish": "Indha Territorial Jurisdiction of RA section-la, AI answers: DEKAI should evaluate section 2.04, apply the extracted rules, and guide the user through Evaluate condition: Each application, unless\notherwise specified, kandippa be submitted to jurisdictional RA.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Territorial Jurisdiction of RA?",
+      "answer_en": "AI answers: Applicable validations are Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "question_thanglish": "Indha Territorial Jurisdiction of RA section-la, User asks: Which validations apply to Territorial Jurisdiction of RA?",
+      "answer_thanglish": "Indha Territorial Jurisdiction of RA section-la, AI answers: Applicable validations are Each application, unless\notherwise specified, kandippa be submitted to jurisdictional RA."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.04, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Territorial Jurisdiction of RA into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA..",
+    "Route escalations or approvals to: RA, Territorial Jurisdiction of RA, The address of applicant determines the jurisdiction of RA, jurisdictional RA.",
+    "Trigger manual review when exception clauses are detected."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Territorial Jurisdiction of RA section-la, Capture chapter 2, section 2.04, title, and page references as immutable knowledge metadata.",
+    "Indha Territorial Jurisdiction of RA section-la, Bind validations for Territorial Jurisdiction of RA into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Territorial Jurisdiction of RA section-la, Expose document upload controls for: Each application, unless\notherwise specified, kandippa be submitted to jurisdictional RA..",
+    "Indha Territorial Jurisdiction of RA section-la, Route escalations or approvals to: RA, Territorial Jurisdiction of RA, The address of applicant determines the jurisdiction of RA, jurisdictional RA.",
+    "Indha Territorial Jurisdiction of RA section-la, Trigger manual review when exception clauses are detected."
+  ],
+  "keywords": [
+    "RAs",
+    "and",
+    "The",
+    "Each",
+    "given",
+    "Aayat",
+    "Forms",
+    "shall",
+    "Niryat",
+    "unless",
+    "address",
+    "GENERAL",
+    "IMPORTS",
+    "EXPORTS",
+    "Appendix",
+    "CHAPTER-",
+    "applicant",
+    "otherwise",
+    "specified",
+    "submitted"
+  ],
+  "search_keywords": [
+    "RAs",
+    "and",
+    "The",
+    "Each",
+    "given",
+    "Aayat",
+    "Forms",
+    "shall",
+    "Niryat",
+    "unless",
+    "address",
+    "GENERAL",
+    "IMPORTS",
+    "EXPORTS",
+    "Appendix",
+    "CHAPTER-",
+    "applicant",
+    "otherwise",
+    "specified",
+    "submitted"
+  ],
+  "intent": "Support Territorial Jurisdiction of RA processing and compliance validation.",
+  "tags": [
+    "2.04",
+    "Territorial Jurisdiction of RA",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ],
+  "page_numbers": [
+    2
+  ],
+  "pages": [
+    2
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.04 Territorial Jurisdiction of RA\nTerritorial jurisdiction of RAs is given in Appendix 1A of Appendices and Aayat Niryat\nForms. The address of applicant determines the jurisdiction of RA. Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.\npg. 11\nCHAPTER-2\nGENERAL PROVISIONS REGARDING IMPORTS\nAND EXPORTS",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.\"]\n    S2[\"Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.\"]\n    S1 --> S2\n    S3[\"Run validation: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.\"]\n    S2 --> S3\n    S4[\"Handle exception: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.\"]\n    S3 --> S4",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.;\n:Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.;\n:Run validation\\: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.;\n:Handle exception\\: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.;\nstop\n@enduml"
+}

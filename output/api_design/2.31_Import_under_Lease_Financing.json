@@ -1,0 +1,38 @@
+{
+  "section": "2.31",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.31",
+      "purpose": "Retrieve knowledge payload for section 2.31",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Import-under-Lease-Financing/validate",
+      "purpose": "Validate inputs and documents for Import under Lease Financing",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

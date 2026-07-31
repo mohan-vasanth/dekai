@@ -1,0 +1,35 @@
+{
+  "section": "2.77",
+  "conditions": [
+    "2.77 Registering Authorities\n(a) Registering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC.",
+    "(b) The list of notified Registering Authorities is at Appendix -2T.",
+    "2.77 Registering Authorities\n(a)\nRegistering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC.",
+    "(b)\nThe list of notified Registering Authorities is at Appendix -2T."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.77.1",
+      "if": "2.77 Registering Authorities\n(a) Registering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC.",
+      "then": "2.77 Registering Authorities\n(a) Registering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC.",
+      "source": "2.77 Registering Authorities\n(a) Registering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC."
+    },
+    {
+      "id": "2.2.77.2",
+      "if": "(b) The list of notified Registering Authorities is at Appendix -2T.",
+      "then": "2.77 Registering Authorities\n(a) Registering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC.",
+      "source": "(b) The list of notified Registering Authorities is at Appendix -2T."
+    },
+    {
+      "id": "2.2.77.3",
+      "if": "2.77 Registering Authorities\n(a)\nRegistering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC.",
+      "then": "2.77 Registering Authorities\n(a) Registering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC.",
+      "source": "2.77 Registering Authorities\n(a)\nRegistering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC."
+    },
+    {
+      "id": "2.2.77.4",
+      "if": "(b)\nThe list of notified Registering Authorities is at Appendix -2T.",
+      "then": "2.77 Registering Authorities\n(a) Registering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC.",
+      "source": "(b)\nThe list of notified Registering Authorities is at Appendix -2T."
+    }
+  ]
+}
