@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from collections import OrderedDict
+from html import escape
 from typing import Any, Iterable
 
 from .models import DocumentKnowledge, SectionKnowledge
@@ -89,6 +90,12 @@ class DocumentMarkdownConverter:
                     lines.extend(["#### Conditions", *[f"- {item}" for item in section["conditions"]], ""])
                 if section["exceptions"]:
                     lines.extend(["#### Exceptions", *[f"- {item}" for item in section["exceptions"]], ""])
+                if section["tables"]:
+                    lines.extend(["#### HTML Tables", ""])
+                    for table_index, table in enumerate(section["tables"], start=1):
+                        lines.append(f"<!-- dekai:html-table {section['section']}:{table_index} -->")
+                        lines.append(self._render_html_table(table))
+                        lines.append("")
                 if section["raw_text"]:
                     lines.extend(["#### Source Content", "", "~~~text", section["raw_text"], "~~~", ""])
 
@@ -114,6 +121,7 @@ class DocumentMarkdownConverter:
             "raw_text": section.raw_text,
             "pages": section.pages,
             "required_documents": section.required_documents or section.documents,
+            "tables": section.tables,
             "authorities": section.authorities,
             "workflow": section.workflow,
             "conditions": section.conditions,
@@ -133,6 +141,7 @@ class DocumentMarkdownConverter:
             "raw_text": str(section.get("raw_text", "")).strip(),
             "pages": pages,
             "required_documents": unique_preserve(section.get("required_documents", []) or section.get("documents", [])),
+            "tables": [self._normalize_table(table) for table in section.get("tables", []) if self._normalize_table(table)],
             "authorities": unique_preserve(section.get("authorities", [])),
             "workflow": unique_preserve(section.get("workflow", [])),
             "conditions": unique_preserve(section.get("conditions", [])),
@@ -151,3 +160,45 @@ class DocumentMarkdownConverter:
             except ValueError:
                 parts.append(9999)
         return tuple(parts or [9999])
+
+    def _normalize_table(self, table: Any) -> list[list[str]]:
+        normalized_rows: list[list[str]] = []
+        if not isinstance(table, list):
+            return normalized_rows
+
+        for row in table:
+            if not isinstance(row, list):
+                continue
+            normalized_row = [normalise_whitespace(str(cell or "")) for cell in row]
+            if any(normalized_row):
+                normalized_rows.append(normalized_row)
+
+        return normalized_rows
+
+    def _render_html_table(self, table: list[list[str]]) -> str:
+        if not table:
+            return ""
+
+        if len(table) == 1:
+            body_rows = table
+            lines = ["<table>", "  <tbody>"]
+        else:
+            header_row = table[0]
+            body_rows = table[1:]
+            lines = ["<table>", "  <thead>", "    <tr>"]
+            for cell in header_row:
+                lines.append(f"      <th>{self._render_html_cell(cell)}</th>")
+            lines.extend(["    </tr>", "  </thead>", "  <tbody>"])
+
+        for row in body_rows:
+            lines.append("    <tr>")
+            for cell in row:
+                lines.append(f"      <td>{self._render_html_cell(cell)}</td>")
+            lines.append("    </tr>")
+
+        lines.extend(["  </tbody>", "</table>"])
+        return "\n".join(lines)
+
+    def _render_html_cell(self, value: str) -> str:
+        escaped = escape(str(value or ""), quote=False)
+        return escaped.replace("\n", "<br />")

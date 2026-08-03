@@ -13,6 +13,10 @@ def _tokenize(value: str) -> list[str]:
     return embedding_service.tokenize(value)
 
 
+def _normalize_filter_value(value: str) -> str:
+    return " ".join((value or "").lower().split())
+
+
 class SearchService:
     type_aliases = {
         "keyword": {"section", "rule", "workflow", "condition", "definition", "chunk", "document", "chapter", "concept"},
@@ -36,7 +40,52 @@ class SearchService:
         "concept": 0.8,
         "definition": 0.55,
     }
-    stopwords = {"how", "what", "when", "where", "why", "which", "who", "can", "should", "would", "could", "about", "explain", "tell"}
+    stopwords = {
+        "a",
+        "about",
+        "an",
+        "and",
+        "are",
+        "as",
+        "at",
+        "be",
+        "by",
+        "can",
+        "could",
+        "did",
+        "do",
+        "does",
+        "document",
+        "documents",
+        "explain",
+        "file",
+        "files",
+        "for",
+        "from",
+        "how",
+        "in",
+        "into",
+        "is",
+        "it",
+        "of",
+        "on",
+        "or",
+        "pdf",
+        "show",
+        "stand",
+        "tell",
+        "the",
+        "this",
+        "to",
+        "what",
+        "when",
+        "where",
+        "which",
+        "who",
+        "why",
+        "with",
+        "would",
+    }
     expansions = {
         "modify": {"modification", "modify", "update", "updation", "change", "amend"},
         "modification": {"modification", "modify", "update", "updation", "change", "amend"},
@@ -147,10 +196,20 @@ class SearchService:
         collection_filters: set[str] | frozenset[str] | None,
         chapter_filters: set[str] | frozenset[str] | None,
         section_filters: set[str] | frozenset[str] | None,
+        document_filters: set[str] | frozenset[str] | None,
     ) -> bool:
         candidate_type = str(candidate.get("type", "")).lower()
         if candidate_type not in allowed_types:
             return False
+
+        if document_filters:
+            candidate_document_names = {
+                _normalize_filter_value(str(candidate.get("documentName", "")).strip()),
+                _normalize_filter_value(str(candidate.get("title", "")).strip()) if candidate_type == "document" else "",
+            }
+            candidate_document_names.discard("")
+            if not candidate_document_names.intersection(document_filters):
+                return False
 
         collection_tags = infer_record_collections(candidate)
         if collection_filters and not collection_tags.intersection(collection_filters):
@@ -383,6 +442,7 @@ class SearchService:
         collection_filters: set[str] | frozenset[str] | None = None,
         chapter_filters: set[str] | frozenset[str] | None = None,
         section_filters: set[str] | frozenset[str] | None = None,
+        document_filters: set[str] | frozenset[str] | None = None,
     ) -> list[dict[str, Any]]:
         index = knowledge_engine_service.load_index()
         normalized = query.strip()
@@ -395,7 +455,7 @@ class SearchService:
         filtered_candidates = [
             candidate
             for candidate in self._candidates(index)
-            if self._passes_filters(candidate, allowed_types, collection_filters, chapter_filters, section_filters)
+            if self._passes_filters(candidate, allowed_types, collection_filters, chapter_filters, section_filters, document_filters)
         ]
 
         metadata_results = self._metadata_lookup(analysis, filtered_candidates)
@@ -408,6 +468,7 @@ class SearchService:
             "detected_intent": analysis.question_classification,
             "detected_entities": list(analysis.entities),
             "detected_hs_code": list(analysis.hs_codes),
+            "document_filters": sorted(document_filters) if document_filters else [],
             "metadata_results_count": len(metadata_results),
             "bm25_results_count": len(bm25_results),
             "vector_results_count": len(vector_results),

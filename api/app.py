@@ -61,6 +61,29 @@ def _job_error(exc: PipelineBusyError) -> HTTPException:
     return HTTPException(status_code=status.HTTP_409_CONFLICT, detail=str(exc))
 
 
+def _friendly_failure_reason(value: Any) -> str:
+    message = " ".join(str(value or "").strip().split()).casefold()
+    if not message:
+        return "Unexpected Server Error"
+    if any(token in message for token in ("document_versions.json", "jobs.json", "settings.json", "users.json", "replace(", "access is denied", "permission denied", "winerror 5")):
+        return "Database Save Failed"
+    if any(token in message for token in ("password", "encrypted", "decrypt")):
+        return "Password Protected PDF"
+    if any(token in message for token in ("ocr", "tesseract", "image-only", "image only")):
+        return "OCR Failed"
+    if any(token in message for token in ("markdown", "html conversion", "conversion failed")):
+        return "Markdown Conversion Failed"
+    if any(token in message for token in ("embedding", "vector", "similarity")):
+        return "Embedding Generation Failed"
+    if any(token in message for token in ("index", "knowledge base", "search record", "search index")):
+        return "Knowledge Base Indexing Failed"
+    if any(token in message for token in ("invalid pdf", "malformed pdf", "corrupt", "cannot open", "failed to read", "pdf syntax", "eof")):
+        return "Invalid PDF"
+    if "interrupted" in message:
+        return "Processing Interrupted"
+    return "Unexpected Server Error"
+
+
 def _find_document_name(document_id: str) -> str:
     state = data_service.get_app_state()
     match = next((document for document in state["documents"] if document["id"] == document_id), None)
@@ -229,6 +252,8 @@ def _augment_document(
     vector_records = int(stats.get("vectorRecordsStored", 0) or 0)
     knowledge_size_kb = int(stats.get("knowledgeSizeKb", 0) or 0)
     source_size_kb = int(next_document.get("sizeKb", 0) or 0)
+    failure_detail = " ".join(str(next_document.get("summary", "") or "").split()).strip() if status_value == "failed" else ""
+    is_searchable = status_value == "ready" and search_records > 0 and vector_records > 0
 
     next_document.update(
         {
@@ -251,6 +276,9 @@ def _augment_document(
                 next_document.get("lastUpdated"),
                 index_generated_at,
             ),
+            "failureReason": _friendly_failure_reason(failure_detail) if failure_detail else None,
+            "failureDetail": failure_detail or None,
+            "searchable": is_searchable,
         }
     )
     return next_document

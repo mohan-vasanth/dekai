@@ -1,0 +1,119 @@
+{
+  "resources": [
+    "Principles",
+    "Abbreviations"
+  ],
+  "sections": [
+    {
+      "section": "3.1",
+      "title": "Principles",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3.1",
+          "purpose": "Retrieve knowledge payload for section 3.1",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Principles/validate",
+          "purpose": "Validate inputs and documents for Principles",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.1",
+      "title": "Abbreviations",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5.1",
+          "purpose": "Retrieve knowledge payload for section 5.1",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Abbreviations/validate",
+          "purpose": "Validate inputs and documents for Abbreviations",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Abbreviations/execute",
+          "purpose": "Trigger business action for Transfer conditions are:\nCode Declaration Type Transfer Conditions\nDUT Duty To allow the Declarant to submit Declarations such as anti-dumping\nduties, excise for local manufacturing, previously exempted vehicles\nand short payment\nGST GST (including duty exemption) To allow the Declarant to submit Declarations such as:\na) non-dutiable HS for\ni) direct import\nii) release from FTZ to customs territories\niii) release from BW to customs territories and,\niv) release of Class II cargoes from BWCY\nb) dutiable HS\ni) Motor vehicles\nii) Ethyl alcohol for lab use\niii) Industrial exemption\niv) Beer for SAF\nc) Short Payment\nd) Auction cargoes release from FTZ or local cargoes which entered\nALPS & subsequently enter customs territory\nDNG Duty & GST To allow the Declarant to submit Declarations such as:\na) Direct import\nb) Local manufacturing\nc) Sale of:\ni) embassy vehicles to others\nii) vehicles by foreign armed forces\niii) vehicles by disabled persons\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nCode | Declaration Type | Transfer Conditions\nDUT | Duty | To allow the Declarant to submit Declarations such as anti-dumping\nduties, excise for local manufacturing, previously exempted vehicles\nand short payment\nGST | GST (including duty exemption) | To allow the Declarant to submit Declarations such as:\na) non-dutiable HS for\ni) direct import\nii) release from FTZ to customs territories\niii) release from BW to customs territories and,\niv) release of Class II cargoes from BWCY\nb) dutiable HS\ni) Motor vehicles\nii) Ethyl alcohol for lab use\niii) Industrial exemption\niv) Beer for SAF\nc) Short Payment\nd) Auction cargoes release from FTZ or local cargoes which entered\nALPS & subsequently enter customs territory\nDNG | Duty & GST | To allow the Declarant to submit Declarations such as:\na) Direct import\nb) Local manufacturing\nc) Sale of:\ni) embassy vehicles to others\nii) vehicles by foreign armed forces\niii) vehicles by disabled persons\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    }
+  ]
+}

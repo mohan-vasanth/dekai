@@ -73,6 +73,14 @@ function getVectorDatabaseLabel(status: DocumentRecord["vectorDatabaseStatus"] |
   return "Updating";
 }
 
+function getPrimaryActionLabel(document: DocumentRecord) {
+  return document.status === "failed" ? "Retry Processing" : "Re-index";
+}
+
+function getSecondaryActionLabel(document: DocumentRecord) {
+  return document.status === "failed" ? "Re-upload Document" : "Replace";
+}
+
 function getStatusBadgeTone(status?: string): "success" | "warning" | "danger" | "info" | "default" {
   if (status === "indexed" || status === "stored") return "success";
   if (status === "attention-required" || status === "failed") return "danger";
@@ -178,26 +186,31 @@ function DocumentTable({
   t: (key: any, params?: Record<string, string | number>) => string;
   translateStatus: (value: string) => string;
 }) {
+  const columns = [
+    { key: "documentName", label: t("documents.documentName"), className: "w-[34%]" },
+    { key: "knowledgeScope", label: "Knowledge Scope", className: "w-[16%]" },
+    { key: "processingStatus", label: "Processing Status", className: "w-[14%]" },
+    { key: "knowledgeStatus", label: t("documents.knowledgeStatus"), className: "w-[18%]" },
+    { key: "progress", label: "Progress", className: "w-[18%]" },
+    { key: "sectionsIndexed", label: "Sections Indexed", className: "hidden 2xl:table-cell 2xl:w-[8%]" },
+    { key: "chunks", label: "Chunks", className: "hidden 2xl:table-cell 2xl:w-[7%]" },
+    { key: "embeddings", label: "Embeddings", className: "hidden 2xl:table-cell 2xl:w-[8%]" },
+    { key: "lastIndexed", label: "Last Indexed", className: "hidden 2xl:table-cell 2xl:w-[11%]" },
+    { key: "actions", label: t("common.actions"), className: "hidden 2xl:table-cell 2xl:w-[18%]" },
+  ] as const;
+
   return (
     <div className="overflow-hidden rounded-[2rem] border border-[var(--border)] bg-[var(--panel)]">
-      <div className="overflow-x-auto">
-        <table className="min-w-[1080px] border-collapse">
+      <div className="overflow-hidden">
+        <table className="w-full table-fixed border-collapse">
           <thead className="bg-[var(--panel-subtle)]">
             <tr>
-              {[
-                t("documents.documentName"),
-                "Knowledge Scope",
-                "Processing Status",
-                t("documents.knowledgeStatus"),
-                "Progress",
-                "Sections Indexed",
-                "Chunks",
-                "Embeddings",
-                "Last Indexed",
-                t("common.actions"),
-              ].map((heading) => (
-                <th key={heading} className="px-4 py-4 text-left text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted-foreground)]">
-                  {heading}
+              {columns.map((column) => (
+                <th
+                  className={`px-4 py-4 text-left text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted-foreground)] ${column.className}`}
+                  key={column.key}
+                >
+                  {column.label}
                 </th>
               ))}
             </tr>
@@ -216,12 +229,16 @@ function DocumentTable({
                 className={selectedId === document.id ? "bg-[var(--panel-strong)]" : "bg-[var(--panel)] hover:bg-[var(--panel-subtle)]"}
               >
                 <td className="border-t border-[var(--border)] px-4 py-4">
-                  <button className="text-left" onClick={() => onSelect(document)} type="button">
-                    <p className="max-w-[280px] truncate text-sm font-semibold text-[var(--foreground)]">{document.name}</p>
-                    <p className="mt-1 max-w-[320px] truncate text-xs text-[var(--muted-foreground)]">{document.chapterTitle}</p>
+                  <button className="block min-w-0 text-left" onClick={() => onSelect(document)} type="button">
+                    <p className="truncate text-sm font-semibold text-[var(--foreground)]">{document.name}</p>
+                    <p className="mt-1 truncate text-xs text-[var(--muted-foreground)]">
+                      {document.status === "failed" ? document.failureReason || document.failureDetail || "Processing failed" : document.chapterTitle}
+                    </p>
                   </button>
                 </td>
-                <td className="border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)]">{getDocumentScopeLabel(document.knowledgeScope)}</td>
+                <td className="border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)]">
+                  <span className="block break-words">{getDocumentScopeLabel(document.knowledgeScope)}</span>
+                </td>
                 <td className="border-t border-[var(--border)] px-4 py-4">
                   <Badge tone={statusTone(document.status)}>{translateStatus(document.status)}</Badge>
                 </td>
@@ -229,30 +246,32 @@ function DocumentTable({
                   <Badge tone={getStatusBadgeTone(document.knowledgeStatus)}>{getKnowledgeStatusLabel(document)}</Badge>
                 </td>
                 <td className="border-t border-[var(--border)] px-4 py-4">
-                  <div className="min-w-28">
+                  <div className="min-w-0">
                     <ProgressBar value={document.progress} />
                   </div>
                 </td>
-                <td className="border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)]">
+                <td className="hidden border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)] 2xl:table-cell">
                   {formatFullNumber(document.sectionsIndexed ?? document.sections)}
                 </td>
-                <td className="border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)]">
+                <td className="hidden border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)] 2xl:table-cell">
                   {formatFullNumber(document.totalChunks ?? 0)}
                 </td>
-                <td className="border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)]">
+                <td className="hidden border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)] 2xl:table-cell">
                   {formatFullNumber(document.totalEmbeddings ?? 0)}
                 </td>
-                <td className="border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)]">{formatIndexedTime(document.lastIndexedAt)}</td>
-                <td className="border-t border-[var(--border)] px-4 py-4">
+                <td className="hidden border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)] 2xl:table-cell">
+                  {formatIndexedTime(document.lastIndexedAt)}
+                </td>
+                <td className="hidden border-t border-[var(--border)] px-4 py-4 2xl:table-cell">
                   <div className="flex flex-wrap gap-2">
                     <Button onClick={() => onView(document)} size="sm" type="button" variant="secondary">
                       {t("common.view")}
                     </Button>
                     <Button onClick={() => onReplace(document)} size="sm" type="button" variant="ghost">
-                      {t("common.replace")}
+                      {getSecondaryActionLabel(document)}
                     </Button>
                     <Button onClick={() => onReindex(document)} size="sm" type="button" variant="ghost">
-                      {t("common.reindex")}
+                      {getPrimaryActionLabel(document)}
                     </Button>
                     <Button onClick={() => onDelete(document)} size="sm" type="button" variant="ghost">
                       {t("common.delete")}
@@ -518,7 +537,7 @@ export function DocumentsPage() {
                 {t("common.uploadPdfs")}
               </Button>
               <Button onClick={() => selectedDocument && reindexMutation.mutate(selectedDocument.id)} type="button" variant="secondary">
-                Re-index selected document
+                {selectedDocument?.status === "failed" ? "Retry processing selected document" : "Re-index selected document"}
               </Button>
             </div>
 
@@ -629,7 +648,7 @@ export function DocumentsPage() {
         </div>
       </Panel>
 
-      <div className="grid gap-6 xl:grid-cols-[minmax(0,1.35fr)_430px]">
+      <div className="grid gap-6 2xl:grid-cols-[minmax(0,1.35fr)_430px]">
         <div className="space-y-4">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div>
@@ -671,7 +690,7 @@ export function DocumentsPage() {
           />
         </div>
 
-        <Panel className="sticky top-24 space-y-5 self-start">
+        <Panel className="space-y-5 2xl:sticky 2xl:top-24 2xl:self-start">
           <div className="flex items-center justify-between gap-3">
             <div>
               <p className="text-sm font-semibold text-[var(--foreground)]">{t("documents.processingProgress")}</p>
@@ -693,6 +712,15 @@ export function DocumentsPage() {
                 <div className="mt-4">
                   <ProgressBar label="Processing Progress" value={selectedDocument.progress} />
                 </div>
+                {selectedDocument.status === "failed" ? (
+                  <div className="mt-4 rounded-[1.25rem] border border-rose-500/20 bg-rose-500/8 p-4 text-sm">
+                    <p className="font-semibold text-rose-700">Failure reason: {selectedDocument.failureReason || "Unexpected Server Error"}</p>
+                    {selectedDocument.failureDetail ? <p className="mt-2 leading-6 text-rose-700/90">{selectedDocument.failureDetail}</p> : null}
+                    <p className="mt-2 leading-6 text-rose-700/90">
+                      AI chat and search will ignore this document until processing completes successfully and the document becomes Knowledge Ready.
+                    </p>
+                  </div>
+                ) : null}
               </div>
 
               <div className="grid gap-3 sm:grid-cols-2">
@@ -704,6 +732,8 @@ export function DocumentsPage() {
                 <DocumentDetailField label="Processing Status" value={translateStatus(selectedDocument.status)} />
                 <DocumentDetailField label={t("documents.knowledgeStatus")} value={getKnowledgeStatusLabel(selectedDocument)} />
                 <DocumentDetailField label="Knowledge Scope" value={getDocumentScopeLabel(selectedDocument.knowledgeScope)} />
+                <DocumentDetailField label="AI Search Availability" value={selectedDocument.searchable ? "Ready" : "Blocked until Knowledge Ready"} />
+                <DocumentDetailField label="Failure Reason" value={selectedDocument.failureReason ?? "Not applicable"} />
                 <DocumentDetailField label="Sections Indexed" value={formatFullNumber(selectedDocument.sectionsIndexed ?? selectedDocument.sections)} />
                 <DocumentDetailField label="Total Chunks" value={formatFullNumber(selectedDocument.totalChunks ?? 0)} />
                 <DocumentDetailField label="Total Embeddings" value={formatFullNumber(selectedDocument.totalEmbeddings ?? 0)} />
@@ -728,6 +758,30 @@ export function DocumentsPage() {
                 <div className="mt-5">
                   <PipelineVisual stages={selectedPipeline} />
                 </div>
+              </div>
+
+              <div className="flex flex-wrap gap-3">
+                <Button onClick={() => reindexMutation.mutate(selectedDocument.id)} type="button" variant="secondary">
+                  {getPrimaryActionLabel(selectedDocument)}
+                </Button>
+                <Button
+                  onClick={() => {
+                    const replacementInput = window.document.createElement("input");
+                    replacementInput.type = "file";
+                    replacementInput.accept = ".pdf";
+                    replacementInput.onchange = () => {
+                      const file = replacementInput.files?.[0];
+                      if (file) {
+                        replaceMutation.mutate({ documentId: selectedDocument.id, file });
+                      }
+                    };
+                    replacementInput.click();
+                  }}
+                  type="button"
+                  variant="ghost"
+                >
+                  {getSecondaryActionLabel(selectedDocument)}
+                </Button>
               </div>
             </>
           ) : (

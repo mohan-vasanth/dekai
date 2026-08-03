@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import re
 import tempfile
 from pathlib import Path
 from typing import Any
@@ -24,6 +25,8 @@ from parser.utils import source_document_markdown_name
 
 
 class PdfMarkdownService:
+    SUPPORTED_HTML_TAG_PATTERN = re.compile(r"<\/?(table|thead|tbody|tr|th|td|div|span|p|img|a|ul|ol|li|br|hr)\b", re.IGNORECASE)
+
     def __init__(self) -> None:
         self.logger = logging.getLogger(self.__class__.__name__)
         self.loader = PDFLoader()
@@ -49,6 +52,7 @@ class PdfMarkdownService:
             raise ValueError("The uploaded PDF is empty.")
 
         CONFIG.ensure_directories()
+        self.logger.info("HTML extraction started for %s", source_name)
         with tempfile.NamedTemporaryFile(dir=CONFIG.runtime_dir, suffix=suffix, delete=False) as handle:
             handle.write(content)
             temp_path = Path(handle.name)
@@ -91,12 +95,23 @@ class PdfMarkdownService:
             page_count=len(pages),
         )
         markdown = self.document_markdown_converter.convert_document(document)
+        section_table_count = sum(len(section.tables) for section in document.sections)
+        html_table_count = markdown.casefold().count("<table")
+        html_tag_count = len(self.SUPPORTED_HTML_TAG_PATTERN.findall(markdown))
         markdown_name = source_document_markdown_name(document.source_pdf.name)
         markdown_path = CONFIG.markdown_dir / markdown_name
         markdown_path.parent.mkdir(parents=True, exist_ok=True)
         with markdown_path.open("w", encoding="utf-8", newline="\n") as handle:
             handle.write(markdown)
-        self.logger.info("Generated markdown %s from %s", markdown_path.name, document.source_pdf.name)
+        self.logger.info(
+            "Generated markdown %s from %s with %s page tables, %s section tables, %s HTML table blocks, and %s supported HTML tags",
+            markdown_path.name,
+            document.source_pdf.name,
+            sum(len(page.tables) for page in pages),
+            section_table_count,
+            html_table_count,
+            html_tag_count,
+        )
         return {
             "documentName": document.source_pdf.name,
             "fileName": markdown_name,
@@ -105,6 +120,8 @@ class PdfMarkdownService:
             "sectionCount": len(document.sections),
             "chapterCount": len({section.chapter_number for section in document.sections}),
             "glossaryCount": len(document.glossary),
+            "htmlTableCount": html_table_count,
+            "htmlTagCount": html_tag_count,
             "downloadUrl": f"/api/pdf-to-markdown/files/{markdown_name}",
         }
 

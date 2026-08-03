@@ -5,11 +5,31 @@ import logging
 import re
 from typing import Any
 
+from .document_version_service import document_version_service
 from .knowledge_engine import knowledge_engine_service
 from .retrieval_service import RetrievalPlan, retrieval_decision_service
 from .search_service import search_service
 
 logger = logging.getLogger(__name__)
+FAILED_DOCUMENT_MESSAGE = (
+    "This document has not been processed successfully and is not available in the Knowledge Base. "
+    "Please resolve the processing issue or upload the document again before asking questions."
+)
+FAILED_DOCUMENT_STOPWORDS = {
+    "pdf",
+    "document",
+    "documents",
+    "file",
+    "files",
+    "version",
+    "final",
+    "copy",
+    "chapter",
+    "dgft",
+    "knowledge",
+    "source",
+    "shared",
+}
 
 WORKFLOW_PATTERNS = ("workflow", "process", "procedure", "steps", "flow")
 DOCUMENT_PATTERNS = ("document", "documents", "paperwork", "attachment", "attachments")
@@ -144,6 +164,50 @@ def _normalize(value: str) -> str:
     return " ".join((value or "").lower().split())
 
 
+def _document_aliases(value: str) -> list[str]:
+    cleaned = str(value or "").strip()
+    if not cleaned:
+        return []
+    stem = re.sub(r"\.[a-z0-9]{1,6}$", "", cleaned, flags=re.IGNORECASE)
+    aliases = [
+        _normalize(cleaned.replace("_", " ").replace("-", " ")),
+        _normalize(stem.replace("_", " ").replace("-", " ")),
+    ]
+    return _unique([alias for alias in aliases if alias])
+
+
+def _document_tokens(value: str) -> list[str]:
+    tokens = [
+        token
+        for token in re.findall(r"\b[a-z0-9][a-z0-9]{2,}\b", _normalize(value))
+        if token not in FAILED_DOCUMENT_STOPWORDS and not token.isdigit()
+    ]
+    return _unique(tokens)
+
+
+def _friendly_failure_reason(value: str) -> str:
+    message = _normalize(value)
+    if not message:
+        return "Unexpected Server Error"
+    if any(token in message for token in ("document_versions.json", "jobs.json", "settings.json", "users.json", "replace(", "access is denied", "permission denied", "winerror 5")):
+        return "Database Save Failed"
+    if any(token in message for token in ("password", "encrypted", "decrypt")):
+        return "Password Protected PDF"
+    if any(token in message for token in ("ocr", "tesseract", "image-only", "image only")):
+        return "OCR Failed"
+    if any(token in message for token in ("markdown", "html conversion", "conversion failed")):
+        return "Markdown Conversion Failed"
+    if any(token in message for token in ("embedding", "vector", "similarity")):
+        return "Embedding Generation Failed"
+    if any(token in message for token in ("index", "knowledge base", "search record", "search index")):
+        return "Knowledge Base Indexing Failed"
+    if any(token in message for token in ("invalid pdf", "malformed pdf", "corrupt", "cannot open", "failed to read", "pdf syntax", "eof")):
+        return "Invalid PDF"
+    if "interrupted" in message:
+        return "Processing Interrupted"
+    return "Unexpected Server Error"
+
+
 def _contains_any(value: str, patterns: tuple[str, ...]) -> bool:
     return any(pattern in value for pattern in patterns)
 
@@ -214,6 +278,111 @@ class ChatService:
     minimum_confidence = 0.75
     semantic_minimum_confidence = 0.56
 
+    def _ready_documents(self, index: dict[str, Any]) -> list[dict[str, Any]]:
+        ready_documents: list[dict[str, Any]] = []
+        for document in index.get("documents", []):
+            if str(document.get("status", "ready")).strip() != "ready":
+                continue
+            current_name = str(document.get("name", "")).strip()
+            aliases = _document_aliases(current_name)
+            tokens = _unique(token for alias in aliases for token in _document_tokens(alias))
+            ready_documents.append(
+                {
+                    "name": current_name,
+                    "aliases": aliases,
+                    "tokens": tokens,
+                }
+            )
+        return ready_documents
+
+    def _failed_documents(self) -> list[dict[str, Any]]:
+        failed_documents: list[dict[str, Any]] = []
+        for entry in document_version_service.list_documents():
+            if entry.get("archived"):
+                continue
+            versions = entry.get("versions", [])
+            latest_version = versions[-1] if versions else {}
+            if str(latest_version.get("status", "")).strip() != "failed":
+                continue
+            current_name = str(entry.get("currentName", "")).strip()
+            aliases = [current_name, *(entry.get("aliases") or [])]
+            failure_detail = str(latest_version.get("error", "") or latest_version.get("metadata", {}).get("error", "")).strip()
+            normalized_aliases = _unique(
+                alias_variant
+                for name in aliases
+                for alias_variant in _document_aliases(name)
+            )
+            tokens = _unique(token for alias in normalized_aliases for token in _document_tokens(alias))
+            failed_documents.append(
+                {
+                    "name": current_name,
+                    "aliases": normalized_aliases,
+                    "tokens": tokens,
+                    "failureDetail": failure_detail,
+                    "failureReason": _friendly_failure_reason(failure_detail),
+                }
+            )
+        return failed_documents
+
+    def _match_failed_document(self, question: str, failed_documents: list[dict[str, Any]]) -> dict[str, Any] | None:
+        normalized_question = _normalize(question)
+        question_tokens = set(_document_tokens(normalized_question))
+        mentions_document = any(term in normalized_question for term in ("document", "pdf", "file", "upload"))
+
+        for failed_document in failed_documents:
+            if any(alias and alias in normalized_question for alias in failed_document.get("aliases", [])):
+                return failed_document
+
+            document_tokens = set(failed_document.get("tokens", []))
+            if not document_tokens:
+                continue
+
+            matched_tokens = document_tokens.intersection(question_tokens)
+            minimum_hits = 1 if len(document_tokens) == 1 else 2
+            if len(matched_tokens) >= minimum_hits and (mentions_document or len(document_tokens) <= 2):
+                return failed_document
+
+        return None
+
+    def _match_ready_document(self, question: str, ready_documents: list[dict[str, Any]]) -> dict[str, Any] | None:
+        normalized_question = _normalize(question)
+        question_tokens = set(_document_tokens(normalized_question))
+        mentions_document = any(term in normalized_question for term in ("document", "pdf", "file", "upload"))
+        best_match: dict[str, Any] | None = None
+        best_score = 0
+
+        for ready_document in ready_documents:
+            aliases = [alias for alias in ready_document.get("aliases", []) if alias]
+            alias_hits = [alias for alias in aliases if alias in normalized_question]
+            if alias_hits:
+                score = 100 + max(len(alias) for alias in alias_hits)
+                if score > best_score:
+                    best_match = ready_document
+                    best_score = score
+                continue
+
+            document_tokens = set(ready_document.get("tokens", []))
+            if not document_tokens:
+                continue
+
+            matched_tokens = document_tokens.intersection(question_tokens)
+            if not matched_tokens:
+                continue
+
+            longest_token = max((len(token) for token in matched_tokens), default=0)
+            minimum_hits = 1 if longest_token >= 8 or len(document_tokens) <= 2 else 2
+            if len(matched_tokens) < minimum_hits:
+                continue
+            if not mentions_document and longest_token < 8:
+                continue
+
+            score = (len(matched_tokens) * 10) + longest_token
+            if score > best_score:
+                best_match = ready_document
+                best_score = score
+
+        return best_match
+
     def _retrieval_key(self, item: dict[str, Any]) -> str:
         return "|".join(
             [
@@ -224,10 +393,10 @@ class ChatService:
             ]
         )
 
-    def _semantic_queries(self, question: str, plan: RetrievalPlan) -> list[str]:
+    def _semantic_queries(self, question: str, plan: RetrievalPlan, target_document_name: str = "") -> list[str]:
         normalized = _normalize(question)
         if plan.intent == "Import Procedure":
-            return [
+            queries = [
                 question,
                 "application for iec",
                 "filing of application import export restricted goods",
@@ -237,9 +406,13 @@ class ChatService:
                 "date of reckoning of import export",
                 "profile of importer exporter",
             ]
+            if target_document_name:
+                queries.insert(1, f"{target_document_name} {question}".strip())
+                queries.append(target_document_name)
+            return _unique([query.strip() for query in queries if query and query.strip()])[:8]
 
         if plan.intent == "Export Procedure":
-            return [
+            queries = [
                 question,
                 "application for iec",
                 "filing of application import export restricted goods",
@@ -249,8 +422,19 @@ class ChatService:
                 "export procedure customs shipping bill",
                 "profile of importer exporter",
             ]
+            if target_document_name:
+                queries.insert(1, f"{target_document_name} {question}".strip())
+                queries.append(target_document_name)
+            return _unique([query.strip() for query in queries if query and query.strip()])[:8]
 
         queries = [question]
+        if target_document_name:
+            queries.extend(
+                [
+                    f"{target_document_name} {question}".strip(),
+                    target_document_name,
+                ]
+            )
         queries.extend(SEMANTIC_QUERY_EXPANSIONS.get(plan.intent, ()))
         queries.extend(SEMANTIC_QUERY_EXPANSIONS.get(plan.topic, ()))
 
@@ -358,10 +542,19 @@ class ChatService:
         )
         return results[:30]
 
-    def _aggregate_search_debug(self, query: str, plan: RetrievalPlan, queries: list[str], debugs: list[dict[str, Any]], retrieval: list[dict[str, Any]]) -> dict[str, Any]:
+    def _aggregate_search_debug(
+        self,
+        query: str,
+        plan: RetrievalPlan,
+        queries: list[str],
+        debugs: list[dict[str, Any]],
+        retrieval: list[dict[str, Any]],
+        target_document_name: str = "",
+    ) -> dict[str, Any]:
         return {
             "user_question": query,
             "detected_intent": plan.intent,
+            "target_document": target_document_name,
             "detected_entities": _unique([entity for debug in debugs for entity in debug.get("detected_entities", [])]),
             "detected_hs_code": _unique([code for debug in debugs for code in debug.get("detected_hs_code", [])]),
             "metadata_results_count": sum(int(debug.get("metadata_results_count", 0)) for debug in debugs),
@@ -384,8 +577,10 @@ class ChatService:
             ],
         }
 
-    def _retrieve_grounding(self, question: str, plan: RetrievalPlan) -> tuple[list[dict[str, Any]], dict[str, Any]]:
-        queries = self._semantic_queries(question, plan)
+    def _retrieve_grounding(self, question: str, plan: RetrievalPlan, target_document_name: str = "") -> tuple[list[dict[str, Any]], dict[str, Any]]:
+        queries = self._semantic_queries(question, plan, target_document_name)
+        document_filters = frozenset({_normalize(target_document_name)}) if target_document_name else None
+        collection_filters = None if document_filters else plan.collection_filters
         batches: list[tuple[str, list[dict[str, Any]]]] = []
         debugs: list[dict[str, Any]] = []
 
@@ -394,9 +589,10 @@ class ChatService:
                 semantic_query,
                 mode="keyword",
                 limit=12,
-                collection_filters=plan.collection_filters,
+                collection_filters=collection_filters,
                 chapter_filters=plan.chapter_filters or None,
                 section_filters=plan.section_filters or None,
+                document_filters=document_filters,
             )
             batches.append((semantic_query, results))
             debugs.append(search_service.get_last_debug())
@@ -414,12 +610,13 @@ class ChatService:
                     collection_filters=None,
                     chapter_filters=plan.chapter_filters or None,
                     section_filters=plan.section_filters or None,
+                    document_filters=document_filters,
                 )
                 batches.append((semantic_query, results))
                 debugs.append(search_service.get_last_debug())
             merged = self._merge_retrieval_sets(question, plan, batches)
 
-        return merged, self._aggregate_search_debug(question, plan, queries, debugs, merged)
+        return merged, self._aggregate_search_debug(question, plan, queries, debugs, merged, target_document_name)
 
     def _section_sort_key(self, section: dict[str, Any]) -> tuple[Any, ...]:
         raw_id = str(section.get("id", "")).strip()
@@ -844,6 +1041,103 @@ class ChatService:
             answer_parts.append(f"According to the uploaded document, {one_pan_summary.rstrip('.')}.")
 
         return " ".join(part for part in answer_parts if part).strip()
+
+    def _definition_query_term(self, question: str) -> str:
+        patterns = (
+            r"\bwhat does\s+([a-z0-9/&._-]{2,})\s+stand for\b",
+            r"\bfull form of\s+([a-z0-9/&._-]{2,})\b",
+            r"\bmeaning of\s+([a-z0-9/&._-]{2,})\b",
+        )
+        normalized_question = _normalize(question)
+        for pattern in patterns:
+            match = re.search(pattern, normalized_question, flags=re.IGNORECASE)
+            if match:
+                return match.group(1).strip().upper()
+        return ""
+
+    def _extract_definition_phrase(self, term: str, *texts: Any) -> str:
+        if not term:
+            return ""
+        for text in texts:
+            raw_text = " ".join(str(text or "").replace("\r\n", "\n").split())
+            if not raw_text.strip():
+                continue
+            match = re.search(rf"\b{re.escape(term)}\b", raw_text, flags=re.IGNORECASE)
+            if not match:
+                continue
+            suffix = raw_text[match.end() :].strip(" :.-")
+            tokens = suffix.split()
+            collected: list[str] = []
+            for token in tokens:
+                cleaned = token.strip(".,;:()[]{}")
+                if not cleaned:
+                    continue
+                if collected and re.fullmatch(r"[A-Z0-9/&.-]{2,}", cleaned):
+                    break
+                if collected and re.fullmatch(r"\d+(?:\.\d+)?", cleaned):
+                    break
+                collected.append(cleaned)
+                if len(collected) >= 8:
+                    break
+
+            definition = " ".join(collected).strip(" .,:;-")
+            if definition:
+                return definition
+        return ""
+
+    def _definition_answer_payload(
+        self,
+        question: str,
+        sections: list[dict[str, Any]],
+        definitions: list[dict[str, Any]],
+        retrieval: list[dict[str, Any]],
+        *,
+        target_document_name: str = "",
+    ) -> dict[str, Any] | None:
+        term = self._definition_query_term(question)
+        if not term:
+            return None
+
+        target_document_normalized = _normalize(target_document_name)
+        section_by_id = {str(section.get("id", "")): section for section in sections}
+        matching_definitions = [
+            definition
+            for definition in definitions
+            if _normalize(str(definition.get("term", ""))) == _normalize(term)
+            and (
+                not target_document_normalized
+                or _normalize(str(definition.get("documentName", ""))) == target_document_normalized
+            )
+        ]
+        if not matching_definitions:
+            return None
+
+        for definition in matching_definitions:
+            section = section_by_id.get(str(definition.get("sectionId", "")), {})
+            retrieval_texts = [
+                item.get("text", "")
+                for item in retrieval
+                if str(item.get("sectionId", "")) == str(definition.get("sectionId", ""))
+            ]
+            expanded = self._extract_definition_phrase(
+                term,
+                definition.get("definition", ""),
+                section.get("summary", ""),
+                section.get("purpose", ""),
+                *retrieval_texts,
+            )
+            if not expanded:
+                continue
+
+            return {
+                "term": term,
+                "definition": expanded,
+                "section": section,
+                "documentName": str(definition.get("documentName", "") or section.get("documentName", "")).strip(),
+                "sourcePages": definition.get("sourcePages", []) or section.get("sourcePages", []),
+            }
+
+        return None
 
     def _source_reference_lines(self, answer_sections: list[dict[str, Any]], limit: int = 5) -> list[str]:
         references: list[str] = []
@@ -1318,7 +1612,41 @@ class ChatService:
 
     def build_answer(self, question: str, ai_model: str = "", language: str = "English") -> dict[str, Any]:
         index = knowledge_engine_service.load_index()
+        ready_documents = self._ready_documents(index)
+        failed_documents = self._failed_documents()
+        failed_document_match = self._match_failed_document(question, failed_documents)
         plan = retrieval_decision_service.detect_intent(question)
+        target_ready_document = self._match_ready_document(question, ready_documents)
+        ready_document_count = len([document for document in index.get("documents", []) if str(document.get("status", "ready")) == "ready"])
+
+        if failed_document_match or (failed_documents and ready_document_count == 0):
+            blocked_document = failed_document_match or failed_documents[0]
+            direct_answer = FAILED_DOCUMENT_MESSAGE
+            business_explanation = f'{blocked_document.get("name", "This document")} failed during processing: {blocked_document.get("failureReason", "Unexpected Server Error")}.'
+            if blocked_document.get("failureDetail"):
+                business_explanation = f'{business_explanation} Details: {blocked_document["failureDetail"]}'
+            answer = self._empty_answer(
+                question,
+                plan,
+                direct_answer=direct_answer,
+                business_explanation=business_explanation,
+                ai_model=ai_model,
+                language=language,
+            )
+            answer["title"] = blocked_document.get("name", "Processing failed")
+            answer["sourcePdfs"] = [blocked_document.get("name", "")]
+            answer["referencedPdf"] = blocked_document.get("name", "")
+            self._log_retrieval(
+                question=question,
+                plan=plan,
+                retrieval=[],
+                confidence_score=0.0,
+                selected_chunks=[],
+                decision="Blocked answer because the question targeted a failed document or no document is currently Knowledge Ready.",
+                final_prompt=f"Question: {question}\nBlocked document: {blocked_document.get('name', '')}",
+                llm_response=direct_answer,
+            )
+            return answer
 
         if plan.needs_clarification:
             answer = self._empty_answer(
@@ -1339,15 +1667,61 @@ class ChatService:
             )
             return answer
 
-        retrieval, search_debug = self._retrieve_grounding(question, plan)
+        retrieval, search_debug = self._retrieve_grounding(
+            question,
+            plan,
+            str(target_ready_document.get("name", "")) if target_ready_document else "",
+        )
         chapters = index.get("chapters", [])
         sections = index.get("sections", [])
+        definitions = index.get("definitions", [])
         rules = index.get("rules", [])
         conditions = index.get("conditions", [])
         workflows = index.get("workflows", [])
         chunks = index.get("chunks", [])
         examples = index.get("examples", [])
         iec_definition_answer = self._iec_definition_answer(question, sections)
+        definition_answer_payload = self._definition_answer_payload(
+            question,
+            sections,
+            definitions,
+            retrieval,
+            target_document_name=str(target_ready_document.get("name", "")) if target_ready_document else "",
+        )
+
+        if definition_answer_payload:
+            section = definition_answer_payload.get("section", {}) or {}
+            direct_answer = f'{definition_answer_payload["term"]} stands for {definition_answer_payload["definition"]}.'
+            answer = self._empty_answer(
+                question,
+                plan,
+                confidence_score=0.96,
+                direct_answer=direct_answer,
+                business_explanation=f'Answered from the uploaded document {definition_answer_payload["documentName"]}.',
+                ai_model=ai_model,
+                language=language,
+            )
+            answer["title"] = str(section.get("title", "") or definition_answer_payload["term"])
+            answer["sectionId"] = str(section.get("id", ""))
+            answer["chapterNumber"] = str(section.get("chapterNumber", ""))
+            answer["sourcePdfs"] = [definition_answer_payload["documentName"]] if definition_answer_payload.get("documentName") else []
+            answer["referencedPdf"] = str(definition_answer_payload.get("documentName", ""))
+            answer["sourcePages"] = definition_answer_payload.get("sourcePages", [])
+            answer["sourceChapter"] = _chapter_label(section) if section else ""
+            answer["sourceSection"] = _section_label(section) if section else ""
+            answer["relevantSections"] = [_section_label(section)] if section else []
+            answer["relevantChapters"] = [_chapter_label(section)] if section else []
+            self._log_retrieval(
+                question=question,
+                plan=plan,
+                retrieval=retrieval,
+                confidence_score=0.96,
+                selected_chunks=[],
+                decision=f'Returned exact definition for term {definition_answer_payload["term"]} from the uploaded document.',
+                debug=search_debug,
+                llm_response=direct_answer,
+            )
+            return answer
 
         full_content_request = self._is_full_content_request(question, plan)
         answer_sections, confidence_score = self._pick_sections(retrieval, sections, plan)

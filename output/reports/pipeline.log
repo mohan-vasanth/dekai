@@ -6281,3 +6281,772 @@
 2026-07-30 14:45:42,893 | INFO | services.chat_service | dekai_retrieval {"question": "Explain Import Process", "detected_intent": "Explanation", "detected_topic": "Import Procedure", "knowledge_source": ["HBP", "FTP", "Import Rules"], "retrieved_documents": ["HBP Chapter 2.pdf", "HBP2023_Chapter04+as+on+20.04.2026.pdf", "HBP2023_Chapter05.pdf", "HBP-Chapter-6.pdf"], "similarity_score": 0.6, "selected_chunks": [], "reason_for_selection": "Rejected answer because no section in the selected DGFT source collection met the confidence threshold.", "user_question": "Explain Import Process", "detected_entities": ["Import", "explain", "process"], "detected_hs_code": [], "metadata_results_count": 0, "bm25_results_count": 20, "vector_results_count": 20, "merged_results_count": 34, "top_ranked_chunks": [{"id": "2.92-row-08021200", "title": "2.92 TRQ under FTA/CECA", "sectionId": "2.92", "documentName": "HBP Chapter 2.pdf", "score": 81.9715, "confidence": 0.6, "rankingReasons": ["exact_table_row_match", "semantic_similarity"]}, {"id": "2.92-row-08021200", "title": "2.92 TRQ under FTA/CECA - HS Code 08021200", "sectionId": "2.92", "documentName": "HBP Chapter 2.pdf", "score": 80.6488, "confidence": 0.6, "rankingReasons": ["exact_table_row_match", "semantic_similarity"]}, {"id": "2.92-row-08052100", "title": "2.92 TRQ under FTA/CECA", "sectionId": "2.92", "documentName": "HBP Chapter 2.pdf", "score": 79.3683, "confidence": 0.6, "rankingReasons": ["exact_table_row_match", "semantic_similarity"]}, {"id": "2.92-row-08052100", "title": "2.92 TRQ under FTA/CECA - HS Code 08052100", "sectionId": "2.92", "documentName": "HBP Chapter 2.pdf", "score": 78.533, "confidence": 0.6, "rankingReasons": ["exact_table_row_match", "semantic_similarity"]}, {"id": "2.92-row-52010020", "title": "2.92 TRQ under FTA/CECA", "sectionId": "2.92", "documentName": "HBP Chapter 2.pdf", "score": 77.3012, "confidence": 0.6, "rankingReasons": ["exact_table_row_match", "semantic_similarity"]}], "selected_chunk": [], "final_prompt": "Question: Explain Import Process\nSelected source: none", "llm_response": "I couldn't find this information in the uploaded document."}
 2026-07-30 14:45:45,714 | INFO | services.chat_service | dekai_retrieval {"question": "What is EPCG?", "detected_intent": "Question Answering", "detected_topic": "EPCG", "knowledge_source": ["FTP Chapter 5", "HBP EPCG Sections"], "retrieved_documents": ["HBP Chapter 2.pdf", "HBP2023_Chapter05.pdf"], "similarity_score": 0.75, "selected_chunks": ["2.97-1", "5.01-1", "5.25-1"], "reason_for_selection": "Accepted the relevant DGFT section(s) after intent detection, chapter/section filtering, and complete-section grounding.", "user_question": "What is EPCG?", "detected_entities": ["what", "is", "epcg"], "detected_hs_code": [], "metadata_results_count": 0, "bm25_results_count": 20, "vector_results_count": 20, "merged_results_count": 36, "top_ranked_chunks": [{"id": "2.97", "title": "2.97 Application to EPCG Committee", "sectionId": "2.97", "documentName": "HBP Chapter 2.pdf", "score": 14.5616, "confidence": 0.75, "rankingReasons": ["keyword_match"]}, {"id": "2.97-1", "title": "2.97 Application to EPCG Committee", "sectionId": "2.97", "documentName": "HBP Chapter 2.pdf", "score": 12.8549, "confidence": 0.75, "rankingReasons": ["keyword_match"]}, {"id": "5.25-condition-3", "title": "Clubbing of EPCG authorisations", "sectionId": "5.25", "documentName": "HBP2023_Chapter05.pdf", "score": 9.8666, "confidence": 0.75, "rankingReasons": ["keyword_match"]}, {"id": "5.01", "title": "5.01 Policy", "sectionId": "5.01", "documentName": "HBP2023_Chapter05.pdf", "score": 12.9054, "confidence": 0.75, "rankingReasons": ["keyword_match"]}, {"id": "2.97-workflow", "title": "Application to EPCG Committee", "sectionId": "2.97", "documentName": "HBP Chapter 2.pdf", "score": 9.5697, "confidence": 0.75, "rankingReasons": ["keyword_match"]}], "selected_chunk": ["2.97-1"], "final_prompt": "Question: What is EPCG?\nDetected intent: General Question\nDetected entities: what, is, epcg\nSelected sections: 2.97 Application to EPCG Committee, 5.25 Clubbing of EPCG authorisations, 5.01 Policy\nSelected chunks: 2.97-1, 5.01-1, 5.25-1", "llm_response": "2.97 Application to EPCG Committee (a) Application to the Export Promotion Capital Goods (EPCG) Committee under Para 2.59 of FTP is to be made online in ANF-2D with the prescribed fee in terms of Appendix-2K with required documents. Application to EPCG Committee governs how DGFT business controls should be applied, validated, and enforced."}
 2026-07-30 14:45:58,094 | INFO | services.chat_service | dekai_retrieval {"question": "explain the dgft", "detected_intent": "Explanation", "detected_topic": "DGFT Policy", "knowledge_source": ["FTP", "DGFT Policy"], "retrieved_documents": ["HBP Chapter 2.pdf", "HBP2023_Chapter01.pdf", "HBP2023_Chapter03.pdf", "HBP2023_Chapter08.pdf", "HBP2023_Chapter04+as+on+20.04.2026.pdf"], "similarity_score": 0.6, "selected_chunks": [], "reason_for_selection": "Rejected answer because no section in the selected DGFT source collection met the confidence threshold.", "user_question": "explain the dgft", "detected_entities": ["explain", "dgft"], "detected_hs_code": [], "metadata_results_count": 0, "bm25_results_count": 20, "vector_results_count": 20, "merged_results_count": 39, "top_ranked_chunks": [{"id": "2.92-row-08021200", "title": "2.92 TRQ under FTA/CECA", "sectionId": "2.92", "documentName": "HBP Chapter 2.pdf", "score": 84.513, "confidence": 0.6, "rankingReasons": ["exact_table_row_match", "semantic_similarity"]}, {"id": "2.92-row-08021200", "title": "2.92 TRQ under FTA/CECA - HS Code 08021200", "sectionId": "2.92", "documentName": "HBP Chapter 2.pdf", "score": 82.9952, "confidence": 0.6, "rankingReasons": ["exact_table_row_match", "semantic_similarity"]}, {"id": "1.04-condition-2", "title": "E-governance of Foreign Trade in DGFT", "sectionId": "1.04", "documentName": "HBP2023_Chapter01.pdf", "score": 8.5748, "confidence": 0.75, "rankingReasons": ["keyword_match"]}, {"id": "3.07", "title": "3.07 Nodal DGFT Regional Authority", "sectionId": "3.07", "documentName": "HBP2023_Chapter03.pdf", "score": 11.7694, "confidence": 0.75, "rankingReasons": ["keyword_match"]}, {"id": "CH3-SEC3_07-R001", "title": "Nodal DGFT Regional Authority", "sectionId": "3.07", "documentName": "HBP2023_Chapter03.pdf", "score": 9.6312, "confidence": 0.75, "rankingReasons": ["keyword_match"]}], "selected_chunk": [], "final_prompt": "Question: explain the dgft\nSelected source: none", "llm_response": "I couldn't find this information in the uploaded document."}
+2026-08-03 15:24:33,075 | INFO | DGFTKnowledgePipeline | Processing HBP2023_Chapter01.pdf
+2026-08-03 15:24:33,083 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP2023_Chapter01.pdf
+2026-08-03 15:24:34,206 | INFO | PDFLoader | Loaded 7 pages from HBP2023_Chapter01.pdf
+2026-08-03 15:24:34,227 | INFO | TextCleaner | Cleaned 7 pages
+2026-08-03 15:24:34,239 | INFO | RuleExtractor | Extracted 12 section drafts from HBP2023_Chapter01.pdf
+2026-08-03 15:24:34,751 | INFO | Chunker | Created 1 chunks for section 1.01
+2026-08-03 15:24:34,819 | INFO | Chunker | Created 1 chunks for section 1.02
+2026-08-03 15:24:34,903 | INFO | Chunker | Created 1 chunks for section 1.03
+2026-08-03 15:24:35,056 | INFO | Chunker | Created 2 chunks for section 1.04
+2026-08-03 15:24:35,131 | INFO | Chunker | Created 1 chunks for section 1.05
+2026-08-03 15:24:35,241 | INFO | Chunker | Created 1 chunks for section 1.06
+2026-08-03 15:24:35,410 | INFO | Chunker | Created 1 chunks for section 1.07
+2026-08-03 15:24:35,536 | INFO | Chunker | Created 1 chunks for section 1.08
+2026-08-03 15:24:35,658 | INFO | Chunker | Created 1 chunks for section 1.09
+2026-08-03 15:24:35,752 | INFO | Chunker | Created 1 chunks for section 1.10
+2026-08-03 15:24:35,882 | INFO | Chunker | Created 1 chunks for section 1.11
+2026-08-03 15:24:35,979 | INFO | Chunker | Created 1 chunks for section 1.12
+2026-08-03 15:24:35,998 | INFO | DGFTKnowledgePipeline | Processing HBP Chapter 2.pdf
+2026-08-03 15:24:36,000 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP Chapter 2.pdf
+2026-08-03 15:25:24,631 | INFO | services.chat_service | dekai_retrieval {"question": "what is iptdec?", "detected_intent": "Question Answering", "detected_topic": "General Question", "knowledge_source": ["FTP", "HBP", "DGFT Policy"], "retrieved_documents": ["HBP Chapter 2.pdf", "HBP2023_Chapter04+as+on+20.04.2026.pdf", "HBP-Chapter-6.pdf", "Chapter+10+HBP+(19.05.2026).pdf"], "similarity_score": 0.75, "selected_chunks": ["2.77-1", "4.97-1"], "reason_for_selection": "Accepted the relevant DGFT section(s) after intent detection, chapter/section filtering, and complete-section grounding.", "user_question": "what is iptdec?", "detected_entities": ["what", "is", "iptdec"], "detected_hs_code": [], "metadata_results_count": 0, "bm25_results_count": 20, "vector_results_count": 20, "merged_results_count": 12, "top_ranked_chunks": [{"id": "2.77", "title": "2.77 Registering Authorities", "sectionId": "2.77", "documentName": "HBP Chapter 2.pdf", "score": 8.9913, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}, {"id": "2.77-1", "title": "2.77 Registering Authorities", "sectionId": "2.77", "documentName": "HBP Chapter 2.pdf", "score": 8.1519, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}, {"id": "4.97-1", "title": "4.97 General Provision", "sectionId": "4.97", "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf", "score": 7.9665, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}, {"id": "CH6-SEC6_40-R002", "title": "Time Bound Disposal of Applications", "sectionId": "6.40", "documentName": "HBP-Chapter-6.pdf", "score": 7.4603, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}, {"id": "2.77-workflow", "title": "Registering Authorities", "sectionId": "2.77", "documentName": "HBP Chapter 2.pdf", "score": 6.7384, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}], "selected_chunk": ["2.77-1"], "final_prompt": "Question: what is iptdec?\nDetected intent: General Question\nDetected entities: what, is, iptdec\nSelected sections: 2.77 Registering Authorities, 4.49 Regularisation of Bonafide Default, 4.97 General Provision, 6.40 Time Bound Disposal of Applications, 10.16 General Authorisation for Export of Chemicals and related, 10.02 SCOMET categories and licensing jurisdiction\nSelected chunks: 2.77-1, 4.97-1", "llm_response": "Based on the uploaded documents:\n- 2.77 Registering Authorities (a) Registering Authority is a body notified by DGFT in this regard to register importers/ exporters as its members by issuing RCMC.\n- 4.49 Regularisation of Bonafide Default Cases of bonafide default in fulfilment of Export Obligation may be regularised by Regional Authority as under: (a) If Export Obligation is fulfilled in terms of value, but ther...\n- 4.97 General Provision i.\n- 6.40 Time Bound Disposal of Applications DC shall dispose of applications expeditiously.\n\nKey requirements:\n- 10.02 SCOMET categories and licensing jurisdiction Export of dual use items, munitions and nuclear related items, including software and technology, covered under SCOMET list are permitted against an export authorisat...\n- Licensing authorities for various categories of SCOMET items, as specified in Appendix 3 to Schedule 2 of ITC (HS) and tabulated under Para 10.03 of FTP are as under: (a) The DGFT is the licensing authority for all SC...\n- Applicable guidelines are notified by the DAE for Nuclear Transfers (Exports) and Notification of schedule of Prescribed Substances, Prescribed Equipment and Technology\" issued under Atomic Energy Act 1962 and Atomic...\n- Authorisations for export of certain items in Category 0 will not be granted unless transfer is under adequate physical protection and is covered by appropriate International Atomic Energy Agency (IAEA) safeguards, or...\n- SCOMET, is specified in Chapter 10 of FTP.\n- In respect of export/re-export of SCOMET items under the Categories / Sub Categories of 1C, 1D,1E, 3D001 and 3D004 (excluding software and technology), as well as chemicals listed in the Appendix 10(N), to the specifi...\n\nSources:\n- HBP Chapter 2.pdf | HBP Chapter 2 | 2.77 Registering Authorities | Pages 34\n- HBP2023_Chapter04+as+on+20.04.2026.pdf | HBP Chapter 4 | 4.49 Regularisation of Bonafide Default | Pages 29, 30, 31\n- HBP2023_Chapter04+as+on+20.04.2026.pdf | HBP Chapter 4 | 4.97 General Provision | Pages 56, 57\n- HBP-Chapter-6.pdf | HBP Chapter 6 | 6.40 Time Bound Disposal of Applications | Pages 23, 24\n- Chapter+10+HBP+(19.05.2026).pdf | HBP Chapter 10 | 10.16 General Authorisation for Export of Chemicals and related | Pages 35, 36, 37, 38, 39, 40"}
+2026-08-03 15:25:29,406 | INFO | PDFLoader | Loaded 52 pages from HBP Chapter 2.pdf
+2026-08-03 15:25:29,909 | INFO | TextCleaner | Cleaned 52 pages
+2026-08-03 15:25:30,235 | INFO | RuleExtractor | Extracted 99 section drafts from HBP Chapter 2.pdf
+2026-08-03 15:25:33,841 | INFO | Chunker | Created 1 chunks for section 2.00
+2026-08-03 15:25:34,102 | INFO | Chunker | Created 1 chunks for section 2.01
+2026-08-03 15:25:34,425 | INFO | Chunker | Created 1 chunks for section 2.02
+2026-08-03 15:25:34,750 | INFO | Chunker | Created 1 chunks for section 2.03
+2026-08-03 15:25:34,946 | INFO | Chunker | Created 1 chunks for section 2.04
+2026-08-03 15:25:35,108 | INFO | Chunker | Created 1 chunks for section 2.05
+2026-08-03 15:25:35,339 | INFO | Chunker | Created 1 chunks for section 2.06
+2026-08-03 15:25:35,487 | INFO | Chunker | Created 1 chunks for section 2.07
+2026-08-03 15:25:35,631 | INFO | Chunker | Created 1 chunks for section 2.08
+2026-08-03 15:25:35,721 | INFO | Chunker | Created 1 chunks for section 2.09
+2026-08-03 15:25:35,797 | INFO | Chunker | Created 1 chunks for section 2.10
+2026-08-03 15:25:35,875 | INFO | Chunker | Created 1 chunks for section 2.11
+2026-08-03 15:25:35,954 | INFO | Chunker | Created 1 chunks for section 2.12
+2026-08-03 15:25:36,029 | INFO | Chunker | Created 1 chunks for section 2.13
+2026-08-03 15:25:36,146 | INFO | Chunker | Created 1 chunks for section 2.14
+2026-08-03 15:25:36,250 | INFO | Chunker | Created 1 chunks for section 2.15
+2026-08-03 15:25:36,363 | INFO | Chunker | Created 1 chunks for section 2.16
+2026-08-03 15:25:36,478 | INFO | Chunker | Created 1 chunks for section 2.17
+2026-08-03 15:25:36,571 | INFO | Chunker | Created 1 chunks for section 2.18
+2026-08-03 15:25:36,659 | INFO | Chunker | Created 1 chunks for section 2.19
+2026-08-03 15:25:36,828 | INFO | Chunker | Created 1 chunks for section 2.20
+2026-08-03 15:25:36,912 | INFO | Chunker | Created 1 chunks for section 2.21
+2026-08-03 15:25:36,992 | INFO | Chunker | Created 1 chunks for section 2.22
+2026-08-03 15:25:37,121 | INFO | Chunker | Created 1 chunks for section 2.23
+2026-08-03 15:25:37,213 | INFO | Chunker | Created 1 chunks for section 2.24
+2026-08-03 15:25:37,300 | INFO | Chunker | Created 1 chunks for section 2.25
+2026-08-03 15:25:37,368 | INFO | Chunker | Created 1 chunks for section 2.26
+2026-08-03 15:25:37,489 | INFO | Chunker | Created 1 chunks for section 2.27
+2026-08-03 15:25:37,566 | INFO | Chunker | Created 1 chunks for section 2.28
+2026-08-03 15:25:37,695 | INFO | Chunker | Created 1 chunks for section 2.29
+2026-08-03 15:25:37,808 | INFO | Chunker | Created 1 chunks for section 2.29
+2026-08-03 15:25:37,916 | INFO | Chunker | Created 1 chunks for section 2.30
+2026-08-03 15:25:37,987 | INFO | Chunker | Created 1 chunks for section 2.31
+2026-08-03 15:25:38,071 | INFO | Chunker | Created 1 chunks for section 2.32
+2026-08-03 15:25:38,173 | INFO | Chunker | Created 1 chunks for section 2.33
+2026-08-03 15:25:38,286 | INFO | Chunker | Created 1 chunks for section 2.34
+2026-08-03 15:25:38,393 | INFO | Chunker | Created 1 chunks for section 2.35
+2026-08-03 15:25:38,557 | INFO | Chunker | Created 1 chunks for section 2.36
+2026-08-03 15:25:38,723 | INFO | Chunker | Created 1 chunks for section 2.37
+2026-08-03 15:25:38,828 | INFO | Chunker | Created 1 chunks for section 2.38
+2026-08-03 15:25:38,904 | INFO | Chunker | Created 1 chunks for section 2.39
+2026-08-03 15:25:39,058 | INFO | Chunker | Created 1 chunks for section 2.40
+2026-08-03 15:25:39,170 | INFO | Chunker | Created 1 chunks for section 2.41
+2026-08-03 15:25:39,244 | INFO | Chunker | Created 1 chunks for section 2.42
+2026-08-03 15:25:39,384 | INFO | Chunker | Created 1 chunks for section 2.43
+2026-08-03 15:25:39,512 | INFO | Chunker | Created 1 chunks for section 2.44
+2026-08-03 15:25:39,598 | INFO | Chunker | Created 1 chunks for section 2.45
+2026-08-03 15:25:39,756 | INFO | Chunker | Created 1 chunks for section 2.46
+2026-08-03 15:25:39,843 | INFO | Chunker | Created 1 chunks for section 2.47
+2026-08-03 15:25:39,969 | INFO | Chunker | Created 1 chunks for section 2.48
+2026-08-03 15:25:40,143 | INFO | Chunker | Created 1 chunks for section 2.49
+2026-08-03 15:25:40,250 | INFO | Chunker | Created 1 chunks for section 2.50
+2026-08-03 15:25:40,522 | INFO | Chunker | Created 18 chunks for section 2.51
+2026-08-03 15:25:40,666 | INFO | Chunker | Created 1 chunks for section 2.52
+2026-08-03 15:25:40,821 | INFO | Chunker | Created 1 chunks for section 2.53
+2026-08-03 15:25:40,891 | INFO | Chunker | Created 1 chunks for section 2.54
+2026-08-03 15:25:40,941 | INFO | Chunker | Created 1 chunks for section 2.55
+2026-08-03 15:25:41,045 | INFO | Chunker | Created 1 chunks for section 2.56
+2026-08-03 15:25:41,149 | INFO | Chunker | Created 1 chunks for section 2.57
+2026-08-03 15:25:41,233 | INFO | Chunker | Created 1 chunks for section 2.58
+2026-08-03 15:25:41,414 | INFO | Chunker | Created 1 chunks for section 2.59
+2026-08-03 15:25:41,520 | INFO | Chunker | Created 1 chunks for section 2.60
+2026-08-03 15:25:41,693 | INFO | Chunker | Created 1 chunks for section 2.61
+2026-08-03 15:25:41,792 | INFO | Chunker | Created 1 chunks for section 2.62
+2026-08-03 15:25:41,883 | INFO | Chunker | Created 1 chunks for section 2.63
+2026-08-03 15:25:41,965 | INFO | Chunker | Created 1 chunks for section 2.64
+2026-08-03 15:25:42,037 | INFO | Chunker | Created 1 chunks for section 2.65
+2026-08-03 15:25:42,133 | INFO | Chunker | Created 1 chunks for section 2.66
+2026-08-03 15:25:42,253 | INFO | Chunker | Created 1 chunks for section 2.67
+2026-08-03 15:25:42,346 | INFO | Chunker | Created 1 chunks for section 2.68
+2026-08-03 15:25:42,438 | INFO | Chunker | Created 1 chunks for section 2.69
+2026-08-03 15:25:42,536 | INFO | Chunker | Created 1 chunks for section 2.70
+2026-08-03 15:25:42,646 | INFO | Chunker | Created 1 chunks for section 2.71
+2026-08-03 15:25:42,739 | INFO | Chunker | Created 1 chunks for section 2.72
+2026-08-03 15:25:42,829 | INFO | Chunker | Created 1 chunks for section 2.73
+2026-08-03 15:25:42,952 | INFO | Chunker | Created 1 chunks for section 2.74
+2026-08-03 15:25:43,050 | INFO | Chunker | Created 1 chunks for section 2.75
+2026-08-03 15:25:43,210 | INFO | Chunker | Created 2 chunks for section 2.76
+2026-08-03 15:25:43,309 | INFO | Chunker | Created 1 chunks for section 2.77
+2026-08-03 15:25:43,416 | INFO | Chunker | Created 1 chunks for section 2.78
+2026-08-03 15:25:43,531 | INFO | Chunker | Created 1 chunks for section 2.79
+2026-08-03 15:25:43,636 | INFO | Chunker | Created 1 chunks for section 2.80
+2026-08-03 15:25:43,730 | INFO | Chunker | Created 1 chunks for section 2.81
+2026-08-03 15:25:43,838 | INFO | Chunker | Created 1 chunks for section 2.82
+2026-08-03 15:25:43,933 | INFO | Chunker | Created 1 chunks for section 2.83
+2026-08-03 15:25:44,021 | INFO | Chunker | Created 1 chunks for section 2.84
+2026-08-03 15:25:44,098 | INFO | Chunker | Created 1 chunks for section 2.85
+2026-08-03 15:25:44,217 | INFO | Chunker | Created 1 chunks for section 2.86
+2026-08-03 15:25:44,343 | INFO | Chunker | Created 1 chunks for section 2.87
+2026-08-03 15:25:44,475 | INFO | Chunker | Created 1 chunks for section 2.88
+2026-08-03 15:25:44,598 | INFO | Chunker | Created 1 chunks for section 2.89
+2026-08-03 15:25:44,682 | INFO | Chunker | Created 1 chunks for section 2.90
+2026-08-03 15:25:44,816 | INFO | Chunker | Created 1 chunks for section 2.91
+2026-08-03 15:25:46,128 | INFO | Chunker | Created 32 chunks for section 2.92
+2026-08-03 15:25:46,386 | INFO | Chunker | Created 2 chunks for section 2.93
+2026-08-03 15:25:46,480 | INFO | Chunker | Created 1 chunks for section 2.94
+2026-08-03 15:25:46,586 | INFO | Chunker | Created 1 chunks for section 2.95
+2026-08-03 15:25:46,705 | INFO | Chunker | Created 1 chunks for section 2.96
+2026-08-03 15:25:46,802 | INFO | Chunker | Created 1 chunks for section 2.97
+2026-08-03 15:25:46,838 | INFO | DGFTKnowledgePipeline | Processing HBP2023_Chapter03.pdf
+2026-08-03 15:25:46,840 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP2023_Chapter03.pdf
+2026-08-03 15:25:55,280 | INFO | PDFLoader | Loaded 6 pages from HBP2023_Chapter03.pdf
+2026-08-03 15:25:55,308 | INFO | TextCleaner | Cleaned 6 pages
+2026-08-03 15:25:55,392 | INFO | RuleExtractor | Extracted 8 section drafts from HBP2023_Chapter03.pdf
+2026-08-03 15:25:55,646 | INFO | Chunker | Created 1 chunks for section 3.01
+2026-08-03 15:25:55,723 | INFO | Chunker | Created 1 chunks for section 3.02
+2026-08-03 15:25:55,864 | INFO | Chunker | Created 2 chunks for section 3.03
+2026-08-03 15:25:55,953 | INFO | Chunker | Created 1 chunks for section 3.05
+2026-08-03 15:25:56,043 | INFO | Chunker | Created 1 chunks for section 3.06
+2026-08-03 15:25:56,127 | INFO | Chunker | Created 1 chunks for section 3.07
+2026-08-03 15:25:56,222 | INFO | Chunker | Created 1 chunks for section 3.08
+2026-08-03 15:25:56,321 | INFO | Chunker | Created 1 chunks for section 3.09
+2026-08-03 15:25:56,343 | INFO | DGFTKnowledgePipeline | Processing HBP2023_Chapter04+as+on+20.04.2026.pdf
+2026-08-03 15:25:56,345 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP2023_Chapter04+as+on+20.04.2026.pdf
+2026-08-03 15:26:51,444 | INFO | PDFLoader | Loaded 58 pages from HBP2023_Chapter04+as+on+20.04.2026.pdf
+2026-08-03 15:26:51,663 | INFO | TextCleaner | Cleaned 58 pages
+2026-08-03 15:26:51,764 | INFO | RuleExtractor | Extracted 99 section drafts from HBP2023_Chapter04+as+on+20.04.2026.pdf
+2026-08-03 15:26:55,543 | INFO | Chunker | Created 1 chunks for section 4.01
+2026-08-03 15:26:55,723 | INFO | Chunker | Created 1 chunks for section 4.02
+2026-08-03 15:26:55,882 | INFO | Chunker | Created 1 chunks for section 4.03
+2026-08-03 15:26:56,066 | INFO | Chunker | Created 1 chunks for section 4.04
+2026-08-03 15:26:56,709 | INFO | Chunker | Created 1 chunks for section 4.05
+2026-08-03 15:26:57,045 | INFO | Chunker | Created 2 chunks for section 4.06
+2026-08-03 15:26:57,604 | INFO | Chunker | Created 1 chunks for section 4.07
+2026-08-03 15:26:58,059 | INFO | Chunker | Created 1 chunks for section 4.08
+2026-08-03 15:26:58,255 | INFO | Chunker | Created 1 chunks for section 4.09
+2026-08-03 15:26:58,514 | INFO | Chunker | Created 1 chunks for section 4.10
+2026-08-03 15:26:58,582 | INFO | Chunker | Created 1 chunks for section 4.11
+2026-08-03 15:26:59,239 | INFO | Chunker | Created 1 chunks for section 4.12
+2026-08-03 15:26:59,351 | INFO | Chunker | Created 1 chunks for section 4.13
+2026-08-03 15:26:59,640 | INFO | Chunker | Created 1 chunks for section 4.14
+2026-08-03 15:26:59,825 | INFO | Chunker | Created 1 chunks for section 4.15
+2026-08-03 15:27:00,146 | INFO | Chunker | Created 1 chunks for section 4.16
+2026-08-03 15:27:00,603 | INFO | Chunker | Created 1 chunks for section 4.17
+2026-08-03 15:27:00,881 | INFO | Chunker | Created 1 chunks for section 4.18
+2026-08-03 15:27:01,157 | INFO | Chunker | Created 1 chunks for section 4.19
+2026-08-03 15:27:01,449 | INFO | Chunker | Created 1 chunks for section 4.20
+2026-08-03 15:27:01,760 | INFO | Chunker | Created 1 chunks for section 4.21
+2026-08-03 15:27:02,258 | INFO | Chunker | Created 1 chunks for section 4.22
+2026-08-03 15:27:02,412 | INFO | Chunker | Created 1 chunks for section 4.23
+2026-08-03 15:27:02,588 | INFO | Chunker | Created 1 chunks for section 4.24
+2026-08-03 15:27:02,769 | INFO | Chunker | Created 1 chunks for section 4.25
+2026-08-03 15:27:02,943 | INFO | Chunker | Created 1 chunks for section 4.26
+2026-08-03 15:27:03,269 | INFO | Chunker | Created 1 chunks for section 4.27
+2026-08-03 15:27:03,438 | INFO | Chunker | Created 1 chunks for section 4.28
+2026-08-03 15:27:03,595 | INFO | Chunker | Created 1 chunks for section 4.29
+2026-08-03 15:27:03,998 | INFO | Chunker | Created 1 chunks for section 4.30
+2026-08-03 15:27:04,429 | INFO | Chunker | Created 1 chunks for section 4.31
+2026-08-03 15:27:04,839 | INFO | Chunker | Created 1 chunks for section 4.32
+2026-08-03 15:27:05,219 | INFO | Chunker | Created 1 chunks for section 4.33
+2026-08-03 15:27:05,374 | INFO | Chunker | Created 1 chunks for section 4.34
+2026-08-03 15:27:05,600 | INFO | Chunker | Created 2 chunks for section 4.35
+2026-08-03 15:27:06,054 | INFO | Chunker | Created 2 chunks for section 4.36
+2026-08-03 15:27:06,392 | INFO | Chunker | Created 2 chunks for section 4.37
+2026-08-03 15:27:06,566 | INFO | Chunker | Created 1 chunks for section 4.38
+2026-08-03 15:27:06,746 | INFO | Chunker | Created 1 chunks for section 4.39
+2026-08-03 15:27:07,428 | INFO | Chunker | Created 2 chunks for section 4.40
+2026-08-03 15:27:07,588 | INFO | Chunker | Created 1 chunks for section 4.41
+2026-08-03 15:27:07,709 | INFO | Chunker | Created 1 chunks for section 4.42
+2026-08-03 15:27:08,067 | INFO | Chunker | Created 1 chunks for section 4.43
+2026-08-03 15:27:08,457 | INFO | Chunker | Created 1 chunks for section 4.44
+2026-08-03 15:27:09,109 | INFO | Chunker | Created 1 chunks for section 4.45
+2026-08-03 15:27:09,261 | INFO | Chunker | Created 1 chunks for section 4.46
+2026-08-03 15:27:09,699 | INFO | Chunker | Created 1 chunks for section 4.47
+2026-08-03 15:27:10,182 | INFO | Chunker | Created 1 chunks for section 4.48
+2026-08-03 15:27:10,678 | INFO | Chunker | Created 2 chunks for section 4.49
+2026-08-03 15:27:11,167 | INFO | Chunker | Created 1 chunks for section 4.50
+2026-08-03 15:27:11,361 | INFO | Chunker | Created 1 chunks for section 4.51
+2026-08-03 15:27:11,400 | INFO | Chunker | Created 1 chunks for section 4.52
+2026-08-03 15:27:11,639 | INFO | Chunker | Created 1 chunks for section 4.53
+2026-08-03 15:27:12,015 | INFO | Chunker | Created 1 chunks for section 4.54
+2026-08-03 15:27:12,212 | INFO | Chunker | Created 1 chunks for section 4.55
+2026-08-03 15:27:12,381 | INFO | Chunker | Created 1 chunks for section 4.56
+2026-08-03 15:27:12,547 | INFO | Chunker | Created 1 chunks for section 4.57
+2026-08-03 15:27:12,955 | INFO | Chunker | Created 1 chunks for section 4.58
+2026-08-03 15:27:13,107 | INFO | Chunker | Created 1 chunks for section 4.59
+2026-08-03 15:27:13,274 | INFO | Chunker | Created 1 chunks for section 4.60
+2026-08-03 15:27:13,414 | INFO | Chunker | Created 1 chunks for section 4.61
+2026-08-03 15:27:13,561 | INFO | Chunker | Created 1 chunks for section 4.62
+2026-08-03 15:27:13,838 | INFO | Chunker | Created 1 chunks for section 4.63
+2026-08-03 15:27:14,036 | INFO | Chunker | Created 1 chunks for section 4.64
+2026-08-03 15:27:14,255 | INFO | Chunker | Created 1 chunks for section 4.65
+2026-08-03 15:27:14,343 | INFO | Chunker | Created 1 chunks for section 4.66
+2026-08-03 15:27:14,775 | INFO | Chunker | Created 1 chunks for section 4.67
+2026-08-03 15:27:14,964 | INFO | Chunker | Created 1 chunks for section 4.68
+2026-08-03 15:27:15,107 | INFO | Chunker | Created 1 chunks for section 4.69
+2026-08-03 15:27:15,425 | INFO | Chunker | Created 1 chunks for section 4.70
+2026-08-03 15:27:15,722 | INFO | Chunker | Created 1 chunks for section 4.71
+2026-08-03 15:27:15,955 | INFO | Chunker | Created 1 chunks for section 4.72
+2026-08-03 15:27:16,270 | INFO | Chunker | Created 1 chunks for section 4.73
+2026-08-03 15:27:16,896 | INFO | Chunker | Created 1 chunks for section 4.74
+2026-08-03 15:27:17,299 | INFO | Chunker | Created 1 chunks for section 4.75
+2026-08-03 15:27:17,964 | INFO | Chunker | Created 1 chunks for section 4.76
+2026-08-03 15:27:18,399 | INFO | Chunker | Created 1 chunks for section 4.77
+2026-08-03 15:27:18,573 | INFO | Chunker | Created 1 chunks for section 4.78
+2026-08-03 15:27:18,972 | INFO | Chunker | Created 2 chunks for section 4.79
+2026-08-03 15:27:19,155 | INFO | Chunker | Created 1 chunks for section 4.80
+2026-08-03 15:27:19,483 | INFO | Chunker | Created 1 chunks for section 4.81
+2026-08-03 15:27:19,669 | INFO | Chunker | Created 1 chunks for section 4.82
+2026-08-03 15:27:19,988 | INFO | Chunker | Created 1 chunks for section 4.83
+2026-08-03 15:27:20,344 | INFO | Chunker | Created 1 chunks for section 4.84
+2026-08-03 15:27:20,596 | INFO | Chunker | Created 1 chunks for section 4.85
+2026-08-03 15:27:20,825 | INFO | Chunker | Created 1 chunks for section 4.86
+2026-08-03 15:27:21,143 | INFO | Chunker | Created 1 chunks for section 4.87
+2026-08-03 15:27:21,309 | INFO | Chunker | Created 1 chunks for section 4.88
+2026-08-03 15:27:21,466 | INFO | Chunker | Created 1 chunks for section 4.89
+2026-08-03 15:27:21,693 | INFO | Chunker | Created 1 chunks for section 4.90
+2026-08-03 15:27:21,988 | INFO | Chunker | Created 1 chunks for section 4.91
+2026-08-03 15:27:22,350 | INFO | Chunker | Created 1 chunks for section 4.92
+2026-08-03 15:27:22,843 | INFO | Chunker | Created 1 chunks for section 4.93
+2026-08-03 15:27:23,437 | INFO | Chunker | Created 2 chunks for section 4.94
+2026-08-03 15:27:23,608 | INFO | Chunker | Created 1 chunks for section 4.95
+2026-08-03 15:27:23,816 | INFO | Chunker | Created 1 chunks for section 4.96
+2026-08-03 15:27:24,147 | INFO | Chunker | Created 1 chunks for section 4.97
+2026-08-03 15:27:24,322 | INFO | Chunker | Created 1 chunks for section 4.98
+2026-08-03 15:27:24,663 | INFO | Chunker | Created 1 chunks for section 4.99
+2026-08-03 15:27:24,674 | INFO | DGFTKnowledgePipeline | Processing HBP2023_Chapter05.pdf
+2026-08-03 15:27:24,676 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP2023_Chapter05.pdf
+2026-08-03 15:27:34,854 | INFO | PDFLoader | Loaded 15 pages from HBP2023_Chapter05.pdf
+2026-08-03 15:27:34,910 | INFO | TextCleaner | Cleaned 15 pages
+2026-08-03 15:27:34,937 | INFO | RuleExtractor | Extracted 25 section drafts from HBP2023_Chapter05.pdf
+2026-08-03 15:27:36,178 | INFO | Chunker | Created 1 chunks for section 5.01
+2026-08-03 15:27:36,288 | INFO | Chunker | Created 1 chunks for section 5.02
+2026-08-03 15:27:36,476 | INFO | Chunker | Created 1 chunks for section 5.03
+2026-08-03 15:27:36,745 | INFO | Chunker | Created 1 chunks for section 5.04
+2026-08-03 15:27:36,800 | INFO | Chunker | Created 1 chunks for section 5.05
+2026-08-03 15:27:37,247 | INFO | Chunker | Created 1 chunks for section 5.06
+2026-08-03 15:27:37,469 | INFO | Chunker | Created 1 chunks for section 5.07
+2026-08-03 15:27:37,748 | INFO | Chunker | Created 1 chunks for section 5.08
+2026-08-03 15:27:37,923 | INFO | Chunker | Created 1 chunks for section 5.09
+2026-08-03 15:27:38,526 | INFO | Chunker | Created 1 chunks for section 5.10
+2026-08-03 15:27:38,615 | INFO | Chunker | Created 1 chunks for section 5.11
+2026-08-03 15:27:38,772 | INFO | Chunker | Created 1 chunks for section 5.12
+2026-08-03 15:27:39,353 | INFO | Chunker | Created 2 chunks for section 5.13
+2026-08-03 15:27:39,645 | INFO | Chunker | Created 1 chunks for section 5.14
+2026-08-03 15:27:39,982 | INFO | Chunker | Created 1 chunks for section 5.16
+2026-08-03 15:27:40,156 | INFO | Chunker | Created 1 chunks for section 5.17
+2026-08-03 15:27:40,312 | INFO | Chunker | Created 1 chunks for section 5.18
+2026-08-03 15:27:40,487 | INFO | Chunker | Created 1 chunks for section 5.19
+2026-08-03 15:27:40,756 | INFO | Chunker | Created 1 chunks for section 5.20
+2026-08-03 15:27:41,221 | INFO | Chunker | Created 1 chunks for section 5.21
+2026-08-03 15:27:41,380 | INFO | Chunker | Created 1 chunks for section 5.22
+2026-08-03 15:27:41,681 | INFO | Chunker | Created 1 chunks for section 5.23
+2026-08-03 15:27:41,916 | INFO | Chunker | Created 1 chunks for section 5.24
+2026-08-03 15:27:42,069 | INFO | Chunker | Created 1 chunks for section 5.25
+2026-08-03 15:27:42,212 | INFO | Chunker | Created 1 chunks for section 5.26
+2026-08-03 15:27:42,250 | INFO | DGFTKnowledgePipeline | Processing HBP-Chapter-6.pdf
+2026-08-03 15:27:42,254 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP-Chapter-6.pdf
+2026-08-03 15:27:56,303 | INFO | PDFLoader | Loaded 24 pages from HBP-Chapter-6.pdf
+2026-08-03 15:27:56,495 | INFO | TextCleaner | Cleaned 24 pages
+2026-08-03 15:27:56,531 | INFO | RuleExtractor | Extracted 41 section drafts from HBP-Chapter-6.pdf
+2026-08-03 15:27:58,074 | INFO | Chunker | Created 1 chunks for section 6.00
+2026-08-03 15:27:58,378 | INFO | Chunker | Created 2 chunks for section 6.01
+2026-08-03 15:27:58,570 | INFO | Chunker | Created 1 chunks for section 6.02
+2026-08-03 15:27:58,729 | INFO | Chunker | Created 1 chunks for section 6.03
+2026-08-03 15:27:58,893 | INFO | Chunker | Created 1 chunks for section 6.04
+2026-08-03 15:27:59,036 | INFO | Chunker | Created 1 chunks for section 6.05
+2026-08-03 15:27:59,354 | INFO | Chunker | Created 1 chunks for section 6.06
+2026-08-03 15:27:59,645 | INFO | Chunker | Created 1 chunks for section 6.07
+2026-08-03 15:27:59,797 | INFO | Chunker | Created 1 chunks for section 6.08
+2026-08-03 15:28:00,126 | INFO | Chunker | Created 1 chunks for section 6.09
+2026-08-03 15:28:00,660 | INFO | Chunker | Created 1 chunks for section 6.10
+2026-08-03 15:28:00,957 | INFO | Chunker | Created 1 chunks for section 6.11
+2026-08-03 15:28:01,154 | INFO | Chunker | Created 1 chunks for section 6.12
+2026-08-03 15:28:01,340 | INFO | Chunker | Created 1 chunks for section 6.13
+2026-08-03 15:28:01,495 | INFO | Chunker | Created 1 chunks for section 6.14
+2026-08-03 15:28:01,650 | INFO | Chunker | Created 1 chunks for section 6.15
+2026-08-03 15:28:01,799 | INFO | Chunker | Created 1 chunks for section 6.16
+2026-08-03 15:28:01,993 | INFO | Chunker | Created 1 chunks for section 6.17
+2026-08-03 15:28:02,069 | INFO | Chunker | Created 1 chunks for section 6.18
+2026-08-03 15:28:02,371 | INFO | Chunker | Created 1 chunks for section 6.19
+2026-08-03 15:28:02,833 | INFO | Chunker | Created 2 chunks for section 6.20
+2026-08-03 15:28:03,050 | INFO | Chunker | Created 1 chunks for section 6.22
+2026-08-03 15:28:03,271 | INFO | Chunker | Created 1 chunks for section 6.23
+2026-08-03 15:28:03,781 | INFO | Chunker | Created 1 chunks for section 6.24
+2026-08-03 15:28:04,005 | INFO | Chunker | Created 1 chunks for section 6.25
+2026-08-03 15:28:04,267 | INFO | Chunker | Created 1 chunks for section 6.26
+2026-08-03 15:28:04,395 | INFO | Chunker | Created 1 chunks for section 6.27
+2026-08-03 15:28:04,520 | INFO | Chunker | Created 1 chunks for section 6.28
+2026-08-03 15:28:04,712 | INFO | Chunker | Created 1 chunks for section 6.29
+2026-08-03 15:28:04,896 | INFO | Chunker | Created 1 chunks for section 6.30
+2026-08-03 15:28:05,057 | INFO | Chunker | Created 1 chunks for section 6.31
+2026-08-03 15:28:05,373 | INFO | Chunker | Created 1 chunks for section 6.32
+2026-08-03 15:28:05,555 | INFO | Chunker | Created 1 chunks for section 6.33
+2026-08-03 15:28:06,020 | INFO | Chunker | Created 1 chunks for section 6.34
+2026-08-03 15:28:06,090 | INFO | Chunker | Created 1 chunks for section 6.35
+2026-08-03 15:28:06,417 | INFO | Chunker | Created 1 chunks for section 6.36
+2026-08-03 15:28:06,606 | INFO | Chunker | Created 1 chunks for section 6.37
+2026-08-03 15:28:06,919 | INFO | Chunker | Created 1 chunks for section 6.38
+2026-08-03 15:28:07,301 | INFO | Chunker | Created 1 chunks for section 6.39
+2026-08-03 15:28:07,665 | INFO | Chunker | Created 1 chunks for section 6.40
+2026-08-03 15:28:07,806 | INFO | Chunker | Created 1 chunks for section 6.41
+2026-08-03 15:28:07,832 | INFO | DGFTKnowledgePipeline | Processing Chapter-7-of-HBP-2023.pdf
+2026-08-03 15:28:07,834 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\Chapter-7-of-HBP-2023.pdf
+2026-08-03 15:28:10,611 | INFO | PDFLoader | Loaded 6 pages from Chapter-7-of-HBP-2023.pdf
+2026-08-03 15:28:10,629 | INFO | TextCleaner | Cleaned 6 pages
+2026-08-03 15:28:10,638 | INFO | RuleExtractor | Extracted 12 section drafts from Chapter-7-of-HBP-2023.pdf
+2026-08-03 15:28:11,265 | INFO | Chunker | Created 1 chunks for section 7.00
+2026-08-03 15:28:11,464 | INFO | Chunker | Created 1 chunks for section 7.01
+2026-08-03 15:28:11,784 | INFO | Chunker | Created 1 chunks for section 7.02
+2026-08-03 15:28:12,141 | INFO | Chunker | Created 1 chunks for section 7.03
+2026-08-03 15:28:12,367 | INFO | Chunker | Created 1 chunks for section 7.04
+2026-08-03 15:28:12,866 | INFO | Chunker | Created 1 chunks for section 7.05
+2026-08-03 15:28:13,033 | INFO | Chunker | Created 1 chunks for section 7.06
+2026-08-03 15:28:13,167 | INFO | Chunker | Created 1 chunks for section 7.07
+2026-08-03 15:28:13,232 | INFO | Chunker | Created 1 chunks for section 7.08
+2026-08-03 15:28:13,412 | INFO | Chunker | Created 1 chunks for section 7.09
+2026-08-03 15:28:13,721 | INFO | Chunker | Created 1 chunks for section 7.10
+2026-08-03 15:28:13,779 | INFO | Chunker | Created 1 chunks for section 7.11
+2026-08-03 15:28:13,909 | INFO | DGFTKnowledgePipeline | Processing HBP2023_Chapter08.pdf
+2026-08-03 15:28:13,910 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP2023_Chapter08.pdf
+2026-08-03 15:28:15,155 | INFO | PDFLoader | Loaded 4 pages from HBP2023_Chapter08.pdf
+2026-08-03 15:28:15,164 | INFO | TextCleaner | Cleaned 4 pages
+2026-08-03 15:28:15,170 | INFO | RuleExtractor | Extracted 5 section drafts from HBP2023_Chapter08.pdf
+2026-08-03 15:28:15,645 | INFO | Chunker | Created 1 chunks for section 8.01
+2026-08-03 15:28:15,793 | INFO | Chunker | Created 1 chunks for section 8.02
+2026-08-03 15:28:15,866 | INFO | Chunker | Created 1 chunks for section 8.03
+2026-08-03 15:28:16,004 | INFO | Chunker | Created 1 chunks for section 8.04
+2026-08-03 15:28:16,164 | INFO | Chunker | Created 1 chunks for section 8.05
+2026-08-03 15:28:16,190 | INFO | DGFTKnowledgePipeline | Processing HBP2023_Chapter09.pdf
+2026-08-03 15:28:16,191 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP2023_Chapter09.pdf
+2026-08-03 15:28:16,921 | INFO | PDFLoader | Loaded 2 pages from HBP2023_Chapter09.pdf
+2026-08-03 15:28:16,926 | INFO | TextCleaner | Cleaned 2 pages
+2026-08-03 15:28:16,930 | INFO | RuleExtractor | Extracted 3 section drafts from HBP2023_Chapter09.pdf
+2026-08-03 15:28:17,194 | INFO | Chunker | Created 1 chunks for section 9.00
+2026-08-03 15:28:17,355 | INFO | Chunker | Created 1 chunks for section 9.01
+2026-08-03 15:28:17,495 | INFO | Chunker | Created 1 chunks for section 9.02
+2026-08-03 15:28:17,590 | INFO | DGFTKnowledgePipeline | Processing Chapter+10+HBP+(19.05.2026).pdf
+2026-08-03 15:28:17,591 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\Chapter+10+HBP+(19.05.2026).pdf
+2026-08-03 15:28:44,400 | INFO | PDFLoader | Loaded 48 pages from Chapter+10+HBP+(19.05.2026).pdf
+2026-08-03 15:28:44,738 | INFO | TextCleaner | Cleaned 48 pages
+2026-08-03 15:28:44,908 | INFO | RuleExtractor | Extracted 21 section drafts from Chapter+10+HBP+(19.05.2026).pdf
+2026-08-03 15:28:47,624 | INFO | Chunker | Created 1 chunks for section 10.00
+2026-08-03 15:28:47,778 | INFO | Chunker | Created 1 chunks for section 10.01
+2026-08-03 15:28:47,961 | INFO | Chunker | Created 1 chunks for section 10.02
+2026-08-03 15:28:48,149 | INFO | Chunker | Created 1 chunks for section 10.03
+2026-08-03 15:28:48,447 | INFO | Chunker | Created 1 chunks for section 10.04
+2026-08-03 15:28:48,778 | INFO | Chunker | Created 1 chunks for section 10.05
+2026-08-03 15:28:49,027 | INFO | Chunker | Created 1 chunks for section 10.06
+2026-08-03 15:28:49,159 | INFO | Chunker | Created 1 chunks for section 10.07
+2026-08-03 15:28:49,353 | INFO | Chunker | Created 1 chunks for section 10.08
+2026-08-03 15:28:50,414 | INFO | Chunker | Created 5 chunks for section 10.09
+2026-08-03 15:28:50,575 | INFO | Chunker | Created 1 chunks for section 10.11
+2026-08-03 15:28:51,423 | INFO | Chunker | Created 8 chunks for section 10.12
+2026-08-03 15:28:51,918 | INFO | Chunker | Created 2 chunks for section 10.13
+2026-08-03 15:28:52,170 | INFO | Chunker | Created 1 chunks for section 10.14
+2026-08-03 15:28:52,434 | INFO | Chunker | Created 1 chunks for section 10.15
+2026-08-03 15:28:53,179 | INFO | Chunker | Created 11 chunks for section 10.15
+2026-08-03 15:28:53,727 | INFO | Chunker | Created 7 chunks for section 10.16
+2026-08-03 15:28:54,234 | INFO | Chunker | Created 2 chunks for section 10.17
+2026-08-03 15:28:54,474 | INFO | Chunker | Created 1 chunks for section 10.18
+2026-08-03 15:28:55,011 | INFO | Chunker | Created 4 chunks for section 10.19
+2026-08-03 15:28:55,269 | INFO | Chunker | Created 1 chunks for section 10.20
+2026-08-03 15:28:56,072 | INFO | DGFTKnowledgePipeline | Processing TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf
+2026-08-03 15:28:56,074 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf
+2026-08-03 15:29:10,151 | INFO | PDFLoader | Loaded 20 pages from TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf
+2026-08-03 15:29:10,249 | INFO | TextCleaner | Cleaned 20 pages
+2026-08-03 15:29:10,287 | INFO | RuleExtractor | Extracted 2 section drafts from TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf
+2026-08-03 15:29:11,175 | INFO | Chunker | Created 1 chunks for section 3.1
+2026-08-03 15:29:13,285 | INFO | Chunker | Created 15 chunks for section 5.1
+2026-08-03 15:56:48,008 | INFO | services.chat_service | dekai_retrieval {"question": "what is iptdec?", "detected_intent": "Question Answering", "detected_topic": "General Question", "knowledge_source": ["FTP", "HBP", "DGFT Policy"], "retrieved_documents": ["HBP Chapter 2.pdf", "HBP2023_Chapter04+as+on+20.04.2026.pdf", "HBP-Chapter-6.pdf", "Chapter+10+HBP+(19.05.2026).pdf"], "similarity_score": 0.75, "selected_chunks": ["2.77-1", "4.97-1"], "reason_for_selection": "Accepted the relevant DGFT section(s) after intent detection, chapter/section filtering, and complete-section grounding.", "user_question": "what is iptdec?", "detected_entities": ["what", "is", "iptdec"], "detected_hs_code": [], "metadata_results_count": 0, "bm25_results_count": 20, "vector_results_count": 20, "merged_results_count": 12, "top_ranked_chunks": [{"id": "2.77", "title": "2.77 Registering Authorities", "sectionId": "2.77", "documentName": "HBP Chapter 2.pdf", "score": 8.9913, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}, {"id": "2.77-1", "title": "2.77 Registering Authorities", "sectionId": "2.77", "documentName": "HBP Chapter 2.pdf", "score": 8.1519, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}, {"id": "4.97-1", "title": "4.97 General Provision", "sectionId": "4.97", "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf", "score": 7.9665, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}, {"id": "CH6-SEC6_40-R002", "title": "Time Bound Disposal of Applications", "sectionId": "6.40", "documentName": "HBP-Chapter-6.pdf", "score": 7.4603, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}, {"id": "2.77-workflow", "title": "Registering Authorities", "sectionId": "2.77", "documentName": "HBP Chapter 2.pdf", "score": 6.7384, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}], "selected_chunk": ["2.77-1"], "final_prompt": "Question: what is iptdec?\nDetected intent: General Question\nDetected entities: what, is, iptdec\nSelected sections: 2.77 Registering Authorities, 4.49 Regularisation of Bonafide Default, 4.97 General Provision, 6.40 Time Bound Disposal of Applications, 10.16 General Authorisation for Export of Chemicals and related, 10.02 SCOMET categories and licensing jurisdiction\nSelected chunks: 2.77-1, 4.97-1", "llm_response": "Based on the uploaded documents:\n- 2.77 Registering Authorities (a) Registering Authority is a body notified by DGFT in this regard to register importers/ exporters as its members by issuing RCMC.\n- 4.49 Regularisation of Bonafide Default Cases of bonafide default in fulfilment of Export Obligation may be regularised by Regional Authority as under: (a) If Export Obligation is fulfilled in terms of value, but ther...\n- 4.97 General Provision i.\n- 6.40 Time Bound Disposal of Applications DC shall dispose of applications expeditiously.\n\nKey requirements:\n- 10.02 SCOMET categories and licensing jurisdiction Export of dual use items, munitions and nuclear related items, including software and technology, covered under SCOMET list are permitted against an export authorisat...\n- Licensing authorities for various categories of SCOMET items, as specified in Appendix 3 to Schedule 2 of ITC (HS) and tabulated under Para 10.03 of FTP are as under: (a) The DGFT is the licensing authority for all SC...\n- Applicable guidelines are notified by the DAE for Nuclear Transfers (Exports) and Notification of schedule of Prescribed Substances, Prescribed Equipment and Technology\" issued under Atomic Energy Act 1962 and Atomic...\n- Authorisations for export of certain items in Category 0 will not be granted unless transfer is under adequate physical protection and is covered by appropriate International Atomic Energy Agency (IAEA) safeguards, or...\n- SCOMET, is specified in Chapter 10 of FTP.\n- In respect of export/re-export of SCOMET items under the Categories / Sub Categories of 1C, 1D,1E, 3D001 and 3D004 (excluding software and technology), as well as chemicals listed in the Appendix 10(N), to the specifi...\n\nSources:\n- HBP Chapter 2.pdf | HBP Chapter 2 | 2.77 Registering Authorities | Pages 34\n- HBP2023_Chapter04+as+on+20.04.2026.pdf | HBP Chapter 4 | 4.49 Regularisation of Bonafide Default | Pages 29, 30, 31\n- HBP2023_Chapter04+as+on+20.04.2026.pdf | HBP Chapter 4 | 4.97 General Provision | Pages 56, 57\n- HBP-Chapter-6.pdf | HBP Chapter 6 | 6.40 Time Bound Disposal of Applications | Pages 23, 24\n- Chapter+10+HBP+(19.05.2026).pdf | HBP Chapter 10 | 10.16 General Authorisation for Export of Chemicals and related | Pages 35, 36, 37, 38, 39, 40"}
+2026-08-03 16:02:34,200 | INFO | DGFTKnowledgePipeline | Processing HBP2023_Chapter01.pdf
+2026-08-03 16:02:34,201 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP2023_Chapter01.pdf
+2026-08-03 16:02:35,144 | INFO | PDFLoader | Loaded 7 pages from HBP2023_Chapter01.pdf
+2026-08-03 16:02:35,157 | INFO | TextCleaner | Cleaned 7 pages
+2026-08-03 16:02:35,168 | INFO | RuleExtractor | Extracted 12 section drafts from HBP2023_Chapter01.pdf
+2026-08-03 16:02:35,385 | INFO | Chunker | Created 1 chunks for section 1.01
+2026-08-03 16:02:35,424 | INFO | Chunker | Created 1 chunks for section 1.02
+2026-08-03 16:02:35,463 | INFO | Chunker | Created 1 chunks for section 1.03
+2026-08-03 16:02:35,544 | INFO | Chunker | Created 2 chunks for section 1.04
+2026-08-03 16:02:35,611 | INFO | Chunker | Created 1 chunks for section 1.05
+2026-08-03 16:02:35,670 | INFO | Chunker | Created 1 chunks for section 1.06
+2026-08-03 16:02:35,744 | INFO | Chunker | Created 1 chunks for section 1.07
+2026-08-03 16:02:35,820 | INFO | Chunker | Created 1 chunks for section 1.08
+2026-08-03 16:02:35,892 | INFO | Chunker | Created 1 chunks for section 1.09
+2026-08-03 16:02:35,961 | INFO | Chunker | Created 1 chunks for section 1.10
+2026-08-03 16:02:36,173 | INFO | Chunker | Created 1 chunks for section 1.11
+2026-08-03 16:02:36,268 | INFO | Chunker | Created 1 chunks for section 1.12
+2026-08-03 16:02:36,286 | INFO | DGFTKnowledgePipeline | Processing HBP Chapter 2.pdf
+2026-08-03 16:02:36,286 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP Chapter 2.pdf
+2026-08-03 16:02:46,466 | INFO | PDFLoader | Loaded 52 pages from HBP Chapter 2.pdf
+2026-08-03 16:02:46,680 | INFO | TextCleaner | Cleaned 52 pages
+2026-08-03 16:02:47,141 | INFO | RuleExtractor | Extracted 99 section drafts from HBP Chapter 2.pdf
+2026-08-03 16:02:48,394 | INFO | Chunker | Created 1 chunks for section 2.00
+2026-08-03 16:02:48,443 | INFO | Chunker | Created 1 chunks for section 2.01
+2026-08-03 16:02:48,494 | INFO | Chunker | Created 1 chunks for section 2.02
+2026-08-03 16:02:48,560 | INFO | Chunker | Created 1 chunks for section 2.03
+2026-08-03 16:02:48,636 | INFO | Chunker | Created 1 chunks for section 2.04
+2026-08-03 16:02:48,704 | INFO | Chunker | Created 1 chunks for section 2.05
+2026-08-03 16:02:48,761 | INFO | Chunker | Created 1 chunks for section 2.06
+2026-08-03 16:02:48,879 | INFO | Chunker | Created 1 chunks for section 2.07
+2026-08-03 16:02:49,122 | INFO | Chunker | Created 1 chunks for section 2.08
+2026-08-03 16:02:49,199 | INFO | Chunker | Created 1 chunks for section 2.09
+2026-08-03 16:02:49,259 | INFO | Chunker | Created 1 chunks for section 2.10
+2026-08-03 16:02:49,322 | INFO | Chunker | Created 1 chunks for section 2.11
+2026-08-03 16:02:49,376 | INFO | Chunker | Created 1 chunks for section 2.12
+2026-08-03 16:02:49,444 | INFO | Chunker | Created 1 chunks for section 2.13
+2026-08-03 16:02:49,541 | INFO | Chunker | Created 1 chunks for section 2.14
+2026-08-03 16:02:49,626 | INFO | Chunker | Created 1 chunks for section 2.15
+2026-08-03 16:02:49,801 | INFO | Chunker | Created 1 chunks for section 2.16
+2026-08-03 16:02:49,869 | INFO | Chunker | Created 1 chunks for section 2.17
+2026-08-03 16:02:49,943 | INFO | Chunker | Created 1 chunks for section 2.18
+2026-08-03 16:02:50,003 | INFO | Chunker | Created 1 chunks for section 2.19
+2026-08-03 16:02:50,183 | INFO | Chunker | Created 1 chunks for section 2.20
+2026-08-03 16:02:50,292 | INFO | Chunker | Created 1 chunks for section 2.21
+2026-08-03 16:02:50,371 | INFO | Chunker | Created 1 chunks for section 2.22
+2026-08-03 16:02:50,457 | INFO | Chunker | Created 1 chunks for section 2.23
+2026-08-03 16:02:50,554 | INFO | Chunker | Created 1 chunks for section 2.24
+2026-08-03 16:02:50,623 | INFO | Chunker | Created 1 chunks for section 2.25
+2026-08-03 16:02:50,707 | INFO | Chunker | Created 1 chunks for section 2.26
+2026-08-03 16:02:50,783 | INFO | Chunker | Created 1 chunks for section 2.27
+2026-08-03 16:02:50,843 | INFO | Chunker | Created 1 chunks for section 2.28
+2026-08-03 16:02:50,932 | INFO | Chunker | Created 1 chunks for section 2.29
+2026-08-03 16:02:51,023 | INFO | Chunker | Created 1 chunks for section 2.29
+2026-08-03 16:02:51,136 | INFO | Chunker | Created 1 chunks for section 2.30
+2026-08-03 16:02:51,256 | INFO | Chunker | Created 1 chunks for section 2.31
+2026-08-03 16:02:51,323 | INFO | Chunker | Created 1 chunks for section 2.32
+2026-08-03 16:02:51,402 | INFO | Chunker | Created 1 chunks for section 2.33
+2026-08-03 16:02:51,506 | INFO | Chunker | Created 1 chunks for section 2.34
+2026-08-03 16:02:51,586 | INFO | Chunker | Created 1 chunks for section 2.35
+2026-08-03 16:02:51,743 | INFO | Chunker | Created 1 chunks for section 2.36
+2026-08-03 16:02:51,857 | INFO | Chunker | Created 1 chunks for section 2.37
+2026-08-03 16:02:51,926 | INFO | Chunker | Created 1 chunks for section 2.38
+2026-08-03 16:02:52,004 | INFO | Chunker | Created 1 chunks for section 2.39
+2026-08-03 16:02:52,153 | INFO | Chunker | Created 1 chunks for section 2.40
+2026-08-03 16:02:52,302 | INFO | Chunker | Created 1 chunks for section 2.41
+2026-08-03 16:02:52,359 | INFO | Chunker | Created 1 chunks for section 2.42
+2026-08-03 16:02:52,455 | INFO | Chunker | Created 1 chunks for section 2.43
+2026-08-03 16:02:52,619 | INFO | Chunker | Created 1 chunks for section 2.44
+2026-08-03 16:02:52,756 | INFO | Chunker | Created 1 chunks for section 2.45
+2026-08-03 16:02:53,019 | INFO | Chunker | Created 1 chunks for section 2.46
+2026-08-03 16:02:53,125 | INFO | Chunker | Created 1 chunks for section 2.47
+2026-08-03 16:02:53,313 | INFO | Chunker | Created 1 chunks for section 2.48
+2026-08-03 16:02:53,460 | INFO | Chunker | Created 1 chunks for section 2.49
+2026-08-03 16:02:53,536 | INFO | Chunker | Created 1 chunks for section 2.50
+2026-08-03 16:02:53,735 | INFO | Chunker | Created 18 chunks for section 2.51
+2026-08-03 16:02:53,863 | INFO | Chunker | Created 1 chunks for section 2.52
+2026-08-03 16:02:53,984 | INFO | Chunker | Created 1 chunks for section 2.53
+2026-08-03 16:02:54,043 | INFO | Chunker | Created 1 chunks for section 2.54
+2026-08-03 16:02:54,092 | INFO | Chunker | Created 1 chunks for section 2.55
+2026-08-03 16:02:54,163 | INFO | Chunker | Created 1 chunks for section 2.56
+2026-08-03 16:02:54,232 | INFO | Chunker | Created 1 chunks for section 2.57
+2026-08-03 16:02:54,311 | INFO | Chunker | Created 1 chunks for section 2.58
+2026-08-03 16:02:54,411 | INFO | Chunker | Created 1 chunks for section 2.59
+2026-08-03 16:02:54,593 | INFO | Chunker | Created 1 chunks for section 2.60
+2026-08-03 16:02:54,687 | INFO | Chunker | Created 1 chunks for section 2.61
+2026-08-03 16:02:54,766 | INFO | Chunker | Created 1 chunks for section 2.62
+2026-08-03 16:02:54,828 | INFO | Chunker | Created 1 chunks for section 2.63
+2026-08-03 16:02:54,960 | INFO | Chunker | Created 1 chunks for section 2.64
+2026-08-03 16:02:55,098 | INFO | Chunker | Created 1 chunks for section 2.65
+2026-08-03 16:02:55,167 | INFO | Chunker | Created 1 chunks for section 2.66
+2026-08-03 16:02:55,251 | INFO | Chunker | Created 1 chunks for section 2.67
+2026-08-03 16:02:55,339 | INFO | Chunker | Created 1 chunks for section 2.68
+2026-08-03 16:02:55,459 | INFO | Chunker | Created 1 chunks for section 2.69
+2026-08-03 16:02:55,597 | INFO | Chunker | Created 1 chunks for section 2.70
+2026-08-03 16:02:55,691 | INFO | Chunker | Created 1 chunks for section 2.71
+2026-08-03 16:02:55,755 | INFO | Chunker | Created 1 chunks for section 2.72
+2026-08-03 16:02:55,820 | INFO | Chunker | Created 1 chunks for section 2.73
+2026-08-03 16:02:55,886 | INFO | Chunker | Created 1 chunks for section 2.74
+2026-08-03 16:02:55,950 | INFO | Chunker | Created 1 chunks for section 2.75
+2026-08-03 16:02:56,116 | INFO | Chunker | Created 2 chunks for section 2.76
+2026-08-03 16:02:56,236 | INFO | Chunker | Created 1 chunks for section 2.77
+2026-08-03 16:02:56,376 | INFO | Chunker | Created 1 chunks for section 2.78
+2026-08-03 16:02:56,508 | INFO | Chunker | Created 1 chunks for section 2.79
+2026-08-03 16:02:56,658 | INFO | Chunker | Created 1 chunks for section 2.80
+2026-08-03 16:02:56,825 | INFO | Chunker | Created 1 chunks for section 2.81
+2026-08-03 16:02:56,941 | INFO | Chunker | Created 1 chunks for section 2.82
+2026-08-03 16:02:57,014 | INFO | Chunker | Created 1 chunks for section 2.83
+2026-08-03 16:02:57,092 | INFO | Chunker | Created 1 chunks for section 2.84
+2026-08-03 16:02:57,157 | INFO | Chunker | Created 1 chunks for section 2.85
+2026-08-03 16:02:57,237 | INFO | Chunker | Created 1 chunks for section 2.86
+2026-08-03 16:02:57,314 | INFO | Chunker | Created 1 chunks for section 2.87
+2026-08-03 16:02:57,401 | INFO | Chunker | Created 1 chunks for section 2.88
+2026-08-03 16:02:57,482 | INFO | Chunker | Created 1 chunks for section 2.89
+2026-08-03 16:02:57,566 | INFO | Chunker | Created 1 chunks for section 2.90
+2026-08-03 16:02:57,684 | INFO | Chunker | Created 1 chunks for section 2.91
+2026-08-03 16:02:58,046 | INFO | Chunker | Created 32 chunks for section 2.92
+2026-08-03 16:02:58,255 | INFO | Chunker | Created 2 chunks for section 2.93
+2026-08-03 16:02:58,310 | INFO | Chunker | Created 1 chunks for section 2.94
+2026-08-03 16:02:58,360 | INFO | Chunker | Created 1 chunks for section 2.95
+2026-08-03 16:02:58,427 | INFO | Chunker | Created 1 chunks for section 2.96
+2026-08-03 16:02:58,491 | INFO | Chunker | Created 1 chunks for section 2.97
+2026-08-03 16:02:58,505 | INFO | DGFTKnowledgePipeline | Processing HBP2023_Chapter03.pdf
+2026-08-03 16:02:58,506 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP2023_Chapter03.pdf
+2026-08-03 16:02:59,603 | INFO | PDFLoader | Loaded 6 pages from HBP2023_Chapter03.pdf
+2026-08-03 16:02:59,618 | INFO | TextCleaner | Cleaned 6 pages
+2026-08-03 16:02:59,638 | INFO | RuleExtractor | Extracted 8 section drafts from HBP2023_Chapter03.pdf
+2026-08-03 16:02:59,788 | INFO | Chunker | Created 1 chunks for section 3.01
+2026-08-03 16:02:59,831 | INFO | Chunker | Created 1 chunks for section 3.02
+2026-08-03 16:02:59,902 | INFO | Chunker | Created 2 chunks for section 3.03
+2026-08-03 16:02:59,980 | INFO | Chunker | Created 1 chunks for section 3.05
+2026-08-03 16:03:00,060 | INFO | Chunker | Created 1 chunks for section 3.06
+2026-08-03 16:03:00,130 | INFO | Chunker | Created 1 chunks for section 3.07
+2026-08-03 16:03:00,210 | INFO | Chunker | Created 1 chunks for section 3.08
+2026-08-03 16:03:00,268 | INFO | Chunker | Created 1 chunks for section 3.09
+2026-08-03 16:03:00,282 | INFO | DGFTKnowledgePipeline | Processing HBP2023_Chapter04+as+on+20.04.2026.pdf
+2026-08-03 16:03:00,282 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP2023_Chapter04+as+on+20.04.2026.pdf
+2026-08-03 16:03:12,030 | INFO | PDFLoader | Loaded 58 pages from HBP2023_Chapter04+as+on+20.04.2026.pdf
+2026-08-03 16:03:12,166 | INFO | TextCleaner | Cleaned 58 pages
+2026-08-03 16:03:12,270 | INFO | RuleExtractor | Extracted 99 section drafts from HBP2023_Chapter04+as+on+20.04.2026.pdf
+2026-08-03 16:03:13,621 | INFO | Chunker | Created 1 chunks for section 4.01
+2026-08-03 16:03:13,686 | INFO | Chunker | Created 1 chunks for section 4.02
+2026-08-03 16:03:13,740 | INFO | Chunker | Created 1 chunks for section 4.03
+2026-08-03 16:03:13,800 | INFO | Chunker | Created 1 chunks for section 4.04
+2026-08-03 16:03:13,886 | INFO | Chunker | Created 1 chunks for section 4.05
+2026-08-03 16:03:14,018 | INFO | Chunker | Created 2 chunks for section 4.06
+2026-08-03 16:03:14,158 | INFO | Chunker | Created 1 chunks for section 4.07
+2026-08-03 16:03:14,261 | INFO | Chunker | Created 1 chunks for section 4.08
+2026-08-03 16:03:14,348 | INFO | Chunker | Created 1 chunks for section 4.09
+2026-08-03 16:03:14,435 | INFO | Chunker | Created 1 chunks for section 4.10
+2026-08-03 16:03:14,498 | INFO | Chunker | Created 1 chunks for section 4.11
+2026-08-03 16:03:14,615 | INFO | Chunker | Created 1 chunks for section 4.12
+2026-08-03 16:03:14,689 | INFO | Chunker | Created 1 chunks for section 4.13
+2026-08-03 16:03:14,807 | INFO | Chunker | Created 1 chunks for section 4.14
+2026-08-03 16:03:14,945 | INFO | Chunker | Created 1 chunks for section 4.15
+2026-08-03 16:03:15,038 | INFO | Chunker | Created 1 chunks for section 4.16
+2026-08-03 16:03:15,120 | INFO | Chunker | Created 1 chunks for section 4.17
+2026-08-03 16:03:15,190 | INFO | Chunker | Created 1 chunks for section 4.18
+2026-08-03 16:03:15,269 | INFO | Chunker | Created 1 chunks for section 4.19
+2026-08-03 16:03:15,357 | INFO | Chunker | Created 1 chunks for section 4.20
+2026-08-03 16:03:15,431 | INFO | Chunker | Created 1 chunks for section 4.21
+2026-08-03 16:03:15,506 | INFO | Chunker | Created 1 chunks for section 4.22
+2026-08-03 16:03:15,582 | INFO | Chunker | Created 1 chunks for section 4.23
+2026-08-03 16:03:15,734 | INFO | Chunker | Created 1 chunks for section 4.24
+2026-08-03 16:03:15,787 | INFO | Chunker | Created 1 chunks for section 4.25
+2026-08-03 16:03:15,862 | INFO | Chunker | Created 1 chunks for section 4.26
+2026-08-03 16:03:15,937 | INFO | Chunker | Created 1 chunks for section 4.27
+2026-08-03 16:03:15,993 | INFO | Chunker | Created 1 chunks for section 4.28
+2026-08-03 16:03:16,049 | INFO | Chunker | Created 1 chunks for section 4.29
+2026-08-03 16:03:16,141 | INFO | Chunker | Created 1 chunks for section 4.30
+2026-08-03 16:03:16,211 | INFO | Chunker | Created 1 chunks for section 4.31
+2026-08-03 16:03:16,317 | INFO | Chunker | Created 1 chunks for section 4.32
+2026-08-03 16:03:16,516 | INFO | Chunker | Created 1 chunks for section 4.33
+2026-08-03 16:03:16,586 | INFO | Chunker | Created 1 chunks for section 4.34
+2026-08-03 16:03:16,690 | INFO | Chunker | Created 2 chunks for section 4.35
+2026-08-03 16:03:16,807 | INFO | Chunker | Created 2 chunks for section 4.36
+2026-08-03 16:03:16,922 | INFO | Chunker | Created 2 chunks for section 4.37
+2026-08-03 16:03:17,002 | INFO | Chunker | Created 1 chunks for section 4.38
+2026-08-03 16:03:17,100 | INFO | Chunker | Created 1 chunks for section 4.39
+2026-08-03 16:03:17,261 | INFO | Chunker | Created 2 chunks for section 4.40
+2026-08-03 16:03:17,319 | INFO | Chunker | Created 1 chunks for section 4.41
+2026-08-03 16:03:17,388 | INFO | Chunker | Created 1 chunks for section 4.42
+2026-08-03 16:03:17,519 | INFO | Chunker | Created 1 chunks for section 4.43
+2026-08-03 16:03:17,716 | INFO | Chunker | Created 1 chunks for section 4.44
+2026-08-03 16:03:17,815 | INFO | Chunker | Created 1 chunks for section 4.45
+2026-08-03 16:03:17,864 | INFO | Chunker | Created 1 chunks for section 4.46
+2026-08-03 16:03:17,954 | INFO | Chunker | Created 1 chunks for section 4.47
+2026-08-03 16:03:18,051 | INFO | Chunker | Created 1 chunks for section 4.48
+2026-08-03 16:03:18,215 | INFO | Chunker | Created 2 chunks for section 4.49
+2026-08-03 16:03:18,353 | INFO | Chunker | Created 1 chunks for section 4.50
+2026-08-03 16:03:18,419 | INFO | Chunker | Created 1 chunks for section 4.51
+2026-08-03 16:03:18,469 | INFO | Chunker | Created 1 chunks for section 4.52
+2026-08-03 16:03:18,557 | INFO | Chunker | Created 1 chunks for section 4.53
+2026-08-03 16:03:18,611 | INFO | Chunker | Created 1 chunks for section 4.54
+2026-08-03 16:03:18,678 | INFO | Chunker | Created 1 chunks for section 4.55
+2026-08-03 16:03:18,748 | INFO | Chunker | Created 1 chunks for section 4.56
+2026-08-03 16:03:18,807 | INFO | Chunker | Created 1 chunks for section 4.57
+2026-08-03 16:03:18,938 | INFO | Chunker | Created 1 chunks for section 4.58
+2026-08-03 16:03:19,038 | INFO | Chunker | Created 1 chunks for section 4.59
+2026-08-03 16:03:19,119 | INFO | Chunker | Created 1 chunks for section 4.60
+2026-08-03 16:03:19,171 | INFO | Chunker | Created 1 chunks for section 4.61
+2026-08-03 16:03:19,228 | INFO | Chunker | Created 1 chunks for section 4.62
+2026-08-03 16:03:19,305 | INFO | Chunker | Created 1 chunks for section 4.63
+2026-08-03 16:03:19,388 | INFO | Chunker | Created 1 chunks for section 4.64
+2026-08-03 16:03:19,491 | INFO | Chunker | Created 1 chunks for section 4.65
+2026-08-03 16:03:19,645 | INFO | Chunker | Created 1 chunks for section 4.66
+2026-08-03 16:03:19,751 | INFO | Chunker | Created 1 chunks for section 4.67
+2026-08-03 16:03:19,838 | INFO | Chunker | Created 1 chunks for section 4.68
+2026-08-03 16:03:19,906 | INFO | Chunker | Created 1 chunks for section 4.69
+2026-08-03 16:03:19,982 | INFO | Chunker | Created 1 chunks for section 4.70
+2026-08-03 16:03:20,042 | INFO | Chunker | Created 1 chunks for section 4.71
+2026-08-03 16:03:20,114 | INFO | Chunker | Created 1 chunks for section 4.72
+2026-08-03 16:03:20,190 | INFO | Chunker | Created 1 chunks for section 4.73
+2026-08-03 16:03:20,287 | INFO | Chunker | Created 1 chunks for section 4.74
+2026-08-03 16:03:20,375 | INFO | Chunker | Created 1 chunks for section 4.75
+2026-08-03 16:03:20,478 | INFO | Chunker | Created 1 chunks for section 4.76
+2026-08-03 16:03:20,700 | INFO | Chunker | Created 1 chunks for section 4.77
+2026-08-03 16:03:20,769 | INFO | Chunker | Created 1 chunks for section 4.78
+2026-08-03 16:03:20,906 | INFO | Chunker | Created 2 chunks for section 4.79
+2026-08-03 16:03:20,969 | INFO | Chunker | Created 1 chunks for section 4.80
+2026-08-03 16:03:21,115 | INFO | Chunker | Created 1 chunks for section 4.81
+2026-08-03 16:03:21,289 | INFO | Chunker | Created 1 chunks for section 4.82
+2026-08-03 16:03:21,401 | INFO | Chunker | Created 1 chunks for section 4.83
+2026-08-03 16:03:21,498 | INFO | Chunker | Created 1 chunks for section 4.84
+2026-08-03 16:03:21,582 | INFO | Chunker | Created 1 chunks for section 4.85
+2026-08-03 16:03:21,655 | INFO | Chunker | Created 1 chunks for section 4.86
+2026-08-03 16:03:21,737 | INFO | Chunker | Created 1 chunks for section 4.87
+2026-08-03 16:03:21,794 | INFO | Chunker | Created 1 chunks for section 4.88
+2026-08-03 16:03:21,860 | INFO | Chunker | Created 1 chunks for section 4.89
+2026-08-03 16:03:21,951 | INFO | Chunker | Created 1 chunks for section 4.90
+2026-08-03 16:03:22,025 | INFO | Chunker | Created 1 chunks for section 4.91
+2026-08-03 16:03:22,106 | INFO | Chunker | Created 1 chunks for section 4.92
+2026-08-03 16:03:22,190 | INFO | Chunker | Created 1 chunks for section 4.93
+2026-08-03 16:03:22,415 | INFO | Chunker | Created 2 chunks for section 4.94
+2026-08-03 16:03:22,497 | INFO | Chunker | Created 1 chunks for section 4.95
+2026-08-03 16:03:22,579 | INFO | Chunker | Created 1 chunks for section 4.96
+2026-08-03 16:03:22,683 | INFO | Chunker | Created 1 chunks for section 4.97
+2026-08-03 16:03:22,766 | INFO | Chunker | Created 1 chunks for section 4.98
+2026-08-03 16:03:22,851 | INFO | Chunker | Created 1 chunks for section 4.99
+2026-08-03 16:03:22,881 | INFO | DGFTKnowledgePipeline | Processing HBP2023_Chapter05.pdf
+2026-08-03 16:03:22,881 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP2023_Chapter05.pdf
+2026-08-03 16:03:25,820 | INFO | PDFLoader | Loaded 15 pages from HBP2023_Chapter05.pdf
+2026-08-03 16:03:25,858 | INFO | TextCleaner | Cleaned 15 pages
+2026-08-03 16:03:25,891 | INFO | RuleExtractor | Extracted 25 section drafts from HBP2023_Chapter05.pdf
+2026-08-03 16:03:26,240 | INFO | Chunker | Created 1 chunks for section 5.01
+2026-08-03 16:03:26,299 | INFO | Chunker | Created 1 chunks for section 5.02
+2026-08-03 16:03:26,376 | INFO | Chunker | Created 1 chunks for section 5.03
+2026-08-03 16:03:26,481 | INFO | Chunker | Created 1 chunks for section 5.04
+2026-08-03 16:03:26,549 | INFO | Chunker | Created 1 chunks for section 5.05
+2026-08-03 16:03:26,648 | INFO | Chunker | Created 1 chunks for section 5.06
+2026-08-03 16:03:26,750 | INFO | Chunker | Created 1 chunks for section 5.07
+2026-08-03 16:03:26,849 | INFO | Chunker | Created 1 chunks for section 5.08
+2026-08-03 16:03:26,926 | INFO | Chunker | Created 1 chunks for section 5.09
+2026-08-03 16:03:27,061 | INFO | Chunker | Created 1 chunks for section 5.10
+2026-08-03 16:03:27,248 | INFO | Chunker | Created 1 chunks for section 5.11
+2026-08-03 16:03:27,323 | INFO | Chunker | Created 1 chunks for section 5.12
+2026-08-03 16:03:27,515 | INFO | Chunker | Created 2 chunks for section 5.13
+2026-08-03 16:03:27,623 | INFO | Chunker | Created 1 chunks for section 5.14
+2026-08-03 16:03:27,721 | INFO | Chunker | Created 1 chunks for section 5.16
+2026-08-03 16:03:27,796 | INFO | Chunker | Created 1 chunks for section 5.17
+2026-08-03 16:03:27,854 | INFO | Chunker | Created 1 chunks for section 5.18
+2026-08-03 16:03:27,921 | INFO | Chunker | Created 1 chunks for section 5.19
+2026-08-03 16:03:27,990 | INFO | Chunker | Created 1 chunks for section 5.20
+2026-08-03 16:03:28,071 | INFO | Chunker | Created 1 chunks for section 5.21
+2026-08-03 16:03:28,138 | INFO | Chunker | Created 1 chunks for section 5.22
+2026-08-03 16:03:28,281 | INFO | Chunker | Created 1 chunks for section 5.23
+2026-08-03 16:03:28,371 | INFO | Chunker | Created 1 chunks for section 5.24
+2026-08-03 16:03:28,450 | INFO | Chunker | Created 1 chunks for section 5.25
+2026-08-03 16:03:28,513 | INFO | Chunker | Created 1 chunks for section 5.26
+2026-08-03 16:03:28,532 | INFO | DGFTKnowledgePipeline | Processing HBP-Chapter-6.pdf
+2026-08-03 16:03:28,532 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP-Chapter-6.pdf
+2026-08-03 16:03:32,359 | INFO | PDFLoader | Loaded 24 pages from HBP-Chapter-6.pdf
+2026-08-03 16:03:32,414 | INFO | TextCleaner | Cleaned 24 pages
+2026-08-03 16:03:32,459 | INFO | RuleExtractor | Extracted 41 section drafts from HBP-Chapter-6.pdf
+2026-08-03 16:03:32,965 | INFO | Chunker | Created 1 chunks for section 6.00
+2026-08-03 16:03:33,074 | INFO | Chunker | Created 2 chunks for section 6.01
+2026-08-03 16:03:33,135 | INFO | Chunker | Created 1 chunks for section 6.02
+2026-08-03 16:03:33,215 | INFO | Chunker | Created 1 chunks for section 6.03
+2026-08-03 16:03:33,282 | INFO | Chunker | Created 1 chunks for section 6.04
+2026-08-03 16:03:33,332 | INFO | Chunker | Created 1 chunks for section 6.05
+2026-08-03 16:03:33,428 | INFO | Chunker | Created 1 chunks for section 6.06
+2026-08-03 16:03:33,522 | INFO | Chunker | Created 1 chunks for section 6.07
+2026-08-03 16:03:33,674 | INFO | Chunker | Created 1 chunks for section 6.08
+2026-08-03 16:03:33,735 | INFO | Chunker | Created 1 chunks for section 6.09
+2026-08-03 16:03:33,836 | INFO | Chunker | Created 1 chunks for section 6.10
+2026-08-03 16:03:33,959 | INFO | Chunker | Created 1 chunks for section 6.11
+2026-08-03 16:03:34,016 | INFO | Chunker | Created 1 chunks for section 6.12
+2026-08-03 16:03:34,081 | INFO | Chunker | Created 1 chunks for section 6.13
+2026-08-03 16:03:34,147 | INFO | Chunker | Created 1 chunks for section 6.14
+2026-08-03 16:03:34,209 | INFO | Chunker | Created 1 chunks for section 6.15
+2026-08-03 16:03:34,255 | INFO | Chunker | Created 1 chunks for section 6.16
+2026-08-03 16:03:34,329 | INFO | Chunker | Created 1 chunks for section 6.17
+2026-08-03 16:03:34,383 | INFO | Chunker | Created 1 chunks for section 6.18
+2026-08-03 16:03:34,468 | INFO | Chunker | Created 1 chunks for section 6.19
+2026-08-03 16:03:34,629 | INFO | Chunker | Created 2 chunks for section 6.20
+2026-08-03 16:03:34,775 | INFO | Chunker | Created 1 chunks for section 6.22
+2026-08-03 16:03:34,860 | INFO | Chunker | Created 1 chunks for section 6.23
+2026-08-03 16:03:34,951 | INFO | Chunker | Created 1 chunks for section 6.24
+2026-08-03 16:03:35,011 | INFO | Chunker | Created 1 chunks for section 6.25
+2026-08-03 16:03:35,076 | INFO | Chunker | Created 1 chunks for section 6.26
+2026-08-03 16:03:35,165 | INFO | Chunker | Created 1 chunks for section 6.27
+2026-08-03 16:03:35,221 | INFO | Chunker | Created 1 chunks for section 6.28
+2026-08-03 16:03:35,304 | INFO | Chunker | Created 1 chunks for section 6.29
+2026-08-03 16:03:35,384 | INFO | Chunker | Created 1 chunks for section 6.30
+2026-08-03 16:03:35,437 | INFO | Chunker | Created 1 chunks for section 6.31
+2026-08-03 16:03:35,527 | INFO | Chunker | Created 1 chunks for section 6.32
+2026-08-03 16:03:35,664 | INFO | Chunker | Created 1 chunks for section 6.33
+2026-08-03 16:03:35,811 | INFO | Chunker | Created 1 chunks for section 6.34
+2026-08-03 16:03:35,886 | INFO | Chunker | Created 1 chunks for section 6.35
+2026-08-03 16:03:35,981 | INFO | Chunker | Created 1 chunks for section 6.36
+2026-08-03 16:03:36,054 | INFO | Chunker | Created 1 chunks for section 6.37
+2026-08-03 16:03:36,131 | INFO | Chunker | Created 1 chunks for section 6.38
+2026-08-03 16:03:36,211 | INFO | Chunker | Created 1 chunks for section 6.39
+2026-08-03 16:03:36,319 | INFO | Chunker | Created 1 chunks for section 6.40
+2026-08-03 16:03:36,382 | INFO | Chunker | Created 1 chunks for section 6.41
+2026-08-03 16:03:36,399 | INFO | DGFTKnowledgePipeline | Processing Chapter-7-of-HBP-2023.pdf
+2026-08-03 16:03:36,400 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\Chapter-7-of-HBP-2023.pdf
+2026-08-03 16:03:37,195 | INFO | PDFLoader | Loaded 6 pages from Chapter-7-of-HBP-2023.pdf
+2026-08-03 16:03:37,209 | INFO | TextCleaner | Cleaned 6 pages
+2026-08-03 16:03:37,220 | INFO | RuleExtractor | Extracted 12 section drafts from Chapter-7-of-HBP-2023.pdf
+2026-08-03 16:03:37,428 | INFO | Chunker | Created 1 chunks for section 7.00
+2026-08-03 16:03:37,496 | INFO | Chunker | Created 1 chunks for section 7.01
+2026-08-03 16:03:37,588 | INFO | Chunker | Created 1 chunks for section 7.02
+2026-08-03 16:03:37,705 | INFO | Chunker | Created 1 chunks for section 7.03
+2026-08-03 16:03:37,766 | INFO | Chunker | Created 1 chunks for section 7.04
+2026-08-03 16:03:37,848 | INFO | Chunker | Created 1 chunks for section 7.05
+2026-08-03 16:03:37,912 | INFO | Chunker | Created 1 chunks for section 7.06
+2026-08-03 16:03:37,982 | INFO | Chunker | Created 1 chunks for section 7.07
+2026-08-03 16:03:38,037 | INFO | Chunker | Created 1 chunks for section 7.08
+2026-08-03 16:03:38,098 | INFO | Chunker | Created 1 chunks for section 7.09
+2026-08-03 16:03:38,191 | INFO | Chunker | Created 1 chunks for section 7.10
+2026-08-03 16:03:38,319 | INFO | Chunker | Created 1 chunks for section 7.11
+2026-08-03 16:03:38,336 | INFO | DGFTKnowledgePipeline | Processing HBP2023_Chapter08.pdf
+2026-08-03 16:03:38,336 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP2023_Chapter08.pdf
+2026-08-03 16:03:38,887 | INFO | PDFLoader | Loaded 4 pages from HBP2023_Chapter08.pdf
+2026-08-03 16:03:38,895 | INFO | TextCleaner | Cleaned 4 pages
+2026-08-03 16:03:38,905 | INFO | RuleExtractor | Extracted 5 section drafts from HBP2023_Chapter08.pdf
+2026-08-03 16:03:39,030 | INFO | Chunker | Created 1 chunks for section 8.01
+2026-08-03 16:03:39,080 | INFO | Chunker | Created 1 chunks for section 8.02
+2026-08-03 16:03:39,133 | INFO | Chunker | Created 1 chunks for section 8.03
+2026-08-03 16:03:39,198 | INFO | Chunker | Created 1 chunks for section 8.04
+2026-08-03 16:03:39,264 | INFO | Chunker | Created 1 chunks for section 8.05
+2026-08-03 16:03:39,296 | INFO | DGFTKnowledgePipeline | Processing HBP2023_Chapter09.pdf
+2026-08-03 16:03:39,297 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\HBP2023_Chapter09.pdf
+2026-08-03 16:03:39,465 | INFO | PDFLoader | Loaded 2 pages from HBP2023_Chapter09.pdf
+2026-08-03 16:03:39,468 | INFO | TextCleaner | Cleaned 2 pages
+2026-08-03 16:03:39,471 | INFO | RuleExtractor | Extracted 3 section drafts from HBP2023_Chapter09.pdf
+2026-08-03 16:03:39,642 | INFO | Chunker | Created 1 chunks for section 9.00
+2026-08-03 16:03:39,726 | INFO | Chunker | Created 1 chunks for section 9.01
+2026-08-03 16:03:39,797 | INFO | Chunker | Created 1 chunks for section 9.02
+2026-08-03 16:03:39,826 | INFO | DGFTKnowledgePipeline | Processing Chapter+10+HBP+(19.05.2026).pdf
+2026-08-03 16:03:39,826 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\Chapter+10+HBP+(19.05.2026).pdf
+2026-08-03 16:03:47,041 | INFO | PDFLoader | Loaded 48 pages from Chapter+10+HBP+(19.05.2026).pdf
+2026-08-03 16:03:47,153 | INFO | TextCleaner | Cleaned 48 pages
+2026-08-03 16:03:47,260 | INFO | RuleExtractor | Extracted 21 section drafts from Chapter+10+HBP+(19.05.2026).pdf
+2026-08-03 16:03:48,185 | INFO | Chunker | Created 1 chunks for section 10.00
+2026-08-03 16:03:48,235 | INFO | Chunker | Created 1 chunks for section 10.01
+2026-08-03 16:03:48,305 | INFO | Chunker | Created 1 chunks for section 10.02
+2026-08-03 16:03:48,375 | INFO | Chunker | Created 1 chunks for section 10.03
+2026-08-03 16:03:48,496 | INFO | Chunker | Created 1 chunks for section 10.04
+2026-08-03 16:03:48,668 | INFO | Chunker | Created 1 chunks for section 10.05
+2026-08-03 16:03:48,813 | INFO | Chunker | Created 1 chunks for section 10.06
+2026-08-03 16:03:48,878 | INFO | Chunker | Created 1 chunks for section 10.07
+2026-08-03 16:03:48,956 | INFO | Chunker | Created 1 chunks for section 10.08
+2026-08-03 16:03:49,213 | INFO | Chunker | Created 5 chunks for section 10.09
+2026-08-03 16:03:49,318 | INFO | Chunker | Created 1 chunks for section 10.11
+2026-08-03 16:03:49,629 | INFO | Chunker | Created 8 chunks for section 10.12
+2026-08-03 16:03:49,793 | INFO | Chunker | Created 2 chunks for section 10.13
+2026-08-03 16:03:49,880 | INFO | Chunker | Created 1 chunks for section 10.14
+2026-08-03 16:03:49,962 | INFO | Chunker | Created 1 chunks for section 10.15
+2026-08-03 16:03:50,188 | INFO | Chunker | Created 11 chunks for section 10.15
+2026-08-03 16:03:50,358 | INFO | Chunker | Created 7 chunks for section 10.16
+2026-08-03 16:03:50,468 | INFO | Chunker | Created 2 chunks for section 10.17
+2026-08-03 16:03:50,527 | INFO | Chunker | Created 1 chunks for section 10.18
+2026-08-03 16:03:50,660 | INFO | Chunker | Created 4 chunks for section 10.19
+2026-08-03 16:03:50,744 | INFO | Chunker | Created 1 chunks for section 10.20
+2026-08-03 16:03:51,165 | INFO | DGFTKnowledgePipeline | Processing TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf
+2026-08-03 16:03:51,165 | INFO | PDFLoader | Loading PDF C:\Users\mabis\OneDrive\Documents\dekai\input\pdf\TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf
+2026-08-03 16:03:55,796 | INFO | PDFLoader | Loaded 20 pages from TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf
+2026-08-03 16:03:55,862 | INFO | TextCleaner | Cleaned 20 pages
+2026-08-03 16:03:55,905 | INFO | RuleExtractor | Extracted 2 section drafts from TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf
+2026-08-03 16:03:56,252 | INFO | Chunker | Created 1 chunks for section 3.1
+2026-08-03 16:03:57,014 | INFO | Chunker | Created 15 chunks for section 5.1
+2026-08-03 16:17:38,754 | INFO | services.chat_service | dekai_retrieval {"question": "what is iptdec?", "detected_intent": "Question Answering", "detected_topic": "General Question", "knowledge_source": ["FTP", "HBP", "DGFT Policy"], "retrieved_documents": ["HBP Chapter 2.pdf", "HBP-Chapter-6.pdf", "HBP2023_Chapter04+as+on+20.04.2026.pdf", "HBP2023_Chapter01.pdf"], "similarity_score": 0.75, "selected_chunks": ["2.77-1"], "reason_for_selection": "Accepted the relevant DGFT section(s) after intent detection, chapter/section filtering, and complete-section grounding.", "user_question": "what is iptdec?", "detected_entities": ["what", "is", "iptdec"], "detected_hs_code": [], "metadata_results_count": 0, "bm25_results_count": 20, "vector_results_count": 20, "merged_results_count": 12, "top_ranked_chunks": [{"id": "2.77-1", "title": "2.77 Registering Authorities", "sectionId": "2.77", "documentName": "HBP Chapter 2.pdf", "score": 8.2713, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}, {"id": "CH6-SEC6_40-R002", "title": "Time Bound Disposal of Applications", "sectionId": "6.40", "documentName": "HBP-Chapter-6.pdf", "score": 7.5692, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}, {"id": "4.30-condition-7", "title": "Advance Authorisation or DFIA for Intermediate Supplies", "sectionId": "4.30", "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf", "score": 6.8154, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}, {"id": "4.49-condition-4", "title": "Regularisation of Bonafide Default", "sectionId": "4.49", "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf", "score": 6.6333, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}, {"id": "4.49-condition-11", "title": "Regularisation of Bonafide Default", "sectionId": "4.49", "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf", "score": 6.6333, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what is iptdec?"]}], "selected_chunk": ["2.77-1"], "final_prompt": "Question: what is iptdec?\nDetected intent: General Question\nDetected entities: what, is, iptdec\nSelected sections: 4.49 Regularisation of Bonafide Default, 2.77 Registering Authorities, 6.40 Time Bound Disposal of Applications, 4.30 Advance Authorisation or DFIA for Intermediate Supplies\nSelected chunks: 2.77-1", "llm_response": "Based on the uploaded documents:\n- 4.49 Regularisation of Bonafide Default Cases of bonafide default in fulfilment of Export Obligation may be regularised by Regional Authority as under: (a) If Export Obligation is fulfilled in terms of value, but ther...\n- 2.77 Registering Authorities (a) Registering Authority is a body notified by DGFT in this regard to register importers/ exporters as its members by issuing RCMC.\n- 6.40 Time Bound Disposal of Applications DC shall dispose of applications expeditiously.\n- 4.30 Advance Authorisation or DFIA for Intermediate Supplies (a) Application for grant of Advance Authorisation or DFIA for Intermediate supply may be made on the basis of a tie-up arrangement with an ultimate exporte...\n\nKey requirements:\n- 2.77 Registering Authorities (a) Registering Authority is a body notified by DGFT in this regard to register importers/ exporters as its members by issuing RCMC.\n- (b) The list of notified Registering Authorities is at Appendix -2T.\n- (b) If application is approved, authorisation shall be issued based on input/ output norms in force on the date of receipt of application by Regional Authority.\n- If in the intervening period (i.e.\n- from date of filing of application and date of issue of authorisation) the norms get changed, the authorisation will be issued in proportion to provisional exports / Deemed Export supplies already made till any amendm...\n- (c) The export of SCOMET items shall not be permitted against an Authorisation until and unless the requisite SCOMET Authorisation is obtained by the applicant.\n\nSources:\n- HBP2023_Chapter04+as+on+20.04.2026.pdf | HBP Chapter 4 | 4.49 Regularisation of Bonafide Default | Pages 29, 30, 31\n- HBP Chapter 2.pdf | HBP Chapter 2 | 2.77 Registering Authorities | Pages 34\n- HBP-Chapter-6.pdf | HBP Chapter 6 | 6.40 Time Bound Disposal of Applications | Pages 23, 24\n- HBP2023_Chapter04+as+on+20.04.2026.pdf | HBP Chapter 4 | 4.30 Advance Authorisation or DFIA for Intermediate Supplies | Pages 14, 15"}
+2026-08-03 16:18:31,571 | INFO | services.chat_service | dekai_retrieval {"question": "what declaration type?", "detected_intent": "Question Answering", "detected_topic": "General Question", "knowledge_source": ["FTP", "HBP", "DGFT Policy"], "retrieved_documents": ["Chapter+10+HBP+(19.05.2026).pdf", "HBP Chapter 2.pdf", "HBP2023_Chapter03.pdf"], "similarity_score": 0.75, "selected_chunks": ["10.17-1", "10.17-2", "2.23-1", "2.24-1"], "reason_for_selection": "Accepted the relevant DGFT section(s) after intent detection, chapter/section filtering, and complete-section grounding.", "user_question": "what declaration type?", "detected_entities": ["what", "declaration", "type"], "detected_hs_code": [], "metadata_results_count": 0, "bm25_results_count": 20, "vector_results_count": 20, "merged_results_count": 12, "top_ranked_chunks": [{"id": "10.17", "title": "10.17 Validity Period of SCOMET Authorisations", "sectionId": "10.17", "documentName": "Chapter+10+HBP+(19.05.2026).pdf", "score": 11.1866, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what declaration type?"]}, {"id": "2.23-condition-5", "title": "Duplicate copies of Export / Import Authorisation", "sectionId": "2.23", "documentName": "HBP Chapter 2.pdf", "score": 8.3821, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what declaration type?"]}, {"id": "2.29-condition-2", "title": "Execution of BG/Legal undertaking for Advance Authorisation/", "sectionId": "2.29", "documentName": "HBP Chapter 2.pdf", "score": 8.3446, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what declaration type?"]}, {"id": "10.17-condition-2", "title": "Validity Period of SCOMET Authorisations", "sectionId": "10.17", "documentName": "Chapter+10+HBP+(19.05.2026).pdf", "score": 8.2593, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what declaration type?"]}, {"id": "10.17-condition-7", "title": "Validity Period of SCOMET Authorisations", "sectionId": "10.17", "documentName": "Chapter+10+HBP+(19.05.2026).pdf", "score": 8.2593, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["what declaration type?"]}], "selected_chunk": ["10.17-1"], "final_prompt": "Question: what declaration type?\nDetected intent: General Question\nDetected entities: what, declaration, type\nSelected sections: 10.17 Validity Period of SCOMET Authorisations, 2.24 Documents required for duplicate copy of freely transferable, 2.23 Duplicate copies of Export / Import Authorisation\nSelected chunks: 10.17-1, 10.17-2, 2.23-1", "llm_response": "Based on the uploaded documents:\n- 10.17 Validity Period of SCOMET Authorisations The validity period of SCOMET authorisations from the date of issue shall be as follows, unless specified otherwise S.No.\n- 2.24 Documents required for duplicate copy of freely transferable Authorisation Duplicate copy of freely transferable Authorisation may be issued against an application accompanied with following documents: (i) An app...\n- 2.23 Duplicate copies of Export / Import Authorisation Where a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or misplaced, an application for issue of a duplicate may be made along with s...\n- Validity Period of SCOMET Authorisations governs how DGFT business controls should be applied, validated, and enforced.\n\nKey requirements:\n- 10.17 Validity Period of SCOMET Authorisations The validity period of SCOMET authorisations from the date of issue shall be as follows, unless specified otherwise S.No.\n- Type of SCOMET Validity Period Authorisation 1 SCOMET The validity period of the SCOMET authorisation shall be Authorisation for a period of 24 months, unless otherwise specified.\n- 2 SCOMET GAICT authorisation issued for intra-company transfers Authorisation of SCOMET items/software/technology shall be valid for Issued under a period of 3(three years) from the date of issue of GAICT Policy autho...\n- 3 SCOMET GAEC issued for export / re-export of SCOMET items Authorisation under the above Categories / Sub Categories (excluding issued under software and technology) shall be valid for a period of GAEC Policy 5(five)...\n- SCOMET GAED issued for export / re-export of SCOMET items under Authorisation the above Categories / Sub Categories shall be valid for a Issued under period of Three years from the date of issue of GAED Policy GAED su...\n- SCOMET GAET issued for export / re-export of SCOMET items under Authorisation the above Categories / Sub Categories shall be valid for Issued under Three years from the date of issue of GAET subject to GAET Policy sub...\n\nSources:\n- Chapter+10+HBP+(19.05.2026).pdf | HBP Chapter 10 | 10.17 Validity Period of SCOMET Authorisations | Pages 42, 43\n- HBP Chapter 2.pdf | HBP Chapter 2 | 2.24 Documents required for duplicate copy of freely transferable | Pages 10\n- HBP Chapter 2.pdf | HBP Chapter 2 | 2.23 Duplicate copies of Export / Import Authorisation | Pages 9, 10"}
+2026-08-03 16:19:03,788 | INFO | services.chat_service | dekai_retrieval {"question": "how many declaration type?", "detected_intent": "Question Answering", "detected_topic": "General Question", "knowledge_source": ["FTP", "HBP", "DGFT Policy"], "retrieved_documents": ["Chapter+10+HBP+(19.05.2026).pdf", "HBP Chapter 2.pdf", "HBP2023_Chapter03.pdf"], "similarity_score": 0.75, "selected_chunks": ["10.17-1", "10.17-2", "2.23-1", "2.24-1"], "reason_for_selection": "Accepted the relevant DGFT section(s) after intent detection, chapter/section filtering, and complete-section grounding.", "user_question": "how many declaration type?", "detected_entities": ["how", "many", "declaration", "type"], "detected_hs_code": [], "metadata_results_count": 0, "bm25_results_count": 20, "vector_results_count": 20, "merged_results_count": 12, "top_ranked_chunks": [{"id": "10.17", "title": "10.17 Validity Period of SCOMET Authorisations", "sectionId": "10.17", "documentName": "Chapter+10+HBP+(19.05.2026).pdf", "score": 11.1866, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["how many declaration type?"]}, {"id": "2.23-condition-5", "title": "Duplicate copies of Export / Import Authorisation", "sectionId": "2.23", "documentName": "HBP Chapter 2.pdf", "score": 8.3821, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["how many declaration type?"]}, {"id": "2.29-condition-2", "title": "Execution of BG/Legal undertaking for Advance Authorisation/", "sectionId": "2.29", "documentName": "HBP Chapter 2.pdf", "score": 8.3446, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["how many declaration type?"]}, {"id": "10.17-condition-2", "title": "Validity Period of SCOMET Authorisations", "sectionId": "10.17", "documentName": "Chapter+10+HBP+(19.05.2026).pdf", "score": 8.2593, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["how many declaration type?"]}, {"id": "10.17-condition-7", "title": "Validity Period of SCOMET Authorisations", "sectionId": "10.17", "documentName": "Chapter+10+HBP+(19.05.2026).pdf", "score": 8.2593, "confidence": 0.75, "rankingReasons": ["keyword_match"], "matchedQueries": ["how many declaration type?"]}], "selected_chunk": ["10.17-1"], "final_prompt": "Question: how many declaration type?\nDetected intent: General Question\nDetected entities: how, many, declaration, type\nSelected sections: 10.17 Validity Period of SCOMET Authorisations, 2.24 Documents required for duplicate copy of freely transferable, 2.23 Duplicate copies of Export / Import Authorisation\nSelected chunks: 10.17-1, 10.17-2, 2.23-1", "llm_response": "Based on the uploaded documents:\n- 10.17 Validity Period of SCOMET Authorisations The validity period of SCOMET authorisations from the date of issue shall be as follows, unless specified otherwise S.No.\n- 2.24 Documents required for duplicate copy of freely transferable Authorisation Duplicate copy of freely transferable Authorisation may be issued against an application accompanied with following documents: (i) An app...\n- 2.23 Duplicate copies of Export / Import Authorisation Where a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or misplaced, an application for issue of a duplicate may be made along with s...\n- Validity Period of SCOMET Authorisations governs how DGFT business controls should be applied, validated, and enforced.\n\nKey requirements:\n- 10.17 Validity Period of SCOMET Authorisations The validity period of SCOMET authorisations from the date of issue shall be as follows, unless specified otherwise S.No.\n- Type of SCOMET Validity Period Authorisation 1 SCOMET The validity period of the SCOMET authorisation shall be Authorisation for a period of 24 months, unless otherwise specified.\n- 2 SCOMET GAICT authorisation issued for intra-company transfers Authorisation of SCOMET items/software/technology shall be valid for Issued under a period of 3(three years) from the date of issue of GAICT Policy autho...\n- 3 SCOMET GAEC issued for export / re-export of SCOMET items Authorisation under the above Categories / Sub Categories (excluding issued under software and technology) shall be valid for a period of GAEC Policy 5(five)...\n- SCOMET GAED issued for export / re-export of SCOMET items under Authorisation the above Categories / Sub Categories shall be valid for a Issued under period of Three years from the date of issue of GAED Policy GAED su...\n- SCOMET GAET issued for export / re-export of SCOMET items under Authorisation the above Categories / Sub Categories shall be valid for Issued under Three years from the date of issue of GAET subject to GAET Policy sub...\n\nSources:\n- Chapter+10+HBP+(19.05.2026).pdf | HBP Chapter 10 | 10.17 Validity Period of SCOMET Authorisations | Pages 42, 43\n- HBP Chapter 2.pdf | HBP Chapter 2 | 2.24 Documents required for duplicate copy of freely transferable | Pages 10\n- HBP Chapter 2.pdf | HBP Chapter 2 | 2.23 Duplicate copies of Export / Import Authorisation | Pages 9, 10"}

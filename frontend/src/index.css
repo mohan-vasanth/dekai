@@ -111,4 +111,141 @@
     border-color: color-mix(in srgb, var(--accent) 42%, var(--border));
     box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 10%, transparent);
   }
+
+  .markdown-viewer {
+    color: var(--foreground);
+    line-height: 1.8;
+  }
+
+  .markdown-viewer h1,
+  .markdown-viewer h2,
+  .markdown-viewer h3,
+  .markdown-viewer h4 {
+    margin: 1.4rem 0 0.85rem;
+    font-family: "Sora", "Manrope", sans-serif;
+    line-height: 1.2;
+  }
+
+  .markdown-viewer h1 {
+    font-size: 1.9rem;
+  }
+
+  .markdown-viewer h2 {
+    font-size: 1.45rem;
+  }
+
+  .markdown-viewer h3 {
+    font-size: 1.2rem;
+  }
+
+  .markdown-viewer p,
+  .markdown-viewer ul,
+  .markdown-viewer ol,
+  .markdown-viewer pre,
+  .markdown-viewer table,
+  .markdown-viewer blockquote {
+    margin: 0.85rem 0;
+  }
+
+  .markdown-viewer ul,
+  .markdown-viewer ol {
+    padding-left: 1.35rem;
+  }
+
+  .markdown-viewer code {
+    border-radius: 0.55rem;
+    background: color-mix(in srgb, var(--panel-subtle) 78%, transparent);
+    padding: 0.1rem 0.4rem;
+    font-family: "Cascadia Code", "Fira Code", Consolas, monospace;
+    font-size: 0.92em;
+  }
+
+  .markdown-viewer pre {
+    overflow: auto;
+    border-radius: 1.2rem;
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 1rem 1.1rem;
+  }
+
+  .markdown-viewer pre code {
+    background: transparent;
+    padding: 0;
+  }
+
+  .markdown-viewer table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 1px solid var(--border);
+  }
+
+  .markdown-viewer th,
+  .markdown-viewer td {
+    border: 1px solid var(--border);
+    padding: 0.7rem 0.8rem;
+    vertical-align: top;
+    text-align: left;
+  }
+
+  .markdown-viewer th {
+    background: var(--panel-subtle);
+  }
+
+  .markdown-viewer img {
+    max-width: 100%;
+    border-radius: 1rem;
+  }
+
+  .markdown-viewer a {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+
+  .html-source-view {
+    margin: 0;
+    white-space: pre-wrap;
+    word-break: break-word;
+    color: #dbeafe;
+    background: #0f172a;
+  }
+
+  .html-render-view {
+    color: var(--foreground);
+    line-height: 1.7;
+  }
+
+  .html-render-view table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .html-render-view th,
+  .html-render-view td {
+    border: 1px solid rgba(15, 23, 42, 0.16);
+    padding: 0.65rem 0.75rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .html-tag-delimiter {
+    color: #93c5fd;
+  }
+
+  .html-tag-name {
+    color: #67e8f9;
+  }
+
+  .html-attr-name {
+    color: #fcd34d;
+  }
+
+  .html-attr-equals {
+    color: #cbd5e1;
+  }
+
+  .html-attr-value {
+    color: #86efac;
+  }
 }

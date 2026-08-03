@@ -64,6 +64,9 @@ export type DocumentRecord = {
   searchIndexStatus?: "indexed" | "updating" | "failed";
   vectorDatabaseStatus?: "stored" | "updating" | "failed";
   lastIndexedAt?: string | null;
+  failureReason?: string | null;
+  failureDetail?: string | null;
+  searchable?: boolean;
 };
 
 export type DocumentsKnowledgeStats = {
@@ -244,6 +247,8 @@ export type PdfMarkdownConversion = {
   sectionCount: number;
   chapterCount: number;
   glossaryCount: number;
+  htmlTableCount?: number;
+  htmlTagCount?: number;
   downloadUrl?: string;
 };
 

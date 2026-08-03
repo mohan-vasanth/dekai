@@ -1,0 +1,23 @@
+{
+  "section": "5.1",
+  "validations": [
+    "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header).",
+    "Refers to the declaration at\nthe frontend software: “I/We declare that all the particulars in\nthis Application are true and correct”.",
+    "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nMandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header).",
+    "a) For Declaration Type = GST and BKT, specify party type:\n- (Declarant)\n- (Claimant, if required)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional)\n- (Importer)\n- (Freight Forwarder; mandatory for consol consignment)\nb) For others, specify Party Type:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Importer)\n- (Freight Forwarder; mandatory for consol consignment)\nA014 cac:Declarant Party M 1 Specify the identity of the Declarant.",
+    "a) For Declaration Type = GST and BKT, specify party type:\n- (Declarant)\n- (Claimant, if required)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional)\n- (Importer)\n- (Freight Forwarder; mandatory for consol consignment)\nb) For others, specify Party Type:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Importer)\n- (Freight Forwarder; mandatory for consol consignment)\nA014\ncac:Declarant Party\nM\n1\nSpecify the identity of the Declarant.",
+    "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.",
+    "/cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Inward Carrier Agent Party\nC\n1\na) Specify Inward Carrier Agent, must be registered with Customs.",
+    "B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\nunit Code (attribute) M 1 an..3 (value).",
+    "B058\ncbc:Harmonized System Quantity\nunit Code (attribute)\nM\nM\n1 n..16\n1 an..3\nFor all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\n(value).",
+    "A023 cac:Goods And Services Tax C 1 Specify the item GST:\na) For Declaration Type = GST, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+    "b) For other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nOther tax) X GST rate, where applicable\nB060 cbc:Goods And Services Tax Percent M 1 n..2 Specify percentage for GST rate.",
+    "A023\ncac:Goods And Services Tax\nC\n1\nSpecify the item GST:\na)\nFor Declaration Type = GST, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+    "b)\nFor other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nOther tax) X GST rate, where applicable\nB060\ncbc:Goods And Services Tax Percent\nM\n1 n..2\nSpecify percentage for GST rate.",
+    "i) For transport mode = 1, the unit code must be set to TNE.",
+    "ii) For transport mode = 4, the unit code must be set to KGM."
+  ],
+  "errors": [
+    "Validation failed because the section requirements were not fully met."
+  ]
+}

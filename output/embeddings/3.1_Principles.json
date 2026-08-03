@@ -1,0 +1,43 @@
+[
+  {
+    "id": "3.1-1",
+    "text": "3.1 Principles This message incorporates the necessary transport, statistical, and declaration information. Provision has also been made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and for the grouping of document lines into a single customs item. A customs item consists of the grouping of those document lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message correspondingly permits the use of single or multi-packaging concepts and their identification to a customs item. Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC) OFFICIAL (CLOSED) Prepared by: TDS41-MDS-XML-IPTDEC-M OFFICIAL (CLOSED) TRADENET MESSAGE 18/11/2021 11:10 AM Prepared by: For: Release Date 18/11/2021 Ver 4.1 Reference TRADENET Document Id. TDS41-MDS-XML-IPTDEC-M Trade Net Declaration.IPTDEC Ver2.1.doc OFFICIAL (CLOSED) 3. FIELD OF APPLICATION The message specification provided in this document are intended for use for the exchange of information between the trading partners in international trade. This message may be applied for both national and international trade. It is based on universal practice and is not dependent on the type of business or industry. 3.1 Principles This message incorporates the necessary transport, statistical, and declaration information. Provision has also been made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and for the grouping of document lines into a single customs item. A customs item consists of the grouping of those document lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message correspondingly permits the use of single or multi-packaging concepts and their identification to a customs item. OFFICIAL (CLOSED) AM 4. REFERENCES S/ Document Name Document/Directory Rev Date N Reference 1 Trade Net Declaration message specification TDS41-MDS-XML- DECLARATION-TX 2 Trade Net Response message specification TDS41-MDS-XML- RESPONSE-TX 3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules _2.0.doc 4 UN/ECE WP Recommendation No. 3, Code for the ECE/TRADE/201 1 Jan 96 Representation of Names of Countries - ISO Country Code 5 UN/ECE WP Trade Facilitation Recommendation No. 9, ECE/TRADE/203 1 Jan 96 Alphabetic Code for the Representation of Currencies 6 UN/ECE WP Trade Facilitation Recommendation No. 16, ECE/TRADE/227 Dec 98 UN/LOCODE - Code for the Trade and Transport Locations 7 UN/ECE WP Trade Facilitation Recommendation No. 19, Code TRADE/CEFACT/2001/19 15 Jan 01 for modes of transport 8 UN/ECE WP Trade Facilitation Recommendation No. 20, Codes CEFACT/ICG/2010/IC01 13 Sep 10 for Units of Measure Used in International Trade 3 9 Codes for Units of Measure Used in International Trade CEFACT/ICG/2010/IC01 13 Sep 10 Annex B: Code elements listed by Quantity 3 Annex I 10 Codes for Units of Measure Used in International Trade CEFACT/ICG/2010/IC01 13 Sep 10 Annex C: Code elements listed by common code & name 3 Annex II & Annex III 11 UN/ECE WP Trade Facilitation Recommendation No. 21, Codes CEFACT/ICG/2010/IC01 12 Jul 10 for Types of Cargo, Packages and Packaging Material 0/Rev.1 12 STDID Code Lists STDID-TDS41-COD Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC) OFFICIAL (CLOSED) Prepared by: TDS41-MDS-XML-IPTDEC-M S/ N | Document Name | Document/Directory Reference | Rev | Date 1 | Trade Net Declaration message specification | TDS41-MDS-XML- DECLARATION-TX | | 2 | Trade Net Response message specification | TDS41-MDS-XML- RESPONSE-TX | | 3 | UN/CEFACT XML Naming and Design Rules | Naming And Design Rules _2.0.doc | | 4 | UN/ECE WP Recommendation No. 3, Code for the Representation of Names of Countries - ISO Country Code | ECE/TRADE/201 | | 1 Jan 96 5 | UN/ECE WP Trade Facilitation Recommendation No. 9, Alphabetic Code for the Representation of Currencies | ECE/TRADE/203 | | 1 Jan 96 6 | UN/ECE WP Trade Facilitation Recommendation No. 16, UN/LOCODE - Code for the Trade and Transport Locations | ECE/TRADE/227 | | Dec 98 7 | UN/ECE WP Trade Facilitation Recommendation No. 19, Code for modes of transport | TRADE/CEFACT/2001/19 | | 15 Jan 01 8 | UN/ECE WP Trade Facilitation Recommendation No. 20, Codes for Units of Code for the Representation of Names of Countries - ISO Country Code | ECE/TRADE/201 | | 1 Jan 96 5 | UN/ECE WP Trade Facilitation Recommendation No. 9, Alphabetic Code for the Representation of Currencies | ECE/TRADE/203 | | 1 Jan 96 6 | UN/ECE WP Trade Facilitation Recommendation No. 16, UN/LOCODE - Code for the Trade and Transport Locations | ECE/TRADE/227 | | Dec 98 7 | UN/ECE WP Trade Facilitation Recommendation No. 19, Code for modes of transport | TRADE/CEFACT/2001/19 | | 15 Jan 01 8 | UN/ECE WP Trade Facilitation Recommendation No. 20, Codes for Units of Measure Used in International Trade | CEFACT/ICG/2010/IC01 3 | | 13 Sep 10 9 | Codes for Units of Measure Used in International Trade Annex B: Code elements listed by Quantity | CEFACT/ICG/2010/IC01 3 Annex I | | 13 Sep 10 10 | Codes for Units of Measure Used in International Trade Annex C: Code elements listed by common code & name | CEFACT/ICG/2010/IC01 3 Annex II & Annex III | | 13 Sep 10 11 | UN/ECE WP Trade Facilitation Recommendation No. 21, Codes for Types of Cargo, Packages and Packaging Material | CEFACT/ICG/2010/IC01 0/Rev.1 | | 12 Jul 10 12 | STDID Code Lists | STDID-TDS41-COD | | OFFICIAL (CLOSED) TRADENET MESSAGE 18/11/2021 11:10 AM Prepared by: For: Release Date 18/11/2021 Ver 4.1 Reference TRADENET Document Id. TDS41-MDS-XML-IPTDEC-M Trade Net Declaration.IPTDEC Ver2.1.doc OFFICIAL (CLOSED) 4. REFERENCES S/ N Document Name Document/Directory Reference Rev Date 1 Trade Net Declaration message specification TDS41-MDS-XML- DECLARATION-TX 2 Trade Net Response message specification TDS41-MDS-XML- RESPONSE-TX 3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules _2.0.doc 4 UN/ECE WP Recommendation No. 3, Code for the Representation of Names of Countries - ISO Country Code ECE/TRADE/201 1 Jan 96 5 UN/ECE WP Trade Facilitation Recommendation No. 9, Alphabetic Code for the Representation of Currencies ECE/TRADE/203 1 Jan 96 6 UN/ECE WP Trade Facilitation Recommendation No. 16, UN/LOCODE - Code for the Trade and Transport Locations ECE/TRADE/227 Dec 98 7 UN/ECE WP Trade Facilitation Recommendation No. 19, Code for modes of transport TRADE/CEFACT/2001/19 15 Jan 01 8 UN/ECE WP Trade Facilitation Recommendation No. 20, Codes for Units of Measure Used in International Trade CEFACT/ICG/2010/IC01 3 13 Sep 10 9 Codes for Units of Measure Used in International Trade Annex B: Code elements listed by Quantity CEFACT/ICG/2010/IC01 3 Annex I 13 Sep 10 10 Codes for Units of Measure Used in International Trade Annex C: Code elements listed by common code & name CEFACT/ICG/2010/IC01 3 Annex II & Annex III 13 Sep 10 11 UN/ECE WP Trade Facilitation Recommendation No. 21, Codes for Types of Cargo, Packages and Packaging Material CEFACT/ICG/2010/IC01 0/Rev.1 12 Jul 10 12 STDID Code Lists STDID-TDS41-COD OFFICIAL (CLOSED) AM 5. DEFINITIONS AND ABBREVIATIONS",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "3.1",
+      "title": "Principles",
+      "keywords": [
+        "the",
+        "and",
+        "has",
+        "for",
+        "may",
+        "one",
+        "etc",
+        "use",
+        "Net",
+        "doc",
+        "XML",
+        "Ver",
+        "are",
+        "not",
+        "Rev"
+      ],
+      "intent": "Provide knowledge guidance for Principles.",
+      "tags": [
+        "3.1",
+        "Principles",
+        "document-driven",
+        "dgft"
+      ],
+      "related_sections": [],
+      "source_pages": [
+        3,
+        4,
+        5
+      ]
+    }
+  }
+]

@@ -9,6 +9,7 @@ from config import CONFIG
 from .base import BaseExtractor
 from .models import SectionDraft, SectionKnowledge
 from .utils import (
+    flatten_table,
     keyword_candidates,
     normalise_whitespace,
     sentence_contains_any,
@@ -27,6 +28,7 @@ class RuleExtractor(BaseExtractor):
 
     def extract_sections(self, pages: Sequence, source_document: str) -> List[SectionDraft]:
         chapter_number, chapter_title = self.extract_chapter_metadata(pages, source_document)
+        pages_by_number = {int(page.page_number): page for page in pages}
         lines_with_pages: List[tuple[int, str]] = []
         for page in pages:
             for line in split_lines(page.text):
@@ -50,6 +52,7 @@ class RuleExtractor(BaseExtractor):
                         content="\n".join(current_lines).strip(),
                         page_numbers=unique_preserve([str(page) for page in current_pages]),
                         source_document=source_document,
+                        tables=self._tables_for_content("\n".join(current_lines), current_pages, pages_by_number),
                     )
                 )
             current_section = None
@@ -82,6 +85,7 @@ class RuleExtractor(BaseExtractor):
                     content=combined,
                     page_numbers=[page.page_number for page in pages],
                     source_document=source_document,
+                    tables=self._tables_for_content(combined, [page.page_number for page in pages], pages_by_number),
                 )
             )
 
@@ -97,6 +101,7 @@ class RuleExtractor(BaseExtractor):
                     content=section.content,
                     page_numbers=pages_as_int,
                     source_document=section.source_document,
+                    tables=section.tables,
                 )
             )
         merged_sections = self._merge_duplicate_sections(normalised_sections)
@@ -132,6 +137,7 @@ class RuleExtractor(BaseExtractor):
             business_logic=business_logic,
             documents=documents,
             required_documents=documents,
+            tables=draft.tables,
             actions=actions,
             examples=self._examples(sentences, draft.title),
             real_world_example=real_world_example,
@@ -229,6 +235,7 @@ class RuleExtractor(BaseExtractor):
                     content=section.content,
                     page_numbers=list(section.page_numbers),
                     source_document=section.source_document,
+                    tables=[[[cell for cell in row] for row in table] for table in section.tables],
                 )
                 order.append(key)
                 continue
@@ -237,7 +244,86 @@ class RuleExtractor(BaseExtractor):
             if section.content not in current.content:
                 current.content = f"{current.content}\n{section.content}".strip()
             current.page_numbers = sorted(set(current.page_numbers).union(section.page_numbers))
+            current.tables = self._merge_tables(current.tables, section.tables)
         return [merged[key] for key in order]
+
+    def _tables_for_content(
+        self,
+        content: str,
+        page_numbers: Sequence[int],
+        pages_by_number: Dict[int, object],
+    ) -> List[List[List[str]]]:
+        normalized_content = normalise_whitespace(content).casefold()
+        collected: List[List[List[str]]] = []
+        seen: set[tuple[tuple[str, ...], ...]] = set()
+
+        for page_number in unique_preserve([str(page) for page in page_numbers]):
+            page = pages_by_number.get(int(page_number))
+            if not page:
+                continue
+            for table in getattr(page, "tables", []) or []:
+                normalized_table = self._normalize_table(table)
+                if not normalized_table:
+                    continue
+                fingerprint = tuple(tuple(row) for row in normalized_table)
+                if fingerprint in seen:
+                    continue
+                if self._table_matches_content(normalized_table, normalized_content):
+                    seen.add(fingerprint)
+                    collected.append(normalized_table)
+
+        return collected
+
+    def _normalize_table(self, table: Sequence[Sequence[str]]) -> List[List[str]]:
+        normalized_rows: List[List[str]] = []
+        for row in table:
+            normalized_row = [normalise_whitespace(str(cell or "")) for cell in row]
+            if any(normalized_row):
+                normalized_rows.append(normalized_row)
+        return normalized_rows
+
+    def _table_matches_content(self, table: Sequence[Sequence[str]], normalized_content: str) -> bool:
+        if not normalized_content:
+            return False
+
+        flattened = normalise_whitespace(flatten_table(table))
+        if flattened and flattened.casefold() in normalized_content:
+            return True
+
+        matching_cells = 0
+        meaningful_cells = 0
+        for row in table:
+            for cell in row:
+                normalized_cell = normalise_whitespace(cell)
+                if len(normalized_cell) < 3:
+                    continue
+                meaningful_cells += 1
+                if normalized_cell.casefold() in normalized_content:
+                    matching_cells += 1
+
+        if meaningful_cells == 0:
+            return False
+        return matching_cells >= min(2, meaningful_cells) or matching_cells >= max(1, meaningful_cells // 2)
+
+    def _merge_tables(
+        self,
+        existing: Sequence[Sequence[Sequence[str]]],
+        incoming: Sequence[Sequence[Sequence[str]]],
+    ) -> List[List[List[str]]]:
+        merged: List[List[List[str]]] = []
+        seen: set[tuple[tuple[str, ...], ...]] = set()
+
+        for table in list(existing) + list(incoming):
+            normalized_table = self._normalize_table(table)
+            if not normalized_table:
+                continue
+            fingerprint = tuple(tuple(row) for row in normalized_table)
+            if fingerprint in seen:
+                continue
+            seen.add(fingerprint)
+            merged.append(normalized_table)
+
+        return merged
 
     def _purpose(self, sentences: Sequence[str], title: str) -> str:
         candidates = [sentence for sentence in sentences[:6] if re.search(r"\b(for|to|in order to|meant to|shall)\b", sentence, re.IGNORECASE)]

@@ -1,0 +1,49 @@
+{
+  "section": "3.1",
+  "conditions": [
+    "The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.",
+    "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
+    "REFERENCES\nS/ Document Name Document/Directory Rev Date\nN Reference\n1 Trade Net Declaration message specification TDS41-MDS-XML-\nDECLARATION-TX\n2 Trade Net Response message specification TDS41-MDS-XML-\nRESPONSE-TX\n3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules\n_2.0.doc\n4 UN/ECE WP Recommendation No.",
+    "21, Codes CEFACT/ICG/2010/IC01 12 Jul 10\nfor Types of Cargo, Packages and Packaging Material 0/Rev.1\n12 STDID Code Lists STDID-TDS41-COD\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nS/\nN | Document Name | Document/Directory\nReference | Rev | Date\n1 | Trade Net Declaration message specification | TDS41-MDS-XML-\nDECLARATION-TX | |\n2 | Trade Net Response message specification | TDS41-MDS-XML-\nRESPONSE-TX | |\n3 | UN/CEFACT XML Naming and Design Rules | Naming And Design Rules\n_2.0.doc | |\n4 | UN/ECE WP Recommendation No.",
+    "REFERENCES\nS/\nN\nDocument Name\nDocument/Directory\nReference\nRev\nDate\n1\nTrade Net Declaration message specification\nTDS41-MDS-XML-\nDECLARATION-TX\n2\nTrade Net Response message specification\nTDS41-MDS-XML-\nRESPONSE-TX\n3\nUN/CEFACT XML Naming and Design Rules\nNaming And Design Rules\n_2.0.doc\n4\nUN/ECE WP Recommendation No."
+  ],
+  "condition_logic": [
+    {
+      "id": ".3.1.1",
+      "if": "The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.",
+      "then": "Route for review",
+      "source": "The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item."
+    },
+    {
+      "id": ".3.1.2",
+      "if": "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "Route for review",
+      "source": "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".3.1.3",
+      "if": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
+      "then": "Route for review",
+      "source": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade."
+    },
+    {
+      "id": ".3.1.4",
+      "if": "REFERENCES\nS/ Document Name Document/Directory Rev Date\nN Reference\n1 Trade Net Declaration message specification TDS41-MDS-XML-\nDECLARATION-TX\n2 Trade Net Response message specification TDS41-MDS-XML-\nRESPONSE-TX\n3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules\n_2.0.doc\n4 UN/ECE WP Recommendation No.",
+      "then": "Route for review",
+      "source": "REFERENCES\nS/ Document Name Document/Directory Rev Date\nN Reference\n1 Trade Net Declaration message specification TDS41-MDS-XML-\nDECLARATION-TX\n2 Trade Net Response message specification TDS41-MDS-XML-\nRESPONSE-TX\n3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules\n_2.0.doc\n4 UN/ECE WP Recommendation No."
+    },
+    {
+      "id": ".3.1.5",
+      "if": "21, Codes CEFACT/ICG/2010/IC01 12 Jul 10\nfor Types of Cargo, Packages and Packaging Material 0/Rev.1\n12 STDID Code Lists STDID-TDS41-COD\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nS/\nN | Document Name | Document/Directory\nReference | Rev | Date\n1 | Trade Net Declaration message specification | TDS41-MDS-XML-\nDECLARATION-TX | |\n2 | Trade Net Response message specification | TDS41-MDS-XML-\nRESPONSE-TX | |\n3 | UN/CEFACT XML Naming and Design Rules | Naming And Design Rules\n_2.0.doc | |\n4 | UN/ECE WP Recommendation No.",
+      "then": "Route for review",
+      "source": "21, Codes CEFACT/ICG/2010/IC01 12 Jul 10\nfor Types of Cargo, Packages and Packaging Material 0/Rev.1\n12 STDID Code Lists STDID-TDS41-COD\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nS/\nN | Document Name | Document/Directory\nReference | Rev | Date\n1 | Trade Net Declaration message specification | TDS41-MDS-XML-\nDECLARATION-TX | |\n2 | Trade Net Response message specification | TDS41-MDS-XML-\nRESPONSE-TX | |\n3 | UN/CEFACT XML Naming and Design Rules | Naming And Design Rules\n_2.0.doc | |\n4 | UN/ECE WP Recommendation No."
+    },
+    {
+      "id": ".3.1.6",
+      "if": "REFERENCES\nS/\nN\nDocument Name\nDocument/Directory\nReference\nRev\nDate\n1\nTrade Net Declaration message specification\nTDS41-MDS-XML-\nDECLARATION-TX\n2\nTrade Net Response message specification\nTDS41-MDS-XML-\nRESPONSE-TX\n3\nUN/CEFACT XML Naming and Design Rules\nNaming And Design Rules\n_2.0.doc\n4\nUN/ECE WP Recommendation No.",
+      "then": "Route for review",
+      "source": "REFERENCES\nS/\nN\nDocument Name\nDocument/Directory\nReference\nRev\nDate\n1\nTrade Net Declaration message specification\nTDS41-MDS-XML-\nDECLARATION-TX\n2\nTrade Net Response message specification\nTDS41-MDS-XML-\nRESPONSE-TX\n3\nUN/CEFACT XML Naming and Design Rules\nNaming And Design Rules\n_2.0.doc\n4\nUN/ECE WP Recommendation No."
+    }
+  ]
+}

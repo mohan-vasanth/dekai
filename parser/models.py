@@ -23,6 +23,7 @@ class SectionDraft:
     content: str
     page_numbers: List[int]
     source_document: str
+    tables: List[List[List[str]]] = field(default_factory=list)
 
 
 @dataclass
@@ -106,6 +107,7 @@ class SectionKnowledge:
     related_chapters: List[str] = field(default_factory=list)
     related_rules: List[str] = field(default_factory=list)
     required_documents: List[str] = field(default_factory=list)
+    tables: List[List[List[str]]] = field(default_factory=list)
     raw_text: str = ""
     pages: List[int] = field(default_factory=list)
     source_document: str = ""
@@ -133,6 +135,7 @@ class SectionKnowledge:
             "dependencies": self.dependencies,
             "documents": self.documents,
             "required_documents": self.required_documents,
+            "tables": self.tables,
             "authorities": self.authorities,
             "timelines": self.timelines,
             "actions": self.actions,

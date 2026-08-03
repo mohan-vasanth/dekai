@@ -1,12 +1,13 @@
 # DEKAI DGFT Master Knowledge Report
 
 - Knowledge Base: DEKAI DGFT Knowledge Base
-- Source Documents: HBP2023_Chapter01.pdf, HBP Chapter 2.pdf, HBP2023_Chapter03.pdf, HBP2023_Chapter04+as+on+20.04.2026.pdf, HBP2023_Chapter05.pdf, HBP-Chapter-6.pdf, Chapter-7-of-HBP-2023.pdf, HBP2023_Chapter08.pdf, HBP2023_Chapter09.pdf, Chapter+10+HBP+(19.05.2026).pdf
-- Chapters: 10
-- Sections: 325
-- Unified Topics: 425
+- Source Documents: HBP2023_Chapter01.pdf, HBP Chapter 2.pdf, HBP2023_Chapter03.pdf, HBP2023_Chapter04+as+on+20.04.2026.pdf, HBP2023_Chapter05.pdf, HBP-Chapter-6.pdf, Chapter-7-of-HBP-2023.pdf, HBP2023_Chapter08.pdf, HBP2023_Chapter09.pdf, Chapter+10+HBP+(19.05.2026).pdf, TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf
+- Chapters: 11
+- Sections: 327
+- Unified Topics: 594
 
 ## Chapter Reports
+- Chapter  TradeNetDeclaration.IPTDEC Ver2.1 (2): rules=17, conditions=356, validations=16, workflows=17, authorities=12, timelines=0, exceptions=43
 - Chapter 1 Legal Framework and Trade Facilitation: rules=23, conditions=32, validations=24, workflows=77, authorities=35, timelines=9, exceptions=2
 - Chapter 2 General Provisions Regarding Imports and Exports: rules=273, conditions=404, validations=262, workflows=604, authorities=201, timelines=123, exceptions=90
 - Chapter 3 Developing Districts as Export Hubs: rules=12, conditions=32, validations=13, workflows=27, authorities=53, timelines=0, exceptions=0
@@ -134,22 +135,22 @@ DGFT
 |
 +-- Unified Topics
     +-- A-B -> Chapters 6
-    +-- AA -> Chapters 1, 2, 4
-    +-- AANF -> Chapters 2
-    +-- ADSGA0129E -> Chapters 2
-    +-- ADVANCE -> Chapters 4
-    +-- AEO -> Chapters 10
-    +-- AERB -> Chapters 2
-    +-- AES -> Chapters 2
-    +-- AGREEMENTS -> Chapters 2
-    +-- AGS -> Chapters 4
-    +-- AMDCG0111E -> Chapters 2
-    +-- AMS -> Chapters 2
-    +-- AND -> Chapters 2, 4
-    +-- ANDA -> Chapters 4
-    +-- ANF -> Chapters 1, 2, 4, 5, 6, 7, 10
-    +-- ANF-1 -> Chapters 2
-    +-- ANF-10A -> Chapters 10
-    +-- ANF-10B -> Chapters 10
-    +-- ANF-10C -> Chapters 10
-    +-- ANF-10D -> Chapters 10
+    +-- A001 -> Chapters 
+    +-- A008 -> Chapters 
+    +-- A010 -> Chapters 
+    +-- A011 -> Chapters 
+    +-- A014 -> Chapters 
+    +-- A016 -> Chapters 
+    +-- A022 -> Chapters 
+    +-- A023 -> Chapters 
+    +-- A026 -> Chapters 
+    +-- A030 -> Chapters 
+    +-- A032 -> Chapters 
+    +-- A033 -> Chapters 
+    +-- A035 -> Chapters 
+    +-- A037 -> Chapters 
+    +-- A038 -> Chapters 
+    +-- A039 -> Chapters 
+    +-- A040 -> Chapters 
+    +-- A043 -> Chapters 
+    +-- A054 -> Chapters 

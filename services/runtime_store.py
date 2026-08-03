@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import json
+import os
+import time
 from pathlib import Path
 from threading import Lock
 from typing import Any
@@ -40,13 +42,43 @@ class RuntimeStore:
             except json.JSONDecodeError:
                 return fallback
 
+    def _cleanup_stale_temp_files(self, path: Path, *, max_age_seconds: float = 600.0) -> None:
+        cutoff = time.time() - max_age_seconds
+        for stale_temp_path in path.parent.glob(f"{path.name}.*.tmp"):
+            try:
+                if stale_temp_path.stat().st_mtime >= cutoff:
+                    continue
+            except OSError:
+                continue
+            try:
+                stale_temp_path.unlink()
+            except OSError:
+                # A stale temp file can be locked by another process. Ignore and continue.
+                pass
+
     def write_json(self, path: Path, payload: Any) -> None:
         serialized = json.dumps(payload, indent=2)
         with self._path_lock(path):
             path.parent.mkdir(parents=True, exist_ok=True)
-            temp_path = path.with_name(f"{path.name}.{uuid4().hex}.tmp")
-            temp_path.write_text(serialized, encoding="utf-8")
-            temp_path.replace(path)
+            self._cleanup_stale_temp_files(path)
+            last_error: OSError | None = None
+            for attempt in range(8):
+                temp_path = path.with_name(f"{path.name}.{uuid4().hex}.tmp")
+                try:
+                    temp_path.write_text(serialized, encoding="utf-8")
+                    os.replace(temp_path, path)
+                    return
+                except OSError as exc:
+                    last_error = exc
+                    try:
+                        temp_path.unlink(missing_ok=True)
+                    except OSError:
+                        pass
+                    if attempt == 7:
+                        break
+                    time.sleep(0.15 * (attempt + 1))
+            if last_error is not None:
+                raise last_error
 
 
 runtime_store = RuntimeStore()
