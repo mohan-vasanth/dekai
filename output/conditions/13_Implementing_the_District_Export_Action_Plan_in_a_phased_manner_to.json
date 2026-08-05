@@ -1,0 +1,63 @@
+{
+  "section": "13",
+  "conditions": [
+    "with a |\n| | view to identifying interventions to enhance export of existing goods and |\n| | services being exported and achieving the potential available for export |\n| | of new goods and services.",
+    "| | Identifying training and development needs of District industries and |\n| | coordination for training with other departments.",
+    "65\nidentification of products and services currently exported with export\nvolumes, destinations etc.",
+    "with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+    "Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+    "Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.",
+    "Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+    "Identifying training and development needs of District industries and\ncoordination for training with other departments."
+  ],
+  "condition_logic": [
+    {
+      "id": "3.13.1",
+      "if": "with a |\n| | view to identifying interventions to enhance export of existing goods and |\n| | services being exported and achieving the potential available for export |\n| | of new goods and services.",
+      "then": "Route for review",
+      "source": "with a |\n| | view to identifying interventions to enhance export of existing goods and |\n| | services being exported and achieving the potential available for export |\n| | of new goods and services."
+    },
+    {
+      "id": "3.13.2",
+      "if": "| | Identifying training and development needs of District industries and |\n| | coordination for training with other departments.",
+      "then": "Route for review",
+      "source": "| | Identifying training and development needs of District industries and |\n| | coordination for training with other departments."
+    },
+    {
+      "id": "3.13.3",
+      "if": "65\nidentification of products and services currently exported with export\nvolumes, destinations etc.",
+      "then": "Route for review",
+      "source": "65\nidentification of products and services currently exported with export\nvolumes, destinations etc."
+    },
+    {
+      "id": "3.13.4",
+      "if": "with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+      "then": "Route for review",
+      "source": "with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services."
+    },
+    {
+      "id": "3.13.5",
+      "if": "Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+      "then": "Route for review",
+      "source": "Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products)."
+    },
+    {
+      "id": "3.13.6",
+      "if": "Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.",
+      "then": "Route for review",
+      "source": "Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts."
+    },
+    {
+      "id": "3.13.7",
+      "if": "Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+      "then": "Route for review",
+      "source": "Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis."
+    },
+    {
+      "id": "3.13.8",
+      "if": "Identifying training and development needs of District industries and\ncoordination for training with other departments.",
+      "then": "Route for review",
+      "source": "Identifying training and development needs of District industries and\ncoordination for training with other departments."
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import { API_BASE } from "./base-url";
 export async function streamChat(
   question: string,
   onEvent: (event: ChatStreamEvent) => void,
-  options?: { aiModel?: string; language?: string },
+  options?: { aiModel?: string; language?: string; currentDocumentName?: string },
 ) {
   const token = authStorage.getToken();
   const response = await fetch(`${API_BASE}/api/chat/stream`, {
@@ -14,7 +14,12 @@ export async function streamChat(
       "Content-Type": "application/json",
       ...(token ? { Authorization: `Bearer ${token}` } : {}),
     },
-    body: JSON.stringify({ question, aiModel: options?.aiModel, language: options?.language }),
+    body: JSON.stringify({
+      question,
+      aiModel: options?.aiModel,
+      language: options?.language,
+      currentDocumentName: options?.currentDocumentName,
+    }),
   });
 
   if (!response.ok || !response.body) {

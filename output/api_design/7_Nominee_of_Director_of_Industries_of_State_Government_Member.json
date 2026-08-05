@@ -1,0 +1,38 @@
+{
+  "section": "7",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/7",
+      "purpose": "Retrieve knowledge payload for section 7",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Nominee-of-Director-of-Industries-of-State-Government-Member/validate",
+      "purpose": "Validate inputs and documents for Nominee of Director of Industries of State Government: Member",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

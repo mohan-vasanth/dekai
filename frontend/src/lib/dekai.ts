@@ -174,4 +174,4 @@ export const buildAssistantAnswer = (question: string, data: DekaiData): Assista
 };
 
 export const formatAnswerForClipboard = (answer: AssistantAnswer) =>
-  answer.directAnswer.trim();
+  [answer.directAnswer.trim(), answer.referencedPdf ? `Source: ${answer.referencedPdf}` : ""].filter(Boolean).join("\n\n");

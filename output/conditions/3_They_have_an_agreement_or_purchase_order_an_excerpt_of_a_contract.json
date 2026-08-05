@@ -1,0 +1,14 @@
+{
+  "section": "3",
+  "conditions": [
+    "They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;"
+  ],
+  "condition_logic": [
+    {
+      "id": "10.3.1",
+      "if": "They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+      "then": "Route for review",
+      "source": "They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;"
+    }
+  ]
+}

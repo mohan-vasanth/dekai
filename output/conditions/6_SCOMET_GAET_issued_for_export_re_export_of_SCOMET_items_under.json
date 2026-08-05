@@ -1,0 +1,49 @@
+{
+  "section": "6",
+  "conditions": [
+    "SCOMET GAET issued for export / re-export of SCOMET items under\nAuthorisation the above Categories / Sub Categories shall be valid for\nIssued under Three years from the date of issue of GAET subject to\nGAET Policy subsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter\npg.",
+    "| Type of SCOMET | Validity Period\n| Authorisation |\n1 | SCOMET\nAuthorisation | The validity period of the SCOMET authorisation shall be\nfor a period of 24 months, unless otherwise specified.",
+    "2 | SCOMET\nAuthorisation\nIssued under\nGAICT Policy | GAICT authorisation issued for intra-company transfers\nof SCOMET items/software/technology shall be valid for\na period of 3(three years) from the date of issue of\nauthorisation and shall be further subject to the\nfollowing validity timelines, whichever is earlier:\ni.",
+    "3 | SCOMET\nAuthorisation\nissued under\nGAEC Policy | GAEC issued for export / re-export of SCOMET items\nunder the above Categories / Sub Categories (excluding\nsoftware and technology) shall be valid for a period of\n5(five) years from the date of issue of GAEC subject to\nsubsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter;\n4 | SCOMET\nAuthorisation\nIssued under\nGAER Policy | GAER issued for export of imported SCOMET items after\nrepair shall be valid for a period of 1 year from the date\nof issue of GAER subject to subsequent post reporting(s)\nwithin 30 days from such export.",
+    "| SCOMET\nAuthorisation\nIssued under\nGAED Policy | GAED issued for export / re-export of SCOMET items under\nthe above Categories / Sub Categories shall be valid for a\nperiod of Three years from the date of issue of\nGAED subject to subsequent post reporting(s) on quarterly\nbasis to be reported within 30 days from the last quarter;\n6.",
+    "| SCOMET\nAuthorisation\nIssued under\nGAET Policy | GAET issued for export / re-export of SCOMET items under\nthe above Categories / Sub Categories shall be valid for\nThree years from the date of issue of GAET subject to\nsubsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter\npg."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.6.1",
+      "if": "SCOMET GAET issued for export / re-export of SCOMET items under\nAuthorisation the above Categories / Sub Categories shall be valid for\nIssued under Three years from the date of issue of GAET subject to\nGAET Policy subsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter\npg.",
+      "then": "SCOMET GAET issued for export / re-export of SCOMET items under\nAuthorisation the above Categories / Sub Categories shall be valid for\nIssued under Three years from the date of issue of GAET subject to\nGAET Policy subsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter\npg.",
+      "source": "SCOMET GAET issued for export / re-export of SCOMET items under\nAuthorisation the above Categories / Sub Categories shall be valid for\nIssued under Three years from the date of issue of GAET subject to\nGAET Policy subsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter\npg."
+    },
+    {
+      "id": "10.6.2",
+      "if": "| Type of SCOMET | Validity Period\n| Authorisation |\n1 | SCOMET\nAuthorisation | The validity period of the SCOMET authorisation shall be\nfor a period of 24 months, unless otherwise specified.",
+      "then": "SCOMET GAET issued for export / re-export of SCOMET items under\nAuthorisation the above Categories / Sub Categories shall be valid for\nIssued under Three years from the date of issue of GAET subject to\nGAET Policy subsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter\npg.",
+      "source": "| Type of SCOMET | Validity Period\n| Authorisation |\n1 | SCOMET\nAuthorisation | The validity period of the SCOMET authorisation shall be\nfor a period of 24 months, unless otherwise specified."
+    },
+    {
+      "id": "10.6.3",
+      "if": "2 | SCOMET\nAuthorisation\nIssued under\nGAICT Policy | GAICT authorisation issued for intra-company transfers\nof SCOMET items/software/technology shall be valid for\na period of 3(three years) from the date of issue of\nauthorisation and shall be further subject to the\nfollowing validity timelines, whichever is earlier:\ni.",
+      "then": "SCOMET GAET issued for export / re-export of SCOMET items under\nAuthorisation the above Categories / Sub Categories shall be valid for\nIssued under Three years from the date of issue of GAET subject to\nGAET Policy subsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter\npg.",
+      "source": "2 | SCOMET\nAuthorisation\nIssued under\nGAICT Policy | GAICT authorisation issued for intra-company transfers\nof SCOMET items/software/technology shall be valid for\na period of 3(three years) from the date of issue of\nauthorisation and shall be further subject to the\nfollowing validity timelines, whichever is earlier:\ni."
+    },
+    {
+      "id": "10.6.4",
+      "if": "3 | SCOMET\nAuthorisation\nissued under\nGAEC Policy | GAEC issued for export / re-export of SCOMET items\nunder the above Categories / Sub Categories (excluding\nsoftware and technology) shall be valid for a period of\n5(five) years from the date of issue of GAEC subject to\nsubsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter;\n4 | SCOMET\nAuthorisation\nIssued under\nGAER Policy | GAER issued for export of imported SCOMET items after\nrepair shall be valid for a period of 1 year from the date\nof issue of GAER subject to subsequent post reporting(s)\nwithin 30 days from such export.",
+      "then": "SCOMET GAET issued for export / re-export of SCOMET items under\nAuthorisation the above Categories / Sub Categories shall be valid for\nIssued under Three years from the date of issue of GAET subject to\nGAET Policy subsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter\npg.",
+      "source": "3 | SCOMET\nAuthorisation\nissued under\nGAEC Policy | GAEC issued for export / re-export of SCOMET items\nunder the above Categories / Sub Categories (excluding\nsoftware and technology) shall be valid for a period of\n5(five) years from the date of issue of GAEC subject to\nsubsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter;\n4 | SCOMET\nAuthorisation\nIssued under\nGAER Policy | GAER issued for export of imported SCOMET items after\nrepair shall be valid for a period of 1 year from the date\nof issue of GAER subject to subsequent post reporting(s)\nwithin 30 days from such export."
+    },
+    {
+      "id": "10.6.5",
+      "if": "| SCOMET\nAuthorisation\nIssued under\nGAED Policy | GAED issued for export / re-export of SCOMET items under\nthe above Categories / Sub Categories shall be valid for a\nperiod of Three years from the date of issue of\nGAED subject to subsequent post reporting(s) on quarterly\nbasis to be reported within 30 days from the last quarter;\n6.",
+      "then": "SCOMET GAET issued for export / re-export of SCOMET items under\nAuthorisation the above Categories / Sub Categories shall be valid for\nIssued under Three years from the date of issue of GAET subject to\nGAET Policy subsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter\npg.",
+      "source": "| SCOMET\nAuthorisation\nIssued under\nGAED Policy | GAED issued for export / re-export of SCOMET items under\nthe above Categories / Sub Categories shall be valid for a\nperiod of Three years from the date of issue of\nGAED subject to subsequent post reporting(s) on quarterly\nbasis to be reported within 30 days from the last quarter;\n6."
+    },
+    {
+      "id": "10.6.6",
+      "if": "| SCOMET\nAuthorisation\nIssued under\nGAET Policy | GAET issued for export / re-export of SCOMET items under\nthe above Categories / Sub Categories shall be valid for\nThree years from the date of issue of GAET subject to\nsubsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter\npg.",
+      "then": "SCOMET GAET issued for export / re-export of SCOMET items under\nAuthorisation the above Categories / Sub Categories shall be valid for\nIssued under Three years from the date of issue of GAET subject to\nGAET Policy subsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter\npg.",
+      "source": "| SCOMET\nAuthorisation\nIssued under\nGAET Policy | GAET issued for export / re-export of SCOMET items under\nthe above Categories / Sub Categories shall be valid for\nThree years from the date of issue of GAET subject to\nsubsequent post reporting(s) on quarterly basis to be\nreported within 30 days from the last quarter\npg."
+    }
+  ]
+}

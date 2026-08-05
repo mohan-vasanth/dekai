@@ -1,0 +1,37 @@
+{
+  "section": "4",
+  "ui": [
+    {
+      "screen_id": "Representative_of_the_Branch_Manager_of_the_concerned_Bank_overview",
+      "name": "Representative of the Branch Manager of the concerned Bank: Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Representative_of_the_Branch_Manager_of_the_concerned_Bank_submission",
+      "name": "Representative of the Branch Manager of the concerned Bank: Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "bank_flag",
+        "branch_flag",
+        "member_flag",
+        "manager_flag",
+        "concerned_flag"
+      ]
+    }
+  ]
+}

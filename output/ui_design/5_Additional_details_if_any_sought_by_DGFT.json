@@ -1,0 +1,36 @@
+{
+  "section": "5",
+  "ui": [
+    {
+      "screen_id": "Additional_details_if_any_sought_by_DGFT_overview",
+      "name": "Additional details, if any sought by DGFT. Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Additional_details_if_any_sought_by_DGFT_submission",
+      "name": "Additional details, if any sought by DGFT. Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "any_flag",
+        "dgft_flag",
+        "sought_flag",
+        "details_flag",
+        "additional_flag"
+      ]
+    }
+  ]
+}

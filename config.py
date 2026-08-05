@@ -37,6 +37,8 @@ class AppConfig:
     supported_suffixes: List[str] = field(default_factory=lambda: [".pdf"])
     section_heading_patterns: List[str] = field(
         default_factory=lambda: [
+            r"^(?P<section>\d{1,2})\.\s+(?P<title>[A-Z][A-Za-z0-9/&(),:;.\- ]{3,})$",
+            r"^(?P<section>\d{1,2})\s*[-:]\s*(?P<title>[A-Z][A-Za-z0-9/&(),:;.\- ]{3,})$",
             r"^(?P<section>\d{1,2}(?:\.\d+)+)\s+(?P<title>[A-Z][A-Za-z0-9/&(),:;.\- ]{3,})$",
             r"^(?P<section>\d{1,2}(?:\.\d+)+)\s*[-:]\s*(?P<title>[A-Z][A-Za-z0-9/&(),:;.\- ]{3,})$",
         ]

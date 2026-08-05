@@ -39,7 +39,9 @@
     "4.98 Fulfilment of export obligation\nDiamond Imprest Authorisation holder shall file online application in ANF 4K to\nRegional Authority concerned, as specified in Appendix 4A and upload prescribed\ndocuments in support of fulfilment of export obligation."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "4"
+  ],
   "documents": [
     "4.98 Fulfilment of export obligation\nDiamond Imprest Authorisation holder shall file online application in ANF 4K to\nRegional Authority concerned, as specified in Appendix 4A and upload prescribed\ndocuments in support of fulfilment of export obligation."
   ],
@@ -280,13 +282,15 @@
     "Capture chapter 4, section 4.98, title, and page references as immutable knowledge metadata.",
     "Bind validations for Fulfilment of export obligation into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 4.98 Fulfilment of export obligation\nDiamond Imprest Authorisation holder shall file online application in ANF 4K to\nRegional Authority concerned, as specified in Appendix 4A and upload prescribed\ndocuments in support of fulfilment of export obligation..",
-    "Route escalations or approvals to: Regional Authority."
+    "Route escalations or approvals to: Regional Authority.",
+    "Show contextual links to related sections: 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Fulfilment of export obligation section-la, Capture chapter 4, section 4.98, title, and page references as immutable knowledge metadata.",
     "Indha Fulfilment of export obligation section-la, Bind validations for Fulfilment of export obligation into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Fulfilment of export obligation section-la, Expose document upload controls for: 4.98 Fulfilment of export obligation\nDiamond Imprest Authorisation holder kandippa file online application in ANF 4K to\nRegional authority concerned, as specified in Appendix 4A and upload prescribed\ndocuments in support of fulfilment of export obligation..",
-    "Indha Fulfilment of export obligation section-la, Route escalations or approvals to: Regional authority."
+    "Indha Fulfilment of export obligation section-la, Route escalations or approvals to: Regional authority.",
+    "Indha Fulfilment of export obligation section-la, Show contextual links to related sections: 4."
   ],
   "keywords": [
     "ANF",
@@ -340,7 +344,9 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.98 Fulfilment of export obligation\nDiamond Imprest Authorisation holder shall file online application in ANF 4K to\nRegional Authority concerned, as specified in Appendix 4A and upload prescribed\ndocuments in support of fulfilment of export obligation."

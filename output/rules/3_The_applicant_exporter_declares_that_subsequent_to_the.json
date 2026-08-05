@@ -1,0 +1,22 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "3",
+  "title": "The applicant exporter declares that subsequent to the",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC3-R001",
+      "rule_description": "The applicant exporter declares that subsequent to the\nissuance of export authorization, if the licensee has been\nnotified in writing by DGFT or if they know or has reason to\nbelieve that an item may be intended for military end use\nor has a potential risk of use in or diversion to weapons of\nmass destruction (WMD) or in delivery of their missile\nsystem, the exporter would not be eligible for GAET for\nexport of that/those item(s) and would apply separately to\nDGFT for a fresh authorization in terms of regular policy.",
+      "trigger": "The applicant exporter declares that subsequent to the",
+      "condition": "The applicant exporter declares that subsequent to the\nissuance of export authorization, if the licensee has been\nnotified in writing by DGFT or if they know or has reason to\nbelieve that an item may be intended for military end use\nor has a potential risk of use in or diversion to weapons of\nmass destruction (WMD) or in delivery of their missile\nsystem, the exporter would not be eligible for GAET for\nexport of that/those item(s) and would apply separately to\nDGFT for a fresh authorization in terms of regular policy.",
+      "validation": "The applicant exporter declares that subsequent to the\nissuance of export authorization, if the licensee has been\nnotified in writing by DGFT or if they know or has reason to\nbelieve that an item may be intended for military end use\nor has a potential risk of use in or diversion to weapons of\nmass destruction (WMD) or in delivery of their missile\nsystem, the exporter would not be eligible for GAET for\nexport of that/those item(s) and would apply separately to\nDGFT for a fresh authorization in terms of regular policy.",
+      "action": "The applicant exporter declares that subsequent to the\nissuance of export authorization, if the licensee has been\nnotified in writing by DGFT or if they know or has reason to\nbelieve that an item may be intended for military end use\nor has a potential risk of use in or diversion to weapons of\nmass destruction (WMD) or in delivery of their missile\nsystem, the exporter would not be eligible for GAET for\nexport of that/those item(s) and would apply separately to\nDGFT for a fresh authorization in terms of regular policy.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - The applicant exporter declares that subsequent to the."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: The applicant exporter declares that subsequent to the\nissuance of export authorization, if the licensee has been\nnotified in writing by DGFT or if they know or has reason to\nbelieve that an item may be intended for military end use\nor has a potential risk of use in or diversion to weapons of\nmass destruction (WMD) or in delivery of their missile\nsystem, the exporter would not be eligible for GAET for\nexport of that/those item(s) and would apply separately to\nDGFT for a fresh authorization in terms of regular policy.",
+    "IF validations pass THEN recommend action: The applicant exporter declares that subsequent to the\nissuance of export authorization, if the licensee has been\nnotified in writing by DGFT or if they know or has reason to\nbelieve that an item may be intended for military end use\nor has a potential risk of use in or diversion to weapons of\nmass destruction (WMD) or in delivery of their missile\nsystem, the exporter would not be eligible for GAET for\nexport of that/those item(s) and would apply separately to\nDGFT for a fresh authorization in terms of regular policy."
+  ]
+}

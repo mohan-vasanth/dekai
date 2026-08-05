@@ -210,7 +210,8 @@
     "However, the provision of Tatkal\ncertificate of origin as being provided by some of the agencies would be\ndiscontinued."
   ],
   "dependencies": [
-    "47"
+    "47",
+    "1"
   ],
   "documents": [
     "Under the\nRegistered Exporter System (REX), exporters with a REX number are able to\nself-certify the Statement on Origin of their goods being exported to EU under\npg.",
@@ -538,14 +539,16 @@
     "Bind validations for Unilateral Tariff Preferences into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: Under the\nRegistered Exporter System (REX), exporters with a REX number are able to\nself-certify the Statement on Origin of their goods being exported to EU under\npg., Fees chargeable for issuance of preferential Certificate, Rules of Origin Certificate, However, the provision of Tatkal\ncertificate of origin as being provided by some of the agencies would be\ndiscontinued., The Certificate, The\ndetails of the scheme are at Annexure-1 to Appendix-2C..",
     "Route escalations or approvals to: Customs, Normally Customs, The competent Local Authorities.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Unilateral Tariff Preferences section-la, Capture chapter 2, section 2.89, title, and page references as immutable knowledge metadata.",
     "Indha Unilateral Tariff Preferences section-la, Bind validations for Unilateral Tariff Preferences into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Unilateral Tariff Preferences section-la, Expose document upload controls for: Under the\nRegistered Exporter System (REX), exporters with a REX number are able to\nself-certify the Statement on Origin of their goods being exported to EU under\npg., Fees chargeable for issuance of preferential Certificate, Rules of Origin Certificate, However, the provision of Tatkal\ncertificate of origin as being provided by some of the agencies would be\ndiscontinued., The Certificate, The\ndetails of the scheme are at Annexure-1 to Appendix-2C..",
     "Indha Unilateral Tariff Preferences section-la, Route escalations or approvals to: Customs, Normally Customs, The competent Local Authorities.",
-    "Indha Unilateral Tariff Preferences section-la, Trigger manual review when exception clauses are detected."
+    "Indha Unilateral Tariff Preferences section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Unilateral Tariff Preferences section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "and",
@@ -599,7 +602,9 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [
     "(iii) Further, as per the conditions required to avail GSP benefit under self-\ncertification system, the beneficiary country needs to have a verification system of\nsuch self-certified certificates of origin."

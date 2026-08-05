@@ -49,7 +49,9 @@
     "Such accounts shall be maintained for a minimum period\nof three years from date of exports."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "4"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -279,11 +281,13 @@
   ],
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.78, title, and page references as immutable knowledge metadata.",
-    "Bind validations for Maintenance of Accounts into a rule engine keyed by the rule IDs extracted for this section."
+    "Bind validations for Maintenance of Accounts into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Maintenance of Accounts section-la, Capture chapter 4, section 4.78, title, and page references as immutable knowledge metadata.",
-    "Indha Maintenance of Accounts section-la, Bind validations for Maintenance of Accounts into a rule engine keyed by the rule IDs extracted for this section."
+    "Indha Maintenance of Accounts section-la, Bind validations for Maintenance of Accounts into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Maintenance of Accounts section-la, Show contextual links to related sections: 4."
   ],
   "keywords": [
     "the",
@@ -336,7 +340,9 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.78 Maintenance of Accounts\nNominated Agency shall maintain complete account, consignment-wise, of the\ngold, silver, platinum, mountings, findings/ plain semi-finished gold/silver/\nplatinum jewellery etc.",

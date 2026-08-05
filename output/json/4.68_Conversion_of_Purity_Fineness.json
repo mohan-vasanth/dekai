@@ -58,7 +58,12 @@
     "4.68 Conversion of Purity/Fineness\nFor conversion of quantity of gold/ silver/platinum in terms of equivalent\nquantity in terms of fineness, following formula shall be used:\n(i)\nWhere items of gold has been exported in terms of carats, quantity of\ngold shall be multiplied by number of carat of gold exported, divided\nby 24 and thereafter again divided by 0.995/0.999/0.900 to arrive at\nequivalent quantity of gold in terms of fineness of 0.995/0.999/0.900\nrespectively; and\n(ii)\nWherever purity of item of export is expressed in terms of fineness, the\nquantity of gold/silver/platinum shall be multiplied by fineness of\ngold/silver/platinum exported and thereafter divided by 0.995 / 0.999\n/ 0.900 to arrive at equivalent quantity of gold/ silver/platinum in terms\nof 0.995 / 0.999 / 0.900 fineness respectively."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "2",
+    "4",
+    "5",
+    "6"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -268,11 +273,13 @@
   ],
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.68, title, and page references as immutable knowledge metadata.",
-    "Bind validations for Conversion of Purity/Fineness into a rule engine keyed by the rule IDs extracted for this section."
+    "Bind validations for Conversion of Purity/Fineness into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 2, 4, 5, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Conversion of Purity/Fineness section-la, Capture chapter 4, section 4.68, title, and page references as immutable knowledge metadata.",
-    "Indha Conversion of Purity/Fineness section-la, Bind validations for Conversion of Purity/Fineness into a rule engine keyed by the rule IDs extracted for this section."
+    "Indha Conversion of Purity/Fineness section-la, Bind validations for Conversion of Purity/Fineness into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Conversion of Purity/Fineness section-la, Show contextual links to related sections: 2, 4, 5, 6."
   ],
   "keywords": [
     "For",
@@ -325,7 +332,12 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "2",
+    "4",
+    "5",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.68 Conversion of Purity/Fineness\nFor conversion of quantity of gold/ silver/platinum in terms of equivalent\nquantity in terms of fineness, following formula shall be used:\n(i) Where items of gold has been exported in terms of carats, quantity of\ngold shall be multiplied by number of carat of gold exported, divided\nby 24 and thereafter again divided by 0.995/0.999/0.900 to arrive at\nequivalent quantity of gold in terms of fineness of 0.995/0.999/0.900\nrespectively; and\n(ii) Wherever purity of item of export is expressed in terms of fineness, the\nquantity of gold/silver/platinum shall be multiplied by fineness of\ngold/silver/platinum exported and thereafter divided by 0.995 / 0.999\n/ 0.900 to arrive at equivalent quantity of gold/ silver/platinum in terms\nof 0.995 / 0.999 / 0.900 fineness respectively.",

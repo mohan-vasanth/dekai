@@ -98,7 +98,10 @@
   "exceptions": [
     "However, in cases of re-export/return to an entity other than the\nOEM (including agencies authorized by OEM), approval will be granted by\nChairman, IMWG after verification of the credentials of the foreign entity to\nwhich the item(s) are to be exported."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "4"
+  ],
   "documents": [
     "End Use Certificate",
     "Applications for grant of authorisations for export to the entity from which it\nwas originally imported or to the OEM (including agency authorized by OEM)\nshall be approved by Chairman IMWG, without any consultation with IMWG\nmembers."
@@ -377,13 +380,15 @@
     "Capture chapter 10, section 10.14, title, and page references as immutable knowledge metadata.",
     "Bind validations for Issue of export authorisations for re-export/return of into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: End Use Certificate, Applications for grant of authorisations for export to the entity from which it\nwas originally imported or to the OEM (including agency authorized by OEM)\nshall be approved by Chairman IMWG, without any consultation with IMWG\nmembers..",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Issue of export authorisations for re-export/return of section-la, Capture chapter 10, section 10.14, title, and page references as immutable knowledge metadata.",
     "Indha Issue of export authorisations for re-export/return of section-la, Bind validations for Issue of export authorisations for re-export/return of into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Issue of export authorisations for re-export/return of section-la, Expose document upload controls for: End Use Certificate, Applications for grant of authorisations for export to the entity from which it\nwas originally imported or to the OEM (including agency authorized by OEM)\nkandippa be approved by Chairman IMWG, without any consultation with IMWG\nmembers..",
-    "Indha Issue of export authorisations for re-export/return of section-la, Trigger manual review when exception clauses are detected."
+    "Indha Issue of export authorisations for re-export/return of section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Issue of export authorisations for re-export/return of section-la, Show contextual links to related sections: 1, 4."
   ],
   "keywords": [
     "for",
@@ -437,7 +442,10 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "Conditions to be fulfilled:\nAn application for grant of an Authorisation for re-export/return of imported\nSCOMET items to the foreign entity from which it has been originally\nimported or to its OEM(including agency authorized by OEM),for reasons\nsuch as obsolescence of technology of imported items; cancellation of order\nby the Indian buyer /end user; dead on arrival etc., shall be considered by\nChairman IMWG, on fulfilment of the following conditions:\n(a) The export should only be to the entity from which the item(s)\nhas/have been imported or to the OEM (including agency/ies\nauthorized by OEM);\n(b) No details on ‘End Use’ and ‘End Use Certificate’ would be required;\n(c) No export authorisation would be granted for UNSC sanctioned\ndestinations or countries/entities of high risk, as assessed by the\nIMWG, from time to time;\n(d) The application is accompanied with relevant documents as prescribed\nin Appendix 10I, including proof of obsolescence/cancellation of order\nfor intended items and undertaking from the applicant firm;\n(e) Re-export/return of items due to reasons such as obsolescence of\ntechnology of imported items; cancellation of order by Indian\nbuyer/end user; dead on arrival etc.",

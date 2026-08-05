@@ -1,7 +1,19 @@
 {
   "resources": [
     "Committee-on-Quality-Complaint-Trade-Dispute-CQCTD",
+    "Jt-DGFT-Rajkot-Jt-DGFT-RA-Rajkot",
+    "Addl-DGFT-Addl-DGFT-RA-Hyderabad",
     "Composition-of-the-CQCTD",
+    "Additional-DGFT-Joint-DGFT-H-O-O-Chairperson",
+    "Representative-of-Bureau-of-India-Standard-BIS-Member",
+    "Representative-of-Agricultural-and-Processed-Food-Products-Export",
+    "Representative-of-the-Branch-Manager-of-the-concerned-Bank",
+    "Representative-of-Federation-of-Indian-Exporter-Organisation",
+    "Representative-of-Export-Inspection-Agency-Member",
+    "Nominee-of-Director-of-Industries-of-State-Government-Member",
+    "Nominee-of-Development-Commissioner-of-MSME-Member",
+    "Officer-as-nominated-by-Chairperson-Member-Secretary",
+    "Any-other-agency-as-co-opted-by-Chairperson-Member",
     "Online-Filing-and-Tracking-of-Quality-Complaints-Trade",
     "Mechanism-for-resolving-Quality-Complaints-Trade-Disputes",
     "Choice-to-pursue-other-options"
@@ -47,6 +59,84 @@
       ]
     },
     {
+      "section": "13",
+      "title": "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/13",
+          "purpose": "Retrieve knowledge payload for section 13",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Jt-DGFT-Rajkot-Jt-DGFT-RA-Rajkot/validate",
+          "purpose": "Validate inputs and documents for Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "17",
+      "title": "Addl. DGFT, Addl. DGFT RA, Hyderabad",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/17",
+          "purpose": "Retrieve knowledge payload for section 17",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Addl-DGFT-Addl-DGFT-RA-Hyderabad/validate",
+          "purpose": "Validate inputs and documents for Addl. DGFT, Addl. DGFT RA, Hyderabad",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
       "section": "8.02",
       "title": "Composition of the CQCTD",
       "apis": [
@@ -72,6 +162,396 @@
           "method": "POST",
           "path": "/api/dgft/Composition-of-the-CQCTD/validate",
           "purpose": "Validate inputs and documents for Composition of the CQCTD",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1",
+      "title": "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/1",
+          "purpose": "Retrieve knowledge payload for section 1",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Additional-DGFT-Joint-DGFT-H-O-O-Chairperson/validate",
+          "purpose": "Validate inputs and documents for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2",
+      "title": "Representative of Bureau of India Standard (BIS):Member",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/2",
+          "purpose": "Retrieve knowledge payload for section 2",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Representative-of-Bureau-of-India-Standard-BIS-Member/validate",
+          "purpose": "Validate inputs and documents for Representative of Bureau of India Standard (BIS):Member",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3",
+      "title": "Representative of Agricultural and Processed Food Products Export",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3",
+          "purpose": "Retrieve knowledge payload for section 3",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Representative-of-Agricultural-and-Processed-Food-Products-Export/validate",
+          "purpose": "Validate inputs and documents for Representative of Agricultural and Processed Food Products Export",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4",
+      "title": "Representative of the Branch Manager of the concerned Bank:",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4",
+          "purpose": "Retrieve knowledge payload for section 4",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Representative-of-the-Branch-Manager-of-the-concerned-Bank/validate",
+          "purpose": "Validate inputs and documents for Representative of the Branch Manager of the concerned Bank:",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5",
+      "title": "Representative of Federation of Indian Exporter Organisation",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5",
+          "purpose": "Retrieve knowledge payload for section 5",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Representative-of-Federation-of-Indian-Exporter-Organisation/validate",
+          "purpose": "Validate inputs and documents for Representative of Federation of Indian Exporter Organisation",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6",
+      "title": "Representative of Export Inspection Agency: Member",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6",
+          "purpose": "Retrieve knowledge payload for section 6",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Representative-of-Export-Inspection-Agency-Member/validate",
+          "purpose": "Validate inputs and documents for Representative of Export Inspection Agency: Member",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7",
+      "title": "Nominee of Director of Industries of State Government: Member",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7",
+          "purpose": "Retrieve knowledge payload for section 7",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Nominee-of-Director-of-Industries-of-State-Government-Member/validate",
+          "purpose": "Validate inputs and documents for Nominee of Director of Industries of State Government: Member",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "8",
+      "title": "Nominee of Development Commissioner of MSME: Member",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/8",
+          "purpose": "Retrieve knowledge payload for section 8",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Nominee-of-Development-Commissioner-of-MSME-Member/validate",
+          "purpose": "Validate inputs and documents for Nominee of Development Commissioner of MSME: Member",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "9",
+      "title": "Officer as nominated by Chairperson: Member Secretary",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/9",
+          "purpose": "Retrieve knowledge payload for section 9",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Officer-as-nominated-by-Chairperson-Member-Secretary/validate",
+          "purpose": "Validate inputs and documents for Officer as nominated by Chairperson: Member Secretary",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10",
+      "title": "Any other agency, as co-opted by Chairperson: Member.",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10",
+          "purpose": "Retrieve knowledge payload for section 10",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Any-other-agency-as-co-opted-by-Chairperson-Member/validate",
+          "purpose": "Validate inputs and documents for Any other agency, as co-opted by Chairperson: Member.",
           "request_fields": [
             "section_code",
             "section_title"

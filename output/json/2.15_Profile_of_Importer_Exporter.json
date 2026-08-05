@@ -54,7 +54,9 @@
     "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1"
+  ],
   "documents": [
     "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
     "c) Proof of status as manufacturer exporter is also to be uploaded under the Profile."
@@ -311,12 +313,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 2, section 2.15, title, and page references as immutable knowledge metadata.",
     "Bind validations for Profile of Importer / Exporter into a rule engine keyed by the rule IDs extracted for this section.",
-    "Expose document upload controls for: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., c) Proof of status as manufacturer exporter is also to be uploaded under the Profile.."
+    "Expose document upload controls for: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., c) Proof of status as manufacturer exporter is also to be uploaded under the Profile..",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Profile of Importer / Exporter section-la, Capture chapter 2, section 2.15, title, and page references as immutable knowledge metadata.",
     "Indha Profile of Importer / Exporter section-la, Bind validations for Profile of Importer / Exporter into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Profile of Importer / Exporter section-la, Expose document upload controls for: b) documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., c) Proof of status as manufacturer exporter is also to be uploaded under the Profile.."
+    "Indha Profile of Importer / Exporter section-la, Expose document upload controls for: b) documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., c) Proof of status as manufacturer exporter is also to be uploaded under the Profile..",
+    "Indha Profile of Importer / Exporter section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "the",
@@ -370,7 +374,9 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [
     "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year."

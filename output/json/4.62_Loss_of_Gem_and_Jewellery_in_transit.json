@@ -39,7 +39,11 @@
     "4.62 Loss of Gem and Jewellery in transit\nConsignments of gem and jewellery items exported out of country and lost in\ntransit after exports, where foreign exchange against such exports has been\nrealised or insurance claims settled, will also be eligible for REP Authorisation."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "2",
+    "4",
+    "6"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -245,11 +249,13 @@
   ],
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.62, title, and page references as immutable knowledge metadata.",
-    "Bind validations for Loss of Gem and Jewellery in transit into a rule engine keyed by the rule IDs extracted for this section."
+    "Bind validations for Loss of Gem and Jewellery in transit into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 2, 4, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Loss of Gem and Jewellery in transit section-la, Capture chapter 4, section 4.62, title, and page references as immutable knowledge metadata.",
-    "Indha Loss of Gem and Jewellery in transit section-la, Bind validations for Loss of Gem and Jewellery in transit into a rule engine keyed by the rule IDs extracted for this section."
+    "Indha Loss of Gem and Jewellery in transit section-la, Bind validations for Loss of Gem and Jewellery in transit into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Loss of Gem and Jewellery in transit section-la, Show contextual links to related sections: 2, 4, 6."
   ],
   "keywords": [
     "Gem",
@@ -302,7 +308,11 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "2",
+    "4",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.62 Loss of Gem and Jewellery in transit\nConsignments of gem and jewellery items exported out of country and lost in\ntransit after exports, where foreign exchange against such exports has been\nrealised or insurance claims settled, will also be eligible for REP Authorisation."

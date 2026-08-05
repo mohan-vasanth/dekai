@@ -1,0 +1,37 @@
+{
+  "section": "3",
+  "ui": [
+    {
+      "screen_id": "Comprehensive_analysis_of_the_strength_of_each_district_and_the_gaps_in_overview",
+      "name": "Comprehensive analysis of the strength of each district and the gaps in Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Comprehensive_analysis_of_the_strength_of_each_district_and_the_gaps_in_submission",
+      "name": "Comprehensive analysis of the strength of each district and the gaps in Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "etc_flag",
+        "for_flag",
+        "new_flag",
+        "each_flag"
+      ]
+    }
+  ]
+}

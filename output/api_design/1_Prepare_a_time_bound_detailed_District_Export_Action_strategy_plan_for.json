@@ -1,0 +1,38 @@
+{
+  "section": "1",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/1",
+      "purpose": "Retrieve knowledge payload for section 1",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Prepare-a-time-bound-detailed-District-Export-Action-strategy-plan-for/validate",
+      "purpose": "Validate inputs and documents for Prepare a time-bound, detailed District Export Action strategy / plan for",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

@@ -53,6 +53,7 @@
     "Import-of-Restricted-items-required-by-Hotels-Restaurants-Travel",
     "Import-of-Restricted-items-for-R-D-by-units-of-Government",
     "Import-of-Metallic-Waste-and-Scrap",
+    "Chennai-2-Cochin-3-Ennore-4-JNPT-5-Kandla-6-Mormugao-7",
     "Recognition-as-Pre-shipment-Inspection-Agency-PSIA-and-issuance",
     "Responsibility-and-Liability-of-PSIA-and-Importer",
     "Import-of-other-kinds-of-metallic-waste-and-scraps",
@@ -2917,6 +2918,48 @@
             "status",
             "authority",
             "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1",
+      "title": "Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/1",
+          "purpose": "Retrieve knowledge payload for section 1",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Chennai-2-Cochin-3-Ennore-4-JNPT-5-Kandla-6-Mormugao-7/validate",
+          "purpose": "Validate inputs and documents for Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
           ]
         }
       ]

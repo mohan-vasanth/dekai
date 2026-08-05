@@ -1,0 +1,38 @@
+{
+  "section": "5",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5",
+      "purpose": "Retrieve knowledge payload for section 5",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Map-the-existing-trade-infrastructure-available-for-thrust-sector-in-the/validate",
+      "purpose": "Validate inputs and documents for Map the existing trade infrastructure available for thrust sector in the",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

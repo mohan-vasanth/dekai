@@ -1,0 +1,37 @@
+{
+  "section": "5",
+  "ui": [
+    {
+      "screen_id": "Map_the_existing_trade_infrastructure_available_for_thrust_sector_in_the_overview",
+      "name": "Map the existing trade infrastructure available for thrust sector in the Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Map_the_existing_trade_infrastructure_available_for_thrust_sector_in_the_submission",
+      "name": "Map the existing trade infrastructure available for thrust sector in the Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "map_flag",
+        "the_flag",
+        "for_flag",
+        "trade_flag",
+        "thrust_flag",
+        "sector_flag"
+      ]
+    }
+  ]
+}

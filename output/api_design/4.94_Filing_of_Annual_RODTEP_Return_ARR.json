@@ -25,32 +25,13 @@
       "purpose": "Validate inputs and documents for Filing of Annual RODTEP Return (ARR)",
       "request_fields": [
         "section_code",
-        "section_title",
-        "document_1_submitted",
-        "document_2_submitted"
+        "section_title"
       ],
       "response_fields": [
         "status",
         "errors",
         "warnings",
         "next_actions"
-      ]
-    },
-    {
-      "method": "POST",
-      "path": "/api/dgft/Filing-of-Annual-RODTEP-Return-ARR/execute",
-      "purpose": "Trigger business action for 129\nNominated Agencies\nThe guidelines on import of precious metal by the nominated agencies and\nmonitoring are as under:\n(a)\nFollowing guidelines for monitoring the import of precious metal and\nits distribution and / or own use by the Nominated Agencies will be\nfollowed, (other than the Banks nominated by RBI for this purpose):\n(i)\nEvery Nominated Agency is required to maintain records of\nimports of precious metal (both quantity and value) and its\ndistribution for the purpose of exports of value added product as\nwell as for the purpose of domestic consumption as per the format\ngiven in Appendix 4-M of Hand Book of Procedures.",
-      "request_fields": [
-        "section_code",
-        "section_title",
-        "document_1_submitted",
-        "document_2_submitted"
-      ],
-      "response_fields": [
-        "reference_id",
-        "status",
-        "authority",
-        "timeline"
       ]
     }
   ]

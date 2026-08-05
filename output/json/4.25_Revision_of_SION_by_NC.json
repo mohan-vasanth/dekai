@@ -64,7 +64,11 @@
     "Otherwise, applicant\nshall not be allowed to take benefit of Advance Authorisation scheme."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "2",
+    "4",
+    "5"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -297,12 +301,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.25, title, and page references as immutable knowledge metadata.",
     "Bind validations for Revision of SION by NC into a rule engine keyed by the rule IDs extracted for this section.",
-    "Route escalations or approvals to: Norms Committee, DGFT."
+    "Route escalations or approvals to: Norms Committee, DGFT.",
+    "Show contextual links to related sections: 2, 4, 5."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Revision of SION by NC section-la, Capture chapter 4, section 4.25, title, and page references as immutable knowledge metadata.",
     "Indha Revision of SION by NC section-la, Bind validations for Revision of SION by NC into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Revision of SION by NC section-la, Route escalations or approvals to: Norms Committee, DGFT."
+    "Indha Revision of SION by NC section-la, Route escalations or approvals to: Norms Committee, DGFT.",
+    "Indha Revision of SION by NC section-la, Show contextual links to related sections: 2, 4, 5."
   ],
   "keywords": [
     "may",
@@ -355,7 +361,11 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "2",
+    "4",
+    "5"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.25 Revision of SION by NC\nNorms Committee may identify SIONs which in its opinion are required to be\nreviewed.",

@@ -2,8 +2,32 @@
   "screen_ids": [
     "Committee_on_Quality_Complaint_Trade_Dispute_CQCTD_overview",
     "Committee_on_Quality_Complaint_Trade_Dispute_CQCTD_submission",
+    "Jt_DGFT_Rajkot_Jt_DGFT_RA_Rajkot_overview",
+    "Jt_DGFT_Rajkot_Jt_DGFT_RA_Rajkot_submission",
+    "Addl_DGFT_Addl_DGFT_RA_Hyderabad_overview",
+    "Addl_DGFT_Addl_DGFT_RA_Hyderabad_submission",
     "Composition_of_the_CQCTD_overview",
     "Composition_of_the_CQCTD_submission",
+    "Additional_DGFT_Joint_DGFT_H_O_O_Chairperson_overview",
+    "Additional_DGFT_Joint_DGFT_H_O_O_Chairperson_submission",
+    "Representative_of_Bureau_of_India_Standard_BIS_Member_overview",
+    "Representative_of_Bureau_of_India_Standard_BIS_Member_submission",
+    "Representative_of_Agricultural_and_Processed_Food_Products_Export_overview",
+    "Representative_of_Agricultural_and_Processed_Food_Products_Export_submission",
+    "Representative_of_the_Branch_Manager_of_the_concerned_Bank_overview",
+    "Representative_of_the_Branch_Manager_of_the_concerned_Bank_submission",
+    "Representative_of_Federation_of_Indian_Exporter_Organisation_overview",
+    "Representative_of_Federation_of_Indian_Exporter_Organisation_submission",
+    "Representative_of_Export_Inspection_Agency_Member_overview",
+    "Representative_of_Export_Inspection_Agency_Member_submission",
+    "Nominee_of_Director_of_Industries_of_State_Government_Member_overview",
+    "Nominee_of_Director_of_Industries_of_State_Government_Member_submission",
+    "Nominee_of_Development_Commissioner_of_MSME_Member_overview",
+    "Nominee_of_Development_Commissioner_of_MSME_Member_submission",
+    "Officer_as_nominated_by_Chairperson_Member_Secretary_overview",
+    "Officer_as_nominated_by_Chairperson_Member_Secretary_submission",
+    "Any_other_agency_as_co_opted_by_Chairperson_Member_overview",
+    "Any_other_agency_as_co_opted_by_Chairperson_Member_submission",
     "Online_Filing_and_Tracking_of_Quality_Complaints_Trade_overview",
     "Online_Filing_and_Tracking_of_Quality_Complaints_Trade_submission",
     "Mechanism_for_resolving_Quality_Complaints_Trade_Disputes_overview",
@@ -52,6 +76,82 @@
       ]
     },
     {
+      "section": "13",
+      "title": "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot",
+      "ui": [
+        {
+          "screen_id": "Jt_DGFT_Rajkot_Jt_DGFT_RA_Rajkot_overview",
+          "name": "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Jt_DGFT_Rajkot_Jt_DGFT_RA_Rajkot_submission",
+          "name": "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "dgft_flag",
+            "zone_flag",
+            "addl_flag",
+            "rajkot_flag",
+            "eastern_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "17",
+      "title": "Addl. DGFT, Addl. DGFT RA, Hyderabad",
+      "ui": [
+        {
+          "screen_id": "Addl_DGFT_Addl_DGFT_RA_Hyderabad_overview",
+          "name": "Addl. DGFT, Addl. DGFT RA, Hyderabad Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Addl_DGFT_Addl_DGFT_RA_Hyderabad_submission",
+          "name": "Addl. DGFT, Addl. DGFT RA, Hyderabad Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "addl_flag",
+            "dgft_flag",
+            "surat_flag",
+            "trade_flag",
+            "kanpur_flag"
+          ]
+        }
+      ]
+    },
+    {
       "section": "8.02",
       "title": "Composition of the CQCTD",
       "ui": [
@@ -85,6 +185,381 @@
             "and_flag",
             "any_flag",
             "dgft_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1",
+      "title": "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+      "ui": [
+        {
+          "screen_id": "Additional_DGFT_Joint_DGFT_H_O_O_Chairperson_overview",
+          "name": "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Additional_DGFT_Joint_DGFT_H_O_O_Chairperson_submission",
+          "name": "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "dgft_flag",
+            "additional_flag",
+            "dgft_joint_flag",
+            "chairperson_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2",
+      "title": "Representative of Bureau of India Standard (BIS):Member",
+      "ui": [
+        {
+          "screen_id": "Representative_of_Bureau_of_India_Standard_BIS_Member_overview",
+          "name": "Representative of Bureau of India Standard (BIS):Member Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Representative_of_Bureau_of_India_Standard_BIS_Member_submission",
+          "name": "Representative of Bureau of India Standard (BIS):Member Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "bis_flag",
+            "india_flag",
+            "bureau_flag",
+            "member_flag",
+            "standard_flag",
+            "representative_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3",
+      "title": "Representative of Agricultural and Processed Food Products Export",
+      "ui": [
+        {
+          "screen_id": "Representative_of_Agricultural_and_Processed_Food_Products_Export_overview",
+          "name": "Representative of Agricultural and Processed Food Products Export Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Representative_of_Agricultural_and_Processed_Food_Products_Export_submission",
+          "name": "Representative of Agricultural and Processed Food Products Export Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "food_flag",
+            "apeda_flag",
+            "export_flag",
+            "member_flag",
+            "products_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4",
+      "title": "Representative of the Branch Manager of the concerned Bank:",
+      "ui": [
+        {
+          "screen_id": "Representative_of_the_Branch_Manager_of_the_concerned_Bank_overview",
+          "name": "Representative of the Branch Manager of the concerned Bank: Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Representative_of_the_Branch_Manager_of_the_concerned_Bank_submission",
+          "name": "Representative of the Branch Manager of the concerned Bank: Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "bank_flag",
+            "branch_flag",
+            "member_flag",
+            "manager_flag",
+            "concerned_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5",
+      "title": "Representative of Federation of Indian Exporter Organisation",
+      "ui": [
+        {
+          "screen_id": "Representative_of_Federation_of_Indian_Exporter_Organisation_overview",
+          "name": "Representative of Federation of Indian Exporter Organisation Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Representative_of_Federation_of_Indian_Exporter_Organisation_submission",
+          "name": "Representative of Federation of Indian Exporter Organisation Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "fieo_flag",
+            "indian_flag",
+            "export_flag",
+            "boards_flag",
+            "member_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6",
+      "title": "Representative of Export Inspection Agency: Member",
+      "ui": [
+        {
+          "screen_id": "Representative_of_Export_Inspection_Agency_Member_overview",
+          "name": "Representative of Export Inspection Agency: Member Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Representative_of_Export_Inspection_Agency_Member_submission",
+          "name": "Representative of Export Inspection Agency: Member Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "export_flag",
+            "agency_flag",
+            "member_flag",
+            "inspection_flag",
+            "representative_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7",
+      "title": "Nominee of Director of Industries of State Government: Member",
+      "ui": [
+        {
+          "screen_id": "Nominee_of_Director_of_Industries_of_State_Government_Member_overview",
+          "name": "Nominee of Director of Industries of State Government: Member Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Nominee_of_Director_of_Industries_of_State_Government_Member_submission",
+          "name": "Nominee of Director of Industries of State Government: Member Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "state_flag",
+            "member_flag",
+            "nominee_flag",
+            "director_flag",
+            "industries_flag",
+            "government_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "8",
+      "title": "Nominee of Development Commissioner of MSME: Member",
+      "ui": [
+        {
+          "screen_id": "Nominee_of_Development_Commissioner_of_MSME_Member_overview",
+          "name": "Nominee of Development Commissioner of MSME: Member Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Nominee_of_Development_Commissioner_of_MSME_Member_submission",
+          "name": "Nominee of Development Commissioner of MSME: Member Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "msme_flag",
+            "member_flag",
+            "nominee_flag",
+            "development_flag",
+            "commissioner_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "9",
+      "title": "Officer as nominated by Chairperson: Member Secretary",
+      "ui": [
+        {
+          "screen_id": "Officer_as_nominated_by_Chairperson_Member_Secretary_overview",
+          "name": "Officer as nominated by Chairperson: Member Secretary Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Officer_as_nominated_by_Chairperson_Member_Secretary_submission",
+          "name": "Officer as nominated by Chairperson: Member Secretary Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "member_flag",
+            "officer_flag",
+            "nominated_flag",
+            "secretary_flag",
+            "chairperson_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10",
+      "title": "Any other agency, as co-opted by Chairperson: Member.",
+      "ui": [
+        {
+          "screen_id": "Any_other_agency_as_co_opted_by_Chairperson_Member_overview",
+          "name": "Any other agency, as co-opted by Chairperson: Member. Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Any_other_agency_as_co_opted_by_Chairperson_Member_submission",
+          "name": "Any other agency, as co-opted by Chairperson: Member. Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "any_flag",
+            "other_flag",
+            "agency_flag",
+            "member_flag",
+            "co_opted_flag",
+            "chairperson_flag"
           ]
         }
       ]

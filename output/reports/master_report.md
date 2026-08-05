@@ -1,23 +1,22 @@
 # DEKAI DGFT Master Knowledge Report
 
 - Knowledge Base: DEKAI DGFT Knowledge Base
-- Source Documents: HBP2023_Chapter01.pdf, HBP Chapter 2.pdf, HBP2023_Chapter03.pdf, HBP2023_Chapter04+as+on+20.04.2026.pdf, HBP2023_Chapter05.pdf, HBP-Chapter-6.pdf, Chapter-7-of-HBP-2023.pdf, HBP2023_Chapter08.pdf, HBP2023_Chapter09.pdf, Chapter+10+HBP+(19.05.2026).pdf, TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf
-- Chapters: 11
-- Sections: 327
-- Unified Topics: 594
+- Source Documents: HBP2023_Chapter01.pdf, HBP Chapter 2.pdf, HBP2023_Chapter03.pdf, HBP2023_Chapter04+as+on+20.04.2026.pdf, HBP-Chapter-6.pdf, Chapter-7-of-HBP-2023.pdf, HBP2023_Chapter08.pdf, HBP2023_Chapter09.pdf, Chapter+10+HBP+(19.05.2026).pdf, TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf
+- Chapters: 10
+- Sections: 392
+- Unified Topics: 595
 
 ## Chapter Reports
-- Chapter  TradeNetDeclaration.IPTDEC Ver2.1 (2): rules=17, conditions=356, validations=16, workflows=17, authorities=12, timelines=0, exceptions=43
+- Chapter  TradeNetDeclaration.IPTDEC Ver2.1 (2): rules=30, conditions=362, validations=18, workflows=68, authorities=19, timelines=0, exceptions=43
 - Chapter 1 Legal Framework and Trade Facilitation: rules=23, conditions=32, validations=24, workflows=77, authorities=35, timelines=9, exceptions=2
-- Chapter 2 General Provisions Regarding Imports and Exports: rules=273, conditions=404, validations=262, workflows=604, authorities=201, timelines=123, exceptions=90
-- Chapter 3 Developing Districts as Export Hubs: rules=12, conditions=32, validations=13, workflows=27, authorities=53, timelines=0, exceptions=0
-- Chapter 4 Duty Exemption / Remission Schemes: rules=622, conditions=482, validations=602, workflows=741, authorities=241, timelines=257, exceptions=98
-- Chapter 5 Export Promotion Capital Goods (EPCG) Scheme: rules=129, conditions=104, validations=127, workflows=181, authorities=41, timelines=34, exceptions=17
+- Chapter 2 General Provisions Regarding Imports and Exports: rules=273, conditions=404, validations=262, workflows=611, authorities=203, timelines=123, exceptions=90
+- Chapter 3 Developing Districts as Export Hubs: rules=35, conditions=42, validations=14, workflows=83, authorities=66, timelines=0, exceptions=0
+- Chapter 4 Duty Exemption / Remission Schemes: rules=628, conditions=487, validations=606, workflows=760, authorities=248, timelines=264, exceptions=98
 - Chapter 6 Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology: rules=204, conditions=144, validations=181, workflows=268, authorities=77, timelines=73, exceptions=34
 - Chapter 7 Deemed Exports: rules=50, conditions=38, validations=47, workflows=76, authorities=18, timelines=17, exceptions=15
-- Chapter 8 Quality Complaints and Trade Disputes: rules=5, conditions=4, validations=0, workflows=13, authorities=24, timelines=0, exceptions=1
+- Chapter 8 Quality Complaints and Trade Disputes: rules=17, conditions=4, validations=0, workflows=49, authorities=40, timelines=0, exceptions=1
 - Chapter 9 Promoting Cross Border Trade in Digital Economy: rules=9, conditions=5, validations=8, workflows=8, authorities=2, timelines=1, exceptions=0
-- Chapter 10 SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies: rules=216, conditions=314, validations=245, workflows=181, authorities=77, timelines=147, exceptions=37
+- Chapter 10 SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies: rules=240, conditions=337, validations=261, workflows=351, authorities=96, timelines=153, exceptions=39
 
 ## Master Knowledge Map
 DGFT
@@ -52,11 +51,15 @@ DGFT
 |   +-- 3.01 Policy
 |   +-- 3.02 Objective of policy
 |   +-- 3.03 District Export Promotion Committees -Institutional Mechanism at
-|   +-- 3.05 District Export Action Plans for Each District
-|   +-- 3.06 State/UT Export Promotion Committees
-|   +-- 3.07 Nodal DGFT Regional Authority
-|   +-- 3.08 Online Monitoring of District Export Action Plans
-|   +-- 3.09 District Outreach Programs
+|   +-- 1 Prepare a time-bound, detailed District Export Action strategy / plan for
+|   +-- 2 Benchmarking baseline export performance of the district, including
+|   +-- 3 Comprehensive analysis of the strength of each district and the gaps in
+|   +-- 4 Goods and services being manufactured/produced in the district,
+|   +-- 5 Map the existing trade infrastructure available for thrust sector in the
+|   +-- 6 Identify major bottlenecks and challenges hindering export of thrust
+|   +-- 7 Identifying training and development needs of District industries and
+|   +-- 8 Dissemination of information through trainings, seminars, guest lectures,
+|   +-- 9 Act as one point facilitator for export promotion at District level.
 +-- Chapter 4: Duty Exemption / Remission Schemes
 |   +-- 4.01 Policy
 |   +-- 4.02 General Provision
@@ -70,19 +73,6 @@ DGFT
 |   +-- 4.10 Advance Authorisation for applicants with multiple units
 |   +-- 4.11 Advance Authorisation for Free of Cost and Paid Material
 |   +-- 4.12 Entitlement
-+-- Chapter 5: Export Promotion Capital Goods (EPCG) Scheme
-|   +-- 5.01 Policy
-|   +-- 5.02 Application Form
-|   +-- 5.03 Nexus Certification
-|   +-- 5.04 Certificate of Installation of Capital Goods
-|   +-- 5.05 Port of Registration
-|   +-- 5.06 Import of spares, tools, refractories and catalysts
-|   +-- 5.07 Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG
-|   +-- 5.08 Procurement from SEZ
-|   +-- 5.09 Sourcing of Capital Goods Manufactured Indigenously
-|   +-- 5.10 Conditions for fulfillment of Export Obligation
-|   +-- 5.11 Realization of Export proceeds
-|   +-- 5.12 Calculation of Average Export Obligation
 +-- Chapter 6: Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology
 |   +-- 6.00 Scheme
 |   +-- 6.01 Application / Approval / Renewal of approval
@@ -111,10 +101,17 @@ DGFT
 |   +-- 7.11 Internal Audit Mechanism
 +-- Chapter 8: Quality Complaints and Trade Disputes
 |   +-- 8.01 Committee on Quality Complaint & Trade Dispute (CQCTD)
+|   +-- 13 Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot
+|   +-- 17 Addl. DGFT, Addl. DGFT RA, Hyderabad
 |   +-- 8.02 Composition of the CQCTD
-|   +-- 8.03 Online Filing and Tracking of Quality Complaints/Trade
-|   +-- 8.04 Mechanism for resolving Quality Complaints/Trade Disputes
-|   +-- 8.05 Choice to pursue other options
+|   +-- 1 Additional DGFT/Joint DGFT/ (H.O.O):Chairperson
+|   +-- 2 Representative of Bureau of India Standard (BIS):Member
+|   +-- 3 Representative of Agricultural and Processed Food Products Export
+|   +-- 4 Representative of the Branch Manager of the concerned Bank:
+|   +-- 5 Representative of Federation of Indian Exporter Organisation
+|   +-- 6 Representative of Export Inspection Agency: Member
+|   +-- 7 Nominee of Director of Industries of State Government: Member
+|   +-- 8 Nominee of Development Commissioner of MSME: Member
 +-- Chapter 9: Promoting Cross Border Trade in Digital Economy
 |   +-- 9.00 Policy
 |   +-- 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce

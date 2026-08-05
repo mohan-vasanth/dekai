@@ -26,7 +26,9 @@
   "condition_logic": [],
   "validations": [],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -229,11 +231,13 @@
   ],
   "dekai_ai_implementation_notes": [
     "Capture chapter 2, section 2.11, title, and page references as immutable knowledge metadata.",
-    "Bind validations for Validity of IEC for EOUs / SEZs into a rule engine keyed by the rule IDs extracted for this section."
+    "Bind validations for Validity of IEC for EOUs / SEZs into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Validity of IEC for EOUs / SEZs section-la, Capture chapter 2, section 2.11, title, and page references as immutable knowledge metadata.",
-    "Indha Validity of IEC for EOUs / SEZs section-la, Bind validations for Validity of IEC for EOUs / SEZs into a rule engine keyed by the rule IDs extracted for this section."
+    "Indha Validity of IEC for EOUs / SEZs section-la, Bind validations for Validity of IEC for EOUs / SEZs into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Validity of IEC for EOUs / SEZs section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "IEC",
@@ -275,7 +279,9 @@
     "Validity of IEC for EOUs / SEZs",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [

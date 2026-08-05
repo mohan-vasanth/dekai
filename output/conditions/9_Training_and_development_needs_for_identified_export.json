@@ -1,0 +1,35 @@
+{
+  "section": "9",
+  "conditions": [
+    "Training and development needs for identified export\nproducts/services.",
+    "| | Identifying institutional responsibilities, specifics of policy, |\n| | regulatory and operational reforms.",
+    "| | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation.",
+    "| | Training and development needs for identified export |\n| | products/services."
+  ],
+  "condition_logic": [
+    {
+      "id": "3.9.1",
+      "if": "Training and development needs for identified export\nproducts/services.",
+      "then": "Route for review",
+      "source": "Training and development needs for identified export\nproducts/services."
+    },
+    {
+      "id": "3.9.2",
+      "if": "| | Identifying institutional responsibilities, specifics of policy, |\n| | regulatory and operational reforms.",
+      "then": "Route for review",
+      "source": "| | Identifying institutional responsibilities, specifics of policy, |\n| | regulatory and operational reforms."
+    },
+    {
+      "id": "3.9.3",
+      "if": "| | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation.",
+      "then": "Route for review",
+      "source": "| | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation."
+    },
+    {
+      "id": "3.9.4",
+      "if": "| | Training and development needs for identified export |\n| | products/services.",
+      "then": "Route for review",
+      "source": "| | Training and development needs for identified export |\n| | products/services."
+    }
+  ]
+}

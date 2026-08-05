@@ -26,7 +26,13 @@
   "condition_logic": [],
   "validations": [],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [
@@ -306,11 +312,13 @@
   ],
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.59, title, and page references as immutable knowledge metadata.",
-    "Bind validations for Wastage Norms into a rule engine keyed by the rule IDs extracted for this section."
+    "Bind validations for Wastage Norms into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 5."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Wastage Norms section-la, Capture chapter 4, section 4.59, title, and page references as immutable knowledge metadata.",
-    "Indha Wastage Norms section-la, Bind validations for Wastage Norms into a rule engine keyed by the rule IDs extracted for this section."
+    "Indha Wastage Norms section-la, Bind validations for Wastage Norms into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Wastage Norms section-la, Show contextual links to related sections: 1, 2, 3, 4, 5."
   ],
   "keywords": [
     "and",
@@ -362,7 +370,13 @@
     "Wastage Norms",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [

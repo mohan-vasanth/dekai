@@ -35,6 +35,7 @@ class ChatRequest(BaseModel):
     question: str
     aiModel: str | None = None
     language: str | None = None
+    currentDocumentName: str | None = None
 
 
 class SettingsPatch(BaseModel):
@@ -152,10 +153,14 @@ def _latest_timestamp_text(*values: Any) -> str | None:
 
 def _document_stage_fallback(status_value: str) -> list[dict[str, str]]:
     return [
-        {"label": "Uploading", "state": "complete"},
-        {"label": "Reading PDF", "state": "current" if status_value == "processing" else "complete"},
-        {"label": "Extracting Sections", "state": "upcoming" if status_value == "processing" else "complete"},
-        {"label": "Knowledge Base Ready", "state": "upcoming" if status_value == "processing" else "complete"},
+        {"label": "Validate PDF", "state": "complete"},
+        {"label": "Extract Text", "state": "current" if status_value == "processing" else "complete"},
+        {"label": "Convert to Markdown", "state": "upcoming" if status_value == "processing" else "complete"},
+        {"label": "Identify Sections", "state": "upcoming" if status_value == "processing" else "complete"},
+        {"label": "Generate Chunks", "state": "upcoming" if status_value == "processing" else "complete"},
+        {"label": "Create Embeddings", "state": "upcoming" if status_value == "processing" else "complete"},
+        {"label": "Index into Knowledge Base", "state": "upcoming" if status_value == "processing" else "complete"},
+        {"label": "Ready", "state": "upcoming" if status_value == "processing" else "complete"},
     ]
 
 
@@ -423,6 +428,14 @@ def _documents_payload() -> dict[str, Any]:
     }
 
 
+def _document_index_debug_payload(document_name: str) -> dict[str, Any]:
+    snapshot = knowledge_engine_service.document_index_snapshot(document_name)
+    return {
+        "document": snapshot,
+        "versionHistory": document_version_service.get_lineage(document_name),
+    }
+
+
 @app.get("/api/health")
 def health() -> dict[str, str]:
     return {"status": "ok"}
@@ -589,6 +602,44 @@ def search(q: str, mode: str = "keyword", user: AuthUser = Depends(get_current_u
     return {"results": search_service.search(q, mode)}
 
 
+@app.get("/api/debug/documents/{document_id}/index")
+def document_index_debug(document_id: str, user: AuthUser = Depends(get_admin_user)) -> dict[str, Any]:
+    document_name = _find_document_name(document_id)
+    return _document_index_debug_payload(document_name)
+
+
+@app.post("/api/debug/chat-trace")
+def chat_trace(payload: ChatRequest, user: AuthUser = Depends(get_admin_user)) -> dict[str, Any]:
+    settings = settings_service.get_settings(user.email)
+    ai_model = payload.aiModel or settings.get("aiModel", "")
+    language = payload.language or settings.get("language", "English")
+    chat_service._current_document_name = payload.currentDocumentName or ""
+    try:
+        answer = chat_service.build_answer(payload.question, ai_model=ai_model, language=language)
+    finally:
+        if hasattr(chat_service, "_current_document_name"):
+            delattr(chat_service, "_current_document_name")
+    trace = chat_service.get_last_trace()
+
+    debug_documents: dict[str, Any] = {}
+    for document_name in {
+        str(payload.currentDocumentName or "").strip(),
+        str(trace.get("detected_document", "")).strip(),
+        str(trace.get("final_source_document", "")).strip(),
+        str(answer.get("referencedPdf", "")).strip(),
+        *[str(name).strip() for name in answer.get("sourcePdfs", [])],
+    }:
+        if document_name:
+            debug_documents[document_name] = _document_index_debug_payload(document_name)["document"]
+
+    return {
+        "question": payload.question,
+        "answer": answer,
+        "trace": trace,
+        "documents": debug_documents,
+    }
+
+
 @app.post("/api/chat/stream")
 async def stream_chat(payload: ChatRequest, user: AuthUser = Depends(get_current_user)) -> StreamingResponse:
     settings = settings_service.get_settings(user.email)
@@ -596,7 +647,12 @@ async def stream_chat(payload: ChatRequest, user: AuthUser = Depends(get_current
     language = payload.language or settings.get("language", "English")
 
     async def event_stream():
-        for event in chat_service.stream_events(payload.question, ai_model=ai_model, language=language):
+        for event in chat_service.stream_events(
+            payload.question,
+            ai_model=ai_model,
+            language=language,
+            current_document_name=payload.currentDocumentName or "",
+        ):
             yield f"{event}\n"
             await asyncio.sleep(0.02)
 

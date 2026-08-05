@@ -3,14 +3,14 @@
 ## Summary
 - source_pdf: HBP2023_Chapter04+as+on+20.04.2026.pdf
 - page_count: 58
-- section_count: 99
-- rule_count: 1049
-- condition_count: 477
-- workflow_count: 741
-- validation_count: 602
+- section_count: 105
+- rule_count: 1066
+- condition_count: 482
+- workflow_count: 760
+- validation_count: 606
 - exception_count: 98
-- timeline_count: 257
-- authority_count: 241
+- timeline_count: 264
+- authority_count: 248
 - glossary_count: 108
 
 ## Section Metrics
@@ -109,7 +109,13 @@
 | 4.91 | Diamond & Jewellery Dollar Accounts | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | 4.92 | Export and import of Diamond, Gemstone & Jewellery on | 3 | 1 | 3 | 0 | 0 | 1 | 0 |
 | 4.93 | Guidelines/ Monitoring for import of precious metal by the | 7 | 3 | 7 | 2 | 4 | 4 | 1 |
-| 4.94 | Filing of Annual RODTEP Return (ARR) | 11 | 12 | 11 | 1 | 14 | 6 | 2 |
+| 4.94 | Filing of Annual RODTEP Return (ARR) | 3 | 0 | 3 | 0 | 0 | 1 | 0 |
+| 1 | To assess the nature of inputs used in export production and the amount of actual | 5 | 3 | 5 | 1 | 4 | 3 | 1 |
+| 2 | Non-reporting of the ARR shall lead to denial of benefits under the RODTEP | 1 | 2 | 1 | 0 | 2 | 1 | 0 |
+| 3 | A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto | 1 | 1 | 1 | 0 | 3 | 3 | 1 |
+| 4 | The physical/digital records substantiating the duty remission claims, as filed in | 0 | 1 | 0 | 0 | 1 | 0 | 0 |
+| 5 | ARR filings may also be periodically assessed for necessary due diligence and | 0 | 1 | 0 | 0 | 1 | 1 | 0 |
+| 6 | Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for | 5 | 9 | 5 | 0 | 10 | 4 | 1 |
 | 4.95 | Filing of Application for Diamond Imprest Authorisation (DIA) | 1 | 1 | 1 | 0 | 0 | 1 | 2 |
 | 4.96 | Conditions of Imports & Exports | 7 | 4 | 7 | 0 | 2 | 4 | 1 |
 | 4.97 | General Provision | 3 | 3 | 1 | 0 | 3 | 1 | 2 |

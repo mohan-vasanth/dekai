@@ -1,0 +1,14 @@
+{
+  "section": "2",
+  "conditions": [
+    "In case of re-export of imported items, the additional documents as mentioned\nin 1.b.vii.(i) have to be submitted at the time of post reporting."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.2.1",
+      "if": "In case of re-export of imported items, the additional documents as mentioned\nin 1.b.vii.(i) have to be submitted at the time of post reporting.",
+      "then": "Post reporting for export / re-export of items under GAEIS\na.",
+      "source": "In case of re-export of imported items, the additional documents as mentioned\nin 1.b.vii.(i) have to be submitted at the time of post reporting."
+    }
+  ]
+}

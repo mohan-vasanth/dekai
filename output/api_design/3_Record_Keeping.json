@@ -1,0 +1,57 @@
+{
+  "section": "3",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/3",
+      "purpose": "Retrieve knowledge payload for section 3",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Record-Keeping/validate",
+      "purpose": "Validate inputs and documents for Record Keeping",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Record-Keeping/execute",
+      "purpose": "Trigger business action for Record Keeping\nThe exporter will be required to keep records of all the export documents, in\nmanual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years\nfrom the date of GAET issued by DGFT.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

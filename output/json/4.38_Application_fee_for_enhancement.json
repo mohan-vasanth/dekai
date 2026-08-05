@@ -44,7 +44,11 @@
   "exceptions": [
     "However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "3",
+    "4"
+  ],
   "documents": [
     "4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.",
     "However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA."
@@ -305,13 +309,15 @@
     "Capture chapter 4, section 4.38, title, and page references as immutable knowledge metadata.",
     "Bind validations for Application fee for enhancement into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation., However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA..",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 3, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Application fee for enhancement section-la, Capture chapter 4, section 4.38, title, and page references as immutable knowledge metadata.",
     "Indha Application fee for enhancement section-la, Bind validations for application fee for enhancement into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Application fee for enhancement section-la, Expose document upload controls for: 4.38 application fee for enhancement\napplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation., However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA..",
-    "Indha Application fee for enhancement section-la, Trigger manual review when exception clauses are detected."
+    "Indha Application fee for enhancement section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Application fee for enhancement section-la, Show contextual links to related sections: 1, 3, 4."
   ],
   "keywords": [
     "fee",
@@ -364,7 +370,11 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "3",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [

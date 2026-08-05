@@ -1,0 +1,37 @@
+{
+  "section": "7",
+  "ui": [
+    {
+      "screen_id": "Identifying_training_and_development_needs_of_District_industries_and_overview",
+      "name": "Identifying training and development needs of District industries and Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Identifying_training_and_development_needs_of_District_industries_and_submission",
+      "name": "Identifying training and development needs of District industries and Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "for_flag",
+        "with_flag",
+        "needs_flag",
+        "other_flag",
+        "training_flag"
+      ]
+    }
+  ]
+}

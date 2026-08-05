@@ -276,7 +276,14 @@
     "(i)\nExport of branded jewellery is also permitted with approval of Gem\n& Jewellery EPC for display/sale in permitted shops setup abroad\nor in showroom of their distributors/ agents.",
     "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
   "documents": [
     "LEO copy of Shipping Bill",
     "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
@@ -595,14 +602,16 @@
     "Bind validations for Replenishment Basis into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: LEO copy of Shipping Bill, However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank., Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent., Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased..",
     "Route escalations or approvals to: Copy of the approval letter issued by Government.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 5, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Replenishment Basis section-la, Capture chapter 4, section 4.81, title, and page references as immutable knowledge metadata.",
     "Indha Replenishment Basis section-la, Bind validations for Replenishment Basis into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Replenishment Basis section-la, Expose document upload controls for: LEO copy of Shipping Bill, However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period kandippa stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c) Exporter may also export jewellery on a notional rate based on\ncertificate provided by Bank., Nominated agencies kandippa purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent., Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nkandippa be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased..",
     "Indha Replenishment Basis section-la, Route escalations or approvals to: Copy of the approval letter issued by Government.",
-    "Indha Replenishment Basis section-la, Trigger manual review when exception clauses are detected."
+    "Indha Replenishment Basis section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Replenishment Basis section-la, Show contextual links to related sections: 1, 2, 3, 4, 5, 6."
   ],
   "keywords": [
     "may",
@@ -656,7 +665,14 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "Quantity of precious metal booked with\nnominated agency shall be equivalent to precious metal content in the\nexport product and admissible wastage.",

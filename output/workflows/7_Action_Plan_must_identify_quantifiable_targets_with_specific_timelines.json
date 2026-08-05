@@ -1,0 +1,10 @@
+{
+  "section": "7",
+  "workflow": [
+    "Evaluate condition: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+    "Run validation: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation."
+  ],
+  "workflow_ascii": "Action Plan must identify quantifiable targets with specific timelines\nEvaluate condition: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.\n   |\n   v\nRun validation: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.\"]\n    S2[\"Run validation: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.;\n:Run validation\\: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.;\nstop\n@enduml"
+}

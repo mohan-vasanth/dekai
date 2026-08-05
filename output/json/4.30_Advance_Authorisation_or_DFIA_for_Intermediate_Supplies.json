@@ -230,7 +230,10 @@
     "Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.",
     "(c)\nThe export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "3",
+    "4"
+  ],
   "documents": [
     "4.30 Advance Authorisation or DFIA for Intermediate Supplies\n(a) Application for grant of Advance Authorisation or DFIA for Intermediate\nsupply may be made on the basis of a tie-up arrangement with an ultimate\nexporter (physical/deemed) holding an Advance Authorisation or DFIA.",
     "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.",
@@ -572,14 +575,16 @@
     "Bind validations for Advance Authorisation or DFIA for Intermediate Supplies into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 4.30 Advance Authorisation or DFIA for Intermediate Supplies\n(a) Application for grant of Advance Authorisation or DFIA for Intermediate\nsupply may be made on the basis of a tie-up arrangement with an ultimate\nexporter (physical/deemed) holding an Advance Authorisation or DFIA., Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued., Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be., (b)\nIf application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority., from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified., 4.30 Advance Authorisation or DFIA for Intermediate Supplies\n(a)\nApplication for grant of Advance Authorisation or DFIA for Intermediate\nsupply may be made on the basis of a tie-up arrangement with an ultimate\nexporter (physical/deemed) holding an Advance Authorisation or DFIA..",
     "Route escalations or approvals to: Regional Authority.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 3, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Advance Authorisation or DFIA for Intermediate Supplies section-la, Capture chapter 4, section 4.30, title, and page references as immutable knowledge metadata.",
     "Indha Advance Authorisation or DFIA for Intermediate Supplies section-la, Bind validations for Advance Authorisation or DFIA for Intermediate Supplies into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Advance Authorisation or DFIA for Intermediate Supplies section-la, Expose document upload controls for: 4.30 Advance Authorisation or DFIA for Intermediate Supplies\n(a) application for grant of Advance Authorisation or DFIA for Intermediate\nsupply may be made on the basis of a tie-up arrangement with an ultimate\nexporter (physical/deemed) holding an Advance Authorisation or DFIA., Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed export\nsupplies with Authorisation issued., export/Deemed export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be., (b)\nIf application is approved, authorisation kandippa be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nauthority., from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed export supplies\nalready made till any amendment in norms is notified., 4.30 Advance Authorisation or DFIA for Intermediate Supplies\n(a)\napplication for grant of Advance Authorisation or DFIA for Intermediate\nsupply may be made on the basis of a tie-up arrangement with an ultimate\nexporter (physical/deemed) holding an Advance Authorisation or DFIA..",
     "Indha Advance Authorisation or DFIA for Intermediate Supplies section-la, Route escalations or approvals to: Regional authority.",
-    "Indha Advance Authorisation or DFIA for Intermediate Supplies section-la, Trigger manual review when exception clauses are detected."
+    "Indha Advance Authorisation or DFIA for Intermediate Supplies section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Advance Authorisation or DFIA for Intermediate Supplies section-la, Show contextual links to related sections: 3, 4."
   ],
   "keywords": [
     "for",
@@ -633,7 +638,10 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "3",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "Regional Authority concerned shall consider such requests.",

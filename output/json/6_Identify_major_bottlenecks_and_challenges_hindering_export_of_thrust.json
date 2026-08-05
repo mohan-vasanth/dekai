@@ -1,0 +1,331 @@
+{
+  "chapter_number": "3",
+  "chapter_title": "Developing Districts as Export Hubs",
+  "section": "6",
+  "title": "Identify major bottlenecks and challenges hindering export of thrust",
+  "purpose": "Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+  "purpose_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+  "summary": "6. Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts. Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+  "business_meaning": "6.",
+  "business_explanation": "6. Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts. Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+  "business_explanation_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, 6. Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts. Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH3-SEC6-R001",
+      "rule_description": "6. Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts. Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+      "trigger": "Identify major bottlenecks and challenges hindering export of thrust",
+      "condition": "Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6 - Identify major bottlenecks and challenges hindering export of thrust."
+    }
+  ],
+  "conditions": [
+    "Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.",
+    "Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis."
+  ],
+  "condition_logic": [
+    {
+      "id": "3.6.1",
+      "if": "Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.",
+      "then": "Route for review",
+      "source": "Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts."
+    },
+    {
+      "id": "3.6.2",
+      "if": "Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+      "then": "Route for review",
+      "source": "Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis."
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [
+    [
+      [
+        "5.",
+        "",
+        "Map the existing trade infrastructure available for thrust sector in the",
+        ""
+      ],
+      [
+        "",
+        "",
+        "districts.",
+        ""
+      ]
+    ]
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.",
+    "Evaluate condition: Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis."
+  ],
+  "workflow_ascii": "Identify major bottlenecks and challenges hindering export of thrust\nEvaluate condition: Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.\n   |\n   v\nEvaluate condition: Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+  "decision_tree": [
+    "IF section 6 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Identify major bottlenecks and challenges hindering export of thrust Decision\nIF section 6 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Identify major bottlenecks and challenges hindering export of thrust; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Identify major bottlenecks and challenges hindering export of thrust, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the identify major bottlenecks and challenges hindering export of thrust process.",
+  "real_world_example_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, Example: an importer or exporter invokes Identify major bottlenecks and challenges hindering export of thrust, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the identify major bottlenecks and challenges hindering export of thrust process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "from_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:from"
+    },
+    {
+      "name": "major_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:major"
+    },
+    {
+      "name": "items_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:items"
+    },
+    {
+      "name": "export_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:export"
+    },
+    {
+      "name": "thrust_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:thrust"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6",
+      "purpose": "Retrieve knowledge payload for section 6",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Identify-major-bottlenecks-and-challenges-hindering-export-of-thrust/validate",
+      "purpose": "Validate inputs and documents for Identify major bottlenecks and challenges hindering export of thrust",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Identify_major_bottlenecks_and_challenges_hindering_export_of_thrust_overview",
+      "name": "Identify major bottlenecks and challenges hindering export of thrust Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Identify_major_bottlenecks_and_challenges_hindering_export_of_thrust_submission",
+      "name": "Identify major bottlenecks and challenges hindering export of thrust Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "the_flag",
+        "for_flag",
+        "from_flag",
+        "major_flag",
+        "items_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Identify major bottlenecks and challenges hindering export of thrust require?",
+    "Which documents are needed for Identify major bottlenecks and challenges hindering export of thrust?",
+    "How does DEKAI validate Identify major bottlenecks and challenges hindering export of thrust requests?"
+  ],
+  "expected_ai_answers": [
+    "Identify major bottlenecks and challenges hindering export of thrust requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Identify major bottlenecks and challenges hindering export of thrust by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 6?",
+      "answer_en": "6. Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts. Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+      "question_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, What is the purpose of section 6?",
+      "answer_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, 6. Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts. Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis."
+    },
+    {
+      "question_en": "What documents are required under Identify major bottlenecks and challenges hindering export of thrust?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, What documents are required under Identify major bottlenecks and challenges hindering export of thrust?",
+      "answer_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Identify major bottlenecks and challenges hindering export of thrust?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, Which authority handles Identify major bottlenecks and challenges hindering export of thrust?",
+      "answer_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Identify major bottlenecks and challenges hindering export of thrust?",
+      "answer_en": "AI answers: DEKAI should evaluate section 6, apply the extracted rules, and guide the user through Evaluate condition: Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts..",
+      "question_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, User asks: How do I comply with Identify major bottlenecks and challenges hindering export of thrust?",
+      "answer_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, AI answers: DEKAI should evaluate section 6, apply the extracted rules, and guide the user through Evaluate condition: Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Identify major bottlenecks and challenges hindering export of thrust?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, User asks: Which validations apply to Identify major bottlenecks and challenges hindering export of thrust?",
+      "answer_thanglish": "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 3, section 6, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Identify major bottlenecks and challenges hindering export of thrust into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, Capture chapter 3, section 6, title, and page references as immutable knowledge metadata.",
+    "Indha Identify major bottlenecks and challenges hindering export of thrust section-la, Bind validations for Identify major bottlenecks and challenges hindering export of thrust into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "and",
+    "the",
+    "for",
+    "from",
+    "major",
+    "items",
+    "export",
+    "thrust",
+    "sector",
+    "further",
+    "Identify",
+    "Items/GI",
+    "in-depth",
+    "analysis",
+    "hindering",
+    "districts",
+    "challenges",
+    "bottlenecks",
+    "perspective",
+    "Products/Agricultural"
+  ],
+  "search_keywords": [
+    "and",
+    "the",
+    "for",
+    "from",
+    "major",
+    "items",
+    "export",
+    "thrust",
+    "sector",
+    "further",
+    "Identify",
+    "Items/GI",
+    "in-depth",
+    "analysis",
+    "hindering",
+    "districts",
+    "challenges",
+    "bottlenecks",
+    "perspective",
+    "Products/Agricultural"
+  ],
+  "intent": "Provide knowledge guidance for Identify major bottlenecks and challenges hindering export of thrust.",
+  "tags": [
+    "6",
+    "Identify major bottlenecks and challenges hindering export of thrust",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    4
+  ],
+  "pages": [
+    4
+  ],
+  "source_document": "HBP2023_Chapter03.pdf",
+  "raw_text": "6. Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts. Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.\"]\n    S2[\"Evaluate condition: Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.;\n:Evaluate condition\\: Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.;\nstop\n@enduml"
+}

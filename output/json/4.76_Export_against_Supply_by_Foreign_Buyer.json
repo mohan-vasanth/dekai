@@ -200,7 +200,12 @@
     "However, as a one-time relaxation, in cases where\nthe export period is expiring on or between 01.03.2026 and 31.05.2026,\nsuch export period shall stand automatically extended by 30 days from\nthe date of its expiry.xvii"
   ],
   "dependencies": [
-    "3"
+    "3",
+    "1",
+    "2",
+    "4",
+    "5",
+    "6"
   ],
   "documents": [
     "4.76 Export against Supply by Foreign Buyer\n(a) Before clearance of each consignment of import supplied by foreign\nbuyer, Nominated Agency / Status Holder having Nominated Agency\nCertificate/Eligible Exporter shall execute a bond with Customs,\nundertaking to export within stipulated period in contract,\ngold/silver/platinum jewellery or articles equivalent to entire import\nquantity of gold/silver/platinum, mountings and findings etc.",
@@ -493,14 +498,16 @@
     "Bind validations for Export against Supply by Foreign Buyer into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 4.76 Export against Supply by Foreign Buyer\n(a) Before clearance of each consignment of import supplied by foreign\nbuyer, Nominated Agency / Status Holder having Nominated Agency\nCertificate/Eligible Exporter shall execute a bond with Customs,\nundertaking to export within stipulated period in contract,\ngold/silver/platinum jewellery or articles equivalent to entire import\nquantity of gold/silver/platinum, mountings and findings etc., However, as a one-time relaxation, in cases where\nthe export period is expiring on or between 01.03.2026 and 31.05.2026,\nsuch export period shall stand automatically extended by 30 days from\nthe date of its expiry.xvii\n4.76 Export against Supply by Foreign Buyer\n(a)\nBefore clearance of each consignment of import supplied by foreign\nbuyer, Nominated Agency / Status Holder having Nominated Agency\nCertificate/Eligible Exporter shall execute a bond with Customs,\nundertaking to export within stipulated period in contract,\ngold/silver/platinum jewellery or articles equivalent to entire import\nquantity of gold/silver/platinum, mountings and findings etc..",
     "Route escalations or approvals to: Customs, Certificate/Eligible Exporter shall execute a bond with Customs, Rules and regulations to Customs equivalent to Basic Customs, Customs Authority.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 5, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Export against Supply by Foreign Buyer section-la, Capture chapter 4, section 4.76, title, and page references as immutable knowledge metadata.",
     "Indha Export against Supply by Foreign Buyer section-la, Bind validations for export against Supply by Foreign Buyer into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Export against Supply by Foreign Buyer section-la, Expose document upload controls for: 4.76 export against Supply by Foreign Buyer\n(a) Before clearance of each consignment of import supplied by foreign\nbuyer, Nominated Agency / Status Holder having Nominated Agency\nCertificate/Eligible Exporter kandippa execute a bond with Customs,\nundertaking to export within stipulated period in contract,\ngold/silver/platinum jewellery or articles equivalent to entire import\nquantity of gold/silver/platinum, mountings and findings etc., However, as a one-time relaxation, in cases where\nthe export period is expiring on or between 01.03.2026 and 31.05.2026,\nsuch export period kandippa stand automatically extended by 30 days from\nthe date of its expiry.xvii\n4.76 export against Supply by Foreign Buyer\n(a)\nBefore clearance of each consignment of import supplied by foreign\nbuyer, Nominated Agency / Status Holder having Nominated Agency\nCertificate/Eligible Exporter kandippa execute a bond with Customs,\nundertaking to export within stipulated period in contract,\ngold/silver/platinum jewellery or articles equivalent to entire import\nquantity of gold/silver/platinum, mountings and findings etc..",
     "Indha Export against Supply by Foreign Buyer section-la, Route escalations or approvals to: Customs, Certificate/Eligible Exporter kandippa execute a bond with Customs, Rules and regulations to Customs equivalent to Basic Customs, Customs authority.",
-    "Indha Export against Supply by Foreign Buyer section-la, Trigger manual review when exception clauses are detected."
+    "Indha Export against Supply by Foreign Buyer section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Export against Supply by Foreign Buyer section-la, Show contextual links to related sections: 1, 2, 3, 4, 5, 6."
   ],
   "keywords": [
     "and",
@@ -554,7 +561,14 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.76 Export against Supply by Foreign Buyer\n(a) Before clearance of each consignment of import supplied by foreign\nbuyer, Nominated Agency / Status Holder having Nominated Agency\nCertificate/Eligible Exporter shall execute a bond with Customs,\nundertaking to export within stipulated period in contract,\ngold/silver/platinum jewellery or articles equivalent to entire import\nquantity of gold/silver/platinum, mountings and findings etc.",

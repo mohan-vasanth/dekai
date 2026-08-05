@@ -221,7 +221,14 @@
     "However, the Authorisation holder shall\npay customs duty with applicable interest to the Custom Authority\non unutilized quantity imported under Advance Authorisation.",
     "(g) Payment of duty, interest and any dues for regularisation shall, however,\nbe without prejudice to any other action that may be taken by Customs\nAuthorities at any stage under Customs Act, 1962."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
   "documents": [
     "4.50 Payment of Customs Duty and Interest in case of bonafide default\nin Export Obligation\n(a) Customs duty with interest as notified by Do R to be recovered from\nAuthorisation holder on account of regularisation or enforcement of\nBG/LUT, shall be deposited by Authorisation holder in relevant Head of\nAccount of Customs Revenue i.e., \"Major Head 0037 - Customs and minor\nhead 001-Import Duties” Online through ICEGATE Payment Gateway\nwithin 30 days of demand raised by Regional / Customs Authority and\ndocumentary evidence shall be produced to this effect to Regional\nAuthority / Customs Authority immediately.",
     "(b) Mode of payment: Online through ICEGATE Payment Gateway\n(c) Exporter shall produce documentary evidence of online payment to\nRegional Authority along-with duty calculation sheet at the time of\nregularization of their case.",
@@ -573,14 +580,16 @@
     "Bind validations for Payment of Customs Duty and Interest in case of bonafide default into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 4.50 Payment of Customs Duty and Interest in case of bonafide default\nin Export Obligation\n(a) Customs duty with interest as notified by Do R to be recovered from\nAuthorisation holder on account of regularisation or enforcement of\nBG/LUT, shall be deposited by Authorisation holder in relevant Head of\nAccount of Customs Revenue i.e., \"Major Head 0037 - Customs and minor\nhead 001-Import Duties” Online through ICEGATE Payment Gateway\nwithin 30 days of demand raised by Regional / Customs Authority and\ndocumentary evidence shall be produced to this effect to Regional\nAuthority / Customs Authority immediately., (b) Mode of payment: Online through ICEGATE Payment Gateway\n(c) Exporter shall produce documentary evidence of online payment to\nRegional Authority along-with duty calculation sheet at the time of\nregularization of their case., Regional Authority may direct license holders to\npay balance amount of customs duty after informing the reasons of the\ndifference in the liability worked out by Authorisation holder and the\ncalculations by Regional Authority., (f) On receipt of said documentary evidence from Authorisation holder,\nRegional Authority shall redeem the case, and endorse details of duty\npaid on the EODC/Redemption Letter and inform details of recovery/\ndeposits made to the Customs Authority at the port of registration or the\nCommissioner of Customs having jurisdiction over the factory of the\npg., Such exports shall only be considered for waiver of destruction\ncertificate and not for waiver of liability of applicable duties and\ninterest.ix\n4.50 Payment of Customs Duty and Interest in case of bonafide default\nin Export Obligation\n(a)\nCustoms duty with interest as notified by Do R to be recovered from\nAuthorisation holder on account of regularisation or enforcement of\nBG/LUT, shall be deposited by Authorisation holder in relevant Head of\nAccount of Customs Revenue i.e., \"Major Head 0037 - Customs and minor\nhead 001-Import Duties” Online through ICEGATE Payment Gateway\nwithin 30 days of demand raised by Regional / Customs Authority and\ndocumentary evidence shall be produced to this effect to Regional\nAuthority / Customs Authority immediately., (b)\nMode of payment: Online through ICEGATE Payment Gateway\n(c)\nExporter shall produce documentary evidence of online payment to\nRegional Authority along-with duty calculation sheet at the time of\nregularization of their case..",
     "Route escalations or approvals to: Customs, Customs Authority, Payment of Customs, Account of Customs.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 5, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Payment of Customs Duty and Interest in case of bonafide default section-la, Capture chapter 4, section 4.50, title, and page references as immutable knowledge metadata.",
     "Indha Payment of Customs Duty and Interest in case of bonafide default section-la, Bind validations for Payment of Customs Duty and Interest in case of bonafide default into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Payment of Customs Duty and Interest in case of bonafide default section-la, Expose document upload controls for: 4.50 Payment of Customs Duty and Interest in case of bonafide default\nin export Obligation\n(a) Customs duty with interest as notified by Do R to be recovered from\nAuthorisation holder on account of regularisation or enforcement of\nBG/LUT, kandippa be deposited by Authorisation holder in relevant Head of\nAccount of Customs Revenue i.e., \"Major Head 0037 - Customs and minor\nhead 001-import Duties” Online through ICEGATE Payment Gateway\nwithin 30 days of demand raised by Regional / Customs authority and\ndocumentary evidence kandippa be produced to this effect to Regional\nauthority / Customs authority immediately., (b) Mode of payment: Online through ICEGATE Payment Gateway\n(c) Exporter kandippa produce documentary evidence of online payment to\nRegional authority along-with duty calculation sheet at the time of\nregularization of their case., Regional authority may direct license holders to\npay balance amount of customs duty after informing the reasons of the\ndifference in the liability worked out by Authorisation holder and the\ncalculations by Regional authority., (f) On receipt of said documentary evidence from Authorisation holder,\nRegional authority kandippa redeem the case, and endorse details of duty\npaid on the EODC/Redemption Letter and inform details of recovery/\ndeposits made to the Customs authority at the port of registration or the\nCommissioner of Customs having jurisdiction over the factory of the\npg., Such exports kandippa only be considered for waiver of destruction\ncertificate and not for waiver of liability of applicable duties and\ninterest.ix\n4.50 Payment of Customs Duty and Interest in case of bonafide default\nin export Obligation\n(a)\nCustoms duty with interest as notified by Do R to be recovered from\nAuthorisation holder on account of regularisation or enforcement of\nBG/LUT, kandippa be deposited by Authorisation holder in relevant Head of\nAccount of Customs Revenue i.e., \"Major Head 0037 - Customs and minor\nhead 001-import Duties” Online through ICEGATE Payment Gateway\nwithin 30 days of demand raised by Regional / Customs authority and\ndocumentary evidence kandippa be produced to this effect to Regional\nauthority / Customs authority immediately., (b)\nMode of payment: Online through ICEGATE Payment Gateway\n(c)\nExporter kandippa produce documentary evidence of online payment to\nRegional authority along-with duty calculation sheet at the time of\nregularization of their case..",
     "Indha Payment of Customs Duty and Interest in case of bonafide default section-la, Route escalations or approvals to: Customs, Customs authority, Payment of Customs, Account of Customs.",
-    "Indha Payment of Customs Duty and Interest in case of bonafide default section-la, Trigger manual review when exception clauses are detected."
+    "Indha Payment of Customs Duty and Interest in case of bonafide default section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Payment of Customs Duty and Interest in case of bonafide default section-la, Show contextual links to related sections: 1, 2, 3, 4, 5, 6."
   ],
   "keywords": [
     "and",
@@ -634,7 +643,14 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.50 Payment of Customs Duty and Interest in case of bonafide default\nin Export Obligation\n(a) Customs duty with interest as notified by Do R to be recovered from\nAuthorisation holder on account of regularisation or enforcement of\nBG/LUT, shall be deposited by Authorisation holder in relevant Head of\nAccount of Customs Revenue i.e., \"Major Head 0037 - Customs and minor\nhead 001-Import Duties” Online through ICEGATE Payment Gateway\nwithin 30 days of demand raised by Regional / Customs Authority and\ndocumentary evidence shall be produced to this effect to Regional\nAuthority / Customs Authority immediately.",

@@ -1,0 +1,37 @@
+{
+  "section": "3",
+  "ui": [
+    {
+      "screen_id": "An_Undertaking_from_the_Indian_exporter_overview",
+      "name": "An Undertaking from the Indian exporter; Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "An_Undertaking_from_the_Indian_exporter_submission",
+      "name": "An Undertaking from the Indian exporter; Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "are_flag",
+        "was_flag",
+        "for_flag",
+        "has_flag"
+      ]
+    }
+  ]
+}

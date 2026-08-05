@@ -1,0 +1,37 @@
+{
+  "section": "8",
+  "ui": [
+    {
+      "screen_id": "Clear_identification_of_incentives_Support_provided_by_the_State_and_overview",
+      "name": "Clear identification of incentives/Support provided by the State and Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Clear_identification_of_incentives_Support_provided_by_the_State_and_submission",
+      "name": "Clear identification of incentives/Support provided by the State and Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "clear_flag",
+        "state_flag",
+        "central_flag",
+        "provided_flag"
+      ]
+    }
+  ]
+}

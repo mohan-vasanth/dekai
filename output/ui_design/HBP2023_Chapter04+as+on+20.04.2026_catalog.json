@@ -227,7 +227,19 @@
     "Guidelines_Monitoring_for_import_of_precious_metal_by_the_exceptions",
     "Filing_of_Annual_RODTEP_Return_ARR_overview",
     "Filing_of_Annual_RODTEP_Return_ARR_submission",
-    "Filing_of_Annual_RODTEP_Return_ARR_exceptions",
+    "To_assess_the_nature_of_inputs_used_in_export_production_and_the_amount_of_actual_overview",
+    "To_assess_the_nature_of_inputs_used_in_export_production_and_the_amount_of_actual_submission",
+    "To_assess_the_nature_of_inputs_used_in_export_production_and_the_amount_of_actual_exceptions",
+    "Non_reporting_of_the_ARR_shall_lead_to_denial_of_benefits_under_the_RODTEP_overview",
+    "Non_reporting_of_the_ARR_shall_lead_to_denial_of_benefits_under_the_RODTEP_submission",
+    "A_composition_fee_of_Rs_10_000_will_need_to_be_paid_for_delayed_filing_of_ARR_upto_overview",
+    "A_composition_fee_of_Rs_10_000_will_need_to_be_paid_for_delayed_filing_of_ARR_upto_submission",
+    "The_physical_digital_records_substantiating_the_duty_remission_claims_as_filed_in_overview",
+    "The_physical_digital_records_substantiating_the_duty_remission_claims_as_filed_in_submission",
+    "ARR_filings_may_also_be_periodically_assessed_for_necessary_due_diligence_and_overview",
+    "ARR_filings_may_also_be_periodically_assessed_for_necessary_due_diligence_and_submission",
+    "Certain_ARR_cases_may_also_be_identified_by_the_IT_assisted_risk_based_criteria_for_overview",
+    "Certain_ARR_cases_may_also_be_identified_by_the_IT_assisted_risk_based_criteria_for_submission",
     "Filing_of_Application_for_Diamond_Imprest_Authorisation_DIA_overview",
     "Filing_of_Application_for_Diamond_Imprest_Authorisation_DIA_submission",
     "Conditions_of_Imports_Exports_overview",
@@ -4252,18 +4264,246 @@
             "the_flag",
             "and_flag",
             "ftp_flag",
-            "are_flag",
+            "per_flag",
             "for_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1",
+      "title": "To assess the nature of inputs used in export production and the amount of actual",
+      "ui": [
+        {
+          "screen_id": "To_assess_the_nature_of_inputs_used_in_export_production_and_the_amount_of_actual_overview",
+          "name": "To assess the nature of inputs used in export production and the amount of actual Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
           ]
         },
         {
-          "screen_id": "Filing_of_Annual_RODTEP_Return_ARR_exceptions",
-          "name": "Filing of Annual RODTEP Return (ARR) Exception Review",
+          "screen_id": "To_assess_the_nature_of_inputs_used_in_export_production_and_the_amount_of_actual_submission",
+          "name": "To assess the nature of inputs used in export production and the amount of actual Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "ftp_flag",
+            "are_flag",
+            "for_flag",
+            "its_flag"
+          ]
+        },
+        {
+          "screen_id": "To_assess_the_nature_of_inputs_used_in_export_production_and_the_amount_of_actual_exceptions",
+          "name": "To assess the nature of inputs used in export production and the amount of actual Exception Review",
           "purpose": "Explain exception handling and manual review triggers.",
           "widgets": [
             "exception_banner",
             "decision_tree",
             "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2",
+      "title": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP",
+      "ui": [
+        {
+          "screen_id": "Non_reporting_of_the_ARR_shall_lead_to_denial_of_benefits_under_the_RODTEP_overview",
+          "name": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Non_reporting_of_the_ARR_shall_lead_to_denial_of_benefits_under_the_RODTEP_submission",
+          "name": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "arr_flag",
+            "and_flag",
+            "out_flag",
+            "for_flag",
+            "sbs_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3",
+      "title": "A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto",
+      "ui": [
+        {
+          "screen_id": "A_composition_fee_of_Rs_10_000_will_need_to_be_paid_for_delayed_filing_of_ARR_upto_overview",
+          "name": "A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "A_composition_fee_of_Rs_10_000_will_need_to_be_paid_for_delayed_filing_of_ARR_upto_submission",
+          "name": "A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "fee_flag",
+            "for_flag",
+            "arr_flag",
+            "can_flag",
+            "the_flag",
+            "api_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4",
+      "title": "The physical/digital records substantiating the duty remission claims, as filed in",
+      "ui": [
+        {
+          "screen_id": "The_physical_digital_records_substantiating_the_duty_remission_claims_as_filed_in_overview",
+          "name": "The physical/digital records substantiating the duty remission claims, as filed in Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "The_physical_digital_records_substantiating_the_duty_remission_claims_as_filed_in_submission",
+          "name": "The physical/digital records substantiating the duty remission claims, as filed in Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "arr_flag",
+            "for_flag",
+            "may_flag",
+            "duty_flag",
+            "will_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5",
+      "title": "ARR filings may also be periodically assessed for necessary due diligence and",
+      "ui": [
+        {
+          "screen_id": "ARR_filings_may_also_be_periodically_assessed_for_necessary_due_diligence_and_overview",
+          "name": "ARR filings may also be periodically assessed for necessary due diligence and Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "ARR_filings_may_also_be_periodically_assessed_for_necessary_due_diligence_and_submission",
+          "name": "ARR filings may also be periodically assessed for necessary due diligence and Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "arr_flag",
+            "may_flag",
+            "for_flag",
+            "due_flag",
+            "and_flag",
+            "the_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6",
+      "title": "Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for",
+      "ui": [
+        {
+          "screen_id": "Certain_ARR_cases_may_also_be_identified_by_the_IT_assisted_risk_based_criteria_for_overview",
+          "name": "Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Certain_ARR_cases_may_also_be_identified_by_the_IT_assisted_risk_based_criteria_for_submission",
+          "name": "Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "arr_flag",
+            "may_flag",
+            "the_flag",
+            "for_flag",
+            "and_flag",
+            "ftp_flag"
           ]
         }
       ]

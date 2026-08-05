@@ -26,11 +26,6 @@
       "title": "Duty Exemption / Remission Schemes"
     },
     {
-      "id": "Chapter 5",
-      "node_type": "chapter",
-      "title": "Export Promotion Capital Goods (EPCG) Scheme"
-    },
-    {
       "id": "Chapter 6",
       "node_type": "chapter",
       "title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology"
@@ -64,11 +59,23 @@
       "node_type": "topic"
     },
     {
-      "id": "IPTDEC",
+      "id": "XML",
       "node_type": "topic"
     },
     {
-      "id": "XML",
+      "id": "SC",
+      "node_type": "topic"
+    },
+    {
+      "id": "SCOPE",
+      "node_type": "topic"
+    },
+    {
+      "id": "UN/CEFACT",
+      "node_type": "topic"
+    },
+    {
+      "id": "IPTDEC",
       "node_type": "topic"
     },
     {
@@ -125,10 +132,6 @@
     },
     {
       "id": "RESPONSE-TX",
-      "node_type": "topic"
-    },
-    {
-      "id": "UN/CEFACT",
       "node_type": "topic"
     },
     {
@@ -196,10 +199,6 @@
       "node_type": "topic"
     },
     {
-      "id": "PAN",
-      "node_type": "topic"
-    },
-    {
       "id": "CA",
       "node_type": "topic"
     },
@@ -213,10 +212,6 @@
     },
     {
       "id": "MDS",
-      "node_type": "topic"
-    },
-    {
-      "id": "SC",
       "node_type": "topic"
     },
     {
@@ -489,6 +484,10 @@
     },
     {
       "id": "A060",
+      "node_type": "topic"
+    },
+    {
+      "id": "PAN",
       "node_type": "topic"
     },
     {
@@ -2052,70 +2051,6 @@
       "node_type": "topic"
     },
     {
-      "id": "CEC",
-      "node_type": "topic"
-    },
-    {
-      "id": "CG",
-      "node_type": "topic"
-    },
-    {
-      "id": "EOU/",
-      "node_type": "topic"
-    },
-    {
-      "id": "ARE",
-      "node_type": "topic"
-    },
-    {
-      "id": "LR",
-      "node_type": "topic"
-    },
-    {
-      "id": "DOR",
-      "node_type": "topic"
-    },
-    {
-      "id": "RE-02",
-      "node_type": "topic"
-    },
-    {
-      "id": "RE-12",
-      "node_type": "topic"
-    },
-    {
-      "id": "PN",
-      "node_type": "topic"
-    },
-    {
-      "id": "FTP/HBP",
-      "node_type": "topic"
-    },
-    {
-      "id": "RE-2006",
-      "node_type": "topic"
-    },
-    {
-      "id": "RE-2012",
-      "node_type": "topic"
-    },
-    {
-      "id": "RE-2017",
-      "node_type": "topic"
-    },
-    {
-      "id": "LED",
-      "node_type": "topic"
-    },
-    {
-      "id": "BEV",
-      "node_type": "topic"
-    },
-    {
-      "id": "PHEV",
-      "node_type": "topic"
-    },
-    {
       "id": "BOA",
       "node_type": "topic"
     },
@@ -2181,6 +2116,10 @@
     },
     {
       "id": "DIR",
+      "node_type": "topic"
+    },
+    {
+      "id": "CG",
       "node_type": "topic"
     },
     {
@@ -2376,11 +2315,11 @@
       "node_type": "topic"
     },
     {
-      "id": "T2",
+      "id": "GAEIS",
       "node_type": "topic"
     },
     {
-      "id": "GAEIS",
+      "id": "T2",
       "node_type": "topic"
     },
     {
@@ -2435,11 +2374,6 @@
     },
     {
       "source": "Chapter ",
-      "target": "Chapter 5",
-      "relation": "related"
-    },
-    {
-      "source": "Chapter ",
       "target": "Chapter 6",
       "relation": "related"
     },
@@ -2475,12 +2409,27 @@
     },
     {
       "source": "Chapter ",
-      "target": "IPTDEC",
+      "target": "XML",
       "relation": "contains"
     },
     {
       "source": "Chapter ",
-      "target": "XML",
+      "target": "SC",
+      "relation": "contains"
+    },
+    {
+      "source": "Chapter ",
+      "target": "SCOPE",
+      "relation": "contains"
+    },
+    {
+      "source": "Chapter ",
+      "target": "UN/CEFACT",
+      "relation": "contains"
+    },
+    {
+      "source": "Chapter ",
+      "target": "IPTDEC",
       "relation": "contains"
     },
     {
@@ -2551,11 +2500,6 @@
     {
       "source": "Chapter ",
       "target": "RESPONSE-TX",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter ",
-      "target": "UN/CEFACT",
       "relation": "contains"
     },
     {
@@ -2640,11 +2584,6 @@
     },
     {
       "source": "Chapter ",
-      "target": "PAN",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter ",
       "target": "CA",
       "relation": "contains"
     },
@@ -2661,11 +2600,6 @@
     {
       "source": "Chapter ",
       "target": "MDS",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter ",
-      "target": "SC",
       "relation": "contains"
     },
     {
@@ -3006,6 +2940,11 @@
     {
       "source": "Chapter ",
       "target": "A060",
+      "relation": "contains"
+    },
+    {
+      "source": "Chapter ",
+      "target": "PAN",
       "relation": "contains"
     },
     {
@@ -3415,11 +3354,6 @@
     },
     {
       "source": "Chapter 1",
-      "target": "Chapter 5",
-      "relation": "related"
-    },
-    {
-      "source": "Chapter 1",
       "target": "Chapter 6",
       "relation": "related"
     },
@@ -3661,11 +3595,6 @@
     {
       "source": "Chapter 2",
       "target": "Chapter 4",
-      "relation": "related"
-    },
-    {
-      "source": "Chapter 2",
-      "target": "Chapter 5",
       "relation": "related"
     },
     {
@@ -4805,11 +4734,6 @@
     },
     {
       "source": "Chapter 3",
-      "target": "Chapter 5",
-      "relation": "related"
-    },
-    {
-      "source": "Chapter 3",
       "target": "Chapter 6",
       "relation": "related"
     },
@@ -4897,11 +4821,6 @@
       "source": "Chapter 3",
       "target": "SEPC",
       "relation": "contains"
-    },
-    {
-      "source": "Chapter 4",
-      "target": "Chapter 5",
-      "relation": "related"
     },
     {
       "source": "Chapter 4",
@@ -5591,276 +5510,6 @@
     {
       "source": "Chapter 4",
       "target": "ARO/",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "Chapter 6",
-      "relation": "related"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "Chapter 7",
-      "relation": "related"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "Chapter 10",
-      "relation": "related"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "Chapter 8",
-      "relation": "related"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "Chapter 9",
-      "relation": "related"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "FTP",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "EPCG",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "RA",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "ANF",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "CEC",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "CG",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "IEC",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "Customs",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "EO",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "RCMC",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "HBP",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "EODC",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "EOU",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "SEZ",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "DTA",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "PAN",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "EOU/",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "EOU/SEZ",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "GSTIN",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "ARO",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "GST",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "BRC",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "RBI",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "EDPMS",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "ARE",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "LR",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "Deemed Exports",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "DOR",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "RE-02",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "RE-12",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "PN",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "FIRC",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "BG/LUT",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "PRC",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "DGFT",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "ICEGATE",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "API",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "FOR",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "RA/",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "FT",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "D&R",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "FTP/HBP",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "EOP",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "RE-2006",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "RE-2012",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "RE-2017",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "LED",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "BEV",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 5",
-      "target": "PHEV",
       "relation": "contains"
     },
     {
@@ -6780,11 +6429,6 @@
     },
     {
       "source": "Chapter 10",
-      "target": "CBIC",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 10",
       "target": "ANF10C",
       "relation": "contains"
     },
@@ -6795,17 +6439,22 @@
     },
     {
       "source": "Chapter 10",
+      "target": "GAEIS",
+      "relation": "contains"
+    },
+    {
+      "source": "Chapter 10",
+      "target": "CBIC",
+      "relation": "contains"
+    },
+    {
+      "source": "Chapter 10",
       "target": "T2",
       "relation": "contains"
     },
     {
       "source": "Chapter 10",
       "target": "ID",
-      "relation": "contains"
-    },
-    {
-      "source": "Chapter 10",
-      "target": "GAEIS",
       "relation": "contains"
     },
     {
@@ -6854,5 +6503,5 @@
       "relation": "contains"
     }
   ],
-  "topic_count": 594
+  "topic_count": 595
 }

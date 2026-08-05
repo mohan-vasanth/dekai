@@ -1,0 +1,22 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "5",
+  "title": "Validity",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC5-R001",
+      "rule_description": "GAET issued for export / re-export of SCOMET items under the above Categories\n/ Sub Categories shall be valid for Three years from the date of issue of GAET\nsubject to subsequent post reporting(s) on quarterly basis to be reported within\n30 days from the last quarter;\nb.",
+      "trigger": "Validity",
+      "condition": "GAET issued for export / re-export of SCOMET items under the above Categories\n/ Sub Categories shall be valid for Three years from the date of issue of GAET\nsubject to subsequent post reporting(s) on quarterly basis to be reported within\n30 days from the last quarter;\nb.",
+      "validation": "GAET issued for export / re-export of SCOMET items under the above Categories\n/ Sub Categories shall be valid for Three years from the date of issue of GAET\nsubject to subsequent post reporting(s) on quarterly basis to be reported within\n30 days from the last quarter;\nb.",
+      "action": "GAET issued for export / re-export of SCOMET items under the above Categories\n/ Sub Categories shall be valid for Three years from the date of issue of GAET\nsubject to subsequent post reporting(s) on quarterly basis to be reported within\n30 days from the last quarter;\nb.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5 - Validity."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: GAET issued for export / re-export of SCOMET items under the above Categories\n/ Sub Categories shall be valid for Three years from the date of issue of GAET\nsubject to subsequent post reporting(s) on quarterly basis to be reported within\n30 days from the last quarter;\nb.",
+    "IF validations pass THEN recommend action: GAET issued for export / re-export of SCOMET items under the above Categories\n/ Sub Categories shall be valid for Three years from the date of issue of GAET\nsubject to subsequent post reporting(s) on quarterly basis to be reported within\n30 days from the last quarter;\nb."
+  ]
+}

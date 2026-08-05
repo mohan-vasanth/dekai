@@ -29,7 +29,8 @@
     "4.01 Policy\nPolicy relating to Duty Exemption / Remission Schemes is prescribed in Chapter 4 of\nForeign Trade Policy."
   ],
   "dependencies": [
-    "4"
+    "4",
+    "1"
   ],
   "documents": [],
   "required_documents": [],
@@ -242,12 +243,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.01, title, and page references as immutable knowledge metadata.",
     "Bind validations for Policy into a rule engine keyed by the rule IDs extracted for this section.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Policy section-la, Capture chapter 4, section 4.01, title, and page references as immutable knowledge metadata.",
     "Indha Policy section-la, Bind validations for Policy into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Policy section-la, Trigger manual review when exception clauses are detected."
+    "Indha Policy section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Policy section-la, Show contextual links to related sections: 1, 4."
   ],
   "keywords": [
     "Duty",
@@ -279,7 +282,10 @@
     "Policy",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [

@@ -80,7 +80,10 @@
     "However, such restriction\nshall not be applicable in case of transferable DFIA holder."
   ],
   "dependencies": [
-    "2.29"
+    "2.29",
+    "2",
+    "3",
+    "4"
   ],
   "documents": [
     "4.34 Execution of BG/LUT\n(a) Authorisation holder shall execute Bank Guarantee / Legal Undertaking, as\nthe case maybe, in terms of paragraph 2.29 of Handbook of Procedures.",
@@ -329,14 +332,16 @@
     "Bind validations for Execution of BG/LUT into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 4.34 Execution of BG/LUT\n(a) Authorisation holder shall execute Bank Guarantee / Legal Undertaking, as\nthe case maybe, in terms of paragraph 2.29 of Handbook of Procedures., 4.34 Execution of BG/LUT\n(a)\nAuthorisation holder shall execute Bank Guarantee / Legal Undertaking, as\nthe case maybe, in terms of paragraph 2.29 of Handbook of Procedures..",
     "Route escalations or approvals to: Customs, Customs authority, Acts under intimation to the Customs.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 2, 3, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Execution of BG/LUT section-la, Capture chapter 4, section 4.34, title, and page references as immutable knowledge metadata.",
     "Indha Execution of BG/LUT section-la, Bind validations for Execution of BG/LUT into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Execution of BG/LUT section-la, Expose document upload controls for: 4.34 Execution of BG/LUT\n(a) Authorisation holder kandippa execute Bank Guarantee / Legal Undertaking, as\nthe case maybe, in terms of paragraph 2.29 of Handbook of Procedures., 4.34 Execution of BG/LUT\n(a)\nAuthorisation holder kandippa execute Bank Guarantee / Legal Undertaking, as\nthe case maybe, in terms of paragraph 2.29 of Handbook of Procedures..",
     "Indha Execution of BG/LUT section-la, Route escalations or approvals to: Customs, Customs authority, Acts under intimation to the Customs.",
-    "Indha Execution of BG/LUT section-la, Trigger manual review when exception clauses are detected."
+    "Indha Execution of BG/LUT section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Execution of BG/LUT section-la, Show contextual links to related sections: 2, 3, 4."
   ],
   "keywords": [
     "the",
@@ -390,7 +395,11 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "2",
+    "3",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.34 Execution of BG/LUT\n(a) Authorisation holder shall execute Bank Guarantee / Legal Undertaking, as\nthe case maybe, in terms of paragraph 2.29 of Handbook of Procedures.",

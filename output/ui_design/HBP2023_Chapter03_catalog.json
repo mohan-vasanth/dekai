@@ -6,8 +6,56 @@
     "Objective_of_policy_submission",
     "District_Export_Promotion_Committees_Institutional_Mechanism_at_overview",
     "District_Export_Promotion_Committees_Institutional_Mechanism_at_submission",
+    "Prepare_a_time_bound_detailed_District_Export_Action_strategy_plan_for_overview",
+    "Prepare_a_time_bound_detailed_District_Export_Action_strategy_plan_for_submission",
+    "Benchmarking_baseline_export_performance_of_the_district_including_overview",
+    "Benchmarking_baseline_export_performance_of_the_district_including_submission",
+    "Comprehensive_analysis_of_the_strength_of_each_district_and_the_gaps_in_overview",
+    "Comprehensive_analysis_of_the_strength_of_each_district_and_the_gaps_in_submission",
+    "Goods_and_services_being_manufactured_produced_in_the_district_overview",
+    "Goods_and_services_being_manufactured_produced_in_the_district_submission",
+    "Map_the_existing_trade_infrastructure_available_for_thrust_sector_in_the_overview",
+    "Map_the_existing_trade_infrastructure_available_for_thrust_sector_in_the_submission",
+    "Identify_major_bottlenecks_and_challenges_hindering_export_of_thrust_overview",
+    "Identify_major_bottlenecks_and_challenges_hindering_export_of_thrust_submission",
+    "Identifying_training_and_development_needs_of_District_industries_and_overview",
+    "Identifying_training_and_development_needs_of_District_industries_and_submission",
+    "Dissemination_of_information_through_trainings_seminars_guest_lectures_overview",
+    "Dissemination_of_information_through_trainings_seminars_guest_lectures_submission",
+    "Act_as_one_point_facilitator_for_export_promotion_at_District_level_overview",
+    "Act_as_one_point_facilitator_for_export_promotion_at_District_level_submission",
+    "Entry_of_all_district_level_data_information_progress_into_the_portal_overview",
+    "Entry_of_all_district_level_data_information_progress_into_the_portal_submission",
+    "Act_as_a_grievance_redressal_forum_for_exporters_and_follow_up_with_the_overview",
+    "Act_as_a_grievance_redressal_forum_for_exporters_and_follow_up_with_the_submission",
+    "Facilitate_in_organising_buyer_seller_meets_exhibitions_trade_fairs_etc_in_overview",
+    "Facilitate_in_organising_buyer_seller_meets_exhibitions_trade_fairs_etc_in_submission",
+    "Implementing_the_District_Export_Action_Plan_in_a_phased_manner_to_overview",
+    "Implementing_the_District_Export_Action_Plan_in_a_phased_manner_to_submission",
     "District_Export_Action_Plans_for_Each_District_overview",
     "District_Export_Action_Plans_for_Each_District_submission",
+    "District_Profile_overview",
+    "District_Profile_submission",
+    "Industry_Profile_overview",
+    "Industry_Profile_submission",
+    "Comprehensive_analysis_of_the_major_products_Goods_and_Services_overview",
+    "Comprehensive_analysis_of_the_major_products_Goods_and_Services_submission",
+    "Identifying_the_bottlenecks_faced_by_the_Industry_overview",
+    "Identifying_the_bottlenecks_faced_by_the_Industry_submission",
+    "Identifying_institutional_responsibilities_specifics_of_policy_overview",
+    "Identifying_institutional_responsibilities_specifics_of_policy_submission",
+    "Identifying_infrastructure_utilities_logistics_Policy_interventions_overview",
+    "Identifying_infrastructure_utilities_logistics_Policy_interventions_submission",
+    "Action_Plan_must_identify_quantifiable_targets_with_specific_timelines_overview",
+    "Action_Plan_must_identify_quantifiable_targets_with_specific_timelines_submission",
+    "Clear_identification_of_incentives_Support_provided_by_the_State_and_overview",
+    "Clear_identification_of_incentives_Support_provided_by_the_State_and_submission",
+    "Training_and_development_needs_for_identified_export_overview",
+    "Training_and_development_needs_for_identified_export_submission",
+    "Analysis_of_the_export_data_of_the_District_and_ways_and_means_to_overview",
+    "Analysis_of_the_export_data_of_the_District_and_ways_and_means_to_submission",
+    "Mid_term_and_long_term_export_strategy_suggestions_to_promote_overview",
+    "Mid_term_and_long_term_export_strategy_suggestions_to_promote_submission",
     "State_UT_Export_Promotion_Committees_overview",
     "State_UT_Export_Promotion_Committees_submission",
     "Nodal_DGFT_Regional_Authority_overview",
@@ -133,6 +181,500 @@
       ]
     },
     {
+      "section": "1",
+      "title": "Prepare a time-bound, detailed District Export Action strategy / plan for",
+      "ui": [
+        {
+          "screen_id": "Prepare_a_time_bound_detailed_District_Export_Action_strategy_plan_for_overview",
+          "name": "Prepare a time-bound, detailed District Export Action strategy / plan for Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Prepare_a_time_bound_detailed_District_Export_Action_strategy_plan_for_submission",
+          "name": "Prepare a time-bound, detailed District Export Action strategy / plan for Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "the_flag",
+            "hub_flag",
+            "plan_flag",
+            "export_flag",
+            "action_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2",
+      "title": "Benchmarking baseline export performance of the district, including",
+      "ui": [
+        {
+          "screen_id": "Benchmarking_baseline_export_performance_of_the_district_including_overview",
+          "name": "Benchmarking baseline export performance of the district, including Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Benchmarking_baseline_export_performance_of_the_district_including_submission",
+          "name": "Benchmarking baseline export performance of the district, including Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "per_flag",
+            "may_flag",
+            "its_flag",
+            "and_flag",
+            "are_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3",
+      "title": "Comprehensive analysis of the strength of each district and the gaps in",
+      "ui": [
+        {
+          "screen_id": "Comprehensive_analysis_of_the_strength_of_each_district_and_the_gaps_in_overview",
+          "name": "Comprehensive analysis of the strength of each district and the gaps in Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Comprehensive_analysis_of_the_strength_of_each_district_and_the_gaps_in_submission",
+          "name": "Comprehensive analysis of the strength of each district and the gaps in Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "etc_flag",
+            "for_flag",
+            "new_flag",
+            "each_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4",
+      "title": "Goods and services being manufactured/produced in the district,",
+      "ui": [
+        {
+          "screen_id": "Goods_and_services_being_manufactured_produced_in_the_district_overview",
+          "name": "Goods and services being manufactured/produced in the district, Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Goods_and_services_being_manufactured_produced_in_the_district_submission",
+          "name": "Goods and services being manufactured/produced in the district, Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "the_flag",
+            "such_flag",
+            "goods_flag",
+            "being_flag",
+            "items_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5",
+      "title": "Map the existing trade infrastructure available for thrust sector in the",
+      "ui": [
+        {
+          "screen_id": "Map_the_existing_trade_infrastructure_available_for_thrust_sector_in_the_overview",
+          "name": "Map the existing trade infrastructure available for thrust sector in the Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Map_the_existing_trade_infrastructure_available_for_thrust_sector_in_the_submission",
+          "name": "Map the existing trade infrastructure available for thrust sector in the Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "map_flag",
+            "the_flag",
+            "for_flag",
+            "trade_flag",
+            "thrust_flag",
+            "sector_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6",
+      "title": "Identify major bottlenecks and challenges hindering export of thrust",
+      "ui": [
+        {
+          "screen_id": "Identify_major_bottlenecks_and_challenges_hindering_export_of_thrust_overview",
+          "name": "Identify major bottlenecks and challenges hindering export of thrust Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Identify_major_bottlenecks_and_challenges_hindering_export_of_thrust_submission",
+          "name": "Identify major bottlenecks and challenges hindering export of thrust Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "the_flag",
+            "for_flag",
+            "from_flag",
+            "major_flag",
+            "items_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7",
+      "title": "Identifying training and development needs of District industries and",
+      "ui": [
+        {
+          "screen_id": "Identifying_training_and_development_needs_of_District_industries_and_overview",
+          "name": "Identifying training and development needs of District industries and Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Identifying_training_and_development_needs_of_District_industries_and_submission",
+          "name": "Identifying training and development needs of District industries and Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "for_flag",
+            "with_flag",
+            "needs_flag",
+            "other_flag",
+            "training_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "8",
+      "title": "Dissemination of information through trainings, seminars, guest lectures,",
+      "ui": [
+        {
+          "screen_id": "Dissemination_of_information_through_trainings_seminars_guest_lectures_overview",
+          "name": "Dissemination of information through trainings, seminars, guest lectures, Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Dissemination_of_information_through_trainings_seminars_guest_lectures_submission",
+          "name": "Dissemination of information through trainings, seminars, guest lectures, Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "with_flag",
+            "guest_flag",
+            "other_flag",
+            "visits_flag",
+            "through_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "9",
+      "title": "Act as one point facilitator for export promotion at District level.",
+      "ui": [
+        {
+          "screen_id": "Act_as_one_point_facilitator_for_export_promotion_at_District_level_overview",
+          "name": "Act as one point facilitator for export promotion at District level. Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Act_as_one_point_facilitator_for_export_promotion_at_District_level_submission",
+          "name": "Act as one point facilitator for export promotion at District level. Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "act_flag",
+            "one_flag",
+            "for_flag",
+            "point_flag",
+            "level_flag",
+            "export_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10",
+      "title": "Entry of all district level data/ information/progress into the portal",
+      "ui": [
+        {
+          "screen_id": "Entry_of_all_district_level_data_information_progress_into_the_portal_overview",
+          "name": "Entry of all district level data/ information/progress into the portal Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Entry_of_all_district_level_data_information_progress_into_the_portal_submission",
+          "name": "Entry of all district level data/ information/progress into the portal Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "all_flag",
+            "the_flag",
+            "and_flag",
+            "for_flag",
+            "out_flag",
+            "data_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "11",
+      "title": "Act as a grievance redressal forum for exporters and follow up with the",
+      "ui": [
+        {
+          "screen_id": "Act_as_a_grievance_redressal_forum_for_exporters_and_follow_up_with_the_overview",
+          "name": "Act as a grievance redressal forum for exporters and follow up with the Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Act_as_a_grievance_redressal_forum_for_exporters_and_follow_up_with_the_submission",
+          "name": "Act as a grievance redressal forum for exporters and follow up with the Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "act_flag",
+            "for_flag",
+            "and_flag",
+            "the_flag",
+            "with_flag",
+            "forum_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "12",
+      "title": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+      "ui": [
+        {
+          "screen_id": "Facilitate_in_organising_buyer_seller_meets_exhibitions_trade_fairs_etc_in_overview",
+          "name": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Facilitate_in_organising_buyer_seller_meets_exhibitions_trade_fairs_etc_in_submission",
+          "name": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "etc_flag",
+            "the_flag",
+            "meets_flag",
+            "trade_flag",
+            "fairs_flag",
+            "their_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "13",
+      "title": "Implementing the District Export Action Plan in a phased manner to",
+      "ui": [
+        {
+          "screen_id": "Implementing_the_District_Export_Action_Plan_in_a_phased_manner_to_overview",
+          "name": "Implementing the District Export Action Plan in a phased manner to Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Implementing_the_District_Export_Action_Plan_in_a_phased_manner_to_submission",
+          "name": "Implementing the District Export Action Plan in a phased manner to Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "etc_flag",
+            "for_flag",
+            "new_flag",
+            "map_flag"
+          ]
+        }
+      ]
+    },
+    {
       "section": "3.05",
       "title": "District Export Action Plans for Each District",
       "ui": [
@@ -166,6 +708,413 @@
             "and_flag",
             "mai_flag",
             "each_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1",
+      "title": "District Profile",
+      "ui": [
+        {
+          "screen_id": "District_Profile_overview",
+          "name": "District Profile Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "District_Profile_submission",
+          "name": "District Profile Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "profile_flag",
+            "district_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2",
+      "title": "Industry Profile",
+      "ui": [
+        {
+          "screen_id": "Industry_Profile_overview",
+          "name": "Industry Profile Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Industry_Profile_submission",
+          "name": "Industry Profile Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "profile_flag",
+            "industry_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3",
+      "title": "Comprehensive analysis of the major products (Goods and Services)",
+      "ui": [
+        {
+          "screen_id": "Comprehensive_analysis_of_the_major_products_Goods_and_Services_overview",
+          "name": "Comprehensive analysis of the major products (Goods and Services) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Comprehensive_analysis_of_the_major_products_Goods_and_Services_submission",
+          "name": "Comprehensive analysis of the major products (Goods and Services) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "with_flag",
+            "from_flag",
+            "major_flag",
+            "goods_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4",
+      "title": "Identifying the bottlenecks faced by the Industry.",
+      "ui": [
+        {
+          "screen_id": "Identifying_the_bottlenecks_faced_by_the_Industry_overview",
+          "name": "Identifying the bottlenecks faced by the Industry. Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Identifying_the_bottlenecks_faced_by_the_Industry_submission",
+          "name": "Identifying the bottlenecks faced by the Industry. Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "faced_flag",
+            "industry_flag",
+            "identifying_flag",
+            "bottlenecks_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5",
+      "title": "Identifying institutional responsibilities, specifics of policy,",
+      "ui": [
+        {
+          "screen_id": "Identifying_institutional_responsibilities_specifics_of_policy_overview",
+          "name": "Identifying institutional responsibilities, specifics of policy, Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Identifying_institutional_responsibilities_specifics_of_policy_submission",
+          "name": "Identifying institutional responsibilities, specifics of policy, Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "policy_flag",
+            "reforms_flag",
+            "specifics_flag",
+            "regulatory_flag",
+            "identifying_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6",
+      "title": "Identifying infrastructure/utilities/logistics/Policy interventions",
+      "ui": [
+        {
+          "screen_id": "Identifying_infrastructure_utilities_logistics_Policy_interventions_overview",
+          "name": "Identifying infrastructure/utilities/logistics/Policy interventions Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Identifying_infrastructure_utilities_logistics_Policy_interventions_submission",
+          "name": "Identifying infrastructure/utilities/logistics/Policy interventions Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "required_flag",
+            "identifying_flag",
+            "interventions_flag",
+            "infrastructure_utilities_logistics_policy_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7",
+      "title": "Action Plan must identify quantifiable targets with specific timelines",
+      "ui": [
+        {
+          "screen_id": "Action_Plan_must_identify_quantifiable_targets_with_specific_timelines_overview",
+          "name": "Action Plan must identify quantifiable targets with specific timelines Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Action_Plan_must_identify_quantifiable_targets_with_specific_timelines_submission",
+          "name": "Action Plan must identify quantifiable targets with specific timelines Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "plan_flag",
+            "must_flag",
+            "with_flag",
+            "their_flag",
+            "action_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "8",
+      "title": "Clear identification of incentives/Support provided by the State and",
+      "ui": [
+        {
+          "screen_id": "Clear_identification_of_incentives_Support_provided_by_the_State_and_overview",
+          "name": "Clear identification of incentives/Support provided by the State and Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Clear_identification_of_incentives_Support_provided_by_the_State_and_submission",
+          "name": "Clear identification of incentives/Support provided by the State and Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "clear_flag",
+            "state_flag",
+            "central_flag",
+            "provided_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "9",
+      "title": "Training and development needs for identified export",
+      "ui": [
+        {
+          "screen_id": "Training_and_development_needs_for_identified_export_overview",
+          "name": "Training and development needs for identified export Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Training_and_development_needs_for_identified_export_submission",
+          "name": "Training and development needs for identified export Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "for_flag",
+            "the_flag",
+            "with_flag",
+            "from_flag",
+            "plan_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10",
+      "title": "Analysis of the export data of the District and ways and means to",
+      "ui": [
+        {
+          "screen_id": "Analysis_of_the_export_data_of_the_District_and_ways_and_means_to_overview",
+          "name": "Analysis of the export data of the District and ways and means to Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Analysis_of_the_export_data_of_the_District_and_ways_and_means_to_submission",
+          "name": "Analysis of the export data of the District and ways and means to Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "data_flag",
+            "ways_flag",
+            "means_flag",
+            "export_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "11",
+      "title": "Mid-term and long-term export strategy/suggestions to promote",
+      "ui": [
+        {
+          "screen_id": "Mid_term_and_long_term_export_strategy_suggestions_to_promote_overview",
+          "name": "Mid-term and long-term export strategy/suggestions to promote Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Mid_term_and_long_term_export_strategy_suggestions_to_promote_submission",
+          "name": "Mid-term and long-term export strategy/suggestions to promote Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "the_flag",
+            "from_flag",
+            "export_flag",
+            "promote_flag",
+            "exports_flag"
           ]
         }
       ]

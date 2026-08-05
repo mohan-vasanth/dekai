@@ -24,6 +24,18 @@ class PipelineService:
         self._lock = threading.Lock()
         self._logging_ready = False
 
+    def _stage_order(self) -> list[str]:
+        return [
+            "Validate PDF",
+            "Extract Text",
+            "Convert to Markdown",
+            "Identify Sections",
+            "Generate Chunks",
+            "Create Embeddings",
+            "Index into Knowledge Base",
+            "Ready",
+        ]
+
     def _ensure_logging(self) -> None:
         if not self._logging_ready:
             configure_logging()
@@ -43,29 +55,8 @@ class PipelineService:
         return next((job for job in self.list_jobs() if job["id"] == job_id), None)
 
     def _stages(self) -> list[dict[str, str]]:
-        return [
-            {"label": "Uploading", "state": "current"},
-            {"label": "Reading PDF", "state": "upcoming"},
-            {"label": "Extracting Chapters", "state": "upcoming"},
-            {"label": "Extracting Sections", "state": "upcoming"},
-            {"label": "Extracting Headings", "state": "upcoming"},
-            {"label": "Extracting Tables", "state": "upcoming"},
-            {"label": "Extracting Notes", "state": "upcoming"},
-            {"label": "Extracting Definitions", "state": "upcoming"},
-            {"label": "Extracting Business Rules", "state": "upcoming"},
-            {"label": "Extracting Conditions", "state": "upcoming"},
-            {"label": "Extracting Validations", "state": "upcoming"},
-            {"label": "Extracting Exceptions", "state": "upcoming"},
-            {"label": "Extracting Authorities", "state": "upcoming"},
-            {"label": "Extracting Required Documents", "state": "upcoming"},
-            {"label": "Extracting Timelines", "state": "upcoming"},
-            {"label": "Extracting Workflows", "state": "upcoming"},
-            {"label": "Generating Searchable Chunks", "state": "upcoming"},
-            {"label": "Generating Embeddings", "state": "upcoming"},
-            {"label": "Building Knowledge Graph", "state": "upcoming"},
-            {"label": "Storing Knowledge Base", "state": "upcoming"},
-            {"label": "Knowledge Base Ready", "state": "upcoming"},
-        ]
+        labels = self._stage_order()
+        return [{"label": label, "state": "current" if index == 0 else "upcoming"} for index, label in enumerate(labels)]
 
     def _upsert_job(self, next_job: dict[str, Any]) -> None:
         jobs = self._load_jobs()
@@ -84,7 +75,7 @@ class PipelineService:
             "documentName": document_name,
             "action": action,
             "status": "processing",
-            "stage": "Uploading",
+            "stage": "Validate PDF",
             "progress": 5,
             "error": None,
             "startedAt": now,
@@ -110,6 +101,15 @@ class PipelineService:
             for index, label in enumerate(labels)
         ]
         self._upsert_job(job)
+
+    def _validate_upload(self, filename: str, content: bytes) -> None:
+        if not str(filename or "").lower().endswith(".pdf"):
+            raise ValueError("Only PDF files are supported.")
+        if not content:
+            raise ValueError("The uploaded PDF is empty.")
+        header = bytes(content[:1024]).lstrip()
+        if not header.startswith(b"%PDF"):
+            raise ValueError("Invalid PDF")
 
     def _document_id(self, name: str) -> str:
         return "-".join("".join(char.lower() if char.isalnum() else "-" for char in name).split("-"))
@@ -183,7 +183,14 @@ class PipelineService:
         )
         document_version_service.update_document_status(filename, "failed", error)
 
-    def _run_pipeline(self, target_name: str | None, job: dict[str, Any] | None = None) -> None:
+    def _create_failed_job(self, filename: str, action: str, error: str) -> dict[str, Any]:
+        document_version_service.record_upload(filename)
+        self._mark_document_failed(filename, error)
+        job = self._create_job(self._document_id(filename), filename, action)
+        self._update_job(job, "Validate PDF", 100, status="failed", error=error)
+        return job
+
+    def _run_pipeline(self, target_names: set[str] | None, jobs_by_document: dict[str, dict[str, Any]] | None = None) -> None:
         self._ensure_logging()
         self._clear_generated_outputs()
         pipeline = DGFTKnowledgePipeline()
@@ -193,63 +200,56 @@ class PipelineService:
             return
 
         documents = []
-        target_name = target_name or ""
-        target_error: str | None = None
-        total_files = len(pdf_files)
-        if job and not target_name:
-            self._update_job(job, "Reading PDF", 12)
+        target_names = target_names or set()
+        jobs_by_document = jobs_by_document or {}
+        target_errors: dict[str, str] = {}
         for pdf_path in pdf_files:
-            is_target = bool(job and pdf_path.name == target_name)
-            if is_target:
-                staged_updates = [
-                    ("Reading PDF", 18),
-                    ("Extracting Chapters", 24),
-                    ("Extracting Sections", 34),
-                    ("Extracting Headings", 40),
-                    ("Extracting Tables", 44),
-                    ("Extracting Notes", 48),
-                    ("Extracting Definitions", 52),
-                    ("Extracting Business Rules", 58),
-                    ("Extracting Conditions", 62),
-                    ("Extracting Validations", 66),
-                    ("Extracting Exceptions", 70),
-                    ("Extracting Authorities", 72),
-                    ("Extracting Required Documents", 74),
-                    ("Extracting Timelines", 76),
-                    ("Extracting Workflows", 78),
-                ]
-                for stage_name, progress in staged_updates:
-                    self._update_job(job, stage_name, progress)
+            is_target = pdf_path.name in target_names
+            target_job = jobs_by_document.get(pdf_path.name)
+            if target_job:
+                self._update_job(target_job, "Validate PDF", 10)
             try:
-                document = pipeline._process_pdf(pdf_path)
+                document = pipeline._process_pdf(
+                    pdf_path,
+                    progress_callback=(
+                        (lambda stage_name, progress, document_name=pdf_path.name: self._update_job(jobs_by_document[document_name], stage_name, progress))
+                        if target_job
+                        else None
+                    ),
+                )
             except Exception as exc:
                 error_message = str(exc) or f"Failed to process {pdf_path.name}."
                 self._mark_document_failed(pdf_path.name, error_message)
+                if target_job:
+                    self._update_job(target_job, str(target_job.get("stage", "Validate PDF")), 100, status="failed", error=error_message)
                 if is_target:
-                    target_error = error_message
+                    target_errors[pdf_path.name] = error_message
                 continue
-            if is_target:
-                self._update_job(job, "Generating Searchable Chunks", 84)
-                self._update_job(job, "Generating Embeddings", 90)
-            elif job and total_files:
-                processed_count = len(documents)
-                progress = min(82, 12 + int((processed_count / total_files) * 64))
-                self._update_job(job, "Extracting Sections", progress)
             documents.append(document)
 
-        knowledge_base = pipeline.knowledge_base_builder.build_master_knowledge_base(documents)
-        pipeline._write_master_outputs(documents, knowledge_base)
-        if job:
-            self._update_job(job, "Building Knowledge Graph", 94)
-            self._update_job(job, "Storing Knowledge Base", 97)
+        knowledge_base = pipeline.knowledge_base_builder.build_master_knowledge_base(documents) if documents else {}
+        if documents:
+            for target_job in jobs_by_document.values():
+                if target_job.get("status") == "processing":
+                    self._update_job(target_job, "Index into Knowledge Base", 92)
+            pipeline._write_master_outputs(documents, knowledge_base)
         knowledge_engine_service.build_index()
-        if job:
-            if target_error:
-                self._update_job(job, job["stage"], 100, status="failed", error=target_error)
-            else:
-                self._update_job(job, "Knowledge Base Ready", 100, status="ready")
-            if target_name and not target_error:
-                document_version_service.update_document_status(target_name, "ready")
+        for document_name, target_job in jobs_by_document.items():
+            if document_name in target_errors or target_job.get("status") == "failed":
+                continue
+            if not knowledge_engine_service.document_is_queryable(document_name):
+                snapshot = knowledge_engine_service.document_index_snapshot(document_name)
+                error_message = (
+                    f"Index verification failed for {document_name}: "
+                    f"sections={snapshot['counts']['sections']}, "
+                    f"chunks={snapshot['counts']['chunks']}, "
+                    f"embeddings={snapshot['counts']['embeddings']}."
+                )
+                self._update_job(target_job, "Index into Knowledge Base", 100, status="failed", error=error_message)
+                document_version_service.update_document_status(document_name, "failed", error_message)
+                continue
+            self._update_job(target_job, "Ready", 100, status="ready")
+            document_version_service.update_document_status(document_name, "ready")
 
     def ensure_knowledge_base(self) -> None:
         master_path = CONFIG.json_dir / "master_knowledge_base.json"
@@ -258,16 +258,19 @@ class PipelineService:
         with self._lock:
             if master_path.exists():
                 return
-            self._run_pipeline(target_name=None, job=None)
+            self._run_pipeline(target_names=None, jobs_by_document=None)
 
-    def _start_background_rebuild(self, source_name: str, job: dict[str, Any]) -> None:
+    def _start_background_rebuild(self, source_names: set[str], jobs_by_document: dict[str, dict[str, Any]]) -> None:
         def runner() -> None:
             try:
                 with self._lock:
-                    self._run_pipeline(source_name, job)
+                    self._run_pipeline(source_names, jobs_by_document)
             except Exception as exc:
-                self._update_job(job, job["stage"], job["progress"], status="failed", error=str(exc))
-                document_version_service.update_document_status(source_name, "failed", str(exc))
+                for document_name, job in jobs_by_document.items():
+                    if job.get("status") == "failed":
+                        continue
+                    self._update_job(job, str(job.get("stage", "Index into Knowledge Base")), int(job.get("progress", 0) or 0), status="failed", error=str(exc))
+                    document_version_service.update_document_status(document_name, "failed", str(exc))
 
         thread = threading.Thread(target=runner, daemon=True)
         thread.start()
@@ -275,11 +278,12 @@ class PipelineService:
     def upload_document(self, filename: str, content: bytes) -> dict[str, Any]:
         if self._lock.locked():
             raise PipelineBusyError("A document processing job is already running.")
+        self._validate_upload(filename, content)
         target_path = CONFIG.input_pdf_dir / filename
         target_path.write_bytes(content)
         document_version_service.record_upload(filename)
         job = self._create_job(self._document_id(filename), filename, "upload")
-        self._start_background_rebuild(filename, job)
+        self._start_background_rebuild({filename}, {filename: job})
         return job
 
     def upload_documents(self, files: list[tuple[str, bytes]]) -> dict[str, Any]:
@@ -288,19 +292,32 @@ class PipelineService:
         if not files:
             raise ValueError("At least one PDF file is required.")
 
+        jobs_by_document: dict[str, dict[str, Any]] = {}
+        first_failure: ValueError | None = None
         for filename, content in files:
+            try:
+                self._validate_upload(filename, content)
+            except ValueError as exc:
+                jobs_by_document[filename] = self._create_failed_job(filename, "upload-batch", str(exc))
+                if first_failure is None:
+                    first_failure = exc
+                continue
             (CONFIG.input_pdf_dir / filename).write_bytes(content)
             document_version_service.record_upload(filename)
+            jobs_by_document[filename] = self._create_job(self._document_id(filename), filename, "upload-batch" if len(files) > 1 else "upload")
 
-        label = f"{len(files)} documents" if len(files) > 1 else files[0][0]
-        document_id = "batch-upload" if len(files) > 1 else self._document_id(files[0][0])
-        job = self._create_job(document_id, label, "upload-batch" if len(files) > 1 else "upload")
-        self._start_background_rebuild("", job)
-        return job
+        runnable_jobs = {name: job for name, job in jobs_by_document.items() if job.get("status") == "processing"}
+        if runnable_jobs:
+            self._start_background_rebuild(set(runnable_jobs), runnable_jobs)
+            return next(iter(jobs_by_document.values()))
+        if first_failure:
+            raise first_failure
+        return next(iter(jobs_by_document.values()))
 
     def replace_document(self, current_filename: str, replacement_name: str, content: bytes) -> dict[str, Any]:
         if self._lock.locked():
             raise PipelineBusyError("A document processing job is already running.")
+        self._validate_upload(replacement_name, content)
 
         current_path = CONFIG.input_pdf_dir / current_filename
         if current_path.exists():
@@ -309,7 +326,7 @@ class PipelineService:
         replacement_path.write_bytes(content)
         document_version_service.record_replace(current_filename, replacement_name)
         job = self._create_job(self._document_id(replacement_name), replacement_name, "replace")
-        self._start_background_rebuild(replacement_name, job)
+        self._start_background_rebuild({replacement_name}, {replacement_name: job})
         return job
 
     def reindex_document(self, filename: str) -> dict[str, Any]:
@@ -322,7 +339,7 @@ class PipelineService:
 
         document_version_service.update_document_status(filename, "processing")
         job = self._create_job(self._document_id(filename), filename, "reindex")
-        self._start_background_rebuild(filename, job)
+        self._start_background_rebuild({filename}, {filename: job})
         return job
 
     def delete_document(self, filename: str) -> dict[str, Any]:
@@ -337,13 +354,14 @@ class PipelineService:
         job = self._create_job(self._document_id(filename), filename, "delete")
         try:
             with self._lock:
-                self._update_job(job, "Reading PDF", 20)
+                self._update_job(job, "Validate PDF", 20)
                 if any(CONFIG.input_pdf_dir.glob("*.pdf")):
-                    self._run_pipeline(target_name=None, job=job)
+                    self._run_pipeline(target_names=None, jobs_by_document={})
+                    self._update_job(job, "Index into Knowledge Base", 92)
                 else:
                     self._clear_generated_outputs()
                     knowledge_engine_service.build_index()
-                    self._update_job(job, "Knowledge Base Ready", 100, status="ready")
+                self._update_job(job, "Ready", 100, status="ready")
                 document_version_service.update_document_status(filename, "ready")
         except Exception as exc:
             self._update_job(job, job["stage"], job["progress"], status="failed", error=str(exc))

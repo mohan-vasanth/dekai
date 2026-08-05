@@ -1,0 +1,37 @@
+{
+  "section": "7",
+  "ui": [
+    {
+      "screen_id": "Action_Plan_must_identify_quantifiable_targets_with_specific_timelines_overview",
+      "name": "Action Plan must identify quantifiable targets with specific timelines Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Action_Plan_must_identify_quantifiable_targets_with_specific_timelines_submission",
+      "name": "Action Plan must identify quantifiable targets with specific timelines Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "plan_flag",
+        "must_flag",
+        "with_flag",
+        "their_flag",
+        "action_flag"
+      ]
+    }
+  ]
+}

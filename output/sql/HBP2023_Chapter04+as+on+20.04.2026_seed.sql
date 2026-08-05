@@ -28424,13 +28424,101 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.93', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.93', 'tags', 'dgft');
 INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter04+as+on+20.04.2026.pdf', '4', 'Duty Exemption / Remission Schemes', '4.94', 'Filing of Annual RODTEP Return (ARR)', 'To assess the nature of inputs used in export production and the amount of actual
 taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
-pg.', 'Indha Filing of Annual RODTEP Return (ARR) section-la, To assess the nature of inputs used in export production and the amount of actual
+claiming RODTEP benefits shall be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023.', 'Indha Filing of Annual RODTEP Return (ARR) section-la, To assess the nature of inputs used in export production and the amount of actual
 taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
-pg.', '4.94 Filing of Annual RODTEP Return (ARR)
+claiming RODTEP benefits kandippa be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023.', '4.94 Filing of Annual RODTEP Return (ARR)
+4.94 Filing of Annual RODTEP Return (ARR)
 1. To assess the nature of inputs used in export production and the amount of actual
+taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
+claiming RODTEP benefits shall be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023. The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular
+financial year shall be filed on DGFT portal by 31st March of the next financial year
+i.e.', 'Filing of Annual RODTEP Return (ARR) governs how DGFT business controls should be applied, validated, and enforced.', 'Filing of Annual RODTEP Return (ARR) explains the operating rule set that DEKAI should enforce. Key control points include To assess the nature of inputs used in export production and the amount of actual
+taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
+claiming RODTEP benefits shall be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023.', 'Indha Filing of Annual RODTEP Return (ARR) section-la, Filing of Annual RODTEP Return (ARR) explains the operating rule set that DEKAI should enforce. Key control points include To assess the nature of inputs used in export production and the amount of actual
+taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
+claiming RODTEP benefits kandippa be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023.', '4.94 Filing of Annual RODTEP Return (ARR)
+4.94 Filing of Annual RODTEP Return (ARR)
+1.
+To assess the nature of inputs used in export production and the amount of actual
+taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
+claiming RODTEP benefits shall be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023. The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular
+financial year shall be filed on DGFT portal by 31st March of the next financial year
+i.e. RODTEP claims information for Financial Year 2023-24 shall be required to be
+filed by 31.03.2025. This requirement for filing the annual return to begin with the
+exporters (IECs) whose total Ro DTEP claim exceeds Rs. 1 crore in a financial year
+across all 8-digit HS Codes.', '[54, 55]', '["ARR", "the", "and", "FTP", "per", "for", "all", "used", "Para", "file", "DTEP", "year", "DGFT", "next", "This", "with", "IECs", "taxes", "under", "shall"]', 'Provide knowledge guidance for Filing of Annual RODTEP Return (ARR).', '["4.94", "Filing of Annual RODTEP Return (ARR)", "business-rule", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R001', '4.94', 'To assess the nature of inputs used in export production and the amount of actual
+taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
+claiming RODTEP benefits shall be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'Not explicitly covered in uploaded documents.', 'To assess the nature of inputs used in export production and the amount of actual
+taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
+claiming RODTEP benefits shall be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R002', '4.94', 'The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular
+financial year shall be filed on DGFT portal by 31st March of the next financial year
+i.e.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'Not explicitly covered in uploaded documents.', 'The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular
+financial year shall be filed on DGFT portal by 31st March of the next financial year
+i.e.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R003', '4.94', 'RODTEP claims information for Financial Year 2023-24 shall be required to be
+filed by 31.03.2025.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'Not explicitly covered in uploaded documents.', 'RODTEP claims information for Financial Year 2023-24 shall be required to be
+filed by 31.03.2025.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
+INSERT INTO authorities (section_code, authority_name) VALUES ('4.94', 'DGFT');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 1, 'Run validation: To assess the nature of inputs used in export production and the amount of actual
+taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
+claiming RODTEP benefits shall be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 2, 'Run validation: The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular
+financial year shall be filed on DGFT portal by 31st March of the next financial year
+i.e.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 3, 'Run validation: RODTEP claims information for Financial Year 2023-24 shall be required to be
+filed by 31.03.2025.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'ARR');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'FTP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'per');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'all');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'used');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'Para');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'file');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'DTEP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'year');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'next');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'This');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'IECs');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'taxes');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'under');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'tags', '4.94');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'tags', 'Filing of Annual RODTEP Return (ARR)');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter04+as+on+20.04.2026.pdf', '4', 'Duty Exemption / Remission Schemes', '1', 'To assess the nature of inputs used in export production and the amount of actual', 'To assess the nature of inputs used in export production and the amount of actual
+taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
+pg.', 'Indha To assess the nature of inputs used in export production and the amount of actual section-la, To assess the nature of inputs used in export production and the amount of actual
+taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
+pg.', '1. To assess the nature of inputs used in export production and the amount of actual
 taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
 pg. 129
-pg.', 'Filing of Annual RODTEP Return (ARR) governs how DGFT business controls should be applied, validated, and enforced.', 'Filing of Annual RODTEP Return (ARR) explains the operating rule set that DEKAI should enforce. Key control points include 129
+pg.', 'To assess the nature of inputs used in export production and the amount of actual governs how DGFT business controls should be applied, validated, and enforced.', 'To assess the nature of inputs used in export production and the amount of actual explains the operating rule set that DEKAI should enforce. Key control points include 129
 Nominated Agencies
 The guidelines on import of precious metal by the nominated agencies and
 monitoring are as under:
@@ -28456,7 +28544,7 @@ Every Nominated Agency is required to maintain records of
 imports of precious metal (both quantity and value) and its
 distribution for the purpose of exports of value added product as
 well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures..', 'Indha Filing of Annual RODTEP Return (ARR) section-la, Filing of Annual RODTEP Return (ARR) explains the operating rule set that DEKAI should enforce. Key control points include 129
+given in Appendix 4-M of Hand Book of Procedures..', 'Indha To assess the nature of inputs used in export production and the amount of actual section-la, To assess the nature of inputs used in export production and the amount of actual explains the operating rule set that DEKAI should enforce. Key control points include 129
 Nominated Agencies
 The guidelines on import of precious metal by the nominated agencies and
 monitoring are as under:
@@ -28482,8 +28570,7 @@ Every Nominated Agency is required to maintain records of
 imports of precious metal (both quantity and value) and its
 distribution for the purpose of exports of value added product as
 well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures..', '4.94 Filing of Annual RODTEP Return (ARR)
-1. To assess the nature of inputs used in export production and the amount of actual
+given in Appendix 4-M of Hand Book of Procedures..', '1. To assess the nature of inputs used in export production and the amount of actual
 taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
 pg. 129
 pg. 129
@@ -28523,24 +28610,386 @@ half yearly return within 15 days of every completed half year,
 GJEPC shall seek comments of defaulting Nominated Agencies.
 GJEPC will also forward the particulars of defaulting Nominated
 Agency to DGFT headquarters for taking appropriate action against
-defaulting Nominated Agency.
-4.94 Filing of Annual RODTEP Return (ARR)
-1.
-To assess the nature of inputs used in export production and the amount of actual
-taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
-claiming RODTEP benefits shall be required to file an Annual RODTEP Return
-(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
-2023. The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular
-financial year shall be filed on DGFT portal by 31st March of the next financial year
-i.e. RODTEP claims information for Financial Year 2023-24 shall be required to be
-filed by 31.03.2025. This requirement for filing the annual return to begin with the
-exporters (IECs) whose total Ro DTEP claim exceeds Rs. 1 crore in a financial year
-across all 8-digit HS Codes.
-2. Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+defaulting Nominated Agency.', '[54]', '["the", "and", "FTP", "are", "for", "its", "own", "use", "RBI", "per", "Act", "Ltd", "G&J", "EPC", "one", "used", "Para", "will", "than", "this"]', 'Support To assess the nature of inputs used in export production and the amount of actual processing and compliance validation.', '["1", "To assess the nature of inputs used in export production and the amount of actual", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC1-R001', '1', '129
+Nominated Agencies
+The guidelines on import of precious metal by the nominated agencies and
+monitoring are as under:
+(a)
+Following guidelines for monitoring the import of precious metal and
+its distribution and / or own use by the Nominated Agencies will be
+followed, (other than the Banks nominated by RBI for this purpose):
+(i)
+Every Nominated Agency is required to maintain records of
+imports of precious metal (both quantity and value) and its
+distribution for the purpose of exports of value added product as
+well as for the purpose of domestic consumption as per the format
+given in Appendix 4-M of Hand Book of Procedures.', 'business_rule', 'To assess the nature of inputs used in export production and the amount of actual', 'Failure to comply will
+render Nominated Agency Certificate liable to be cancelled in
+addition to action under FT (DR) Act 1992, as amended, after
+affording opportunity of personal hearing.', '129
+Nominated Agencies
+The guidelines on import of precious metal by the nominated agencies and
+monitoring are as under:
+(a)
+Following guidelines for monitoring the import of precious metal and
+its distribution and / or own use by the Nominated Agencies will be
+followed, (other than the Banks nominated by RBI for this purpose):
+(i)
+Every Nominated Agency is required to maintain records of
+imports of precious metal (both quantity and value) and its
+distribution for the purpose of exports of value added product as
+well as for the purpose of domestic consumption as per the format
+given in Appendix 4-M of Hand Book of Procedures.', '129
+Nominated Agencies
+The guidelines on import of precious metal by the nominated agencies and
+monitoring are as under:
+(a)
+Following guidelines for monitoring the import of precious metal and
+its distribution and / or own use by the Nominated Agencies will be
+followed, (other than the Banks nominated by RBI for this purpose):
+(i)
+Every Nominated Agency is required to maintain records of
+imports of precious metal (both quantity and value) and its
+distribution for the purpose of exports of value added product as
+well as for the purpose of domestic consumption as per the format
+given in Appendix 4-M of Hand Book of Procedures.', '129
+Nominated Agencies
+The guidelines on import of precious metal by the nominated agencies and
+monitoring are as under:
+(a)
+Following guidelines for monitoring the import of precious metal and
+its distribution and / or own use by the Nominated Agencies will be
+followed, (other than the Banks nominated by RBI for this purpose):
+(i)
+Every Nominated Agency is required to maintain records of
+imports of precious metal (both quantity and value) and its
+distribution for the purpose of exports of value added product as
+well as for the purpose of domestic consumption as per the format
+given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 1 - To assess the nature of inputs used in export production and the amount of actual.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC1-R002', '1', 'Nominated Agencies shall file half yearly return as per
+format given in Appendix 4-M of Handbook of Procedures, to the
+Gems & Jewellery Export Promotion Council (GJEPC), Mumbai
+within 15 days of every completed half year.', 'business_rule', 'To assess the nature of inputs used in export production and the amount of actual', 'Thereafter, GJEPC shall forward the compiled half yearly
+returns along with its observation on performance of Nominated
+Agency to DGFT headquarters within one month of every
+completed half year.', 'Nominated Agencies shall file half yearly return as per
+format given in Appendix 4-M of Handbook of Procedures, to the
+Gems & Jewellery Export Promotion Council (GJEPC), Mumbai
+within 15 days of every completed half year.', 'Failure to comply will
+render Nominated Agency Certificate liable to be cancelled in
+addition to action under FT (DR) Act 1992, as amended, after
+affording opportunity of personal hearing.', '129
+Nominated Agencies
+The guidelines on import of precious metal by the nominated agencies and
+monitoring are as under:
+(a)
+Following guidelines for monitoring the import of precious metal and
+its distribution and / or own use by the Nominated Agencies will be
+followed, (other than the Banks nominated by RBI for this purpose):
+(i)
+Every Nominated Agency is required to maintain records of
+imports of precious metal (both quantity and value) and its
+distribution for the purpose of exports of value added product as
+well as for the purpose of domestic consumption as per the format
+given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 1 - To assess the nature of inputs used in export production and the amount of actual.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC1-R003', '1', 'In turn, G&J EPC shall
+compile the half yearly return and the figures submitted by the
+Nominated Agency and check the performance of the Nominated
+Agency.', 'business_rule', 'To assess the nature of inputs used in export production and the amount of actual', 'In case of delay in filing or non-submission of
+half yearly return within 15 days of every completed half year,
+GJEPC shall seek comments of defaulting Nominated Agencies.', 'In turn, G&J EPC shall
+compile the half yearly return and the figures submitted by the
+Nominated Agency and check the performance of the Nominated
+Agency.', 'In turn, G&J EPC shall
+compile the half yearly return and the figures submitted by the
+Nominated Agency and check the performance of the Nominated
+Agency.', '129
+Nominated Agencies
+The guidelines on import of precious metal by the nominated agencies and
+monitoring are as under:
+(a)
+Following guidelines for monitoring the import of precious metal and
+its distribution and / or own use by the Nominated Agencies will be
+followed, (other than the Banks nominated by RBI for this purpose):
+(i)
+Every Nominated Agency is required to maintain records of
+imports of precious metal (both quantity and value) and its
+distribution for the purpose of exports of value added product as
+well as for the purpose of domestic consumption as per the format
+given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 1 - To assess the nature of inputs used in export production and the amount of actual.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC1-R004', '1', 'Thereafter, GJEPC shall forward the compiled half yearly
+returns along with its observation on performance of Nominated
+Agency to DGFT headquarters within one month of every
+completed half year.', 'business_rule', 'To assess the nature of inputs used in export production and the amount of actual', 'In case of delay in filing or non-submission of
+half yearly return within 15 days of every completed half year,
+GJEPC shall seek comments of defaulting Nominated Agencies.', 'Thereafter, GJEPC shall forward the compiled half yearly
+returns along with its observation on performance of Nominated
+Agency to DGFT headquarters within one month of every
+completed half year.', 'In turn, G&J EPC shall
+compile the half yearly return and the figures submitted by the
+Nominated Agency and check the performance of the Nominated
+Agency.', '129
+Nominated Agencies
+The guidelines on import of precious metal by the nominated agencies and
+monitoring are as under:
+(a)
+Following guidelines for monitoring the import of precious metal and
+its distribution and / or own use by the Nominated Agencies will be
+followed, (other than the Banks nominated by RBI for this purpose):
+(i)
+Every Nominated Agency is required to maintain records of
+imports of precious metal (both quantity and value) and its
+distribution for the purpose of exports of value added product as
+well as for the purpose of domestic consumption as per the format
+given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 1 - To assess the nature of inputs used in export production and the amount of actual.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC1-R005', '1', 'In case of delay in filing or non-submission of
+half yearly return within 15 days of every completed half year,
+GJEPC shall seek comments of defaulting Nominated Agencies.', 'business_rule', 'To assess the nature of inputs used in export production and the amount of actual', 'In case of delay in filing or non-submission of
+half yearly return within 15 days of every completed half year,
+GJEPC shall seek comments of defaulting Nominated Agencies.', 'In case of delay in filing or non-submission of
+half yearly return within 15 days of every completed half year,
+GJEPC shall seek comments of defaulting Nominated Agencies.', 'In turn, G&J EPC shall
+compile the half yearly return and the figures submitted by the
+Nominated Agency and check the performance of the Nominated
+Agency.', '129
+Nominated Agencies
+The guidelines on import of precious metal by the nominated agencies and
+monitoring are as under:
+(a)
+Following guidelines for monitoring the import of precious metal and
+its distribution and / or own use by the Nominated Agencies will be
+followed, (other than the Banks nominated by RBI for this purpose):
+(i)
+Every Nominated Agency is required to maintain records of
+imports of precious metal (both quantity and value) and its
+distribution for the purpose of exports of value added product as
+well as for the purpose of domestic consumption as per the format
+given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 1 - To assess the nature of inputs used in export production and the amount of actual.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Failure to comply will
+render Nominated Agency Certificate liable to be cancelled in
+addition to action under FT (DR) Act 1992, as amended, after
+affording opportunity of personal hearing.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Thereafter, GJEPC shall forward the compiled half yearly
+returns along with its observation on performance of Nominated
+Agency to DGFT headquarters within one month of every
+completed half year.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'In case of delay in filing or non-submission of
+half yearly return within 15 days of every completed half year,
+GJEPC shall seek comments of defaulting Nominated Agencies.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'Nominated Agency Certificate');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'RBI and DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'Agency to DGFT');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('1', 'Failure to comply will
+render Nominated Agency Certificate liable to be cancelled in
+addition to action under FT (DR) Act 1992, as amended, after
+affording opportunity of personal hearing.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('1', 'Nominated Agencies shall file half yearly return as per
+format given in Appendix 4-M of Handbook of Procedures, to the
+Gems & Jewellery Export Promotion Council (GJEPC), Mumbai
+within 15 days of every completed half year.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('1', 'Thereafter, GJEPC shall forward the compiled half yearly
+returns along with its observation on performance of Nominated
+Agency to DGFT headquarters within one month of every
+completed half year.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('1', 'In case of delay in filing or non-submission of
+half yearly return within 15 days of every completed half year,
+GJEPC shall seek comments of defaulting Nominated Agencies.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('1', '129
+Nominated Agencies
+The guidelines on import of precious metal by the nominated agencies and
+monitoring are as under:
+(a)
+Following guidelines for monitoring the import of precious metal and
+its distribution and / or own use by the Nominated Agencies will be
+followed, (other than the Banks nominated by RBI for this purpose):
+(i)
+Every Nominated Agency is required to maintain records of
+imports of precious metal (both quantity and value) and its
+distribution for the purpose of exports of value added product as
+well as for the purpose of domestic consumption as per the format
+given in Appendix 4-M of Hand Book of Procedures.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 1, 'Evaluate condition: Failure to comply will
+render Nominated Agency Certificate liable to be cancelled in
+addition to action under FT (DR) Act 1992, as amended, after
+affording opportunity of personal hearing.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 2, 'Evaluate condition: Thereafter, GJEPC shall forward the compiled half yearly
+returns along with its observation on performance of Nominated
+Agency to DGFT headquarters within one month of every
+completed half year.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 3, 'Evaluate condition: In case of delay in filing or non-submission of
+half yearly return within 15 days of every completed half year,
+GJEPC shall seek comments of defaulting Nominated Agencies.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 4, '129
+Nominated Agencies
+The guidelines on import of precious metal by the nominated agencies and
+monitoring are as under:
+(a)
+Following guidelines for monitoring the import of precious metal and
+its distribution and / or own use by the Nominated Agencies will be
+followed, (other than the Banks nominated by RBI for this purpose):
+(i)
+Every Nominated Agency is required to maintain records of
+imports of precious metal (both quantity and value) and its
+distribution for the purpose of exports of value added product as
+well as for the purpose of domestic consumption as per the format
+given in Appendix 4-M of Hand Book of Procedures.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 5, 'Failure to comply will
+render Nominated Agency Certificate liable to be cancelled in
+addition to action under FT (DR) Act 1992, as amended, after
+affording opportunity of personal hearing.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 6, 'In turn, G&J EPC shall
+compile the half yearly return and the figures submitted by the
+Nominated Agency and check the performance of the Nominated
+Agency.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 7, 'Run validation: 129
+Nominated Agencies
+The guidelines on import of precious metal by the nominated agencies and
+monitoring are as under:
+(a)
+Following guidelines for monitoring the import of precious metal and
+its distribution and / or own use by the Nominated Agencies will be
+followed, (other than the Banks nominated by RBI for this purpose):
+(i)
+Every Nominated Agency is required to maintain records of
+imports of precious metal (both quantity and value) and its
+distribution for the purpose of exports of value added product as
+well as for the purpose of domestic consumption as per the format
+given in Appendix 4-M of Hand Book of Procedures.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 8, 'Run validation: Nominated Agencies shall file half yearly return as per
+format given in Appendix 4-M of Handbook of Procedures, to the
+Gems & Jewellery Export Promotion Council (GJEPC), Mumbai
+within 15 days of every completed half year.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 9, 'Run validation: In turn, G&J EPC shall
+compile the half yearly return and the figures submitted by the
+Nominated Agency and check the performance of the Nominated
+Agency.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 10, 'Handle exception: 129
+Nominated Agencies
+The guidelines on import of precious metal by the nominated agencies and
+monitoring are as under:
+(a)
+Following guidelines for monitoring the import of precious metal and
+its distribution and / or own use by the Nominated Agencies will be
+followed, (other than the Banks nominated by RBI for this purpose):
+(i)
+Every Nominated Agency is required to maintain records of
+imports of precious metal (both quantity and value) and its
+distribution for the purpose of exports of value added product as
+well as for the purpose of domestic consumption as per the format
+given in Appendix 4-M of Hand Book of Procedures.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'FTP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'its');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'own');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'RBI');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'per');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Act');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Ltd');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'G&J');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'EPC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'one');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'used');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Para');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'than');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'this');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'To assess the nature of inputs used in export production and the amount of actual');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter04+as+on+20.04.2026.pdf', '4', 'Duty Exemption / Remission Schemes', '2', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e.', 'Indha Non-reporting of the ARR shall lead to denial of benefits under the RODTEP section-la, Non-reporting of the ARR kandippa lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of export after the grace period of three (3) months i.e.', '2. Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
 scheme and no further scroll out of RODTEP claims for the SBs will be permitted
 at the Customs Port of Export after the grace period of three (3) months i.e. after
-30th June.
-3. A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto
+30th June.', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP governs how DGFT business controls should be applied, validated, and enforced.', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP explains the operating rule set that DEKAI should enforce. Key control points include Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e. The section also drives actions such as Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e..', 'Indha Non-reporting of the ARR shall lead to denial of benefits under the RODTEP section-la, Non-reporting of the ARR kandippa lead to denial of benefits under the RODTEP explains the operating rule set that DEKAI should enforce. Key control points include Non-reporting of the ARR kandippa lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of export after the grace period of three (3) months i.e. The section also drives actions such as Non-reporting of the ARR kandippa lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of export after the grace period of three (3) months i.e..', '2. Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e. after
+30th June.', '[55]', '["the", "ARR", "and", "out", "for", "SBs", "lead", "will", "Port", "June", "shall", "under", "after", "grace", "three", "denial", "RODTEP", "scheme", "scroll", "claims"]', 'Support Non-reporting of the ARR shall lead to denial of benefits under the RODTEP processing and compliance validation.', '["2", "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP", "business-rule", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC2-R001', '2', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e.', 'business_rule', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e.', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e.', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Non-reporting of the ARR shall lead to denial of benefits under the RODTEP.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'after
+30th June.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('2', 'Customs');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('2', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('2', 'after
+30th June.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 1, 'Evaluate condition: Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 2, 'Evaluate condition: after
+30th June.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 3, 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 4, 'Run validation: Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'ARR');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'out');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'SBs');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'lead');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Port');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'June');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'under');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'after');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'grace');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'three');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'denial');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'RODTEP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'scheme');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'scroll');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'claims');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', '2');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter04+as+on+20.04.2026.pdf', '4', 'Duty Exemption / Remission Schemes', '3', 'A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto', '10,000/- will need to be paid for delayed filing of ARR upto
+30th June i.e.', 'Indha A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto section-la, 10,000/- will need to be paid for delayed filing of ARR upto
+30th June i.e.', '3. A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto
+30th June i.e.', 'A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto governs how DGFT business controls should be applied, validated, and enforced.', 'A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto explains the operating rule set that DEKAI should enforce. Key control points include The resumption of scroll out shall also
+cover the Shipping Bills that were not scrolled out earlier on account of non-
+compliance of ARR. The section also drives actions such as Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls
+will be resumed within 45 days, till an online API based message exchange is
+established between DGFT and Customs..', 'Indha A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto section-la, A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto explains the operating rule set that DEKAI should enforce. Key control points include The resumption of scroll out kandippa also
+cover the Shipping Bills that were not scrolled out earlier on account of non-
+compliance of ARR. The section also drives actions such as Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls
+will be resumed within 45 days, till an online API based message exchange is
+established between DGFT and Customs..', '3. A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto
 30th June i.e. RODTEP claims information for Financial Year 2023-24 with
 composition fees can be filed within a grace period of 3 months i.e.by 30.06.2025.
 Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.
@@ -28548,14 +28997,185 @@ Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls
 will be resumed within 45 days, till an online API based message exchange is
 established between DGFT and Customs. The resumption of scroll out shall also
 cover the Shipping Bills that were not scrolled out earlier on account of non-
-compliance of ARR.
-4. The physical/digital records substantiating the duty remission claims, as filed in
+compliance of ARR.', '[55]', '["fee", "for", "ARR", "can", "the", "API", "and", "out", "not", "non", "will", "need", "paid", "upto", "June", "Year", "with", "fees", "DTEP", "days"]', 'Support A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto processing and compliance validation.', '["3", "A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC3-R001', '3', 'The resumption of scroll out shall also
+cover the Shipping Bills that were not scrolled out earlier on account of non-
+compliance of ARR.', 'business_rule', 'A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto', 'Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.', 'The resumption of scroll out shall also
+cover the Shipping Bills that were not scrolled out earlier on account of non-
+compliance of ARR.', 'Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls
+will be resumed within 45 days, till an online API based message exchange is
+established between DGFT and Customs.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3 - A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3', 'Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.');
+INSERT INTO documents (section_code, document_name) VALUES ('3', 'The resumption of scroll out shall also
+cover the Shipping Bills that were not scrolled out earlier on account of non-
+compliance of ARR.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3', 'DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3', 'Customs');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3', 'DGFT and Customs');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('3', 'RODTEP claims information for Financial Year 2023-24 with
+composition fees can be filed within a grace period of 3 months i.e.by 30.06.2025.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('3', 'Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('3', 'Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls
+will be resumed within 45 days, till an online API based message exchange is
+established between DGFT and Customs.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 1, 'Evaluate condition: Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 2, 'Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls
+will be resumed within 45 days, till an online API based message exchange is
+established between DGFT and Customs.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 3, 'Run validation: The resumption of scroll out shall also
+cover the Shipping Bills that were not scrolled out earlier on account of non-
+compliance of ARR.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'fee');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'ARR');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'can');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'API');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'out');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'non');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'need');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'paid');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'upto');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'June');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'Year');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'fees');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'DTEP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'days');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', '3');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter04+as+on+20.04.2026.pdf', '4', 'Duty Exemption / Remission Schemes', '4', 'The physical/digital records substantiating the duty remission claims, as filed in', 'The physical/digital records substantiating the duty remission claims, as filed in
 ARR, will need to be maintained for a period of five (5) years which may be
-produced before the concerned authority assessing the ARR.
-5. ARR filings may also be periodically assessed for necessary due diligence and
+produced before the concerned authority assessing the ARR.', 'Indha The physical/digital records substantiating the duty remission claims, as filed in section-la, The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.', '4. The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.', '4.', '4. The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.', 'Indha The physical/digital records substantiating the duty remission claims, as filed in section-la, 4. The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.', '4. The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.', '[55]', '["The", "ARR", "for", "may", "duty", "will", "need", "five", "filed", "years", "which", "claims", "period", "before", "records", "produced", "remission", "concerned", "authority", "assessing"]', 'Support The physical/digital records substantiating the duty remission claims, as filed in processing and compliance validation.', '["4", "The physical/digital records substantiating the duty remission claims, as filed in", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4-R001', '4', 'IF validations pass THEN recommend action: The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.', 'business_rule', 'The physical/digital records substantiating the duty remission claims, as filed in', 'The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.', 'Not explicitly covered in uploaded documents.', 'The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - The physical/digital records substantiating the duty remission claims, as filed in.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('4', 'The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 1, 'Evaluate condition: The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 2, 'The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'ARR');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'duty');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'need');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'five');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'filed');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'years');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'which');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'claims');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'period');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'before');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'records');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'produced');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'remission');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'concerned');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'authority');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'assessing');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', '4');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'The physical/digital records substantiating the duty remission claims, as filed in');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter04+as+on+20.04.2026.pdf', '4', 'Duty Exemption / Remission Schemes', '5', 'ARR filings may also be periodically assessed for necessary due diligence and', 'ARR filings may also be periodically assessed for necessary due diligence and
 presented before Ro DTEP Committee for suitable revision of rates including for
-the consideration of higher rates wherever warranted.
-6. Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for
+the consideration of higher rates wherever warranted.', 'Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, ARR filings may also be periodically assessed for necessary due diligence and
+presented before Ro DTEP Committee for suitable revision of rates including for
+the consideration of higher rates wherever warranted.', '5. ARR filings may also be periodically assessed for necessary due diligence and
+presented before Ro DTEP Committee for suitable revision of rates including for
+the consideration of higher rates wherever warranted.', '5.', '5. ARR filings may also be periodically assessed for necessary due diligence and
+presented before Ro DTEP Committee for suitable revision of rates including for
+the consideration of higher rates wherever warranted.', 'Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, 5. ARR filings may also be periodically assessed for necessary due diligence and
+presented before Ro DTEP Committee for suitable revision of rates including for
+the consideration of higher rates wherever warranted.', '5. ARR filings may also be periodically assessed for necessary due diligence and
+presented before Ro DTEP Committee for suitable revision of rates including for
+the consideration of higher rates wherever warranted.', '[55]', '["ARR", "may", "for", "due", "and", "the", "also", "DTEP", "rates", "before", "higher", "filings", "assessed", "suitable", "revision", "wherever", "necessary", "diligence", "presented", "Committee"]', 'Provide knowledge guidance for ARR filings may also be periodically assessed for necessary due diligence and.', '["5", "ARR filings may also be periodically assessed for necessary due diligence and", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC5-R001', '5', '5. ARR filings may also be periodically assessed for necessary due diligence and
+presented before Ro DTEP Committee for suitable revision of rates including for
+the consideration of higher rates wherever warranted.', 'business_rule', 'ARR filings may also be periodically assessed for necessary due diligence and', 'ARR filings may also be periodically assessed for necessary due diligence and
+presented before Ro DTEP Committee for suitable revision of rates including for
+the consideration of higher rates wherever warranted.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5 - ARR filings may also be periodically assessed for necessary due diligence and.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'ARR filings may also be periodically assessed for necessary due diligence and
+presented before Ro DTEP Committee for suitable revision of rates including for
+the consideration of higher rates wherever warranted.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('5', 'Ro DTEP Committee');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5', 'ARR filings may also be periodically assessed for necessary due diligence and
+presented before Ro DTEP Committee for suitable revision of rates including for
+the consideration of higher rates wherever warranted.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 1, 'Evaluate condition: ARR filings may also be periodically assessed for necessary due diligence and
+presented before Ro DTEP Committee for suitable revision of rates including for
+the consideration of higher rates wherever warranted.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'ARR');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'due');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'also');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'DTEP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'rates');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'before');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'higher');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'filings');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'assessed');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'suitable');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'revision');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'wherever');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'necessary');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'diligence');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'presented');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'Committee');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', '5');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'ARR filings may also be periodically assessed for necessary due diligence and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter04+as+on+20.04.2026.pdf', '4', 'Duty Exemption / Remission Schemes', '6', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for
+further scrutiny to assess the nature of inputs used in export production and the
+amount of actual taxes & duties incurred, as permissible under Para 4.54 of FTP.', 'Indha Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for section-la, Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for
+further scrutiny to assess the nature of inputs used in export production and the
+amount of actual taxes & duties incurred, as permissible under Para 4.54 of FTP.', '6. Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for
+further scrutiny to assess the nature of inputs used in export production and the
+amount of actual taxes & duties incurred, as permissible under Para 4.54 of FTP. After due assessment is made by the concerned authority, who has been mandated
+in this regard, the RODTEP scrip holder will be liable to refund/surrender any
+excess claims based on the order passed after the scrutiny under the relevant
+customs head.', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for governs how DGFT business controls should be applied, validated, and enforced.', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for explains the operating rule set that DEKAI should enforce. Key control points include 130
+claiming RODTEP benefits shall be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023. The section also drives actions such as Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e..', 'Indha Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for section-la, Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for explains the operating rule set that DEKAI should enforce. Key control points include 130
+claiming RODTEP benefits kandippa be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023. The section also drives actions such as Non-reporting of the ARR kandippa lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of export after the grace period of three (3) months i.e..', '6. Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for
 further scrutiny to assess the nature of inputs used in export production and the
 amount of actual taxes & duties incurred, as permissible under Para 4.54 of FTP.
 After due assessment is made by the concerned authority, who has been mandated
@@ -28604,497 +29224,162 @@ After due assessment is made by the concerned authority, who has been mandated
 in this regard, the RODTEP scrip holder will be liable to refund/surrender any
 excess claims based on the order passed after the scrutiny under the relevant
 customs head. Failure to regularise the excess claims within a specified time frame
-will lead to stopping of further benefits under the Scheme.x', '[54, 55]', '["ARR", "the", "and", "FTP", "are", "for", "its", "own", "use", "RBI", "per", "Act", "Ltd", "G&J", "EPC", "one", "all", "out", "SBs", "fee"]', 'Support Filing of Annual RODTEP Return (ARR) processing and compliance validation.', '["4.94", "Filing of Annual RODTEP Return (ARR)", "business-rule", "document-driven", "dgft"]');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R001', '4.94', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'Failure to comply will
-render Nominated Agency Certificate liable to be cancelled in
-addition to action under FT (DR) Act 1992, as amended, after
-affording opportunity of personal hearing.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R002', '4.94', 'Nominated Agencies shall file half yearly return as per
-format given in Appendix 4-M of Handbook of Procedures, to the
-Gems & Jewellery Export Promotion Council (GJEPC), Mumbai
-within 15 days of every completed half year.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'Thereafter, GJEPC shall forward the compiled half yearly
-returns along with its observation on performance of Nominated
-Agency to DGFT headquarters within one month of every
-completed half year.', 'Nominated Agencies shall file half yearly return as per
-format given in Appendix 4-M of Handbook of Procedures, to the
-Gems & Jewellery Export Promotion Council (GJEPC), Mumbai
-within 15 days of every completed half year.', 'Failure to comply will
-render Nominated Agency Certificate liable to be cancelled in
-addition to action under FT (DR) Act 1992, as amended, after
-affording opportunity of personal hearing.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R003', '4.94', 'In turn, G&J EPC shall
-compile the half yearly return and the figures submitted by the
-Nominated Agency and check the performance of the Nominated
-Agency.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'In case of delay in filing or non-submission of
-half yearly return within 15 days of every completed half year,
-GJEPC shall seek comments of defaulting Nominated Agencies.', 'In turn, G&J EPC shall
-compile the half yearly return and the figures submitted by the
-Nominated Agency and check the performance of the Nominated
-Agency.', 'In turn, G&J EPC shall
-compile the half yearly return and the figures submitted by the
-Nominated Agency and check the performance of the Nominated
-Agency.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R004', '4.94', 'Thereafter, GJEPC shall forward the compiled half yearly
-returns along with its observation on performance of Nominated
-Agency to DGFT headquarters within one month of every
-completed half year.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+will lead to stopping of further benefits under the Scheme.x', '[55]', '["ARR", "may", "the", "for", "and", "FTP", "due", "who", "has", "any", "per", "all", "out", "SBs", "fee", "can", "API", "not", "non", "also"]', 'Support Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for processing and compliance validation.', '["6", "Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC6-R001', '6', '130
+claiming RODTEP benefits shall be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023.', 'business_rule', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for
+further scrutiny to assess the nature of inputs used in export production and the
+amount of actual taxes & duties incurred, as permissible under Para 4.54 of FTP.', '130
+claiming RODTEP benefits shall be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023.', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
 scheme and no further scroll out of RODTEP claims for the SBs will be permitted
-at the Customs Port of Export after the grace period of three (3) months i.e.', 'Thereafter, GJEPC shall forward the compiled half yearly
-returns along with its observation on performance of Nominated
-Agency to DGFT headquarters within one month of every
-completed half year.', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
-scheme and no further scroll out of RODTEP claims for the SBs will be permitted
-at the Customs Port of Export after the grace period of three (3) months i.e.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R005', '4.94', 'In case of delay in filing or non-submission of
-half yearly return within 15 days of every completed half year,
-GJEPC shall seek comments of defaulting Nominated Agencies.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'after
-30th June.', 'In case of delay in filing or non-submission of
-half yearly return within 15 days of every completed half year,
-GJEPC shall seek comments of defaulting Nominated Agencies.', 'Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls
+at the Customs Port of Export after the grace period of three (3) months i.e.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6 - Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC6-R002', '6', 'The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular
+financial year shall be filed on DGFT portal by 31st March of the next financial year
+i.e.', 'business_rule', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for', 'After due assessment is made by the concerned authority, who has been mandated
+in this regard, the RODTEP scrip holder will be liable to refund/surrender any
+excess claims based on the order passed after the scrutiny under the relevant
+customs head.', 'The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular
+financial year shall be filed on DGFT portal by 31st March of the next financial year
+i.e.', 'Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls
 will be resumed within 45 days, till an online API based message exchange is
-established between DGFT and Customs.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R006', '4.94', 'To assess the nature of inputs used in export production and the amount of actual
-taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
-claiming RODTEP benefits shall be required to file an Annual RODTEP Return
-(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
-2023.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.', 'To assess the nature of inputs used in export production and the amount of actual
-taxes & duties incurred, as permissible under Para 4.54 of FTP, the exporters
-claiming RODTEP benefits shall be required to file an Annual RODTEP Return
-(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
-2023.', 'The physical/digital records substantiating the duty remission claims, as filed in
-ARR, will need to be maintained for a period of five (5) years which may be
-produced before the concerned authority assessing the ARR.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R007', '4.94', 'The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular
-financial year shall be filed on DGFT portal by 31st March of the next financial year
-i.e.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'The physical/digital records substantiating the duty remission claims, as filed in
-ARR, will need to be maintained for a period of five (5) years which may be
-produced before the concerned authority assessing the ARR.', 'The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular
-financial year shall be filed on DGFT portal by 31st March of the next financial year
-i.e.', 'The physical/digital records substantiating the duty remission claims, as filed in
-ARR, will need to be maintained for a period of five (5) years which may be
-produced before the concerned authority assessing the ARR.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R008', '4.94', 'RODTEP claims information for Financial Year 2023-24 shall be required to be
-filed by 31.03.2025.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'ARR filings may also be periodically assessed for necessary due diligence and
-presented before Ro DTEP Committee for suitable revision of rates including for
-the consideration of higher rates wherever warranted.', 'RODTEP claims information for Financial Year 2023-24 shall be required to be
+established between DGFT and Customs.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6 - Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC6-R003', '6', 'RODTEP claims information for Financial Year 2023-24 shall be required to be
+filed by 31.03.2025.', 'business_rule', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for', 'Failure to regularise the excess claims within a specified time frame
+will lead to stopping of further benefits under the Scheme.x
+pg.', 'RODTEP claims information for Financial Year 2023-24 shall be required to be
 filed by 31.03.2025.', 'The physical/digital records substantiating the duty remission claims, as filed in
 ARR, will need to be maintained for a period of five (5) years which may be
-produced before the concerned authority assessing the ARR.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R009', '4.94', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+produced before the concerned authority assessing the ARR.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6 - Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC6-R004', '6', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
 scheme and no further scroll out of RODTEP claims for the SBs will be permitted
-at the Customs Port of Export after the grace period of three (3) months i.e.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for
-further scrutiny to assess the nature of inputs used in export production and the
-amount of actual taxes & duties incurred, as permissible under Para 4.54 of FTP.', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+at the Customs Port of Export after the grace period of three (3) months i.e.', 'business_rule', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e.', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
 scheme and no further scroll out of RODTEP claims for the SBs will be permitted
 at the Customs Port of Export after the grace period of three (3) months i.e.', 'The physical/digital records substantiating the duty remission claims, as filed in
 ARR, will need to be maintained for a period of five (5) years which may be
-produced before the concerned authority assessing the ARR.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R010', '4.94', 'The resumption of scroll out shall also
+produced before the concerned authority assessing the ARR.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6 - Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC6-R005', '6', 'The resumption of scroll out shall also
 cover the Shipping Bills that were not scrolled out earlier on account of non-
-compliance of ARR.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'After due assessment is made by the concerned authority, who has been mandated
-in this regard, the RODTEP scrip holder will be liable to refund/surrender any
-excess claims based on the order passed after the scrutiny under the relevant
-customs head.', 'The resumption of scroll out shall also
+compliance of ARR.', 'business_rule', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for', 'after
+30th June.', 'The resumption of scroll out shall also
 cover the Shipping Bills that were not scrolled out earlier on account of non-
 compliance of ARR.', 'The physical/digital records substantiating the duty remission claims, as filed in
 ARR, will need to be maintained for a period of five (5) years which may be
-produced before the concerned authority assessing the ARR.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH4-SEC4_94-R011', '4.94', '130
-claiming RODTEP benefits shall be required to file an Annual RODTEP Return
-(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
-2023.', 'business_rule', 'Filing of Annual RODTEP Return (ARR)', 'Failure to regularise the excess claims within a specified time frame
-will lead to stopping of further benefits under the Scheme.x
-pg.', '130
-claiming RODTEP benefits shall be required to file an Annual RODTEP Return
-(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
-2023.', 'The physical/digital records substantiating the duty remission claims, as filed in
-ARR, will need to be maintained for a period of five (5) years which may be
-produced before the concerned authority assessing the ARR.', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.', 'DEKAI should produce a compliance decision for 4.94 - Filing of Annual RODTEP Return (ARR).');
-INSERT INTO conditions (section_code, condition_text) VALUES ('4.94', 'Failure to comply will
-render Nominated Agency Certificate liable to be cancelled in
-addition to action under FT (DR) Act 1992, as amended, after
-affording opportunity of personal hearing.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('4.94', 'Thereafter, GJEPC shall forward the compiled half yearly
-returns along with its observation on performance of Nominated
-Agency to DGFT headquarters within one month of every
-completed half year.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('4.94', 'In case of delay in filing or non-submission of
-half yearly return within 15 days of every completed half year,
-GJEPC shall seek comments of defaulting Nominated Agencies.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('4.94', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
-scheme and no further scroll out of RODTEP claims for the SBs will be permitted
-at the Customs Port of Export after the grace period of three (3) months i.e.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('4.94', 'after
-30th June.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('4.94', 'Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('4.94', 'The physical/digital records substantiating the duty remission claims, as filed in
-ARR, will need to be maintained for a period of five (5) years which may be
-produced before the concerned authority assessing the ARR.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('4.94', 'ARR filings may also be periodically assessed for necessary due diligence and
-presented before Ro DTEP Committee for suitable revision of rates including for
-the consideration of higher rates wherever warranted.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('4.94', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for
+produced before the concerned authority assessing the ARR.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6 - Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for
 further scrutiny to assess the nature of inputs used in export production and the
 amount of actual taxes & duties incurred, as permissible under Para 4.54 of FTP.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('4.94', 'After due assessment is made by the concerned authority, who has been mandated
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'After due assessment is made by the concerned authority, who has been mandated
 in this regard, the RODTEP scrip holder will be liable to refund/surrender any
 excess claims based on the order passed after the scrutiny under the relevant
 customs head.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('4.94', 'Failure to regularise the excess claims within a specified time frame
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'Failure to regularise the excess claims within a specified time frame
 will lead to stopping of further benefits under the Scheme.x
 pg.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('4.94', 'Failure to regularise the excess claims within a specified time frame
-will lead to stopping of further benefits under the Scheme.x');
-INSERT INTO documents (section_code, document_name) VALUES ('4.94', 'Nominated Agency Certificate');
-INSERT INTO documents (section_code, document_name) VALUES ('4.94', 'The resumption of scroll out shall also
-cover the Shipping Bills that were not scrolled out earlier on account of non-
-compliance of ARR.');
-INSERT INTO authorities (section_code, authority_name) VALUES ('4.94', 'DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('4.94', 'RBI and DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('4.94', 'Agency to DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('4.94', 'Customs');
-INSERT INTO authorities (section_code, authority_name) VALUES ('4.94', 'DGFT and Customs');
-INSERT INTO authorities (section_code, authority_name) VALUES ('4.94', 'Ro DTEP Committee');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'Failure to comply will
-render Nominated Agency Certificate liable to be cancelled in
-addition to action under FT (DR) Act 1992, as amended, after
-affording opportunity of personal hearing.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'Nominated Agencies shall file half yearly return as per
-format given in Appendix 4-M of Handbook of Procedures, to the
-Gems & Jewellery Export Promotion Council (GJEPC), Mumbai
-within 15 days of every completed half year.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'Thereafter, GJEPC shall forward the compiled half yearly
-returns along with its observation on performance of Nominated
-Agency to DGFT headquarters within one month of every
-completed half year.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'In case of delay in filing or non-submission of
-half yearly return within 15 days of every completed half year,
-GJEPC shall seek comments of defaulting Nominated Agencies.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
 scheme and no further scroll out of RODTEP claims for the SBs will be permitted
 at the Customs Port of Export after the grace period of three (3) months i.e.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'after
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'after
 30th June.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'RODTEP claims information for Financial Year 2023-24 with
-composition fees can be filed within a grace period of 3 months i.e.by 30.06.2025.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls
-will be resumed within 45 days, till an online API based message exchange is
-established between DGFT and Customs.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'The physical/digital records substantiating the duty remission claims, as filed in
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'The physical/digital records substantiating the duty remission claims, as filed in
 ARR, will need to be maintained for a period of five (5) years which may be
 produced before the concerned authority assessing the ARR.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'ARR filings may also be periodically assessed for necessary due diligence and
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'ARR filings may also be periodically assessed for necessary due diligence and
 presented before Ro DTEP Committee for suitable revision of rates including for
 the consideration of higher rates wherever warranted.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'After due assessment is made by the concerned authority, who has been mandated
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'Failure to regularise the excess claims within a specified time frame
+will lead to stopping of further benefits under the Scheme.x');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'The resumption of scroll out shall also
+cover the Shipping Bills that were not scrolled out earlier on account of non-
+compliance of ARR.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6', 'customs');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6', 'DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6', 'DGFT and Customs');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6', 'Ro DTEP Committee');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'After due assessment is made by the concerned authority, who has been mandated
 in this regard, the RODTEP scrip holder will be liable to refund/surrender any
 excess claims based on the order passed after the scrutiny under the relevant
 customs head.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'Failure to regularise the excess claims within a specified time frame
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'Failure to regularise the excess claims within a specified time frame
 will lead to stopping of further benefits under the Scheme.x
 pg.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('4.94', 'Failure to regularise the excess claims within a specified time frame
-will lead to stopping of further benefits under the Scheme.x');
-INSERT INTO exceptions (section_code, exception_text) VALUES ('4.94', '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 1, 'Evaluate condition: Failure to comply will
-render Nominated Agency Certificate liable to be cancelled in
-addition to action under FT (DR) Act 1992, as amended, after
-affording opportunity of personal hearing.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 2, 'Evaluate condition: Thereafter, GJEPC shall forward the compiled half yearly
-returns along with its observation on performance of Nominated
-Agency to DGFT headquarters within one month of every
-completed half year.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 3, 'Evaluate condition: In case of delay in filing or non-submission of
-half yearly return within 15 days of every completed half year,
-GJEPC shall seek comments of defaulting Nominated Agencies.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 4, '129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 5, 'Failure to comply will
-render Nominated Agency Certificate liable to be cancelled in
-addition to action under FT (DR) Act 1992, as amended, after
-affording opportunity of personal hearing.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 6, 'In turn, G&J EPC shall
-compile the half yearly return and the figures submitted by the
-Nominated Agency and check the performance of the Nominated
-Agency.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 7, 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
 scheme and no further scroll out of RODTEP claims for the SBs will be permitted
 at the Customs Port of Export after the grace period of three (3) months i.e.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 8, 'Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'after
+30th June.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'RODTEP claims information for Financial Year 2023-24 with
+composition fees can be filed within a grace period of 3 months i.e.by 30.06.2025.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls
 will be resumed within 45 days, till an online API based message exchange is
 established between DGFT and Customs.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 9, 'The physical/digital records substantiating the duty remission claims, as filed in
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'The physical/digital records substantiating the duty remission claims, as filed in
 ARR, will need to be maintained for a period of five (5) years which may be
 produced before the concerned authority assessing the ARR.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 10, 'Run validation: 129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 11, 'Run validation: Nominated Agencies shall file half yearly return as per
-format given in Appendix 4-M of Handbook of Procedures, to the
-Gems & Jewellery Export Promotion Council (GJEPC), Mumbai
-within 15 days of every completed half year.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 12, 'Run validation: In turn, G&J EPC shall
-compile the half yearly return and the figures submitted by the
-Nominated Agency and check the performance of the Nominated
-Agency.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4.94', 13, 'Handle exception: 129
-Nominated Agencies
-The guidelines on import of precious metal by the nominated agencies and
-monitoring are as under:
-(a)
-Following guidelines for monitoring the import of precious metal and
-its distribution and / or own use by the Nominated Agencies will be
-followed, (other than the Banks nominated by RBI for this purpose):
-(i)
-Every Nominated Agency is required to maintain records of
-imports of precious metal (both quantity and value) and its
-distribution for the purpose of exports of value added product as
-well as for the purpose of domestic consumption as per the format
-given in Appendix 4-M of Hand Book of Procedures.');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'ARR');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'the');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'and');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'FTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'are');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'for');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'its');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'own');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'use');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'RBI');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'per');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'Act');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'Ltd');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'G&J');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'EPC');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'one');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'all');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'out');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'SBs');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'keywords', 'fee');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'tags', '4.94');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'tags', 'Filing of Annual RODTEP Return (ARR)');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'tags', 'business-rule');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'tags', 'document-driven');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4.94', 'tags', 'dgft');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'ARR filings may also be periodically assessed for necessary due diligence and
+presented before Ro DTEP Committee for suitable revision of rates including for
+the consideration of higher rates wherever warranted.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'Failure to regularise the excess claims within a specified time frame
+will lead to stopping of further benefits under the Scheme.x');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 1, 'Evaluate condition: Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for
+further scrutiny to assess the nature of inputs used in export production and the
+amount of actual taxes & duties incurred, as permissible under Para 4.54 of FTP.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 2, 'Evaluate condition: After due assessment is made by the concerned authority, who has been mandated
+in this regard, the RODTEP scrip holder will be liable to refund/surrender any
+excess claims based on the order passed after the scrutiny under the relevant
+customs head.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 3, 'Evaluate condition: Failure to regularise the excess claims within a specified time frame
+will lead to stopping of further benefits under the Scheme.x
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 4, 'Non-reporting of the ARR shall lead to denial of benefits under the RODTEP
+scheme and no further scroll out of RODTEP claims for the SBs will be permitted
+at the Customs Port of Export after the grace period of three (3) months i.e.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 5, 'Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls
+will be resumed within 45 days, till an online API based message exchange is
+established between DGFT and Customs.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 6, 'The physical/digital records substantiating the duty remission claims, as filed in
+ARR, will need to be maintained for a period of five (5) years which may be
+produced before the concerned authority assessing the ARR.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 7, 'Run validation: 130
+claiming RODTEP benefits shall be required to file an Annual RODTEP Return
+(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,
+2023.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 8, 'Run validation: The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular
+financial year shall be filed on DGFT portal by 31st March of the next financial year
+i.e.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 9, 'Run validation: RODTEP claims information for Financial Year 2023-24 shall be required to be
+filed by 31.03.2025.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'ARR');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'FTP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'due');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'who');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'has');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'per');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'all');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'out');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'SBs');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'fee');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'can');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'API');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'non');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'also');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', '6');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'dgft');
 INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter04+as+on+20.04.2026.pdf', '4', 'Duty Exemption / Remission Schemes', '4.95', 'Filing of Application for Diamond Imprest Authorisation (DIA)', '4.95 Filing of Application for Diamond Imprest Authorisation (DIA)
 The policy regarding Diamond Imprest Authorisation is outlined in the FTP 2023.', 'Indha Filing of Application for Diamond Imprest Authorisation (DIA) section-la, 4.95 Filing of application for Diamond Imprest Authorisation (DIA)
 The policy regarding Diamond Imprest Authorisation is outlined in the FTP 2023.', '4.95 Filing of Application for Diamond Imprest Authorisation (DIA)

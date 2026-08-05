@@ -237,6 +237,17 @@ export function AssistantBubble({
             />
           ) : null}
         </div>
+        {message.complete && (message.answer.referencedPdf || message.answer.sourceChapter || message.answer.sourceSection) ? (
+          <div className="mt-4 space-y-3">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted-foreground)]">Source</p>
+            <div className="flex flex-wrap gap-2">
+              {message.answer.referencedPdf ? <SourceChip>{message.answer.referencedPdf}</SourceChip> : null}
+              {message.answer.sourceChapter ? <SourceChip>{message.answer.sourceChapter}</SourceChip> : null}
+              {message.answer.sourceSection ? <SourceChip>{message.answer.sourceSection}</SourceChip> : null}
+              {message.answer.sourcePages.length > 0 ? <SourceChip>{`Pages ${message.answer.sourcePages.join(", ")}`}</SourceChip> : null}
+            </div>
+          </div>
+        ) : null}
       </div>
     </div>
   );

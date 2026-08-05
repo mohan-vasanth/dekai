@@ -36,7 +36,8 @@
   "validations": [],
   "exceptions": [],
   "dependencies": [
-    "10"
+    "10",
+    "1"
   ],
   "documents": [],
   "required_documents": [],
@@ -238,11 +239,13 @@
   ],
   "dekai_ai_implementation_notes": [
     "Capture chapter 10, section 10.00, title, and page references as immutable knowledge metadata.",
-    "Bind validations for Policy into a rule engine keyed by the rule IDs extracted for this section."
+    "Bind validations for Policy into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Policy section-la, Capture chapter 10, section 10.00, title, and page references as immutable knowledge metadata.",
-    "Indha Policy section-la, Bind validations for Policy into a rule engine keyed by the rule IDs extracted for this section."
+    "Indha Policy section-la, Bind validations for Policy into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Policy section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "the",
@@ -294,7 +297,9 @@
     "Policy",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [

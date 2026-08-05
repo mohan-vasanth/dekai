@@ -1,0 +1,9 @@
+{
+  "section": "1",
+  "decision_tree": [
+    "IF exception applies (However, metallic waste and scrap (both shredded and\npg.) THEN route to manual review",
+    "IF exception applies ((iv)\nImport of scrap would take place only through following designated\nports and no exceptions would be allowed even in case of EOUs, SEZs: -\n1.) THEN route to manual review",
+    "IF exception applies (These will however be subject to radiation\nand explosive checks through portal monitors and container\nscanner at these ports.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7. Decision\nIF exception applies (However, metallic waste and scrap (both shredded and\npg.) THEN route to manual review\n   |\n   v\nIF exception applies ((iv)\nImport of scrap would take place only through following designated\nports and no exceptions would be allowed even in case of EOUs, SEZs: -\n1.) THEN route to manual review\n   |\n   v\nIF exception applies (These will however be subject to radiation\nand explosive checks through portal monitors and container\nscanner at these ports.) THEN route to manual review"
+}

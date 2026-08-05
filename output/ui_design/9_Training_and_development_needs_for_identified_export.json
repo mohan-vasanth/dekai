@@ -1,0 +1,37 @@
+{
+  "section": "9",
+  "ui": [
+    {
+      "screen_id": "Training_and_development_needs_for_identified_export_overview",
+      "name": "Training and development needs for identified export Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Training_and_development_needs_for_identified_export_submission",
+      "name": "Training and development needs for identified export Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "for_flag",
+        "the_flag",
+        "with_flag",
+        "from_flag",
+        "plan_flag"
+      ]
+    }
+  ]
+}

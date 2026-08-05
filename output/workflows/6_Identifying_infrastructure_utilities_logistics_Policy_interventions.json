@@ -1,0 +1,10 @@
+{
+  "section": "6",
+  "workflow": [
+    "Evaluate condition: Identifying infrastructure/utilities/logistics/Policy interventions\nrequired.",
+    "Run validation: Identifying infrastructure/utilities/logistics/Policy interventions\nrequired."
+  ],
+  "workflow_ascii": "Identifying infrastructure/utilities/logistics/Policy interventions\nEvaluate condition: Identifying infrastructure/utilities/logistics/Policy interventions\nrequired.\n   |\n   v\nRun validation: Identifying infrastructure/utilities/logistics/Policy interventions\nrequired.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Identifying infrastructure/utilities/logistics/Policy interventions\nrequired.\"]\n    S2[\"Run validation: Identifying infrastructure/utilities/logistics/Policy interventions\nrequired.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Identifying infrastructure/utilities/logistics/Policy interventions\nrequired.;\n:Run validation\\: Identifying infrastructure/utilities/logistics/Policy interventions\nrequired.;\nstop\n@enduml"
+}

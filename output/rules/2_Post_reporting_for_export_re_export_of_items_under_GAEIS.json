@@ -1,0 +1,22 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "2",
+  "title": "Post reporting for export / re-export of items under GAEIS",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC2-R001",
+      "rule_description": "The Indian exporter shall submit post-shipment details of each export/re-export\nof SCOMET items under the above Categories/sub-categories under GAEIS for 3\nyears on quarterly basis (March/June/September/December) by the end of\nsubsequent month of each quarter, in respect of exports made in the previous\nquarter;\nb.",
+      "trigger": "Post reporting for export / re-export of items under GAEIS",
+      "condition": "In case of re-export of imported items, the additional documents as mentioned\nin 1.b.vii.(i) have to be submitted at the time of post reporting.",
+      "validation": "The Indian exporter shall submit post-shipment details of each export/re-export\nof SCOMET items under the above Categories/sub-categories under GAEIS for 3\nyears on quarterly basis (March/June/September/December) by the end of\nsubsequent month of each quarter, in respect of exports made in the previous\nquarter;\nb.",
+      "action": "Post reporting for export / re-export of items under GAEIS\na.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2 - Post reporting for export / re-export of items under GAEIS."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: The Indian exporter shall submit post-shipment details of each export/re-export\nof SCOMET items under the above Categories/sub-categories under GAEIS for 3\nyears on quarterly basis (March/June/September/December) by the end of\nsubsequent month of each quarter, in respect of exports made in the previous\nquarter;\nb.",
+    "IF validations pass THEN recommend action: Post reporting for export / re-export of items under GAEIS\na."
+  ]
+}

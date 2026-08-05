@@ -1,0 +1,10 @@
+{
+  "section": "1",
+  "workflow": [
+    "Evaluate condition: Any on-site inspection will be allowed by the applicant exporter if required\nby the DGFT or authorized representatives of the Government of India;",
+    "Run validation: Any on-site inspection will be allowed by the applicant exporter if required\nby the DGFT or authorized representatives of the Government of India;"
+  ],
+  "workflow_ascii": "Any on-site inspection will be allowed by the applicant exporter if required\nEvaluate condition: Any on-site inspection will be allowed by the applicant exporter if required\nby the DGFT or authorized representatives of the Government of India;\n   |\n   v\nRun validation: Any on-site inspection will be allowed by the applicant exporter if required\nby the DGFT or authorized representatives of the Government of India;",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Any on-site inspection will be allowed by the applicant exporter if required\nby the DGFT or authorized representatives of the Government of India;\"]\n    S2[\"Run validation: Any on-site inspection will be allowed by the applicant exporter if required\nby the DGFT or authorized representatives of the Government of India;\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Any on-site inspection will be allowed by the applicant exporter if required\nby the DGFT or authorized representatives of the Government of India;;\n:Run validation\\: Any on-site inspection will be allowed by the applicant exporter if required\nby the DGFT or authorized representatives of the Government of India;;\nstop\n@enduml"
+}

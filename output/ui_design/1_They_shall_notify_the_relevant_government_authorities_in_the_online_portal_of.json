@@ -1,0 +1,37 @@
+{
+  "section": "1",
+  "ui": [
+    {
+      "screen_id": "They_shall_notify_the_relevant_government_authorities_in_the_online_portal_of_overview",
+      "name": "They shall notify the relevant government authorities in the online portal of Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "They_shall_notify_the_relevant_government_authorities_in_the_online_portal_of_submission",
+      "name": "They shall notify the relevant government authorities in the online portal of Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "anf_flag",
+        "euc_flag",
+        "for_flag",
+        "are_flag",
+        "all_flag"
+      ]
+    }
+  ]
+}

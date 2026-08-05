@@ -1,0 +1,37 @@
+{
+  "section": "1",
+  "ui": [
+    {
+      "screen_id": "Prepare_a_time_bound_detailed_District_Export_Action_strategy_plan_for_overview",
+      "name": "Prepare a time-bound, detailed District Export Action strategy / plan for Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Prepare_a_time_bound_detailed_District_Export_Action_strategy_plan_for_submission",
+      "name": "Prepare a time-bound, detailed District Export Action strategy / plan for Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "hub_flag",
+        "plan_flag",
+        "export_flag",
+        "action_flag"
+      ]
+    }
+  ]
+}

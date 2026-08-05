@@ -35,7 +35,20 @@
   ],
   "validations": [],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "13",
+    "17",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [
@@ -109,14 +122,6 @@
     ],
     [
       [
-        "13.",
-        "Jt. DGFT, Rajkot",
-        "Jt. DGFT",
-        "RA, Rajkot"
-      ]
-    ],
-    [
-      [
         "14",
         "",
         "Addl. DGFT,",
@@ -161,6 +166,14 @@
         "Addl. DGFT,",
         "Addl. DGFT",
         "RA, Hyderabad"
+      ]
+    ],
+    [
+      [
+        "13.",
+        "Jt. DGFT, Rajkot",
+        "Jt. DGFT",
+        "RA, Rajkot"
       ]
     ],
     [
@@ -398,12 +411,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 8, section 8.01, title, and page references as immutable knowledge metadata.",
     "Bind validations for Committee on Quality Complaint & Trade Dispute (CQCTD) into a rule engine keyed by the rule IDs extracted for this section.",
-    "Route escalations or approvals to: DGFT, Committee on Quality Complaint & Trade Dispute, CQCTD, RA."
+    "Route escalations or approvals to: DGFT, Committee on Quality Complaint & Trade Dispute, CQCTD, RA.",
+    "Show contextual links to related sections: 13, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Committee on Quality Complaint & Trade Dispute (CQCTD) section-la, Capture chapter 8, section 8.01, title, and page references as immutable knowledge metadata.",
     "Indha Committee on Quality Complaint & Trade Dispute (CQCTD) section-la, Bind validations for Committee on Quality Complaint & Trade Dispute (CQCTD) into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Committee on Quality Complaint & Trade Dispute (CQCTD) section-la, Route escalations or approvals to: DGFT, Committee on Quality Complaint & Trade Dispute, CQCTD, RA."
+    "Indha Committee on Quality Complaint & Trade Dispute (CQCTD) section-la, Route escalations or approvals to: DGFT, Committee on Quality Complaint & Trade Dispute, CQCTD, RA.",
+    "Indha Committee on Quality Complaint & Trade Dispute (CQCTD) section-la, Show contextual links to related sections: 13, 17, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10."
   ],
   "keywords": [
     "For",
@@ -455,7 +470,20 @@
     "Committee on Quality Complaint & Trade Dispute (CQCTD)",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "13",
+    "17",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10"
+  ],
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [
@@ -467,7 +495,7 @@
     3
   ],
   "source_document": "HBP2023_Chapter08.pdf",
-  "raw_text": "8.01 Committee on Quality Complaint & Trade Dispute (CQCTD)\nFor effective dealing of quality complaints and trade disputes, a Committee on\nQuality Complaint & Trade Dispute (CQCTD) is constituted in the 20 offices of\nthe DGFT. Name of the office, where CQCTD has been constituted and\njurisdiction of CQCTD is given in the table below:\nSl. Location of Designation of Jurisdiction of the CQCTD\nNo. CQCTD Chairperson\nNorthern Zone\n1 Addl. DGFT, CLA, Addl. DGFT CLA, New Delhi\nNew Delhi\n2 Jt. DGFT, Panipat Jt. DGFT RA, Panipat\n3 Jt. DGFT, Jt. DGFT RA, Jaipur\nJaipur\n4 Jt. DGFT, Kanpur Jt. DGFT RA, Kanpur\n5 Addl. DGFT, Addl. DGFT RA, Ludhiana; RA, Jammu\nLudhiana and RA, Srinagar\n6 Jt. DGFT, Varanasi Jt. DGFT RA, Varanasi\nWestern Zone\n7 Addl. DGFT, Addl. DGFT RA, Mumbai and RA, Nagpur\nMumbai\n8 Jt. DGFT, Pune Jt. DGFT RA, Pune\n9 Dy. DGFT, Jt. DGFT RA, Vadodara\nVadodara\n10 Addl. DGFT, Addl. DGFT RA, Ahmedabad\nAhmedabad\n11 Jt. DGFT, Surat Jt. DGFT RA, Surat\n12 Jt. DGFT, Indore Jt. DGFT RA, Indore and RA, Bhopal\n13. Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot\nEastern Zone\n14 Addl. DGFT, Addl. DGFT RA, Kolkata and RA,\nKolkata Guwahati\nSouthern Zone\n15 Addl. DGFT, Addl. DGFT RA, Chennai\nChennai\n16 Addl. DGFT, Addl. DGFT RA, Bangalore\nBangalore\n17. Addl. DGFT, Addl. DGFT RA, Hyderabad\npg. 164\n2 | Jt. DGFT, Panipat | Jt. DGFT | RA, Panipat\n4 | Jt. DGFT, Kanpur | Jt. DGFT | RA, Kanpur\n6 | Jt. DGFT, Varanasi | Jt. DGFT | RA, Varanasi\n7 | | Addl. DGFT, | | Addl. DGFT | RA, Mumbai and RA, Nagpur\n| | Mumbai | | |\n9 | | Dy. DGFT, | | Jt. DGFT | RA, Vadodara\n| | Vadodara | | |\n11 | Jt. DGFT, Surat | Jt. DGFT | RA, Surat\n13. | Jt. DGFT, Rajkot | Jt. DGFT | RA, Rajkot\n14 | | Addl. DGFT, | | Addl. DGFT | | RA, Kolkata and RA, |\n| | Kolkata | | | | Guwahati |\n15 | | Addl. DGFT, | | Addl. DGFT | RA, Chennai\n| | Chennai | | |\n17. | Addl. DGFT, | Addl. DGFT | RA, Hyderabad\npg. 164\nChapter-8\nQuality Complaints and Trade Disputes\n8.01 Committee on Quality Complaint & Trade Dispute (CQCTD)\nFor effective dealing of quality complaints and trade disputes, a Committee on\nQuality Complaint & Trade Dispute (CQCTD) is constituted in the 20 offices of\nthe DGFT. Name of the office, where CQCTD has been constituted and\njurisdiction of CQCTD is given in the table below:\nSl.\nNo.\nLocation of\nCQCTD\nDesignation of\nChairperson\nJurisdiction of the CQCTD\nNorthern Zone\n1\nAddl. DGFT, CLA,\nNew Delhi\nAddl. DGFT\nCLA, New Delhi\n2\nJt. DGFT, Panipat\nJt. DGFT\nRA, Panipat\n3\nJt. DGFT,\nJaipur\nJt. DGFT\nRA, Jaipur\n4\nJt. DGFT, Kanpur\nJt. DGFT\nRA, Kanpur\n5\nAddl. DGFT,\nLudhiana\nAddl. DGFT\nRA, Ludhiana; RA, Jammu\nand RA, Srinagar\n6\nJt. DGFT, Varanasi\nJt. DGFT\nRA, Varanasi\nWestern Zone\n7\nAddl. DGFT,\nMumbai\nAddl. DGFT\nRA, Mumbai and RA, Nagpur\n8\nJt. DGFT, Pune\nJt. DGFT\nRA, Pune\n9\nDy. DGFT,\nVadodara\nJt. DGFT\nRA, Vadodara\n10\nAddl. DGFT,\nAhmedabad\nAddl. DGFT\nRA, Ahmedabad\n11\nJt. DGFT, Surat\nJt. DGFT\nRA, Surat\n12\nJt. DGFT, Indore\nJt. DGFT\nRA, Indore and RA, Bhopal\n13.\nJt. DGFT, Rajkot\nJt. DGFT\nRA, Rajkot\nEastern Zone\n14\nAddl. DGFT,\nKolkata\nAddl. DGFT\nRA, Kolkata and RA,\nGuwahati\nSouthern Zone\n15\nAddl. DGFT,\nChennai\nAddl. DGFT\nRA, Chennai\n16\nAddl. DGFT,\nBangalore\nAddl. DGFT\nRA, Bangalore\n17.\nAddl. DGFT,\nAddl. DGFT\nRA, Hyderabad\nHyderabad\n18 Jt. DGFT, Jt. DGFT RA, Coimbatore\nCoimbatore\n19 Dy. DGFT, Dy. DGFT RA, Vishakhapatnam\nVishakhapatnam\n20 Jt. DGFT Cochin Jt. DGFT RA, Cochin",
+  "raw_text": "8.01 Committee on Quality Complaint & Trade Dispute (CQCTD)\nFor effective dealing of quality complaints and trade disputes, a Committee on\nQuality Complaint & Trade Dispute (CQCTD) is constituted in the 20 offices of\nthe DGFT. Name of the office, where CQCTD has been constituted and\njurisdiction of CQCTD is given in the table below:\nSl. Location of Designation of Jurisdiction of the CQCTD\nNo. CQCTD Chairperson\nNorthern Zone\n1 Addl. DGFT, CLA, Addl. DGFT CLA, New Delhi\nNew Delhi\n2 Jt. DGFT, Panipat Jt. DGFT RA, Panipat\n3 Jt. DGFT, Jt. DGFT RA, Jaipur\nJaipur\n4 Jt. DGFT, Kanpur Jt. DGFT RA, Kanpur\n5 Addl. DGFT, Addl. DGFT RA, Ludhiana; RA, Jammu\nLudhiana and RA, Srinagar\n6 Jt. DGFT, Varanasi Jt. DGFT RA, Varanasi\nWestern Zone\n7 Addl. DGFT, Addl. DGFT RA, Mumbai and RA, Nagpur\nMumbai\n8 Jt. DGFT, Pune Jt. DGFT RA, Pune\n9 Dy. DGFT, Jt. DGFT RA, Vadodara\nVadodara\n10 Addl. DGFT, Addl. DGFT RA, Ahmedabad\nAhmedabad\n11 Jt. DGFT, Surat Jt. DGFT RA, Surat\n12 Jt. DGFT, Indore Jt. DGFT RA, Indore and RA, Bhopal\n8.01 Committee on Quality Complaint & Trade Dispute (CQCTD)\nFor effective dealing of quality complaints and trade disputes, a Committee on\nQuality Complaint & Trade Dispute (CQCTD) is constituted in the 20 offices of\nthe DGFT. Name of the office, where CQCTD has been constituted and\njurisdiction of CQCTD is given in the table below:\nSl.\nNo.\nLocation of\nCQCTD\nDesignation of\nChairperson\nJurisdiction of the CQCTD\nNorthern Zone\n1\nAddl. DGFT, CLA,\nNew Delhi\nAddl. DGFT\nCLA, New Delhi\n2\nJt. DGFT, Panipat\nJt. DGFT\nRA, Panipat\n3\nJt. DGFT,\nJaipur\nJt. DGFT\nRA, Jaipur\n4\nJt. DGFT, Kanpur\nJt. DGFT\nRA, Kanpur\n5\nAddl. DGFT,\nLudhiana\nAddl. DGFT\nRA, Ludhiana; RA, Jammu\nand RA, Srinagar\n6\nJt. DGFT, Varanasi\nJt. DGFT\nRA, Varanasi\nWestern Zone\n7\nAddl. DGFT,\nMumbai\nAddl. DGFT\nRA, Mumbai and RA, Nagpur\n8\nJt. DGFT, Pune\nJt. DGFT\nRA, Pune\n9\nDy. DGFT,\nVadodara\nJt. DGFT\nRA, Vadodara\n10\nAddl. DGFT,\nAhmedabad\nAddl. DGFT\nRA, Ahmedabad\n11\nJt. DGFT, Surat\nJt. DGFT\nRA, Surat\n12\nJt. DGFT, Indore\nJt. DGFT\nRA, Indore and RA, Bhopal\n13.\nJt. DGFT, Rajkot\nJt. DGFT\nRA, Rajkot\nEastern Zone\n14\nAddl. DGFT,\nKolkata\nAddl. DGFT\nRA, Kolkata and RA,\nGuwahati\nSouthern Zone\n15\nAddl. DGFT,\nChennai\nAddl. DGFT\nRA, Chennai\n16\nAddl. DGFT,\nBangalore\nAddl. DGFT\nRA, Bangalore\n17.\nAddl. DGFT,\nAddl. DGFT\nRA, Hyderabad\nHyderabad\n18 Jt. DGFT, Jt. DGFT RA, Coimbatore\nCoimbatore\n19 Dy. DGFT, Dy. DGFT RA, Vishakhapatnam\nVishakhapatnam\n20 Jt. DGFT Cochin Jt. DGFT RA, Cochin",
   "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Name of the office, where CQCTD has been constituted and\njurisdiction of CQCTD is given in the table below:\nSl.\"]",
   "plantuml": "@startuml\nstart\n:Evaluate condition\\: Name of the office, where CQCTD has been constituted and\njurisdiction of CQCTD is given in the table below\\:\nSl.;\nstop\n@enduml"
 }

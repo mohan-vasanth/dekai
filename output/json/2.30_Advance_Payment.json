@@ -110,7 +110,9 @@
   "exceptions": [
     "2.30 Advance Payment\nIn case, payment is received in advance and export / deemed export takes place\nsubsequently, application for an Authorisation shall be filed within specific period\nfollowing the month during which exports/ deemed export is made, unless otherwise\nspecified."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1"
+  ],
   "documents": [
     "2.30 Advance Payment\nIn case, payment is received in advance and export / deemed export takes place\nsubsequently, application for an Authorisation shall be filed within specific period\nfollowing the month during which exports/ deemed export is made, unless otherwise\nspecified.",
     "20\nfollowing condition on the licence/ Authorisation: \"BG / LUT as applicable, to be\nexecuted with concerned Customs Authorities”.",
@@ -424,14 +426,16 @@
     "Bind validations for Advance Payment into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 2.30 Advance Payment\nIn case, payment is received in advance and export / deemed export takes place\nsubsequently, application for an Authorisation shall be filed within specific period\nfollowing the month during which exports/ deemed export is made, unless otherwise\nspecified., 20\nfollowing condition on the licence/ Authorisation: \"BG / LUT as applicable, to be\nexecuted with concerned Customs Authorities”., In case, the firm has already executed BG/LUT for the full value of the\nlicence/ certificate/ authorisation/ permission (covering the items indigenously\nprocured) to the Customs and furnishes proof of the same to Regional Authority\n(RA), no BG/LUT shall be required to be executed with the RA., RA shall endorse a copy of the same along with a forwarding letter to\nthe Customs Authority at the Port of registration for their information and\nrecord..",
     "Route escalations or approvals to: Customs, Customs Authorities, RA, Authorisation holder shall furnish BG/ LUT to RA.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Advance Payment section-la, Capture chapter 2, section 2.30, title, and page references as immutable knowledge metadata.",
     "Indha Advance Payment section-la, Bind validations for Advance Payment into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Advance Payment section-la, Expose document upload controls for: 2.30 Advance Payment\nIn case, payment is received in advance and export / deemed export takes place\nsubsequently, application for an Authorisation kandippa be filed within specific period\nfollowing the month during which exports/ deemed export is made, unless otherwise\nspecified., 20\nfollowing condition on the licence/ Authorisation: \"BG / LUT as applicable, to be\nexecuted with concerned Customs Authorities”., In case, the firm has already executed BG/LUT for the full value of the\nlicence/ certificate/ authorisation/ permission (covering the items indigenously\nprocured) to the Customs and furnishes proof of the same to Regional authority\n(RA), no BG/LUT kandippa be required to be executed with the RA., RA kandippa endorse a copy of the same along with a forwarding letter to\nthe Customs authority at the Port of registration for their information and\nrecord..",
     "Indha Advance Payment section-la, Route escalations or approvals to: Customs, Customs Authorities, RA, Authorisation holder kandippa furnish BG/ LUT to RA.",
-    "Indha Advance Payment section-la, Trigger manual review when exception clauses are detected."
+    "Indha Advance Payment section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Advance Payment section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "and",
@@ -485,7 +489,9 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [
     "2.30 Advance Payment\nIn case, payment is received in advance and export / deemed export takes place\nsubsequently, application for an Authorisation shall be filed within specific period\nfollowing the month during which exports/ deemed export is made, unless otherwise\nspecified.",

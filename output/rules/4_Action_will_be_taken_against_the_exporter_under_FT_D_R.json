@@ -1,0 +1,55 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "4",
+  "title": "Action will be taken against the exporter under FT (D & R)",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC4-R001",
+      "rule_description": "Subsequent EUC\nsubmissions for entities in the list of countries (as approved) will\nbe subject to post-reporting requirements as mentioned at viii\nbelow.",
+      "trigger": "Action will be taken against the exporter under FT (D & R)",
+      "condition": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "validation": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "action": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R)."
+    },
+    {
+      "rule_id": "CH10-SEC4-R002",
+      "rule_description": "The applicant exporter declares that the items that are\nintended to be exported shall not be used for any purpose\nother than the purpose(s) stated in the EUC and that such\nuse shall not be changed nor the items modified or\nreplicated without the prior consent of the Government of\nIndia.;\n3.",
+      "trigger": "Action will be taken against the exporter under FT (D & R)",
+      "condition": "Authorized Economic Operator (AEO) T2 Certification of CBIC.",
+      "validation": "Subsequent EUC\nsubmissions for entities in the list of countries (as approved) will\nbe subject to post-reporting requirements as mentioned at viii\nbelow.",
+      "action": "In case of re-export of imported items, the following additional\ndocuments have to be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match\npg.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R)."
+    },
+    {
+      "rule_id": "CH10-SEC4-R003",
+      "rule_description": "The applicant exporter declares that subsequent to the\nissuance of export authorization, if the licensee has been\nnotified in writing by DGFT or if they know or has reason to\nbelieve that an item may be intended for military end use\nor has a potential risk of use in or diversion to weapons of\nmass destruction (WMD) or in delivery of their missile\nsystem, the exporter would not be eligible for GAET for\nexport of that/those item(s) and would apply separately to\nDGFT for a fresh authorization in terms of regular policy.",
+      "trigger": "Action will be taken against the exporter under FT (D & R)",
+      "condition": "In case of re-export of imported items, the following additional\ndocuments have to be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match\npg.",
+      "validation": "Any on-site inspection will be allowed by the applicant\nexporter if required by the DGFT or authorized\nrepresentatives of the Government of India;\n2.",
+      "action": "197\nintermediary) on the letterhead (duly signed and stamped) is to\nbe submitted before issuance of authorization.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R)."
+    },
+    {
+      "rule_id": "CH10-SEC4-R004",
+      "rule_description": "After issuance of GAET authorization and before actual export, the\napplicant exporter must ensure the following:",
+      "trigger": "Action will be taken against the exporter under FT (D & R)",
+      "condition": "197\nintermediary) on the letterhead (duly signed and stamped) is to\nbe submitted before issuance of authorization.",
+      "validation": "The applicant exporter declares that the items that are\nintended to be exported shall not be used for any purpose\nother than the purpose(s) stated in the EUC and that such\nuse shall not be changed nor the items modified or\nreplicated without the prior consent of the Government of\nIndia.;\n3.",
+      "action": "Subsequent EUC\nsubmissions for entities in the list of countries (as approved) will\nbe subject to post-reporting requirements as mentioned at viii\nbelow.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R)."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Subsequent EUC\nsubmissions for entities in the list of countries (as approved) will\nbe subject to post-reporting requirements as mentioned at viii\nbelow.",
+    "IF detected context matches section rule THEN enforce: The applicant exporter declares that the items that are\nintended to be exported shall not be used for any purpose\nother than the purpose(s) stated in the EUC and that such\nuse shall not be changed nor the items modified or\nreplicated without the prior consent of the Government of\nIndia.;\n3.",
+    "IF detected context matches section rule THEN enforce: The applicant exporter declares that subsequent to the\nissuance of export authorization, if the licensee has been\nnotified in writing by DGFT or if they know or has reason to\nbelieve that an item may be intended for military end use\nor has a potential risk of use in or diversion to weapons of\nmass destruction (WMD) or in delivery of their missile\nsystem, the exporter would not be eligible for GAET for\nexport of that/those item(s) and would apply separately to\nDGFT for a fresh authorization in terms of regular policy.",
+    "IF detected context matches section rule THEN enforce: After issuance of GAET authorization and before actual export, the\napplicant exporter must ensure the following:",
+    "IF validations pass THEN recommend action: Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company."
+  ]
+}

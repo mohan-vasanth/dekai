@@ -1,0 +1,37 @@
+{
+  "section": "10",
+  "ui": [
+    {
+      "screen_id": "Analysis_of_the_export_data_of_the_District_and_ways_and_means_to_overview",
+      "name": "Analysis of the export data of the District and ways and means to Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Analysis_of_the_export_data_of_the_District_and_ways_and_means_to_submission",
+      "name": "Analysis of the export data of the District and ways and means to Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "data_flag",
+        "ways_flag",
+        "means_flag",
+        "export_flag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "chapter_number": "8",
+  "chapter_title": "Quality Complaints and Trade Disputes",
+  "section": "10",
+  "title": "Any other agency, as co-opted by Chairperson: Member.",
+  "purpose": "Defines the operational requirements for Any other agency, as co-opted by Chairperson: Member..",
+  "purpose_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, Defines the operational requirements for Any other agency, as co-opted by Chairperson: Member..",
+  "summary": "10. Any other agency, as co-opted by Chairperson: Member.",
+  "business_meaning": "10.",
+  "business_explanation": "10. Any other agency, as co-opted by Chairperson: Member.",
+  "business_explanation_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, 10. Any other agency, as co-opted by Chairperson: Member.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH8-SEC10-R001",
+      "rule_description": "10. Any other agency, as co-opted by Chairperson: Member.",
+      "trigger": "Any other agency, as co-opted by Chairperson: Member.",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10 - Any other agency, as co-opted by Chairperson: Member.."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [
+    "1"
+  ],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 10 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Any other agency, as co-opted by Chairperson: Member.\nReview section 10 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 10 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Any other agency, as co-opted by Chairperson: Member. Decision\nIF section 10 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Any other agency, as co-opted by Chairperson: Member.; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Any other agency, as co-opted by Chairperson: Member., submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the any other agency, as co-opted by chairperson: member. process.",
+  "real_world_example_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, Example: an importer or exporter invokes Any other agency, as co-opted by Chairperson: Member., submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the any other agency, as co-opted by chairperson: member. process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "any_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Any"
+    },
+    {
+      "name": "other_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:other"
+    },
+    {
+      "name": "agency_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:agency"
+    },
+    {
+      "name": "member_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Member"
+    },
+    {
+      "name": "co_opted_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:co-opted"
+    },
+    {
+      "name": "chairperson_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Chairperson"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/10",
+      "purpose": "Retrieve knowledge payload for section 10",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Any-other-agency-as-co-opted-by-Chairperson-Member/validate",
+      "purpose": "Validate inputs and documents for Any other agency, as co-opted by Chairperson: Member.",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Any_other_agency_as_co_opted_by_Chairperson_Member_overview",
+      "name": "Any other agency, as co-opted by Chairperson: Member. Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Any_other_agency_as_co_opted_by_Chairperson_Member_submission",
+      "name": "Any other agency, as co-opted by Chairperson: Member. Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "any_flag",
+        "other_flag",
+        "agency_flag",
+        "member_flag",
+        "co_opted_flag",
+        "chairperson_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Any other agency, as co-opted by Chairperson: Member. require?",
+    "Which documents are needed for Any other agency, as co-opted by Chairperson: Member.?",
+    "How does DEKAI validate Any other agency, as co-opted by Chairperson: Member. requests?"
+  ],
+  "expected_ai_answers": [
+    "Any other agency, as co-opted by Chairperson: Member. requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Any other agency, as co-opted by Chairperson: Member. by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 10?",
+      "answer_en": "10. Any other agency, as co-opted by Chairperson: Member.",
+      "question_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, What is the purpose of section 10?",
+      "answer_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, 10. Any other agency, as co-opted by Chairperson: Member."
+    },
+    {
+      "question_en": "What documents are required under Any other agency, as co-opted by Chairperson: Member.?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, What documents are required under Any other agency, as co-opted by Chairperson: Member.?",
+      "answer_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Any other agency, as co-opted by Chairperson: Member.?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, Which authority handles Any other agency, as co-opted by Chairperson: Member.?",
+      "answer_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Any other agency, as co-opted by Chairperson: Member.?",
+      "answer_en": "AI answers: DEKAI should evaluate section 10, apply the extracted rules, and guide the user through Review section 10 requirements.",
+      "question_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, User asks: How do I comply with Any other agency, as co-opted by Chairperson: Member.?",
+      "answer_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, AI answers: DEKAI should evaluate section 10, apply the extracted rules, and guide the user through Review section 10 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Any other agency, as co-opted by Chairperson: Member.?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, User asks: Which validations apply to Any other agency, as co-opted by Chairperson: Member.?",
+      "answer_thanglish": "Indha Any other agency, as co-opted by Chairperson: Member. section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 8, section 10, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Any other agency, as co-opted by Chairperson: Member. into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 1."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Any other agency, as co-opted by Chairperson: Member. section-la, Capture chapter 8, section 10, title, and page references as immutable knowledge metadata.",
+    "Indha Any other agency, as co-opted by Chairperson: Member. section-la, Bind validations for Any other agency, as co-opted by Chairperson: Member. into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Any other agency, as co-opted by Chairperson: Member. section-la, Show contextual links to related sections: 1."
+  ],
+  "keywords": [
+    "Any",
+    "other",
+    "agency",
+    "Member",
+    "co-opted",
+    "Chairperson"
+  ],
+  "search_keywords": [
+    "Any",
+    "other",
+    "agency",
+    "Member",
+    "co-opted",
+    "Chairperson"
+  ],
+  "intent": "Provide knowledge guidance for Any other agency, as co-opted by Chairperson: Member..",
+  "tags": [
+    "10",
+    "Any other agency, as co-opted by Chairperson: Member.",
+    "dgft"
+  ],
+  "related_sections": [
+    "1"
+  ],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    3
+  ],
+  "pages": [
+    3
+  ],
+  "source_document": "HBP2023_Chapter08.pdf",
+  "raw_text": "10. Any other agency, as co-opted by Chairperson: Member.",
+  "mermaid": "flowchart TD\n    S1[\"Review section 10 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 10 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

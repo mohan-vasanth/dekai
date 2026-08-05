@@ -73,7 +73,11 @@
     "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties."
   ],
   "dependencies": [
-    "4.12"
+    "4.12",
+    "1",
+    "2",
+    "3",
+    "4"
   ],
   "documents": [],
   "required_documents": [],
@@ -326,14 +330,14 @@
     "Bind validations for Authorisation in Excess of Entitlement into a rule engine keyed by the rule IDs extracted for this section.",
     "Route escalations or approvals to: Customs, Customs authority, Regional Authority.",
     "Trigger manual review when exception clauses are detected.",
-    "Show contextual links to related sections: 4.12."
+    "Show contextual links to related sections: 4.12, 1, 2, 3, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Authorisation in Excess of Entitlement section-la, Capture chapter 4, section 4.13, title, and page references as immutable knowledge metadata.",
     "Indha Authorisation in Excess of Entitlement section-la, Bind validations for Authorisation in Excess of Entitlement into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Authorisation in Excess of Entitlement section-la, Route escalations or approvals to: Customs, Customs authority, Regional authority.",
     "Indha Authorisation in Excess of Entitlement section-la, Trigger manual review when exception clauses are detected.",
-    "Indha Authorisation in Excess of Entitlement section-la, Show contextual links to related sections: 4.12."
+    "Indha Authorisation in Excess of Entitlement section-la, Show contextual links to related sections: 4.12, 1, 2, 3, 4."
   ],
   "keywords": [
     "for",
@@ -387,7 +391,11 @@
     "dgft"
   ],
   "related_sections": [
-    "4.12"
+    "4.12",
+    "1",
+    "2",
+    "3",
+    "4"
   ],
   "related_chapters": [],
   "related_rules": [

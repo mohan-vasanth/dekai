@@ -1,0 +1,37 @@
+{
+  "section": "9",
+  "ui": [
+    {
+      "screen_id": "Act_as_one_point_facilitator_for_export_promotion_at_District_level_overview",
+      "name": "Act as one point facilitator for export promotion at District level. Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Act_as_one_point_facilitator_for_export_promotion_at_District_level_submission",
+      "name": "Act as one point facilitator for export promotion at District level. Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "act_flag",
+        "one_flag",
+        "for_flag",
+        "point_flag",
+        "level_flag",
+        "export_flag"
+      ]
+    }
+  ]
+}

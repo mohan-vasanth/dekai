@@ -1,0 +1,47 @@
+{
+  "section": "5",
+  "ui": [
+    {
+      "screen_id": "Authorized_Economic_Operator_AEO_Certification_along_with_ICP_overview",
+      "name": "Authorized Economic Operator (AEO) Certification along with ICP Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Authorized_Economic_Operator_AEO_Certification_along_with_ICP_submission",
+      "name": "Authorized Economic Operator (AEO) Certification along with ICP Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "aeo_flag",
+        "icp_flag",
+        "for_flag",
+        "sow_flag",
+        "msa_flag",
+        "and_flag"
+      ]
+    },
+    {
+      "screen_id": "Authorized_Economic_Operator_AEO_Certification_along_with_ICP_exceptions",
+      "name": "Authorized Economic Operator (AEO) Certification along with ICP Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

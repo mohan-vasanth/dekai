@@ -1,0 +1,287 @@
+{
+  "chapter_number": "3",
+  "chapter_title": "Developing Districts as Export Hubs",
+  "section": "10",
+  "title": "Analysis of the export data of the District and ways and means to",
+  "purpose": "Analysis of the export data of the District and ways and means to\neffectively capture it.",
+  "purpose_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, Analysis of the export data of the District and ways and means to\neffectively capture it.",
+  "summary": "10. Analysis of the export data of the District and ways and means to\neffectively capture it.",
+  "business_meaning": "10.",
+  "business_explanation": "10. Analysis of the export data of the District and ways and means to\neffectively capture it.",
+  "business_explanation_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, 10. Analysis of the export data of the District and ways and means to\neffectively capture it.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH3-SEC10-R001",
+      "rule_description": "10. Analysis of the export data of the District and ways and means to\neffectively capture it.",
+      "trigger": "Analysis of the export data of the District and ways and means to",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10 - Analysis of the export data of the District and ways and means to."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [
+    "1"
+  ],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 10 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Analysis of the export data of the District and ways and means to\nReview section 10 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 10 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Analysis of the export data of the District and ways and means to Decision\nIF section 10 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Analysis of the export data of the District and ways and means to; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Analysis of the export data of the District and ways and means to, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the analysis of the export data of the district and ways and means to process.",
+  "real_world_example_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, Example: an importer or exporter invokes Analysis of the export data of the District and ways and means to, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the analysis of the export data of the district and ways and means to process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "data_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:data"
+    },
+    {
+      "name": "ways_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ways"
+    },
+    {
+      "name": "means_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:means"
+    },
+    {
+      "name": "export_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:export"
+    },
+    {
+      "name": "capture_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:capture"
+    },
+    {
+      "name": "analysis_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Analysis"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/10",
+      "purpose": "Retrieve knowledge payload for section 10",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Analysis-of-the-export-data-of-the-District-and-ways-and-means-to/validate",
+      "purpose": "Validate inputs and documents for Analysis of the export data of the District and ways and means to",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Analysis_of_the_export_data_of_the_District_and_ways_and_means_to_overview",
+      "name": "Analysis of the export data of the District and ways and means to Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Analysis_of_the_export_data_of_the_District_and_ways_and_means_to_submission",
+      "name": "Analysis of the export data of the District and ways and means to Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "data_flag",
+        "ways_flag",
+        "means_flag",
+        "export_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Analysis of the export data of the District and ways and means to require?",
+    "Which documents are needed for Analysis of the export data of the District and ways and means to?",
+    "How does DEKAI validate Analysis of the export data of the District and ways and means to requests?"
+  ],
+  "expected_ai_answers": [
+    "Analysis of the export data of the District and ways and means to requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Analysis of the export data of the District and ways and means to by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 10?",
+      "answer_en": "10. Analysis of the export data of the District and ways and means to\neffectively capture it.",
+      "question_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, What is the purpose of section 10?",
+      "answer_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, 10. Analysis of the export data of the District and ways and means to\neffectively capture it."
+    },
+    {
+      "question_en": "What documents are required under Analysis of the export data of the District and ways and means to?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, What documents are required under Analysis of the export data of the District and ways and means to?",
+      "answer_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Analysis of the export data of the District and ways and means to?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, Which authority handles Analysis of the export data of the District and ways and means to?",
+      "answer_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Analysis of the export data of the District and ways and means to?",
+      "answer_en": "AI answers: DEKAI should evaluate section 10, apply the extracted rules, and guide the user through Review section 10 requirements.",
+      "question_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, User asks: How do I comply with Analysis of the export data of the District and ways and means to?",
+      "answer_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, AI answers: DEKAI should evaluate section 10, apply the extracted rules, and guide the user through Review section 10 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Analysis of the export data of the District and ways and means to?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, User asks: Which validations apply to Analysis of the export data of the District and ways and means to?",
+      "answer_thanglish": "Indha Analysis of the export data of the District and ways and means to section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 3, section 10, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Analysis of the export data of the District and ways and means to into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 1."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Analysis of the export data of the District and ways and means to section-la, Capture chapter 3, section 10, title, and page references as immutable knowledge metadata.",
+    "Indha Analysis of the export data of the District and ways and means to section-la, Bind validations for Analysis of the export data of the District and ways and means to into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Analysis of the export data of the District and ways and means to section-la, Show contextual links to related sections: 1."
+  ],
+  "keywords": [
+    "the",
+    "and",
+    "data",
+    "ways",
+    "means",
+    "export",
+    "capture",
+    "Analysis",
+    "District",
+    "effectively"
+  ],
+  "search_keywords": [
+    "the",
+    "and",
+    "data",
+    "ways",
+    "means",
+    "export",
+    "capture",
+    "Analysis",
+    "District",
+    "effectively"
+  ],
+  "intent": "Provide knowledge guidance for Analysis of the export data of the District and ways and means to.",
+  "tags": [
+    "10",
+    "Analysis of the export data of the District and ways and means to",
+    "dgft"
+  ],
+  "related_sections": [
+    "1"
+  ],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    6
+  ],
+  "pages": [
+    6
+  ],
+  "source_document": "HBP2023_Chapter03.pdf",
+  "raw_text": "10. Analysis of the export data of the District and ways and means to\neffectively capture it.",
+  "mermaid": "flowchart TD\n    S1[\"Review section 10 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 10 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

@@ -8,25 +8,19 @@ import { Badge, Button, PageMotion, Panel, ProgressBar, useToast } from "../comp
 import { useDocuments } from "../hooks/use-documents";
 import { usePreferences } from "../lib/preferences";
 import { formatDateTime, formatFullNumber } from "../lib/utils";
+import { activeDocumentStorage } from "../services/active-document";
 import type { DocumentRecord, DocumentsKnowledgeStats, DocumentsResponse } from "../types/api";
 import { PipelineVisual, statusTone } from "./dekai-ui";
 
 const fullKnowledgePipeline = [
-  "Upload PDF",
   "Validate File",
-  "Read PDF",
   "Extract Text",
-  "Clean Text",
-  "Split into Chunks",
-  "Extract Sections",
-  "Generate Metadata",
-  "Extract Business Rules",
-  "Extract Conditions",
-  "Generate Summary",
+  "Convert to Markdown",
+  "Identify Sections",
+  "Generate Chunks",
   "Create Embeddings",
-  "Store in Vector Database",
-  "Update Search Index",
-  "Knowledge Ready",
+  "Index into Knowledge Base",
+  "Ready",
 ];
 
 function formatKnowledgeSize(value: number | undefined) {
@@ -428,6 +422,13 @@ export function DocumentsPage() {
     return filteredDocuments[0] ?? documents[0] ?? null;
   }, [documents, filteredDocuments, selectedId]);
 
+  useEffect(() => {
+    if (!selectedDocument) {
+      return;
+    }
+    activeDocumentStorage.set({ id: selectedDocument.id, name: selectedDocument.name });
+  }, [selectedDocument]);
+
   const selectedPipeline = useMemo(() => (selectedDocument ? toExecutionStages(selectedDocument) : []), [selectedDocument]);
 
   const handleUpload = (files: FileList | null) => {
@@ -439,6 +440,7 @@ export function DocumentsPage() {
   const handleViewDocument = async (document: DocumentRecord) => {
     selectionHistoryModeRef.current = "push";
     setSelectedId(document.id);
+    activeDocumentStorage.set({ id: document.id, name: document.name });
 
     const previewWindow = window.open("", "_blank");
     if (!previewWindow) {

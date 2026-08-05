@@ -144,7 +144,11 @@
   "exceptions": [
     "However, such duty free material imported or procured\nagainst Advance Authorisation can also be taken from the port directly to the\nproject site of the project authority, subject to furnishing a bond to the\ncustoms authority at the port of import complying with the other provisions\nas per Department of Revenue guidelines, if any."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "2",
+    "4"
+  ],
   "documents": [
     "The applicant should declare that they would maintain\nprescribed records / documents and also submit prescribed returns to the\nrelevant authorities, within time as prescribed by law from time to time.",
     "(ii)\nRegional Authority shall endorse a copy of such Advance Authorisation to the\nabove three agencies.",
@@ -440,14 +444,16 @@
     "Bind validations for Advance Authorisation for applicants with multiple units into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: The applicant should declare that they would maintain\nprescribed records / documents and also submit prescribed returns to the\nrelevant authorities, within time as prescribed by law from time to time., (ii)\nRegional Authority shall endorse a copy of such Advance Authorisation to the\nabove three agencies., No Objection Certificate.",
     "Route escalations or approvals to: Customs, Customs authority, Regional Authority, Drug Controller and Narcotics Commissioner.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 2, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Advance Authorisation for applicants with multiple units section-la, Capture chapter 4, section 4.10, title, and page references as immutable knowledge metadata.",
     "Indha Advance Authorisation for applicants with multiple units section-la, Bind validations for Advance Authorisation for applicants with multiple units into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Advance Authorisation for applicants with multiple units section-la, Expose document upload controls for: The applicant should declare that they would maintain\nprescribed records / documents and also submit prescribed returns to the\nrelevant authorities, within time as prescribed by law from time to time., (ii)\nRegional authority kandippa endorse a copy of such Advance Authorisation to the\nabove three agencies., No Objection Certificate.",
     "Indha Advance Authorisation for applicants with multiple units section-la, Route escalations or approvals to: Customs, Customs authority, Regional authority, Drug Controller and Narcotics Commissioner.",
-    "Indha Advance Authorisation for applicants with multiple units section-la, Trigger manual review when exception clauses are detected."
+    "Indha Advance Authorisation for applicants with multiple units section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Advance Authorisation for applicants with multiple units section-la, Show contextual links to related sections: 1, 2, 4."
   ],
   "keywords": [
     "for",
@@ -501,7 +507,11 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.10 Advance Authorisation for applicants with multiple units\n(i) Transfer of any duty free material imported or procured against Advance\nAuthorisation from one unit of a company to another unit for manufacturing\npurpose shall be done with prior intimation to jurisdictional Customs\nAuthority.",

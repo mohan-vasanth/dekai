@@ -288,7 +288,12 @@
     "However, as a one-time relaxation, in cases where the\nexport period is expiring on or between 01.03.2026 and 31.05.2026,\nsuch export period shall stand automatically extended by 30 days from\nthe date of its expiry.xvii\n(d) (i) Exporter shall be permitted to export jewellery on the basis of a\nnotional rate certificate to be issued by nominated agency/ GJEPC."
   ],
   "dependencies": [
-    "3"
+    "3",
+    "1",
+    "2",
+    "4",
+    "5",
+    "6"
   ],
   "documents": [
     "However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c)\nExporter may also export jewellery on a notional rate based on\ncertificate provided by Bank.",
@@ -634,14 +639,16 @@
     "Bind validations for Loan Basis into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period shall stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c)\nExporter may also export jewellery on a notional rate based on\ncertificate provided by Bank., Nominated agencies shall purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent., Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nshall be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased., However, as a one-time relaxation, in cases where the\nexport period is expiring on or between 01.03.2026 and 31.05.2026,\nsuch export period shall stand automatically extended by 30 days from\nthe date of its expiry.xvii\n(d) (i) Exporter shall be permitted to export jewellery on the basis of a\nnotional rate certificate to be issued by nominated agency/ GJEPC., This rate will be based on prevailing Gold /US$ rate and the US$/INR\nrate in notional rate certificate., Certificate issued by nominated\nagency/GJEPC should not be older than 7 working days of date of\nshipment..",
     "Route escalations or approvals to: customs.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 5, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Loan Basis section-la, Capture chapter 4, section 4.83, title, and page references as immutable knowledge metadata.",
     "Indha Loan Basis section-la, Bind validations for Loan Basis into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Loan Basis section-la, Expose document upload controls for: However, as a one-time\nrelaxation, in cases where the export period is expiring on or between\n01.03.2026 and 31.05.2026, such export period kandippa stand\nautomatically extended by 30 days from the date of its expiry.xvii\n(c)\nExporter may also export jewellery on a notional rate based on\ncertificate provided by Bank., Nominated agencies kandippa purchase precious metal on behalf of\nexporter at the rate so fixed and thereafter issue a purchase certificate\nbearing a serial number to exporter indicating quantity of\ngold/silver/platinum and CIF value, in dollars including the Rupee\nequivalent., Duplicate and triplicate copies of exporter’s\napplication together with copies of purchase certificate for exporter\nkandippa be sent by nominated agencies to concerned Custom House as well\nas to the negotiating bank who will confirm realization at which gold has\nbeen purchased., However, as a one-time relaxation, in cases where the\nexport period is expiring on or between 01.03.2026 and 31.05.2026,\nsuch export period kandippa stand automatically extended by 30 days from\nthe date of its expiry.xvii\n(d) (i) Exporter kandippa be permitted to export jewellery on the basis of a\nnotional rate certificate to be issued by nominated agency/ GJEPC., This rate will be based on prevailing Gold /US$ rate and the US$/INR\nrate in notional rate certificate., Certificate issued by nominated\nagency/GJEPC should not be older than 7 working days of date of\nshipment..",
     "Indha Loan Basis section-la, Route escalations or approvals to: customs.",
-    "Indha Loan Basis section-la, Trigger manual review when exception clauses are detected."
+    "Indha Loan Basis section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Loan Basis section-la, Show contextual links to related sections: 1, 2, 3, 4, 5, 6."
   ],
   "keywords": [
     "may",
@@ -695,7 +702,14 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.83 Loan Basis\n(a) Exporter may obtain required quantity of precious metal on loan basis\nsubject to furnishing of BG / LUT, for customs duty to nominated\nagencies for an amount as may be prescribed by nominated agencies.",

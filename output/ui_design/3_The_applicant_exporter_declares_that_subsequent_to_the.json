@@ -1,0 +1,37 @@
+{
+  "section": "3",
+  "ui": [
+    {
+      "screen_id": "The_applicant_exporter_declares_that_subsequent_to_the_overview",
+      "name": "The applicant exporter declares that subsequent to the Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "The_applicant_exporter_declares_that_subsequent_to_the_submission",
+      "name": "The applicant exporter declares that subsequent to the Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "has_flag",
+        "may_flag",
+        "for_flag",
+        "end_flag",
+        "use_flag"
+      ]
+    }
+  ]
+}

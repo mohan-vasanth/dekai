@@ -1,0 +1,37 @@
+{
+  "section": "7",
+  "ui": [
+    {
+      "screen_id": "Nominee_of_Director_of_Industries_of_State_Government_Member_overview",
+      "name": "Nominee of Director of Industries of State Government: Member Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Nominee_of_Director_of_Industries_of_State_Government_Member_submission",
+      "name": "Nominee of Director of Industries of State Government: Member Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "state_flag",
+        "member_flag",
+        "nominee_flag",
+        "director_flag",
+        "industries_flag",
+        "government_flag"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "4",
+  "title": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any",
+  "purpose": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration.",
+  "purpose_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration.",
+  "summary": "4. Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration. v.",
+  "business_meaning": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any explains the operating rule set that DEKAI should enforce. Key control points include After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4. The section also drives actions such as Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company..",
+  "business_explanation_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Action will be taken against the exporter under FT (D & R) Act, 1992 for any explains the operating rule set that DEKAI should enforce. Key control points include After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4. The section also drives actions such as Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company..",
+  "business_logic": [
+    "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+    "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:"
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC4-R001",
+      "rule_description": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+      "trigger": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any",
+      "condition": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "validation": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "action": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R) Act, 1992 for any."
+    },
+    {
+      "rule_id": "CH10-SEC4-R002",
+      "rule_description": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:",
+      "trigger": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any",
+      "condition": "Authorized Economic Operator (AEO) T2 Certification of CBIC.",
+      "validation": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+      "action": "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R) Act, 1992 for any."
+    }
+  ],
+  "conditions": [
+    "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+    "Authorized Economic Operator (AEO) T2 Certification of CBIC.",
+    "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+    "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+    "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii.",
+    "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:"
+  ],
+  "condition_logic": [
+    {
+      "id": "10.4.1",
+      "if": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "then": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "source": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company."
+    },
+    {
+      "id": "10.4.2",
+      "if": "Authorized Economic Operator (AEO) T2 Certification of CBIC.",
+      "then": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "source": "Authorized Economic Operator (AEO) T2 Certification of CBIC."
+    },
+    {
+      "id": "10.4.3",
+      "if": "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+      "then": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "source": "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii."
+    },
+    {
+      "id": "10.4.4",
+      "if": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+      "then": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "source": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4."
+    },
+    {
+      "id": "10.4.5",
+      "if": "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii.",
+      "then": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "source": "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii."
+    },
+    {
+      "id": "10.4.6",
+      "if": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:",
+      "then": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "source": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:"
+    }
+  ],
+  "validations": [
+    "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+    "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+    "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:"
+  ],
+  "exceptions": [],
+  "dependencies": [
+    "1",
+    "2"
+  ],
+  "documents": [
+    "Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration.",
+    "Export License"
+  ],
+  "required_documents": [
+    "Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration.",
+    "Export License"
+  ],
+  "tables": [],
+  "authorities": [
+    "CBIC"
+  ],
+  "timelines": [
+    "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+    "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:"
+  ],
+  "actions": [
+    "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+    "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+    "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii."
+  ],
+  "workflow": [
+    "Evaluate condition: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+    "Evaluate condition: Authorized Economic Operator (AEO) T2 Certification of CBIC.",
+    "Evaluate condition: In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+    "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+    "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+    "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii.",
+    "Run validation: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+    "Run validation: After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+    "Run validation: After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:"
+  ],
+  "workflow_ascii": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nEvaluate condition: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.\n   |\n   v\nEvaluate condition: Authorized Economic Operator (AEO) T2 Certification of CBIC.\n   |\n   v\nEvaluate condition: In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.\n   |\n   v\nCertified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.\n   |\n   v\nIn case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.\n   |\n   v\nIn case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii.\n   |\n   v\nRun validation: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.\n   |\n   v\nRun validation: After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.\n   |\n   v\nRun validation: After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:",
+  "decision_tree": [
+    "IF Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company. THEN Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+    "IF Authorized Economic Operator (AEO) T2 Certification of CBIC. THEN Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+    "IF In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii. THEN Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+    "IF After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4. THEN Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+    "IF In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii. THEN Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company."
+  ],
+  "decision_tree_ascii": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any Decision\nIF Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company. THEN Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.\n   |\n   v\nIF Authorized Economic Operator (AEO) T2 Certification of CBIC. THEN Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.\n   |\n   v\nIF In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii. THEN Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.\n   |\n   v\nIF After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4. THEN Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.\n   |\n   v\nIF In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii. THEN Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+  "examples": [
+    "User asks to process Action will be taken against the exporter under FT (D & R) Act, 1992 for any; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Action will be taken against the exporter under FT (D & R) Act, 1992 for any, submits Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration., Export License, and DEKAI uses the extracted rules to certified/approved internal compliance programme by the compliance\nmanager of the company..",
+  "real_world_example_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Example: an importer or exporter invokes Action will be taken against the exporter under FT (D & R) Act, 1992 for any, submits Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration., export license, and DEKAI uses the extracted rules to certified/approved internal compliance programme by the compliance\nmanager of the company..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+    "IF detected context matches section rule THEN enforce: After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:",
+    "IF validations pass THEN recommend action: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "act_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Act"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "any_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:any"
+    },
+    {
+      "name": "aeo_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:AEO"
+    },
+    {
+      "name": "vii_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:vii"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Export License"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4",
+      "purpose": "Retrieve knowledge payload for section 4",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Action-will-be-taken-against-the-exporter-under-FT-D-R-Act-1992-for-any/validate",
+      "purpose": "Validate inputs and documents for Action will be taken against the exporter under FT (D & R) Act, 1992 for any",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Action-will-be-taken-against-the-exporter-under-FT-D-R-Act-1992-for-any/execute",
+      "purpose": "Trigger business action for Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Action_will_be_taken_against_the_exporter_under_FT_D_R_Act_1992_for_any_overview",
+      "name": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Action_will_be_taken_against_the_exporter_under_FT_D_R_Act_1992_for_any_submission",
+      "name": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "act_flag",
+        "for_flag",
+        "any_flag",
+        "aeo_flag",
+        "vii_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Action will be taken against the exporter under FT (D & R) Act, 1992 for any require?",
+    "Which documents are needed for Action will be taken against the exporter under FT (D & R) Act, 1992 for any?",
+    "How does DEKAI validate Action will be taken against the exporter under FT (D & R) Act, 1992 for any requests?",
+    "What action should be taken for Action will be taken against the exporter under FT (D & R) Act, 1992 for any?"
+  ],
+  "expected_ai_answers": [
+    "Action will be taken against the exporter under FT (D & R) Act, 1992 for any requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration., Export License",
+    "DEKAI validates Action will be taken against the exporter under FT (D & R) Act, 1992 for any by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4?",
+      "answer_en": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any explains the operating rule set that DEKAI should enforce. Key control points include After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4. The section also drives actions such as Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company..",
+      "question_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, What is the purpose of section 4?",
+      "answer_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Action will be taken against the exporter under FT (D & R) Act, 1992 for any explains the operating rule set that DEKAI should enforce. Key control points include After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4. The section also drives actions such as Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.."
+    },
+    {
+      "question_en": "What documents are required under Action will be taken against the exporter under FT (D & R) Act, 1992 for any?",
+      "answer_en": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration., Export License",
+      "question_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, What documents are required under Action will be taken against the exporter under FT (D & R) Act, 1992 for any?",
+      "answer_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration., export license"
+    },
+    {
+      "question_en": "Which authority handles Action will be taken against the exporter under FT (D & R) Act, 1992 for any?",
+      "answer_en": "CBIC",
+      "question_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Which authority handles Action will be taken against the exporter under FT (D & R) Act, 1992 for any?",
+      "answer_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, CBIC"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Action will be taken against the exporter under FT (D & R) Act, 1992 for any?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4, apply the extracted rules, and guide the user through Evaluate condition: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company..",
+      "question_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, User asks: How do I comply with Action will be taken against the exporter under FT (D & R) Act, 1992 for any?",
+      "answer_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, AI answers: DEKAI should evaluate section 4, apply the extracted rules, and guide the user through Evaluate condition: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Action will be taken against the exporter under FT (D & R) Act, 1992 for any?",
+      "answer_en": "AI answers: Applicable validations are Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company., After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4., After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:",
+      "question_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, User asks: Which validations apply to Action will be taken against the exporter under FT (D & R) Act, 1992 for any?",
+      "answer_thanglish": "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, AI answers: Applicable validations are Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company., After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4., After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:"
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 10, section 4, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Action will be taken against the exporter under FT (D & R) Act, 1992 for any into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration., Export License.",
+    "Route escalations or approvals to: CBIC.",
+    "Show contextual links to related sections: 1, 2."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Capture chapter 10, section 4, title, and page references as immutable knowledge metadata.",
+    "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Bind validations for Action will be taken against the exporter under FT (D & R) Act, 1992 for any into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Expose document upload controls for: Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration., export license.",
+    "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Route escalations or approvals to: CBIC.",
+    "Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Show contextual links to related sections: 1, 2."
+  ],
+  "keywords": [
+    "the",
+    "Act",
+    "for",
+    "any",
+    "AEO",
+    "vii",
+    "not",
+    "and",
+    "will",
+    "CBIC",
+    "case",
+    "have",
+    "item",
+    "that",
+    "with",
+    "Bill",
+    "does",
+    "from",
+    "such",
+    "list"
+  ],
+  "search_keywords": [
+    "the",
+    "Act",
+    "for",
+    "any",
+    "AEO",
+    "vii",
+    "not",
+    "and",
+    "will",
+    "CBIC",
+    "case",
+    "have",
+    "item",
+    "that",
+    "with",
+    "Bill",
+    "does",
+    "from",
+    "such",
+    "list"
+  ],
+  "intent": "Support Action will be taken against the exporter under FT (D & R) Act, 1992 for any processing and compliance validation.",
+  "tags": [
+    "4",
+    "Action will be taken against the exporter under FT (D & R) Act, 1992 for any",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "1",
+    "2"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+    "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:"
+  ],
+  "page_numbers": [
+    33
+  ],
+  "pages": [
+    33
+  ],
+  "source_document": "Chapter+10+HBP+(19.05.2026).pdf",
+  "raw_text": "4. Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration.\nv. Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.\nvi. Authorized Economic Operator (AEO) T2 Certification of CBIC.\nvii. In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii. After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4. Action will be taken against the exporter under FT (D & R) Act, 1992 for any\nmis-declaration.\nv. Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.\nvi. Authorized Economic Operator (AEO) T2 Certification of CBIC.\nvii. In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii. After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.\"]\n    S2[\"Evaluate condition: Authorized Economic Operator (AEO) T2 Certification of CBIC.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.\"]\n    S2 --> S3\n    S4[\"Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.\"]\n    S3 --> S4\n    S5[\"In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.\"]\n    S4 --> S5\n    S6[\"In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii.\"]\n    S5 --> S6\n    S7[\"Run validation: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.\"]\n    S6 --> S7\n    S8[\"Run validation: After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.\"]\n    S7 --> S8\n    S9[\"Run validation: After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\"]\n    S8 --> S9",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.;\n:Evaluate condition\\: Authorized Economic Operator (AEO) T2 Certification of CBIC.;\n:Evaluate condition\\: In case of re-export of imported items, the following additional documents have\nto be submitted\\:\n(i) Proof of import of the item(s)\\:\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.;\n:Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.;\n:In case of re-export of imported items, the following additional documents have\nto be submitted\\:\n(i) Proof of import of the item(s)\\:\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.;\n:In case of re-export of imported items, the following additional documents have\nto be submitted\\:\n(i) Proof of import of the item(s)\\:\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii.;\n:Run validation\\: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.;\n:Run validation\\: After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following\\:\n4.;\n:Run validation\\: After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following\\:;\nstop\n@enduml"
+}

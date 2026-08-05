@@ -1,0 +1,47 @@
+{
+  "section": "1",
+  "ui": [
+    {
+      "screen_id": "To_assess_the_nature_of_inputs_used_in_export_production_and_the_amount_of_actual_overview",
+      "name": "To assess the nature of inputs used in export production and the amount of actual Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "To_assess_the_nature_of_inputs_used_in_export_production_and_the_amount_of_actual_submission",
+      "name": "To assess the nature of inputs used in export production and the amount of actual Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "ftp_flag",
+        "are_flag",
+        "for_flag",
+        "its_flag"
+      ]
+    },
+    {
+      "screen_id": "To_assess_the_nature_of_inputs_used_in_export_production_and_the_amount_of_actual_exceptions",
+      "name": "To assess the nature of inputs used in export production and the amount of actual Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

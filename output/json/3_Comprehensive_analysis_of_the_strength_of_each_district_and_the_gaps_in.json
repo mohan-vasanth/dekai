@@ -1,0 +1,347 @@
+{
+  "chapter_number": "3",
+  "chapter_title": "Developing Districts as Export Hubs",
+  "section": "3",
+  "title": "Comprehensive analysis of the strength of each district and the gaps in",
+  "purpose": "with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+  "purpose_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+  "summary": "3. Comprehensive analysis of the strength of each district and the gaps in\nproduct quality/design, production efficiency/competitiveness,\ninfrastructure, logistics, utilities, enforcement of standards etc. with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+  "business_meaning": "3.",
+  "business_explanation": "3. Comprehensive analysis of the strength of each district and the gaps in\nproduct quality/design, production efficiency/competitiveness,\ninfrastructure, logistics, utilities, enforcement of standards etc. with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+  "business_explanation_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, 3. Comprehensive analysis of the strength of each district and the gaps in\nproduct quality/design, production efficiency/competitiveness,\ninfrastructure, logistics, utilities, enforcement of standards etc. with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH3-SEC3-R001",
+      "rule_description": "3. Comprehensive analysis of the strength of each district and the gaps in\nproduct quality/design, production efficiency/competitiveness,\ninfrastructure, logistics, utilities, enforcement of standards etc. with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+      "trigger": "Comprehensive analysis of the strength of each district and the gaps in",
+      "condition": "with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - Comprehensive analysis of the strength of each district and the gaps in."
+    }
+  ],
+  "conditions": [
+    "with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services."
+  ],
+  "condition_logic": [
+    {
+      "id": "3.3.1",
+      "if": "with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+      "then": "Route for review",
+      "source": "with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services."
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [
+    [
+      [
+        "3.",
+        "",
+        "Comprehensive analysis of the strength of each district and the gaps in",
+        ""
+      ],
+      [
+        "",
+        "",
+        "product quality/design, production efficiency/competitiveness,",
+        ""
+      ],
+      [
+        "",
+        "",
+        "infrastructure, logistics, utilities, enforcement of standards etc. with a",
+        ""
+      ],
+      [
+        "",
+        "",
+        "view to identifying interventions to enhance export of existing goods and",
+        ""
+      ],
+      [
+        "",
+        "",
+        "services being exported and achieving the potential available for export",
+        ""
+      ],
+      [
+        "",
+        "",
+        "of new goods and services.",
+        ""
+      ]
+    ]
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services."
+  ],
+  "workflow_ascii": "Comprehensive analysis of the strength of each district and the gaps in\nEvaluate condition: with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+  "decision_tree": [
+    "IF section 3 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Comprehensive analysis of the strength of each district and the gaps in Decision\nIF section 3 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Comprehensive analysis of the strength of each district and the gaps in; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Comprehensive analysis of the strength of each district and the gaps in, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the comprehensive analysis of the strength of each district and the gaps in process.",
+  "real_world_example_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, Example: an importer or exporter invokes Comprehensive analysis of the strength of each district and the gaps in, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the comprehensive analysis of the strength of each district and the gaps in process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "etc_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:etc"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "new_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:new"
+    },
+    {
+      "name": "each_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:each"
+    },
+    {
+      "name": "gaps_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:gaps"
+    },
+    {
+      "name": "with_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:with"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/3",
+      "purpose": "Retrieve knowledge payload for section 3",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Comprehensive-analysis-of-the-strength-of-each-district-and-the-gaps-in/validate",
+      "purpose": "Validate inputs and documents for Comprehensive analysis of the strength of each district and the gaps in",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Comprehensive_analysis_of_the_strength_of_each_district_and_the_gaps_in_overview",
+      "name": "Comprehensive analysis of the strength of each district and the gaps in Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Comprehensive_analysis_of_the_strength_of_each_district_and_the_gaps_in_submission",
+      "name": "Comprehensive analysis of the strength of each district and the gaps in Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "etc_flag",
+        "for_flag",
+        "new_flag",
+        "each_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Comprehensive analysis of the strength of each district and the gaps in require?",
+    "Which documents are needed for Comprehensive analysis of the strength of each district and the gaps in?",
+    "How does DEKAI validate Comprehensive analysis of the strength of each district and the gaps in requests?"
+  ],
+  "expected_ai_answers": [
+    "Comprehensive analysis of the strength of each district and the gaps in requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Comprehensive analysis of the strength of each district and the gaps in by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 3?",
+      "answer_en": "3. Comprehensive analysis of the strength of each district and the gaps in\nproduct quality/design, production efficiency/competitiveness,\ninfrastructure, logistics, utilities, enforcement of standards etc. with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+      "question_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, What is the purpose of section 3?",
+      "answer_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, 3. Comprehensive analysis of the strength of each district and the gaps in\nproduct quality/design, production efficiency/competitiveness,\ninfrastructure, logistics, utilities, enforcement of standards etc. with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services."
+    },
+    {
+      "question_en": "What documents are required under Comprehensive analysis of the strength of each district and the gaps in?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, What documents are required under Comprehensive analysis of the strength of each district and the gaps in?",
+      "answer_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Comprehensive analysis of the strength of each district and the gaps in?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, Which authority handles Comprehensive analysis of the strength of each district and the gaps in?",
+      "answer_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Comprehensive analysis of the strength of each district and the gaps in?",
+      "answer_en": "AI answers: DEKAI should evaluate section 3, apply the extracted rules, and guide the user through Evaluate condition: with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services..",
+      "question_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, User asks: How do I comply with Comprehensive analysis of the strength of each district and the gaps in?",
+      "answer_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, AI answers: DEKAI should evaluate section 3, apply the extracted rules, and guide the user through Evaluate condition: with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Comprehensive analysis of the strength of each district and the gaps in?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, User asks: Which validations apply to Comprehensive analysis of the strength of each district and the gaps in?",
+      "answer_thanglish": "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 3, section 3, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Comprehensive analysis of the strength of each district and the gaps in into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, Capture chapter 3, section 3, title, and page references as immutable knowledge metadata.",
+    "Indha Comprehensive analysis of the strength of each district and the gaps in section-la, Bind validations for Comprehensive analysis of the strength of each district and the gaps in into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "the",
+    "and",
+    "etc",
+    "for",
+    "new",
+    "each",
+    "gaps",
+    "with",
+    "view",
+    "goods",
+    "being",
+    "export",
+    "product",
+    "enhance",
+    "analysis",
+    "strength",
+    "district",
+    "existing",
+    "services",
+    "exported"
+  ],
+  "search_keywords": [
+    "the",
+    "and",
+    "etc",
+    "for",
+    "new",
+    "each",
+    "gaps",
+    "with",
+    "view",
+    "goods",
+    "being",
+    "export",
+    "product",
+    "enhance",
+    "analysis",
+    "strength",
+    "district",
+    "existing",
+    "services",
+    "exported"
+  ],
+  "intent": "Provide knowledge guidance for Comprehensive analysis of the strength of each district and the gaps in.",
+  "tags": [
+    "3",
+    "Comprehensive analysis of the strength of each district and the gaps in",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    4
+  ],
+  "pages": [
+    4
+  ],
+  "source_document": "HBP2023_Chapter03.pdf",
+  "raw_text": "3. Comprehensive analysis of the strength of each district and the gaps in\nproduct quality/design, production efficiency/competitiveness,\ninfrastructure, logistics, utilities, enforcement of standards etc. with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.\"]",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: with a\nview to identifying interventions to enhance export of existing goods and\nservices being exported and achieving the potential available for export\nof new goods and services.;\nstop\n@enduml"
+}

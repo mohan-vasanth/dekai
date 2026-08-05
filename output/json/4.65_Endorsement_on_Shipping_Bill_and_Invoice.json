@@ -77,7 +77,12 @@
     "In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "4",
+    "5",
+    "6"
+  ],
   "documents": [
     "Endorsement on Shipping Bill and Invoice",
     "In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver."
@@ -311,13 +316,15 @@
     "Capture chapter 4, section 4.65, title, and page references as immutable knowledge metadata.",
     "Bind validations for Endorsement on Shipping Bill and Invoice into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: Endorsement on Shipping Bill and Invoice, In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver..",
-    "Route escalations or approvals to: customs."
+    "Route escalations or approvals to: customs.",
+    "Show contextual links to related sections: 1, 4, 5, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Endorsement on Shipping Bill and Invoice section-la, Capture chapter 4, section 4.65, title, and page references as immutable knowledge metadata.",
     "Indha Endorsement on Shipping Bill and Invoice section-la, Bind validations for Endorsement on Shipping Bill and Invoice into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Endorsement on Shipping Bill and Invoice section-la, Expose document upload controls for: Endorsement on Shipping Bill and Invoice, In case of studded items, shipping bill kandippa also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver..",
-    "Indha Endorsement on Shipping Bill and Invoice section-la, Route escalations or approvals to: customs."
+    "Indha Endorsement on Shipping Bill and Invoice section-la, Route escalations or approvals to: customs.",
+    "Indha Endorsement on Shipping Bill and Invoice section-la, Show contextual links to related sections: 1, 4, 5, 6."
   ],
   "keywords": [
     "and",
@@ -371,7 +378,12 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "4",
+    "5",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.65 Endorsement on Shipping Bill and Invoice\nDuring export of jewellery, shipping bill and invoice presented to customs\nauthorities shall contain description of item, its purity, weight of gold/ silver/\nplatinum content, wastage claimed thereon, total weight of gold/ silver/\nplatinum content plus wastage claimed and its equivalent quantity in terms of\n0.995/0.999 fineness for gold / silver and in terms of 0.9999 fineness for\nplatinum and its value, FOB value of exports and value addition achieved.",

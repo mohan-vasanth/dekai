@@ -1,0 +1,84 @@
+{
+  "section": "4",
+  "conditions": [
+    "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+    "Authorized Economic Operator (AEO) T2 Certification of CBIC.",
+    "In case of re-export of imported items, the following additional\ndocuments have to be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match\npg.",
+    "197\nintermediary) on the letterhead (duly signed and stamped) is to\nbe submitted before issuance of authorization.",
+    "Subsequent EUC\nsubmissions for entities in the list of countries (as approved) will\nbe subject to post-reporting requirements as mentioned at viii\nbelow.",
+    "The list of countries where the export is expected to be done\nunder GAET is to be provided by the applicant at the time of\nsubmission of the application.",
+    "Any on-site inspection will be allowed by the applicant\nexporter if required by the DGFT or authorized\nrepresentatives of the Government of India;\n2.",
+    "The applicant exporter declares that the items that are\nintended to be exported shall not be used for any purpose\nother than the purpose(s) stated in the EUC and that such\nuse shall not be changed nor the items modified or\nreplicated without the prior consent of the Government of\nIndia.;\n3.",
+    "The applicant exporter declares that subsequent to the\nissuance of export authorization, if the licensee has been\nnotified in writing by DGFT or if they know or has reason to\nbelieve that an item may be intended for military end use\nor has a potential risk of use in or diversion to weapons of\nmass destruction (WMD) or in delivery of their missile\nsystem, the exporter would not be eligible for GAET for\nexport of that/those item(s) and would apply separately to\nDGFT for a fresh authorization in terms of regular policy.",
+    "In case of re-export of imported items, the following additional\ndocuments have to be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match\nwith intended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+    "After issuance of GAET authorization and before actual export, the\napplicant exporter must ensure the following:"
+  ],
+  "condition_logic": [
+    {
+      "id": "10.4.1",
+      "if": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "then": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "source": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company."
+    },
+    {
+      "id": "10.4.2",
+      "if": "Authorized Economic Operator (AEO) T2 Certification of CBIC.",
+      "then": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "source": "Authorized Economic Operator (AEO) T2 Certification of CBIC."
+    },
+    {
+      "id": "10.4.3",
+      "if": "In case of re-export of imported items, the following additional\ndocuments have to be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match\npg.",
+      "then": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "source": "In case of re-export of imported items, the following additional\ndocuments have to be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match\npg."
+    },
+    {
+      "id": "10.4.4",
+      "if": "197\nintermediary) on the letterhead (duly signed and stamped) is to\nbe submitted before issuance of authorization.",
+      "then": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "source": "197\nintermediary) on the letterhead (duly signed and stamped) is to\nbe submitted before issuance of authorization."
+    },
+    {
+      "id": "10.4.5",
+      "if": "Subsequent EUC\nsubmissions for entities in the list of countries (as approved) will\nbe subject to post-reporting requirements as mentioned at viii\nbelow.",
+      "then": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "source": "Subsequent EUC\nsubmissions for entities in the list of countries (as approved) will\nbe subject to post-reporting requirements as mentioned at viii\nbelow."
+    },
+    {
+      "id": "10.4.6",
+      "if": "The list of countries where the export is expected to be done\nunder GAET is to be provided by the applicant at the time of\nsubmission of the application.",
+      "then": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "source": "The list of countries where the export is expected to be done\nunder GAET is to be provided by the applicant at the time of\nsubmission of the application."
+    },
+    {
+      "id": "10.4.7",
+      "if": "Any on-site inspection will be allowed by the applicant\nexporter if required by the DGFT or authorized\nrepresentatives of the Government of India;\n2.",
+      "then": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "source": "Any on-site inspection will be allowed by the applicant\nexporter if required by the DGFT or authorized\nrepresentatives of the Government of India;\n2."
+    },
+    {
+      "id": "10.4.8",
+      "if": "The applicant exporter declares that the items that are\nintended to be exported shall not be used for any purpose\nother than the purpose(s) stated in the EUC and that such\nuse shall not be changed nor the items modified or\nreplicated without the prior consent of the Government of\nIndia.;\n3.",
+      "then": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "source": "The applicant exporter declares that the items that are\nintended to be exported shall not be used for any purpose\nother than the purpose(s) stated in the EUC and that such\nuse shall not be changed nor the items modified or\nreplicated without the prior consent of the Government of\nIndia.;\n3."
+    },
+    {
+      "id": "10.4.9",
+      "if": "The applicant exporter declares that subsequent to the\nissuance of export authorization, if the licensee has been\nnotified in writing by DGFT or if they know or has reason to\nbelieve that an item may be intended for military end use\nor has a potential risk of use in or diversion to weapons of\nmass destruction (WMD) or in delivery of their missile\nsystem, the exporter would not be eligible for GAET for\nexport of that/those item(s) and would apply separately to\nDGFT for a fresh authorization in terms of regular policy.",
+      "then": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "source": "The applicant exporter declares that subsequent to the\nissuance of export authorization, if the licensee has been\nnotified in writing by DGFT or if they know or has reason to\nbelieve that an item may be intended for military end use\nor has a potential risk of use in or diversion to weapons of\nmass destruction (WMD) or in delivery of their missile\nsystem, the exporter would not be eligible for GAET for\nexport of that/those item(s) and would apply separately to\nDGFT for a fresh authorization in terms of regular policy."
+    },
+    {
+      "id": "10.4.10",
+      "if": "In case of re-export of imported items, the following additional\ndocuments have to be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match\nwith intended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+      "then": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "source": "In case of re-export of imported items, the following additional\ndocuments have to be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match\nwith intended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii."
+    },
+    {
+      "id": "10.4.11",
+      "if": "After issuance of GAET authorization and before actual export, the\napplicant exporter must ensure the following:",
+      "then": "Certified/Approved Internal Compliance Programme by the\nCompliance Manager of the Company.",
+      "source": "After issuance of GAET authorization and before actual export, the\napplicant exporter must ensure the following:"
+    }
+  ]
+}

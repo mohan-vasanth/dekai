@@ -1,0 +1,47 @@
+{
+  "section": "1",
+  "ui": [
+    {
+      "screen_id": "Policy_Eligibility_SCOMET_authorization_will_not_be_required_for_the_export_overview",
+      "name": "Policy & Eligibility: SCOMET authorization will not be required, for the export Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Policy_Eligibility_SCOMET_authorization_will_not_be_required_for_the_export_submission",
+      "name": "Policy & Eligibility: SCOMET authorization will not be required, for the export Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "not_flag",
+        "for_flag",
+        "the_flag",
+        "and_flag",
+        "are_flag",
+        "euc_flag"
+      ]
+    },
+    {
+      "screen_id": "Policy_Eligibility_SCOMET_authorization_will_not_be_required_for_the_export_exceptions",
+      "name": "Policy & Eligibility: SCOMET authorization will not be required, for the export Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

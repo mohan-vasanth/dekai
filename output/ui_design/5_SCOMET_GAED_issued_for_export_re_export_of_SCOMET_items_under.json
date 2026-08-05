@@ -1,0 +1,37 @@
+{
+  "section": "5",
+  "ui": [
+    {
+      "screen_id": "SCOMET_GAED_issued_for_export_re_export_of_SCOMET_items_under_overview",
+      "name": "SCOMET GAED issued for export / re-export of SCOMET items under Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "SCOMET_GAED_issued_for_export_re_export_of_SCOMET_items_under_submission",
+      "name": "SCOMET GAED issued for export / re-export of SCOMET items under Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "sub_flag",
+        "gaed_flag",
+        "from_flag",
+        "date_flag"
+      ]
+    }
+  ]
+}

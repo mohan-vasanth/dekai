@@ -1,0 +1,32 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "1",
+  "title": "They shall notify the relevant government authorities in the online portal of",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC1-R001",
+      "rule_description": "They shall notify the relevant government authorities in the online portal of\nDGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat\nForm (ANF) 10I], along with the End-Use Certificate (EUC) for each export.",
+      "trigger": "They shall notify the relevant government authorities in the online portal of",
+      "condition": "They shall notify the relevant government authorities in the online portal of\nDGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat\nForm (ANF) 10I], along with the End-Use Certificate (EUC) for each export.",
+      "validation": "They shall notify the relevant government authorities in the online portal of\nDGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat\nForm (ANF) 10I], along with the End-Use Certificate (EUC) for each export.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1 - They shall notify the relevant government authorities in the online portal of."
+    },
+    {
+      "rule_id": "CH10-SEC1-R002",
+      "rule_description": "In case of any\nadditional sheet used along with the EUC, the same must be on the letterhead of\nthe company and signed by the same person who signs the EUC.",
+      "trigger": "They shall notify the relevant government authorities in the online portal of",
+      "condition": "In case of any\nadditional sheet used along with the EUC, the same must be on the letterhead of\nthe company and signed by the same person who signs the EUC.",
+      "validation": "In case of any\nadditional sheet used along with the EUC, the same must be on the letterhead of\nthe company and signed by the same person who signs the EUC.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1 - They shall notify the relevant government authorities in the online portal of."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: They shall notify the relevant government authorities in the online portal of\nDGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat\nForm (ANF) 10I], along with the End-Use Certificate (EUC) for each export.",
+    "IF detected context matches section rule THEN enforce: In case of any\nadditional sheet used along with the EUC, the same must be on the letterhead of\nthe company and signed by the same person who signs the EUC."
+  ]
+}

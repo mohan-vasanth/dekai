@@ -37,7 +37,9 @@
     "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -261,11 +263,13 @@
   ],
   "dekai_ai_implementation_notes": [
     "Capture chapter 2, section 2.12, title, and page references as immutable knowledge metadata.",
-    "Bind validations for One PAN-One IEC into a rule engine keyed by the rule IDs extracted for this section."
+    "Bind validations for One PAN-One IEC into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha One PAN-One IEC section-la, Capture chapter 2, section 2.12, title, and page references as immutable knowledge metadata.",
-    "Indha One PAN-One IEC section-la, Bind validations for One PAN-One IEC into a rule engine keyed by the rule IDs extracted for this section."
+    "Indha One PAN-One IEC section-la, Bind validations for One PAN-One IEC into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha One PAN-One IEC section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "One",
@@ -296,7 +300,9 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [
     "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN."

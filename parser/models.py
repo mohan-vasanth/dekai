@@ -53,6 +53,8 @@ class SemanticChunk:
     description: str = ""
     chunk_hash: str = ""
     is_table_row: bool = False
+    heading: str = ""
+    field_names: List[str] = field(default_factory=list)
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)

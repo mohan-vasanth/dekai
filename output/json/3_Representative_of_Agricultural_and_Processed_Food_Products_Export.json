@@ -1,0 +1,287 @@
+{
+  "chapter_number": "8",
+  "chapter_title": "Quality Complaints and Trade Disputes",
+  "section": "3",
+  "title": "Representative of Agricultural and Processed Food Products Export",
+  "purpose": "Defines the operational requirements for Representative of Agricultural and Processed Food Products Export.",
+  "purpose_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, Defines the operational requirements for Representative of Agricultural and Processed Food Products export.",
+  "summary": "3. Representative of Agricultural and Processed Food Products Export\nDevelopment Authority (APEDA): Member",
+  "business_meaning": "3.",
+  "business_explanation": "3. Representative of Agricultural and Processed Food Products Export\nDevelopment Authority (APEDA): Member",
+  "business_explanation_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, 3. Representative of Agricultural and Processed Food Products export\nDevelopment authority (APEDA): Member",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH8-SEC3-R001",
+      "rule_description": "3. Representative of Agricultural and Processed Food Products Export\nDevelopment Authority (APEDA): Member",
+      "trigger": "Representative of Agricultural and Processed Food Products Export",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - Representative of Agricultural and Processed Food Products Export."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "authorities": [
+    "Development Authority"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 3 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Representative of Agricultural and Processed Food Products Export\nReview section 3 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 3 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Representative of Agricultural and Processed Food Products Export Decision\nIF section 3 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Representative of Agricultural and Processed Food Products Export; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Representative of Agricultural and Processed Food Products Export, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the representative of agricultural and processed food products export process.",
+  "real_world_example_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, Example: an importer or exporter invokes Representative of Agricultural and Processed Food Products export, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the representative of agricultural and processed food products export process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "food_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Food"
+    },
+    {
+      "name": "apeda_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:APEDA"
+    },
+    {
+      "name": "export_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Export"
+    },
+    {
+      "name": "member_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Member"
+    },
+    {
+      "name": "products_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Products"
+    },
+    {
+      "name": "processed_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Processed"
+    },
+    {
+      "name": "authority_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Authority"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/3",
+      "purpose": "Retrieve knowledge payload for section 3",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Representative-of-Agricultural-and-Processed-Food-Products-Export/validate",
+      "purpose": "Validate inputs and documents for Representative of Agricultural and Processed Food Products Export",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Representative_of_Agricultural_and_Processed_Food_Products_Export_overview",
+      "name": "Representative of Agricultural and Processed Food Products Export Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Representative_of_Agricultural_and_Processed_Food_Products_Export_submission",
+      "name": "Representative of Agricultural and Processed Food Products Export Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "food_flag",
+        "apeda_flag",
+        "export_flag",
+        "member_flag",
+        "products_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Representative of Agricultural and Processed Food Products Export require?",
+    "Which documents are needed for Representative of Agricultural and Processed Food Products Export?",
+    "How does DEKAI validate Representative of Agricultural and Processed Food Products Export requests?"
+  ],
+  "expected_ai_answers": [
+    "Representative of Agricultural and Processed Food Products Export requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Representative of Agricultural and Processed Food Products Export by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 3?",
+      "answer_en": "3. Representative of Agricultural and Processed Food Products Export\nDevelopment Authority (APEDA): Member",
+      "question_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, What is the purpose of section 3?",
+      "answer_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, 3. Representative of Agricultural and Processed Food Products export\nDevelopment authority (APEDA): Member"
+    },
+    {
+      "question_en": "What documents are required under Representative of Agricultural and Processed Food Products Export?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, What documents are required under Representative of Agricultural and Processed Food Products export?",
+      "answer_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Representative of Agricultural and Processed Food Products Export?",
+      "answer_en": "Development Authority",
+      "question_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, Which authority handles Representative of Agricultural and Processed Food Products export?",
+      "answer_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, Development authority"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Representative of Agricultural and Processed Food Products Export?",
+      "answer_en": "AI answers: DEKAI should evaluate section 3, apply the extracted rules, and guide the user through Review section 3 requirements.",
+      "question_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, User asks: How do I comply with Representative of Agricultural and Processed Food Products export?",
+      "answer_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, AI answers: DEKAI should evaluate section 3, apply the extracted rules, and guide the user through Review section 3 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Representative of Agricultural and Processed Food Products Export?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, User asks: Which validations apply to Representative of Agricultural and Processed Food Products export?",
+      "answer_thanglish": "Indha Representative of Agricultural and Processed Food Products Export section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 8, section 3, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Representative of Agricultural and Processed Food Products Export into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: Development Authority."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Representative of Agricultural and Processed Food Products Export section-la, Capture chapter 8, section 3, title, and page references as immutable knowledge metadata.",
+    "Indha Representative of Agricultural and Processed Food Products Export section-la, Bind validations for Representative of Agricultural and Processed Food Products export into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Representative of Agricultural and Processed Food Products Export section-la, Route escalations or approvals to: Development authority."
+  ],
+  "keywords": [
+    "and",
+    "Food",
+    "APEDA",
+    "Export",
+    "Member",
+    "Products",
+    "Processed",
+    "Authority",
+    "Development",
+    "Agricultural",
+    "Representative"
+  ],
+  "search_keywords": [
+    "and",
+    "Food",
+    "APEDA",
+    "Export",
+    "Member",
+    "Products",
+    "Processed",
+    "Authority",
+    "Development",
+    "Agricultural",
+    "Representative"
+  ],
+  "intent": "Provide knowledge guidance for Representative of Agricultural and Processed Food Products Export.",
+  "tags": [
+    "3",
+    "Representative of Agricultural and Processed Food Products Export",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    3
+  ],
+  "pages": [
+    3
+  ],
+  "source_document": "HBP2023_Chapter08.pdf",
+  "raw_text": "3. Representative of Agricultural and Processed Food Products Export\nDevelopment Authority (APEDA): Member",
+  "mermaid": "flowchart TD\n    S1[\"Review section 3 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 3 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

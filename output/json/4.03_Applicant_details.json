@@ -37,7 +37,10 @@
   ],
   "validations": [],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "3",
+    "4"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -240,11 +243,13 @@
   ],
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.03, title, and page references as immutable knowledge metadata.",
-    "Bind validations for Applicant details into a rule engine keyed by the rule IDs extracted for this section."
+    "Bind validations for Applicant details into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 3, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Applicant details section-la, Capture chapter 4, section 4.03, title, and page references as immutable knowledge metadata.",
-    "Indha Applicant details section-la, Bind validations for Applicant details into a rule engine keyed by the rule IDs extracted for this section."
+    "Indha Applicant details section-la, Bind validations for Applicant details into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Applicant details section-la, Show contextual links to related sections: 3, 4."
   ],
   "keywords": [
     "and",
@@ -287,7 +292,10 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "3",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.03 Applicant details\nWhere applicant is a branch office or a manufacturing unit, name of branch office or\nmanufacturing unit should appear in electronic RCMC and in IEC of the applicant."

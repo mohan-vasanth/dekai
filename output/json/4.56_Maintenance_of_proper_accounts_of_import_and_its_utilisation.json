@@ -75,7 +75,12 @@
     "Fresh DFIA, so issued, shall have same port of\nregistration and shall be valid for a period equivalent to balance period\navailable on date of import of such defective/unfit goods."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "4",
+    "5",
+    "6"
+  ],
   "documents": [
     "(ii)\nBased on the certificate, a fresh DFIA shall be issued by Regional\nAuthority concerned."
   ],
@@ -327,13 +332,15 @@
     "Capture chapter 4, section 4.56, title, and page references as immutable knowledge metadata.",
     "Bind validations for Maintenance of proper accounts of import and its utilisation into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: (ii)\nBased on the certificate, a fresh DFIA shall be issued by Regional\nAuthority concerned..",
-    "Route escalations or approvals to: Regional Authority."
+    "Route escalations or approvals to: Regional Authority.",
+    "Show contextual links to related sections: 1, 4, 5, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Maintenance of proper accounts of import and its utilisation section-la, Capture chapter 4, section 4.56, title, and page references as immutable knowledge metadata.",
     "Indha Maintenance of proper accounts of import and its utilisation section-la, Bind validations for Maintenance of proper accounts of import and its utilisation into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Maintenance of proper accounts of import and its utilisation section-la, Expose document upload controls for: (ii)\nBased on the certificate, a fresh DFIA kandippa be issued by Regional\nauthority concerned..",
-    "Indha Maintenance of proper accounts of import and its utilisation section-la, Route escalations or approvals to: Regional authority."
+    "Indha Maintenance of proper accounts of import and its utilisation section-la, Route escalations or approvals to: Regional authority.",
+    "Indha Maintenance of proper accounts of import and its utilisation section-la, Show contextual links to related sections: 1, 4, 5, 6."
   ],
   "keywords": [
     "and",
@@ -387,7 +394,12 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "4",
+    "5",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.56 Maintenance of proper accounts of import and its utilisation\nOriginal DFIA holder shall maintain a true and proper account of consumption\nand utilisation of duty free imported / domestically procured goods against\neach authorisation as prescribed in Appendix 4H.",

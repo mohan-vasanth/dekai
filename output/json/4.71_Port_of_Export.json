@@ -62,7 +62,12 @@
     "Export by courier shall also be allowed through Custom\nHouses at Mumbai, Kolkata, Chennai, Kochi, Coimbatore, Delhi, Jaipur,\nBengaluru, Ahmedabad and Hyderabad upto FOB value of Rs.20 lakh per\nconsignment.xi"
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "2",
+    "4",
+    "6"
+  ],
   "documents": [
     "Copy of Shipping Bill",
     "Bank Certificate"
@@ -320,13 +325,15 @@
     "Capture chapter 4, section 4.71, title, and page references as immutable knowledge metadata.",
     "Bind validations for Port of Export into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: Copy of Shipping Bill, Bank Certificate.",
-    "Route escalations or approvals to: DGFT, EDPMS wherever available in DGFT, Customs, Instructions issued by Customs."
+    "Route escalations or approvals to: DGFT, EDPMS wherever available in DGFT, Customs, Instructions issued by Customs.",
+    "Show contextual links to related sections: 1, 2, 4, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Port of Export section-la, Capture chapter 4, section 4.71, title, and page references as immutable knowledge metadata.",
     "Indha Port of Export section-la, Bind validations for Port of export into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Port of Export section-la, Expose document upload controls for: Copy of Shipping Bill, Bank Certificate.",
-    "Indha Port of Export section-la, Route escalations or approvals to: DGFT, EDPMS wherever available in DGFT, Customs, Instructions issued by Customs."
+    "Indha Port of Export section-la, Route escalations or approvals to: DGFT, EDPMS wherever available in DGFT, Customs, Instructions issued by Customs.",
+    "Indha Port of Export section-la, Show contextual links to related sections: 1, 2, 4, 6."
   ],
   "keywords": [
     "and",
@@ -380,7 +387,12 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "4",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "d)\nInstructions issued by Customs Department in this regard should be\nfollowed mutatis mutandis.",

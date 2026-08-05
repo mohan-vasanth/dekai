@@ -1,0 +1,37 @@
+{
+  "section": "5",
+  "ui": [
+    {
+      "screen_id": "ARR_filings_may_also_be_periodically_assessed_for_necessary_due_diligence_and_overview",
+      "name": "ARR filings may also be periodically assessed for necessary due diligence and Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "ARR_filings_may_also_be_periodically_assessed_for_necessary_due_diligence_and_submission",
+      "name": "ARR filings may also be periodically assessed for necessary due diligence and Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "arr_flag",
+        "may_flag",
+        "for_flag",
+        "due_flag",
+        "and_flag",
+        "the_flag"
+      ]
+    }
+  ]
+}

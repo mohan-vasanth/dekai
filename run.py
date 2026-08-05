@@ -3,7 +3,7 @@ from __future__ import annotations
 import logging
 import re
 from pathlib import Path
-from typing import Dict, List
+from typing import Callable, Dict, List
 
 from config import CONFIG
 from parser.api_generator import APIGenerator
@@ -97,11 +97,15 @@ class DGFTKnowledgePipeline:
         match = re.search(r"chapter[\s_\-+]*(\d+)", path.name, flags=re.IGNORECASE)
         return (int(match.group(1)) if match else 999, path.name.casefold())
 
-    def _process_pdf(self, pdf_path: Path) -> DocumentKnowledge:
+    def _process_pdf(self, pdf_path: Path, progress_callback: Callable[[str, int], None] | None = None) -> DocumentKnowledge:
         self.logger.info("Processing %s", pdf_path.name)
+        if progress_callback:
+            progress_callback("Extract Text", 18)
         pages = self.cleaner.clean_pages(self.loader.load(pdf_path))
         if not pages:
             raise ValueError(f"{pdf_path.name} contains 0 pages and cannot be indexed.")
+        if progress_callback:
+            progress_callback("Identify Sections", 34)
         drafts = self.rule_extractor.extract_sections(pages, pdf_path.name)
         section_numbers = [draft.section_number for draft in drafts]
         section_knowledge: List[SectionKnowledge] = []
@@ -143,9 +147,15 @@ class DGFTKnowledgePipeline:
         report = self.report_generator.generate(document)
         document.report_counts = report["summary"]  # type: ignore[assignment]
 
+        if progress_callback:
+            progress_callback("Convert to Markdown", 50)
         self._write_document_outputs(document, report)
+        if progress_callback:
+            progress_callback("Generate Chunks", 64)
         for section in document.sections:
             self._write_section_outputs(section)
+        if progress_callback:
+            progress_callback("Create Embeddings", 82)
         return document
 
     def _write_section_outputs(self, section: SectionKnowledge) -> None:

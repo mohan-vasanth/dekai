@@ -1,0 +1,21 @@
+{
+  "section": "2",
+  "conditions": [
+    "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+    "after\n30th June."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.2.1",
+      "if": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+      "then": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+      "source": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e."
+    },
+    {
+      "id": "4.2.2",
+      "if": "after\n30th June.",
+      "then": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+      "source": "after\n30th June."
+    }
+  ]
+}

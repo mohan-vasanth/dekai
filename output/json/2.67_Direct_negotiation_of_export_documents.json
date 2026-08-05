@@ -58,7 +58,9 @@
     "2.67 Direct negotiation of export documents\nIn cases where exporter directly negotiates document (not through authorised dealer)\nwith permission of RBI, he is required to submit following documents for availing of\nbenefits under export promotion schemes:\n(a)\nPermission from RBI allowing direct negotiation of documents (not required\nfor status holders),\n(b)\nCopy of Foreign Inward Remittance Certificate (FIRC) as per Form 10-H of\nIncome Tax Department in lieu of BRC, and\n(c)\nStatement giving details of shipping bills / invoice against which FIRC was\nissued."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1"
+  ],
   "documents": [
     "Copy of Foreign Inward Remittance Certificate"
   ],
@@ -302,12 +304,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 2, section 2.67, title, and page references as immutable knowledge metadata.",
     "Bind validations for Direct negotiation of export documents into a rule engine keyed by the rule IDs extracted for this section.",
-    "Expose document upload controls for: Copy of Foreign Inward Remittance Certificate."
+    "Expose document upload controls for: Copy of Foreign Inward Remittance Certificate.",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Direct negotiation of export documents section-la, Capture chapter 2, section 2.67, title, and page references as immutable knowledge metadata.",
     "Indha Direct negotiation of export documents section-la, Bind validations for Direct negotiation of export documents into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Direct negotiation of export documents section-la, Expose document upload controls for: Copy of Foreign Inward Remittance Certificate."
+    "Indha Direct negotiation of export documents section-la, Expose document upload controls for: Copy of Foreign Inward Remittance Certificate.",
+    "Indha Direct negotiation of export documents section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "not",
@@ -361,7 +365,9 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [
     "2.67 Direct negotiation of export documents\nIn cases where exporter directly negotiates document (not through authorised dealer)\nwith permission of RBI, he is required to submit following documents for availing of\nbenefits under export promotion schemes:\n(a) Permission from RBI allowing direct negotiation of documents (not required\nfor status holders),\n(b) Copy of Foreign Inward Remittance Certificate (FIRC) as per Form 10-H of\nIncome Tax Department in lieu of BRC, and\n(c) Statement giving details of shipping bills / invoice against which FIRC was\nissued.",

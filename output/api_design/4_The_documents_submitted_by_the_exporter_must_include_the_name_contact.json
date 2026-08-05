@@ -1,0 +1,55 @@
+{
+  "section": "4",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4",
+      "purpose": "Retrieve knowledge payload for section 4",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/The-documents-submitted-by-the-exporter-must-include-the-name-contact/validate",
+      "purpose": "Validate inputs and documents for The documents submitted by the exporter must include the name, contact",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/The-documents-submitted-by-the-exporter-must-include-the-name-contact/execute",
+      "purpose": "Trigger business action for The documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

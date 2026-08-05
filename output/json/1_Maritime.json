@@ -1,0 +1,216 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "section": "1",
+  "title": "Maritime",
+  "purpose": "Defines the operational requirements for Maritime.",
+  "purpose_thanglish": "Indha Maritime section-la, Defines the operational requirements for Maritime.",
+  "summary": "1: Maritime",
+  "business_meaning": "1: Maritime",
+  "business_explanation": "1: Maritime",
+  "business_explanation_thanglish": "Indha Maritime section-la, 1: Maritime",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC1-R001",
+      "rule_description": "1: Maritime",
+      "trigger": "Maritime",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1 - Maritime."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 1 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Maritime\nReview section 1 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 1 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Maritime Decision\nIF section 1 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Maritime; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Maritime, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the maritime process.",
+  "real_world_example_thanglish": "Indha Maritime section-la, Example: an importer or exporter invokes Maritime, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the maritime process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "maritime_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Maritime"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/1",
+      "purpose": "Retrieve knowledge payload for section 1",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Maritime/validate",
+      "purpose": "Validate inputs and documents for Maritime",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Maritime_overview",
+      "name": "Maritime Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Maritime_submission",
+      "name": "Maritime Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "maritime_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Maritime require?",
+    "Which documents are needed for Maritime?",
+    "How does DEKAI validate Maritime requests?"
+  ],
+  "expected_ai_answers": [
+    "Maritime requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Maritime by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 1?",
+      "answer_en": "1: Maritime",
+      "question_thanglish": "Indha Maritime section-la, What is the purpose of section 1?",
+      "answer_thanglish": "Indha Maritime section-la, 1: Maritime"
+    },
+    {
+      "question_en": "What documents are required under Maritime?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Maritime section-la, What documents are required under Maritime?",
+      "answer_thanglish": "Indha Maritime section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Maritime?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Maritime section-la, Which authority handles Maritime?",
+      "answer_thanglish": "Indha Maritime section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Maritime?",
+      "answer_en": "AI answers: DEKAI should evaluate section 1, apply the extracted rules, and guide the user through Review section 1 requirements.",
+      "question_thanglish": "Indha Maritime section-la, User asks: How do I comply with Maritime?",
+      "answer_thanglish": "Indha Maritime section-la, AI answers: DEKAI should evaluate section 1, apply the extracted rules, and guide the user through Review section 1 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Maritime?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Maritime section-la, User asks: Which validations apply to Maritime?",
+      "answer_thanglish": "Indha Maritime section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter , section 1, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Maritime into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Maritime section-la, Capture chapter , section 1, title, and page references as immutable knowledge metadata.",
+    "Indha Maritime section-la, Bind validations for Maritime into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "Maritime"
+  ],
+  "search_keywords": [
+    "Maritime"
+  ],
+  "intent": "Provide knowledge guidance for Maritime.",
+  "tags": [
+    "1",
+    "Maritime",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    11
+  ],
+  "pages": [
+    11
+  ],
+  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+  "raw_text": "1: Maritime",
+  "mermaid": "flowchart TD\n    S1[\"Review section 1 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 1 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

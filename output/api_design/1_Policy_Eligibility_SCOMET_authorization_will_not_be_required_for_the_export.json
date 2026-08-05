@@ -1,0 +1,65 @@
+{
+  "section": "1",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/1",
+      "purpose": "Retrieve knowledge payload for section 1",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Policy-Eligibility-SCOMET-authorization-will-not-be-required-for-the-export/validate",
+      "purpose": "Validate inputs and documents for Policy & Eligibility: SCOMET authorization will not be required, for the export",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Policy-Eligibility-SCOMET-authorization-will-not-be-required-for-the-export/execute",
+      "purpose": "Trigger business action for The applicant exporter shall submit an application for getting a one-time\nlicense under GAET through the online SCOMET portal and attach the\ninformation in the prescribed proforma;\nb.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

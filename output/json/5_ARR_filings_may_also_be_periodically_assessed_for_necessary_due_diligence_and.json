@@ -1,0 +1,314 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "5",
+  "title": "ARR filings may also be periodically assessed for necessary due diligence and",
+  "purpose": "ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.",
+  "purpose_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.",
+  "summary": "5. ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.",
+  "business_meaning": "5.",
+  "business_explanation": "5. ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.",
+  "business_explanation_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, 5. ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC5-R001",
+      "rule_description": "5. ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.",
+      "trigger": "ARR filings may also be periodically assessed for necessary due diligence and",
+      "condition": "ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5 - ARR filings may also be periodically assessed for necessary due diligence and."
+    }
+  ],
+  "conditions": [
+    "ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.5.1",
+      "if": "ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.",
+      "then": "Route for review",
+      "source": "ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted."
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "authorities": [
+    "Ro DTEP Committee"
+  ],
+  "timelines": [
+    "ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted."
+  ],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted."
+  ],
+  "workflow_ascii": "ARR filings may also be periodically assessed for necessary due diligence and\nEvaluate condition: ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.",
+  "decision_tree": [
+    "IF section 5 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "ARR filings may also be periodically assessed for necessary due diligence and Decision\nIF section 5 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process ARR filings may also be periodically assessed for necessary due diligence and; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes ARR filings may also be periodically assessed for necessary due diligence and, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the arr filings may also be periodically assessed for necessary due diligence and process.",
+  "real_world_example_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, Example: an importer or exporter invokes ARR filings may also be periodically assessed for necessary due diligence and, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the arr filings may also be periodically assessed for necessary due diligence and process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "arr_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ARR"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "due_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:due"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "also_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:also"
+    },
+    {
+      "name": "dtep_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DTEP"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5",
+      "purpose": "Retrieve knowledge payload for section 5",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/ARR-filings-may-also-be-periodically-assessed-for-necessary-due-diligence-and/validate",
+      "purpose": "Validate inputs and documents for ARR filings may also be periodically assessed for necessary due diligence and",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "ARR_filings_may_also_be_periodically_assessed_for_necessary_due_diligence_and_overview",
+      "name": "ARR filings may also be periodically assessed for necessary due diligence and Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "ARR_filings_may_also_be_periodically_assessed_for_necessary_due_diligence_and_submission",
+      "name": "ARR filings may also be periodically assessed for necessary due diligence and Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "arr_flag",
+        "may_flag",
+        "for_flag",
+        "due_flag",
+        "and_flag",
+        "the_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does ARR filings may also be periodically assessed for necessary due diligence and require?",
+    "Which documents are needed for ARR filings may also be periodically assessed for necessary due diligence and?",
+    "How does DEKAI validate ARR filings may also be periodically assessed for necessary due diligence and requests?"
+  ],
+  "expected_ai_answers": [
+    "ARR filings may also be periodically assessed for necessary due diligence and requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates ARR filings may also be periodically assessed for necessary due diligence and by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 5?",
+      "answer_en": "5. ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.",
+      "question_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, What is the purpose of section 5?",
+      "answer_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, 5. ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted."
+    },
+    {
+      "question_en": "What documents are required under ARR filings may also be periodically assessed for necessary due diligence and?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, What documents are required under ARR filings may also be periodically assessed for necessary due diligence and?",
+      "answer_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles ARR filings may also be periodically assessed for necessary due diligence and?",
+      "answer_en": "Ro DTEP Committee",
+      "question_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, Which authority handles ARR filings may also be periodically assessed for necessary due diligence and?",
+      "answer_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, Ro DTEP Committee"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with ARR filings may also be periodically assessed for necessary due diligence and?",
+      "answer_en": "AI answers: DEKAI should evaluate section 5, apply the extracted rules, and guide the user through Evaluate condition: ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted..",
+      "question_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, User asks: How do I comply with ARR filings may also be periodically assessed for necessary due diligence and?",
+      "answer_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, AI answers: DEKAI should evaluate section 5, apply the extracted rules, and guide the user through Evaluate condition: ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to ARR filings may also be periodically assessed for necessary due diligence and?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, User asks: Which validations apply to ARR filings may also be periodically assessed for necessary due diligence and?",
+      "answer_thanglish": "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 5, title, and page references as immutable knowledge metadata.",
+    "Bind validations for ARR filings may also be periodically assessed for necessary due diligence and into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: Ro DTEP Committee."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, Capture chapter 4, section 5, title, and page references as immutable knowledge metadata.",
+    "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, Bind validations for ARR filings may also be periodically assessed for necessary due diligence and into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha ARR filings may also be periodically assessed for necessary due diligence and section-la, Route escalations or approvals to: Ro DTEP Committee."
+  ],
+  "keywords": [
+    "ARR",
+    "may",
+    "for",
+    "due",
+    "and",
+    "the",
+    "also",
+    "DTEP",
+    "rates",
+    "before",
+    "higher",
+    "filings",
+    "assessed",
+    "suitable",
+    "revision",
+    "wherever",
+    "necessary",
+    "diligence",
+    "presented",
+    "Committee"
+  ],
+  "search_keywords": [
+    "ARR",
+    "may",
+    "for",
+    "due",
+    "and",
+    "the",
+    "also",
+    "DTEP",
+    "rates",
+    "before",
+    "higher",
+    "filings",
+    "assessed",
+    "suitable",
+    "revision",
+    "wherever",
+    "necessary",
+    "diligence",
+    "presented",
+    "Committee"
+  ],
+  "intent": "Provide knowledge guidance for ARR filings may also be periodically assessed for necessary due diligence and.",
+  "tags": [
+    "5",
+    "ARR filings may also be periodically assessed for necessary due diligence and",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    55
+  ],
+  "pages": [
+    55
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "5. ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.\"]",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: ARR filings may also be periodically assessed for necessary due diligence and\npresented before Ro DTEP Committee for suitable revision of rates including for\nthe consideration of higher rates wherever warranted.;\nstop\n@enduml"
+}

@@ -1,0 +1,21 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "1",
+  "title": "Proof of import of the item(s):",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC1-R001",
+      "rule_description": "IF validations pass THEN recommend action: Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb.",
+      "trigger": "Proof of import of the item(s):",
+      "condition": "Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb.",
+      "exception": "Documentary proof and/or self-declaration that the item exempted from\nlicense requirement or place under no license requirement for India.",
+      "output": "DEKAI should produce a compliance decision for 1 - Proof of import of the item(s):."
+    }
+  ],
+  "ai_rules": [
+    "IF validations pass THEN recommend action: Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb."
+  ]
+}

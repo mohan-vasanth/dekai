@@ -1,0 +1,87 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "2",
+  "title": "Proof of obligation for repair of defective/damaged items:",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC2-R001",
+      "rule_description": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb.",
+      "validation": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+      "action": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R002",
+      "rule_description": "Subsequent export/re-export is\nsubject to post reporting;\nd.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+      "validation": "The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.",
+      "action": "Subsequent export/re-export is\nsubject to post reporting;\nd.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R003",
+      "rule_description": "The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "Subsequent export/re-export is\nsubject to post reporting;\nd.",
+      "validation": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+      "action": "The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R004",
+      "rule_description": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+      "validation": "No details of ‘End Use’ and ‘End Use Certificate’ would be required;\nk.",
+      "action": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R005",
+      "rule_description": "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "Note: Same entity would imply that (a) foreign\nbuyer (b) consignee or intermediaries, if any (c) the end user are exactly the same\nfor which authorisation has been issued to the applicant exporter.",
+      "validation": "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+      "action": "Subsequent export would be allowed to the same entity and location to which the\nlicense has originally been issued.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R006",
+      "rule_description": "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "There has been no change to the original characteristics/specifications of the\nSCOMET item(s) after repair and no value addition has been done during the repair\nwork;\nh.",
+      "validation": "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+      "action": "Note: Same entity would imply that (a) foreign\nbuyer (b) consignee or intermediaries, if any (c) the end user are exactly the same\nfor which authorisation has been issued to the applicant exporter.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R007",
+      "rule_description": "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "No Export Authorisation would be granted when the initial export authorisation\nhas been suspended, modified or revoked by country of import;\ni.",
+      "validation": "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory.",
+      "action": "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+    "IF detected context matches section rule THEN enforce: Subsequent export/re-export is\nsubject to post reporting;\nd.",
+    "IF detected context matches section rule THEN enforce: The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.",
+    "IF detected context matches section rule THEN enforce: General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+    "IF detected context matches section rule THEN enforce: GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+    "IF detected context matches section rule THEN enforce: Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+    "IF validations pass THEN recommend action: The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period."
+  ]
+}

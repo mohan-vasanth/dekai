@@ -57,7 +57,10 @@
     "Value Addition\nshall be calculated after deducting agency commission."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "4",
+    "6"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -287,11 +290,13 @@
   ],
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.64, title, and page references as immutable knowledge metadata.",
-    "Bind validations for Agency Commission into a rule engine keyed by the rule IDs extracted for this section."
+    "Bind validations for Agency Commission into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 4, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Agency Commission section-la, Capture chapter 4, section 4.64, title, and page references as immutable knowledge metadata.",
-    "Indha Agency Commission section-la, Bind validations for Agency Commission into a rule engine keyed by the rule IDs extracted for this section."
+    "Indha Agency Commission section-la, Bind validations for Agency Commission into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Agency Commission section-la, Show contextual links to related sections: 4, 6."
   ],
   "keywords": [
     "are",
@@ -344,7 +349,10 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "4",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.",

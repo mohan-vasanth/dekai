@@ -106,7 +106,13 @@
     "(b)\nGem REP Authorisation will be as per the replenishment rate prescribed\nin Appendix 4F and the scale of replenishment on the remaining FOB\nvalue in the case of studded jewellery shall be as given in Appendix-4G."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -345,11 +351,13 @@
   ],
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.63, title, and page references as immutable knowledge metadata.",
-    "Bind validations for Gem & Jewellery Replenishment Authorisations into a rule engine keyed by the rule IDs extracted for this section."
+    "Bind validations for Gem & Jewellery Replenishment Authorisations into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 1, 3, 4, 5, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Gem & Jewellery Replenishment Authorisations section-la, Capture chapter 4, section 4.63, title, and page references as immutable knowledge metadata.",
-    "Indha Gem & Jewellery Replenishment Authorisations section-la, Bind validations for Gem & Jewellery Replenishment Authorisations into a rule engine keyed by the rule IDs extracted for this section."
+    "Indha Gem & Jewellery Replenishment Authorisations section-la, Bind validations for Gem & Jewellery Replenishment Authorisations into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Gem & Jewellery Replenishment Authorisations section-la, Show contextual links to related sections: 1, 3, 4, 5, 6."
   ],
   "keywords": [
     "Gem",
@@ -402,7 +410,13 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.63 Gem & Jewellery Replenishment Authorisations\n(a) Gem REP Authorisations shall be valid for import of precious stones,\nsemi-precious and synthetic stones and pearls used in export of Gems and\nJewellery products.",

@@ -35,7 +35,10 @@
   ],
   "validations": [],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "4"
+  ],
   "documents": [
     "4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority."
   ],
@@ -253,13 +256,15 @@
     "Capture chapter 4, section 4.41, title, and page references as immutable knowledge metadata.",
     "Bind validations for Provisional clearance of export consignment into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nExport Obligation extension to concerned Regional Authority..",
-    "Route escalations or approvals to: Regional Authority, Customs, Export Obligation extension to concerned Regional Authority."
+    "Route escalations or approvals to: Regional Authority, Customs, Export Obligation extension to concerned Regional Authority.",
+    "Show contextual links to related sections: 1, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Provisional clearance of export consignment section-la, Capture chapter 4, section 4.41, title, and page references as immutable knowledge metadata.",
     "Indha Provisional clearance of export consignment section-la, Bind validations for Provisional clearance of export consignment into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Provisional clearance of export consignment section-la, Expose document upload controls for: 4.41 Provisional clearance of export consignment\nCustoms may allow provisional clearance of export consignment as and when\nAuthorisation holder produces documentary evidence of having applied for\nexport Obligation extension to concerned Regional authority..",
-    "Indha Provisional clearance of export consignment section-la, Route escalations or approvals to: Regional authority, Customs, export Obligation extension to concerned Regional authority."
+    "Indha Provisional clearance of export consignment section-la, Route escalations or approvals to: Regional authority, Customs, export Obligation extension to concerned Regional authority.",
+    "Indha Provisional clearance of export consignment section-la, Show contextual links to related sections: 1, 4."
   ],
   "keywords": [
     "may",
@@ -312,7 +317,10 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [

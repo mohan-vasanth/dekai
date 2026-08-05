@@ -1,0 +1,37 @@
+{
+  "section": "4",
+  "ui": [
+    {
+      "screen_id": "Certified_approved_Internal_Compliance_Programme_or_demonstrating_overview",
+      "name": "Certified/approved Internal Compliance Programme or demonstrating Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Certified_approved_Internal_Compliance_Programme_or_demonstrating_submission",
+      "name": "Certified/approved Internal Compliance Programme or demonstrating Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "icp_flag",
+        "for_flag",
+        "that_flag",
+        "only_flag",
+        "foreign_flag"
+      ]
+    }
+  ]
+}

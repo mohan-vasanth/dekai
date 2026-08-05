@@ -1,0 +1,55 @@
+{
+  "section": "3",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/3",
+      "purpose": "Retrieve knowledge payload for section 3",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/A-composition-fee-of-Rs-10-000-will-need-to-be-paid-for-delayed-filing-of-ARR-upto/validate",
+      "purpose": "Validate inputs and documents for A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/A-composition-fee-of-Rs-10-000-will-need-to-be-paid-for-delayed-filing-of-ARR-upto/execute",
+      "purpose": "Trigger business action for Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls\nwill be resumed within 45 days, till an online API based message exchange is\nestablished between DGFT and Customs.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

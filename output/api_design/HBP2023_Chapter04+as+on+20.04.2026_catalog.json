@@ -91,6 +91,12 @@
     "Export-and-import-of-Diamond-Gemstone-Jewellery-on",
     "Guidelines-Monitoring-for-import-of-precious-metal-by-the",
     "Filing-of-Annual-RODTEP-Return-ARR",
+    "To-assess-the-nature-of-inputs-used-in-export-production-and-the-amount-of-actual",
+    "Non-reporting-of-the-ARR-shall-lead-to-denial-of-benefits-under-the-RODTEP",
+    "A-composition-fee-of-Rs-10-000-will-need-to-be-paid-for-delayed-filing-of-ARR-upto",
+    "The-physical-digital-records-substantiating-the-duty-remission-claims-as-filed-in",
+    "ARR-filings-may-also-be-periodically-assessed-for-necessary-due-diligence-and",
+    "Certain-ARR-cases-may-also-be-identified-by-the-IT-assisted-risk-based-criteria-for",
     "Filing-of-Application-for-Diamond-Imprest-Authorisation-DIA",
     "Conditions-of-Imports-Exports",
     "Regularisation-of-Bonafide-Default-in-fulfilment-of-export"
@@ -5140,9 +5146,47 @@
           "purpose": "Validate inputs and documents for Filing of Annual RODTEP Return (ARR)",
           "request_fields": [
             "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1",
+      "title": "To assess the nature of inputs used in export production and the amount of actual",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/1",
+          "purpose": "Retrieve knowledge payload for section 1",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/To-assess-the-nature-of-inputs-used-in-export-production-and-the-amount-of-actual/validate",
+          "purpose": "Validate inputs and documents for To assess the nature of inputs used in export production and the amount of actual",
+          "request_fields": [
+            "section_code",
             "section_title",
-            "document_1_submitted",
-            "document_2_submitted"
+            "document_1_submitted"
           ],
           "response_fields": [
             "status",
@@ -5153,13 +5197,271 @@
         },
         {
           "method": "POST",
-          "path": "/api/dgft/Filing-of-Annual-RODTEP-Return-ARR/execute",
+          "path": "/api/dgft/To-assess-the-nature-of-inputs-used-in-export-production-and-the-amount-of-actual/execute",
           "purpose": "Trigger business action for 129\nNominated Agencies\nThe guidelines on import of precious metal by the nominated agencies and\nmonitoring are as under:\n(a)\nFollowing guidelines for monitoring the import of precious metal and\nits distribution and / or own use by the Nominated Agencies will be\nfollowed, (other than the Banks nominated by RBI for this purpose):\n(i)\nEvery Nominated Agency is required to maintain records of\nimports of precious metal (both quantity and value) and its\ndistribution for the purpose of exports of value added product as\nwell as for the purpose of domestic consumption as per the format\ngiven in Appendix 4-M of Hand Book of Procedures.",
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted",
-            "document_2_submitted"
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2",
+      "title": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/2",
+          "purpose": "Retrieve knowledge payload for section 2",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Non-reporting-of-the-ARR-shall-lead-to-denial-of-benefits-under-the-RODTEP/validate",
+          "purpose": "Validate inputs and documents for Non-reporting of the ARR shall lead to denial of benefits under the RODTEP",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Non-reporting-of-the-ARR-shall-lead-to-denial-of-benefits-under-the-RODTEP/execute",
+          "purpose": "Trigger business action for Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3",
+      "title": "A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3",
+          "purpose": "Retrieve knowledge payload for section 3",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/A-composition-fee-of-Rs-10-000-will-need-to-be-paid-for-delayed-filing-of-ARR-upto/validate",
+          "purpose": "Validate inputs and documents for A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/A-composition-fee-of-Rs-10-000-will-need-to-be-paid-for-delayed-filing-of-ARR-upto/execute",
+          "purpose": "Trigger business action for Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls\nwill be resumed within 45 days, till an online API based message exchange is\nestablished between DGFT and Customs.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4",
+      "title": "The physical/digital records substantiating the duty remission claims, as filed in",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4",
+          "purpose": "Retrieve knowledge payload for section 4",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/The-physical-digital-records-substantiating-the-duty-remission-claims-as-filed-in/validate",
+          "purpose": "Validate inputs and documents for The physical/digital records substantiating the duty remission claims, as filed in",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/The-physical-digital-records-substantiating-the-duty-remission-claims-as-filed-in/execute",
+          "purpose": "Trigger business action for The physical/digital records substantiating the duty remission claims, as filed in\nARR, will need to be maintained for a period of five (5) years which may be\nproduced before the concerned authority assessing the ARR.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5",
+      "title": "ARR filings may also be periodically assessed for necessary due diligence and",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5",
+          "purpose": "Retrieve knowledge payload for section 5",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/ARR-filings-may-also-be-periodically-assessed-for-necessary-due-diligence-and/validate",
+          "purpose": "Validate inputs and documents for ARR filings may also be periodically assessed for necessary due diligence and",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6",
+      "title": "Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6",
+          "purpose": "Retrieve knowledge payload for section 6",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Certain-ARR-cases-may-also-be-identified-by-the-IT-assisted-risk-based-criteria-for/validate",
+          "purpose": "Validate inputs and documents for Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Certain-ARR-cases-may-also-be-identified-by-the-IT-assisted-risk-based-criteria-for/execute",
+          "purpose": "Trigger business action for Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
           ],
           "response_fields": [
             "reference_id",

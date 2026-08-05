@@ -1,0 +1,37 @@
+{
+  "section": "17",
+  "ui": [
+    {
+      "screen_id": "Addl_DGFT_Addl_DGFT_RA_Hyderabad_overview",
+      "name": "Addl. DGFT, Addl. DGFT RA, Hyderabad Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Addl_DGFT_Addl_DGFT_RA_Hyderabad_submission",
+      "name": "Addl. DGFT, Addl. DGFT RA, Hyderabad Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "addl_flag",
+        "dgft_flag",
+        "surat_flag",
+        "trade_flag",
+        "kanpur_flag"
+      ]
+    }
+  ]
+}

@@ -77,7 +77,8 @@
     "34\n2.57\nCrude Soya-bean oil, whether or not 15071000 20,00,000\ndegummed\nCrude Sunflower seed oil 15121110 20,00,000\nThe duty exemption under the said TRQs may be availed as per the Ministry of\nFinance (Department of Revenue) Notification No."
   ],
   "dependencies": [
-    "2.57"
+    "2.57",
+    "1"
   ],
   "documents": [],
   "required_documents": [],
@@ -357,14 +358,14 @@
     "Bind validations for Services of Inspection and Certification Agencies into a rule engine keyed by the rule IDs extracted for this section.",
     "Route escalations or approvals to: Customs, State Government, Customs or any other Central or State Government, Imports under the Tariff Rate Quota Scheme is governed as per the Customs.",
     "Trigger manual review when exception clauses are detected.",
-    "Show contextual links to related sections: 2.57."
+    "Show contextual links to related sections: 1, 2.57."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Services of Inspection and Certification Agencies section-la, Capture chapter 2, section 2.56, title, and page references as immutable knowledge metadata.",
     "Indha Services of Inspection and Certification Agencies section-la, Bind validations for Services of Inspection and Certification Agencies into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Services of Inspection and Certification Agencies section-la, Route escalations or approvals to: Customs, State Government, Customs or any other Central or State Government, Imports under the Tariff Rate Quota Scheme is governed as per the Customs.",
     "Indha Services of Inspection and Certification Agencies section-la, Trigger manual review when exception clauses are detected.",
-    "Indha Services of Inspection and Certification Agencies section-la, Show contextual links to related sections: 2.57."
+    "Indha Services of Inspection and Certification Agencies section-la, Show contextual links to related sections: 1, 2.57."
   ],
   "keywords": [
     "and",
@@ -418,6 +419,7 @@
     "dgft"
   ],
   "related_sections": [
+    "1",
     "2.57"
   ],
   "related_chapters": [],

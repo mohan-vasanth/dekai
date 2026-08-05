@@ -1,0 +1,11 @@
+{
+  "section": "3",
+  "workflow": [
+    "Evaluate condition: Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.",
+    "Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls\nwill be resumed within 45 days, till an online API based message exchange is\nestablished between DGFT and Customs.",
+    "Run validation: The resumption of scroll out shall also\ncover the Shipping Bills that were not scrolled out earlier on account of non-\ncompliance of ARR."
+  ],
+  "workflow_ascii": "A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto\nEvaluate condition: Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.\n   |\n   v\nSubsequent to the payment of the applicable composition fee, the Ro DTEP scrolls\nwill be resumed within 45 days, till an online API based message exchange is\nestablished between DGFT and Customs.\n   |\n   v\nRun validation: The resumption of scroll out shall also\ncover the Shipping Bills that were not scrolled out earlier on account of non-\ncompliance of ARR.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.\"]\n    S2[\"Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls\nwill be resumed within 45 days, till an online API based message exchange is\nestablished between DGFT and Customs.\"]\n    S1 --> S2\n    S3[\"Run validation: The resumption of scroll out shall also\ncover the Shipping Bills that were not scrolled out earlier on account of non-\ncompliance of ARR.\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.;\n:Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls\nwill be resumed within 45 days, till an online API based message exchange is\nestablished between DGFT and Customs.;\n:Run validation\\: The resumption of scroll out shall also\ncover the Shipping Bills that were not scrolled out earlier on account of non-\ncompliance of ARR.;\nstop\n@enduml"
+}

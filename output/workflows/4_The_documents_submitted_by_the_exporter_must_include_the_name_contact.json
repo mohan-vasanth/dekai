@@ -1,0 +1,11 @@
+{
+  "section": "4",
+  "workflow": [
+    "Evaluate condition: The documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export.",
+    "The documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export.",
+    "Run validation: The documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export."
+  ],
+  "workflow_ascii": "The documents submitted by the exporter must include the name, contact\nEvaluate condition: The documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export.\n   |\n   v\nThe documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export.\n   |\n   v\nRun validation: The documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: The documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export.\"]\n    S2[\"The documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export.\"]\n    S1 --> S2\n    S3[\"Run validation: The documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export.\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: The documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export.;\n:The documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export.;\n:Run validation\\: The documents submitted by the exporter must include the name, contact\nnumber and email ID of the authority signing the EUC before actual export.;\nstop\n@enduml"
+}

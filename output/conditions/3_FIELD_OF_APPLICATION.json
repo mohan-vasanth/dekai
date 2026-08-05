@@ -1,0 +1,14 @@
+{
+  "section": "3",
+  "conditions": [
+    "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade."
+  ],
+  "condition_logic": [
+    {
+      "id": ".3.1",
+      "if": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
+      "then": "Route for review",
+      "source": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade."
+    }
+  ]
+}

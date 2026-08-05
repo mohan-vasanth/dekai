@@ -488,7 +488,12 @@
     "(i) Export of branded jewellery is also permitted with approval of Gem\n& Jewellery EPC for display/sale in permitted shops setup abroad\nor in showroom of their distributors/ agents."
   ],
   "dependencies": [
-    "3"
+    "3",
+    "1",
+    "2",
+    "4",
+    "5",
+    "6"
   ],
   "documents": [
     "4.79 Export through Exhibitions/Export Promotion Tours/ Export of\nBranded Jewellery\n(a) Nominated Agencies shall produce to Customs Authorities letter in\noriginal or its certified copy, containing Government’s approval for\nholding exhibition/export of branded jewellery.",
@@ -851,14 +856,16 @@
     "Bind validations for Export through Exhibitions/Export Promotion Tours/ Export of into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 4.79 Export through Exhibitions/Export Promotion Tours/ Export of\nBranded Jewellery\n(a) Nominated Agencies shall produce to Customs Authorities letter in\noriginal or its certified copy, containing Government’s approval for\nholding exhibition/export of branded jewellery., Commissioner, customs letter in original or its\ncertified copy containing GJEPC’s approval for holding exhibitions/\nexport promotion tour/export of branded jewellery., 121\n(f)\nCustoms authorities shall return two copies of shipping bill and\nconnected invoice duly attested., One copy shall be sent to person who\npresented documents and the other copy shall be sent by Customs to\noffice of nominated agency /exporter., (g)\nIn case of exports through nominated agency, exporter shall submit\nproof of exports to nominated agency within 15 days of exports, who\nshall, after verifying documents, release admissible quantity of the gold/\nsilver/ platinum etc., BG /LUT shall be redeemed only when the\nexporter has furnished proof of exports to nominated agency and\naccounted for the use of items supplied in advance in export product..",
     "Route escalations or approvals to: Customs, Nominated Agencies shall produce to Customs Authorities, For redemption of bond/ BG /LUT executed with Customs, Copy of the approval letter issued by Government.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 5, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Export through Exhibitions/Export Promotion Tours/ Export of section-la, Capture chapter 4, section 4.79, title, and page references as immutable knowledge metadata.",
     "Indha Export through Exhibitions/Export Promotion Tours/ Export of section-la, Bind validations for export through Exhibitions/export Promotion Tours/ export of into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Export through Exhibitions/Export Promotion Tours/ Export of section-la, Expose document upload controls for: 4.79 export through Exhibitions/export Promotion Tours/ export of\nBranded Jewellery\n(a) Nominated Agencies kandippa produce to Customs Authorities letter in\noriginal or its certified copy, containing Government’s approval for\nholding exhibition/export of branded jewellery., Commissioner, customs letter in original or its\ncertified copy containing GJEPC’s approval for holding exhibitions/\nexport promotion tour/export of branded jewellery., 121\n(f)\nCustoms authorities kandippa return two copies of shipping bill and\nconnected invoice duly attested., One copy kandippa be sent to person who\npresented documents and the other copy kandippa be sent by Customs to\noffice of nominated agency /exporter., (g)\nIn case of exports through nominated agency, exporter kandippa submit\nproof of exports to nominated agency within 15 days of exports, who\nkandippa, after verifying documents, release admissible quantity of the gold/\nsilver/ platinum etc., BG /LUT kandippa be redeemed only when the\nexporter has furnished proof of exports to nominated agency and\naccounted for the use of items supplied in advance in export product..",
     "Indha Export through Exhibitions/Export Promotion Tours/ Export of section-la, Route escalations or approvals to: Customs, Nominated Agencies kandippa produce to Customs Authorities, For redemption of bond/ BG /LUT executed with Customs, Copy of the approval letter issued by Government.",
-    "Indha Export through Exhibitions/Export Promotion Tours/ Export of section-la, Trigger manual review when exception clauses are detected."
+    "Indha Export through Exhibitions/Export Promotion Tours/ Export of section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Export through Exhibitions/Export Promotion Tours/ Export of section-la, Show contextual links to related sections: 1, 2, 3, 4, 5, 6."
   ],
   "keywords": [
     "its",
@@ -912,7 +919,14 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.79 Export through Exhibitions/Export Promotion Tours/ Export of\nBranded Jewellery\n(a) Nominated Agencies shall produce to Customs Authorities letter in\noriginal or its certified copy, containing Government’s approval for\nholding exhibition/export of branded jewellery.",

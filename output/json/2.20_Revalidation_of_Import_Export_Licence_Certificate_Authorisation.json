@@ -169,7 +169,8 @@
     "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation."
   ],
   "dependencies": [
-    "11.10"
+    "11.10",
+    "1"
   ],
   "documents": [
     "Revalidation of Import / Export Licence Certificate",
@@ -479,14 +480,16 @@
     "Bind validations for Revalidation of Import / Export Licence Certificate/ Authorisation / into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: Revalidation of Import / Export Licence Certificate, 17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation..",
     "Route escalations or approvals to: DGFT, RA, Customs, Customs Authority.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Revalidation of Import / Export Licence Certificate/ Authorisation / section-la, Capture chapter 2, section 2.20, title, and page references as immutable knowledge metadata.",
     "Indha Revalidation of Import / Export Licence Certificate/ Authorisation / section-la, Bind validations for Revalidation of import / export licence Certificate/ Authorisation / into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Revalidation of Import / Export Licence Certificate/ Authorisation / section-la, Expose document upload controls for: Revalidation of import / export licence Certificate, 17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation..",
     "Indha Revalidation of Import / Export Licence Certificate/ Authorisation / section-la, Route escalations or approvals to: DGFT, RA, Customs, Customs authority.",
-    "Indha Revalidation of Import / Export Licence Certificate/ Authorisation / section-la, Trigger manual review when exception clauses are detected."
+    "Indha Revalidation of Import / Export Licence Certificate/ Authorisation / section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Revalidation of Import / Export Licence Certificate/ Authorisation / section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "for",
@@ -540,7 +543,9 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [
     "(c) However, revalidation of freely transferable authorisation / duty credit scrips and\nstock and sale (excluding SCOMET items) authorisation shall not be permitted unless\nvalidity has expired while in custody of Customs Authority / RA / Government\nAuthority.",

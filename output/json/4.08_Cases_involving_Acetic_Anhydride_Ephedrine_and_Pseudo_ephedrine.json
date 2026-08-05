@@ -320,7 +320,11 @@
     "However, if Audit team found\nthat duty-free items were imported in excess and not consumed fully in the\nresultant products and duty and interest have not been paid suo moto, the\napplicant shall be placed under Denied Entity List (DEL) under Rule 7 of\nFT(Regulation) Rules, 1993, as amended, in addition to other penal action\nunder FT(DR) Act/Customs Act."
   ],
   "dependencies": [
-    "11"
+    "11",
+    "1",
+    "2",
+    "3",
+    "4"
   ],
   "documents": [
     "(i) Where Acetic Anhydride, Ephedrine and Pseudo- ephedrine is required as an\ninput for import, applications shall be filed with Regional Authority\nconcerned.",
@@ -678,14 +682,16 @@
     "Bind validations for Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: (i) Where Acetic Anhydride, Ephedrine and Pseudo- ephedrine is required as an\ninput for import, applications shall be filed with Regional Authority\nconcerned., After filing application online, printed copy of such application\nshall also be simultaneously endorsed by applicant to (a) Drug Controller of\nIndia, Nirman Bhawan, New Delhi, (b) Narcotics Commissioner, Central\npg., 81\n(v)\nApplicant or his supporting manufacturer/co-licensee shall maintain a\nproper\naccount\nof\nconsumption\nand\nutilization\nof\nduty\nfree\nimported/domestically procured inputs against each authorisation, as\nprescribed in Appendix-4H., Application for EODC shall be submitted in\nprescribed format along with Appendix-4H to the Regional Authority\nconcerned., Export Obligation Discharge Certificate, Exporters shall be required to\nprovide necessary facility to verify Books of Accounts or other documents\nand assistance as may be required for timely completion of the audit..",
     "Route escalations or approvals to: Regional Authority, Narcotics Commissioner, Norms Committee, Concerned Norms Committee.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 2, 3, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine section-la, Capture chapter 4, section 4.08, title, and page references as immutable knowledge metadata.",
     "Indha Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine section-la, Bind validations for Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine section-la, Expose document upload controls for: (i) Where Acetic Anhydride, Ephedrine and Pseudo- ephedrine is required as an\ninput for import, applications kandippa be filed with Regional authority\nconcerned., After filing application online, printed copy of such application\nkandippa also be simultaneously endorsed by applicant to (a) Drug Controller of\nIndia, Nirman Bhawan, New Delhi, (b) Narcotics Commissioner, Central\npg., 81\n(v)\nApplicant or his supporting manufacturer/co-licensee kandippa maintain a\nproper\naccount\nof\nconsumption\nand\nutilization\nof\nduty\nfree\nimported/domestically procured inputs against each authorisation, as\nprescribed in Appendix-4H., application for EODC kandippa be submitted in\nprescribed format along with Appendix-4H to the Regional authority\nconcerned., export Obligation Discharge Certificate, Exporters kandippa be required to\nprovide necessary facility to verify Books of Accounts or other documents\nand assistance as may be required for timely completion of the audit..",
     "Indha Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine section-la, Route escalations or approvals to: Regional authority, Narcotics Commissioner, Norms Committee, Concerned Norms Committee.",
-    "Indha Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine section-la, Trigger manual review when exception clauses are detected."
+    "Indha Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine section-la, Show contextual links to related sections: 1, 2, 3, 4."
   ],
   "keywords": [
     "and",
@@ -739,7 +745,12 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "(i) Where Acetic Anhydride, Ephedrine and Pseudo- ephedrine is required as an\ninput for import, applications shall be filed with Regional Authority\nconcerned.",

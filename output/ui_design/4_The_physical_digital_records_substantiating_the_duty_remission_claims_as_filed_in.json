@@ -1,0 +1,37 @@
+{
+  "section": "4",
+  "ui": [
+    {
+      "screen_id": "The_physical_digital_records_substantiating_the_duty_remission_claims_as_filed_in_overview",
+      "name": "The physical/digital records substantiating the duty remission claims, as filed in Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "The_physical_digital_records_substantiating_the_duty_remission_claims_as_filed_in_submission",
+      "name": "The physical/digital records substantiating the duty remission claims, as filed in Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "arr_flag",
+        "for_flag",
+        "may_flag",
+        "duty_flag",
+        "will_flag"
+      ]
+    }
+  ]
+}

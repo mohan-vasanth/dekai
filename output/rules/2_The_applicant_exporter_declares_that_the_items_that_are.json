@@ -1,0 +1,21 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "2",
+  "title": "The applicant exporter declares that the items that are",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC2-R001",
+      "rule_description": "The applicant exporter declares that the items that are\nintended to be exported shall not be used for any purpose\nother than the purpose(s) stated in the EUC and that such\nuse shall not be changed nor the items modified or\nreplicated without the prior consent of the Government of\nIndia.;",
+      "trigger": "The applicant exporter declares that the items that are",
+      "condition": "The applicant exporter declares that the items that are\nintended to be exported shall not be used for any purpose\nother than the purpose(s) stated in the EUC and that such\nuse shall not be changed nor the items modified or\nreplicated without the prior consent of the Government of\nIndia.;",
+      "validation": "The applicant exporter declares that the items that are\nintended to be exported shall not be used for any purpose\nother than the purpose(s) stated in the EUC and that such\nuse shall not be changed nor the items modified or\nreplicated without the prior consent of the Government of\nIndia.;",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2 - The applicant exporter declares that the items that are."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: The applicant exporter declares that the items that are\nintended to be exported shall not be used for any purpose\nother than the purpose(s) stated in the EUC and that such\nuse shall not be changed nor the items modified or\nreplicated without the prior consent of the Government of\nIndia.;"
+  ]
+}

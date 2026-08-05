@@ -1,0 +1,37 @@
+{
+  "section": "4",
+  "ui": [
+    {
+      "screen_id": "General_Conditions_Exclusions_overview",
+      "name": "General Conditions & Exclusions Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "General_Conditions_Exclusions_submission",
+      "name": "General Conditions & Exclusions Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "not_flag",
+        "for_flag",
+        "and_flag",
+        "etc_flag",
+        "new_flag",
+        "the_flag"
+      ]
+    }
+  ]
+}

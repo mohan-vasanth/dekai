@@ -1,0 +1,37 @@
+{
+  "section": "2",
+  "ui": [
+    {
+      "screen_id": "Post_reporting_for_export_re_export_of_items_under_GAEIS_overview",
+      "name": "Post reporting for export / re-export of items under GAEIS Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Post_reporting_for_export_re_export_of_items_under_GAEIS_submission",
+      "name": "Post reporting for export / re-export of items under GAEIS Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "end_flag",
+        "vii_flag",
+        "may_flag",
+        "post_flag"
+      ]
+    }
+  ]
+}

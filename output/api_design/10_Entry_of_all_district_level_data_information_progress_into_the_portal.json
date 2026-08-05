@@ -1,0 +1,38 @@
+{
+  "section": "10",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/10",
+      "purpose": "Retrieve knowledge payload for section 10",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Entry-of-all-district-level-data-information-progress-into-the-portal/validate",
+      "purpose": "Validate inputs and documents for Entry of all district level data/ information/progress into the portal",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

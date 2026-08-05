@@ -50,7 +50,13 @@
   "exceptions": [
     "Export Authorisation is, however, required if the SCOMET items are to\nbe physically exported outside the country from SEZ/EOU, i.e."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "6"
+  ],
   "documents": [
     "All supplies of SCOMET items from DTA to\nSEZ/EOU will be reported to the Development Commissioner (DC) of the\nrespective SEZ/Eo U by the supplier in the prescribed proforma [Annexure 1 to\nAppendix-3 to Schedule 2 of ITC (HS) Classifications of Export and Import Items]\nwithin one week of the supplies getting effected.",
     "An annual report of such supplies\nfrom DTA to SEZ/EOU shall be reported to DGFT (Hqrs), by the DC of SEZ/EOU in\nthe prescribed proforma [Annexure 2 to Appendix-3] by 15th May of every financial\nyear, in respect of supplies from DTA to SEZ/EOU during the preceding financial\nyear."
@@ -325,14 +331,16 @@
     "Bind validations for Supply of SCOMET Items from DTA to SEZ/Eo U and outside into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: All supplies of SCOMET items from DTA to\nSEZ/EOU will be reported to the Development Commissioner (DC) of the\nrespective SEZ/Eo U by the supplier in the prescribed proforma [Annexure 1 to\nAppendix-3 to Schedule 2 of ITC (HS) Classifications of Export and Import Items]\nwithin one week of the supplies getting effected., An annual report of such supplies\nfrom DTA to SEZ/EOU shall be reported to DGFT (Hqrs), by the DC of SEZ/EOU in\nthe prescribed proforma [Annexure 2 to Appendix-3] by 15th May of every financial\nyear, in respect of supplies from DTA to SEZ/EOU during the preceding financial\nyear..",
     "Route escalations or approvals to: Development Commissioner, SEZ/EOU will be reported to the Development Commissioner, DGFT, DTA to SEZ/EOU shall be reported to DGFT.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 2, 3, 5, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Supply of SCOMET Items from DTA to SEZ/Eo U and outside section-la, Capture chapter 10, section 10.03, title, and page references as immutable knowledge metadata.",
     "Indha Supply of SCOMET Items from DTA to SEZ/Eo U and outside section-la, Bind validations for Supply of SCOMET Items from DTA to SEZ/Eo U and outside into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Supply of SCOMET Items from DTA to SEZ/Eo U and outside section-la, Expose document upload controls for: All supplies of SCOMET items from DTA to\nSEZ/EOU will be reported to the Development Commissioner (DC) of the\nrespective SEZ/Eo U by the supplier in the prescribed proforma [Annexure 1 to\nAppendix-3 to Schedule 2 of ITC (HS) Classifications of export and import Items]\nwithin one week of the supplies getting effected., An annual report of such supplies\nfrom DTA to SEZ/EOU kandippa be reported to DGFT (Hqrs), by the DC of SEZ/EOU in\nthe prescribed proforma [Annexure 2 to Appendix-3] by 15th May of every financial\nyear, in respect of supplies from DTA to SEZ/EOU during the preceding financial\nyear..",
     "Indha Supply of SCOMET Items from DTA to SEZ/Eo U and outside section-la, Route escalations or approvals to: Development Commissioner, SEZ/EOU will be reported to the Development Commissioner, DGFT, DTA to SEZ/EOU kandippa be reported to DGFT.",
-    "Indha Supply of SCOMET Items from DTA to SEZ/Eo U and outside section-la, Trigger manual review when exception clauses are detected."
+    "Indha Supply of SCOMET Items from DTA to SEZ/Eo U and outside section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Supply of SCOMET Items from DTA to SEZ/Eo U and outside section-la, Show contextual links to related sections: 1, 2, 3, 5, 6."
   ],
   "keywords": [
     "DTA",
@@ -386,7 +394,13 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "An annual report of such supplies\nfrom DTA to SEZ/EOU shall be reported to DGFT (Hqrs), by the DC of SEZ/EOU in\nthe prescribed proforma [Annexure 2 to Appendix-3] by 15th May of every financial\nyear, in respect of supplies from DTA to SEZ/EOU during the preceding financial\nyear."

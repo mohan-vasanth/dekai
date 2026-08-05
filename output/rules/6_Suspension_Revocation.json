@@ -1,0 +1,22 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "6",
+  "title": "Suspension / Revocation",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC6-R001",
+      "rule_description": "Suspension / Revocation\nGAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an\nadverse report on proliferation concern or for non-submission of mandatory post-\nshipment details/reports/documents within the prescribed timelines or non-\ncompliance with the conditions of the proposed policy.",
+      "trigger": "Suspension / Revocation",
+      "condition": "Suspension / Revocation\nGAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an\nadverse report on proliferation concern or for non-submission of mandatory post-\nshipment details/reports/documents within the prescribed timelines or non-\ncompliance with the conditions of the proposed policy.",
+      "validation": "Suspension / Revocation\nGAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an\nadverse report on proliferation concern or for non-submission of mandatory post-\nshipment details/reports/documents within the prescribed timelines or non-\ncompliance with the conditions of the proposed policy.",
+      "action": "Suspension / Revocation\nGAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an\nadverse report on proliferation concern or for non-submission of mandatory post-\nshipment details/reports/documents within the prescribed timelines or non-\ncompliance with the conditions of the proposed policy.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6 - Suspension / Revocation."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Suspension / Revocation\nGAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an\nadverse report on proliferation concern or for non-submission of mandatory post-\nshipment details/reports/documents within the prescribed timelines or non-\ncompliance with the conditions of the proposed policy.",
+    "IF validations pass THEN recommend action: Suspension / Revocation\nGAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an\nadverse report on proliferation concern or for non-submission of mandatory post-\nshipment details/reports/documents within the prescribed timelines or non-\ncompliance with the conditions of the proposed policy."
+  ]
+}

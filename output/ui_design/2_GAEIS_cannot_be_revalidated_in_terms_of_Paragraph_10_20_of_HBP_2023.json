@@ -1,0 +1,37 @@
+{
+  "section": "2",
+  "ui": [
+    {
+      "screen_id": "GAEIS_cannot_be_revalidated_in_terms_of_Paragraph_10_20_of_HBP_2023_overview",
+      "name": "GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023. Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "GAEIS_cannot_be_revalidated_in_terms_of_Paragraph_10_20_of_HBP_2023_submission",
+      "name": "GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023. Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "hbp_flag",
+        "gaeis_flag",
+        "terms_flag",
+        "cannot_flag",
+        "paragraph_flag",
+        "revalidated_flag"
+      ]
+    }
+  ]
+}

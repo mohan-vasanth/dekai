@@ -3,21 +3,33 @@
 ## Summary
 - source_pdf: HBP2023_Chapter08.pdf
 - page_count: 4
-- section_count: 5
+- section_count: 17
 - rule_count: 3
 - condition_count: 3
-- workflow_count: 13
+- workflow_count: 49
 - validation_count: 0
 - exception_count: 1
 - timeline_count: 0
-- authority_count: 24
+- authority_count: 40
 - glossary_count: 9
 
 ## Section Metrics
 | section | title | rules | conditions | validations | exceptions | timelines | authorities | documents |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 8.01 | Committee on Quality Complaint & Trade Dispute (CQCTD) | 0 | 1 | 0 | 0 | 0 | 9 | 0 |
+| 13 | Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot | 0 | 0 | 0 | 0 | 0 | 4 | 0 |
+| 17 | Addl. DGFT, Addl. DGFT RA, Hyderabad | 0 | 0 | 0 | 0 | 0 | 5 | 0 |
 | 8.02 | Composition of the CQCTD | 0 | 0 | 0 | 0 | 0 | 8 | 0 |
+| 1 | Additional DGFT/Joint DGFT/ (H.O.O):Chairperson | 0 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 2 | Representative of Bureau of India Standard (BIS):Member | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 3 | Representative of Agricultural and Processed Food Products Export | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 4 | Representative of the Branch Manager of the concerned Bank: | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 5 | Representative of Federation of Indian Exporter Organisation | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 6 | Representative of Export Inspection Agency: Member | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 7 | Nominee of Director of Industries of State Government: Member | 0 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 8 | Nominee of Development Commissioner of MSME: Member | 0 | 0 | 0 | 0 | 0 | 2 | 0 |
+| 9 | Officer as nominated by Chairperson: Member Secretary | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 10 | Any other agency, as co-opted by Chairperson: Member. | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 8.03 | Online Filing and Tracking of Quality Complaints/Trade | 0 | 0 | 0 | 0 | 0 | 2 | 3 |
 | 8.04 | Mechanism for resolving Quality Complaints/Trade Disputes | 0 | 1 | 0 | 0 | 0 | 4 | 0 |
 | 8.05 | Choice to pursue other options | 0 | 1 | 0 | 1 | 0 | 1 | 0 |

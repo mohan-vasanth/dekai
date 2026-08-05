@@ -1,0 +1,322 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "section": "3",
+  "title": "FIELD OF APPLICATION",
+  "purpose": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
+  "purpose_thanglish": "Indha FIELD OF APPLICATION section-la, FIELD OF application\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
+  "summary": "3. FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade. This message may be applied for both national and international trade.",
+  "business_meaning": "3.",
+  "business_explanation": "3. FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade. This message may be applied for both national and international trade.",
+  "business_explanation_thanglish": "Indha FIELD OF APPLICATION section-la, 3. FIELD OF application\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade. This message may be applied for both national and international trade.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC3-R001",
+      "rule_description": "3. FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade. This message may be applied for both national and international trade.",
+      "trigger": "FIELD OF APPLICATION",
+      "condition": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - FIELD OF APPLICATION."
+    }
+  ],
+  "conditions": [
+    "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade."
+  ],
+  "condition_logic": [
+    {
+      "id": ".3.1",
+      "if": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
+      "then": "Route for review",
+      "source": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade."
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [
+    "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade."
+  ],
+  "required_documents": [
+    "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade."
+  ],
+  "tables": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade."
+  ],
+  "workflow_ascii": "FIELD OF APPLICATION\nEvaluate condition: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
+  "decision_tree": [
+    "IF section 3 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "FIELD OF APPLICATION Decision\nIF section 3 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process FIELD OF APPLICATION; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes FIELD OF APPLICATION, submits FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade., and DEKAI uses the extracted rules to follow the field of application process.",
+  "real_world_example_thanglish": "Indha FIELD OF APPLICATION section-la, Example: an importer or exporter invokes FIELD OF application, submits FIELD OF application\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade., and DEKAI uses the extracted rules to follow the field of application process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:The"
+    },
+    {
+      "name": "are_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:are"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "use_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:use"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "this_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:this"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/3",
+      "purpose": "Retrieve knowledge payload for section 3",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/FIELD-OF-APPLICATION/validate",
+      "purpose": "Validate inputs and documents for FIELD OF APPLICATION",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "FIELD_OF_APPLICATION_overview",
+      "name": "FIELD OF APPLICATION Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "FIELD_OF_APPLICATION_submission",
+      "name": "FIELD OF APPLICATION Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "are_flag",
+        "for_flag",
+        "use_flag",
+        "may_flag",
+        "and_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does FIELD OF APPLICATION require?",
+    "Which documents are needed for FIELD OF APPLICATION?",
+    "How does DEKAI validate FIELD OF APPLICATION requests?"
+  ],
+  "expected_ai_answers": [
+    "FIELD OF APPLICATION requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
+    "DEKAI validates FIELD OF APPLICATION by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 3?",
+      "answer_en": "3. FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade. This message may be applied for both national and international trade.",
+      "question_thanglish": "Indha FIELD OF APPLICATION section-la, What is the purpose of section 3?",
+      "answer_thanglish": "Indha FIELD OF APPLICATION section-la, 3. FIELD OF application\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade. This message may be applied for both national and international trade."
+    },
+    {
+      "question_en": "What documents are required under FIELD OF APPLICATION?",
+      "answer_en": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
+      "question_thanglish": "Indha FIELD OF APPLICATION section-la, What documents are required under FIELD OF application?",
+      "answer_thanglish": "Indha FIELD OF APPLICATION section-la, FIELD OF application\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade."
+    },
+    {
+      "question_en": "Which authority handles FIELD OF APPLICATION?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha FIELD OF APPLICATION section-la, Which authority handles FIELD OF application?",
+      "answer_thanglish": "Indha FIELD OF APPLICATION section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with FIELD OF APPLICATION?",
+      "answer_en": "AI answers: DEKAI should evaluate section 3, apply the extracted rules, and guide the user through Evaluate condition: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade..",
+      "question_thanglish": "Indha FIELD OF APPLICATION section-la, User asks: How do I comply with FIELD OF application?",
+      "answer_thanglish": "Indha FIELD OF APPLICATION section-la, AI answers: DEKAI should evaluate section 3, apply the extracted rules, and guide the user through Evaluate condition: FIELD OF application\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to FIELD OF APPLICATION?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha FIELD OF APPLICATION section-la, User asks: Which validations apply to FIELD OF application?",
+      "answer_thanglish": "Indha FIELD OF APPLICATION section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter , section 3, title, and page references as immutable knowledge metadata.",
+    "Bind validations for FIELD OF APPLICATION into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha FIELD OF APPLICATION section-la, Capture chapter , section 3, title, and page references as immutable knowledge metadata.",
+    "Indha FIELD OF APPLICATION section-la, Bind validations for FIELD OF application into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha FIELD OF APPLICATION section-la, Expose document upload controls for: FIELD OF application\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.."
+  ],
+  "keywords": [
+    "The",
+    "are",
+    "for",
+    "use",
+    "may",
+    "and",
+    "not",
+    "this",
+    "both",
+    "type",
+    "FIELD",
+    "trade",
+    "based",
+    "message",
+    "between",
+    "trading",
+    "applied",
+    "provided",
+    "document",
+    "intended"
+  ],
+  "search_keywords": [
+    "The",
+    "are",
+    "for",
+    "use",
+    "may",
+    "and",
+    "not",
+    "this",
+    "both",
+    "type",
+    "FIELD",
+    "trade",
+    "based",
+    "message",
+    "between",
+    "trading",
+    "applied",
+    "provided",
+    "document",
+    "intended"
+  ],
+  "intent": "Provide knowledge guidance for FIELD OF APPLICATION.",
+  "tags": [
+    "3",
+    "FIELD OF APPLICATION",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    3
+  ],
+  "pages": [
+    3
+  ],
+  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+  "raw_text": "3. FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade. This message may be applied for both national and international trade. It is\nbased on universal practice and is not dependent on the type of business or industry.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.\"]",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.;\nstop\n@enduml"
+}

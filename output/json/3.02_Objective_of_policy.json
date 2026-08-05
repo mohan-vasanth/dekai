@@ -35,7 +35,10 @@
   ],
   "validations": [],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "2",
+    "3"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -239,12 +242,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 3, section 3.02, title, and page references as immutable knowledge metadata.",
     "Bind validations for Objective of policy into a rule engine keyed by the rule IDs extracted for this section.",
-    "Route escalations or approvals to: Central Government."
+    "Route escalations or approvals to: Central Government.",
+    "Show contextual links to related sections: 2, 3."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Objective of policy section-la, Capture chapter 3, section 3.02, title, and page references as immutable knowledge metadata.",
     "Indha Objective of policy section-la, Bind validations for Objective of policy into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Objective of policy section-la, Route escalations or approvals to: Central Government."
+    "Indha Objective of policy section-la, Route escalations or approvals to: Central Government.",
+    "Indha Objective of policy section-la, Show contextual links to related sections: 2, 3."
   ],
   "keywords": [
     "the",
@@ -296,7 +301,10 @@
     "Objective of policy",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "2",
+    "3"
+  ],
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [

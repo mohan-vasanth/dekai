@@ -9080,8 +9080,586 @@ pg. 30
 mines, shells, cartridges, radioactive contaminated, or any other
 explosive material in any form either used or otherwise.
 (iv) Import of scrap would take place only through following designated
-ports and no exceptions would be allowed even in case of EOUs, SEZs: -
-1. Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -', '[20, 21, 22]', '["and", "any", "the", "not", "saw", "may", "for", "are", "all", "ITC", "ANF", "Tin", "per", "was", "iii", "form", "will", "that", "type", "arms"]', 'Support Import of Metallic Waste and Scrap processing and compliance validation.', '["2.51", "Import of Metallic Waste and Scrap", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R001', '2.51', '2.51 Import of Metallic Waste and Scrap
+Import of any form of metallic waste, scrap will be subject to the condition that it will
+not contain hazardous, toxic waste, radioactive contaminated waste / scrap containing
+radioactive material, any type of arms, ammunition, mines, shells, live or used
+cartridge or any other explosive material in any form either used or otherwise.', 'business_rule', 'Import of Metallic Waste and Scrap', '2.51 Import of Metallic Waste and Scrap
+Import of any form of metallic waste, scrap will be subject to the condition that it will
+not contain hazardous, toxic waste, radioactive contaminated waste / scrap containing
+radioactive material, any type of arms, ammunition, mines, shells, live or used
+cartridge or any other explosive material in any form either used or otherwise.', 'No permission for transfer will be required in case the imported goods are re-
+exported.', '81042010 Magnesium scrap
+(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i) At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.', 'However, re-export shall be subject to all conditionality, or
+requirement of licence, or permission, as may be required under Schedule II of
+ITC (HS).', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R002', '2.51', '(a) Import of following types of metallic waste and scrap will be free subject to
+conditions detailed below:
+Sl.', 'business_rule', 'Import of Metallic Waste and Scrap', '(a) Import of following types of metallic waste and scrap will be free subject to
+conditions detailed below:
+Sl.', 'However, re-export shall be subject to all conditionality, or
+requirement of licence, or permission, as may be required under Schedule II of
+ITC (HS).', 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii) Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.', '(iv) Import of scrap would take place only through following designated
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R003', '2.51', 'However, re-export shall be subject to all conditionality, or
+requirement of licence, or permission, as may be required under Schedule II of
+ITC (HS).', 'business_rule', 'Import of Metallic Waste and Scrap', '| 79020010 | Zinc scrap
+(d)
+Such imported goods may be transferred after 2 years with permission of DGFT.', '81042010 Magnesium scrap
+(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i) At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.', '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i) At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.', '(iv) Import of scrap would take place only through following designated
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R004', '2.51', '(a)
+Import of following types of metallic waste and scrap will be free subject to
+conditions detailed below:
+Sl.', 'business_rule', 'Import of Metallic Waste and Scrap', 'No permission for transfer will be required in case the imported goods are re-
+exported.', 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii) Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.', '81042010 Magnesium scrap
+(b)
+‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i)
+At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.', '(iv) Import of scrap would take place only through following designated
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R005', '2.51', '81042010 Magnesium scrap
+(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i) At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.', 'business_rule', 'Import of Metallic Waste and Scrap', 'However, re-export shall be subject to all conditionality, or
+requirement of licence, or permission, as may be required under Schedule II of
+ITC (HS).', '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i) At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.', 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii)
+Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.', '(iv) Import of scrap would take place only through following designated
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R006', '2.51', 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii) Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.', 'business_rule', 'Import of Metallic Waste and Scrap', '(a)
+Import of following types of metallic waste and scrap will be free subject to
+conditions detailed below:
+Sl.', 'The certificate
+shall give the value of background radiation level at that place as also the
+maximum radiation level on the scrap.', '(d)
+Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i)
+At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.', '(iv) Import of scrap would take place only through following designated
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R007', '2.51', '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i) At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.', 'business_rule', 'Import of Metallic Waste and Scrap', '81042010 Magnesium scrap
+(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i) At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.', '(ii) The imported item (s) is actually a metallic waste/ scrap /seconds
+/defective as per the internationally accepted parameters for such a
+classification.', '(d)
+Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i)
+At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.', '(iv) Import of scrap would take place only through following designated
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R008', '2.51', 'The certificate
+shall give the value of background radiation level at that place as also the
+maximum radiation level on the scrap.', 'business_rule', 'Import of Metallic Waste and Scrap', 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii) Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.', '81042010 Magnesium scrap
+(b)
+‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i)
+At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.', '(d)
+Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i)
+At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.', '(iv) Import of scrap would take place only through following designated
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R009', '2.51', '81042010 Magnesium scrap
+(b)
+‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i)
+At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.', 'business_rule', 'Import of Metallic Waste and Scrap', '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i) At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.', 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii)
+Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.', '(d)
+Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i)
+At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.', '(iv) Import of scrap would take place only through following designated
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R010', '2.51', 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii)
+Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.', 'business_rule', 'Import of Metallic Waste and Scrap', 'The certificate
+shall give the value of background radiation level at that place as also the
+maximum radiation level on the scrap.', '(d)
+Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i)
+At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.', '(d)
+Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i)
+At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.', '(iv) Import of scrap would take place only through following designated
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R011', '2.51', '(d)
+Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i)
+At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.', 'business_rule', 'Import of Metallic Waste and Scrap', '(ii) The imported item (s) is actually a metallic waste/ scrap /seconds
+/defective as per the internationally accepted parameters for such a
+classification.', '(ii)
+The imported item (s) is actually a metallic waste/ scrap /seconds
+/defective as per the internationally accepted parameters for such a
+classification.', '(d)
+Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i)
+At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.', '(iv) Import of scrap would take place only through following designated
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '2.51 Import of Metallic Waste and Scrap
+Import of any form of metallic waste, scrap will be subject to the condition that it will
+not contain hazardous, toxic waste, radioactive contaminated waste / scrap containing
+radioactive material, any type of arms, ammunition, mines, shells, live or used
+cartridge or any other explosive material in any form either used or otherwise.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(a) Import of following types of metallic waste and scrap will be free subject to
+conditions detailed below:
+Sl.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '| 79020010 | Zinc scrap
+(d)
+Such imported goods may be transferred after 2 years with permission of DGFT.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'No permission for transfer will be required in case the imported goods are re-
+exported.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'However, re-export shall be subject to all conditionality, or
+requirement of licence, or permission, as may be required under Schedule II of
+ITC (HS).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(a)
+Import of following types of metallic waste and scrap will be free subject to
+conditions detailed below:
+Sl.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '81042010 Magnesium scrap
+(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i) At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii) Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i) At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'The certificate
+shall give the value of background radiation level at that place as also the
+maximum radiation level on the scrap.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(ii) The imported item (s) is actually a metallic waste/ scrap /seconds
+/defective as per the internationally accepted parameters for such a
+classification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '81042010 Magnesium scrap
+(b)
+‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i)
+At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii)
+Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(d)
+Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i)
+At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(ii)
+The imported item (s) is actually a metallic waste/ scrap /seconds
+/defective as per the internationally accepted parameters for such a
+classification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(iv) Import of scrap would take place only through following designated
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -');
+INSERT INTO documents (section_code, document_name) VALUES ('2.51', 'However, re-export shall be subject to all conditionality, or
+requirement of licence, or permission, as may be required under Schedule II of
+ITC (HS).');
+INSERT INTO documents (section_code, document_name) VALUES ('2.51', '(e)
+An application for grant of an Authorisation under paragraphs 2.49 (a) and 2.49
+(b) may be made in ANF 2M to DGFT Hqrs through Director of Tourism,
+Government of India.');
+INSERT INTO documents (section_code, document_name) VALUES ('2.51', '81042010 Magnesium scrap
+(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i) At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.');
+INSERT INTO documents (section_code, document_name) VALUES ('2.51', 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii) Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.');
+INSERT INTO documents (section_code, document_name) VALUES ('2.51', '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i) At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.');
+INSERT INTO documents (section_code, document_name) VALUES ('2.51', 'The certificate
+shall give the value of background radiation level at that place as also the
+maximum radiation level on the scrap.');
+INSERT INTO documents (section_code, document_name) VALUES ('2.51', '(iii) Copy of the contract between the importer and the exporter stipulating
+that the consignment does not contain any type of arms, ammunition,
+pg.');
+INSERT INTO documents (section_code, document_name) VALUES ('2.51', '81042010 Magnesium scrap
+(b)
+‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i)
+At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.');
+INSERT INTO documents (section_code, document_name) VALUES ('2.51', 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii)
+Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.');
+INSERT INTO documents (section_code, document_name) VALUES ('2.51', '(d)
+Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i)
+At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.');
+INSERT INTO documents (section_code, document_name) VALUES ('2.51', '(iii)
+Copy of the contract between the importer and the exporter stipulating
+that the consignment does not contain any type of arms, ammunition,
+pg.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('2.51', 'DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('2.51', 'Customs');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('2.51', '| 79020010 | Zinc scrap
+(d)
+Such imported goods may be transferred after 2 years with permission of DGFT.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('2.51', 'However, re-export shall be subject to all conditionality, or
+requirement of licence, or permission, as may be required under Schedule II of
+ITC (HS).');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('2.51', '(iv) Import of scrap would take place only through following designated
+ports and no exceptions would be allowed even in case of EOUs, SEZs: -');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 1, 'Evaluate condition: 2.51 Import of Metallic Waste and Scrap
+Import of any form of metallic waste, scrap will be subject to the condition that it will
+not contain hazardous, toxic waste, radioactive contaminated waste / scrap containing
+radioactive material, any type of arms, ammunition, mines, shells, live or used
+cartridge or any other explosive material in any form either used or otherwise.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 2, 'Evaluate condition: (a) Import of following types of metallic waste and scrap will be free subject to
+conditions detailed below:
+Sl.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 3, 'Evaluate condition: | 79020010 | Zinc scrap
+(d)
+Such imported goods may be transferred after 2 years with permission of DGFT.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 4, '81042010 Magnesium scrap
+(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i) At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 5, 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii) Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 6, '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i) At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 7, '81042010 Magnesium scrap
+(b)
+‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i)
+At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 8, 'The certificate shall give the value of background radiation
+level at that place as also the maximum radiation level on the scrap; and
+(ii)
+Importer shall also furnish copy of the contract with the exporter
+stipulating that the consignment does not contain any radioactive
+contaminated material in any form.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 9, '(d)
+Import of un-shredded compressed and loose form of metallic waste, scrap listed
+in paragraph 2.51(a) above in shall be subject to the following conditions:
+-
+(i)
+At the time of the clearance of goods, importer shall furnish to the
+Customs pre-shipment inspection certificate as per the format in
+Appendix 2H from any of the Inspection& Certification agencies given in
+Appendix-2G to the effect that the consignment does not contain any type
+of arms, ammunition, mines, shells, cartridges, or any other explosive
+material in any form either used or otherwise, and that the consignment
+was checked for radiation level and it does not contain radiation level
+(gamma and neutron) in excess of natural background.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 10, 'Run validation: No permission for transfer will be required in case the imported goods are re-
+exported.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 11, 'Run validation: However, re-export shall be subject to all conditionality, or
+requirement of licence, or permission, as may be required under Schedule II of
+ITC (HS).');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 12, 'Run validation: 81042010 Magnesium scrap
+(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
+be permitted through all ports of India subject to following conditions:
+(i) At the time of the clearance of goods, importer shall furnish to the Customs
+pre-shipment inspection certificate as per the format to Appendix 2H from
+any of the Inspection & Certification agencies given in Appendix-2G, to the
+effect that the consignment was checked for radiation level and scrap does
+not contain radiation level (gamma and neutron) in excess of natural
+background.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 13, 'Handle exception: However, re-export shall be subject to all conditionality, or
+requirement of licence, or permission, as may be required under Schedule II of
+ITC (HS).');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'saw');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'all');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'ITC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'ANF');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'Tin');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'per');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'was');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'iii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'form');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'that');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'type');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'arms');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'tags', '2.51');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'tags', 'Import of Metallic Waste and Scrap');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP Chapter 2.pdf', '2', 'General Provisions Regarding Imports and Exports', '1', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.', 'Defines the operational requirements for Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7..', 'Indha Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7. section-la, Defines the operational requirements for Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7..', '1. Chennai, 2. Cochin, 3.', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7. governs how DGFT business controls should be applied, validated, and enforced.', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7. explains the operating rule set that DEKAI should enforce. Key control points include (v) Only entry sea ports will be designated and notified for import of un-
+shredded Metallic Waste and Scrap subject to the following:
+(i) Any sea port to be designated for import of un–shredded metallic
+scrap will be required to install Radiation Portal Monitors and
+Container Scanner with adequate security.', 'Indha Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7. section-la, Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7. explains the operating rule set that DEKAI should enforce. Key control points include (v) Only entry sea ports will be designated and notified for import of un-
+shredded Metallic Waste and Scrap subject to the following:
+(i) Any sea port to be designated for import of un–shredded metallic
+scrap will be required to install Radiation Portal Monitors and
+Container Scanner with adequate security.', '1. Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.
 Mumbai, 8. New Mangalore, 9. Paradip, 10. Tuticorin, 11.
 Vishakhapatnam, 12. Pipava 13. Mundra, 14. Kolkata 15. Krishnapatnam
 and 16. Kattupalli 17. Hazira and 18. Kamarajar.
@@ -9185,652 +9763,155 @@ and explosive checks through portal monitors and container
 scanner at these ports. Trans-shipments through these countries /
 regions will not be allowed this facility. Import through remaining
 eight (8) other ports (for both shredded and unshredded scrap /
-waste), irrespective of country of origin, will be subject to PSIC.', '[20, 21, 22, 23]', '["and", "any", "the", "not", "saw", "may", "for", "are", "all", "ITC", "ANF", "Tin", "per", "was", "iii", "New", "sea", "ICD", "can", "USA"]', 'Support Import of Metallic Waste and Scrap processing and compliance validation.', '["2.51", "Import of Metallic Waste and Scrap", "business-rule", "document-driven", "dgft"]');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R001', '2.51', '2.51 Import of Metallic Waste and Scrap
-Import of any form of metallic waste, scrap will be subject to the condition that it will
-not contain hazardous, toxic waste, radioactive contaminated waste / scrap containing
-radioactive material, any type of arms, ammunition, mines, shells, live or used
-cartridge or any other explosive material in any form either used or otherwise.', 'business_rule', 'Import of Metallic Waste and Scrap', '2.51 Import of Metallic Waste and Scrap
-Import of any form of metallic waste, scrap will be subject to the condition that it will
-not contain hazardous, toxic waste, radioactive contaminated waste / scrap containing
-radioactive material, any type of arms, ammunition, mines, shells, live or used
-cartridge or any other explosive material in any form either used or otherwise.', 'No permission for transfer will be required in case the imported goods are re-
-exported.', '81042010 Magnesium scrap
-(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i) At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.', 'However, re-export shall be subject to all conditionality, or
-requirement of licence, or permission, as may be required under Schedule II of
-ITC (HS).', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R002', '2.51', '(a) Import of following types of metallic waste and scrap will be free subject to
-conditions detailed below:
-Sl.', 'business_rule', 'Import of Metallic Waste and Scrap', '(a) Import of following types of metallic waste and scrap will be free subject to
-conditions detailed below:
-Sl.', 'However, re-export shall be subject to all conditionality, or
-requirement of licence, or permission, as may be required under Schedule II of
-ITC (HS).', 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii) Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.', '(iv) Import of scrap would take place only through following designated
-ports and no exceptions would be allowed even in case of EOUs, SEZs: -
-1.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R003', '2.51', 'However, re-export shall be subject to all conditionality, or
-requirement of licence, or permission, as may be required under Schedule II of
-ITC (HS).', 'business_rule', 'Import of Metallic Waste and Scrap', '| 79020010 | Zinc scrap
-(d)
-Such imported goods may be transferred after 2 years with permission of DGFT.', '81042010 Magnesium scrap
-(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i) At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.', '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i) At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'However, metallic waste and scrap (both shredded and
-pg.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R004', '2.51', '(a)
-Import of following types of metallic waste and scrap will be free subject to
-conditions detailed below:
-Sl.', 'business_rule', 'Import of Metallic Waste and Scrap', 'No permission for transfer will be required in case the imported goods are re-
-exported.', 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii) Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.', '81042010 Magnesium scrap
-(b)
-‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i)
-At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.', '(iv)
+waste), irrespective of country of origin, will be subject to PSIC.', '[22, 23]', '["New", "and", "sea", "for", "the", "Any", "may", "are", "iii", "ICD", "can", "per", "USA", "not", "six", "JNPT", "Only", "will", "port", "with"]', 'Provide knowledge guidance for Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7..', '["1", "Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC1-R001', '1', '(v) Only entry sea ports will be designated and notified for import of un-
+shredded Metallic Waste and Scrap subject to the following:
+(i) Any sea port to be designated for import of un–shredded metallic
+scrap will be required to install Radiation Portal Monitors and
+Container Scanner with adequate security.', 'business_rule', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.', '(v) Only entry sea ports will be designated and notified for import of un-
+shredded Metallic Waste and Scrap subject to the following:
+(i) Any sea port to be designated for import of un–shredded metallic
+scrap will be required to install Radiation Portal Monitors and
+Container Scanner with adequate security.', '(v) Only entry sea ports will be designated and notified for import of un-
+shredded Metallic Waste and Scrap subject to the following:
+(i) Any sea port to be designated for import of un–shredded metallic
+scrap will be required to install Radiation Portal Monitors and
+Container Scanner with adequate security.', 'Manual review required.', 'However, metallic waste and scrap (both shredded and
+pg.', 'DEKAI should produce a compliance decision for 1 - Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7..');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC1-R002', '1', 'The sea port having
+completed the above shall approach jurisdictional Customs for
+inspection and certification.', 'business_rule', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.', 'The sea port having
+completed the above shall approach jurisdictional Customs for
+inspection and certification.', 'The sea port having
+completed the above shall approach jurisdictional Customs for
+inspection and certification.', 'Manual review required.', '(iv)
 Import of scrap would take place only through following designated
 ports and no exceptions would be allowed even in case of EOUs, SEZs: -
-1.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R005', '2.51', '81042010 Magnesium scrap
-(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i) At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.', 'business_rule', 'Import of Metallic Waste and Scrap', 'However, re-export shall be subject to all conditionality, or
-requirement of licence, or permission, as may be required under Schedule II of
-ITC (HS).', '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i) At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii)
-Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R006', '2.51', 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii) Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.', 'business_rule', 'Import of Metallic Waste and Scrap', '(a)
-Import of following types of metallic waste and scrap will be free subject to
-conditions detailed below:
-Sl.', 'The certificate
-shall give the value of background radiation level at that place as also the
-maximum radiation level on the scrap.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R007', '2.51', '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i) At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'business_rule', 'Import of Metallic Waste and Scrap', '81042010 Magnesium scrap
-(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i) At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.', '(ii) The imported item (s) is actually a metallic waste/ scrap /seconds
-/defective as per the internationally accepted parameters for such a
-classification.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R008', '2.51', 'The certificate
-shall give the value of background radiation level at that place as also the
-maximum radiation level on the scrap.', 'business_rule', 'Import of Metallic Waste and Scrap', 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii) Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.', '81042010 Magnesium scrap
-(b)
-‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i)
-At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R009', '2.51', '81042010 Magnesium scrap
-(b)
-‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i)
-At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.', 'business_rule', 'Import of Metallic Waste and Scrap', '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i) At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii)
-Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R010', '2.51', 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii)
-Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.', 'business_rule', 'Import of Metallic Waste and Scrap', 'The certificate
-shall give the value of background radiation level at that place as also the
-maximum radiation level on the scrap.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R011', '2.51', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'business_rule', 'Import of Metallic Waste and Scrap', '(ii) The imported item (s) is actually a metallic waste/ scrap /seconds
-/defective as per the internationally accepted parameters for such a
-classification.', '(ii)
-The imported item (s) is actually a metallic waste/ scrap /seconds
-/defective as per the internationally accepted parameters for such a
-classification.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R012', '2.51', '(v) Only entry sea ports will be designated and notified for import of un-
-shredded Metallic Waste and Scrap subject to the following:
-(i) Any sea port to be designated for import of un–shredded metallic
-scrap will be required to install Radiation Portal Monitors and
-Container Scanner with adequate security.', 'business_rule', 'Import of Metallic Waste and Scrap', '81042010 Magnesium scrap
-(b)
-‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i)
-At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.', '(v) Only entry sea ports will be designated and notified for import of un-
-shredded Metallic Waste and Scrap subject to the following:
-(i) Any sea port to be designated for import of un–shredded metallic
-scrap will be required to install Radiation Portal Monitors and
-Container Scanner with adequate security.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R013', '2.51', 'The sea port having
-completed the above shall approach jurisdictional Customs for
-inspection and certification.', 'business_rule', 'Import of Metallic Waste and Scrap', 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii)
-Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.', 'The sea port having
-completed the above shall approach jurisdictional Customs for
-inspection and certification.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R014', '2.51', '(ii) The existing designated sea ports namely Chennai, Cochin, Ennore,
+1.', 'DEKAI should produce a compliance decision for 1 - Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7..');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC1-R003', '1', '(ii) The existing designated sea ports namely Chennai, Cochin, Ennore,
 JNPT, Kandla, Mormugao, Mumbai, New Mangalore, Paradeep,
 Tuticorin, Vishakhapatnam, Pipava, Mundra and Kolkata will be
 allowed to import un-shredded scrap till 30.09.2021 by which time
 they are required to install and operationalize Radiation Portal
-Monitors and Container Scanner.', 'business_rule', 'Import of Metallic Waste and Scrap', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', '(ii) The existing designated sea ports namely Chennai, Cochin, Ennore,
+Monitors and Container Scanner.', 'business_rule', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.', 'Customs may give necessary clearance
+on receipt of certification from AERB.', '(ii) The existing designated sea ports namely Chennai, Cochin, Ennore,
 JNPT, Kandla, Mormugao, Mumbai, New Mangalore, Paradeep,
 Tuticorin, Vishakhapatnam, Pipava, Mundra and Kolkata will be
 allowed to import un-shredded scrap till 30.09.2021 by which time
 they are required to install and operationalize Radiation Portal
-Monitors and Container Scanner.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
+Monitors and Container Scanner.', 'Manual review required.', 'These will however be subject to radiation
 and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R015', '2.51', '(iv) Import consignments of metallic waste and scrap shall be subject to
+scanner at these ports.', 'DEKAI should produce a compliance decision for 1 - Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7..');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC1-R004', '1', '(iv) Import consignments of metallic waste and scrap shall be subject to
 pre-shipment inspection certificate (PSIC) from the country of
-origin.', 'business_rule', 'Import of Metallic Waste and Scrap', '(ii)
-The imported item (s) is actually a metallic waste/ scrap /seconds
-/defective as per the internationally accepted parameters for such a
-classification.', '(iv) Import consignments of metallic waste and scrap shall be subject to
-pre-shipment inspection certificate (PSIC) from the country of
-origin.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R016', '2.51', '(v) Only entry sea ports will be designated and notified for import of un-
-shredded Metallic Waste and Scrap subject to the following:
-(i)
-Any sea port to be designated for import of un–shredded metallic
-scrap will be required to install Radiation Portal Monitors and
-Container Scanner with adequate security.', 'business_rule', 'Import of Metallic Waste and Scrap', '(iv) Import of scrap would take place only through following designated
-ports and no exceptions would be allowed even in case of EOUs, SEZs: -
-1.', '(v) Only entry sea ports will be designated and notified for import of un-
-shredded Metallic Waste and Scrap subject to the following:
-(i)
-Any sea port to be designated for import of un–shredded metallic
-scrap will be required to install Radiation Portal Monitors and
-Container Scanner with adequate security.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R017', '2.51', '(ii)
-The existing designated sea ports namely Chennai, Cochin, Ennore,
-JNPT, Kandla, Mormugao, Mumbai, New Mangalore, Paradeep,
-Tuticorin, Vishakhapatnam, Pipava, Mundra and Kolkata will be
-allowed to import un-shredded scrap till 30.09.2021 by which time
-they are required to install and operationalize Radiation Portal
-Monitors and Container Scanner.', 'business_rule', 'Import of Metallic Waste and Scrap', '(v) Only entry sea ports will be designated and notified for import of un-
-shredded Metallic Waste and Scrap subject to the following:
-(i) Any sea port to be designated for import of un–shredded metallic
-scrap will be required to install Radiation Portal Monitors and
-Container Scanner with adequate security.', '(ii)
-The existing designated sea ports namely Chennai, Cochin, Ennore,
-JNPT, Kandla, Mormugao, Mumbai, New Mangalore, Paradeep,
-Tuticorin, Vishakhapatnam, Pipava, Mundra and Kolkata will be
-allowed to import un-shredded scrap till 30.09.2021 by which time
-they are required to install and operationalize Radiation Portal
-Monitors and Container Scanner.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R018', '2.51', '(iv)
-Import consignments of metallic waste and scrap shall be subject to
-pre-shipment inspection certificate (PSIC) from the country of
-origin.', 'business_rule', 'Import of Metallic Waste and Scrap', 'The sea port having
-completed the above shall approach jurisdictional Customs for
-inspection and certification.', '(iv)
-Import consignments of metallic waste and scrap shall be subject to
-pre-shipment inspection certificate (PSIC) from the country of
-origin.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R019', '2.51', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'business_rule', 'Import of Metallic Waste and Scrap', 'Customs may give necessary clearance
-on receipt of certification from AERB.', '(iv)
-Import consignments of metallic waste and scrap shall be subject to
-pre-shipment inspection certificate (PSIC) from the country of
-origin.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC2_51-R020', '2.51', 'Import through remaining
-eight (8) other ports (for both shredded and unshredded scrap /
-waste), irrespective of country of origin, will be subject to PSIC.', 'business_rule', 'Import of Metallic Waste and Scrap', 'On getting clearance from
+origin.', 'business_rule', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.', 'On getting clearance from
 Customs, DGFT will notify such a port as designated port for import
-of un–shredded scrap.', '(iv)
+of un–shredded scrap.', '(iv) Import consignments of metallic waste and scrap shall be subject to
+pre-shipment inspection certificate (PSIC) from the country of
+origin.', 'Manual review required.', 'These will however be subject to radiation
+and explosive checks through portal monitors and container
+scanner at these ports.', 'DEKAI should produce a compliance decision for 1 - Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7..');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC1-R005', '1', '(v) Only entry sea ports will be designated and notified for import of un-
+shredded Metallic Waste and Scrap subject to the following:
+(i)
+Any sea port to be designated for import of un–shredded metallic
+scrap will be required to install Radiation Portal Monitors and
+Container Scanner with adequate security.', 'business_rule', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.', '01.10.2021
+(iii) Further, any ICD can handle clearance of un–shredded metallic
+scrap provided the same passes through any of the designated sea
+ports as mentioned above or any new ports to be
+notified/designated from time to time, where Radiation Portal
+Monitors and Container Scanner are in operation and the
+consignment is subjected to risk-based scanning/ monitoring as per
+the protocol laid down by Customs.', '(v) Only entry sea ports will be designated and notified for import of un-
+shredded Metallic Waste and Scrap subject to the following:
+(i)
+Any sea port to be designated for import of un–shredded metallic
+scrap will be required to install Radiation Portal Monitors and
+Container Scanner with adequate security.', 'Manual review required.', 'These will however be subject to radiation
+and explosive checks through portal monitors and container
+scanner at these ports.', 'DEKAI should produce a compliance decision for 1 - Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7..');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC1-R006', '1', '(ii)
+The existing designated sea ports namely Chennai, Cochin, Ennore,
+JNPT, Kandla, Mormugao, Mumbai, New Mangalore, Paradeep,
+Tuticorin, Vishakhapatnam, Pipava, Mundra and Kolkata will be
+allowed to import un-shredded scrap till 30.09.2021 by which time
+they are required to install and operationalize Radiation Portal
+Monitors and Container Scanner.', 'business_rule', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.', '(iv) Import consignments of metallic waste and scrap shall be subject to
+pre-shipment inspection certificate (PSIC) from the country of
+origin.', '(ii)
+The existing designated sea ports namely Chennai, Cochin, Ennore,
+JNPT, Kandla, Mormugao, Mumbai, New Mangalore, Paradeep,
+Tuticorin, Vishakhapatnam, Pipava, Mundra and Kolkata will be
+allowed to import un-shredded scrap till 30.09.2021 by which time
+they are required to install and operationalize Radiation Portal
+Monitors and Container Scanner.', 'Manual review required.', 'These will however be subject to radiation
+and explosive checks through portal monitors and container
+scanner at these ports.', 'DEKAI should produce a compliance decision for 1 - Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7..');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC1-R007', '1', '(iv)
 Import consignments of metallic waste and scrap shall be subject to
 pre-shipment inspection certificate (PSIC) from the country of
-origin.', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.', 'These will however be subject to radiation
-and explosive checks through portal monitors and container
-scanner at these ports.', 'DEKAI should produce a compliance decision for 2.51 - Import of Metallic Waste and Scrap.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '2.51 Import of Metallic Waste and Scrap
-Import of any form of metallic waste, scrap will be subject to the condition that it will
-not contain hazardous, toxic waste, radioactive contaminated waste / scrap containing
-radioactive material, any type of arms, ammunition, mines, shells, live or used
-cartridge or any other explosive material in any form either used or otherwise.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(a) Import of following types of metallic waste and scrap will be free subject to
-conditions detailed below:
-Sl.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '| 79020010 | Zinc scrap
-(d)
-Such imported goods may be transferred after 2 years with permission of DGFT.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'No permission for transfer will be required in case the imported goods are re-
-exported.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'However, re-export shall be subject to all conditionality, or
-requirement of licence, or permission, as may be required under Schedule II of
-ITC (HS).');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(a)
-Import of following types of metallic waste and scrap will be free subject to
-conditions detailed below:
-Sl.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '81042010 Magnesium scrap
-(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i) At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii) Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i) At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'The certificate
-shall give the value of background radiation level at that place as also the
-maximum radiation level on the scrap.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(ii) The imported item (s) is actually a metallic waste/ scrap /seconds
-/defective as per the internationally accepted parameters for such a
-classification.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '81042010 Magnesium scrap
-(b)
-‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i)
-At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii)
-Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(ii)
-The imported item (s) is actually a metallic waste/ scrap /seconds
-/defective as per the internationally accepted parameters for such a
-classification.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(iv) Import of scrap would take place only through following designated
+origin.', 'business_rule', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.', '(iv)
+Import of scrap would take place only through following designated
 ports and no exceptions would be allowed even in case of EOUs, SEZs: -
-1.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(v) Only entry sea ports will be designated and notified for import of un-
+1.', '(iv)
+Import consignments of metallic waste and scrap shall be subject to
+pre-shipment inspection certificate (PSIC) from the country of
+origin.', 'Manual review required.', 'These will however be subject to radiation
+and explosive checks through portal monitors and container
+scanner at these ports.', 'DEKAI should produce a compliance decision for 1 - Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7..');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC1-R008', '1', 'These will however be subject to radiation
+and explosive checks through portal monitors and container
+scanner at these ports.', 'business_rule', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.', '(v) Only entry sea ports will be designated and notified for import of un-
+shredded Metallic Waste and Scrap subject to the following:
+(i)
+Any sea port to be designated for import of un–shredded metallic
+scrap will be required to install Radiation Portal Monitors and
+Container Scanner with adequate security.', '(iv)
+Import consignments of metallic waste and scrap shall be subject to
+pre-shipment inspection certificate (PSIC) from the country of
+origin.', 'Manual review required.', 'These will however be subject to radiation
+and explosive checks through portal monitors and container
+scanner at these ports.', 'DEKAI should produce a compliance decision for 1 - Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7..');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH2-SEC1-R009', '1', 'Import through remaining
+eight (8) other ports (for both shredded and unshredded scrap /
+waste), irrespective of country of origin, will be subject to PSIC.', 'business_rule', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.', '01.10.2021
+(iii)
+Further, any ICD can handle clearance of un–shredded metallic
+scrap provided the same passes through any of the designated sea
+ports
+as
+mentioned
+above
+or
+any
+new
+ports
+to
+be
+notified/designated from time to time, where Radiation Portal
+Monitors and Container Scanner are in operation and the
+consignment is subjected to risk-based scanning/ monitoring as per
+the protocol laid down by Customs.', '(iv)
+Import consignments of metallic waste and scrap shall be subject to
+pre-shipment inspection certificate (PSIC) from the country of
+origin.', 'Manual review required.', 'These will however be subject to radiation
+and explosive checks through portal monitors and container
+scanner at these ports.', 'DEKAI should produce a compliance decision for 1 - Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7..');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', '(v) Only entry sea ports will be designated and notified for import of un-
 shredded Metallic Waste and Scrap subject to the following:
 (i) Any sea port to be designated for import of un–shredded metallic
 scrap will be required to install Radiation Portal Monitors and
 Container Scanner with adequate security.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'The sea port having
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'The sea port having
 completed the above shall approach jurisdictional Customs for
 inspection and certification.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'Customs may give necessary clearance
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Customs may give necessary clearance
 on receipt of certification from AERB.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'On getting clearance from
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'On getting clearance from
 Customs, DGFT will notify such a port as designated port for import
 of un–shredded scrap.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '01.10.2021
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', '01.10.2021
 (iii) Further, any ICD can handle clearance of un–shredded metallic
 scrap provided the same passes through any of the designated sea
 ports as mentioned above or any new ports to be
@@ -9838,20 +9919,20 @@ notified/designated from time to time, where Radiation Portal
 Monitors and Container Scanner are in operation and the
 consignment is subjected to risk-based scanning/ monitoring as per
 the protocol laid down by Customs.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(iv) Import consignments of metallic waste and scrap shall be subject to
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', '(iv) Import consignments of metallic waste and scrap shall be subject to
 pre-shipment inspection certificate (PSIC) from the country of
 origin.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(iv)
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', '(iv)
 Import of scrap would take place only through following designated
 ports and no exceptions would be allowed even in case of EOUs, SEZs: -
 1.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(v) Only entry sea ports will be designated and notified for import of un-
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', '(v) Only entry sea ports will be designated and notified for import of un-
 shredded Metallic Waste and Scrap subject to the following:
 (i)
 Any sea port to be designated for import of un–shredded metallic
 scrap will be required to install Radiation Portal Monitors and
 Container Scanner with adequate security.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '01.10.2021
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', '01.10.2021
 (iii)
 Further, any ICD can handle clearance of un–shredded metallic
 scrap provided the same passes through any of the designated sea
@@ -9869,240 +9950,102 @@ notified/designated from time to time, where Radiation Portal
 Monitors and Container Scanner are in operation and the
 consignment is subjected to risk-based scanning/ monitoring as per
 the protocol laid down by Customs.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '(iv)
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', '(iv)
 Import consignments of metallic waste and scrap shall be subject to
 pre-shipment inspection certificate (PSIC) from the country of
 origin.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', '31
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', '31
 unshredded) imported from safe countries / region i.e., the USA, the
 UK, Canada, New Zealand, Australia and the EU will not require
 PSIC if consignments are cleared through eight (8) ports namely,
 Chennai, Tuticorin, Kandla, JNPT, Mumbai Krishnapatnam, Mundra
 and Kattupalli.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'Consignments from these six countries / regions
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Consignments from these six countries / regions
 will be accompanied by certificate from the supplier / scrap yard
 authority to the effect that it does not contain any radioactive
 materials / explosives.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'These will however be subject to radiation
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'These will however be subject to radiation
 and explosive checks through portal monitors and container
 scanner at these ports.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2.51', 'Import through remaining
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Import through remaining
 eight (8) other ports (for both shredded and unshredded scrap /
 waste), irrespective of country of origin, will be subject to PSIC.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', 'However, re-export shall be subject to all conditionality, or
-requirement of licence, or permission, as may be required under Schedule II of
-ITC (HS).');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', '(e)
-An application for grant of an Authorisation under paragraphs 2.49 (a) and 2.49
-(b) may be made in ANF 2M to DGFT Hqrs through Director of Tourism,
-Government of India.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', '81042010 Magnesium scrap
-(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i) At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii) Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i) At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', 'The certificate
-shall give the value of background radiation level at that place as also the
-maximum radiation level on the scrap.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', '(iii) Copy of the contract between the importer and the exporter stipulating
-that the consignment does not contain any type of arms, ammunition,
-pg.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', '81042010 Magnesium scrap
-(b)
-‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i)
-At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii)
-Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', '(iii)
-Copy of the contract between the importer and the exporter stipulating
-that the consignment does not contain any type of arms, ammunition,
-pg.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', '(iv) Import consignments of metallic waste and scrap shall be subject to
+INSERT INTO documents (section_code, document_name) VALUES ('1', '(iv) Import consignments of metallic waste and scrap shall be subject to
 pre-shipment inspection certificate (PSIC) from the country of
 origin.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', '(iv)
+INSERT INTO documents (section_code, document_name) VALUES ('1', '(iv)
 Import consignments of metallic waste and scrap shall be subject to
 pre-shipment inspection certificate (PSIC) from the country of
 origin.');
-INSERT INTO documents (section_code, document_name) VALUES ('2.51', 'Consignments from these six countries / regions
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'Consignments from these six countries / regions
 will be accompanied by certificate from the supplier / scrap yard
 authority to the effect that it does not contain any radioactive
 materials / explosives.');
-INSERT INTO authorities (section_code, authority_name) VALUES ('2.51', 'DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('2.51', 'Customs');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('2.51', '| 79020010 | Zinc scrap
-(d)
-Such imported goods may be transferred after 2 years with permission of DGFT.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('2.51', 'Such sea ports which fail to meet
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'Customs');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'DGFT');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('1', 'Such sea ports which fail to meet
 the deadline will be derecognised for the purpose of import of un-
 shredded metallic scrap w.e.f.');
-INSERT INTO exceptions (section_code, exception_text) VALUES ('2.51', 'However, re-export shall be subject to all conditionality, or
-requirement of licence, or permission, as may be required under Schedule II of
-ITC (HS).');
-INSERT INTO exceptions (section_code, exception_text) VALUES ('2.51', '(iv) Import of scrap would take place only through following designated
-ports and no exceptions would be allowed even in case of EOUs, SEZs: -
-1.');
-INSERT INTO exceptions (section_code, exception_text) VALUES ('2.51', 'However, metallic waste and scrap (both shredded and
+INSERT INTO exceptions (section_code, exception_text) VALUES ('1', 'However, metallic waste and scrap (both shredded and
 pg.');
-INSERT INTO exceptions (section_code, exception_text) VALUES ('2.51', '(iv)
+INSERT INTO exceptions (section_code, exception_text) VALUES ('1', '(iv)
 Import of scrap would take place only through following designated
 ports and no exceptions would be allowed even in case of EOUs, SEZs: -
 1.');
-INSERT INTO exceptions (section_code, exception_text) VALUES ('2.51', 'These will however be subject to radiation
+INSERT INTO exceptions (section_code, exception_text) VALUES ('1', 'These will however be subject to radiation
 and explosive checks through portal monitors and container
 scanner at these ports.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 1, 'Evaluate condition: 2.51 Import of Metallic Waste and Scrap
-Import of any form of metallic waste, scrap will be subject to the condition that it will
-not contain hazardous, toxic waste, radioactive contaminated waste / scrap containing
-radioactive material, any type of arms, ammunition, mines, shells, live or used
-cartridge or any other explosive material in any form either used or otherwise.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 2, 'Evaluate condition: (a) Import of following types of metallic waste and scrap will be free subject to
-conditions detailed below:
-Sl.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 3, 'Evaluate condition: | 79020010 | Zinc scrap
-(d)
-Such imported goods may be transferred after 2 years with permission of DGFT.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 4, '81042010 Magnesium scrap
-(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i) At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 5, 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii) Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 6, '(d) Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i) At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 7, '81042010 Magnesium scrap
-(b)
-‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i)
-At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 8, 'The certificate shall give the value of background radiation
-level at that place as also the maximum radiation level on the scrap; and
-(ii)
-Importer shall also furnish copy of the contract with the exporter
-stipulating that the consignment does not contain any radioactive
-contaminated material in any form.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 9, '(d)
-Import of un-shredded compressed and loose form of metallic waste, scrap listed
-in paragraph 2.51(a) above in shall be subject to the following conditions:
--
-(i)
-At the time of the clearance of goods, importer shall furnish to the
-Customs pre-shipment inspection certificate as per the format in
-Appendix 2H from any of the Inspection& Certification agencies given in
-Appendix-2G to the effect that the consignment does not contain any type
-of arms, ammunition, mines, shells, cartridges, or any other explosive
-material in any form either used or otherwise, and that the consignment
-was checked for radiation level and it does not contain radiation level
-(gamma and neutron) in excess of natural background.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 10, 'Run validation: No permission for transfer will be required in case the imported goods are re-
-exported.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 11, 'Run validation: However, re-export shall be subject to all conditionality, or
-requirement of licence, or permission, as may be required under Schedule II of
-ITC (HS).');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 12, 'Run validation: 81042010 Magnesium scrap
-(b) ‘Freely’ Importable metallic waste and scraps (shredded) as listed above shall
-be permitted through all ports of India subject to following conditions:
-(i) At the time of the clearance of goods, importer shall furnish to the Customs
-pre-shipment inspection certificate as per the format to Appendix 2H from
-any of the Inspection & Certification agencies given in Appendix-2G, to the
-effect that the consignment was checked for radiation level and scrap does
-not contain radiation level (gamma and neutron) in excess of natural
-background.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2.51', 13, 'Handle exception: However, re-export shall be subject to all conditionality, or
-requirement of licence, or permission, as may be required under Schedule II of
-ITC (HS).');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'and');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'any');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'the');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'not');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'saw');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'may');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'for');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'are');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'all');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'ITC');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'ANF');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'Tin');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'per');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'was');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'iii');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'New');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'sea');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'ICD');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'can');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'keywords', 'USA');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'tags', '2.51');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'tags', 'Import of Metallic Waste and Scrap');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'tags', 'business-rule');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'tags', 'document-driven');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2.51', 'tags', 'dgft');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 1, 'Evaluate condition: (v) Only entry sea ports will be designated and notified for import of un-
+shredded Metallic Waste and Scrap subject to the following:
+(i) Any sea port to be designated for import of un–shredded metallic
+scrap will be required to install Radiation Portal Monitors and
+Container Scanner with adequate security.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 2, 'Evaluate condition: The sea port having
+completed the above shall approach jurisdictional Customs for
+inspection and certification.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 3, 'Evaluate condition: Customs may give necessary clearance
+on receipt of certification from AERB.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 4, 'Run validation: (v) Only entry sea ports will be designated and notified for import of un-
+shredded Metallic Waste and Scrap subject to the following:
+(i) Any sea port to be designated for import of un–shredded metallic
+scrap will be required to install Radiation Portal Monitors and
+Container Scanner with adequate security.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 5, 'Run validation: The sea port having
+completed the above shall approach jurisdictional Customs for
+inspection and certification.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 6, 'Run validation: (ii) The existing designated sea ports namely Chennai, Cochin, Ennore,
+JNPT, Kandla, Mormugao, Mumbai, New Mangalore, Paradeep,
+Tuticorin, Vishakhapatnam, Pipava, Mundra and Kolkata will be
+allowed to import un-shredded scrap till 30.09.2021 by which time
+they are required to install and operationalize Radiation Portal
+Monitors and Container Scanner.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 7, 'Handle exception: However, metallic waste and scrap (both shredded and
+pg.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'New');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'sea');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'iii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'ICD');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'can');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'per');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'USA');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'six');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'JNPT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Only');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'port');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
 INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP Chapter 2.pdf', '2', 'General Provisions Regarding Imports and Exports', '2.52', 'Recognition as Pre-shipment Inspection Agency (PSIA) and issuance', '2.52 Recognition as Pre-shipment Inspection Agency (PSIA) and issuance
 of Pre- shipment Certificate (PSIC)
 (a) Applications for recognition in respect of PSIAs have to be made online on
@@ -24766,7 +24709,7 @@ of 3 to 5 in MT) i');
 INSERT INTO glossary (term, definition) VALUES ('IX', 'Referenced in context: 2.33 Warehousing Facility
 (a) Public / Private Customs Bonded Warehouses may be set up in DTA as per
 Chapter-IX of Customs Act, 1962, to imp');
-INSERT INTO glossary (term, definition) VALUES ('JNPT', 'Referenced in context: JNPT, 5.');
+INSERT INTO glossary (term, definition) VALUES ('JNPT', 'Referenced in section title ''Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.''.');
 INSERT INTO glossary (term, definition) VALUES ('LCS', 'Referenced in context: 27
 (b) Import/Export authorisations for a restricted item, if so, directed by the competent
 authority, shall be issued for import/ Export th');

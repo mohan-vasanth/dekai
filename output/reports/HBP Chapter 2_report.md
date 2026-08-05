@@ -3,14 +3,14 @@
 ## Summary
 - source_pdf: HBP Chapter 2.pdf
 - page_count: 52
-- section_count: 99
-- rule_count: 521
+- section_count: 100
+- rule_count: 527
 - condition_count: 397
-- workflow_count: 604
+- workflow_count: 611
 - validation_count: 262
 - exception_count: 90
 - timeline_count: 123
-- authority_count: 201
+- authority_count: 203
 - glossary_count: 199
 
 ## Section Metrics
@@ -68,7 +68,8 @@
 | 2.48 | EXIM Facilitation Committee | 6 | 8 | 5 | 2 | 6 | 9 | 0 |
 | 2.49 | Import of Restricted items required by Hotels, Restaurants, Travel | 9 | 9 | 11 | 3 | 5 | 6 | 2 |
 | 2.50 | Import of Restricted items for R&D by units of Government | 0 | 0 | 1 | 1 | 0 | 2 | 0 |
-| 2.51 | Import of Metallic Waste and Scrap | 20 | 30 | 18 | 5 | 2 | 2 | 14 |
+| 2.51 | Import of Metallic Waste and Scrap | 11 | 16 | 11 | 2 | 1 | 2 | 11 |
+| 1 | Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7. | 9 | 14 | 7 | 3 | 1 | 2 | 3 |
 | 2.52 | Recognition as Pre-shipment Inspection Agency (PSIA) and issuance | 7 | 9 | 8 | 5 | 5 | 3 | 8 |
 | 2.53 | Responsibility and Liability of PSIA and Importer | 7 | 6 | 8 | 0 | 1 | 4 | 9 |
 | 2.54 | Import of other kinds of metallic waste and scraps | 0 | 0 | 0 | 0 | 0 | 0 | 0 |

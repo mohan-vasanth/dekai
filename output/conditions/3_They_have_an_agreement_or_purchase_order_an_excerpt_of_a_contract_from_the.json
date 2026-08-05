@@ -1,0 +1,21 @@
+{
+  "section": "3",
+  "conditions": [
+    "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.",
+    "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;"
+  ],
+  "condition_logic": [
+    {
+      "id": "10.3.1",
+      "if": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.",
+      "then": "for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+      "source": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg."
+    },
+    {
+      "id": "10.3.2",
+      "if": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;",
+      "then": "for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+      "source": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;"
+    }
+  ]
+}

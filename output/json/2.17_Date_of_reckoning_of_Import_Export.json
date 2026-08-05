@@ -34,7 +34,8 @@
   ],
   "dependencies": [
     "11.11",
-    "11.12"
+    "11.12",
+    "1"
   ],
   "documents": [],
   "required_documents": [],
@@ -250,12 +251,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 2, section 2.17, title, and page references as immutable knowledge metadata.",
     "Bind validations for Date of reckoning of Import / Export into a rule engine keyed by the rule IDs extracted for this section.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Date of reckoning of Import / Export section-la, Capture chapter 2, section 2.17, title, and page references as immutable knowledge metadata.",
     "Indha Date of reckoning of Import / Export section-la, Bind validations for Date of reckoning of import / export into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Date of reckoning of Import / Export section-la, Trigger manual review when exception clauses are detected."
+    "Indha Date of reckoning of Import / Export section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Date of reckoning of Import / Export section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "and",
@@ -308,7 +311,9 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [
     "However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export."

@@ -1,0 +1,19 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "3",
+  "title": "They have an agreement or purchase order, an excerpt of a contract",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC3-R001",
+      "rule_description": "3. They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+      "trigger": "They have an agreement or purchase order, an excerpt of a contract",
+      "condition": "They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - They have an agreement or purchase order, an excerpt of a contract."
+    }
+  ],
+  "ai_rules": []
+}

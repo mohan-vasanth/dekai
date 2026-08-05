@@ -1,0 +1,21 @@
+{
+  "section": "1",
+  "conditions": [
+    "They shall notify the relevant government authorities in the online portal of\nDGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat\nForm (ANF) 10I], along with the End-Use Certificate (EUC) for each export.",
+    "In case of any\nadditional sheet used along with the EUC, the same must be on the letterhead of\nthe company and signed by the same person who signs the EUC."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.1.1",
+      "if": "They shall notify the relevant government authorities in the online portal of\nDGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat\nForm (ANF) 10I], along with the End-Use Certificate (EUC) for each export.",
+      "then": "Route for review",
+      "source": "They shall notify the relevant government authorities in the online portal of\nDGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat\nForm (ANF) 10I], along with the End-Use Certificate (EUC) for each export."
+    },
+    {
+      "id": "10.1.2",
+      "if": "In case of any\nadditional sheet used along with the EUC, the same must be on the letterhead of\nthe company and signed by the same person who signs the EUC.",
+      "then": "Route for review",
+      "source": "In case of any\nadditional sheet used along with the EUC, the same must be on the letterhead of\nthe company and signed by the same person who signs the EUC."
+    }
+  ]
+}

@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 from collections import Counter, defaultdict
+from difflib import SequenceMatcher
 from math import log
+import re
 from typing import Any
 
 from .embedding_service import embedding_service
@@ -15,6 +17,10 @@ def _tokenize(value: str) -> list[str]:
 
 def _normalize_filter_value(value: str) -> str:
     return " ".join((value or "").lower().split())
+
+
+def _normalize_match_text(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", str(value or "").lower()).strip()
 
 
 class SearchService:
@@ -102,6 +108,97 @@ class SearchService:
             expanded.update(self.expansions.get(token, {token}))
         return expanded or set(_tokenize(value))
 
+    def _question_phrases(self, value: str) -> list[str]:
+        normalized = _normalize_match_text(value)
+        if not normalized:
+            return []
+
+        stripped = normalized
+        for prefix in (
+            "what is",
+            "what are",
+            "where is",
+            "where are",
+            "tell me about",
+            "explain",
+            "show",
+            "define",
+            "describe",
+        ):
+            if stripped.startswith(f"{prefix} "):
+                stripped = stripped[len(prefix) + 1 :].strip()
+                break
+
+        tokens = [token for token in stripped.split() if token and token not in self.stopwords]
+        phrases = [normalized]
+        if stripped and stripped != normalized:
+            phrases.append(stripped)
+        if 1 <= len(tokens) <= 6:
+            for size in range(min(4, len(tokens)), 0, -1):
+                for index in range(0, len(tokens) - size + 1):
+                    phrase = " ".join(tokens[index : index + size]).strip()
+                    if phrase and len(phrase) >= 3:
+                        phrases.append(phrase)
+        return list(dict.fromkeys(phrases))
+
+    def _similarity_score(self, left: str, right: str) -> float:
+        if not left or not right:
+            return 0.0
+        if left == right:
+            return 1.0
+        if left in right or right in left:
+            return 0.96
+        return SequenceMatcher(None, left, right).ratio()
+
+    def _structured_match_features(self, question: str, candidate: dict[str, Any]) -> dict[str, Any]:
+        phrases = self._question_phrases(question)
+        heading = _normalize_match_text(candidate.get("heading", "") or candidate.get("title", ""))
+        field_values = [
+            _normalize_match_text(field)
+            for field in candidate.get("fieldNames", [])
+            if _normalize_match_text(field)
+        ]
+        field_values.extend(
+            _normalize_match_text(match)
+            for match in re.findall(
+                r"\b[A-Za-z]{2,5}:[A-Za-z][A-Za-z0-9]+(?:\s+[A-Za-z][A-Za-z0-9]+){0,3}\b",
+                str(candidate.get("text", "")),
+            )
+        )
+        field_values = list(dict.fromkeys(field_values))
+
+        exact_heading = heading and any(phrase == heading for phrase in phrases)
+        contains_heading = bool(heading) and any(phrase and (phrase in heading or heading in phrase) for phrase in phrases)
+        exact_field = next((field for field in field_values if any(phrase == field for phrase in phrases)), "")
+        contains_field = next((field for field in field_values if any(phrase and (phrase in field or field in phrase) for phrase in phrases)), "")
+
+        fuzzy_heading_score = max((self._similarity_score(phrase, heading) for phrase in phrases), default=0.0) if heading else 0.0
+        fuzzy_field_score = max(
+            (
+                self._similarity_score(phrase, field)
+                for phrase in phrases
+                for field in field_values
+            ),
+            default=0.0,
+        )
+
+        matched_heading = heading if exact_heading or contains_heading or fuzzy_heading_score >= 0.84 else ""
+        matched_field = exact_field or contains_field
+        if not matched_field and fuzzy_field_score >= 0.86 and field_values:
+            matched_field = max(field_values, key=lambda field: max(self._similarity_score(phrase, field) for phrase in phrases))
+
+        return {
+            "questionPhrases": phrases,
+            "headingExactMatch": bool(exact_heading),
+            "headingContainsMatch": bool(contains_heading),
+            "fieldExactMatch": bool(exact_field),
+            "fieldContainsMatch": bool(contains_field),
+            "fuzzyHeadingScore": round(fuzzy_heading_score, 4),
+            "fuzzyFieldScore": round(fuzzy_field_score, 4),
+            "matchedHeading": matched_heading,
+            "matchedField": matched_field,
+        }
+
     def _chapter_records(self, index: dict[str, Any]) -> list[dict[str, Any]]:
         return [
             {
@@ -180,10 +277,12 @@ class SearchService:
         return " ".join(
             [
                 str(candidate.get("title", "")),
+                str(candidate.get("heading", "")),
                 str(candidate.get("text", "")),
                 str(candidate.get("chapterTitle", "")),
                 str(candidate.get("documentName", "")),
                 str(candidate.get("preview", "")),
+                " ".join(str(field) for field in candidate.get("fieldNames", [])),
                 " ".join(str(code) for code in candidate.get("hsCodes", [])),
                 str(candidate.get("description", "")),
             ]
@@ -241,7 +340,16 @@ class SearchService:
             exact_hs = self._normalized_codes(candidate).intersection(analysis.hs_codes)
             exact_section = str(candidate.get("sectionId", "")).strip() in analysis.section_numbers
             exact_chapter = str(candidate.get("chapterNumber", "")).strip() in analysis.chapter_numbers
-            if not exact_hs and not exact_section and not exact_chapter:
+            structure_matches = self._structured_match_features(analysis.question, candidate)
+            if (
+                not exact_hs
+                and not exact_section
+                and not exact_chapter
+                and not structure_matches["headingExactMatch"]
+                and not structure_matches["fieldExactMatch"]
+                and structure_matches["fuzzyHeadingScore"] < 0.9
+                and structure_matches["fuzzyFieldScore"] < 0.92
+            ):
                 continue
 
             score = 0.0
@@ -251,6 +359,18 @@ class SearchService:
                 score += 200
             if exact_chapter:
                 score += 120
+            if structure_matches["headingExactMatch"]:
+                score += 260
+            elif structure_matches["headingContainsMatch"]:
+                score += 140
+            elif structure_matches["fuzzyHeadingScore"] >= 0.9:
+                score += 90 * structure_matches["fuzzyHeadingScore"]
+            if structure_matches["fieldExactMatch"]:
+                score += 230
+            elif structure_matches["fieldContainsMatch"]:
+                score += 125
+            elif structure_matches["fuzzyFieldScore"] >= 0.92:
+                score += 85 * structure_matches["fuzzyFieldScore"]
             results.append(
                 {
                     **candidate,
@@ -258,6 +378,7 @@ class SearchService:
                     "exactHsMatch": sorted(exact_hs),
                     "exactSectionMatch": exact_section,
                     "exactChapterMatch": exact_chapter,
+                    **structure_matches,
                     "confidence": 0.99 if exact_hs else 0.93 if exact_section else 0.88,
                 }
             )
@@ -287,6 +408,7 @@ class SearchService:
                 continue
             haystack = self._candidate_text(candidate)
             title_text = str(candidate.get("title", "")).lower()
+            structure_matches = self._structured_match_features(analysis.question, candidate)
             score = 0.0
             matched_tokens: list[str] = []
             for token in query_tokens:
@@ -304,6 +426,18 @@ class SearchService:
                 score += 8.0
             if matched_tokens and any(token in title_text for token in matched_tokens):
                 score += 2.5
+            if structure_matches["headingExactMatch"]:
+                score += 10.0
+            elif structure_matches["headingContainsMatch"]:
+                score += 5.5
+            elif structure_matches["fuzzyHeadingScore"] >= 0.88:
+                score += structure_matches["fuzzyHeadingScore"] * 4.0
+            if structure_matches["fieldExactMatch"]:
+                score += 9.0
+            elif structure_matches["fieldContainsMatch"]:
+                score += 4.5
+            elif structure_matches["fuzzyFieldScore"] >= 0.9:
+                score += structure_matches["fuzzyFieldScore"] * 3.5
             if score <= 0:
                 continue
             results.append(
@@ -311,6 +445,7 @@ class SearchService:
                     **candidate,
                     "bm25Score": round(score, 4),
                     "matchedTokens": matched_tokens,
+                    **structure_matches,
                 }
             )
         results.sort(key=lambda item: float(item.get("bm25Score", 0.0)), reverse=True)
@@ -326,10 +461,12 @@ class SearchService:
             similarity = max(0.0, embedding_service.similarity(query_vector, candidate.get("vector", [])))
             if similarity <= 0:
                 continue
+            structure_matches = self._structured_match_features(analysis.question, candidate)
             results.append(
                 {
                     **candidate,
                     "vectorSimilarity": round(similarity, 4),
+                    **structure_matches,
                 }
             )
         results.sort(key=lambda item: float(item.get("vectorSimilarity", 0.0)), reverse=True)
@@ -353,13 +490,16 @@ class SearchService:
     def _confidence(self, candidate: dict[str, Any]) -> float:
         if candidate.get("exactHsMatch"):
             return 0.99
+        if candidate.get("headingExactMatch") or candidate.get("fieldExactMatch"):
+            return 0.97
         if candidate.get("exactSectionMatch"):
             return 0.94
         if candidate.get("exactChapterMatch"):
             return 0.9
         keyword_score = float(candidate.get("bm25Score", 0.0))
         semantic_score = float(candidate.get("vectorSimilarity", 0.0))
-        return round(min(0.9, 0.45 + min(0.3, keyword_score / 20) + min(0.15, semantic_score / 2)), 4)
+        structure_boost = max(float(candidate.get("fuzzyHeadingScore", 0.0)), float(candidate.get("fuzzyFieldScore", 0.0))) * 0.18
+        return round(min(0.95, 0.45 + min(0.3, keyword_score / 20) + min(0.15, semantic_score / 2) + structure_boost), 4)
 
     def _merge_results(
         self,
@@ -391,6 +531,12 @@ class SearchService:
             exact_section = 1 if candidate.get("exactSectionMatch") else 0
             exact_chapter = 1 if candidate.get("exactChapterMatch") else 0
             exact_table = 1 if candidate.get("isTableRow") and (not analysis.hs_codes or candidate.get("exactHsMatch")) else 0
+            exact_heading = 1 if candidate.get("headingExactMatch") else 0
+            exact_field = 1 if candidate.get("fieldExactMatch") else 0
+            contains_heading = 1 if candidate.get("headingContainsMatch") else 0
+            contains_field = 1 if candidate.get("fieldContainsMatch") else 0
+            fuzzy_heading = float(candidate.get("fuzzyHeadingScore", 0.0))
+            fuzzy_field = float(candidate.get("fuzzyFieldScore", 0.0))
             keyword_score = float(candidate.get("metadataScore", 0.0)) + float(candidate.get("bm25Score", 0.0))
             semantic_score = float(candidate.get("vectorSimilarity", 0.0))
             final_score = (
@@ -398,6 +544,12 @@ class SearchService:
                 + (exact_section * 120.0)
                 + (exact_chapter * 80.0)
                 + (exact_table * 50.0)
+                + (exact_heading * 220.0)
+                + (exact_field * 200.0)
+                + (contains_heading * 110.0)
+                + (contains_field * 95.0)
+                + (fuzzy_heading * 70.0 if fuzzy_heading >= 0.84 else 0.0)
+                + (fuzzy_field * 65.0 if fuzzy_field >= 0.86 else 0.0)
                 + keyword_score
                 + (semantic_score * 25.0)
             ) * self.type_weights.get(str(candidate.get("type", "")).lower(), 1.0)
@@ -410,6 +562,12 @@ class SearchService:
                     ("exact_section_match", bool(exact_section)),
                     ("exact_chapter_match", bool(exact_chapter)),
                     ("exact_table_row_match", bool(exact_table)),
+                    ("exact_heading_match", bool(exact_heading)),
+                    ("exact_field_match", bool(exact_field)),
+                    ("heading_contains_match", bool(contains_heading)),
+                    ("field_contains_match", bool(contains_field)),
+                    ("fuzzy_heading_match", fuzzy_heading >= 0.84),
+                    ("fuzzy_field_match", fuzzy_field >= 0.86),
                     ("keyword_match", keyword_score > 0),
                     ("semantic_similarity", semantic_score > 0),
                 )
@@ -423,6 +581,10 @@ class SearchService:
                 1 if item.get("exactSectionMatch") else 0,
                 1 if item.get("exactChapterMatch") else 0,
                 1 if item.get("isTableRow") else 0,
+                1 if item.get("headingExactMatch") else 0,
+                1 if item.get("fieldExactMatch") else 0,
+                float(item.get("fuzzyHeadingScore", 0.0)),
+                float(item.get("fuzzyFieldScore", 0.0)),
                 float(item.get("metadataScore", 0.0)) + float(item.get("bm25Score", 0.0)),
                 float(item.get("vectorSimilarity", 0.0)),
                 float(item.get("score", 0.0)),
@@ -462,23 +624,62 @@ class SearchService:
         bm25_results = self._bm25_search(analysis, filtered_candidates)
         vector_results = self._vector_search(analysis, filtered_candidates)
         merged_results, merged_total = self._merge_results(analysis, metadata_results, bm25_results, vector_results, limit)
+        retrieved_document_ids = list(
+            dict.fromkeys(
+                str(item.get("documentId", "")).strip()
+                for item in merged_results
+                if str(item.get("documentId", "")).strip()
+            )
+        )
 
         self._last_debug = {
             "user_question": analysis.question,
             "detected_intent": analysis.question_classification,
             "detected_entities": list(analysis.entities),
             "detected_hs_code": list(analysis.hs_codes),
+            "detected_keywords": sorted(self._query_terms(analysis.question)),
+            "detected_phrases": self._question_phrases(analysis.question),
             "document_filters": sorted(document_filters) if document_filters else [],
+            "applied_document_filter": sorted(document_filters) if document_filters else [],
+            "filtered_candidates_count": len(filtered_candidates),
             "metadata_results_count": len(metadata_results),
             "bm25_results_count": len(bm25_results),
             "vector_results_count": len(vector_results),
             "merged_results_count": merged_total,
+            "retrieved_document_ids": retrieved_document_ids,
+            "retrieved_document_names": list(
+                dict.fromkeys(
+                    str(item.get("documentName", "")).strip()
+                    for item in merged_results
+                    if str(item.get("documentName", "")).strip()
+                )
+            ),
+            "retrieved_headings": list(
+                dict.fromkeys(
+                    str(item.get("heading", "")).strip()
+                    for item in merged_results
+                    if str(item.get("heading", "")).strip()
+                )
+            )[:10],
+            "retrieved_chunk_count": len(
+                [
+                    item
+                    for item in merged_results
+                    if str(item.get("type", "")).lower() in {"section", "chunk", "rule", "condition", "workflow", "definition"}
+                ]
+            ),
             "top_ranked_chunks": [
                 {
                     "id": item.get("id", ""),
                     "title": item.get("title", ""),
+                    "documentId": item.get("documentId", ""),
                     "sectionId": item.get("sectionId", ""),
                     "documentName": item.get("documentName", ""),
+                    "heading": item.get("heading", ""),
+                    "fieldNames": item.get("fieldNames", []),
+                    "sourcePages": item.get("sourcePages", []),
+                    "matchedHeading": item.get("matchedHeading", ""),
+                    "matchedField": item.get("matchedField", ""),
                     "score": item.get("score", 0),
                     "confidence": item.get("confidence", 0),
                     "rankingReasons": item.get("rankingReasons", []),

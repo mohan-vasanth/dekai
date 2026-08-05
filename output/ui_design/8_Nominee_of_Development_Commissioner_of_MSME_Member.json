@@ -1,0 +1,36 @@
+{
+  "section": "8",
+  "ui": [
+    {
+      "screen_id": "Nominee_of_Development_Commissioner_of_MSME_Member_overview",
+      "name": "Nominee of Development Commissioner of MSME: Member Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Nominee_of_Development_Commissioner_of_MSME_Member_submission",
+      "name": "Nominee of Development Commissioner of MSME: Member Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "msme_flag",
+        "member_flag",
+        "nominee_flag",
+        "development_flag",
+        "commissioner_flag"
+      ]
+    }
+  ]
+}

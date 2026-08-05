@@ -41,7 +41,9 @@
   "exceptions": [
     "2.81 Validity Period of RCMC\nRCMC shall be deemed to be valid from 1st April of licensing year in which it was\nissued and shall be valid for five years ending 31st March of the licensing year, unless\notherwise specified."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -281,12 +283,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 2, section 2.81, title, and page references as immutable knowledge metadata.",
     "Bind validations for Validity Period of RCMC into a rule engine keyed by the rule IDs extracted for this section.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Validity Period of RCMC section-la, Capture chapter 2, section 2.81, title, and page references as immutable knowledge metadata.",
     "Indha Validity Period of RCMC section-la, Bind validations for Validity Period of RCMC into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Validity Period of RCMC section-la, Trigger manual review when exception clauses are detected."
+    "Indha Validity Period of RCMC section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Validity Period of RCMC section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "was",
@@ -339,7 +343,9 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [
     "2.81 Validity Period of RCMC\nRCMC shall be deemed to be valid from 1st April of licensing year in which it was\nissued and shall be valid for five years ending 31st March of the licensing year, unless\notherwise specified."

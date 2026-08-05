@@ -42,7 +42,9 @@
   ],
   "validations": [],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1"
+  ],
   "documents": [
     "10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same.",
     "The request for export of spare parts covered under\nSCOMET may be considered by IMWG along with the application for the main\nitem/equipment, on the same conditions, as applicable for the main\nitem/component."
@@ -292,12 +294,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 10, section 10.11, title, and page references as immutable knowledge metadata.",
     "Bind validations for Issue of export authorisation for spare parts of SCOMET items into a rule engine keyed by the rule IDs extracted for this section.",
-    "Expose document upload controls for: 10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same., The request for export of spare parts covered under\nSCOMET may be considered by IMWG along with the application for the main\nitem/equipment, on the same conditions, as applicable for the main\nitem/component.."
+    "Expose document upload controls for: 10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same., The request for export of spare parts covered under\nSCOMET may be considered by IMWG along with the application for the main\nitem/equipment, on the same conditions, as applicable for the main\nitem/component..",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Issue of export authorisation for spare parts of SCOMET items section-la, Capture chapter 10, section 10.11, title, and page references as immutable knowledge metadata.",
     "Indha Issue of export authorisation for spare parts of SCOMET items section-la, Bind validations for Issue of export authorisation for spare parts of SCOMET items into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Issue of export authorisation for spare parts of SCOMET items section-la, Expose document upload controls for: 10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same., The request for export of spare parts covered under\nSCOMET may be considered by IMWG along with the application for the main\nitem/equipment, on the same conditions, as applicable for the main\nitem/component.."
+    "Indha Issue of export authorisation for spare parts of SCOMET items section-la, Expose document upload controls for: 10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same., The request for export of spare parts covered under\nSCOMET may be considered by IMWG along with the application for the main\nitem/equipment, on the same conditions, as applicable for the main\nitem/component..",
+    "Indha Issue of export authorisation for spare parts of SCOMET items section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "for",
@@ -350,7 +354,9 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [

@@ -1,0 +1,37 @@
+{
+  "section": "3",
+  "ui": [
+    {
+      "screen_id": "Comprehensive_analysis_of_the_major_products_Goods_and_Services_overview",
+      "name": "Comprehensive analysis of the major products (Goods and Services) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Comprehensive_analysis_of_the_major_products_Goods_and_Services_submission",
+      "name": "Comprehensive analysis of the major products (Goods and Services) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "with_flag",
+        "from_flag",
+        "major_flag",
+        "goods_flag"
+      ]
+    }
+  ]
+}

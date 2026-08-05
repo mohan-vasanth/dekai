@@ -1,0 +1,10 @@
+{
+  "section": "6",
+  "workflow": [
+    "Evaluate condition: Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.",
+    "Evaluate condition: Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis."
+  ],
+  "workflow_ascii": "Identify major bottlenecks and challenges hindering export of thrust\nEvaluate condition: Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.\n   |\n   v\nEvaluate condition: Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.\"]\n    S2[\"Evaluate condition: Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Identify major bottlenecks and challenges hindering export of thrust\nsector in the districts.;\n:Evaluate condition\\: Identify thrust Items/GI Products/Agricultural\nitems from export perspective for further in-depth analysis.;\nstop\n@enduml"
+}

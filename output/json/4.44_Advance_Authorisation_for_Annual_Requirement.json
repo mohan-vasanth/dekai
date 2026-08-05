@@ -292,7 +292,10 @@
     "All provisions applicable to\nAdvance Authorisation given above would apply except the following:\n(i) Authorisation holder shall have flexibility to export any product\nfalling under export product group using duty exempted material.",
     "However, no Authorisation for Annual\nRequirement shall be issued where input is listed in Appendix-4J."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "4"
+  ],
   "documents": [
     "4.44 Advance Authorisation for Annual Requirement\n(a) Exporters eligible for such Authorisations shall file online application in\nANF 4A to Regional Authority concerned.",
     "(b)\nWithin six months from the date of expiry of Export Obligation period,\nAuthorisation holder shall file application online by linking details of\nshipping bills against the authorisation, failing which Regional Authority\nmay initiate action as per FT (DR) Act by way of issuing Show-Cause\nNotice.",
@@ -645,14 +648,16 @@
     "Bind validations for Advance Authorisation for Annual Requirement into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 4.44 Advance Authorisation for Annual Requirement\n(a) Exporters eligible for such Authorisations shall file online application in\nANF 4A to Regional Authority concerned., (b)\nWithin six months from the date of expiry of Export Obligation period,\nAuthorisation holder shall file application online by linking details of\nshipping bills against the authorisation, failing which Regional Authority\nmay initiate action as per FT (DR) Act by way of issuing Show-Cause\nNotice., (c)\nIn case of online filing of EODC application, Exporters shall link all\nexports online on DGFT system by linking file number / authorisation\nnumber with the relevant shipping bill numbers / bill of exports /\ninvoices in case of deemed exports/Tax invoices for supplies prescribed\nunder CGST/SGST/UT GST rules., (d)\nIn case of non EDI shipping bills and supplies under Chapter-7 of FTP,\nexporter shall file relevant details manually on the website of the DGFT\nwithin two months from the date of expiry of Export Obligation period., Copies of shipping bills shall be submitted to Regional Authority\nconcerned for verification within two months from date of expiry of\nexport obligation period., In case an applicant is not able to upload any\nprescribed document then such documents may be submitted in physical\nform to the concerned authority..",
     "Route escalations or approvals to: Regional Authority, DGFT, Copies of shipping bills shall be submitted to Regional Authority, Customs.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Advance Authorisation for Annual Requirement section-la, Capture chapter 4, section 4.44, title, and page references as immutable knowledge metadata.",
     "Indha Advance Authorisation for Annual Requirement section-la, Bind validations for Advance Authorisation for Annual Requirement into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Advance Authorisation for Annual Requirement section-la, Expose document upload controls for: 4.44 Advance Authorisation for Annual Requirement\n(a) Exporters eligible for such Authorisations kandippa file online application in\nANF 4A to Regional authority concerned., (b)\nWithin six months from the date of expiry of export Obligation period,\nAuthorisation holder kandippa file application online by linking details of\nshipping bills against the authorisation, failing which Regional authority\nmay initiate action as per FT (DR) Act by way of issuing Show-Cause\nNotice., (c)\nIn case of online filing of EODC application, Exporters kandippa link all\nexports online on DGFT system by linking file number / authorisation\nnumber with the relevant shipping bill numbers / bill of exports /\ninvoices in case of deemed exports/Tax invoices for supplies prescribed\nunder CGST/SGST/UT GST rules., (d)\nIn case of non EDI shipping bills and supplies under Chapter-7 of FTP,\nexporter kandippa file relevant details manually on the website of the DGFT\nwithin two months from the date of expiry of export Obligation period., Copies of shipping bills kandippa be submitted to Regional authority\nconcerned for verification within two months from date of expiry of\nexport obligation period., In case an applicant is not able to upload any\nprescribed document then such documents may be submitted in physical\nform to the concerned authority..",
     "Indha Advance Authorisation for Annual Requirement section-la, Route escalations or approvals to: Regional authority, DGFT, Copies of shipping bills kandippa be submitted to Regional authority, Customs.",
-    "Indha Advance Authorisation for Annual Requirement section-la, Trigger manual review when exception clauses are detected."
+    "Indha Advance Authorisation for Annual Requirement section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Advance Authorisation for Annual Requirement section-la, Show contextual links to related sections: 1, 4."
   ],
   "keywords": [
     "for",
@@ -706,7 +711,10 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.44 Advance Authorisation for Annual Requirement\n(a) Exporters eligible for such Authorisations shall file online application in\nANF 4A to Regional Authority concerned.",

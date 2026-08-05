@@ -1,0 +1,157 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "section": "7",
+  "title": "Pipeline",
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC7-R001",
+      "rule_description": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.",
+      "trigger": "Pipeline",
+      "condition": "7: Pipeline\nB082 cbc:Mode Code M 1 n1 Specify Inward Transport Mode.",
+      "validation": "a) For Declaration Type = GST and BKT, specify party type:\n- (Declarant)\n- (Claimant, if required)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional)\n- (Importer)\n- (Freight Forwarder; mandatory for consol consignment)\nb) For others, specify Party Type:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Importer)\n- (Freight Forwarder; mandatory for consol consignment)\nA014 cac:Declarant Party M 1 Specify the identity of the Declarant.",
+      "action": "ipt:Transport\nC\n1\nNotes:\nFor all Declaration Types, specify for inward transport, except for\nthe following:\n(i)\nGoods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\n(ii)\nshort payment where place of receipt = SPSTK, SPNOSTK\n(iii)\ndeclaration type = BKT (Blanket)\n(iv)\nrecovery payment where place of receipt = RCNOSTK\n(v)\npayment for goods previously exempted from duties/taxes (e.g.",
+      "exception": "ipt:Transport\nC\n1\nNotes:\nFor all Declaration Types, specify for inward transport, except for\nthe following:\n(i)\nGoods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\n(ii)\nshort payment where place of receipt = SPSTK, SPNOSTK\n(iii)\ndeclaration type = BKT (Blanket)\n(iv)\nrecovery payment where place of receipt = RCNOSTK\n(v)\npayment for goods previously exempted from duties/taxes (e.g.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R002",
+      "rule_description": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Inward Carrier Agent Party\nC\n1\na) Specify Inward Carrier Agent, must be registered with Customs.",
+      "trigger": "Pipeline",
+      "condition": "B076 cbc:Conveyance Reference Number C 1 an..17 For transport mode = 1, specify inward voyage number.",
+      "validation": "a) For Declaration Type = GST and BKT, specify party type:\n- (Declarant)\n- (Claimant, if required)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional)\n- (Importer)\n- (Freight Forwarder; mandatory for consol consignment)\nb) For others, specify Party Type:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Importer)\n- (Freight Forwarder; mandatory for consol consignment)\nA014\ncac:Declarant Party\nM\n1\nSpecify the identity of the Declarant.",
+      "action": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.",
+      "exception": "place of release = EM, EXEMPT)\n(vi)\nSupplementary declaration for schemes under AISS, IGDS such as\nPlace of Receipt = AISSLOC, SPIGDS\nA026\ncac:Inward Transport\nM\n1\nMandatory to specify Inward transport.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R003",
+      "rule_description": "B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\nunit Code (attribute) M 1 an..3 (value).",
+      "trigger": "Pipeline",
+      "condition": "Specify ‘NA’\nif there is no inward voyage number.",
+      "validation": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.",
+      "action": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Inward Carrier Agent Party\nC\n1\na) Specify Inward Carrier Agent, must be registered with Customs.",
+      "exception": "B064 cbc:Invoice Number C 1 an..35 Mandatory to specify invoice number and invoice date for all cases\nexcept for the following:\n(i) short payment where place of receipt = SPSTK, SPNOSTK, SPIGDS\n(ii) declaration type = BKT (Blanket)\n(iii) recovery payment where place of receipt = RCNOSTK\n(iv) payment for goods previously exempted from duties/taxes (e.g.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R004",
+      "rule_description": "B058\ncbc:Harmonized System Quantity\nunit Code (attribute)\nM\nM\n1 n..16\n1 an..3\nFor all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\n(value).",
+      "trigger": "Pipeline",
+      "condition": "For transport mode = 4, specify inward flight number.",
+      "validation": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Inward Carrier Agent Party\nC\n1\na) Specify Inward Carrier Agent, must be registered with Customs.",
+      "action": "B064 cbc:Invoice Number C 1 an..35 Mandatory to specify invoice number and invoice date for all cases\nexcept for the following:\n(i) short payment where place of receipt = SPSTK, SPNOSTK, SPIGDS\n(ii) declaration type = BKT (Blanket)\n(iii) recovery payment where place of receipt = RCNOSTK\n(iv) payment for goods previously exempted from duties/taxes (e.g.",
+      "exception": "place of release = EM, EXEMPT)\n(v) supplementary declaration for schemes under AISS, IGDS such\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\n| cac:Licence |\nB064 cbc:Reference ID\n/cac:Licence | |\ncac:Supporting Document Reference | |\nB023 cbc:Document ID\nB033 cbc:Filename\n/cac:Supporting Document Reference\nINVOICE SECTION | |\n| cac:Invoice |\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R005",
+      "rule_description": "A023 cac:Goods And Services Tax C 1 Specify the item GST:\na) For Declaration Type = GST, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+      "trigger": "Pipeline",
+      "condition": "Specify ‘NA’\nif there is no inward flight number.",
+      "validation": "B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\nunit Code (attribute) M 1 an..3 (value).",
+      "action": "B064\ncbc:Invoice Number\nC\n1 an..35\nMandatory to specify invoice number and invoice date for all cases\nexcept for the following:\n(i) short payment where place of receipt = SPSTK, SPNOSTK, SPIGDS\n(ii) declaration type = BKT (Blanket)\n(iii) recovery payment where place of receipt = RCNOSTK\n(iv) payment for goods previously exempted from duties/taxes (e.g.",
+      "exception": "B064\ncbc:Invoice Number\nC\n1 an..35\nMandatory to specify invoice number and invoice date for all cases\nexcept for the following:\n(i) short payment where place of receipt = SPSTK, SPNOSTK, SPIGDS\n(ii) declaration type = BKT (Blanket)\n(iii) recovery payment where place of receipt = RCNOSTK\n(iv) payment for goods previously exempted from duties/taxes (e.g.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R006",
+      "rule_description": "b) For other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nOther tax) X GST rate, where applicable\nB060 cbc:Goods And Services Tax Percent M 1 n..2 Specify percentage for GST rate.",
+      "trigger": "Pipeline",
+      "condition": "B049 cbc:Transport Identifier C 1 an..35 For transport mode = 1, specify inward vessel name.",
+      "validation": "B058\ncbc:Harmonized System Quantity\nunit Code (attribute)\nM\nM\n1 n..16\n1 an..3\nFor all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\n(value).",
+      "action": "place of release = EM, EXEMPT)\n(v) supplementary declaration for schemes under AISS, IGDS such\nOFFICIAL (CLOSED)\nAM\nas place of receipt = AISSLOC, SPIGDS\nB020 cbc:Invoice Date C 1 n8 Format: CCYYMMDD\nA043 cac:Supplier Manufacturer Party C 1 a) Specify the supplier/ manufacturer name except for the following:\n(i) short payment where place of receipt = SPSTK, SPNOSTK, SPIGDS\n(ii) declaration type = BKT (Blanket)\n(iii) recovery payment where place of receipt = RCNOSTK\n(iv) payment for goods previously exempted from duties/taxes (e.g.",
+      "exception": "place of release = EM, EXEMPT)\n(v) supplementary declaration for schemes under AISS, IGDS such\nOFFICIAL (CLOSED)\nAM\nas place of receipt = AISSLOC, SPIGDS\nB020 cbc:Invoice Date C 1 n8 Format: CCYYMMDD\nA043 cac:Supplier Manufacturer Party C 1 a) Specify the supplier/ manufacturer name except for the following:\n(i) short payment where place of receipt = SPSTK, SPNOSTK, SPIGDS\n(ii) declaration type = BKT (Blanket)\n(iii) recovery payment where place of receipt = RCNOSTK\n(iv) payment for goods previously exempted from duties/taxes (e.g.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R007",
+      "rule_description": "/cac:Goods And Services Tax\nA016 cac:Excise Duty C 1 For dutiable goods subject to Excise Duty:\nB024 cbc:Duty Rate M 1 n..8 Specify item Excise Duty rate for dutiable goods subject to Excise\nDuty.",
+      "trigger": "Pipeline",
+      "condition": "For transport mode = 3, specify Vehicle Licence/Registration Number,\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "validation": "A023 cac:Goods And Services Tax C 1 Specify the item GST:\na) For Declaration Type = GST, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+      "action": "TDS41-MDS-XML-IPTDEC-M\nTrade Net Declaration.IPTDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nas place of receipt = AISSLOC, SPIGDS\nB020\ncbc:Invoice Date\nC\n1 n8\nFormat: CCYYMMDD\nA043\ncac:Supplier Manufacturer Party\nC\n1\na) Specify the supplier/ manufacturer name except for the following:\n(i) short payment where place of receipt = SPSTK, SPNOSTK, SPIGDS\n(ii) declaration type = BKT (Blanket)\n(iii) recovery payment where place of receipt = RCNOSTK\n(iv) payment for goods previously exempted from duties/taxes (e.g.",
+      "exception": "place of release = EM, EXEMPT)\n(v) supplementary declaration for schemes under AISS, IGDS such\nas place of receipt = AISSLOC, SPIGDS\nb) Specify Supplier code if the Supplier and Importer are related.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R008",
+      "rule_description": "/cac:Excise Duty\nA016 cac:Customs Duty C 1 For dutiable goods subject to Customs Duty, if any:\nB024 cbc:Duty Rate M 1 n..8 Specify item Customs Duty rate for dutiable goods subject to Customs\nDuty, if any.",
+      "trigger": "Pipeline",
+      "condition": "TDS41-MDS-XML-IPTDEC-M\nTrade Net Declaration.IPTDEC Ver2.1.doc\nOFFICIAL (CLOSED)\n/cac:Transport Equipment\nB037\ncbc:Supply Indicator\nC\n1 boolean\nSpecify Supply Indicator for:\na) all dutiable goods of Singapore origin released from Licensed\nWarehouse, if there is a supply.",
+      "validation": "b) For other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nOther tax) X GST rate, where applicable\nB060 cbc:Goods And Services Tax Percent M 1 n..2 Specify percentage for GST rate.",
+      "action": "B064 cbc:Item Invoice Number C 1 an..35 Mandatory to specify Invoice number except for\ni) Used motor vehicle already registered in Singapore under duty\nexemption.",
+      "exception": "currency ID (attribute) M 1 a3 Specify the currency code (refer to UN/ECE Recommendation No.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R009",
+      "rule_description": "A023\ncac:Goods And Services Tax\nC\n1\nSpecify the item GST:\na)\nFor Declaration Type = GST, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+      "trigger": "Pipeline",
+      "condition": "b) all imported goods where there is a supply prior to its release\nfrom Customs' control.",
+      "validation": "A023\ncac:Goods And Services Tax\nC\n1\nSpecify the item GST:\na)\nFor Declaration Type = GST, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+      "action": "B064\ncbc:Item Invoice Number\nC\n1 an..35\nMandatory to specify Invoice number except for\ni) Used motor vehicle already registered in Singapore under duty\nexemption.",
+      "exception": "TDS41-MDS-XML-IPTDEC-M\nTrade Net Declaration.IPTDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nas place of receipt = AISSLOC, SPIGDS\nB020\ncbc:Invoice Date\nC\n1 n8\nFormat: CCYYMMDD\nA043\ncac:Supplier Manufacturer Party\nC\n1\na) Specify the supplier/ manufacturer name except for the following:\n(i) short payment where place of receipt = SPSTK, SPNOSTK, SPIGDS\n(ii) declaration type = BKT (Blanket)\n(iii) recovery payment where place of receipt = RCNOSTK\n(iv) payment for goods previously exempted from duties/taxes (e.g.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R010",
+      "rule_description": "b)\nFor other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nOther tax) X GST rate, where applicable\nB060\ncbc:Goods And Services Tax Percent\nM\n1 n..2\nSpecify percentage for GST rate.",
+      "trigger": "Pipeline",
+      "condition": "B020\ncbc:Blanket Start Date\nC\n1 n8\nFormat: CCYYMMDD\nFor blanket imports, specify Start Date of Blanket.",
+      "validation": "b)\nFor other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nOther tax) X GST rate, where applicable\nB060\ncbc:Goods And Services Tax Percent\nM\n1 n..2\nSpecify percentage for GST rate.",
+      "action": "A023 cac:Goods And Services Tax C 1 Specify the item GST:\na) For Declaration Type = GST, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+      "exception": "B004\ncbc:Amount\ncurrency ID (attribute)\nM\nM\n1 n..16\n1 a3\nSpecify total invoice value.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R011",
+      "rule_description": "/cac:Goods And Services Tax\nA016\ncac:Excise Duty\nC\n1\nFor dutiable goods subject to Excise Duty:\nB024\ncbc:Duty Rate\nM\n1 n..8\nSpecify item Excise Duty rate for dutiable goods subject to Excise\nDuty.",
+      "trigger": "Pipeline",
+      "condition": "ipt:Transport\nC\n1\nNotes:\nFor all Declaration Types, specify for inward transport, except for\nthe following:\n(i)\nGoods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\n(ii)\nshort payment where place of receipt = SPSTK, SPNOSTK\n(iii)\ndeclaration type = BKT (Blanket)\n(iv)\nrecovery payment where place of receipt = RCNOSTK\n(v)\npayment for goods previously exempted from duties/taxes (e.g.",
+      "validation": "i) For transport mode = 1, the unit code must be set to TNE.",
+      "action": "b) For other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nOther tax) X GST rate, where applicable\nB060 cbc:Goods And Services Tax Percent M 1 n..2 Specify percentage for GST rate.",
+      "exception": "B004\ncbc:Amount\ncurrency ID (attribute)\nM\nM\n1 n..16\n1 a3\nSpecify freight charge amount.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R012",
+      "rule_description": "/cac:Excise Duty\nA016\ncac:Customs Duty\nC\n1\nFor dutiable goods subject to Customs Duty, if any:\nB024\ncbc:Duty Rate\nM\n1 n..8\nSpecify item Customs Duty rate for dutiable goods subject to Customs\nDuty, if any.",
+      "trigger": "Pipeline",
+      "condition": "place of release = EM, EXEMPT)\n(vi)\nSupplementary declaration for schemes under AISS, IGDS such as\nPlace of Receipt = AISSLOC, SPIGDS\nA026\ncac:Inward Transport\nM\n1\nMandatory to specify Inward transport.",
+      "validation": "ii) For transport mode = 4, the unit code must be set to KGM.",
+      "action": "B003 cbc:Goods And Services Tax Amount M 1 n..16 Specify item GST payable amount.",
+      "exception": "B004\ncbc:Amount\ncurrency ID (attribute)\nM\nM\n1 n..16\n1 a3\nSpecify insurance charge amount.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R013",
+      "rule_description": "i) For transport mode = 1, the unit code must be set to TNE.",
+      "trigger": "Pipeline",
+      "condition": "A060\ncac:Transport Means\nC\n1\nSpecify inward transport mode.",
+      "validation": "ii) For transport mode = 4, the unit code must be set to KGM.",
+      "action": "A023\ncac:Goods And Services Tax\nC\n1\nSpecify the item GST:\na)\nFor Declaration Type = GST, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+      "exception": "B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\nunit Code (attribute) M 1 an..3 (value).",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R014",
+      "rule_description": "ii) For transport mode = 4, the unit code must be set to KGM.",
+      "trigger": "Pipeline",
+      "condition": "19) are:\n7: Pipeline\nB082\ncbc:Mode Code\nM\n1 n1\nSpecify Inward Transport Mode.",
+      "validation": "ii) For transport mode = 4, the unit code must be set to KGM.",
+      "action": "b)\nFor other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nOther tax) X GST rate, where applicable\nB060\ncbc:Goods And Services Tax Percent\nM\n1 n..2\nSpecify percentage for GST rate.",
+      "exception": "unit Code (attribute) M 1 an..3 Specify unit (refer to STDID code list).",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: /cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.",
+    "IF detected context matches section rule THEN enforce: /cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Inward Carrier Agent Party\nC\n1\na) Specify Inward Carrier Agent, must be registered with Customs.",
+    "IF detected context matches section rule THEN enforce: B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\nunit Code (attribute) M 1 an..3 (value).",
+    "IF detected context matches section rule THEN enforce: B058\ncbc:Harmonized System Quantity\nunit Code (attribute)\nM\nM\n1 n..16\n1 an..3\nFor all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\n(value).",
+    "IF detected context matches section rule THEN enforce: A023 cac:Goods And Services Tax C 1 Specify the item GST:\na) For Declaration Type = GST, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+    "IF detected context matches section rule THEN enforce: b) For other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nOther tax) X GST rate, where applicable\nB060 cbc:Goods And Services Tax Percent M 1 n..2 Specify percentage for GST rate.",
+    "IF validations pass THEN recommend action: ipt:Transport\nC\n1\nNotes:\nFor all Declaration Types, specify for inward transport, except for\nthe following:\n(i)\nGoods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\n(ii)\nshort payment where place of receipt = SPSTK, SPNOSTK\n(iii)\ndeclaration type = BKT (Blanket)\n(iv)\nrecovery payment where place of receipt = RCNOSTK\n(v)\npayment for goods previously exempted from duties/taxes (e.g."
+  ]
+}

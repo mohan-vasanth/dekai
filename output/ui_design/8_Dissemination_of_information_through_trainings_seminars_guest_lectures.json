@@ -1,0 +1,37 @@
+{
+  "section": "8",
+  "ui": [
+    {
+      "screen_id": "Dissemination_of_information_through_trainings_seminars_guest_lectures_overview",
+      "name": "Dissemination of information through trainings, seminars, guest lectures, Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Dissemination_of_information_through_trainings_seminars_guest_lectures_submission",
+      "name": "Dissemination of information through trainings, seminars, guest lectures, Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "with_flag",
+        "guest_flag",
+        "other_flag",
+        "visits_flag",
+        "through_flag"
+      ]
+    }
+  ]
+}

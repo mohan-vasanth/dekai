@@ -133,7 +133,11 @@
     "However, the final decision to approve a GAICT\nauthorisation lies with the relevant authority.",
     "Note: However, IMWG on a case to case basis may allow countries other than those\nlisted in Table 1 considering description/end use/end user of the item."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "2",
+    "5"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -391,13 +395,15 @@
     "Capture chapter 10, section 10.15, title, and page references as immutable knowledge metadata.",
     "Bind validations for Global Authorisation for Intra-Company Transfers (GAICT) into a rule engine keyed by the rule IDs extracted for this section.",
     "Route escalations or approvals to: DGFT, DGFT or authorized representatives of Government.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 2, 5."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Global Authorisation for Intra-Company Transfers (GAICT) section-la, Capture chapter 10, section 10.15, title, and page references as immutable knowledge metadata.",
     "Indha Global Authorisation for Intra-Company Transfers (GAICT) section-la, Bind validations for Global Authorisation for Intra-Company Transfers (GAICT) into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Global Authorisation for Intra-Company Transfers (GAICT) section-la, Route escalations or approvals to: DGFT, DGFT or authorized representatives of Government.",
-    "Indha Global Authorisation for Intra-Company Transfers (GAICT) section-la, Trigger manual review when exception clauses are detected."
+    "Indha Global Authorisation for Intra-Company Transfers (GAICT) section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Global Authorisation for Intra-Company Transfers (GAICT) section-la, Show contextual links to related sections: 1, 2, 5."
   ],
   "keywords": [
     "for",
@@ -450,7 +456,11 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "5"
+  ],
   "related_chapters": [],
   "related_rules": [
     "Scope and Eligibility: Pre-export authorisation will not be required,\nfor export and/or re-export of SCOMET items including software and\ntechnology under SCOMET Category 8 (except items listed in Appendix 10M),\nsubject to the following conditions:\ni.",

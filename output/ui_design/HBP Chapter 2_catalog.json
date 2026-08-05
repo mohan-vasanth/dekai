@@ -128,6 +128,9 @@
     "Import_of_Metallic_Waste_and_Scrap_overview",
     "Import_of_Metallic_Waste_and_Scrap_submission",
     "Import_of_Metallic_Waste_and_Scrap_exceptions",
+    "Chennai_2_Cochin_3_Ennore_4_JNPT_5_Kandla_6_Mormugao_7_overview",
+    "Chennai_2_Cochin_3_Ennore_4_JNPT_5_Kandla_6_Mormugao_7_submission",
+    "Chennai_2_Cochin_3_Ennore_4_JNPT_5_Kandla_6_Mormugao_7_exceptions",
     "Recognition_as_Pre_shipment_Inspection_Agency_PSIA_and_issuance_overview",
     "Recognition_as_Pre_shipment_Inspection_Agency_PSIA_and_issuance_submission",
     "Recognition_as_Pre_shipment_Inspection_Agency_PSIA_and_issuance_exceptions",
@@ -2464,6 +2467,54 @@
         {
           "screen_id": "Import_of_Metallic_Waste_and_Scrap_exceptions",
           "name": "Import of Metallic Waste and Scrap Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1",
+      "title": "Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7.",
+      "ui": [
+        {
+          "screen_id": "Chennai_2_Cochin_3_Ennore_4_JNPT_5_Kandla_6_Mormugao_7_overview",
+          "name": "Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7. Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Chennai_2_Cochin_3_Ennore_4_JNPT_5_Kandla_6_Mormugao_7_submission",
+          "name": "Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7. Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "new_flag",
+            "and_flag",
+            "sea_flag",
+            "for_flag",
+            "the_flag",
+            "any_flag"
+          ]
+        },
+        {
+          "screen_id": "Chennai_2_Cochin_3_Ennore_4_JNPT_5_Kandla_6_Mormugao_7_exceptions",
+          "name": "Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7. Exception Review",
           "purpose": "Explain exception handling and manual review triggers.",
           "widgets": [
             "exception_banner",

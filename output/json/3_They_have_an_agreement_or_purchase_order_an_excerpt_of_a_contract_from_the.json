@@ -1,0 +1,355 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "3",
+  "title": "They have an agreement or purchase order, an excerpt of a contract from the",
+  "purpose": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.",
+  "purpose_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.",
+  "summary": "3. They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg. 1101\npg.",
+  "business_meaning": "3.",
+  "business_explanation": "3. They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg. 1101\npg.",
+  "business_explanation_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, 3. They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg. 1101\npg.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC3-R001",
+      "rule_description": "IF validations pass THEN recommend action: for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+      "trigger": "They have an agreement or purchase order, an excerpt of a contract from the",
+      "condition": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - They have an agreement or purchase order, an excerpt of a contract from the."
+    }
+  ],
+  "conditions": [
+    "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.",
+    "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;"
+  ],
+  "condition_logic": [
+    {
+      "id": "10.3.1",
+      "if": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.",
+      "then": "for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+      "source": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg."
+    },
+    {
+      "id": "10.3.2",
+      "if": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;",
+      "then": "for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+      "source": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;"
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [
+    "1"
+  ],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "authorities": [
+    "DGFT",
+    "GAEIS for export of that/those item(s) and would apply separately to DGFT"
+  ],
+  "timelines": [
+    "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.",
+    "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;"
+  ],
+  "actions": [
+    "for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy."
+  ],
+  "workflow": [
+    "Evaluate condition: They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.",
+    "Evaluate condition: They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;",
+    "for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy."
+  ],
+  "workflow_ascii": "They have an agreement or purchase order, an excerpt of a contract from the\nEvaluate condition: They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.\n   |\n   v\nEvaluate condition: They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;\n   |\n   v\nfor GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+  "decision_tree": [
+    "IF They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg. THEN for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+    "IF They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport; THEN for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy."
+  ],
+  "decision_tree_ascii": "They have an agreement or purchase order, an excerpt of a contract from the Decision\nIF They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg. THEN for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.\n   |\n   v\nIF They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport; THEN for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+  "examples": [
+    "User asks to process They have an agreement or purchase order, an excerpt of a contract from the; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes They have an agreement or purchase order, an excerpt of a contract from the, submits the prescribed DGFT records, and DEKAI uses the extracted rules to for gaeis for export of that/those item(s) and would apply separately to dgft\nfor a fresh authorization in terms of regular policy..",
+  "real_world_example_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, Example: an importer or exporter invokes They have an agreement or purchase order, an excerpt of a contract from the, submits the prescribed DGFT records, and DEKAI uses the extracted rules to for gaeis for export of that/those item(s) and would apply separately to dgft\nfor a fresh authorization in terms of regular policy..",
+  "ai_rules": [
+    "IF validations pass THEN recommend action: for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "use_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:use"
+    },
+    {
+      "name": "euc_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:EUC"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "they_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:They"
+    },
+    {
+      "name": "have_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:have"
+    },
+    {
+      "name": "from_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:from"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/3",
+      "purpose": "Retrieve knowledge payload for section 3",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/They-have-an-agreement-or-purchase-order-an-excerpt-of-a-contract-from-the/validate",
+      "purpose": "Validate inputs and documents for They have an agreement or purchase order, an excerpt of a contract from the",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/They-have-an-agreement-or-purchase-order-an-excerpt-of-a-contract-from-the/execute",
+      "purpose": "Trigger business action for for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "They_have_an_agreement_or_purchase_order_an_excerpt_of_a_contract_from_the_overview",
+      "name": "They have an agreement or purchase order, an excerpt of a contract from the Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "They_have_an_agreement_or_purchase_order_an_excerpt_of_a_contract_from_the_submission",
+      "name": "They have an agreement or purchase order, an excerpt of a contract from the Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "for_flag",
+        "use_flag",
+        "euc_flag",
+        "and_flag",
+        "they_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does They have an agreement or purchase order, an excerpt of a contract from the require?",
+    "Which documents are needed for They have an agreement or purchase order, an excerpt of a contract from the?",
+    "How does DEKAI validate They have an agreement or purchase order, an excerpt of a contract from the requests?",
+    "What action should be taken for They have an agreement or purchase order, an excerpt of a contract from the?"
+  ],
+  "expected_ai_answers": [
+    "They have an agreement or purchase order, an excerpt of a contract from the requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates They have an agreement or purchase order, an excerpt of a contract from the by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 3?",
+      "answer_en": "3. They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg. 1101\npg.",
+      "question_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, What is the purpose of section 3?",
+      "answer_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, 3. They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg. 1101\npg."
+    },
+    {
+      "question_en": "What documents are required under They have an agreement or purchase order, an excerpt of a contract from the?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, What documents are required under They have an agreement or purchase order, an excerpt of a contract from the?",
+      "answer_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles They have an agreement or purchase order, an excerpt of a contract from the?",
+      "answer_en": "DGFT, GAEIS for export of that/those item(s) and would apply separately to DGFT",
+      "question_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, Which authority handles They have an agreement or purchase order, an excerpt of a contract from the?",
+      "answer_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, DGFT, GAEIS for export of that/those item(s) and would apply separately to DGFT"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with They have an agreement or purchase order, an excerpt of a contract from the?",
+      "answer_en": "AI answers: DEKAI should evaluate section 3, apply the extracted rules, and guide the user through Evaluate condition: They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg..",
+      "question_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, User asks: How do I comply with They have an agreement or purchase order, an excerpt of a contract from the?",
+      "answer_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, AI answers: DEKAI should evaluate section 3, apply the extracted rules, and guide the user through Evaluate condition: They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to They have an agreement or purchase order, an excerpt of a contract from the?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, User asks: Which validations apply to They have an agreement or purchase order, an excerpt of a contract from the?",
+      "answer_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 10, section 3, title, and page references as immutable knowledge metadata.",
+    "Bind validations for They have an agreement or purchase order, an excerpt of a contract from the into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: DGFT, GAEIS for export of that/those item(s) and would apply separately to DGFT.",
+    "Show contextual links to related sections: 1."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, Capture chapter 10, section 3, title, and page references as immutable knowledge metadata.",
+    "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, Bind validations for They have an agreement or purchase order, an excerpt of a contract from the into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, Route escalations or approvals to: DGFT, GAEIS for export of that/those item(s) and would apply separately to DGFT.",
+    "Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, Show contextual links to related sections: 1."
+  ],
+  "keywords": [
+    "the",
+    "for",
+    "use",
+    "EUC",
+    "and",
+    "They",
+    "have",
+    "from",
+    "that",
+    "item",
+    "DGFT",
+    "order",
+    "items",
+    "which",
+    "state",
+    "GAEIS",
+    "would",
+    "apply",
+    "fresh",
+    "terms"
+  ],
+  "search_keywords": [
+    "the",
+    "for",
+    "use",
+    "EUC",
+    "and",
+    "They",
+    "have",
+    "from",
+    "that",
+    "item",
+    "DGFT",
+    "order",
+    "items",
+    "which",
+    "state",
+    "GAEIS",
+    "would",
+    "apply",
+    "fresh",
+    "terms"
+  ],
+  "intent": "Support They have an agreement or purchase order, an excerpt of a contract from the processing and compliance validation.",
+  "tags": [
+    "3",
+    "They have an agreement or purchase order, an excerpt of a contract from the",
+    "dgft"
+  ],
+  "related_sections": [
+    "1"
+  ],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    33,
+    34
+  ],
+  "pages": [
+    33,
+    34
+  ],
+  "source_document": "Chapter+10+HBP+(19.05.2026).pdf",
+  "raw_text": "3. They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.\n1101\npg.\nfor GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.\n3. They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.\"]\n    S2[\"Evaluate condition: They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;\"]\n    S1 --> S2\n    S3[\"for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.;\n:Evaluate condition\\: They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;;\n:for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.;\nstop\n@enduml"
+}

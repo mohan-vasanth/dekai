@@ -30,7 +30,10 @@
     "4.66 Conditions of Exports\nExports shall be allowed by customs authorities provided endorsement made on\nshipping bill and invoice are correct and value addition achieved is not below\nminimum prescribed in FTP."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "4",
+    "6"
+  ],
   "documents": [
     "4.66 Conditions of Exports\nExports shall be allowed by customs authorities provided endorsement made on\nshipping bill and invoice are correct and value addition achieved is not below\nminimum prescribed in FTP."
   ],
@@ -248,13 +251,15 @@
     "Capture chapter 4, section 4.66, title, and page references as immutable knowledge metadata.",
     "Bind validations for Conditions of Exports into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 4.66 Conditions of Exports\nExports shall be allowed by customs authorities provided endorsement made on\nshipping bill and invoice are correct and value addition achieved is not below\nminimum prescribed in FTP..",
-    "Route escalations or approvals to: customs."
+    "Route escalations or approvals to: customs.",
+    "Show contextual links to related sections: 4, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Conditions of Exports section-la, Capture chapter 4, section 4.66, title, and page references as immutable knowledge metadata.",
     "Indha Conditions of Exports section-la, Bind validations for Conditions of Exports into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Conditions of Exports section-la, Expose document upload controls for: 4.66 Conditions of Exports\nExports kandippa be allowed by customs authorities provided endorsement made on\nshipping bill and invoice are correct and value addition achieved is not below\nminimum prescribed in FTP..",
-    "Indha Conditions of Exports section-la, Route escalations or approvals to: customs."
+    "Indha Conditions of Exports section-la, Route escalations or approvals to: customs.",
+    "Indha Conditions of Exports section-la, Show contextual links to related sections: 4, 6."
   ],
   "keywords": [
     "and",
@@ -308,7 +313,10 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "4",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.66 Conditions of Exports\nExports shall be allowed by customs authorities provided endorsement made on\nshipping bill and invoice are correct and value addition achieved is not below\nminimum prescribed in FTP."

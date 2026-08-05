@@ -24,11 +24,7 @@
   ],
   "conditions": [
     "The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.",
-    "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
-    "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
-    "REFERENCES\nS/ Document Name Document/Directory Rev Date\nN Reference\n1 Trade Net Declaration message specification TDS41-MDS-XML-\nDECLARATION-TX\n2 Trade Net Response message specification TDS41-MDS-XML-\nRESPONSE-TX\n3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules\n_2.0.doc\n4 UN/ECE WP Recommendation No.",
-    "21, Codes CEFACT/ICG/2010/IC01 12 Jul 10\nfor Types of Cargo, Packages and Packaging Material 0/Rev.1\n12 STDID Code Lists STDID-TDS41-COD\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nS/\nN | Document Name | Document/Directory\nReference | Rev | Date\n1 | Trade Net Declaration message specification | TDS41-MDS-XML-\nDECLARATION-TX | |\n2 | Trade Net Response message specification | TDS41-MDS-XML-\nRESPONSE-TX | |\n3 | UN/CEFACT XML Naming and Design Rules | Naming And Design Rules\n_2.0.doc | |\n4 | UN/ECE WP Recommendation No.",
-    "REFERENCES\nS/\nN\nDocument Name\nDocument/Directory\nReference\nRev\nDate\n1\nTrade Net Declaration message specification\nTDS41-MDS-XML-\nDECLARATION-TX\n2\nTrade Net Response message specification\nTDS41-MDS-XML-\nRESPONSE-TX\n3\nUN/CEFACT XML Naming and Design Rules\nNaming And Design Rules\n_2.0.doc\n4\nUN/ECE WP Recommendation No."
+    "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
   ],
   "condition_logic": [
     {
@@ -42,47 +38,26 @@
       "if": "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
       "then": "Route for review",
       "source": "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
-    },
-    {
-      "id": ".3.1.3",
-      "if": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
-      "then": "Route for review",
-      "source": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade."
-    },
-    {
-      "id": ".3.1.4",
-      "if": "REFERENCES\nS/ Document Name Document/Directory Rev Date\nN Reference\n1 Trade Net Declaration message specification TDS41-MDS-XML-\nDECLARATION-TX\n2 Trade Net Response message specification TDS41-MDS-XML-\nRESPONSE-TX\n3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules\n_2.0.doc\n4 UN/ECE WP Recommendation No.",
-      "then": "Route for review",
-      "source": "REFERENCES\nS/ Document Name Document/Directory Rev Date\nN Reference\n1 Trade Net Declaration message specification TDS41-MDS-XML-\nDECLARATION-TX\n2 Trade Net Response message specification TDS41-MDS-XML-\nRESPONSE-TX\n3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules\n_2.0.doc\n4 UN/ECE WP Recommendation No."
-    },
-    {
-      "id": ".3.1.5",
-      "if": "21, Codes CEFACT/ICG/2010/IC01 12 Jul 10\nfor Types of Cargo, Packages and Packaging Material 0/Rev.1\n12 STDID Code Lists STDID-TDS41-COD\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nS/\nN | Document Name | Document/Directory\nReference | Rev | Date\n1 | Trade Net Declaration message specification | TDS41-MDS-XML-\nDECLARATION-TX | |\n2 | Trade Net Response message specification | TDS41-MDS-XML-\nRESPONSE-TX | |\n3 | UN/CEFACT XML Naming and Design Rules | Naming And Design Rules\n_2.0.doc | |\n4 | UN/ECE WP Recommendation No.",
-      "then": "Route for review",
-      "source": "21, Codes CEFACT/ICG/2010/IC01 12 Jul 10\nfor Types of Cargo, Packages and Packaging Material 0/Rev.1\n12 STDID Code Lists STDID-TDS41-COD\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nS/\nN | Document Name | Document/Directory\nReference | Rev | Date\n1 | Trade Net Declaration message specification | TDS41-MDS-XML-\nDECLARATION-TX | |\n2 | Trade Net Response message specification | TDS41-MDS-XML-\nRESPONSE-TX | |\n3 | UN/CEFACT XML Naming and Design Rules | Naming And Design Rules\n_2.0.doc | |\n4 | UN/ECE WP Recommendation No."
-    },
-    {
-      "id": ".3.1.6",
-      "if": "REFERENCES\nS/\nN\nDocument Name\nDocument/Directory\nReference\nRev\nDate\n1\nTrade Net Declaration message specification\nTDS41-MDS-XML-\nDECLARATION-TX\n2\nTrade Net Response message specification\nTDS41-MDS-XML-\nRESPONSE-TX\n3\nUN/CEFACT XML Naming and Design Rules\nNaming And Design Rules\n_2.0.doc\n4\nUN/ECE WP Recommendation No.",
-      "then": "Route for review",
-      "source": "REFERENCES\nS/\nN\nDocument Name\nDocument/Directory\nReference\nRev\nDate\n1\nTrade Net Declaration message specification\nTDS41-MDS-XML-\nDECLARATION-TX\n2\nTrade Net Response message specification\nTDS41-MDS-XML-\nRESPONSE-TX\n3\nUN/CEFACT XML Naming and Design Rules\nNaming And Design Rules\n_2.0.doc\n4\nUN/ECE WP Recommendation No."
     }
   ],
   "validations": [
     "Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "8"
+  ],
   "documents": [
     "3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information.",
     "Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.",
     "The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item.",
     "A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg.",
     "invoice number, Declaration Type etc).",
-    "Trade Net Declaration",
-    "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
-    "S/ Document Name Document",
-    "21, Codes\nfor Types of Cargo, Packages and Packaging Material | CEFACT/ICG/2010/IC01\n0/Rev.1 | | 12 Jul 10\n12 | STDID Code Lists | STDID-TDS41-COD | |\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    "Trade Net Declaration"
   ],
   "required_documents": [
     "3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information.",
@@ -90,10 +65,7 @@
     "The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item.",
     "A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg.",
     "invoice number, Declaration Type etc).",
-    "Trade Net Declaration",
-    "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
-    "S/ Document Name Document",
-    "21, Codes\nfor Types of Cargo, Packages and Packaging Material | CEFACT/ICG/2010/IC01\n0/Rev.1 | | 12 Jul 10\n12 | STDID Code Lists | STDID-TDS41-COD | |\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    "Trade Net Declaration"
   ],
   "tables": [
     [
@@ -104,99 +76,6 @@
         "Ver\n4.1",
         "Reference\nTRADENET",
         "Document Id.\nTDS41-MDS-XML-IPTDEC-M"
-      ]
-    ],
-    [
-      [
-        "S/\nN",
-        "Document Name",
-        "Document/Directory\nReference",
-        "Rev",
-        "Date"
-      ],
-      [
-        "1",
-        "TradeNetDeclaration message specification",
-        "TDS41-MDS-XML-\nDECLARATION-TX",
-        "",
-        ""
-      ],
-      [
-        "2",
-        "TradeNetResponse message specification",
-        "TDS41-MDS-XML-\nRESPONSE-TX",
-        "",
-        ""
-      ],
-      [
-        "3",
-        "UN/CEFACT XML Naming and Design Rules",
-        "NamingAndDesignRules\n_2.0.doc",
-        "",
-        ""
-      ],
-      [
-        "4",
-        "UN/ECE WP Recommendation No. 3, Code for the\nRepresentation of Names of Countries - ISO Country Code",
-        "ECE/TRADE/201",
-        "",
-        "1 Jan 96"
-      ],
-      [
-        "5",
-        "UN/ECE WP Trade Facilitation Recommendation No. 9,\nAlphabetic Code for the Representation of Currencies",
-        "ECE/TRADE/203",
-        "",
-        "1 Jan 96"
-      ],
-      [
-        "6",
-        "UN/ECE WP Trade Facilitation Recommendation No. 16,\nUN/LOCODE - Code for the Trade and Transport Locations",
-        "ECE/TRADE/227",
-        "",
-        "Dec 98"
-      ],
-      [
-        "7",
-        "UN/ECE WP Trade Facilitation Recommendation No. 19, Code\nfor modes of transport",
-        "TRADE/CEFACT/2001/19",
-        "",
-        "15 Jan 01"
-      ],
-      [
-        "8",
-        "UN/ECE WP Trade Facilitation Recommendation No. 20, Codes\nfor Units of Measure Used in International Trade",
-        "CEFACT/ICG/2010/IC01\n3",
-        "",
-        "13 Sep 10"
-      ],
-      [
-        "9",
-        "Codes for Units of Measure Used in International Trade\nAnnex B: Code elements listed by Quantity",
-        "CEFACT/ICG/2010/IC01\n3\nAnnex I",
-        "",
-        "13 Sep 10"
-      ],
-      [
-        "10",
-        "Codes for Units of Measure Used in International Trade\nAnnex C: Code elements listed by common code & name",
-        "CEFACT/ICG/2010/IC01\n3\nAnnex II & Annex III",
-        "",
-        "13 Sep 10"
-      ],
-      [
-        "11",
-        "UN/ECE WP Trade Facilitation Recommendation No. 21, Codes\nfor Types of Cargo, Packages and Packaging Material",
-        "CEFACT/ICG/2010/IC01\n0/Rev.1",
-        "",
-        "12 Jul 10"
-      ],
-      [
-        "12",
-        "STDID Code Lists",
-        "STDID-TDS41-COD",
-        "",
-        ""
       ]
     ]
   ],
@@ -209,10 +88,9 @@
   "workflow": [
     "Evaluate condition: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.",
     "Evaluate condition: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
-    "Evaluate condition: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
     "Run validation: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation."
   ],
-  "workflow_ascii": "Principles\nEvaluate condition: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\n   |\n   v\nEvaluate condition: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\n   |\n   v\nEvaluate condition: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.\n   |\n   v\nRun validation: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.",
+  "workflow_ascii": "Principles\nEvaluate condition: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\n   |\n   v\nEvaluate condition: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\n   |\n   v\nRun validation: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.",
   "decision_tree": [
     "IF section 3.1 applies THEN proceed with standard DGFT workflow"
   ],
@@ -418,9 +296,9 @@
     },
     {
       "question_en": "What documents are required under Principles?",
-      "answer_en": "3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information., Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item., A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg., invoice number, Declaration Type etc)., Trade Net Declaration, FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade., S/ Document Name Document, 21, Codes\nfor Types of Cargo, Packages and Packaging Material | CEFACT/ICG/2010/IC01\n0/Rev.1 | | 12 Jul 10\n12 | STDID Code Lists | STDID-TDS41-COD | |\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "answer_en": "3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information., Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item., A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg., invoice number, Declaration Type etc)., Trade Net Declaration",
       "question_thanglish": "Indha Principles section-la, What documents are required under Principles?",
-      "answer_thanglish": "Indha Principles section-la, 3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information., Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item., A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg., invoice number, Declaration Type etc)., Trade Net Declaration, FIELD OF application\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade., S/ Document Name Document, 21, Codes\nfor Types of Cargo, Packages and Packaging Material | CEFACT/ICG/2010/IC01\n0/Rev.1 | | 12 Jul 10\n12 | STDID Code Lists | STDID-TDS41-COD | |\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+      "answer_thanglish": "Indha Principles section-la, 3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information., Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item., A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg., invoice number, Declaration Type etc)., Trade Net Declaration"
     },
     {
       "question_en": "Which authority handles Principles?",
@@ -447,13 +325,15 @@
     "Capture chapter , section 3.1, title, and page references as immutable knowledge metadata.",
     "Bind validations for Principles into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information., Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item., A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg., invoice number, Declaration Type etc)., Trade Net Declaration.",
-    "Route escalations or approvals to: Issuing Authorities, customs."
+    "Route escalations or approvals to: Issuing Authorities, customs.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 8."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Principles section-la, Capture chapter , section 3.1, title, and page references as immutable knowledge metadata.",
     "Indha Principles section-la, Bind validations for Principles into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Principles section-la, Expose document upload controls for: 3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information., Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item., A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg., invoice number, Declaration Type etc)., Trade Net Declaration.",
-    "Indha Principles section-la, Route escalations or approvals to: Issuing Authorities, customs."
+    "Indha Principles section-la, Route escalations or approvals to: Issuing Authorities, customs.",
+    "Indha Principles section-la, Show contextual links to related sections: 1, 2, 3, 4, 8."
   ],
   "keywords": [
     "the",
@@ -468,14 +348,14 @@
     "doc",
     "XML",
     "Ver",
-    "are",
-    "not",
-    "Rev",
-    "Jan",
-    "ISO",
-    "Dec",
-    "Sep",
-    "III"
+    "This",
+    "also",
+    "been",
+    "made",
+    "lieu",
+    "more",
+    "same",
+    "into"
   ],
   "search_keywords": [
     "the",
@@ -490,14 +370,14 @@
     "doc",
     "XML",
     "Ver",
-    "are",
-    "not",
-    "Rev",
-    "Jan",
-    "ISO",
-    "Dec",
-    "Sep",
-    "III"
+    "This",
+    "also",
+    "been",
+    "made",
+    "lieu",
+    "more",
+    "same",
+    "into"
   ],
   "intent": "Provide knowledge guidance for Principles.",
   "tags": [
@@ -506,21 +386,25 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "8"
+  ],
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [
     3,
-    4,
-    5
+    4
   ],
   "pages": [
     3,
-    4,
-    5
+    4
   ],
   "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
-  "raw_text": "3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information. Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item. A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-IPTDEC-M\nTrade Net Declaration.IPTDEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3. FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade. This message may be applied for both national and international trade. It is\nbased on universal practice and is not dependent on the type of business or industry.\n3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information. Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item. A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\nOFFICIAL (CLOSED)\nAM\n4. REFERENCES\nS/ Document Name Document/Directory Rev Date\nN Reference\n1 Trade Net Declaration message specification TDS41-MDS-XML-\nDECLARATION-TX\n2 Trade Net Response message specification TDS41-MDS-XML-\nRESPONSE-TX\n3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules\n_2.0.doc\n4 UN/ECE WP Recommendation No. 3, Code for the ECE/TRADE/201 1 Jan 96\nRepresentation of Names of Countries - ISO Country Code\n5 UN/ECE WP Trade Facilitation Recommendation No. 9, ECE/TRADE/203 1 Jan 96\nAlphabetic Code for the Representation of Currencies\n6 UN/ECE WP Trade Facilitation Recommendation No. 16, ECE/TRADE/227 Dec 98\nUN/LOCODE - Code for the Trade and Transport Locations\n7 UN/ECE WP Trade Facilitation Recommendation No. 19, Code TRADE/CEFACT/2001/19 15 Jan 01\nfor modes of transport\n8 UN/ECE WP Trade Facilitation Recommendation No. 20, Codes CEFACT/ICG/2010/IC01 13 Sep 10\nfor Units of Measure Used in International Trade 3\n9 Codes for Units of Measure Used in International Trade CEFACT/ICG/2010/IC01 13 Sep 10\nAnnex B: Code elements listed by Quantity 3\nAnnex I\n10 Codes for Units of Measure Used in International Trade CEFACT/ICG/2010/IC01 13 Sep 10\nAnnex C: Code elements listed by common code & name 3\nAnnex II & Annex III\n11 UN/ECE WP Trade Facilitation Recommendation No. 21, Codes CEFACT/ICG/2010/IC01 12 Jul 10\nfor Types of Cargo, Packages and Packaging Material 0/Rev.1\n12 STDID Code Lists STDID-TDS41-COD\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nS/\nN | Document Name | Document/Directory\nReference | Rev | Date\n1 | Trade Net Declaration message specification | TDS41-MDS-XML-\nDECLARATION-TX | |\n2 | Trade Net Response message specification | TDS41-MDS-XML-\nRESPONSE-TX | |\n3 | UN/CEFACT XML Naming and Design Rules | Naming And Design Rules\n_2.0.doc | |\n4 | UN/ECE WP Recommendation No. 3, Code for the\nRepresentation of Names of Countries - ISO Country Code | ECE/TRADE/201 | | 1 Jan 96\n5 | UN/ECE WP Trade Facilitation Recommendation No. 9,\nAlphabetic Code for the Representation of Currencies | ECE/TRADE/203 | | 1 Jan 96\n6 | UN/ECE WP Trade Facilitation Recommendation No. 16,\nUN/LOCODE - Code for the Trade and Transport Locations | ECE/TRADE/227 | | Dec 98\n7 | UN/ECE WP Trade Facilitation Recommendation No. 19, Code\nfor modes of transport | TRADE/CEFACT/2001/19 | | 15 Jan 01\n8 | UN/ECE WP Trade Facilitation Recommendation No. 20, Codes\nfor Units of Measure Used in International Trade | CEFACT/ICG/2010/IC01\n3 | | 13 Sep 10\n9 | Codes for Units of Measure Used in International Trade\nAnnex B: Code elements listed by Quantity | CEFACT/ICG/2010/IC01\n3\nAnnex I | | 13 Sep 10\n10 | Codes for Units of Measure Used in International Trade\nAnnex C: Code elements listed by common code & name | CEFACT/ICG/2010/IC01\n3\nAnnex II & Annex III | | 13 Sep 10\n11 | UN/ECE WP Trade Facilitation Recommendation No. 21, Codes\nfor Types of Cargo, Packages and Packaging Material | CEFACT/ICG/2010/IC01\n0/Rev.1 | | 12 Jul 10\n12 | STDID Code Lists | STDID-TDS41-COD | |\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-IPTDEC-M\nTrade Net Declaration.IPTDEC Ver2.1.doc\nOFFICIAL (CLOSED)\n4. REFERENCES\nS/\nN\nDocument Name\nDocument/Directory\nReference\nRev\nDate\n1\nTrade Net Declaration message specification\nTDS41-MDS-XML-\nDECLARATION-TX\n2\nTrade Net Response message specification\nTDS41-MDS-XML-\nRESPONSE-TX\n3\nUN/CEFACT XML Naming and Design Rules\nNaming And Design Rules\n_2.0.doc\n4\nUN/ECE WP Recommendation No. 3, Code for the\nRepresentation of Names of Countries - ISO Country Code\nECE/TRADE/201\n1 Jan 96\n5\nUN/ECE WP Trade Facilitation Recommendation No. 9,\nAlphabetic Code for the Representation of Currencies\nECE/TRADE/203\n1 Jan 96\n6\nUN/ECE WP Trade Facilitation Recommendation No. 16,\nUN/LOCODE - Code for the Trade and Transport Locations\nECE/TRADE/227\nDec 98\n7\nUN/ECE WP Trade Facilitation Recommendation No. 19, Code\nfor modes of transport\nTRADE/CEFACT/2001/19\n15 Jan 01\n8\nUN/ECE WP Trade Facilitation Recommendation No. 20, Codes\nfor Units of Measure Used in International Trade\nCEFACT/ICG/2010/IC01\n3\n13 Sep 10\n9\nCodes for Units of Measure Used in International Trade\nAnnex B: Code elements listed by Quantity\nCEFACT/ICG/2010/IC01\n3\nAnnex I\n13 Sep 10\n10\nCodes for Units of Measure Used in International Trade\nAnnex C: Code elements listed by common code & name\nCEFACT/ICG/2010/IC01\n3\nAnnex II & Annex III\n13 Sep 10\n11\nUN/ECE WP Trade Facilitation Recommendation No. 21, Codes\nfor Types of Cargo, Packages and Packaging Material\nCEFACT/ICG/2010/IC01\n0/Rev.1\n12 Jul 10\n12\nSTDID Code Lists\nSTDID-TDS41-COD\nOFFICIAL (CLOSED)\nAM\n5. DEFINITIONS AND ABBREVIATIONS",
-  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\"]\n    S2[\"Evaluate condition: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.\"]\n    S2 --> S3\n    S4[\"Run validation: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\"]\n    S3 --> S4",
-  "plantuml": "@startuml\nstart\n:Evaluate condition\\: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.;\n:Evaluate condition\\: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by\\:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11\\:10\nAM\nPrepared by\\:\nFor\\:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.;\n:Evaluate condition\\: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.;\n:Run validation\\: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.;\nstop\n@enduml"
+  "raw_text": "3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information. Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item. A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-IPTDEC-M\nTrade Net Declaration.IPTDEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information. Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item. A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\nOFFICIAL (CLOSED)\nAM",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\"]\n    S2[\"Evaluate condition: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\"]\n    S1 --> S2\n    S3[\"Run validation: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.;\n:Evaluate condition\\: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by\\:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11\\:10\nAM\nPrepared by\\:\nFor\\:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.;\n:Run validation\\: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.;\nstop\n@enduml"
 }

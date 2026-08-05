@@ -1,0 +1,35 @@
+{
+  "section": "6",
+  "ui": [
+    {
+      "screen_id": "Identifying_infrastructure_utilities_logistics_Policy_interventions_overview",
+      "name": "Identifying infrastructure/utilities/logistics/Policy interventions Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Identifying_infrastructure_utilities_logistics_Policy_interventions_submission",
+      "name": "Identifying infrastructure/utilities/logistics/Policy interventions Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "required_flag",
+        "identifying_flag",
+        "interventions_flag",
+        "infrastructure_utilities_logistics_policy_flag"
+      ]
+    }
+  ]
+}

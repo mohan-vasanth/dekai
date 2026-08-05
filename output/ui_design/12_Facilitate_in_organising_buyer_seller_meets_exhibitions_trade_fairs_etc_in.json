@@ -1,0 +1,37 @@
+{
+  "section": "12",
+  "ui": [
+    {
+      "screen_id": "Facilitate_in_organising_buyer_seller_meets_exhibitions_trade_fairs_etc_in_overview",
+      "name": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Facilitate_in_organising_buyer_seller_meets_exhibitions_trade_fairs_etc_in_submission",
+      "name": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "etc_flag",
+        "the_flag",
+        "meets_flag",
+        "trade_flag",
+        "fairs_flag",
+        "their_flag"
+      ]
+    }
+  ]
+}

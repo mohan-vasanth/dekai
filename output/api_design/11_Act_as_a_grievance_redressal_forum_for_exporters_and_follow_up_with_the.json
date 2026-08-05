@@ -1,0 +1,38 @@
+{
+  "section": "11",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/11",
+      "purpose": "Retrieve knowledge payload for section 11",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Act-as-a-grievance-redressal-forum-for-exporters-and-follow-up-with-the/validate",
+      "purpose": "Validate inputs and documents for Act as a grievance redressal forum for exporters and follow up with the",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

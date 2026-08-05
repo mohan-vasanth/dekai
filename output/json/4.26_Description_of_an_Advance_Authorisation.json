@@ -96,7 +96,11 @@
     "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c)\nAggregate CIF value of imports;\n(d)\nFOB/FOR value and quantity of exports/supplies; and\n(e)\nValidity period of import and Export Obligation Period."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "2",
+    "4",
+    "6"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -307,11 +311,13 @@
   ],
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.26, title, and page references as immutable knowledge metadata.",
-    "Bind validations for Description of an Advance Authorisation into a rule engine keyed by the rule IDs extracted for this section."
+    "Bind validations for Description of an Advance Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 2, 4, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Description of an Advance Authorisation section-la, Capture chapter 4, section 4.26, title, and page references as immutable knowledge metadata.",
-    "Indha Description of an Advance Authorisation section-la, Bind validations for Description of an Advance Authorisation into a rule engine keyed by the rule IDs extracted for this section."
+    "Indha Description of an Advance Authorisation section-la, Bind validations for Description of an Advance Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Description of an Advance Authorisation section-la, Show contextual links to related sections: 2, 4, 6."
   ],
   "keywords": [
     "and",
@@ -364,7 +370,11 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "2",
+    "4",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a) Names and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b) Quantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",

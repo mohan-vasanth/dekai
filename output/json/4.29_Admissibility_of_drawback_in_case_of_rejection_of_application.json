@@ -37,7 +37,10 @@
     "4.29 Admissibility of drawback in case of rejection of application\nCustoms authorities in terms of Do R rules against shipping bills filed and processed\nunder an Advance Authorisation, in case application for an Advance Authorisation is\nrejected or modified by Regional Authority, may permit drawback."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "2",
+    "4"
+  ],
   "documents": [
     "4.29 Admissibility of drawback in case of rejection of application\nCustoms authorities in terms of Do R rules against shipping bills filed and processed\nunder an Advance Authorisation, in case application for an Advance Authorisation is\nrejected or modified by Regional Authority, may permit drawback."
   ],
@@ -278,13 +281,15 @@
     "Capture chapter 4, section 4.29, title, and page references as immutable knowledge metadata.",
     "Bind validations for Admissibility of drawback in case of rejection of application into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 4.29 Admissibility of drawback in case of rejection of application\nCustoms authorities in terms of Do R rules against shipping bills filed and processed\nunder an Advance Authorisation, in case application for an Advance Authorisation is\nrejected or modified by Regional Authority, may permit drawback..",
-    "Route escalations or approvals to: Regional Authority, Customs."
+    "Route escalations or approvals to: Regional Authority, Customs.",
+    "Show contextual links to related sections: 2, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Admissibility of drawback in case of rejection of application section-la, Capture chapter 4, section 4.29, title, and page references as immutable knowledge metadata.",
     "Indha Admissibility of drawback in case of rejection of application section-la, Bind validations for Admissibility of drawback in case of rejection of application into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Admissibility of drawback in case of rejection of application section-la, Expose document upload controls for: 4.29 Admissibility of drawback in case of rejection of application\nCustoms authorities in terms of Do R rules against shipping bills filed and processed\nunder an Advance Authorisation, in case application for an Advance Authorisation is\nrejected or modified by Regional authority, may permit drawback..",
-    "Indha Admissibility of drawback in case of rejection of application section-la, Route escalations or approvals to: Regional authority, Customs."
+    "Indha Admissibility of drawback in case of rejection of application section-la, Route escalations or approvals to: Regional authority, Customs.",
+    "Indha Admissibility of drawback in case of rejection of application section-la, Show contextual links to related sections: 2, 4."
   ],
   "keywords": [
     "and",
@@ -337,7 +342,10 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "2",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [

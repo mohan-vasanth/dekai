@@ -1,0 +1,38 @@
+{
+  "section": "4",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4",
+      "purpose": "Retrieve knowledge payload for section 4",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Goods-and-services-being-manufactured-produced-in-the-district/validate",
+      "purpose": "Validate inputs and documents for Goods and services being manufactured/produced in the district,",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

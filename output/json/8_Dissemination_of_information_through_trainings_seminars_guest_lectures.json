@@ -1,0 +1,293 @@
+{
+  "chapter_number": "3",
+  "chapter_title": "Developing Districts as Export Hubs",
+  "section": "8",
+  "title": "Dissemination of information through trainings, seminars, guest lectures,",
+  "purpose": "Defines the operational requirements for Dissemination of information through trainings, seminars, guest lectures,.",
+  "purpose_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, Defines the operational requirements for Dissemination of information through trainings, seminars, guest lectures,.",
+  "summary": "8. Dissemination of information through trainings, seminars, guest lectures,\npractical training, and exchange visits with other Districts of excellence.",
+  "business_meaning": "8.",
+  "business_explanation": "8. Dissemination of information through trainings, seminars, guest lectures,\npractical training, and exchange visits with other Districts of excellence.",
+  "business_explanation_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, 8. Dissemination of information through trainings, seminars, guest lectures,\npractical training, and exchange visits with other Districts of excellence.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH3-SEC8-R001",
+      "rule_description": "8. Dissemination of information through trainings, seminars, guest lectures,\npractical training, and exchange visits with other Districts of excellence.",
+      "trigger": "Dissemination of information through trainings, seminars, guest lectures,",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 8 - Dissemination of information through trainings, seminars, guest lectures,."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 8 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Dissemination of information through trainings, seminars, guest lectures,\nReview section 8 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 8 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Dissemination of information through trainings, seminars, guest lectures, Decision\nIF section 8 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Dissemination of information through trainings, seminars, guest lectures,; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Dissemination of information through trainings, seminars, guest lectures,, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the dissemination of information through trainings, seminars, guest lectures, process.",
+  "real_world_example_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, Example: an importer or exporter invokes Dissemination of information through trainings, seminars, guest lectures,, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the dissemination of information through trainings, seminars, guest lectures, process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "with_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:with"
+    },
+    {
+      "name": "guest_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:guest"
+    },
+    {
+      "name": "other_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:other"
+    },
+    {
+      "name": "visits_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:visits"
+    },
+    {
+      "name": "through_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:through"
+    },
+    {
+      "name": "seminars_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:seminars"
+    },
+    {
+      "name": "lectures_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:lectures"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/8",
+      "purpose": "Retrieve knowledge payload for section 8",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Dissemination-of-information-through-trainings-seminars-guest-lectures/validate",
+      "purpose": "Validate inputs and documents for Dissemination of information through trainings, seminars, guest lectures,",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Dissemination_of_information_through_trainings_seminars_guest_lectures_overview",
+      "name": "Dissemination of information through trainings, seminars, guest lectures, Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Dissemination_of_information_through_trainings_seminars_guest_lectures_submission",
+      "name": "Dissemination of information through trainings, seminars, guest lectures, Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "with_flag",
+        "guest_flag",
+        "other_flag",
+        "visits_flag",
+        "through_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Dissemination of information through trainings, seminars, guest lectures, require?",
+    "Which documents are needed for Dissemination of information through trainings, seminars, guest lectures,?",
+    "How does DEKAI validate Dissemination of information through trainings, seminars, guest lectures, requests?"
+  ],
+  "expected_ai_answers": [
+    "Dissemination of information through trainings, seminars, guest lectures, requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Dissemination of information through trainings, seminars, guest lectures, by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 8?",
+      "answer_en": "8. Dissemination of information through trainings, seminars, guest lectures,\npractical training, and exchange visits with other Districts of excellence.",
+      "question_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, What is the purpose of section 8?",
+      "answer_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, 8. Dissemination of information through trainings, seminars, guest lectures,\npractical training, and exchange visits with other Districts of excellence."
+    },
+    {
+      "question_en": "What documents are required under Dissemination of information through trainings, seminars, guest lectures,?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, What documents are required under Dissemination of information through trainings, seminars, guest lectures,?",
+      "answer_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Dissemination of information through trainings, seminars, guest lectures,?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, Which authority handles Dissemination of information through trainings, seminars, guest lectures,?",
+      "answer_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Dissemination of information through trainings, seminars, guest lectures,?",
+      "answer_en": "AI answers: DEKAI should evaluate section 8, apply the extracted rules, and guide the user through Review section 8 requirements.",
+      "question_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, User asks: How do I comply with Dissemination of information through trainings, seminars, guest lectures,?",
+      "answer_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, AI answers: DEKAI should evaluate section 8, apply the extracted rules, and guide the user through Review section 8 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Dissemination of information through trainings, seminars, guest lectures,?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, User asks: Which validations apply to Dissemination of information through trainings, seminars, guest lectures,?",
+      "answer_thanglish": "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 3, section 8, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Dissemination of information through trainings, seminars, guest lectures, into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, Capture chapter 3, section 8, title, and page references as immutable knowledge metadata.",
+    "Indha Dissemination of information through trainings, seminars, guest lectures, section-la, Bind validations for Dissemination of information through trainings, seminars, guest lectures, into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "and",
+    "with",
+    "guest",
+    "other",
+    "visits",
+    "through",
+    "seminars",
+    "lectures",
+    "training",
+    "exchange",
+    "trainings",
+    "practical",
+    "Districts",
+    "excellence",
+    "information",
+    "Dissemination"
+  ],
+  "search_keywords": [
+    "and",
+    "with",
+    "guest",
+    "other",
+    "visits",
+    "through",
+    "seminars",
+    "lectures",
+    "training",
+    "exchange",
+    "trainings",
+    "practical",
+    "Districts",
+    "excellence",
+    "information",
+    "Dissemination"
+  ],
+  "intent": "Provide knowledge guidance for Dissemination of information through trainings, seminars, guest lectures,.",
+  "tags": [
+    "8",
+    "Dissemination of information through trainings, seminars, guest lectures,",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    4
+  ],
+  "pages": [
+    4
+  ],
+  "source_document": "HBP2023_Chapter03.pdf",
+  "raw_text": "8. Dissemination of information through trainings, seminars, guest lectures,\npractical training, and exchange visits with other Districts of excellence.",
+  "mermaid": "flowchart TD\n    S1[\"Review section 8 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 8 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

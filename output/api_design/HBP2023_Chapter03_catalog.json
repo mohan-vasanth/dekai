@@ -3,7 +3,31 @@
     "Policy",
     "Objective-of-policy",
     "District-Export-Promotion-Committees-Institutional-Mechanism-at",
+    "Prepare-a-time-bound-detailed-District-Export-Action-strategy-plan-for",
+    "Benchmarking-baseline-export-performance-of-the-district-including",
+    "Comprehensive-analysis-of-the-strength-of-each-district-and-the-gaps-in",
+    "Goods-and-services-being-manufactured-produced-in-the-district",
+    "Map-the-existing-trade-infrastructure-available-for-thrust-sector-in-the",
+    "Identify-major-bottlenecks-and-challenges-hindering-export-of-thrust",
+    "Identifying-training-and-development-needs-of-District-industries-and",
+    "Dissemination-of-information-through-trainings-seminars-guest-lectures",
+    "Act-as-one-point-facilitator-for-export-promotion-at-District-level",
+    "Entry-of-all-district-level-data-information-progress-into-the-portal",
+    "Act-as-a-grievance-redressal-forum-for-exporters-and-follow-up-with-the",
+    "Facilitate-in-organising-buyer-seller-meets-exhibitions-trade-fairs-etc-in",
+    "Implementing-the-District-Export-Action-Plan-in-a-phased-manner-to",
     "District-Export-Action-Plans-for-Each-District",
+    "District-Profile",
+    "Industry-Profile",
+    "Comprehensive-analysis-of-the-major-products-Goods-and-Services",
+    "Identifying-the-bottlenecks-faced-by-the-Industry",
+    "Identifying-institutional-responsibilities-specifics-of-policy",
+    "Identifying-infrastructure-utilities-logistics-Policy-interventions",
+    "Action-Plan-must-identify-quantifiable-targets-with-specific-timelines",
+    "Clear-identification-of-incentives-Support-provided-by-the-State-and",
+    "Training-and-development-needs-for-identified-export",
+    "Analysis-of-the-export-data-of-the-District-and-ways-and-means-to",
+    "Mid-term-and-long-term-export-strategy-suggestions-to-promote",
     "State-UT-Export-Promotion-Committees",
     "Nodal-DGFT-Regional-Authority",
     "Online-Monitoring-of-District-Export-Action-Plans",
@@ -128,6 +152,513 @@
       ]
     },
     {
+      "section": "1",
+      "title": "Prepare a time-bound, detailed District Export Action strategy / plan for",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/1",
+          "purpose": "Retrieve knowledge payload for section 1",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Prepare-a-time-bound-detailed-District-Export-Action-strategy-plan-for/validate",
+          "purpose": "Validate inputs and documents for Prepare a time-bound, detailed District Export Action strategy / plan for",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2",
+      "title": "Benchmarking baseline export performance of the district, including",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/2",
+          "purpose": "Retrieve knowledge payload for section 2",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Benchmarking-baseline-export-performance-of-the-district-including/validate",
+          "purpose": "Validate inputs and documents for Benchmarking baseline export performance of the district, including",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3",
+      "title": "Comprehensive analysis of the strength of each district and the gaps in",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3",
+          "purpose": "Retrieve knowledge payload for section 3",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Comprehensive-analysis-of-the-strength-of-each-district-and-the-gaps-in/validate",
+          "purpose": "Validate inputs and documents for Comprehensive analysis of the strength of each district and the gaps in",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4",
+      "title": "Goods and services being manufactured/produced in the district,",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4",
+          "purpose": "Retrieve knowledge payload for section 4",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Goods-and-services-being-manufactured-produced-in-the-district/validate",
+          "purpose": "Validate inputs and documents for Goods and services being manufactured/produced in the district,",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5",
+      "title": "Map the existing trade infrastructure available for thrust sector in the",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5",
+          "purpose": "Retrieve knowledge payload for section 5",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Map-the-existing-trade-infrastructure-available-for-thrust-sector-in-the/validate",
+          "purpose": "Validate inputs and documents for Map the existing trade infrastructure available for thrust sector in the",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6",
+      "title": "Identify major bottlenecks and challenges hindering export of thrust",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6",
+          "purpose": "Retrieve knowledge payload for section 6",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Identify-major-bottlenecks-and-challenges-hindering-export-of-thrust/validate",
+          "purpose": "Validate inputs and documents for Identify major bottlenecks and challenges hindering export of thrust",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7",
+      "title": "Identifying training and development needs of District industries and",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7",
+          "purpose": "Retrieve knowledge payload for section 7",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Identifying-training-and-development-needs-of-District-industries-and/validate",
+          "purpose": "Validate inputs and documents for Identifying training and development needs of District industries and",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "8",
+      "title": "Dissemination of information through trainings, seminars, guest lectures,",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/8",
+          "purpose": "Retrieve knowledge payload for section 8",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Dissemination-of-information-through-trainings-seminars-guest-lectures/validate",
+          "purpose": "Validate inputs and documents for Dissemination of information through trainings, seminars, guest lectures,",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "9",
+      "title": "Act as one point facilitator for export promotion at District level.",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/9",
+          "purpose": "Retrieve knowledge payload for section 9",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Act-as-one-point-facilitator-for-export-promotion-at-District-level/validate",
+          "purpose": "Validate inputs and documents for Act as one point facilitator for export promotion at District level.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10",
+      "title": "Entry of all district level data/ information/progress into the portal",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10",
+          "purpose": "Retrieve knowledge payload for section 10",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Entry-of-all-district-level-data-information-progress-into-the-portal/validate",
+          "purpose": "Validate inputs and documents for Entry of all district level data/ information/progress into the portal",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "11",
+      "title": "Act as a grievance redressal forum for exporters and follow up with the",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/11",
+          "purpose": "Retrieve knowledge payload for section 11",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Act-as-a-grievance-redressal-forum-for-exporters-and-follow-up-with-the/validate",
+          "purpose": "Validate inputs and documents for Act as a grievance redressal forum for exporters and follow up with the",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "12",
+      "title": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/12",
+          "purpose": "Retrieve knowledge payload for section 12",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Facilitate-in-organising-buyer-seller-meets-exhibitions-trade-fairs-etc-in/validate",
+          "purpose": "Validate inputs and documents for Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "13",
+      "title": "Implementing the District Export Action Plan in a phased manner to",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/13",
+          "purpose": "Retrieve knowledge payload for section 13",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Implementing-the-District-Export-Action-Plan-in-a-phased-manner-to/validate",
+          "purpose": "Validate inputs and documents for Implementing the District Export Action Plan in a phased manner to",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
       "section": "3.05",
       "title": "District Export Action Plans for Each District",
       "apis": [
@@ -153,6 +684,435 @@
           "method": "POST",
           "path": "/api/dgft/District-Export-Action-Plans-for-Each-District/validate",
           "purpose": "Validate inputs and documents for District Export Action Plans for Each District",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1",
+      "title": "District Profile",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/1",
+          "purpose": "Retrieve knowledge payload for section 1",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/District-Profile/validate",
+          "purpose": "Validate inputs and documents for District Profile",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2",
+      "title": "Industry Profile",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/2",
+          "purpose": "Retrieve knowledge payload for section 2",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Industry-Profile/validate",
+          "purpose": "Validate inputs and documents for Industry Profile",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3",
+      "title": "Comprehensive analysis of the major products (Goods and Services)",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/3",
+          "purpose": "Retrieve knowledge payload for section 3",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Comprehensive-analysis-of-the-major-products-Goods-and-Services/validate",
+          "purpose": "Validate inputs and documents for Comprehensive analysis of the major products (Goods and Services)",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4",
+      "title": "Identifying the bottlenecks faced by the Industry.",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/4",
+          "purpose": "Retrieve knowledge payload for section 4",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Identifying-the-bottlenecks-faced-by-the-Industry/validate",
+          "purpose": "Validate inputs and documents for Identifying the bottlenecks faced by the Industry.",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5",
+      "title": "Identifying institutional responsibilities, specifics of policy,",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/5",
+          "purpose": "Retrieve knowledge payload for section 5",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Identifying-institutional-responsibilities-specifics-of-policy/validate",
+          "purpose": "Validate inputs and documents for Identifying institutional responsibilities, specifics of policy,",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6",
+      "title": "Identifying infrastructure/utilities/logistics/Policy interventions",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/6",
+          "purpose": "Retrieve knowledge payload for section 6",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Identifying-infrastructure-utilities-logistics-Policy-interventions/validate",
+          "purpose": "Validate inputs and documents for Identifying infrastructure/utilities/logistics/Policy interventions",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7",
+      "title": "Action Plan must identify quantifiable targets with specific timelines",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/7",
+          "purpose": "Retrieve knowledge payload for section 7",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Action-Plan-must-identify-quantifiable-targets-with-specific-timelines/validate",
+          "purpose": "Validate inputs and documents for Action Plan must identify quantifiable targets with specific timelines",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "8",
+      "title": "Clear identification of incentives/Support provided by the State and",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/8",
+          "purpose": "Retrieve knowledge payload for section 8",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Clear-identification-of-incentives-Support-provided-by-the-State-and/validate",
+          "purpose": "Validate inputs and documents for Clear identification of incentives/Support provided by the State and",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "9",
+      "title": "Training and development needs for identified export",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/9",
+          "purpose": "Retrieve knowledge payload for section 9",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Training-and-development-needs-for-identified-export/validate",
+          "purpose": "Validate inputs and documents for Training and development needs for identified export",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "10",
+      "title": "Analysis of the export data of the District and ways and means to",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/10",
+          "purpose": "Retrieve knowledge payload for section 10",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Analysis-of-the-export-data-of-the-District-and-ways-and-means-to/validate",
+          "purpose": "Validate inputs and documents for Analysis of the export data of the District and ways and means to",
+          "request_fields": [
+            "section_code",
+            "section_title"
+          ],
+          "response_fields": [
+            "status",
+            "errors",
+            "warnings",
+            "next_actions"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "11",
+      "title": "Mid-term and long-term export strategy/suggestions to promote",
+      "apis": [
+        {
+          "method": "GET",
+          "path": "/api/dgft/sections/11",
+          "purpose": "Retrieve knowledge payload for section 11",
+          "query_params": [
+            "include=workflow,decision_tree,validations"
+          ],
+          "response_fields": [
+            "section",
+            "title",
+            "summary",
+            "conditions",
+            "validations",
+            "exceptions",
+            "workflow",
+            "decision_tree"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Mid-term-and-long-term-export-strategy-suggestions-to-promote/validate",
+          "purpose": "Validate inputs and documents for Mid-term and long-term export strategy/suggestions to promote",
           "request_fields": [
             "section_code",
             "section_title"

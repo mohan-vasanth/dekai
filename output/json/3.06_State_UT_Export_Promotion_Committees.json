@@ -63,7 +63,10 @@
     "The designated RA of DGFT shall\nfunction as a local support to the State government on all matters related to trade and\ncommerce."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "3",
+    "6"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -303,12 +306,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 3, section 3.06, title, and page references as immutable knowledge metadata.",
     "Bind validations for State/UT Export Promotion Committees into a rule engine keyed by the rule IDs extracted for this section.",
-    "Route escalations or approvals to: DGFT, State/UT Export Promotion Committees, Export Promotion Committee, To synergise the efforts of the Department of Commerce/DGFT."
+    "Route escalations or approvals to: DGFT, State/UT Export Promotion Committees, Export Promotion Committee, To synergise the efforts of the Department of Commerce/DGFT.",
+    "Show contextual links to related sections: 3, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha State/UT Export Promotion Committees section-la, Capture chapter 3, section 3.06, title, and page references as immutable knowledge metadata.",
     "Indha State/UT Export Promotion Committees section-la, Bind validations for State/UT export Promotion Committees into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha State/UT Export Promotion Committees section-la, Route escalations or approvals to: DGFT, State/UT export Promotion Committees, export Promotion Committee, To synergise the efforts of the Department of Commerce/DGFT."
+    "Indha State/UT Export Promotion Committees section-la, Route escalations or approvals to: DGFT, State/UT export Promotion Committees, export Promotion Committee, To synergise the efforts of the Department of Commerce/DGFT.",
+    "Indha State/UT Export Promotion Committees section-la, Show contextual links to related sections: 3, 6."
   ],
   "keywords": [
     "the",
@@ -361,7 +366,10 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "3",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "3.06 State/UT Export Promotion Committees\nTo synergise the efforts of the Department of Commerce/DGFT and the State/UT\ngovernments in promotion of exports from the State, each State shall constitute a\nState Export Promotion Committee(SEPC) headed by Chief Secretary of the State.",

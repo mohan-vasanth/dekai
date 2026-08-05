@@ -59,7 +59,9 @@
     "(II)\nPayment through General/ Private Insurance companies:\nAmount of Insurance Cover for transit loss by General Insurance and Private\nApproved Insurance Companies in India would be treated as payment realized\nfor exports under various export promotion schemes."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1"
+  ],
   "documents": [
     "(a) An applicant realizing export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
     "(b) If the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing.",
@@ -353,13 +355,15 @@
     "Capture chapter 2, section 2.71, title, and page references as immutable knowledge metadata.",
     "Bind validations for Admissibility of benefits on payment through insurance cover into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: (a) An applicant realizing export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency., (b) If the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing., (a)\nAn applicant realizing export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency., (b)\nIf the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing..",
-    "Route escalations or approvals to: RA, DGFT, Additional DGFT, BRC value) in EDI system of DGFT."
+    "Route escalations or approvals to: RA, DGFT, Additional DGFT, BRC value) in EDI system of DGFT.",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Admissibility of benefits on payment through insurance cover section-la, Capture chapter 2, section 2.71, title, and page references as immutable knowledge metadata.",
     "Indha Admissibility of benefits on payment through insurance cover section-la, Bind validations for Admissibility of benefits on payment through insurance cover into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Admissibility of benefits on payment through insurance cover section-la, Expose document upload controls for: (a) An applicant realizing export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency., (b) If the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing., (a)\nAn applicant realizing export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency., (b)\nIf the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing..",
-    "Indha Admissibility of benefits on payment through insurance cover section-la, Route escalations or approvals to: RA, DGFT, Additional DGFT, BRC value) in EDI system of DGFT."
+    "Indha Admissibility of benefits on payment through insurance cover section-la, Route escalations or approvals to: RA, DGFT, Additional DGFT, BRC value) in EDI system of DGFT.",
+    "Indha Admissibility of benefits on payment through insurance cover section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "for",
@@ -412,7 +416,9 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [

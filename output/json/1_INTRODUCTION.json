@@ -1,0 +1,355 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "section": "1",
+  "title": "INTRODUCTION",
+  "purpose": "INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.",
+  "purpose_thanglish": "Indha INTRODUCTION section-la, INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.",
+  "summary": "1. INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport. This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+  "business_meaning": "INTRODUCTION governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "INTRODUCTION explains the operating rule set that DEKAI should enforce. Key control points include This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+  "business_explanation_thanglish": "Indha INTRODUCTION section-la, INTRODUCTION explains the operating rule set that DEKAI should enforce. Key control points include This document kandippa be used as a baseline for the interface software design and kandippa be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+  "business_logic": [
+    "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC1-R001",
+      "rule_description": "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+      "trigger": "INTRODUCTION",
+      "condition": "INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.",
+      "validation": "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1 - INTRODUCTION."
+    }
+  ],
+  "conditions": [
+    "INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.",
+    "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+  ],
+  "condition_logic": [
+    {
+      "id": ".1.1",
+      "if": "INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.",
+      "then": "Route for review",
+      "source": "INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport."
+    },
+    {
+      "id": ".1.2",
+      "if": "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+      "then": "Route for review",
+      "source": "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+    }
+  ],
+  "validations": [
+    "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+  ],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [
+    "This specification provides the definition of the Customs Declaration",
+    "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+  ],
+  "required_documents": [
+    "This specification provides the definition of the Customs Declaration",
+    "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+  ],
+  "tables": [],
+  "authorities": [
+    "Customs",
+    "This specification provides the definition of the Customs",
+    "Singapore Customs"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.",
+    "Evaluate condition: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+    "Run validation: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+  ],
+  "workflow_ascii": "INTRODUCTION\nEvaluate condition: INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.\n   |\n   v\nEvaluate condition: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.\n   |\n   v\nRun validation: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+  "decision_tree": [
+    "IF section 1 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "INTRODUCTION Decision\nIF section 1 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process INTRODUCTION; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes INTRODUCTION, submits This specification provides the definition of the Customs Declaration, This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd., and DEKAI uses the extracted rules to follow the introduction process.",
+  "real_world_example_thanglish": "Indha INTRODUCTION section-la, Example: an importer or exporter invokes INTRODUCTION, submits This specification provides the definition of the Customs Declaration, This document kandippa be used as a baseline for the interface software design and kandippa be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd., and DEKAI uses the extracted rules to follow the introduction process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "xml_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:XML"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "pte_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Pte"
+    },
+    {
+      "name": "ltd_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Ltd"
+    },
+    {
+      "name": "this_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:This"
+    },
+    {
+      "name": "used_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:used"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "This specification provides the definition of the Customs Declaration"
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/1",
+      "purpose": "Retrieve knowledge payload for section 1",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/INTRODUCTION/validate",
+      "purpose": "Validate inputs and documents for INTRODUCTION",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "INTRODUCTION_overview",
+      "name": "INTRODUCTION Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "INTRODUCTION_submission",
+      "name": "INTRODUCTION Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "xml_flag",
+        "and_flag",
+        "for_flag",
+        "pte_flag",
+        "ltd_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does INTRODUCTION require?",
+    "Which documents are needed for INTRODUCTION?",
+    "How does DEKAI validate INTRODUCTION requests?"
+  ],
+  "expected_ai_answers": [
+    "INTRODUCTION requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: This specification provides the definition of the Customs Declaration, This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+    "DEKAI validates INTRODUCTION by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 1?",
+      "answer_en": "INTRODUCTION explains the operating rule set that DEKAI should enforce. Key control points include This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+      "question_thanglish": "Indha INTRODUCTION section-la, What is the purpose of section 1?",
+      "answer_thanglish": "Indha INTRODUCTION section-la, INTRODUCTION explains the operating rule set that DEKAI should enforce. Key control points include This document kandippa be used as a baseline for the interface software design and kandippa be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+    },
+    {
+      "question_en": "What documents are required under INTRODUCTION?",
+      "answer_en": "This specification provides the definition of the Customs Declaration, This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+      "question_thanglish": "Indha INTRODUCTION section-la, What documents are required under INTRODUCTION?",
+      "answer_thanglish": "Indha INTRODUCTION section-la, This specification provides the definition of the Customs Declaration, This document kandippa be used as a baseline for the interface software design and kandippa be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+    },
+    {
+      "question_en": "Which authority handles INTRODUCTION?",
+      "answer_en": "Customs, This specification provides the definition of the Customs, Singapore Customs",
+      "question_thanglish": "Indha INTRODUCTION section-la, Which authority handles INTRODUCTION?",
+      "answer_thanglish": "Indha INTRODUCTION section-la, Customs, This specification provides the definition of the Customs, Singapore Customs"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with INTRODUCTION?",
+      "answer_en": "AI answers: DEKAI should evaluate section 1, apply the extracted rules, and guide the user through Evaluate condition: INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport..",
+      "question_thanglish": "Indha INTRODUCTION section-la, User asks: How do I comply with INTRODUCTION?",
+      "answer_thanglish": "Indha INTRODUCTION section-la, AI answers: DEKAI should evaluate section 1, apply the extracted rules, and guide the user through Evaluate condition: INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to INTRODUCTION?",
+      "answer_en": "AI answers: Applicable validations are This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+      "question_thanglish": "Indha INTRODUCTION section-la, User asks: Which validations apply to INTRODUCTION?",
+      "answer_thanglish": "Indha INTRODUCTION section-la, AI answers: Applicable validations are This document kandippa be used as a baseline for the interface software design and kandippa be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter , section 1, title, and page references as immutable knowledge metadata.",
+    "Bind validations for INTRODUCTION into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: This specification provides the definition of the Customs Declaration, This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd..",
+    "Route escalations or approvals to: Customs, This specification provides the definition of the Customs, Singapore Customs."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha INTRODUCTION section-la, Capture chapter , section 1, title, and page references as immutable knowledge metadata.",
+    "Indha INTRODUCTION section-la, Bind validations for INTRODUCTION into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha INTRODUCTION section-la, Expose document upload controls for: This specification provides the definition of the Customs Declaration, This document kandippa be used as a baseline for the interface software design and kandippa be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd..",
+    "Indha INTRODUCTION section-la, Route escalations or approvals to: Customs, This specification provides the definition of the Customs, Singapore Customs."
+  ],
+  "keywords": [
+    "the",
+    "XML",
+    "and",
+    "for",
+    "Pte",
+    "Ltd",
+    "This",
+    "used",
+    "upon",
+    "from",
+    "shall",
+    "Logic",
+    "Markup",
+    "design",
+    "agreed",
+    "Customs",
+    "message",
+    "between",
+    "trading",
+    "Crimson"
+  ],
+  "search_keywords": [
+    "the",
+    "XML",
+    "and",
+    "for",
+    "Pte",
+    "Ltd",
+    "This",
+    "used",
+    "upon",
+    "from",
+    "shall",
+    "Logic",
+    "Markup",
+    "design",
+    "agreed",
+    "Customs",
+    "message",
+    "between",
+    "trading",
+    "Crimson"
+  ],
+  "intent": "Provide knowledge guidance for INTRODUCTION.",
+  "tags": [
+    "1",
+    "INTRODUCTION",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+  ],
+  "page_numbers": [
+    2
+  ],
+  "pages": [
+    2
+  ],
+  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+  "raw_text": "1. INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.\nThis document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.\"]\n    S2[\"Evaluate condition: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.\"]\n    S1 --> S2\n    S3[\"Run validation: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.;\n:Evaluate condition\\: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.;\n:Run validation\\: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.;\nstop\n@enduml"
+}

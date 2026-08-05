@@ -37,7 +37,10 @@
     "10.18 Record Keeping\nEvery SCOMET export authorisation holder (including for GAICT and GAEC) shall\nmaintain all the relevant records, including all the documents submitted while\nmaking an application for SCOMET Authorisation, in manual or electronic form, for\na period of 5 years or till validity of export authorisation, whichever is higher, from\nthe date of export or import, as applicable."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "5"
+  ],
   "documents": [
     "10.18 Record Keeping\nEvery SCOMET export authorisation holder (including for GAICT and GAEC) shall\nmaintain all the relevant records, including all the documents submitted while\nmaking an application for SCOMET Authorisation, in manual or electronic form, for\na period of 5 years or till validity of export authorisation, whichever is higher, from\nthe date of export or import, as applicable."
   ],
@@ -276,12 +279,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 10, section 10.18, title, and page references as immutable knowledge metadata.",
     "Bind validations for Record Keeping into a rule engine keyed by the rule IDs extracted for this section.",
-    "Expose document upload controls for: 10.18 Record Keeping\nEvery SCOMET export authorisation holder (including for GAICT and GAEC) shall\nmaintain all the relevant records, including all the documents submitted while\nmaking an application for SCOMET Authorisation, in manual or electronic form, for\na period of 5 years or till validity of export authorisation, whichever is higher, from\nthe date of export or import, as applicable.."
+    "Expose document upload controls for: 10.18 Record Keeping\nEvery SCOMET export authorisation holder (including for GAICT and GAEC) shall\nmaintain all the relevant records, including all the documents submitted while\nmaking an application for SCOMET Authorisation, in manual or electronic form, for\na period of 5 years or till validity of export authorisation, whichever is higher, from\nthe date of export or import, as applicable..",
+    "Show contextual links to related sections: 1, 5."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Record Keeping section-la, Capture chapter 10, section 10.18, title, and page references as immutable knowledge metadata.",
     "Indha Record Keeping section-la, Bind validations for Record Keeping into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Record Keeping section-la, Expose document upload controls for: 10.18 Record Keeping\nEvery SCOMET export authorisation holder (including for GAICT and GAEC) kandippa\nmaintain all the relevant records, including all the documents submitted while\nmaking an application for SCOMET Authorisation, in manual or electronic form, for\na period of 5 years or till validity of export authorisation, whichever is higher, from\nthe date of export or import, as applicable.."
+    "Indha Record Keeping section-la, Expose document upload controls for: 10.18 Record Keeping\nEvery SCOMET export authorisation holder (including for GAICT and GAEC) kandippa\nmaintain all the relevant records, including all the documents submitted while\nmaking an application for SCOMET Authorisation, in manual or electronic form, for\na period of 5 years or till validity of export authorisation, whichever is higher, from\nthe date of export or import, as applicable..",
+    "Indha Record Keeping section-la, Show contextual links to related sections: 1, 5."
   ],
   "keywords": [
     "for",
@@ -335,7 +340,10 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "5"
+  ],
   "related_chapters": [],
   "related_rules": [
     "10.18 Record Keeping\nEvery SCOMET export authorisation holder (including for GAICT and GAEC) shall\nmaintain all the relevant records, including all the documents submitted while\nmaking an application for SCOMET Authorisation, in manual or electronic form, for\na period of 5 years or till validity of export authorisation, whichever is higher, from\nthe date of export or import, as applicable."

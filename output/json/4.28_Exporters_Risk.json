@@ -30,7 +30,10 @@
     "4.28 Exporters Risk\nExports / supplies made in anticipation of grant of an Advance Authorisation shall\nbe entirely on risk and responsibility of exporter."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "2",
+    "4"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -233,11 +236,13 @@
   ],
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.28, title, and page references as immutable knowledge metadata.",
-    "Bind validations for Exporters Risk into a rule engine keyed by the rule IDs extracted for this section."
+    "Bind validations for Exporters Risk into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 2, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Exporters Risk section-la, Capture chapter 4, section 4.28, title, and page references as immutable knowledge metadata.",
-    "Indha Exporters Risk section-la, Bind validations for Exporters Risk into a rule engine keyed by the rule IDs extracted for this section."
+    "Indha Exporters Risk section-la, Bind validations for Exporters Risk into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Exporters Risk section-la, Show contextual links to related sections: 2, 4."
   ],
   "keywords": [
     "and",
@@ -278,7 +283,10 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "2",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.28 Exporters Risk\nExports / supplies made in anticipation of grant of an Advance Authorisation shall\nbe entirely on risk and responsibility of exporter."

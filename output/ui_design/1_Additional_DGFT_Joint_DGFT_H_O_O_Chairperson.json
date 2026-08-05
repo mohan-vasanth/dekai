@@ -1,0 +1,35 @@
+{
+  "section": "1",
+  "ui": [
+    {
+      "screen_id": "Additional_DGFT_Joint_DGFT_H_O_O_Chairperson_overview",
+      "name": "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Additional_DGFT_Joint_DGFT_H_O_O_Chairperson_submission",
+      "name": "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "dgft_flag",
+        "additional_flag",
+        "dgft_joint_flag",
+        "chairperson_flag"
+      ]
+    }
+  ]
+}

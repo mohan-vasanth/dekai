@@ -14,5 +14,21 @@
       "chunking": "500-800 tokens with overlap"
     }
   },
-  "users": {}
+  "users": {
+    "admin@dekai.ai": {
+      "theme": "system",
+      "language": "English",
+      "aiModel": "GPT-4.1 / Claude / Gemini compatible",
+      "knowledgeStatus": "Ready",
+      "version": "2026.07",
+      "about": "DEKAI AI is a DGFT, customs, import, and export knowledge assistant for grounded AI retrieval.",
+      "metadata": {
+        "knowledgeBaseName": "DEKAI DGFT Knowledge Base",
+        "generatedAt": null,
+        "vectorDatabase": "pgvector",
+        "embeddings": "text-embedding-3-large",
+        "chunking": "500-800 tokens with overlap"
+      }
+    }
+  }
 }

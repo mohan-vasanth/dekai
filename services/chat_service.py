@@ -15,6 +15,19 @@ FAILED_DOCUMENT_MESSAGE = (
     "This document has not been processed successfully and is not available in the Knowledge Base. "
     "Please resolve the processing issue or upload the document again before asking questions."
 )
+DGFT_DOCUMENT_HINTS = (
+    "dgft",
+    "ftp",
+    "foreign trade policy",
+    "hbp",
+    "handbook of procedures",
+    "hand book of procedures",
+    "chapter",
+    "appendix",
+    "notification",
+    "public notice",
+    "trade notice",
+)
 FAILED_DOCUMENT_STOPWORDS = {
     "pdf",
     "document",
@@ -164,15 +177,37 @@ def _normalize(value: str) -> str:
     return " ".join((value or "").lower().split())
 
 
+def _normalize_alnum_words(value: str) -> str:
+    return _normalize(re.sub(r"[^A-Za-z0-9]+", " ", str(value or "")))
+
+
 def _document_aliases(value: str) -> list[str]:
     cleaned = str(value or "").strip()
     if not cleaned:
         return []
     stem = re.sub(r"\.[a-z0-9]{1,6}$", "", cleaned, flags=re.IGNORECASE)
+    normalized_cleaned = _normalize_alnum_words(cleaned)
+    normalized_stem = _normalize_alnum_words(stem)
     aliases = [
         _normalize(cleaned.replace("_", " ").replace("-", " ")),
         _normalize(stem.replace("_", " ").replace("-", " ")),
+        normalized_cleaned,
+        normalized_stem,
     ]
+    aliases.extend(token for token in _document_tokens(normalized_stem) if len(token) >= 3)
+
+    chapter_match = re.search(r"\bchapter\s*(\d{1,2})\b", normalized_stem)
+    if chapter_match:
+        chapter_number = chapter_match.group(1)
+        aliases.extend(
+            [
+                f"chapter {chapter_number}",
+                f"hbp chapter {chapter_number}" if "hbp" in normalized_stem else "",
+                f"ftp chapter {chapter_number}" if "ftp" in normalized_stem else "",
+                f"hbp {chapter_number}" if "hbp" in normalized_stem else "",
+                f"ftp {chapter_number}" if "ftp" in normalized_stem else "",
+            ]
+        )
     return _unique([alias for alias in aliases if alias])
 
 
@@ -291,9 +326,17 @@ class ChatService:
                     "name": current_name,
                     "aliases": aliases,
                     "tokens": tokens,
+                    "isDgft": self._is_dgft_document(current_name),
                 }
             )
         return ready_documents
+
+    def _is_dgft_document(self, document_name: str) -> bool:
+        normalized = _normalize_alnum_words(document_name)
+        return any(hint in normalized for hint in DGFT_DOCUMENT_HINTS)
+
+    def get_last_trace(self) -> dict[str, Any]:
+        return dict(getattr(self, "_last_trace", {}))
 
     def _failed_documents(self) -> list[dict[str, Any]]:
         failed_documents: list[dict[str, Any]] = []
@@ -370,10 +413,10 @@ class ChatService:
                 continue
 
             longest_token = max((len(token) for token in matched_tokens), default=0)
-            minimum_hits = 1 if longest_token >= 8 or len(document_tokens) <= 2 else 2
+            minimum_hits = 1 if longest_token >= 6 or len(document_tokens) <= 3 else 2
             if len(matched_tokens) < minimum_hits:
                 continue
-            if not mentions_document and longest_token < 8:
+            if not mentions_document and longest_token < 6:
                 continue
 
             score = (len(matched_tokens) * 10) + longest_token
@@ -382,6 +425,41 @@ class ChatService:
                 best_score = score
 
         return best_match
+
+    def _find_ready_document_by_name(self, document_name: str, ready_documents: list[dict[str, Any]]) -> dict[str, Any] | None:
+        normalized_target = _normalize(document_name)
+        if not normalized_target:
+            return None
+        return next(
+            (
+                document
+                for document in ready_documents
+                if normalized_target == _normalize(str(document.get("name", "")))
+                or normalized_target in set(document.get("aliases", []))
+            ),
+            None,
+        )
+
+    def _section_key(self, section_id: Any, document_name: Any) -> str:
+        normalized_document_name = _normalize(str(document_name or ""))
+        normalized_section_id = str(section_id or "").strip()
+        if not normalized_document_name or not normalized_section_id:
+            return ""
+        return f"{normalized_document_name}::{normalized_section_id}"
+
+    def _record_section_key(self, record: dict[str, Any]) -> str:
+        return self._section_key(record.get("sectionId", ""), record.get("documentName", ""))
+
+    def _section_record_key(self, section: dict[str, Any]) -> str:
+        return self._section_key(section.get("id", ""), section.get("documentName", ""))
+
+    def _section_lookup(self, sections: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+        lookup: dict[str, dict[str, Any]] = {}
+        for section in sections:
+            key = self._section_record_key(section)
+            if key:
+                lookup[key] = section
+        return lookup
 
     def _retrieval_key(self, item: dict[str, Any]) -> str:
         return "|".join(
@@ -550,37 +628,69 @@ class ChatService:
         debugs: list[dict[str, Any]],
         retrieval: list[dict[str, Any]],
         target_document_name: str = "",
+        scope_label: str = "",
     ) -> dict[str, Any]:
+        retrieved_document_ids = _unique([str(item.get("documentId", "")).strip() for item in retrieval if str(item.get("documentId", "")).strip()])
+        retrieved_document_names = _unique([str(item.get("documentName", "")).strip() for item in retrieval if str(item.get("documentName", "")).strip()])
         return {
             "user_question": query,
             "detected_intent": plan.intent,
+            "detected_document": target_document_name or (retrieved_document_names[0] if retrieved_document_names else ""),
             "target_document": target_document_name,
+            "scope_label": scope_label,
+            "applied_document_filter": _unique(
+                [value for debug in debugs for value in debug.get("applied_document_filter", [])]
+            ) or ([target_document_name] if target_document_name else []),
             "detected_entities": _unique([entity for debug in debugs for entity in debug.get("detected_entities", [])]),
             "detected_hs_code": _unique([code for debug in debugs for code in debug.get("detected_hs_code", [])]),
             "metadata_results_count": sum(int(debug.get("metadata_results_count", 0)) for debug in debugs),
             "bm25_results_count": sum(int(debug.get("bm25_results_count", 0)) for debug in debugs),
             "vector_results_count": sum(int(debug.get("vector_results_count", 0)) for debug in debugs),
             "merged_results_count": len(retrieval),
+            "retrieved_document_ids": retrieved_document_ids,
+            "retrieved_document_names": retrieved_document_names,
+            "retrieved_chunk_count": len(
+                [
+                    item
+                    for item in retrieval
+                    if str(item.get("type", "")).lower() in {"section", "chunk", "rule", "condition", "workflow", "definition"}
+                ]
+            ),
             "expanded_queries": queries,
             "top_ranked_chunks": [
                 {
                     "id": item.get("id", ""),
+                    "type": item.get("type", ""),
                     "title": item.get("title", ""),
                     "sectionId": item.get("sectionId", ""),
                     "documentName": item.get("documentName", ""),
+                    "heading": item.get("heading", ""),
+                    "fieldNames": item.get("fieldNames", []),
+                    "sourcePages": item.get("sourcePages", []),
                     "score": item.get("score", 0),
                     "confidence": item.get("confidence", 0),
                     "rankingReasons": item.get("rankingReasons", []),
                     "matchedQueries": item.get("matchedQueries", []),
                 }
-                for item in retrieval[:5]
+                for item in retrieval[:10]
             ],
         }
 
-    def _retrieve_grounding(self, question: str, plan: RetrievalPlan, target_document_name: str = "") -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    def _retrieve_grounding(
+        self,
+        question: str,
+        plan: RetrievalPlan,
+        *,
+        scope_label: str = "",
+        target_document_name: str = "",
+        document_names: list[str] | None = None,
+        collection_filters: frozenset[str] | None = None,
+    ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
         queries = self._semantic_queries(question, plan, target_document_name)
-        document_filters = frozenset({_normalize(target_document_name)}) if target_document_name else None
-        collection_filters = None if document_filters else plan.collection_filters
+        normalized_document_names = frozenset(
+            _normalize(name) for name in (document_names or ([target_document_name] if target_document_name else [])) if _normalize(name)
+        ) or None
+        effective_collection_filters = None if normalized_document_names else collection_filters
         batches: list[tuple[str, list[dict[str, Any]]]] = []
         debugs: list[dict[str, Any]] = []
 
@@ -589,10 +699,10 @@ class ChatService:
                 semantic_query,
                 mode="keyword",
                 limit=12,
-                collection_filters=collection_filters,
+                collection_filters=effective_collection_filters,
                 chapter_filters=plan.chapter_filters or None,
                 section_filters=plan.section_filters or None,
-                document_filters=document_filters,
+                document_filters=normalized_document_names,
             )
             batches.append((semantic_query, results))
             debugs.append(search_service.get_last_debug())
@@ -607,16 +717,131 @@ class ChatService:
                     semantic_query,
                     mode="keyword",
                     limit=10,
-                    collection_filters=None,
+                    collection_filters=effective_collection_filters,
                     chapter_filters=plan.chapter_filters or None,
                     section_filters=plan.section_filters or None,
-                    document_filters=document_filters,
+                    document_filters=normalized_document_names,
                 )
                 batches.append((semantic_query, results))
                 debugs.append(search_service.get_last_debug())
             merged = self._merge_retrieval_sets(question, plan, batches)
 
-        return merged, self._aggregate_search_debug(question, plan, queries, debugs, merged, target_document_name)
+        return merged, self._aggregate_search_debug(
+            question,
+            plan,
+            queries,
+            debugs,
+            merged,
+            target_document_name,
+            scope_label,
+        )
+
+    def _primary_document_name(self, retrieval: list[dict[str, Any]]) -> str:
+        for item in retrieval:
+            document_name = str(item.get("documentName", "")).strip()
+            if document_name:
+                return document_name
+        return ""
+
+    def _filter_retrieval_by_documents(self, retrieval: list[dict[str, Any]], document_names: list[str]) -> list[dict[str, Any]]:
+        normalized_names = {_normalize(name) for name in document_names if _normalize(name)}
+        if not normalized_names:
+            return retrieval
+        return [
+            item
+            for item in retrieval
+            if _normalize(str(item.get("documentName", "")).strip()) in normalized_names
+        ]
+
+    def _scope_has_grounding(self, retrieval: list[dict[str, Any]]) -> bool:
+        if not retrieval:
+            return False
+        section_hits = [
+            item
+            for item in retrieval
+            if str(item.get("sectionId", "")).strip()
+            and str(item.get("documentName", "")).strip()
+            and str(item.get("type", "")).lower() in {"section", "chunk", "rule", "condition", "workflow", "definition"}
+        ]
+        if not section_hits:
+            return False
+        top_confidence = max(float(item.get("confidence", 0.0)) for item in section_hits)
+        return top_confidence >= self.semantic_minimum_confidence
+
+    def _document_scope_candidates(
+        self,
+        *,
+        explicit_document: dict[str, Any] | None,
+        current_document: dict[str, Any] | None,
+        ready_documents: list[dict[str, Any]],
+        plan: RetrievalPlan,
+    ) -> list[dict[str, Any]]:
+        custom_documents = [document for document in ready_documents if not bool(document.get("isDgft"))]
+        dgft_documents = [document for document in ready_documents if bool(document.get("isDgft"))]
+
+        if explicit_document:
+            return [
+                {
+                    "label": "explicit_document",
+                    "document_names": [str(explicit_document.get("name", ""))],
+                    "target_document_name": str(explicit_document.get("name", "")),
+                    "collection_filters": None,
+                    "strict": True,
+                }
+            ]
+
+        scopes: list[dict[str, Any]] = []
+        if current_document:
+            scopes.append(
+                {
+                    "label": "current_document",
+                    "document_names": [str(current_document.get("name", ""))],
+                    "target_document_name": str(current_document.get("name", "")),
+                    "collection_filters": None,
+                    "strict": False,
+                }
+            )
+
+        remaining_custom_names = [
+            str(document.get("name", ""))
+            for document in custom_documents
+            if str(document.get("name", "")) and _normalize(str(document.get("name", ""))) != _normalize(str((current_document or {}).get("name", "")))
+        ]
+        if remaining_custom_names:
+            scopes.append(
+                {
+                    "label": "uploaded_documents",
+                    "document_names": remaining_custom_names,
+                    "target_document_name": "",
+                    "collection_filters": None,
+                    "strict": False,
+                }
+            )
+
+        dgft_names = [str(document.get("name", "")) for document in dgft_documents if str(document.get("name", ""))]
+        if dgft_names:
+            scopes.append(
+                {
+                    "label": "dgft_fallback",
+                    "document_names": dgft_names,
+                    "target_document_name": "",
+                    "collection_filters": plan.collection_filters,
+                    "strict": False,
+                }
+            )
+
+        if not scopes and ready_documents:
+            scopes.append(
+                {
+                    "label": "all_ready_documents",
+                    "document_names": [str(document.get("name", "")) for document in ready_documents if str(document.get("name", ""))],
+                    "target_document_name": "",
+                    "collection_filters": None,
+                    "strict": False,
+                }
+            )
+
+        return scopes
 
     def _section_sort_key(self, section: dict[str, Any]) -> tuple[Any, ...]:
         raw_id = str(section.get("id", "")).strip()
@@ -652,18 +877,25 @@ class ChatService:
         plan: RetrievalPlan,
         retrieval: list[dict[str, Any]],
         sections: list[dict[str, Any]],
+        allowed_document_names: list[str] | None = None,
     ) -> list[dict[str, Any]]:
-        section_by_id = {str(section.get("id", "")): section for section in sections}
+        allowed_documents = {_normalize(name) for name in (allowed_document_names or []) if _normalize(name)}
+        eligible_sections = [
+            section
+            for section in sections
+            if not allowed_documents or _normalize(str(section.get("documentName", ""))) in allowed_documents
+        ]
+        section_by_key = self._section_lookup(eligible_sections)
         normalized_question = _normalize(question)
 
         if plan.chapter_filters and not plan.section_filters and "chapter" in normalized_question:
             return sorted(
-                [section for section in sections if str(section.get("chapterNumber", "")) in plan.chapter_filters],
+                [section for section in eligible_sections if str(section.get("chapterNumber", "")) in plan.chapter_filters],
                 key=self._section_sort_key,
             )
 
         if plan.section_filters:
-            matched = [section_by_id[section_id] for section_id in plan.section_filters if section_id in section_by_id]
+            matched = [section for section in eligible_sections if str(section.get("id", "")) in plan.section_filters]
             if matched:
                 return sorted(matched, key=self._section_sort_key)
 
@@ -671,7 +903,7 @@ class ChatService:
         if quoted_phrases:
             matched_sections = [
                 section
-                for section in sections
+                for section in eligible_sections
                 if any(
                     _normalize(phrase) in _normalize(
                         " ".join(
@@ -688,16 +920,16 @@ class ChatService:
             if matched_sections:
                 return sorted(matched_sections, key=self._section_sort_key)
 
-        matched_ids: list[str] = []
-        title_matched_ids: list[str] = []
+        matched_keys: list[str] = []
+        title_matched_keys: list[str] = []
         top_confidence = max((float(item.get("confidence", 0.0)) for item in retrieval), default=0.0)
         for item in retrieval:
-            section_id = str(item.get("sectionId", "")).strip()
-            if not section_id or section_id not in section_by_id:
+            section_key = self._record_section_key(item)
+            if not section_key or section_key not in section_by_key:
                 continue
-            if section_id in matched_ids:
+            if section_key in matched_keys:
                 continue
-            section = section_by_id[section_id]
+            section = section_by_key[section_key]
             title_haystack = _normalize(
                 " ".join(
                     [
@@ -708,13 +940,13 @@ class ChatService:
                 )
             )
             if any(phrase and phrase in title_haystack for phrase in quoted_phrases):
-                title_matched_ids.append(section_id)
+                title_matched_keys.append(section_key)
             confidence = float(item.get("confidence", 0.0))
             if confidence >= max(0.45, top_confidence - 0.18):
-                matched_ids.append(section_id)
+                matched_keys.append(section_key)
 
-        selected_ids = _unique([*title_matched_ids, *matched_ids])[:8]
-        return [section_by_id[section_id] for section_id in selected_ids if section_id in section_by_id]
+        selected_keys = _unique([*title_matched_keys, *matched_keys])[:8]
+        return [section_by_key[section_key] for section_key in selected_keys if section_key in section_by_key]
 
     def _render_section_tables(self, section: dict[str, Any]) -> str:
         table_rows = [row for row in section.get("tables", []) if isinstance(row, list) and row]
@@ -845,13 +1077,26 @@ class ChatService:
         debug: dict[str, Any] | None = None,
         final_prompt: str = "",
         llm_response: str = "",
+        final_context_documents: list[str] | None = None,
     ) -> None:
         payload = {
             "question": question,
             "detected_intent": plan.user_intent,
             "detected_topic": plan.topic,
             "knowledge_source": list(plan.knowledge_sources),
+            "detected_document": debug.get("detected_document", "") if debug else "",
+            "selected_scope": debug.get("scope_label", "") if debug else "",
+            "selected_document_id": next((document_id for document_id in (debug.get("retrieved_document_ids", []) if debug else []) if document_id), ""),
+            "metadata_filter": {
+                "document": debug.get("applied_document_filter", []) if debug else [],
+                "collection": sorted(plan.collection_filters),
+                "chapter": sorted(plan.chapter_filters),
+                "section": sorted(plan.section_filters),
+            },
+            "applied_document_filter": debug.get("applied_document_filter", []) if debug else [],
             "retrieved_documents": _unique([str(item.get("documentName", "")) for item in retrieval]),
+            "retrieved_document_ids": debug.get("retrieved_document_ids", []) if debug else [],
+            "retrieved_chunk_count": debug.get("retrieved_chunk_count", 0) if debug else 0,
             "similarity_score": round(confidence_score, 4),
             "selected_chunks": [str(chunk.get("id", "")) for chunk in selected_chunks],
             "reason_for_selection": decision,
@@ -864,9 +1109,19 @@ class ChatService:
             "merged_results_count": debug.get("merged_results_count", len(retrieval)) if debug else len(retrieval),
             "top_ranked_chunks": debug.get("top_ranked_chunks", []) if debug else [],
             "selected_chunk": [str(chunk.get("id", "")) for chunk in selected_chunks[:1]],
+            "final_context_documents": _unique(final_context_documents or []),
+            "final_source_document": (
+                next((str(chunk.get("documentName", "")).strip() for chunk in selected_chunks if str(chunk.get("documentName", "")).strip()), "")
+                or next((str(item.get("documentName", "")).strip() for item in retrieval if str(item.get("documentName", "")).strip()), "")
+            ),
+            "generated_answer_source": {
+                "documents": _unique(final_context_documents or []),
+                "chunkIds": [str(chunk.get("id", "")) for chunk in selected_chunks[:10]],
+            },
             "final_prompt": final_prompt,
             "llm_response": llm_response,
         }
+        self._last_trace = payload
         logger.info("dekai_retrieval %s", json.dumps(payload, ensure_ascii=False))
 
     def _pick_sections(self, retrieval: list[dict[str, Any]], sections: list[dict[str, Any]], plan: RetrievalPlan) -> tuple[list[dict[str, Any]], float]:
@@ -878,17 +1133,17 @@ class ChatService:
         if not ranked_section_hits:
             return [], 0.0
 
-        section_by_id = {section["id"]: section for section in sections}
+        section_by_key = self._section_lookup(sections)
         top_confidence = max(float(item.get("confidence", 0.0)) for item in ranked_section_hits)
         scored_sections: dict[str, dict[str, Any]] = {}
 
         for item in ranked_section_hits:
-            section_id = str(item.get("sectionId", ""))
-            if not section_id or section_id not in section_by_id:
+            section_key = self._record_section_key(item)
+            if not section_key or section_key not in section_by_key:
                 continue
-            section = section_by_id[section_id]
+            section = section_by_key[section_key]
             current = scored_sections.setdefault(
-                section_id,
+                section_key,
                 {
                     "section": section,
                     "confidence": 0.0,
@@ -954,11 +1209,11 @@ class ChatService:
 
         return chosen_sections, top_confidence
 
-    def _section_chunks(self, retrieval: list[dict[str, Any]], chunks: list[dict[str, Any]], section_ids: set[str]) -> list[dict[str, Any]]:
+    def _section_chunks(self, retrieval: list[dict[str, Any]], chunks: list[dict[str, Any]], section_keys: set[str]) -> list[dict[str, Any]]:
         selected: list[dict[str, Any]] = []
         seen_ids: set[str] = set()
         for item in retrieval:
-            if item.get("type") != "chunk" or item.get("sectionId") not in section_ids:
+            if item.get("type") != "chunk" or self._record_section_key(item) not in section_keys:
                 continue
             item_id = str(item.get("id", ""))
             if item_id in seen_ids:
@@ -969,33 +1224,41 @@ class ChatService:
                 break
         if selected:
             return selected
-        return [chunk for chunk in chunks if chunk.get("sectionId") in section_ids][:6]
+        return [chunk for chunk in chunks if self._record_section_key(chunk) in section_keys][:6]
 
     def _fallback_sections(
         self,
         retrieval: list[dict[str, Any]],
         sections: list[dict[str, Any]],
         plan: RetrievalPlan,
+        allowed_document_names: list[str] | None = None,
     ) -> list[dict[str, Any]]:
-        section_by_id = {section["id"]: section for section in sections}
-        selected_ids: list[str] = []
+        allowed_documents = {_normalize(name) for name in (allowed_document_names or []) if _normalize(name)}
+        eligible_sections = [
+            section
+            for section in sections
+            if not allowed_documents or _normalize(str(section.get("documentName", ""))) in allowed_documents
+        ]
+        section_by_key = self._section_lookup(eligible_sections)
+        selected_keys: list[str] = []
 
         if plan.chapter_filters:
-            for section in sections:
-                if str(section.get("chapterNumber", "")) in plan.chapter_filters and section["id"] not in selected_ids:
-                    selected_ids.append(section["id"])
-                if len(selected_ids) >= 3:
+            for section in eligible_sections:
+                section_key = self._section_record_key(section)
+                if str(section.get("chapterNumber", "")) in plan.chapter_filters and section_key not in selected_keys:
+                    selected_keys.append(section_key)
+                if len(selected_keys) >= 3:
                     break
 
         for item in retrieval:
-            section_id = str(item.get("sectionId", ""))
-            if not section_id or section_id in selected_ids or section_id not in section_by_id:
+            section_key = self._record_section_key(item)
+            if not section_key or section_key in selected_keys or section_key not in section_by_key:
                 continue
-            selected_ids.append(section_id)
-            if len(selected_ids) >= 3:
+            selected_keys.append(section_key)
+            if len(selected_keys) >= 3:
                 break
 
-        return [section_by_id[section_id] for section_id in selected_ids if section_id in section_by_id][:5]
+        return [section_by_key[section_key] for section_key in selected_keys if section_key in section_by_key][:5]
 
     def _chapter_overview(self, question: str, plan: RetrievalPlan, chapters: list[dict[str, Any]], primary_section: dict[str, Any] | None = None) -> str:
         if "chapter" in _normalize(question) and plan.chapter_filters and not plan.section_filters:
@@ -1026,16 +1289,247 @@ class ChatService:
                 return f"HS Code {matched_code} refers to {description}."
         return ""
 
-    def _iec_definition_answer(self, question: str, sections: list[dict[str, Any]]) -> str:
+    def _best_heading_chunk(self, question: str, selected_chunks: list[dict[str, Any]]) -> dict[str, Any] | None:
+        normalized_question = _normalize(question)
+        question_terms = {
+            token
+            for token in re.findall(r"\b[a-z0-9][a-z0-9/&._-]{1,}\b", normalized_question)
+            if token not in {"what", "is", "the", "a", "an", "of", "in", "for", "this", "that", "section", "details"}
+        }
+        best_chunk: dict[str, Any] | None = None
+        best_score = 0
+
+        for chunk in selected_chunks:
+            heading = str(chunk.get("heading", "") or chunk.get("title", "")).strip()
+            if not heading:
+                continue
+            normalized_heading = _normalize(heading)
+            heading_terms = {
+                token
+                for token in re.findall(r"\b[a-z0-9][a-z0-9/&._-]{1,}\b", normalized_heading)
+                if token not in {"the", "a", "an", "of", "in", "for", "this", "that"}
+            }
+            if not heading_terms:
+                continue
+
+            score = 0
+            if normalized_heading and normalized_heading in normalized_question:
+                score += 100
+            if heading_terms and heading_terms.issubset(question_terms.union({"section", "details"})):
+                score += 60
+            score += len(heading_terms.intersection(question_terms)) * 12
+            if str(chunk.get("fieldNames", "")):
+                score += 5
+
+            if score > best_score:
+                best_score = score
+                best_chunk = chunk
+
+        return best_chunk if best_score >= 12 else None
+
+    def _heading_answer(self, question: str, selected_chunks: list[dict[str, Any]]) -> str:
+        heading_chunk = self._best_heading_chunk(question, selected_chunks)
+        if not heading_chunk:
+            return ""
+
+        heading = str(heading_chunk.get("heading", "") or heading_chunk.get("title", "")).strip()
+        field_names = [str(field).strip() for field in heading_chunk.get("fieldNames", []) if str(field).strip()]
+        heading_label = heading.title() if heading.isupper() else heading
+        blocks = [f"{heading_label} is a block in the uploaded declaration message."]
+        if field_names:
+            blocks.append(
+                f"It contains fields such as {_natural_list(field_names, limit=8)}."
+            )
+        blocks.append(
+            "The extracted content shows that this block carries message-level information used to identify and process the declaration."
+        )
+        return " ".join(blocks)
+
+    def _best_field_chunk(self, question: str, selected_chunks: list[dict[str, Any]]) -> tuple[dict[str, Any] | None, str]:
+        normalized_question = _normalize(question)
+        question_terms = {
+            token
+            for token in re.findall(r"\b[a-z0-9][a-z0-9/&._:-]{1,}\b", normalized_question)
+            if token not in {"what", "is", "the", "a", "an", "of", "in", "for", "this", "that", "field", "value", "show", "give", "explain"}
+        }
+        best_chunk: dict[str, Any] | None = None
+        best_field = ""
+        best_score = 0
+
+        for chunk in selected_chunks:
+            field_names = [str(field).strip() for field in chunk.get("fieldNames", []) if str(field).strip()]
+            if not field_names:
+                continue
+            for field_name in field_names:
+                normalized_field = _normalize(field_name)
+                field_terms = {
+                    token
+                    for token in re.findall(r"\b[a-z0-9][a-z0-9/&._:-]{1,}\b", normalized_field)
+                    if token not in {"cbc", "cac", "ipt", "field"}
+                }
+                if not field_terms:
+                    continue
+
+                score = 0
+                if normalized_field and normalized_field in normalized_question:
+                    score += 100
+                score += len(field_terms.intersection(question_terms)) * 14
+                if field_terms and field_terms.issubset(question_terms.union({"type", "details", "section"})):
+                    score += 35
+                if str(chunk.get("heading", "")).strip():
+                    score += 5
+                if score > best_score:
+                    best_score = score
+                    best_chunk = chunk
+                    best_field = field_name
+
+        return (best_chunk, best_field) if best_score >= 16 else (None, "")
+
+    def _field_answer(self, question: str, selected_chunks: list[dict[str, Any]]) -> str:
+        field_chunk, field_name = self._best_field_chunk(question, selected_chunks)
+        if not field_chunk or not field_name:
+            return ""
+
+        heading = str(field_chunk.get("heading", "") or field_chunk.get("title", "")).strip()
+        heading_label = heading.title() if heading.isupper() else heading
+        matched_line = next(
+            (
+                " ".join(line.split())
+                for line in str(field_chunk.get("text", "")).replace("\r\n", "\n").split("\n")
+                if _normalize(field_name) in _normalize(line)
+            ),
+            "",
+        )
+        blocks = [f"{field_name} appears in the uploaded document"]
+        if heading_label:
+            blocks[0] += f" under {heading_label}."
+        else:
+            blocks[0] += "."
+        if matched_line:
+            blocks.append(f"The extracted content lists it as: {_clean(matched_line, 220)}.")
+        else:
+            blocks.append("It is part of the structured fields captured from the uploaded PDF.")
+        return " ".join(blocks)
+
+    def _document_identity_answer_payload(
+        self,
+        question: str,
+        sections: list[dict[str, Any]],
+        allowed_document_names: list[str] | None = None,
+    ) -> dict[str, Any] | None:
+        normalized_question = _normalize(question)
+        if not _contains_any(normalized_question, ("what is", "what are", "define", "meaning of", "about")):
+            return None
+
+        allowed_documents = [_normalize(name) for name in (allowed_document_names or []) if _normalize(name)]
+        if not allowed_documents:
+            return None
+
+        question_tokens = set(_document_tokens(normalized_question))
+        matched_document_name = ""
+        matched_label = ""
+
+        for document_name in allowed_document_names or []:
+            aliases = _document_aliases(document_name)
+            alias_hit = next(
+                (
+                    alias
+                    for alias in aliases
+                    if len(alias) >= 4 and alias in normalized_question and not any(token in alias for token in ("chapter", "pdf"))
+                ),
+                "",
+            )
+            token_hit = next(
+                (
+                    token
+                    for token in _document_tokens(document_name)
+                    if len(token) >= 4 and token in question_tokens
+                ),
+                "",
+            )
+            if alias_hit or token_hit:
+                matched_document_name = document_name
+                matched_label = token_hit.upper() if token_hit else alias_hit.upper()
+                break
+
+        if not matched_document_name:
+            return None
+
+        candidate_sections = [
+            section
+            for section in sections
+            if _normalize(str(section.get("documentName", ""))) == _normalize(matched_document_name)
+        ]
+        if not candidate_sections:
+            return None
+
+        def rank(section: dict[str, Any]) -> tuple[int, int]:
+            title = _normalize(str(section.get("title", "")))
+            priority = 99
+            if "introduction" in title:
+                priority = 1
+            elif "message function" in title:
+                priority = 2
+            elif "message definition" in title:
+                priority = 3
+            elif "definition" in title:
+                priority = 4
+            elif "scope" in title:
+                priority = 5
+            return priority, len(str(section.get("summary", "")))
+
+        candidate_sections.sort(key=rank)
+        section = candidate_sections[0]
+        summary = ""
+        for section_candidate in candidate_sections[:6]:
+            candidate_summary = _clean(
+                section_candidate.get("summary", "")
+                or section_candidate.get("businessMeaning", "")
+                or section_candidate.get("businessExplanation", "")
+                or section_candidate.get("rawText", ""),
+                320,
+            )
+            title = str(section_candidate.get("title", "")).strip()
+            if title and candidate_summary.startswith(title):
+                candidate_summary = candidate_summary[len(title) :].strip(" .:-")
+            candidate_summary = re.sub(r"^\d+(?:\.\d+)*\s+", "", candidate_summary).strip()
+            normalized_summary = _normalize(candidate_summary)
+            if not candidate_summary or re.fullmatch(r"[\d.\s]+", normalized_summary or "") or len(normalized_summary) < 12:
+                continue
+            section = section_candidate
+            summary = candidate_summary
+            break
+        if not summary:
+            return None
+
+        answer = f"{matched_label or str(section.get('title', '')).strip()} is described in the uploaded document as {summary}"
+        return {
+            "documentName": matched_document_name,
+            "section": section,
+            "answer": _ensure_sentence(answer),
+            "sourcePages": [int(page) for page in section.get("sourcePages", []) if str(page).isdigit()],
+        }
+
+    def _iec_definition_answer(self, question: str, sections: list[dict[str, Any]], allowed_document_names: list[str] | None = None) -> str:
         normalized_question = _normalize(question)
         if "iec" not in normalized_question:
             return ""
         if not _contains_any(normalized_question, ("full form", "stands for", "meaning of iec", "what is iec")):
             return ""
 
+        allowed_documents = {_normalize(name) for name in (allowed_document_names or []) if _normalize(name)}
+
         answer_parts = ["IEC stands for Importer Exporter Code."]
 
-        one_pan_section = next((section for section in sections if str(section.get("id", "")).strip() == "2.12"), None)
+        one_pan_section = next(
+            (
+                section
+                for section in sections
+                if str(section.get("id", "")).strip() == "2.12"
+                and (not allowed_documents or _normalize(str(section.get("documentName", ""))) in allowed_documents)
+            ),
+            None,
+        )
         one_pan_summary = _first_sentence((one_pan_section or {}).get("summary", ""), 220)
         if one_pan_summary:
             answer_parts.append(f"According to the uploaded document, {one_pan_summary.rstrip('.')}.")
@@ -1099,7 +1593,7 @@ class ChatService:
             return None
 
         target_document_normalized = _normalize(target_document_name)
-        section_by_id = {str(section.get("id", "")): section for section in sections}
+        section_by_key = self._section_lookup(sections)
         matching_definitions = [
             definition
             for definition in definitions
@@ -1113,11 +1607,12 @@ class ChatService:
             return None
 
         for definition in matching_definitions:
-            section = section_by_id.get(str(definition.get("sectionId", "")), {})
+            definition_section_key = self._section_key(definition.get("sectionId", ""), definition.get("documentName", ""))
+            section = section_by_key.get(definition_section_key, {})
             retrieval_texts = [
                 item.get("text", "")
                 for item in retrieval
-                if str(item.get("sectionId", "")) == str(definition.get("sectionId", ""))
+                if self._record_section_key(item) == definition_section_key
             ]
             expanded = self._extract_definition_phrase(
                 term,
@@ -1176,6 +1671,14 @@ class ChatService:
         if exact_hs_answer:
             return exact_hs_answer
 
+        heading_answer = self._heading_answer(question, selected_chunks)
+        if heading_answer:
+            return heading_answer
+
+        field_answer = self._field_answer(question, selected_chunks)
+        if field_answer:
+            return field_answer
+
         normalized_question = _normalize(question)
         summary_points = _unique(
             [
@@ -1217,14 +1720,25 @@ class ChatService:
         relevant_sections: list[str],
         source_pdfs: list[str],
         source_pages: list[str],
+        selected_chunks: list[dict[str, Any]] | None = None,
     ) -> dict[str, Any]:
         primary_section = answer_sections[0] if answer_sections else {}
+        selected_chunks = selected_chunks or []
+        source_heading = next(
+            (
+                str(chunk.get("heading", "")).strip()
+                for chunk in selected_chunks
+                if str(chunk.get("heading", "")).strip()
+            ),
+            "",
+        )
         return {
             "sourcePdfs": source_pdfs,
             "referencedPdf": source_pdfs[0] if source_pdfs else str(primary_section.get("documentName", "")),
             "sourcePages": [int(page) for page in source_pages if str(page).isdigit()],
             "sourceChapter": relevant_chapters[0] if relevant_chapters else "",
             "sourceSection": relevant_sections[0] if relevant_sections else "",
+            "sourceHeading": source_heading,
         }
 
     def _extract_structured_response(
@@ -1537,6 +2051,7 @@ class ChatService:
             relevant_sections=relevant_sections,
             source_pdfs=source_pdfs,
             source_pages=source_pages,
+            selected_chunks=selected_chunks,
         )
 
         if self._is_full_content_request(question, plan):
@@ -1645,6 +2160,7 @@ class ChatService:
                 decision="Blocked answer because the question targeted a failed document or no document is currently Knowledge Ready.",
                 final_prompt=f"Question: {question}\nBlocked document: {blocked_document.get('name', '')}",
                 llm_response=direct_answer,
+                final_context_documents=[str(blocked_document.get("name", "")).strip()],
             )
             return answer
 
@@ -1664,14 +2180,52 @@ class ChatService:
                 confidence_score=0.0,
                 selected_chunks=[],
                 decision="HS code intent detected without product description or existing code. Asked for clarification instead of searching unrelated sources.",
+                final_context_documents=[],
             )
             return answer
 
-        retrieval, search_debug = self._retrieve_grounding(
-            question,
-            plan,
-            str(target_ready_document.get("name", "")) if target_ready_document else "",
+        current_ready_document = None
+        allowed_document_names: list[str] = []
+        retrieval: list[dict[str, Any]] = []
+        search_debug: dict[str, Any] = {}
+        selected_scope_label = ""
+
+        current_document_name = getattr(self, "_current_document_name", "")
+        if current_document_name:
+            current_ready_document = self._find_ready_document_by_name(current_document_name, ready_documents)
+
+        scope_candidates = self._document_scope_candidates(
+            explicit_document=target_ready_document,
+            current_document=current_ready_document,
+            ready_documents=ready_documents,
+            plan=plan,
         )
+
+        for scope in scope_candidates:
+            scope_retrieval, scope_debug = self._retrieve_grounding(
+                question,
+                plan,
+                scope_label=str(scope.get("label", "")),
+                target_document_name=str(scope.get("target_document_name", "")),
+                document_names=[str(name) for name in scope.get("document_names", []) if str(name).strip()],
+                collection_filters=scope.get("collection_filters"),
+            )
+            if plan.user_intent != "Comparison":
+                primary_document_name = self._primary_document_name(scope_retrieval)
+                if primary_document_name:
+                    scope_retrieval = self._filter_retrieval_by_documents(scope_retrieval, [primary_document_name])
+            if scope_retrieval:
+                retrieval = scope_retrieval
+                search_debug = scope_debug
+                selected_scope_label = str(scope.get("label", ""))
+                allowed_document_names = [self._primary_document_name(scope_retrieval)] if plan.user_intent != "Comparison" else [
+                    str(item.get("documentName", "")).strip()
+                    for item in scope_retrieval
+                    if str(item.get("documentName", "")).strip()
+                ]
+            if scope_retrieval and (bool(scope.get("strict")) or self._scope_has_grounding(scope_retrieval)):
+                break
+
         chapters = index.get("chapters", [])
         sections = index.get("sections", [])
         definitions = index.get("definitions", [])
@@ -1680,14 +2234,15 @@ class ChatService:
         workflows = index.get("workflows", [])
         chunks = index.get("chunks", [])
         examples = index.get("examples", [])
-        iec_definition_answer = self._iec_definition_answer(question, sections)
+        iec_definition_answer = self._iec_definition_answer(question, sections, allowed_document_names)
         definition_answer_payload = self._definition_answer_payload(
             question,
             sections,
             definitions,
             retrieval,
-            target_document_name=str(target_ready_document.get("name", "")) if target_ready_document else "",
+            target_document_name=allowed_document_names[0] if allowed_document_names else "",
         )
+        document_identity_payload = self._document_identity_answer_payload(question, sections, allowed_document_names)
 
         if definition_answer_payload:
             section = definition_answer_payload.get("section", {}) or {}
@@ -1720,13 +2275,49 @@ class ChatService:
                 decision=f'Returned exact definition for term {definition_answer_payload["term"]} from the uploaded document.',
                 debug=search_debug,
                 llm_response=direct_answer,
+                final_context_documents=[str(definition_answer_payload.get("documentName", "")).strip()],
+            )
+            return answer
+
+        if document_identity_payload:
+            section = document_identity_payload.get("section", {}) or {}
+            answer = self._empty_answer(
+                question,
+                plan,
+                confidence_score=0.92,
+                direct_answer=str(document_identity_payload.get("answer", "")),
+                business_explanation=f'Answered from the uploaded document {document_identity_payload.get("documentName", "")}.',
+                ai_model=ai_model,
+                language=language,
+            )
+            answer["title"] = str(section.get("title", "") or document_identity_payload.get("documentName", ""))
+            answer["sectionId"] = str(section.get("id", ""))
+            answer["chapterNumber"] = str(section.get("chapterNumber", ""))
+            answer["sourcePdfs"] = [str(document_identity_payload.get("documentName", ""))] if document_identity_payload.get("documentName") else []
+            answer["referencedPdf"] = str(document_identity_payload.get("documentName", ""))
+            answer["sourcePages"] = document_identity_payload.get("sourcePages", [])
+            answer["sourceChapter"] = _chapter_label(section) if section else ""
+            answer["sourceSection"] = _section_label(section) if section else ""
+            answer["sourceHeading"] = ""
+            answer["relevantSections"] = [_section_label(section)] if section else []
+            answer["relevantChapters"] = [_chapter_label(section)] if section else []
+            self._log_retrieval(
+                question=question,
+                plan=plan,
+                retrieval=retrieval,
+                confidence_score=0.92,
+                selected_chunks=[],
+                decision=f'Returned document identity answer for {document_identity_payload.get("documentName", "")} from the uploaded document introduction/definition path.',
+                debug=search_debug,
+                llm_response=answer["directAnswer"],
+                final_context_documents=[str(document_identity_payload.get("documentName", "")).strip()],
             )
             return answer
 
         full_content_request = self._is_full_content_request(question, plan)
         answer_sections, confidence_score = self._pick_sections(retrieval, sections, plan)
         if full_content_request:
-            full_content_sections = self._full_content_sections(question, plan, retrieval, sections)
+            full_content_sections = self._full_content_sections(question, plan, retrieval, sections, allowed_document_names)
             if full_content_sections:
                 answer_sections = full_content_sections
         if not answer_sections and plan.user_intent in {
@@ -1742,7 +2333,7 @@ class ChatService:
             "Document Analysis",
             "Report Generation",
         }:
-            answer_sections = self._fallback_sections(retrieval, sections, plan)
+            answer_sections = self._fallback_sections(retrieval, sections, plan, allowed_document_names)
         if not answer_sections:
             chapter_overview = self._chapter_overview(question, plan, chapters)
             if chapter_overview:
@@ -1766,8 +2357,9 @@ class ChatService:
                     selected_chunks=[],
                     decision="Returned chapter overview from indexed chapter summaries because no section met the retrieval threshold.",
                     debug=search_debug,
-                    final_prompt=f"Question: {question}\nSelected source: chapter overview",
+                    final_prompt=f"Question: {question}\nSelected source: chapter overview\nSelected scope: {selected_scope_label}",
                     llm_response=chapter_overview,
+                    final_context_documents=[],
                 )
                 return answer
             answer = self._empty_answer(
@@ -1784,21 +2376,42 @@ class ChatService:
                 retrieval=retrieval,
                 confidence_score=confidence_score,
                 selected_chunks=[],
-                decision="Rejected answer because no section in the selected DGFT source collection met the confidence threshold.",
+                decision="Rejected answer because no section in the selected document scope met the confidence threshold.",
                 debug=search_debug,
-                final_prompt=f"Question: {question}\nSelected source: none",
+                final_prompt=f"Question: {question}\nSelected source: none\nSelected scope: {selected_scope_label}",
                 llm_response=answer["directAnswer"],
+                final_context_documents=[],
             )
             return answer
 
         primary_section = answer_sections[0]
-        section_ids = {section["id"] for section in answer_sections}
-        selected_chunks = self._section_chunks(retrieval, chunks, section_ids)
+        section_keys = {self._section_record_key(section) for section in answer_sections if self._section_record_key(section)}
+        selected_chunks = self._section_chunks(retrieval, chunks, section_keys)
+        heading_target_chunk = self._best_heading_chunk(question, selected_chunks)
+        if heading_target_chunk:
+            heading_section_key = self._record_section_key(heading_target_chunk)
+            matching_heading_section = next(
+                (section for section in answer_sections if self._section_record_key(section) == heading_section_key),
+                None,
+            )
+            if matching_heading_section:
+                answer_sections = [matching_heading_section]
+                primary_section = matching_heading_section
+                section_keys = {heading_section_key}
+                selected_chunks = [
+                    chunk
+                    for chunk in selected_chunks
+                    if self._record_section_key(chunk) == heading_section_key
+                ]
 
-        section_rules = [rule for rule in rules if rule["sectionId"] in section_ids][:8]
-        section_conditions = [condition for condition in conditions if condition["sectionId"] in section_ids][:8]
-        section_workflows = [workflow for workflow in workflows if workflow["section"] in section_ids][:2]
-        section_examples = [example for example in examples if example["sectionId"] in section_ids][:3]
+        section_rules = [rule for rule in rules if self._record_section_key(rule) in section_keys][:8]
+        section_conditions = [condition for condition in conditions if self._record_section_key(condition) in section_keys][:8]
+        section_workflows = [
+            workflow
+            for workflow in workflows
+            if self._section_key(workflow.get("section", ""), workflow.get("documentName", "")) in section_keys
+        ][:2]
+        section_examples = [example for example in examples if self._record_section_key(example) in section_keys][:3]
 
         relevant_chapters = _unique([*plan.likely_chapters, *[_chapter_label(section) for section in answer_sections]])
         relevant_sections = _unique([_section_label(section) for section in answer_sections]) or list(plan.likely_sections)
@@ -1864,7 +2477,7 @@ class ChatService:
         supporting_text = _unique(
             [
                 *[
-                    f'{_section_reference(next((section for section in answer_sections if section.get("id") == chunk.get("sectionId")), primary_section))}\n{_clean(str(chunk.get("text", "")), 260)}'
+                    f'{_section_reference(next((section for section in answer_sections if self._section_record_key(section) == self._record_section_key(chunk)), primary_section))}\n{_clean(str(chunk.get("text", "")), 260)}'
                     for chunk in selected_chunks
                     if chunk.get("text")
                 ],
@@ -1971,6 +2584,7 @@ class ChatService:
                 f"Question: {question}",
                 f"Detected intent: {search_debug.get('detected_intent', plan.intent)}",
                 f"Detected entities: {', '.join(search_debug.get('detected_entities', []))}",
+                f"Selected scope: {selected_scope_label}",
                 f"Selected sections: {', '.join(relevant_sections)}",
                 f"Selected chunks: {', '.join(str(chunk.get('id', '')) for chunk in selected_chunks[:3])}",
             ]
@@ -1981,15 +2595,19 @@ class ChatService:
             retrieval=retrieval,
             confidence_score=confidence_score,
             selected_chunks=selected_chunks,
-            decision="Accepted the relevant DGFT section(s) after intent detection, chapter/section filtering, and complete-section grounding.",
+            decision="Accepted the relevant section(s) after document-aware retrieval, source validation, and complete-section grounding.",
             debug=search_debug,
             final_prompt=final_prompt,
             llm_response=answer["directAnswer"],
+            final_context_documents=source_pdfs,
         )
         return answer
 
-    def stream_events(self, question: str, ai_model: str = "", language: str = "English") -> list[str]:
+    def stream_events(self, question: str, ai_model: str = "", language: str = "English", current_document_name: str = "") -> list[str]:
+        self._current_document_name = current_document_name
         answer = self.build_answer(question, ai_model=ai_model, language=language)
+        if hasattr(self, "_current_document_name"):
+            delattr(self, "_current_document_name")
         direct_answer = answer["directAnswer"]
         chunks = [direct_answer[index : index + 18] for index in range(0, len(direct_answer), 18)]
         events = [json.dumps({"type": "start"})]

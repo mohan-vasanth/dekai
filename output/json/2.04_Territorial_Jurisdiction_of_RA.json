@@ -41,7 +41,9 @@
   "exceptions": [
     "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1"
+  ],
   "documents": [
     "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
   ],
@@ -298,14 +300,16 @@
     "Bind validations for Territorial Jurisdiction of RA into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA..",
     "Route escalations or approvals to: RA, Territorial Jurisdiction of RA, The address of applicant determines the jurisdiction of RA, jurisdictional RA.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Territorial Jurisdiction of RA section-la, Capture chapter 2, section 2.04, title, and page references as immutable knowledge metadata.",
     "Indha Territorial Jurisdiction of RA section-la, Bind validations for Territorial Jurisdiction of RA into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Territorial Jurisdiction of RA section-la, Expose document upload controls for: Each application, unless\notherwise specified, kandippa be submitted to jurisdictional RA..",
     "Indha Territorial Jurisdiction of RA section-la, Route escalations or approvals to: RA, Territorial Jurisdiction of RA, The address of applicant determines the jurisdiction of RA, jurisdictional RA.",
-    "Indha Territorial Jurisdiction of RA section-la, Trigger manual review when exception clauses are detected."
+    "Indha Territorial Jurisdiction of RA section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Territorial Jurisdiction of RA section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "RAs",
@@ -359,7 +363,9 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [
     "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."

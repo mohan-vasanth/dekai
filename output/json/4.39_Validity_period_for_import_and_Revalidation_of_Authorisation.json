@@ -97,7 +97,12 @@
     "(c)\nFor Advance Authorisations not covered under Para 4.39(b) above, only one\nrevalidation for twelve months from expiry date shall be allowed."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
   "documents": [
     "Applications for any\nsuch revalidation may be submitted online to the concerned Regional\nAuthority."
   ],
@@ -356,12 +361,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.39, title, and page references as immutable knowledge metadata.",
     "Bind validations for Validity period for import and Revalidation of Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
-    "Expose document upload controls for: Applications for any\nsuch revalidation may be submitted online to the concerned Regional\nAuthority.."
+    "Expose document upload controls for: Applications for any\nsuch revalidation may be submitted online to the concerned Regional\nAuthority..",
+    "Show contextual links to related sections: 1, 2, 3, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Validity period for import and Revalidation of Authorisation section-la, Capture chapter 4, section 4.39, title, and page references as immutable knowledge metadata.",
     "Indha Validity period for import and Revalidation of Authorisation section-la, Bind validations for Validity period for import and Revalidation of Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Validity period for import and Revalidation of Authorisation section-la, Expose document upload controls for: Applications for any\nsuch revalidation may be submitted online to the concerned Regional\nauthority.."
+    "Indha Validity period for import and Revalidation of Authorisation section-la, Expose document upload controls for: Applications for any\nsuch revalidation may be submitted online to the concerned Regional\nauthority..",
+    "Indha Validity period for import and Revalidation of Authorisation section-la, Show contextual links to related sections: 1, 2, 3, 4."
   ],
   "keywords": [
     "for",
@@ -415,7 +422,12 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.39 Validity period for import and Revalidation of Authorisation\n(a) Validity period for import of Advance Authorisation shall be 12 months from\nthe date of issue of Authorisation.",

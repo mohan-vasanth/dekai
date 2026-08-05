@@ -1,0 +1,37 @@
+{
+  "section": "2",
+  "ui": [
+    {
+      "screen_id": "Non_reporting_of_the_ARR_shall_lead_to_denial_of_benefits_under_the_RODTEP_overview",
+      "name": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Non_reporting_of_the_ARR_shall_lead_to_denial_of_benefits_under_the_RODTEP_submission",
+      "name": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "arr_flag",
+        "and_flag",
+        "out_flag",
+        "for_flag",
+        "sbs_flag"
+      ]
+    }
+  ]
+}

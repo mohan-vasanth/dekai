@@ -1,0 +1,310 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "3",
+  "title": "They have an agreement or purchase order, an excerpt of a contract",
+  "purpose": "They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+  "purpose_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+  "summary": "3. They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+  "business_meaning": "3.",
+  "business_explanation": "3. They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+  "business_explanation_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, 3. They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC3-R001",
+      "rule_description": "3. They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+      "trigger": "They have an agreement or purchase order, an excerpt of a contract",
+      "condition": "They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - They have an agreement or purchase order, an excerpt of a contract."
+    }
+  ],
+  "conditions": [
+    "They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;"
+  ],
+  "condition_logic": [
+    {
+      "id": "10.3.1",
+      "if": "They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+      "then": "Route for review",
+      "source": "They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;"
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "authorities": [],
+  "timelines": [
+    "They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;"
+  ],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;"
+  ],
+  "workflow_ascii": "They have an agreement or purchase order, an excerpt of a contract\nEvaluate condition: They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+  "decision_tree": [
+    "IF section 3 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "They have an agreement or purchase order, an excerpt of a contract Decision\nIF section 3 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process They have an agreement or purchase order, an excerpt of a contract; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes They have an agreement or purchase order, an excerpt of a contract, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the they have an agreement or purchase order, an excerpt of a contract process.",
+  "real_world_example_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, Example: an importer or exporter invokes They have an agreement or purchase order, an excerpt of a contract, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the they have an agreement or purchase order, an excerpt of a contract process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "use_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:use"
+    },
+    {
+      "name": "euc_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:EUC"
+    },
+    {
+      "name": "they_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:They"
+    },
+    {
+      "name": "have_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:have"
+    },
+    {
+      "name": "from_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:from"
+    },
+    {
+      "name": "that_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:that"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/3",
+      "purpose": "Retrieve knowledge payload for section 3",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/They-have-an-agreement-or-purchase-order-an-excerpt-of-a-contract/validate",
+      "purpose": "Validate inputs and documents for They have an agreement or purchase order, an excerpt of a contract",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "They_have_an_agreement_or_purchase_order_an_excerpt_of_a_contract_overview",
+      "name": "They have an agreement or purchase order, an excerpt of a contract Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "They_have_an_agreement_or_purchase_order_an_excerpt_of_a_contract_submission",
+      "name": "They have an agreement or purchase order, an excerpt of a contract Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "for_flag",
+        "use_flag",
+        "euc_flag",
+        "they_flag",
+        "have_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does They have an agreement or purchase order, an excerpt of a contract require?",
+    "Which documents are needed for They have an agreement or purchase order, an excerpt of a contract?",
+    "How does DEKAI validate They have an agreement or purchase order, an excerpt of a contract requests?"
+  ],
+  "expected_ai_answers": [
+    "They have an agreement or purchase order, an excerpt of a contract requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates They have an agreement or purchase order, an excerpt of a contract by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 3?",
+      "answer_en": "3. They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+      "question_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, What is the purpose of section 3?",
+      "answer_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, 3. They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;"
+    },
+    {
+      "question_en": "What documents are required under They have an agreement or purchase order, an excerpt of a contract?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, What documents are required under They have an agreement or purchase order, an excerpt of a contract?",
+      "answer_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles They have an agreement or purchase order, an excerpt of a contract?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, Which authority handles They have an agreement or purchase order, an excerpt of a contract?",
+      "answer_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with They have an agreement or purchase order, an excerpt of a contract?",
+      "answer_en": "AI answers: DEKAI should evaluate section 3, apply the extracted rules, and guide the user through Evaluate condition: They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;.",
+      "question_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, User asks: How do I comply with They have an agreement or purchase order, an excerpt of a contract?",
+      "answer_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, AI answers: DEKAI should evaluate section 3, apply the extracted rules, and guide the user through Evaluate condition: They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;."
+    },
+    {
+      "question_en": "User asks: Which validations apply to They have an agreement or purchase order, an excerpt of a contract?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, User asks: Which validations apply to They have an agreement or purchase order, an excerpt of a contract?",
+      "answer_thanglish": "Indha They have an agreement or purchase order, an excerpt of a contract section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 10, section 3, title, and page references as immutable knowledge metadata.",
+    "Bind validations for They have an agreement or purchase order, an excerpt of a contract into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha They have an agreement or purchase order, an excerpt of a contract section-la, Capture chapter 10, section 3, title, and page references as immutable knowledge metadata.",
+    "Indha They have an agreement or purchase order, an excerpt of a contract section-la, Bind validations for They have an agreement or purchase order, an excerpt of a contract into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "the",
+    "for",
+    "use",
+    "EUC",
+    "They",
+    "have",
+    "from",
+    "that",
+    "order",
+    "items",
+    "which",
+    "state",
+    "entity",
+    "export",
+    "before",
+    "actual",
+    "excerpt",
+    "end-use",
+    "purchase",
+    "contract"
+  ],
+  "search_keywords": [
+    "the",
+    "for",
+    "use",
+    "EUC",
+    "They",
+    "have",
+    "from",
+    "that",
+    "order",
+    "items",
+    "which",
+    "state",
+    "entity",
+    "export",
+    "before",
+    "actual",
+    "excerpt",
+    "end-use",
+    "purchase",
+    "contract"
+  ],
+  "intent": "Provide knowledge guidance for They have an agreement or purchase order, an excerpt of a contract.",
+  "tags": [
+    "3",
+    "They have an agreement or purchase order, an excerpt of a contract",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    30
+  ],
+  "pages": [
+    30
+  ],
+  "source_document": "Chapter+10+HBP+(19.05.2026).pdf",
+  "raw_text": "3. They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;\"]",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;;\nstop\n@enduml"
+}

@@ -1,0 +1,248 @@
+{
+  "chapter_number": "8",
+  "chapter_title": "Quality Complaints and Trade Disputes",
+  "section": "1",
+  "title": "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+  "purpose": "Defines the operational requirements for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson.",
+  "purpose_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, Defines the operational requirements for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson.",
+  "summary": "1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+  "business_meaning": "1.",
+  "business_explanation": "1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+  "business_explanation_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, 1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH8-SEC1-R001",
+      "rule_description": "1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+      "trigger": "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1 - Additional DGFT/Joint DGFT/ (H.O.O):Chairperson."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "authorities": [
+    "DGFT",
+    "Additional DGFT/Joint DGFT"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 1 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson\nReview section 1 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 1 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson Decision\nIF section 1 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Additional DGFT/Joint DGFT/ (H.O.O):Chairperson; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Additional DGFT/Joint DGFT/ (H.O.O):Chairperson, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the additional dgft/joint dgft/ (h.o.o):chairperson process.",
+  "real_world_example_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, Example: an importer or exporter invokes Additional DGFT/Joint DGFT/ (H.O.O):Chairperson, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the additional dgft/joint dgft/ (h.o.o):chairperson process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "dgft_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DGFT"
+    },
+    {
+      "name": "additional_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Additional"
+    },
+    {
+      "name": "dgft_joint_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DGFT/Joint"
+    },
+    {
+      "name": "chairperson_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Chairperson"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/1",
+      "purpose": "Retrieve knowledge payload for section 1",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Additional-DGFT-Joint-DGFT-H-O-O-Chairperson/validate",
+      "purpose": "Validate inputs and documents for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Additional_DGFT_Joint_DGFT_H_O_O_Chairperson_overview",
+      "name": "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Additional_DGFT_Joint_DGFT_H_O_O_Chairperson_submission",
+      "name": "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "dgft_flag",
+        "additional_flag",
+        "dgft_joint_flag",
+        "chairperson_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Additional DGFT/Joint DGFT/ (H.O.O):Chairperson require?",
+    "Which documents are needed for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson?",
+    "How does DEKAI validate Additional DGFT/Joint DGFT/ (H.O.O):Chairperson requests?"
+  ],
+  "expected_ai_answers": [
+    "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Additional DGFT/Joint DGFT/ (H.O.O):Chairperson by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 1?",
+      "answer_en": "1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+      "question_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, What is the purpose of section 1?",
+      "answer_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, 1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson"
+    },
+    {
+      "question_en": "What documents are required under Additional DGFT/Joint DGFT/ (H.O.O):Chairperson?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, What documents are required under Additional DGFT/Joint DGFT/ (H.O.O):Chairperson?",
+      "answer_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Additional DGFT/Joint DGFT/ (H.O.O):Chairperson?",
+      "answer_en": "DGFT, Additional DGFT/Joint DGFT",
+      "question_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, Which authority handles Additional DGFT/Joint DGFT/ (H.O.O):Chairperson?",
+      "answer_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, DGFT, Additional DGFT/Joint DGFT"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Additional DGFT/Joint DGFT/ (H.O.O):Chairperson?",
+      "answer_en": "AI answers: DEKAI should evaluate section 1, apply the extracted rules, and guide the user through Review section 1 requirements.",
+      "question_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, User asks: How do I comply with Additional DGFT/Joint DGFT/ (H.O.O):Chairperson?",
+      "answer_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, AI answers: DEKAI should evaluate section 1, apply the extracted rules, and guide the user through Review section 1 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Additional DGFT/Joint DGFT/ (H.O.O):Chairperson?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, User asks: Which validations apply to Additional DGFT/Joint DGFT/ (H.O.O):Chairperson?",
+      "answer_thanglish": "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 8, section 1, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: DGFT, Additional DGFT/Joint DGFT."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, Capture chapter 8, section 1, title, and page references as immutable knowledge metadata.",
+    "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, Bind validations for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, Route escalations or approvals to: DGFT, Additional DGFT/Joint DGFT."
+  ],
+  "keywords": [
+    "DGFT",
+    "Additional",
+    "DGFT/Joint",
+    "Chairperson"
+  ],
+  "search_keywords": [
+    "DGFT",
+    "Additional",
+    "DGFT/Joint",
+    "Chairperson"
+  ],
+  "intent": "Provide knowledge guidance for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson.",
+  "tags": [
+    "1",
+    "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    3
+  ],
+  "pages": [
+    3
+  ],
+  "source_document": "HBP2023_Chapter08.pdf",
+  "raw_text": "1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson",
+  "mermaid": "flowchart TD\n    S1[\"Review section 1 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 1 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

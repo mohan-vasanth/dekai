@@ -200,7 +200,13 @@
   "exceptions": [
     "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
   "documents": [
     "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority."
   ],
@@ -485,14 +491,16 @@
     "Bind validations for Enhancement/Reduction in the value of Advance Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: (c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority..",
     "Route escalations or approvals to: Regional Authority, RA, Customs, Customs Authority.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 5."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Capture chapter 4, section 4.37, title, and page references as immutable knowledge metadata.",
     "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Bind validations for Enhancement/Reduction in the value of Advance Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Expose document upload controls for: (c) application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation kandippa be filed online in ANF 4D to concerned Regional\nauthority..",
     "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Route escalations or approvals to: Regional authority, RA, Customs, Customs authority.",
-    "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Trigger manual review when exception clauses are detected."
+    "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Enhancement/Reduction in the value of Advance Authorisation section-la, Show contextual links to related sections: 1, 2, 3, 4, 5."
   ],
   "keywords": [
     "the",
@@ -546,7 +554,13 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
   "related_chapters": [],
   "related_rules": [
     "95\ninputs shall be accounted for as per SION/Ad-Hoc Norms fixed by NC.",

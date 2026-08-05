@@ -4251,182 +4251,7 @@ compliance to the ICP of the foreign company or ICP certified by the compliance
 manager of that company shall be mandatory[only for intra-company transfers].
 m. Authorized Economic Operator (AEO) Certification along with ICP compliance shall
 be mandatory. [for re-export to vendors/OEMs].
-A. Documents Required for GAER
-1. Proof of import of the item(s):
-a. Export Authorisation (if applicable) issued by the foreign country for
-original import of the items to India;
-b. Documentary proof and/or self-declaration that the item exempted from
-license requirement or place under no license requirement for India.
-c. Bill of Entry (first time)
-2. Proof of obligation for repair of defective/damaged items:
-pg. 184
-pg. 184
-different from exporter) and entity abroad defining ‘Statement of Work (SOW)’/
-‘Scope of Work’ including conditions for undertaking repair in India;
-b. The items are to be re-exported to only related entities0 and repair supply chain1 in
-the foreign country.
-c. The exporter is required to register and obtain General authorization for export
-after repair only once during the validity period. Subsequent export/re-export is
-subject to post reporting;
-d. The exporter is required to provide Bill of Entry for the imported item while
-applying for GAER for the first shipment.
-e. General authorization for export after repair shall be valid for a period of one year
-from the date of issue of General authorization subject to subsequent post
-reporting(s) within 30 days from the date of such export;
-f. Subsequent export would be allowed to the same entity and location to which the
-license has originally been issued. Note: Same entity would imply that (a) foreign
-buyer (b) consignee or intermediaries, if any (c) the end user are exactly the same
-for which authorisation has been issued to the applicant exporter.
-g. There has been no change to the original characteristics/specifications of the
-SCOMET item(s) after repair and no value addition has been done during the repair
-work;
-h. No Export Authorisation would be granted when the initial export authorisation
-has been suspended, modified or revoked by country of import;
-i. No Export authorisation would be granted for UNSC sanctioned destinations or
-countries/entities of high risk, as assessed by the IMWG, from time to time;
-j. No details of ‘End Use’ and ‘End Use Certificate’ would be required;
-k. GAER issued for specific item and specific entity (buyer/end user) shall not be
-applicable in case the re-export is of a different imported item or to a different
-entity or Authorised OEM. In such cases, either a new GAER authorization may be
-applied or application may be filed under Para 10.12(D) of HBP.
-l. Certified / approved Internal Compliance Programme or demonstrating
-compliance to the ICP of the foreign company or ICP certified by the compliance
-manager of that company shall be mandatory[only for intra-company transfers].
-m. Authorized Economic Operator (AEO) Certification along with ICP compliance shall
-be mandatory. [for re-export to vendors/OEMs].
-A. Documents Required for GAER
-1. Proof of import of the item(s):
-a. Export Authorisation (if applicable) issued by the foreign country for
-original import of the items to India;
-b. Documentary proof and/or self-declaration that the item exempted from
-license requirement or place under no license requirement for India.
-c. Bill of Entry (first time)
-2.
-Proof of obligation for repair of defective/damaged items:
-Contract agreement and/or ‘Statement of Work (SOW)’/ Master Service
-agreement (MSA) between Indian exporter and with the entity abroad/Direct
-subsidiary/Parent of the Indian Company or another subsidiary of the foreign
-parent of the Indian Company/Authorised Vendor/Original Equipment
-manufacturer having EMS agreement/Master service agreement/ contract with
-Indian Company from (which the goods were imported initially) defining
-conditions for undertaking repair in India
-3. An Undertaking from the Indian exporter;
-An Undertaking from the applicant exporter (on the letter head of the firm duly
-signed and stamped by the authorized signatory) stating:
-a. Details of imported items to be exported after repair along with their
-SCOMET Category /Sub-category number(s), quantity, item description and ECCN
-of foreign country (if available);
-b. That item(s) are being exported to only related entities0 and repair supply
-chain1 in the foreign country (Direct subsidiary/Parent of the Indian Company or
-another Subsidiary of the foreign parent of the Indian Company/Vendor/Original
-Equipment manufacturer having contract with Indian Company) from which it was
-originally imported for repair and return purpose.
-c. That there has been no change to the original
-characteristics/specifications of the item(s) after import and no value addition
-has been done during the repair work;
-d. That the repair of defective/damaged items is allowed under the
-conditions of import or contractual agreement between Indian exporters and
-entities from which goods were imported.
-e. That Shipping Bills and Bill of Entry into destination country of subsequent
-re-exports and any other information as sought by DGFT shall be submitted to
-DGFT on quarterly basis.
-f. That items would not use for military applications or to develop, acquire,
-manufacture, possess, transport, transfer or use, chemical, biological, nuclear
-weapons or for missile capable of delivering such weapons.
-4. Certified/approved Internal Compliance Programme or demonstrating
-compliance to the ICP of the foreign company or ICP certified by the compliance
-manager of that company. [only for intra-company transfers]
-5. Authorized Economic Operator (AEO) Certification along with ICP
-compliance. [for re-export to vendors/OEMs]
-pg. 185
-pg. 185
-Contract agreement and/or ‘Statement of Work (SOW)’/ Master Service
-agreement (MSA) between Indian exporter and with the entity abroad/Direct
-subsidiary/Parent of the Indian Company or another subsidiary of the foreign
-parent of the Indian Company/Authorised Vendor/Original Equipment
-manufacturer having EMS agreement/Master service agreement/ contract with
-Indian Company from (which the goods were imported initially) defining
-conditions for undertaking repair in India
-3.
-An Undertaking from the Indian exporter;
-An Undertaking from the applicant exporter (on the letter head of the firm duly
-signed and stamped by the authorized signatory) stating:
-a.
-Details of imported items to be exported after repair along with their
-SCOMET Category /Sub-category number(s), quantity, item description and ECCN
-of foreign country (if available);
-b.
-That item(s) are being exported to only related entities0 and repair supply
-chain1 in the foreign country (Direct subsidiary/Parent of the Indian Company or
-another Subsidiary of the foreign parent of the Indian Company/Vendor/Original
-Equipment manufacturer having contract with Indian Company) from which it was
-originally imported for repair and return purpose.
-c.
-That
-there
-has
-been
-no
-change
-to
-the
-original
-characteristics/specifications of the item(s) after import and no value addition
-has been done during the repair work;
-d.
-That the repair of defective/damaged items is allowed under the
-conditions of import or contractual agreement between Indian exporters and
-entities from which goods were imported.
-e.
-That Shipping Bills and Bill of Entry into destination country of subsequent
-re-exports and any other information as sought by DGFT shall be submitted to
-DGFT on quarterly basis.
-f.
-That items would not use for military applications or to develop, acquire,
-manufacture, possess, transport, transfer or use, chemical, biological, nuclear
-weapons or for missile capable of delivering such weapons.
-4.
-Certified/approved Internal Compliance Programme or demonstrating
-compliance to the ICP of the foreign company or ICP certified by the compliance
-manager of that company. [only for intra-company transfers]
-5.
-Authorized Economic Operator (AEO) Certification along with ICP
-compliance. [for re-export to vendors/OEMs]
-C. Post reporting for re-export of items/software/technology
-under GAER
-i. The Indian exporter shall submit post-shipment details of each
-transfer/consignment of exports of SCOMET items/software/technology
-under GAER to the SCOMET Division of DGFT (HQ), New Delhi, via e-mail
-(scomet-dgft@nic.in) or a procedure as prescribed by DGFT, on quarterly
-basis (March/June/September/December), by the end of subsequent
-month of each quarter, in respect of the exports made in the previous
-quarter.
-ii. The post-shipment details shall include submission of Bill of Entry
-(wherever available), shipping bill details, valid export license copy within
-the timelines mentioned above.
-iii. Failure to do so may entail imposition of penalty and/or
-suspension/revocation of GAER and action as per FT(D&R) Act.
-D. Suspension / Revocation
-GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
-of an adverse report on proliferation concern or for non-submission of
-mandatory reports /documents within the prescribed timelines, or for non-
-compliance with the conditions of this Public Notice.
-E. General conditions
-i. GAER would not be issued in case of items to be used to design, develop,
-acquire, manufacture, possess, transport, transfer and/or used for
-chemical, biological, nuclear weapons or for missiles capable of delivering
-weapons of mass destruction and their delivery system;
-ii. GAER would not be issued for countries or entities covered under UNSC
-embargo/sanctions or on assessment of proliferation concerns, or
-national security and foreign policy considerations, etc.;
-iii. DGFT shall reserve the right to deny issuance of GAER or recall GAER.
-F. Applications for grant of General authorizations for export to the same
-entity from goods were imported shall be approved by Chairman IMWG,
-without any consultation with IMWG members after the first
-export/shipment. In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.
-G. All such authorizations shall be brought before IMWG in its subsequent
-meeting for confirmation of approval, on ex-post facto basis.', '[11, 12, 13, 14, 15, 16, 17, 18]', '["for", "the", "may", "and", "iii", "ANF", "are", "has", "OEM", "can", "End", "Use", "was", "any", "due", "etc", "ink", "its", "ies", "new"]', 'Support Issue of authorisations for repair/replacement of defective processing and compliance validation.', '["10.12", "Issue of authorisations for repair/replacement of defective", "business-rule", "document-driven", "dgft"]');
+A. Documents Required for GAER', '[11, 12, 13, 14, 15, 16]', '["for", "the", "may", "and", "iii", "ANF", "are", "has", "OEM", "can", "End", "Use", "was", "any", "due", "etc", "ink", "its", "ies", "new"]', 'Support Issue of authorisations for repair/replacement of defective processing and compliance validation.', '["10.12", "Issue of authorisations for repair/replacement of defective", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R001', '10.12', '10.12 Issue of authorisations for repair/replacement of defective
 SCOMET items
 An application for grant of an Authorisation for export/re-export of SCOMET
@@ -4526,8 +4351,10 @@ and return (ii) repair/replacement of indigenous SCOMET items (iii) return of
 items imported for repair at a repair facility in India and (iv) Authorisation for
 export of SCOMET items after repair in india (GAER) shall be made in prescribed
 proforma [ANF 10A] through online SCOMET portal along with other supporting
-documents, as prescribed in Appendix 10D, 10E, 10F and 10F(i), as applicable.', 'Documentary proof and/or self-declaration that the item exempted from
-license requirement or place under no license requirement for India.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+documents, as prescribed in Appendix 10D, 10E, 10F and 10F(i), as applicable.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R004', '10.12', 'Applications for grant of authorisations for export to the entity from
 which it was imported or to the OEM (including agency authorized by
 OEM) shall be approved by Chairman IMWG, without any consultation
@@ -4578,8 +4405,10 @@ The SCOMET items are to be exported to the same entity from
 which they have been imported or to the OEM (including,
 agency1authorized by OEM);
 1Agency can include’ Approved Repair Centre’ (facility approved by the original equipment
-manufacturer to repair the goods being exported under license).', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+manufacturer to repair the goods being exported under license).', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R005', '10.12', 'Return of item(s) after repair/replacement and post-reporting
 compliance:
 (a) Exported items shall be brought back to India within 90 days
@@ -4622,8 +4451,10 @@ agency1authorized by OEM);
 manufacturer to repair the goods being exported under license).', 'Applications for grant of authorisations for export to the entity from
 which it was imported or to the OEM (including agency authorized by
 OEM) shall be approved by Chairman IMWG, without any consultation
-with IMWG members.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+with IMWG members.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R006', '10.12', '(c) In case time beyond 90 days is required for repair of imported
 defective/damaged item(s) before re-import, permission from
 DGFT shall have to be obtained in advance indicating detailed
@@ -4649,8 +4480,10 @@ time, as allowed by the DGFT;
 (b) In case the defective/damaged item(s) cannot be imported due to
 any reason (beyond repair, testing failure analysis etc.), evidence
 of destruction in the importing country shall be submitted to
-DGFT within 90 days of export.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+DGFT within 90 days of export.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R007', '10.12', 'Return of item(s) after repair/replacement and post-reporting
 compliance:
 (a)
@@ -4675,8 +4508,10 @@ OEM) shall be approved by Chairman IMWG, without any consultation
 with IMWG members.', '(c) In case time beyond 90 days is required for repair of imported
 defective/damaged item(s) before re-import, permission from
 DGFT shall have to be obtained in advance indicating detailed
-justification for seeking extension of time.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+justification for seeking extension of time.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R008', '10.12', '(c)
 In case time beyond 90 days is required for repair of imported
 defective/damaged item(s) before re-import, permission from
@@ -4702,8 +4537,10 @@ time, as allowed by the DGFT;
 In case the defective/damaged item(s) cannot be imported due to
 any reason (beyond repair, testing failure analysis etc.), evidence
 of destruction in the importing country shall be submitted to
-DGFT within 90 days of export.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+DGFT within 90 days of export.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R009', '10.12', '(d) Bill of Entry confirming the return back of such SCOMET item(s)
 to India shall be intimated by the licensee to the DGFT(Hqrs) in
 the prescribed proforma (Annexure-I of Appendix 10K), duly
@@ -4733,8 +4570,10 @@ justification for seeking extension of time.', '(c)
 In case time beyond 90 days is required for repair of imported
 defective/damaged item(s) before re-import, permission from
 DGFT shall have to be obtained in advance indicating detailed
-justification for seeking extension of time.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+justification for seeking extension of time.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R010', '10.12', 'Applications for grant of authorisations to export the replaced/repaired
 item(s) to/through the same entity(ies), as specified in the original
 SCOMET license, shall be approved by Chairman IMWG, without any
@@ -4770,8 +4609,10 @@ prescribed in Appendix 10D;
 Legal Undertaking on the stamp paper of Rs.', 'Applications for grant of authorisations to export the replaced/repaired
 item(s) to/through the same entity(ies), as specified in the original
 SCOMET license, shall be approved by Chairman IMWG, without any
-consultation with IMWG members.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+consultation with IMWG members.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R011', '10.12', '181
 (d)
 Bill of Entry confirming the return back of such SCOMET item(s)
@@ -4793,8 +4634,10 @@ any reason (beyond repair, testing failure analysis etc.), evidence
 of destruction in the importing country shall be submitted to
 DGFT within 90 days of export.', 'Return of item(s)after repair/replacement and post-reporting
 compliance:
-pg.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+pg.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R012', '10.12', 'Return
 of
 item(s)after
@@ -4835,8 +4678,10 @@ DGFT within 90 days of export of replacement;
 (c) Bill of Entry confirming the return back of such SCOMET item(s)
 to India shall be intimated by the licensee to the DGFT(Hqrs) in
 the prescribed proforma (Annexure-I of Appendix 10K), duly
-signed in ink and stamped by the authorised signatory.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+signed in ink and stamped by the authorised signatory.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R013', '10.12', '182
 (a)
 That the defective/damaged item(s)has/have already been
@@ -4887,8 +4732,10 @@ exporter, entities of repair facility (if different from exporter) and
 the entity abroad/OEM (including agency authorized by
 OEM)(name and address);
 2Agency can include’ Approved Repair Centre’ (facility approved by the original equipment manufacturer to repair
-the goods being exported under license).', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+the goods being exported under license).', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R014', '10.12', 'All such authorisations shall be brought before IMWG in its subsequent
 meeting for confirmation of approval, on ex-post facto basis.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', '(g) No Export authorisation would be granted for UNSC sanctioned
 destinations or countries/entities of high risk, as assessed by the
@@ -4916,8 +4763,10 @@ DGFT within 90 days of export of replacement;
 Bill of Entry confirming the return back of such SCOMET item(s)
 to India shall be intimated by the licensee to the DGFT(Hqrs) in
 the prescribed proforma (Annexure-I of Appendix 10K), duly
-signed in ink and stamped by the authorised signatory.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+signed in ink and stamped by the authorised signatory.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R015', '10.12', 'Export of imported SCOMET items to the related entities0 and repair supply chain1 in
 the foreign country after repair in India will be allowed on the basis of a one-time
 General authorization for Export after Repair in India (GAER) subject to post reporting
@@ -4948,8 +4797,10 @@ exporter, entities of repair facility (if different from exporter) and
 the entity abroad/OEM (including agency authorized by
 OEM)(name and address);
 2Agency can include’ Approved Repair Centre’ (facility approved by the original equipment manufacturer to repair
-the goods being exported under license).', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+the goods being exported under license).', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R016', '10.12', 'The exporter is required to register and obtain General authorization for export
 after repair only once during the validity period.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', 'However, in cases of export
 to/through a new entity (consignee), approval will be granted by
@@ -4963,8 +4814,10 @@ signed in ink and stamped by the authorised signatory.', 'Export of imported SCO
 the foreign country after repair in India will be allowed on the basis of a one-time
 General authorization for Export after Repair in India (GAER) subject to post reporting
 on quarterly basis issued by DGFT, subject to the following conditions:
-a.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+a.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R017', '10.12', 'Subsequent export/re-export is
 subject to post reporting;
 d.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', 'Return of item(s)after repair/replacement and post-reporting
@@ -4980,8 +4833,10 @@ The application is accompanied with relevant documents as
 prescribed in Appendix 10E;
 (j)
 Legal Undertaking on the stamp paper of Rs.', 'The exporter is required to register and obtain General authorization for export
-after repair only once during the validity period.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+after repair only once during the validity period.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R018', '10.12', 'The exporter is required to provide Bill of Entry for the imported item while
 applying for GAER for the first shipment.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', 'Conditions to be fulfilled:
 (a)
@@ -5031,8 +4886,10 @@ to India shall be intimated by the licensee to the DGFT(Hqrs) in
 the prescribed proforma (Annexure-I of Appendix 10K), duly
 signed in ink and stamped by the authorised signatory.', 'Subsequent export/re-export is
 subject to post reporting;
-d.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+d.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R019', '10.12', 'General authorization for export after repair shall be valid for a period of one year
 from the date of issue of General authorization subject to subsequent post
 reporting(s) within 30 days from the date of such export;
@@ -5064,8 +4921,10 @@ the entity abroad/OEM (including agency authorized by
 OEM)(name and address);
 2Agency can include’ Approved Repair Centre’ (facility approved by the original equipment manufacturer to repair
 the goods being exported under license).', 'The exporter is required to provide Bill of Entry for the imported item while
-applying for GAER for the first shipment.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+applying for GAER for the first shipment.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R020', '10.12', 'GAER issued for specific item and specific entity (buyer/end user) shall not be
 applicable in case the re-export is of a different imported item or to a different
 entity or Authorised OEM.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', 'Return
@@ -5102,8 +4961,10 @@ the prescribed proforma (Annexure-I of Appendix 10K), duly
 signed in ink and stamped by the authorised signatory.', 'General authorization for export after repair shall be valid for a period of one year
 from the date of issue of General authorization subject to subsequent post
 reporting(s) within 30 days from the date of such export;
-f.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+f.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R021', '10.12', 'Certified / approved Internal Compliance Programme or demonstrating
 compliance to the ICP of the foreign company or ICP certified by the compliance
 manager of that company shall be mandatory[only for intra-company transfers].', 'business_rule', 'Issue of authorisations for repair/replacement of defective', 'Authorisation for export of imported SCOMET items to same entity
@@ -5129,8 +4990,10 @@ the entity abroad/OEM (including agency authorized by
 OEM)(name and address);
 2Agency can include’ Approved Repair Centre’ (facility approved by the original equipment manufacturer to repair
 the goods being exported under license).', 'Subsequent export would be allowed to the same entity and location to which the
-license has originally been issued.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+license has originally been issued.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R022', '10.12', 'Authorized Economic Operator (AEO) Certification along with ICP compliance shall
 be mandatory.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', 'Conditions to be fulfilled:
 (a) The SCOMET items were imported to a designated/authorized
@@ -5162,149 +5025,10 @@ IMWG, from time to time;
 prescribed in Appendix 10F;
 ii.', 'Note: Same entity would imply that (a) foreign
 buyer (b) consignee or intermediaries, if any (c) the end user are exactly the same
-for which authorisation has been issued to the applicant exporter.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R023', '10.12', 'That Shipping Bills and Bill of Entry into destination country of subsequent
-re-exports and any other information as sought by DGFT shall be submitted to
-DGFT on quarterly basis.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', '182
-(a)
-That the defective/damaged item(s)has/have already been
-brought back or would be brought back to India within 90 days of
-its replacement (in case of replacement);;
-(b)
-In case the defective/damaged item(s)cannot be imported due to
-any reason (beyond repair, testing failure analysis etc.), evidence
-of destruction in the importing country shall be submitted to
-DGFT within 90 days of export of replacement;
-(c)
-Bill of Entry confirming the return back of such SCOMET item(s)
-to India shall be intimated by the licensee to the DGFT(Hqrs) in
-the prescribed proforma (Annexure-I of Appendix 10K), duly
-signed in ink and stamped by the authorised signatory.', 'All such authorisations shall be brought before IMWG in its subsequent
-meeting for confirmation of approval, on ex-post facto basis.', 'GAER issued for specific item and specific entity (buyer/end user) shall not be
-applicable in case the re-export is of a different imported item or to a different
-entity or Authorised OEM.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R024', '10.12', 'The Indian exporter shall submit post-shipment details of each
-transfer/consignment of exports of SCOMET items/software/technology
-under GAER to the SCOMET Division of DGFT (HQ), New Delhi, via e-mail
-(scomet-dgft@nic.in) or a procedure as prescribed by DGFT, on quarterly
-basis (March/June/September/December), by the end of subsequent
-month of each quarter, in respect of the exports made in the previous
-quarter.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', 'Conditions to be fulfilled:
-(a)
-The SCOMET items were imported to a designated/authorized
-repair facility in India for the purpose of repair under a contract
-agreement/Master Service agreement (MSA); or
-Imported under a contract agreement between Indian exporter,
-entities of repair facility (if different from exporter)and entity
-abroad defining ‘Statement of Work (SOW)’/ ‘Scope of Work’
-including conditions for undertaking repair in India;
-(b)
-The items are to be exported to the same entity abroad from which
-the item(s) has/have been imported or to the OEM (including
-agency2 authorised by OEM);
-(c)
-The repair of defective/damaged items is allowed under the
-conditions of import or contractual agreement between Indian
-exporter, entities of repair facility (if different from exporter) and
-the entity abroad/OEM (including agency authorized by
-OEM)(name and address);
-2Agency can include’ Approved Repair Centre’ (facility approved by the original equipment manufacturer to repair
-the goods being exported under license).', '183
-(d)
-There
-has
-been
-no
-change
-to
-the
-original
-characteristics/specifications of the SCOMET item(s) after repair;
-(e)
-No Export Authorisation would be granted when the initial export
-authorisation has been suspended, modified or revoked by
-country of import;
-(f)
-No Export authorisation would be granted for UNSC sanctioned
-destinations or countries/entities of high risk, as assessed by the
-IMWG, from time to time;
-(g)
-No details of ‘End Use’ and ‘End Use Certificate’ would be required;
-(h)
-The application is accompanied with relevant documents as
-prescribed in Appendix 10F;
-ii.', 'Certified / approved Internal Compliance Programme or demonstrating
-compliance to the ICP of the foreign company or ICP certified by the compliance
-manager of that company shall be mandatory[only for intra-company transfers].', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R025', '10.12', 'The post-shipment details shall include submission of Bill of Entry
-(wherever available), shipping bill details, valid export license copy within
-the timelines mentioned above.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', '(d) There has been no change to the original
-characteristics/specifications of the SCOMET item(s) after repair;
-(e) No Export Authorisation would be granted when the initial export
-authorisation has been suspended, modified or revoked by
-country of import;
-(f) No Export authorisation would be granted for UNSC sanctioned
-destinations or countries/entities of high risk, as assessed by the
-IMWG, from time to time;
-(g) No details of ‘End Use’ and ‘End Use Certificate’ would be required;
-(h) The application is accompanied with relevant documents as
-prescribed in Appendix 10F;
-ii.', 'The exporter is required to register and obtain General authorization for export
-after repair only once during the validity period.', 'Export Authorisation (if applicable) issued by the foreign country for
-original import of the items to India;
-b.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R026', '10.12', 'Suspension / Revocation
-GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
-of an adverse report on proliferation concern or for non-submission of
-mandatory reports /documents within the prescribed timelines, or for non-
-compliance with the conditions of this Public Notice.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', 'All such authorisations shall be brought before IMWG in its subsequent
-meeting for confirmation of approval, on ex-post facto basis.', 'The exporter is required to provide Bill of Entry for the imported item while
-applying for GAER for the first shipment.', 'That Shipping Bills and Bill of Entry into destination country of subsequent
-re-exports and any other information as sought by DGFT shall be submitted to
-DGFT on quarterly basis.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R027', '10.12', 'DGFT shall reserve the right to deny issuance of GAER or recall GAER.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', 'Authorization for export of same imported SCOMET items to Related entities0
-and Repair supply chain1 in the foreign country under General Authorization
-for Export after Repair(GAER)
-0Related entities mean Direct subsidiary / Foreign Parent of the Indian Company or
-another Subsidiary of the foreign parent of the Indian Company.', 'General authorization for export after repair shall be valid for a period of one year
-from the date of issue of General authorization subject to subsequent post
-reporting(s) within 30 days from the date of such export;
-f.', 'Certified/approved Internal Compliance Programme or demonstrating
-compliance to the ICP of the foreign company or ICP certified by the compliance
-manager of that company.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R028', '10.12', 'Applications for grant of General authorizations for export to the same
-entity from goods were imported shall be approved by Chairman IMWG,
-without any consultation with IMWG members after the first
-export/shipment.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', 'Export of imported SCOMET items to the related entities0 and repair supply chain1 in
-the foreign country after repair in India will be allowed on the basis of a one-time
-General authorization for Export after Repair in India (GAER) subject to post reporting
-on quarterly basis issued by DGFT, subject to the following conditions:
-a.', 'No details of ‘End Use’ and ‘End Use Certificate’ would be required;
-k.', 'Post reporting for re-export of items/software/technology
-under GAER
-i.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_12-R029', '10.12', 'All such authorizations shall be brought before IMWG in its subsequent
-meeting for confirmation of approval, on ex-post facto basis.', 'business_rule', 'Issue of authorisations for repair/replacement of defective', 'The SCOMET items were imported to a designated/authorized repair facility in
-India for the purpose of repair under a contract agreement/Master Service
-agreement (MSA)/Electronic Manufacturer Agreement (EMS); or Imported under
-a contract agreement between Indian exporter, entities of repair facility (if
-pg.', 'GAER issued for specific item and specific entity (buyer/end user) shall not be
-applicable in case the re-export is of a different imported item or to a different
-entity or Authorised OEM.', 'The Indian exporter shall submit post-shipment details of each
-transfer/consignment of exports of SCOMET items/software/technology
-under GAER to the SCOMET Division of DGFT (HQ), New Delhi, via e-mail
-(scomet-dgft@nic.in) or a procedure as prescribed by DGFT, on quarterly
-basis (March/June/September/December), by the end of subsequent
-month of each quarter, in respect of the exports made in the previous
-quarter.', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
+for which authorisation has been issued to the applicant exporter.', 'However, in cases of export
+to/through a new entity (consignee), approval will be granted by
+Chairman, IMWG after verification of the credentials of the new foreign
+entity(ies) through which the item(s) are to be exported.', 'DEKAI should produce a compliance decision for 10.12 - Issue of authorisations for repair/replacement of defective.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', '10.12 Issue of authorisations for repair/replacement of defective
 SCOMET items
 An application for grant of an Authorisation for export/re-export of SCOMET
@@ -5663,63 +5387,6 @@ compliance to the ICP of the foreign company or ICP certified by the compliance
 manager of that company shall be mandatory[only for intra-company transfers].');
 INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'Authorized Economic Operator (AEO) Certification along with ICP compliance shall
 be mandatory.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'Export Authorisation (if applicable) issued by the foreign country for
-original import of the items to India;
-b.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', '184
-different from exporter) and entity abroad defining ‘Statement of Work (SOW)’/
-‘Scope of Work’ including conditions for undertaking repair in India;
-b.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'Details of imported items to be exported after repair along with their
-SCOMET Category /Sub-category number(s), quantity, item description and ECCN
-of foreign country (if available);
-b.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'That there has been no change to the original
-characteristics/specifications of the item(s) after import and no value addition
-has been done during the repair work;
-d.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'Certified/approved Internal Compliance Programme or demonstrating
-compliance to the ICP of the foreign company or ICP certified by the compliance
-manager of that company.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'Authorized Economic Operator (AEO) Certification along with ICP
-compliance.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'That
-there
-has
-been
-no
-change
-to
-the
-original
-characteristics/specifications of the item(s) after import and no value addition
-has been done during the repair work;
-d.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'The post-shipment details shall include submission of Bill of Entry
-(wherever available), shipping bill details, valid export license copy within
-the timelines mentioned above.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'Suspension / Revocation
-GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
-of an adverse report on proliferation concern or for non-submission of
-mandatory reports /documents within the prescribed timelines, or for non-
-compliance with the conditions of this Public Notice.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'GAER would not be issued in case of items to be used to design, develop,
-acquire, manufacture, possess, transport, transfer and/or used for
-chemical, biological, nuclear weapons or for missiles capable of delivering
-weapons of mass destruction and their delivery system;
-ii.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'GAER would not be issued for countries or entities covered under UNSC
-embargo/sanctions or on assessment of proliferation concerns, or
-national security and foreign policy considerations, etc.;
-iii.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'Applications for grant of General authorizations for export to the same
-entity from goods were imported shall be approved by Chairman IMWG,
-without any consultation with IMWG members after the first
-export/shipment.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.12', 'All such authorizations shall be brought before IMWG in its subsequent
-meeting for confirmation of approval, on ex-post facto basis.');
 INSERT INTO documents (section_code, document_name) VALUES ('10.12', '10.12 Issue of authorisations for repair/replacement of defective
 SCOMET items
 An application for grant of an Authorisation for export/re-export of SCOMET
@@ -5939,60 +5606,9 @@ INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'Subsequent
 license has originally been issued.');
 INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'In such cases, either a new GAER authorization may be
 applied or application may be filed under Para 10.12(D) of HBP.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'Documents Required for GAER
-1.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'Proof of import of the item(s):
-a.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'Documentary proof and/or self-declaration that the item exempted from
-license requirement or place under no license requirement for India.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'Bill of Entry (first time)
-2.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'Proof of obligation for repair of defective/damaged items:
-pg.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', '184
-different from exporter) and entity abroad defining ‘Statement of Work (SOW)’/
-‘Scope of Work’ including conditions for undertaking repair in India;
-b.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'Proof of obligation for repair of defective/damaged items:
-Contract agreement and/or ‘Statement of Work (SOW)’/ Master Service
-agreement (MSA) between Indian exporter and with the entity abroad/Direct
-subsidiary/Parent of the Indian Company or another subsidiary of the foreign
-parent of the Indian Company/Authorised Vendor/Original Equipment
-manufacturer having EMS agreement/Master service agreement/ contract with
-Indian Company from (which the goods were imported initially) defining
-conditions for undertaking repair in India
-3.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'An Undertaking from the Indian exporter;
-An Undertaking from the applicant exporter (on the letter head of the firm duly
-signed and stamped by the authorized signatory) stating:
-a.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'That Shipping Bills and Bill');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'That items would not use for military applications or to develop, acquire,
-manufacture, possess, transport, transfer or use, chemical, biological, nuclear
-weapons or for missile capable of delivering such weapons.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', '185
-Contract agreement and/or ‘Statement of Work (SOW)’/ Master Service
-agreement (MSA) between Indian exporter and with the entity abroad/Direct
-subsidiary/Parent of the Indian Company or another subsidiary of the foreign
-parent of the Indian Company/Authorised Vendor/Original Equipment
-manufacturer having EMS agreement/Master service agreement/ contract with
-Indian Company from (which the goods were imported initially) defining
-conditions for undertaking repair in India
-3.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'The post-shipment details shall include submission of Bill');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'Suspension / Revocation
-GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
-of an adverse report on proliferation concern or for non-submission of
-mandatory reports /documents within the prescribed timelines, or for non-
-compliance with the conditions of this Public Notice.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'Applications for grant of General authorizations for export to the same
-entity from goods were imported shall be approved by Chairman IMWG,
-without any consultation with IMWG members after the first
-export/shipment.');
+INSERT INTO documents (section_code, document_name) VALUES ('10.12', 'Documents Required for GAER');
 INSERT INTO authorities (section_code, authority_name) VALUES ('10.12', 'DGFT');
 INSERT INTO authorities (section_code, authority_name) VALUES ('10.12', 'India shall be intimated by the licensee to the DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('10.12', 'GAER to the SCOMET Division of DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('10.12', 'GAER issued shall be liable to be suspended / revoked by the DGFT');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('10.12', '10.12 Issue of authorisations for repair/replacement of defective
 SCOMET items
 An application for grant of an Authorisation for export/re-export of SCOMET
@@ -6196,40 +5812,6 @@ INSERT INTO timelines (section_code, timeline_text) VALUES ('10.12', 'There has 
 SCOMET item(s) after repair and no value addition has been done during the repair
 work;
 h.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.12', 'Details of imported items to be exported after repair along with their
-SCOMET Category /Sub-category number(s), quantity, item description and ECCN
-of foreign country (if available);
-b.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.12', 'That there has been no change to the original
-characteristics/specifications of the item(s) after import and no value addition
-has been done during the repair work;
-d.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.12', 'That
-there
-has
-been
-no
-change
-to
-the
-original
-characteristics/specifications of the item(s) after import and no value addition
-has been done during the repair work;
-d.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.12', 'The post-shipment details shall include submission of Bill of Entry
-(wherever available), shipping bill details, valid export license copy within
-the timelines mentioned above.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.12', 'Suspension / Revocation
-GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
-of an adverse report on proliferation concern or for non-submission of
-mandatory reports /documents within the prescribed timelines, or for non-
-compliance with the conditions of this Public Notice.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.12', 'Applications for grant of General authorizations for export to the same
-entity from goods were imported shall be approved by Chairman IMWG,
-without any consultation with IMWG members after the first
-export/shipment.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.12', 'All such authorizations shall be brought before IMWG in its subsequent
-meeting for confirmation of approval, on ex-post facto basis.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('10.12', 'However, in cases of export to any other entity,
 approval will be granted by Chairman, IMWG after verification of the
 credentials of the foreign entity to which the item(s) are to be exported.');
@@ -6237,10 +5819,6 @@ INSERT INTO exceptions (section_code, exception_text) VALUES ('10.12', 'However,
 to/through a new entity (consignee), approval will be granted by
 Chairman, IMWG after verification of the credentials of the new foreign
 entity(ies) through which the item(s) are to be exported.');
-INSERT INTO exceptions (section_code, exception_text) VALUES ('10.12', 'Documentary proof and/or self-declaration that the item exempted from
-license requirement or place under no license requirement for India.');
-INSERT INTO exceptions (section_code, exception_text) VALUES ('10.12', 'In exceptional cases, consultation with IMWG may be done
-prior to issuance of GAER, in case required.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.12', 1, 'Evaluate condition: 10.12 Issue of authorisations for repair/replacement of defective
 SCOMET items
 An application for grant of an Authorisation for export/re-export of SCOMET
@@ -6383,6 +5961,884 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.12', 
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.12', 'tags', 'business-rule');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.12', 'tags', 'document-driven');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.12', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '1', 'Proof of import of the item(s):', 'Export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b.', 'Indha Proof of import of the item(s): section-la, export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b.', '1. Proof of import of the item(s):
+a. Export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b.', '1.', '1. Proof of import of the item(s):
+a. Export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b.', 'Indha Proof of import of the item(s): section-la, 1. Proof of import of the item(s):
+a. export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b.', '1. Proof of import of the item(s):
+a. Export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b. Documentary proof and/or self-declaration that the item exempted from
+license requirement or place under no license requirement for India.
+c. Bill of Entry (first time)
+1. Proof of import of the item(s):
+a. Export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b. Documentary proof and/or self-declaration that the item exempted from
+license requirement or place under no license requirement for India.
+c. Bill of Entry (first time)
+2.
+Proof of obligation for repair of defective/damaged items:
+Contract agreement and/or ‘Statement of Work (SOW)’/ Master Service
+agreement (MSA) between Indian exporter and with the entity abroad/Direct
+subsidiary/Parent of the Indian Company or another subsidiary of the foreign
+parent of the Indian Company/Authorised Vendor/Original Equipment
+manufacturer having EMS agreement/Master service agreement/ contract with
+Indian Company from (which the goods were imported initially) defining
+conditions for undertaking repair in India', '[16, 17]', '["the", "for", "SOW", "MSA", "and", "EMS", "item", "that", "from", "Bill", "time", "Work", "with", "were", "Proof", "items", "India", "place", "under", "Entry"]', 'Support Proof of import of the item(s): processing and compliance validation.', '["1", "Proof of import of the item(s):", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R001', '1', 'IF validations pass THEN recommend action: Export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b.', 'business_rule', 'Proof of import of the item(s):', 'Export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b.', 'Not explicitly covered in uploaded documents.', 'Export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b.', 'Documentary proof and/or self-declaration that the item exempted from
+license requirement or place under no license requirement for India.', 'DEKAI should produce a compliance decision for 1 - Proof of import of the item(s):.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'Proof of import of the item(s):
+a.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'Documentary proof and/or self-declaration that the item exempted from
+license requirement or place under no license requirement for India.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'Bill of Entry (first time)
+1.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'Bill of Entry (first time)
+2.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'Proof of obligation for repair of defective/damaged items:
+Contract agreement and/or ‘Statement of Work (SOW)’/ Master Service
+agreement (MSA) between Indian exporter and with the entity abroad/Direct
+subsidiary/Parent of the Indian Company or another subsidiary of the foreign
+parent of the Indian Company/Authorised Vendor/Original Equipment
+manufacturer having EMS agreement/Master service agreement/ contract with
+Indian Company from (which the goods were imported initially) defining
+conditions for undertaking repair in India');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('1', 'Documentary proof and/or self-declaration that the item exempted from
+license requirement or place under no license requirement for India.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 1, 'Evaluate condition: Export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 2, 'Export Authorisation (if applicable) issued by the foreign country for
+original import of the items to India;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 3, 'Handle exception: Documentary proof and/or self-declaration that the item exempted from
+license requirement or place under no license requirement for India.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'SOW');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'MSA');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'EMS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'item');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'that');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Bill');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'time');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Work');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'were');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Proof');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'items');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'India');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'place');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'under');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Entry');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'Proof of import of the item(s):');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '2', 'Proof of obligation for repair of defective/damaged items:', 'Proof of obligation for repair of defective/damaged items:
+pg.', 'Indha Proof of obligation for repair of defective/damaged items: section-la, Proof of obligation for repair of defective/damaged items:
+pg.', '2. Proof of obligation for repair of defective/damaged items:
+pg. 184
+pg.', 'Proof of obligation for repair of defective/damaged items: governs how DGFT business controls should be applied, validated, and enforced.', 'Proof of obligation for repair of defective/damaged items: explains the operating rule set that DEKAI should enforce. Key control points include The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period. The section also drives actions such as The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period..', 'Indha Proof of obligation for repair of defective/damaged items: section-la, Proof of obligation for repair of defective/damaged items: explains the operating rule set that DEKAI should enforce. Key control points include The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period. The section also drives actions such as The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period..', '2. Proof of obligation for repair of defective/damaged items:
+pg. 184
+pg. 184
+different from exporter) and entity abroad defining ‘Statement of Work (SOW)’/
+‘Scope of Work’ including conditions for undertaking repair in India;
+b. The items are to be re-exported to only related entities0 and repair supply chain1 in
+the foreign country.
+c. The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period. Subsequent export/re-export is
+subject to post reporting;
+d. The exporter is required to provide Bill of Entry for the imported item while
+applying for GAER for the first shipment.
+e. General authorization for export after repair shall be valid for a period of one year
+from the date of issue of General authorization subject to subsequent post
+reporting(s) within 30 days from the date of such export;
+f. Subsequent export would be allowed to the same entity and location to which the
+license has originally been issued. Note: Same entity would imply that (a) foreign
+buyer (b) consignee or intermediaries, if any (c) the end user are exactly the same
+for which authorisation has been issued to the applicant exporter.
+g. There has been no change to the original characteristics/specifications of the
+SCOMET item(s) after repair and no value addition has been done during the repair
+work;
+h. No Export Authorisation would be granted when the initial export authorisation
+has been suspended, modified or revoked by country of import;
+i. No Export authorisation would be granted for UNSC sanctioned destinations or
+countries/entities of high risk, as assessed by the IMWG, from time to time;
+j. No details of ‘End Use’ and ‘End Use Certificate’ would be required;
+k. GAER issued for specific item and specific entity (buyer/end user) shall not be
+applicable in case the re-export is of a different imported item or to a different
+entity or Authorised OEM. In such cases, either a new GAER authorization may be
+applied or application may be filed under Para 10.12(D) of HBP.
+l. Certified / approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company shall be mandatory[only for intra-company transfers].
+m. Authorized Economic Operator (AEO) Certification along with ICP compliance shall
+be mandatory. [for re-export to vendors/OEMs].
+A. Documents Required for GAER', '[16]', '["for", "and", "SOW", "The", "are", "one", "has", "any", "end", "Use", "not", "OEM", "new", "may", "HBP", "ICP", "AEO", "from", "Work", "only"]', 'Support Proof of obligation for repair of defective/damaged items: processing and compliance validation.', '["2", "Proof of obligation for repair of defective/damaged items:", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R001', '2', 'The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period.', 'business_rule', 'Proof of obligation for repair of defective/damaged items:', '184
+different from exporter) and entity abroad defining ‘Statement of Work (SOW)’/
+‘Scope of Work’ including conditions for undertaking repair in India;
+b.', 'The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period.', 'The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R002', '2', 'Subsequent export/re-export is
+subject to post reporting;
+d.', 'business_rule', 'Proof of obligation for repair of defective/damaged items:', 'The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period.', 'The exporter is required to provide Bill of Entry for the imported item while
+applying for GAER for the first shipment.', 'Subsequent export/re-export is
+subject to post reporting;
+d.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R003', '2', 'The exporter is required to provide Bill of Entry for the imported item while
+applying for GAER for the first shipment.', 'business_rule', 'Proof of obligation for repair of defective/damaged items:', 'Subsequent export/re-export is
+subject to post reporting;
+d.', 'General authorization for export after repair shall be valid for a period of one year
+from the date of issue of General authorization subject to subsequent post
+reporting(s) within 30 days from the date of such export;
+f.', 'The exporter is required to provide Bill of Entry for the imported item while
+applying for GAER for the first shipment.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R004', '2', 'General authorization for export after repair shall be valid for a period of one year
+from the date of issue of General authorization subject to subsequent post
+reporting(s) within 30 days from the date of such export;
+f.', 'business_rule', 'Proof of obligation for repair of defective/damaged items:', 'General authorization for export after repair shall be valid for a period of one year
+from the date of issue of General authorization subject to subsequent post
+reporting(s) within 30 days from the date of such export;
+f.', 'No details of ‘End Use’ and ‘End Use Certificate’ would be required;
+k.', 'General authorization for export after repair shall be valid for a period of one year
+from the date of issue of General authorization subject to subsequent post
+reporting(s) within 30 days from the date of such export;
+f.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R005', '2', 'GAER issued for specific item and specific entity (buyer/end user) shall not be
+applicable in case the re-export is of a different imported item or to a different
+entity or Authorised OEM.', 'business_rule', 'Proof of obligation for repair of defective/damaged items:', 'Note: Same entity would imply that (a) foreign
+buyer (b) consignee or intermediaries, if any (c) the end user are exactly the same
+for which authorisation has been issued to the applicant exporter.', 'GAER issued for specific item and specific entity (buyer/end user) shall not be
+applicable in case the re-export is of a different imported item or to a different
+entity or Authorised OEM.', 'Subsequent export would be allowed to the same entity and location to which the
+license has originally been issued.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R006', '2', 'Certified / approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company shall be mandatory[only for intra-company transfers].', 'business_rule', 'Proof of obligation for repair of defective/damaged items:', 'There has been no change to the original characteristics/specifications of the
+SCOMET item(s) after repair and no value addition has been done during the repair
+work;
+h.', 'Certified / approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company shall be mandatory[only for intra-company transfers].', 'Note: Same entity would imply that (a) foreign
+buyer (b) consignee or intermediaries, if any (c) the end user are exactly the same
+for which authorisation has been issued to the applicant exporter.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R007', '2', 'Authorized Economic Operator (AEO) Certification along with ICP compliance shall
+be mandatory.', 'business_rule', 'Proof of obligation for repair of defective/damaged items:', 'No Export Authorisation would be granted when the initial export authorisation
+has been suspended, modified or revoked by country of import;
+i.', 'Authorized Economic Operator (AEO) Certification along with ICP compliance shall
+be mandatory.', 'GAER issued for specific item and specific entity (buyer/end user) shall not be
+applicable in case the re-export is of a different imported item or to a different
+entity or Authorised OEM.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', '184
+different from exporter) and entity abroad defining ‘Statement of Work (SOW)’/
+‘Scope of Work’ including conditions for undertaking repair in India;
+b.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'Subsequent export/re-export is
+subject to post reporting;
+d.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'General authorization for export after repair shall be valid for a period of one year
+from the date of issue of General authorization subject to subsequent post
+reporting(s) within 30 days from the date of such export;
+f.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'Note: Same entity would imply that (a) foreign
+buyer (b) consignee or intermediaries, if any (c) the end user are exactly the same
+for which authorisation has been issued to the applicant exporter.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'There has been no change to the original characteristics/specifications of the
+SCOMET item(s) after repair and no value addition has been done during the repair
+work;
+h.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'No Export Authorisation would be granted when the initial export authorisation
+has been suspended, modified or revoked by country of import;
+i.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'No details of ‘End Use’ and ‘End Use Certificate’ would be required;
+k.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'GAER issued for specific item and specific entity (buyer/end user) shall not be
+applicable in case the re-export is of a different imported item or to a different
+entity or Authorised OEM.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'Certified / approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company shall be mandatory[only for intra-company transfers].');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'Authorized Economic Operator (AEO) Certification along with ICP compliance shall
+be mandatory.');
+INSERT INTO documents (section_code, document_name) VALUES ('2', 'Proof of obligation for repair of defective/damaged items:
+pg.');
+INSERT INTO documents (section_code, document_name) VALUES ('2', '184
+different from exporter) and entity abroad defining ‘Statement of Work (SOW)’/
+‘Scope of Work’ including conditions for undertaking repair in India;
+b.');
+INSERT INTO documents (section_code, document_name) VALUES ('2', 'The exporter is required to provide Bill');
+INSERT INTO documents (section_code, document_name) VALUES ('2', 'Subsequent export would be allowed to the same entity and location to which the
+license has originally been issued.');
+INSERT INTO documents (section_code, document_name) VALUES ('2', 'End Use Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('2', 'In such cases, either a new GAER authorization may be
+applied or application may be filed under Para 10.12(D) of HBP.');
+INSERT INTO documents (section_code, document_name) VALUES ('2', 'Documents Required for GAER');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('2', 'The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('2', 'General authorization for export after repair shall be valid for a period of one year
+from the date of issue of General authorization subject to subsequent post
+reporting(s) within 30 days from the date of such export;
+f.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('2', 'There has been no change to the original characteristics/specifications of the
+SCOMET item(s) after repair and no value addition has been done during the repair
+work;
+h.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 1, 'Evaluate condition: 184
+different from exporter) and entity abroad defining ‘Statement of Work (SOW)’/
+‘Scope of Work’ including conditions for undertaking repair in India;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 2, 'Evaluate condition: The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 3, 'Evaluate condition: Subsequent export/re-export is
+subject to post reporting;
+d.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 4, 'The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 5, 'Subsequent export/re-export is
+subject to post reporting;
+d.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 6, 'The exporter is required to provide Bill of Entry for the imported item while
+applying for GAER for the first shipment.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 7, 'General authorization for export after repair shall be valid for a period of one year
+from the date of issue of General authorization subject to subsequent post
+reporting(s) within 30 days from the date of such export;
+f.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 8, 'Subsequent export would be allowed to the same entity and location to which the
+license has originally been issued.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 9, 'Note: Same entity would imply that (a) foreign
+buyer (b) consignee or intermediaries, if any (c) the end user are exactly the same
+for which authorisation has been issued to the applicant exporter.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 10, 'Run validation: The exporter is required to register and obtain General authorization for export
+after repair only once during the validity period.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 11, 'Run validation: The exporter is required to provide Bill of Entry for the imported item while
+applying for GAER for the first shipment.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 12, 'Run validation: General authorization for export after repair shall be valid for a period of one year
+from the date of issue of General authorization subject to subsequent post
+reporting(s) within 30 days from the date of such export;
+f.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'SOW');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'one');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'has');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'end');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'OEM');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'new');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'HBP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'ICP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'AEO');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Work');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'only');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', '2');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'Proof of obligation for repair of defective/damaged items:');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '3', 'An Undertaking from the Indian exporter;', 'Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b.', 'Indha An Undertaking from the Indian exporter; section-la, Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b.', '3. An Undertaking from the Indian exporter;
+An Undertaking from the applicant exporter (on the letter head of the firm duly
+signed and stamped by the authorized signatory) stating:
+a. Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b.', 'An Undertaking from the Indian exporter; governs how DGFT business controls should be applied, validated, and enforced.', 'An Undertaking from the Indian exporter; explains the operating rule set that DEKAI should enforce. Key control points include That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis. The section also drives actions such as That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis..', 'Indha An Undertaking from the Indian exporter; section-la, An Undertaking from the Indian exporter; explains the operating rule set that DEKAI should enforce. Key control points include That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT kandippa be submitted to
+DGFT on quarterly basis. The section also drives actions such as That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT kandippa be submitted to
+DGFT on quarterly basis..', '3. An Undertaking from the Indian exporter;
+An Undertaking from the applicant exporter (on the letter head of the firm duly
+signed and stamped by the authorized signatory) stating:
+a. Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b. That item(s) are being exported to only related entities0 and repair supply
+chain1 in the foreign country (Direct subsidiary/Parent of the Indian Company or
+another Subsidiary of the foreign parent of the Indian Company/Vendor/Original
+Equipment manufacturer having contract with Indian Company) from which it was
+originally imported for repair and return purpose.
+c. That there has been no change to the original
+characteristics/specifications of the item(s) after import and no value addition
+has been done during the repair work;
+d. That the repair of defective/damaged items is allowed under the
+conditions of import or contractual agreement between Indian exporters and
+entities from which goods were imported.
+e. That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis.
+f. That items would not use for military applications or to develop, acquire,
+manufacture, possess, transport, transfer or use, chemical, biological, nuclear
+weapons or for missile capable of delivering such weapons.', '[17]', '["the", "and", "are", "was", "for", "has", "any", "not", "use", "from", "head", "firm", "duly", "with", "item", "ECCN", "That", "only", "been", "done"]', 'Support An Undertaking from the Indian exporter; processing and compliance validation.', '["3", "An Undertaking from the Indian exporter;", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC3-R001', '3', 'That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis.', 'business_rule', 'An Undertaking from the Indian exporter;', 'Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b.', 'That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis.', 'That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3 - An Undertaking from the Indian exporter;.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3', 'Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3', 'That there has been no change to the original
+characteristics/specifications of the item(s) after import and no value addition
+has been done during the repair work;
+d.');
+INSERT INTO documents (section_code, document_name) VALUES ('3', 'An Undertaking from the Indian exporter;
+An Undertaking from the applicant exporter (on the letter head of the firm duly
+signed and stamped by the authorized signatory) stating:
+a.');
+INSERT INTO documents (section_code, document_name) VALUES ('3', 'That Shipping Bills and Bill');
+INSERT INTO documents (section_code, document_name) VALUES ('3', 'That items would not use for military applications or to develop, acquire,
+manufacture, possess, transport, transfer or use, chemical, biological, nuclear
+weapons or for missile capable of delivering such weapons.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3', 'DGFT');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('3', 'Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('3', 'That there has been no change to the original
+characteristics/specifications of the item(s) after import and no value addition
+has been done during the repair work;
+d.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 1, 'Evaluate condition: Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 2, 'Evaluate condition: That there has been no change to the original
+characteristics/specifications of the item(s) after import and no value addition
+has been done during the repair work;
+d.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 3, 'That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 4, 'Run validation: That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'was');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'has');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'head');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'firm');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'duly');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'item');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'ECCN');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'That');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'only');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'been');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'done');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', '3');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'An Undertaking from the Indian exporter;');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '4', 'Certified/approved Internal Compliance Programme or demonstrating', 'Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.', 'Indha Certified/approved Internal Compliance Programme or demonstrating section-la, Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.', '4. Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company. [only for intra-company transfers]', '4.', '4. Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company. [only for intra-company transfers]', 'Indha Certified/approved Internal Compliance Programme or demonstrating section-la, 4. Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company. [only for intra-company transfers]', '4. Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company. [only for intra-company transfers]', '[17]', '["the", "ICP", "for", "that", "only", "foreign", "company", "manager", "Internal", "Programme", "certified", "transfers", "Compliance", "demonstrating", "intra-company", "Certified/approved"]', 'Support Certified/approved Internal Compliance Programme or demonstrating processing and compliance validation.', '["4", "Certified/approved Internal Compliance Programme or demonstrating", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC4-R001', '4', 'IF validations pass THEN recommend action: Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.', 'business_rule', 'Certified/approved Internal Compliance Programme or demonstrating', 'Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.', 'Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.', 'Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - Certified/approved Internal Compliance Programme or demonstrating.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 1, 'Evaluate condition: Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 2, 'Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 3, 'Run validation: Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'ICP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'that');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'only');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'foreign');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'company');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'manager');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Internal');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Programme');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'certified');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'transfers');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Compliance');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'demonstrating');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'intra-company');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Certified/approved');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', '4');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'Certified/approved Internal Compliance Programme or demonstrating');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '5', 'Authorized Economic Operator (AEO) Certification along with ICP', '[for re-export to vendors/OEMs]
+pg.', 'Indha Authorized Economic Operator (AEO) Certification along with ICP section-la, [for re-export to vendors/OEMs]
+pg.', '5. Authorized Economic Operator (AEO) Certification along with ICP
+compliance. [for re-export to vendors/OEMs]
+pg.', 'Authorized Economic Operator (AEO) Certification along with ICP governs how DGFT business controls should be applied, validated, and enforced.', 'Authorized Economic Operator (AEO) Certification along with ICP explains the operating rule set that DEKAI should enforce. Key control points include That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis. The section also drives actions such as That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis..', 'Indha Authorized Economic Operator (AEO) Certification along with ICP section-la, Authorized Economic Operator (AEO) Certification along with ICP explains the operating rule set that DEKAI should enforce. Key control points include That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT kandippa be submitted to
+DGFT on quarterly basis. The section also drives actions such as That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT kandippa be submitted to
+DGFT on quarterly basis..', '5. Authorized Economic Operator (AEO) Certification along with ICP
+compliance. [for re-export to vendors/OEMs]
+pg. 185
+pg. 185
+Contract agreement and/or ‘Statement of Work (SOW)’/ Master Service
+agreement (MSA) between Indian exporter and with the entity abroad/Direct
+subsidiary/Parent of the Indian Company or another subsidiary of the foreign
+parent of the Indian Company/Authorised Vendor/Original Equipment
+manufacturer having EMS agreement/Master service agreement/ contract with
+Indian Company from (which the goods were imported initially) defining
+conditions for undertaking repair in India
+3.
+An Undertaking from the Indian exporter;
+An Undertaking from the applicant exporter (on the letter head of the firm duly
+signed and stamped by the authorized signatory) stating:
+a.
+Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b.
+That item(s) are being exported to only related entities0 and repair supply
+chain1 in the foreign country (Direct subsidiary/Parent of the Indian Company or
+another Subsidiary of the foreign parent of the Indian Company/Vendor/Original
+Equipment manufacturer having contract with Indian Company) from which it was
+originally imported for repair and return purpose.
+c.
+That
+there
+has
+been
+no
+change
+to
+the
+original
+characteristics/specifications of the item(s) after import and no value addition
+has been done during the repair work;
+d.
+That the repair of defective/damaged items is allowed under the
+conditions of import or contractual agreement between Indian exporters and
+entities from which goods were imported.
+e.
+That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis.
+f.
+That items would not use for military applications or to develop, acquire,
+manufacture, possess, transport, transfer or use, chemical, biological, nuclear
+weapons or for missile capable of delivering such weapons.
+4.
+Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company. [only for intra-company transfers]
+5.
+Authorized Economic Operator (AEO) Certification along with ICP
+compliance. [for re-export to vendors/OEMs]
+C. Post reporting for re-export of items/software/technology
+under GAER
+i. The Indian exporter shall submit post-shipment details of each
+transfer/consignment of exports of SCOMET items/software/technology
+under GAER to the SCOMET Division of DGFT (HQ), New Delhi, via e-mail
+(scomet-dgft@nic.in) or a procedure as prescribed by DGFT, on quarterly
+basis (March/June/September/December), by the end of subsequent
+month of each quarter, in respect of the exports made in the previous
+quarter.
+ii. The post-shipment details shall include submission of Bill of Entry
+(wherever available), shipping bill details, valid export license copy within
+the timelines mentioned above.
+iii. Failure to do so may entail imposition of penalty and/or
+suspension/revocation of GAER and action as per FT(D&R) Act.
+D. Suspension / Revocation
+GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
+of an adverse report on proliferation concern or for non-submission of
+mandatory reports /documents within the prescribed timelines, or for non-
+compliance with the conditions of this Public Notice.
+E. General conditions
+i. GAER would not be issued in case of items to be used to design, develop,
+acquire, manufacture, possess, transport, transfer and/or used for
+chemical, biological, nuclear weapons or for missiles capable of delivering
+weapons of mass destruction and their delivery system;
+ii. GAER would not be issued for countries or entities covered under UNSC
+embargo/sanctions or on assessment of proliferation concerns, or
+national security and foreign policy considerations, etc.;
+iii. DGFT shall reserve the right to deny issuance of GAER or recall GAER.
+F. Applications for grant of General authorizations for export to the same
+entity from goods were imported shall be approved by Chairman IMWG,
+without any consultation with IMWG members after the first
+export/shipment. In exceptional cases, consultation with IMWG may be done
+prior to issuance of GAER, in case required.
+G. All such authorizations shall be brought before IMWG in its subsequent
+meeting for confirmation of approval, on ex-post facto basis.', '[17, 18]', '["AEO", "ICP", "for", "SOW", "MSA", "and", "the", "EMS", "are", "was", "has", "any", "not", "use", "New", "via", "nic", "end", "iii", "may"]', 'Support Authorized Economic Operator (AEO) Certification along with ICP processing and compliance validation.', '["5", "Authorized Economic Operator (AEO) Certification along with ICP", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC5-R001', '5', 'That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis.', 'business_rule', 'Authorized Economic Operator (AEO) Certification along with ICP', 'Authorized Economic Operator (AEO) Certification along with ICP
+compliance.', 'That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis.', 'That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis.', 'In exceptional cases, consultation with IMWG may be done
+prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 5 - Authorized Economic Operator (AEO) Certification along with ICP.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC5-R002', '5', 'The Indian exporter shall submit post-shipment details of each
+transfer/consignment of exports of SCOMET items/software/technology
+under GAER to the SCOMET Division of DGFT (HQ), New Delhi, via e-mail
+(scomet-dgft@nic.in) or a procedure as prescribed by DGFT, on quarterly
+basis (March/June/September/December), by the end of subsequent
+month of each quarter, in respect of the exports made in the previous
+quarter.', 'business_rule', 'Authorized Economic Operator (AEO) Certification along with ICP', 'Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b.', 'Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.', 'Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.', 'In exceptional cases, consultation with IMWG may be done
+prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 5 - Authorized Economic Operator (AEO) Certification along with ICP.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC5-R003', '5', 'The post-shipment details shall include submission of Bill of Entry
+(wherever available), shipping bill details, valid export license copy within
+the timelines mentioned above.', 'business_rule', 'Authorized Economic Operator (AEO) Certification along with ICP', 'That
+there
+has
+been
+no
+change
+to
+the
+original
+characteristics/specifications of the item(s) after import and no value addition
+has been done during the repair work;
+d.', 'The Indian exporter shall submit post-shipment details of each
+transfer/consignment of exports of SCOMET items/software/technology
+under GAER to the SCOMET Division of DGFT (HQ), New Delhi, via e-mail
+(scomet-dgft@nic.in) or a procedure as prescribed by DGFT, on quarterly
+basis (March/June/September/December), by the end of subsequent
+month of each quarter, in respect of the exports made in the previous
+quarter.', 'Post reporting for re-export of items/software/technology
+under GAER
+i.', 'In exceptional cases, consultation with IMWG may be done
+prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 5 - Authorized Economic Operator (AEO) Certification along with ICP.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC5-R004', '5', 'Suspension / Revocation
+GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
+of an adverse report on proliferation concern or for non-submission of
+mandatory reports /documents within the prescribed timelines, or for non-
+compliance with the conditions of this Public Notice.', 'business_rule', 'Authorized Economic Operator (AEO) Certification along with ICP', 'Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.', 'The post-shipment details shall include submission of Bill of Entry
+(wherever available), shipping bill details, valid export license copy within
+the timelines mentioned above.', 'The Indian exporter shall submit post-shipment details of each
+transfer/consignment of exports of SCOMET items/software/technology
+under GAER to the SCOMET Division of DGFT (HQ), New Delhi, via e-mail
+(scomet-dgft@nic.in) or a procedure as prescribed by DGFT, on quarterly
+basis (March/June/September/December), by the end of subsequent
+month of each quarter, in respect of the exports made in the previous
+quarter.', 'In exceptional cases, consultation with IMWG may be done
+prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 5 - Authorized Economic Operator (AEO) Certification along with ICP.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC5-R005', '5', 'DGFT shall reserve the right to deny issuance of GAER or recall GAER.', 'business_rule', 'Authorized Economic Operator (AEO) Certification along with ICP', 'The post-shipment details shall include submission of Bill of Entry
+(wherever available), shipping bill details, valid export license copy within
+the timelines mentioned above.', 'Suspension / Revocation
+GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
+of an adverse report on proliferation concern or for non-submission of
+mandatory reports /documents within the prescribed timelines, or for non-
+compliance with the conditions of this Public Notice.', 'Suspension / Revocation
+GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
+of an adverse report on proliferation concern or for non-submission of
+mandatory reports /documents within the prescribed timelines, or for non-
+compliance with the conditions of this Public Notice.', 'In exceptional cases, consultation with IMWG may be done
+prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 5 - Authorized Economic Operator (AEO) Certification along with ICP.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC5-R006', '5', 'Applications for grant of General authorizations for export to the same
+entity from goods were imported shall be approved by Chairman IMWG,
+without any consultation with IMWG members after the first
+export/shipment.', 'business_rule', 'Authorized Economic Operator (AEO) Certification along with ICP', 'Suspension / Revocation
+GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
+of an adverse report on proliferation concern or for non-submission of
+mandatory reports /documents within the prescribed timelines, or for non-
+compliance with the conditions of this Public Notice.', 'DGFT shall reserve the right to deny issuance of GAER or recall GAER.', 'GAER would not be issued in case of items to be used to design, develop,
+acquire, manufacture, possess, transport, transfer and/or used for
+chemical, biological, nuclear weapons or for missiles capable of delivering
+weapons of mass destruction and their delivery system;
+ii.', 'In exceptional cases, consultation with IMWG may be done
+prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 5 - Authorized Economic Operator (AEO) Certification along with ICP.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC5-R007', '5', 'All such authorizations shall be brought before IMWG in its subsequent
+meeting for confirmation of approval, on ex-post facto basis.', 'business_rule', 'Authorized Economic Operator (AEO) Certification along with ICP', 'GAER would not be issued in case of items to be used to design, develop,
+acquire, manufacture, possess, transport, transfer and/or used for
+chemical, biological, nuclear weapons or for missiles capable of delivering
+weapons of mass destruction and their delivery system;
+ii.', 'Applications for grant of General authorizations for export to the same
+entity from goods were imported shall be approved by Chairman IMWG,
+without any consultation with IMWG members after the first
+export/shipment.', 'GAER would not be issued for countries or entities covered under UNSC
+embargo/sanctions or on assessment of proliferation concerns, or
+national security and foreign policy considerations, etc.;
+iii.', 'In exceptional cases, consultation with IMWG may be done
+prior to issuance of GAER, in case required.', 'DEKAI should produce a compliance decision for 5 - Authorized Economic Operator (AEO) Certification along with ICP.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'Authorized Economic Operator (AEO) Certification along with ICP
+compliance.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'That
+there
+has
+been
+no
+change
+to
+the
+original
+characteristics/specifications of the item(s) after import and no value addition
+has been done during the repair work;
+d.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'The post-shipment details shall include submission of Bill of Entry
+(wherever available), shipping bill details, valid export license copy within
+the timelines mentioned above.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'Suspension / Revocation
+GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
+of an adverse report on proliferation concern or for non-submission of
+mandatory reports /documents within the prescribed timelines, or for non-
+compliance with the conditions of this Public Notice.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'GAER would not be issued in case of items to be used to design, develop,
+acquire, manufacture, possess, transport, transfer and/or used for
+chemical, biological, nuclear weapons or for missiles capable of delivering
+weapons of mass destruction and their delivery system;
+ii.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'GAER would not be issued for countries or entities covered under UNSC
+embargo/sanctions or on assessment of proliferation concerns, or
+national security and foreign policy considerations, etc.;
+iii.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'Applications for grant of General authorizations for export to the same
+entity from goods were imported shall be approved by Chairman IMWG,
+without any consultation with IMWG members after the first
+export/shipment.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'In exceptional cases, consultation with IMWG may be done
+prior to issuance of GAER, in case required.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'All such authorizations shall be brought before IMWG in its subsequent
+meeting for confirmation of approval, on ex-post facto basis.');
+INSERT INTO documents (section_code, document_name) VALUES ('5', '185
+Contract agreement and/or ‘Statement of Work (SOW)’/ Master Service
+agreement (MSA) between Indian exporter and with the entity abroad/Direct
+subsidiary/Parent of the Indian Company or another subsidiary of the foreign
+parent of the Indian Company/Authorised Vendor/Original Equipment
+manufacturer having EMS agreement/Master service agreement/ contract with
+Indian Company from (which the goods were imported initially) defining
+conditions for undertaking repair in India
+3.');
+INSERT INTO documents (section_code, document_name) VALUES ('5', 'An Undertaking from the Indian exporter;
+An Undertaking from the applicant exporter (on the letter head of the firm duly
+signed and stamped by the authorized signatory) stating:
+a.');
+INSERT INTO documents (section_code, document_name) VALUES ('5', 'That Shipping Bills and Bill');
+INSERT INTO documents (section_code, document_name) VALUES ('5', 'That items would not use for military applications or to develop, acquire,
+manufacture, possess, transport, transfer or use, chemical, biological, nuclear
+weapons or for missile capable of delivering such weapons.');
+INSERT INTO documents (section_code, document_name) VALUES ('5', 'The post-shipment details shall include submission of Bill');
+INSERT INTO documents (section_code, document_name) VALUES ('5', 'Suspension / Revocation
+GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
+of an adverse report on proliferation concern or for non-submission of
+mandatory reports /documents within the prescribed timelines, or for non-
+compliance with the conditions of this Public Notice.');
+INSERT INTO documents (section_code, document_name) VALUES ('5', 'Applications for grant of General authorizations for export to the same
+entity from goods were imported shall be approved by Chairman IMWG,
+without any consultation with IMWG members after the first
+export/shipment.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('5', 'DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('5', 'GAER to the SCOMET Division of DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('5', 'GAER issued shall be liable to be suspended / revoked by the DGFT');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5', 'Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5', 'That
+there
+has
+been
+no
+change
+to
+the
+original
+characteristics/specifications of the item(s) after import and no value addition
+has been done during the repair work;
+d.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5', 'The post-shipment details shall include submission of Bill of Entry
+(wherever available), shipping bill details, valid export license copy within
+the timelines mentioned above.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5', 'Suspension / Revocation
+GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
+of an adverse report on proliferation concern or for non-submission of
+mandatory reports /documents within the prescribed timelines, or for non-
+compliance with the conditions of this Public Notice.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5', 'Applications for grant of General authorizations for export to the same
+entity from goods were imported shall be approved by Chairman IMWG,
+without any consultation with IMWG members after the first
+export/shipment.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5', 'All such authorizations shall be brought before IMWG in its subsequent
+meeting for confirmation of approval, on ex-post facto basis.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('5', 'In exceptional cases, consultation with IMWG may be done
+prior to issuance of GAER, in case required.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 1, 'Evaluate condition: Authorized Economic Operator (AEO) Certification along with ICP
+compliance.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 2, 'Evaluate condition: Details of imported items to be exported after repair along with their
+SCOMET Category /Sub-category number(s), quantity, item description and ECCN
+of foreign country (if available);
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 3, 'Evaluate condition: That
+there
+has
+been
+no
+change
+to
+the
+original
+characteristics/specifications of the item(s) after import and no value addition
+has been done during the repair work;
+d.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 4, 'That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 5, 'Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 6, 'Post reporting for re-export of items/software/technology
+under GAER
+i.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 7, 'The Indian exporter shall submit post-shipment details of each
+transfer/consignment of exports of SCOMET items/software/technology
+under GAER to the SCOMET Division of DGFT (HQ), New Delhi, via e-mail
+(scomet-dgft@nic.in) or a procedure as prescribed by DGFT, on quarterly
+basis (March/June/September/December), by the end of subsequent
+month of each quarter, in respect of the exports made in the previous
+quarter.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 8, 'Suspension / Revocation
+GAER issued shall be liable to be suspended / revoked by the DGFT on receipt
+of an adverse report on proliferation concern or for non-submission of
+mandatory reports /documents within the prescribed timelines, or for non-
+compliance with the conditions of this Public Notice.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 9, 'GAER would not be issued in case of items to be used to design, develop,
+acquire, manufacture, possess, transport, transfer and/or used for
+chemical, biological, nuclear weapons or for missiles capable of delivering
+weapons of mass destruction and their delivery system;
+ii.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 10, 'Run validation: That Shipping Bills and Bill of Entry into destination country of subsequent
+re-exports and any other information as sought by DGFT shall be submitted to
+DGFT on quarterly basis.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 11, 'Run validation: Certified/approved Internal Compliance Programme or demonstrating
+compliance to the ICP of the foreign company or ICP certified by the compliance
+manager of that company.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 12, 'Run validation: The Indian exporter shall submit post-shipment details of each
+transfer/consignment of exports of SCOMET items/software/technology
+under GAER to the SCOMET Division of DGFT (HQ), New Delhi, via e-mail
+(scomet-dgft@nic.in) or a procedure as prescribed by DGFT, on quarterly
+basis (March/June/September/December), by the end of subsequent
+month of each quarter, in respect of the exports made in the previous
+quarter.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 13, 'Handle exception: In exceptional cases, consultation with IMWG may be done
+prior to issuance of GAER, in case required.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'AEO');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'ICP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'SOW');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'MSA');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'EMS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'was');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'has');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'New');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'via');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'nic');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'end');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'iii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', '5');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'Authorized Economic Operator (AEO) Certification along with ICP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'dgft');
 INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '10.13', 'Issue of export authorisations for', '10.13 Issue of export authorisations for
 demo/display/exhibition/tenders/ RFP/RFQ/NIT of SCOMET items An
 pg.', 'Indha Issue of export authorisations for section-la, 10.13 Issue of export authorisations for
@@ -9537,542 +9993,7 @@ Telecommunication-related items under SCOMET Category 8A5 Part 1
 (GAET)
 Export of indigenous/imported SCOMET items (Telecommunication items under
 SCOMET Category 8A5 Part 1) will be allowed based on a one-time General
-Authorization (GAET) subject to the following conditions:
-1. Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a. The applicant exporter shall submit an application for getting a one-time
-license under GAET through the online SCOMET portal and attach the
-information in the prescribed proforma;
-b. The application would be reviewed/examined for the issuance of GAET
-by the Inter-Ministerial Working Group (IMWG) based on the submitted
-application and other supporting documents submitted by the applicant
-exporter in the prescribed proforma including:
-i. Detailed description of the items that are intended to be exported
-under this authorization with relevant technical
-details/specifications.
-ii. End-user certificate (EUC) from all the entities involved in the
-supply chain (buyer, consignee, end user, and any other
-pg. 196
-pg. 196
-of the foreign subsidiary of Indian company or foreign parent company / another
-subsidiary of foreign parent company.
-G.
-Validity
-a)
-GAICT issued for intra-company transfers of SCOMET items including
-software and technology shall be valid for a period of three years
-from the date of issue of GAICT;
-b)
-GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
-FTP.
-H.
-Suspension / Revocation
-GAICT issued shall be liable to be suspended by the DGFT on receipt of intimation
-about initiation of any inquiry from the country concerned or from any domestic
-agency. GAICT shall be revoked on receipt of an adverse report on proliferation
-concern or for non-submission of mandatory reports/documents within the
-prescribed timelines or for non-compliance of any of the condition of this policy.
-Para
-10.15(I):
-General
-Authorization
-for
-Export
-of
-Telecommunication-related items under SCOMET Category 8A5 Part 1
-(GAET)
-Export of indigenous/imported SCOMET items (Telecommunication items under
-SCOMET Category 8A5 Part 1) will be allowed based on a one-time General
-Authorization (GAET) subject to the following conditions:
-1. Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a. The applicant exporter shall submit an application for getting a one-time
-license under GAET through the online SCOMET portal and attach the
-information in the prescribed proforma;
-b. The application would be reviewed/examined for the issuance of GAET
-by the Inter-Ministerial Working Group (IMWG) based on the submitted
-application and other supporting documents submitted by the applicant
-exporter in the prescribed proforma including:
-i.
-Detailed description of the items that are intended to be exported
-under
-this
-authorization
-with
-relevant
-technical
-details/specifications.
-ii.
-End-user certificate (EUC) from all the entities involved in the
-supply chain (buyer, consignee, end user, and any other
-intermediary) on the letterhead (duly signed and stamped) is to
-be submitted before issuance of authorization. Subsequent EUC
-submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii
-below.
-iii. The list of countries where the export is expected to be done
-under GAET is to be provided by the applicant at the time of
-submission of the application.
-iv. Undertaking on the letterhead of the firm duly signed and
-stamped by the authorized signatory stating the following:
-1. Any on-site inspection will be allowed by the applicant
-exporter if required by the DGFT or authorized
-representatives of the Government of India;
-2. The applicant exporter declares that the items that are
-intended to be exported shall not be used for any purpose
-other than the purpose(s) stated in the EUC and that such
-use shall not be changed nor the items modified or
-replicated without the prior consent of the Government of
-India.;
-3. The applicant exporter declares that subsequent to the
-issuance of export authorization, if the licensee has been
-notified in writing by DGFT or if they know or has reason to
-believe that an item may be intended for military end use
-or has a potential risk of use in or diversion to weapons of
-mass destruction (WMD) or in delivery of their missile
-system, the exporter would not be eligible for GAET for
-export of that/those item(s) and would apply separately to
-DGFT for a fresh authorization in terms of regular policy.
-4. Action will be taken against the exporter under FT (D & R)
-Act, 1992 for any mis-declaration.
-v. Certified/Approved Internal Compliance Programme by the
-Compliance Manager of the Company.
-vi. Authorized Economic Operator (AEO) T2 Certification of CBIC.
-vii. In case of re-export of imported items, the following additional
-documents have to be submitted:
-(i) Proof of import of the item(s):
- Documentary proof that the item(s) originally imported, match
-pg. 197
-pg. 197
-intermediary) on the letterhead (duly signed and stamped) is to
-be submitted before issuance of authorization. Subsequent EUC
-submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii
-below.
-iii.
-The list of countries where the export is expected to be done
-under GAET is to be provided by the applicant at the time of
-submission of the application.
-iv.
-Undertaking on the letterhead of the firm duly signed and
-stamped by the authorized signatory stating the following:
-1.
-Any on-site inspection will be allowed by the applicant
-exporter if required by the DGFT or authorized
-representatives of the Government of India;
-2.
-The applicant exporter declares that the items that are
-intended to be exported shall not be used for any purpose
-other than the purpose(s) stated in the EUC and that such
-use shall not be changed nor the items modified or
-replicated without the prior consent of the Government of
-India.;
-3.
-The applicant exporter declares that subsequent to the
-issuance of export authorization, if the licensee has been
-notified in writing by DGFT or if they know or has reason to
-believe that an item may be intended for military end use
-or has a potential risk of use in or diversion to weapons of
-mass destruction (WMD) or in delivery of their missile
-system, the exporter would not be eligible for GAET for
-export of that/those item(s) and would apply separately to
-DGFT for a fresh authorization in terms of regular policy.
-4.
-Action will be taken against the exporter under FT (D & R)
-Act, 1992 for any mis-declaration.
-v. Certified/Approved Internal Compliance Programme by the
-Compliance Manager of the Company.
-vi. Authorized Economic Operator (AEO) T2 Certification of CBIC.
-vii. In case of re-export of imported items, the following additional
-documents have to be submitted:
-(i) Proof of import of the item(s):
- Documentary proof that the item(s) originally imported, match
-with intended item(s) of re-export;
- Bill of entry containing details of the items to be re-exported;
- Export License (if applicable) or any other documents showing that
-export regulation of the country of export does not have any
-restriction on re- export from India;
- In case of any such restriction, the exporter will provide a letter of
-explanation detailing the list of countries/entities, to which re-
-export/return is restricted / regulated;
- Purchase order
-viii. After issuance of GAET authorization and before actual export, the
-applicant exporter must ensure the following:
-1. They shall notify the relevant government authorities in the online
-portal of DGFT, on quarterly basis of such export in the prescribed
-format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
-Certificate (EUC) for each export.
-2. The EUCs in prescribed proforma [Appendix 10J(i)] are to be filled
-by all the entities involved in the chain of supply e.g. foreign
-buyer/consignee / end-user / intermediary (ies) on the letterhead of
-the respective entity, duly signed in ink and stamped by the
-authorized signatory of the company. In case of any additional sheet
-used along with the EUC, the same must be on the letterhead of the
-company and signed by the same person who signs the EUC.
-3. They have an agreement or purchase order, an excerpt of a contract
-from the entity (buyer/consignee/end-user) receiving the items
-which state that the export is for a permitted use / an end-use as
-declared in the EUC before the actual export;
-4. The documents submitted by the exporter must include the name, contact
-number and email ID of the authority signing the EUC before actual export.
-5. Additional details, if any sought by DGFT
-2. Post Reporting for export / re-export of items under GAET
-a. The Indian exporter shall submit post-shipment details of each
-export/re-export of SCOMET items under the above Categories/sub-
-categories under GAET for 3 years on quarterly basis
-(March/June/September/December) by the end of subsequent month of
-each quarter, in respect of exports made in the previous quarter;
-pg. 198
-pg. 198
-with intended item(s) of re-export;
- Bill of entry containing details of the items to be re-exported;
- Export License (if applicable) or any other documents showing that
-export regulation of the country of export does not have any
-restriction on re- export from India;
- In case of any such restriction, the exporter will provide a letter of
-explanation detailing the list of countries/entities, to which re-
-export/return is restricted / regulated;
- Purchase order
-viii. After issuance of GAET authorization and before actual export, the
-applicant exporter must ensure the following:
-1. They shall notify the relevant government authorities in the online
-portal of DGFT, on quarterly basis of such export in the prescribed
-format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
-Certificate (EUC) for each export.
-2. The EUCs in prescribed proforma [Appendix 10J(i)] are to be filled
-by all the entities involved in the chain of supply e.g. foreign
-buyer/consignee / end-user / intermediary (ies) on the letterhead of
-the respective entity, duly signed in ink and stamped by the
-authorized signatory of the company. In case of any additional sheet
-used along with the EUC, the same must be on the letterhead of the
-company and signed by the same person who signs the EUC.
-3. They have an agreement or purchase order, an excerpt of a contract
-from the entity (buyer/consignee/end-user) receiving the items
-which state that the export is for a permitted use / an end-use as
-declared in the EUC before the actual export;
-4. The documents submitted by the exporter must include the name, contact
-number and email ID of the authority signing the EUC before actual export.
-5. Additional details, if any sought by DGFT
-2. Post Reporting for export / re-export of items under GAET
-a. The Indian exporter shall submit post-shipment details of each
-export/re-export of SCOMET items under the above Categories/sub-
-categories
-under
-GAET
-for
-3
-years
-on
-quarterly
-basis
-(March/June/September/December) by the end of subsequent month of
-each quarter, in respect of exports made in the previous quarter;
-b. In case of re-export of imported items, the additional documents as
-mentioned in 1.b.vii.(i) have to be submitted at the time of post
-reporting.
-c. Failure to do so may entail imposition of penalty and/or
-suspension/revocation of GAET.
-3. Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
-from the date of GAET issued by DGFT.
-4. General Conditions & Exclusions
-GAET would not be issued in case of items to be used to design, develop, acquire,
-or manufacture, possess, transport, transfer and/or used for military applications,
-explosives, chemical, biological, nuclear weapons or for missiles capable of
-delivering weapons of mass destruction and their delivery system;
-a. GAET would not be issued for countries or entities covered under UNSC
-embargo or sanctions list or on assessment of proliferation concerns, or
-national security and foreign policy considerations, etc.:
-b. In case of inclusion of new countries or amendment to the existing list of
-countries where the export is expected to be done under GAET the
-applicant exporter will obtain prior permission of DGFT with relevant
-details;
-c. IMWG shall reserve the right to deny the issue of GAET without assigning
-any reason(s)
-5. Validity
-a. GAET issued for export / re-export of SCOMET items under the above Categories
-/ Sub Categories shall be valid for Three years from the date of issue of GAET
-subject to subsequent post reporting(s) on quarterly basis to be reported within
-30 days from the last quarter;
-b. GAET cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.
-6. Suspension/Revocation:
-GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports / documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.
-pg. 199
-pg. 199
-b. In case of re-export of imported items, the additional documents as
-mentioned in 1.b.vii.(i) have to be submitted at the time of post
-reporting.
-c. Failure to do so may entail imposition of penalty and/or
-suspension/revocation of GAET.
-3. Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
-from the date of GAET issued by DGFT.
-4. General Conditions & Exclusions
-GAET would not be issued in case of items to be used to design, develop, acquire,
-or manufacture, possess, transport, transfer and/or used for military applications,
-explosives, chemical, biological, nuclear weapons or for missiles capable of
-delivering weapons of mass destruction and their delivery system;
-a. GAET would not be issued for countries or entities covered under UNSC
-embargo or sanctions list or on assessment of proliferation concerns, or
-national security and foreign policy considerations, etc.:
-b. In case of inclusion of new countries or amendment to the existing list of
-countries where the export is expected to be done under GAET the
-applicant exporter will obtain prior permission of DGFT with relevant
-details;
-c. IMWG shall reserve the right to deny the issue of GAET without assigning
-any reason(s)
-5. Validity
-a. GAET issued for export / re-export of SCOMET items under the above Categories
-/ Sub Categories shall be valid for Three years from the date of issue of GAET
-subject to subsequent post reporting(s) on quarterly basis to be reported within
-30 days from the last quarter;
-b. GAET cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.
-6. Suspension/Revocation:
-GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports / documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.
-Para 10.15(II): General Authorization for Export of Information
-Security items under SCOMET Category 8A5 Part 2(GAEIS)
-Export of indigenous SCOMET items (Information Security items under SCOMET
-Category 8A5 Part 2) will be allowed based on a one-time General Authorization
-(GAEIS) subject to the following conditions:
-1. Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Information Security items (excluding technology) under
-SCOMET Category 8A5 Part 2 subject to the following conditions:
-a. The applicant exporter shall submit an application for getting a one-time license
-under GAEIS through the online SCOMET portal and attach the information in the
-prescribed performa.
-b. The application would be reviewed/examined for the issuance of GAEIS by the
-Inter-Ministerial Working Group (IMWG) based on the submitted application and
-other supporting documents submitted by the applicant exporter in the prescribed
-proforma including:
-i. Detailed description of the items that are intended to be exported under this
-authorization with relevant technical details/specifications;
-ii. End-user certificate (EUC) from all the entities involved in the supply chain
-(buyer, consignee, end user and any other intermediary) on the letterhead (duly
-signed and stamped) is to be submitted before issuance of authorization.
-Subsequent EUC submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii below.
-iii. The list of countries where the export is expected to be done under GAEIS is to
-be provided by the applicant at the time of submission of the application.
-iv. Undertaking on the letterhead of the firm duly signed and stamped by the
-authorized signatory stating the following:
-1. Any on-site inspection will be allowed by the applicant exporter if required
-by the DGFT or authorized representatives of the Government of India;
-2. The applicant exporter declares that the items that are intended to be
-exported shall not be used for any purpose other than the purpose(s) stated in
-the EUC and that such use shall not be changed nor the items modified or
-replicated without the prior consent of the Government of India.;
-3. The applicant exporter declares that subsequent to the issuance of export
-authorization, if the licensee has been notified in writing by DGFT or if they
-know or has reason to believe that an item may be intended for military end
-use or has a potential risk of use in or diversion to weapons of mass destruction
-(WMD) or in delivery of their missile system, the exporter would not be eligible
-pg.
-1100
-pg.
-Para 10.15(II): General Authorization for Export of Information
-Security items under SCOMET Category 8A5 Part 2(GAEIS)
-Export of indigenous SCOMET items (Information Security items under SCOMET
-Category 8A5 Part 2) will be allowed based on a one-time General Authorization
-(GAEIS) subject to the following conditions:
-1. Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Information Security items (excluding technology) under
-SCOMET Category 8A5 Part 2 subject to the following conditions:
-a. The applicant exporter shall submit an application for getting a one-time license
-under GAEIS through the online SCOMET portal and attach the information in the
-prescribed performa.
-b. The application would be reviewed/examined for the issuance of GAEIS by the
-Inter-Ministerial Working Group (IMWG) based on the submitted application and
-other supporting documents submitted by the applicant exporter in the prescribed
-proforma including:
-i. Detailed description of the items that are intended to be exported under this
-authorization with relevant technical details/specifications;
-ii. End-user certificate (EUC) from all the entities involved in the supply chain
-(buyer, consignee, end user and any other intermediary) on the letterhead (duly
-signed and stamped) is to be submitted before issuance of authorization.
-Subsequent EUC submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii below.
-iii. The list of countries where the export is expected to be done under GAEIS is to
-be provided by the applicant at the time of submission of the application.
-iv. Undertaking on the letterhead of the firm duly signed and stamped by the
-authorized signatory stating the following:
-1. Any on-site inspection will be allowed by the applicant exporter if required
-by the DGFT or authorized representatives of the Government of India;
-2. The applicant exporter declares that the items that are intended to be
-exported shall not be used for any purpose other than the purpose(s) stated in
-the EUC and that such use shall not be changed nor the items modified or
-replicated without the prior consent of the Government of India.;
-3. The applicant exporter declares that subsequent to the issuance of export
-authorization, if the licensee has been notified in writing by DGFT or if they
-know or has reason to believe that an item may be intended for military end
-use or has a potential risk of use in or diversion to weapons of mass destruction
-(WMD) or in delivery of their missile system, the exporter would not be eligible
-for GAEIS for export of that/those item(s) and would apply separately to DGFT
-for a fresh authorization in terms of regular policy.
-4. Action will be taken against the exporter under FT (D & R) Act, 1992 for any
-mis-declaration.
-v. Certified/Approved Internal Compliance Programme by the Compliance
-Manager of the Company.
-vi. Authorized Economic Operator (AEO) T2 Certification of CBIC.
-vii. In case of re-export of imported items, the following additional documents have
-to be submitted:
-(i) Proof of import of the item(s):
- Documentary proof that the item(s) originally imported, match with
-intended item(s) of re-export;
- Bill of entry containing details of the items to be re-exported;
- Export License (if applicable) or any other documents showing that
-export regulation of the country of export does not have any
-restriction on re- export from India;
- In case of any such restriction, the exporter will provide a letter of
-explanation detailing the list of countries/entities, to which re-
-export/return is restricted / regulated;
- Purchase order
-viii. After issuance of GAEIS authorization and before actual export, the applicant
-exporter must ensure the following:
-1. They shall notify the relevant government authorities in the online portal of
-DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
-Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.
-2. The EUCs in prescribed proforma [Appendix 10j(i)] are to be filled by all the
-entities involved in the chain of supply e.g. foreign buyer/consignee / end-
-user/intermediary (ies) on the letterhead of the respective entity, duly signed in
-ink and stamped by the authorized signatory of the company. In case of any
-additional sheet used along with the EUC, the same must be on the letterhead of
-the company and signed by the same person who signs the EUC.
-3. They have an agreement or purchase order, an excerpt of a contract from the
-entity (buyer/consignee / end-user) receiving the items which state that the
-export is for a permitted use / an end-use as declared in the EUC before the actual
-pg.
-1101
-pg.
-for GAEIS for export of that/those item(s) and would apply separately to DGFT
-for a fresh authorization in terms of regular policy.
-4. Action will be taken against the exporter under FT (D & R) Act, 1992 for any
-mis-declaration.
-v. Certified/Approved Internal Compliance Programme by the Compliance
-Manager of the Company.
-vi. Authorized Economic Operator (AEO) T2 Certification of CBIC.
-vii. In case of re-export of imported items, the following additional documents have
-to be submitted:
-(i) Proof of import of the item(s):
-
-Documentary proof that the item(s) originally imported, match with
-intended item(s) of re-export;
-
-Bill of entry containing details of the items to be re-exported;
-
-Export License (if applicable) or any other documents showing that
-export regulation of the country of export does not have any
-restriction on re- export from India;
-
-In case of any such restriction, the exporter will provide a letter of
-explanation detailing the list of countries/entities, to which re-
-export/return is restricted / regulated;
-
-Purchase order
-viii. After issuance of GAEIS authorization and before actual export, the applicant
-exporter must ensure the following:
-1. They shall notify the relevant government authorities in the online portal of
-DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
-Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.
-2. The EUCs in prescribed proforma [Appendix 10j(i)] are to be filled by all the
-entities involved in the chain of supply e.g. foreign buyer/consignee / end-
-user/intermediary (ies) on the letterhead of the respective entity, duly signed in
-ink and stamped by the authorized signatory of the company. In case of any
-additional sheet used along with the EUC, the same must be on the letterhead of
-the company and signed by the same person who signs the EUC.
-3. They have an agreement or purchase order, an excerpt of a contract from the
-entity (buyer/consignee / end-user) receiving the items which state that the
-export is for a permitted use / an end-use as declared in the EUC before the actual
-export;
-4. The documents submitted by the exporter must include the name, contact
-number and email ID of the authority signing the EUC before actual export.
-5. Additional details, if any sought by DGFT.
-2. Post reporting for export / re-export of items under GAEIS
-a. The Indian exporter shall submit post-shipment details of each export/re-export
-of SCOMET items under the above Categories/sub-categories under GAEIS for 3
-years on quarterly basis (March/June/September/December) by the end of
-subsequent month of each quarter, in respect of exports made in the previous
-quarter;
-b. In case of re-export of imported items, the additional documents as mentioned
-in 1.b.vii.(i) have to be submitted at the time of post reporting.
-c. Failure to do so may entail imposition of penalty and/or suspension/revocation
-of GAEIS.
-3. Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
-of GAEIS issued by DGFT.
-4. General Conditions & Exclusions
-a. GAEIS would not be issued in case of items to be used to design, develop, acquire,
-or manufacture, possess, transport, transfer and/or used for military applications,
-explosives, chemical, biological, nuclear weapons or for missiles capable of
-delivering weapons of mass destruction and their delivery system;
-b. GAEIS would not be issued for countries or entities covered under UNSC
-embargo or sanctions list or on assessment of proliferation concerns, or national
-security and foreign policy considerations, etc.:
-c. In case of inclusion of new countries or amendment to the existing list of
-countries where the export is expected to be done under GAEIS the applicant
-exporter will obtain prior permission from DGFT with relevant details;
-d. IMWG shall reserve the right to deny the issuance of GAEIS without assigning
-any reason(s).
-5. Validity
-1. GAEIS issued for export / re-export of SCOMET items under the above
-Categories / Sub Categories shall be valid for Three years from the date of issue of
-pg.
-1102
-pg.
-export;
-4. The documents submitted by the exporter must include the name, contact
-number and email ID of the authority signing the EUC before actual export.
-5. Additional details, if any sought by DGFT.
-2. Post reporting for export / re-export of items under GAEIS
-a. The Indian exporter shall submit post-shipment details of each export/re-export
-of SCOMET items under the above Categories/sub-categories under GAEIS for 3
-years on quarterly basis (March/June/September/December) by the end of
-subsequent month of each quarter, in respect of exports made in the previous
-quarter;
-b. In case of re-export of imported items, the additional documents as mentioned
-in 1.b.vii.(i) have to be submitted at the time of post reporting.
-c. Failure to do so may entail imposition of penalty and/or suspension/revocation
-of GAEIS.
-3. Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
-of GAEIS issued by DGFT.
-4. General Conditions & Exclusions
-a. GAEIS would not be issued in case of items to be used to design, develop, acquire,
-or manufacture, possess, transport, transfer and/or used for military applications,
-explosives, chemical, biological, nuclear weapons or for missiles capable of
-delivering weapons of mass destruction and their delivery system;
-b. GAEIS would not be issued for countries or entities covered under UNSC
-embargo or sanctions list or on assessment of proliferation concerns, or national
-security and foreign policy considerations, etc.:
-c. In case of inclusion of new countries or amendment to the existing list of
-countries where the export is expected to be done under GAEIS the applicant
-exporter will obtain prior permission from DGFT with relevant details;
-d. IMWG shall reserve the right to deny the issuance of GAEIS without assigning
-any reason(s).
-5. Validity
-1. GAEIS issued for export / re-export of SCOMET items under the above
-Categories / Sub Categories shall be valid for Three years from the date of issue of
-GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
-within 30 days from the last quarter;
-2. GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.
-6. Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.', '[24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]', '["for", "and", "the", "may", "ICP", "any", "AEO", "etc", "per", "New", "its", "iii", "key", "has", "vii", "end", "use", "not", "HBP", "EUC"]', 'Support B below. processing and compliance validation.', '["10.15", "B below.", "business-rule", "document-driven", "dgft"]');
+Authorization (GAET) subject to the following conditions:', '[24, 25, 26, 27, 28]', '["for", "and", "the", "may", "ICP", "any", "AEO", "etc", "per", "New", "its", "iii", "key", "has", "vii", "end", "use", "not", "HBP", "EUC"]', 'Support B below. processing and compliance validation.', '["10.15", "B below.", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R001', '10.15', 'In respect of export/re-export of SCOMET items including software and
 technology,the applicant exporter shall submit an application for GAICT
 pg.', 'business_rule', 'B below.', 'The applicant exporter furnishes either a certified/approved
@@ -10139,11 +10060,9 @@ at (i) above if they have come to adverse notice previously;
 h.', 'The application would be assessed for the issue of GAICT by Inter- Ministerial
 Working Group (IMWG) based on the submission of the application and other
 supporting documents by the applicant exporter in the prescribed proforma;
-i.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+i.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R005', '10.15', 'The Company must ensure that:
 a.', 'business_rule', 'B below.', 'Documentary proof of License Exception /Temporary license from the
 country of the parent company abroad or from subsidiaries of the
@@ -10157,11 +10076,9 @@ Russian Federation, Slovakia, Slovenia, South Africa, Spain,
 Sweden, Switzerland, Turkey, Ukraine, United Kingdom, United
 States.', 'In case of third party involvement in the supply chain, a clear contract
 /service agreement/ Purchase order has to be furnished specifying
-SCOMET item description.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+SCOMET item description.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R006', '10.15', 'They shall submit original End User Certificate in the prescribed
 format within 30 days of filing application and in case of
 subsequent exports, within 30 days of delivery at destination
@@ -10173,11 +10090,9 @@ subsidiary of foreign company along with an undertaking thereon;
 vii.', 'Certified/approved ICP of the Indian parent company or self-certified
 copy of the ICP of the foreign parent company being adopted by Indian
 subsidiary of foreign company along with an undertaking thereon;
-vii.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+vii.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R007', '10.15', 'The Indian exporter shall submit post-shipment details of each
 transfer/consignment of exports of SCOMET items/software/technology
 under GAICT to the SCOMET Division of DGFT (Hqrs), New Delhi, through
@@ -10194,11 +10109,9 @@ or if they know or has reason to believe that an item may be
 intended for military end use, the exporter would not be eligible
 for GAICT for export of that/those item(s) and would apply
 separately to DGFT for a fresh authorisation in terms of regular
-policy.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+policy.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R008', '10.15', 'The post-shipment details shall be submitted in proforma ANF 10D along
 with a copy of EUC in Appendix 10J(iv) within the timelines mentioned
 pg.', 'business_rule', 'B below.', 'to be provided (if applicable);
@@ -10212,11 +10125,9 @@ policy.', 'They shall submit original End User Certificate in the prescribed
 format within 30 days of filing application and in case of
 subsequent exports, within 30 days of delivery at destination
 point, after issue of export authorisation;
-b.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+b.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R009', '10.15', 'The post-shipment details shall be submitted in proforma ANF 10D along
 with a copy of EUC in Appendix 10J(iv) within the timelines mentioned
 above, from the foreign subsidiary company or foreign parent company /
@@ -10227,11 +10138,9 @@ SCOMET item description.', 'The Company must ensure that:
 a.', 'A precise and clear contract /service agreement/ Purchase order has
 to be furnished indicating item description in case of third party
 involvement in the supply chain (if applicable)
-x.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+x.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R010', '10.15', 'Record Keeping
 The exporter will be required to keep records of all the export documents, in
 manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
@@ -10244,11 +10153,9 @@ subsequent exports, within 30 days of delivery at destination
 point, after issue of export authorisation;
 b.', 'Post reporting for re-export of items/software/technology under
 GAICT
-a.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+a.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R011', '10.15', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
 for any reason and also relax any provision of the policy, if so required
 in exceptional cases.', 'business_rule', 'B below.', 'To allow on-site inspection, if required by the DGFT or authorized
@@ -10265,11 +10172,9 @@ under GAICT to the SCOMET Division of DGFT (Hqrs), New Delhi, through
 online system on DGFT website, on quarterly basis (March / June /
 September / December), by the end of subsequent month of each quarter, in
 respect of the exports made in the previous quarter;
-b.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+b.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R012', '10.15', 'Re-exports / re-transfer of the items including software and
 technology (processed or incorporated)
 Further re-exports / re-transfers of the items including software and technology
@@ -10286,11 +10191,9 @@ policy.', 'The post-shipment details shall be submitted in proforma ANF 10D alon
 with a copy of EUC in Appendix 10J(iv) within the timelines mentioned
 pg.', 'The post-shipment details shall be submitted in proforma ANF 10D along
 with a copy of EUC in Appendix 10J(iv) within the timelines mentioned
-pg.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+pg.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R013', '10.15', 'Re-exports / re-transfer of the items including software and
 technology (processed or incorporated)
 Further re-exports / re-transfers of the items including software and technology
@@ -10310,11 +10213,9 @@ c.', 'The post-shipment details shall be submitted in proforma ANF 10D along
 with a copy of EUC in Appendix 10J(iv) within the timelines mentioned
 above, from the foreign subsidiary company or foreign parent company /
 another subsidiary of foreign parent company;
-c.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+c.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R014', '10.15', 'Validity
 a) GAICT issued for intra-company transfers of SCOMET items including
 software and technology shall be valid for a period of three years
@@ -10329,11 +10230,9 @@ manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 year
 from the date of GAICT issued by DGFT.', 'Record Keeping
 The exporter will be required to keep records of all the export documents, in
 manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
-from the date of GAICT issued by DGFT.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+from the date of GAICT issued by DGFT.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R015', '10.15', 'Suspension / Revocation
 GAICT issued shall be liable to be suspended by the DGFT on receipt of intimation
 about initiation of any inquiry from the country concerned or from any domestic
@@ -10344,11 +10243,9 @@ technology to be used to design, develop, acquire, manufacture,
 possess, transport, transfer and / or used for chemical, biological,
 nuclear weapons or for missiles capable of delivering weapons of
 mass destruction and their delivery system;
-b.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+b.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R016', '10.15', 'GAICT shall be revoked on receipt of an adverse report on proliferation
 concern or for non-submission of mandatory reports/documents within the
 prescribed timelines or for non-compliance of any of the condition of this policy.', 'business_rule', 'B below.', 'GAICT would not be issued in case of items including software and
@@ -10365,18 +10262,15 @@ FTP.', 'GAICT would not be issued for countries or entities covered under
 UNSC embargo or sanctions list or to the countries or entities
 assessed for risk of proliferation concern, based on national security
 and foreign policy considerations;
-c.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+c.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+for any reason and also relax any provision of the policy, if so required
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R017', '10.15', 'Para 10.15(I): General Authorization for Export of
 Telecommunication-related items under SCOMET Category 8A5 Part 1
 (GAET)
 Export of indigenous/imported SCOMET items (Telecommunication items under
 SCOMET Category 8A5 Part 1) will be allowed based on a one-time General
-Authorization (GAET) subject to the following conditions:
-1.', 'business_rule', 'B below.', 'GAICT would not be issued for countries or entities covered under
+Authorization (GAET) subject to the following conditions:', 'business_rule', 'B below.', 'GAICT would not be issued for countries or entities covered under
 UNSC embargo or sanctions list or to the countries or entities
 assessed for risk of proliferation concern, based on national security
 and foreign policy considerations;
@@ -10387,694 +10281,9 @@ agency.', 'In case of inclusion or amendment of items (including software and
 technology) or inclusion of new companies or amendment in existing
 companies in the supply chain, the applicant exporter will obtain
 prior permission of DGFT with relevant details;
-d.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R018', '10.15', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'business_rule', 'B below.', 'In case of inclusion or amendment of items (including software and
-technology) or inclusion of new companies or amendment in existing
-companies in the supply chain, the applicant exporter will obtain
-prior permission of DGFT with relevant details;
-d.', 'GAICT shall be revoked on receipt of an adverse report on proliferation
-concern or for non-submission of mandatory reports/documents within the
-prescribed timelines or for non-compliance of any of the condition of this policy.', 'Validity
-a) GAICT issued for intra-company transfers of SCOMET items including
-software and technology shall be valid for a period of three years
-from the date of issue of GAICT;
-b) GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
-FTP.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R019', '10.15', 'The applicant exporter shall submit an application for getting a one-time
-license under GAET through the online SCOMET portal and attach the
-information in the prescribed proforma;
-b.', 'business_rule', 'B below.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
+d.', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
 for any reason and also relax any provision of the policy, if so required
-in exceptional cases.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'Suspension / Revocation
-GAICT issued shall be liable to be suspended by the DGFT on receipt of intimation
-about initiation of any inquiry from the country concerned or from any domestic
-agency.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R020', '10.15', 'Validity
-a)
-GAICT issued for intra-company transfers of SCOMET items including
-software and technology shall be valid for a period of three years
-from the date of issue of GAICT;
-b)
-GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
-FTP.', 'business_rule', 'B below.', 'Re-exports / re-transfer of the items including software and
-technology (processed or incorporated)
-Further re-exports / re-transfers of the items including software and technology
-(processed or incorporated) from the foreign subsidiary company or foreign
-parent company / another subsidiary of foreign parent company to end users in
-other countries would be subject to the export control regulations of the country
-pg.', 'The applicant exporter shall submit an application for getting a one-time
-license under GAET through the online SCOMET portal and attach the
-information in the prescribed proforma;
-b.', 'GAICT shall be revoked on receipt of an adverse report on proliferation
-concern or for non-submission of mandatory reports/documents within the
-prescribed timelines or for non-compliance of any of the condition of this policy.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R021', '10.15', 'Para
-10.15(I):
-General
-Authorization
-for
-Export
-of
-Telecommunication-related items under SCOMET Category 8A5 Part 1
-(GAET)
-Export of indigenous/imported SCOMET items (Telecommunication items under
-SCOMET Category 8A5 Part 1) will be allowed based on a one-time General
-Authorization (GAET) subject to the following conditions:
-1.', 'business_rule', 'B below.', 'Re-exports / re-transfer of the items including software and
-technology (processed or incorporated)
-Further re-exports / re-transfers of the items including software and technology
-(processed or incorporated) from the foreign subsidiary company or foreign
-parent company / another subsidiary of foreign parent company to end users in
-other countries would be subject to the export control regulations of the country
-of the foreign subsidiary of Indian company or foreign parent company / another
-subsidiary of foreign parent company.', 'Validity
-a)
-GAICT issued for intra-company transfers of SCOMET items including
-software and technology shall be valid for a period of three years
-from the date of issue of GAICT;
-b)
-GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
-FTP.', 'The applicant exporter shall submit an application for getting a one-time
-license under GAET through the online SCOMET portal and attach the
-information in the prescribed proforma;
-b.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R022', '10.15', 'Subsequent EUC
-submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii
-below.', 'business_rule', 'B below.', 'GAICT shall be revoked on receipt of an adverse report on proliferation
-concern or for non-submission of mandatory reports/documents within the
-prescribed timelines or for non-compliance of any of the condition of this policy.', 'Subsequent EUC
-submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii
-below.', 'The application would be reviewed/examined for the issuance of GAET
-by the Inter-Ministerial Working Group (IMWG) based on the submitted
-application and other supporting documents submitted by the applicant
-exporter in the prescribed proforma including:
-i.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R023', '10.15', 'The applicant exporter declares that the items that are
-intended to be exported shall not be used for any purpose
-other than the purpose(s) stated in the EUC and that such
-use shall not be changed nor the items modified or
-replicated without the prior consent of the Government of
-India.;
-3.', 'business_rule', 'B below.', 'Para 10.15(I): General Authorization for Export of
-Telecommunication-related items under SCOMET Category 8A5 Part 1
-(GAET)
-Export of indigenous/imported SCOMET items (Telecommunication items under
-SCOMET Category 8A5 Part 1) will be allowed based on a one-time General
-Authorization (GAET) subject to the following conditions:
-1.', 'Any on-site inspection will be allowed by the applicant
-exporter if required by the DGFT or authorized
-representatives of the Government of India;
-2.', 'Validity
-a)
-GAICT issued for intra-company transfers of SCOMET items including
-software and technology shall be valid for a period of three years
-from the date of issue of GAICT;
-b)
-GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
-FTP.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R024', '10.15', 'The applicant exporter declares that subsequent to the
-issuance of export authorization, if the licensee has been
-notified in writing by DGFT or if they know or has reason to
-believe that an item may be intended for military end use
-or has a potential risk of use in or diversion to weapons of
-mass destruction (WMD) or in delivery of their missile
-system, the exporter would not be eligible for GAET for
-export of that/those item(s) and would apply separately to
-DGFT for a fresh authorization in terms of regular policy.', 'business_rule', 'B below.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'The applicant exporter declares that the items that are
-intended to be exported shall not be used for any purpose
-other than the purpose(s) stated in the EUC and that such
-use shall not be changed nor the items modified or
-replicated without the prior consent of the Government of
-India.;
-3.', 'End-user certificate (EUC) from all the entities involved in the
-supply chain (buyer, consignee, end user, and any other
-intermediary) on the letterhead (duly signed and stamped) is to
-be submitted before issuance of authorization.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R025', '10.15', 'After issuance of GAET authorization and before actual export, the
-applicant exporter must ensure the following:
-1.', 'business_rule', 'B below.', 'Detailed description of the items that are intended to be exported
-under this authorization with relevant technical
-details/specifications.', 'The applicant exporter declares that subsequent to the
-issuance of export authorization, if the licensee has been
-notified in writing by DGFT or if they know or has reason to
-believe that an item may be intended for military end use
-or has a potential risk of use in or diversion to weapons of
-mass destruction (WMD) or in delivery of their missile
-system, the exporter would not be eligible for GAET for
-export of that/those item(s) and would apply separately to
-DGFT for a fresh authorization in terms of regular policy.', 'Subsequent EUC
-submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii
-below.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R026', '10.15', 'They shall notify the relevant government authorities in the online
-portal of DGFT, on quarterly basis of such export in the prescribed
-format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
-Certificate (EUC) for each export.', 'business_rule', 'B below.', 'End-user certificate (EUC) from all the entities involved in the
-supply chain (buyer, consignee, end user, and any other
-pg.', 'Certified/Approved Internal Compliance Programme by the
-Compliance Manager of the Company.', 'The applicant exporter declares that subsequent to the
-issuance of export authorization, if the licensee has been
-notified in writing by DGFT or if they know or has reason to
-believe that an item may be intended for military end use
-or has a potential risk of use in or diversion to weapons of
-mass destruction (WMD) or in delivery of their missile
-system, the exporter would not be eligible for GAET for
-export of that/those item(s) and would apply separately to
-DGFT for a fresh authorization in terms of regular policy.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R027', '10.15', 'In case of any additional sheet
-used along with the EUC, the same must be on the letterhead of the
-company and signed by the same person who signs the EUC.', 'business_rule', 'B below.', 'Para
-10.15(I):
-General
-Authorization
-for
-Export
-of
-Telecommunication-related items under SCOMET Category 8A5 Part 1
-(GAET)
-Export of indigenous/imported SCOMET items (Telecommunication items under
-SCOMET Category 8A5 Part 1) will be allowed based on a one-time General
-Authorization (GAET) subject to the following conditions:
-1.', 'After issuance of GAET authorization and before actual export, the
-applicant exporter must ensure the following:
-1.', 'Certified/Approved Internal Compliance Programme by the
-Compliance Manager of the Company.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R028', '10.15', 'The documents submitted by the exporter must include the name, contact
-number and email ID of the authority signing the EUC before actual export.', 'business_rule', 'B below.', 'Detailed description of the items that are intended to be exported
-under
-this
-authorization
-with
-relevant
-technical
-details/specifications.', 'They shall notify the relevant government authorities in the online
-portal of DGFT, on quarterly basis of such export in the prescribed
-format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
-Certificate (EUC) for each export.', 'In case of re-export of imported items, the following additional
-documents have to be submitted:
-(i) Proof of import of the item(s):
- Documentary proof that the item(s) originally imported, match
-pg.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R029', '10.15', 'The Indian exporter shall submit post-shipment details of each
-export/re-export of SCOMET items under the above Categories/sub-
-categories under GAET for 3 years on quarterly basis
-(March/June/September/December) by the end of subsequent month of
-each quarter, in respect of exports made in the previous quarter;
-pg.', 'business_rule', 'B below.', 'End-user certificate (EUC) from all the entities involved in the
-supply chain (buyer, consignee, end user, and any other
-intermediary) on the letterhead (duly signed and stamped) is to
-be submitted before issuance of authorization.', 'In case of any additional sheet
-used along with the EUC, the same must be on the letterhead of the
-company and signed by the same person who signs the EUC.', '197
-intermediary) on the letterhead (duly signed and stamped) is to
-be submitted before issuance of authorization.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R030', '10.15', 'The Indian exporter shall submit post-shipment details of each
-export/re-export of SCOMET items under the above Categories/sub-
-categories
-under
-GAET
-for
-3
-years
-on
-quarterly
-basis
-(March/June/September/December) by the end of subsequent month of
-each quarter, in respect of exports made in the previous quarter;
-b.', 'business_rule', 'B below.', 'Subsequent EUC
-submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii
-below.', 'The documents submitted by the exporter must include the name, contact
-number and email ID of the authority signing the EUC before actual export.', 'In case of re-export of imported items, the following additional
-documents have to be submitted:
-(i) Proof of import of the item(s):
- Documentary proof that the item(s) originally imported, match
-with intended item(s) of re-export;
- Bill of entry containing details of the items to be re-exported;
- Export License (if applicable) or any other documents showing that
-export regulation of the country of export does not have any
-restriction on re- export from India;
- In case of any such restriction, the exporter will provide a letter of
-explanation detailing the list of countries/entities, to which re-
-export/return is restricted / regulated;
- Purchase order
-viii.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R031', '10.15', 'Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
-from the date of GAET issued by DGFT.', 'business_rule', 'B below.', 'The list of countries where the export is expected to be done
-under GAET is to be provided by the applicant at the time of
-submission of the application.', 'The Indian exporter shall submit post-shipment details of each
-export/re-export of SCOMET items under the above Categories/sub-
-categories under GAET for 3 years on quarterly basis
-(March/June/September/December) by the end of subsequent month of
-each quarter, in respect of exports made in the previous quarter;
-pg.', 'The documents submitted by the exporter must include the name, contact
-number and email ID of the authority signing the EUC before actual export.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R032', '10.15', 'IMWG shall reserve the right to deny the issue of GAET without assigning
-any reason(s)
-5.', 'business_rule', 'B below.', 'Any on-site inspection will be allowed by the applicant
-exporter if required by the DGFT or authorized
-representatives of the Government of India;
-2.', 'The Indian exporter shall submit post-shipment details of each
-export/re-export of SCOMET items under the above Categories/sub-
-categories
-under
-GAET
-for
-3
-years
-on
-quarterly
-basis
-(March/June/September/December) by the end of subsequent month of
-each quarter, in respect of exports made in the previous quarter;
-b.', 'Post Reporting for export / re-export of items under GAET
-a.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R033', '10.15', 'GAET issued for export / re-export of SCOMET items under the above Categories
-/ Sub Categories shall be valid for Three years from the date of issue of GAET
-subject to subsequent post reporting(s) on quarterly basis to be reported within
-30 days from the last quarter;
-b.', 'business_rule', 'B below.', 'The applicant exporter declares that the items that are
-intended to be exported shall not be used for any purpose
-other than the purpose(s) stated in the EUC and that such
-use shall not be changed nor the items modified or
-replicated without the prior consent of the Government of
-India.;
-3.', 'Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
-from the date of GAET issued by DGFT.', 'The Indian exporter shall submit post-shipment details of each
-export/re-export of SCOMET items under the above Categories/sub-
-categories under GAET for 3 years on quarterly basis
-(March/June/September/December) by the end of subsequent month of
-each quarter, in respect of exports made in the previous quarter;
-pg.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R034', '10.15', 'Suspension/Revocation:
-GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports / documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.', 'business_rule', 'B below.', 'The applicant exporter declares that subsequent to the
-issuance of export authorization, if the licensee has been
-notified in writing by DGFT or if they know or has reason to
-believe that an item may be intended for military end use
-or has a potential risk of use in or diversion to weapons of
-mass destruction (WMD) or in delivery of their missile
-system, the exporter would not be eligible for GAET for
-export of that/those item(s) and would apply separately to
-DGFT for a fresh authorization in terms of regular policy.', 'IMWG shall reserve the right to deny the issue of GAET without assigning
-any reason(s)
-5.', 'The Indian exporter shall submit post-shipment details of each
-export/re-export of SCOMET items under the above Categories/sub-
-categories
-under
-GAET
-for
-3
-years
-on
-quarterly
-basis
-(March/June/September/December) by the end of subsequent month of
-each quarter, in respect of exports made in the previous quarter;
-b.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R035', '10.15', 'Para 10.15(II): General Authorization for Export of Information
-Security items under SCOMET Category 8A5 Part 2(GAEIS)
-Export of indigenous SCOMET items (Information Security items under SCOMET
-Category 8A5 Part 2) will be allowed based on a one-time General Authorization
-(GAEIS) subject to the following conditions:
-1.', 'business_rule', 'B below.', 'Certified/Approved Internal Compliance Programme by the
-Compliance Manager of the Company.', 'GAET issued for export / re-export of SCOMET items under the above Categories
-/ Sub Categories shall be valid for Three years from the date of issue of GAET
-subject to subsequent post reporting(s) on quarterly basis to be reported within
-30 days from the last quarter;
-b.', 'In case of re-export of imported items, the additional documents as
-mentioned in 1.b.vii.(i) have to be submitted at the time of post
-reporting.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R036', '10.15', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Information Security items (excluding technology) under
-SCOMET Category 8A5 Part 2 subject to the following conditions:
-a.', 'business_rule', 'B below.', 'Authorized Economic Operator (AEO) T2 Certification of CBIC.', 'GAET cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.', 'Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
-from the date of GAET issued by DGFT.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R037', '10.15', 'The applicant exporter shall submit an application for getting a one-time license
-under GAEIS through the online SCOMET portal and attach the information in the
-prescribed performa.', 'business_rule', 'B below.', 'In case of re-export of imported items, the following additional
-documents have to be submitted:
-(i) Proof of import of the item(s):
- Documentary proof that the item(s) originally imported, match
-pg.', 'Suspension/Revocation:
-GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports / documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.', 'General Conditions & Exclusions
-GAET would not be issued in case of items to be used to design, develop, acquire,
-or manufacture, possess, transport, transfer and/or used for military applications,
-explosives, chemical, biological, nuclear weapons or for missiles capable of
-delivering weapons of mass destruction and their delivery system;
-a.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R038', '10.15', 'Subsequent EUC submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii below.', 'business_rule', 'B below.', '197
-intermediary) on the letterhead (duly signed and stamped) is to
-be submitted before issuance of authorization.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Information Security items (excluding technology) under
-SCOMET Category 8A5 Part 2 subject to the following conditions:
-a.', 'GAET would not be issued for countries or entities covered under UNSC
-embargo or sanctions list or on assessment of proliferation concerns, or
-national security and foreign policy considerations, etc.:
-b.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R039', '10.15', 'The applicant exporter declares that the items that are intended to be
-exported shall not be used for any purpose other than the purpose(s) stated in
-the EUC and that such use shall not be changed nor the items modified or
-replicated without the prior consent of the Government of India.;
-3.', 'business_rule', 'B below.', 'In case of re-export of imported items, the following additional
-documents have to be submitted:
-(i) Proof of import of the item(s):
- Documentary proof that the item(s) originally imported, match
-with intended item(s) of re-export;
- Bill of entry containing details of the items to be re-exported;
- Export License (if applicable) or any other documents showing that
-export regulation of the country of export does not have any
-restriction on re- export from India;
- In case of any such restriction, the exporter will provide a letter of
-explanation detailing the list of countries/entities, to which re-
-export/return is restricted / regulated;
- Purchase order
-viii.', 'The applicant exporter shall submit an application for getting a one-time license
-under GAEIS through the online SCOMET portal and attach the information in the
-prescribed performa.', 'In case of inclusion of new countries or amendment to the existing list of
-countries where the export is expected to be done under GAET the
-applicant exporter will obtain prior permission of DGFT with relevant
-details;
-c.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R040', '10.15', 'The applicant exporter declares that subsequent to the issuance of export
-authorization, if the licensee has been notified in writing by DGFT or if they
-know or has reason to believe that an item may be intended for military end
-use or has a potential risk of use in or diversion to weapons of mass destruction
-(WMD) or in delivery of their missile system, the exporter would not be eligible
-pg.', 'business_rule', 'B below.', 'After issuance of GAET authorization and before actual export, the
-applicant exporter must ensure the following:
-1.', 'Subsequent EUC submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii below.', 'IMWG shall reserve the right to deny the issue of GAET without assigning
-any reason(s)
-5.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R041', '10.15', 'The applicant exporter declares that subsequent to the issuance of export
-authorization, if the licensee has been notified in writing by DGFT or if they
-know or has reason to believe that an item may be intended for military end
-use or has a potential risk of use in or diversion to weapons of mass destruction
-(WMD) or in delivery of their missile system, the exporter would not be eligible
-for GAEIS for export of that/those item(s) and would apply separately to DGFT
-for a fresh authorization in terms of regular policy.', 'business_rule', 'B below.', 'They shall notify the relevant government authorities in the online
-portal of DGFT, on quarterly basis of such export in the prescribed
-format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
-Certificate (EUC) for each export.', 'Any on-site inspection will be allowed by the applicant exporter if required
-by the DGFT or authorized representatives of the Government of India;
-2.', 'GAET issued for export / re-export of SCOMET items under the above Categories
-/ Sub Categories shall be valid for Three years from the date of issue of GAET
-subject to subsequent post reporting(s) on quarterly basis to be reported within
-30 days from the last quarter;
-b.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R042', '10.15', 'After issuance of GAEIS authorization and before actual export, the applicant
-exporter must ensure the following:
-1.', 'business_rule', 'B below.', 'In case of any additional sheet
-used along with the EUC, the same must be on the letterhead of the
-company and signed by the same person who signs the EUC.', 'The applicant exporter declares that the items that are intended to be
-exported shall not be used for any purpose other than the purpose(s) stated in
-the EUC and that such use shall not be changed nor the items modified or
-replicated without the prior consent of the Government of India.;
-3.', 'Suspension/Revocation:
-GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports / documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R043', '10.15', 'They shall notify the relevant government authorities in the online portal of
-DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
-Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.', 'business_rule', 'B below.', 'They have an agreement or purchase order, an excerpt of a contract
-from the entity (buyer/consignee/end-user) receiving the items
-which state that the export is for a permitted use / an end-use as
-declared in the EUC before the actual export;
-4.', 'The applicant exporter declares that subsequent to the issuance of export
-authorization, if the licensee has been notified in writing by DGFT or if they
-know or has reason to believe that an item may be intended for military end
-use or has a potential risk of use in or diversion to weapons of mass destruction
-(WMD) or in delivery of their missile system, the exporter would not be eligible
-pg.', 'The applicant exporter shall submit an application for getting a one-time license
-under GAEIS through the online SCOMET portal and attach the information in the
-prescribed performa.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R044', '10.15', 'In case of any
-additional sheet used along with the EUC, the same must be on the letterhead of
-the company and signed by the same person who signs the EUC.', 'business_rule', 'B below.', 'The documents submitted by the exporter must include the name, contact
-number and email ID of the authority signing the EUC before actual export.', 'The applicant exporter declares that subsequent to the issuance of export
-authorization, if the licensee has been notified in writing by DGFT or if they
-know or has reason to believe that an item may be intended for military end
-use or has a potential risk of use in or diversion to weapons of mass destruction
-(WMD) or in delivery of their missile system, the exporter would not be eligible
-for GAEIS for export of that/those item(s) and would apply separately to DGFT
-for a fresh authorization in terms of regular policy.', 'The application would be reviewed/examined for the issuance of GAEIS by the
-Inter-Ministerial Working Group (IMWG) based on the submitted application and
-other supporting documents submitted by the applicant exporter in the prescribed
-proforma including:
-i.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R045', '10.15', 'The Indian exporter shall submit post-shipment details of each export/re-export
-of SCOMET items under the above Categories/sub-categories under GAEIS for 3
-years on quarterly basis (March/June/September/December) by the end of
-subsequent month of each quarter, in respect of exports made in the previous
-quarter;
-b.', 'business_rule', 'B below.', 'Additional details, if any sought by DGFT
-2.', 'Certified/Approved Internal Compliance Programme by the Compliance
-Manager of the Company.', 'End-user certificate (EUC) from all the entities involved in the supply chain
-(buyer, consignee, end user and any other intermediary) on the letterhead (duly
-signed and stamped) is to be submitted before issuance of authorization.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R046', '10.15', 'Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
-of GAEIS issued by DGFT.', 'business_rule', 'B below.', '198
-with intended item(s) of re-export;
- Bill of entry containing details of the items to be re-exported;
- Export License (if applicable) or any other documents showing that
-export regulation of the country of export does not have any
-restriction on re- export from India;
- In case of any such restriction, the exporter will provide a letter of
-explanation detailing the list of countries/entities, to which re-
-export/return is restricted / regulated;
- Purchase order
-viii.', 'After issuance of GAEIS authorization and before actual export, the applicant
-exporter must ensure the following:
-1.', 'Subsequent EUC submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii below.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R047', '10.15', 'IMWG shall reserve the right to deny the issuance of GAEIS without assigning
-any reason(s).', 'business_rule', 'B below.', 'In case of re-export of imported items, the additional documents as
-mentioned in 1.b.vii.(i) have to be submitted at the time of post
-reporting.', 'They shall notify the relevant government authorities in the online portal of
-DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
-Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.', 'The applicant exporter declares that subsequent to the issuance of export
-authorization, if the licensee has been notified in writing by DGFT or if they
-know or has reason to believe that an item may be intended for military end
-use or has a potential risk of use in or diversion to weapons of mass destruction
-(WMD) or in delivery of their missile system, the exporter would not be eligible
-for GAEIS for export of that/those item(s) and would apply separately to DGFT
-for a fresh authorization in terms of regular policy.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R048', '10.15', 'GAEIS issued for export / re-export of SCOMET items under the above
-Categories / Sub Categories shall be valid for Three years from the date of issue of
-pg.', 'business_rule', 'B below.', 'General Conditions & Exclusions
-GAET would not be issued in case of items to be used to design, develop, acquire,
-or manufacture, possess, transport, transfer and/or used for military applications,
-explosives, chemical, biological, nuclear weapons or for missiles capable of
-delivering weapons of mass destruction and their delivery system;
-a.', 'In case of any
-additional sheet used along with the EUC, the same must be on the letterhead of
-the company and signed by the same person who signs the EUC.', 'Certified/Approved Internal Compliance Programme by the Compliance
-Manager of the Company.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R049', '10.15', 'GAEIS issued for export / re-export of SCOMET items under the above
-Categories / Sub Categories shall be valid for Three years from the date of issue of
-GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
-within 30 days from the last quarter;
-2.', 'business_rule', 'B below.', 'GAET would not be issued for countries or entities covered under UNSC
-embargo or sanctions list or on assessment of proliferation concerns, or
-national security and foreign policy considerations, etc.:
-b.', 'The Indian exporter shall submit post-shipment details of each export/re-export
-of SCOMET items under the above Categories/sub-categories under GAEIS for 3
-years on quarterly basis (March/June/September/December) by the end of
-subsequent month of each quarter, in respect of exports made in the previous
-quarter;
-b.', 'In case of re-export of imported items, the following additional documents have
-to be submitted:
-(i) Proof of import of the item(s):
- Documentary proof that the item(s) originally imported, match with
-intended item(s) of re-export;
- Bill of entry containing details of the items to be re-exported;
- Export License (if applicable) or any other documents showing that
-export regulation of the country of export does not have any
-restriction on re- export from India;
- In case of any such restriction, the exporter will provide a letter of
-explanation detailing the list of countries/entities, to which re-
-export/return is restricted / regulated;
- Purchase order
-viii.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_15-R050', '10.15', 'Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.', 'business_rule', 'B below.', 'In case of inclusion of new countries or amendment to the existing list of
-countries where the export is expected to be done under GAET the
-applicant exporter will obtain prior permission of DGFT with relevant
-details;
-c.', 'Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
-of GAEIS issued by DGFT.', 'for GAEIS for export of that/those item(s) and would apply separately to DGFT
-for a fresh authorization in terms of regular policy.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
+in exceptional cases.', 'DEKAI should produce a compliance decision for 10.15 - B below..');
 INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'The applicant exporter furnishes either a certified/approved
 Internal Compliance Programme (ICP) or demonstrates
 compliance to the ICP of the foreign parent company or ICP
@@ -11171,274 +10380,7 @@ Telecommunication-related items under SCOMET Category 8A5 Part 1
 (GAET)
 Export of indigenous/imported SCOMET items (Telecommunication items under
 SCOMET Category 8A5 Part 1) will be allowed based on a one-time General
-Authorization (GAET) subject to the following conditions:
-1.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Detailed description of the items that are intended to be exported
-under this authorization with relevant technical
-details/specifications.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'End-user certificate (EUC) from all the entities involved in the
-supply chain (buyer, consignee, end user, and any other
-pg.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Para
-10.15(I):
-General
-Authorization
-for
-Export
-of
-Telecommunication-related items under SCOMET Category 8A5 Part 1
-(GAET)
-Export of indigenous/imported SCOMET items (Telecommunication items under
-SCOMET Category 8A5 Part 1) will be allowed based on a one-time General
-Authorization (GAET) subject to the following conditions:
-1.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Detailed description of the items that are intended to be exported
-under
-this
-authorization
-with
-relevant
-technical
-details/specifications.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'End-user certificate (EUC) from all the entities involved in the
-supply chain (buyer, consignee, end user, and any other
-intermediary) on the letterhead (duly signed and stamped) is to
-be submitted before issuance of authorization.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Subsequent EUC
-submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii
-below.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'The list of countries where the export is expected to be done
-under GAET is to be provided by the applicant at the time of
-submission of the application.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Any on-site inspection will be allowed by the applicant
-exporter if required by the DGFT or authorized
-representatives of the Government of India;
-2.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'The applicant exporter declares that the items that are
-intended to be exported shall not be used for any purpose
-other than the purpose(s) stated in the EUC and that such
-use shall not be changed nor the items modified or
-replicated without the prior consent of the Government of
-India.;
-3.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'The applicant exporter declares that subsequent to the
-issuance of export authorization, if the licensee has been
-notified in writing by DGFT or if they know or has reason to
-believe that an item may be intended for military end use
-or has a potential risk of use in or diversion to weapons of
-mass destruction (WMD) or in delivery of their missile
-system, the exporter would not be eligible for GAET for
-export of that/those item(s) and would apply separately to
-DGFT for a fresh authorization in terms of regular policy.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Certified/Approved Internal Compliance Programme by the
-Compliance Manager of the Company.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Authorized Economic Operator (AEO) T2 Certification of CBIC.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'In case of re-export of imported items, the following additional
-documents have to be submitted:
-(i) Proof of import of the item(s):
- Documentary proof that the item(s) originally imported, match
-pg.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', '197
-intermediary) on the letterhead (duly signed and stamped) is to
-be submitted before issuance of authorization.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'In case of re-export of imported items, the following additional
-documents have to be submitted:
-(i) Proof of import of the item(s):
- Documentary proof that the item(s) originally imported, match
-with intended item(s) of re-export;
- Bill of entry containing details of the items to be re-exported;
- Export License (if applicable) or any other documents showing that
-export regulation of the country of export does not have any
-restriction on re- export from India;
- In case of any such restriction, the exporter will provide a letter of
-explanation detailing the list of countries/entities, to which re-
-export/return is restricted / regulated;
- Purchase order
-viii.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'After issuance of GAET authorization and before actual export, the
-applicant exporter must ensure the following:
-1.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'They shall notify the relevant government authorities in the online
-portal of DGFT, on quarterly basis of such export in the prescribed
-format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
-Certificate (EUC) for each export.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'In case of any additional sheet
-used along with the EUC, the same must be on the letterhead of the
-company and signed by the same person who signs the EUC.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'They have an agreement or purchase order, an excerpt of a contract
-from the entity (buyer/consignee/end-user) receiving the items
-which state that the export is for a permitted use / an end-use as
-declared in the EUC before the actual export;
-4.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'The documents submitted by the exporter must include the name, contact
-number and email ID of the authority signing the EUC before actual export.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Additional details, if any sought by DGFT
-2.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', '198
-with intended item(s) of re-export;
- Bill of entry containing details of the items to be re-exported;
- Export License (if applicable) or any other documents showing that
-export regulation of the country of export does not have any
-restriction on re- export from India;
- In case of any such restriction, the exporter will provide a letter of
-explanation detailing the list of countries/entities, to which re-
-export/return is restricted / regulated;
- Purchase order
-viii.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'In case of re-export of imported items, the additional documents as
-mentioned in 1.b.vii.(i) have to be submitted at the time of post
-reporting.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'General Conditions & Exclusions
-GAET would not be issued in case of items to be used to design, develop, acquire,
-or manufacture, possess, transport, transfer and/or used for military applications,
-explosives, chemical, biological, nuclear weapons or for missiles capable of
-delivering weapons of mass destruction and their delivery system;
-a.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'GAET would not be issued for countries or entities covered under UNSC
-embargo or sanctions list or on assessment of proliferation concerns, or
-national security and foreign policy considerations, etc.:
-b.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'In case of inclusion of new countries or amendment to the existing list of
-countries where the export is expected to be done under GAET the
-applicant exporter will obtain prior permission of DGFT with relevant
-details;
-c.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'GAET issued for export / re-export of SCOMET items under the above Categories
-/ Sub Categories shall be valid for Three years from the date of issue of GAET
-subject to subsequent post reporting(s) on quarterly basis to be reported within
-30 days from the last quarter;
-b.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Suspension/Revocation:
-GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports / documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Para 10.15(II): General Authorization for Export of Information
-Security items under SCOMET Category 8A5 Part 2(GAEIS)
-Export of indigenous SCOMET items (Information Security items under SCOMET
-Category 8A5 Part 2) will be allowed based on a one-time General Authorization
-(GAEIS) subject to the following conditions:
-1.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Information Security items (excluding technology) under
-SCOMET Category 8A5 Part 2 subject to the following conditions:
-a.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Detailed description of the items that are intended to be exported under this
-authorization with relevant technical details/specifications;
-ii.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'End-user certificate (EUC) from all the entities involved in the supply chain
-(buyer, consignee, end user and any other intermediary) on the letterhead (duly
-signed and stamped) is to be submitted before issuance of authorization.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Subsequent EUC submissions for entities in the list of countries (as approved) will
-be subject to post-reporting requirements as mentioned at viii below.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'The list of countries where the export is expected to be done under GAEIS is to
-be provided by the applicant at the time of submission of the application.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Any on-site inspection will be allowed by the applicant exporter if required
-by the DGFT or authorized representatives of the Government of India;
-2.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'The applicant exporter declares that the items that are intended to be
-exported shall not be used for any purpose other than the purpose(s) stated in
-the EUC and that such use shall not be changed nor the items modified or
-replicated without the prior consent of the Government of India.;
-3.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'The applicant exporter declares that subsequent to the issuance of export
-authorization, if the licensee has been notified in writing by DGFT or if they
-know or has reason to believe that an item may be intended for military end
-use or has a potential risk of use in or diversion to weapons of mass destruction
-(WMD) or in delivery of their missile system, the exporter would not be eligible
-pg.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'The applicant exporter declares that subsequent to the issuance of export
-authorization, if the licensee has been notified in writing by DGFT or if they
-know or has reason to believe that an item may be intended for military end
-use or has a potential risk of use in or diversion to weapons of mass destruction
-(WMD) or in delivery of their missile system, the exporter would not be eligible
-for GAEIS for export of that/those item(s) and would apply separately to DGFT
-for a fresh authorization in terms of regular policy.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Certified/Approved Internal Compliance Programme by the Compliance
-Manager of the Company.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'In case of re-export of imported items, the following additional documents have
-to be submitted:
-(i) Proof of import of the item(s):
- Documentary proof that the item(s) originally imported, match with
-intended item(s) of re-export;
- Bill of entry containing details of the items to be re-exported;
- Export License (if applicable) or any other documents showing that
-export regulation of the country of export does not have any
-restriction on re- export from India;
- In case of any such restriction, the exporter will provide a letter of
-explanation detailing the list of countries/entities, to which re-
-export/return is restricted / regulated;
- Purchase order
-viii.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'After issuance of GAEIS authorization and before actual export, the applicant
-exporter must ensure the following:
-1.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'They shall notify the relevant government authorities in the online portal of
-DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
-Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'In case of any
-additional sheet used along with the EUC, the same must be on the letterhead of
-the company and signed by the same person who signs the EUC.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'They have an agreement or purchase order, an excerpt of a contract from the
-entity (buyer/consignee / end-user) receiving the items which state that the
-export is for a permitted use / an end-use as declared in the EUC before the actual
-pg.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'In case of re-export of imported items, the following additional documents have
-to be submitted:
-(i) Proof of import of the item(s):
-
-Documentary proof that the item(s) originally imported, match with
-intended item(s) of re-export;
-
-Bill of entry containing details of the items to be re-exported;
-
-Export License (if applicable) or any other documents showing that
-export regulation of the country of export does not have any
-restriction on re- export from India;
-
-In case of any such restriction, the exporter will provide a letter of
-explanation detailing the list of countries/entities, to which re-
-export/return is restricted / regulated;
-
-Purchase order
-viii.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'They have an agreement or purchase order, an excerpt of a contract from the
-entity (buyer/consignee / end-user) receiving the items which state that the
-export is for a permitted use / an end-use as declared in the EUC before the actual
-export;
-4.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Additional details, if any sought by DGFT.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'In case of re-export of imported items, the additional documents as mentioned
-in 1.b.vii.(i) have to be submitted at the time of post reporting.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'GAEIS would not be issued in case of items to be used to design, develop, acquire,
-or manufacture, possess, transport, transfer and/or used for military applications,
-explosives, chemical, biological, nuclear weapons or for missiles capable of
-delivering weapons of mass destruction and their delivery system;
-b.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'GAEIS would not be issued for countries or entities covered under UNSC
-embargo or sanctions list or on assessment of proliferation concerns, or national
-security and foreign policy considerations, etc.:
-c.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'In case of inclusion of new countries or amendment to the existing list of
-countries where the export is expected to be done under GAEIS the applicant
-exporter will obtain prior permission from DGFT with relevant details;
-d.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'GAEIS issued for export / re-export of SCOMET items under the above
-Categories / Sub Categories shall be valid for Three years from the date of issue of
-GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
-within 30 days from the last quarter;
-2.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.15', 'Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.');
+Authorization (GAET) subject to the following conditions:');
 INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'Filing and Assessment of Application');
 INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'In respect of export/re-export of SCOMET items including software and
 technology,the applicant exporter shall submit an application for GAICT
@@ -11494,130 +10436,11 @@ from the date of GAICT issued by DGFT.');
 INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'GAICT shall be revoked on receipt of an adverse report on proliferation
 concern or for non-submission of mandatory reports/documents within the
 prescribed timelines or for non-compliance of any of the condition of this policy.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'SCOMET Category 8A5 Part 1(except items listed in Annexure');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'The applicant exporter shall submit an application for getting a one-time
-license under GAET through the online SCOMET portal and attach the
-information in the prescribed proforma;
-b.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'The application would be reviewed/examined for the issuance of GAET
-by the Inter-Ministerial Working Group (IMWG) based on the submitted
-application and other supporting documents submitted by the applicant
-exporter in the prescribed proforma including:
-i.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'End-user certificate (EUC) from all the entities involved in the
-supply chain (buyer, consignee, end user, and any other
-pg.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'End-user certificate (EUC) from all the entities involved in the
-supply chain (buyer, consignee, end user, and any other
-intermediary) on the letterhead (duly signed and stamped) is to
-be submitted before issuance of authorization.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'The list of countries where the export is expected to be done
-under GAET is to be provided by the applicant at the time of
-submission of the application.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'Undertaking on the letterhead of the firm duly signed and
-stamped by the authorized signatory stating the following:
-1.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'The applicant exporter declares that subsequent to the
-issuance of export authorization, if the licensee has been
-notified in writing by DGFT or if they know or has reason to
-believe that an item may be intended for military end use
-or has a potential risk of use in or diversion to weapons of
-mass destruction (WMD) or in delivery of their missile
-system, the exporter would not be eligible for GAET for
-export of that/those item(s) and would apply separately to
-DGFT for a fresh authorization in terms of regular policy.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'Action will be taken against the exporter under FT (D & R)
-Act, 1992 for any mis-declaration.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'In case of re-export of imported items, the following additional
-documents have to be submitted:
-(i) Proof of import of the item(s):
- Documentary proof that the item(s) originally imported, match
-pg.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'Export License');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'They shall notify the relevant government authorities in the online
-portal of DGFT, on quarterly basis of such export in the prescribed
-format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
-Certificate (EUC) for each export.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'The documents submitted by the exporter must include the name, contact
-number and email ID of the authority signing the EUC before actual export.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'In case of re-export of imported items, the additional documents as
-mentioned in 1.b.vii.(i) have to be submitted at the time of post
-reporting.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
-from the date of GAET issued by DGFT.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'General Conditions & Exclusions
-GAET would not be issued in case of items to be used to design, develop, acquire,
-or manufacture, possess, transport, transfer and/or used for military applications,
-explosives, chemical, biological, nuclear weapons or for missiles capable of
-delivering weapons of mass destruction and their delivery system;
-a.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'Suspension/Revocation:
-GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports / documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'The applicant exporter shall submit an application for getting a one-time license
-under GAEIS through the online SCOMET portal and attach the information in the
-prescribed performa.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'The application would be reviewed/examined for the issuance of GAEIS by the
-Inter-Ministerial Working Group (IMWG) based on the submitted application and
-other supporting documents submitted by the applicant exporter in the prescribed
-proforma including:
-i.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'End-user certificate (EUC) from all the entities involved in the supply chain
-(buyer, consignee, end user and any other intermediary) on the letterhead (duly
-signed and stamped) is to be submitted before issuance of authorization.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'The list of countries where the export is expected to be done under GAEIS is to
-be provided by the applicant at the time of submission of the application.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'Undertaking on the letterhead of the firm duly signed and stamped by the
-authorized signatory stating the following:
-1.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'The applicant exporter declares that subsequent to the issuance of export
-authorization, if the licensee has been notified in writing by DGFT or if they
-know or has reason to believe that an item may be intended for military end
-use or has a potential risk of use in or diversion to weapons of mass destruction
-(WMD) or in delivery of their missile system, the exporter would not be eligible
-pg.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'The applicant exporter declares that subsequent to the issuance of export
-authorization, if the licensee has been notified in writing by DGFT or if they
-know or has reason to believe that an item may be intended for military end
-use or has a potential risk of use in or diversion to weapons of mass destruction
-(WMD) or in delivery of their missile system, the exporter would not be eligible
-for GAEIS for export of that/those item(s) and would apply separately to DGFT
-for a fresh authorization in terms of regular policy.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'Action will be taken against the exporter under FT (D & R) Act, 1992 for any
-mis-declaration.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'End-Use Certificate');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'In case of re-export of imported items, the additional documents as mentioned
-in 1.b.vii.(i) have to be submitted at the time of post reporting.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
-of GAEIS issued by DGFT.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'GAEIS would not be issued in case of items to be used to design, develop, acquire,
-or manufacture, possess, transport, transfer and/or used for military applications,
-explosives, chemical, biological, nuclear weapons or for missiles capable of
-delivering weapons of mass destruction and their delivery system;
-b.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.15', 'Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.');
 INSERT INTO authorities (section_code, authority_name) VALUES ('10.15', 'DGFT');
 INSERT INTO authorities (section_code, authority_name) VALUES ('10.15', 'DGFT or authorized representatives of Government');
 INSERT INTO authorities (section_code, authority_name) VALUES ('10.15', 'GAICT to the SCOMET Division of DGFT');
 INSERT INTO authorities (section_code, authority_name) VALUES ('10.15', 'GAICT issued by DGFT');
 INSERT INTO authorities (section_code, authority_name) VALUES ('10.15', 'GAICT issued shall be liable to be suspended by the DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('10.15', 'CBIC');
-INSERT INTO authorities (section_code, authority_name) VALUES ('10.15', 'GAET issued by DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('10.15', 'GAET issued shall be liable to be suspended/revoked by the DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('10.15', 'DGFT or authorized representatives of the Government');
-INSERT INTO authorities (section_code, authority_name) VALUES ('10.15', 'GAEIS for export of that/those item(s) and would apply separately to DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('10.15', 'GAEIS issued by DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('10.15', 'GAEIS issued shall be liable to be suspended/revoked by the DGFT');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'They shall submit original End User Certificate in the prescribed
 format within 30 days of filing application and in case of
 subsequent exports, within 30 days of delivery at destination
@@ -11644,103 +10467,6 @@ FTP.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'GAICT shall be revoked on receipt of an adverse report on proliferation
 concern or for non-submission of mandatory reports/documents within the
 prescribed timelines or for non-compliance of any of the condition of this policy.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'Validity
-a)
-GAICT issued for intra-company transfers of SCOMET items including
-software and technology shall be valid for a period of three years
-from the date of issue of GAICT;
-b)
-GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
-FTP.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'End-user certificate (EUC) from all the entities involved in the
-supply chain (buyer, consignee, end user, and any other
-intermediary) on the letterhead (duly signed and stamped) is to
-be submitted before issuance of authorization.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', '197
-intermediary) on the letterhead (duly signed and stamped) is to
-be submitted before issuance of authorization.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'After issuance of GAET authorization and before actual export, the
-applicant exporter must ensure the following:
-1.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'They have an agreement or purchase order, an excerpt of a contract
-from the entity (buyer/consignee/end-user) receiving the items
-which state that the export is for a permitted use / an end-use as
-declared in the EUC before the actual export;
-4.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'The documents submitted by the exporter must include the name, contact
-number and email ID of the authority signing the EUC before actual export.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'The Indian exporter shall submit post-shipment details of each
-export/re-export of SCOMET items under the above Categories/sub-
-categories under GAET for 3 years on quarterly basis
-(March/June/September/December) by the end of subsequent month of
-each quarter, in respect of exports made in the previous quarter;
-pg.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'The Indian exporter shall submit post-shipment details of each
-export/re-export of SCOMET items under the above Categories/sub-
-categories
-under
-GAET
-for
-3
-years
-on
-quarterly
-basis
-(March/June/September/December) by the end of subsequent month of
-each quarter, in respect of exports made in the previous quarter;
-b.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
-from the date of GAET issued by DGFT.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'GAET issued for export / re-export of SCOMET items under the above Categories
-/ Sub Categories shall be valid for Three years from the date of issue of GAET
-subject to subsequent post reporting(s) on quarterly basis to be reported within
-30 days from the last quarter;
-b.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'Suspension/Revocation:
-GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports / documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'End-user certificate (EUC) from all the entities involved in the supply chain
-(buyer, consignee, end user and any other intermediary) on the letterhead (duly
-signed and stamped) is to be submitted before issuance of authorization.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'After issuance of GAEIS authorization and before actual export, the applicant
-exporter must ensure the following:
-1.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'They have an agreement or purchase order, an excerpt of a contract from the
-entity (buyer/consignee / end-user) receiving the items which state that the
-export is for a permitted use / an end-use as declared in the EUC before the actual
-pg.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'They have an agreement or purchase order, an excerpt of a contract from the
-entity (buyer/consignee / end-user) receiving the items which state that the
-export is for a permitted use / an end-use as declared in the EUC before the actual
-export;
-4.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'The Indian exporter shall submit post-shipment details of each export/re-export
-of SCOMET items under the above Categories/sub-categories under GAEIS for 3
-years on quarterly basis (March/June/September/December) by the end of
-subsequent month of each quarter, in respect of exports made in the previous
-quarter;
-b.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'Record Keeping
-The exporter will be required to keep records of all the export documents, in
-manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
-of GAEIS issued by DGFT.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'GAEIS issued for export / re-export of SCOMET items under the above
-Categories / Sub Categories shall be valid for Three years from the date of issue of
-pg.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'GAEIS issued for export / re-export of SCOMET items under the above
-Categories / Sub Categories shall be valid for Three years from the date of issue of
-GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
-within 30 days from the last quarter;
-2.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.15', 'Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('10.15', '192
 Note: However, IMWG on a case to case basis may allow countries other than those
 listed in Table 1 considering description/end use/end user of the item.');
@@ -11751,11 +10477,6 @@ iv.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('10.15', 'IMWG shall reserve the right to deny issuance of authorisation GAICT
 for any reason and also relax any provision of the policy, if so required
 in exceptional cases.');
-INSERT INTO exceptions (section_code, exception_text) VALUES ('10.15', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
-and/or re-export of Telecommunication items (excluding technology and
-software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
-I) subject to the following conditions:
-a.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.15', 1, 'Evaluate condition: The applicant exporter furnishes either a certified/approved
 Internal Compliance Programme (ICP) or demonstrates
 compliance to the ICP of the foreign parent company or ICP
@@ -11836,6 +10557,3211 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.15', 
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.15', 'tags', 'business-rule');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.15', 'tags', 'document-driven');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.15', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '1', 'Policy & Eligibility: SCOMET authorization will not be required, for the export', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'Indha Policy & Eligibility: SCOMET authorization will not be required, for the export section-la, Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', '1. Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a. The applicant exporter shall submit an application for getting a one-time
+license under GAET through the online SCOMET portal and attach the
+information in the prescribed proforma;
+b.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export governs how DGFT business controls should be applied, validated, and enforced.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export explains the operating rule set that DEKAI should enforce. Key control points include Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a. The section also drives actions such as The applicant exporter shall submit an application for getting a one-time
+license under GAET through the online SCOMET portal and attach the
+information in the prescribed proforma;
+b..', 'Indha Policy & Eligibility: SCOMET authorization will not be required, for the export section-la, Policy & Eligibility: SCOMET authorization will not be required, for the export explains the operating rule set that DEKAI should enforce. Key control points include Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a. The section also drives actions such as The applicant exporter kandippa submit an application for getting a one-time
+license under GAET through the online SCOMET portal and attach the
+information in the prescribed proforma;
+b..', '1. Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a. The applicant exporter shall submit an application for getting a one-time
+license under GAET through the online SCOMET portal and attach the
+information in the prescribed proforma;
+b. The application would be reviewed/examined for the issuance of GAET
+by the Inter-Ministerial Working Group (IMWG) based on the submitted
+application and other supporting documents submitted by the applicant
+exporter in the prescribed proforma including:
+i. Detailed description of the items that are intended to be exported
+under this authorization with relevant technical
+details/specifications.
+ii. End-user certificate (EUC) from all the entities involved in the
+supply chain (buyer, consignee, end user, and any other
+pg. 196
+pg. 196
+of the foreign subsidiary of Indian company or foreign parent company / another
+subsidiary of foreign parent company.
+G.
+Validity
+a)
+GAICT issued for intra-company transfers of SCOMET items including
+software and technology shall be valid for a period of three years
+from the date of issue of GAICT;
+b)
+GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
+FTP.
+H.
+Suspension / Revocation
+GAICT issued shall be liable to be suspended by the DGFT on receipt of intimation
+about initiation of any inquiry from the country concerned or from any domestic
+agency. GAICT shall be revoked on receipt of an adverse report on proliferation
+concern or for non-submission of mandatory reports/documents within the
+prescribed timelines or for non-compliance of any of the condition of this policy.
+Para
+10.15(I):
+General
+Authorization
+for
+Export
+of
+Telecommunication-related items under SCOMET Category 8A5 Part 1
+(GAET)
+Export of indigenous/imported SCOMET items (Telecommunication items under
+SCOMET Category 8A5 Part 1) will be allowed based on a one-time General
+Authorization (GAET) subject to the following conditions:
+1. Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a. The applicant exporter shall submit an application for getting a one-time
+license under GAET through the online SCOMET portal and attach the
+information in the prescribed proforma;
+b. The application would be reviewed/examined for the issuance of GAET
+by the Inter-Ministerial Working Group (IMWG) based on the submitted
+application and other supporting documents submitted by the applicant
+exporter in the prescribed proforma including:
+i.
+Detailed description of the items that are intended to be exported
+under
+this
+authorization
+with
+relevant
+technical
+details/specifications.
+ii.
+End-user certificate (EUC) from all the entities involved in the
+supply chain (buyer, consignee, end user, and any other
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization. Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.
+iii. The list of countries where the export is expected to be done
+under GAET is to be provided by the applicant at the time of
+submission of the application.
+iv. Undertaking on the letterhead of the firm duly signed and
+stamped by the authorized signatory stating the following:
+1. Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Information Security items (excluding technology) under
+SCOMET Category 8A5 Part 2 subject to the following conditions:
+a. The applicant exporter shall submit an application for getting a one-time license
+under GAEIS through the online SCOMET portal and attach the information in the
+prescribed performa.
+b. The application would be reviewed/examined for the issuance of GAEIS by the
+Inter-Ministerial Working Group (IMWG) based on the submitted application and
+other supporting documents submitted by the applicant exporter in the prescribed
+proforma including:
+i. Detailed description of the items that are intended to be exported under this
+authorization with relevant technical details/specifications;
+ii. End-user certificate (EUC) from all the entities involved in the supply chain
+(buyer, consignee, end user and any other intermediary) on the letterhead (duly
+signed and stamped) is to be submitted before issuance of authorization.
+Subsequent EUC submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii below.
+iii. The list of countries where the export is expected to be done under GAEIS is to
+be provided by the applicant at the time of submission of the application.
+iv. Undertaking on the letterhead of the firm duly signed and stamped by the
+authorized signatory stating the following:', '[28, 29, 32]', '["not", "for", "the", "and", "are", "EUC", "all", "end", "any", "HBP", "FTP", "iii", "will", "Part", "GAET", "IMWG", "that", "this", "with", "from"]', 'Support Policy & Eligibility: SCOMET authorization will not be required, for the export processing and compliance validation.', '["1", "Policy & Eligibility: SCOMET authorization will not be required, for the export", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R001', '1', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'business_rule', 'Policy & Eligibility: SCOMET authorization will not be required, for the export', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'The applicant exporter shall submit an application for getting a one-time
+license under GAET through the online SCOMET portal and attach the
+information in the prescribed proforma;
+b.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'DEKAI should produce a compliance decision for 1 - Policy & Eligibility: SCOMET authorization will not be required, for the export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R002', '1', 'The applicant exporter shall submit an application for getting a one-time
+license under GAET through the online SCOMET portal and attach the
+information in the prescribed proforma;
+b.', 'business_rule', 'Policy & Eligibility: SCOMET authorization will not be required, for the export', 'Detailed description of the items that are intended to be exported
+under this authorization with relevant technical
+details/specifications.', 'The applicant exporter shall submit an application for getting a one-time
+license under GAET through the online SCOMET portal and attach the
+information in the prescribed proforma;
+b.', 'The application would be reviewed/examined for the issuance of GAET
+by the Inter-Ministerial Working Group (IMWG) based on the submitted
+application and other supporting documents submitted by the applicant
+exporter in the prescribed proforma including:
+i.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'DEKAI should produce a compliance decision for 1 - Policy & Eligibility: SCOMET authorization will not be required, for the export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R003', '1', 'Validity
+a)
+GAICT issued for intra-company transfers of SCOMET items including
+software and technology shall be valid for a period of three years
+from the date of issue of GAICT;
+b)
+GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
+FTP.', 'business_rule', 'Policy & Eligibility: SCOMET authorization will not be required, for the export', 'End-user certificate (EUC) from all the entities involved in the
+supply chain (buyer, consignee, end user, and any other
+pg.', 'Validity
+a)
+GAICT issued for intra-company transfers of SCOMET items including
+software and technology shall be valid for a period of three years
+from the date of issue of GAICT;
+b)
+GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
+FTP.', 'Validity
+a)
+GAICT issued for intra-company transfers of SCOMET items including
+software and technology shall be valid for a period of three years
+from the date of issue of GAICT;
+b)
+GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
+FTP.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'DEKAI should produce a compliance decision for 1 - Policy & Eligibility: SCOMET authorization will not be required, for the export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R004', '1', 'Suspension / Revocation
+GAICT issued shall be liable to be suspended by the DGFT on receipt of intimation
+about initiation of any inquiry from the country concerned or from any domestic
+agency.', 'business_rule', 'Policy & Eligibility: SCOMET authorization will not be required, for the export', 'GAICT shall be revoked on receipt of an adverse report on proliferation
+concern or for non-submission of mandatory reports/documents within the
+prescribed timelines or for non-compliance of any of the condition of this policy.', 'Suspension / Revocation
+GAICT issued shall be liable to be suspended by the DGFT on receipt of intimation
+about initiation of any inquiry from the country concerned or from any domestic
+agency.', 'Suspension / Revocation
+GAICT issued shall be liable to be suspended by the DGFT on receipt of intimation
+about initiation of any inquiry from the country concerned or from any domestic
+agency.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'DEKAI should produce a compliance decision for 1 - Policy & Eligibility: SCOMET authorization will not be required, for the export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R005', '1', 'GAICT shall be revoked on receipt of an adverse report on proliferation
+concern or for non-submission of mandatory reports/documents within the
+prescribed timelines or for non-compliance of any of the condition of this policy.', 'business_rule', 'Policy & Eligibility: SCOMET authorization will not be required, for the export', 'Para
+10.15(I):
+General
+Authorization
+for
+Export
+of
+Telecommunication-related items under SCOMET Category 8A5 Part 1
+(GAET)
+Export of indigenous/imported SCOMET items (Telecommunication items under
+SCOMET Category 8A5 Part 1) will be allowed based on a one-time General
+Authorization (GAET) subject to the following conditions:
+1.', 'GAICT shall be revoked on receipt of an adverse report on proliferation
+concern or for non-submission of mandatory reports/documents within the
+prescribed timelines or for non-compliance of any of the condition of this policy.', 'GAICT shall be revoked on receipt of an adverse report on proliferation
+concern or for non-submission of mandatory reports/documents within the
+prescribed timelines or for non-compliance of any of the condition of this policy.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'DEKAI should produce a compliance decision for 1 - Policy & Eligibility: SCOMET authorization will not be required, for the export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R006', '1', 'Para
+10.15(I):
+General
+Authorization
+for
+Export
+of
+Telecommunication-related items under SCOMET Category 8A5 Part 1
+(GAET)
+Export of indigenous/imported SCOMET items (Telecommunication items under
+SCOMET Category 8A5 Part 1) will be allowed based on a one-time General
+Authorization (GAET) subject to the following conditions:
+1.', 'business_rule', 'Policy & Eligibility: SCOMET authorization will not be required, for the export', 'Detailed description of the items that are intended to be exported
+under
+this
+authorization
+with
+relevant
+technical
+details/specifications.', 'Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.', 'End-user certificate (EUC) from all the entities involved in the
+supply chain (buyer, consignee, end user, and any other
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'DEKAI should produce a compliance decision for 1 - Policy & Eligibility: SCOMET authorization will not be required, for the export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R007', '1', 'Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.', 'business_rule', 'Policy & Eligibility: SCOMET authorization will not be required, for the export', 'End-user certificate (EUC) from all the entities involved in the
+supply chain (buyer, consignee, end user, and any other
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Information Security items (excluding technology) under
+SCOMET Category 8A5 Part 2 subject to the following conditions:
+a.', 'Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'DEKAI should produce a compliance decision for 1 - Policy & Eligibility: SCOMET authorization will not be required, for the export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R008', '1', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Information Security items (excluding technology) under
+SCOMET Category 8A5 Part 2 subject to the following conditions:
+a.', 'business_rule', 'Policy & Eligibility: SCOMET authorization will not be required, for the export', 'Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.', 'The applicant exporter shall submit an application for getting a one-time license
+under GAEIS through the online SCOMET portal and attach the information in the
+prescribed performa.', 'The applicant exporter shall submit an application for getting a one-time license
+under GAEIS through the online SCOMET portal and attach the information in the
+prescribed performa.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'DEKAI should produce a compliance decision for 1 - Policy & Eligibility: SCOMET authorization will not be required, for the export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R009', '1', 'The applicant exporter shall submit an application for getting a one-time license
+under GAEIS through the online SCOMET portal and attach the information in the
+prescribed performa.', 'business_rule', 'Policy & Eligibility: SCOMET authorization will not be required, for the export', 'The list of countries where the export is expected to be done
+under GAET is to be provided by the applicant at the time of
+submission of the application.', 'Subsequent EUC submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii below.', 'The application would be reviewed/examined for the issuance of GAEIS by the
+Inter-Ministerial Working Group (IMWG) based on the submitted application and
+other supporting documents submitted by the applicant exporter in the prescribed
+proforma including:
+i.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'DEKAI should produce a compliance decision for 1 - Policy & Eligibility: SCOMET authorization will not be required, for the export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R010', '1', 'Subsequent EUC submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii below.', 'business_rule', 'Policy & Eligibility: SCOMET authorization will not be required, for the export', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Information Security items (excluding technology) under
+SCOMET Category 8A5 Part 2 subject to the following conditions:
+a.', 'Subsequent EUC submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii below.', 'End-user certificate (EUC) from all the entities involved in the supply chain
+(buyer, consignee, end user and any other intermediary) on the letterhead (duly
+signed and stamped) is to be submitted before issuance of authorization.', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.', 'DEKAI should produce a compliance decision for 1 - Policy & Eligibility: SCOMET authorization will not be required, for the export.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Detailed description of the items that are intended to be exported
+under this authorization with relevant technical
+details/specifications.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'End-user certificate (EUC) from all the entities involved in the
+supply chain (buyer, consignee, end user, and any other
+pg.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'GAICT shall be revoked on receipt of an adverse report on proliferation
+concern or for non-submission of mandatory reports/documents within the
+prescribed timelines or for non-compliance of any of the condition of this policy.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Para
+10.15(I):
+General
+Authorization
+for
+Export
+of
+Telecommunication-related items under SCOMET Category 8A5 Part 1
+(GAET)
+Export of indigenous/imported SCOMET items (Telecommunication items under
+SCOMET Category 8A5 Part 1) will be allowed based on a one-time General
+Authorization (GAET) subject to the following conditions:
+1.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Detailed description of the items that are intended to be exported
+under
+this
+authorization
+with
+relevant
+technical
+details/specifications.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'End-user certificate (EUC) from all the entities involved in the
+supply chain (buyer, consignee, end user, and any other
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'The list of countries where the export is expected to be done
+under GAET is to be provided by the applicant at the time of
+submission of the application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Information Security items (excluding technology) under
+SCOMET Category 8A5 Part 2 subject to the following conditions:
+a.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Detailed description of the items that are intended to be exported under this
+authorization with relevant technical details/specifications;
+ii.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'End-user certificate (EUC) from all the entities involved in the supply chain
+(buyer, consignee, end user and any other intermediary) on the letterhead (duly
+signed and stamped) is to be submitted before issuance of authorization.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Subsequent EUC submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii below.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'The list of countries where the export is expected to be done under GAEIS is to
+be provided by the applicant at the time of submission of the application.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'SCOMET Category 8A5 Part 1(except items listed in Annexure');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'The applicant exporter shall submit an application for getting a one-time
+license under GAET through the online SCOMET portal and attach the
+information in the prescribed proforma;
+b.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'The application would be reviewed/examined for the issuance of GAET
+by the Inter-Ministerial Working Group (IMWG) based on the submitted
+application and other supporting documents submitted by the applicant
+exporter in the prescribed proforma including:
+i.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'End-user certificate (EUC) from all the entities involved in the
+supply chain (buyer, consignee, end user, and any other
+pg.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'GAICT shall be revoked on receipt of an adverse report on proliferation
+concern or for non-submission of mandatory reports/documents within the
+prescribed timelines or for non-compliance of any of the condition of this policy.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'End-user certificate (EUC) from all the entities involved in the
+supply chain (buyer, consignee, end user, and any other
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'The list of countries where the export is expected to be done
+under GAET is to be provided by the applicant at the time of
+submission of the application.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'Undertaking on the letterhead of the firm duly signed and
+stamped by the authorized signatory stating the following:
+1.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'The applicant exporter shall submit an application for getting a one-time license
+under GAEIS through the online SCOMET portal and attach the information in the
+prescribed performa.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'The application would be reviewed/examined for the issuance of GAEIS by the
+Inter-Ministerial Working Group (IMWG) based on the submitted application and
+other supporting documents submitted by the applicant exporter in the prescribed
+proforma including:
+i.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'End-user certificate (EUC) from all the entities involved in the supply chain
+(buyer, consignee, end user and any other intermediary) on the letterhead (duly
+signed and stamped) is to be submitted before issuance of authorization.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'The list of countries where the export is expected to be done under GAEIS is to
+be provided by the applicant at the time of submission of the application.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'Undertaking on the letterhead of the firm duly signed and stamped by the
+authorized signatory stating the following:');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'GAICT issued shall be liable to be suspended by the DGFT');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('1', 'Validity
+a)
+GAICT issued for intra-company transfers of SCOMET items including
+software and technology shall be valid for a period of three years
+from the date of issue of GAICT;
+b)
+GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
+FTP.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('1', 'GAICT shall be revoked on receipt of an adverse report on proliferation
+concern or for non-submission of mandatory reports/documents within the
+prescribed timelines or for non-compliance of any of the condition of this policy.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('1', 'End-user certificate (EUC) from all the entities involved in the
+supply chain (buyer, consignee, end user, and any other
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('1', 'End-user certificate (EUC) from all the entities involved in the supply chain
+(buyer, consignee, end user and any other intermediary) on the letterhead (duly
+signed and stamped) is to be submitted before issuance of authorization.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('1', 'Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 1, 'Evaluate condition: Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 2, 'Evaluate condition: Detailed description of the items that are intended to be exported
+under this authorization with relevant technical
+details/specifications.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 3, 'Evaluate condition: End-user certificate (EUC) from all the entities involved in the
+supply chain (buyer, consignee, end user, and any other
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 4, 'The applicant exporter shall submit an application for getting a one-time
+license under GAET through the online SCOMET portal and attach the
+information in the prescribed proforma;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 5, 'The application would be reviewed/examined for the issuance of GAET
+by the Inter-Ministerial Working Group (IMWG) based on the submitted
+application and other supporting documents submitted by the applicant
+exporter in the prescribed proforma including:
+i.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 6, 'Validity
+a)
+GAICT issued for intra-company transfers of SCOMET items including
+software and technology shall be valid for a period of three years
+from the date of issue of GAICT;
+b)
+GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
+FTP.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 7, 'Suspension / Revocation
+GAICT issued shall be liable to be suspended by the DGFT on receipt of intimation
+about initiation of any inquiry from the country concerned or from any domestic
+agency.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 8, 'GAICT shall be revoked on receipt of an adverse report on proliferation
+concern or for non-submission of mandatory reports/documents within the
+prescribed timelines or for non-compliance of any of the condition of this policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 9, 'End-user certificate (EUC) from all the entities involved in the
+supply chain (buyer, consignee, end user, and any other
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 10, 'Run validation: Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 11, 'Run validation: The applicant exporter shall submit an application for getting a one-time
+license under GAET through the online SCOMET portal and attach the
+information in the prescribed proforma;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 12, 'Run validation: Validity
+a)
+GAICT issued for intra-company transfers of SCOMET items including
+software and technology shall be valid for a period of three years
+from the date of issue of GAICT;
+b)
+GAICT cannot be revalidated in terms of Paragraph 10.20 of HBP of
+FTP.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 13, 'Handle exception: Policy & Eligibility: SCOMET authorization will not be required, for the export
+and/or re-export of Telecommunication items (excluding technology and
+software) under SCOMET Category 8A5 Part 1(except items listed in Annexure-
+I) subject to the following conditions:
+a.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'EUC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'all');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'end');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'HBP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'FTP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'iii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Part');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'GAET');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'IMWG');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'that');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'this');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'Policy & Eligibility: SCOMET authorization will not be required, for the export');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '1', 'Any on-site inspection will be allowed by the applicant', 'Defines the operational requirements for Any on-site inspection will be allowed by the applicant.', 'Indha Any on-site inspection will be allowed by the applicant section-la, Defines the operational requirements for Any on-site inspection will be allowed by the applicant.', '1. Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;', '1.', '1. Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;', 'Indha Any on-site inspection will be allowed by the applicant section-la, 1. Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;', '1. Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;', '[29]', '["Any", "the", "will", "DGFT", "India", "on-site", "allowed", "exporter", "required", "applicant", "inspection", "authorized", "Government", "representatives"]', 'Provide knowledge guidance for Any on-site inspection will be allowed by the applicant.', '["1", "Any on-site inspection will be allowed by the applicant", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R001', '1', '1. Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;', 'business_rule', 'Any on-site inspection will be allowed by the applicant', 'Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;', 'Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 1 - Any on-site inspection will be allowed by the applicant.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'DGFT');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 1, 'Evaluate condition: Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 2, 'Run validation: Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'India');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'on-site');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'allowed');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'exporter');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'required');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'applicant');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'inspection');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'authorized');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Government');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'representatives');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'Any on-site inspection will be allowed by the applicant');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '2', 'The applicant exporter declares that the items that are', 'The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;', 'Indha The applicant exporter declares that the items that are section-la, The applicant exporter declares that the items that are
+intended to be exported kandippa not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use kandippa not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;', '2. The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;', 'The applicant exporter declares that the items that are governs how DGFT business controls should be applied, validated, and enforced.', 'The applicant exporter declares that the items that are explains the operating rule set that DEKAI should enforce. Key control points include The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;', 'Indha The applicant exporter declares that the items that are section-la, The applicant exporter declares that the items that are explains the operating rule set that DEKAI should enforce. Key control points include The applicant exporter declares that the items that are
+intended to be exported kandippa not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use kandippa not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;', '2. The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;', '[29]', '["The", "are", "not", "for", "any", "EUC", "and", "use", "nor", "that", "used", "than", "such", "items", "shall", "other", "prior", "India", "stated", "purpose"]', 'Provide knowledge guidance for The applicant exporter declares that the items that are.', '["2", "The applicant exporter declares that the items that are", "business-rule", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R001', '2', 'The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;', 'business_rule', 'The applicant exporter declares that the items that are', 'The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;', 'The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - The applicant exporter declares that the items that are.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 1, 'Evaluate condition: The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 2, 'Run validation: The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'EUC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'nor');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'that');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'used');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'than');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'such');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'items');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'other');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'prior');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'India');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'stated');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'purpose');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', '2');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'The applicant exporter declares that the items that are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '3', 'The applicant exporter declares that subsequent to the', 'The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.', 'Indha The applicant exporter declares that subsequent to the section-la, The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.', '3. The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.', 'The applicant exporter declares that subsequent to the governs how DGFT business controls should be applied, validated, and enforced.', 'The applicant exporter declares that subsequent to the explains the operating rule set that DEKAI should enforce. Key control points include The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy. The section also drives actions such as The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy..', 'Indha The applicant exporter declares that subsequent to the section-la, The applicant exporter declares that subsequent to the explains the operating rule set that DEKAI should enforce. Key control points include The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy. The section also drives actions such as The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy..', '3. The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.', '[29]', '["The", "has", "may", "for", "end", "use", "WMD", "not", "and", "that", "been", "DGFT", "they", "know", "item", "risk", "mass", "GAET", "their", "would"]', 'Support The applicant exporter declares that subsequent to the processing and compliance validation.', '["3", "The applicant exporter declares that subsequent to the", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC3-R001', '3', 'The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.', 'business_rule', 'The applicant exporter declares that subsequent to the', 'The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.', 'The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.', 'The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3 - The applicant exporter declares that subsequent to the.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3', 'The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.');
+INSERT INTO documents (section_code, document_name) VALUES ('3', 'The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3', 'DGFT');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 1, 'Evaluate condition: The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 2, 'The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 3, 'Run validation: The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'has');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'end');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'WMD');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'that');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'been');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'they');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'know');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'item');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'risk');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'mass');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'GAET');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'their');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'would');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', '3');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'The applicant exporter declares that subsequent to the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '4', 'Action will be taken against the exporter under FT (D & R)', 'Action will be taken against the exporter under FT (D & R)
+Act, 1992 for any mis-declaration.', 'Indha Action will be taken against the exporter under FT (D & R) section-la, Action will be taken against the exporter under FT (D & R)
+Act, 1992 for any mis-declaration.', '4. Action will be taken against the exporter under FT (D & R)
+Act, 1992 for any mis-declaration. v.', 'Action will be taken against the exporter under FT (D & R) governs how DGFT business controls should be applied, validated, and enforced.', 'Action will be taken against the exporter under FT (D & R) explains the operating rule set that DEKAI should enforce. Key control points include Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below. The section also drives actions such as Certified/Approved Internal Compliance Programme by the
+Compliance Manager of the Company..', 'Indha Action will be taken against the exporter under FT (D & R) section-la, Action will be taken against the exporter under FT (D & R) explains the operating rule set that DEKAI should enforce. Key control points include Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below. The section also drives actions such as Certified/Approved Internal Compliance Programme by the
+Compliance Manager of the Company..', '4. Action will be taken against the exporter under FT (D & R)
+Act, 1992 for any mis-declaration.
+v. Certified/Approved Internal Compliance Programme by the
+Compliance Manager of the Company.
+vi. Authorized Economic Operator (AEO) T2 Certification of CBIC.
+vii. In case of re-export of imported items, the following additional
+documents have to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match
+pg. 197
+pg. 197
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization. Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.
+iii.
+The list of countries where the export is expected to be done
+under GAET is to be provided by the applicant at the time of
+submission of the application.
+iv.
+Undertaking on the letterhead of the firm duly signed and
+stamped by the authorized signatory stating the following:
+1.
+Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;
+2.
+The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;
+3.
+The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.
+4.
+Action will be taken against the exporter under FT (D & R)
+Act, 1992 for any mis-declaration.
+v. Certified/Approved Internal Compliance Programme by the
+Compliance Manager of the Company.
+vi. Authorized Economic Operator (AEO) T2 Certification of CBIC.
+vii. In case of re-export of imported items, the following additional
+documents have to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match
+with intended item(s) of re-export;
+ Bill of entry containing details of the items to be re-exported;
+ Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+ In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+ Purchase order
+viii. After issuance of GAET authorization and before actual export, the
+applicant exporter must ensure the following:', '[29, 30]', '["the", "Act", "for", "any", "AEO", "vii", "and", "EUC", "iii", "are", "not", "use", "nor", "has", "may", "end", "WMD", "will", "CBIC", "case"]', 'Support Action will be taken against the exporter under FT (D & R) processing and compliance validation.', '["4", "Action will be taken against the exporter under FT (D & R)", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC4-R001', '4', 'Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.', 'business_rule', 'Action will be taken against the exporter under FT (D & R)', 'Certified/Approved Internal Compliance Programme by the
+Compliance Manager of the Company.', 'Certified/Approved Internal Compliance Programme by the
+Compliance Manager of the Company.', 'Certified/Approved Internal Compliance Programme by the
+Compliance Manager of the Company.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC4-R002', '4', 'The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;
+3.', 'business_rule', 'Action will be taken against the exporter under FT (D & R)', 'Authorized Economic Operator (AEO) T2 Certification of CBIC.', 'Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.', 'In case of re-export of imported items, the following additional
+documents have to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match
+pg.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC4-R003', '4', 'The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.', 'business_rule', 'Action will be taken against the exporter under FT (D & R)', 'In case of re-export of imported items, the following additional
+documents have to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match
+pg.', 'Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;
+2.', '197
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC4-R004', '4', 'After issuance of GAET authorization and before actual export, the
+applicant exporter must ensure the following:', 'business_rule', 'Action will be taken against the exporter under FT (D & R)', '197
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization.', 'The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;
+3.', 'Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'Certified/Approved Internal Compliance Programme by the
+Compliance Manager of the Company.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'Authorized Economic Operator (AEO) T2 Certification of CBIC.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'In case of re-export of imported items, the following additional
+documents have to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match
+pg.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', '197
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'The list of countries where the export is expected to be done
+under GAET is to be provided by the applicant at the time of
+submission of the application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;
+2.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'The applicant exporter declares that the items that are
+intended to be exported shall not be used for any purpose
+other than the purpose(s) stated in the EUC and that such
+use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of
+India.;
+3.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'In case of re-export of imported items, the following additional
+documents have to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match
+with intended item(s) of re-export;
+ Bill of entry containing details of the items to be re-exported;
+ Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+ In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+ Purchase order
+viii.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'After issuance of GAET authorization and before actual export, the
+applicant exporter must ensure the following:');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'Action will be taken against the exporter under FT (D & R)
+Act, 1992 for any mis-declaration.');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'In case of re-export of imported items, the following additional
+documents have to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match
+pg.');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'The list of countries where the export is expected to be done
+under GAET is to be provided by the applicant at the time of
+submission of the application.');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'Undertaking on the letterhead of the firm duly signed and
+stamped by the authorized signatory stating the following:
+1.');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'Export License');
+INSERT INTO authorities (section_code, authority_name) VALUES ('4', 'CBIC');
+INSERT INTO authorities (section_code, authority_name) VALUES ('4', 'DGFT');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('4', '197
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('4', 'After issuance of GAET authorization and before actual export, the
+applicant exporter must ensure the following:');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 1, 'Evaluate condition: Certified/Approved Internal Compliance Programme by the
+Compliance Manager of the Company.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 2, 'Evaluate condition: Authorized Economic Operator (AEO) T2 Certification of CBIC.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 3, 'Evaluate condition: In case of re-export of imported items, the following additional
+documents have to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 4, 'Certified/Approved Internal Compliance Programme by the
+Compliance Manager of the Company.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 5, 'In case of re-export of imported items, the following additional
+documents have to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 6, '197
+intermediary) on the letterhead (duly signed and stamped) is to
+be submitted before issuance of authorization.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 7, 'Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 8, 'The applicant exporter declares that subsequent to the
+issuance of export authorization, if the licensee has been
+notified in writing by DGFT or if they know or has reason to
+believe that an item may be intended for military end use
+or has a potential risk of use in or diversion to weapons of
+mass destruction (WMD) or in delivery of their missile
+system, the exporter would not be eligible for GAET for
+export of that/those item(s) and would apply separately to
+DGFT for a fresh authorization in terms of regular policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 9, 'In case of re-export of imported items, the following additional
+documents have to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match
+with intended item(s) of re-export;
+ Bill of entry containing details of the items to be re-exported;
+ Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+ In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+ Purchase order
+viii.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 10, 'Run validation: Certified/Approved Internal Compliance Programme by the
+Compliance Manager of the Company.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 11, 'Run validation: Subsequent EUC
+submissions for entities in the list of countries (as approved) will
+be subject to post-reporting requirements as mentioned at viii
+below.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 12, 'Run validation: Any on-site inspection will be allowed by the applicant
+exporter if required by the DGFT or authorized
+representatives of the Government of India;
+2.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Act');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'AEO');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'vii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'EUC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'iii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'nor');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'has');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'end');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'WMD');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'CBIC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'case');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', '4');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'Action will be taken against the exporter under FT (D & R)');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '1', 'They shall notify the relevant government authorities in the online', 'They shall notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export.', 'Indha They shall notify the relevant government authorities in the online section-la, They kandippa notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export.', '1. They shall notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export. 2.', 'They shall notify the relevant government authorities in the online governs how DGFT business controls should be applied, validated, and enforced.', 'They shall notify the relevant government authorities in the online explains the operating rule set that DEKAI should enforce. Key control points include They shall notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export.', 'Indha They shall notify the relevant government authorities in the online section-la, They kandippa notify the relevant government authorities in the online explains the operating rule set that DEKAI should enforce. Key control points include They kandippa notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export.', '1. They shall notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export.
+2. The EUCs in prescribed proforma [Appendix 10J(i)] are to be filled
+by all the entities involved in the chain of supply e.g. foreign
+buyer/consignee / end-user / intermediary (ies) on the letterhead of
+the respective entity, duly signed in ink and stamped by the
+authorized signatory of the company. In case of any additional sheet
+used along with the EUC, the same must be on the letterhead of the
+company and signed by the same person who signs the EUC.', '[30]', '["the", "ANF", "EUC", "for", "are", "all", "ies", "ink", "and", "any", "who", "They", "DGFT", "such", "Form", "with", "each", "EUCs", "duly", "case"]', 'Provide knowledge guidance for They shall notify the relevant government authorities in the online.', '["1", "They shall notify the relevant government authorities in the online", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R001', '1', 'They shall notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export.', 'business_rule', 'They shall notify the relevant government authorities in the online', 'They shall notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export.', 'They shall notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 1 - They shall notify the relevant government authorities in the online.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R002', '1', 'In case of any additional sheet
+used along with the EUC, the same must be on the letterhead of the
+company and signed by the same person who signs the EUC.', 'business_rule', 'They shall notify the relevant government authorities in the online', 'In case of any additional sheet
+used along with the EUC, the same must be on the letterhead of the
+company and signed by the same person who signs the EUC.', 'In case of any additional sheet
+used along with the EUC, the same must be on the letterhead of the
+company and signed by the same person who signs the EUC.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 1 - They shall notify the relevant government authorities in the online.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'They shall notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'In case of any additional sheet
+used along with the EUC, the same must be on the letterhead of the
+company and signed by the same person who signs the EUC.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'They shall notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'DGFT');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 1, 'Evaluate condition: They shall notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 2, 'Evaluate condition: In case of any additional sheet
+used along with the EUC, the same must be on the letterhead of the
+company and signed by the same person who signs the EUC.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 3, 'Run validation: They shall notify the relevant government authorities in the online
+portal of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF)- 10H], along with the End-Use
+Certificate (EUC) for each export.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 4, 'Run validation: In case of any additional sheet
+used along with the EUC, the same must be on the letterhead of the
+company and signed by the same person who signs the EUC.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'ANF');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'EUC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'all');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'ies');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'ink');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'who');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'They');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'such');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Form');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'each');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'EUCs');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'duly');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'case');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'They shall notify the relevant government authorities in the online');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '3', 'They have an agreement or purchase order, an excerpt of a contract', 'They have an agreement or purchase order, an excerpt of a contract
+from the entity (buyer/consignee/end-user) receiving the items
+which state that the export is for a permitted use / an end-use as
+declared in the EUC before the actual export;', 'Indha They have an agreement or purchase order, an excerpt of a contract section-la, They have an agreement or purchase order, an excerpt of a contract
+from the entity (buyer/consignee/end-user) receiving the items
+which state that the export is for a permitted use / an end-use as
+declared in the EUC before the actual export;', '3. They have an agreement or purchase order, an excerpt of a contract
+from the entity (buyer/consignee/end-user) receiving the items
+which state that the export is for a permitted use / an end-use as
+declared in the EUC before the actual export;', '3.', '3. They have an agreement or purchase order, an excerpt of a contract
+from the entity (buyer/consignee/end-user) receiving the items
+which state that the export is for a permitted use / an end-use as
+declared in the EUC before the actual export;', 'Indha They have an agreement or purchase order, an excerpt of a contract section-la, 3. They have an agreement or purchase order, an excerpt of a contract
+from the entity (buyer/consignee/end-user) receiving the items
+which state that the export is for a permitted use / an end-use as
+declared in the EUC before the actual export;', '3. They have an agreement or purchase order, an excerpt of a contract
+from the entity (buyer/consignee/end-user) receiving the items
+which state that the export is for a permitted use / an end-use as
+declared in the EUC before the actual export;', '[30]', '["the", "for", "use", "EUC", "They", "have", "from", "that", "order", "items", "which", "state", "entity", "export", "before", "actual", "excerpt", "end-use", "purchase", "contract"]', 'Provide knowledge guidance for They have an agreement or purchase order, an excerpt of a contract.', '["3", "They have an agreement or purchase order, an excerpt of a contract", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC3-R001', '3', '3. They have an agreement or purchase order, an excerpt of a contract
+from the entity (buyer/consignee/end-user) receiving the items
+which state that the export is for a permitted use / an end-use as
+declared in the EUC before the actual export;', 'business_rule', 'They have an agreement or purchase order, an excerpt of a contract', 'They have an agreement or purchase order, an excerpt of a contract
+from the entity (buyer/consignee/end-user) receiving the items
+which state that the export is for a permitted use / an end-use as
+declared in the EUC before the actual export;', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3 - They have an agreement or purchase order, an excerpt of a contract.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3', 'They have an agreement or purchase order, an excerpt of a contract
+from the entity (buyer/consignee/end-user) receiving the items
+which state that the export is for a permitted use / an end-use as
+declared in the EUC before the actual export;');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('3', 'They have an agreement or purchase order, an excerpt of a contract
+from the entity (buyer/consignee/end-user) receiving the items
+which state that the export is for a permitted use / an end-use as
+declared in the EUC before the actual export;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 1, 'Evaluate condition: They have an agreement or purchase order, an excerpt of a contract
+from the entity (buyer/consignee/end-user) receiving the items
+which state that the export is for a permitted use / an end-use as
+declared in the EUC before the actual export;');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'EUC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'They');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'have');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'that');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'order');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'items');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'which');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'state');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'entity');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'export');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'before');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'actual');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'excerpt');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'end-use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'purchase');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'contract');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', '3');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'They have an agreement or purchase order, an excerpt of a contract');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '4', 'The documents submitted by the exporter must include the name, contact', 'Defines the operational requirements for The documents submitted by the exporter must include the name, contact.', 'Indha The documents submitted by the exporter must include the name, contact section-la, Defines the operational requirements for The documents submitted by the exporter must include the name, contact.', '4. The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export.', 'The documents submitted by the exporter must include the name, contact governs how DGFT business controls should be applied, validated, and enforced.', 'The documents submitted by the exporter must include the name, contact explains the operating rule set that DEKAI should enforce. Key control points include The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export. The section also drives actions such as The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export..', 'Indha The documents submitted by the exporter must include the name, contact section-la, The documents submitted by the exporter must include the name, contact explains the operating rule set that DEKAI should enforce. Key control points include The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export. The section also drives actions such as The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export..', '4. The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export.', '[30, 34]', '["The", "and", "EUC", "must", "name", "email", "number", "before", "actual", "export", "include", "contact", "signing", "exporter", "documents", "submitted", "authority"]', 'Support The documents submitted by the exporter must include the name, contact processing and compliance validation.', '["4", "The documents submitted by the exporter must include the name, contact", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC4-R001', '4', 'The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export.', 'business_rule', 'The documents submitted by the exporter must include the name, contact', 'The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export.', 'The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export.', 'The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - The documents submitted by the exporter must include the name, contact.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export.');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('4', 'The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 1, 'Evaluate condition: The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 2, 'The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 3, 'Run validation: The documents submitted by the exporter must include the name, contact
+number and email ID of the authority signing the EUC before actual export.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'EUC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'must');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'name');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'email');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'number');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'before');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'actual');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'export');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'include');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'contact');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'signing');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'exporter');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'documents');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'submitted');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'authority');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', '4');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'The documents submitted by the exporter must include the name, contact');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '5', 'Additional details, if any sought by DGFT', 'Defines the operational requirements for Additional details, if any sought by DGFT.', 'Indha Additional details, if any sought by DGFT section-la, Defines the operational requirements for Additional details, if any sought by DGFT.', '5. Additional details, if any sought by DGFT', '5.', '5. Additional details, if any sought by DGFT', 'Indha Additional details, if any sought by DGFT section-la, 5. Additional details, if any sought by DGFT', '5. Additional details, if any sought by DGFT', '[30]', '["any", "DGFT", "sought", "details", "Additional"]', 'Provide knowledge guidance for Additional details, if any sought by DGFT.', '["5", "Additional details, if any sought by DGFT", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC5-R001', '5', '5. Additional details, if any sought by DGFT', 'business_rule', 'Additional details, if any sought by DGFT', 'Additional details, if any sought by DGFT', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5 - Additional details, if any sought by DGFT.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'Additional details, if any sought by DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('5', 'DGFT');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 1, 'Evaluate condition: Additional details, if any sought by DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'sought');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'details');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'Additional');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', '5');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'Additional details, if any sought by DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '2', 'Post Reporting for export / re-export of items under GAET', 'Post Reporting for export / re-export of items under GAET
+a.', 'Indha Post Reporting for export / re-export of items under GAET section-la, Post Reporting for export / re-export of items under GAET
+a.', '2. Post Reporting for export / re-export of items under GAET
+a. The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories under GAET for 3 years on quarterly basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+pg.', 'Post Reporting for export / re-export of items under GAET governs how DGFT business controls should be applied, validated, and enforced.', 'Post Reporting for export / re-export of items under GAET explains the operating rule set that DEKAI should enforce. Key control points include The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories under GAET for 3 years on quarterly basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+pg. The section also drives actions such as Post Reporting for export / re-export of items under GAET
+a..', 'Indha Post Reporting for export / re-export of items under GAET section-la, Post Reporting for export / re-export of items under GAET explains the operating rule set that DEKAI should enforce. Key control points include The Indian exporter kandippa submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories under GAET for 3 years on quarterly basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+pg. The section also drives actions such as Post Reporting for export / re-export of items under GAET
+a..', '2. Post Reporting for export / re-export of items under GAET
+a. The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories under GAET for 3 years on quarterly basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+pg. 198
+pg. 198
+with intended item(s) of re-export;
+ Bill of entry containing details of the items to be re-exported;
+ Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+ In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+ Purchase order
+viii. After issuance of GAET authorization and before actual export, the
+applicant exporter must ensure the following:
+2. Post Reporting for export / re-export of items under GAET
+a. The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories
+under
+GAET
+for
+3
+years
+on
+quarterly
+basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+b. In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.
+c. Failure to do so may entail imposition of penalty and/or
+suspension/revocation of GAET.', '[30, 31]', '["for", "The", "end", "any", "not", "and", "vii", "may", "Post", "GAET", "each", "made", "with", "item", "Bill", "that", "does", "have", "from", "case"]', 'Support Post Reporting for export / re-export of items under GAET processing and compliance validation.', '["2", "Post Reporting for export / re-export of items under GAET", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R001', '2', 'The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories under GAET for 3 years on quarterly basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+pg.', 'business_rule', 'Post Reporting for export / re-export of items under GAET', '198
+with intended item(s) of re-export;
+ Bill of entry containing details of the items to be re-exported;
+ Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+ In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+ Purchase order
+viii.', 'The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories under GAET for 3 years on quarterly basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+pg.', 'Post Reporting for export / re-export of items under GAET
+a.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Post Reporting for export / re-export of items under GAET.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R002', '2', 'After issuance of GAET authorization and before actual export, the
+applicant exporter must ensure the following:
+2.', 'business_rule', 'Post Reporting for export / re-export of items under GAET', 'After issuance of GAET authorization and before actual export, the
+applicant exporter must ensure the following:
+2.', 'After issuance of GAET authorization and before actual export, the
+applicant exporter must ensure the following:
+2.', 'The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories under GAET for 3 years on quarterly basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+pg.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Post Reporting for export / re-export of items under GAET.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R003', '2', 'The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories
+under
+GAET
+for
+3
+years
+on
+quarterly
+basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+b.', 'business_rule', 'Post Reporting for export / re-export of items under GAET', 'In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.', 'The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories
+under
+GAET
+for
+3
+years
+on
+quarterly
+basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+b.', 'The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories
+under
+GAET
+for
+3
+years
+on
+quarterly
+basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+b.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Post Reporting for export / re-export of items under GAET.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', '198
+with intended item(s) of re-export;
+ Bill of entry containing details of the items to be re-exported;
+ Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+ In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+ Purchase order
+viii.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'After issuance of GAET authorization and before actual export, the
+applicant exporter must ensure the following:
+2.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.');
+INSERT INTO documents (section_code, document_name) VALUES ('2', 'Export License');
+INSERT INTO documents (section_code, document_name) VALUES ('2', 'In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('2', 'The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories under GAET for 3 years on quarterly basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+pg.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('2', 'After issuance of GAET authorization and before actual export, the
+applicant exporter must ensure the following:
+2.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('2', 'The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories
+under
+GAET
+for
+3
+years
+on
+quarterly
+basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 1, 'Evaluate condition: 198
+with intended item(s) of re-export;
+ Bill of entry containing details of the items to be re-exported;
+ Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+ In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+ Purchase order
+viii.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 2, 'Evaluate condition: After issuance of GAET authorization and before actual export, the
+applicant exporter must ensure the following:
+2.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 3, 'Evaluate condition: In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 4, 'Post Reporting for export / re-export of items under GAET
+a.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 5, 'The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories under GAET for 3 years on quarterly basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 6, 'The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories
+under
+GAET
+for
+3
+years
+on
+quarterly
+basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 7, 'In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 8, 'Run validation: The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories under GAET for 3 years on quarterly basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 9, 'Run validation: After issuance of GAET authorization and before actual export, the
+applicant exporter must ensure the following:
+2.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 10, 'Run validation: The Indian exporter shall submit post-shipment details of each
+export/re-export of SCOMET items under the above Categories/sub-
+categories
+under
+GAET
+for
+3
+years
+on
+quarterly
+basis
+(March/June/September/December) by the end of subsequent month of
+each quarter, in respect of exports made in the previous quarter;
+b.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'end');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'vii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Post');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'GAET');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'each');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'made');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'item');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Bill');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'that');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'does');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'have');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'case');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', '2');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'Post Reporting for export / re-export of items under GAET');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '3', 'Record Keeping', 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT.', 'Indha Record Keeping section-la, Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT.', '3. Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT. 3.', 'Record Keeping governs how DGFT business controls should be applied, validated, and enforced.', 'Record Keeping explains the operating rule set that DEKAI should enforce. Key control points include Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT. The section also drives actions such as Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT..', 'Indha Record Keeping section-la, Record Keeping explains the operating rule set that DEKAI should enforce. Key control points include Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT. The section also drives actions such as Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT..', '3. Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT.
+3. Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
+of GAEIS issued by DGFT.', '[31, 34]', '["The", "all", "HBP", "for", "will", "keep", "form", "Para", "from", "date", "GAET", "DGFT", "terms", "years", "GAEIS", "Record", "export", "manual", "period", "issued"]', 'Support Record Keeping processing and compliance validation.', '["3", "Record Keeping", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC3-R001', '3', 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT.', 'business_rule', 'Record Keeping', 'Section 3 is applicable', 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT.', 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3 - Record Keeping.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC3-R002', '3', 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
+of GAEIS issued by DGFT.', 'business_rule', 'Record Keeping', 'Section 3 is applicable', 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
+of GAEIS issued by DGFT.', 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
+of GAEIS issued by DGFT.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3 - Record Keeping.');
+INSERT INTO documents (section_code, document_name) VALUES ('3', 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT.');
+INSERT INTO documents (section_code, document_name) VALUES ('3', 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
+of GAEIS issued by DGFT.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3', 'DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3', 'GAET issued by DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3', 'GAEIS issued by DGFT');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('3', 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('3', 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
+of GAEIS issued by DGFT.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 1, 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 2, 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
+of GAEIS issued by DGFT.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 3, 'Run validation: Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAET issued by DGFT.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 4, 'Run validation: Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date
+of GAEIS issued by DGFT.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'all');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'HBP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'keep');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'form');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'Para');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'date');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'GAET');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'terms');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'years');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'GAEIS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'Record');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'export');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'manual');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'period');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'issued');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', '3');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'Record Keeping');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '4', 'General Conditions & Exclusions', 'General Conditions & Exclusions
+GAET would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+a.', 'Indha General Conditions & Exclusions section-la, General Conditions & Exclusions
+GAET would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+a.', '4. General Conditions & Exclusions
+GAET would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+a. GAET would not be issued for countries or entities covered under UNSC
+embargo or sanctions list or on assessment of proliferation concerns, or
+national security and foreign policy considerations, etc.:
+b.', 'General Conditions & Exclusions governs how DGFT business controls should be applied, validated, and enforced.', 'General Conditions & Exclusions explains the operating rule set that DEKAI should enforce. Key control points include IMWG shall reserve the right to deny the issue of GAET without assigning
+any reason(s)
+4. The section also drives actions such as General Conditions & Exclusions
+GAET would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+a..', 'Indha General Conditions & Exclusions section-la, General Conditions & Exclusions explains the operating rule set that DEKAI should enforce. Key control points include IMWG kandippa reserve the right to deny the issue of GAET without assigning
+any reason(s)
+4. The section also drives actions such as General Conditions & Exclusions
+GAET would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+a..', '4. General Conditions & Exclusions
+GAET would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+a. GAET would not be issued for countries or entities covered under UNSC
+embargo or sanctions list or on assessment of proliferation concerns, or
+national security and foreign policy considerations, etc.:
+b. In case of inclusion of new countries or amendment to the existing list of
+countries where the export is expected to be done under GAET the
+applicant exporter will obtain prior permission of DGFT with relevant
+details;
+c. IMWG shall reserve the right to deny the issue of GAET without assigning
+any reason(s)
+4. General Conditions & Exclusions
+a. GAEIS would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+b. GAEIS would not be issued for countries or entities covered under UNSC
+embargo or sanctions list or on assessment of proliferation concerns, or national
+security and foreign policy considerations, etc.:
+c. In case of inclusion of new countries or amendment to the existing list of
+countries where the export is expected to be done under GAEIS the applicant
+exporter will obtain prior permission from DGFT with relevant details;
+d. IMWG shall reserve the right to deny the issuance of GAEIS without assigning
+any reason(s).', '[31, 34]', '["not", "for", "and", "etc", "new", "the", "any", "GAET", "case", "used", "mass", "UNSC", "list", "done", "will", "DGFT", "with", "IMWG", "deny", "from"]', 'Support General Conditions & Exclusions processing and compliance validation.', '["4", "General Conditions & Exclusions", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC4-R001', '4', 'IMWG shall reserve the right to deny the issue of GAET without assigning
+any reason(s)
+4.', 'business_rule', 'General Conditions & Exclusions', 'General Conditions & Exclusions
+GAET would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+a.', 'IMWG shall reserve the right to deny the issue of GAET without assigning
+any reason(s)
+4.', 'General Conditions & Exclusions
+GAET would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+a.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - General Conditions & Exclusions.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC4-R002', '4', 'IMWG shall reserve the right to deny the issuance of GAEIS without assigning
+any reason(s).', 'business_rule', 'General Conditions & Exclusions', 'GAET would not be issued for countries or entities covered under UNSC
+embargo or sanctions list or on assessment of proliferation concerns, or
+national security and foreign policy considerations, etc.:
+b.', 'IMWG shall reserve the right to deny the issuance of GAEIS without assigning
+any reason(s).', 'GAET would not be issued for countries or entities covered under UNSC
+embargo or sanctions list or on assessment of proliferation concerns, or
+national security and foreign policy considerations, etc.:
+b.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - General Conditions & Exclusions.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'General Conditions & Exclusions
+GAET would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+a.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'GAET would not be issued for countries or entities covered under UNSC
+embargo or sanctions list or on assessment of proliferation concerns, or
+national security and foreign policy considerations, etc.:
+b.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'In case of inclusion of new countries or amendment to the existing list of
+countries where the export is expected to be done under GAET the
+applicant exporter will obtain prior permission of DGFT with relevant
+details;
+c.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'GAEIS would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+b.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'GAEIS would not be issued for countries or entities covered under UNSC
+embargo or sanctions list or on assessment of proliferation concerns, or national
+security and foreign policy considerations, etc.:
+c.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'In case of inclusion of new countries or amendment to the existing list of
+countries where the export is expected to be done under GAEIS the applicant
+exporter will obtain prior permission from DGFT with relevant details;
+d.');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'General Conditions & Exclusions
+GAET would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+a.');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'GAEIS would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+b.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('4', 'DGFT');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 1, 'Evaluate condition: General Conditions & Exclusions
+GAET would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+a.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 2, 'Evaluate condition: GAET would not be issued for countries or entities covered under UNSC
+embargo or sanctions list or on assessment of proliferation concerns, or
+national security and foreign policy considerations, etc.:
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 3, 'Evaluate condition: In case of inclusion of new countries or amendment to the existing list of
+countries where the export is expected to be done under GAET the
+applicant exporter will obtain prior permission of DGFT with relevant
+details;
+c.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 4, 'General Conditions & Exclusions
+GAET would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+a.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 5, 'GAET would not be issued for countries or entities covered under UNSC
+embargo or sanctions list or on assessment of proliferation concerns, or
+national security and foreign policy considerations, etc.:
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 6, 'In case of inclusion of new countries or amendment to the existing list of
+countries where the export is expected to be done under GAET the
+applicant exporter will obtain prior permission of DGFT with relevant
+details;
+c.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 7, 'IMWG shall reserve the right to deny the issue of GAET without assigning
+any reason(s)
+4.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 8, 'GAEIS would not be issued in case of items to be used to design, develop, acquire,
+or manufacture, possess, transport, transfer and/or used for military applications,
+explosives, chemical, biological, nuclear weapons or for missiles capable of
+delivering weapons of mass destruction and their delivery system;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 9, 'GAEIS would not be issued for countries or entities covered under UNSC
+embargo or sanctions list or on assessment of proliferation concerns, or national
+security and foreign policy considerations, etc.:
+c.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 10, 'Run validation: IMWG shall reserve the right to deny the issue of GAET without assigning
+any reason(s)
+4.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 11, 'Run validation: IMWG shall reserve the right to deny the issuance of GAEIS without assigning
+any reason(s).');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'etc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'new');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'GAET');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'case');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'used');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'mass');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'UNSC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'list');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'done');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'IMWG');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'deny');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', '4');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'General Conditions & Exclusions');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '5', 'Validity', 'GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b.', 'Indha Validity section-la, GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories kandippa be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b.', '5. Validity
+a. GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b.', 'Validity governs how DGFT business controls should be applied, validated, and enforced.', 'Validity explains the operating rule set that DEKAI should enforce. Key control points include GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b. The section also drives actions such as GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b..', 'Indha Validity section-la, Validity explains the operating rule set that DEKAI should enforce. Key control points include GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories kandippa be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b. The section also drives actions such as GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories kandippa be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b..', '5. Validity
+a. GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b. GAET cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.', '[31, 34]', '["for", "the", "Sub", "HBP", "GAET", "from", "date", "post", "days", "last", "items", "under", "above", "shall", "valid", "Three", "years", "issue", "basis", "terms"]', 'Support Validity processing and compliance validation.', '["5", "Validity", "business-rule", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC5-R001', '5', 'GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b.', 'business_rule', 'Validity', 'GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b.', 'GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b.', 'GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5 - Validity.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5', 'GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 1, 'Evaluate condition: GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 2, 'GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 3, 'Run validation: GAET issued for export / re-export of SCOMET items under the above Categories
+/ Sub Categories shall be valid for Three years from the date of issue of GAET
+subject to subsequent post reporting(s) on quarterly basis to be reported within
+30 days from the last quarter;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 4, 'Run validation: GAET cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'Sub');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'HBP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'GAET');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'date');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'post');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'days');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'last');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'items');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'under');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'above');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'valid');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'Three');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'years');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'issue');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'basis');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'terms');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', '5');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'Validity');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '6', 'Suspension/Revocation:', 'Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', 'Indha Suspension/Revocation: section-la, Suspension/Revocation:
+GAET issued kandippa be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', '6. Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy. pg.', 'Suspension/Revocation: governs how DGFT business controls should be applied, validated, and enforced.', 'Suspension/Revocation: explains the operating rule set that DEKAI should enforce. Key control points include Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy. The section also drives actions such as Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy..', 'Indha Suspension/Revocation: section-la, Suspension/Revocation: explains the operating rule set that DEKAI should enforce. Key control points include Suspension/Revocation:
+GAET issued kandippa be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy. The section also drives actions such as Suspension/Revocation:
+GAET issued kandippa be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy..', '6. Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.
+pg. 199
+pg. 199
+b. In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.
+c. Failure to do so may entail imposition of penalty and/or
+suspension/revocation of GAET.
+6. Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.
+Para 10.15(II): General Authorization for Export of Information
+Security items under SCOMET Category 8A5 Part 2(GAEIS)
+Export of indigenous SCOMET items (Information Security items under SCOMET
+Category 8A5 Part 2) will be allowed based on a one-time General Authorization
+(GAEIS) subject to the following conditions:', '[31, 32]', '["the", "for", "non", "vii", "may", "GAET", "DGFT", "post", "with", "case", "have", "time", "Para", "Part", "will", "shall", "items", "under", "GAEIS", "based"]', 'Support Suspension/Revocation: processing and compliance validation.', '["6", "Suspension/Revocation:", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC6-R001', '6', 'Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', 'business_rule', 'Suspension/Revocation:', 'Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', 'Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', 'Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6 - Suspension/Revocation:.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC6-R002', '6', 'Para 10.15(II): General Authorization for Export of Information
+Security items under SCOMET Category 8A5 Part 2(GAEIS)
+Export of indigenous SCOMET items (Information Security items under SCOMET
+Category 8A5 Part 2) will be allowed based on a one-time General Authorization
+(GAEIS) subject to the following conditions:', 'business_rule', 'Suspension/Revocation:', 'In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.', 'Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', 'In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6 - Suspension/Revocation:.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'Para 10.15(II): General Authorization for Export of Information
+Security items under SCOMET Category 8A5 Part 2(GAEIS)
+Export of indigenous SCOMET items (Information Security items under SCOMET
+Category 8A5 Part 2) will be allowed based on a one-time General Authorization
+(GAEIS) subject to the following conditions:');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6', 'DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6', 'GAET issued shall be liable to be suspended/revoked by the DGFT');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 1, 'Evaluate condition: Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 2, 'Evaluate condition: In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 3, 'Evaluate condition: Para 10.15(II): General Authorization for Export of Information
+Security items under SCOMET Category 8A5 Part 2(GAEIS)
+Export of indigenous SCOMET items (Information Security items under SCOMET
+Category 8A5 Part 2) will be allowed based on a one-time General Authorization
+(GAEIS) subject to the following conditions:');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 4, 'Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 5, 'In case of re-export of imported items, the additional documents as
+mentioned in 1.b.vii.(i) have to be submitted at the time of post
+reporting.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 6, 'Run validation: Suspension/Revocation:
+GAET issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports / documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'non');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'vii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'GAET');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'post');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'case');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'have');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'time');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'Para');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'Part');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'items');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'under');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'GAEIS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'based');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', '6');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'Suspension/Revocation:');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '1', 'Any on-site inspection will be allowed by the applicant exporter if required', 'Defines the operational requirements for Any on-site inspection will be allowed by the applicant exporter if required.', 'Indha Any on-site inspection will be allowed by the applicant exporter if required section-la, Defines the operational requirements for Any on-site inspection will be allowed by the applicant exporter if required.', '1. Any on-site inspection will be allowed by the applicant exporter if required
+by the DGFT or authorized representatives of the Government of India;', '1.', '1. Any on-site inspection will be allowed by the applicant exporter if required
+by the DGFT or authorized representatives of the Government of India;', 'Indha Any on-site inspection will be allowed by the applicant exporter if required section-la, 1. Any on-site inspection will be allowed by the applicant exporter if required
+by the DGFT or authorized representatives of the Government of India;', '1. Any on-site inspection will be allowed by the applicant exporter if required
+by the DGFT or authorized representatives of the Government of India;', '[32]', '["Any", "the", "will", "DGFT", "India", "on-site", "allowed", "exporter", "required", "applicant", "inspection", "authorized", "Government", "representatives"]', 'Provide knowledge guidance for Any on-site inspection will be allowed by the applicant exporter if required.', '["1", "Any on-site inspection will be allowed by the applicant exporter if required", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R001', '1', '1. Any on-site inspection will be allowed by the applicant exporter if required
+by the DGFT or authorized representatives of the Government of India;', 'business_rule', 'Any on-site inspection will be allowed by the applicant exporter if required', 'Any on-site inspection will be allowed by the applicant exporter if required
+by the DGFT or authorized representatives of the Government of India;', 'Any on-site inspection will be allowed by the applicant exporter if required
+by the DGFT or authorized representatives of the Government of India;', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 1 - Any on-site inspection will be allowed by the applicant exporter if required.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'Any on-site inspection will be allowed by the applicant exporter if required
+by the DGFT or authorized representatives of the Government of India;');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'DGFT or authorized representatives of the Government');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 1, 'Evaluate condition: Any on-site inspection will be allowed by the applicant exporter if required
+by the DGFT or authorized representatives of the Government of India;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 2, 'Run validation: Any on-site inspection will be allowed by the applicant exporter if required
+by the DGFT or authorized representatives of the Government of India;');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'India');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'on-site');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'allowed');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'exporter');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'required');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'applicant');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'inspection');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'authorized');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Government');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'representatives');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'Any on-site inspection will be allowed by the applicant exporter if required');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '2', 'The applicant exporter declares that the items that are intended to be', 'The applicant exporter declares that the items that are intended to be
+exported shall not be used for any purpose other than the purpose(s) stated in
+the EUC and that such use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of India.;', 'Indha The applicant exporter declares that the items that are intended to be section-la, The applicant exporter declares that the items that are intended to be
+exported kandippa not be used for any purpose other than the purpose(s) stated in
+the EUC and that such use kandippa not be changed nor the items modified or
+replicated without the prior consent of the Government of India.;', '2. The applicant exporter declares that the items that are intended to be
+exported shall not be used for any purpose other than the purpose(s) stated in
+the EUC and that such use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of India.;', 'The applicant exporter declares that the items that are intended to be governs how DGFT business controls should be applied, validated, and enforced.', 'The applicant exporter declares that the items that are intended to be explains the operating rule set that DEKAI should enforce. Key control points include The applicant exporter declares that the items that are intended to be
+exported shall not be used for any purpose other than the purpose(s) stated in
+the EUC and that such use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of India.;', 'Indha The applicant exporter declares that the items that are intended to be section-la, The applicant exporter declares that the items that are intended to be explains the operating rule set that DEKAI should enforce. Key control points include The applicant exporter declares that the items that are intended to be
+exported kandippa not be used for any purpose other than the purpose(s) stated in
+the EUC and that such use kandippa not be changed nor the items modified or
+replicated without the prior consent of the Government of India.;', '2. The applicant exporter declares that the items that are intended to be
+exported shall not be used for any purpose other than the purpose(s) stated in
+the EUC and that such use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of India.;', '[32]', '["The", "are", "not", "for", "any", "EUC", "and", "use", "nor", "that", "used", "than", "such", "items", "shall", "other", "prior", "India", "stated", "purpose"]', 'Provide knowledge guidance for The applicant exporter declares that the items that are intended to be.', '["2", "The applicant exporter declares that the items that are intended to be", "business-rule", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R001', '2', 'The applicant exporter declares that the items that are intended to be
+exported shall not be used for any purpose other than the purpose(s) stated in
+the EUC and that such use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of India.;', 'business_rule', 'The applicant exporter declares that the items that are intended to be', 'The applicant exporter declares that the items that are intended to be
+exported shall not be used for any purpose other than the purpose(s) stated in
+the EUC and that such use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of India.;', 'The applicant exporter declares that the items that are intended to be
+exported shall not be used for any purpose other than the purpose(s) stated in
+the EUC and that such use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of India.;', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - The applicant exporter declares that the items that are intended to be.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'The applicant exporter declares that the items that are intended to be
+exported shall not be used for any purpose other than the purpose(s) stated in
+the EUC and that such use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of India.;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 1, 'Evaluate condition: The applicant exporter declares that the items that are intended to be
+exported shall not be used for any purpose other than the purpose(s) stated in
+the EUC and that such use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of India.;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 2, 'Run validation: The applicant exporter declares that the items that are intended to be
+exported shall not be used for any purpose other than the purpose(s) stated in
+the EUC and that such use shall not be changed nor the items modified or
+replicated without the prior consent of the Government of India.;');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'EUC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'nor');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'that');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'used');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'than');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'such');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'items');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'other');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'prior');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'India');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'stated');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'purpose');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', '2');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'The applicant exporter declares that the items that are intended to be');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '3', 'The applicant exporter declares that subsequent to the issuance of export', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg.', 'Indha The applicant exporter declares that subsequent to the issuance of export section-la, The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg.', '3. The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg. 1100
+pg.', 'The applicant exporter declares that subsequent to the issuance of export governs how DGFT business controls should be applied, validated, and enforced.', 'The applicant exporter declares that subsequent to the issuance of export explains the operating rule set that DEKAI should enforce. Key control points include The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg. The section also drives actions such as The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy..', 'Indha The applicant exporter declares that subsequent to the issuance of export section-la, The applicant exporter declares that subsequent to the issuance of export explains the operating rule set that DEKAI should enforce. Key control points include The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg. The section also drives actions such as The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy..', '3. The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg.
+1100
+pg.
+Para 10.15(II): General Authorization for Export of Information
+Security items under SCOMET Category 8A5 Part 2(GAEIS)
+Export of indigenous SCOMET items (Information Security items under SCOMET
+Category 8A5 Part 2) will be allowed based on a one-time General Authorization
+(GAEIS) subject to the following conditions:
+3. The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.', '[32, 33]', '["The", "has", "may", "for", "end", "use", "WMD", "not", "and", "that", "been", "DGFT", "they", "know", "item", "risk", "mass", "Para", "Part", "will"]', 'Support The applicant exporter declares that subsequent to the issuance of export processing and compliance validation.', '["3", "The applicant exporter declares that subsequent to the issuance of export", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC3-R001', '3', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg.', 'business_rule', 'The applicant exporter declares that subsequent to the issuance of export', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg.', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg.', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3 - The applicant exporter declares that subsequent to the issuance of export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC3-R002', '3', 'Para 10.15(II): General Authorization for Export of Information
+Security items under SCOMET Category 8A5 Part 2(GAEIS)
+Export of indigenous SCOMET items (Information Security items under SCOMET
+Category 8A5 Part 2) will be allowed based on a one-time General Authorization
+(GAEIS) subject to the following conditions:
+3.', 'business_rule', 'The applicant exporter declares that subsequent to the issuance of export', 'Para 10.15(II): General Authorization for Export of Information
+Security items under SCOMET Category 8A5 Part 2(GAEIS)
+Export of indigenous SCOMET items (Information Security items under SCOMET
+Category 8A5 Part 2) will be allowed based on a one-time General Authorization
+(GAEIS) subject to the following conditions:
+3.', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3 - The applicant exporter declares that subsequent to the issuance of export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC3-R003', '3', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.', 'business_rule', 'The applicant exporter declares that subsequent to the issuance of export', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3 - The applicant exporter declares that subsequent to the issuance of export.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3', 'Para 10.15(II): General Authorization for Export of Information
+Security items under SCOMET Category 8A5 Part 2(GAEIS)
+Export of indigenous SCOMET items (Information Security items under SCOMET
+Category 8A5 Part 2) will be allowed based on a one-time General Authorization
+(GAEIS) subject to the following conditions:
+3.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.');
+INSERT INTO documents (section_code, document_name) VALUES ('3', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg.');
+INSERT INTO documents (section_code, document_name) VALUES ('3', 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3', 'DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3', 'GAEIS for export of that/those item(s) and would apply separately to DGFT');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 1, 'Evaluate condition: The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 2, 'Evaluate condition: Para 10.15(II): General Authorization for Export of Information
+Security items under SCOMET Category 8A5 Part 2(GAEIS)
+Export of indigenous SCOMET items (Information Security items under SCOMET
+Category 8A5 Part 2) will be allowed based on a one-time General Authorization
+(GAEIS) subject to the following conditions:
+3.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 3, 'Evaluate condition: The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 4, 'The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 5, 'Run validation: The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 6, 'Run validation: The applicant exporter declares that subsequent to the issuance of export
+authorization, if the licensee has been notified in writing by DGFT or if they
+know or has reason to believe that an item may be intended for military end
+use or has a potential risk of use in or diversion to weapons of mass destruction
+(WMD) or in delivery of their missile system, the exporter would not be eligible
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'has');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'end');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'WMD');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'that');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'been');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'they');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'know');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'item');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'risk');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'mass');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'Para');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'Part');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', '3');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'The applicant exporter declares that subsequent to the issuance of export');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '4', 'Action will be taken against the exporter under FT (D & R) Act, 1992 for any', 'Action will be taken against the exporter under FT (D & R) Act, 1992 for any
+mis-declaration.', 'Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Action will be taken against the exporter under FT (D & R) Act, 1992 for any
+mis-declaration.', '4. Action will be taken against the exporter under FT (D & R) Act, 1992 for any
+mis-declaration. v.', 'Action will be taken against the exporter under FT (D & R) Act, 1992 for any governs how DGFT business controls should be applied, validated, and enforced.', 'Action will be taken against the exporter under FT (D & R) Act, 1992 for any explains the operating rule set that DEKAI should enforce. Key control points include After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:
+4. The section also drives actions such as Certified/Approved Internal Compliance Programme by the Compliance
+Manager of the Company..', 'Indha Action will be taken against the exporter under FT (D & R) Act, 1992 for any section-la, Action will be taken against the exporter under FT (D & R) Act, 1992 for any explains the operating rule set that DEKAI should enforce. Key control points include After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:
+4. The section also drives actions such as Certified/Approved Internal Compliance Programme by the Compliance
+Manager of the Company..', '4. Action will be taken against the exporter under FT (D & R) Act, 1992 for any
+mis-declaration.
+v. Certified/Approved Internal Compliance Programme by the Compliance
+Manager of the Company.
+vi. Authorized Economic Operator (AEO) T2 Certification of CBIC.
+vii. In case of re-export of imported items, the following additional documents have
+to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match with
+intended item(s) of re-export;
+ Bill of entry containing details of the items to be re-exported;
+ Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+ In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+ Purchase order
+viii. After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:
+4. Action will be taken against the exporter under FT (D & R) Act, 1992 for any
+mis-declaration.
+v. Certified/Approved Internal Compliance Programme by the Compliance
+Manager of the Company.
+vi. Authorized Economic Operator (AEO) T2 Certification of CBIC.
+vii. In case of re-export of imported items, the following additional documents have
+to be submitted:
+(i) Proof of import of the item(s):
+
+Documentary proof that the item(s) originally imported, match with
+intended item(s) of re-export;
+
+Bill of entry containing details of the items to be re-exported;
+
+Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+
+In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+
+Purchase order
+viii. After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:', '[33]', '["the", "Act", "for", "any", "AEO", "vii", "not", "and", "will", "CBIC", "case", "have", "item", "that", "with", "Bill", "does", "from", "such", "list"]', 'Support Action will be taken against the exporter under FT (D & R) Act, 1992 for any processing and compliance validation.', '["4", "Action will be taken against the exporter under FT (D & R) Act, 1992 for any", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC4-R001', '4', 'After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:
+4.', 'business_rule', 'Action will be taken against the exporter under FT (D & R) Act, 1992 for any', 'Certified/Approved Internal Compliance Programme by the Compliance
+Manager of the Company.', 'Certified/Approved Internal Compliance Programme by the Compliance
+Manager of the Company.', 'Certified/Approved Internal Compliance Programme by the Compliance
+Manager of the Company.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R) Act, 1992 for any.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC4-R002', '4', 'After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:', 'business_rule', 'Action will be taken against the exporter under FT (D & R) Act, 1992 for any', 'Authorized Economic Operator (AEO) T2 Certification of CBIC.', 'After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:
+4.', 'In case of re-export of imported items, the following additional documents have
+to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match with
+intended item(s) of re-export;
+ Bill of entry containing details of the items to be re-exported;
+ Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+ In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+ Purchase order
+viii.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R) Act, 1992 for any.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'Certified/Approved Internal Compliance Programme by the Compliance
+Manager of the Company.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'Authorized Economic Operator (AEO) T2 Certification of CBIC.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'In case of re-export of imported items, the following additional documents have
+to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match with
+intended item(s) of re-export;
+ Bill of entry containing details of the items to be re-exported;
+ Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+ In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+ Purchase order
+viii.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:
+4.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'In case of re-export of imported items, the following additional documents have
+to be submitted:
+(i) Proof of import of the item(s):
+
+Documentary proof that the item(s) originally imported, match with
+intended item(s) of re-export;
+
+Bill of entry containing details of the items to be re-exported;
+
+Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+
+In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+
+Purchase order
+viii.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'Action will be taken against the exporter under FT (D & R) Act, 1992 for any
+mis-declaration.');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'Export License');
+INSERT INTO authorities (section_code, authority_name) VALUES ('4', 'CBIC');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('4', 'After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:
+4.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('4', 'After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 1, 'Evaluate condition: Certified/Approved Internal Compliance Programme by the Compliance
+Manager of the Company.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 2, 'Evaluate condition: Authorized Economic Operator (AEO) T2 Certification of CBIC.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 3, 'Evaluate condition: In case of re-export of imported items, the following additional documents have
+to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match with
+intended item(s) of re-export;
+ Bill of entry containing details of the items to be re-exported;
+ Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+ In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+ Purchase order
+viii.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 4, 'Certified/Approved Internal Compliance Programme by the Compliance
+Manager of the Company.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 5, 'In case of re-export of imported items, the following additional documents have
+to be submitted:
+(i) Proof of import of the item(s):
+ Documentary proof that the item(s) originally imported, match with
+intended item(s) of re-export;
+ Bill of entry containing details of the items to be re-exported;
+ Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+ In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+ Purchase order
+viii.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 6, 'In case of re-export of imported items, the following additional documents have
+to be submitted:
+(i) Proof of import of the item(s):
+
+Documentary proof that the item(s) originally imported, match with
+intended item(s) of re-export;
+
+Bill of entry containing details of the items to be re-exported;
+
+Export License (if applicable) or any other documents showing that
+export regulation of the country of export does not have any
+restriction on re- export from India;
+
+In case of any such restriction, the exporter will provide a letter of
+explanation detailing the list of countries/entities, to which re-
+export/return is restricted / regulated;
+
+Purchase order
+viii.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 7, 'Run validation: Certified/Approved Internal Compliance Programme by the Compliance
+Manager of the Company.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 8, 'Run validation: After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:
+4.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 9, 'Run validation: After issuance of GAEIS authorization and before actual export, the applicant
+exporter must ensure the following:');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Act');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'AEO');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'vii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'CBIC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'case');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'have');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'item');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'that');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Bill');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'does');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'such');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'list');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', '4');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'Action will be taken against the exporter under FT (D & R) Act, 1992 for any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '1', 'They shall notify the relevant government authorities in the online portal of', 'They shall notify the relevant government authorities in the online portal of
+DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
+Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.', 'Indha They shall notify the relevant government authorities in the online portal of section-la, They kandippa notify the relevant government authorities in the online portal of
+DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
+Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.', '1. They shall notify the relevant government authorities in the online portal of
+DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
+Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export. 2.', 'They shall notify the relevant government authorities in the online portal of governs how DGFT business controls should be applied, validated, and enforced.', 'They shall notify the relevant government authorities in the online portal of explains the operating rule set that DEKAI should enforce. Key control points include They shall notify the relevant government authorities in the online portal of
+DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
+Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.', 'Indha They shall notify the relevant government authorities in the online portal of section-la, They kandippa notify the relevant government authorities in the online portal of explains the operating rule set that DEKAI should enforce. Key control points include They kandippa notify the relevant government authorities in the online portal of
+DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
+Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.', '1. They shall notify the relevant government authorities in the online portal of
+DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
+Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.
+2. The EUCs in prescribed proforma [Appendix 10j(i)] are to be filled by all the
+entities involved in the chain of supply e.g. foreign buyer/consignee / end-
+user/intermediary (ies) on the letterhead of the respective entity, duly signed in
+ink and stamped by the authorized signatory of the company. In case of any
+additional sheet used along with the EUC, the same must be on the letterhead of
+the company and signed by the same person who signs the EUC.', '[33]', '["the", "ANF", "EUC", "for", "are", "all", "end", "ies", "ink", "and", "any", "who", "They", "DGFT", "such", "Form", "with", "each", "EUCs", "duly"]', 'Provide knowledge guidance for They shall notify the relevant government authorities in the online portal of.', '["1", "They shall notify the relevant government authorities in the online portal of", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R001', '1', 'They shall notify the relevant government authorities in the online portal of
+DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
+Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.', 'business_rule', 'They shall notify the relevant government authorities in the online portal of', 'They shall notify the relevant government authorities in the online portal of
+DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
+Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.', 'They shall notify the relevant government authorities in the online portal of
+DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
+Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 1 - They shall notify the relevant government authorities in the online portal of.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R002', '1', 'In case of any
+additional sheet used along with the EUC, the same must be on the letterhead of
+the company and signed by the same person who signs the EUC.', 'business_rule', 'They shall notify the relevant government authorities in the online portal of', 'In case of any
+additional sheet used along with the EUC, the same must be on the letterhead of
+the company and signed by the same person who signs the EUC.', 'In case of any
+additional sheet used along with the EUC, the same must be on the letterhead of
+the company and signed by the same person who signs the EUC.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 1 - They shall notify the relevant government authorities in the online portal of.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'They shall notify the relevant government authorities in the online portal of
+DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
+Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'In case of any
+additional sheet used along with the EUC, the same must be on the letterhead of
+the company and signed by the same person who signs the EUC.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'End-Use Certificate');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'DGFT');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 1, 'Evaluate condition: They shall notify the relevant government authorities in the online portal of
+DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
+Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 2, 'Evaluate condition: In case of any
+additional sheet used along with the EUC, the same must be on the letterhead of
+the company and signed by the same person who signs the EUC.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 3, 'Run validation: They shall notify the relevant government authorities in the online portal of
+DGFT, on a quarterly basis of such export in the prescribed format [Aayat Niryat
+Form (ANF) 10I], along with the End-Use Certificate (EUC) for each export.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 4, 'Run validation: In case of any
+additional sheet used along with the EUC, the same must be on the letterhead of
+the company and signed by the same person who signs the EUC.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'ANF');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'EUC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'all');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'end');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'ies');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'ink');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'who');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'They');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'such');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Form');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'each');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'EUCs');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'duly');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'They shall notify the relevant government authorities in the online portal of');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '3', 'They have an agreement or purchase order, an excerpt of a contract from the', 'They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+pg.', 'Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+pg.', '3. They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+pg. 1101
+pg.', '3.', '3. They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+pg. 1101
+pg.', 'Indha They have an agreement or purchase order, an excerpt of a contract from the section-la, 3. They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+pg. 1101
+pg.', '3. They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+pg.
+1101
+pg.
+for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.
+3. They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+export;', '[33, 34]', '["the", "for", "use", "EUC", "and", "They", "have", "from", "that", "item", "DGFT", "order", "items", "which", "state", "GAEIS", "would", "apply", "fresh", "terms"]', 'Support They have an agreement or purchase order, an excerpt of a contract from the processing and compliance validation.', '["3", "They have an agreement or purchase order, an excerpt of a contract from the", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC3-R001', '3', 'IF validations pass THEN recommend action: for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.', 'business_rule', 'They have an agreement or purchase order, an excerpt of a contract from the', 'They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+pg.', 'Not explicitly covered in uploaded documents.', 'for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3 - They have an agreement or purchase order, an excerpt of a contract from the.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3', 'They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+pg.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3', 'They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+export;');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3', 'DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3', 'GAEIS for export of that/those item(s) and would apply separately to DGFT');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('3', 'They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+pg.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('3', 'They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+export;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 1, 'Evaluate condition: They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 2, 'Evaluate condition: They have an agreement or purchase order, an excerpt of a contract from the
+entity (buyer/consignee / end-user) receiving the items which state that the
+export is for a permitted use / an end-use as declared in the EUC before the actual
+export;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 3, 'for GAEIS for export of that/those item(s) and would apply separately to DGFT
+for a fresh authorization in terms of regular policy.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'EUC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'They');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'have');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'that');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'item');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'order');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'items');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'which');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'state');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'GAEIS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'would');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'apply');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'fresh');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'terms');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', '3');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'They have an agreement or purchase order, an excerpt of a contract from the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '5', 'Additional details, if any sought by DGFT.', 'Defines the operational requirements for Additional details, if any sought by DGFT..', 'Indha Additional details, if any sought by DGFT. section-la, Defines the operational requirements for Additional details, if any sought by DGFT..', '5. Additional details, if any sought by DGFT.', '5.', '5. Additional details, if any sought by DGFT.', 'Indha Additional details, if any sought by DGFT. section-la, 5. Additional details, if any sought by DGFT.', '5. Additional details, if any sought by DGFT.', '[34]', '["any", "DGFT", "sought", "details", "Additional"]', 'Provide knowledge guidance for Additional details, if any sought by DGFT..', '["5", "Additional details, if any sought by DGFT.", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC5-R001', '5', '5. Additional details, if any sought by DGFT.', 'business_rule', 'Additional details, if any sought by DGFT.', 'Additional details, if any sought by DGFT.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5 - Additional details, if any sought by DGFT..');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'Additional details, if any sought by DGFT.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('5', 'DGFT');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 1, 'Evaluate condition: Additional details, if any sought by DGFT.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'sought');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'details');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'Additional');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', '5');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'Additional details, if any sought by DGFT.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '2', 'Post reporting for export / re-export of items under GAEIS', 'Post reporting for export / re-export of items under GAEIS
+a.', 'Indha Post reporting for export / re-export of items under GAEIS section-la, Post reporting for export / re-export of items under GAEIS
+a.', '2. Post reporting for export / re-export of items under GAEIS
+a. The Indian exporter shall submit post-shipment details of each export/re-export
+of SCOMET items under the above Categories/sub-categories under GAEIS for 3
+years on quarterly basis (March/June/September/December) by the end of
+subsequent month of each quarter, in respect of exports made in the previous
+quarter;
+b.', 'Post reporting for export / re-export of items under GAEIS governs how DGFT business controls should be applied, validated, and enforced.', 'Post reporting for export / re-export of items under GAEIS explains the operating rule set that DEKAI should enforce. Key control points include The Indian exporter shall submit post-shipment details of each export/re-export
+of SCOMET items under the above Categories/sub-categories under GAEIS for 3
+years on quarterly basis (March/June/September/December) by the end of
+subsequent month of each quarter, in respect of exports made in the previous
+quarter;
+b. The section also drives actions such as Post reporting for export / re-export of items under GAEIS
+a..', 'Indha Post reporting for export / re-export of items under GAEIS section-la, Post reporting for export / re-export of items under GAEIS explains the operating rule set that DEKAI should enforce. Key control points include The Indian exporter kandippa submit post-shipment details of each export/re-export
+of SCOMET items under the above Categories/sub-categories under GAEIS for 3
+years on quarterly basis (March/June/September/December) by the end of
+subsequent month of each quarter, in respect of exports made in the previous
+quarter;
+b. The section also drives actions such as Post reporting for export / re-export of items under GAEIS
+a..', '2. Post reporting for export / re-export of items under GAEIS
+a. The Indian exporter shall submit post-shipment details of each export/re-export
+of SCOMET items under the above Categories/sub-categories under GAEIS for 3
+years on quarterly basis (March/June/September/December) by the end of
+subsequent month of each quarter, in respect of exports made in the previous
+quarter;
+b. In case of re-export of imported items, the additional documents as mentioned
+in 1.b.vii.(i) have to be submitted at the time of post reporting.
+c. Failure to do so may entail imposition of penalty and/or suspension/revocation
+of GAEIS.', '[34]', '["for", "The", "end", "vii", "may", "Post", "each", "made", "case", "have", "time", "items", "under", "GAEIS", "shall", "above", "years", "basis", "month", "export"]', 'Support Post reporting for export / re-export of items under GAEIS processing and compliance validation.', '["2", "Post reporting for export / re-export of items under GAEIS", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R001', '2', 'The Indian exporter shall submit post-shipment details of each export/re-export
+of SCOMET items under the above Categories/sub-categories under GAEIS for 3
+years on quarterly basis (March/June/September/December) by the end of
+subsequent month of each quarter, in respect of exports made in the previous
+quarter;
+b.', 'business_rule', 'Post reporting for export / re-export of items under GAEIS', 'In case of re-export of imported items, the additional documents as mentioned
+in 1.b.vii.(i) have to be submitted at the time of post reporting.', 'The Indian exporter shall submit post-shipment details of each export/re-export
+of SCOMET items under the above Categories/sub-categories under GAEIS for 3
+years on quarterly basis (March/June/September/December) by the end of
+subsequent month of each quarter, in respect of exports made in the previous
+quarter;
+b.', 'Post reporting for export / re-export of items under GAEIS
+a.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Post reporting for export / re-export of items under GAEIS.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'In case of re-export of imported items, the additional documents as mentioned
+in 1.b.vii.(i) have to be submitted at the time of post reporting.');
+INSERT INTO documents (section_code, document_name) VALUES ('2', 'In case of re-export of imported items, the additional documents as mentioned
+in 1.b.vii.(i) have to be submitted at the time of post reporting.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('2', 'The Indian exporter shall submit post-shipment details of each export/re-export
+of SCOMET items under the above Categories/sub-categories under GAEIS for 3
+years on quarterly basis (March/June/September/December) by the end of
+subsequent month of each quarter, in respect of exports made in the previous
+quarter;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 1, 'Evaluate condition: In case of re-export of imported items, the additional documents as mentioned
+in 1.b.vii.(i) have to be submitted at the time of post reporting.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 2, 'Post reporting for export / re-export of items under GAEIS
+a.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 3, 'The Indian exporter shall submit post-shipment details of each export/re-export
+of SCOMET items under the above Categories/sub-categories under GAEIS for 3
+years on quarterly basis (March/June/September/December) by the end of
+subsequent month of each quarter, in respect of exports made in the previous
+quarter;
+b.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 4, 'In case of re-export of imported items, the additional documents as mentioned
+in 1.b.vii.(i) have to be submitted at the time of post reporting.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 5, 'Run validation: The Indian exporter shall submit post-shipment details of each export/re-export
+of SCOMET items under the above Categories/sub-categories under GAEIS for 3
+years on quarterly basis (March/June/September/December) by the end of
+subsequent month of each quarter, in respect of exports made in the previous
+quarter;
+b.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'end');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'vii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Post');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'each');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'made');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'case');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'have');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'time');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'items');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'under');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'GAEIS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'above');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'years');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'basis');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'month');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'export');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', '2');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'Post reporting for export / re-export of items under GAEIS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '1', 'GAEIS issued for export / re-export of SCOMET items under the above', 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+pg.', 'Indha GAEIS issued for export / re-export of SCOMET items under the above section-la, GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories kandippa be valid for Three years from the date of issue of
+pg.', '1. GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+pg. 1102
+pg.', 'GAEIS issued for export / re-export of SCOMET items under the above governs how DGFT business controls should be applied, validated, and enforced.', 'GAEIS issued for export / re-export of SCOMET items under the above explains the operating rule set that DEKAI should enforce. Key control points include GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+pg. The section also drives actions such as GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+pg..', 'Indha GAEIS issued for export / re-export of SCOMET items under the above section-la, GAEIS issued for export / re-export of SCOMET items under the above explains the operating rule set that DEKAI should enforce. Key control points include GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories kandippa be valid for Three years from the date of issue of
+pg. The section also drives actions such as GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories kandippa be valid for Three years from the date of issue of
+pg..', '1. GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+pg.
+1102
+pg.
+export;
+1. GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;', '[34, 35]', '["for", "the", "Sub", "from", "date", "post", "days", "last", "GAEIS", "items", "under", "above", "shall", "valid", "Three", "years", "issue", "basis", "issued", "export"]', 'Support GAEIS issued for export / re-export of SCOMET items under the above processing and compliance validation.', '["1", "GAEIS issued for export / re-export of SCOMET items under the above", "business-rule", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R001', '1', 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+pg.', 'business_rule', 'GAEIS issued for export / re-export of SCOMET items under the above', 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;', 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+pg.', 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+pg.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 1 - GAEIS issued for export / re-export of SCOMET items under the above.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC1-R002', '1', 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;', 'business_rule', 'GAEIS issued for export / re-export of SCOMET items under the above', 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;', 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;', 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 1 - GAEIS issued for export / re-export of SCOMET items under the above.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('1', 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+pg.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('1', 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 1, 'Evaluate condition: GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 2, 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 3, 'GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 4, 'Run validation: GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 5, 'Run validation: GAEIS issued for export / re-export of SCOMET items under the above
+Categories / Sub Categories shall be valid for Three years from the date of issue of
+GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Sub');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'date');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'post');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'days');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'last');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'GAEIS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'items');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'under');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'above');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'valid');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Three');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'years');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'issue');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'basis');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'issued');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'export');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'GAEIS issued for export / re-export of SCOMET items under the above');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '2', 'GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.', 'Defines the operational requirements for GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023..', 'Indha GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023. section-la, Defines the operational requirements for GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023..', '2. GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.', '2.', '2. GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.', 'Indha GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023. section-la, 2. GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.', '2. GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.', '[35]', '["HBP", "GAEIS", "terms", "cannot", "Paragraph", "revalidated"]', 'Provide knowledge guidance for GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023..', '["2", "GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC2-R001', '2', '2. GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.', 'business_rule', 'GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.', 'Not explicitly covered in uploaded documents.', 'GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023..');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 1, 'Run validation: GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'HBP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'GAEIS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'terms');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'cannot');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Paragraph');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'revalidated');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', '2');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '6', 'Suspension / Revocation', 'Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', 'Indha Suspension / Revocation section-la, Suspension / Revocation
+GAEIS issued kandippa be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', '6. Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', 'Suspension / Revocation governs how DGFT business controls should be applied, validated, and enforced.', 'Suspension / Revocation explains the operating rule set that DEKAI should enforce. Key control points include Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy. The section also drives actions such as Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy..', 'Indha Suspension / Revocation section-la, Suspension / Revocation explains the operating rule set that DEKAI should enforce. Key control points include Suspension / Revocation
+GAEIS issued kandippa be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy. The section also drives actions such as Suspension / Revocation
+GAEIS issued kandippa be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy..', '6. Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', '[35]', '["the", "for", "non", "DGFT", "post", "with", "GAEIS", "shall", "issued", "liable", "report", "within", "policy", "receipt", "adverse", "concern", "shipment", "proposed", "mandatory", "timelines"]', 'Support Suspension / Revocation processing and compliance validation.', '["6", "Suspension / Revocation", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC6-R001', '6', 'Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', 'business_rule', 'Suspension / Revocation', 'Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', 'Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', 'Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6 - Suspension / Revocation.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6', 'DGFT');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6', 'GAEIS issued shall be liable to be suspended/revoked by the DGFT');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 1, 'Evaluate condition: Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 2, 'Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 3, 'Run validation: Suspension / Revocation
+GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
+adverse report on proliferation concern or for non-submission of mandatory post-
+shipment details/reports/documents within the prescribed timelines or non-
+compliance with the conditions of the proposed policy.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'non');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'DGFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'post');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'GAEIS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'issued');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'liable');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'report');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'within');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'policy');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'receipt');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'adverse');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'concern');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'shipment');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'proposed');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'mandatory');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'timelines');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', '6');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'Suspension / Revocation');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'dgft');
 INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '10.16', 'General Authorisation for Export of Chemicals and related', '10.16 General Authorisation for Export of Chemicals and related
 Equipment (GAEC) of SCOMET items
 A.', 'Indha General Authorisation for Export of Chemicals and related section-la, 10.16 General Authorisation for export of Chemicals and related
@@ -11907,12 +13833,6 @@ pg.
 pg.
 GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
 within 30 days from the last quarter;
-2. GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.
-6. Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.
 10.16 General Authorisation for Export of Chemicals and related
 Equipment (GAEC) of SCOMET items
 A.
@@ -12389,7 +14309,7 @@ F. Suspension / Revocation
 GAED issued shall be liable to be suspended / revoked by the DGFT on receipt of an
 adverse report on proliferation concern or for non-submission of mandatory post-
 shipment details / reports / documents within the prescribed timelines or for non-
-compliance with the conditions of the proposed policy.', '[35, 36, 37, 38, 39, 40, 41]', '["for", "and", "the", "Sub", "not", "are", "may", "AEO", "etc", "end", "out", "HBP", "non", "EUC", "Any", "use", "nor", "iii", "has", "WMD"]', 'Support General Authorisation for Export of Chemicals and related processing and compliance validation.', '["10.16", "General Authorisation for Export of Chemicals and related", "business-rule", "document-driven", "dgft"]');
+compliance with the conditions of the proposed policy.', '[35, 36, 37, 38, 39, 40, 41]', '["for", "and", "the", "Sub", "not", "are", "may", "AEO", "etc", "end", "out", "EUC", "Any", "use", "nor", "iii", "has", "WMD", "Act", "ANF"]', 'Support General Authorisation for Export of Chemicals and related processing and compliance validation.', '["10.16", "General Authorisation for Export of Chemicals and related", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R001', '10.16', 'In respect of export/re-export of SCOMET items under the Categories / Sub
 Categories of 1C, 1D,1E, 3D001 and 3D004 (excluding software and
 technology), as well as chemicals listed in the Appendix 10(N), to the
@@ -12428,54 +14348,50 @@ consideration.', 'The Indian Exporter may submit a copy of the Authorised Econom
 Operator(AEO) Certification or Status Holder Certificate, if available.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R003', '10.16', 'GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
 within 30 days from the last quarter;
-2.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'The Indian Exporter may submit a copy of the Authorised Economic
-Operator(AEO) Certification or Status Holder Certificate, if available.', 'GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.', 'The application would be reviewed/examined for the issuance of GAEC by
+10.16 General Authorisation for Export of Chemicals and related
+Equipment (GAEC) of SCOMET items
+A.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'The Indian Exporter may submit a copy of the Authorised Economic
+Operator(AEO) Certification or Status Holder Certificate, if available.', 'Any on-site inspection will be allowed by the applicant exporter, if
+required by the DGFT or authorized representatives of
+Government of India;
+ii.', 'The application would be reviewed/examined for the issuance of GAEC by
 Inter-Ministerial Working Group (IMWG) based on the submitted
 application and other supporting documents submitted by the applicant
 exporter in the prescribed proforma including;
 a.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R004', '10.16', 'Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'Detailed description of the items that are intended to be exported
-under this authorisation with relevant technical details /
-specifications, such as model, part number, etc.', 'Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.', 'GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
-within 30 days from the last quarter;
-2.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R005', '10.16', 'The applicant exporter declares that the items that are intended to
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R004', '10.16', 'The applicant exporter declares that the items that are intended to
 be exported shall not be used for any purpose other than the
 purpose(s) stated in the EUC and that such use shall not be changed
 nor the items modified or replicated without the prior consent of
-the Government of India.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'to be provided (as
-applicable); In case of first intended export of items under the above
-Categories / Sub Categories, details of the entire supply chain (buyer,
-consignee, end user, etc.) of an intended export is to be provided.', 'Any on-site inspection will be allowed by the applicant exporter, if
-required by the DGFT or authorized representatives of
-Government of India;
-ii.', 'Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R006', '10.16', 'The applicant exporter declares that subsequent to issue of export
+the Government of India.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'Detailed description of the items that are intended to be exported
+under this authorisation with relevant technical details /
+specifications, such as model, part number, etc.', 'The applicant exporter declares that the items that are intended to
+be exported shall not be used for any purpose other than the
+purpose(s) stated in the EUC and that such use shall not be changed
+nor the items modified or replicated without the prior consent of
+the Government of India.', 'GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;
+10.16 General Authorisation for Export of Chemicals and related
+Equipment (GAEC) of SCOMET items
+A.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R005', '10.16', 'The applicant exporter declares that subsequent to issue of export
 authorisation, if the licensee has been notified in writing by DGFT
 or if they know or has reason to believe that an item may be
 intended for military end use or has a potential risk of use in or
 diversion to weapons of mass destruction (WMD) or in their
 missile system, the exporter would not be eligible for GAEC for
 export of that/those item(s) and would apply separately to DGFT
-for a fresh authorisation in terms of regular policy.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
-within 30 days from the last quarter;
-2.', 'The applicant exporter declares that the items that are intended to
-be exported shall not be used for any purpose other than the
-purpose(s) stated in the EUC and that such use shall not be changed
-nor the items modified or replicated without the prior consent of
-the Government of India.', 'The applicant exporter declares that subsequent to issue of export
+for a fresh authorisation in terms of regular policy.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'to be provided (as
+applicable); In case of first intended export of items under the above
+Categories / Sub Categories, details of the entire supply chain (buyer,
+consignee, end user, etc.) of an intended export is to be provided.', 'The applicant exporter declares that subsequent to issue of export
+authorisation, if the licensee has been notified in writing by DGFT
+or if they know or has reason to believe that an item may be
+intended for military end use or has a potential risk of use in or
+diversion to weapons of mass destruction (WMD) or in their
+missile system, the exporter would not be eligible for GAEC for
+export of that/those item(s) and would apply separately to DGFT
+for a fresh authorisation in terms of regular policy.', 'The applicant exporter declares that subsequent to issue of export
 authorisation, if the licensee has been notified in writing by DGFT
 or if they know or has reason to believe that an item may be
 intended for military end use or has a potential risk of use in or
@@ -12483,22 +14399,17 @@ diversion to weapons of mass destruction (WMD) or in their
 missile system, the exporter would not be eligible for GAEC for
 export of that/those item(s) and would apply separately to DGFT
 for a fresh authorisation in terms of regular policy.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R007', '10.16', 'After issuance of GAEC authorisation and before actual export, the
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R006', '10.16', 'After issuance of GAEC authorisation and before actual export, the
 applicant exporter must ensure the following:
-i.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.', 'The applicant exporter declares that subsequent to issue of export
-authorisation, if the licensee has been notified in writing by DGFT
-or if they know or has reason to believe that an item may be
-intended for military end use or has a potential risk of use in or
-diversion to weapons of mass destruction (WMD) or in their
-missile system, the exporter would not be eligible for GAEC for
-export of that/those item(s) and would apply separately to DGFT
-for a fresh authorisation in terms of regular policy.', 'A declaration is to be submitted by the exporter on Letter Head duly signed and
+i.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
+within 30 days from the last quarter;
+10.16 General Authorisation for Export of Chemicals and related
+Equipment (GAEC) of SCOMET items
+A.', 'After issuance of GAEC authorisation and before actual export, the
+applicant exporter must ensure the following:
+i.', 'A declaration is to be submitted by the exporter on Letter Head duly signed and
 stamped stating that export shall only be done for civilian end use.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R008', '10.16', 'They shall notify the relevant government authorities in the online
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R007', '10.16', 'They shall notify the relevant government authorities in the online
 portal of DGFT, within 30 days of such export in the prescribed
 format [Aayat Niryat Form ANF 10A along with the End-Use
 Certificate (EUC) in the prescribed proforma [Appendix 10J (i) or
@@ -12512,46 +14423,46 @@ relevant
 technical
 details
 /
-specifications, such as model, part number, etc.', 'After issuance of GAEC authorisation and before actual export, the
-applicant exporter must ensure the following:
-i.', 'Post reporting for export / re-export of items under GAEC
-a.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R009', '10.16', 'A declaration is to be submitted by the exporter on Letter Head duly signed and
-stamped stating that export shall only be done for civilian end use.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'Any on-site inspection will be allowed by the applicant exporter, if
-required by the DGFT or authorized representatives of
-Government of India;
-ii.', 'They shall notify the relevant government authorities in the online
+specifications, such as model, part number, etc.', 'They shall notify the relevant government authorities in the online
 portal of DGFT, within 30 days of such export in the prescribed
 format [Aayat Niryat Form ANF 10A along with the End-Use
 Certificate (EUC) in the prescribed proforma [Appendix 10J (i) or
 (ii), as per applicability] and a copy of the bill of entry into the
-destination country within 30 days of delivery at destination point.', 'The Indian exporter shall submit post-shipment details of each export/
+destination country within 30 days of delivery at destination point.', 'Post reporting for export / re-export of items under GAEC
+a.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R008', '10.16', 'A declaration is to be submitted by the exporter on Letter Head duly signed and
+stamped stating that export shall only be done for civilian end use.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'Any on-site inspection will be allowed by the applicant exporter, if
+required by the DGFT or authorized representatives of
+Government of India;
+ii.', 'A declaration is to be submitted by the exporter on Letter Head duly signed and
+stamped stating that export shall only be done for civilian end use.', 'The Indian exporter shall submit post-shipment details of each export/
 re-export of SCOMET items under the above Categories/ sub-
 categories under GAEC, as mentioned above at II.c.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R010', '10.16', 'A declaration from the Indian exporter stating that that the
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R009', '10.16', 'A declaration from the Indian exporter stating that that the
 transfers/exports/re-exports in the entire supply chain would be only for
 eligible list of countries as provided in Appendix 10(N).', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'The applicant exporter declares that the items that are intended to
 be exported shall not be used for any purpose other than the
 purpose(s) stated in the EUC and that such use shall not be changed
 nor the items modified or replicated without the prior consent of
-the Government of India.', 'A declaration is to be submitted by the exporter on Letter Head duly signed and
-stamped stating that export shall only be done for civilian end use.', 'GAEC would not be issued in case of items to be used to design, develop,
+the Government of India.', 'A declaration from the Indian exporter stating that that the
+transfers/exports/re-exports in the entire supply chain would be only for
+eligible list of countries as provided in Appendix 10(N).', 'GAEC would not be issued in case of items to be used to design, develop,
 acquire, manufacture, possess, transport, transfer and / or used for
 chemical, biological, nuclear weapons or for missiles capable of
 delivering weapons of mass destruction and their delivery system;
 b.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R011', '10.16', 'The Indian exporter shall submit post-shipment details of each export/
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R010', '10.16', 'The Indian exporter shall submit post-shipment details of each export/
 re-export of SCOMET items under the above Categories/ sub-
 categories under GAEC, as mentioned above at II.c.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'Further transfer/export/re-export under
 GAEC to the list of applicable countries specified in the Appendix
 10(N) will be for civilian end use only;
-iii.', 'A declaration from the Indian exporter stating that that the
-transfers/exports/re-exports in the entire supply chain would be only for
-eligible list of countries as provided in Appendix 10(N).', 'GAEC would not be issued for countries or entities covered under UNSC
+iii.', 'The Indian exporter shall submit post-shipment details of each export/
+re-export of SCOMET items under the above Categories/ sub-
+categories under GAEC, as mentioned above at II.c.', 'GAEC would not be issued for countries or entities covered under UNSC
 embargo or sanctions list or on assessment of proliferation concerns,
 or national security and foreign policy considerations, etc.;
 c.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R012', '10.16', 'IMWG shall reserve the right to deny issue of GAEC without assigning
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R011', '10.16', 'IMWG shall reserve the right to deny issue of GAEC without assigning
 any reason(s).', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'The applicant exporter declares that subsequent to issue of export
 authorisation, if the licensee has been notified in writing by DGFT
 or if they know or has reason to believe that an item may be
@@ -12559,29 +14470,28 @@ intended for military end use or has a potential risk of use in or
 diversion to weapons of mass destruction (WMD) or in their
 missile system, the exporter would not be eligible for GAEC for
 export of that/those item(s) and would apply separately to DGFT
-for a fresh authorisation in terms of regular policy.', 'The Indian exporter shall submit post-shipment details of each export/
-re-export of SCOMET items under the above Categories/ sub-
-categories under GAEC, as mentioned above at II.c.', 'IMWG shall reserve the right to deny issue of GAEC without assigning
+for a fresh authorisation in terms of regular policy.', 'IMWG shall reserve the right to deny issue of GAEC without assigning
+any reason(s).', 'IMWG shall reserve the right to deny issue of GAEC without assigning
 any reason(s).', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R013', '10.16', 'The Indian exporter shall submit post-shipment details of each export/
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R012', '10.16', 'The Indian exporter shall submit post-shipment details of each export/
 re-export of SCOMET items under the above Categories/ sub- categories
 under GAEC, as mentioned above at II.c.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'After issuance of GAEC authorisation and before actual export, the
 applicant exporter must ensure the following:
-i.', 'IMWG shall reserve the right to deny issue of GAEC without assigning
-any reason(s).', 'The Indian exporter shall submit post-shipment details of each export/
+i.', 'The Indian exporter shall submit post-shipment details of each export/
+re-export of SCOMET items under the above Categories/ sub- categories
+under GAEC, as mentioned above at II.c.', 'The Indian exporter shall submit post-shipment details of each export/
 re-export of SCOMET items under the above Categories/ sub- categories
 under GAEC, as mentioned above at II.c.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R014', '10.16', 'IMWG shall reserve the right to deny issue of GAEC without assigning any
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R013', '10.16', 'IMWG shall reserve the right to deny issue of GAEC without assigning any
 reason(s).', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'They shall notify the relevant government authorities in the online
 portal of DGFT, within 30 days of such export in the prescribed
 format [Aayat Niryat Form ANF 10A along with the End-Use
 Certificate (EUC) in the prescribed proforma [Appendix 10J (i) or
 (ii), as per applicability] and a copy of the bill of entry into the
-destination country within 30 days of delivery at destination point.', 'The Indian exporter shall submit post-shipment details of each export/
-re-export of SCOMET items under the above Categories/ sub- categories
-under GAEC, as mentioned above at II.c.', 'GAEC would not be issued in case of items to be used to design, develop,
+destination country within 30 days of delivery at destination point.', 'IMWG shall reserve the right to deny issue of GAEC without assigning any
+reason(s).', 'GAEC would not be issued in case of items to be used to design, develop,
 pg.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R015', '10.16', 'Suspension / Revocation
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R014', '10.16', 'Suspension / Revocation
 GAEC issued shall be liable to be suspended / revoked by the DGFT on receipt of
 an adverse report on proliferation concern or for non-submission of mandatory
 post-shipment details / reports / documents within the prescribed timelines or for
@@ -12589,13 +14499,16 @@ non-compliance with the conditions of the proposed policy.', 'business_rule', 'G
 from entity (consignee / end user) receiving the items which states
 that the export is for a permitted use / an end use as declared in
 the EUC before actual export;
-iii.', 'IMWG shall reserve the right to deny issue of GAEC without assigning any
-reason(s).', 'GAEC would not be issued in case of items to be used to design, develop,
+iii.', 'Suspension / Revocation
+GAEC issued shall be liable to be suspended / revoked by the DGFT on receipt of
+an adverse report on proliferation concern or for non-submission of mandatory
+post-shipment details / reports / documents within the prescribed timelines or for
+non-compliance with the conditions of the proposed policy.', 'GAEC would not be issued in case of items to be used to design, develop,
 acquire, manufacture, possess, transport, transfer and / or used for
 chemical, biological, nuclear weapons or for missiles capable of delivering
 weapons of mass destruction and their delivery system;
 b.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R016', '10.16', 'Policy & Eligibility: SCOMET authorization will not be required, for export and/or
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R015', '10.16', 'Policy & Eligibility: SCOMET authorization will not be required, for export and/or
 re-export of Unmanned Aerial Vehicles including drones, remotely piloted air vehicles
 and autonomous programmable vehicles specified at 5B(a)(ii), and not covered under
 SCOMET Categories/sub-categories 5B(a)(i) & 5B(b), 6A010, 8A912, and capable of
@@ -12603,48 +14516,47 @@ range equal to or less than 25 km and delivering a payload of not more than 25 k
 (excluding the software and technology of these items), subject to the following
 conditions:
 I.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'They possess documents include the name, contact number and
-email id of the authority signing the EUC before actual export.', 'Suspension / Revocation
-GAEC issued shall be liable to be suspended / revoked by the DGFT on receipt of
-an adverse report on proliferation concern or for non-submission of mandatory
-post-shipment details / reports / documents within the prescribed timelines or for
-non-compliance with the conditions of the proposed policy.', 'GAEC would not be issued for countries or entities covered under UNSC
-embargo or sanctions list or on assessment of proliferation concerns, or
-national security and foreign policy considerations, etc.;
-c.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R017', '10.16', 'The applicant exporter shall submit an application for getting a onetime license
-under GAED through online SCOMET portal and attach information
-in proforma-ANF 10G;
-II.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'Any subsequent transfer/export/re-export under GAEC to the list
-of applicable countries specified in the Appendix 10(N) is only for
-civilian end use
-v.', 'Policy & Eligibility: SCOMET authorization will not be required, for export and/or
+email id of the authority signing the EUC before actual export.', 'Policy & Eligibility: SCOMET authorization will not be required, for export and/or
 re-export of Unmanned Aerial Vehicles including drones, remotely piloted air vehicles
 and autonomous programmable vehicles specified at 5B(a)(ii), and not covered under
 SCOMET Categories/sub-categories 5B(a)(i) & 5B(b), 6A010, 8A912, and capable of
 range equal to or less than 25 km and delivering a payload of not more than 25 kgs
 (excluding the software and technology of these items), subject to the following
 conditions:
-I.', 'IMWG shall reserve the right to deny issue of GAEC without assigning any
-reason(s).', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R018', '10.16', 'In
-case of any additional sheet used along with the EUC, the same must be on
-pg.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'Additional details, if any sought by DGFT
-d.', 'The applicant exporter shall submit an application for getting a onetime license
+I.', 'GAEC would not be issued for countries or entities covered under UNSC
+embargo or sanctions list or on assessment of proliferation concerns, or
+national security and foreign policy considerations, etc.;
+c.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R016', '10.16', 'The applicant exporter shall submit an application for getting a onetime license
 under GAED through online SCOMET portal and attach information
 in proforma-ANF 10G;
-II.', 'Suspension / Revocation
+II.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'Any subsequent transfer/export/re-export under GAEC to the list
+of applicable countries specified in the Appendix 10(N) is only for
+civilian end use
+v.', 'The applicant exporter shall submit an application for getting a onetime license
+under GAED through online SCOMET portal and attach information
+in proforma-ANF 10G;
+II.', 'IMWG shall reserve the right to deny issue of GAEC without assigning any
+reason(s).', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R017', '10.16', 'In
+case of any additional sheet used along with the EUC, the same must be on
+pg.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'Additional details, if any sought by DGFT
+d.', 'In
+case of any additional sheet used along with the EUC, the same must be on
+pg.', 'Suspension / Revocation
 GAEC issued shall be liable to be suspended / revoked by the DGFT on receipt of
 an adverse report on proliferation concern or for non-submission of mandatory
 post-shipment details / reports / documents within the prescribed timelines or for
 non-compliance with the conditions of the proposed policy.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R019', '10.16', 'In
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R018', '10.16', 'In
 case of any additional sheet used along with the EUC, the same must be on
 the letterhead of the company and signed by the same person who signs the
 EUC.', 'business_rule', 'General Authorisation for Export of Chemicals and related', '(i) and within the
 timelines specified therein;
 b.', 'In
 case of any additional sheet used along with the EUC, the same must be on
-pg.', 'Policy & Eligibility: SCOMET authorization will not be required, for export and/or
+the letterhead of the company and signed by the same person who signs the
+EUC.', 'Policy & Eligibility: SCOMET authorization will not be required, for export and/or
 re-export of Unmanned Aerial Vehicles including drones, remotely piloted air vehicles
 and autonomous programmable vehicles specified at 5B(a)(ii), and not covered under
 SCOMET Categories/sub-categories 5B(a)(i) & 5B(b), 6A010, 8A912, and capable of
@@ -12652,7 +14564,7 @@ range equal to or less than 25 km and delivering a payload of not more than 25 k
 (excluding the software and technology of these items), subject to the following
 conditions:
 I.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R020', '10.16', 'The applicant exporter declares that the items that are intended to be
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R019', '10.16', 'The applicant exporter declares that the items that are intended to be
 exported shall not be used for any purpose other than the purpose(s)
 stated in the EUC and that such use shall not be changed nor the items
 modified or replicated without the prior consent of the Government of
@@ -12661,14 +14573,14 @@ iii.', 'business_rule', 'General Authorisation for Export of Chemicals and relat
 acquire, manufacture, possess, transport, transfer and / or used for
 chemical, biological, nuclear weapons or for missiles capable of
 delivering weapons of mass destruction and their delivery system;
-b.', 'In
-case of any additional sheet used along with the EUC, the same must be on
-the letterhead of the company and signed by the same person who signs the
-EUC.', 'The applicant exporter shall submit an application for getting a onetime license
+b.', 'Any on-site inspection will be allowed by the applicant exporter, if
+required by the DGFT or authorized representatives of Government of
+India;
+ii.', 'The applicant exporter shall submit an application for getting a onetime license
 under GAED through online SCOMET portal and attach information
 in proforma-ANF 10G;
 II.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R021', '10.16', 'The applicant exporter declares that subsequent to issue of export
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R020', '10.16', 'The applicant exporter declares that subsequent to issue of export
 authorisation, if the licensee has been notified in writing by DGFT or if
 they know or has reason to believe that an item may be intended for
 military end use or has a potential risk of use in or diversion to weapons
@@ -12678,43 +14590,44 @@ and would apply separately to DGFT for a fresh authorization in terms of
 regular policy.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'GAEC would not be issued for countries or entities covered under UNSC
 embargo or sanctions list or on assessment of proliferation concerns,
 or national security and foreign policy considerations, etc.;
-c.', 'Any on-site inspection will be allowed by the applicant exporter, if
-required by the DGFT or authorized representatives of Government of
-India;
-ii.', 'The application would be reviewed/examined for the issuance of GAED by
-Inter-Ministerial Working Group (IMWG) based on the submitted application
-and other supporting documents submitted by the applicant exporter in the
-prescribed Performa including;
-a.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R022', '10.16', 'After issuance of GAED authorization and before actual export, the applicant
-exporter must ensure the following:
-i.', 'business_rule', 'General Authorisation for Export of Chemicals and related', '(i) and within the timelines
-specified therein;
-b.', 'The applicant exporter declares that the items that are intended to be
+c.', 'The applicant exporter declares that the items that are intended to be
 exported shall not be used for any purpose other than the purpose(s)
 stated in the EUC and that such use shall not be changed nor the items
 modified or replicated without the prior consent of the Government of
 India.;
-iii.', 'Detailed description of the items that are intended to be exported under this
-authorization with relevant technical details / specifications, including
-payloads such as model, part number, other parameters of the drones such
-as Payload capacity, Altitude, Range, Endurance, Speed, Communication type
-(Encrypted or Unencrypted, GPRS or satellite based), Accuracy, etc.to be
-provided (as applicable);
-b.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R023', '10.16', 'They shall notify the relevant government authorities in the online portal
-of DGFT, on quarterly basis of such export in the prescribed
-format [Aayat Niryat Form (ANF) – 10G], along with the End-Use
-Certificate (EUC) in the prescribed proforma [Appendix 10 J (i)] and a
-copy of the bill of entry into the destination country.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'GAEC would not be issued in case of items to be used to design, develop,
-pg.', 'The applicant exporter declares that subsequent to issue of export
+iii.', 'The application would be reviewed/examined for the issuance of GAED by
+Inter-Ministerial Working Group (IMWG) based on the submitted application
+and other supporting documents submitted by the applicant exporter in the
+prescribed Performa including;
+a.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R021', '10.16', 'After issuance of GAED authorization and before actual export, the applicant
+exporter must ensure the following:
+i.', 'business_rule', 'General Authorisation for Export of Chemicals and related', '(i) and within the timelines
+specified therein;
+b.', 'The applicant exporter declares that subsequent to issue of export
 authorisation, if the licensee has been notified in writing by DGFT or if
 they know or has reason to believe that an item may be intended for
 military end use or has a potential risk of use in or diversion to weapons
 of mass destruction (WMD) or in delivery of their missile system, the
 exporter would not be eligible for GAED for export of that/those item(s)
 and would apply separately to DGFT for a fresh authorization in terms of
-regular policy.', 'The applicant exporter declares that subsequent to issue of export
+regular policy.', 'Detailed description of the items that are intended to be exported under this
+authorization with relevant technical details / specifications, including
+payloads such as model, part number, other parameters of the drones such
+as Payload capacity, Altitude, Range, Endurance, Speed, Communication type
+(Encrypted or Unencrypted, GPRS or satellite based), Accuracy, etc.to be
+provided (as applicable);
+b.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R022', '10.16', 'They shall notify the relevant government authorities in the online portal
+of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF) – 10G], along with the End-Use
+Certificate (EUC) in the prescribed proforma [Appendix 10 J (i)] and a
+copy of the bill of entry into the destination country.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'GAEC would not be issued in case of items to be used to design, develop,
+pg.', 'Certified / Approved Internal Compliance Programme (ICP) or
+demonstrating compliance to the ICP of the foreign parent company or ICP
+certified by the Compliance Manager of the company or certified by any
+Government agency such as Authorized Economic Operator (AEO) scheme
+etc.', 'The applicant exporter declares that subsequent to issue of export
 authorisation, if the licensee has been notified in writing by DGFT or if
 they know or has reason to believe that an item may be intended for
 military end use or has a potential risk of use in or diversion to weapons
@@ -12722,52 +14635,50 @@ of mass destruction (WMD) or in delivery of their missile system, the
 exporter would not be eligible for GAED for export of that/those item(s)
 and would apply separately to DGFT for a fresh authorization in terms of
 regular policy.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R024', '10.16', 'The submitting documents by exporter must include the name, contact
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R023', '10.16', 'The submitting documents by exporter must include the name, contact
 number and email id of the authority signing the EUC before actual
-export.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'email id of the authority signing the EUC before actual export.', 'Certified / Approved Internal Compliance Programme (ICP) or
-demonstrating compliance to the ICP of the foreign parent company or ICP
-certified by the Compliance Manager of the company or certified by any
-Government agency such as Authorized Economic Operator (AEO) scheme
-etc.', 'Certified / Approved Internal Compliance Programme (ICP) or
+export.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'email id of the authority signing the EUC before actual export.', 'After issuance of GAED authorization and before actual export, the applicant
+exporter must ensure the following:
+i.', 'Certified / Approved Internal Compliance Programme (ICP) or
 demonstrating compliance to the ICP of the foreign parent company or ICP
 certified by the Compliance Manager of the company or certified by any
 Government agency such as Authorized Economic Operator (AEO) scheme
 etc.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R025', '10.16', 'The Indian exporter shall submit post-shipment details of each export/ re-
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R024', '10.16', 'The Indian exporter shall submit post-shipment details of each export/ re-
 export of SCOMET items under the above Categories/ sub-categories under
 pg.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'GAEC would not be issued in case of items to be used to design, develop,
 acquire, manufacture, possess, transport, transfer and / or used for
 chemical, biological, nuclear weapons or for missiles capable of delivering
 weapons of mass destruction and their delivery system;
-b.', 'After issuance of GAED authorization and before actual export, the applicant
-exporter must ensure the following:
-i.', 'The submitting documents by exporter must include the name, contact
+b.', 'They shall notify the relevant government authorities in the online portal
+of DGFT, on quarterly basis of such export in the prescribed
+format [Aayat Niryat Form (ANF) – 10G], along with the End-Use
+Certificate (EUC) in the prescribed proforma [Appendix 10 J (i)] and a
+copy of the bill of entry into the destination country.', 'The submitting documents by exporter must include the name, contact
 number and email id of the authority signing the EUC before actual
 export.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R026', '10.16', 'The Indian exporter shall submit post-shipment details of each export/ re-
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R025', '10.16', 'The Indian exporter shall submit post-shipment details of each export/ re-
 export of SCOMET items under the above Categories/ sub-categories under
 GAED for 3 years, as mentioned above at II.c.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'GAEC would not be issued for countries or entities covered under UNSC
 embargo or sanctions list or on assessment of proliferation concerns, or
 national security and foreign policy considerations, etc.;
-c.', 'They shall notify the relevant government authorities in the online portal
-of DGFT, on quarterly basis of such export in the prescribed
-format [Aayat Niryat Form (ANF) – 10G], along with the End-Use
-Certificate (EUC) in the prescribed proforma [Appendix 10 J (i)] and a
-copy of the bill of entry into the destination country.', 'Post reporting for export / re-export of items under GAED
+c.', 'The submitting documents by exporter must include the name, contact
+number and email id of the authority signing the EUC before actual
+export.', 'Post reporting for export / re-export of items under GAED
 a.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R027', '10.16', 'Record Keeping
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R026', '10.16', 'Record Keeping
 The exporter will be required to keep records of all the export documents, in
 manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
 from the date of GAED issued by DGFT.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'Suspension / Revocation
 GAEC issued shall be liable to be suspended / revoked by the DGFT on receipt of
 an adverse report on proliferation concern or for non-submission of mandatory
 post-shipment details / reports / documents within the prescribed timelines or for
-non-compliance with the conditions of the proposed policy.', 'The submitting documents by exporter must include the name, contact
-number and email id of the authority signing the EUC before actual
-export.', 'The Indian exporter shall submit post-shipment details of each export/ re-
+non-compliance with the conditions of the proposed policy.', 'The Indian exporter shall submit post-shipment details of each export/ re-
+export of SCOMET items under the above Categories/ sub-categories under
+pg.', 'The Indian exporter shall submit post-shipment details of each export/ re-
 export of SCOMET items under the above Categories/ sub-categories under
 pg.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R028', '10.16', 'IMWG shall reserve the right to deny issue of GAED without assigning any
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R027', '10.16', 'IMWG shall reserve the right to deny issue of GAED without assigning any
 reason(s).', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'Policy & Eligibility: SCOMET authorization will not be required, for export and/or
 re-export of Unmanned Aerial Vehicles including drones, remotely piloted air vehicles
 and autonomous programmable vehicles specified at 5B(a)(ii), and not covered under
@@ -12775,9 +14686,14 @@ SCOMET Categories/sub-categories 5B(a)(i) & 5B(b), 6A010, 8A912, and capable of
 range equal to or less than 25 km and delivering a payload of not more than 25 kgs
 (excluding the software and technology of these items), subject to the following
 conditions:
-I.', 'The Indian exporter shall submit post-shipment details of each export/ re-
-export of SCOMET items under the above Categories/ sub-categories under
-pg.', 'Certified / Approved Internal Compliance
+I.', 'Certified / Approved Internal Compliance
+Programme
+(ICP)
+or
+demonstrating compliance to the ICP of the foreign parent company or ICP
+certified by the Compliance Manager of the company or certified by any
+Government agency such as Authorized Economic Operator (AEO) scheme
+etc.', 'Certified / Approved Internal Compliance
 Programme
 (ICP)
 or
@@ -12785,7 +14701,7 @@ demonstrating compliance to the ICP of the foreign parent company or ICP
 certified by the Compliance Manager of the company or certified by any
 Government agency such as Authorized Economic Operator (AEO) scheme
 etc.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R029', '10.16', 'GAED issued for export / re-export of SCOMET items under the above
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R028', '10.16', 'GAED issued for export / re-export of SCOMET items under the above
 Categories / Sub Categories shall be valid for a period of Three years from the
 date of issue of GAED subject to subsequent post reporting(s) on quarterly basis
 to be reported within 30 days from the last quarter;
@@ -12795,24 +14711,20 @@ payloads such as model, part number, other parameters of the drones such
 as Payload capacity, Altitude, Range, Endurance, Speed, Communication type
 (Encrypted or Unencrypted, GPRS or satellite based), Accuracy, etc.to be
 provided (as applicable);
-b.', 'Certified / Approved Internal Compliance
-Programme
-(ICP)
-or
-demonstrating compliance to the ICP of the foreign parent company or ICP
-certified by the Compliance Manager of the company or certified by any
-Government agency such as Authorized Economic Operator (AEO) scheme
-etc.', 'The Indian exporter shall submit post-shipment details of each export/ re-
+b.', 'The Indian exporter shall submit post-shipment details of each export/ re-
+export of SCOMET items under the above Categories/ sub-categories under
+GAED for 3 years, as mentioned above at II.c.', 'The Indian exporter shall submit post-shipment details of each export/ re-
 export of SCOMET items under the above Categories/ sub-categories under
 GAED for 3 years, as mentioned above at II.c.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R030', '10.16', 'Suspension / Revocation
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_16-R029', '10.16', 'Suspension / Revocation
 GAED issued shall be liable to be suspended / revoked by the DGFT on receipt of an
 adverse report on proliferation concern or for non-submission of mandatory post-
 shipment details / reports / documents within the prescribed timelines or for non-
 compliance with the conditions of the proposed policy.', 'business_rule', 'General Authorisation for Export of Chemicals and related', 'The list of countries where the export is expected to be done under GAED is
-to be provided by the applicant at the time of submission of application.', 'The Indian exporter shall submit post-shipment details of each export/ re-
-export of SCOMET items under the above Categories/ sub-categories under
-GAED for 3 years, as mentioned above at II.c.', 'Record Keeping
+to be provided by the applicant at the time of submission of application.', 'Record Keeping
+The exporter will be required to keep records of all the export documents, in
+manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
+from the date of GAED issued by DGFT.', 'Record Keeping
 The exporter will be required to keep records of all the export documents, in
 manual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years
 from the date of GAED issued by DGFT.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10.16 - General Authorisation for Export of Chemicals and related.');
@@ -12838,12 +14750,9 @@ Categories / Sub Categories, details of the entire supply chain (buyer,
 consignee, end user, etc.) of an intended export is to be provided.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('10.16', 'GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
 within 30 days from the last quarter;
-2.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.16', 'Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.');
+10.16 General Authorisation for Export of Chemicals and related
+Equipment (GAEC) of SCOMET items
+A.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('10.16', 'Detailed description of the items that are intended to be exported
 under
 this
@@ -13031,11 +14940,6 @@ Inter-Ministerial Working Group (IMWG) based on the submitted
 application and other supporting documents submitted by the applicant
 exporter in the prescribed proforma including;
 a.');
-INSERT INTO documents (section_code, document_name) VALUES ('10.16', 'Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.');
 INSERT INTO documents (section_code, document_name) VALUES ('10.16', 'Undertaking on the letterhead of the firm duly signed and stamped by
 the authorized signatory stating the following:
 i.');
@@ -13116,19 +15020,15 @@ adverse report on proliferation concern or for non-submission of mandatory post-
 shipment details / reports / documents within the prescribed timelines or for non-
 compliance with the conditions of the proposed policy.');
 INSERT INTO authorities (section_code, authority_name) VALUES ('10.16', 'DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('10.16', 'GAEIS issued shall be liable to be suspended/revoked by the DGFT');
 INSERT INTO authorities (section_code, authority_name) VALUES ('10.16', 'GAEC issued shall be liable to be suspended / revoked by the DGFT');
 INSERT INTO authorities (section_code, authority_name) VALUES ('10.16', 'DGFT or authorized representatives of Government');
 INSERT INTO authorities (section_code, authority_name) VALUES ('10.16', 'GAED issued by DGFT');
 INSERT INTO authorities (section_code, authority_name) VALUES ('10.16', 'GAED issued shall be liable to be suspended / revoked by the DGFT');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('10.16', 'GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
 within 30 days from the last quarter;
-2.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.16', 'Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.');
+10.16 General Authorisation for Export of Chemicals and related
+Equipment (GAEC) of SCOMET items
+A.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('10.16', 'After issuance of GAEC authorisation and before actual export, the
 applicant exporter must ensure the following:
 i.');
@@ -13215,13 +15115,10 @@ exporter in the prescribed proforma including;
 a.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.16', 7, 'GAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported
 within 30 days from the last quarter;
-2.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.16', 8, 'Suspension / Revocation
-GAEIS issued shall be liable to be suspended/revoked by the DGFT on receipt of an
-adverse report on proliferation concern or for non-submission of mandatory post-
-shipment details/reports/documents within the prescribed timelines or non-
-compliance with the conditions of the proposed policy.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.16', 9, 'The applicant exporter declares that subsequent to issue of export
+10.16 General Authorisation for Export of Chemicals and related
+Equipment (GAEC) of SCOMET items
+A.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.16', 8, 'The applicant exporter declares that subsequent to issue of export
 authorisation, if the licensee has been notified in writing by DGFT
 or if they know or has reason to believe that an item may be
 intended for military end use or has a potential risk of use in or
@@ -13229,6 +15126,8 @@ diversion to weapons of mass destruction (WMD) or in their
 missile system, the exporter would not be eligible for GAEC for
 export of that/those item(s) and would apply separately to DGFT
 for a fresh authorisation in terms of regular policy.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.16', 9, 'A declaration is to be submitted by the exporter on Letter Head duly signed and
+stamped stating that export shall only be done for civilian end use.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.16', 10, 'Run validation: In respect of export/re-export of SCOMET items under the Categories / Sub
 Categories of 1C, 1D,1E, 3D001 and 3D004 (excluding software and
 technology), as well as chemicals listed in the Appendix 10(N), to the
@@ -13240,7 +15139,10 @@ INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.16', 11,
 10(N), the applicant shall provide the list of other destination countries
 where such exports/re-exports are intended under GAEC, for suitable
 consideration.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.16', 12, 'Run validation: GAEIS cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.16', 12, 'Run validation: Any on-site inspection will be allowed by the applicant exporter, if
+required by the DGFT or authorized representatives of
+Government of India;
+ii.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'for');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'and');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'the');
@@ -13252,8 +15154,6 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'etc');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'end');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'out');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'HBP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'non');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'EUC');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'Any');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'use');
@@ -13261,6 +15161,8 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'iii');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'has');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'WMD');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'Act');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'keywords', 'ANF');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'tags', '10.16');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'tags', 'General Authorisation for Export of Chemicals and related');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.16', 'tags', 'business-rule');
@@ -13325,72 +15227,6 @@ reported within 30 days from the last quarter;
 Authorisation repair shall be valid for a period of 1 year from the date
 Issued under of issue of GAER subject to subsequent post reporting(s)
 GAER Policy within 30 days from such export.
-5. SCOMET GAED issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for a
-Issued under period of Three years from the date of issue of
-GAED Policy GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6. SCOMET GAET issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for
-Issued under Three years from the date of issue of GAET subject to
-GAET Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.
-1110
-S.No. | Type of SCOMET | Validity Period
-| Authorisation |
-1 | SCOMET
-Authorisation | The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.
-2 | SCOMET
-Authorisation
-Issued under
-GAICT Policy | GAICT authorisation issued for intra-company transfers
-of SCOMET items/software/technology shall be valid for
-a period of 3(three years) from the date of issue of
-authorisation and shall be further subject to the
-following validity timelines, whichever is earlier:
-i. Till the validity of license exception of foreign parent
-company; or
-ii. Till the validity of license exception of foreign parent
-company for subsidiary(ies) of the parent company
-abroad; or
-iii. Till the validity of Master Service Agreement
-(MSA)/Contract with the foreign parent company
-and the Indian subsidiary.
-3 | SCOMET
-Authorisation
-issued under
-GAEC Policy | GAEC issued for export / re-export of SCOMET items
-under the above Categories / Sub Categories (excluding
-software and technology) shall be valid for a period of
-5(five) years from the date of issue of GAEC subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter;
-4 | SCOMET
-Authorisation
-Issued under
-GAER Policy | GAER issued for export of imported SCOMET items after
-repair shall be valid for a period of 1 year from the date
-of issue of GAER subject to subsequent post reporting(s)
-within 30 days from such export.
-5. | SCOMET
-Authorisation
-Issued under
-GAED Policy | GAED issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for a
-period of Three years from the date of issue of
-GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6. | SCOMET
-Authorisation
-Issued under
-GAET Policy | GAET issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for
-Three years from the date of issue of GAET subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.
 10.17 Validity Period of SCOMET Authorisations
 The validity period of SCOMET authorisations from the date of issue shall be as
 follows, unless specified otherwise
@@ -13463,12 +15299,7 @@ GAET issued for export / re-export of SCOMET items under
 the above Categories / Sub Categories shall be valid for
 Three years from the date of issue of GAET subject to
 subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-7. SCOMET GAEIS issued for export / re-export of SCOMET items
-Authorisation under the above Categories / Sub Categories shall be valid
-Issued under for Three years from the date of issue of GAEIS subject to
-GAEIS Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter', '[42, 43]', '["The", "for", "and", "ies", "iii", "MSA", "Sub", "from", "date", "Type", "Till", "with", "GAEC", "five", "post", "days", "last", "GAER", "year", "such"]', 'Support Validity Period of SCOMET Authorisations processing and compliance validation.', '["10.17", "Validity Period of SCOMET Authorisations", "business-rule", "document-driven", "dgft"]');
+reported within 30 days from the last quarter', '[42]', '["The", "for", "and", "ies", "iii", "MSA", "Sub", "from", "date", "Type", "Till", "with", "GAEC", "five", "post", "days", "last", "GAER", "year", "such"]', 'Support Validity Period of SCOMET Authorisations processing and compliance validation.', '["10.17", "Validity Period of SCOMET Authorisations", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R001', '10.17', '10.17 Validity Period of SCOMET Authorisations
 The validity period of SCOMET authorisations from the date of issue shall be as
 follows, unless specified otherwise
@@ -13557,232 +15388,7 @@ reported within 30 days from the last quarter;
 4 SCOMET GAER issued for export of imported SCOMET items after
 Authorisation repair shall be valid for a period of 1 year from the date
 Issued under of issue of GAER subject to subsequent post reporting(s)
-GAER Policy within 30 days from such export.', 'SCOMET GAED issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for a
-Issued under period of Three years from the date of issue of
-GAED Policy GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.', 'Till the validity of license exception of foreign parent
-company for subsidiary(ies) of the parent company
-abroad; or
-iii.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R005', '10.17', 'SCOMET GAED issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for a
-Issued under period of Three years from the date of issue of
-GAED Policy GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.', 'business_rule', 'Validity Period of SCOMET Authorisations', 'SCOMET GAED issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for a
-Issued under period of Three years from the date of issue of
-GAED Policy GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.', 'SCOMET GAED issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for a
-Issued under period of Three years from the date of issue of
-GAED Policy GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.', 'SCOMET GAET issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for
-Issued under Three years from the date of issue of GAET subject to
-GAET Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.', '| Type of SCOMET | Validity Period
-| Authorisation |
-1 | SCOMET
-Authorisation | The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R006', '10.17', 'SCOMET GAET issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for
-Issued under Three years from the date of issue of GAET subject to
-GAET Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.', 'business_rule', 'Validity Period of SCOMET Authorisations', 'SCOMET GAET issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for
-Issued under Three years from the date of issue of GAET subject to
-GAET Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.', 'SCOMET GAET issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for
-Issued under Three years from the date of issue of GAET subject to
-GAET Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.', '2 | SCOMET
-Authorisation
-Issued under
-GAICT Policy | GAICT authorisation issued for intra-company transfers
-of SCOMET items/software/technology shall be valid for
-a period of 3(three years) from the date of issue of
-authorisation and shall be further subject to the
-following validity timelines, whichever is earlier:
-i.', 'Type of SCOMET
-Authorisation
-Validity Period
-1
-SCOMET
-Authorisation
-The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R007', '10.17', '| Type of SCOMET | Validity Period
-| Authorisation |
-1 | SCOMET
-Authorisation | The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', 'business_rule', 'Validity Period of SCOMET Authorisations', '| Type of SCOMET | Validity Period
-| Authorisation |
-1 | SCOMET
-Authorisation | The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', '| Type of SCOMET | Validity Period
-| Authorisation |
-1 | SCOMET
-Authorisation | The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', '3 | SCOMET
-Authorisation
-issued under
-GAEC Policy | GAEC issued for export / re-export of SCOMET items
-under the above Categories / Sub Categories (excluding
-software and technology) shall be valid for a period of
-5(five) years from the date of issue of GAEC subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter;
-4 | SCOMET
-Authorisation
-Issued under
-GAER Policy | GAER issued for export of imported SCOMET items after
-repair shall be valid for a period of 1 year from the date
-of issue of GAER subject to subsequent post reporting(s)
-within 30 days from such export.', 'Type of SCOMET
-Authorisation
-Validity Period
-1
-SCOMET
-Authorisation
-The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R008', '10.17', '2 | SCOMET
-Authorisation
-Issued under
-GAICT Policy | GAICT authorisation issued for intra-company transfers
-of SCOMET items/software/technology shall be valid for
-a period of 3(three years) from the date of issue of
-authorisation and shall be further subject to the
-following validity timelines, whichever is earlier:
-i.', 'business_rule', 'Validity Period of SCOMET Authorisations', '2 | SCOMET
-Authorisation
-Issued under
-GAICT Policy | GAICT authorisation issued for intra-company transfers
-of SCOMET items/software/technology shall be valid for
-a period of 3(three years) from the date of issue of
-authorisation and shall be further subject to the
-following validity timelines, whichever is earlier:
-i.', '2 | SCOMET
-Authorisation
-Issued under
-GAICT Policy | GAICT authorisation issued for intra-company transfers
-of SCOMET items/software/technology shall be valid for
-a period of 3(three years) from the date of issue of
-authorisation and shall be further subject to the
-following validity timelines, whichever is earlier:
-i.', '| SCOMET
-Authorisation
-Issued under
-GAED Policy | GAED issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for a
-period of Three years from the date of issue of
-GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.', 'Type of SCOMET
-Authorisation
-Validity Period
-1
-SCOMET
-Authorisation
-The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R009', '10.17', '3 | SCOMET
-Authorisation
-issued under
-GAEC Policy | GAEC issued for export / re-export of SCOMET items
-under the above Categories / Sub Categories (excluding
-software and technology) shall be valid for a period of
-5(five) years from the date of issue of GAEC subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter;
-4 | SCOMET
-Authorisation
-Issued under
-GAER Policy | GAER issued for export of imported SCOMET items after
-repair shall be valid for a period of 1 year from the date
-of issue of GAER subject to subsequent post reporting(s)
-within 30 days from such export.', 'business_rule', 'Validity Period of SCOMET Authorisations', '3 | SCOMET
-Authorisation
-issued under
-GAEC Policy | GAEC issued for export / re-export of SCOMET items
-under the above Categories / Sub Categories (excluding
-software and technology) shall be valid for a period of
-5(five) years from the date of issue of GAEC subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter;
-4 | SCOMET
-Authorisation
-Issued under
-GAER Policy | GAER issued for export of imported SCOMET items after
-repair shall be valid for a period of 1 year from the date
-of issue of GAER subject to subsequent post reporting(s)
-within 30 days from such export.', '3 | SCOMET
-Authorisation
-issued under
-GAEC Policy | GAEC issued for export / re-export of SCOMET items
-under the above Categories / Sub Categories (excluding
-software and technology) shall be valid for a period of
-5(five) years from the date of issue of GAEC subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter;
-4 | SCOMET
-Authorisation
-Issued under
-GAER Policy | GAER issued for export of imported SCOMET items after
-repair shall be valid for a period of 1 year from the date
-of issue of GAER subject to subsequent post reporting(s)
-within 30 days from such export.', '| SCOMET
-Authorisation
-Issued under
-GAET Policy | GAET issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for
-Three years from the date of issue of GAET subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.', 'Type of SCOMET
-Authorisation
-Validity Period
-1
-SCOMET
-Authorisation
-The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R010', '10.17', '| SCOMET
-Authorisation
-Issued under
-GAED Policy | GAED issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for a
-period of Three years from the date of issue of
-GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.', 'business_rule', 'Validity Period of SCOMET Authorisations', '| SCOMET
-Authorisation
-Issued under
-GAED Policy | GAED issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for a
-period of Three years from the date of issue of
-GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.', '| SCOMET
-Authorisation
-Issued under
-GAED Policy | GAED issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for a
-period of Three years from the date of issue of
-GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.', '2
+GAER Policy within 30 days from such export.', '2
 SCOMET
 Authorisation
 Issued under
@@ -13792,39 +15398,32 @@ of SCOMET items/software/technology shall be valid for
 a period of 3(three years) from the date of issue of
 authorisation and shall be further subject to the
 following validity timelines, whichever is earlier:
-i.', 'Type of SCOMET
+i.', 'Till the validity of license exception of foreign parent
+company for subsidiary(ies) of the parent company
+abroad; or
+iii.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R005', '10.17', 'Type of SCOMET
 Authorisation
 Validity Period
 1
 SCOMET
 Authorisation
 The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R011', '10.17', '| SCOMET
+for a period of 24 months, unless otherwise specified.', 'business_rule', 'Validity Period of SCOMET Authorisations', 'Type of SCOMET
 Authorisation
-Issued under
-GAET Policy | GAET issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for
-Three years from the date of issue of GAET subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.', 'business_rule', 'Validity Period of SCOMET Authorisations', '| SCOMET
+Validity Period
+1
+SCOMET
 Authorisation
-Issued under
-GAET Policy | GAET issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for
-Three years from the date of issue of GAET subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.', '| SCOMET
+The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.', 'Type of SCOMET
 Authorisation
-Issued under
-GAET Policy | GAET issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for
-Three years from the date of issue of GAET subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.', '3
+Validity Period
+1
+SCOMET
+Authorisation
+The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.', '3
 SCOMET
 Authorisation
 issued under
@@ -13851,45 +15450,7 @@ SCOMET
 Authorisation
 The validity period of the SCOMET authorisation shall be
 for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R012', '10.17', 'Type of SCOMET
-Authorisation
-Validity Period
-1
-SCOMET
-Authorisation
-The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', 'business_rule', 'Validity Period of SCOMET Authorisations', 'Type of SCOMET
-Authorisation
-Validity Period
-1
-SCOMET
-Authorisation
-The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', 'Type of SCOMET
-Authorisation
-Validity Period
-1
-SCOMET
-Authorisation
-The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', 'SCOMET
-Authorisation
-Issued under
-GAED Policy
-GAED issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for a
-period of Three years from the date of issue of
-GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.', 'Type of SCOMET
-Authorisation
-Validity Period
-1
-SCOMET
-Authorisation
-The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R013', '10.17', '2
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R006', '10.17', '2
 SCOMET
 Authorisation
 Issued under
@@ -13922,13 +15483,13 @@ following validity timelines, whichever is earlier:
 i.', 'SCOMET
 Authorisation
 Issued under
-GAET Policy
-GAET issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for
-Three years from the date of issue of GAET subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-7.', 'Type of SCOMET
+GAED Policy
+GAED issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for a
+period of Three years from the date of issue of
+GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;
+6.', 'Type of SCOMET
 Authorisation
 Validity Period
 1
@@ -13936,7 +15497,7 @@ SCOMET
 Authorisation
 The validity period of the SCOMET authorisation shall be
 for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R014', '10.17', '3
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R007', '10.17', '3
 SCOMET
 Authorisation
 issued under
@@ -13993,10 +15554,14 @@ GAER Policy
 GAER issued for export of imported SCOMET items after
 repair shall be valid for a period of 1 year from the date
 of issue of GAER subject to subsequent post reporting(s)
-within 30 days from such export.', 'SCOMET GAEIS issued for export / re-export of SCOMET items
-Authorisation under the above Categories / Sub Categories shall be valid
-Issued under for Three years from the date of issue of GAEIS subject to
-GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+within 30 days from such export.', 'SCOMET
+Authorisation
+Issued under
+GAET Policy
+GAET issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for
+Three years from the date of issue of GAET subject to
+subsequent post reporting(s) on quarterly basis to be
 reported within 30 days from the last quarter', 'Type of SCOMET
 Authorisation
 Validity Period
@@ -14005,7 +15570,7 @@ SCOMET
 Authorisation
 The validity period of the SCOMET authorisation shall be
 for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R015', '10.17', 'SCOMET
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R008', '10.17', 'SCOMET
 Authorisation
 Issued under
 GAED Policy
@@ -14032,10 +15597,14 @@ the above Categories / Sub Categories shall be valid for a
 period of Three years from the date of issue of
 GAED subject to subsequent post reporting(s) on quarterly
 basis to be reported within 30 days from the last quarter;
-6.', 'SCOMET GAEIS issued for export / re-export of SCOMET items
-Authorisation under the above Categories / Sub Categories shall be valid
-Issued under for Three years from the date of issue of GAEIS subject to
-GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+6.', 'SCOMET
+Authorisation
+Issued under
+GAET Policy
+GAET issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for
+Three years from the date of issue of GAET subject to
+subsequent post reporting(s) on quarterly basis to be
 reported within 30 days from the last quarter', 'Type of SCOMET
 Authorisation
 Validity Period
@@ -14044,7 +15613,7 @@ SCOMET
 Authorisation
 The validity period of the SCOMET authorisation shall be
 for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R016', '10.17', 'SCOMET
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R009', '10.17', 'SCOMET
 Authorisation
 Issued under
 GAET Policy
@@ -14052,8 +15621,7 @@ GAET issued for export / re-export of SCOMET items under
 the above Categories / Sub Categories shall be valid for
 Three years from the date of issue of GAET subject to
 subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-7.', 'business_rule', 'Validity Period of SCOMET Authorisations', 'SCOMET
+reported within 30 days from the last quarter', 'business_rule', 'Validity Period of SCOMET Authorisations', 'SCOMET
 Authorisation
 Issued under
 GAET Policy
@@ -14061,8 +15629,7 @@ GAET issued for export / re-export of SCOMET items under
 the above Categories / Sub Categories shall be valid for
 Three years from the date of issue of GAET subject to
 subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-7.', 'SCOMET
+reported within 30 days from the last quarter', 'SCOMET
 Authorisation
 Issued under
 GAET Policy
@@ -14070,35 +15637,14 @@ GAET issued for export / re-export of SCOMET items under
 the above Categories / Sub Categories shall be valid for
 Three years from the date of issue of GAET subject to
 subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-7.', 'SCOMET GAEIS issued for export / re-export of SCOMET items
-Authorisation under the above Categories / Sub Categories shall be valid
-Issued under for Three years from the date of issue of GAEIS subject to
-GAEIS Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter', 'Type of SCOMET
+reported within 30 days from the last quarter', 'SCOMET
 Authorisation
-Validity Period
-1
-SCOMET
-Authorisation
-The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 10.17 - Validity Period of SCOMET Authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC10_17-R017', '10.17', 'SCOMET GAEIS issued for export / re-export of SCOMET items
-Authorisation under the above Categories / Sub Categories shall be valid
-Issued under for Three years from the date of issue of GAEIS subject to
-GAEIS Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter', 'business_rule', 'Validity Period of SCOMET Authorisations', 'SCOMET GAEIS issued for export / re-export of SCOMET items
-Authorisation under the above Categories / Sub Categories shall be valid
-Issued under for Three years from the date of issue of GAEIS subject to
-GAEIS Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter', 'SCOMET GAEIS issued for export / re-export of SCOMET items
-Authorisation under the above Categories / Sub Categories shall be valid
-Issued under for Three years from the date of issue of GAEIS subject to
-GAEIS Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter', 'SCOMET GAEIS issued for export / re-export of SCOMET items
-Authorisation under the above Categories / Sub Categories shall be valid
-Issued under for Three years from the date of issue of GAEIS subject to
-GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+Issued under
+GAET Policy
+GAET issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for
+Three years from the date of issue of GAET subject to
+subsequent post reporting(s) on quarterly basis to be
 reported within 30 days from the last quarter', 'Type of SCOMET
 Authorisation
 Validity Period
@@ -14131,66 +15677,6 @@ reported within 30 days from the last quarter;
 Authorisation repair shall be valid for a period of 1 year from the date
 Issued under of issue of GAER subject to subsequent post reporting(s)
 GAER Policy within 30 days from such export.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.17', 'SCOMET GAED issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for a
-Issued under period of Three years from the date of issue of
-GAED Policy GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.17', 'SCOMET GAET issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for
-Issued under Three years from the date of issue of GAET subject to
-GAET Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.17', '| Type of SCOMET | Validity Period
-| Authorisation |
-1 | SCOMET
-Authorisation | The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.17', '2 | SCOMET
-Authorisation
-Issued under
-GAICT Policy | GAICT authorisation issued for intra-company transfers
-of SCOMET items/software/technology shall be valid for
-a period of 3(three years) from the date of issue of
-authorisation and shall be further subject to the
-following validity timelines, whichever is earlier:
-i.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.17', '3 | SCOMET
-Authorisation
-issued under
-GAEC Policy | GAEC issued for export / re-export of SCOMET items
-under the above Categories / Sub Categories (excluding
-software and technology) shall be valid for a period of
-5(five) years from the date of issue of GAEC subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter;
-4 | SCOMET
-Authorisation
-Issued under
-GAER Policy | GAER issued for export of imported SCOMET items after
-repair shall be valid for a period of 1 year from the date
-of issue of GAER subject to subsequent post reporting(s)
-within 30 days from such export.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.17', '| SCOMET
-Authorisation
-Issued under
-GAED Policy | GAED issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for a
-period of Three years from the date of issue of
-GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.17', '| SCOMET
-Authorisation
-Issued under
-GAET Policy | GAET issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for
-Three years from the date of issue of GAET subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('10.17', 'Type of SCOMET
 Authorisation
 Validity Period
@@ -14248,12 +15734,6 @@ GAET issued for export / re-export of SCOMET items under
 the above Categories / Sub Categories shall be valid for
 Three years from the date of issue of GAET subject to
 subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-7.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('10.17', 'SCOMET GAEIS issued for export / re-export of SCOMET items
-Authorisation under the above Categories / Sub Categories shall be valid
-Issued under for Three years from the date of issue of GAEIS subject to
-GAEIS Policy subsequent post reporting(s) on quarterly basis to be
 reported within 30 days from the last quarter');
 INSERT INTO documents (section_code, document_name) VALUES ('10.17', 'Till the validity of license exception of foreign parent
 company; or
@@ -14282,66 +15762,6 @@ reported within 30 days from the last quarter;
 Authorisation repair shall be valid for a period of 1 year from the date
 Issued under of issue of GAER subject to subsequent post reporting(s)
 GAER Policy within 30 days from such export.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.17', 'SCOMET GAED issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for a
-Issued under period of Three years from the date of issue of
-GAED Policy GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.17', 'SCOMET GAET issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for
-Issued under Three years from the date of issue of GAET subject to
-GAET Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.17', '| Type of SCOMET | Validity Period
-| Authorisation |
-1 | SCOMET
-Authorisation | The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.17', '2 | SCOMET
-Authorisation
-Issued under
-GAICT Policy | GAICT authorisation issued for intra-company transfers
-of SCOMET items/software/technology shall be valid for
-a period of 3(three years) from the date of issue of
-authorisation and shall be further subject to the
-following validity timelines, whichever is earlier:
-i.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.17', '3 | SCOMET
-Authorisation
-issued under
-GAEC Policy | GAEC issued for export / re-export of SCOMET items
-under the above Categories / Sub Categories (excluding
-software and technology) shall be valid for a period of
-5(five) years from the date of issue of GAEC subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter;
-4 | SCOMET
-Authorisation
-Issued under
-GAER Policy | GAER issued for export of imported SCOMET items after
-repair shall be valid for a period of 1 year from the date
-of issue of GAER subject to subsequent post reporting(s)
-within 30 days from such export.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.17', '| SCOMET
-Authorisation
-Issued under
-GAED Policy | GAED issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for a
-period of Three years from the date of issue of
-GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.17', '| SCOMET
-Authorisation
-Issued under
-GAET Policy | GAET issued for export / re-export of SCOMET items under
-the above Categories / Sub Categories shall be valid for
-Three years from the date of issue of GAET subject to
-subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('10.17', 'Type of SCOMET
 Authorisation
 Validity Period
@@ -14399,12 +15819,6 @@ GAET issued for export / re-export of SCOMET items under
 the above Categories / Sub Categories shall be valid for
 Three years from the date of issue of GAET subject to
 subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-7.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('10.17', 'SCOMET GAEIS issued for export / re-export of SCOMET items
-Authorisation under the above Categories / Sub Categories shall be valid
-Issued under for Three years from the date of issue of GAEIS subject to
-GAEIS Policy subsequent post reporting(s) on quarterly basis to be
 reported within 30 days from the last quarter');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('10.17', '10.17 Validity Period of SCOMET Authorisations
 The validity period of SCOMET authorisations from the date of issue shall be as
@@ -14421,11 +15835,6 @@ INSERT INTO exceptions (section_code, exception_text) VALUES ('10.17', 'Till the
 company for subsidiary(ies) of the parent company
 abroad; or
 iii.');
-INSERT INTO exceptions (section_code, exception_text) VALUES ('10.17', '| Type of SCOMET | Validity Period
-| Authorisation |
-1 | SCOMET
-Authorisation | The validity period of the SCOMET authorisation shall be
-for a period of 24 months, unless otherwise specified.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('10.17', 'Type of SCOMET
 Authorisation
 Validity Period
@@ -14468,27 +15877,47 @@ reported within 30 days from the last quarter;
 Authorisation repair shall be valid for a period of 1 year from the date
 Issued under of issue of GAER subject to subsequent post reporting(s)
 GAER Policy within 30 days from such export.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.17', 7, 'SCOMET GAED issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for a
-Issued under period of Three years from the date of issue of
-GAED Policy GAED subject to subsequent post reporting(s) on quarterly
-basis to be reported within 30 days from the last quarter;
-6.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.17', 8, 'SCOMET GAET issued for export / re-export of SCOMET items under
-Authorisation the above Categories / Sub Categories shall be valid for
-Issued under Three years from the date of issue of GAET subject to
-GAET Policy subsequent post reporting(s) on quarterly basis to be
-reported within 30 days from the last quarter
-pg.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.17', 9, '2 | SCOMET
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.17', 7, '2
+SCOMET
 Authorisation
 Issued under
-GAICT Policy | GAICT authorisation issued for intra-company transfers
+GAICT Policy
+GAICT authorisation issued for intra-company transfers
 of SCOMET items/software/technology shall be valid for
 a period of 3(three years) from the date of issue of
 authorisation and shall be further subject to the
 following validity timelines, whichever is earlier:
 i.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.17', 8, '3
+SCOMET
+Authorisation
+issued under
+GAEC Policy
+GAEC issued for export / re-export of SCOMET items
+under the above Categories / Sub Categories (excluding
+software and technology) shall be valid for a period of
+5(five) years from the date of issue of GAEC subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter;
+4
+SCOMET
+Authorisation
+Issued under
+GAER Policy
+GAER issued for export of imported SCOMET items after
+repair shall be valid for a period of 1 year from the date
+of issue of GAER subject to subsequent post reporting(s)
+within 30 days from such export.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.17', 9, 'SCOMET
+Authorisation
+Issued under
+GAED Policy
+GAED issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for a
+period of Three years from the date of issue of
+GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;
+6.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10.17', 10, 'Run validation: 10.17 Validity Period of SCOMET Authorisations
 The validity period of SCOMET authorisations from the date of issue shall be as
 follows, unless specified otherwise
@@ -14532,6 +15961,767 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.17', 
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.17', 'tags', 'business-rule');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.17', 'tags', 'document-driven');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10.17', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '5', 'SCOMET GAED issued for export / re-export of SCOMET items under', 'SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;', 'Indha SCOMET GAED issued for export / re-export of SCOMET items under section-la, SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories kandippa be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;', '5. SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;', 'SCOMET GAED issued for export / re-export of SCOMET items under governs how DGFT business controls should be applied, validated, and enforced.', 'SCOMET GAED issued for export / re-export of SCOMET items under explains the operating rule set that DEKAI should enforce. Key control points include SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter; The section also drives actions such as SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;.', 'Indha SCOMET GAED issued for export / re-export of SCOMET items under section-la, SCOMET GAED issued for export / re-export of SCOMET items under explains the operating rule set that DEKAI should enforce. Key control points include SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories kandippa be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter; The section also drives actions such as SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories kandippa be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;.', '5. SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;', '[42]', '["for", "the", "Sub", "GAED", "from", "date", "post", "days", "last", "items", "under", "above", "shall", "valid", "Three", "years", "issue", "basis", "SCOMET", "issued"]', 'Support SCOMET GAED issued for export / re-export of SCOMET items under processing and compliance validation.', '["5", "SCOMET GAED issued for export / re-export of SCOMET items under", "business-rule", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC5-R001', '5', 'SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;', 'business_rule', 'SCOMET GAED issued for export / re-export of SCOMET items under', 'SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;', 'SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;', 'SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5 - SCOMET GAED issued for export / re-export of SCOMET items under.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5', 'SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5', 'SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 1, 'Evaluate condition: SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 2, 'SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 3, 'Run validation: SCOMET GAED issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for a
+Issued under period of Three years from the date of issue of
+GAED Policy GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'Sub');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'GAED');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'date');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'post');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'days');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'last');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'items');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'under');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'above');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'valid');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'Three');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'years');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'issue');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'basis');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'SCOMET');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'issued');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', '5');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'SCOMET GAED issued for export / re-export of SCOMET items under');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '6', 'SCOMET GAET issued for export / re-export of SCOMET items under', 'SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.', 'Indha SCOMET GAET issued for export / re-export of SCOMET items under section-la, SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories kandippa be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.', '6. SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg. 1110
+S.No.', 'SCOMET GAET issued for export / re-export of SCOMET items under governs how DGFT business controls should be applied, validated, and enforced.', 'SCOMET GAET issued for export / re-export of SCOMET items under explains the operating rule set that DEKAI should enforce. Key control points include SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg. The section also drives actions such as SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg..', 'Indha SCOMET GAET issued for export / re-export of SCOMET items under section-la, SCOMET GAET issued for export / re-export of SCOMET items under explains the operating rule set that DEKAI should enforce. Key control points include SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories kandippa be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg. The section also drives actions such as SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories kandippa be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg..', '6. SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.
+1110
+S.No. | Type of SCOMET | Validity Period
+| Authorisation |
+1 | SCOMET
+Authorisation | The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.
+2 | SCOMET
+Authorisation
+Issued under
+GAICT Policy | GAICT authorisation issued for intra-company transfers
+of SCOMET items/software/technology shall be valid for
+a period of 3(three years) from the date of issue of
+authorisation and shall be further subject to the
+following validity timelines, whichever is earlier:
+i. Till the validity of license exception of foreign parent
+company; or
+ii. Till the validity of license exception of foreign parent
+company for subsidiary(ies) of the parent company
+abroad; or
+iii. Till the validity of Master Service Agreement
+(MSA)/Contract with the foreign parent company
+and the Indian subsidiary.
+3 | SCOMET
+Authorisation
+issued under
+GAEC Policy | GAEC issued for export / re-export of SCOMET items
+under the above Categories / Sub Categories (excluding
+software and technology) shall be valid for a period of
+5(five) years from the date of issue of GAEC subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter;
+4 | SCOMET
+Authorisation
+Issued under
+GAER Policy | GAER issued for export of imported SCOMET items after
+repair shall be valid for a period of 1 year from the date
+of issue of GAER subject to subsequent post reporting(s)
+within 30 days from such export.
+5. | SCOMET
+Authorisation
+Issued under
+GAED Policy | GAED issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for a
+period of Three years from the date of issue of
+GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;
+6. | SCOMET
+Authorisation
+Issued under
+GAET Policy | GAET issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for
+Three years from the date of issue of GAET subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.', '[42]', '["for", "the", "Sub", "and", "ies", "iii", "MSA", "GAET", "from", "date", "post", "days", "last", "Type", "Till", "with", "GAEC", "five", "GAER", "year"]', 'Support SCOMET GAET issued for export / re-export of SCOMET items under processing and compliance validation.', '["6", "SCOMET GAET issued for export / re-export of SCOMET items under", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC6-R001', '6', 'SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.', 'business_rule', 'SCOMET GAET issued for export / re-export of SCOMET items under', 'SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.', 'SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.', 'SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.', '| Type of SCOMET | Validity Period
+| Authorisation |
+1 | SCOMET
+Authorisation | The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.', 'DEKAI should produce a compliance decision for 6 - SCOMET GAET issued for export / re-export of SCOMET items under.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC6-R002', '6', '| Type of SCOMET | Validity Period
+| Authorisation |
+1 | SCOMET
+Authorisation | The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.', 'business_rule', 'SCOMET GAET issued for export / re-export of SCOMET items under', '| Type of SCOMET | Validity Period
+| Authorisation |
+1 | SCOMET
+Authorisation | The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.', '| Type of SCOMET | Validity Period
+| Authorisation |
+1 | SCOMET
+Authorisation | The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.', '2 | SCOMET
+Authorisation
+Issued under
+GAICT Policy | GAICT authorisation issued for intra-company transfers
+of SCOMET items/software/technology shall be valid for
+a period of 3(three years) from the date of issue of
+authorisation and shall be further subject to the
+following validity timelines, whichever is earlier:
+i.', 'Till the validity of license exception of foreign parent
+company; or
+ii.', 'DEKAI should produce a compliance decision for 6 - SCOMET GAET issued for export / re-export of SCOMET items under.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC6-R003', '6', '2 | SCOMET
+Authorisation
+Issued under
+GAICT Policy | GAICT authorisation issued for intra-company transfers
+of SCOMET items/software/technology shall be valid for
+a period of 3(three years) from the date of issue of
+authorisation and shall be further subject to the
+following validity timelines, whichever is earlier:
+i.', 'business_rule', 'SCOMET GAET issued for export / re-export of SCOMET items under', '2 | SCOMET
+Authorisation
+Issued under
+GAICT Policy | GAICT authorisation issued for intra-company transfers
+of SCOMET items/software/technology shall be valid for
+a period of 3(three years) from the date of issue of
+authorisation and shall be further subject to the
+following validity timelines, whichever is earlier:
+i.', '2 | SCOMET
+Authorisation
+Issued under
+GAICT Policy | GAICT authorisation issued for intra-company transfers
+of SCOMET items/software/technology shall be valid for
+a period of 3(three years) from the date of issue of
+authorisation and shall be further subject to the
+following validity timelines, whichever is earlier:
+i.', '3 | SCOMET
+Authorisation
+issued under
+GAEC Policy | GAEC issued for export / re-export of SCOMET items
+under the above Categories / Sub Categories (excluding
+software and technology) shall be valid for a period of
+5(five) years from the date of issue of GAEC subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter;
+4 | SCOMET
+Authorisation
+Issued under
+GAER Policy | GAER issued for export of imported SCOMET items after
+repair shall be valid for a period of 1 year from the date
+of issue of GAER subject to subsequent post reporting(s)
+within 30 days from such export.', 'Till the validity of license exception of foreign parent
+company for subsidiary(ies) of the parent company
+abroad; or
+iii.', 'DEKAI should produce a compliance decision for 6 - SCOMET GAET issued for export / re-export of SCOMET items under.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC6-R004', '6', '3 | SCOMET
+Authorisation
+issued under
+GAEC Policy | GAEC issued for export / re-export of SCOMET items
+under the above Categories / Sub Categories (excluding
+software and technology) shall be valid for a period of
+5(five) years from the date of issue of GAEC subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter;
+4 | SCOMET
+Authorisation
+Issued under
+GAER Policy | GAER issued for export of imported SCOMET items after
+repair shall be valid for a period of 1 year from the date
+of issue of GAER subject to subsequent post reporting(s)
+within 30 days from such export.', 'business_rule', 'SCOMET GAET issued for export / re-export of SCOMET items under', '3 | SCOMET
+Authorisation
+issued under
+GAEC Policy | GAEC issued for export / re-export of SCOMET items
+under the above Categories / Sub Categories (excluding
+software and technology) shall be valid for a period of
+5(five) years from the date of issue of GAEC subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter;
+4 | SCOMET
+Authorisation
+Issued under
+GAER Policy | GAER issued for export of imported SCOMET items after
+repair shall be valid for a period of 1 year from the date
+of issue of GAER subject to subsequent post reporting(s)
+within 30 days from such export.', '3 | SCOMET
+Authorisation
+issued under
+GAEC Policy | GAEC issued for export / re-export of SCOMET items
+under the above Categories / Sub Categories (excluding
+software and technology) shall be valid for a period of
+5(five) years from the date of issue of GAEC subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter;
+4 | SCOMET
+Authorisation
+Issued under
+GAER Policy | GAER issued for export of imported SCOMET items after
+repair shall be valid for a period of 1 year from the date
+of issue of GAER subject to subsequent post reporting(s)
+within 30 days from such export.', '| SCOMET
+Authorisation
+Issued under
+GAED Policy | GAED issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for a
+period of Three years from the date of issue of
+GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;
+6.', 'Till the validity of license exception of foreign parent
+company for subsidiary(ies) of the parent company
+abroad; or
+iii.', 'DEKAI should produce a compliance decision for 6 - SCOMET GAET issued for export / re-export of SCOMET items under.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC6-R005', '6', '| SCOMET
+Authorisation
+Issued under
+GAED Policy | GAED issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for a
+period of Three years from the date of issue of
+GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;
+6.', 'business_rule', 'SCOMET GAET issued for export / re-export of SCOMET items under', '| SCOMET
+Authorisation
+Issued under
+GAED Policy | GAED issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for a
+period of Three years from the date of issue of
+GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;
+6.', '| SCOMET
+Authorisation
+Issued under
+GAED Policy | GAED issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for a
+period of Three years from the date of issue of
+GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;
+6.', '| SCOMET
+Authorisation
+Issued under
+GAET Policy | GAET issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for
+Three years from the date of issue of GAET subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.', 'Till the validity of license exception of foreign parent
+company for subsidiary(ies) of the parent company
+abroad; or
+iii.', 'DEKAI should produce a compliance decision for 6 - SCOMET GAET issued for export / re-export of SCOMET items under.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC6-R006', '6', '| SCOMET
+Authorisation
+Issued under
+GAET Policy | GAET issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for
+Three years from the date of issue of GAET subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.', 'business_rule', 'SCOMET GAET issued for export / re-export of SCOMET items under', '| SCOMET
+Authorisation
+Issued under
+GAET Policy | GAET issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for
+Three years from the date of issue of GAET subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.', '| SCOMET
+Authorisation
+Issued under
+GAET Policy | GAET issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for
+Three years from the date of issue of GAET subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.', '| SCOMET
+Authorisation
+Issued under
+GAET Policy | GAET issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for
+Three years from the date of issue of GAET subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.', 'Till the validity of license exception of foreign parent
+company for subsidiary(ies) of the parent company
+abroad; or
+iii.', 'DEKAI should produce a compliance decision for 6 - SCOMET GAET issued for export / re-export of SCOMET items under.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', '| Type of SCOMET | Validity Period
+| Authorisation |
+1 | SCOMET
+Authorisation | The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', '2 | SCOMET
+Authorisation
+Issued under
+GAICT Policy | GAICT authorisation issued for intra-company transfers
+of SCOMET items/software/technology shall be valid for
+a period of 3(three years) from the date of issue of
+authorisation and shall be further subject to the
+following validity timelines, whichever is earlier:
+i.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', '3 | SCOMET
+Authorisation
+issued under
+GAEC Policy | GAEC issued for export / re-export of SCOMET items
+under the above Categories / Sub Categories (excluding
+software and technology) shall be valid for a period of
+5(five) years from the date of issue of GAEC subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter;
+4 | SCOMET
+Authorisation
+Issued under
+GAER Policy | GAER issued for export of imported SCOMET items after
+repair shall be valid for a period of 1 year from the date
+of issue of GAER subject to subsequent post reporting(s)
+within 30 days from such export.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', '| SCOMET
+Authorisation
+Issued under
+GAED Policy | GAED issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for a
+period of Three years from the date of issue of
+GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;
+6.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', '| SCOMET
+Authorisation
+Issued under
+GAET Policy | GAET issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for
+Three years from the date of issue of GAET subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'Till the validity of license exception of foreign parent
+company; or
+ii.');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'Till the validity of license exception of foreign parent
+company for subsidiary(ies) of the parent company
+abroad; or
+iii.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', 'SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', '| Type of SCOMET | Validity Period
+| Authorisation |
+1 | SCOMET
+Authorisation | The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', '2 | SCOMET
+Authorisation
+Issued under
+GAICT Policy | GAICT authorisation issued for intra-company transfers
+of SCOMET items/software/technology shall be valid for
+a period of 3(three years) from the date of issue of
+authorisation and shall be further subject to the
+following validity timelines, whichever is earlier:
+i.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', '3 | SCOMET
+Authorisation
+issued under
+GAEC Policy | GAEC issued for export / re-export of SCOMET items
+under the above Categories / Sub Categories (excluding
+software and technology) shall be valid for a period of
+5(five) years from the date of issue of GAEC subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter;
+4 | SCOMET
+Authorisation
+Issued under
+GAER Policy | GAER issued for export of imported SCOMET items after
+repair shall be valid for a period of 1 year from the date
+of issue of GAER subject to subsequent post reporting(s)
+within 30 days from such export.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', '| SCOMET
+Authorisation
+Issued under
+GAED Policy | GAED issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for a
+period of Three years from the date of issue of
+GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;
+6.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6', '| SCOMET
+Authorisation
+Issued under
+GAET Policy | GAET issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for
+Three years from the date of issue of GAET subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6', '| Type of SCOMET | Validity Period
+| Authorisation |
+1 | SCOMET
+Authorisation | The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6', 'Till the validity of license exception of foreign parent
+company; or
+ii.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6', 'Till the validity of license exception of foreign parent
+company for subsidiary(ies) of the parent company
+abroad; or
+iii.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 1, 'Evaluate condition: SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 2, 'Evaluate condition: | Type of SCOMET | Validity Period
+| Authorisation |
+1 | SCOMET
+Authorisation | The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 3, 'Evaluate condition: 2 | SCOMET
+Authorisation
+Issued under
+GAICT Policy | GAICT authorisation issued for intra-company transfers
+of SCOMET items/software/technology shall be valid for
+a period of 3(three years) from the date of issue of
+authorisation and shall be further subject to the
+following validity timelines, whichever is earlier:
+i.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 4, 'SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 5, '2 | SCOMET
+Authorisation
+Issued under
+GAICT Policy | GAICT authorisation issued for intra-company transfers
+of SCOMET items/software/technology shall be valid for
+a period of 3(three years) from the date of issue of
+authorisation and shall be further subject to the
+following validity timelines, whichever is earlier:
+i.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 6, '3 | SCOMET
+Authorisation
+issued under
+GAEC Policy | GAEC issued for export / re-export of SCOMET items
+under the above Categories / Sub Categories (excluding
+software and technology) shall be valid for a period of
+5(five) years from the date of issue of GAEC subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter;
+4 | SCOMET
+Authorisation
+Issued under
+GAER Policy | GAER issued for export of imported SCOMET items after
+repair shall be valid for a period of 1 year from the date
+of issue of GAER subject to subsequent post reporting(s)
+within 30 days from such export.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 7, '| SCOMET
+Authorisation
+Issued under
+GAED Policy | GAED issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for a
+period of Three years from the date of issue of
+GAED subject to subsequent post reporting(s) on quarterly
+basis to be reported within 30 days from the last quarter;
+6.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 8, '| SCOMET
+Authorisation
+Issued under
+GAET Policy | GAET issued for export / re-export of SCOMET items under
+the above Categories / Sub Categories shall be valid for
+Three years from the date of issue of GAET subject to
+subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 9, 'Run validation: SCOMET GAET issued for export / re-export of SCOMET items under
+Authorisation the above Categories / Sub Categories shall be valid for
+Issued under Three years from the date of issue of GAET subject to
+GAET Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter
+pg.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 10, 'Run validation: | Type of SCOMET | Validity Period
+| Authorisation |
+1 | SCOMET
+Authorisation | The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 11, 'Run validation: 2 | SCOMET
+Authorisation
+Issued under
+GAICT Policy | GAICT authorisation issued for intra-company transfers
+of SCOMET items/software/technology shall be valid for
+a period of 3(three years) from the date of issue of
+authorisation and shall be further subject to the
+following validity timelines, whichever is earlier:
+i.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 12, 'Handle exception: | Type of SCOMET | Validity Period
+| Authorisation |
+1 | SCOMET
+Authorisation | The validity period of the SCOMET authorisation shall be
+for a period of 24 months, unless otherwise specified.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'Sub');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'ies');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'iii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'MSA');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'GAET');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'date');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'post');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'days');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'last');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'Type');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'Till');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'with');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'GAEC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'five');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'GAER');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'year');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', '6');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'SCOMET GAET issued for export / re-export of SCOMET items under');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '7', 'SCOMET GAEIS issued for export / re-export of SCOMET items', 'SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter', 'Indha SCOMET GAEIS issued for export / re-export of SCOMET items section-la, SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories kandippa be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter', '7. SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter', 'SCOMET GAEIS issued for export / re-export of SCOMET items governs how DGFT business controls should be applied, validated, and enforced.', 'SCOMET GAEIS issued for export / re-export of SCOMET items explains the operating rule set that DEKAI should enforce. Key control points include SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter The section also drives actions such as SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter.', 'Indha SCOMET GAEIS issued for export / re-export of SCOMET items section-la, SCOMET GAEIS issued for export / re-export of SCOMET items explains the operating rule set that DEKAI should enforce. Key control points include SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories kandippa be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter The section also drives actions such as SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories kandippa be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter.', '7. SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter', '[43]', '["for", "the", "Sub", "from", "date", "post", "days", "last", "GAEIS", "items", "under", "above", "shall", "valid", "Three", "years", "issue", "basis", "SCOMET", "issued"]', 'Support SCOMET GAEIS issued for export / re-export of SCOMET items processing and compliance validation.', '["7", "SCOMET GAEIS issued for export / re-export of SCOMET items", "business-rule", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH10-SEC7-R001', '7', 'SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter', 'business_rule', 'SCOMET GAEIS issued for export / re-export of SCOMET items', 'SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter', 'SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter', 'SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 7 - SCOMET GAEIS issued for export / re-export of SCOMET items.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('7', 'SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 1, 'Evaluate condition: SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 2, 'SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 3, 'Run validation: SCOMET GAEIS issued for export / re-export of SCOMET items
+Authorisation under the above Categories / Sub Categories shall be valid
+Issued under for Three years from the date of issue of GAEIS subject to
+GAEIS Policy subsequent post reporting(s) on quarterly basis to be
+reported within 30 days from the last quarter');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Sub');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'date');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'post');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'days');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'last');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'GAEIS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'items');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'under');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'above');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'valid');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Three');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'years');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'issue');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'basis');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'SCOMET');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'issued');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', '7');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'SCOMET GAEIS issued for export / re-export of SCOMET items');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'dgft');
 INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('Chapter+10+HBP+(19.05.2026).pdf', '10', 'SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies', '10.18', 'Record Keeping', '10.18 Record Keeping
 Every SCOMET export authorisation holder (including for GAICT and GAEC) shall
 maintain all the relevant records, including all the documents submitted while
@@ -15902,9 +18092,8 @@ A.');
 INSERT INTO glossary (term, definition) VALUES ('GAED', 'Referenced in context: 10.16 (A) Procedure for grant of General Authorization for Export of
 Drones(GAED)
 A.');
-INSERT INTO glossary (term, definition) VALUES ('GAEIS', 'Referenced in context: Para 10.15(II): General Authorization for Export of Information
-Security items under SCOMET Category 8A5 Part 2(GAEIS)
-Export of indigenous');
+INSERT INTO glossary (term, definition) VALUES ('GAEIS', 'Referenced in context: The applicant exporter shall submit an application for getting a one-time license
+under GAEIS through the online SCOMET portal and attach th');
 INSERT INTO glossary (term, definition) VALUES ('GAER', 'Referenced in context: 10.12 Issue of authorisations for repair/replacement of defective
 SCOMET items
 An application for grant of an Authorisation for export/re-ex');

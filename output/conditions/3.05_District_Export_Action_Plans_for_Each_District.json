@@ -2,18 +2,11 @@
   "section": "3.05",
   "conditions": [
     "Identifying the bottlenecks faced by the Industry.",
-    "Identifying institutional responsibilities, specifics of policy,\nregulatory and operational reforms.",
-    "Identifying infrastructure/utilities/logistics/Policy interventions\nrequired.",
-    "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
-    "Clear identification of incentives/Support provided by the State and\nCentral Government.",
-    "Training and development needs for identified export\nproducts/services.",
-    "| | Identifying institutional responsibilities, specifics of policy, |\n| | regulatory and operational reforms.",
-    "| | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation.",
-    "| | Training and development needs for identified export |\n| | products/services.",
     "Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.",
     "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.",
-    "Training\nand\ndevelopment\nneeds\nfor\nidentified\nexport\nproducts/services.",
-    "Mid-term and long-term export strategy/suggestions to promote\nexports of identified products/services from the district."
+    "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+    "Clear identification of incentives/Support provided by the State and\nCentral Government.",
+    "Training\nand\ndevelopment\nneeds\nfor\nidentified\nexport\nproducts/services."
   ],
   "condition_logic": [
     {
@@ -24,15 +17,15 @@
     },
     {
       "id": "3.3.05.2",
-      "if": "Identifying institutional responsibilities, specifics of policy,\nregulatory and operational reforms.",
+      "if": "Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.",
       "then": "Route for review",
-      "source": "Identifying institutional responsibilities, specifics of policy,\nregulatory and operational reforms."
+      "source": "Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms."
     },
     {
       "id": "3.3.05.3",
-      "if": "Identifying infrastructure/utilities/logistics/Policy interventions\nrequired.",
+      "if": "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.",
       "then": "Route for review",
-      "source": "Identifying infrastructure/utilities/logistics/Policy interventions\nrequired."
+      "source": "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired."
     },
     {
       "id": "3.3.05.4",
@@ -48,51 +41,9 @@
     },
     {
       "id": "3.3.05.6",
-      "if": "Training and development needs for identified export\nproducts/services.",
-      "then": "Route for review",
-      "source": "Training and development needs for identified export\nproducts/services."
-    },
-    {
-      "id": "3.3.05.7",
-      "if": "| | Identifying institutional responsibilities, specifics of policy, |\n| | regulatory and operational reforms.",
-      "then": "Route for review",
-      "source": "| | Identifying institutional responsibilities, specifics of policy, |\n| | regulatory and operational reforms."
-    },
-    {
-      "id": "3.3.05.8",
-      "if": "| | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation.",
-      "then": "Route for review",
-      "source": "| | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation."
-    },
-    {
-      "id": "3.3.05.9",
-      "if": "| | Training and development needs for identified export |\n| | products/services.",
-      "then": "Route for review",
-      "source": "| | Training and development needs for identified export |\n| | products/services."
-    },
-    {
-      "id": "3.3.05.10",
-      "if": "Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.",
-      "then": "Route for review",
-      "source": "Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms."
-    },
-    {
-      "id": "3.3.05.11",
-      "if": "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.",
-      "then": "Route for review",
-      "source": "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired."
-    },
-    {
-      "id": "3.3.05.12",
       "if": "Training\nand\ndevelopment\nneeds\nfor\nidentified\nexport\nproducts/services.",
       "then": "Route for review",
       "source": "Training\nand\ndevelopment\nneeds\nfor\nidentified\nexport\nproducts/services."
-    },
-    {
-      "id": "3.3.05.13",
-      "if": "Mid-term and long-term export strategy/suggestions to promote\nexports of identified products/services from the district.",
-      "then": "Route for review",
-      "source": "Mid-term and long-term export strategy/suggestions to promote\nexports of identified products/services from the district."
     }
   ]
 }

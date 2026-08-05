@@ -1,0 +1,37 @@
+{
+  "section": "5",
+  "ui": [
+    {
+      "screen_id": "Identifying_institutional_responsibilities_specifics_of_policy_overview",
+      "name": "Identifying institutional responsibilities, specifics of policy, Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Identifying_institutional_responsibilities_specifics_of_policy_submission",
+      "name": "Identifying institutional responsibilities, specifics of policy, Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "policy_flag",
+        "reforms_flag",
+        "specifics_flag",
+        "regulatory_flag",
+        "identifying_flag"
+      ]
+    }
+  ]
+}

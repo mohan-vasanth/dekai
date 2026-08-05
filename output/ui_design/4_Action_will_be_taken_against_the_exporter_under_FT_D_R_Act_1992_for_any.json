@@ -1,0 +1,37 @@
+{
+  "section": "4",
+  "ui": [
+    {
+      "screen_id": "Action_will_be_taken_against_the_exporter_under_FT_D_R_Act_1992_for_any_overview",
+      "name": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Action_will_be_taken_against_the_exporter_under_FT_D_R_Act_1992_for_any_submission",
+      "name": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "act_flag",
+        "for_flag",
+        "any_flag",
+        "aeo_flag",
+        "vii_flag"
+      ]
+    }
+  ]
+}

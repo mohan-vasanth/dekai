@@ -1,0 +1,53 @@
+{
+  "section": "4",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4",
+      "purpose": "Retrieve knowledge payload for section 4",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/The-physical-digital-records-substantiating-the-duty-remission-claims-as-filed-in/validate",
+      "purpose": "Validate inputs and documents for The physical/digital records substantiating the duty remission claims, as filed in",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/The-physical-digital-records-substantiating-the-duty-remission-claims-as-filed-in/execute",
+      "purpose": "Trigger business action for The physical/digital records substantiating the duty remission claims, as filed in\nARR, will need to be maintained for a period of five (5) years which may be\nproduced before the concerned authority assessing the ARR.",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

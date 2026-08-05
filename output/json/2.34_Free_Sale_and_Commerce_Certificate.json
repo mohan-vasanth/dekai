@@ -141,7 +141,9 @@
     "Validity of such certificate shall be two years from\ndate of issue unless otherwise specified.",
     "Validity of such certificate shall be two years from date of issue unless\notherwise specified."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1"
+  ],
   "documents": [
     "Free Sale and Commerce Certificate",
     "Validity of such certificate shall be two years from\ndate of issue unless otherwise specified.",
@@ -476,14 +478,16 @@
     "Bind validations for Free Sale and Commerce Certificate into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: Free Sale and Commerce Certificate, Validity of such certificate shall be two years from\ndate of issue unless otherwise specified., Free Sale & Commerce Certificate, An application for grant of Free Sale and Commerce Certificate, RA shall issue Free Sale and Commerce Certificate, Validity of such certificate shall be two years from date of issue unless\notherwise specified..",
     "Route escalations or approvals to: RA.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Free Sale and Commerce Certificate section-la, Capture chapter 2, section 2.34, title, and page references as immutable knowledge metadata.",
     "Indha Free Sale and Commerce Certificate section-la, Bind validations for Free Sale and Commerce Certificate into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Free Sale and Commerce Certificate section-la, Expose document upload controls for: Free Sale and Commerce Certificate, Validity of such certificate kandippa be two years from\ndate of issue unless otherwise specified., Free Sale & Commerce Certificate, An application for grant of Free Sale and Commerce Certificate, RA kandippa issue Free Sale and Commerce Certificate, Validity of such certificate kandippa be two years from date of issue unless\notherwise specified..",
     "Indha Free Sale and Commerce Certificate section-la, Route escalations or approvals to: RA.",
-    "Indha Free Sale and Commerce Certificate section-la, Trigger manual review when exception clauses are detected."
+    "Indha Free Sale and Commerce Certificate section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Free Sale and Commerce Certificate section-la, Show contextual links to related sections: 1."
   ],
   "keywords": [
     "and",
@@ -537,7 +541,9 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1"
+  ],
   "related_chapters": [],
   "related_rules": [
     "Validity of such certificate shall be two years from\ndate of issue unless otherwise specified.",

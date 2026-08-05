@@ -1,0 +1,411 @@
+{
+  "chapter_number": "8",
+  "chapter_title": "Quality Complaints and Trade Disputes",
+  "section": "13",
+  "title": "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot",
+  "purpose": "Defines the operational requirements for Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot.",
+  "purpose_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, Defines the operational requirements for Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot.",
+  "summary": "13. Jt. DGFT, Rajkot Jt.",
+  "business_meaning": "13.",
+  "business_explanation": "13. Jt. DGFT, Rajkot Jt.",
+  "business_explanation_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, 13. Jt. DGFT, Rajkot Jt.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH8-SEC13-R001",
+      "rule_description": "13. Jt. DGFT, Rajkot Jt.",
+      "trigger": "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 13 - Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [
+    "1",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "documents": [],
+  "required_documents": [],
+  "tables": [
+    [
+      [
+        "2",
+        "Jt. DGFT, Panipat",
+        "Jt. DGFT",
+        "RA, Panipat"
+      ]
+    ],
+    [
+      [
+        "4",
+        "Jt. DGFT, Kanpur",
+        "Jt. DGFT",
+        "RA, Kanpur"
+      ]
+    ],
+    [
+      [
+        "6",
+        "Jt. DGFT, Varanasi",
+        "Jt. DGFT",
+        "RA, Varanasi"
+      ]
+    ],
+    [
+      [
+        "7",
+        "",
+        "Addl. DGFT,",
+        "",
+        "Addl. DGFT",
+        "RA, Mumbai and RA, Nagpur"
+      ],
+      [
+        "",
+        "",
+        "Mumbai",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "11",
+        "Jt. DGFT, Surat",
+        "Jt. DGFT",
+        "RA, Surat"
+      ]
+    ],
+    [
+      [
+        "13.",
+        "Jt. DGFT, Rajkot",
+        "Jt. DGFT",
+        "RA, Rajkot"
+      ]
+    ],
+    [
+      [
+        "14",
+        "",
+        "Addl. DGFT,",
+        "",
+        "Addl. DGFT",
+        "",
+        "RA, Kolkata and RA,",
+        ""
+      ],
+      [
+        "",
+        "",
+        "Kolkata",
+        "",
+        "",
+        "",
+        "Guwahati",
+        ""
+      ]
+    ],
+    [
+      [
+        "15",
+        "",
+        "Addl. DGFT,",
+        "",
+        "Addl. DGFT",
+        "RA, Chennai"
+      ],
+      [
+        "",
+        "",
+        "Chennai",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "17.",
+        "Addl. DGFT,",
+        "Addl. DGFT",
+        "RA, Hyderabad"
+      ]
+    ]
+  ],
+  "authorities": [
+    "DGFT",
+    "RA",
+    "DGFT RA",
+    "Kolkata and RA"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 13 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot\nReview section 13 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 13 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot Decision\nIF section 13 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the jt. dgft, rajkot jt. dgft ra, rajkot process.",
+  "real_world_example_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, Example: an importer or exporter invokes Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the jt. dgft, rajkot jt. dgft ra, rajkot process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "dgft_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DGFT"
+    },
+    {
+      "name": "zone_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Zone"
+    },
+    {
+      "name": "addl_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Addl"
+    },
+    {
+      "name": "rajkot_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Rajkot"
+    },
+    {
+      "name": "eastern_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Eastern"
+    },
+    {
+      "name": "kolkata_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Kolkata"
+    },
+    {
+      "name": "chennai_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Chennai"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/13",
+      "purpose": "Retrieve knowledge payload for section 13",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Jt-DGFT-Rajkot-Jt-DGFT-RA-Rajkot/validate",
+      "purpose": "Validate inputs and documents for Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Jt_DGFT_Rajkot_Jt_DGFT_RA_Rajkot_overview",
+      "name": "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Jt_DGFT_Rajkot_Jt_DGFT_RA_Rajkot_submission",
+      "name": "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "dgft_flag",
+        "zone_flag",
+        "addl_flag",
+        "rajkot_flag",
+        "eastern_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot require?",
+    "Which documents are needed for Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot?",
+    "How does DEKAI validate Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot requests?"
+  ],
+  "expected_ai_answers": [
+    "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 13?",
+      "answer_en": "13. Jt. DGFT, Rajkot Jt.",
+      "question_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, What is the purpose of section 13?",
+      "answer_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, 13. Jt. DGFT, Rajkot Jt."
+    },
+    {
+      "question_en": "What documents are required under Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, What documents are required under Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot?",
+      "answer_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot?",
+      "answer_en": "DGFT, RA, DGFT RA, Kolkata and RA",
+      "question_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, Which authority handles Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot?",
+      "answer_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, DGFT, RA, DGFT RA, Kolkata and RA"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot?",
+      "answer_en": "AI answers: DEKAI should evaluate section 13, apply the extracted rules, and guide the user through Review section 13 requirements.",
+      "question_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, User asks: How do I comply with Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot?",
+      "answer_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, AI answers: DEKAI should evaluate section 13, apply the extracted rules, and guide the user through Review section 13 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, User asks: Which validations apply to Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot?",
+      "answer_thanglish": "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 8, section 13, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: DGFT, RA, DGFT RA, Kolkata and RA.",
+    "Show contextual links to related sections: 1, 3, 4, 5, 6."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, Capture chapter 8, section 13, title, and page references as immutable knowledge metadata.",
+    "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, Bind validations for Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, Route escalations or approvals to: DGFT, RA, DGFT RA, Kolkata and RA.",
+    "Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, Show contextual links to related sections: 1, 3, 4, 5, 6."
+  ],
+  "keywords": [
+    "and",
+    "DGFT",
+    "Zone",
+    "Addl",
+    "Rajkot",
+    "Eastern",
+    "Kolkata",
+    "Chennai",
+    "Guwahati",
+    "Southern",
+    "Bangalore"
+  ],
+  "search_keywords": [
+    "and",
+    "DGFT",
+    "Zone",
+    "Addl",
+    "Rajkot",
+    "Eastern",
+    "Kolkata",
+    "Chennai",
+    "Guwahati",
+    "Southern",
+    "Bangalore"
+  ],
+  "intent": "Provide knowledge guidance for Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot.",
+  "tags": [
+    "13",
+    "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot",
+    "dgft"
+  ],
+  "related_sections": [
+    "1",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    2
+  ],
+  "pages": [
+    2
+  ],
+  "source_document": "HBP2023_Chapter08.pdf",
+  "raw_text": "13. Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot\nEastern Zone\n14 Addl. DGFT, Addl. DGFT RA, Kolkata and RA,\nKolkata Guwahati\nSouthern Zone\n15 Addl. DGFT, Addl. DGFT RA, Chennai\nChennai\n16 Addl. DGFT, Addl. DGFT RA, Bangalore\nBangalore",
+  "mermaid": "flowchart TD\n    S1[\"Review section 13 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 13 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

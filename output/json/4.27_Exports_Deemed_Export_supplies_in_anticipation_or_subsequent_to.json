@@ -129,7 +129,10 @@
     "Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.",
     "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "2",
+    "4"
+  ],
   "documents": [
     "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.",
     "Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be.",
@@ -436,13 +439,15 @@
     "Capture chapter 4, section 4.27, title, and page references as immutable knowledge metadata.",
     "Bind validations for Exports/Deemed Export supplies in anticipation or subsequent to into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued., Export/Deemed Export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be., (b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority., from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified..",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 2, 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Capture chapter 4, section 4.27, title, and page references as immutable knowledge metadata.",
     "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Bind validations for Exports/Deemed export supplies in anticipation or subsequent to into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Expose document upload controls for: Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed export\nsupplies with Authorisation issued., export/Deemed export supply\ndocument(s) should also contain details of exempted materials/inputs\nconsumed and technical characteristics of export and import items, as the\ncase may be., (b) If application is approved, authorisation kandippa be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nauthority., from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed export supplies\nalready made till any amendment in norms is notified..",
-    "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Trigger manual review when exception clauses are detected."
+    "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Exports/Deemed Export supplies in anticipation or subsequent to section-la, Show contextual links to related sections: 2, 4."
   ],
   "keywords": [
     "ANF",
@@ -496,7 +501,10 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "2",
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "Shipping Bills / Tax Invoices should be endorsed with File Number or\nAuthorisation Number to establish co-relation of exports / Deemed Export\nsupplies with Authorisation issued.",

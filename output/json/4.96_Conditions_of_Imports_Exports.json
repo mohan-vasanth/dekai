@@ -133,7 +133,13 @@
   ],
   "exceptions": [],
   "dependencies": [
-    "2.52"
+    "2.52",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
   ],
   "documents": [
     "Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued."
@@ -393,13 +399,15 @@
     "Capture chapter 4, section 4.96, title, and page references as immutable knowledge metadata.",
     "Bind validations for Conditions of Imports & Exports into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued..",
-    "Route escalations or approvals to: Customs, Customs Authority, Before clearance of goods through Customs, Code as per Customs."
+    "Route escalations or approvals to: Customs, Customs Authority, Before clearance of goods through Customs, Code as per Customs.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 5, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Conditions of Imports & Exports section-la, Capture chapter 4, section 4.96, title, and page references as immutable knowledge metadata.",
     "Indha Conditions of Imports & Exports section-la, Bind validations for Conditions of Imports & Exports into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Conditions of Imports & Exports section-la, Expose document upload controls for: Shipping Bills with relevant Scheme\nCode as per Customs Notification need to be endorsed with the Diamond\nImprest Authorization Number, to establish co-relation of exports with the DIA\nissued..",
-    "Indha Conditions of Imports & Exports section-la, Route escalations or approvals to: Customs, Customs authority, Before clearance of goods through Customs, Code as per Customs."
+    "Indha Conditions of Imports & Exports section-la, Route escalations or approvals to: Customs, Customs authority, Before clearance of goods through Customs, Code as per Customs.",
+    "Indha Conditions of Imports & Exports section-la, Show contextual links to related sections: 1, 2, 3, 4, 5, 6."
   ],
   "keywords": [
     "and",
@@ -453,7 +461,14 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "Imports and exports shall be permitted only through Mumbai Airport.",

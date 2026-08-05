@@ -39,7 +39,12 @@
     "Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
   "documents": [
     "Filing of Application",
     "Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A."
@@ -290,13 +295,15 @@
     "Capture chapter 4, section 4.95, title, and page references as immutable knowledge metadata.",
     "Bind validations for Filing of Application for Diamond Imprest Authorisation (DIA) into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: Filing of Application, Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A..",
-    "Route escalations or approvals to: Regional Authority."
+    "Route escalations or approvals to: Regional Authority.",
+    "Show contextual links to related sections: 2, 3, 4, 5."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Filing of Application for Diamond Imprest Authorisation (DIA) section-la, Capture chapter 4, section 4.95, title, and page references as immutable knowledge metadata.",
     "Indha Filing of Application for Diamond Imprest Authorisation (DIA) section-la, Bind validations for Filing of application for Diamond Imprest Authorisation (DIA) into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Filing of Application for Diamond Imprest Authorisation (DIA) section-la, Expose document upload controls for: Filing of application, Applicants kandippa submit their application online using ANF 4J to the concerned\nRegional authority, as specified in Appendix 4A..",
-    "Indha Filing of Application for Diamond Imprest Authorisation (DIA) section-la, Route escalations or approvals to: Regional authority."
+    "Indha Filing of Application for Diamond Imprest Authorisation (DIA) section-la, Route escalations or approvals to: Regional authority.",
+    "Indha Filing of Application for Diamond Imprest Authorisation (DIA) section-la, Show contextual links to related sections: 2, 3, 4, 5."
   ],
   "keywords": [
     "for",
@@ -350,7 +357,12 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
   "related_chapters": [],
   "related_rules": [
     "Applicants shall submit their application online using ANF 4J to the concerned\nRegional Authority, as specified in Appendix 4A."

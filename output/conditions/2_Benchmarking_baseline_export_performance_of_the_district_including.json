@@ -1,0 +1,42 @@
+{
+  "section": "2",
+  "conditions": [
+    "64\n5 | Lead Bank Manager | Member\n7 | Representative – Sector Specific Export promotion Council | Member\n9 | Representative from District Trade/Commerce Associations | Member\n11 | Sector Specific Ministry of the State Government | Member\n13 | | Other State Government Representative (As per | | Member\n| | requirement) | |\nThe preliminary exercise may include an assessment of a district to identify the\ncurrent export profile, its further potential in the district, quantifiable targets to\nincrease export performance from the District.",
+    "This involves identifying and\npromoting products, which are currently being exported from there, and also\nidentifying and promoting new products in the district with untapped export\npotential.",
+    "of India\nMember\n7\nRepresentative – Sector Specific Export promotion Council\nMember\n8\nRepresentative – Quality & Standards Implementation body\nMember\n9\nRepresentative from District Trade/Commerce Associations\nMember\n10\nSector Specific Ministry in Government of India (Agriculture,\nFisheries, plantation boards etc.)\nMember\n11\nSector Specific Ministry of the State Government\nMember\n12\nSectoral Agencies specific to Product identified in each\nDistrict (NABARD etc.)\nMember\n13\nOther State Government Representative (As per\nrequirement)\nMember\n3.04 District Export Promotion Committees –Functions\nThe primary function of the DEPC will be to prepare and implement District specific\nExport Action Plans in collaboration with all the relevant stakeholders from the\nCenter, State and the District level.",
+    "The preliminary exercise may include an assessment of a district to identify the\ncurrent export profile, its further potential in the district, quantifiable targets to\nincrease export performance from the District.",
+    "Benchmarking baseline export performance of the district, including\nidentification of products and services currently exported with export\nvolumes, destinations etc."
+  ],
+  "condition_logic": [
+    {
+      "id": "3.2.1",
+      "if": "64\n5 | Lead Bank Manager | Member\n7 | Representative – Sector Specific Export promotion Council | Member\n9 | Representative from District Trade/Commerce Associations | Member\n11 | Sector Specific Ministry of the State Government | Member\n13 | | Other State Government Representative (As per | | Member\n| | requirement) | |\nThe preliminary exercise may include an assessment of a district to identify the\ncurrent export profile, its further potential in the district, quantifiable targets to\nincrease export performance from the District.",
+      "then": "Route for review",
+      "source": "64\n5 | Lead Bank Manager | Member\n7 | Representative – Sector Specific Export promotion Council | Member\n9 | Representative from District Trade/Commerce Associations | Member\n11 | Sector Specific Ministry of the State Government | Member\n13 | | Other State Government Representative (As per | | Member\n| | requirement) | |\nThe preliminary exercise may include an assessment of a district to identify the\ncurrent export profile, its further potential in the district, quantifiable targets to\nincrease export performance from the District."
+    },
+    {
+      "id": "3.2.2",
+      "if": "This involves identifying and\npromoting products, which are currently being exported from there, and also\nidentifying and promoting new products in the district with untapped export\npotential.",
+      "then": "Route for review",
+      "source": "This involves identifying and\npromoting products, which are currently being exported from there, and also\nidentifying and promoting new products in the district with untapped export\npotential."
+    },
+    {
+      "id": "3.2.3",
+      "if": "of India\nMember\n7\nRepresentative – Sector Specific Export promotion Council\nMember\n8\nRepresentative – Quality & Standards Implementation body\nMember\n9\nRepresentative from District Trade/Commerce Associations\nMember\n10\nSector Specific Ministry in Government of India (Agriculture,\nFisheries, plantation boards etc.)\nMember\n11\nSector Specific Ministry of the State Government\nMember\n12\nSectoral Agencies specific to Product identified in each\nDistrict (NABARD etc.)\nMember\n13\nOther State Government Representative (As per\nrequirement)\nMember\n3.04 District Export Promotion Committees –Functions\nThe primary function of the DEPC will be to prepare and implement District specific\nExport Action Plans in collaboration with all the relevant stakeholders from the\nCenter, State and the District level.",
+      "then": "Route for review",
+      "source": "of India\nMember\n7\nRepresentative – Sector Specific Export promotion Council\nMember\n8\nRepresentative – Quality & Standards Implementation body\nMember\n9\nRepresentative from District Trade/Commerce Associations\nMember\n10\nSector Specific Ministry in Government of India (Agriculture,\nFisheries, plantation boards etc.)\nMember\n11\nSector Specific Ministry of the State Government\nMember\n12\nSectoral Agencies specific to Product identified in each\nDistrict (NABARD etc.)\nMember\n13\nOther State Government Representative (As per\nrequirement)\nMember\n3.04 District Export Promotion Committees –Functions\nThe primary function of the DEPC will be to prepare and implement District specific\nExport Action Plans in collaboration with all the relevant stakeholders from the\nCenter, State and the District level."
+    },
+    {
+      "id": "3.2.4",
+      "if": "The preliminary exercise may include an assessment of a district to identify the\ncurrent export profile, its further potential in the district, quantifiable targets to\nincrease export performance from the District.",
+      "then": "Route for review",
+      "source": "The preliminary exercise may include an assessment of a district to identify the\ncurrent export profile, its further potential in the district, quantifiable targets to\nincrease export performance from the District."
+    },
+    {
+      "id": "3.2.5",
+      "if": "Benchmarking baseline export performance of the district, including\nidentification of products and services currently exported with export\nvolumes, destinations etc.",
+      "then": "Route for review",
+      "source": "Benchmarking baseline export performance of the district, including\nidentification of products and services currently exported with export\nvolumes, destinations etc."
+    }
+  ]
+}

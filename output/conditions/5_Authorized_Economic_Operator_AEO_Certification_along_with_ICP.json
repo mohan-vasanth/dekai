@@ -1,0 +1,84 @@
+{
+  "section": "5",
+  "conditions": [
+    "Authorized Economic Operator (AEO) Certification along with ICP\ncompliance.",
+    "Details of imported items to be exported after repair along with their\nSCOMET Category /Sub-category number(s), quantity, item description and ECCN\nof foreign country (if available);\nb.",
+    "That\nthere\nhas\nbeen\nno\nchange\nto\nthe\noriginal\ncharacteristics/specifications of the item(s) after import and no value addition\nhas been done during the repair work;\nd.",
+    "Certified/approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company.",
+    "The post-shipment details shall include submission of Bill of Entry\n(wherever available), shipping bill details, valid export license copy within\nthe timelines mentioned above.",
+    "Suspension / Revocation\nGAER issued shall be liable to be suspended / revoked by the DGFT on receipt\nof an adverse report on proliferation concern or for non-submission of\nmandatory reports /documents within the prescribed timelines, or for non-\ncompliance with the conditions of this Public Notice.",
+    "GAER would not be issued in case of items to be used to design, develop,\nacquire, manufacture, possess, transport, transfer and/or used for\nchemical, biological, nuclear weapons or for missiles capable of delivering\nweapons of mass destruction and their delivery system;\nii.",
+    "GAER would not be issued for countries or entities covered under UNSC\nembargo/sanctions or on assessment of proliferation concerns, or\nnational security and foreign policy considerations, etc.;\niii.",
+    "Applications for grant of General authorizations for export to the same\nentity from goods were imported shall be approved by Chairman IMWG,\nwithout any consultation with IMWG members after the first\nexport/shipment.",
+    "In exceptional cases, consultation with IMWG may be done\nprior to issuance of GAER, in case required.",
+    "All such authorizations shall be brought before IMWG in its subsequent\nmeeting for confirmation of approval, on ex-post facto basis."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.5.1",
+      "if": "Authorized Economic Operator (AEO) Certification along with ICP\ncompliance.",
+      "then": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "source": "Authorized Economic Operator (AEO) Certification along with ICP\ncompliance."
+    },
+    {
+      "id": "10.5.2",
+      "if": "Details of imported items to be exported after repair along with their\nSCOMET Category /Sub-category number(s), quantity, item description and ECCN\nof foreign country (if available);\nb.",
+      "then": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "source": "Details of imported items to be exported after repair along with their\nSCOMET Category /Sub-category number(s), quantity, item description and ECCN\nof foreign country (if available);\nb."
+    },
+    {
+      "id": "10.5.3",
+      "if": "That\nthere\nhas\nbeen\nno\nchange\nto\nthe\noriginal\ncharacteristics/specifications of the item(s) after import and no value addition\nhas been done during the repair work;\nd.",
+      "then": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "source": "That\nthere\nhas\nbeen\nno\nchange\nto\nthe\noriginal\ncharacteristics/specifications of the item(s) after import and no value addition\nhas been done during the repair work;\nd."
+    },
+    {
+      "id": "10.5.4",
+      "if": "Certified/approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company.",
+      "then": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "source": "Certified/approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company."
+    },
+    {
+      "id": "10.5.5",
+      "if": "The post-shipment details shall include submission of Bill of Entry\n(wherever available), shipping bill details, valid export license copy within\nthe timelines mentioned above.",
+      "then": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "source": "The post-shipment details shall include submission of Bill of Entry\n(wherever available), shipping bill details, valid export license copy within\nthe timelines mentioned above."
+    },
+    {
+      "id": "10.5.6",
+      "if": "Suspension / Revocation\nGAER issued shall be liable to be suspended / revoked by the DGFT on receipt\nof an adverse report on proliferation concern or for non-submission of\nmandatory reports /documents within the prescribed timelines, or for non-\ncompliance with the conditions of this Public Notice.",
+      "then": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "source": "Suspension / Revocation\nGAER issued shall be liable to be suspended / revoked by the DGFT on receipt\nof an adverse report on proliferation concern or for non-submission of\nmandatory reports /documents within the prescribed timelines, or for non-\ncompliance with the conditions of this Public Notice."
+    },
+    {
+      "id": "10.5.7",
+      "if": "GAER would not be issued in case of items to be used to design, develop,\nacquire, manufacture, possess, transport, transfer and/or used for\nchemical, biological, nuclear weapons or for missiles capable of delivering\nweapons of mass destruction and their delivery system;\nii.",
+      "then": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "source": "GAER would not be issued in case of items to be used to design, develop,\nacquire, manufacture, possess, transport, transfer and/or used for\nchemical, biological, nuclear weapons or for missiles capable of delivering\nweapons of mass destruction and their delivery system;\nii."
+    },
+    {
+      "id": "10.5.8",
+      "if": "GAER would not be issued for countries or entities covered under UNSC\nembargo/sanctions or on assessment of proliferation concerns, or\nnational security and foreign policy considerations, etc.;\niii.",
+      "then": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "source": "GAER would not be issued for countries or entities covered under UNSC\nembargo/sanctions or on assessment of proliferation concerns, or\nnational security and foreign policy considerations, etc.;\niii."
+    },
+    {
+      "id": "10.5.9",
+      "if": "Applications for grant of General authorizations for export to the same\nentity from goods were imported shall be approved by Chairman IMWG,\nwithout any consultation with IMWG members after the first\nexport/shipment.",
+      "then": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "source": "Applications for grant of General authorizations for export to the same\nentity from goods were imported shall be approved by Chairman IMWG,\nwithout any consultation with IMWG members after the first\nexport/shipment."
+    },
+    {
+      "id": "10.5.10",
+      "if": "In exceptional cases, consultation with IMWG may be done\nprior to issuance of GAER, in case required.",
+      "then": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "source": "In exceptional cases, consultation with IMWG may be done\nprior to issuance of GAER, in case required."
+    },
+    {
+      "id": "10.5.11",
+      "if": "All such authorizations shall be brought before IMWG in its subsequent\nmeeting for confirmation of approval, on ex-post facto basis.",
+      "then": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "source": "All such authorizations shall be brought before IMWG in its subsequent\nmeeting for confirmation of approval, on ex-post facto basis."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "2",
+  "ui": [
+    {
+      "screen_id": "Representative_of_Bureau_of_India_Standard_BIS_Member_overview",
+      "name": "Representative of Bureau of India Standard (BIS):Member Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Representative_of_Bureau_of_India_Standard_BIS_Member_submission",
+      "name": "Representative of Bureau of India Standard (BIS):Member Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "bis_flag",
+        "india_flag",
+        "bureau_flag",
+        "member_flag",
+        "standard_flag",
+        "representative_flag"
+      ]
+    }
+  ]
+}

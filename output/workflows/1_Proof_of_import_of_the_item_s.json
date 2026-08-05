@@ -1,0 +1,11 @@
+{
+  "section": "1",
+  "workflow": [
+    "Evaluate condition: Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb.",
+    "Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb.",
+    "Handle exception: Documentary proof and/or self-declaration that the item exempted from\nlicense requirement or place under no license requirement for India."
+  ],
+  "workflow_ascii": "Proof of import of the item(s):\nEvaluate condition: Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb.\n   |\n   v\nExport Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb.\n   |\n   v\nHandle exception: Documentary proof and/or self-declaration that the item exempted from\nlicense requirement or place under no license requirement for India.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb.\"]\n    S2[\"Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb.\"]\n    S1 --> S2\n    S3[\"Handle exception: Documentary proof and/or self-declaration that the item exempted from\nlicense requirement or place under no license requirement for India.\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb.;\n:Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb.;\n:Handle exception\\: Documentary proof and/or self-declaration that the item exempted from\nlicense requirement or place under no license requirement for India.;\nstop\n@enduml"
+}

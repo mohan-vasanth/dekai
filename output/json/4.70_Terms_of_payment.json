@@ -37,7 +37,9 @@
     "4.70 Terms of payment\nExport of gold / silver / platinum jewellery and articles thereof shall be against\nirrevocable letter of credit, payment of cash on delivery basis, Documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "4"
+  ],
   "documents": [
     "4.70 Terms of payment\nExport of gold / silver / platinum jewellery and articles thereof shall be against\nirrevocable letter of credit, payment of cash on delivery basis, Documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles."
   ],
@@ -274,12 +276,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.70, title, and page references as immutable knowledge metadata.",
     "Bind validations for Terms of payment into a rule engine keyed by the rule IDs extracted for this section.",
-    "Expose document upload controls for: 4.70 Terms of payment\nExport of gold / silver / platinum jewellery and articles thereof shall be against\nirrevocable letter of credit, payment of cash on delivery basis, Documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles.."
+    "Expose document upload controls for: 4.70 Terms of payment\nExport of gold / silver / platinum jewellery and articles thereof shall be against\nirrevocable letter of credit, payment of cash on delivery basis, Documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles..",
+    "Show contextual links to related sections: 4."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Terms of payment section-la, Capture chapter 4, section 4.70, title, and page references as immutable knowledge metadata.",
     "Indha Terms of payment section-la, Bind validations for Terms of payment into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Terms of payment section-la, Expose document upload controls for: 4.70 Terms of payment\nexport of gold / silver / platinum jewellery and articles thereof kandippa be against\nirrevocable letter of credit, payment of cash on delivery basis, documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles.."
+    "Indha Terms of payment section-la, Expose document upload controls for: 4.70 Terms of payment\nexport of gold / silver / platinum jewellery and articles thereof kandippa be against\nirrevocable letter of credit, payment of cash on delivery basis, documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles..",
+    "Indha Terms of payment section-la, Show contextual links to related sections: 4."
   ],
   "keywords": [
     "and",
@@ -333,7 +337,9 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "4"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.70 Terms of payment\nExport of gold / silver / platinum jewellery and articles thereof shall be against\nirrevocable letter of credit, payment of cash on delivery basis, Documents\nagainst Acceptance (DA) basis or advance payment in foreign exchange or\nreplenishment of gold/silver/platinum content in exported jewellery / articles."

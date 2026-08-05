@@ -5,6 +5,7 @@ import { PageBackButton, useAppBack } from "../components/navigation";
 import { PageMotion, useToast } from "../components/ui";
 import { formatAnswerForClipboard, type AssistantAnswer } from "../lib/dekai";
 import { usePreferences } from "../lib/preferences";
+import { activeDocumentStorage } from "../services/active-document";
 import { chatHistoryStorage } from "../services/chat-history";
 import type { AssistantAnswer as ApiAssistantAnswer } from "../types/api";
 import {
@@ -28,11 +29,16 @@ export function ChatPage() {
   const prefilledQuestion = searchParams.get("q") ?? "";
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [draft, setDraft] = useState("");
+  const [activeDocumentName, setActiveDocumentName] = useState(() => activeDocumentStorage.get()?.name ?? "");
   const lastAutoSubmittedRef = useRef("");
 
   useEffect(() => {
     setMessages([]);
     setDraft("");
+  }, [newChatKey]);
+
+  useEffect(() => {
+    setActiveDocumentName(activeDocumentStorage.get()?.name ?? "");
   }, [newChatKey]);
 
   const submitQuestion = useCallback(async (questionValue?: string) => {
@@ -84,6 +90,10 @@ export function ChatPage() {
     });
 
     try {
+      const currentDocumentName = activeDocumentStorage.get()?.name ?? activeDocumentName;
+      if (currentDocumentName !== activeDocumentName) {
+        setActiveDocumentName(currentDocumentName);
+      }
       await streamChat(question, (event) => {
         setMessages((current) =>
           current.map((message) => {
@@ -99,7 +109,7 @@ export function ChatPage() {
             return message;
           }),
         );
-      }, { aiModel, language });
+      }, { aiModel, language, currentDocumentName });
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : t("chat.requestFailed");
       pushToast({ title: t("chat.requestFailed"), description: errorMessage, tone: "warning" });
@@ -140,6 +150,7 @@ export function ChatPage() {
       current.map((message) => (message.id === messageId && message.role === "assistant" ? { ...message, streamedText: "", complete: false } : message)),
     );
     try {
+      const currentDocumentName = activeDocumentStorage.get()?.name ?? activeDocumentName;
       await streamChat(question, (event) => {
         setMessages((current) =>
           current.map((message) => {
@@ -155,7 +166,7 @@ export function ChatPage() {
             return message;
           }),
         );
-      }, { aiModel, language });
+      }, { aiModel, language, currentDocumentName });
     } catch (error) {
       const message = error instanceof Error ? error.message : t("chat.regenerationFailed");
       pushToast({ title: t("chat.regenerationFailed"), description: message, tone: "warning" });
@@ -228,6 +239,12 @@ export function ChatPage() {
                 <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel)] px-4 py-3 text-sm text-[var(--muted-foreground)]">
                   {t("chat.activeModel", { model: aiModel })}
                 </div>
+                {activeDocumentName ? (
+                  <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel)] px-4 py-3 text-sm text-[var(--muted-foreground)]">
+                    Searching current document{" "}
+                    <span className="font-medium text-[var(--foreground)]">{activeDocumentName}</span>
+                  </div>
+                ) : null}
                 {lastAssistant && lastAssistant.role === "assistant" ? (
                   <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel)] px-4 py-3 text-sm text-[var(--muted-foreground)]">
                     {t("chat.currentTopic")}{" "}

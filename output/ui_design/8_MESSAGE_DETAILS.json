@@ -1,0 +1,47 @@
+{
+  "section": "8",
+  "ui": [
+    {
+      "screen_id": "MESSAGE_DETAILS_overview",
+      "name": "MESSAGE DETAILS Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "MESSAGE_DETAILS_submission",
+      "name": "MESSAGE DETAILS Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "ref_flag",
+        "tag_flag",
+        "ipt_flag",
+        "cbc_flag",
+        "the_flag",
+        "cac_flag"
+      ]
+    },
+    {
+      "screen_id": "MESSAGE_DETAILS_exceptions",
+      "name": "MESSAGE DETAILS Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

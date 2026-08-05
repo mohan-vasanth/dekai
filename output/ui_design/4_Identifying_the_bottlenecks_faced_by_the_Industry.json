@@ -1,0 +1,36 @@
+{
+  "section": "4",
+  "ui": [
+    {
+      "screen_id": "Identifying_the_bottlenecks_faced_by_the_Industry_overview",
+      "name": "Identifying the bottlenecks faced by the Industry. Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Identifying_the_bottlenecks_faced_by_the_Industry_submission",
+      "name": "Identifying the bottlenecks faced by the Industry. Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "faced_flag",
+        "industry_flag",
+        "identifying_flag",
+        "bottlenecks_flag"
+      ]
+    }
+  ]
+}

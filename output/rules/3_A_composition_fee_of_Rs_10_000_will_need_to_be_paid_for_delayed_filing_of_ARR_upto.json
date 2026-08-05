@@ -1,0 +1,22 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "3",
+  "title": "A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC3-R001",
+      "rule_description": "The resumption of scroll out shall also\ncover the Shipping Bills that were not scrolled out earlier on account of non-\ncompliance of ARR.",
+      "trigger": "A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto",
+      "condition": "Thereafter, a composition fees of Rs.20,000 /- will need to be paid after 30th June.",
+      "validation": "The resumption of scroll out shall also\ncover the Shipping Bills that were not scrolled out earlier on account of non-\ncompliance of ARR.",
+      "action": "Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls\nwill be resumed within 45 days, till an online API based message exchange is\nestablished between DGFT and Customs.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - A composition fee of Rs. 10,000/- will need to be paid for delayed filing of ARR upto."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: The resumption of scroll out shall also\ncover the Shipping Bills that were not scrolled out earlier on account of non-\ncompliance of ARR.",
+    "IF validations pass THEN recommend action: Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls\nwill be resumed within 45 days, till an online API based message exchange is\nestablished between DGFT and Customs."
+  ]
+}

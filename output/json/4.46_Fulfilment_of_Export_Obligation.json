@@ -37,7 +37,10 @@
     "4.46 Fulfilment of Export Obligation\nAuthorisation holder shall file online application in ANF 4F to Regional Authority\nconcerned and upload prescribed documents in support of fulfilment of Export\nObligation."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "4",
+    "6"
+  ],
   "documents": [
     "4.46 Fulfilment of Export Obligation\nAuthorisation holder shall file online application in ANF 4F to Regional Authority\nconcerned and upload prescribed documents in support of fulfilment of Export\nObligation."
   ],
@@ -277,13 +280,15 @@
     "Capture chapter 4, section 4.46, title, and page references as immutable knowledge metadata.",
     "Bind validations for Fulfilment of Export Obligation into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: 4.46 Fulfilment of Export Obligation\nAuthorisation holder shall file online application in ANF 4F to Regional Authority\nconcerned and upload prescribed documents in support of fulfilment of Export\nObligation..",
-    "Route escalations or approvals to: Regional Authority."
+    "Route escalations or approvals to: Regional Authority.",
+    "Show contextual links to related sections: 4, 6."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Fulfilment of Export Obligation section-la, Capture chapter 4, section 4.46, title, and page references as immutable knowledge metadata.",
     "Indha Fulfilment of Export Obligation section-la, Bind validations for Fulfilment of export Obligation into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Fulfilment of Export Obligation section-la, Expose document upload controls for: 4.46 Fulfilment of export Obligation\nAuthorisation holder kandippa file online application in ANF 4F to Regional authority\nconcerned and upload prescribed documents in support of fulfilment of export\nObligation..",
-    "Indha Fulfilment of Export Obligation section-la, Route escalations or approvals to: Regional authority."
+    "Indha Fulfilment of Export Obligation section-la, Route escalations or approvals to: Regional authority.",
+    "Indha Fulfilment of Export Obligation section-la, Show contextual links to related sections: 4, 6."
   ],
   "keywords": [
     "ANF",
@@ -333,7 +338,10 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "4",
+    "6"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.46 Fulfilment of Export Obligation\nAuthorisation holder shall file online application in ANF 4F to Regional Authority\nconcerned and upload prescribed documents in support of fulfilment of Export\nObligation."

@@ -1,0 +1,38 @@
+{
+  "section": "12",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/12",
+      "purpose": "Retrieve knowledge payload for section 12",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Facilitate-in-organising-buyer-seller-meets-exhibitions-trade-fairs-etc-in/validate",
+      "purpose": "Validate inputs and documents for Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

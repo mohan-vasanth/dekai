@@ -1,0 +1,37 @@
+{
+  "section": "3",
+  "ui": [
+    {
+      "screen_id": "They_have_an_agreement_or_purchase_order_an_excerpt_of_a_contract_from_the_overview",
+      "name": "They have an agreement or purchase order, an excerpt of a contract from the Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "They_have_an_agreement_or_purchase_order_an_excerpt_of_a_contract_from_the_submission",
+      "name": "They have an agreement or purchase order, an excerpt of a contract from the Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "for_flag",
+        "use_flag",
+        "euc_flag",
+        "and_flag",
+        "they_flag"
+      ]
+    }
+  ]
+}

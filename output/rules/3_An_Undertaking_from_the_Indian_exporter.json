@@ -1,0 +1,22 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "3",
+  "title": "An Undertaking from the Indian exporter;",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC3-R001",
+      "rule_description": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "trigger": "An Undertaking from the Indian exporter;",
+      "condition": "Details of imported items to be exported after repair along with their\nSCOMET Category /Sub-category number(s), quantity, item description and ECCN\nof foreign country (if available);\nb.",
+      "validation": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "action": "That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - An Undertaking from the Indian exporter;."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+    "IF validations pass THEN recommend action: That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis."
+  ]
+}

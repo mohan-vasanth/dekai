@@ -1,0 +1,49 @@
+{
+  "section": "4",
+  "conditions": [
+    "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+    "Authorized Economic Operator (AEO) T2 Certification of CBIC.",
+    "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+    "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+    "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii.",
+    "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:"
+  ],
+  "condition_logic": [
+    {
+      "id": "10.4.1",
+      "if": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "then": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "source": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company."
+    },
+    {
+      "id": "10.4.2",
+      "if": "Authorized Economic Operator (AEO) T2 Certification of CBIC.",
+      "then": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "source": "Authorized Economic Operator (AEO) T2 Certification of CBIC."
+    },
+    {
+      "id": "10.4.3",
+      "if": "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+      "then": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "source": "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii."
+    },
+    {
+      "id": "10.4.4",
+      "if": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+      "then": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "source": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4."
+    },
+    {
+      "id": "10.4.5",
+      "if": "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii.",
+      "then": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "source": "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n\nDocumentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n\nBill of entry containing details of the items to be re-exported;\n\nExport License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n\nIn case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n\nPurchase order\nviii."
+    },
+    {
+      "id": "10.4.6",
+      "if": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:",
+      "then": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "source": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:"
+    }
+  ]
+}

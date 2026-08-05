@@ -39,7 +39,12 @@
     "4.89 Duty free import of samples\nDuty free import of gems and jewellery samples upto Rs 3 lakh or 0.25% of the\naverage of last three years export turnover of gems and jewellery items,\nwhichever is lower, shall be allowed in a financial year as per Customs\nnotification."
   ],
   "exceptions": [],
-  "dependencies": [],
+  "dependencies": [
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
   "documents": [],
   "required_documents": [],
   "tables": [],
@@ -248,12 +253,14 @@
   "dekai_ai_implementation_notes": [
     "Capture chapter 4, section 4.89, title, and page references as immutable knowledge metadata.",
     "Bind validations for Duty free import of samples into a rule engine keyed by the rule IDs extracted for this section.",
-    "Route escalations or approvals to: Customs."
+    "Route escalations or approvals to: Customs.",
+    "Show contextual links to related sections: 2, 3, 4, 5."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Duty free import of samples section-la, Capture chapter 4, section 4.89, title, and page references as immutable knowledge metadata.",
     "Indha Duty free import of samples section-la, Bind validations for Duty free import of samples into a rule engine keyed by the rule IDs extracted for this section.",
-    "Indha Duty free import of samples section-la, Route escalations or approvals to: Customs."
+    "Indha Duty free import of samples section-la, Route escalations or approvals to: Customs.",
+    "Indha Duty free import of samples section-la, Show contextual links to related sections: 2, 3, 4, 5."
   ],
   "keywords": [
     "and",
@@ -306,7 +313,12 @@
     "business-rule",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
   "related_chapters": [],
   "related_rules": [
     "4.89 Duty free import of samples\nDuty free import of gems and jewellery samples upto Rs 3 lakh or 0.25% of the\naverage of last three years export turnover of gems and jewellery items,\nwhichever is lower, shall be allowed in a financial year as per Customs\nnotification."

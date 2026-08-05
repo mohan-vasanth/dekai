@@ -45,6 +45,10 @@ def _iso_timestamp(path: Path) -> str | None:
     return datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc).isoformat().replace("+00:00", "Z")
 
 
+def _normalize_name(value: str) -> str:
+    return " ".join(str(value or "").lower().split())
+
+
 class KnowledgeEngineService:
     def __init__(self) -> None:
         self.index_path = runtime_store.knowledge_index_path
@@ -52,27 +56,14 @@ class KnowledgeEngineService:
 
     def _document_stages(self, status: str) -> list[dict[str, str]]:
         labels = [
-            "Uploading",
-            "Reading PDF",
-            "Extracting Chapters",
-            "Extracting Sections",
-            "Extracting Headings",
-            "Extracting Tables",
-            "Extracting Notes",
-            "Extracting Definitions",
-            "Extracting Business Rules",
-            "Extracting Conditions",
-            "Extracting Validations",
-            "Extracting Exceptions",
-            "Extracting Authorities",
-            "Extracting Required Documents",
-            "Extracting Timelines",
-            "Extracting Workflows",
-            "Generating Searchable Chunks",
-            "Generating Embeddings",
-            "Building Knowledge Graph",
-            "Storing Knowledge Base",
-            "Knowledge Base Ready",
+            "Validate PDF",
+            "Extract Text",
+            "Convert to Markdown",
+            "Identify Sections",
+            "Generate Chunks",
+            "Create Embeddings",
+            "Index into Knowledge Base",
+            "Ready",
         ]
         if status == "ready":
             return [{"label": label, "state": "complete"} for label in labels]
@@ -260,14 +251,18 @@ class KnowledgeEngineService:
                     "description": str(chunk.get("description", "")).strip(),
                     "chunkHash": str(chunk.get("chunk_hash", "")).strip() or stable_text_hash(str(chunk.get("text", ""))),
                     "isTableRow": bool(chunk.get("is_table_row", False)),
+                    "heading": str(chunk.get("heading", "")).strip(),
+                    "fieldNames": unique_preserve(chunk.get("field_names", [])),
                 }
                 chunk_record["vector"] = embedding_service.embed_text(
                     " ".join(
                         [
+                            chunk_record["heading"],
                             chunk_record["title"],
                             chunk_record["text"],
                             " ".join(chunk_record["keywords"]),
                             " ".join(chunk_record["tags"]),
+                            " ".join(chunk_record["fieldNames"]),
                             " ".join(chunk_record["hsCodes"]),
                             chunk_record["description"],
                         ]
@@ -457,13 +452,28 @@ class KnowledgeEngineService:
                 )
             )
 
+        section_lookup = {
+            (str(section.get("documentName", "")), str(section.get("id", ""))): section
+            for section in sections
+        }
         search_records.extend(
             self._search_record(
                 "chunk",
                 chunk["id"],
                 f'{chunk["sectionId"]} {chunk["title"]}',
                 chunk["text"],
-                next((section for section in sections if section["id"] == chunk["sectionId"]), {}),
+                section_lookup.get(
+                    (str(chunk.get("documentName", "")), str(chunk.get("sectionId", ""))),
+                    next(
+                        (
+                            section
+                            for section in sections
+                            if str(section.get("documentName", "")) == str(chunk.get("documentName", ""))
+                            and str(section.get("id", "")) == str(chunk.get("sectionId", ""))
+                        ),
+                        {},
+                    ),
+                ),
                 chunk["sourcePages"],
                 extra={
                     "hsCodes": chunk.get("hsCodes", []),
@@ -471,6 +481,8 @@ class KnowledgeEngineService:
                     "description": chunk.get("description", ""),
                     "chunkHash": chunk.get("chunkHash", ""),
                     "isTableRow": chunk.get("isTableRow", False),
+                    "heading": chunk.get("heading", ""),
+                    "fieldNames": chunk.get("fieldNames", []),
                 },
             )
             for chunk in chunks
@@ -896,7 +908,7 @@ class KnowledgeEngineService:
         raw_text = str(section_payload.get("raw_text", ""))
         title = str(section_payload.get("title", ""))
         combined = f"{title} {raw_text}".casefold()
-        generic_terms = {"and", "the", "for", "with", "from", "that", "this", "into", "have", "has", "not", "are", "was", "were", "been", "shall", "must", "may", "can", "all", "any", "to", "of", "or", "be", "it"}
+        generic_terms = {"and", "the", "for", "with", "from", "that", "this", "into", "have", "has", "not", "are", "was", "were", "been", "shall", "must", "may", "can", "all", "any", "to", "of", "or", "be", "it", "section", "details", "detail", "document", "reference", "prepared", "official", "closed"}
         for term, definition in definitions_by_term.items():
             if len(term) < 3 or term in generic_terms:
                 continue
@@ -921,7 +933,7 @@ class KnowledgeEngineService:
                 "conditions": ["id", "sectionId", "text", "sourcePages"],
                 "workflows": ["id", "section", "steps", "sourcePages"],
                 "definitions": ["id", "term", "definition", "sectionId", "sourcePages"],
-                "chunks": ["id", "sectionId", "text", "sourcePages", "vector", "hsCodes", "eximCodes", "description", "chunkHash", "isTableRow"],
+                "chunks": ["id", "sectionId", "text", "sourcePages", "vector", "hsCodes", "eximCodes", "description", "chunkHash", "isTableRow", "heading", "fieldNames"],
                 "relationships": ["id", "sourceType", "sourceId", "targetType", "targetId", "relation"],
                 "versionHistory": ["lineageId", "currentName", "versions"],
             },
@@ -938,6 +950,83 @@ class KnowledgeEngineService:
 
     def _write_index(self, payload: dict[str, Any]) -> None:
         runtime_store.write_json(self.index_path, payload)
+
+    def document_index_snapshot(self, document_name: str, *, refresh: bool = False) -> dict[str, Any]:
+        normalized_document_name = _normalize_name(document_name)
+        index = self.load_index(refresh=refresh)
+
+        document_record = next(
+            (
+                document
+                for document in index.get("documents", [])
+                if _normalize_name(str(document.get("name", ""))) == normalized_document_name
+            ),
+            None,
+        )
+        sections = [
+            section
+            for section in index.get("sections", [])
+            if _normalize_name(str(section.get("documentName", ""))) == normalized_document_name
+        ]
+        chunks = [
+            chunk
+            for chunk in index.get("chunks", [])
+            if _normalize_name(str(chunk.get("documentName", ""))) == normalized_document_name
+        ]
+        search_records = [
+            record
+            for record in index.get("searchRecords", [])
+            if _normalize_name(str(record.get("documentName", ""))) == normalized_document_name
+        ]
+        definitions = [
+            item
+            for item in index.get("definitions", [])
+            if _normalize_name(str(item.get("documentName", ""))) == normalized_document_name
+        ]
+        exceptions = [
+            item
+            for item in index.get("exceptions", [])
+            if _normalize_name(str(item.get("documentName", ""))) == normalized_document_name
+        ]
+        authorities = [
+            item
+            for item in index.get("authorities", [])
+            if _normalize_name(str(item.get("documentName", ""))) == normalized_document_name
+        ]
+        workflows = [
+            item
+            for item in index.get("workflows", [])
+            if _normalize_name(str(item.get("documentName", ""))) == normalized_document_name
+        ]
+
+        return {
+            "documentId": str((document_record or {}).get("id", "")),
+            "documentName": str((document_record or {}).get("name", document_name)),
+            "indexed": bool(document_record),
+            "metadata": {
+                "status": str((document_record or {}).get("status", "")),
+                "chapterTitle": str((document_record or {}).get("chapterTitle", "")),
+                "pages": int((document_record or {}).get("pages", 0) or 0),
+                "sections": int((document_record or {}).get("sections", 0) or 0),
+            },
+            "counts": {
+                "sections": len(sections),
+                "chunks": len(chunks),
+                "searchRecords": len(search_records),
+                "embeddings": len(chunks) + len(search_records),
+                "definitions": len(definitions),
+                "exceptions": len(exceptions),
+                "authorities": len(authorities),
+                "workflows": len(workflows),
+            },
+            "sampleChunkIds": [str(chunk.get("id", "")) for chunk in chunks[:10]],
+            "sampleSectionIds": [str(section.get("id", "")) for section in sections[:10]],
+        }
+
+    def document_is_queryable(self, document_name: str, *, refresh: bool = False) -> bool:
+        snapshot = self.document_index_snapshot(document_name, refresh=refresh)
+        counts = snapshot.get("counts", {})
+        return bool(snapshot.get("indexed")) and int(counts.get("sections", 0) or 0) > 0 and int(counts.get("chunks", 0) or 0) > 0 and int(counts.get("embeddings", 0) or 0) > 0
 
     def _empty_index(self) -> dict[str, Any]:
         schema = self._database_schema()

@@ -1,0 +1,37 @@
+{
+  "section": "11",
+  "ui": [
+    {
+      "screen_id": "Act_as_a_grievance_redressal_forum_for_exporters_and_follow_up_with_the_overview",
+      "name": "Act as a grievance redressal forum for exporters and follow up with the Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Act_as_a_grievance_redressal_forum_for_exporters_and_follow_up_with_the_submission",
+      "name": "Act as a grievance redressal forum for exporters and follow up with the Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "act_flag",
+        "for_flag",
+        "and_flag",
+        "the_flag",
+        "with_flag",
+        "forum_flag"
+      ]
+    }
+  ]
+}

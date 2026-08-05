@@ -1,0 +1,37 @@
+{
+  "section": "5",
+  "ui": [
+    {
+      "screen_id": "Representative_of_Federation_of_Indian_Exporter_Organisation_overview",
+      "name": "Representative of Federation of Indian Exporter Organisation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Representative_of_Federation_of_Indian_Exporter_Organisation_submission",
+      "name": "Representative of Federation of Indian Exporter Organisation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "fieo_flag",
+        "indian_flag",
+        "export_flag",
+        "boards_flag",
+        "member_flag"
+      ]
+    }
+  ]
+}

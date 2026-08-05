@@ -128,7 +128,13 @@
     "Procedure will be same as for import of\ngoods by air-freight except that parcels shall be brought to Customs by Importer\n/ Foreign National for examination and release.",
     "4.93 Guidelines/ Monitoring for import of precious metal by the\nNominated Agencies\nThe guidelines on import of precious metal by the nominated agencies and\nmonitoring are as under:\n(a) Following guidelines for monitoring the import of precious metal and\nits distribution and / or own use by the Nominated Agencies will be\nfollowed, (other than the Banks nominated by RBI for this purpose):\n(i) Every Nominated Agency is required to maintain records of\nimports of precious metal (both quantity and value) and its\ndistribution for the purpose of exports of value added product as\nwell as for the purpose of domestic consumption as per the format\ngiven in Appendix 4-M of Hand Book of Procedures."
   ],
-  "dependencies": [],
+  "dependencies": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
   "documents": [
     "Nominated Agency Certificate"
   ],
@@ -406,14 +412,16 @@
     "Bind validations for Guidelines/ Monitoring for import of precious metal by the into a rule engine keyed by the rule IDs extracted for this section.",
     "Expose document upload controls for: Nominated Agency Certificate.",
     "Route escalations or approvals to: Customs, DGFT, RBI and DGFT, Agency to DGFT.",
-    "Trigger manual review when exception clauses are detected."
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 5."
   ],
   "dekai_ai_implementation_notes_thanglish": [
     "Indha Guidelines/ Monitoring for import of precious metal by the section-la, Capture chapter 4, section 4.93, title, and page references as immutable knowledge metadata.",
     "Indha Guidelines/ Monitoring for import of precious metal by the section-la, Bind validations for Guidelines/ Monitoring for import of precious metal by the into a rule engine keyed by the rule IDs extracted for this section.",
     "Indha Guidelines/ Monitoring for import of precious metal by the section-la, Expose document upload controls for: Nominated Agency Certificate.",
     "Indha Guidelines/ Monitoring for import of precious metal by the section-la, Route escalations or approvals to: Customs, DGFT, RBI and DGFT, Agency to DGFT.",
-    "Indha Guidelines/ Monitoring for import of precious metal by the section-la, Trigger manual review when exception clauses are detected."
+    "Indha Guidelines/ Monitoring for import of precious metal by the section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Guidelines/ Monitoring for import of precious metal by the section-la, Show contextual links to related sections: 1, 2, 3, 4, 5."
   ],
   "keywords": [
     "for",
@@ -467,7 +475,13 @@
     "document-driven",
     "dgft"
   ],
-  "related_sections": [],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
   "related_chapters": [],
   "related_rules": [
     "Procedure will be same as for import of\ngoods by air-freight except that parcels shall be brought to Customs by Importer\n/ Foreign National for examination and release.",
