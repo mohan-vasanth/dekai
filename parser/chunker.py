@@ -34,6 +34,10 @@ HEADING_NOISE_LINES = (
     "document id",
     "reference",
 )
+XML_STRUCTURAL_HEADING_PATTERN = re.compile(
+    r"^\s*/?(?:ipt|cac|cbc):[A-Za-z][A-Za-z0-9._-]*(?:\s+[A-Za-z][A-Za-z0-9/&._-]*){0,4}\s*$",
+    flags=re.IGNORECASE,
+)
 
 
 class Chunker:
@@ -221,8 +225,10 @@ class Chunker:
         cleaned = " ".join(str(line or "").replace("|", " ").split()).strip(" -:")
         if not cleaned or len(cleaned) > 80:
             return False
+        if XML_STRUCTURAL_HEADING_PATTERN.match(cleaned):
+            return True
         words = re.findall(r"[A-Za-z][A-Za-z0-9/&-]*", cleaned)
-        if len(words) < 2 or len(words) > 6:
+        if len(words) < 1 or len(words) > 6:
             return False
         if not any(term in {word.casefold() for word in words} for term in STRUCTURAL_HEADING_TERMS):
             return False
@@ -230,7 +236,7 @@ class Chunker:
         if not uppercase_chars:
             return False
         uppercase_ratio = sum(1 for char in uppercase_chars if char.isupper()) / len(uppercase_chars)
-        return uppercase_ratio >= 0.75
+        return uppercase_ratio >= 0.75 or (len(words) == 1 and words[0].casefold() in STRUCTURAL_HEADING_TERMS)
 
     def _extract_field_names(self, lines: List[str]) -> List[str]:
         field_names: List[str] = []

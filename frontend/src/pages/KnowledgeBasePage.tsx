@@ -8,8 +8,8 @@ import { usePreferences } from "../lib/preferences";
 import { SourceChip } from "./dekai-ui";
 
 type Selection =
-  | { kind: "chapter"; chapterNumber: string }
-  | { kind: "section"; chapterNumber: string; sectionId: string }
+  | { kind: "chapter"; chapterKey: string }
+  | { kind: "section"; chapterKey: string; sectionKey: string }
   | null;
 
 type ChapterItem = {
@@ -56,13 +56,44 @@ type SectionItem = {
   }>;
 };
 
+type ViewSection = SectionItem & {
+  chapterKey: string;
+  sectionKey: string;
+};
+
 type FilteredChapter = ChapterItem & {
+  chapterKey: string;
   chapterMatch: boolean;
-  visibleSections: SectionItem[];
-  allSections: SectionItem[];
+  visibleSections: ViewSection[];
+  allSections: ViewSection[];
 };
 
 const normalize = (value: string) => value.toLowerCase().replace(/\s+/g, " ").trim();
+
+const stripExtension = (value: string) => value.replace(/\.[a-z0-9]{1,6}$/i, "");
+
+const chapterKeyFromParts = (chapterNumber: string, fallback: string) => {
+  const normalizedChapter = normalize(chapterNumber);
+  if (normalizedChapter) {
+    return `chapter:${normalizedChapter}`;
+  }
+  return `document:${normalize(stripExtension(fallback))}`;
+};
+
+const chapterKeyForChapter = (chapter: ChapterItem) =>
+  chapterKeyFromParts(chapter.chapter_number, chapter.chapter_title);
+
+const chapterKeyForSection = (section: SectionItem) =>
+  chapterKeyFromParts(section.chapterNumber, section.documentName || section.chapterTitle);
+
+const sectionKeyForSection = (section: SectionItem) =>
+  [chapterKeyForSection(section), normalize(section.id), normalize(section.title)].join("::");
+
+const chapterLabel = (chapter: ChapterItem) =>
+  chapter.chapter_number ? `Chapter ${chapter.chapter_number}` : "Document";
+
+const chapterHeading = (chapter: ChapterItem) =>
+  chapter.chapter_number ? `Chapter ${chapter.chapter_number} ${chapter.chapter_title}` : chapter.chapter_title;
 
 const tokenize = (value: string) =>
   normalize(value)
@@ -95,17 +126,16 @@ const includesQuery = (haystack: string, query: string) => {
 const isExactChapterMatch = (chapter: ChapterItem, query: string) => {
   const normalized = normalize(query);
   if (!normalized) return false;
-  const chapterLabel = `chapter ${chapter.chapter_number}`;
+  const chapterText = chapterHeading(chapter);
   return (
-    normalized === normalize(chapterLabel) ||
-    normalized === normalize(`chapter${chapter.chapter_number}`) ||
+    normalized === normalize(chapterLabel(chapter)) ||
     normalized === normalize(chapter.chapter_number) ||
     normalized === normalize(chapter.chapter_title) ||
-    normalized === normalize(`${chapterLabel} ${chapter.chapter_title}`)
+    normalized === normalize(chapterText)
   );
 };
 
-const isExactSectionMatch = (section: SectionItem, query: string) => {
+const isExactSectionMatch = (section: ViewSection, query: string) => {
   const normalized = normalize(query);
   if (!normalized) return false;
   return (
@@ -117,8 +147,8 @@ const isExactSectionMatch = (section: SectionItem, query: string) => {
 
 const buildChapterSearchText = (chapter: ChapterItem) =>
   [
-    `chapter ${chapter.chapter_number}`,
-    `chapter${chapter.chapter_number}`,
+    chapterLabel(chapter),
+    chapterHeading(chapter),
     chapter.chapter_number,
     chapter.chapter_title,
     chapter.summary_en,
@@ -126,11 +156,11 @@ const buildChapterSearchText = (chapter: ChapterItem) =>
     ...chapter.sections.map((section) => `${section.section} ${section.title}`),
   ].join(" ");
 
-const buildSectionSearchText = (section: SectionItem, chapter: ChapterItem | undefined) => {
-  const extras = section as SectionItem & Record<string, unknown>;
+const buildSectionSearchText = (section: ViewSection, chapter: ChapterItem | undefined) => {
+  const extras = section as ViewSection & Record<string, unknown>;
   return [
+    chapterLabel(chapter ?? { ...section, chapter_number: section.chapterNumber, chapter_title: section.chapterTitle, summary_en: "", summary_thanglish: "", section_count: 0, rule_count: 0, condition_count: 0, validation_count: 0, workflow_count: 0, authority_count: 0, timeline_count: 0, exception_count: 0, related_chapters: [], sections: [] }),
     `chapter ${section.chapterNumber}`,
-    `chapter${section.chapterNumber}`,
     section.chapterNumber,
     chapter?.chapter_title ?? section.chapterTitle,
     chapter?.summary_en ?? "",
@@ -158,23 +188,35 @@ const sameSelection = (left: Selection, right: Selection) => {
   if (left === right) return true;
   if (!left || !right) return false;
   if (left.kind !== right.kind) return false;
-  if (left.chapterNumber !== right.chapterNumber) return false;
-  return left.kind === "section" && right.kind === "section" ? left.sectionId === right.sectionId : true;
+  if (left.chapterKey !== right.chapterKey) return false;
+  return left.kind === "section" && right.kind === "section" ? left.sectionKey === right.sectionKey : true;
 };
 
 const isSelectionVisible = (selection: Selection, chapters: FilteredChapter[]) => {
   if (!selection) return false;
   if (selection.kind === "chapter") {
-    return chapters.some((chapter) => chapter.chapter_number === selection.chapterNumber);
+    return chapters.some((chapter) => chapter.chapterKey === selection.chapterKey);
   }
   return chapters.some(
     (chapter) =>
-      chapter.chapter_number === selection.chapterNumber &&
-      chapter.visibleSections.some((section) => section.id === selection.sectionId),
+      chapter.chapterKey === selection.chapterKey &&
+      chapter.visibleSections.some((section) => section.sectionKey === selection.sectionKey),
   );
 };
 
 const OPEN_CHAPTERS_STORAGE_PREFIX = "dekai-kb-open-chapters:";
+
+const selectionFromSearchParams = (searchParams: URLSearchParams): Selection => {
+  const section = searchParams.get("section") ?? "";
+  const chapter = searchParams.get("chapter") ?? "";
+  if (section) {
+    return { kind: "section", chapterKey: chapter, sectionKey: section };
+  }
+  if (chapter) {
+    return { kind: "chapter", chapterKey: chapter };
+  }
+  return null;
+};
 
 export function KnowledgeBasePage() {
   const { data, isLoading } = useKnowledgeBase();
@@ -188,25 +230,14 @@ export function KnowledgeBasePage() {
   const deferredQuery = useDeferredValue(query);
   const [openChapters, setOpenChapters] = useState<Record<string, boolean>>({});
   const sectionButtonRefs = useRef<Record<string, HTMLButtonElement | null>>({});
-  const [selection, setSelection] = useState<Selection>(() => {
-    const section = searchParams.get("section") ?? "";
-    const chapter = searchParams.get("chapter") ?? "";
-    if (section) {
-      return { kind: "section", chapterNumber: chapter, sectionId: section };
-    }
-    if (chapter) {
-      return { kind: "chapter", chapterNumber: chapter };
-    }
-    return null;
-  });
+  const [selection, setSelection] = useState<Selection>(() => selectionFromSearchParams(searchParams));
 
   useEffect(() => {
-    const section = searchParams.get("section") ?? "";
-    const chapter = searchParams.get("chapter") ?? "";
     const q = searchParams.get("q") ?? "";
-    setQuery(q);
-    setSelection(section ? { kind: "section", chapterNumber: chapter, sectionId: section } : chapter ? { kind: "chapter", chapterNumber: chapter } : null);
-  }, [searchParams]);
+    const nextSelection = selectionFromSearchParams(searchParams);
+    setQuery((current) => (current === q ? current : q));
+    setSelection((current) => (sameSelection(current, nextSelection) ? current : nextSelection));
+  }, [location.search, searchParams]);
 
   useEffect(() => {
     const saved = window.sessionStorage.getItem(`${OPEN_CHAPTERS_STORAGE_PREFIX}${location.pathname}${location.search}`);
@@ -222,16 +253,24 @@ export function KnowledgeBasePage() {
     }
   }, [location.pathname, location.search]);
 
+  const sectionViews = useMemo<ViewSection[]>(() => {
+    if (!data) return [];
+    return data.sections.map((section) => ({
+      ...section,
+      chapterKey: chapterKeyForSection(section),
+      sectionKey: sectionKeyForSection(section),
+    }));
+  }, [data]);
+
   const sectionsByChapter = useMemo(() => {
-    const map = new Map<string, SectionItem[]>();
-    if (!data) return map;
-    for (const section of data.sections) {
-      const current = map.get(section.chapterNumber) ?? [];
+    const map = new Map<string, ViewSection[]>();
+    for (const section of sectionViews) {
+      const current = map.get(section.chapterKey) ?? [];
       current.push(section);
-      map.set(section.chapterNumber, current);
+      map.set(section.chapterKey, current);
     }
     return map;
-  }, [data]);
+  }, [sectionViews]);
 
   const filteredChapters = useMemo<FilteredChapter[]>(() => {
     if (!data) return [];
@@ -239,7 +278,8 @@ export function KnowledgeBasePage() {
 
     return data.chapters
       .map((chapter) => {
-        const allSections = sectionsByChapter.get(chapter.chapter_number) ?? [];
+        const chapterKey = chapterKeyForChapter(chapter);
+        const allSections = sectionsByChapter.get(chapterKey) ?? [];
         const chapterMatch = !normalizedQuery || includesQuery(buildChapterSearchText(chapter), normalizedQuery);
         const visibleSections =
           !normalizedQuery || chapterMatch
@@ -248,6 +288,7 @@ export function KnowledgeBasePage() {
 
         return {
           ...chapter,
+          chapterKey,
           allSections,
           chapterMatch,
           visibleSections,
@@ -268,7 +309,7 @@ export function KnowledgeBasePage() {
 
     const exactSection = visibleSections.find((section) => isExactSectionMatch(section, normalizedQuery));
     if (exactSection) {
-      return { kind: "section", chapterNumber: exactSection.chapterNumber, sectionId: exactSection.id } satisfies Selection;
+      return { kind: "section", chapterKey: exactSection.chapterKey, sectionKey: exactSection.sectionKey } satisfies Selection;
     }
 
     if (normalizedQuery && selection?.kind === "section" && isSelectionVisible(selection, filteredChapters)) {
@@ -277,30 +318,31 @@ export function KnowledgeBasePage() {
 
     const exactChapter = filteredChapters.find((chapter) => isExactChapterMatch(chapter, normalizedQuery));
     if (exactChapter) {
-      return { kind: "chapter", chapterNumber: exactChapter.chapter_number } satisfies Selection;
+      return { kind: "chapter", chapterKey: exactChapter.chapterKey } satisfies Selection;
     }
 
     if (!normalizedQuery) {
-      if (selection?.kind === "section" && data.sections.some((section) => section.id === selection.sectionId)) {
+      if (selection?.kind === "section" && sectionViews.some((section) => section.sectionKey === selection.sectionKey)) {
+        const selected = sectionViews.find((section) => section.sectionKey === selection.sectionKey);
         return {
           kind: "section",
-          chapterNumber: selection.chapterNumber || data.sections.find((section) => section.id === selection.sectionId)?.chapterNumber || "",
-          sectionId: selection.sectionId,
+          chapterKey: selection.chapterKey || selected?.chapterKey || "",
+          sectionKey: selection.sectionKey,
         } satisfies Selection;
       }
-      if (selection?.kind === "chapter" && data.chapters.some((chapter) => chapter.chapter_number === selection.chapterNumber)) {
+      if (selection?.kind === "chapter" && filteredChapters.some((chapter) => chapter.chapterKey === selection.chapterKey)) {
         return selection;
       }
       return null;
     }
 
     if (filteredChapters.length === 1 && filteredChapters[0].chapterMatch) {
-      return { kind: "chapter", chapterNumber: filteredChapters[0].chapter_number } satisfies Selection;
+      return { kind: "chapter", chapterKey: filteredChapters[0].chapterKey } satisfies Selection;
     }
 
     if (visibleSections.length === 1) {
       const onlySection = visibleSections[0];
-      return { kind: "section", chapterNumber: onlySection.chapterNumber, sectionId: onlySection.id } satisfies Selection;
+      return { kind: "section", chapterKey: onlySection.chapterKey, sectionKey: onlySection.sectionKey } satisfies Selection;
     }
 
     if (isSelectionVisible(selection, filteredChapters)) {
@@ -309,13 +351,13 @@ export function KnowledgeBasePage() {
 
     const firstChapter = filteredChapters[0];
     if (firstChapter.chapterMatch) {
-      return { kind: "chapter", chapterNumber: firstChapter.chapter_number } satisfies Selection;
+      return { kind: "chapter", chapterKey: firstChapter.chapterKey } satisfies Selection;
     }
     const firstSection = firstChapter.visibleSections[0];
     return firstSection
-      ? ({ kind: "section", chapterNumber: firstSection.chapterNumber, sectionId: firstSection.id } satisfies Selection)
-      : ({ kind: "chapter", chapterNumber: firstChapter.chapter_number } satisfies Selection);
-  }, [data, deferredQuery, filteredChapters, selection, visibleSections]);
+      ? ({ kind: "section", chapterKey: firstSection.chapterKey, sectionKey: firstSection.sectionKey } satisfies Selection)
+      : ({ kind: "chapter", chapterKey: firstChapter.chapterKey } satisfies Selection);
+  }, [data, deferredQuery, filteredChapters, sectionViews, selection, visibleSections]);
 
   useEffect(() => {
     if (!sameSelection(selection, activeSelection)) {
@@ -326,16 +368,16 @@ export function KnowledgeBasePage() {
   useEffect(() => {
     if (activeSelection?.kind !== "section") return;
     setOpenChapters((current) => {
-      if (current[activeSelection.chapterNumber]) {
+      if (current[activeSelection.chapterKey]) {
         return current;
       }
-      return { ...current, [activeSelection.chapterNumber]: true };
+      return { ...current, [activeSelection.chapterKey]: true };
     });
   }, [activeSelection]);
 
   useEffect(() => {
     if (activeSelection?.kind !== "section") return;
-    const element = sectionButtonRefs.current[activeSelection.sectionId];
+    const element = sectionButtonRefs.current[activeSelection.sectionKey];
     if (!element) return;
     const frame = window.requestAnimationFrame(() => {
       element.scrollIntoView({ block: "nearest", behavior: "smooth" });
@@ -354,10 +396,10 @@ export function KnowledgeBasePage() {
     }
 
     if (activeSelection?.kind === "section") {
-      next.set("chapter", activeSelection.chapterNumber);
-      next.set("section", activeSelection.sectionId);
+      next.set("chapter", activeSelection.chapterKey);
+      next.set("section", activeSelection.sectionKey);
     } else if (activeSelection?.kind === "chapter") {
-      next.set("chapter", activeSelection.chapterNumber);
+      next.set("chapter", activeSelection.chapterKey);
       next.delete("section");
     } else {
       next.delete("chapter");
@@ -378,29 +420,32 @@ export function KnowledgeBasePage() {
   }, [location.pathname, location.search, openChapters]);
 
   const selectedChapter = activeSelection
-    ? data?.chapters.find((chapter) => chapter.chapter_number === activeSelection.chapterNumber) ?? null
+    ? filteredChapters.find((chapter) => chapter.chapterKey === activeSelection.chapterKey) ?? null
     : null;
 
   const selectedSection =
     activeSelection?.kind === "section"
-      ? data?.sections.find((section) => section.id === activeSelection.sectionId) ?? null
+      ? sectionViews.find((section) => section.sectionKey === activeSelection.sectionKey) ?? null
       : null;
+
+  const selectedSectionChapter =
+    selectedSection ? filteredChapters.find((chapter) => chapter.chapterKey === selectedSection.chapterKey) ?? null : null;
 
   const visibleSectionCount = visibleSections.length;
 
-  const openSection = (sectionId: string, chapterNumber: string) => {
+  const openSection = (sectionKey: string, chapterKey: string) => {
     if (!data) {
       pushToast({ title: t("knowledge.openSectionFailed"), tone: "warning" });
       return;
     }
-    const section = data.sections.find((item) => item.id === sectionId && item.chapterNumber === chapterNumber);
+    const section = sectionViews.find((item) => item.sectionKey === sectionKey && item.chapterKey === chapterKey);
     if (!section) {
       pushToast({ title: t("knowledge.openSectionFailed"), tone: "warning" });
       return;
     }
     selectionHistoryModeRef.current = "push";
-    setOpenChapters((current) => ({ ...current, [chapterNumber]: true }));
-    setSelection({ kind: "section", chapterNumber, sectionId });
+    setOpenChapters((current) => ({ ...current, [chapterKey]: true }));
+    setSelection({ kind: "section", chapterKey, sectionKey });
   };
 
   if (isLoading || !data) {
@@ -461,24 +506,24 @@ export function KnowledgeBasePage() {
             <div className="space-y-3">
               {filteredChapters.map((chapter) => {
                 const queryActive = Boolean(normalize(deferredQuery));
-                const open = queryActive || openChapters[chapter.chapter_number] || chapter.chapter_number === (activeSelection?.chapterNumber ?? "");
-                const chapterSelected = activeSelection?.kind === "chapter" && activeSelection.chapterNumber === chapter.chapter_number;
+                const open = queryActive || openChapters[chapter.chapterKey] || chapter.chapterKey === (activeSelection?.chapterKey ?? "");
+                const chapterSelected = activeSelection?.kind === "chapter" && activeSelection.chapterKey === chapter.chapterKey;
 
                 return (
-                  <div key={chapter.chapter_number} className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel)]">
+                  <div key={chapter.chapterKey} className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel)]">
                     <button
                       className={chapterSelected ? "flex w-full items-center justify-between gap-3 rounded-[1.5rem] bg-[var(--panel-strong)] px-4 py-4 text-left" : "flex w-full items-center justify-between gap-3 px-4 py-4 text-left"}
                       onClick={() => {
                         selectionHistoryModeRef.current = "push";
-                        setSelection({ kind: "chapter", chapterNumber: chapter.chapter_number });
+                        setSelection({ kind: "chapter", chapterKey: chapter.chapterKey });
                         if (!queryActive) {
-                          setOpenChapters((current) => ({ ...current, [chapter.chapter_number]: !open }));
+                          setOpenChapters((current) => ({ ...current, [chapter.chapterKey]: !open }));
                         }
                       }}
                       type="button"
                     >
                       <div>
-                        <p className="text-sm font-semibold text-[var(--foreground)]">{t("knowledge.chapterWithNumber", { value: chapter.chapter_number })}</p>
+                        <p className="text-sm font-semibold text-[var(--foreground)]">{chapterLabel(chapter)}</p>
                         <p className="mt-1 text-sm text-[var(--muted-foreground)]">{chapter.chapter_title}</p>
                       </div>
                       {open ? (
@@ -492,15 +537,15 @@ export function KnowledgeBasePage() {
                       <div className="border-t border-[var(--border)] px-3 py-3">
                         <div className="space-y-2">
                           {chapter.visibleSections.map((section) => {
-                            const isSelected = activeSelection?.kind === "section" && activeSelection.sectionId === section.id;
+                            const isSelected = activeSelection?.kind === "section" && activeSelection.sectionKey === section.sectionKey;
                             return (
                               <button
-                                key={section.id}
+                                key={section.sectionKey}
                                 ref={(element) => {
-                                  sectionButtonRefs.current[section.id] = element;
+                                  sectionButtonRefs.current[section.sectionKey] = element;
                                 }}
                                 className={isSelected ? "w-full rounded-2xl bg-[var(--panel-strong)] px-3 py-3 text-left" : "w-full rounded-2xl px-3 py-3 text-left hover:bg-[var(--panel-subtle)]"}
-                                onClick={() => openSection(section.id, section.chapterNumber)}
+                                onClick={() => openSection(section.sectionKey, section.chapterKey)}
                                 type="button"
                               >
                                 <p className="text-sm font-medium text-[var(--foreground)]">
@@ -537,7 +582,7 @@ export function KnowledgeBasePage() {
             <>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted-foreground)]">
-                  {t("knowledge.chapterWithNumber", { value: selectedSection.chapterNumber })}
+                  {selectedSectionChapter ? chapterLabel(selectedSectionChapter) : selectedSection.chapterNumber ? `Chapter ${selectedSection.chapterNumber}` : "Document"}
                 </p>
                 <h2 className="mt-2 text-2xl font-semibold text-[var(--foreground)]">
                   {selectedSection.id} {selectedSection.title}
@@ -605,10 +650,10 @@ export function KnowledgeBasePage() {
             <>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted-foreground)]">
-                  {t("knowledge.chapterWithNumber", { value: selectedChapter.chapter_number })}
+                  {chapterLabel(selectedChapter)}
                 </p>
                 <h2 className="mt-2 text-2xl font-semibold text-[var(--foreground)]">
-                  {t("knowledge.chapterWithNumber", { value: selectedChapter.chapter_number })} {selectedChapter.chapter_title}
+                  {chapterHeading(selectedChapter)}
                 </h2>
                 <p className="mt-3 max-w-3xl text-sm leading-7 text-[var(--muted-foreground)]">{selectedChapter.summary_en}</p>
               </div>
@@ -639,15 +684,15 @@ export function KnowledgeBasePage() {
               <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel-subtle)] p-4">
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted-foreground)]">{t("knowledge.matchingSections")}</p>
                 <div className="mt-4 space-y-3">
-                  {(filteredChapters.find((chapter) => chapter.chapter_number === selectedChapter.chapter_number)?.visibleSections ?? []).map((section) => (
-                    <div key={section.id} className="rounded-[1.25rem] border border-[var(--border)] bg-[var(--panel)] p-4">
+                  {selectedChapter.visibleSections.map((section) => (
+                    <div key={section.sectionKey} className="rounded-[1.25rem] border border-[var(--border)] bg-[var(--panel)] p-4">
                       <p className="text-sm font-semibold text-[var(--foreground)]">
                         {section.id} {section.title}
                       </p>
                       <p className="mt-2 text-sm leading-7 text-[var(--muted-foreground)]">{section.businessMeaning || section.summary}</p>
                       <Button
                         className="mt-3"
-                        onClick={() => openSection(section.id, section.chapterNumber)}
+                        onClick={() => openSection(section.sectionKey, section.chapterKey)}
                         size="sm"
                         type="button"
                         variant="secondary"

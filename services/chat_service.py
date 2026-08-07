@@ -7,7 +7,7 @@ from typing import Any
 
 from .document_version_service import document_version_service
 from .knowledge_engine import knowledge_engine_service
-from .retrieval_service import RetrievalPlan, retrieval_decision_service
+from .retrieval_service import RetrievalPlan, analyze_question, retrieval_decision_service
 from .search_service import search_service
 
 logger = logging.getLogger(__name__)
@@ -15,6 +15,7 @@ FAILED_DOCUMENT_MESSAGE = (
     "This document has not been processed successfully and is not available in the Knowledge Base. "
     "Please resolve the processing issue or upload the document again before asking questions."
 )
+MISSING_INFORMATION_MESSAGE = "The requested information was not found in the selected document."
 DGFT_DOCUMENT_HINTS = (
     "dgft",
     "ftp",
@@ -43,6 +44,26 @@ FAILED_DOCUMENT_STOPWORDS = {
     "source",
     "shared",
 }
+GROUNDING_STOPWORDS = {
+    "about",
+    "answer",
+    "chapter",
+    "document",
+    "documents",
+    "file",
+    "files",
+    "information",
+    "question",
+    "requested",
+    "say",
+    "section",
+    "selected",
+    "tell",
+    "this",
+    "what",
+    "which",
+}
+SHORT_EVIDENCE_TOKENS = {"dgft", "ftp", "hbp", "hsn", "iec", "json", "xml"}
 
 WORKFLOW_PATTERNS = ("workflow", "process", "procedure", "steps", "flow")
 DOCUMENT_PATTERNS = ("document", "documents", "paperwork", "attachment", "attachments")
@@ -181,31 +202,67 @@ def _normalize_alnum_words(value: str) -> str:
     return _normalize(re.sub(r"[^A-Za-z0-9]+", " ", str(value or "")))
 
 
+def _heading_lookup_tokens(value: str) -> list[str]:
+    return [
+        token
+        for token in re.findall(r"\b[a-z0-9][a-z0-9/&._:-]*\b", _normalize(value))
+        if token not in {"a", "an", "and", "details", "for", "in", "is", "of", "show", "the", "this", "under", "what"}
+    ]
+
+
+def _looks_like_heading_lookup(question: str) -> bool:
+    normalized = _normalize(question)
+    if not normalized:
+        return False
+    if re.search(
+        r"\b(?:document|documents|exception|exceptions|process|procedure|rule|rules|step|steps|table|validation|validations|workflow)\b",
+        normalized,
+    ):
+        return False
+    return 2 <= len(_heading_lookup_tokens(question)) <= 7
+
+
+def _split_camel_case(value: str) -> str:
+    raw = str(value or "")
+    raw = re.sub(r"([A-Z]+)([A-Z][a-z])", r"\1 \2", raw)
+    raw = re.sub(r"([a-z0-9])([A-Z])", r"\1 \2", raw)
+    return raw
+
+
 def _document_aliases(value: str) -> list[str]:
     cleaned = str(value or "").strip()
     if not cleaned:
         return []
     stem = re.sub(r"\.[a-z0-9]{1,6}$", "", cleaned, flags=re.IGNORECASE)
+    camel_cleaned = _split_camel_case(cleaned)
+    camel_stem = _split_camel_case(stem)
     normalized_cleaned = _normalize_alnum_words(cleaned)
     normalized_stem = _normalize_alnum_words(stem)
+    normalized_camel_cleaned = _normalize_alnum_words(camel_cleaned)
+    normalized_camel_stem = _normalize_alnum_words(camel_stem)
     aliases = [
         _normalize(cleaned.replace("_", " ").replace("-", " ")),
         _normalize(stem.replace("_", " ").replace("-", " ")),
+        _normalize(camel_cleaned.replace("_", " ").replace("-", " ")),
+        _normalize(camel_stem.replace("_", " ").replace("-", " ")),
         normalized_cleaned,
         normalized_stem,
+        normalized_camel_cleaned,
+        normalized_camel_stem,
     ]
     aliases.extend(token for token in _document_tokens(normalized_stem) if len(token) >= 3)
+    aliases.extend(token for token in _document_tokens(normalized_camel_stem) if len(token) >= 3)
 
-    chapter_match = re.search(r"\bchapter\s*(\d{1,2})\b", normalized_stem)
+    chapter_match = re.search(r"\bchapter\s*(\d{1,2})\b", normalized_camel_stem or normalized_stem)
     if chapter_match:
         chapter_number = chapter_match.group(1)
         aliases.extend(
             [
                 f"chapter {chapter_number}",
-                f"hbp chapter {chapter_number}" if "hbp" in normalized_stem else "",
-                f"ftp chapter {chapter_number}" if "ftp" in normalized_stem else "",
-                f"hbp {chapter_number}" if "hbp" in normalized_stem else "",
-                f"ftp {chapter_number}" if "ftp" in normalized_stem else "",
+                f"hbp chapter {chapter_number}" if "hbp" in normalized_camel_stem or "hbp" in normalized_stem else "",
+                f"ftp chapter {chapter_number}" if "ftp" in normalized_camel_stem or "ftp" in normalized_stem else "",
+                f"hbp {chapter_number}" if "hbp" in normalized_camel_stem or "hbp" in normalized_stem else "",
+                f"ftp {chapter_number}" if "ftp" in normalized_camel_stem or "ftp" in normalized_stem else "",
             ]
         )
     return _unique([alias for alias in aliases if alias])
@@ -245,6 +302,11 @@ def _friendly_failure_reason(value: str) -> str:
 
 def _contains_any(value: str, patterns: tuple[str, ...]) -> bool:
     return any(pattern in value for pattern in patterns)
+
+
+def _extract_xml_tag(value: str) -> str:
+    match = re.search(r"\b((?:ipt|cac|cbc):[A-Za-z][A-Za-z0-9._-]*)\b", str(value or ""), flags=re.IGNORECASE)
+    return match.group(1).strip() if match else ""
 
 
 def _numbered_lines(items: list[str], limit: int = 5) -> str:
@@ -296,6 +358,11 @@ def _first_sentence(value: Any, limit: int = 240) -> str:
         return ""
     match = re.search(r"(.+?[.?!])(?:\s|$)", text)
     return match.group(1).strip() if match else _ensure_sentence(text)
+
+
+def _nonempty_lines(value: Any) -> list[str]:
+    lines = [str(line).strip() for line in _preserve_text(value).split("\n")]
+    return [line for line in lines if line]
 
 
 def _natural_list(items: list[str], limit: int = 5) -> str:
@@ -426,6 +493,216 @@ class ChatService:
 
         return best_match
 
+    def _select_best_document(
+        self,
+        *,
+        question: str,
+        plan: RetrievalPlan,
+        ready_documents: list[dict[str, Any]],
+        explicit_document: dict[str, Any] | None,
+        current_document: dict[str, Any] | None,
+    ) -> tuple[dict[str, Any] | None, dict[str, Any]]:
+        normalized_question = _normalize(question)
+        document_map = {
+            _normalize(str(document.get("name", ""))): {
+                **document,
+                "score": 0.0,
+                "reasons": [],
+            }
+            for document in ready_documents
+            if str(document.get("name", "")).strip()
+        }
+        if not document_map:
+            return None, {"selectionMethod": "none", "rankedDocuments": []}
+
+        if explicit_document:
+            normalized_name = _normalize(str(explicit_document.get("name", "")))
+            selected = document_map.get(normalized_name)
+            if selected:
+                selected["score"] = 10000.0
+                selected["reasons"].append("explicit_document_mention")
+                return selected, {
+                    "selectionMethod": "explicit_document",
+                    "rankedDocuments": [
+                        {
+                            "name": str(selected.get("name", "")),
+                            "score": round(float(selected.get("score", 0.0)), 4),
+                            "reasons": list(selected.get("reasons", [])),
+                        }
+                    ],
+                }
+
+        document_hits = search_service.retrieve(
+            question,
+            mode="document",
+            limit=max(12, min(50, len(document_map))),
+        )
+        document_debug = search_service.get_last_debug()
+        grounding_hits = search_service.retrieve(
+            question,
+            mode="keyword",
+            limit=max(24, min(80, len(document_map) * 6)),
+            collection_filters=plan.collection_filters or None,
+            chapter_filters=plan.chapter_filters or None,
+            section_filters=plan.section_filters or None,
+        )
+        grounding_debug = search_service.get_last_debug()
+
+        if _looks_like_heading_lookup(question):
+            normalized_lookup = _normalize_alnum_words(question)
+            exact_title_hits: list[tuple[int, dict[str, Any], bool]] = []
+            for rank, hit in enumerate(grounding_hits):
+                heading_value = _normalize_alnum_words(str(hit.get("heading", "") or hit.get("title", "")))
+                field_values = [
+                    _normalize_alnum_words(str(field))
+                    for field in hit.get("fieldNames", [])
+                    if _normalize_alnum_words(str(field))
+                ]
+                heading_exact = bool(normalized_lookup and heading_value == normalized_lookup)
+                field_exact = bool(normalized_lookup and normalized_lookup in field_values)
+                if heading_exact or field_exact:
+                    exact_title_hits.append((rank, hit, heading_exact))
+
+            if exact_title_hits:
+                exact_title_hits.sort(
+                    key=lambda item: (
+                        1 if item[2] else 0,
+                        float(item[1].get("score", 0.0)),
+                        float(item[1].get("confidence", 0.0)),
+                        -item[0],
+                    ),
+                    reverse=True,
+                )
+                best_rank, best_hit, heading_exact = exact_title_hits[0]
+                document_name = str(best_hit.get("documentName", "")).strip()
+                normalized_name = _normalize(document_name)
+                selected = document_map.get(normalized_name)
+                if selected:
+                    selected["score"] = 50000.0 + float(best_hit.get("score", 0.0))
+                    selected["reasons"] = ["full_title_exact_match" if heading_exact else "full_field_exact_match"]
+                    return selected, {
+                        "selectionMethod": "full_title_exact_match" if heading_exact else "full_field_exact_match",
+                        "groundingResultsCount": len(grounding_hits),
+                        "documentSearchDebug": document_debug,
+                        "groundingSearchDebug": grounding_debug,
+                        "matchedHit": {
+                            "documentName": document_name,
+                            "sectionId": str(best_hit.get("sectionId", "")),
+                            "type": str(best_hit.get("type", "")),
+                            "heading": str(best_hit.get("heading", "") or best_hit.get("title", "")),
+                            "score": round(float(best_hit.get("score", 0.0)), 4),
+                            "confidence": round(float(best_hit.get("confidence", 0.0)), 4),
+                            "rank": best_rank + 1,
+                        },
+                        "rankedDocuments": [
+                            {
+                                "name": document_name,
+                                "score": round(float(selected.get("score", 0.0)), 4),
+                                "reasons": list(selected.get("reasons", [])),
+                            }
+                        ],
+                    }
+
+        if _looks_like_heading_lookup(question):
+            for rank, hit in enumerate(grounding_hits):
+                if not (
+                    hit.get("headingExactMatch")
+                    or hit.get("fieldExactMatch")
+                    or hit.get("exactSectionMatch")
+                ):
+                    continue
+                document_name = str(hit.get("documentName", "")).strip()
+                normalized_name = _normalize(document_name)
+                if normalized_name not in document_map:
+                    continue
+                bonus = 1400.0 - min(rank, 20) * 40.0
+                if hit.get("headingExactMatch"):
+                    bonus += 260.0
+                if hit.get("fieldExactMatch"):
+                    bonus += 220.0
+                if hit.get("exactSectionMatch"):
+                    bonus += 180.0
+                candidate = document_map[normalized_name]
+                candidate["score"] += bonus
+                candidate["reasons"].append("exact_heading_lookup")
+
+        for rank, hit in enumerate(document_hits):
+            document_name = str(hit.get("documentName", "") or hit.get("title", "")).strip()
+            normalized_name = _normalize(document_name)
+            if normalized_name not in document_map:
+                continue
+            weighted_score = (
+                float(hit.get("score", 0.0)) * 2.0
+                + float(hit.get("confidence", 0.0)) * 180.0
+                + max(0, 25 - rank)
+            )
+            candidate = document_map[normalized_name]
+            candidate["score"] += weighted_score
+            candidate["reasons"].append(f"document_rank:{rank + 1}")
+
+        for rank, hit in enumerate(grounding_hits):
+            document_name = str(hit.get("documentName", "")).strip()
+            normalized_name = _normalize(document_name)
+            if normalized_name not in document_map:
+                continue
+            structure_bonus = 0.0
+            if hit.get("headingExactMatch"):
+                structure_bonus += 180.0
+            elif hit.get("headingContainsMatch"):
+                structure_bonus += 90.0
+            elif float(hit.get("fuzzyHeadingScore", 0.0)) >= 0.84:
+                structure_bonus += float(hit.get("fuzzyHeadingScore", 0.0)) * 60.0
+            if hit.get("fieldExactMatch"):
+                structure_bonus += 160.0
+            elif hit.get("fieldContainsMatch"):
+                structure_bonus += 80.0
+            elif float(hit.get("fuzzyFieldScore", 0.0)) >= 0.86:
+                structure_bonus += float(hit.get("fuzzyFieldScore", 0.0)) * 55.0
+            if str(hit.get("type", "")).lower() in {"section", "chunk", "rule", "condition", "workflow", "definition"}:
+                structure_bonus += 25.0
+            weighted_score = (
+                float(hit.get("score", 0.0))
+                + float(hit.get("confidence", 0.0)) * 120.0
+                + structure_bonus
+                + max(0, 30 - rank)
+            )
+            candidate = document_map[normalized_name]
+            candidate["score"] += weighted_score
+            candidate["reasons"].append(f"grounding_rank:{rank + 1}")
+
+        for candidate in document_map.values():
+            aliases = [alias for alias in candidate.get("aliases", []) if alias]
+            alias_hits = [alias for alias in aliases if alias in normalized_question]
+            if alias_hits:
+                candidate["score"] += 500.0 + max(len(alias) for alias in alias_hits)
+                candidate["reasons"].append("alias_match")
+
+            if current_document and _normalize(str(current_document.get("name", ""))) == _normalize(str(candidate.get("name", ""))):
+                candidate["score"] += 60.0
+                candidate["reasons"].append("current_document_bias")
+
+        ranked_documents = sorted(
+            document_map.values(),
+            key=lambda item: (float(item.get("score", 0.0)), str(item.get("name", ""))),
+            reverse=True,
+        )
+        selected_document = ranked_documents[0] if ranked_documents else None
+        return selected_document, {
+            "selectionMethod": "dynamic_document_ranking",
+            "documentResultsCount": len(document_hits),
+            "groundingResultsCount": len(grounding_hits),
+            "documentSearchDebug": document_debug,
+            "groundingSearchDebug": grounding_debug,
+            "rankedDocuments": [
+                {
+                    "name": str(item.get("name", "")),
+                    "score": round(float(item.get("score", 0.0)), 4),
+                    "reasons": _unique(list(item.get("reasons", [])))[:8],
+                }
+                for item in ranked_documents[:8]
+            ],
+        }
+
     def _find_ready_document_by_name(self, document_name: str, ready_documents: list[dict[str, Any]]) -> dict[str, Any] | None:
         normalized_target = _normalize(document_name)
         if not normalized_target:
@@ -484,9 +761,6 @@ class ChatService:
                 "date of reckoning of import export",
                 "profile of importer exporter",
             ]
-            if target_document_name:
-                queries.insert(1, f"{target_document_name} {question}".strip())
-                queries.append(target_document_name)
             return _unique([query.strip() for query in queries if query and query.strip()])[:8]
 
         if plan.intent == "Export Procedure":
@@ -500,19 +774,9 @@ class ChatService:
                 "export procedure customs shipping bill",
                 "profile of importer exporter",
             ]
-            if target_document_name:
-                queries.insert(1, f"{target_document_name} {question}".strip())
-                queries.append(target_document_name)
             return _unique([query.strip() for query in queries if query and query.strip()])[:8]
 
         queries = [question]
-        if target_document_name:
-            queries.extend(
-                [
-                    f"{target_document_name} {question}".strip(),
-                    target_document_name,
-                ]
-            )
         queries.extend(SEMANTIC_QUERY_EXPANSIONS.get(plan.intent, ()))
         queries.extend(SEMANTIC_QUERY_EXPANSIONS.get(plan.topic, ()))
 
@@ -768,81 +1032,6 @@ class ChatService:
         top_confidence = max(float(item.get("confidence", 0.0)) for item in section_hits)
         return top_confidence >= self.semantic_minimum_confidence
 
-    def _document_scope_candidates(
-        self,
-        *,
-        explicit_document: dict[str, Any] | None,
-        current_document: dict[str, Any] | None,
-        ready_documents: list[dict[str, Any]],
-        plan: RetrievalPlan,
-    ) -> list[dict[str, Any]]:
-        custom_documents = [document for document in ready_documents if not bool(document.get("isDgft"))]
-        dgft_documents = [document for document in ready_documents if bool(document.get("isDgft"))]
-
-        if explicit_document:
-            return [
-                {
-                    "label": "explicit_document",
-                    "document_names": [str(explicit_document.get("name", ""))],
-                    "target_document_name": str(explicit_document.get("name", "")),
-                    "collection_filters": None,
-                    "strict": True,
-                }
-            ]
-
-        scopes: list[dict[str, Any]] = []
-        if current_document:
-            scopes.append(
-                {
-                    "label": "current_document",
-                    "document_names": [str(current_document.get("name", ""))],
-                    "target_document_name": str(current_document.get("name", "")),
-                    "collection_filters": None,
-                    "strict": False,
-                }
-            )
-
-        remaining_custom_names = [
-            str(document.get("name", ""))
-            for document in custom_documents
-            if str(document.get("name", "")) and _normalize(str(document.get("name", ""))) != _normalize(str((current_document or {}).get("name", "")))
-        ]
-        if remaining_custom_names:
-            scopes.append(
-                {
-                    "label": "uploaded_documents",
-                    "document_names": remaining_custom_names,
-                    "target_document_name": "",
-                    "collection_filters": None,
-                    "strict": False,
-                }
-            )
-
-        dgft_names = [str(document.get("name", "")) for document in dgft_documents if str(document.get("name", ""))]
-        if dgft_names:
-            scopes.append(
-                {
-                    "label": "dgft_fallback",
-                    "document_names": dgft_names,
-                    "target_document_name": "",
-                    "collection_filters": plan.collection_filters,
-                    "strict": False,
-                }
-            )
-
-        if not scopes and ready_documents:
-            scopes.append(
-                {
-                    "label": "all_ready_documents",
-                    "document_names": [str(document.get("name", "")) for document in ready_documents if str(document.get("name", ""))],
-                    "target_document_name": "",
-                    "collection_filters": None,
-                    "strict": False,
-                }
-            )
-
-        return scopes
-
     def _section_sort_key(self, section: dict[str, Any]) -> tuple[Any, ...]:
         raw_id = str(section.get("id", "")).strip()
         parts = []
@@ -965,7 +1154,7 @@ class ChatService:
             f'{section.get("id", "")} {section.get("title", "")}'.strip(),
             "",
             "Complete Content",
-            _preserve_text(section.get("rawText", "")) or "I couldn't find this information in the uploaded document.",
+            _preserve_text(section.get("rawText", "")) or MISSING_INFORMATION_MESSAGE,
         ]
 
         rendered_tables = self._render_section_tables(section)
@@ -1004,8 +1193,8 @@ class ChatService:
         if summary:
             return _ensure_sentence(summary)
         if label:
-            return f"I found relevant content in section {label}, but the uploaded document does not contain a concise summary for it."
-        return "I found relevant content in the uploaded document, but it does not include a concise extract for this topic."
+            return f"I found relevant content in section {label}, but the selected document does not contain a concise summary for it."
+        return "I found relevant content in the selected document, but it does not include a concise extract for this topic."
 
     def _full_content_response(self, question: str, plan: RetrievalPlan, answer_sections: list[dict[str, Any]], chapters: list[dict[str, Any]]) -> str:
         normalized_question = _normalize(question)
@@ -1027,7 +1216,7 @@ class ChatService:
         question: str,
         plan: RetrievalPlan,
         confidence_score: float = 0.0,
-        direct_answer: str = "I couldn't find this information in the uploaded document.",
+        direct_answer: str = MISSING_INFORMATION_MESSAGE,
         business_explanation: str = "",
         ai_model: str = "",
         language: str = "English",
@@ -1209,6 +1398,100 @@ class ChatService:
 
         return chosen_sections, top_confidence
 
+    def _has_grounded_evidence(
+        self,
+        question: str,
+        retrieval: list[dict[str, Any]],
+        answer_sections: list[dict[str, Any]],
+    ) -> bool:
+        normalized_question = _normalize(question)
+        if not retrieval or not answer_sections:
+            return False
+
+        strong_ranking_reasons = {
+            "exact_hs_code_match",
+            "exact_section_match",
+            "exact_chapter_match",
+            "exact_heading_match",
+            "exact_field_match",
+            "heading_contains_match",
+            "field_contains_match",
+        }
+        if any(
+            strong_ranking_reasons.intersection(set(item.get("rankingReasons", [])))
+            for item in retrieval[:8]
+        ):
+            return True
+
+        analysis = analyze_question(question)
+        evidence_terms = _unique(
+            [
+                *[code.lower() for code in analysis.hs_codes if str(code).strip()],
+                *[section.lower() for section in analysis.section_numbers if str(section).strip()],
+                *[chapter.lower() for chapter in analysis.chapter_numbers if str(chapter).strip()],
+                *[
+                    keyword.lower()
+                    for keyword in analysis.keywords
+                    if (
+                        keyword.lower() not in GROUNDING_STOPWORDS
+                        and (len(keyword) >= 4 or keyword.lower() in SHORT_EVIDENCE_TOKENS)
+                    )
+                ],
+            ]
+        )
+
+        haystacks = [
+            _normalize(
+                " ".join(
+                    [
+                        str(item.get("title", "")),
+                        str(item.get("heading", "")),
+                        str(item.get("text", "")),
+                        str(item.get("preview", "")),
+                        " ".join(str(field) for field in item.get("fieldNames", [])),
+                    ]
+                )
+            )
+            for item in retrieval[:10]
+        ]
+        haystacks.extend(
+            _normalize(
+                " ".join(
+                    [
+                        str(section.get("id", "")),
+                        str(section.get("title", "")),
+                        str(section.get("summary", "")),
+                        str(section.get("businessMeaning", "")),
+                        str(section.get("businessExplanation", "")),
+                        str(section.get("rawText", "")),
+                    ]
+                )
+            )
+            for section in answer_sections[:4]
+        )
+
+        if "xml" in normalized_question:
+            return any(
+                re.search(r"<\s*/?\s*([A-Za-z_][\w:.-]*)", str(section.get("rawText", "")))
+                for section in answer_sections
+            )
+        if "json" in normalized_question:
+            return any(
+                re.search(r'"([^"]+)"\s*:', str(section.get("rawText", "")))
+                for section in answer_sections
+            )
+        if "table" in normalized_question:
+            return any(section.get("tables", []) for section in answer_sections)
+
+        if not evidence_terms:
+            top_confidence = max((float(item.get("confidence", 0.0)) for item in retrieval), default=0.0)
+            return top_confidence >= 0.82
+
+        return any(
+            term and any(term in haystack for haystack in haystacks)
+            for term in evidence_terms
+        )
+
     def _section_chunks(self, retrieval: list[dict[str, Any]], chunks: list[dict[str, Any]], section_keys: set[str]) -> list[dict[str, Any]]:
         selected: list[dict[str, Any]] = []
         seen_ids: set[str] = set()
@@ -1332,7 +1615,12 @@ class ChatService:
         if not heading_chunk:
             return ""
 
+        normalized_question = _normalize(question)
         heading = str(heading_chunk.get("heading", "") or heading_chunk.get("title", "")).strip()
+        block_text = " ".join(str(heading_chunk.get("text", "")).split()).strip()
+        if block_text and len(block_text) > max(24, len(heading) + 12):
+            if any(phrase in normalized_question for phrase in ("details", "under", "what is", "show", "explain", "meaning")):
+                return _ensure_sentence(block_text)
         field_names = [str(field).strip() for field in heading_chunk.get("fieldNames", []) if str(field).strip()]
         heading_label = heading.title() if heading.isupper() else heading
         blocks = [f"{heading_label} is a block in the uploaded declaration message."]
@@ -1344,6 +1632,44 @@ class ChatService:
             "The extracted content shows that this block carries message-level information used to identify and process the declaration."
         )
         return " ".join(blocks)
+
+    def _xml_tag_answer(self, question: str, selected_chunks: list[dict[str, Any]]) -> str:
+        xml_tag = _extract_xml_tag(question)
+        if not xml_tag:
+            return ""
+
+        normalized_tag = _normalize(xml_tag)
+        best_chunk: dict[str, Any] | None = None
+        best_score = -1
+
+        for chunk in selected_chunks:
+            heading = _normalize(str(chunk.get("heading", "")).strip())
+            field_names = [_normalize(str(field).strip()) for field in chunk.get("fieldNames", []) if str(field).strip()]
+            text = _normalize(str(chunk.get("text", "")).strip())
+
+            score = 0
+            if heading == normalized_tag:
+                score += 100
+            elif normalized_tag and normalized_tag in heading:
+                score += 70
+            if normalized_tag in field_names:
+                score += 50
+            elif any(normalized_tag in field for field in field_names):
+                score += 30
+            if normalized_tag and normalized_tag in text:
+                score += 20
+            if score > best_score:
+                best_chunk = chunk
+                best_score = score
+
+        if not best_chunk or best_score <= 0:
+            return ""
+
+        best_text = " ".join(str(best_chunk.get("text", "")).split()).strip()
+        if best_text:
+            return _ensure_sentence(best_text)
+        heading = str(best_chunk.get("heading", "")).strip()
+        return _ensure_sentence(heading)
 
     def _best_field_chunk(self, question: str, selected_chunks: list[dict[str, Any]]) -> tuple[dict[str, Any] | None, str]:
         normalized_question = _normalize(question)
@@ -1400,7 +1726,7 @@ class ChatService:
             ),
             "",
         )
-        blocks = [f"{field_name} appears in the uploaded document"]
+        blocks = [f"{field_name} appears in the selected document"]
         if heading_label:
             blocks[0] += f" under {heading_label}."
         else:
@@ -1408,7 +1734,7 @@ class ChatService:
         if matched_line:
             blocks.append(f"The extracted content lists it as: {_clean(matched_line, 220)}.")
         else:
-            blocks.append("It is part of the structured fields captured from the uploaded PDF.")
+            blocks.append("It is part of the structured fields captured from the selected PDF.")
         return " ".join(blocks)
 
     def _document_identity_answer_payload(
@@ -1502,7 +1828,7 @@ class ChatService:
         if not summary:
             return None
 
-        answer = f"{matched_label or str(section.get('title', '')).strip()} is described in the uploaded document as {summary}"
+        answer = f"{matched_label or str(section.get('title', '')).strip()} is described in the selected document as {summary}"
         return {
             "documentName": matched_document_name,
             "section": section,
@@ -1532,7 +1858,7 @@ class ChatService:
         )
         one_pan_summary = _first_sentence((one_pan_section or {}).get("summary", ""), 220)
         if one_pan_summary:
-            answer_parts.append(f"According to the uploaded document, {one_pan_summary.rstrip('.')}.")
+            answer_parts.append(f"According to the selected document, {one_pan_summary.rstrip('.')}.")
 
         return " ".join(part for part in answer_parts if part).strip()
 
@@ -1647,6 +1973,244 @@ class ChatService:
                 break
         return references
 
+    def _source_block(
+        self,
+        *,
+        document_name: str,
+        chapter: str,
+        section: str,
+        source_pages: list[str] | list[int],
+    ) -> str:
+        page_number = ", ".join(str(page) for page in source_pages if str(page).strip()) or "Not available"
+        return "\n".join(
+            [
+                "Source:",
+                f"- Document Name: {document_name or 'Not available'}",
+                f"- Chapter: {chapter or 'Not available'}",
+                f"- Section: {section or 'Not available'}",
+                f"- Page Number: {page_number}",
+            ]
+        )
+
+    def _bulletize_text(self, value: Any, limit: int = 8) -> list[str]:
+        bullets: list[str] = []
+        seen: set[str] = set()
+        for line in _nonempty_lines(value):
+            cleaned = line.lstrip("-*• \t").strip()
+            if len(cleaned) < 3:
+                continue
+            lowered = cleaned.casefold()
+            if lowered in seen:
+                continue
+            seen.add(lowered)
+            bullets.append(cleaned)
+            if len(bullets) >= limit:
+                break
+        return bullets
+
+    def _chunk_bullets(self, selected_chunks: list[dict[str, Any]], limit: int = 8) -> list[str]:
+        bullets: list[str] = []
+        seen: set[str] = set()
+        for chunk in selected_chunks:
+            text = str(chunk.get("text", "")).strip()
+            if not text:
+                continue
+            for bullet in self._bulletize_text(text, limit=limit):
+                lowered = bullet.casefold()
+                if lowered in seen:
+                    continue
+                seen.add(lowered)
+                bullets.append(bullet)
+                if len(bullets) >= limit:
+                    return bullets
+        return bullets
+
+    def _focused_chunk_answer(self, question: str, selected_chunks: list[dict[str, Any]]) -> str:
+        normalized_question = _normalize(question)
+        question_terms = {
+            token
+            for token in re.findall(r"\b[a-z0-9][a-z0-9/&._:-]{1,}\b", normalized_question)
+            if token not in {
+                "a",
+                "an",
+                "and",
+                "authorisation",
+                "authorizations",
+                "authorisation?",
+                "authorization",
+                "details",
+                "does",
+                "for",
+                "give",
+                "how",
+                "is",
+                "of",
+                "policy",
+                "show",
+                "tell",
+                "the",
+                "this",
+                "what",
+            }
+        }
+        if not selected_chunks or not question_terms:
+            return ""
+
+        prefers_tabular_answer = any(token in normalized_question for token in ("table", "list", "rows", "columns", "xml", "json", "hs code", "hscode", "hsn"))
+        best_text = ""
+        best_score = 0.0
+
+        for chunk in selected_chunks:
+            candidate_texts = [
+                str(field).strip()
+                for field in chunk.get("fieldNames", [])
+                if str(field).strip() and len(_normalize(str(field))) >= 12
+            ]
+            candidate_texts.extend(
+                [
+                    str(chunk.get("description", "")).strip(),
+                    str(chunk.get("text", "")).strip(),
+                ]
+            )
+
+            for candidate_text in candidate_texts:
+                if not candidate_text:
+                    continue
+                normalized_candidate = _normalize(candidate_text)
+                overlap = len([term for term in question_terms if term in normalized_candidate])
+                if overlap <= 0:
+                    continue
+
+                score = float(overlap * 20)
+                if "valid" in normalized_question and "valid" in normalized_candidate:
+                    score += 14.0
+                if "gaict" in normalized_question and "gaict" in normalized_candidate:
+                    score += 18.0
+                if "period" in normalized_question and "period" in normalized_candidate:
+                    score += 6.0
+                if any(phrase in normalized_candidate for phrase in ("shall be valid", "valid for a period", "whichever is earlier")):
+                    score += 8.0
+                if candidate_text == str(chunk.get("text", "")).strip():
+                    score += 3.0
+                if not bool(chunk.get("isTableRow")):
+                    score += 10.0
+                elif not prefers_tabular_answer:
+                    score -= 6.0
+                if re.match(r"^\d+\s*:\s*\d+", candidate_text):
+                    score -= 5.0
+                if candidate_text.count(";") >= 4:
+                    score -= 4.0
+
+                if score > best_score:
+                    best_score = score
+                    best_text = candidate_text
+
+        if best_score <= 0 or not best_text:
+            return ""
+
+        cleaned = " ".join(best_text.split()).strip(" .;:-")
+        if not cleaned:
+            return ""
+        return _ensure_sentence(cleaned)
+
+    def _render_bullets(self, items: list[str], *, limit: int = 8, clean_limit: int = 420) -> str:
+        return "\n".join(f"- {_clean(item, clean_limit)}" for item in items[:limit] if str(item).strip())
+
+    def _answer_body(
+        self,
+        *,
+        question: str,
+        selected_chunks: list[dict[str, Any]],
+        answer_sections: list[dict[str, Any]],
+        workflow_steps: list[str],
+        condition_items: list[str],
+        exception_items: list[str],
+        business_logic: list[str],
+        required_documents: list[str],
+    ) -> str:
+        normalized_question = _normalize(question)
+        xml_tag_answer = self._xml_tag_answer(question, selected_chunks)
+        if xml_tag_answer:
+            return xml_tag_answer
+        question_targets_documents = _contains_any(normalized_question, DOCUMENT_PATTERNS)
+        question_targets_workflow = _contains_any(normalized_question, WORKFLOW_PATTERNS)
+        question_targets_conditions = _contains_any(normalized_question, CONDITION_PATTERNS)
+        question_targets_exceptions = _contains_any(normalized_question, EXCEPTION_PATTERNS)
+        question_targets_rules = _contains_any(normalized_question, RULE_PATTERNS)
+        question_targets_list = any(
+            phrase in normalized_question for phrase in ("category", "categories", "list", "include", "which are", "what are")
+        )
+
+        if question_targets_list and condition_items:
+            return self._render_bullets(condition_items, limit=8, clean_limit=420)
+        if question_targets_documents and required_documents:
+            return self._render_bullets(required_documents, limit=8, clean_limit=420)
+        if question_targets_workflow and workflow_steps:
+            return _numbered_lines(workflow_steps, limit=8)
+        if question_targets_conditions and condition_items:
+            return self._render_bullets(condition_items, limit=8, clean_limit=420)
+        if question_targets_exceptions and exception_items:
+            return self._render_bullets(exception_items, limit=8, clean_limit=420)
+        if question_targets_rules and business_logic:
+            return self._render_bullets(business_logic, limit=8, clean_limit=420)
+
+        focused_chunk_answer = self._focused_chunk_answer(question, selected_chunks)
+        if focused_chunk_answer:
+            return focused_chunk_answer
+
+        table_chunks = [chunk for chunk in selected_chunks if bool(chunk.get("isTableRow"))]
+        table_bullets = self._chunk_bullets(table_chunks, limit=10)
+        if table_bullets:
+            return self._render_bullets(table_bullets, limit=10, clean_limit=420)
+
+        chunk_bullets = self._chunk_bullets(selected_chunks, limit=8)
+        if chunk_bullets:
+            return self._render_bullets(chunk_bullets, limit=8, clean_limit=420)
+
+        for section in answer_sections:
+            raw_bullets = self._bulletize_text(section.get("rawText", ""), limit=8)
+            if raw_bullets:
+                return self._render_bullets(raw_bullets, limit=8, clean_limit=420)
+
+        return MISSING_INFORMATION_MESSAGE
+
+    def _grounded_answer_text(
+        self,
+        *,
+        question: str,
+        answer_sections: list[dict[str, Any]],
+        selected_chunks: list[dict[str, Any]],
+        workflow_steps: list[str],
+        condition_items: list[str],
+        exception_items: list[str],
+        business_logic: list[str],
+        required_documents: list[str],
+        source_payload: dict[str, Any],
+    ) -> str:
+        body = self._answer_body(
+            question=question,
+            selected_chunks=selected_chunks,
+            answer_sections=answer_sections,
+            workflow_steps=workflow_steps,
+            condition_items=condition_items,
+            exception_items=exception_items,
+            business_logic=business_logic,
+            required_documents=required_documents,
+        )
+        if body == MISSING_INFORMATION_MESSAGE:
+            return body
+        return "\n\n".join(
+            [
+                body,
+                self._source_block(
+                    document_name=str(source_payload.get("referencedPdf", "")),
+                    chapter=str(source_payload.get("sourceChapter", "")),
+                    section=str(source_payload.get("sourceSection", "")),
+                    source_pages=source_payload.get("sourcePages", []),
+                ),
+            ]
+        )
+
     def _general_answer(
         self,
         question: str,
@@ -1689,23 +2253,23 @@ class ChatService:
             ]
         )
         if not any(summary_points):
-            return "I found related content in the uploaded documents, but there is not enough extracted text to produce a grounded answer."
+            return "I found related content in the selected document, but there is not enough extracted text to produce a grounded answer."
 
         references = self._source_reference_lines(answer_sections)
         blocks: list[str] = []
         if _contains_any(normalized_question, WORKFLOW_PATTERNS) or plan.intent in {"Import Procedure", "Export Procedure"}:
             blocks.append(
-                "Based on the uploaded documents, this topic is explained across multiple DGFT knowledge-base sections rather than one exact heading."
+                "Based on the selected document, this topic is explained across multiple sections rather than one exact heading."
             )
-            blocks.append("Relevant guidance from the uploaded documents:\n" + _bullet_lines(summary_points, limit=4))
+            blocks.append("Relevant guidance from the selected document:\n" + _bullet_lines(summary_points, limit=4))
             if workflow_steps:
                 blocks.append("Combined workflow:\n" + _numbered_lines(workflow_steps, limit=8))
             if condition_items:
                 blocks.append("Key requirements and checks:\n" + _bullet_lines(condition_items, limit=6))
             if required_documents:
-                blocks.append("Related documents mentioned in the uploaded knowledge base:\n" + _bullet_lines(required_documents, limit=6))
+                blocks.append("Related documents mentioned in the selected document:\n" + _bullet_lines(required_documents, limit=6))
         else:
-            blocks.append("Based on the uploaded documents:\n" + _bullet_lines(summary_points, limit=4))
+            blocks.append("Based on the selected document:\n" + _bullet_lines(summary_points, limit=4))
             if condition_items:
                 blocks.append("Key requirements:\n" + _bullet_lines(condition_items, limit=6))
 
@@ -1768,7 +2332,7 @@ class ChatService:
                     rendered_tables.append(
                         f"In section {_section_label(section)}, table {index} includes { '; '.join(row_summaries[:3]) }."
                     )
-            return "\n\n".join(rendered_tables) if rendered_tables else "I couldn't find this information in the uploaded document."
+            return "\n\n".join(rendered_tables) if rendered_tables else MISSING_INFORMATION_MESSAGE
 
         if "xml" in normalized_question:
             xml_tags = sorted(
@@ -1779,9 +2343,9 @@ class ChatService:
                 }
             )
             return (
-                f"I found these XML tags in the uploaded document: {_natural_list(xml_tags, limit=8)}."
+                f"I found these XML tags in the selected document: {_natural_list(xml_tags, limit=8)}."
                 if xml_tags
-                else "I couldn't find this information in the uploaded document."
+                else MISSING_INFORMATION_MESSAGE
             )
 
         if "json" in normalized_question:
@@ -1793,9 +2357,9 @@ class ChatService:
                 }
             )
             return (
-                f"I found these JSON keys in the uploaded document: {_natural_list(json_keys, limit=8)}."
+                f"I found these JSON keys in the selected document: {_natural_list(json_keys, limit=8)}."
                 if json_keys
-                else "I couldn't find this information in the uploaded document."
+                else MISSING_INFORMATION_MESSAGE
             )
 
         if "validation" in normalized_question:
@@ -1806,9 +2370,9 @@ class ChatService:
                 ]
             )
             return (
-                f"The uploaded document mainly requires the following validations: {_natural_list(validations, limit=6)}."
+                f"The selected document mainly requires the following validations: {_natural_list(validations, limit=6)}."
                 if validations
-                else "I couldn't find this information in the uploaded document."
+                else MISSING_INFORMATION_MESSAGE
             )
 
         if "error code" in normalized_question or "error codes" in normalized_question:
@@ -1820,9 +2384,9 @@ class ChatService:
                 ]
             )
             return (
-                f"I found these error-related references in the uploaded document: {_natural_list(error_lines, limit=5)}."
+                f"I found these error-related references in the selected document: {_natural_list(error_lines, limit=5)}."
                 if error_lines
-                else "I couldn't find this information in the uploaded document."
+                else MISSING_INFORMATION_MESSAGE
             )
 
         if "hs code" in normalized_question or "hscode" in normalized_question or "hsn" in normalized_question:
@@ -1840,48 +2404,48 @@ class ChatService:
                 seen_matches.add(item)
                 unique_matches.append(item)
             return (
-                f"I found these HS code references in the uploaded document: {_natural_list(unique_matches, limit=5)}."
+                f"I found these HS code references in the selected document: {_natural_list(unique_matches, limit=5)}."
                 if unique_matches
-                else "I couldn't find this information in the uploaded document."
+                else MISSING_INFORMATION_MESSAGE
             )
 
         if any(term in normalized_question for term in ("document", "documents")):
             return (
-                f"According to the uploaded document, the required documents include {_natural_list(required_documents, limit=6)}."
+                f"According to the selected document, the required documents include {_natural_list(required_documents, limit=6)}."
                 if required_documents
-                else "The uploaded document does not clearly list the required documents for this topic."
+                else "The selected document does not clearly list the required documents for this topic."
             )
 
         if "workflow" in normalized_question:
             return (
-                f"The process described in the uploaded document is: {_natural_list(workflow_steps, limit=6)}."
+                f"The process described in the selected document is: {_natural_list(workflow_steps, limit=6)}."
                 if workflow_steps
-                else "I couldn't find this information in the uploaded document."
+                else MISSING_INFORMATION_MESSAGE
             )
 
         if "condition" in normalized_question or "criteria" in normalized_question or "eligibility" in normalized_question:
             return (
-                f"The main conditions mentioned in the uploaded document are {_natural_list(condition_items, limit=6)}."
+                f"The main conditions mentioned in the selected document are {_natural_list(condition_items, limit=6)}."
                 if condition_items
-                else "I couldn't find this information in the uploaded document."
+                else MISSING_INFORMATION_MESSAGE
             )
 
         if "exception" in normalized_question or "exemption" in normalized_question:
             return (
-                f"The uploaded document mentions these exceptions or exemptions: {_natural_list(exception_items, limit=6)}."
+                f"The selected document mentions these exceptions or exemptions: {_natural_list(exception_items, limit=6)}."
                 if exception_items
-                else "I couldn't find this information in the uploaded document."
+                else MISSING_INFORMATION_MESSAGE
             )
 
         if "rule" in normalized_question or "logic" in normalized_question:
             return (
-                f"The main rules described in the uploaded document are {_natural_list(business_logic, limit=6)}."
+                f"The main rules described in the selected document are {_natural_list(business_logic, limit=6)}."
                 if business_logic
-                else "I couldn't find this information in the uploaded document."
+                else MISSING_INFORMATION_MESSAGE
             )
 
         section_summaries = [self._section_narrative(section) for section in answer_sections[:3]]
-        return "\n\n".join(section_summaries) if section_summaries else "I couldn't find this information in the uploaded document."
+        return "\n\n".join(section_summaries) if section_summaries else MISSING_INFORMATION_MESSAGE
 
     def _search_response(self, retrieval: list[dict[str, Any]]) -> str:
         matches = []
@@ -1895,14 +2459,14 @@ class ChatService:
             elif title:
                 matches.append(title)
         return (
-            f"The most relevant matches in the uploaded document are {_natural_list(matches, limit=3)}."
+            f"The most relevant matches in the selected document are {_natural_list(matches, limit=3)}."
             if matches
-            else "I couldn't find this information in the uploaded document."
+            else MISSING_INFORMATION_MESSAGE
         )
 
     def _comparison_response(self, answer_sections: list[dict[str, Any]]) -> str:
         if len(answer_sections) < 2:
-            return "I couldn't find this information in the uploaded document."
+            return MISSING_INFORMATION_MESSAGE
         comparisons = []
         for section in answer_sections[:3]:
             comparisons.append(self._section_narrative(section))
@@ -1921,7 +2485,7 @@ class ChatService:
         )
         if not any(summaries) and selected_chunks:
             summaries = [_clean(str(selected_chunks[0].get("text", "")), 220)]
-        return " ".join(_ensure_sentence(summary) for summary in summaries[:3] if summary) if any(summaries) else "I couldn't find this information in the uploaded document."
+        return " ".join(_ensure_sentence(summary) for summary in summaries[:3] if summary) if any(summaries) else MISSING_INFORMATION_MESSAGE
 
     def _detail_answer(
         self,
@@ -1953,17 +2517,17 @@ class ChatService:
         if _contains_any(normalized_question, DOCUMENT_PATTERNS):
             explicit_detail_request = True
             response_blocks.append(
-                f"According to the uploaded documents, the required documents include {_natural_list(required_documents, limit=6)}."
+                f"According to the selected document, the required documents include {_natural_list(required_documents, limit=6)}."
                 if required_documents
-                else "The uploaded documents do not explicitly list the required documents for this topic."
+                else "The selected document does not explicitly list the required documents for this topic."
             )
 
         if _contains_any(normalized_question, WORKFLOW_PATTERNS) and not broad_process_question:
             explicit_detail_request = True
             response_blocks.append(
-                f"The process described in the uploaded documents is {_natural_list(workflow_steps, limit=6)}."
+                f"The process described in the selected document is {_natural_list(workflow_steps, limit=6)}."
                 if workflow_steps
-                else "No explicit workflow was extracted for this topic in the uploaded documents."
+                else "No explicit workflow was extracted for this topic in the selected document."
             )
 
         if _contains_any(normalized_question, CONDITION_PATTERNS):
@@ -1971,15 +2535,15 @@ class ChatService:
             response_blocks.append(
                 f"The main conditions mentioned are {_natural_list(condition_items, limit=6)}."
                 if condition_items
-                else "The uploaded documents do not explicitly list conditions for this topic."
+                else "The selected document does not explicitly list conditions for this topic."
             )
 
         if _contains_any(normalized_question, EXCEPTION_PATTERNS):
             explicit_detail_request = True
             response_blocks.append(
-                f"The uploaded documents mention these exceptions or exemptions: {_natural_list(exception_items, limit=6)}."
+                f"The selected document mentions these exceptions or exemptions: {_natural_list(exception_items, limit=6)}."
                 if exception_items
-                else "The uploaded documents do not explicitly list exceptions for this topic."
+                else "The selected document does not explicitly list exceptions for this topic."
             )
 
         if _contains_any(normalized_question, RULE_PATTERNS):
@@ -1994,7 +2558,7 @@ class ChatService:
             explicit_detail_request = True
             example_text = next((str(example.get("text", "")).strip() for example in section_examples if example.get("text")), "")
             response_blocks.append(
-                _ensure_sentence(example_text) if example_text else "No explicit example was extracted for this topic in the uploaded document."
+                _ensure_sentence(example_text) if example_text else "No explicit example was extracted for this topic in the selected document."
             )
 
         if _contains_any(normalized_question, REFERENCE_PATTERNS):
@@ -2008,7 +2572,7 @@ class ChatService:
                     source_summary += f" in {source_pdfs[0]}"
                 response_blocks.append(_ensure_sentence(source_summary))
             elif source_pdfs:
-                response_blocks.append(f"This answer is based on the uploaded PDF {source_pdfs[0]}.")
+                response_blocks.append(f"This answer is based on the selected PDF {source_pdfs[0]}.")
 
         if response_blocks:
             return "\n\n".join(block for block in response_blocks if block), explicit_detail_request
@@ -2053,77 +2617,50 @@ class ChatService:
             source_pages=source_pages,
             selected_chunks=selected_chunks,
         )
-
-        if self._is_full_content_request(question, plan):
-            return self._full_content_response(question, plan, answer_sections, chapters), source_payload
-
-        if plan.user_intent in {"Data Extraction", "Table Extraction", "XML Extraction", "JSON Extraction", "PDF Parsing"}:
-            return (
-                self._extract_structured_response(
-                    question,
-                    answer_sections,
-                    selected_chunks,
-                    workflow_steps,
-                    condition_items,
-                    exception_items,
-                    business_logic,
-                    required_documents,
-                ),
-                source_payload,
+        normalized_question = _normalize(question)
+        if plan.user_intent in {"Table Extraction", "XML Extraction", "JSON Extraction"} or any(
+            token in normalized_question for token in ("table", "xml", "json", "validation", "error code", "error codes", "hs code", "hscode", "hsn")
+        ):
+            structured = self._extract_structured_response(
+                question,
+                answer_sections,
+                selected_chunks,
+                workflow_steps,
+                condition_items,
+                exception_items,
+                business_logic,
+                required_documents,
             )
-
-        if plan.user_intent == "Comparison":
-            return self._comparison_response(answer_sections), source_payload
-
-        if plan.user_intent in {"Summarization", "Report Generation"}:
-            return self._summary_response(question, plan, answer_sections, selected_chunks, chapters), source_payload
-
-        if plan.user_intent in {"Search", "Information Retrieval"}:
-            return (
-                self._general_answer(
-                    question,
-                    plan,
-                    answer_sections[0],
-                    selected_chunks,
-                    chapters,
-                    answer_sections=answer_sections,
-                    workflow_steps=workflow_steps,
-                    condition_items=condition_items,
-                    required_documents=required_documents,
-                ),
-                source_payload,
-            )
-
-        if plan.user_intent == "Document Analysis":
-            summaries = _unique(
-                [_clean(str(section.get("summary", "")), 220) for section in answer_sections]
-                + [_clean(str(section.get("businessMeaning", "")), 180) for section in answer_sections]
-            )
-            return " ".join(_ensure_sentence(summary) for summary in summaries[:3] if summary), source_payload
-
-        if plan.user_intent == "Translation":
-            return "I couldn't find this information in the uploaded document.", source_payload
-
-        primary_section = answer_sections[0]
-        answer_text, _ = self._detail_answer(
-            question,
-            plan,
-            primary_section,
-            answer_sections,
-            selected_chunks,
-            chapters,
-            business_logic,
-            workflow_steps,
-            condition_items,
-            exception_items,
-            required_documents,
-            section_examples,
-            source_pdfs,
-            source_pages,
-            relevant_chapters,
-            relevant_sections,
+            if structured != MISSING_INFORMATION_MESSAGE:
+                return (
+                    "\n\n".join(
+                        [
+                            structured,
+                            self._source_block(
+                                document_name=str(source_payload.get("referencedPdf", "")),
+                                chapter=str(source_payload.get("sourceChapter", "")),
+                                section=str(source_payload.get("sourceSection", "")),
+                                source_pages=source_payload.get("sourcePages", []),
+                            ),
+                        ]
+                    ),
+                    source_payload,
+                )
+            return structured, source_payload
+        return (
+            self._grounded_answer_text(
+                question=question,
+                answer_sections=answer_sections,
+                selected_chunks=selected_chunks,
+                workflow_steps=workflow_steps,
+                condition_items=condition_items,
+                exception_items=exception_items,
+                business_logic=business_logic,
+                required_documents=required_documents,
+                source_payload=source_payload,
+            ),
+            source_payload,
         )
-        return answer_text, source_payload
 
     def build_answer(self, question: str, ai_model: str = "", language: str = "English") -> dict[str, Any]:
         index = knowledge_engine_service.load_index()
@@ -2169,7 +2706,7 @@ class ChatService:
                 question,
                 plan,
                 direct_answer=plan.clarification_message,
-                business_explanation="If the uploaded HS Master is available, DEKAI will search only that dataset after you provide product-specific details.",
+                business_explanation="If the relevant HS Master is available, DEKAI will search only the selected document after you provide product-specific details.",
                 ai_model=ai_model,
                 language=language,
             )
@@ -2188,43 +2725,38 @@ class ChatService:
         allowed_document_names: list[str] = []
         retrieval: list[dict[str, Any]] = []
         search_debug: dict[str, Any] = {}
-        selected_scope_label = ""
+        selected_scope_label = "selected_document"
 
         current_document_name = getattr(self, "_current_document_name", "")
         if current_document_name:
             current_ready_document = self._find_ready_document_by_name(current_document_name, ready_documents)
 
-        scope_candidates = self._document_scope_candidates(
+        selected_document, document_selection_debug = self._select_best_document(
+            question=question,
+            plan=plan,
+            ready_documents=ready_documents,
             explicit_document=target_ready_document,
             current_document=current_ready_document,
-            ready_documents=ready_documents,
-            plan=plan,
         )
-
-        for scope in scope_candidates:
-            scope_retrieval, scope_debug = self._retrieve_grounding(
+        if selected_document:
+            selected_document_name = str(selected_document.get("name", "")).strip()
+            allowed_document_names = [selected_document_name] if selected_document_name else []
+            retrieval, search_debug = self._retrieve_grounding(
                 question,
                 plan,
-                scope_label=str(scope.get("label", "")),
-                target_document_name=str(scope.get("target_document_name", "")),
-                document_names=[str(name) for name in scope.get("document_names", []) if str(name).strip()],
-                collection_filters=scope.get("collection_filters"),
+                scope_label=selected_scope_label,
+                target_document_name=selected_document_name,
+                document_names=allowed_document_names,
+                collection_filters=None,
             )
-            if plan.user_intent != "Comparison":
-                primary_document_name = self._primary_document_name(scope_retrieval)
-                if primary_document_name:
-                    scope_retrieval = self._filter_retrieval_by_documents(scope_retrieval, [primary_document_name])
-            if scope_retrieval:
-                retrieval = scope_retrieval
-                search_debug = scope_debug
-                selected_scope_label = str(scope.get("label", ""))
-                allowed_document_names = [self._primary_document_name(scope_retrieval)] if plan.user_intent != "Comparison" else [
-                    str(item.get("documentName", "")).strip()
-                    for item in scope_retrieval
-                    if str(item.get("documentName", "")).strip()
-                ]
-            if scope_retrieval and (bool(scope.get("strict")) or self._scope_has_grounding(scope_retrieval)):
-                break
+        else:
+            search_debug = {}
+
+        if search_debug is not None:
+            search_debug["scope_label"] = selected_scope_label
+            search_debug["document_selection"] = document_selection_debug
+            if selected_document and str(selected_document.get("name", "")).strip():
+                search_debug["selected_document"] = str(selected_document.get("name", "")).strip()
 
         chapters = index.get("chapters", [])
         sections = index.get("sections", [])
@@ -2246,13 +2778,12 @@ class ChatService:
 
         if definition_answer_payload:
             section = definition_answer_payload.get("section", {}) or {}
-            direct_answer = f'{definition_answer_payload["term"]} stands for {definition_answer_payload["definition"]}.'
             answer = self._empty_answer(
                 question,
                 plan,
                 confidence_score=0.96,
-                direct_answer=direct_answer,
-                business_explanation=f'Answered from the uploaded document {definition_answer_payload["documentName"]}.',
+                direct_answer="",
+                business_explanation=f'Answered from the selected document {definition_answer_payload["documentName"]}.',
                 ai_model=ai_model,
                 language=language,
             )
@@ -2266,15 +2797,26 @@ class ChatService:
             answer["sourceSection"] = _section_label(section) if section else ""
             answer["relevantSections"] = [_section_label(section)] if section else []
             answer["relevantChapters"] = [_chapter_label(section)] if section else []
+            answer["directAnswer"] = "\n\n".join(
+                [
+                    f'{definition_answer_payload["term"]}: {definition_answer_payload["definition"]}',
+                    self._source_block(
+                        document_name=str(answer.get("referencedPdf", "")),
+                        chapter=str(answer.get("sourceChapter", "")),
+                        section=str(answer.get("sourceSection", "")),
+                        source_pages=answer.get("sourcePages", []),
+                    ),
+                ]
+            )
             self._log_retrieval(
                 question=question,
                 plan=plan,
                 retrieval=retrieval,
                 confidence_score=0.96,
                 selected_chunks=[],
-                decision=f'Returned exact definition for term {definition_answer_payload["term"]} from the uploaded document.',
+                decision=f'Returned exact definition for term {definition_answer_payload["term"]} from the selected document.',
                 debug=search_debug,
-                llm_response=direct_answer,
+                llm_response=answer["directAnswer"],
                 final_context_documents=[str(definition_answer_payload.get("documentName", "")).strip()],
             )
             return answer
@@ -2285,8 +2827,8 @@ class ChatService:
                 question,
                 plan,
                 confidence_score=0.92,
-                direct_answer=str(document_identity_payload.get("answer", "")),
-                business_explanation=f'Answered from the uploaded document {document_identity_payload.get("documentName", "")}.',
+                direct_answer="",
+                business_explanation=f'Answered from the selected document {document_identity_payload.get("documentName", "")}.',
                 ai_model=ai_model,
                 language=language,
             )
@@ -2301,13 +2843,24 @@ class ChatService:
             answer["sourceHeading"] = ""
             answer["relevantSections"] = [_section_label(section)] if section else []
             answer["relevantChapters"] = [_chapter_label(section)] if section else []
+            answer["directAnswer"] = "\n\n".join(
+                [
+                    str(document_identity_payload.get("answer", "")).strip(),
+                    self._source_block(
+                        document_name=str(answer.get("referencedPdf", "")),
+                        chapter=str(answer.get("sourceChapter", "")),
+                        section=str(answer.get("sourceSection", "")),
+                        source_pages=answer.get("sourcePages", []),
+                    ),
+                ]
+            )
             self._log_retrieval(
                 question=question,
                 plan=plan,
                 retrieval=retrieval,
                 confidence_score=0.92,
                 selected_chunks=[],
-                decision=f'Returned document identity answer for {document_identity_payload.get("documentName", "")} from the uploaded document introduction/definition path.',
+                decision=f'Returned document identity answer for {document_identity_payload.get("documentName", "")} from the selected document introduction/definition path.',
                 debug=search_debug,
                 llm_response=answer["directAnswer"],
                 final_context_documents=[str(document_identity_payload.get("documentName", "")).strip()],
@@ -2334,41 +2887,16 @@ class ChatService:
             "Report Generation",
         }:
             answer_sections = self._fallback_sections(retrieval, sections, plan, allowed_document_names)
+        if answer_sections and not self._has_grounded_evidence(question, retrieval, answer_sections):
+            answer_sections = []
         if not answer_sections:
-            chapter_overview = self._chapter_overview(question, plan, chapters)
-            if chapter_overview:
-                answer = self._empty_answer(
-                    question,
-                    plan,
-                    confidence_score=confidence_score,
-                    direct_answer=chapter_overview,
-                    business_explanation="",
-                    ai_model=ai_model,
-                    language=language,
-                )
-                answer["title"] = "Chapter overview"
-                answer["directAnswer"] = chapter_overview
-                answer["sourceChapter"] = next(iter(plan.likely_chapters), "")
-                self._log_retrieval(
-                    question=question,
-                    plan=plan,
-                    retrieval=retrieval,
-                    confidence_score=confidence_score,
-                    selected_chunks=[],
-                    decision="Returned chapter overview from indexed chapter summaries because no section met the retrieval threshold.",
-                    debug=search_debug,
-                    final_prompt=f"Question: {question}\nSelected source: chapter overview\nSelected scope: {selected_scope_label}",
-                    llm_response=chapter_overview,
-                    final_context_documents=[],
-                )
-                return answer
             answer = self._empty_answer(
                 question,
                 plan,
                 confidence_score=confidence_score,
                 ai_model=ai_model,
                 language=language,
-                direct_answer="I couldn't find this information in the uploaded documents.",
+                direct_answer=MISSING_INFORMATION_MESSAGE,
             )
             self._log_retrieval(
                 question=question,
@@ -2376,11 +2904,11 @@ class ChatService:
                 retrieval=retrieval,
                 confidence_score=confidence_score,
                 selected_chunks=[],
-                decision="Rejected answer because no section in the selected document scope met the confidence threshold.",
+                decision="Rejected answer because the selected document did not contain a sufficiently grounded matching section.",
                 debug=search_debug,
-                final_prompt=f"Question: {question}\nSelected source: none\nSelected scope: {selected_scope_label}",
+                final_prompt=f"Question: {question}\nSelected document: {', '.join(allowed_document_names) or 'none'}\nSelected scope: {selected_scope_label}",
                 llm_response=answer["directAnswer"],
-                final_context_documents=[],
+                final_context_documents=allowed_document_names,
             )
             return answer
 
@@ -2428,8 +2956,8 @@ class ChatService:
 
         business_logic = _unique(
             [
-                *[_clean(rule.get("description", ""), 220) for rule in section_rules if rule.get("description")],
-                *[_clean(validation, 220) for section in answer_sections for validation in section.get("validations", [])[:3]],
+                *[_clean(rule.get("description", ""), 420) for rule in section_rules if rule.get("description")],
+                *[_clean(validation, 420) for section in answer_sections for validation in section.get("validations", [])[:3]],
             ]
         )[:6]
 
@@ -2442,15 +2970,15 @@ class ChatService:
 
         condition_items = _unique(
             [
-                *[_clean(condition.get("text", ""), 220) for condition in section_conditions if condition.get("text")],
-                *[_clean(rule.get("condition", ""), 220) for rule in section_rules if rule.get("condition")],
+                *[_clean(condition.get("text", ""), 420) for condition in section_conditions if condition.get("text")],
+                *[_clean(rule.get("condition", ""), 420) for rule in section_rules if rule.get("condition")],
             ]
         )[:6]
 
         exception_items = _unique(
             [
-                *[_clean(rule.get("exception", ""), 220) for rule in section_rules if rule.get("exception")],
-                *[_clean(exception, 220) for section in answer_sections for exception in section.get("exceptions", [])[:4]],
+                *[_clean(rule.get("exception", ""), 420) for rule in section_rules if rule.get("exception")],
+                *[_clean(exception, 420) for section in answer_sections for exception in section.get("exceptions", [])[:4]],
             ]
         )[:6]
 
@@ -2595,7 +3123,7 @@ class ChatService:
             retrieval=retrieval,
             confidence_score=confidence_score,
             selected_chunks=selected_chunks,
-            decision="Accepted the relevant section(s) after document-aware retrieval, source validation, and complete-section grounding.",
+            decision="Accepted the relevant section(s) after dynamic document selection, in-document retrieval, source validation, and grounded answer generation.",
             debug=search_debug,
             final_prompt=final_prompt,
             llm_response=answer["directAnswer"],

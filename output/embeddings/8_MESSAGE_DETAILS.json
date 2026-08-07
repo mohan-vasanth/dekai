@@ -156,7 +156,7 @@
   },
   {
     "id": "8-heading-HEADER_SECTION",
-    "text": "HEADER SECTION ipt:Header M 1 interchange (Sender generated). Declarant entity identifier = XXXXXXXXXXXXXXXXX Date of Creation = CCYYMMDD Sequence Numeric = 9999 B036 cbc:ID M 1 an..17 Specify Declarant entity identifier. B020 cbc:Date M 1 n8 Specify date of Creation. B068 cbc:Sequence Numeric M 1 n.. 4 Specify sequence number. B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender Id as specified in the interchange header). B021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg. DUT = Duty GST = GST (including duty exemption) DNG = Duty and GST BKT = Blanket (including blanket GST payment and duty exemption) B037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types. Refers to the declaration at the frontend software: “I/We declare that all the particulars in this Application are true and correct”. B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable. A066 cac:Remarks C 1 Provide additional details such as the source of the exchange rate obtained eg. bank, tel, date, etc if currency code is not on Customs Exchange Rate List. B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks. /cac:Remarks B065 cbc:Additional Recipient ID C 3 an..17 Repeat at most 3 times for additional Recipient (for the purpose of Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC) TDS41-MDS-XML-IPTDEC-M Ref Tag name | User defined S R Repr | Remarks",
+    "text": "HEADER SECTION ipt:Header M 1 interchange (Sender generated). Declarant entity identifier = XXXXXXXXXXXXXXXXX Date of Creation = CCYYMMDD Sequence Numeric = 9999 B036 cbc:ID M 1 an..17 Specify Declarant entity identifier. B020 cbc:Date M 1 n8 Specify date of Creation. B068 cbc:Sequence Numeric M 1 n.. 4 Specify sequence number.",
     "metadata": {
       "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
       "chapter_number": "",
@@ -170,19 +170,133 @@
         "cbc:ID",
         "cbc:Date",
         "cbc:Sequence Numeric",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "header section"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "HEADER SECTION",
+      "field_names": [
+        "ipt:Header",
+        "cbc:ID",
+        "cbc:Date",
+        "cbc:Sequence Numeric"
+      ]
+    }
+  },
+  {
+    "id": "8-heading-cac_Unique_Reference_Number",
+    "text": "/cac:Unique Reference Number B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender Id as specified in the interchange header). B021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg. DUT = Duty GST = GST (including duty exemption) DNG = Duty and GST BKT = Blanket (including blanket GST payment and duty exemption) B037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types. Refers to the declaration at the frontend software: “I/We declare that all the particulars in this Application are true and correct”. B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable. A066 cac:Remarks C 1 Provide additional details such as the source of the exchange rate obtained eg. bank, tel, date, etc if currency code is not on Customs Exchange Rate List. B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks.",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "/cac:Unique Reference Number",
+      "keywords": [
+        "cac",
+        "Unique",
+        "Reference",
+        "Number",
         "cbc:Declarant ID",
         "cbc:Declaration Type",
         "cbc:Declaration Indicator",
         "cbc:Previous Permit Number",
         "cac:Remarks",
         "cbc:Free Text",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "/cac:unique reference number"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "/cac:Unique Reference Number",
+      "field_names": [
+        "cbc:Declarant ID",
+        "cbc:Declaration Type",
+        "cbc:Declaration Indicator",
+        "cbc:Previous Permit Number",
+        "cac:Remarks",
+        "cbc:Free Text"
+      ]
+    }
+  },
+  {
+    "id": "8-heading-cac_Remarks",
+    "text": "/cac:Remarks B065 cbc:Additional Recipient ID C 3 an..17 Repeat at most 3 times for additional Recipient (for the purpose of Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC) TDS41-MDS-XML-IPTDEC-M Ref Tag name | User defined S R Repr | Remarks",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "/cac:Remarks",
+      "keywords": [
+        "cac",
+        "Remarks",
         "cbc:Additional Recipient ID",
         "Ref",
         "Tag",
         "ipt",
         "cbc",
         "the",
-        "cac",
         "DUT",
         "GST",
         "DNG",
@@ -196,7 +310,7 @@
         "document-driven",
         "dgft",
         "heading-block",
-        "header section"
+        "/cac:remarks"
       ],
       "related_sections": [
         "1",
@@ -212,38 +326,26 @@
         10,
         11
       ],
-      "heading": "HEADER SECTION",
+      "heading": "/cac:Remarks",
       "field_names": [
-        "ipt:Header",
-        "cbc:ID",
-        "cbc:Date",
-        "cbc:Sequence Numeric",
-        "cbc:Declarant ID",
-        "cbc:Declaration Type",
-        "cbc:Declaration Indicator",
-        "cbc:Previous Permit Number",
-        "cac:Remarks",
-        "cbc:Free Text",
         "cbc:Additional Recipient ID"
       ]
     }
   },
   {
-    "id": "8-heading-HEADER_SECTION",
-    "text": "HEADER SECTION | ipt:Header | 18/11/2021 11:10 For: 18/11/2021 Ver 4.1 TRADENET TDS41-MDS-XML-IPTDEC-M Trade Net Declaration.IPTDEC Ver2.1.doc",
+    "id": "8-heading-ipt_Header",
+    "text": "ipt:Header 18/11/2021 11:10 For: 18/11/2021 Ver 4.1 TRADENET TDS41-MDS-XML-IPTDEC-M Trade Net Declaration.IPTDEC Ver2.1.doc",
     "metadata": {
       "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
       "chapter_number": "",
       "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
       "section": "8",
-      "title": "HEADER SECTION",
+      "title": "ipt:Header",
       "keywords": [
-        "HEADER",
-        "SECTION",
-        "ipt:Header",
+        "ipt",
+        "Header",
         "Ref",
         "Tag",
-        "ipt",
         "cbc",
         "the",
         "cac",
@@ -260,7 +362,7 @@
         "document-driven",
         "dgft",
         "heading-block",
-        "header section"
+        "ipt:header"
       ],
       "related_sections": [
         "1",
@@ -276,15 +378,13 @@
         10,
         11
       ],
-      "heading": "HEADER SECTION",
-      "field_names": [
-        "ipt:Header"
-      ]
+      "heading": "ipt:Header",
+      "field_names": []
     }
   },
   {
     "id": "8-heading-8_MESSAGE_DETAILS",
-    "text": "8. MESSAGE DETAILS User defined Ref Tag name S R Repr Remarks",
+    "text": "8. MESSAGE DETAILS User defined Ref Tag name S R Repr",
     "metadata": {
       "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
       "chapter_number": "",
@@ -334,56 +434,19 @@
     }
   },
   {
-    "id": "8-heading-HEADER_SECTION",
-    "text": "HEADER SECTION ipt:Header M 1 B045 M 1 an..14 interchange (Sender generated). A062 M 1 Format: Declarant entity identifier = XXXXXXXXXXXXXXXXX Date of Creation = CCYYMMDD Sequence Numeric = 9999 B036 cbc:ID M 1 an..17 Specify Declarant entity identifier. B020 cbc:Date M 1 n8 Specify date of Creation. B068 cbc:Sequence Numeric M 1 n.. 4 Specify sequence number. B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender Id as specified in the interchange header). B083 M 1 an..7 IPTDEC B021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg. DUT = Duty GST = GST (including duty exemption) DNG = Duty and GST BKT = Blanket (including blanket GST payment and duty exemption) B037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types. Refers to the declaration at the frontend software: “I/We declare that all the particulars in this Application are true and correct”. B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable. A066 cac:Remarks C 1 Provide additional details such as the source of the exchange rate obtained eg. bank, tel, date, etc if currency code is not on Customs Exchange Rate List. B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks. /cac:Remarks B065 cbc:Additional Recipient ID C 3 an..17 Repeat at most 3 times for additional Recipient (for the purpose of receiving a copy of the message) ids. B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any). A068 cac:Customs Procedure Code Information C 5 Repeat at most 5 times. B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC). A069 cac:CPCProcessing Code C 5 Repeat at most 5 times each for Processing code 1, 2 and 3. B057 cbc:Processing Code One M 1 an..35 Specify processing code 1. B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2. B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3. /cac:CPCProcessing Code /cac:Customs Procedure Code Information ipt:Cargo M 1 B009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List). A032 cac:Release Location M 1 Specify Place of Release. B039 cbc:Location Code M 1 an..7",
+    "id": "8-heading-ipt_Header",
+    "text": "ipt:Header M 1 B045",
     "metadata": {
       "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
       "chapter_number": "",
       "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
       "section": "8",
-      "title": "HEADER SECTION",
+      "title": "ipt:Header",
       "keywords": [
-        "HEADER",
-        "SECTION",
-        "ipt:Header",
-        "cbc:ID",
-        "cbc:Date",
-        "cbc:Sequence Numeric",
-        "cbc:Declarant ID",
-        "cbc:Declaration Type",
-        "cbc:Declaration Indicator",
-        "cbc:Previous Permit Number",
-        "cac:Remarks",
-        "cbc:Free Text",
-        "cbc:Additional Recipient ID",
-        "cbc:Banker Guarantee Code",
-        "cac:Customs Procedure Code Information",
-        "cbc:Customs Procedure Code",
-        "cac:CPCProcessing Code",
-        "cbc:Processing Code One",
-        "cbc:Processing Code Two",
-        "cbc:Processing Code Three",
-        "ipt:Cargo",
-        "cbc:Cargo Packing Type",
-        "cac:Release Location",
-        "cbc:Location Code",
-        "cbc:Location Name",
-        "cac:Receipt Location",
-        "cac:Transport Equipment",
-        "cbc:Equipment ID",
-        "cbc:Size Type Code",
-        "cbc:Equipment Weight Measure Numeric",
-        "cac:Transport Equipment Seal",
-        "cbc:Seal ID",
-        "cbc:Supply Indicator",
-        "cbc:Blanket Start Date",
-        "ipt:Transport",
-        "cac:Inward Transport",
-        "cac:Transport Means",
-        "cac:Transport Mode",
+        "ipt",
+        "Header",
         "Ref",
         "Tag",
-        "ipt",
         "cbc",
         "the",
         "cac",
@@ -400,7 +463,7 @@
         "document-driven",
         "dgft",
         "heading-block",
-        "header section"
+        "ipt:header"
       ],
       "related_sections": [
         "1",
@@ -416,19 +479,633 @@
         10,
         11
       ],
-      "heading": "HEADER SECTION",
-      "field_names": [
-        "ipt:Header",
-        "cbc:ID",
-        "cbc:Date",
-        "cbc:Sequence Numeric",
-        "cbc:Declarant ID",
-        "cbc:Declaration Type",
-        "cbc:Declaration Indicator",
-        "cbc:Previous Permit Number",
-        "cac:Remarks",
-        "cbc:Free Text",
-        "cbc:Additional Recipient ID",
+      "heading": "ipt:Header",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Message_Reference",
+    "text": "cbc:Message Reference M 1 an..14 interchange (Sender generated). A062",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Message Reference",
+      "keywords": [
+        "cbc",
+        "Message",
+        "Reference",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:message reference"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Message Reference",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cac_Unique_Reference_Number",
+    "text": "cac:Unique Reference Number M 1 Format: Declarant entity identifier = XXXXXXXXXXXXXXXXX Date of Creation = CCYYMMDD Sequence Numeric = 9999 B036",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cac:Unique Reference Number",
+      "keywords": [
+        "cac",
+        "Unique",
+        "Reference",
+        "Number",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cac:unique reference number"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cac:Unique Reference Number",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_ID",
+    "text": "cbc:ID M 1 an..17 Specify Declarant entity identifier. B020",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:ID",
+      "keywords": [
+        "cbc",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:id"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:ID",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Date",
+    "text": "cbc:Date M 1 n8 Specify date of Creation. B068",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Date",
+      "keywords": [
+        "cbc",
+        "Date",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:date"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Date",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Sequence_Numeric",
+    "text": "cbc:Sequence Numeric M 1 n.. 4 Specify sequence number.",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Sequence Numeric",
+      "keywords": [
+        "cbc",
+        "Sequence",
+        "Numeric",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:sequence numeric"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Sequence Numeric",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Declarant_ID",
+    "text": "cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender Id as specified in the interchange header). B083",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Declarant ID",
+      "keywords": [
+        "cbc",
+        "Declarant",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:declarant id"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Declarant ID",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Common_Access_Reference",
+    "text": "cbc:Common Access Reference M 1 an..7 IPTDEC B021",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Common Access Reference",
+      "keywords": [
+        "cbc",
+        "Common",
+        "Access",
+        "Reference",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:common access reference"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Common Access Reference",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Declaration_Type",
+    "text": "cbc:Declaration Type M 1 an..7 Specify Declaration Type eg. DUT = Duty GST = GST (including duty exemption) DNG = Duty and GST BKT = Blanket (including blanket GST payment and duty exemption) B037",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Declaration Type",
+      "keywords": [
+        "cbc",
+        "Declaration",
+        "Type",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:declaration type"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Declaration Type",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Declaration_Indicator",
+    "text": "cbc:Declaration Indicator M boolean Mandatory for all Declaration Types. Refers to the declaration at the frontend software: “I/We declare that all the particulars in this Application are true and correct”. B064",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Declaration Indicator",
+      "keywords": [
+        "cbc",
+        "Declaration",
+        "Indicator",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:declaration indicator"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Declaration Indicator",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Previous_Permit_Number",
+    "text": "cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable. A066",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Previous Permit Number",
+      "keywords": [
+        "cbc",
+        "Previous",
+        "Permit",
+        "Number",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:previous permit number"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Previous Permit Number",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cac_Remarks",
+    "text": "cac:Remarks C 1 Provide additional details such as the source of the exchange rate obtained eg. bank, tel, date, etc if currency code is not on Customs Exchange Rate List. B034",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cac:Remarks",
+      "keywords": [
+        "cac",
+        "Remarks",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cac:remarks"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cac:Remarks",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Free_Text",
+    "text": "cbc:Free Text M 2 an..512 Specify general/trader’s remarks.",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Free Text",
+      "keywords": [
+        "cbc",
+        "Free",
+        "Text",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:free text"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Free Text",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Additional_Recipient_ID",
+    "text": "cbc:Additional Recipient ID C 3 an..17 Repeat at most 3 times for additional Recipient (for the purpose of receiving a copy of the message) ids. B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any). A068 cac:Customs Procedure Code Information C 5 Repeat at most 5 times. B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC). A069 cac:CPCProcessing Code C 5 Repeat at most 5 times each for Processing code 1, 2 and 3. B057 cbc:Processing Code One M 1 an..35 Specify processing code 1. B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2. B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3.",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Additional Recipient ID",
+      "keywords": [
+        "cbc",
+        "Additional",
+        "Recipient",
         "cbc:Banker Guarantee Code",
         "cac:Customs Procedure Code Information",
         "cbc:Customs Procedure Code",
@@ -436,18 +1113,1528 @@
         "cbc:Processing Code One",
         "cbc:Processing Code Two",
         "cbc:Processing Code Three",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:additional recipient id"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Additional Recipient ID",
+      "field_names": [
+        "cbc:Banker Guarantee Code",
+        "cac:Customs Procedure Code Information",
+        "cbc:Customs Procedure Code",
+        "cac:CPCProcessing Code",
+        "cbc:Processing Code One",
+        "cbc:Processing Code Two",
+        "cbc:Processing Code Three"
+      ]
+    }
+  },
+  {
+    "id": "8-heading-cac_Customs_Procedure_Code_Information",
+    "text": "/cac:Customs Procedure Code Information ipt:Cargo M 1 B009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List). A032 cac:Release Location M 1 Specify Place of Release. B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists). B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY (shipyard) or SC (sailing club) or O (others).",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "/cac:Customs Procedure Code Information",
+      "keywords": [
+        "cac",
+        "Customs",
+        "Procedure",
+        "Code",
+        "Information",
         "ipt:Cargo",
         "cbc:Cargo Packing Type",
         "cac:Release Location",
         "cbc:Location Code",
         "cbc:Location Name",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "/cac:customs procedure code information"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "/cac:Customs Procedure Code Information",
+      "field_names": [
+        "ipt:Cargo",
+        "cbc:Cargo Packing Type",
+        "cac:Release Location",
+        "cbc:Location Code",
+        "cbc:Location Name"
+      ]
+    }
+  },
+  {
+    "id": "8-heading-cac_Release_Location",
+    "text": "/cac:Release Location A032 cac:Receipt Location M 1 Specify Place of Receipt. B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists). B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY (shipyard) or SC (sailing club) or O (others).",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "/cac:Release Location",
+      "keywords": [
+        "cac",
+        "Release",
+        "Location",
         "cac:Receipt Location",
+        "cbc:Location Code",
+        "cbc:Location Name",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "/cac:release location"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "/cac:Release Location",
+      "field_names": [
+        "cac:Receipt Location",
+        "cbc:Location Code",
+        "cbc:Location Name"
+      ]
+    }
+  },
+  {
+    "id": "8-heading-cac_Receipt_Location",
+    "text": "/cac:Receipt Location A059 cac:Transport Equipment C 99 Repeat at most 99 times for containers at point of clearance. B068 cbc:Sequence Numeric M 1 n.. 5 Specify sequence number. B027 cbc:Equipment ID M 1 an..13 Specify container number. B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes: FCL20 FCL40 FCL45 LCL20 LCL40 LCL45 where: FCL: Full Container Load LCL: Less Than Container Load B028 cbc:Equipment Weight Measure Numeric M 1 n.. 3 Specify container weight (TNE). A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container at the time of arrival. B067 cbc:Seal ID M 1 an..35 Specify shipper seal number.",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "/cac:Receipt Location",
+      "keywords": [
+        "cac",
+        "Receipt",
+        "Location",
         "cac:Transport Equipment",
+        "cbc:Sequence Numeric",
         "cbc:Equipment ID",
         "cbc:Size Type Code",
         "cbc:Equipment Weight Measure Numeric",
         "cac:Transport Equipment Seal",
         "cbc:Seal ID",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "/cac:receipt location"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "/cac:Receipt Location",
+      "field_names": [
+        "cac:Transport Equipment",
+        "cbc:Sequence Numeric",
+        "cbc:Equipment ID",
+        "cbc:Size Type Code",
+        "cbc:Equipment Weight Measure Numeric",
+        "cac:Transport Equipment Seal",
+        "cbc:Seal ID"
+      ]
+    }
+  },
+  {
+    "id": "8-heading-cac_Transport_Equipment_Seal",
+    "text": "/cac:Transport Equipment Seal Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC) TDS41-MDS-XML-IPTDEC-M",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "/cac:Transport Equipment Seal",
+      "keywords": [
+        "cac",
+        "Transport",
+        "Equipment",
+        "Seal",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "/cac:transport equipment seal"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "/cac:Transport Equipment Seal",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-ipt_Cargo",
+    "text": "ipt:Cargo 18/11/2021 11:10 For: 18/11/2021 Ver 4.1 TRADENET TDS41-MDS-XML-IPTDEC-M Trade Net Declaration.IPTDEC Ver2.1.doc receiving a copy of the message) ids. B007",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "ipt:Cargo",
+      "keywords": [
+        "ipt",
+        "Cargo",
+        "Ref",
+        "Tag",
+        "cbc",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "ipt:cargo"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "ipt:Cargo",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Banker_Guarantee_Code",
+    "text": "cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any). A068",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Banker Guarantee Code",
+      "keywords": [
+        "cbc",
+        "Banker",
+        "Guarantee",
+        "Code",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:banker guarantee code"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Banker Guarantee Code",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cac_Customs_Procedure_Code_Information",
+    "text": "cac:Customs Procedure Code Information C 5 Repeat at most 5 times. B089",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cac:Customs Procedure Code Information",
+      "keywords": [
+        "cac",
+        "Customs",
+        "Procedure",
+        "Code",
+        "Information",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cac:customs procedure code information"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cac:Customs Procedure Code Information",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Customs_Procedure_Code",
+    "text": "cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC). A069",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Customs Procedure Code",
+      "keywords": [
+        "cbc",
+        "Customs",
+        "Procedure",
+        "Code",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:customs procedure code"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Customs Procedure Code",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cac_CPCProcessing_Code",
+    "text": "cac:CPCProcessing Code C 5 Repeat at most 5 times each for Processing code 1, 2 and 3. B057",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cac:CPCProcessing Code",
+      "keywords": [
+        "cac",
+        "CPCProcessing",
+        "Code",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cac:cpcprocessing code"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cac:CPCProcessing Code",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Processing_Code_One",
+    "text": "cbc:Processing Code One M 1 an..35 Specify processing code 1. B057",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Processing Code One",
+      "keywords": [
+        "cbc",
+        "Processing",
+        "Code",
+        "One",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:processing code one"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Processing Code One",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Processing_Code_Two",
+    "text": "cbc:Processing Code Two C 1 an..35 Specify processing code 2. B057",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Processing Code Two",
+      "keywords": [
+        "cbc",
+        "Processing",
+        "Code",
+        "Two",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:processing code two"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Processing Code Two",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Processing_Code_Three",
+    "text": "cbc:Processing Code Three C 1 an..35 Specify processing code 3.",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Processing Code Three",
+      "keywords": [
+        "cbc",
+        "Processing",
+        "Code",
+        "Three",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:processing code three"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Processing Code Three",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-ipt_Cargo",
+    "text": "ipt:Cargo M 1 B009",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "ipt:Cargo",
+      "keywords": [
+        "ipt",
+        "Cargo",
+        "Ref",
+        "Tag",
+        "cbc",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "ipt:cargo"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "ipt:Cargo",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Cargo_Packing_Type",
+    "text": "cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List). A032",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Cargo Packing Type",
+      "keywords": [
+        "cbc",
+        "Cargo",
+        "Packing",
+        "Type",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:cargo packing type"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Cargo Packing Type",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cac_Release_Location",
+    "text": "cac:Release Location M 1 Specify Place of Release. B039",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cac:Release Location",
+      "keywords": [
+        "cac",
+        "Release",
+        "Location",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cac:release location"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cac:Release Location",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Location_Code",
+    "text": "cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists). B040",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Location Code",
+      "keywords": [
+        "cbc",
+        "Location",
+        "Code",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:location code"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Location Code",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Location_Name",
+    "text": "cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY (shipyard) or SC (sailing club) or O (others).",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Location Name",
+      "keywords": [
+        "cbc",
+        "Location",
+        "Name",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:location name"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Location Name",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cac_Receipt_Location",
+    "text": "cac:Receipt Location M 1 Specify Place of Receipt. B039",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cac:Receipt Location",
+      "keywords": [
+        "cac",
+        "Receipt",
+        "Location",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cac:receipt location"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cac:Receipt Location",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Location_Code",
+    "text": "cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists). B040",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Location Code",
+      "keywords": [
+        "cbc",
+        "Location",
+        "Code",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:location code"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Location Code",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Location_Name",
+    "text": "cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY (shipyard) or SC (sailing club) or O (others).",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Location Name",
+      "keywords": [
+        "cbc",
+        "Location",
+        "Name",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:location name"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Location Name",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cac_Transport_Equipment",
+    "text": "cac:Transport Equipment C 99 Repeat at most 99 times for containers at point of clearance. B068",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cac:Transport Equipment",
+      "keywords": [
+        "cac",
+        "Transport",
+        "Equipment",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cac:transport equipment"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cac:Transport Equipment",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Sequence_Numeric",
+    "text": "cbc:Sequence Numeric M 1 n.. 5 Specify sequence number. B027",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Sequence Numeric",
+      "keywords": [
+        "cbc",
+        "Sequence",
+        "Numeric",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:sequence numeric"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Sequence Numeric",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Equipment_ID",
+    "text": "cbc:Equipment ID M 1 an..13 Specify container number. B069",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Equipment ID",
+      "keywords": [
+        "cbc",
+        "Equipment",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:equipment id"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Equipment ID",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Size_Type_Code",
+    "text": "cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes: FCL20 FCL40 FCL45 LCL20 LCL40 LCL45 where: FCL: Full Container Load LCL: Less Than Container Load B028",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Size Type Code",
+      "keywords": [
+        "cbc",
+        "Size",
+        "Type",
+        "Code",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:size type code"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Size Type Code",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Equipment_Weight_Measure_Numeric",
+    "text": "cbc:Equipment Weight Measure Numeric M 1 n.. 3 Specify container weight (TNE). A058",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Equipment Weight Measure Numeric",
+      "keywords": [
+        "cbc",
+        "Equipment",
+        "Weight",
+        "Measure",
+        "Numeric",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:equipment weight measure numeric"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Equipment Weight Measure Numeric",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cac_Transport_Equipment_Seal",
+    "text": "cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container at the time of arrival. B067",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cac:Transport Equipment Seal",
+      "keywords": [
+        "cac",
+        "Transport",
+        "Equipment",
+        "Seal",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cac:transport equipment seal"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cac:Transport Equipment Seal",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cbc_Seal_ID",
+    "text": "cbc:Seal ID M 1 an..35 Specify shipper seal number.",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "cbc:Seal ID",
+      "keywords": [
+        "cbc",
+        "Seal",
+        "Ref",
+        "Tag",
+        "ipt",
+        "the",
+        "cac",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "cbc:seal id"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "cbc:Seal ID",
+      "field_names": []
+    }
+  },
+  {
+    "id": "8-heading-cac_Transport_Equipment",
+    "text": "/cac:Transport Equipment B037 cbc:Supply Indicator C 1 boolean Specify Supply Indicator for: a) all dutiable goods of Singapore origin released from Licensed Warehouse, if there is a supply. b) all imported goods where there is a supply prior to its release from Customs' control. B020 cbc:Blanket Start Date C 1 n8 Format: CCYYMMDD For blanket imports, specify Start Date of Blanket. ipt:Transport C 1 Notes: For all Declaration Types, specify for inward transport, except for the following: (i) Goods released from licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse (ii) short payment where place of receipt = SPSTK, SPNOSTK (iii) declaration type = BKT (Blanket) (iv) recovery payment where place of receipt = RCNOSTK (v) payment for goods previously exempted from duties/taxes (e.g. place of release = EM, EXEMPT) (vi) Supplementary declaration for schemes under AISS, IGDS such as Place of Receipt = AISSLOC, SPIGDS A026 cac:Inward Transport M 1 Mandatory to specify Inward transport. A060 cac:Transport Means C 1 Specify inward transport mode. A060 cac:Transport Mode M 1 For all Declaration Types, valid codes (refer to UN/ECE Recommendation No. 19) are:",
+    "metadata": {
+      "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "chapter_number": "",
+      "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+      "section": "8",
+      "title": "/cac:Transport Equipment",
+      "keywords": [
+        "cac",
+        "Transport",
+        "Equipment",
+        "cbc:Supply Indicator",
+        "cbc:Blanket Start Date",
+        "ipt:Transport",
+        "cac:Inward Transport",
+        "cac:Transport Means",
+        "cac:Transport Mode",
+        "Ref",
+        "Tag",
+        "ipt",
+        "cbc",
+        "the",
+        "DUT",
+        "GST",
+        "DNG",
+        "and"
+      ],
+      "intent": "Support MESSAGE DETAILS processing and compliance validation.",
+      "tags": [
+        "8",
+        "MESSAGE DETAILS",
+        "business-rule",
+        "document-driven",
+        "dgft",
+        "heading-block",
+        "/cac:transport equipment"
+      ],
+      "related_sections": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "source_pages": [
+        9,
+        10,
+        11
+      ],
+      "heading": "/cac:Transport Equipment",
+      "field_names": [
         "cbc:Supply Indicator",
         "cbc:Blanket Start Date",
         "ipt:Transport",
@@ -458,7 +2645,7 @@
     }
   },
   {
-    "id": "8-8",
+    "id": "8-51",
     "text": "8. MESSAGE DETAILS User defined Ref Tag name S R Repr Remarks HEADER SECTION ipt:Header M 1 B045 cbc:Message Reference M 1 an..14 Sender unique message reference. Sequence number of messages in the interchange (Sender generated). A062 cac:Unique Reference Number M 1 Format: Declarant entity identifier = XXXXXXXXXXXXXXXXX Date of Creation = CCYYMMDD Sequence Numeric = 9999 B036 cbc:ID M 1 an..17 Specify Declarant entity identifier. B020 cbc:Date M 1 n8 Specify date of Creation. B068 cbc:Sequence Numeric M 1 n.. 4 Specify sequence number. /cac:Unique Reference Number B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender Id as specified in the interchange header). B083 cbc:Common Access Reference M 1 an..7 IPTDEC B021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg. DUT = Duty GST = GST (including duty exemption) DNG = Duty and GST BKT = Blanket (including blanket GST payment and duty exemption) B037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types. Refers to the declaration at the frontend software: “I/We declare that all the particulars in this Application are true and correct”. B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable. A066 cac:Remarks C 1 Provide additional details such as the source of the exchange rate obtained eg. bank, tel, date, etc if currency code is not on Customs Exchange Rate List. B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks. /cac:Remarks B065 cbc:Additional Recipient ID C 3 an..17 Repeat at most 3 times for additional Recipient (for the purpose of Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC) OFFICIAL (CLOSED) Prepared by: TDS41-MDS-XML-IPTDEC-M Ref Tag name | User defined S R Repr | Remarks HEADER SECTION | | | ipt:Header | OFFICIAL (CLOSED) TRADENET MESSAGE 18/11/2021 11:10 AM Prepared by: For: Release Date 18/11/2021 Ver 4.1 Reference TRADENET Document Id. TDS41-MDS-XML-IPTDEC-M Trade Net Declaration.IPTDEC Ver2.1.doc OFFICIAL (CLOSED) 8. MESSAGE DETAILS User defined Ref Tag name S R Repr Remarks HEADER SECTION ipt:Header M 1 B045 cbc:Message Reference M 1 an..14 Sender unique message reference. Sequence number of messages in the interchange (Sender generated). A062 cac:Unique Reference Number M 1 Format: Declarant entity identifier = XXXXXXXXXXXXXXXXX Date of Creation = CCYYMMDD Sequence Numeric = 9999 B036 cbc:ID M 1 an..17 Specify Declarant entity identifier. B020 cbc:Date M 1 n8 Specify date of Creation. B068 cbc:Sequence Numeric M 1 n.. 4 Specify sequence number. /cac:Unique Reference Number B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender Id as specified in the interchange header). B083 cbc:Common Access Reference M 1 an..7 IPTDEC B021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg. DUT = Duty GST = GST (including duty exemption) DNG = Duty and GST BKT = Blanket (including blanket GST payment and duty exemption) B037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types. Refers to the declaration at the frontend software: “I/We declare that all the particulars in this Application are true and correct”. B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable. A066 cac:Remarks C 1 Provide additional details such as the source of the exchange rate obtained eg. bank, tel, date, etc if currency code is not on Customs Exchange Rate List. B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks. /cac:Remarks B065 cbc:Additional Recipient ID C 3 an..17 Repeat at most 3 times for additional Recipient (for the purpose of OFFICIAL (CLOSED) AM receiving a copy of the message) ids. B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any). A068 cac:Customs Procedure Code Information C 5 Repeat at most 5 times. B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC). A069 cac:CPCProcessing Code C 5 Repeat at most 5 times each for Processing code 1, 2 and 3. B057 cbc:Processing Code One M 1 an..35 Specify processing code 1. B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2. B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3. /cac:CPCProcessing Code /cac:Customs Procedure Code Information ipt:Cargo M 1 B009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List). A032 cac:Release Location",
     "metadata": {
       "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
@@ -536,7 +2723,7 @@
     }
   },
   {
-    "id": "8-9",
+    "id": "8-52",
     "text": "Code Information C 5 Repeat at most 5 times. B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC). A069 cac:CPCProcessing Code C 5 Repeat at most 5 times each for Processing code 1, 2 and 3. B057 cbc:Processing Code One M 1 an..35 Specify processing code 1. B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2. B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3. /cac:CPCProcessing Code /cac:Customs Procedure Code Information ipt:Cargo M 1 B009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List). A032 cac:Release Location M 1 Specify Place of Release. B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists). B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY (shipyard) or SC (sailing club) or O (others). /cac:Release Location A032 cac:Receipt Location M 1 Specify Place of Receipt. B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists). B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY (shipyard) or SC (sailing club) or O (others). /cac:Receipt Location A059 cac:Transport Equipment C 99 Repeat at most 99 times for containers at point of clearance. B068 cbc:Sequence Numeric M 1 n.. 5 Specify sequence number. B027 cbc:Equipment ID M 1 an..13 Specify container number. B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes: FCL20 FCL40 FCL45 LCL20 LCL40 LCL45 where: FCL: Full Container Load LCL: Less Than Container Load B028 cbc:Equipment Weight Measure Numeric M 1 n.. 3 Specify container weight (TNE). A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container at the time of arrival. B067 cbc:Seal ID M 1 an..35 Specify shipper seal number. /cac:Transport Equipment Seal Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC) OFFICIAL (CLOSED) Prepared by: TDS41-MDS-XML-IPTDEC-M | ipt:Cargo | OFFICIAL (CLOSED) TRADENET MESSAGE 18/11/2021 11:10 AM Prepared by: For: Release Date 18/11/2021 Ver 4.1 Reference TRADENET Document Id. TDS41-MDS-XML-IPTDEC-M Trade Net Declaration.IPTDEC Ver2.1.doc OFFICIAL (CLOSED) receiving a copy of the message) ids. B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any). A068 cac:Customs Procedure Code Information C 5 Repeat at most 5 times. B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC). A069 cac:CPCProcessing Code C 5 Repeat at most 5 times each for Processing code 1, 2 and 3. B057 cbc:Processing Code One M 1 an..35 Specify processing code 1. B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2. B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3. /cac:CPCProcessing Code /cac:Customs Procedure Code Information ipt:Cargo M 1 B009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List). A032 cac:Release Location M 1 Specify Place of Release. B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists). B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY (shipyard) or SC (sailing club) or O (others). /cac:Release Location A032 cac:Receipt Location M 1 Specify Place of Receipt. B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists). B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY (shipyard) or SC (sailing club) or O (others). /cac:Receipt Location A059 cac:Transport Equipment C 99 Repeat at most 99 times for containers at point of clearance. B068 cbc:Sequence Numeric M 1 n.. 5 Specify sequence number. B027 cbc:Equipment ID M 1 an..13 Specify container number. B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes: FCL20 FCL40 FCL45 LCL20 LCL40 LCL45 where: FCL: Full Container Load LCL: Less Than Container Load B028 cbc:Equipment Weight Measure Numeric M 1 n.. 3 Specify container weight (TNE). A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container at the time of arrival. B067 cbc:Seal ID M 1 an..35 Specify shipper seal number. /cac:Transport Equipment Seal OFFICIAL (CLOSED) AM /cac:Transport Equipment B037 cbc:Supply Indicator C 1 boolean Specify Supply Indicator ID M 1 an..13 Specify container number. B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes: FCL20 FCL40 FCL45 LCL20 LCL40 LCL45 where: FCL: Full Container Load LCL: Less Than Container Load B028 cbc:Equipment Weight Measure Numeric M 1 n.. 3 Specify container weight (TNE). A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container at the time of arrival. B067 cbc:Seal ID M 1 an..35 Specify shipper seal number. /cac:Transport Equipment Seal OFFICIAL (CLOSED) AM /cac:Transport Equipment B037 cbc:Supply Indicator C 1 boolean Specify Supply Indicator for: a) all dutiable goods of Singapore origin released from Licensed Warehouse, if there is a supply. b) all imported goods where there is a supply prior to its release from Customs' control. B020 cbc:Blanket Start Date C 1 n8 Format: CCYYMMDD For blanket imports, specify Start Date of Blanket. ipt:Transport C 1 Notes: For all Declaration Types, specify for inward transport, except for the following: (i) Goods released from licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse (ii) short payment where place of receipt = SPSTK, SPNOSTK (iii) declaration type = BKT (Blanket) (iv) recovery payment where place of receipt = RCNOSTK (v) payment for goods previously exempted from duties/taxes (e.g. place of release = EM, EXEMPT) (vi) Supplementary declaration for schemes under AISS, IGDS such as Place of Receipt = AISSLOC, SPIGDS A026 cac:Inward Transport M 1 Mandatory to specify Inward transport. A060 cac:Transport Means C 1 Specify inward transport mode. A060 cac:Transport Mode M 1 For all Declaration Types, valid codes (refer to UN/ECE Recommendation No. 19) are:",
     "metadata": {
       "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",

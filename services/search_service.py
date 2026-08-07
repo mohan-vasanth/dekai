@@ -156,7 +156,7 @@ class SearchService:
         field_values = [
             _normalize_match_text(field)
             for field in candidate.get("fieldNames", [])
-            if _normalize_match_text(field)
+            if _normalize_match_text(field) and len(_normalize_match_text(field)) >= 3
         ]
         field_values.extend(
             _normalize_match_text(match)
@@ -164,6 +164,7 @@ class SearchService:
                 r"\b[A-Za-z]{2,5}:[A-Za-z][A-Za-z0-9]+(?:\s+[A-Za-z][A-Za-z0-9]+){0,3}\b",
                 str(candidate.get("text", "")),
             )
+            if _normalize_match_text(match) and len(_normalize_match_text(match)) >= 3
         )
         field_values = list(dict.fromkeys(field_values))
 
@@ -530,7 +531,7 @@ class SearchService:
             exact_hs = 1 if candidate.get("exactHsMatch") else 0
             exact_section = 1 if candidate.get("exactSectionMatch") else 0
             exact_chapter = 1 if candidate.get("exactChapterMatch") else 0
-            exact_table = 1 if candidate.get("isTableRow") and (not analysis.hs_codes or candidate.get("exactHsMatch")) else 0
+            exact_table = 1 if candidate.get("isTableRow") and bool(analysis.hs_codes) and candidate.get("exactHsMatch") else 0
             exact_heading = 1 if candidate.get("headingExactMatch") else 0
             exact_field = 1 if candidate.get("fieldExactMatch") else 0
             contains_heading = 1 if candidate.get("headingContainsMatch") else 0

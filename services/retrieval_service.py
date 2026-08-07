@@ -15,6 +15,10 @@ def _contains_any(value: str, phrases: tuple[str, ...]) -> bool:
     return any(phrase in value for phrase in phrases)
 
 
+def _contains_xml_like_tag(value: str) -> bool:
+    return bool(re.search(r"\b(?:ipt|cac|cbc):[A-Za-z][A-Za-z0-9._-]*\b", value, flags=re.IGNORECASE))
+
+
 @dataclass(frozen=True)
 class RetrievalPlan:
     question_understood: str
@@ -399,6 +403,40 @@ class RetrievalDecisionService:
         user_intent = analysis.user_intent
         explicit_sections = analysis.section_numbers
         explicit_chapters = analysis.chapter_numbers
+
+        if _contains_xml_like_tag(question_understood) or _contains_any(
+            normalized,
+            (
+                "header section",
+                "item section",
+                "summary section",
+                "message details",
+                "message definition",
+                "message function",
+                "declaration type",
+                "tradenet",
+                "message specification",
+            ),
+        ):
+            topic = "Message Specification"
+            if _contains_xml_like_tag(question_understood):
+                topic = "XML Tag"
+            elif "header section" in normalized:
+                topic = "Header"
+            elif "declaration type" in normalized:
+                topic = "Declaration Type"
+            return RetrievalPlan(
+                question_understood=question_understood,
+                user_intent=user_intent if user_intent != "General Question" else "Question Answering",
+                intent=topic,
+                topic=topic,
+                knowledge_sources=("Selected Document", "TradeNet", "Message Specification"),
+                collection_filters=frozenset(),
+                likely_chapters=(),
+                likely_sections=explicit_sections,
+                chapter_filters=frozenset(explicit_chapters),
+                section_filters=frozenset(explicit_sections),
+            )
 
         if is_hs_intent(question_understood):
             intent = "HS Code Lookup" if analysis.hs_codes else "HS Code Search"
