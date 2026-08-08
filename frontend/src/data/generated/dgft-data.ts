@@ -4,7 +4,7 @@ export const dgftData = {
     "knowledgeBaseName": "DEKAI DGFT Knowledge Base",
     "theme": "Copilot-grade enterprise workspace",
     "models": {
-      "llm": "GPT-4.1 / Claude / Gemini compatible",
+      "llm": "GPT-4.1",
       "embeddings": "text-embedding-3-large",
       "vectorDatabase": "pgvector",
       "chunking": "500-800 tokens with overlap"

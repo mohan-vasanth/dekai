@@ -3,11 +3,10 @@ import { useSearchParams } from "react-router-dom";
 import { streamChat } from "../api/chat";
 import { PageBackButton, useAppBack } from "../components/navigation";
 import { PageMotion, useToast } from "../components/ui";
-import { formatAnswerForClipboard, type AssistantAnswer } from "../lib/dekai";
+import { formatAnswerForClipboard } from "../lib/answer-format";
 import { usePreferences } from "../lib/preferences";
-import { activeDocumentStorage } from "../services/active-document";
 import { chatHistoryStorage } from "../services/chat-history";
-import type { AssistantAnswer as ApiAssistantAnswer } from "../types/api";
+import type { AssistantAnswer } from "../types/api";
 import {
   AssistantBubble,
   ChatComposer,
@@ -19,6 +18,55 @@ import {
   UserBubble,
 } from "./dekai-ui";
 
+const strictModeAutoSubmitKeys = new Set<string>();
+const pendingRequestKeys = new Set<string>();
+
+function normalizeMessageKeyPart(value: string) {
+  return value.trim().replace(/\s+/g, " ").toLowerCase();
+}
+
+function buildRequestKey(question: string, currentDocumentName: string, aiModel: string, language: string) {
+  return [
+    normalizeMessageKeyPart(question),
+    normalizeMessageKeyPart(currentDocumentName),
+    normalizeMessageKeyPart(aiModel),
+    normalizeMessageKeyPart(language),
+  ].join("::");
+}
+
+function buildAnswerFingerprint(answer: AssistantAnswer) {
+  const sourceEntries = (answer.sources ?? [])
+    .map((source) =>
+      [
+        normalizeMessageKeyPart(source.documentName),
+        normalizeMessageKeyPart(source.chapter),
+        normalizeMessageKeyPart(source.section),
+        [...source.pageNumbers].sort((left, right) => left - right).join(","),
+      ].join("|"),
+    )
+    .join("||");
+
+  return JSON.stringify({
+    question: normalizeMessageKeyPart(answer.question),
+    directAnswer: normalizeMessageKeyPart(answer.directAnswer),
+    referencedPdf: normalizeMessageKeyPart(answer.referencedPdf),
+    sourceChapter: normalizeMessageKeyPart(answer.sourceChapter),
+    sourceSection: normalizeMessageKeyPart(answer.sourceSection),
+    sourcePages: [...answer.sourcePages].sort((left, right) => left - right).join(","),
+    sources: sourceEntries,
+  });
+}
+
+function resolveResponseDocumentName(answer: AssistantAnswer) {
+  return (
+    answer.documentSync?.responseDocumentName?.trim() ||
+    answer.documentSync?.retrievedDocumentName?.trim() ||
+    answer.referencedPdf?.trim() ||
+    answer.sourcePdfs.find((value) => value.trim())?.trim() ||
+    ""
+  );
+}
+
 export function ChatPage() {
   const { pushToast } = useToast();
   const { canGoBack, goBack } = useAppBack();
@@ -29,27 +77,45 @@ export function ChatPage() {
   const prefilledQuestion = searchParams.get("q") ?? "";
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [draft, setDraft] = useState("");
-  const [activeDocumentName, setActiveDocumentName] = useState(() => activeDocumentStorage.get()?.name ?? "");
+  const draftRef = useRef("");
+  const [resolvedDocumentName, setResolvedDocumentName] = useState("");
+  const [conversationId, setConversationId] = useState(() => makeId("conversation"));
+  const [isRequestInFlight, setIsRequestInFlight] = useState(false);
+  const isRequestInFlightRef = useRef(false);
+  const activeRequestKeyRef = useRef<string | null>(null);
   const lastAutoSubmittedRef = useRef("");
 
   useEffect(() => {
     setMessages([]);
     setDraft("");
+    setResolvedDocumentName("");
+    setConversationId(makeId("conversation"));
   }, [newChatKey]);
 
   useEffect(() => {
-    setActiveDocumentName(activeDocumentStorage.get()?.name ?? "");
-  }, [newChatKey]);
+    draftRef.current = draft;
+  }, [draft]);
+
+  useEffect(() => {
+    return () => {
+      const activeRequestKey = activeRequestKeyRef.current;
+      if (activeRequestKey) {
+        pendingRequestKeys.delete(activeRequestKey);
+      }
+    };
+  }, []);
 
   const submitQuestion = useCallback(async (questionValue?: string) => {
-    const nextDraft = questionValue ?? draft;
+    const nextDraft = questionValue ?? draftRef.current;
     const question = nextDraft.trim();
-    if (!question) return;
-    chatHistoryStorage.add(question);
+    if (!question || isRequestInFlightRef.current) return;
 
+    const currentDocumentName = "";
+    const requestKey = buildRequestKey(question, currentDocumentName, aiModel, language);
+    if (pendingRequestKeys.has(requestKey)) return;
     const userId = makeId("user");
     const assistantId = makeId("assistant");
-    const placeholder: ApiAssistantAnswer = {
+    const placeholder: AssistantAnswer = {
       question,
       questionUnderstood: question,
       title: "Thinking",
@@ -80,36 +146,107 @@ export function ChatPage() {
       sourceSection: "",
     };
 
+    isRequestInFlightRef.current = true;
+    activeRequestKeyRef.current = requestKey;
+    pendingRequestKeys.add(requestKey);
+    setIsRequestInFlight(true);
+    chatHistoryStorage.add(question);
+
     startTransition(() => {
-      setMessages((current) => [
-        ...current,
-        { id: userId, role: "user", text: question },
-        { id: assistantId, role: "assistant", answer: placeholder, streamedText: "", complete: false },
-      ]);
+      setMessages((current) => {
+        if (current.some((message) => message.role === "assistant" && message.requestKey === requestKey && !message.complete)) {
+          return current;
+        }
+
+        return [
+          ...current,
+          { id: userId, role: "user", text: question, requestKey },
+          { id: assistantId, role: "assistant", answer: placeholder, streamedText: "", complete: false, requestKey },
+        ];
+      });
       setDraft("");
     });
 
     try {
-      const currentDocumentName = activeDocumentStorage.get()?.name ?? activeDocumentName;
-      if (currentDocumentName !== activeDocumentName) {
-        setActiveDocumentName(currentDocumentName);
-      }
       await streamChat(question, (event) => {
-        setMessages((current) =>
-          current.map((message) => {
-            if (message.id !== assistantId || message.role !== "assistant") {
-              return message;
+        if (event.type === "start") {
+          const syncedDocumentName =
+            event.documentSync?.responseDocumentName?.trim() || event.documentSync?.retrievedDocumentName?.trim() || "";
+          if (syncedDocumentName) {
+            setResolvedDocumentName(syncedDocumentName);
+          }
+          console.debug("dekai_document_sync_start", {
+            question,
+            requestedDocumentName: event.documentSync?.requestedDocumentName ?? currentDocumentName,
+            retrievedDocumentName: event.documentSync?.retrievedDocumentName ?? "",
+            responseDocumentName: event.documentSync?.responseDocumentName ?? syncedDocumentName,
+          });
+          return;
+        }
+
+        if (event.type === "complete") {
+          const responseDocumentName = resolveResponseDocumentName(event.answer);
+          setResolvedDocumentName(responseDocumentName);
+          console.debug("dekai_document_sync_complete", {
+            question,
+            requestedDocumentName: event.answer.documentSync?.requestedDocumentName ?? currentDocumentName,
+            retrievedDocumentName: event.answer.documentSync?.retrievedDocumentName ?? responseDocumentName,
+            responseDocumentName,
+            uiDisplayedDocumentName: responseDocumentName,
+          });
+        }
+
+        setMessages((current) => {
+          const target = current.find((message) => message.id === assistantId && message.role === "assistant");
+          if (!target || target.role !== "assistant") {
+            return current;
+          }
+
+          if (event.type === "delta") {
+            if (target.complete) {
+              return current;
             }
-            if (event.type === "delta") {
-              return { ...message, streamedText: `${message.streamedText}${event.text}` };
+            return current.map((message) =>
+              message.id === assistantId && message.role === "assistant"
+                ? { ...message, streamedText: `${message.streamedText}${event.text}` }
+                : message,
+            );
+          }
+
+          if (event.type === "complete") {
+            const responseFingerprint = buildAnswerFingerprint(event.answer);
+            const duplicateResponseExists = current.some(
+              (message) =>
+                message.id !== assistantId &&
+                message.role === "assistant" &&
+                message.requestKey === requestKey &&
+                message.responseFingerprint === responseFingerprint,
+            );
+
+            if (duplicateResponseExists) {
+              return current.filter((message) => message.id !== assistantId);
             }
-            if (event.type === "complete") {
-              return { ...message, answer: event.answer, streamedText: event.answer.directAnswer, complete: true };
+
+            if (target.complete && target.responseFingerprint === responseFingerprint) {
+              return current;
             }
-            return message;
-          }),
-        );
-      }, { aiModel, language, currentDocumentName });
+
+            return current.map((message) =>
+              message.id === assistantId && message.role === "assistant"
+                ? {
+                    ...message,
+                    answer: event.answer,
+                    streamedText: event.answer.directAnswer,
+                    complete: true,
+                    responseFingerprint,
+                  }
+                : message,
+            );
+          }
+
+          return current;
+        });
+      }, { aiModel, language, currentDocumentName, conversationId });
     } catch (error) {
       const errorMessage = error instanceof Error ? error.message : t("chat.requestFailed");
       pushToast({ title: t("chat.requestFailed"), description: errorMessage, tone: "warning" });
@@ -121,12 +258,20 @@ export function ChatPage() {
                 complete: true,
                 streamedText: t("chat.requestFailed"),
                 answer: { ...placeholder, directAnswer: t("chat.requestFailed") },
+                responseFingerprint: undefined,
               }
             : message,
         ),
       );
+    } finally {
+      pendingRequestKeys.delete(requestKey);
+      if (activeRequestKeyRef.current === requestKey) {
+        activeRequestKeyRef.current = null;
+      }
+      isRequestInFlightRef.current = false;
+      setIsRequestInFlight(false);
     }
-  }, [aiModel, draft, language, pushToast, t]);
+  }, [aiModel, conversationId, language, pushToast, t]);
 
   useEffect(() => {
     const autoSubmitKey = `${newChatKey ?? "default"}:${prefilledQuestion}`;
@@ -135,41 +280,117 @@ export function ChatPage() {
       return;
     }
     setDraft(prefilledQuestion);
-    if (messages.length > 0 || lastAutoSubmittedRef.current === autoSubmitKey) {
+    if (
+      messages.length > 0 ||
+      lastAutoSubmittedRef.current === autoSubmitKey ||
+      strictModeAutoSubmitKeys.has(autoSubmitKey)
+    ) {
       return;
     }
-    lastAutoSubmittedRef.current = autoSubmitKey;
-    void submitQuestion(prefilledQuestion);
+      lastAutoSubmittedRef.current = autoSubmitKey;
+      strictModeAutoSubmitKeys.add(autoSubmitKey);
+      void submitQuestion(prefilledQuestion);
   }, [messages.length, newChatKey, prefilledQuestion, submitQuestion]);
 
   const regenerateAnswer = async (messageId: string) => {
+    if (isRequestInFlightRef.current) return;
     const target = messages.find((message) => message.id === messageId && message.role === "assistant");
     if (!target || target.role !== "assistant") return;
     const question = target.answer.question;
+    const currentDocumentName = resolveResponseDocumentName(target.answer);
+    const requestKey = target.requestKey ?? buildRequestKey(question, currentDocumentName, aiModel, language);
+    if (pendingRequestKeys.has(requestKey)) return;
+
+    isRequestInFlightRef.current = true;
+    activeRequestKeyRef.current = requestKey;
+    pendingRequestKeys.add(requestKey);
+    setIsRequestInFlight(true);
     setMessages((current) =>
-      current.map((message) => (message.id === messageId && message.role === "assistant" ? { ...message, streamedText: "", complete: false } : message)),
+      current.map((message) =>
+        message.id === messageId && message.role === "assistant"
+          ? { ...message, streamedText: "", complete: false, responseFingerprint: undefined }
+          : message,
+      ),
     );
+
     try {
-      const currentDocumentName = activeDocumentStorage.get()?.name ?? activeDocumentName;
       await streamChat(question, (event) => {
-        setMessages((current) =>
-          current.map((message) => {
-            if (message.id !== messageId || message.role !== "assistant") {
-              return message;
+        if (event.type === "start") {
+          const syncedDocumentName =
+            event.documentSync?.responseDocumentName?.trim() || event.documentSync?.retrievedDocumentName?.trim() || "";
+          if (syncedDocumentName) {
+            setResolvedDocumentName(syncedDocumentName);
+          }
+          console.debug("dekai_document_sync_start", {
+            question,
+            requestedDocumentName: event.documentSync?.requestedDocumentName ?? currentDocumentName,
+            retrievedDocumentName: event.documentSync?.retrievedDocumentName ?? "",
+            responseDocumentName: event.documentSync?.responseDocumentName ?? syncedDocumentName,
+          });
+          return;
+        }
+
+        if (event.type === "complete") {
+          const responseDocumentName = resolveResponseDocumentName(event.answer);
+          setResolvedDocumentName(responseDocumentName);
+          console.debug("dekai_document_sync_complete", {
+            question,
+            requestedDocumentName: event.answer.documentSync?.requestedDocumentName ?? currentDocumentName,
+            retrievedDocumentName: event.answer.documentSync?.retrievedDocumentName ?? responseDocumentName,
+            responseDocumentName,
+            uiDisplayedDocumentName: responseDocumentName,
+          });
+        }
+
+        setMessages((current) => {
+          const currentMessage = current.find((message) => message.id === messageId && message.role === "assistant");
+          if (!currentMessage || currentMessage.role !== "assistant") {
+            return current;
+          }
+
+          if (event.type === "delta") {
+            if (currentMessage.complete) {
+              return current;
             }
-            if (event.type === "delta") {
-              return { ...message, streamedText: `${message.streamedText}${event.text}` };
+            return current.map((message) =>
+              message.id === messageId && message.role === "assistant"
+                ? { ...message, streamedText: `${message.streamedText}${event.text}` }
+                : message,
+            );
+          }
+
+          if (event.type === "complete") {
+            const responseFingerprint = buildAnswerFingerprint(event.answer);
+            if (currentMessage.complete && currentMessage.responseFingerprint === responseFingerprint) {
+              return current;
             }
-            if (event.type === "complete") {
-              return { ...message, answer: event.answer, streamedText: event.answer.directAnswer, complete: true };
-            }
-            return message;
-          }),
-        );
-      }, { aiModel, language, currentDocumentName });
+
+            return current.map((message) =>
+              message.id === messageId && message.role === "assistant"
+                ? {
+                    ...message,
+                    answer: event.answer,
+                    streamedText: event.answer.directAnswer,
+                    complete: true,
+                    responseFingerprint,
+                  }
+                : message,
+            );
+          }
+
+          return current;
+        });
+      }, { aiModel, language, currentDocumentName, conversationId });
     } catch (error) {
       const message = error instanceof Error ? error.message : t("chat.regenerationFailed");
       pushToast({ title: t("chat.regenerationFailed"), description: message, tone: "warning" });
+    } finally {
+      pendingRequestKeys.delete(requestKey);
+      if (activeRequestKeyRef.current === requestKey) {
+        activeRequestKeyRef.current = null;
+      }
+      isRequestInFlightRef.current = false;
+      setIsRequestInFlight(false);
     }
   };
 
@@ -210,6 +431,7 @@ export function ChatPage() {
 
       {messages.length === 0 ? (
         <HomeHero
+          disabled={isRequestInFlight}
           onAttach={() => attachmentInputRef.current?.click()}
           onChange={setDraft}
           onSubmit={() => submitQuestion()}
@@ -239,10 +461,10 @@ export function ChatPage() {
                 <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel)] px-4 py-3 text-sm text-[var(--muted-foreground)]">
                   {t("chat.activeModel", { model: aiModel })}
                 </div>
-                {activeDocumentName ? (
+                {resolvedDocumentName ? (
                   <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel)] px-4 py-3 text-sm text-[var(--muted-foreground)]">
-                    Searching current document{" "}
-                    <span className="font-medium text-[var(--foreground)]">{activeDocumentName}</span>
+                    Retrieved from document{" "}
+                    <span className="font-medium text-[var(--foreground)]">{resolvedDocumentName}</span>
                   </div>
                 ) : null}
                 {lastAssistant && lastAssistant.role === "assistant" ? (
@@ -281,6 +503,7 @@ export function ChatPage() {
           <div className="sticky bottom-4">
             <ChatComposer
               compact
+              disabled={isRequestInFlight}
               onAttach={() => attachmentInputRef.current?.click()}
               onChange={setDraft}
               onSubmit={() => submitQuestion()}

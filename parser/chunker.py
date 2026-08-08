@@ -8,6 +8,7 @@ from config import CONFIG
 
 from .models import SectionKnowledge, SemanticChunk
 from .utils import extract_numeric_identifiers, slugify, split_lines, stable_text_hash, unique_preserve
+from .xml_utils import extract_xml_fields, normalize_xml_tag_name, xml_namespace
 
 
 STRUCTURAL_HEADING_TERMS = {
@@ -43,6 +44,40 @@ XML_STRUCTURAL_HEADING_PATTERN = re.compile(
 class Chunker:
     def __init__(self) -> None:
         self.logger = logging.getLogger(self.__class__.__name__)
+
+    def _xml_fields(self, text: str, section: SectionKnowledge) -> List[dict]:
+        return extract_xml_fields(
+            text,
+            page_numbers=section.pages,
+            section_number=section.section,
+            section_title=section.title,
+            document_name=section.source_document,
+        )
+
+    def _chunk_field_names(self, base_fields: List[str], xml_fields: List[dict]) -> List[str]:
+        alias_fields = [
+            alias
+            for field in xml_fields
+            for alias in [field.get("tag_name", ""), field.get("normalized_tag_name", "")]
+            if str(alias).strip()
+        ]
+        return unique_preserve([*base_fields, *alias_fields])
+
+    def _primary_xml_metadata(self, title: str, xml_fields: List[dict]) -> tuple[str, str, str]:
+        if xml_fields:
+            return (
+                str(xml_fields[0].get("tag_name", "")),
+                str(xml_fields[0].get("normalized_tag_name", "")),
+                str(xml_fields[0].get("namespace", "")),
+            )
+        normalized_title = normalize_xml_tag_name(title)
+        if normalized_title:
+            return (
+                str(title or "").strip().lstrip("/"),
+                normalized_title,
+                xml_namespace(title),
+            )
+        return "", "", ""
 
     def _normalize_table(self, table: List[List[str]]) -> List[List[str]]:
         normalized: List[List[str]] = []
@@ -89,7 +124,8 @@ class Chunker:
                 continue
 
             headers = [cell for cell in table[0] if cell][:8]
-            field_names = self._table_field_names(table)
+            xml_fields = self._xml_fields("\n".join(" | ".join(row) for row in table), section)
+            field_names = self._chunk_field_names(self._table_field_names(table), xml_fields)
             row_summaries = self._serialize_table_rows(headers, table[1:], limit=8)
             if not row_summaries:
                 continue
@@ -134,11 +170,20 @@ class Chunker:
                     chunk_hash=stable_text_hash(f"{section.section}|table|{table_index}|{block_text}"),
                     heading=section.title,
                     field_names=field_names,
+                    tag_name=self._primary_xml_metadata(section.title, xml_fields)[0],
+                    normalized_tag_name=self._primary_xml_metadata(section.title, xml_fields)[1],
+                    namespace=self._primary_xml_metadata(section.title, xml_fields)[2],
+                    xml_fields=xml_fields,
                 )
             )
 
             for row_index, row_summary in enumerate(row_summaries[:12], start=1):
-                row_field_names = unique_preserve([*headers[:8], *self._extract_field_names([row_summary])])
+                row_xml_fields = self._xml_fields(row_summary, section)
+                row_field_names = self._chunk_field_names(
+                    unique_preserve([*headers[:8], *self._extract_field_names([row_summary])]),
+                    row_xml_fields,
+                )
+                row_tag_name, row_normalized_tag_name, row_namespace = self._primary_xml_metadata(row_summary, row_xml_fields)
                 chunks.append(
                     SemanticChunk(
                         chunk_id=f"{section.section}-table-{table_index}-row-{row_index}",
@@ -161,6 +206,10 @@ class Chunker:
                         is_table_row=True,
                         heading=section.title,
                         field_names=row_field_names,
+                        tag_name=row_tag_name,
+                        normalized_tag_name=row_normalized_tag_name,
+                        namespace=row_namespace,
+                        xml_fields=row_xml_fields,
                     )
                 )
         return chunks
@@ -192,6 +241,8 @@ class Chunker:
                 if row_key in seen_rows:
                     continue
                 seen_rows.add(row_key)
+                row_xml_fields = self._xml_fields(cleaned_line, section)
+                row_tag_name, row_normalized_tag_name, row_namespace = self._primary_xml_metadata(cleaned_line, row_xml_fields)
                 chunks.append(
                     SemanticChunk(
                         chunk_id=f"{section.section}-row-{code}",
@@ -212,6 +263,11 @@ class Chunker:
                         description=description,
                         chunk_hash=stable_text_hash(f"{code}|{description}|{section.section}|{section.source_document}"),
                         is_table_row=True,
+                        field_names=self._chunk_field_names([], row_xml_fields),
+                        tag_name=row_tag_name,
+                        normalized_tag_name=row_normalized_tag_name,
+                        namespace=row_namespace,
+                        xml_fields=row_xml_fields,
                     )
                 )
                 break
@@ -269,7 +325,8 @@ class Chunker:
                 current_lines = []
                 return
             filtered_lines = [line for line in current_lines if not self._is_noise_line(line)]
-            field_names = self._extract_field_names(filtered_lines)
+            xml_fields = self._xml_fields("\n".join([current_heading, *filtered_lines]), section)
+            field_names = self._chunk_field_names(self._extract_field_names(filtered_lines), xml_fields)
             if len(filtered_lines) < 2 and not field_names:
                 current_heading = ""
                 current_lines = []
@@ -284,6 +341,7 @@ class Chunker:
                 return
 
             heading_keywords = re.findall(r"[A-Za-z][A-Za-z0-9/&-]{2,}", current_heading)
+            tag_name, normalized_tag_name, namespace = self._primary_xml_metadata(current_heading, xml_fields)
             chunks.append(
                 SemanticChunk(
                     chunk_id=f"{section.section}-heading-{slugify(current_heading)}",
@@ -305,6 +363,10 @@ class Chunker:
                     chunk_hash=stable_text_hash(f"{section.section}|{current_heading}|{block_text}"),
                     heading=current_heading,
                     field_names=field_names,
+                    tag_name=tag_name,
+                    normalized_tag_name=normalized_tag_name,
+                    namespace=namespace,
+                    xml_fields=xml_fields,
                 )
             )
             current_heading = ""
@@ -343,6 +405,8 @@ class Chunker:
                 break
 
             chunk_text = " ".join(words[start:end]).strip()
+            xml_fields = self._xml_fields(chunk_text, section)
+            tag_name, normalized_tag_name, namespace = self._primary_xml_metadata(chunk_text, xml_fields)
             chunks.append(
                 SemanticChunk(
                     chunk_id=f"{section.section}-{chunk_index}",
@@ -361,7 +425,11 @@ class Chunker:
                     hs_codes=extract_numeric_identifiers(chunk_text),
                     exim_codes=extract_numeric_identifiers(chunk_text),
                     chunk_hash=stable_text_hash(f"{section.section}|{chunk_index}|{chunk_text}"),
-                    field_names=self._extract_field_names([chunk_text]),
+                    field_names=self._chunk_field_names(self._extract_field_names([chunk_text]), xml_fields),
+                    tag_name=tag_name,
+                    normalized_tag_name=normalized_tag_name,
+                    namespace=namespace,
+                    xml_fields=xml_fields,
                 )
             )
             if end >= len(words):
@@ -391,6 +459,10 @@ class Chunker:
                         "source_pages": chunk.source_pages,
                         "heading": chunk.heading,
                         "field_names": unique_preserve(chunk.field_names),
+                        "tag_name": chunk.tag_name,
+                        "normalized_tag_name": chunk.normalized_tag_name,
+                        "namespace": chunk.namespace,
+                        "xml_fields": chunk.xml_fields,
                     },
                 }
             )

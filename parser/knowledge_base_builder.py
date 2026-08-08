@@ -8,6 +8,7 @@ import networkx as nx
 
 from .models import DependencyEdge, DocumentKnowledge, SectionKnowledge
 from .utils import ascii_vertical_flow, normalise_whitespace, to_thanglish, unique_preserve
+from .xml_utils import build_section_hierarchy
 
 
 class KnowledgeBaseBuilder:
@@ -61,6 +62,16 @@ class KnowledgeBaseBuilder:
             section.dekai_ai_implementation_notes_thanglish = [
                 to_thanglish(note, section.title) for note in section.dekai_ai_implementation_notes
             ]
+            section.hierarchy_nodes = build_section_hierarchy(
+                section.raw_text,
+                page_numbers=section.pages,
+                section_number=section.section,
+                section_title=section.title,
+                document_name=section.source_document,
+                exceptions=section.exceptions,
+                business_rules=section.business_rules,
+                validations=section.validations,
+            )
 
             shared_chapters = []
             for related_section in section.related_sections:

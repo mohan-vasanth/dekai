@@ -23,6 +23,7 @@ class RuntimeStore:
         self.document_versions_path = self.runtime_dir / "document_versions.json"
         self.knowledge_index_path = self.runtime_dir / "knowledge_index.json"
         self.knowledge_schema_path = self.runtime_dir / "knowledge_schema.json"
+        self.conversations_path = self.runtime_dir / "conversations.json"
 
     def _path_lock(self, path: Path) -> Lock:
         key = str(path.resolve())

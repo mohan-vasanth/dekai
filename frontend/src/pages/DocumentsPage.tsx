@@ -1,10 +1,11 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { ArrowUpRight, BrainCircuit, DatabaseZap, FileCog, SearchCheck, Upload } from "lucide-react";
-import { useDeferredValue, useEffect, useMemo, useRef, useState, type DragEvent, type ReactNode } from "react";
-import { useSearchParams } from "react-router-dom";
+import { memo, useCallback, useEffect, useMemo, useRef, useState, type DragEvent, type ReactNode } from "react";
 import { documentsApi } from "../api/documents";
 import { PageBackButton, useAppBack } from "../components/navigation";
 import { Badge, Button, PageMotion, Panel, ProgressBar, useToast } from "../components/ui";
+import { useDebouncedValue } from "../hooks/use-debounced-value";
+import { useDocumentSearch } from "../hooks/use-document-search";
 import { useDocuments } from "../hooks/use-documents";
 import { usePreferences } from "../lib/preferences";
 import { formatDateTime, formatFullNumber } from "../lib/utils";
@@ -159,7 +160,7 @@ function SummaryMetricCard({
   );
 }
 
-function DocumentTable({
+const DocumentTable = memo(function DocumentTable({
   documents,
   onDelete,
   onView,
@@ -279,57 +280,152 @@ function DocumentTable({
       </div>
     </div>
   );
-}
+});
+
+const DocumentsSearchInput = memo(function DocumentsSearchInput({
+  onChange,
+  placeholder,
+  value,
+}: {
+  onChange: (value: string) => void;
+  placeholder: string;
+  value: string;
+}) {
+  return (
+    <form
+      className="w-full sm:w-auto"
+      onSubmit={(event) => {
+        event.preventDefault();
+      }}
+    >
+      <input
+        className="field max-w-sm"
+        onChange={(event) => onChange(event.target.value)}
+        placeholder={placeholder}
+        value={value}
+      />
+    </form>
+  );
+});
+
+const ProcessingProgressPanel = memo(function ProcessingProgressPanel({
+  onReindex,
+  onReplace,
+  selectedDocument,
+  selectedPipeline,
+  t,
+  translateStatus,
+}: {
+  onReindex: (document: DocumentRecord) => void;
+  onReplace: (document: DocumentRecord) => void;
+  selectedDocument: DocumentRecord | null;
+  selectedPipeline: Array<{ label: string; state: "complete" | "current" | "upcoming" | "failed" }>;
+  t: (key: any, params?: Record<string, string | number>) => string;
+  translateStatus: (value: string) => string;
+}) {
+  return (
+    <Panel className="space-y-5 2xl:sticky 2xl:top-24 2xl:self-start">
+      <div className="flex items-center justify-between gap-3">
+        <div>
+          <p className="text-sm font-semibold text-[var(--foreground)]">{t("documents.processingProgress")}</p>
+          <p className="mt-1 text-sm text-[var(--muted-foreground)]">{t("documents.processingProgressSubtitle")}</p>
+        </div>
+        {selectedDocument ? <Badge tone={statusTone(selectedDocument.status)}>{translateStatus(selectedDocument.status)}</Badge> : null}
+      </div>
+
+      {selectedDocument ? (
+        <>
+          <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel-subtle)] p-5">
+            <div className="flex flex-wrap items-center gap-2">
+              <Badge tone={getStatusBadgeTone(selectedDocument.knowledgeStatus)}>{getKnowledgeStatusLabel(selectedDocument)}</Badge>
+              <Badge tone={getStatusBadgeTone(selectedDocument.searchIndexStatus)}>{getSearchIndexLabel(selectedDocument.searchIndexStatus)}</Badge>
+              <Badge tone={getStatusBadgeTone(selectedDocument.vectorDatabaseStatus)}>{getVectorDatabaseLabel(selectedDocument.vectorDatabaseStatus)}</Badge>
+            </div>
+            <p className="mt-4 text-base font-semibold text-[var(--foreground)]">{selectedDocument.name}</p>
+            <p className="mt-2 text-sm leading-6 text-[var(--muted-foreground)]">{selectedDocument.summary}</p>
+            <div className="mt-4">
+              <ProgressBar label="Processing Progress" value={selectedDocument.progress} />
+            </div>
+            {selectedDocument.status === "failed" ? (
+              <div className="mt-4 rounded-[1.25rem] border border-rose-500/20 bg-rose-500/8 p-4 text-sm">
+                <p className="font-semibold text-rose-700">Failure reason: {selectedDocument.failureReason || "Unexpected Server Error"}</p>
+                {selectedDocument.failureDetail ? <p className="mt-2 leading-6 text-rose-700/90">{selectedDocument.failureDetail}</p> : null}
+                <p className="mt-2 leading-6 text-rose-700/90">
+                  AI chat and search will ignore this document until processing completes successfully and the document becomes Knowledge Ready.
+                </p>
+              </div>
+            ) : null}
+          </div>
+
+          <div className="grid gap-3 sm:grid-cols-2">
+            <DocumentDetailField label={t("documents.documentName")} value={selectedDocument.name} />
+            <DocumentDetailField label={t("documents.documentType")} value={selectedDocument.documentType ?? t("documents.pdf")} />
+            <DocumentDetailField label={t("documents.version")} value={selectedDocument.version} />
+            <DocumentDetailField label="Total Pages" value={formatFullNumber(selectedDocument.pages)} />
+            <DocumentDetailField label={t("documents.uploadDate")} value={formatDateTime(selectedDocument.uploadedAt)} />
+            <DocumentDetailField label="Processing Status" value={translateStatus(selectedDocument.status)} />
+            <DocumentDetailField label={t("documents.knowledgeStatus")} value={getKnowledgeStatusLabel(selectedDocument)} />
+            <DocumentDetailField label="Knowledge Scope" value={getDocumentScopeLabel(selectedDocument.knowledgeScope)} />
+            <DocumentDetailField label="AI Search Availability" value={selectedDocument.searchable ? "Ready" : "Blocked until Knowledge Ready"} />
+            <DocumentDetailField label="Failure Reason" value={selectedDocument.failureReason ?? "Not applicable"} />
+            <DocumentDetailField label="Sections Indexed" value={formatFullNumber(selectedDocument.sectionsIndexed ?? selectedDocument.sections)} />
+            <DocumentDetailField label="Total Chunks" value={formatFullNumber(selectedDocument.totalChunks ?? 0)} />
+            <DocumentDetailField label="Total Embeddings" value={formatFullNumber(selectedDocument.totalEmbeddings ?? 0)} />
+            <DocumentDetailField label="Business Rules Extracted" value={formatFullNumber(selectedDocument.businessRulesExtracted ?? selectedDocument.rules)} />
+            <DocumentDetailField label="Conditions Extracted" value={formatFullNumber(selectedDocument.conditionsExtracted ?? selectedDocument.conditions)} />
+            <DocumentDetailField label="Metadata Generated" value={formatFullNumber(selectedDocument.metadataGenerated ?? 0)} />
+            <DocumentDetailField label="Search Index Status" value={getSearchIndexLabel(selectedDocument.searchIndexStatus)} />
+            <DocumentDetailField label="Vector Database Status" value={getVectorDatabaseLabel(selectedDocument.vectorDatabaseStatus)} />
+            <DocumentDetailField label="Knowledge Size" value={formatKnowledgeSize(selectedDocument.knowledgeSizeKb ?? selectedDocument.sizeKb)} />
+            <DocumentDetailField label="Last Indexed Time" value={formatIndexedTime(selectedDocument.lastIndexedAt)} />
+          </div>
+
+          <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel-subtle)] p-5">
+            <div className="flex items-center justify-between gap-3">
+              <div>
+                <p className="text-sm font-semibold text-[var(--foreground)]">Backend Execution Stages</p>
+                <p className="mt-1 text-sm text-[var(--muted-foreground)]">
+                  These stages show how the uploaded PDF was transformed into searchable AI knowledge.
+                </p>
+              </div>
+            </div>
+            <div className="mt-5">
+              <PipelineVisual stages={selectedPipeline} />
+            </div>
+          </div>
+
+          <div className="flex flex-wrap gap-3">
+            <Button onClick={() => onReindex(selectedDocument)} type="button" variant="secondary">
+              {getPrimaryActionLabel(selectedDocument)}
+            </Button>
+            <Button onClick={() => onReplace(selectedDocument)} type="button" variant="ghost">
+              {getSecondaryActionLabel(selectedDocument)}
+            </Button>
+          </div>
+        </>
+      ) : (
+        <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel-subtle)] p-5 text-sm text-[var(--muted-foreground)]">
+          {t("documents.selectDocument")}
+        </div>
+      )}
+    </Panel>
+  );
+});
 
 export function DocumentsPage() {
   const queryClient = useQueryClient();
   const { data, isLoading } = useDocuments();
+  const initialActiveDocument = useMemo(() => activeDocumentStorage.get(), []);
   const { pushToast } = useToast();
   const { t, translateStatus } = usePreferences();
-  const [searchParams, setSearchParams] = useSearchParams();
-  const selectionHistoryModeRef = useRef<"replace" | "push">("replace");
   useAppBack();
   const fileInputRef = useRef<HTMLInputElement | null>(null);
   const [dragActive, setDragActive] = useState(false);
-  const [selectedId, setSelectedId] = useState(searchParams.get("document") ?? "");
-  const [search, setSearch] = useState(searchParams.get("q") ?? "");
-  const deferredSearch = useDeferredValue(search);
-
-  useEffect(() => {
-    const nextSearch = searchParams.get("q") ?? "";
-    const nextDocument = searchParams.get("document") ?? "";
-    if (nextSearch !== search) {
-      setSearch(nextSearch);
-    }
-    if (nextDocument !== selectedId) {
-      setSelectedId(nextDocument);
-    }
-  }, [searchParams, search, selectedId]);
-
-  useEffect(() => {
-    const next = new URLSearchParams(searchParams);
-    const normalizedSearch = search.trim();
-
-    if (normalizedSearch) {
-      next.set("q", normalizedSearch);
-    } else {
-      next.delete("q");
-    }
-
-    if (selectedId) {
-      next.set("document", selectedId);
-    } else {
-      next.delete("document");
-    }
-
-    const currentSerialized = searchParams.toString();
-    const nextSerialized = next.toString();
-    if (currentSerialized !== nextSerialized) {
-      const replace = selectionHistoryModeRef.current !== "push";
-      selectionHistoryModeRef.current = "replace";
-      setSearchParams(next, { replace });
-    }
-  }, [search, searchParams, selectedId, setSearchParams]);
+  const [selectedId, setSelectedId] = useState(initialActiveDocument?.id ?? "");
+  const [search, setSearch] = useState("");
+  const debouncedSearch = useDebouncedValue(search, 400);
+  const normalizedSearch = useMemo(() => debouncedSearch.trim(), [debouncedSearch]);
+  const { data: searchData } = useDocumentSearch(normalizedSearch);
 
   const uploadMutation = useMutation({
     mutationFn: (files: File[]) => documentsApi.upload(files),
@@ -407,20 +503,36 @@ export function DocumentsPage() {
 
   const documents = useMemo(() => data?.documents ?? [], [data?.documents]);
   const knowledgeStats = useMemo(() => data?.knowledgeStats ?? buildFallbackKnowledgeStats(documents), [data?.knowledgeStats, documents]);
-  const filteredDocuments = useMemo(() => {
-    const query = deferredSearch.trim().toLowerCase();
-    if (!query) return documents;
-    return documents.filter((document) =>
-      `${document.name} ${document.chapterTitle} ${document.summary} ${document.documentType ?? ""}`.toLowerCase().includes(query),
-    );
-  }, [deferredSearch, documents]);
+  const searchedDocuments = useMemo(() => searchData?.documents ?? [], [searchData?.documents]);
+  const filteredDocuments = useMemo(
+    () => (normalizedSearch ? (searchData ? searchedDocuments : documents) : documents),
+    [documents, normalizedSearch, searchData, searchedDocuments],
+  );
 
   const selectedDocument = useMemo(() => {
     if (selectedId) {
-      return filteredDocuments.find((document) => document.id === selectedId) ?? documents.find((document) => document.id === selectedId) ?? null;
+      return documents.find((document) => document.id === selectedId) ?? null;
     }
-    return filteredDocuments[0] ?? documents[0] ?? null;
-  }, [documents, filteredDocuments, selectedId]);
+    return documents[0] ?? null;
+  }, [documents, selectedId]);
+
+  useEffect(() => {
+    if (documents.length === 0) {
+      if (selectedId) {
+        setSelectedId("");
+      }
+      return;
+    }
+
+    if (selectedId && documents.some((document) => document.id === selectedId)) {
+      return;
+    }
+
+    const nextSelected = documents.find((document) => document.id === (initialActiveDocument?.id ?? "")) ?? documents[0] ?? null;
+    if (nextSelected && nextSelected.id !== selectedId) {
+      setSelectedId(nextSelected.id);
+    }
+  }, [documents, initialActiveDocument?.id, selectedId]);
 
   useEffect(() => {
     if (!selectedDocument) {
@@ -431,6 +543,26 @@ export function DocumentsPage() {
 
   const selectedPipeline = useMemo(() => (selectedDocument ? toExecutionStages(selectedDocument) : []), [selectedDocument]);
 
+  const handleReplaceDocument = useCallback(
+    (document: DocumentRecord) => {
+      const replacementInput = window.document.createElement("input");
+      replacementInput.type = "file";
+      replacementInput.accept = ".pdf";
+      replacementInput.onchange = () => {
+        const file = replacementInput.files?.[0];
+        if (file) {
+          replaceMutation.mutate({ documentId: document.id, file });
+        }
+      };
+      replacementInput.click();
+    },
+    [replaceMutation],
+  );
+
+  const handleSelectDocument = useCallback((document: DocumentRecord) => {
+    setSelectedId(document.id);
+  }, []);
+
   const handleUpload = (files: FileList | null) => {
     const nextFiles = Array.from(files ?? []).filter((file) => file.name.toLowerCase().endsWith(".pdf"));
     if (nextFiles.length === 0) return;
@@ -438,7 +570,6 @@ export function DocumentsPage() {
   };
 
   const handleViewDocument = async (document: DocumentRecord) => {
-    selectionHistoryModeRef.current = "push";
     setSelectedId(document.id);
     activeDocumentStorage.set({ id: document.id, name: document.name });
 
@@ -657,12 +788,7 @@ export function DocumentsPage() {
               <h2 className="text-xl font-semibold text-[var(--foreground)]">{t("documents.uploadedDocuments")}</h2>
               <p className="mt-1 text-sm text-[var(--muted-foreground)]">{t("documents.uploadedDocumentsSubtitle")}</p>
             </div>
-            <input
-              className="field max-w-sm"
-              onChange={(event) => setSearch(event.target.value)}
-              placeholder={t("documents.searchPlaceholder")}
-              value={search}
-            />
+            <DocumentsSearchInput onChange={setSearch} placeholder={t("documents.searchPlaceholder")} value={search} />
           </div>
 
           <DocumentTable
@@ -670,128 +796,22 @@ export function DocumentsPage() {
             onDelete={(document) => deleteMutation.mutate(document.id)}
             onView={handleViewDocument}
             onReindex={(document) => reindexMutation.mutate(document.id)}
-            onReplace={(document) => {
-              const replacementInput = window.document.createElement("input");
-              replacementInput.type = "file";
-              replacementInput.accept = ".pdf";
-              replacementInput.onchange = () => {
-                const file = replacementInput.files?.[0];
-                if (file) {
-                  replaceMutation.mutate({ documentId: document.id, file });
-                }
-              };
-              replacementInput.click();
-            }}
-            onSelect={(document) => {
-              selectionHistoryModeRef.current = "push";
-              setSelectedId(document.id);
-            }}
+            onReplace={handleReplaceDocument}
+            onSelect={handleSelectDocument}
             selectedId={selectedDocument?.id}
             t={t}
             translateStatus={translateStatus}
           />
         </div>
 
-        <Panel className="space-y-5 2xl:sticky 2xl:top-24 2xl:self-start">
-          <div className="flex items-center justify-between gap-3">
-            <div>
-              <p className="text-sm font-semibold text-[var(--foreground)]">{t("documents.processingProgress")}</p>
-              <p className="mt-1 text-sm text-[var(--muted-foreground)]">{t("documents.processingProgressSubtitle")}</p>
-            </div>
-            {selectedDocument ? <Badge tone={statusTone(selectedDocument.status)}>{translateStatus(selectedDocument.status)}</Badge> : null}
-          </div>
-
-          {selectedDocument ? (
-            <>
-              <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel-subtle)] p-5">
-                <div className="flex flex-wrap items-center gap-2">
-                  <Badge tone={getStatusBadgeTone(selectedDocument.knowledgeStatus)}>{getKnowledgeStatusLabel(selectedDocument)}</Badge>
-                  <Badge tone={getStatusBadgeTone(selectedDocument.searchIndexStatus)}>{getSearchIndexLabel(selectedDocument.searchIndexStatus)}</Badge>
-                  <Badge tone={getStatusBadgeTone(selectedDocument.vectorDatabaseStatus)}>{getVectorDatabaseLabel(selectedDocument.vectorDatabaseStatus)}</Badge>
-                </div>
-                <p className="mt-4 text-base font-semibold text-[var(--foreground)]">{selectedDocument.name}</p>
-                <p className="mt-2 text-sm leading-6 text-[var(--muted-foreground)]">{selectedDocument.summary}</p>
-                <div className="mt-4">
-                  <ProgressBar label="Processing Progress" value={selectedDocument.progress} />
-                </div>
-                {selectedDocument.status === "failed" ? (
-                  <div className="mt-4 rounded-[1.25rem] border border-rose-500/20 bg-rose-500/8 p-4 text-sm">
-                    <p className="font-semibold text-rose-700">Failure reason: {selectedDocument.failureReason || "Unexpected Server Error"}</p>
-                    {selectedDocument.failureDetail ? <p className="mt-2 leading-6 text-rose-700/90">{selectedDocument.failureDetail}</p> : null}
-                    <p className="mt-2 leading-6 text-rose-700/90">
-                      AI chat and search will ignore this document until processing completes successfully and the document becomes Knowledge Ready.
-                    </p>
-                  </div>
-                ) : null}
-              </div>
-
-              <div className="grid gap-3 sm:grid-cols-2">
-                <DocumentDetailField label={t("documents.documentName")} value={selectedDocument.name} />
-                <DocumentDetailField label={t("documents.documentType")} value={selectedDocument.documentType ?? t("documents.pdf")} />
-                <DocumentDetailField label={t("documents.version")} value={selectedDocument.version} />
-                <DocumentDetailField label="Total Pages" value={formatFullNumber(selectedDocument.pages)} />
-                <DocumentDetailField label={t("documents.uploadDate")} value={formatDateTime(selectedDocument.uploadedAt)} />
-                <DocumentDetailField label="Processing Status" value={translateStatus(selectedDocument.status)} />
-                <DocumentDetailField label={t("documents.knowledgeStatus")} value={getKnowledgeStatusLabel(selectedDocument)} />
-                <DocumentDetailField label="Knowledge Scope" value={getDocumentScopeLabel(selectedDocument.knowledgeScope)} />
-                <DocumentDetailField label="AI Search Availability" value={selectedDocument.searchable ? "Ready" : "Blocked until Knowledge Ready"} />
-                <DocumentDetailField label="Failure Reason" value={selectedDocument.failureReason ?? "Not applicable"} />
-                <DocumentDetailField label="Sections Indexed" value={formatFullNumber(selectedDocument.sectionsIndexed ?? selectedDocument.sections)} />
-                <DocumentDetailField label="Total Chunks" value={formatFullNumber(selectedDocument.totalChunks ?? 0)} />
-                <DocumentDetailField label="Total Embeddings" value={formatFullNumber(selectedDocument.totalEmbeddings ?? 0)} />
-                <DocumentDetailField label="Business Rules Extracted" value={formatFullNumber(selectedDocument.businessRulesExtracted ?? selectedDocument.rules)} />
-                <DocumentDetailField label="Conditions Extracted" value={formatFullNumber(selectedDocument.conditionsExtracted ?? selectedDocument.conditions)} />
-                <DocumentDetailField label="Metadata Generated" value={formatFullNumber(selectedDocument.metadataGenerated ?? 0)} />
-                <DocumentDetailField label="Search Index Status" value={getSearchIndexLabel(selectedDocument.searchIndexStatus)} />
-                <DocumentDetailField label="Vector Database Status" value={getVectorDatabaseLabel(selectedDocument.vectorDatabaseStatus)} />
-                <DocumentDetailField label="Knowledge Size" value={formatKnowledgeSize(selectedDocument.knowledgeSizeKb ?? selectedDocument.sizeKb)} />
-                <DocumentDetailField label="Last Indexed Time" value={formatIndexedTime(selectedDocument.lastIndexedAt)} />
-              </div>
-
-              <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel-subtle)] p-5">
-                <div className="flex items-center justify-between gap-3">
-                  <div>
-                    <p className="text-sm font-semibold text-[var(--foreground)]">Backend Execution Stages</p>
-                    <p className="mt-1 text-sm text-[var(--muted-foreground)]">
-                      These stages show how the uploaded PDF was transformed into searchable AI knowledge.
-                    </p>
-                  </div>
-                </div>
-                <div className="mt-5">
-                  <PipelineVisual stages={selectedPipeline} />
-                </div>
-              </div>
-
-              <div className="flex flex-wrap gap-3">
-                <Button onClick={() => reindexMutation.mutate(selectedDocument.id)} type="button" variant="secondary">
-                  {getPrimaryActionLabel(selectedDocument)}
-                </Button>
-                <Button
-                  onClick={() => {
-                    const replacementInput = window.document.createElement("input");
-                    replacementInput.type = "file";
-                    replacementInput.accept = ".pdf";
-                    replacementInput.onchange = () => {
-                      const file = replacementInput.files?.[0];
-                      if (file) {
-                        replaceMutation.mutate({ documentId: selectedDocument.id, file });
-                      }
-                    };
-                    replacementInput.click();
-                  }}
-                  type="button"
-                  variant="ghost"
-                >
-                  {getSecondaryActionLabel(selectedDocument)}
-                </Button>
-              </div>
-            </>
-          ) : (
-            <div className="rounded-[1.5rem] border border-[var(--border)] bg-[var(--panel-subtle)] p-5 text-sm text-[var(--muted-foreground)]">
-              {t("documents.selectDocument")}
-            </div>
-          )}
-        </Panel>
+        <ProcessingProgressPanel
+          onReindex={(document) => reindexMutation.mutate(document.id)}
+          onReplace={handleReplaceDocument}
+          selectedDocument={selectedDocument}
+          selectedPipeline={selectedPipeline}
+          t={t}
+          translateStatus={translateStatus}
+        />
       </div>
     </PageMotion>
   );

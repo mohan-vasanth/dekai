@@ -8,15 +8,15 @@ type TranslationParams = Record<string, string | number>;
 const LANGUAGE_STORAGE_KEY = "dekai-language";
 const MODEL_STORAGE_KEY = "dekai-ai-model";
 const DEFAULT_LANGUAGE: AppLanguage = "English";
-const DEFAULT_MODEL = "GPT-4.1 / Claude / Gemini compatible";
+const DEFAULT_MODEL = "GPT-4.1";
 
 const SUPPORTED_LANGUAGES: AppLanguage[] = ["English", "Hindi", "Tamil"];
 const SUPPORTED_MODELS = [
-  "GPT-4.1 / Claude / Gemini compatible",
   "GPT-4.1",
-  "GPT-4.1 Mini",
   "Claude Sonnet",
   "Gemini Pro",
+  "Ollama (Llama 3.2)",
+  "Ollama (Qwen 2.5)",
 ] as const;
 
 const LOCALE_BY_LANGUAGE: Record<AppLanguage, "en" | "hi" | "ta"> = {

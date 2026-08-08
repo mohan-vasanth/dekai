@@ -36,6 +36,7 @@ class ChatRequest(BaseModel):
     aiModel: str | None = None
     language: str | None = None
     currentDocumentName: str | None = None
+    conversationId: str | None = None
 
 
 class SettingsPatch(BaseModel):
@@ -428,6 +429,72 @@ def _documents_payload() -> dict[str, Any]:
     }
 
 
+def _document_search_values(value: Any) -> list[str]:
+    if value is None:
+        return []
+    if isinstance(value, str):
+        normalized = " ".join(value.split()).strip()
+        return [normalized] if normalized else []
+    if isinstance(value, (int, float, bool)):
+        return [str(value)]
+    if isinstance(value, dict):
+        values: list[str] = []
+        for nested_value in value.values():
+            values.extend(_document_search_values(nested_value))
+        return values
+    if isinstance(value, list):
+        values: list[str] = []
+        for nested_value in value:
+            values.extend(_document_search_values(nested_value))
+        return values
+    return []
+
+
+def _document_search_surface(document: dict[str, Any]) -> str:
+    scope = str(document.get("knowledgeScope", "")).strip()
+    scope_labels = {
+        "single-document-index": "single document index",
+        "shared-knowledge-base": "shared knowledge base",
+    }
+    searchable_payload = {
+        "name": document.get("name"),
+        "version": document.get("version"),
+        "description": document.get("summary"),
+        "chapterTitle": document.get("chapterTitle"),
+        "documentType": document.get("documentType"),
+        "knowledgeScope": scope,
+        "knowledgeScopeLabel": scope_labels.get(scope, ""),
+        "knowledgeStatus": document.get("knowledgeStatus"),
+        "status": document.get("status"),
+        "failureReason": document.get("failureReason"),
+        "failureDetail": document.get("failureDetail"),
+        "metadata": {
+            "sectionsIndexed": document.get("sectionsIndexed"),
+            "totalChunks": document.get("totalChunks"),
+            "totalEmbeddings": document.get("totalEmbeddings"),
+            "businessRulesExtracted": document.get("businessRulesExtracted"),
+            "conditionsExtracted": document.get("conditionsExtracted"),
+            "metadataGenerated": document.get("metadataGenerated"),
+            "vectorRecordsStored": document.get("vectorRecordsStored"),
+            "searchIndexStatus": document.get("searchIndexStatus"),
+            "vectorDatabaseStatus": document.get("vectorDatabaseStatus"),
+            "stages": document.get("stages"),
+        },
+    }
+    return " ".join(_document_search_values(searchable_payload)).casefold()
+
+
+def _matches_document_query(document: dict[str, Any], query: str) -> bool:
+    normalized_query = " ".join(str(query or "").split()).casefold()
+    if not normalized_query:
+        return True
+    surface = _document_search_surface(document)
+    if normalized_query in surface:
+        return True
+    tokens = [token for token in normalized_query.split(" ") if token]
+    return bool(tokens) and all(token in surface for token in tokens)
+
+
 def _document_index_debug_payload(document_name: str) -> dict[str, Any]:
     snapshot = knowledge_engine_service.document_index_snapshot(document_name)
     return {
@@ -465,6 +532,14 @@ def overview(user: AuthUser = Depends(get_current_user)) -> dict[str, Any]:
 @app.get("/api/documents")
 def documents(user: AuthUser = Depends(get_admin_user)) -> dict[str, Any]:
     return _documents_payload()
+
+
+@app.get("/api/documents/search")
+def search_documents(q: str = "", user: AuthUser = Depends(get_admin_user)) -> dict[str, Any]:
+    payload = _documents_payload()
+    documents = payload.get("documents", [])
+    matching_documents = [document for document in documents if isinstance(document, dict) and _matches_document_query(document, q)]
+    return {"documents": matching_documents}
 
 
 @app.get("/api/documents/{document_id}/file")
@@ -615,7 +690,13 @@ def chat_trace(payload: ChatRequest, user: AuthUser = Depends(get_admin_user)) -
     language = payload.language or settings.get("language", "English")
     chat_service._current_document_name = payload.currentDocumentName or ""
     try:
-        answer = chat_service.build_answer(payload.question, ai_model=ai_model, language=language)
+        answer = chat_service.build_answer(
+            payload.question,
+            ai_model=ai_model,
+            language=language,
+            user_email=user.email,
+            conversation_id=payload.conversationId or "",
+        )
     finally:
         if hasattr(chat_service, "_current_document_name"):
             delattr(chat_service, "_current_document_name")
@@ -624,7 +705,13 @@ def chat_trace(payload: ChatRequest, user: AuthUser = Depends(get_admin_user)) -
     debug_documents: dict[str, Any] = {}
     for document_name in {
         str(payload.currentDocumentName or "").strip(),
+        str((answer.get("documentSync") or {}).get("requestedDocumentName", "")).strip(),
+        str((answer.get("documentSync") or {}).get("retrievedDocumentName", "")).strip(),
+        str((answer.get("documentSync") or {}).get("responseDocumentName", "")).strip(),
         str(trace.get("detected_document", "")).strip(),
+        str(trace.get("requested_document", "")).strip(),
+        str(trace.get("retrieved_document", "")).strip(),
+        str(trace.get("response_source_document", "")).strip(),
         str(trace.get("final_source_document", "")).strip(),
         str(answer.get("referencedPdf", "")).strip(),
         *[str(name).strip() for name in answer.get("sourcePdfs", [])],
@@ -652,6 +739,8 @@ async def stream_chat(payload: ChatRequest, user: AuthUser = Depends(get_current
             ai_model=ai_model,
             language=language,
             current_document_name=payload.currentDocumentName or "",
+            user_email=user.email,
+            conversation_id=payload.conversationId or "",
         ):
             yield f"{event}\n"
             await asyncio.sleep(0.02)

@@ -19,6 +19,7 @@ from .utils import (
     to_thanglish,
     unique_preserve,
 )
+from .xml_utils import build_section_hierarchy
 
 
 class RuleExtractor(BaseExtractor):
@@ -153,6 +154,13 @@ class RuleExtractor(BaseExtractor):
             tags=self._tags(draft, business_logic, documents),
             related_sections=unique_preserve(related_sections),
             related_rules=business_logic[:5],
+            hierarchy_nodes=build_section_hierarchy(
+                raw_text,
+                page_numbers=draft.page_numbers,
+                section_number=draft.section_number,
+                section_title=draft.title,
+                document_name=draft.source_document,
+            ),
             raw_text=raw_text,
             pages=draft.page_numbers,
             source_document=draft.source_document,

@@ -5,6 +5,11 @@ from dataclasses import dataclass
 from typing import Any
 
 from parser.utils import extract_numeric_identifiers, normalize_numeric_identifier, unique_preserve
+from parser.xml_utils import extract_query_namespace, extract_section_request_target, is_xml_field_query, normalize_query_field_reference
+
+
+TRADE_NET_XML_FIELD_INTENT = "TRADE_NET_XML_FIELD"
+TRADE_NET_RETRIEVAL_ENGINE = "trade_net_xml_field"
 
 
 def _normalize(value: str) -> str:
@@ -16,7 +21,7 @@ def _contains_any(value: str, phrases: tuple[str, ...]) -> bool:
 
 
 def _contains_xml_like_tag(value: str) -> bool:
-    return bool(re.search(r"\b(?:ipt|cac|cbc):[A-Za-z][A-Za-z0-9._-]*\b", value, flags=re.IGNORECASE))
+    return bool(extract_query_namespace(value))
 
 
 @dataclass(frozen=True)
@@ -31,8 +36,14 @@ class RetrievalPlan:
     likely_sections: tuple[str, ...]
     chapter_filters: frozenset[str] = frozenset()
     section_filters: frozenset[str] = frozenset()
+    section_request_name: str = ""
     needs_clarification: bool = False
     clarification_message: str = ""
+    detected_namespace: str = ""
+    retrieval_engine: str = ""
+    lock_to_document: str = ""
+    disable_cross_document: bool = False
+    disable_semantic_expansion: bool = False
 
 
 @dataclass(frozen=True)
@@ -47,6 +58,9 @@ class QueryAnalysis:
     chapter_numbers: tuple[str, ...]
     document_terms: tuple[str, ...]
     keywords: tuple[str, ...]
+    section_request_name: str = ""
+    detected_namespace: str = ""
+    normalized_field_reference: str = ""
 
 
 HS_TERMS = (
@@ -272,9 +286,14 @@ def _classify_question(
     sections: tuple[str, ...],
     chapters: tuple[str, ...],
     normalized: str,
+    section_request_name: str = "",
 ) -> str:
     if hs_codes:
         return "HS Code Lookup"
+    if is_xml_field_query(question):
+        return "TRADE_NET_XML_FIELD"
+    if section_request_name:
+        return "SECTION_REQUEST"
     if sections:
         return "Section Lookup"
     if chapters:
@@ -298,12 +317,18 @@ def analyze_question(question: str) -> QueryAnalysis:
     chapters = _extract_explicit_chapters(cleaned_question)
     document_terms = _extract_document_terms(normalized)
     keywords = _query_keywords(cleaned_question)
+    section_request_name = extract_section_request_target(cleaned_question)
+    detected_namespace = extract_query_namespace(cleaned_question)
+    normalized_field_reference = normalize_query_field_reference(cleaned_question) if is_xml_field_query(cleaned_question) else ""
     entities = tuple(
         unique_preserve(
             [
                 *hs_codes,
                 *[f"Section {section}" for section in sections],
                 *[f"Chapter {chapter}" for chapter in chapters],
+                *([detected_namespace] if detected_namespace else []),
+                *([normalized_field_reference] if normalized_field_reference else []),
+                *([section_request_name] if section_request_name else []),
                 *document_terms,
                 *keywords[:8],
             ]
@@ -314,17 +339,47 @@ def analyze_question(question: str) -> QueryAnalysis:
         question=cleaned_question,
         normalized_question=normalized,
         user_intent=user_intent,
-        question_classification=_classify_question(cleaned_question, hs_codes, sections, chapters, normalized),
+        question_classification=_classify_question(
+            cleaned_question,
+            hs_codes,
+            sections,
+            chapters,
+            normalized,
+            section_request_name,
+        ),
         entities=entities,
         hs_codes=hs_codes,
         section_numbers=sections,
         chapter_numbers=chapters,
         document_terms=document_terms,
         keywords=keywords,
+        section_request_name=section_request_name,
+        detected_namespace=detected_namespace,
+        normalized_field_reference=normalized_field_reference,
     )
 
 
 class RetrievalDecisionService:
+    def _trade_net_xml_field_plan(self, analysis: QueryAnalysis) -> RetrievalPlan:
+        topic = analysis.normalized_field_reference or analysis.question
+        return RetrievalPlan(
+            question_understood=analysis.question,
+            user_intent="Question Answering",
+            intent=TRADE_NET_XML_FIELD_INTENT,
+            topic=topic,
+            knowledge_sources=("TradeNet",),
+            collection_filters=frozenset(),
+            likely_chapters=("TradeNet",),
+            likely_sections=analysis.section_numbers,
+            chapter_filters=frozenset(analysis.chapter_numbers),
+            section_filters=frozenset(analysis.section_numbers),
+            section_request_name=analysis.section_request_name,
+            detected_namespace=analysis.detected_namespace,
+            retrieval_engine=TRADE_NET_RETRIEVAL_ENGINE,
+            disable_cross_document=True,
+            disable_semantic_expansion=True,
+        )
+
     def _iec_plan(self, question_understood: str, normalized: str, user_intent: str) -> RetrievalPlan:
         topic = "IEC"
         likely_sections: tuple[str, ...] = ()
@@ -403,8 +458,28 @@ class RetrievalDecisionService:
         user_intent = analysis.user_intent
         explicit_sections = analysis.section_numbers
         explicit_chapters = analysis.chapter_numbers
+        section_request_name = analysis.section_request_name
 
-        if _contains_xml_like_tag(question_understood) or _contains_any(
+        if section_request_name:
+            return RetrievalPlan(
+                question_understood=question_understood,
+                user_intent=user_intent if user_intent != "General Question" else "Question Answering",
+                intent="Section Request",
+                topic=section_request_name,
+                knowledge_sources=("Selected Document", "TradeNet", "DGFT Section Hierarchy"),
+                collection_filters=frozenset(),
+                likely_chapters=(),
+                likely_sections=explicit_sections,
+                chapter_filters=frozenset(explicit_chapters),
+                section_filters=frozenset(explicit_sections),
+                section_request_name=section_request_name,
+                detected_namespace=analysis.detected_namespace,
+            )
+
+        if _contains_xml_like_tag(question_understood) or is_xml_field_query(question_understood):
+            return self._trade_net_xml_field_plan(analysis)
+
+        if _contains_any(
             normalized,
             (
                 "header section",
@@ -421,6 +496,8 @@ class RetrievalDecisionService:
             topic = "Message Specification"
             if _contains_xml_like_tag(question_understood):
                 topic = "XML Tag"
+            elif is_xml_field_query(question_understood):
+                topic = "XML Field"
             elif "header section" in normalized:
                 topic = "Header"
             elif "declaration type" in normalized:
@@ -429,13 +506,16 @@ class RetrievalDecisionService:
                 question_understood=question_understood,
                 user_intent=user_intent if user_intent != "General Question" else "Question Answering",
                 intent=topic,
-                topic=topic,
+                topic=analysis.normalized_field_reference or topic,
                 knowledge_sources=("Selected Document", "TradeNet", "Message Specification"),
                 collection_filters=frozenset(),
                 likely_chapters=(),
                 likely_sections=explicit_sections,
                 chapter_filters=frozenset(explicit_chapters),
                 section_filters=frozenset(explicit_sections),
+                section_request_name=section_request_name,
+                detected_namespace=analysis.detected_namespace,
+                retrieval_engine=TRADE_NET_RETRIEVAL_ENGINE,
             )
 
         if is_hs_intent(question_understood):
@@ -456,8 +536,10 @@ class RetrievalDecisionService:
                 likely_sections=explicit_sections,
                 chapter_filters=frozenset(explicit_chapters),
                 section_filters=frozenset(explicit_sections),
+                section_request_name=section_request_name,
                 needs_clarification=bool(clarification_message),
                 clarification_message=clarification_message,
+                detected_namespace=analysis.detected_namespace,
             )
 
         if user_intent != "Comparison" and _contains_any(normalized, ("iec", "importer exporter code", "import export code")):
@@ -500,6 +582,8 @@ class RetrievalDecisionService:
                     likely_sections=likely_sections,
                     chapter_filters=chapter_filters,
                     section_filters=section_filters,
+                    section_request_name=section_request_name,
+                    detected_namespace=analysis.detected_namespace,
                 )
 
         return RetrievalPlan(
@@ -513,6 +597,8 @@ class RetrievalDecisionService:
             likely_sections=explicit_sections,
             chapter_filters=frozenset(explicit_chapters),
             section_filters=frozenset(explicit_sections),
+            section_request_name=section_request_name,
+            detected_namespace=analysis.detected_namespace,
         )
 
 

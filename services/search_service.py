@@ -9,6 +9,7 @@ from typing import Any
 from .embedding_service import embedding_service
 from .knowledge_engine import knowledge_engine_service
 from .retrieval_service import QueryAnalysis, analyze_question, infer_record_collections
+from parser.xml_utils import field_search_aliases, is_xml_field_query, normalized_tag_key, normalized_tag_root
 
 
 def _tokenize(value: str) -> list[str]:
@@ -25,10 +26,10 @@ def _normalize_match_text(value: str) -> str:
 
 class SearchService:
     type_aliases = {
-        "keyword": {"section", "rule", "workflow", "condition", "definition", "chunk", "document", "chapter", "concept"},
+        "keyword": {"section", "rule", "workflow", "condition", "definition", "chunk", "hierarchy", "document", "chapter", "concept"},
         "document": {"document"},
         "chapter": {"chapter", "section", "concept"},
-        "section": {"section", "chunk"},
+        "section": {"section", "chunk", "hierarchy"},
         "rule": {"rule"},
         "workflow": {"workflow"},
         "authority": {"section", "rule"},
@@ -38,6 +39,7 @@ class SearchService:
     type_weights = {
         "section": 1.45,
         "chunk": 1.3,
+        "hierarchy": 1.35,
         "rule": 1.2,
         "workflow": 1.1,
         "condition": 1.05,
@@ -153,25 +155,123 @@ class SearchService:
     def _structured_match_features(self, question: str, candidate: dict[str, Any]) -> dict[str, Any]:
         phrases = self._question_phrases(question)
         heading = _normalize_match_text(candidate.get("heading", "") or candidate.get("title", ""))
-        field_values = [
-            _normalize_match_text(field)
-            for field in candidate.get("fieldNames", [])
-            if _normalize_match_text(field) and len(_normalize_match_text(field)) >= 3
+        query_aliases = [
+            alias
+            for alias in field_search_aliases(question)
+            if len(_normalize_match_text(alias)) >= 3
         ]
-        field_values.extend(
-            _normalize_match_text(match)
+        query_compact_keys = {
+            normalized_tag_key(alias)
+            for alias in query_aliases
+            if normalized_tag_key(alias)
+        }
+        query_root_keys = {
+            normalized_tag_root(alias)
+            for alias in query_aliases
+            if normalized_tag_root(alias)
+        }
+
+        raw_candidate_fields = [
+            str(field)
+            for field in [candidate.get("tagName", ""), candidate.get("normalizedTagName", ""), *candidate.get("fieldNames", [])]
+            if str(field).strip()
+        ]
+        field_aliases: list[str] = []
+        for field in candidate.get("fieldNames", []):
+            field_aliases.extend(field_search_aliases(str(field)))
+        for raw_field in (
+            candidate.get("tagName", ""),
+            candidate.get("normalizedTagName", ""),
+        ):
+            field_aliases.extend(field_search_aliases(str(raw_field)))
+        for xml_field in candidate.get("xmlFields", []):
+            if not isinstance(xml_field, dict):
+                continue
+            field_aliases.extend(xml_field.get("search_aliases", []))
+            field_aliases.extend(
+                field_search_aliases(
+                    str(xml_field.get("tag_name", "")) or str(xml_field.get("normalized_tag_name", ""))
+                )
+            )
+        field_aliases.extend(
+            match
             for match in re.findall(
                 r"\b[A-Za-z]{2,5}:[A-Za-z][A-Za-z0-9]+(?:\s+[A-Za-z][A-Za-z0-9]+){0,3}\b",
                 str(candidate.get("text", "")),
             )
-            if _normalize_match_text(match) and len(_normalize_match_text(match)) >= 3
         )
-        field_values = list(dict.fromkeys(field_values))
+
+        candidate_field_entries = [
+            (
+                raw_field,
+                _normalize_match_text(raw_field),
+                normalized_tag_key(raw_field),
+                normalized_tag_root(raw_field),
+            )
+            for raw_field in raw_candidate_fields
+            if _normalize_match_text(raw_field) and len(_normalize_match_text(raw_field)) >= 3
+        ]
+        normalized_field_values = [
+            _normalize_match_text(field)
+            for field in field_aliases
+            if _normalize_match_text(field) and len(_normalize_match_text(field)) >= 3
+        ]
+        field_values = list(dict.fromkeys([*normalized_field_values, *[entry[1] for entry in candidate_field_entries]]))
+        candidate_compact_keys = {
+            normalized_tag_key(field)
+            for field in field_aliases
+            if normalized_tag_key(field)
+        }
+        candidate_root_keys = {
+            normalized_tag_root(field)
+            for field in field_aliases
+            if normalized_tag_root(field)
+        }
 
         exact_heading = heading and any(phrase == heading for phrase in phrases)
         contains_heading = bool(heading) and any(phrase and (phrase in heading or heading in phrase) for phrase in phrases)
-        exact_field = next((field for field in field_values if any(phrase == field for phrase in phrases)), "")
-        contains_field = next((field for field in field_values if any(phrase and (phrase in field or field in phrase) for phrase in phrases)), "")
+        exact_field_entry = next(
+            (
+                entry
+                for entry in candidate_field_entries
+                if any(phrase == entry[1] for phrase in phrases)
+            ),
+            None,
+        )
+        exact_field = exact_field_entry[1] if exact_field_entry else ""
+        exact_field_label = exact_field_entry[0] if exact_field_entry else ""
+        compact_field_match = bool(query_compact_keys and query_compact_keys.intersection(candidate_compact_keys))
+        root_field_match = bool(query_root_keys and query_root_keys.intersection(candidate_root_keys))
+        contains_field_entry = next(
+            (
+                entry
+                for entry in candidate_field_entries
+                if any(phrase and (phrase in entry[1] or entry[1] in phrase) for phrase in phrases)
+            ),
+            None,
+        )
+        contains_field = contains_field_entry[1] if contains_field_entry else ""
+        if not exact_field and (compact_field_match or root_field_match):
+            exact_field_entry = next(
+                (
+                    entry
+                    for entry in candidate_field_entries
+                    if entry[2] and entry[2] in query_compact_keys
+                ),
+                None,
+            )
+            if exact_field_entry is None:
+                exact_field_entry = next(
+                    (
+                        entry
+                        for entry in candidate_field_entries
+                        if entry[3] and entry[3] in query_root_keys
+                    ),
+                    None,
+                )
+            if exact_field_entry:
+                exact_field = exact_field_entry[1]
+                exact_field_label = exact_field_entry[0]
 
         fuzzy_heading_score = max((self._similarity_score(phrase, heading) for phrase in phrases), default=0.0) if heading else 0.0
         fuzzy_field_score = max(
@@ -184,20 +284,35 @@ class SearchService:
         )
 
         matched_heading = heading if exact_heading or contains_heading or fuzzy_heading_score >= 0.84 else ""
-        matched_field = exact_field or contains_field
-        if not matched_field and fuzzy_field_score >= 0.86 and field_values:
-            matched_field = max(field_values, key=lambda field: max(self._similarity_score(phrase, field) for phrase in phrases))
+        matched_field = exact_field_label or (contains_field_entry[0] if contains_field_entry else "")
+        if not matched_field and fuzzy_field_score >= 0.86 and candidate_field_entries:
+            matched_field = max(
+                candidate_field_entries,
+                key=lambda entry: max(self._similarity_score(phrase, entry[1]) for phrase in phrases),
+            )[0]
+        if not matched_field and (compact_field_match or root_field_match):
+            matched_field = next(
+                (
+                    entry[0]
+                    for entry in candidate_field_entries
+                    if (entry[2] and entry[2] in query_compact_keys) or (entry[3] and entry[3] in query_root_keys)
+                ),
+                "",
+            )
 
         return {
             "questionPhrases": phrases,
             "headingExactMatch": bool(exact_heading),
             "headingContainsMatch": bool(contains_heading),
             "fieldExactMatch": bool(exact_field),
-            "fieldContainsMatch": bool(contains_field),
+            "fieldContainsMatch": bool(contains_field or compact_field_match or root_field_match),
             "fuzzyHeadingScore": round(fuzzy_heading_score, 4),
             "fuzzyFieldScore": round(fuzzy_field_score, 4),
             "matchedHeading": matched_heading,
             "matchedField": matched_field,
+            "queryLooksLikeField": is_xml_field_query(question),
+            "normalizedFieldExactMatch": compact_field_match,
+            "normalizedFieldRootMatch": root_field_match,
         }
 
     def _chapter_records(self, index: dict[str, Any]) -> list[dict[str, Any]]:
@@ -284,6 +399,18 @@ class SearchService:
                 str(candidate.get("documentName", "")),
                 str(candidate.get("preview", "")),
                 " ".join(str(field) for field in candidate.get("fieldNames", [])),
+                str(candidate.get("tagName", "")),
+                str(candidate.get("normalizedTagName", "")),
+                " ".join(
+                    str(field.get("tag_name", ""))
+                    for field in candidate.get("xmlFields", [])
+                    if isinstance(field, dict)
+                ),
+                " ".join(
+                    str(field.get("normalized_tag_name", ""))
+                    for field in candidate.get("xmlFields", [])
+                    if isinstance(field, dict)
+                ),
                 " ".join(str(code) for code in candidate.get("hsCodes", [])),
                 str(candidate.get("description", "")),
             ]
@@ -320,13 +447,13 @@ class SearchService:
         if section_filters and candidate_section:
             if candidate_section not in section_filters:
                 return False
-        elif section_filters and candidate_type in {"section", "chunk", "rule", "workflow", "condition", "definition"}:
+        elif section_filters and candidate_type in {"section", "chunk", "hierarchy", "rule", "workflow", "condition", "definition"}:
             return False
 
         if chapter_filters and candidate_chapter:
             if candidate_chapter not in chapter_filters:
                 return False
-        elif chapter_filters and candidate_type in {"chapter", "section", "chunk", "rule", "workflow", "condition", "definition"}:
+        elif chapter_filters and candidate_type in {"chapter", "section", "chunk", "hierarchy", "rule", "workflow", "condition", "definition"}:
             return False
         return True
 
@@ -348,6 +475,8 @@ class SearchService:
                 and not exact_chapter
                 and not structure_matches["headingExactMatch"]
                 and not structure_matches["fieldExactMatch"]
+                and not structure_matches["normalizedFieldExactMatch"]
+                and not structure_matches["normalizedFieldRootMatch"]
                 and structure_matches["fuzzyHeadingScore"] < 0.9
                 and structure_matches["fuzzyFieldScore"] < 0.92
             ):
@@ -368,6 +497,10 @@ class SearchService:
                 score += 90 * structure_matches["fuzzyHeadingScore"]
             if structure_matches["fieldExactMatch"]:
                 score += 230
+            elif structure_matches["normalizedFieldExactMatch"]:
+                score += 215
+            elif structure_matches["normalizedFieldRootMatch"]:
+                score += 185
             elif structure_matches["fieldContainsMatch"]:
                 score += 125
             elif structure_matches["fuzzyFieldScore"] >= 0.92:
@@ -380,7 +513,7 @@ class SearchService:
                     "exactSectionMatch": exact_section,
                     "exactChapterMatch": exact_chapter,
                     **structure_matches,
-                    "confidence": 0.99 if exact_hs else 0.93 if exact_section else 0.88,
+                    "confidence": 0.99 if exact_hs else 0.96 if structure_matches["fieldExactMatch"] or structure_matches["normalizedFieldExactMatch"] else 0.93 if exact_section else 0.88,
                 }
             )
         results.sort(key=lambda item: float(item.get("metadataScore", 0.0)), reverse=True)
@@ -435,6 +568,10 @@ class SearchService:
                 score += structure_matches["fuzzyHeadingScore"] * 4.0
             if structure_matches["fieldExactMatch"]:
                 score += 9.0
+            elif structure_matches["normalizedFieldExactMatch"]:
+                score += 8.5
+            elif structure_matches["normalizedFieldRootMatch"]:
+                score += 7.0
             elif structure_matches["fieldContainsMatch"]:
                 score += 4.5
             elif structure_matches["fuzzyFieldScore"] >= 0.9:
@@ -493,6 +630,10 @@ class SearchService:
             return 0.99
         if candidate.get("headingExactMatch") or candidate.get("fieldExactMatch"):
             return 0.97
+        if candidate.get("normalizedFieldExactMatch"):
+            return 0.965
+        if candidate.get("normalizedFieldRootMatch"):
+            return 0.94
         if candidate.get("exactSectionMatch"):
             return 0.94
         if candidate.get("exactChapterMatch"):
@@ -534,6 +675,8 @@ class SearchService:
             exact_table = 1 if candidate.get("isTableRow") and bool(analysis.hs_codes) and candidate.get("exactHsMatch") else 0
             exact_heading = 1 if candidate.get("headingExactMatch") else 0
             exact_field = 1 if candidate.get("fieldExactMatch") else 0
+            normalized_field = 1 if candidate.get("normalizedFieldExactMatch") else 0
+            normalized_root = 1 if candidate.get("normalizedFieldRootMatch") else 0
             contains_heading = 1 if candidate.get("headingContainsMatch") else 0
             contains_field = 1 if candidate.get("fieldContainsMatch") else 0
             fuzzy_heading = float(candidate.get("fuzzyHeadingScore", 0.0))
@@ -547,6 +690,8 @@ class SearchService:
                 + (exact_table * 50.0)
                 + (exact_heading * 220.0)
                 + (exact_field * 200.0)
+                + (normalized_field * 180.0)
+                + (normalized_root * 150.0)
                 + (contains_heading * 110.0)
                 + (contains_field * 95.0)
                 + (fuzzy_heading * 70.0 if fuzzy_heading >= 0.84 else 0.0)
@@ -565,6 +710,8 @@ class SearchService:
                     ("exact_table_row_match", bool(exact_table)),
                     ("exact_heading_match", bool(exact_heading)),
                     ("exact_field_match", bool(exact_field)),
+                    ("normalized_field_exact_match", bool(normalized_field)),
+                    ("normalized_field_root_match", bool(normalized_root)),
                     ("heading_contains_match", bool(contains_heading)),
                     ("field_contains_match", bool(contains_field)),
                     ("fuzzy_heading_match", fuzzy_heading >= 0.84),
@@ -584,6 +731,8 @@ class SearchService:
                 1 if item.get("isTableRow") else 0,
                 1 if item.get("headingExactMatch") else 0,
                 1 if item.get("fieldExactMatch") else 0,
+                1 if item.get("normalizedFieldExactMatch") else 0,
+                1 if item.get("normalizedFieldRootMatch") else 0,
                 float(item.get("fuzzyHeadingScore", 0.0)),
                 float(item.get("fuzzyFieldScore", 0.0)),
                 float(item.get("metadataScore", 0.0)) + float(item.get("bm25Score", 0.0)),
@@ -635,7 +784,11 @@ class SearchService:
 
         self._last_debug = {
             "user_question": analysis.question,
+            "original_query": query,
+            "normalized_query": analysis.normalized_question,
             "detected_intent": analysis.question_classification,
+            "detected_namespace": analysis.detected_namespace,
+            "normalized_field_reference": analysis.normalized_field_reference,
             "detected_entities": list(analysis.entities),
             "detected_hs_code": list(analysis.hs_codes),
             "detected_keywords": sorted(self._query_terms(analysis.question)),
@@ -666,7 +819,7 @@ class SearchService:
                 [
                     item
                     for item in merged_results
-                    if str(item.get("type", "")).lower() in {"section", "chunk", "rule", "condition", "workflow", "definition"}
+                    if str(item.get("type", "")).lower() in {"section", "chunk", "hierarchy", "rule", "condition", "workflow", "definition"}
                 ]
             ),
             "top_ranked_chunks": [
@@ -681,8 +834,15 @@ class SearchService:
                     "sourcePages": item.get("sourcePages", []),
                     "matchedHeading": item.get("matchedHeading", ""),
                     "matchedField": item.get("matchedField", ""),
+                    "headingExactMatch": bool(item.get("headingExactMatch")),
+                    "fieldExactMatch": bool(item.get("fieldExactMatch")),
+                    "normalizedFieldExactMatch": bool(item.get("normalizedFieldExactMatch")),
+                    "normalizedFieldRootMatch": bool(item.get("normalizedFieldRootMatch")),
                     "score": item.get("score", 0),
                     "confidence": item.get("confidence", 0),
+                    "metadataScore": item.get("metadataScore", 0),
+                    "bm25Score": item.get("bm25Score", 0),
+                    "vectorSimilarity": item.get("vectorSimilarity", 0),
                     "rankingReasons": item.get("rankingReasons", []),
                 }
                 for item in merged_results[:5]

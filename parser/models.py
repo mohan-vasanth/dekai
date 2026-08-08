@@ -55,6 +55,10 @@ class SemanticChunk:
     is_table_row: bool = False
     heading: str = ""
     field_names: List[str] = field(default_factory=list)
+    tag_name: str = ""
+    normalized_tag_name: str = ""
+    namespace: str = ""
+    xml_fields: List[Dict[str, Any]] = field(default_factory=list)
 
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
@@ -110,6 +114,7 @@ class SectionKnowledge:
     related_rules: List[str] = field(default_factory=list)
     required_documents: List[str] = field(default_factory=list)
     tables: List[List[List[str]]] = field(default_factory=list)
+    hierarchy_nodes: List[Dict[str, Any]] = field(default_factory=list)
     raw_text: str = ""
     pages: List[int] = field(default_factory=list)
     source_document: str = ""
@@ -138,6 +143,7 @@ class SectionKnowledge:
             "documents": self.documents,
             "required_documents": self.required_documents,
             "tables": self.tables,
+            "hierarchy_nodes": self.hierarchy_nodes,
             "authorities": self.authorities,
             "timelines": self.timelines,
             "actions": self.actions,

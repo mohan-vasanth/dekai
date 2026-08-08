@@ -56,6 +56,27 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
+## Environment Configuration
+
+Create a local environment file or export these variables before running the API:
+
+```bash
+OPENAI_API_KEY=
+ANTHROPIC_API_KEY=
+GOOGLE_API_KEY=
+OLLAMA_BASE_URL=http://localhost:11434
+```
+
+Optional model overrides:
+
+```bash
+DEKAI_OPENAI_MODEL=gpt-4.1
+DEKAI_ANTHROPIC_MODEL=claude-sonnet-5
+DEKAI_GEMINI_MODEL=gemini-2.5-pro
+DEKAI_OLLAMA_LLAMA_MODEL=llama3.2
+DEKAI_OLLAMA_QWEN_MODEL=qwen2.5
+```
+
 ## Usage
 
 1. Place DGFT PDF files into `input/pdf/`.

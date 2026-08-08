@@ -1,5 +1,5 @@
 import { apiBlobRequest, apiRequest } from "./client";
-import type { DocumentJob, DocumentsResponse } from "../types/api";
+import type { DocumentJob, DocumentsResponse, DocumentsSearchResponse } from "../types/api";
 
 export const documentsApi = {
   delete(documentId: string) {
@@ -9,6 +9,9 @@ export const documentsApi = {
   },
   get() {
     return apiRequest<DocumentsResponse>("/api/documents");
+  },
+  search(query: string) {
+    return apiRequest<DocumentsSearchResponse>(`/api/documents/search?q=${encodeURIComponent(query)}`);
   },
   getFile(documentId: string) {
     return apiBlobRequest(`/api/documents/${documentId}/file`);

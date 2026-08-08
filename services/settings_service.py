@@ -8,11 +8,14 @@ from .runtime_store import runtime_store
 SUPPORTED_THEMES = {"light", "dark", "system"}
 SUPPORTED_LANGUAGES = {"English", "Hindi", "Tamil"}
 SUPPORTED_MODELS = {
-    "GPT-4.1 / Claude / Gemini compatible",
     "GPT-4.1",
-    "GPT-4.1 Mini",
     "Claude Sonnet",
     "Gemini Pro",
+    "Ollama (Llama 3.2)",
+    "Ollama (Qwen 2.5)",
+}
+LEGACY_MODEL_ALIASES = {
+    "GPT-4.1 / Claude / Gemini compatible": "GPT-4.1",
 }
 
 
@@ -21,7 +24,7 @@ class SettingsService:
         return {
             "theme": "system",
             "language": "English",
-            "aiModel": "GPT-4.1 / Claude / Gemini compatible",
+            "aiModel": "GPT-4.1",
             "knowledgeStatus": "Ready",
             "version": "2026.07",
             "about": "DEKAI AI is a DGFT, customs, import, and export knowledge assistant for grounded AI retrieval.",
@@ -31,8 +34,15 @@ class SettingsService:
                 "vectorDatabase": "pgvector",
                 "embeddings": "text-embedding-3-large",
                 "chunking": "500-800 tokens with overlap",
+                "supportedModels": sorted(SUPPORTED_MODELS),
             },
         }
+
+    def _normalize_model(self, value: Any) -> Any:
+        if not isinstance(value, str):
+            return value
+        normalized = LEGACY_MODEL_ALIASES.get(value.strip(), value.strip())
+        return normalized
 
     def _normalize_store(self) -> dict[str, Any]:
         existing = runtime_store.read_json(runtime_store.settings_path, {})
@@ -52,6 +62,23 @@ class SettingsService:
             "defaults": {**defaults, **dict(existing.get("defaults", {}))},
             "users": dict(existing.get("users", {})),
         }
+        normalized["defaults"]["aiModel"] = self._normalize_model(normalized["defaults"].get("aiModel"))
+        normalized["defaults"]["metadata"] = {
+            **defaults["metadata"],
+            **dict(normalized["defaults"].get("metadata", {})),
+            "supportedModels": sorted(SUPPORTED_MODELS),
+        }
+        for email, settings in list(normalized["users"].items()):
+            if not isinstance(settings, dict):
+                continue
+            settings["aiModel"] = self._normalize_model(settings.get("aiModel"))
+            metadata = settings.get("metadata", {})
+            settings["metadata"] = {
+                **defaults["metadata"],
+                **dict(metadata if isinstance(metadata, dict) else {}),
+                "supportedModels": sorted(SUPPORTED_MODELS),
+            }
+            normalized["users"][email] = settings
         if normalized != existing:
             runtime_store.write_json(runtime_store.settings_path, normalized)
         return normalized
@@ -65,7 +92,7 @@ class SettingsService:
         if language is not None and language not in SUPPORTED_LANGUAGES:
             raise ValueError("Unsupported language.")
 
-        ai_model = patch.get("aiModel")
+        ai_model = self._normalize_model(patch.get("aiModel"))
         if ai_model is not None and ai_model not in SUPPORTED_MODELS:
             raise ValueError("Unsupported AI model.")
 
@@ -80,7 +107,7 @@ class SettingsService:
     def update_settings(self, patch: dict[str, Any], user_email: str | None = None) -> dict[str, Any]:
         self._validate_patch(patch)
         store = self._normalize_store()
-        normalized_patch = {key: value for key, value in patch.items() if value is not None}
+        normalized_patch = {key: self._normalize_model(value) if key == "aiModel" else value for key, value in patch.items() if value is not None}
 
         if user_email:
             email_key = user_email.strip().lower()

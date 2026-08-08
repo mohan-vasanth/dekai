@@ -222,6 +222,7 @@ export type SettingsResponse = {
     vectorDatabase: string;
     embeddings: string;
     chunking: string;
+    supportedModels?: string[];
   };
 };
 
@@ -259,6 +260,23 @@ export type DocumentsResponse = {
   jobs: DocumentJob[];
 };
 
+export type DocumentsSearchResponse = {
+  documents: DocumentRecord[];
+};
+
+export type AnswerSource = {
+  documentName: string;
+  chapter: string;
+  section: string;
+  pageNumbers: number[];
+};
+
+export type AnswerDocumentSync = {
+  requestedDocumentName?: string;
+  retrievedDocumentName?: string;
+  responseDocumentName?: string;
+};
+
 export type AssistantAnswer = {
   question: string;
   questionUnderstood: string;
@@ -288,11 +306,24 @@ export type AssistantAnswer = {
   sourcePages: number[];
   sourceChapter: string;
   sourceSection: string;
+  sources?: AnswerSource[];
   modelUsed?: string;
   languageUsed?: string;
+  documentSync?: AnswerDocumentSync;
+  telemetry?: {
+    provider?: string;
+    displayModel?: string;
+    apiModel?: string;
+    retrievalTimeMs?: number;
+    llmResponseTimeMs?: number;
+    promptTokens?: number | null;
+    completionTokens?: number | null;
+    totalTokens?: number | null;
+    totalCostUsd?: number | null;
+  };
 };
 
 export type ChatStreamEvent =
-  | { type: "start" }
+  | { type: "start"; documentSync?: AnswerDocumentSync }
   | { type: "delta"; text: string }
   | { type: "complete"; answer: AssistantAnswer };

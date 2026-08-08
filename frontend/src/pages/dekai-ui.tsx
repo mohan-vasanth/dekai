@@ -11,10 +11,10 @@ import {
 } from "lucide-react";
 import type { ChangeEvent, ReactNode } from "react";
 import { Button } from "../components/ui";
+import { answerSourceEntries } from "../lib/answer-format";
 import { usePreferences } from "../lib/preferences";
-import type { AssistantAnswer } from "../lib/dekai";
 import { cn } from "../lib/utils";
-import type { DekaiData } from "../types/api";
+import type { AssistantAnswer, DekaiData } from "../types/api";
 
 export type DocumentRecord = DekaiData["documents"][number];
 type PipelineStageState = DocumentRecord["stages"][number]["state"] | "failed";
@@ -27,6 +27,7 @@ export type UserMessage = {
   id: string;
   role: "user";
   text: string;
+  requestKey?: string;
 };
 
 export type AssistantMessage = {
@@ -36,6 +37,8 @@ export type AssistantMessage = {
   streamedText: string;
   complete: boolean;
   feedback?: "up" | "down";
+  requestKey?: string;
+  responseFingerprint?: string;
 };
 
 export type ChatMessage = UserMessage | AssistantMessage;
@@ -75,6 +78,7 @@ export const summarizeQuestionScope = (question: string) =>
 
 export function ChatComposer({
   compact = false,
+  disabled = false,
   onAttach,
   onChange,
   onSubmit,
@@ -82,6 +86,7 @@ export function ChatComposer({
   value,
 }: {
   compact?: boolean;
+  disabled?: boolean;
   onAttach: () => void;
   onChange: (value: string) => void;
   onSubmit: () => void;
@@ -114,7 +119,7 @@ export function ChatComposer({
             )}
             onChange={(event) => onChange(event.target.value)}
             onKeyDown={(event) => {
-              if (event.key === "Enter" && !event.shiftKey) {
+              if (!disabled && event.key === "Enter" && !event.shiftKey) {
                 event.preventDefault();
                 onSubmit();
               }
@@ -137,7 +142,7 @@ export function ChatComposer({
         <button
           aria-label="Send message"
           className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[var(--accent)] text-[var(--accent-foreground)] shadow-[0_12px_28px_rgba(15,118,110,0.24)] transition hover:bg-[var(--accent-strong)] disabled:cursor-not-allowed disabled:opacity-50"
-          disabled={!value.trim()}
+          disabled={disabled || !value.trim()}
           onClick={onSubmit}
           type="button"
         >
@@ -227,7 +232,7 @@ export function AssistantBubble({
           </div>
         </div>
 
-        <div className="rounded-[1.6rem] border border-[var(--border)] bg-[var(--panel-subtle)] p-4 text-sm leading-7 text-[var(--foreground)] sm:p-5">
+        <AnswerSection title="Answer">
           <p className="whitespace-pre-line">{message.streamedText || t("chat.thinking")}</p>
           {!message.complete ? (
             <motion.div
@@ -236,16 +241,23 @@ export function AssistantBubble({
               transition={{ duration: 1.2, ease: "easeInOut", repeat: Infinity }}
             />
           ) : null}
-        </div>
-        {message.complete && (message.answer.referencedPdf || message.answer.sourceChapter || message.answer.sourceSection) ? (
-          <div className="mt-4 space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted-foreground)]">Source</p>
-            <div className="flex flex-wrap gap-2">
-              {message.answer.referencedPdf ? <SourceChip>{message.answer.referencedPdf}</SourceChip> : null}
-              {message.answer.sourceChapter ? <SourceChip>{message.answer.sourceChapter}</SourceChip> : null}
-              {message.answer.sourceSection ? <SourceChip>{message.answer.sourceSection}</SourceChip> : null}
-              {message.answer.sourcePages.length > 0 ? <SourceChip>{`Pages ${message.answer.sourcePages.join(", ")}`}</SourceChip> : null}
-            </div>
+        </AnswerSection>
+        {message.complete && answerSourceEntries(message.answer).length > 0 ? (
+          <div className="mt-4">
+            <AnswerSection title="Source">
+              <div className="space-y-3">
+                {answerSourceEntries(message.answer).map((source, index) => (
+                  <div key={`${source.documentName}-${source.section}-${index}`} className="space-y-2">
+                    <div className="flex flex-wrap gap-2">
+                      {source.documentName ? <SourceChip>{source.documentName}</SourceChip> : null}
+                      {source.chapter ? <SourceChip>{source.chapter}</SourceChip> : null}
+                      {source.section ? <SourceChip>{source.section}</SourceChip> : null}
+                      {source.pageNumbers.length > 0 ? <SourceChip>{`Pages ${source.pageNumbers.join(", ")}`}</SourceChip> : null}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </AnswerSection>
           </div>
         ) : null}
       </div>
@@ -264,6 +276,7 @@ export function UserBubble({ message }: { message: UserMessage }) {
 }
 
 export function HomeHero({
+  disabled = false,
   onAttach,
   onChange,
   onSubmit,
@@ -271,6 +284,7 @@ export function HomeHero({
   onVoice,
   value,
 }: {
+  disabled?: boolean;
   onAttach: () => void;
   onChange: (value: string) => void;
   onSubmit: () => void;
@@ -301,7 +315,7 @@ export function HomeHero({
       </div>
 
       <div className="mt-10 w-full">
-        <ChatComposer onAttach={onAttach} onChange={onChange} onSubmit={onSubmit} onVoice={onVoice} value={value} />
+        <ChatComposer disabled={disabled} onAttach={onAttach} onChange={onChange} onSubmit={onSubmit} onVoice={onVoice} value={value} />
       </div>
 
       <div className="mt-7 w-full">
@@ -311,6 +325,7 @@ export function HomeHero({
             <button
               key={question}
               className="rounded-full border border-[var(--border)] bg-[var(--panel)] px-4 py-2.5 text-sm font-medium text-[var(--foreground)] transition hover:border-[var(--accent)]/35 hover:bg-[var(--panel-subtle)]"
+              disabled={disabled}
               onClick={() => onSuggestion(question)}
               type="button"
             >

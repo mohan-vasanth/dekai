@@ -3,19 +3,35 @@ from __future__ import annotations
 import json
 import logging
 import re
+from time import perf_counter
 from typing import Any
 
+from parser.utils import normalise_whitespace
+from parser.xml_utils import (
+    extract_query_namespace,
+    extract_section_request_target,
+    field_search_aliases,
+    hierarchy_search_aliases,
+    is_xml_field_query,
+    normalize_query_field_reference,
+    normalized_tag_key,
+    normalized_tag_root,
+)
+
 from .document_version_service import document_version_service
+from .conversation_service import conversation_service
 from .knowledge_engine import knowledge_engine_service
-from .retrieval_service import RetrievalPlan, analyze_question, retrieval_decision_service
+from .llm_service import LLMConfigurationError, llm_service
+from .retrieval_service import TRADE_NET_XML_FIELD_INTENT, RetrievalPlan, analyze_question, retrieval_decision_service
 from .search_service import search_service
+from .settings_service import SUPPORTED_LANGUAGES
 
 logger = logging.getLogger(__name__)
 FAILED_DOCUMENT_MESSAGE = (
     "This document has not been processed successfully and is not available in the Knowledge Base. "
     "Please resolve the processing issue or upload the document again before asking questions."
 )
-MISSING_INFORMATION_MESSAGE = "The requested information was not found in the selected document."
+MISSING_INFORMATION_MESSAGE = "The requested information is not available in the uploaded documents."
 DGFT_DOCUMENT_HINTS = (
     "dgft",
     "ftp",
@@ -28,6 +44,14 @@ DGFT_DOCUMENT_HINTS = (
     "notification",
     "public notice",
     "trade notice",
+)
+TRADE_NET_DOCUMENT_HINTS = (
+    "tradenet",
+    "iptdec",
+    "trade net declaration",
+    "message definition",
+    "message details",
+    "message function",
 )
 FAILED_DOCUMENT_STOPWORDS = {
     "pdf",
@@ -162,6 +186,77 @@ def _clean(value: str, limit: int = 240) -> str:
     return normalized[: limit - 3].rstrip() + "..." if len(normalized) > limit else normalized
 
 
+def _remove_extraction_noise(value: Any) -> str:
+    text = str(value or "").replace("\r\n", "\n")
+    cleaned_lines: list[str] = []
+    seen_lines: set[str] = set()
+    noise_patterns = (
+        r"^\s*pg\.?\s*\d+\s*$",
+        r"^\s*page\s+\d+\s*$",
+        r"^\s*\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}(?::\d{2})?\s*$",
+        r"^\s*(?:for:)?\s*\d{1,2}/\d{1,2}/\d{2,4}\s+\d{1,2}:\d{2}(?::\d{2})?\s*$",
+        r"^\s*ver(?:sion)?\s*[\d.]+\s*$",
+        r"^\s*trade\s*net\b.*$",
+        r"^\s*.+\.(?:pdf|docx?|xlsx?|pptx?)\s*$",
+        r"^\s*cargo\s+\d{1,2}/\d{1,2}/\d{2,4}.*$",
+    )
+
+    for raw_line in text.split("\n"):
+        line = " ".join(raw_line.split()).strip(" |")
+        if not line:
+            continue
+        lowered = line.casefold()
+        if lowered in seen_lines:
+            continue
+        if any(re.match(pattern, line, flags=re.IGNORECASE) for pattern in noise_patterns):
+            continue
+        if re.fullmatch(r"[\d\s./:-]+", line):
+            continue
+        if len(line) < 4:
+            continue
+        seen_lines.add(lowered)
+        cleaned_lines.append(line)
+
+    cleaned = " ".join(cleaned_lines)
+    cleaned = re.sub(r"\b(?:copy of the message|receiving a copy of the message)\b", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\b(?:timestamp|version number|page header|page footer)\b", "", cleaned, flags=re.IGNORECASE)
+    return " ".join(cleaned.split()).strip()
+
+
+def _split_sentences(value: Any) -> list[str]:
+    text = _remove_extraction_noise(value)
+    if not text:
+        return []
+    parts = re.split(r"(?<=[.!?])\s+|\s*[•\-]\s+", text)
+    sentences: list[str] = []
+    for part in parts:
+        sentence = " ".join(part.split()).strip(" .;:-")
+        if len(sentence) < 12:
+            continue
+        sentences.append(sentence)
+    return sentences
+
+
+def _is_extractive_sentence(value: str) -> bool:
+    sentence = " ".join(str(value or "").split()).strip()
+    if not sentence:
+        return True
+    if re.search(r"\b(?:trade net|cargo|copy of the message|ver\s*\d|page \d|pg\.)\b", sentence, flags=re.IGNORECASE):
+        return True
+    if re.search(r"\b\d{1,2}/\d{1,2}/\d{2,4}\b", sentence):
+        return True
+    if sentence.count(":") >= 4 and len(sentence.split()) < 20:
+        return True
+    return False
+
+
+def _clean_evidence_item(value: Any, limit: int = 240) -> str:
+    cleaned = _remove_extraction_noise(value)
+    if not cleaned or _is_extractive_sentence(cleaned):
+        return ""
+    return _clean(cleaned, limit)
+
+
 def _unique(items: list[str]) -> list[str]:
     return list(dict.fromkeys(item for item in items if item))
 
@@ -214,12 +309,14 @@ def _looks_like_heading_lookup(question: str) -> bool:
     normalized = _normalize(question)
     if not normalized:
         return False
+    if is_xml_field_query(question):
+        return True
     if re.search(
         r"\b(?:document|documents|exception|exceptions|process|procedure|rule|rules|step|steps|table|validation|validations|workflow)\b",
         normalized,
     ):
         return False
-    return 2 <= len(_heading_lookup_tokens(question)) <= 7
+    return 1 <= len(_heading_lookup_tokens(question)) <= 7
 
 
 def _split_camel_case(value: str) -> str:
@@ -306,7 +403,10 @@ def _contains_any(value: str, patterns: tuple[str, ...]) -> bool:
 
 def _extract_xml_tag(value: str) -> str:
     match = re.search(r"\b((?:ipt|cac|cbc):[A-Za-z][A-Za-z0-9._-]*)\b", str(value or ""), flags=re.IGNORECASE)
-    return match.group(1).strip() if match else ""
+    if match:
+        return match.group(1).strip()
+    cleaned = normalise_whitespace(str(value or "").strip().strip("'\""))
+    return cleaned if is_xml_field_query(cleaned) else ""
 
 
 def _numbered_lines(items: list[str], limit: int = 5) -> str:
@@ -401,6 +501,26 @@ class ChatService:
     def _is_dgft_document(self, document_name: str) -> bool:
         normalized = _normalize_alnum_words(document_name)
         return any(hint in normalized for hint in DGFT_DOCUMENT_HINTS)
+
+    def _is_trade_net_document(self, document_name: str) -> bool:
+        normalized = _normalize_alnum_words(document_name)
+        return any(hint in normalized for hint in TRADE_NET_DOCUMENT_HINTS)
+
+    def _trade_net_ready_documents(self, ready_documents: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        return [
+            document
+            for document in ready_documents
+            if self._is_trade_net_document(str(document.get("name", "")))
+        ]
+
+    def _trade_net_exact_field_match(self, retrieval: list[dict[str, Any]]) -> dict[str, Any] | None:
+        for item in retrieval:
+            if any(
+                bool(item.get(flag))
+                for flag in ("fieldExactMatch", "normalizedFieldExactMatch", "headingExactMatch")
+            ):
+                return item
+        return None
 
     def get_last_trace(self) -> dict[str, Any]:
         return dict(getattr(self, "_last_trace", {}))
@@ -532,6 +652,23 @@ class ChatService:
                     ],
                 }
 
+        if current_document and (is_xml_field_query(question) or plan.intent == "Section Request" or bool(plan.section_request_name)):
+            normalized_name = _normalize(str(current_document.get("name", "")))
+            selected = document_map.get(normalized_name)
+            if selected:
+                selected["score"] = 25000.0
+                selected["reasons"].append("current_structured_document")
+                return selected, {
+                    "selectionMethod": "current_structured_document",
+                    "rankedDocuments": [
+                        {
+                            "name": str(selected.get("name", "")),
+                            "score": round(float(selected.get("score", 0.0)), 4),
+                            "reasons": list(selected.get("reasons", [])),
+                        }
+                    ],
+                }
+
         document_hits = search_service.retrieve(
             question,
             mode="document",
@@ -550,16 +687,36 @@ class ChatService:
 
         if _looks_like_heading_lookup(question):
             normalized_lookup = _normalize_alnum_words(question)
+            query_compact_keys = {
+                normalized_tag_key(alias)
+                for alias in field_search_aliases(question)
+                if normalized_tag_key(alias)
+            }
+            query_root_keys = {
+                normalized_tag_root(alias)
+                for alias in field_search_aliases(question)
+                if normalized_tag_root(alias)
+            }
             exact_title_hits: list[tuple[int, dict[str, Any], bool]] = []
             for rank, hit in enumerate(grounding_hits):
                 heading_value = _normalize_alnum_words(str(hit.get("heading", "") or hit.get("title", "")))
-                field_values = [
-                    _normalize_alnum_words(str(field))
-                    for field in hit.get("fieldNames", [])
-                    if _normalize_alnum_words(str(field))
-                ]
+                field_values = [_normalize_alnum_words(str(field)) for field in hit.get("fieldNames", []) if _normalize_alnum_words(str(field))]
+                field_compact_keys = {
+                    normalized_tag_key(str(field))
+                    for field in [hit.get("tagName", ""), hit.get("normalizedTagName", ""), *hit.get("fieldNames", [])]
+                    if normalized_tag_key(str(field))
+                }
+                field_root_keys = {
+                    normalized_tag_root(str(field))
+                    for field in [hit.get("tagName", ""), hit.get("normalizedTagName", ""), *hit.get("fieldNames", [])]
+                    if normalized_tag_root(str(field))
+                }
                 heading_exact = bool(normalized_lookup and heading_value == normalized_lookup)
                 field_exact = bool(normalized_lookup and normalized_lookup in field_values)
+                if not field_exact and query_compact_keys and field_compact_keys.intersection(query_compact_keys):
+                    field_exact = True
+                if not field_exact and query_root_keys and field_root_keys.intersection(query_root_keys):
+                    field_exact = True
                 if heading_exact or field_exact:
                     exact_title_hits.append((rank, hit, heading_exact))
 
@@ -678,7 +835,10 @@ class ChatService:
                 candidate["reasons"].append("alias_match")
 
             if current_document and _normalize(str(current_document.get("name", ""))) == _normalize(str(candidate.get("name", ""))):
-                candidate["score"] += 60.0
+                current_document_bonus = 60.0
+                if _looks_like_heading_lookup(question) or is_xml_field_query(question):
+                    current_document_bonus = 900.0
+                candidate["score"] += current_document_bonus
                 candidate["reasons"].append("current_document_bias")
 
         ranked_documents = sorted(
@@ -750,6 +910,8 @@ class ChatService:
 
     def _semantic_queries(self, question: str, plan: RetrievalPlan, target_document_name: str = "") -> list[str]:
         normalized = _normalize(question)
+        if plan.disable_semantic_expansion:
+            return _unique([plan.topic, question])[:2]
         if plan.intent == "Import Procedure":
             queries = [
                 question,
@@ -899,6 +1061,8 @@ class ChatService:
         return {
             "user_question": query,
             "detected_intent": plan.intent,
+            "detected_namespace": plan.detected_namespace,
+            "selected_retrieval_engine": plan.retrieval_engine or "semantic_grounding",
             "detected_document": target_document_name or (retrieved_document_names[0] if retrieved_document_names else ""),
             "target_document": target_document_name,
             "scope_label": scope_label,
@@ -917,7 +1081,7 @@ class ChatService:
                 [
                     item
                     for item in retrieval
-                    if str(item.get("type", "")).lower() in {"section", "chunk", "rule", "condition", "workflow", "definition"}
+                    if str(item.get("type", "")).lower() in {"section", "chunk", "hierarchy", "rule", "condition", "workflow", "definition"}
                 ]
             ),
             "expanded_queries": queries,
@@ -939,6 +1103,76 @@ class ChatService:
                 for item in retrieval[:10]
             ],
         }
+
+    def _retrieve_trade_net_field_grounding(
+        self,
+        question: str,
+        plan: RetrievalPlan,
+        *,
+        trade_net_document_names: list[str],
+        scope_label: str,
+    ) -> tuple[list[dict[str, Any]], dict[str, Any], str]:
+        normalized_document_names = frozenset(_normalize(name) for name in trade_net_document_names if _normalize(name))
+        queries = _unique([plan.topic, question])
+        batches: list[tuple[str, list[dict[str, Any]]]] = []
+        debugs: list[dict[str, Any]] = []
+
+        def run_queries(document_names: frozenset[str]) -> list[dict[str, Any]]:
+            local_batches: list[tuple[str, list[dict[str, Any]]]] = []
+            local_debugs: list[dict[str, Any]] = []
+            for lookup_query in queries:
+                results = search_service.retrieve(
+                    lookup_query,
+                    mode="keyword",
+                    limit=20,
+                    document_filters=document_names,
+                )
+                local_batches.append((lookup_query, results))
+                local_debugs.append(search_service.get_last_debug())
+            batches[:] = local_batches
+            debugs[:] = local_debugs
+            return self._merge_retrieval_sets(question, plan, local_batches)
+
+        retrieval = run_queries(normalized_document_names)
+        exact_match = self._trade_net_exact_field_match(retrieval)
+        locked_document_name = ""
+        if exact_match:
+            locked_document_name = str(exact_match.get("documentName", "")).strip()
+        elif trade_net_document_names:
+            locked_document_name = str(trade_net_document_names[0]).strip()
+        elif retrieval:
+            locked_document_name = str(retrieval[0].get("documentName", "")).strip()
+
+        if exact_match and locked_document_name:
+            retrieval = run_queries(frozenset({_normalize(locked_document_name)}))
+
+        search_debug = self._aggregate_search_debug(
+            question,
+            plan,
+            queries,
+            debugs,
+            retrieval,
+            locked_document_name,
+            scope_label,
+        )
+        final_exact_match = self._trade_net_exact_field_match(retrieval)
+        selected_result = final_exact_match or (retrieval[0] if retrieval else {})
+        search_debug.update(
+            {
+                "selected_retrieval_engine": plan.retrieval_engine or "trade_net_xml_field",
+                "selected_document": locked_document_name,
+                "exact_field_match": {
+                    "found": bool(final_exact_match),
+                    "matchedField": str((final_exact_match or {}).get("matchedField", "")).strip(),
+                    "matchedHeading": str((final_exact_match or {}).get("matchedHeading", "")).strip(),
+                    "documentName": str((final_exact_match or {}).get("documentName", "")).strip(),
+                    "sectionId": str((final_exact_match or {}).get("sectionId", "")).strip(),
+                    "title": str((final_exact_match or {}).get("title", "")).strip(),
+                },
+                "selected_section": str(selected_result.get("sectionId", "")).strip(),
+            }
+        )
+        return retrieval, search_debug, locked_document_name
 
     def _retrieve_grounding(
         self,
@@ -1025,7 +1259,7 @@ class ChatService:
             for item in retrieval
             if str(item.get("sectionId", "")).strip()
             and str(item.get("documentName", "")).strip()
-            and str(item.get("type", "")).lower() in {"section", "chunk", "rule", "condition", "workflow", "definition"}
+            and str(item.get("type", "")).lower() in {"section", "chunk", "hierarchy", "rule", "condition", "workflow", "definition"}
         ]
         if not section_hits:
             return False
@@ -1227,7 +1461,7 @@ class ChatService:
             "title": "No matching knowledge found",
             "sectionId": "",
             "chapterNumber": "",
-            "detectedIntent": plan.user_intent,
+            "detectedIntent": plan.intent,
             "detectedTopic": plan.topic,
             "knowledgeSourcesUsed": list(plan.knowledge_sources),
             "confidenceScore": round(confidence_score, 2),
@@ -1250,6 +1484,7 @@ class ChatService:
             "sourcePages": [],
             "sourceChapter": "",
             "sourceSection": "",
+            "sources": [],
             "modelUsed": ai_model,
             "languageUsed": language,
         }
@@ -1267,13 +1502,24 @@ class ChatService:
         final_prompt: str = "",
         llm_response: str = "",
         final_context_documents: list[str] | None = None,
+        document_sync: dict[str, Any] | None = None,
     ) -> None:
         payload = {
             "question": question,
-            "detected_intent": plan.user_intent,
+            "original_question": question,
+            "detected_namespace": plan.detected_namespace,
+            "detected_intent": plan.intent,
+            "detected_user_intent": plan.user_intent,
             "detected_topic": plan.topic,
+            "selected_retrieval_engine": debug.get("selected_retrieval_engine", plan.retrieval_engine or "") if debug else (plan.retrieval_engine or ""),
             "knowledge_source": list(plan.knowledge_sources),
+            "requested_document": document_sync.get("requestedDocumentName", "") if document_sync else "",
+            "retrieved_document": document_sync.get("retrievedDocumentName", "") if document_sync else "",
+            "response_source_document": document_sync.get("responseDocumentName", "") if document_sync else "",
             "detected_document": debug.get("detected_document", "") if debug else "",
+            "selected_document": debug.get("selected_document", "") if debug else "",
+            "selected_section": debug.get("selected_section", "") if debug else "",
+            "exact_field_match": debug.get("exact_field_match", {}) if debug else {},
             "selected_scope": debug.get("scope_label", "") if debug else "",
             "selected_document_id": next((document_id for document_id in (debug.get("retrieved_document_ids", []) if debug else []) if document_id), ""),
             "metadata_filter": {
@@ -1312,6 +1558,38 @@ class ChatService:
         }
         self._last_trace = payload
         logger.info("dekai_retrieval %s", json.dumps(payload, ensure_ascii=False))
+
+    def _attach_document_sync(
+        self,
+        answer: dict[str, Any],
+        bundle: dict[str, Any],
+        *,
+        requested_document_name: str = "",
+    ) -> dict[str, str]:
+        search_debug = bundle.get("searchDebug", {}) or {}
+        final_context_documents = bundle.get("finalContextDocuments", []) or []
+        requested_document = str(requested_document_name or getattr(self, "_current_document_name", "")).strip()
+        retrieved_document = str(
+            search_debug.get("selected_document", "")
+            or search_debug.get("target_document", "")
+            or search_debug.get("detected_document", "")
+            or next((str(name).strip() for name in final_context_documents if str(name).strip()), "")
+            or answer.get("referencedPdf", "")
+            or next((str(name).strip() for name in answer.get("sourcePdfs", []) if str(name).strip()), "")
+        ).strip()
+        response_document = str(
+            answer.get("referencedPdf", "")
+            or next((str(name).strip() for name in answer.get("sourcePdfs", []) if str(name).strip()), "")
+            or retrieved_document
+        ).strip()
+        document_sync = {
+            "requestedDocumentName": requested_document,
+            "retrievedDocumentName": retrieved_document or response_document,
+            "responseDocumentName": response_document or retrieved_document,
+        }
+        answer["documentSync"] = document_sync
+        bundle["documentSync"] = document_sync
+        return document_sync
 
     def _pick_sections(self, retrieval: list[dict[str, Any]], sections: list[dict[str, Any]], plan: RetrievalPlan) -> tuple[list[dict[str, Any]], float]:
         ranked_section_hits = [
@@ -1414,6 +1692,8 @@ class ChatService:
             "exact_chapter_match",
             "exact_heading_match",
             "exact_field_match",
+            "normalized_field_exact_match",
+            "normalized_field_root_match",
             "heading_contains_match",
             "field_contains_match",
         }
@@ -1483,6 +1763,31 @@ class ChatService:
         if "table" in normalized_question:
             return any(section.get("tables", []) for section in answer_sections)
 
+        if is_xml_field_query(question):
+            query_compact_keys = {
+                normalized_tag_key(alias)
+                for alias in field_search_aliases(question)
+                if normalized_tag_key(alias)
+            }
+            query_root_keys = {
+                normalized_tag_root(alias)
+                for alias in field_search_aliases(question)
+                if normalized_tag_root(alias)
+            }
+            for item in retrieval[:12]:
+                candidate_keys = {
+                    normalized_tag_key(str(field))
+                    for field in [item.get("tagName", ""), item.get("normalizedTagName", ""), *item.get("fieldNames", [])]
+                    if normalized_tag_key(str(field))
+                }
+                candidate_root_keys = {
+                    normalized_tag_root(str(field))
+                    for field in [item.get("tagName", ""), item.get("normalizedTagName", ""), *item.get("fieldNames", [])]
+                    if normalized_tag_root(str(field))
+                }
+                if query_compact_keys.intersection(candidate_keys) or query_root_keys.intersection(candidate_root_keys):
+                    return True
+
         if not evidence_terms:
             top_confidence = max((float(item.get("confidence", 0.0)) for item in retrieval), default=0.0)
             return top_confidence >= 0.82
@@ -1495,19 +1800,479 @@ class ChatService:
     def _section_chunks(self, retrieval: list[dict[str, Any]], chunks: list[dict[str, Any]], section_keys: set[str]) -> list[dict[str, Any]]:
         selected: list[dict[str, Any]] = []
         seen_ids: set[str] = set()
+        seen_hashes: set[str] = set()
         for item in retrieval:
             if item.get("type") != "chunk" or self._record_section_key(item) not in section_keys:
                 continue
             item_id = str(item.get("id", ""))
             if item_id in seen_ids:
                 continue
+            chunk_hash = str(item.get("chunkHash", "")).strip() or _normalize(_remove_extraction_noise(item.get("text", "")))
+            if chunk_hash and chunk_hash in seen_hashes:
+                continue
             seen_ids.add(item_id)
+            if chunk_hash:
+                seen_hashes.add(chunk_hash)
             selected.append(item)
             if len(selected) >= 6:
                 break
         if selected:
             return selected
-        return [chunk for chunk in chunks if self._record_section_key(chunk) in section_keys][:6]
+        fallback_selected: list[dict[str, Any]] = []
+        for chunk in chunks:
+            if self._record_section_key(chunk) not in section_keys:
+                continue
+            chunk_hash = str(chunk.get("chunkHash", "")).strip() or _normalize(_remove_extraction_noise(chunk.get("text", "")))
+            if chunk_hash and chunk_hash in seen_hashes:
+                continue
+            if chunk_hash:
+                seen_hashes.add(chunk_hash)
+            fallback_selected.append(chunk)
+            if len(fallback_selected) >= 6:
+                break
+        return fallback_selected
+
+    def _section_hierarchy_nodes(self, section: dict[str, Any]) -> list[dict[str, Any]]:
+        nodes = [node for node in section.get("hierarchyNodes", []) if isinstance(node, dict)]
+        return sorted(
+            nodes,
+            key=lambda node: (
+                int(node.get("startLine", 0) or 0),
+                int(node.get("endLine", 0) or 0),
+                int(node.get("depth", 0) or 0),
+                str(node.get("id", "")),
+            ),
+        )
+
+    def _hierarchy_aliases(self, node: dict[str, Any]) -> list[str]:
+        aliases = [
+            *node.get("searchAliases", []),
+            str(node.get("title", "")),
+            str(node.get("tagName", "")),
+            str(node.get("normalizedTagName", "")),
+        ]
+        return _unique([normalise_whitespace(str(alias)) for alias in aliases if normalise_whitespace(str(alias))])
+
+    def _hierarchy_match_score(self, target: str, node: dict[str, Any], *, prefer_field: bool) -> float:
+        node_type = str(node.get("type", "")).strip().lower()
+        if node_type in {"note", "exception", "validation", "definition", "business_rule"}:
+            return 0.0
+
+        target_aliases = _unique([*hierarchy_search_aliases(target), *field_search_aliases(target), target])
+        target_words = {_normalize_alnum_words(alias) for alias in target_aliases if _normalize_alnum_words(alias)}
+        target_compact_keys = {normalized_tag_key(alias) for alias in target_aliases if normalized_tag_key(alias)}
+        target_root_keys = {normalized_tag_root(alias) for alias in target_aliases if normalized_tag_root(alias)}
+        node_aliases = self._hierarchy_aliases(node)
+        node_words = {_normalize_alnum_words(alias) for alias in node_aliases if _normalize_alnum_words(alias)}
+        node_compact_keys = {normalized_tag_key(alias) for alias in node_aliases if normalized_tag_key(alias)}
+        node_root_keys = {normalized_tag_root(alias) for alias in node_aliases if normalized_tag_root(alias)}
+
+        score = 0.0
+        if target_words.intersection(node_words):
+            score += 280.0
+        elif target_compact_keys.intersection(node_compact_keys):
+            score += 255.0
+        elif target_root_keys.intersection(node_root_keys):
+            score += 225.0
+        elif any(target_word and node_word and (target_word in node_word or node_word in target_word) for target_word in target_words for node_word in node_words):
+            score += 170.0
+
+        target_tokens = {
+            token
+            for token in re.findall(r"\b[a-z0-9][a-z0-9/&._:-]{2,}\b", _normalize(target))
+            if token not in GROUNDING_STOPWORDS
+        }
+        node_tokens = {
+            token
+            for alias in node_aliases
+            for token in re.findall(r"\b[a-z0-9][a-z0-9/&._:-]{2,}\b", _normalize(alias))
+            if token not in GROUNDING_STOPWORDS
+        }
+        score += float(len(target_tokens.intersection(node_tokens)) * 18)
+
+        if prefer_field:
+            score += {
+                "field": 95.0,
+                "xml_container": 70.0,
+                "subsection": 25.0,
+                "section": 10.0,
+            }.get(node_type, 0.0)
+        else:
+            score += {
+                "subsection": 95.0,
+                "xml_container": 80.0,
+                "section": 40.0,
+                "field": 20.0,
+            }.get(node_type, 0.0)
+
+        if str(node.get("tagName", "")).strip() and str(node.get("namespace", "")).strip():
+            score += 8.0
+        return score
+
+    def _best_hierarchy_match(
+        self,
+        target: str,
+        sections: list[dict[str, Any]],
+        *,
+        prefer_field: bool,
+    ) -> dict[str, Any] | None:
+        best_match: dict[str, Any] | None = None
+        best_score = 0.0
+        for section in sections:
+            for node in self._section_hierarchy_nodes(section):
+                score = self._hierarchy_match_score(target, node, prefer_field=prefer_field)
+                if score > best_score:
+                    best_match = {"section": section, "node": node, "score": score}
+                    best_score = score
+        threshold = 145.0 if prefer_field else 155.0
+        return best_match if best_match and best_score >= threshold else None
+
+    def _hierarchy_context(self, section: dict[str, Any], matched_node: dict[str, Any], *, mode: str) -> dict[str, Any]:
+        nodes = self._section_hierarchy_nodes(section)
+        lookup = {str(node.get("id", "")): node for node in nodes}
+        children_by_parent: dict[str, list[dict[str, Any]]] = {}
+        for node in nodes:
+            children_by_parent.setdefault(str(node.get("parentId", "")), []).append(node)
+
+        def descendants(node_id: str) -> list[dict[str, Any]]:
+            result: list[dict[str, Any]] = []
+            for child in children_by_parent.get(node_id, []):
+                result.append(child)
+                result.extend(descendants(str(child.get("id", ""))))
+            return result
+
+        ancestry: list[dict[str, Any]] = []
+        cursor = matched_node
+        while cursor:
+            ancestry.append(cursor)
+            parent_id = str(cursor.get("parentId", ""))
+            cursor = lookup.get(parent_id) if parent_id else None
+        ancestry.reverse()
+
+        related_nodes = [matched_node]
+        if mode == "field":
+            related_nodes.extend(ancestry)
+            if str(matched_node.get("type", "")) in {"xml_container", "subsection", "section"}:
+                related_nodes.extend(descendants(str(matched_node.get("id", ""))))
+            else:
+                parent_node = lookup.get(str(matched_node.get("parentId", "")))
+                if parent_node:
+                    related_nodes.extend(children_by_parent.get(str(parent_node.get("id", "")), [])[:10])
+        else:
+            related_nodes.extend(ancestry[:-1])
+            related_nodes.extend(descendants(str(matched_node.get("id", ""))))
+
+        deduped_nodes: list[dict[str, Any]] = []
+        seen_node_ids: set[str] = set()
+        for node in sorted(
+            related_nodes,
+            key=lambda item: (
+                int(item.get("startLine", 0) or 0),
+                int(item.get("endLine", 0) or 0),
+                int(item.get("depth", 0) or 0),
+                str(item.get("id", "")),
+            ),
+        ):
+            node_id = str(node.get("id", ""))
+            if not node_id or node_id in seen_node_ids:
+                continue
+            seen_node_ids.add(node_id)
+            deduped_nodes.append(node)
+
+        node_type_groups: dict[str, list[dict[str, Any]]] = {}
+        for node in deduped_nodes:
+            node_type_groups.setdefault(str(node.get("type", "")), []).append(node)
+
+        pages = _unique(
+            [
+                *[str(node.get("pageNumber", "")) for node in deduped_nodes if str(node.get("pageNumber", "")).strip() and str(node.get("pageNumber", "")) != "0"],
+                *[str(page) for page in section.get("sourcePages", []) if str(page).strip()],
+            ]
+        )
+        parent_xml = next((node for node in reversed(ancestry) if str(node.get("type", "")) == "xml_container"), None)
+        parent_section = next(
+            (
+                node
+                for node in reversed(ancestry)
+                if str(node.get("type", "")) in {"subsection", "section"}
+            ),
+            None,
+        )
+        return {
+            "nodes": deduped_nodes,
+            "fields": node_type_groups.get("field", []),
+            "xmlContainers": node_type_groups.get("xml_container", []),
+            "definitions": node_type_groups.get("definition", []),
+            "notes": node_type_groups.get("note", []),
+            "validations": node_type_groups.get("validation", []),
+            "exceptions": node_type_groups.get("exception", []),
+            "businessRules": node_type_groups.get("business_rule", []),
+            "pages": pages,
+            "parentXml": parent_xml or matched_node,
+            "parentSection": parent_section or matched_node,
+        }
+
+    def _hierarchical_answer_text(
+        self,
+        *,
+        section: dict[str, Any],
+        matched_node: dict[str, Any],
+        context: dict[str, Any],
+        mode: str,
+    ) -> str:
+        matched_label = str(matched_node.get("title", "") or matched_node.get("tagName", "") or section.get("title", "")).strip()
+        section_label = _section_label(section)
+        parent_xml = context.get("parentXml") or {}
+        overview = ""
+        if mode == "field":
+            overview = (
+                _clean_evidence_item(matched_node.get("description", ""), 260)
+                or _clean_evidence_item(matched_node.get("content", ""), 260)
+                or _first_sentence(section.get("summary", ""), 260)
+            )
+        else:
+            overview = (
+                _clean_evidence_item(matched_node.get("content", ""), 320)
+                or _first_sentence(section.get("summary", ""), 260)
+                or _first_sentence(section.get("businessExplanation", ""), 260)
+            )
+        if str(matched_node.get("type", "")) == "section":
+            purpose = (
+                _first_sentence(section.get("purpose", ""), 240)
+                or _first_sentence(section.get("businessMeaning", ""), 220)
+                or _first_sentence(section.get("summary", ""), 240)
+            )
+        else:
+            purpose = (
+                _first_sentence(section.get("businessExplanation", ""), 220)
+                or _first_sentence(section.get("businessMeaning", ""), 220)
+                or _first_sentence(section.get("summary", ""), 240)
+            )
+
+        field_lines = []
+        for field in context.get("fields", [])[:20]:
+            label_parts = [str(field.get("fieldCode", "")).strip(), str(field.get("tagName", "") or field.get("title", "")).strip()]
+            label = " ".join(part for part in label_parts if part).strip()
+            description = (
+                _clean_evidence_item(field.get("description", ""), 200)
+                or _clean_evidence_item(field.get("content", ""), 200)
+                or "Captured in the selected document."
+            )
+            field_lines.append(f"{label}: {description}".strip(": "))
+
+        xml_lines = _unique(
+            [
+                str(node.get("title", "")).strip()
+                for node in context.get("xmlContainers", [])[:10]
+                if str(node.get("title", "")).strip()
+            ]
+        )
+        business_rule_lines = _unique(
+            [
+                *[
+                    _clean_evidence_item(node.get("content", ""), 220)
+                    for node in context.get("businessRules", [])[:8]
+                ],
+                *(
+                    [
+                        _clean(rule.get("description", ""), 220)
+                        for rule in section.get("businessRules", [])[:8]
+                        if rule.get("description")
+                    ]
+                    if mode == "section"
+                    else []
+                ),
+            ]
+        )
+        validation_lines = _unique(
+            [
+                *[
+                    _clean_evidence_item(node.get("content", ""), 220)
+                    for node in context.get("validations", [])[:8]
+                ],
+                *[_clean(item, 220) for item in section.get("validations", [])[:8]],
+            ]
+        )
+        note_lines = _unique(
+            [
+                *[
+                    _clean_evidence_item(node.get("content", ""), 220)
+                    for node in context.get("notes", [])[:8]
+                ],
+                *[_clean(item, 220) for item in section.get("notes", [])[:8]],
+            ]
+        )
+        exception_lines = _unique(
+            [
+                *[
+                    _clean_evidence_item(node.get("content", ""), 220)
+                    for node in context.get("exceptions", [])[:8]
+                ],
+                *[_clean(item, 220) for item in section.get("exceptions", [])[:8]],
+            ]
+        )
+        definition_lines = _unique(
+            [
+                *[
+                    _clean_evidence_item(node.get("content", ""), 220)
+                    for node in context.get("definitions", [])[:8]
+                ],
+            ]
+        )
+        example_text = (
+            next((str(example).strip() for example in section.get("examples", []) if str(example).strip()), "")
+            or str(section.get("realWorldExample", "")).strip()
+        )
+
+        opening = (
+            f"{matched_label} is covered in {section_label} of the selected document."
+            if mode == "section"
+            else f"{matched_label} is covered in {section_label} of the selected document."
+        )
+        if mode == "field" and parent_xml and str(parent_xml.get("title", "")).strip() and str(parent_xml.get("id", "")) != str(matched_node.get("id", "")):
+            opening = f"{opening.rstrip('.')} It sits under XML element {str(parent_xml.get('title', '')).strip()}."
+
+        parts = [_ensure_sentence(opening)]
+        if overview:
+            parts.append("\n".join(["Overview", _ensure_sentence(overview)]))
+        if purpose:
+            parts.append("\n".join(["Purpose", _ensure_sentence(purpose)]))
+        if xml_lines:
+            parts.append("\n".join(["XML Elements", _bullet_lines(xml_lines, limit=10)]))
+        if field_lines:
+            parts.append("\n".join(["Fields", _bullet_lines(field_lines, limit=20)]))
+        if definition_lines:
+            parts.append("\n".join(["Definitions", _bullet_lines(definition_lines, limit=8)]))
+        if business_rule_lines:
+            parts.append("\n".join(["Business Rules", _bullet_lines(business_rule_lines, limit=8)]))
+        if validation_lines:
+            parts.append("\n".join(["Validation Rules", _bullet_lines(validation_lines, limit=8)]))
+        if note_lines:
+            parts.append("\n".join(["Notes", _bullet_lines(note_lines, limit=8)]))
+        if exception_lines:
+            parts.append("\n".join(["Exceptions", _bullet_lines(exception_lines, limit=8)]))
+        if example_text:
+            parts.append("\n".join(["Example", _ensure_sentence(_clean(example_text, 240))]))
+        parts.append(
+            self._source_block(
+                document_name=str(section.get("documentName", "")).strip(),
+                chapter=_chapter_label(section),
+                section=section_label,
+                source_pages=context.get("pages", []),
+            )
+        )
+        return "\n\n".join(part for part in parts if part).strip()
+
+    def _hierarchical_answer_payload(
+        self,
+        question: str,
+        plan: RetrievalPlan,
+        sections: list[dict[str, Any]],
+        *,
+        allowed_document_names: list[str] | None = None,
+    ) -> dict[str, Any] | None:
+        target = plan.section_request_name or extract_section_request_target(question) or question
+        prefer_field = is_xml_field_query(question)
+        allowed_documents = {_normalize(name) for name in (allowed_document_names or []) if _normalize(name)}
+        eligible_sections = [
+            section
+            for section in sections
+            if not allowed_documents or _normalize(str(section.get("documentName", ""))) in allowed_documents
+        ]
+        if not eligible_sections:
+            return None
+
+        match = self._best_hierarchy_match(target, eligible_sections, prefer_field=prefer_field)
+        if not match:
+            return None
+
+        section = match["section"]
+        matched_node = match["node"]
+        mode = "field" if prefer_field else "section"
+        context = self._hierarchy_context(section, matched_node, mode=mode)
+        answer_text = self._hierarchical_answer_text(
+            section=section,
+            matched_node=matched_node,
+            context=context,
+            mode=mode,
+        )
+        business_rules = _unique(
+            [
+                *[
+                    _clean_evidence_item(node.get("content", ""), 220)
+                    for node in context.get("businessRules", [])[:8]
+                ],
+                *(
+                    [
+                        _clean(rule.get("description", ""), 220)
+                        for rule in section.get("businessRules", [])[:8]
+                        if rule.get("description")
+                    ]
+                    if mode == "section"
+                    else []
+                ),
+            ]
+        )[:8]
+        conditions = _unique([_clean(item, 220) for item in section.get("conditions", [])[:8]])[:8]
+        validations = _unique(
+            [
+                *[
+                    _clean_evidence_item(node.get("content", ""), 220)
+                    for node in context.get("validations", [])[:8]
+                ],
+                *[_clean(item, 220) for item in section.get("validations", [])[:8]],
+            ]
+        )[:8]
+        notes = _unique(
+            [
+                *[
+                    _clean_evidence_item(node.get("content", ""), 220)
+                    for node in context.get("notes", [])[:8]
+                ],
+                *[_clean(item, 220) for item in section.get("notes", [])[:8]],
+            ]
+        )[:8]
+        exceptions = _unique(
+            [
+                *[
+                    _clean_evidence_item(node.get("content", ""), 220)
+                    for node in context.get("exceptions", [])[:8]
+                ],
+                *[_clean(item, 220) for item in section.get("exceptions", [])[:8]],
+            ]
+        )[:8]
+        required_documents = _unique(
+            [
+                *[str(document) for document in section.get("requiredDocuments", []) if str(document).strip()],
+                *[str(document) for document in section.get("documents", []) if str(document).strip()],
+            ]
+        )[:8]
+        workflow_steps = _unique([str(step) for step in section.get("workflow", []) if str(step).strip()])[:8]
+        confidence = 0.98 if float(match["score"]) >= 260.0 else 0.95 if float(match["score"]) >= 220.0 else 0.91
+        return {
+            "title": str(matched_node.get("title", "") or section.get("title", "")).strip(),
+            "section": section,
+            "matchedNode": matched_node,
+            "context": context,
+            "directAnswer": answer_text,
+            "confidenceScore": confidence,
+            "businessRules": business_rules,
+            "conditions": conditions,
+            "validations": validations,
+            "exceptions": exceptions,
+            "importantNotes": notes,
+            "requiredDocuments": required_documents,
+            "workflow": workflow_steps,
+            "realExample": next((str(example).strip() for example in section.get("examples", []) if str(example).strip()), str(section.get("realWorldExample", "")).strip()),
+            "sourcePages": context.get("pages", []),
+            "sourcePdfs": [str(section.get("documentName", "")).strip()],
+            "relevantChapters": [_chapter_label(section)],
+            "relevantSections": [_section_label(section)],
+            "mode": mode,
+            "decision": (
+                f"Answered from the hierarchical section tree using matched node {matched_node.get('title', '')}."
+            ),
+        }
 
     def _fallback_sections(
         self,
@@ -1617,7 +2382,7 @@ class ChatService:
 
         normalized_question = _normalize(question)
         heading = str(heading_chunk.get("heading", "") or heading_chunk.get("title", "")).strip()
-        block_text = " ".join(str(heading_chunk.get("text", "")).split()).strip()
+        block_text = _clean_evidence_item(heading_chunk.get("text", ""), 260)
         if block_text and len(block_text) > max(24, len(heading) + 12):
             if any(phrase in normalized_question for phrase in ("details", "under", "what is", "show", "explain", "meaning")):
                 return _ensure_sentence(block_text)
@@ -1639,6 +2404,16 @@ class ChatService:
             return ""
 
         normalized_tag = _normalize(xml_tag)
+        query_compact_keys = {
+            normalized_tag_key(alias)
+            for alias in field_search_aliases(xml_tag)
+            if normalized_tag_key(alias)
+        }
+        query_root_keys = {
+            normalized_tag_root(alias)
+            for alias in field_search_aliases(xml_tag)
+            if normalized_tag_root(alias)
+        }
         best_chunk: dict[str, Any] | None = None
         best_score = -1
 
@@ -1646,12 +2421,26 @@ class ChatService:
             heading = _normalize(str(chunk.get("heading", "")).strip())
             field_names = [_normalize(str(field).strip()) for field in chunk.get("fieldNames", []) if str(field).strip()]
             text = _normalize(str(chunk.get("text", "")).strip())
+            chunk_keys = {
+                normalized_tag_key(str(field))
+                for field in [chunk.get("tagName", ""), chunk.get("normalizedTagName", ""), *chunk.get("fieldNames", [])]
+                if normalized_tag_key(str(field))
+            }
+            chunk_root_keys = {
+                normalized_tag_root(str(field))
+                for field in [chunk.get("tagName", ""), chunk.get("normalizedTagName", ""), *chunk.get("fieldNames", [])]
+                if normalized_tag_root(str(field))
+            }
 
             score = 0
             if heading == normalized_tag:
                 score += 100
             elif normalized_tag and normalized_tag in heading:
                 score += 70
+            if query_compact_keys and chunk_keys.intersection(query_compact_keys):
+                score += 95
+            if query_root_keys and chunk_root_keys.intersection(query_root_keys):
+                score += 80
             if normalized_tag in field_names:
                 score += 50
             elif any(normalized_tag in field for field in field_names):
@@ -1665,14 +2454,36 @@ class ChatService:
         if not best_chunk or best_score <= 0:
             return ""
 
-        best_text = " ".join(str(best_chunk.get("text", "")).split()).strip()
-        if best_text:
+        heading = str(best_chunk.get("heading", "")).strip() or xml_tag
+        heading_label = heading.title() if heading.isupper() else heading
+        field_names = [str(field).strip() for field in best_chunk.get("fieldNames", []) if str(field).strip()]
+        description = _clean_evidence_item(best_chunk.get("description", ""), 180)
+        best_text = _clean_evidence_item(best_chunk.get("text", ""), 220)
+
+        if best_text and _normalize(best_text) != _normalize(heading):
             return _ensure_sentence(best_text)
-        heading = str(best_chunk.get("heading", "")).strip()
-        return _ensure_sentence(heading)
+
+        blocks = [f"{heading_label} is an XML tag in the uploaded declaration message."]
+        if field_names:
+            blocks.append(f"It includes fields such as {_natural_list(field_names, limit=8)}.")
+        elif description and _normalize(description) != _normalize(heading):
+            blocks.append(f"It is associated with {description}.")
+        else:
+            blocks.append("It identifies a structured declaration block used by the message specification.")
+        return " ".join(blocks)
 
     def _best_field_chunk(self, question: str, selected_chunks: list[dict[str, Any]]) -> tuple[dict[str, Any] | None, str]:
         normalized_question = _normalize(question)
+        query_compact_keys = {
+            normalized_tag_key(alias)
+            for alias in field_search_aliases(question)
+            if normalized_tag_key(alias)
+        }
+        query_root_keys = {
+            normalized_tag_root(alias)
+            for alias in field_search_aliases(question)
+            if normalized_tag_root(alias)
+        }
         question_terms = {
             token
             for token in re.findall(r"\b[a-z0-9][a-z0-9/&._:-]{1,}\b", normalized_question)
@@ -1688,6 +2499,8 @@ class ChatService:
                 continue
             for field_name in field_names:
                 normalized_field = _normalize(field_name)
+                field_compact_key = normalized_tag_key(field_name)
+                field_root_key = normalized_tag_root(field_name)
                 field_terms = {
                     token
                     for token in re.findall(r"\b[a-z0-9][a-z0-9/&._:-]{1,}\b", normalized_field)
@@ -1699,6 +2512,10 @@ class ChatService:
                 score = 0
                 if normalized_field and normalized_field in normalized_question:
                     score += 100
+                if field_compact_key and field_compact_key in query_compact_keys:
+                    score += 95
+                if field_root_key and field_root_key in query_root_keys:
+                    score += 75
                 score += len(field_terms.intersection(question_terms)) * 14
                 if field_terms and field_terms.issubset(question_terms.union({"type", "details", "section"})):
                     score += 35
@@ -1732,7 +2549,11 @@ class ChatService:
         else:
             blocks[0] += "."
         if matched_line:
-            blocks.append(f"The extracted content lists it as: {_clean(matched_line, 220)}.")
+            cleaned_line = _clean_evidence_item(matched_line, 220)
+            if cleaned_line:
+                blocks.append(f"The selected document describes it as: {cleaned_line}.")
+            else:
+                blocks.append("It is part of the structured fields captured from the selected PDF.")
         else:
             blocks.append("It is part of the structured fields captured from the selected PDF.")
         return " ".join(blocks)
@@ -1836,12 +2657,12 @@ class ChatService:
             "sourcePages": [int(page) for page in section.get("sourcePages", []) if str(page).isdigit()],
         }
 
-    def _iec_definition_answer(self, question: str, sections: list[dict[str, Any]], allowed_document_names: list[str] | None = None) -> str:
+    def _iec_definition_payload(self, question: str, sections: list[dict[str, Any]], allowed_document_names: list[str] | None = None) -> dict[str, Any] | None:
         normalized_question = _normalize(question)
         if "iec" not in normalized_question:
-            return ""
+            return None
         if not _contains_any(normalized_question, ("full form", "stands for", "meaning of iec", "what is iec")):
-            return ""
+            return None
 
         allowed_documents = {_normalize(name) for name in (allowed_document_names or []) if _normalize(name)}
 
@@ -1856,11 +2677,19 @@ class ChatService:
             ),
             None,
         )
-        one_pan_summary = _first_sentence((one_pan_section or {}).get("summary", ""), 220)
+        one_pan_summary = _clean_evidence_item(_first_sentence((one_pan_section or {}).get("summary", ""), 220), 220)
         if one_pan_summary:
             answer_parts.append(f"According to the selected document, {one_pan_summary.rstrip('.')}.")
 
-        return " ".join(part for part in answer_parts if part).strip()
+        if not one_pan_section:
+            return None
+
+        return {
+            "answer": " ".join(part for part in answer_parts if part).strip(),
+            "documentName": str(one_pan_section.get("documentName", "")).strip(),
+            "section": one_pan_section,
+            "sourcePages": [int(page) for page in one_pan_section.get("sourcePages", []) if str(page).isdigit()],
+        }
 
     def _definition_query_term(self, question: str) -> str:
         patterns = (
@@ -1973,6 +2802,46 @@ class ChatService:
                 break
         return references
 
+    def _source_entries(self, answer_sections: list[dict[str, Any]], selected_chunks: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
+        selected_chunks = selected_chunks or []
+        pages_by_section: dict[str, list[int]] = {}
+        for chunk in selected_chunks:
+            section_key = self._record_section_key(chunk)
+            chunk_pages = [int(page) for page in chunk.get("sourcePages", []) if str(page).isdigit()]
+            if not section_key or not chunk_pages:
+                continue
+            pages_by_section.setdefault(section_key, [])
+            for page in chunk_pages:
+                if page not in pages_by_section[section_key]:
+                    pages_by_section[section_key].append(page)
+
+        sources: list[dict[str, Any]] = []
+        seen: set[tuple[str, str, str]] = set()
+        for section in answer_sections:
+            document_name = str(section.get("documentName", "")).strip()
+            chapter = _chapter_label(section)
+            section_label = _section_label(section)
+            key = (document_name, chapter, section_label)
+            if key in seen:
+                continue
+            seen.add(key)
+            pages = [int(page) for page in section.get("sourcePages", []) if str(page).isdigit()]
+            extra_pages = pages_by_section.get(self._section_record_key(section), [])
+            merged_pages = []
+            for page in [*pages, *extra_pages]:
+                if page not in merged_pages:
+                    merged_pages.append(page)
+            merged_pages.sort()
+            sources.append(
+                {
+                    "documentName": document_name,
+                    "chapter": chapter,
+                    "section": section_label,
+                    "pageNumbers": merged_pages,
+                }
+            )
+        return sources
+
     def _source_block(
         self,
         *,
@@ -2012,10 +2881,12 @@ class ChatService:
         bullets: list[str] = []
         seen: set[str] = set()
         for chunk in selected_chunks:
-            text = str(chunk.get("text", "")).strip()
+            text = _remove_extraction_noise(chunk.get("text", ""))
             if not text:
                 continue
             for bullet in self._bulletize_text(text, limit=limit):
+                if _is_extractive_sentence(bullet):
+                    continue
                 lowered = bullet.casefold()
                 if lowered in seen:
                     continue
@@ -2024,6 +2895,31 @@ class ChatService:
                 if len(bullets) >= limit:
                     return bullets
         return bullets
+
+    def _evidence_sentences(self, question: str, selected_chunks: list[dict[str, Any]], limit: int = 3) -> list[str]:
+        question_terms = {
+            token
+            for token in re.findall(r"\b[a-z0-9][a-z0-9/&._:-]{2,}\b", _normalize(question))
+            if token not in GROUNDING_STOPWORDS
+        }
+        scored: list[tuple[int, str]] = []
+        seen: set[str] = set()
+        for chunk in selected_chunks:
+            candidates = [
+                _clean_evidence_item(chunk.get("description", ""), 220),
+                *[_clean_evidence_item(sentence, 220) for sentence in _split_sentences(chunk.get("text", ""))[:5]],
+            ]
+            for candidate in candidates:
+                if not candidate:
+                    continue
+                lowered = candidate.casefold()
+                if lowered in seen:
+                    continue
+                seen.add(lowered)
+                overlap = len([term for term in question_terms if term in lowered])
+                scored.append((overlap, candidate))
+        scored.sort(key=lambda item: (item[0], len(item[1])), reverse=True)
+        return [sentence for _score, sentence in scored[:limit]]
 
     def _focused_chunk_answer(self, question: str, selected_chunks: list[dict[str, Any]]) -> str:
         normalized_question = _normalize(question)
@@ -2108,7 +3004,7 @@ class ChatService:
         if best_score <= 0 or not best_text:
             return ""
 
-        cleaned = " ".join(best_text.split()).strip(" .;:-")
+        cleaned = _clean_evidence_item(best_text, 260)
         if not cleaned:
             return ""
         return _ensure_sentence(cleaned)
@@ -2141,36 +3037,40 @@ class ChatService:
             phrase in normalized_question for phrase in ("category", "categories", "list", "include", "which are", "what are")
         )
 
-        if question_targets_list and condition_items:
-            return self._render_bullets(condition_items, limit=8, clean_limit=420)
-        if question_targets_documents and required_documents:
-            return self._render_bullets(required_documents, limit=8, clean_limit=420)
-        if question_targets_workflow and workflow_steps:
-            return _numbered_lines(workflow_steps, limit=8)
-        if question_targets_conditions and condition_items:
-            return self._render_bullets(condition_items, limit=8, clean_limit=420)
-        if question_targets_exceptions and exception_items:
-            return self._render_bullets(exception_items, limit=8, clean_limit=420)
-        if question_targets_rules and business_logic:
-            return self._render_bullets(business_logic, limit=8, clean_limit=420)
+        clean_conditions = _unique([_clean_evidence_item(item, 220) for item in condition_items if _clean_evidence_item(item, 220)])
+        clean_exceptions = _unique([_clean_evidence_item(item, 220) for item in exception_items if _clean_evidence_item(item, 220)])
+        clean_rules = _unique([_clean_evidence_item(item, 220) for item in business_logic if _clean_evidence_item(item, 220)])
+        clean_documents = _unique([_clean_evidence_item(item, 180) for item in required_documents if _clean_evidence_item(item, 180)])
+        clean_workflow = _unique([_clean_evidence_item(item, 220) for item in workflow_steps if _clean_evidence_item(item, 220)])
+
+        if question_targets_list and clean_conditions:
+            return f"The key conditions mentioned are {_natural_list(clean_conditions, limit=6)}."
+        if question_targets_documents and clean_documents:
+            return f"The required documents mentioned are {_natural_list(clean_documents, limit=6)}."
+        if question_targets_workflow and clean_workflow:
+            return f"The process described is {_natural_list(clean_workflow, limit=6)}."
+        if question_targets_conditions and clean_conditions:
+            return f"The main conditions mentioned are {_natural_list(clean_conditions, limit=6)}."
+        if question_targets_exceptions and clean_exceptions:
+            return f"The exceptions or exemptions mentioned are {_natural_list(clean_exceptions, limit=6)}."
+        if question_targets_rules and clean_rules:
+            return f"The main rules described are {_natural_list(clean_rules, limit=6)}."
 
         focused_chunk_answer = self._focused_chunk_answer(question, selected_chunks)
         if focused_chunk_answer:
             return focused_chunk_answer
 
-        table_chunks = [chunk for chunk in selected_chunks if bool(chunk.get("isTableRow"))]
-        table_bullets = self._chunk_bullets(table_chunks, limit=10)
-        if table_bullets:
-            return self._render_bullets(table_bullets, limit=10, clean_limit=420)
-
-        chunk_bullets = self._chunk_bullets(selected_chunks, limit=8)
-        if chunk_bullets:
-            return self._render_bullets(chunk_bullets, limit=8, clean_limit=420)
-
-        for section in answer_sections:
-            raw_bullets = self._bulletize_text(section.get("rawText", ""), limit=8)
-            if raw_bullets:
-                return self._render_bullets(raw_bullets, limit=8, clean_limit=420)
+        section_summaries = _unique(
+            [
+                *[_clean_evidence_item(section.get("summary", ""), 240) for section in answer_sections if _clean_evidence_item(section.get("summary", ""), 240)],
+                *[_clean_evidence_item(section.get("businessMeaning", ""), 220) for section in answer_sections if _clean_evidence_item(section.get("businessMeaning", ""), 220)],
+                *[_clean_evidence_item(section.get("businessExplanation", ""), 240) for section in answer_sections if _clean_evidence_item(section.get("businessExplanation", ""), 240)],
+            ]
+        )
+        evidence_sentences = self._evidence_sentences(question, selected_chunks, limit=3)
+        if section_summaries or evidence_sentences:
+            answer_parts = [*section_summaries[:2], *evidence_sentences[:1]]
+            return " ".join(_ensure_sentence(part) for part in answer_parts if part).strip()
 
         return MISSING_INFORMATION_MESSAGE
 
@@ -2199,17 +3099,7 @@ class ChatService:
         )
         if body == MISSING_INFORMATION_MESSAGE:
             return body
-        return "\n\n".join(
-            [
-                body,
-                self._source_block(
-                    document_name=str(source_payload.get("referencedPdf", "")),
-                    chapter=str(source_payload.get("sourceChapter", "")),
-                    section=str(source_payload.get("sourceSection", "")),
-                    source_pages=source_payload.get("sourcePages", []),
-                ),
-            ]
-        )
+        return body
 
     def _general_answer(
         self,
@@ -2246,35 +3136,37 @@ class ChatService:
         normalized_question = _normalize(question)
         summary_points = _unique(
             [
-                *[_first_sentence(section.get("summary", ""), 260) for section in answer_sections if section.get("summary")],
-                *[_first_sentence(section.get("businessMeaning", ""), 220) for section in answer_sections if section.get("businessMeaning")],
-                *[_first_sentence(section.get("businessExplanation", ""), 240) for section in answer_sections if section.get("businessExplanation")],
-                *[_first_sentence(chunk.get("text", ""), 240) for chunk in selected_chunks if chunk.get("text")],
+                *[_clean_evidence_item(_first_sentence(section.get("summary", ""), 260), 260) for section in answer_sections if section.get("summary")],
+                *[_clean_evidence_item(_first_sentence(section.get("businessMeaning", ""), 220), 220) for section in answer_sections if section.get("businessMeaning")],
+                *[_clean_evidence_item(_first_sentence(section.get("businessExplanation", ""), 240), 240) for section in answer_sections if section.get("businessExplanation")],
+                *self._evidence_sentences(question, selected_chunks, limit=2),
             ]
         )
         if not any(summary_points):
             return "I found related content in the selected document, but there is not enough extracted text to produce a grounded answer."
 
-        references = self._source_reference_lines(answer_sections)
         blocks: list[str] = []
         if _contains_any(normalized_question, WORKFLOW_PATTERNS) or plan.intent in {"Import Procedure", "Export Procedure"}:
-            blocks.append(
-                "Based on the selected document, this topic is explained across multiple sections rather than one exact heading."
-            )
-            blocks.append("Relevant guidance from the selected document:\n" + _bullet_lines(summary_points, limit=4))
+            blocks.append("This topic is explained across the selected document as a combined process.")
+            blocks.append(" ".join(_ensure_sentence(point) for point in summary_points[:3] if point))
             if workflow_steps:
-                blocks.append("Combined workflow:\n" + _numbered_lines(workflow_steps, limit=8))
+                clean_workflow = [_clean_evidence_item(step, 180) for step in workflow_steps if _clean_evidence_item(step, 180)]
+                if clean_workflow:
+                    blocks.append(f"The process steps are {_natural_list(clean_workflow, limit=6)}.")
             if condition_items:
-                blocks.append("Key requirements and checks:\n" + _bullet_lines(condition_items, limit=6))
+                clean_conditions = [_clean_evidence_item(item, 180) for item in condition_items if _clean_evidence_item(item, 180)]
+                if clean_conditions:
+                    blocks.append(f"The key requirements are {_natural_list(clean_conditions, limit=6)}.")
             if required_documents:
-                blocks.append("Related documents mentioned in the selected document:\n" + _bullet_lines(required_documents, limit=6))
+                clean_documents = [_clean_evidence_item(item, 160) for item in required_documents if _clean_evidence_item(item, 160)]
+                if clean_documents:
+                    blocks.append(f"The related documents mentioned are {_natural_list(clean_documents, limit=6)}.")
         else:
-            blocks.append("Based on the selected document:\n" + _bullet_lines(summary_points, limit=4))
+            blocks.append(" ".join(_ensure_sentence(point) for point in summary_points[:3] if point))
             if condition_items:
-                blocks.append("Key requirements:\n" + _bullet_lines(condition_items, limit=6))
-
-        if references:
-            blocks.append("Sources:\n" + "\n".join(references))
+                clean_conditions = [_clean_evidence_item(item, 180) for item in condition_items if _clean_evidence_item(item, 180)]
+                if clean_conditions:
+                    blocks.append(f"The key requirements are {_natural_list(clean_conditions, limit=6)}.")
         return "\n\n".join(block for block in blocks if block)
 
     def _source_payload(
@@ -2288,6 +3180,13 @@ class ChatService:
     ) -> dict[str, Any]:
         primary_section = answer_sections[0] if answer_sections else {}
         selected_chunks = selected_chunks or []
+        normalized_source_pages = sorted(
+            {
+                int(page)
+                for page in source_pages
+                if str(page).isdigit()
+            }
+        )
         source_heading = next(
             (
                 str(chunk.get("heading", "")).strip()
@@ -2299,10 +3198,11 @@ class ChatService:
         return {
             "sourcePdfs": source_pdfs,
             "referencedPdf": source_pdfs[0] if source_pdfs else str(primary_section.get("documentName", "")),
-            "sourcePages": [int(page) for page in source_pages if str(page).isdigit()],
+            "sourcePages": normalized_source_pages,
             "sourceChapter": relevant_chapters[0] if relevant_chapters else "",
             "sourceSection": relevant_sections[0] if relevant_sections else "",
             "sourceHeading": source_heading,
+            "sources": self._source_entries(answer_sections, selected_chunks),
         }
 
     def _extract_structured_response(
@@ -2394,7 +3294,9 @@ class ChatService:
             for section in answer_sections:
                 text = str(section.get("rawText", ""))
                 for match in re.finditer(r"\b\d{4,10}\b", text):
-                    snippet = _clean(text[max(0, match.start() - 60) : min(len(text), match.end() + 80)], 180)
+                    snippet = _clean_evidence_item(text[max(0, match.start() - 60) : min(len(text), match.end() + 80)], 180)
+                    if not snippet:
+                        continue
                     matches.append(f"{match.group(0)}: {snippet}")
             unique_matches: list[str] = []
             seen_matches: set[str] = set()
@@ -2565,14 +3467,11 @@ class ChatService:
             explicit_detail_request = True
             reference_lines = self._source_reference_lines(answer_sections)
             if reference_lines:
-                response_blocks.append("Sources:\n" + "\n".join(reference_lines))
+                response_blocks.append("The relevant information is grounded in the source section listed below.")
             elif relevant_sections:
-                source_summary = f"This answer is based on section {relevant_sections[0]}"
-                if source_pdfs:
-                    source_summary += f" in {source_pdfs[0]}"
-                response_blocks.append(_ensure_sentence(source_summary))
+                response_blocks.append("The relevant information is grounded in the source section listed below.")
             elif source_pdfs:
-                response_blocks.append(f"This answer is based on the selected PDF {source_pdfs[0]}.")
+                response_blocks.append("The relevant information is grounded in the selected uploaded document.")
 
         if response_blocks:
             return "\n\n".join(block for block in response_blocks if block), explicit_detail_request
@@ -2632,20 +3531,7 @@ class ChatService:
                 required_documents,
             )
             if structured != MISSING_INFORMATION_MESSAGE:
-                return (
-                    "\n\n".join(
-                        [
-                            structured,
-                            self._source_block(
-                                document_name=str(source_payload.get("referencedPdf", "")),
-                                chapter=str(source_payload.get("sourceChapter", "")),
-                                section=str(source_payload.get("sourceSection", "")),
-                                source_pages=source_payload.get("sourcePages", []),
-                            ),
-                        ]
-                    ),
-                    source_payload,
-                )
+                return structured, source_payload
             return structured, source_payload
         return (
             self._grounded_answer_text(
@@ -2662,14 +3548,286 @@ class ChatService:
             source_payload,
         )
 
-    def build_answer(self, question: str, ai_model: str = "", language: str = "English") -> dict[str, Any]:
+    def _is_follow_up_question(self, question: str) -> bool:
+        normalized_question = _normalize(question)
+        if not normalized_question:
+            return False
+        follow_up_markers = (
+            "and what about",
+            "based on that",
+            "continue",
+            "does it",
+            "for this",
+            "from that",
+            "how about",
+            "in that case",
+            "same for",
+            "that field",
+            "that section",
+            "that one",
+            "this field",
+            "this section",
+            "what about",
+            "what does that",
+            "what does this",
+            "what is the validation",
+            "which page",
+        )
+        if any(marker in normalized_question for marker in follow_up_markers):
+            return True
+        tokens = re.findall(r"\b[a-z0-9][a-z0-9/&._:-]*\b", normalized_question)
+        referential_tokens = {"it", "its", "that", "this", "they", "them", "those", "these", "same"}
+        return len(tokens) <= 8 and any(token in referential_tokens for token in tokens)
+
+    def _resolve_question(self, question: str, conversation_turns: list[dict[str, Any]]) -> str:
+        cleaned_question = " ".join((question or "").split()).strip()
+        if not cleaned_question or not conversation_turns or not self._is_follow_up_question(cleaned_question):
+            return cleaned_question
+
+        previous_turn = conversation_turns[-1]
+        previous_question = " ".join(str(previous_turn.get("question", "")).split()).strip()
+        metadata = previous_turn.get("metadata", {}) if isinstance(previous_turn.get("metadata"), dict) else {}
+        source_hints = _unique(
+            [
+                str(metadata.get("documentName", "")).strip(),
+                str(metadata.get("sourceChapter", "")).strip(),
+                str(metadata.get("sourceSection", "")).strip(),
+                str(metadata.get("title", "")).strip(),
+            ]
+        )
+        hint_text = " | ".join(hint for hint in source_hints if hint)
+        if not previous_question:
+            return cleaned_question
+        if hint_text:
+            return f"{cleaned_question}\n\nFollow-up context from the previous turn:\nQuestion: {previous_question}\nSource: {hint_text}"
+        return f"{cleaned_question}\n\nFollow-up context from the previous turn:\nQuestion: {previous_question}"
+
+    def _format_conversation_turns(self, conversation_turns: list[dict[str, Any]]) -> str:
+        if not conversation_turns:
+            return "None"
+        lines: list[str] = []
+        for turn in conversation_turns[-3:]:
+            question = " ".join(str(turn.get("question", "")).split()).strip()
+            answer = _clean(str(turn.get("answer", "")).strip(), 220)
+            metadata = turn.get("metadata", {}) if isinstance(turn.get("metadata"), dict) else {}
+            source = " | ".join(
+                value
+                for value in [
+                    str(metadata.get("documentName", "")).strip(),
+                    str(metadata.get("sourceSection", "")).strip(),
+                ]
+                if value
+            )
+            lines.append(f"- User: {question or 'Not available'}")
+            if answer:
+                lines.append(f"  Assistant: {answer}")
+            if source:
+                lines.append(f"  Source: {source}")
+        return "\n".join(lines) if lines else "None"
+
+    def _chunks_for_sections_from_index(self, chunks: list[dict[str, Any]], section_keys: set[str], limit: int = 10) -> list[dict[str, Any]]:
+        matches = [chunk for chunk in chunks if self._record_section_key(chunk) in section_keys]
+        matches.sort(
+            key=lambda item: (
+                0 if item.get("fieldNames") else 1,
+                int(bool(item.get("heading"))),
+                len(str(item.get("text", ""))),
+            ),
+            reverse=True,
+        )
+        return matches[:limit]
+
+    def _llm_context(
+        self,
+        *,
+        question: str,
+        resolved_question: str,
+        plan: RetrievalPlan,
+        answer_sections: list[dict[str, Any]],
+        selected_chunks: list[dict[str, Any]],
+        section_rules: list[dict[str, Any]],
+        section_conditions: list[dict[str, Any]],
+        section_workflows: list[dict[str, Any]],
+        section_examples: list[dict[str, Any]],
+        required_documents: list[str],
+        important_notes: list[str],
+        business_logic: list[str],
+        workflow_steps: list[str],
+        condition_items: list[str],
+        exception_items: list[str],
+        seed_answer: str,
+        source_payload: dict[str, Any],
+        conversation_turns: list[dict[str, Any]],
+        include_full_section_text: bool,
+    ) -> str:
+        source_lines: list[str] = []
+        for source in source_payload.get("sources", []):
+            pages = ", ".join(str(page) for page in source.get("pageNumbers", [])) or "Not available"
+            source_lines.append(
+                f'- Document: {source.get("documentName", "") or "Not available"} | Chapter: {source.get("chapter", "") or "Not available"} | '
+                f'Section: {source.get("section", "") or "Not available"} | Pages: {pages}'
+            )
+
+        section_blocks: list[str] = []
+        for section in answer_sections[:3]:
+            definition_lines = [
+                f'- {definition.get("term", "")}: {_clean(definition.get("definition", ""), 200)}'
+                for definition in section.get("definitions", [])[:4]
+                if definition.get("term") and definition.get("definition")
+            ]
+            rule_lines = [
+                f'- {_clean(rule.get("description", ""), 220)}'
+                for rule in section_rules
+                if self._record_section_key(rule) == self._section_record_key(section) and rule.get("description")
+            ][:5]
+            condition_lines = [
+                f'- {_clean(condition.get("text", ""), 220)}'
+                for condition in section_conditions
+                if self._record_section_key(condition) == self._section_record_key(section) and condition.get("text")
+            ][:5]
+            workflow_lines = [
+                f"- {step}"
+                for workflow in section_workflows
+                if self._section_key(workflow.get("section", ""), workflow.get("documentName", "")) == self._section_record_key(section)
+                for step in workflow.get("steps", [])[:6]
+            ][:6]
+            example_lines = [
+                f'- {_clean(example.get("text", ""), 220)}'
+                for example in section_examples
+                if self._record_section_key(example) == self._section_record_key(section) and example.get("text")
+            ][:3]
+            raw_text = _preserve_text(section.get("rawText", ""))
+            if not include_full_section_text:
+                raw_text = _clean(raw_text, 2200)
+            section_blocks.append(
+                "\n".join(
+                    [
+                        f'Document: {section.get("documentName", "")}',
+                        f'Chapter: {_chapter_label(section)}',
+                        f'Section: {_section_label(section)}',
+                        f'Pages: {", ".join(str(page) for page in section.get("sourcePages", [])) or "Not available"}',
+                        f'Summary: {_clean(section.get("summary", ""), 360)}',
+                        f'Business Meaning: {_clean(section.get("businessMeaning", ""), 320)}',
+                        f'Business Explanation: {_clean(section.get("businessExplanation", ""), 360)}',
+                        "Definitions:\n" + ("\n".join(definition_lines) if definition_lines else "- None"),
+                        "Notes:\n" + (_bullet_lines(section.get("notes", []), limit=5) or "- None"),
+                        "Validations:\n" + (_bullet_lines(section.get("validations", []), limit=6) or "- None"),
+                        "Required Documents:\n" + (_bullet_lines(section.get("requiredDocuments", []), limit=6) or "- None"),
+                        "Business Rules:\n" + ("\n".join(rule_lines) if rule_lines else "- None"),
+                        "Conditions:\n" + ("\n".join(condition_lines) if condition_lines else "- None"),
+                        "Workflow:\n" + ("\n".join(workflow_lines) if workflow_lines else "- None"),
+                        "Examples:\n" + ("\n".join(example_lines) if example_lines else "- None"),
+                        "Section Text:\n" + (raw_text or "Not available"),
+                    ]
+                )
+            )
+
+        chunk_blocks: list[str] = []
+        for chunk in selected_chunks[:8]:
+            field_names = ", ".join(str(field) for field in chunk.get("fieldNames", [])[:8]) or "Not available"
+            chunk_blocks.append(
+                "\n".join(
+                    [
+                        f'Chunk Id: {chunk.get("id", "")}',
+                        f'Document: {chunk.get("documentName", "")}',
+                        f'Section: {chunk.get("sectionId", "")}',
+                        f'Heading: {chunk.get("heading", "") or "Not available"}',
+                        f'Fields: {field_names}',
+                        f'Text: {_clean(_preserve_text(chunk.get("text", "")), 1200)}',
+                    ]
+                )
+            )
+
+        return "\n\n".join(
+            [
+                f"Original user question:\n{question}",
+                f"Resolved retrieval question:\n{resolved_question}",
+                f"Detected intent:\n{plan.intent} | Topic: {plan.topic}",
+                "Conversation memory:\n" + self._format_conversation_turns(conversation_turns),
+                "Retrieved sources:\n" + ("\n".join(source_lines) if source_lines else "None"),
+                "Helpful retrieval draft answer:\n" + (seed_answer or "None"),
+                "Workflow steps:\n" + (_bullet_lines(workflow_steps, limit=6) or "- None"),
+                "Conditions:\n" + (_bullet_lines(condition_items, limit=6) or "- None"),
+                "Exceptions:\n" + (_bullet_lines(exception_items, limit=6) or "- None"),
+                "Business logic:\n" + (_bullet_lines(business_logic, limit=6) or "- None"),
+                "Important notes:\n" + (_bullet_lines(important_notes, limit=8) or "- None"),
+                "Required documents:\n" + (_bullet_lines(required_documents, limit=6) or "- None"),
+                "Retrieved sections:\n\n" + ("\n\n---\n\n".join(section_blocks) if section_blocks else "None"),
+                "Retrieved chunks:\n\n" + ("\n\n---\n\n".join(chunk_blocks) if chunk_blocks else "None"),
+            ]
+        )
+
+    def _llm_system_prompt(self, language: str) -> str:
+        target_language = language if language in SUPPORTED_LANGUAGES else "English"
+        return "\n".join(
+            [
+                "You are DEKAI's answer generation layer in a retrieval-augmented system.",
+                "Use only the retrieved context you are given. Never use outside knowledge.",
+                f'If the answer is not supported by the retrieved context, reply exactly: "{MISSING_INFORMATION_MESSAGE}"',
+                "Do not guess. Do not hallucinate. Do not invent examples, rules, pages, section numbers, or business meaning.",
+                "If a requested detail is missing from the context, omit it instead of inventing it.",
+                "Keep the answer grounded in the retrieved documents and cite the source information only when present in the context.",
+                f"Answer in {target_language}. If the target language is English, use simple English.",
+                "When the context supports it, structure the answer with these headings in this order:",
+                "1. Simple Explanation",
+                "2. Business Meaning",
+                "3. Step-by-Step Explanation",
+                "4. Practical Example",
+                "5. Validation Notes",
+                "6. Source",
+            ]
+        )
+
+    def _provider_error_answer(
+        self,
+        *,
+        question: str,
+        plan: RetrievalPlan,
+        ai_model: str,
+        language: str,
+        message: str,
+        answer: dict[str, Any] | None = None,
+    ) -> dict[str, Any]:
+        payload = dict(answer or self._empty_answer(question, plan, ai_model=ai_model, language=language))
+        payload["directAnswer"] = message
+        payload["modelUsed"] = ai_model
+        payload["languageUsed"] = language
+        return payload
+
+    def _prepare_answer_bundle(
+        self,
+        question: str,
+        *,
+        ai_model: str = "",
+        language: str = "English",
+        user_email: str = "",
+        conversation_id: str = "",
+    ) -> dict[str, Any]:
+        retrieval_started = perf_counter()
         index = knowledge_engine_service.load_index()
         ready_documents = self._ready_documents(index)
         failed_documents = self._failed_documents()
-        failed_document_match = self._match_failed_document(question, failed_documents)
-        plan = retrieval_decision_service.detect_intent(question)
-        target_ready_document = self._match_ready_document(question, ready_documents)
+        conversation_turns = conversation_service.recent_turns(user_email, conversation_id)
+        resolved_question = self._resolve_question(question, conversation_turns)
+        failed_document_match = self._match_failed_document(resolved_question, failed_documents)
+        plan = retrieval_decision_service.detect_intent(resolved_question)
+        target_ready_document = self._match_ready_document(resolved_question, ready_documents)
         ready_document_count = len([document for document in index.get("documents", []) if str(document.get("status", "ready")) == "ready"])
+
+        def _skip(answer: dict[str, Any], decision: str, search_debug: dict[str, Any] | None = None, final_context_documents: list[str] | None = None) -> dict[str, Any]:
+            return {
+                "skipLlm": True,
+                "answer": answer,
+                "plan": plan,
+                "retrieval": [],
+                "selectedChunks": [],
+                "decision": decision,
+                "searchDebug": search_debug or {},
+                "finalContextDocuments": final_context_documents or answer.get("sourcePdfs", []),
+                "resolvedQuestion": resolved_question,
+                "conversationTurns": conversation_turns,
+                "retrievalTimeMs": round((perf_counter() - retrieval_started) * 1000, 2),
+            }
 
         if failed_document_match or (failed_documents and ready_document_count == 0):
             blocked_document = failed_document_match or failed_documents[0]
@@ -2688,18 +3846,11 @@ class ChatService:
             answer["title"] = blocked_document.get("name", "Processing failed")
             answer["sourcePdfs"] = [blocked_document.get("name", "")]
             answer["referencedPdf"] = blocked_document.get("name", "")
-            self._log_retrieval(
-                question=question,
-                plan=plan,
-                retrieval=[],
-                confidence_score=0.0,
-                selected_chunks=[],
-                decision="Blocked answer because the question targeted a failed document or no document is currently Knowledge Ready.",
-                final_prompt=f"Question: {question}\nBlocked document: {blocked_document.get('name', '')}",
-                llm_response=direct_answer,
+            return _skip(
+                answer,
+                "Blocked answer because the question targeted a failed document or no document is currently Knowledge Ready.",
                 final_context_documents=[str(blocked_document.get("name", "")).strip()],
             )
-            return answer
 
         if plan.needs_clarification:
             answer = self._empty_answer(
@@ -2710,53 +3861,80 @@ class ChatService:
                 ai_model=ai_model,
                 language=language,
             )
-            self._log_retrieval(
-                question=question,
-                plan=plan,
-                retrieval=[],
-                confidence_score=0.0,
-                selected_chunks=[],
-                decision="HS code intent detected without product description or existing code. Asked for clarification instead of searching unrelated sources.",
-                final_context_documents=[],
+            return _skip(
+                answer,
+                "HS code intent detected without product description or existing code. Asked for clarification instead of searching unrelated sources.",
             )
-            return answer
 
         current_ready_document = None
         allowed_document_names: list[str] = []
         retrieval: list[dict[str, Any]] = []
         search_debug: dict[str, Any] = {}
         selected_scope_label = "selected_document"
+        selected_document = None
+        document_selection_debug: dict[str, Any] = {"selectionMethod": "none", "rankedDocuments": []}
 
         current_document_name = getattr(self, "_current_document_name", "")
         if current_document_name:
             current_ready_document = self._find_ready_document_by_name(current_document_name, ready_documents)
 
-        selected_document, document_selection_debug = self._select_best_document(
-            question=question,
-            plan=plan,
-            ready_documents=ready_documents,
-            explicit_document=target_ready_document,
-            current_document=current_ready_document,
-        )
-        if selected_document:
-            selected_document_name = str(selected_document.get("name", "")).strip()
-            allowed_document_names = [selected_document_name] if selected_document_name else []
-            retrieval, search_debug = self._retrieve_grounding(
-                question,
-                plan,
-                scope_label=selected_scope_label,
-                target_document_name=selected_document_name,
-                document_names=allowed_document_names,
-                collection_filters=None,
-            )
+        if plan.intent == TRADE_NET_XML_FIELD_INTENT:
+            selected_scope_label = "trade_net_xml_field"
+            trade_net_documents = self._trade_net_ready_documents(ready_documents)
+            if current_ready_document and self._is_trade_net_document(str(current_ready_document.get("name", ""))):
+                selected_document = current_ready_document
+            elif trade_net_documents:
+                selected_document = trade_net_documents[0]
+            if selected_document:
+                selected_document_name = str(selected_document.get("name", "")).strip()
+                retrieval, search_debug, locked_document_name = self._retrieve_trade_net_field_grounding(
+                    resolved_question,
+                    plan,
+                    trade_net_document_names=[selected_document_name],
+                    scope_label=selected_scope_label,
+                )
+                effective_document_name = locked_document_name or selected_document_name
+                allowed_document_names = [effective_document_name] if effective_document_name else []
+                search_debug["selected_document"] = effective_document_name
+                document_selection_debug = {
+                    "selectionMethod": "trade_net_xml_lock",
+                    "rankedDocuments": [
+                        {
+                            "name": effective_document_name,
+                            "score": 99999.0,
+                            "reasons": ["trade_net_xml_field"],
+                        }
+                    ],
+                }
+            else:
+                document_selection_debug = {
+                    "selectionMethod": "trade_net_unavailable",
+                    "rankedDocuments": [],
+                }
         else:
-            search_debug = {}
+            selected_document, document_selection_debug = self._select_best_document(
+                question=resolved_question,
+                plan=plan,
+                ready_documents=ready_documents,
+                explicit_document=target_ready_document,
+                current_document=current_ready_document,
+            )
+            if selected_document:
+                selected_document_name = str(selected_document.get("name", "")).strip()
+                allowed_document_names = [selected_document_name] if selected_document_name else []
+                retrieval, search_debug = self._retrieve_grounding(
+                    resolved_question,
+                    plan,
+                    scope_label=selected_scope_label,
+                    target_document_name=selected_document_name,
+                    document_names=allowed_document_names,
+                    collection_filters=None,
+                )
 
-        if search_debug is not None:
-            search_debug["scope_label"] = selected_scope_label
-            search_debug["document_selection"] = document_selection_debug
-            if selected_document and str(selected_document.get("name", "")).strip():
-                search_debug["selected_document"] = str(selected_document.get("name", "")).strip()
+        search_debug["scope_label"] = selected_scope_label
+        search_debug["document_selection"] = document_selection_debug
+        if selected_document and str(selected_document.get("name", "")).strip():
+            search_debug["selected_document"] = str(selected_document.get("name", "")).strip()
 
         chapters = index.get("chapters", [])
         sections = index.get("sections", [])
@@ -2766,129 +3944,89 @@ class ChatService:
         workflows = index.get("workflows", [])
         chunks = index.get("chunks", [])
         examples = index.get("examples", [])
-        iec_definition_answer = self._iec_definition_answer(question, sections, allowed_document_names)
+
+        hierarchy_answer_payload = None
+        if plan.intent == "Section Request" or is_xml_field_query(resolved_question):
+            hierarchy_answer_payload = self._hierarchical_answer_payload(
+                resolved_question,
+                plan,
+                sections,
+                allowed_document_names=allowed_document_names,
+            )
+
+        iec_definition_payload = self._iec_definition_payload(resolved_question, sections, allowed_document_names)
         definition_answer_payload = self._definition_answer_payload(
-            question,
+            resolved_question,
             sections,
             definitions,
             retrieval,
             target_document_name=allowed_document_names[0] if allowed_document_names else "",
         )
-        document_identity_payload = self._document_identity_answer_payload(question, sections, allowed_document_names)
+        document_identity_payload = self._document_identity_answer_payload(resolved_question, sections, allowed_document_names)
 
-        if definition_answer_payload:
+        confidence_score = 0.0
+        answer_sections: list[dict[str, Any]] = []
+        selected_chunks: list[dict[str, Any]] = []
+        answer_title = ""
+        seed_answer = ""
+
+        if hierarchy_answer_payload:
+            section = hierarchy_answer_payload.get("section", {}) or {}
+            if section:
+                answer_sections = [section]
+                answer_title = str(hierarchy_answer_payload.get("title", "") or section.get("title", "")).strip()
+                seed_answer = str(hierarchy_answer_payload.get("directAnswer", "")).strip()
+                confidence_score = float(hierarchy_answer_payload.get("confidenceScore", 0.0))
+                selected_chunks = self._chunks_for_sections_from_index(chunks, {self._section_record_key(section)})
+        elif iec_definition_payload:
+            section = iec_definition_payload.get("section", {}) or {}
+            if section:
+                answer_sections = [section]
+                answer_title = str(section.get("title", "") or "IEC").strip()
+                seed_answer = str(iec_definition_payload.get("answer", "")).strip()
+                confidence_score = 0.96
+                selected_chunks = self._chunks_for_sections_from_index(chunks, {self._section_record_key(section)})
+        elif definition_answer_payload:
             section = definition_answer_payload.get("section", {}) or {}
-            answer = self._empty_answer(
-                question,
-                plan,
-                confidence_score=0.96,
-                direct_answer="",
-                business_explanation=f'Answered from the selected document {definition_answer_payload["documentName"]}.',
-                ai_model=ai_model,
-                language=language,
-            )
-            answer["title"] = str(section.get("title", "") or definition_answer_payload["term"])
-            answer["sectionId"] = str(section.get("id", ""))
-            answer["chapterNumber"] = str(section.get("chapterNumber", ""))
-            answer["sourcePdfs"] = [definition_answer_payload["documentName"]] if definition_answer_payload.get("documentName") else []
-            answer["referencedPdf"] = str(definition_answer_payload.get("documentName", ""))
-            answer["sourcePages"] = definition_answer_payload.get("sourcePages", [])
-            answer["sourceChapter"] = _chapter_label(section) if section else ""
-            answer["sourceSection"] = _section_label(section) if section else ""
-            answer["relevantSections"] = [_section_label(section)] if section else []
-            answer["relevantChapters"] = [_chapter_label(section)] if section else []
-            answer["directAnswer"] = "\n\n".join(
-                [
-                    f'{definition_answer_payload["term"]}: {definition_answer_payload["definition"]}',
-                    self._source_block(
-                        document_name=str(answer.get("referencedPdf", "")),
-                        chapter=str(answer.get("sourceChapter", "")),
-                        section=str(answer.get("sourceSection", "")),
-                        source_pages=answer.get("sourcePages", []),
-                    ),
-                ]
-            )
-            self._log_retrieval(
-                question=question,
-                plan=plan,
-                retrieval=retrieval,
-                confidence_score=0.96,
-                selected_chunks=[],
-                decision=f'Returned exact definition for term {definition_answer_payload["term"]} from the selected document.',
-                debug=search_debug,
-                llm_response=answer["directAnswer"],
-                final_context_documents=[str(definition_answer_payload.get("documentName", "")).strip()],
-            )
-            return answer
-
-        if document_identity_payload:
+            if section:
+                answer_sections = [section]
+                answer_title = str(section.get("title", "") or definition_answer_payload.get("term", "")).strip()
+                seed_answer = f'{definition_answer_payload.get("term", "")}: {definition_answer_payload.get("definition", "")}'.strip()
+                confidence_score = 0.96
+                selected_chunks = self._chunks_for_sections_from_index(chunks, {self._section_record_key(section)})
+        elif document_identity_payload:
             section = document_identity_payload.get("section", {}) or {}
-            answer = self._empty_answer(
-                question,
-                plan,
-                confidence_score=0.92,
-                direct_answer="",
-                business_explanation=f'Answered from the selected document {document_identity_payload.get("documentName", "")}.',
-                ai_model=ai_model,
-                language=language,
-            )
-            answer["title"] = str(section.get("title", "") or document_identity_payload.get("documentName", ""))
-            answer["sectionId"] = str(section.get("id", ""))
-            answer["chapterNumber"] = str(section.get("chapterNumber", ""))
-            answer["sourcePdfs"] = [str(document_identity_payload.get("documentName", ""))] if document_identity_payload.get("documentName") else []
-            answer["referencedPdf"] = str(document_identity_payload.get("documentName", ""))
-            answer["sourcePages"] = document_identity_payload.get("sourcePages", [])
-            answer["sourceChapter"] = _chapter_label(section) if section else ""
-            answer["sourceSection"] = _section_label(section) if section else ""
-            answer["sourceHeading"] = ""
-            answer["relevantSections"] = [_section_label(section)] if section else []
-            answer["relevantChapters"] = [_chapter_label(section)] if section else []
-            answer["directAnswer"] = "\n\n".join(
-                [
-                    str(document_identity_payload.get("answer", "")).strip(),
-                    self._source_block(
-                        document_name=str(answer.get("referencedPdf", "")),
-                        chapter=str(answer.get("sourceChapter", "")),
-                        section=str(answer.get("sourceSection", "")),
-                        source_pages=answer.get("sourcePages", []),
-                    ),
-                ]
-            )
-            self._log_retrieval(
-                question=question,
-                plan=plan,
-                retrieval=retrieval,
-                confidence_score=0.92,
-                selected_chunks=[],
-                decision=f'Returned document identity answer for {document_identity_payload.get("documentName", "")} from the selected document introduction/definition path.',
-                debug=search_debug,
-                llm_response=answer["directAnswer"],
-                final_context_documents=[str(document_identity_payload.get("documentName", "")).strip()],
-            )
-            return answer
+            if section:
+                answer_sections = [section]
+                answer_title = str(section.get("title", "") or document_identity_payload.get("documentName", "")).strip()
+                seed_answer = str(document_identity_payload.get("answer", "")).strip()
+                confidence_score = 0.92
+                selected_chunks = self._chunks_for_sections_from_index(chunks, {self._section_record_key(section)})
 
-        full_content_request = self._is_full_content_request(question, plan)
-        answer_sections, confidence_score = self._pick_sections(retrieval, sections, plan)
-        if full_content_request:
-            full_content_sections = self._full_content_sections(question, plan, retrieval, sections, allowed_document_names)
-            if full_content_sections:
-                answer_sections = full_content_sections
-        if not answer_sections and plan.user_intent in {
-            "Data Extraction",
-            "Table Extraction",
-            "XML Extraction",
-            "JSON Extraction",
-            "PDF Parsing",
-            "Comparison",
-            "Summarization",
-            "Search",
-            "Information Retrieval",
-            "Document Analysis",
-            "Report Generation",
-        }:
-            answer_sections = self._fallback_sections(retrieval, sections, plan, allowed_document_names)
-        if answer_sections and not self._has_grounded_evidence(question, retrieval, answer_sections):
-            answer_sections = []
+        full_content_request = self._is_full_content_request(resolved_question, plan)
+        if not answer_sections:
+            answer_sections, confidence_score = self._pick_sections(retrieval, sections, plan)
+            if full_content_request:
+                full_content_sections = self._full_content_sections(resolved_question, plan, retrieval, sections, allowed_document_names)
+                if full_content_sections:
+                    answer_sections = full_content_sections
+            if not answer_sections and plan.user_intent in {
+                "Data Extraction",
+                "Table Extraction",
+                "XML Extraction",
+                "JSON Extraction",
+                "PDF Parsing",
+                "Comparison",
+                "Summarization",
+                "Search",
+                "Information Retrieval",
+                "Document Analysis",
+                "Report Generation",
+            }:
+                answer_sections = self._fallback_sections(retrieval, sections, plan, allowed_document_names)
+            if answer_sections and not self._has_grounded_evidence(resolved_question, retrieval, answer_sections):
+                answer_sections = []
+
         if not answer_sections:
             answer = self._empty_answer(
                 question,
@@ -2898,24 +4036,22 @@ class ChatService:
                 language=language,
                 direct_answer=MISSING_INFORMATION_MESSAGE,
             )
-            self._log_retrieval(
-                question=question,
-                plan=plan,
-                retrieval=retrieval,
-                confidence_score=confidence_score,
-                selected_chunks=[],
-                decision="Rejected answer because the selected document did not contain a sufficiently grounded matching section.",
-                debug=search_debug,
-                final_prompt=f"Question: {question}\nSelected document: {', '.join(allowed_document_names) or 'none'}\nSelected scope: {selected_scope_label}",
-                llm_response=answer["directAnswer"],
+            answer["questionUnderstood"] = plan.question_understood
+            return _skip(
+                answer,
+                "Rejected answer because the selected document did not contain a sufficiently grounded matching section.",
+                search_debug=search_debug,
                 final_context_documents=allowed_document_names,
             )
-            return answer
 
         primary_section = answer_sections[0]
         section_keys = {self._section_record_key(section) for section in answer_sections if self._section_record_key(section)}
-        selected_chunks = self._section_chunks(retrieval, chunks, section_keys)
-        heading_target_chunk = self._best_heading_chunk(question, selected_chunks)
+        if not selected_chunks:
+            selected_chunks = self._section_chunks(retrieval, chunks, section_keys)
+        if not selected_chunks:
+            selected_chunks = self._chunks_for_sections_from_index(chunks, section_keys)
+
+        heading_target_chunk = self._best_heading_chunk(resolved_question, selected_chunks)
         if heading_target_chunk:
             heading_section_key = self._record_section_key(heading_target_chunk)
             matching_heading_section = next(
@@ -2931,6 +4067,8 @@ class ChatService:
                     for chunk in selected_chunks
                     if self._record_section_key(chunk) == heading_section_key
                 ]
+                if plan.intent == TRADE_NET_XML_FIELD_INTENT:
+                    selected_chunks = [heading_target_chunk]
 
         section_rules = [rule for rule in rules if self._record_section_key(rule) in section_keys][:8]
         section_conditions = [condition for condition in conditions if self._record_section_key(condition) in section_keys][:8]
@@ -2945,14 +4083,16 @@ class ChatService:
         relevant_sections = _unique([_section_label(section) for section in answer_sections]) or list(plan.likely_sections)
         source_pdfs = _unique([str(section.get("documentName", "")) for section in answer_sections] + [str(chunk.get("documentName", "")) for chunk in selected_chunks])
         source_pages = _unique([str(page) for section in answer_sections for page in section.get("sourcePages", [])] + [str(page) for chunk in selected_chunks for page in chunk.get("sourcePages", [])])
+        if hierarchy_answer_payload and plan.intent == TRADE_NET_XML_FIELD_INTENT and hierarchy_answer_payload.get("sourcePages"):
+            source_pages = _unique([str(page) for page in hierarchy_answer_payload.get("sourcePages", []) if str(page).strip()])
 
-        definitions = []
+        definitions_text = []
         for section in answer_sections:
             for definition in section.get("definitions", [])[:4]:
                 term = str(definition.get("term", "")).strip()
                 meaning = str(definition.get("definition", "")).strip()
                 if term and meaning:
-                    definitions.append(f"{term}: {_clean(meaning, 180)}")
+                    definitions_text.append(f"{term}: {_clean(meaning, 180)}")
 
         business_logic = _unique(
             [
@@ -2960,39 +4100,34 @@ class ChatService:
                 *[_clean(validation, 420) for section in answer_sections for validation in section.get("validations", [])[:3]],
             ]
         )[:6]
-
         workflow_steps = _unique(
             [
                 *[step for workflow in section_workflows for step in workflow.get("steps", [])[:6]],
                 *[step for section in answer_sections for step in section.get("workflow", [])[:6]],
             ]
         )[:6]
-
         condition_items = _unique(
             [
                 *[_clean(condition.get("text", ""), 420) for condition in section_conditions if condition.get("text")],
                 *[_clean(rule.get("condition", ""), 420) for rule in section_rules if rule.get("condition")],
             ]
         )[:6]
-
         exception_items = _unique(
             [
                 *[_clean(rule.get("exception", ""), 420) for rule in section_rules if rule.get("exception")],
                 *[_clean(exception, 420) for section in answer_sections for exception in section.get("exceptions", [])[:4]],
             ]
         )[:6]
-
         required_documents = _unique(
             [
                 *[str(document) for section in answer_sections for document in section.get("requiredDocuments", [])],
                 *[str(document) for section in answer_sections for document in section.get("documents", [])],
             ]
         )[:6]
-
         important_notes = _unique(
             [
                 *[_clean(note, 220) for section in answer_sections for note in section.get("notes", [])[:5]],
-                *definitions[:3],
+                *definitions_text[:3],
                 *[
                     _clean(" | ".join(str(cell) for cell in row), 220)
                     for section in answer_sections
@@ -3002,40 +4137,6 @@ class ChatService:
                 *[_clean(authority, 180) for section in answer_sections for authority in section.get("authorities", [])[:3]],
             ]
         )[:8]
-        supporting_text = _unique(
-            [
-                *[
-                    f'{_section_reference(next((section for section in answer_sections if self._section_record_key(section) == self._record_section_key(chunk)), primary_section))}\n{_clean(str(chunk.get("text", "")), 260)}'
-                    for chunk in selected_chunks
-                    if chunk.get("text")
-                ],
-                *[
-                    f"{_section_reference(section)}\n{_clean(str(section.get('summary', '')), 220)}"
-                    for section in answer_sections
-                    if section.get("summary")
-                ],
-                *[
-                    f"{_section_reference(section)}\n{_clean(str(section.get('businessExplanation', '')), 220)}"
-                    for section in answer_sections
-                    if section.get("businessExplanation")
-                ],
-            ]
-        )[:3]
-
-        direct_answer_parts = [
-            _clean(primary_section.get("summary", ""), 220),
-            _clean(primary_section.get("businessMeaning", ""), 220),
-        ]
-        if selected_chunks:
-            direct_answer_parts.append(_clean(" ".join(str(chunk.get("text", "")) for chunk in selected_chunks), 260))
-
-        business_explanation_parts = _unique(
-            [
-                *[_clean(section.get("businessExplanation", ""), 220) for section in answer_sections if section.get("businessExplanation")],
-                *definitions[:2],
-            ]
-        )[:4]
-
         related_sections = _unique(
             [
                 *[
@@ -3047,28 +4148,36 @@ class ChatService:
             ]
         )[:5]
 
-        answer_text, source_payload = self._intent_response(
-            question=question,
-            plan=plan,
-            retrieval=retrieval,
+        source_payload = self._source_payload(
             answer_sections=answer_sections,
-            selected_chunks=selected_chunks,
-            chapters=chapters,
-            workflow_steps=workflow_steps,
-            condition_items=condition_items,
-            exception_items=exception_items,
-            business_logic=business_logic,
-            required_documents=required_documents,
-            section_examples=section_examples,
-            source_pdfs=source_pdfs,
-            source_pages=source_pages,
             relevant_chapters=relevant_chapters,
             relevant_sections=relevant_sections,
+            source_pdfs=source_pdfs,
+            source_pages=source_pages,
+            selected_chunks=selected_chunks,
         )
-        if iec_definition_answer:
-            answer_text = iec_definition_answer
+        if not seed_answer:
+            seed_answer, source_payload = self._intent_response(
+                question=resolved_question,
+                plan=plan,
+                retrieval=retrieval,
+                answer_sections=answer_sections,
+                selected_chunks=selected_chunks,
+                chapters=chapters,
+                workflow_steps=workflow_steps,
+                condition_items=condition_items,
+                exception_items=exception_items,
+                business_logic=business_logic,
+                required_documents=required_documents,
+                section_examples=section_examples,
+                source_pdfs=source_pdfs,
+                source_pages=source_pages,
+                relevant_chapters=relevant_chapters,
+                relevant_sections=relevant_sections,
+            )
 
-        answer_title = primary_section["title"]
+        if not answer_title:
+            answer_title = primary_section["title"]
         if plan.intent in {"Import Procedure", "Export Procedure"}:
             answer_title = plan.topic
         if full_content_request and plan.chapter_filters and not plan.section_filters:
@@ -3077,20 +4186,21 @@ class ChatService:
             answer_title = f'Chapter {chapter_number}'
             if chapter and chapter.get("chapter_title"):
                 answer_title = f'{answer_title} - {chapter.get("chapter_title", "")}'
+        search_debug["selected_section"] = _section_label(primary_section)
 
         answer = {
             "question": question,
-            "questionUnderstood": plan.question_understood,
+            "questionUnderstood": resolved_question,
             "title": answer_title,
             "sectionId": primary_section["id"],
             "chapterNumber": primary_section["chapterNumber"],
-            "detectedIntent": plan.user_intent,
+            "detectedIntent": plan.intent,
             "detectedTopic": plan.topic,
             "knowledgeSourcesUsed": list(plan.knowledge_sources),
             "confidenceScore": round(confidence_score, 2),
             "relevantChapters": relevant_chapters,
             "relevantSections": relevant_sections,
-            "directAnswer": answer_text,
+            "directAnswer": seed_answer,
             "businessExplanation": "",
             "businessLogic": business_logic,
             "workflow": workflow_steps,
@@ -3107,41 +4217,305 @@ class ChatService:
             **source_payload,
         }
 
-        final_prompt = "\n".join(
-            [
-                f"Question: {question}",
-                f"Detected intent: {search_debug.get('detected_intent', plan.intent)}",
-                f"Detected entities: {', '.join(search_debug.get('detected_entities', []))}",
-                f"Selected scope: {selected_scope_label}",
-                f"Selected sections: {', '.join(relevant_sections)}",
-                f"Selected chunks: {', '.join(str(chunk.get('id', '')) for chunk in selected_chunks[:3])}",
-            ]
+        llm_context = self._llm_context(
+            question=question,
+            resolved_question=resolved_question,
+            plan=plan,
+            answer_sections=answer_sections,
+            selected_chunks=selected_chunks,
+            section_rules=section_rules,
+            section_conditions=section_conditions,
+            section_workflows=section_workflows,
+            section_examples=section_examples,
+            required_documents=required_documents,
+            important_notes=important_notes,
+            business_logic=business_logic,
+            workflow_steps=workflow_steps,
+            condition_items=condition_items,
+            exception_items=exception_items,
+            seed_answer=seed_answer,
+            source_payload=source_payload,
+            conversation_turns=conversation_turns,
+            include_full_section_text=full_content_request or plan.intent == "Section Request" or is_xml_field_query(resolved_question),
         )
+
+        return {
+            "skipLlm": False,
+            "answer": answer,
+            "plan": plan,
+            "retrieval": retrieval,
+            "selectedChunks": selected_chunks,
+            "decision": "Accepted the relevant section(s) after dynamic document selection, in-document retrieval, source validation, and LLM-ready context construction.",
+            "searchDebug": search_debug,
+            "finalContextDocuments": source_pdfs,
+            "resolvedQuestion": resolved_question,
+            "conversationTurns": conversation_turns,
+            "llmContext": llm_context,
+            "retrievalTimeMs": round((perf_counter() - retrieval_started) * 1000, 2),
+        }
+
+    def build_answer(
+        self,
+        question: str,
+        ai_model: str = "",
+        language: str = "English",
+        user_email: str = "",
+        conversation_id: str = "",
+    ) -> dict[str, Any]:
+        bundle = self._prepare_answer_bundle(
+            question,
+            ai_model=ai_model,
+            language=language,
+            user_email=user_email,
+            conversation_id=conversation_id,
+        )
+        answer = bundle["answer"]
+        plan = bundle["plan"]
+        document_sync = self._attach_document_sync(
+            answer,
+            bundle,
+            requested_document_name=getattr(self, "_current_document_name", ""),
+        )
+
+        if bundle["skipLlm"]:
+            answer["telemetry"] = {
+                "provider": "none",
+                "displayModel": ai_model,
+                "apiModel": "",
+                "retrievalTimeMs": bundle["retrievalTimeMs"],
+                "llmResponseTimeMs": 0.0,
+                "promptTokens": None,
+                "completionTokens": None,
+                "totalTokens": None,
+                "totalCostUsd": None,
+            }
+            self._log_retrieval(
+                question=question,
+                plan=plan,
+                retrieval=bundle["retrieval"],
+                confidence_score=float(answer.get("confidenceScore", 0.0)),
+                selected_chunks=bundle["selectedChunks"],
+                decision=bundle["decision"],
+                debug=bundle["searchDebug"],
+                final_prompt="",
+                llm_response=answer["directAnswer"],
+                final_context_documents=bundle["finalContextDocuments"],
+                document_sync=document_sync,
+            )
+            self._last_trace["telemetry"] = answer["telemetry"]
+            return answer
+
+        llm_started = perf_counter()
+        try:
+            result = llm_service.generate(
+                display_model=ai_model,
+                system_prompt=self._llm_system_prompt(language),
+                user_prompt=bundle["llmContext"],
+            )
+        except LLMConfigurationError as exc:
+            logger.warning("dekai_llm_configuration_error %s", str(exc))
+            answer = self._provider_error_answer(
+                question=question,
+                plan=plan,
+                ai_model=ai_model,
+                language=language,
+                message=str(exc),
+                answer=answer,
+            )
+            answer["telemetry"] = {
+                "provider": "configuration_error",
+                "displayModel": ai_model,
+                "apiModel": "",
+                "retrievalTimeMs": bundle["retrievalTimeMs"],
+                "llmResponseTimeMs": round((perf_counter() - llm_started) * 1000, 2),
+                "promptTokens": None,
+                "completionTokens": None,
+                "totalTokens": None,
+                "totalCostUsd": None,
+            }
+        else:
+            answer["directAnswer"] = result.text or MISSING_INFORMATION_MESSAGE
+            answer["modelUsed"] = result.display_model
+            answer["telemetry"] = {
+                **result.telemetry(),
+                "retrievalTimeMs": bundle["retrievalTimeMs"],
+                "llmResponseTimeMs": round((perf_counter() - llm_started) * 1000, 2),
+            }
+            conversation_service.append_turn(
+                user_email=user_email,
+                conversation_id=conversation_id,
+                question=question,
+                answer=answer["directAnswer"],
+                metadata={
+                    "documentName": answer.get("referencedPdf", ""),
+                    "sourceChapter": answer.get("sourceChapter", ""),
+                    "sourceSection": answer.get("sourceSection", ""),
+                    "title": answer.get("title", ""),
+                },
+            )
+
         self._log_retrieval(
             question=question,
             plan=plan,
-            retrieval=retrieval,
-            confidence_score=confidence_score,
-            selected_chunks=selected_chunks,
-            decision="Accepted the relevant section(s) after dynamic document selection, in-document retrieval, source validation, and grounded answer generation.",
-            debug=search_debug,
-            final_prompt=final_prompt,
+            retrieval=bundle["retrieval"],
+            confidence_score=float(answer.get("confidenceScore", 0.0)),
+            selected_chunks=bundle["selectedChunks"],
+            decision=bundle["decision"],
+            debug=bundle["searchDebug"],
+            final_prompt=bundle.get("llmContext", ""),
             llm_response=answer["directAnswer"],
-            final_context_documents=source_pdfs,
+            final_context_documents=bundle["finalContextDocuments"],
+            document_sync=document_sync,
         )
+        self._last_trace["telemetry"] = answer.get("telemetry", {})
         return answer
 
-    def stream_events(self, question: str, ai_model: str = "", language: str = "English", current_document_name: str = "") -> list[str]:
+    def stream_events(
+        self,
+        question: str,
+        ai_model: str = "",
+        language: str = "English",
+        current_document_name: str = "",
+        user_email: str = "",
+        conversation_id: str = "",
+    ):
         self._current_document_name = current_document_name
-        answer = self.build_answer(question, ai_model=ai_model, language=language)
-        if hasattr(self, "_current_document_name"):
-            delattr(self, "_current_document_name")
-        direct_answer = answer["directAnswer"]
-        chunks = [direct_answer[index : index + 18] for index in range(0, len(direct_answer), 18)]
-        events = [json.dumps({"type": "start"})]
-        events.extend(json.dumps({"type": "delta", "text": chunk}) for chunk in chunks)
-        events.append(json.dumps({"type": "complete", "answer": answer}))
-        return events
+        try:
+            bundle = self._prepare_answer_bundle(
+                question,
+                ai_model=ai_model,
+                language=language,
+                user_email=user_email,
+                conversation_id=conversation_id,
+            )
+        finally:
+            if hasattr(self, "_current_document_name"):
+                delattr(self, "_current_document_name")
+
+        answer = bundle["answer"]
+        plan = bundle["plan"]
+        document_sync = self._attach_document_sync(
+            answer,
+            bundle,
+            requested_document_name=current_document_name,
+        )
+        yield json.dumps({"type": "start", "documentSync": document_sync})
+
+        if bundle["skipLlm"]:
+            answer["telemetry"] = {
+                "provider": "none",
+                "displayModel": ai_model,
+                "apiModel": "",
+                "retrievalTimeMs": bundle["retrievalTimeMs"],
+                "llmResponseTimeMs": 0.0,
+                "promptTokens": None,
+                "completionTokens": None,
+                "totalTokens": None,
+                "totalCostUsd": None,
+            }
+            direct_answer = answer["directAnswer"]
+            for index in range(0, len(direct_answer), 24):
+                yield json.dumps({"type": "delta", "text": direct_answer[index : index + 24]})
+            self._log_retrieval(
+                question=question,
+                plan=plan,
+                retrieval=bundle["retrieval"],
+                confidence_score=float(answer.get("confidenceScore", 0.0)),
+                selected_chunks=bundle["selectedChunks"],
+                decision=bundle["decision"],
+                debug=bundle["searchDebug"],
+                final_prompt="",
+                llm_response=answer["directAnswer"],
+                final_context_documents=bundle["finalContextDocuments"],
+                document_sync=document_sync,
+            )
+            self._last_trace["telemetry"] = answer["telemetry"]
+            yield json.dumps({"type": "complete", "answer": answer})
+            return
+
+        llm_started = perf_counter()
+        try:
+            final_result = None
+            for event in llm_service.stream(
+                display_model=ai_model,
+                system_prompt=self._llm_system_prompt(language),
+                user_prompt=bundle["llmContext"],
+            ):
+                if event["type"] == "delta":
+                    yield json.dumps({"type": "delta", "text": event["text"]})
+                    continue
+                final_result = event["result"]
+        except LLMConfigurationError as exc:
+            logger.warning("dekai_llm_configuration_error %s", str(exc))
+            answer = self._provider_error_answer(
+                question=question,
+                plan=plan,
+                ai_model=ai_model,
+                language=language,
+                message=str(exc),
+                answer=answer,
+            )
+            answer["telemetry"] = {
+                "provider": "configuration_error",
+                "displayModel": ai_model,
+                "apiModel": "",
+                "retrievalTimeMs": bundle["retrievalTimeMs"],
+                "llmResponseTimeMs": round((perf_counter() - llm_started) * 1000, 2),
+                "promptTokens": None,
+                "completionTokens": None,
+                "totalTokens": None,
+                "totalCostUsd": None,
+            }
+        else:
+            if final_result is None:
+                answer["directAnswer"] = MISSING_INFORMATION_MESSAGE
+                answer["telemetry"] = {
+                    "provider": "unknown",
+                    "displayModel": ai_model,
+                    "apiModel": "",
+                    "retrievalTimeMs": bundle["retrievalTimeMs"],
+                    "llmResponseTimeMs": round((perf_counter() - llm_started) * 1000, 2),
+                    "promptTokens": None,
+                    "completionTokens": None,
+                    "totalTokens": None,
+                    "totalCostUsd": None,
+                }
+            else:
+                answer["directAnswer"] = final_result.text or MISSING_INFORMATION_MESSAGE
+                answer["modelUsed"] = final_result.display_model
+                answer["telemetry"] = {
+                    **final_result.telemetry(),
+                    "retrievalTimeMs": bundle["retrievalTimeMs"],
+                    "llmResponseTimeMs": round((perf_counter() - llm_started) * 1000, 2),
+                }
+                conversation_service.append_turn(
+                    user_email=user_email,
+                    conversation_id=conversation_id,
+                    question=question,
+                    answer=answer["directAnswer"],
+                    metadata={
+                        "documentName": answer.get("referencedPdf", ""),
+                        "sourceChapter": answer.get("sourceChapter", ""),
+                        "sourceSection": answer.get("sourceSection", ""),
+                        "title": answer.get("title", ""),
+                    },
+                )
+
+        self._log_retrieval(
+            question=question,
+            plan=plan,
+            retrieval=bundle["retrieval"],
+            confidence_score=float(answer.get("confidenceScore", 0.0)),
+            selected_chunks=bundle["selectedChunks"],
+            decision=bundle["decision"],
+            debug=bundle["searchDebug"],
+            final_prompt=bundle.get("llmContext", ""),
+            llm_response=answer["directAnswer"],
+            final_context_documents=bundle["finalContextDocuments"],
+            document_sync=document_sync,
+        )
+        self._last_trace["telemetry"] = answer.get("telemetry", {})
+        yield json.dumps({"type": "complete", "answer": answer})
 
 
 chat_service = ChatService()
