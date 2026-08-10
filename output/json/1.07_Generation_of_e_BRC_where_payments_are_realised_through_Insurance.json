@@ -86,6 +86,89 @@
     "Verify Document"
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "1.07::section::0::generation-of-e-brc-where-payments-are-realised-",
+      "type": "section",
+      "title": "Generation of e BRC where payments are realised through Insurance",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency. RA, after satisfying itself of the bona fide of the payment, will obtain approval\nof EG&TF Division, DGFT Hqrs and then RA will upload the value (in lieu of e BRC\nvalue) in EDI system of DGFT for processing of the case.\n(b) If the proof of payment issued by the Insurance Agency mentions claim value both\nin foreign exchange and INR, RA will use the foreign exchange value for processing. If\nthe claim value is mentioned only in equivalent INR, RA will convert this INR value in\nequivalent US$ using the exchange rate (published by CBIC) applicable on the date of\nsettlement of insurance claim.\npg. 7\npg. 7\n(i) DGFT Trade facilitation Mobile application\nA DGFT Trade Facilitation Mobile App is available for information on Trade Statistics,\nFTP Schemes and status of applications submitted for both Android and i OS.\n(j) Facility to verify the documents/certificate issued through DGFT Portal\nDigitally issued e-authorisations/e-certificates through DGFT Portal can be verified at\nDGFT website under the link > Services > Verify Document.\n1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency. RA, after satisfying itself of the bona fide of the payment, will obtain approval\nof EG&TF Division, DGFT Hqrs and then RA will upload the value (in lieu of e BRC\nvalue) in EDI system of DGFT for processing of the case.\n(b) If the proof of payment issued by the Insurance Agency mentions claim value both\nin foreign exchange and INR, RA will use the foreign exchange value for processing. If\nthe claim value is mentioned only in equivalent INR, RA will convert this INR value in\nequivalent US$ using the exchange rate (published by CBIC) applicable on the date of\nsettlement of insurance claim.\nSTATUS HOLDER CERTIFICATION",
+      "parentId": "",
+      "sectionId": "1.07",
+      "sectionTitle": "Generation of e BRC where payments are realised through Insurance",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 32,
+      "searchAliases": [
+        "Generation of e BRC where payments are realised through Insurance",
+        "GenerationofeBRCwherepaymentsarerealisedthroughInsurance"
+      ],
+      "childIds": [
+        "1.07::validation::1::validation-rules",
+        "1.07::business_rule::2::generation-of-e-brc-where-payments-are-realised-"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 32
+    },
+    {
+      "id": "1.07::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(j) Facility to verify the documents/certificate issued through DGFT Portal\nDigitally issued e-authorisations/e-certificates through DGFT Portal can be verified at\nDGFT website under the link > Services > Verify Document.",
+      "parentId": "1.07::section::0::generation-of-e-brc-where-payments-are-realised-",
+      "sectionId": "1.07",
+      "sectionTitle": "Generation of e BRC where payments are realised through Insurance",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "1.07::business_rule::2::generation-of-e-brc-where-payments-are-realised-",
+      "type": "business_rule",
+      "title": "Generation of e BRC where payments are realised through Insurance",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "parentId": "1.07::section::0::generation-of-e-brc-where-payments-are-realised-",
+      "sectionId": "1.07",
+      "sectionTitle": "Generation of e BRC where payments are realised through Insurance",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Generation of e BRC where payments are realised through Insurance",
+        "GenerationofeBRCwherepaymentsarerealisedthroughInsurance"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "RA",
     "DGFT",

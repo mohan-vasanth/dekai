@@ -30,6 +30,62 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "5::section::0::representative-of-federation-of-indian-exporter-",
+      "type": "section",
+      "title": "Representative of Federation of Indian Exporter Organisation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5. Representative of Federation of Indian Exporter Organisation\n(FIEO)/ and OR Export Promotion Council/Commodity Boards:\nMember",
+      "parentId": "",
+      "sectionId": "5",
+      "sectionTitle": "Representative of Federation of Indian Exporter Organisation",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Representative of Federation of Indian Exporter Organisation",
+        "RepresentativeofFederationofIndianExporterOrganisation"
+      ],
+      "childIds": [
+        "5::business_rule::1::representative-of-federation-of-indian-exporter-"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "5::business_rule::1::representative-of-federation-of-indian-exporter-",
+      "type": "business_rule",
+      "title": "Representative of Federation of Indian Exporter Organisation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5. Representative of Federation of Indian Exporter Organisation\n(FIEO)/ and OR Export Promotion Council/Commodity Boards:\nMember",
+      "parentId": "5::section::0::representative-of-federation-of-indian-exporter-",
+      "sectionId": "5",
+      "sectionTitle": "Representative of Federation of Indian Exporter Organisation",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Representative of Federation of Indian Exporter Organisation",
+        "RepresentativeofFederationofIndianExporterOrganisation"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],

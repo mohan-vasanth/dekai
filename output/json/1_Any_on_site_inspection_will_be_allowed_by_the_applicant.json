@@ -41,6 +41,91 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "1::section::0::any-on-site-inspection-will-be-allowed-by-the-ap",
+      "type": "section",
+      "title": "Any on-site inspection will be allowed by the applicant",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1. Any on-site inspection will be allowed by the applicant\nexporter if required by the DGFT or authorized\nrepresentatives of the Government of India;",
+      "parentId": "",
+      "sectionId": "1",
+      "sectionTitle": "Any on-site inspection will be allowed by the applicant",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 29,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Any on-site inspection will be allowed by the applicant",
+        "Any on site inspection will be allowed by the applicant",
+        "Anyonsiteinspectionwillbeallowedbytheapplicant"
+      ],
+      "childIds": [
+        "1::validation::1::validation-rules",
+        "1::business_rule::2::any-on-site-inspection-will-be-allowed-by-the-ap"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "1::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Any on-site inspection will be allowed by the applicant\nexporter if required by the DGFT or authorized\nrepresentatives of the Government of India;",
+      "parentId": "1::section::0::any-on-site-inspection-will-be-allowed-by-the-ap",
+      "sectionId": "1",
+      "sectionTitle": "Any on-site inspection will be allowed by the applicant",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 29,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "1::business_rule::2::any-on-site-inspection-will-be-allowed-by-the-ap",
+      "type": "business_rule",
+      "title": "Any on-site inspection will be allowed by the applicant",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1. Any on-site inspection will be allowed by the applicant\nexporter if required by the DGFT or authorized\nrepresentatives of the Government of India;",
+      "parentId": "1::section::0::any-on-site-inspection-will-be-allowed-by-the-ap",
+      "sectionId": "1",
+      "sectionTitle": "Any on-site inspection will be allowed by the applicant",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 29,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Any on-site inspection will be allowed by the applicant",
+        "Any on site inspection will be allowed by the applicant",
+        "Anyonsiteinspectionwillbeallowedbytheapplicant"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "DGFT"
   ],

@@ -3,28 +3,29 @@ from __future__ import annotations
 from typing import Any
 
 from config import CONFIG
+from .llm_service import llm_service
 from .runtime_store import runtime_store
 
 SUPPORTED_THEMES = {"light", "dark", "system"}
 SUPPORTED_LANGUAGES = {"English", "Hindi", "Tamil"}
-SUPPORTED_MODELS = {
-    "GPT-4.1",
-    "Claude Sonnet",
-    "Gemini Pro",
-    "Ollama (Llama 3.2)",
-    "Ollama (Qwen 2.5)",
-}
+SUPPORTED_MODELS = set(llm_service.supported_model_labels())
 LEGACY_MODEL_ALIASES = {
     "GPT-4.1 / Claude / Gemini compatible": "GPT-4.1",
 }
 
 
 class SettingsService:
+    def _available_models(self) -> list[str]:
+        return llm_service.available_model_labels()
+
+    def _default_model(self) -> str:
+        return llm_service.preferred_model_label()
+
     def default_settings(self) -> dict[str, Any]:
         return {
             "theme": "system",
             "language": "English",
-            "aiModel": "GPT-4.1",
+            "aiModel": self._default_model(),
             "knowledgeStatus": "Ready",
             "version": "2026.07",
             "about": "DEKAI AI is a DGFT, customs, import, and export knowledge assistant for grounded AI retrieval.",
@@ -34,7 +35,7 @@ class SettingsService:
                 "vectorDatabase": "pgvector",
                 "embeddings": "text-embedding-3-large",
                 "chunking": "500-800 tokens with overlap",
-                "supportedModels": sorted(SUPPORTED_MODELS),
+                "supportedModels": self._available_models(),
             },
         }
 
@@ -42,6 +43,10 @@ class SettingsService:
         if not isinstance(value, str):
             return value
         normalized = LEGACY_MODEL_ALIASES.get(value.strip(), value.strip())
+        if normalized in self._available_models():
+            return normalized
+        if normalized in SUPPORTED_MODELS:
+            return self._default_model()
         return normalized
 
     def _normalize_store(self) -> dict[str, Any]:
@@ -66,7 +71,7 @@ class SettingsService:
         normalized["defaults"]["metadata"] = {
             **defaults["metadata"],
             **dict(normalized["defaults"].get("metadata", {})),
-            "supportedModels": sorted(SUPPORTED_MODELS),
+            "supportedModels": self._available_models(),
         }
         for email, settings in list(normalized["users"].items()):
             if not isinstance(settings, dict):
@@ -76,7 +81,7 @@ class SettingsService:
             settings["metadata"] = {
                 **defaults["metadata"],
                 **dict(metadata if isinstance(metadata, dict) else {}),
-                "supportedModels": sorted(SUPPORTED_MODELS),
+                "supportedModels": self._available_models(),
             }
             normalized["users"][email] = settings
         if normalized != existing:
@@ -93,7 +98,7 @@ class SettingsService:
             raise ValueError("Unsupported language.")
 
         ai_model = self._normalize_model(patch.get("aiModel"))
-        if ai_model is not None and ai_model not in SUPPORTED_MODELS:
+        if ai_model is not None and ai_model not in self._available_models():
             raise ValueError("Unsupported AI model.")
 
     def get_settings(self, user_email: str | None = None) -> dict[str, Any]:

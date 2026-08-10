@@ -43,7 +43,7 @@
     {
       "method": "POST",
       "path": "/api/dgft/Pipeline/execute",
-      "purpose": "Trigger business action for ipt:Transport\nC\n1\nNotes:\nFor all Declaration Types, specify for inward transport, except for\nthe following:\n(i)\nGoods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\n(ii)\nshort payment where place of receipt = SPSTK, SPNOSTK\n(iii)\ndeclaration type = BKT (Blanket)\n(iv)\nrecovery payment where place of receipt = RCNOSTK\n(v)\npayment for goods previously exempted from duties/taxes (e.g.",
+      "purpose": "Trigger business action for B078 cbc:Net Register Tonnage C 1 n..15 Specify the Net Register Ton of outward vessel (TNE).",
       "request_fields": [
         "section_code",
         "section_title",

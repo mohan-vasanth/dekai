@@ -75,6 +75,116 @@
     "(b)\nIf the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.71::section::0::admissibility-of-benefits-on-payment-through-ins",
+      "type": "section",
+      "title": "Admissibility of benefits on payment through insurance cover",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.71 Admissibility of benefits on payment through insurance cover\n(I) Payment through ECGC cover would count for benefits under FTP.\n(II) Payment through General/ Private Insurance companies:\nAmount of Insurance Cover for transit loss by General Insurance and Private\nApproved Insurance Companies in India would be treated as payment realized\nfor exports under various export promotion schemes.\n(a) An applicant realizing export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency. RA after satisfying itself of the bona fide of the claim, will obtain\napproval of Additional DGFT (EDI) and then will upload the value (in lieu of\ne BRC value) in EDI system of DGFT for processing of the case.\n(b) If the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing. If the claim value is mentioned only in equivalent INR, RA will\nconvert this INR value in equivalent US$ using the exchange rate (published by\nCBEC) applicable on the date of settlement of insurance claim”.\n2.71 Admissibility of benefits on payment through insurance cover\n(I)\nPayment through ECGC cover would count for benefits under FTP.\n(II)\nPayment through General/ Private Insurance companies:\nAmount of Insurance Cover for transit loss by General Insurance and Private\nApproved Insurance Companies in India would be treated as payment realized\nfor exports under various export promotion schemes.\n(a)\nAn applicant realizing export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency. RA after satisfying itself of the bona fide of the claim, will obtain\napproval of Additional DGFT (EDI) and then will upload the value (in lieu of\ne BRC value) in EDI system of DGFT for processing of the case.\n(b)\nIf the proof of payment issued by the Insurance Agency mentions claim value\nboth in foreign exchange and INR, RA will use the foreign exchange value for\nprocessing. If the claim value is mentioned only in equivalent INR, RA will\nconvert this INR value in equivalent US$ using the exchange rate (published by\nCBEC) applicable on the date of settlement of insurance claim”.",
+      "parentId": "",
+      "sectionId": "2.71",
+      "sectionTitle": "Admissibility of benefits on payment through insurance cover",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 30,
+      "startLine": 0,
+      "endLine": 35,
+      "searchAliases": [
+        "Admissibility of benefits on payment through insurance cover",
+        "Admissibilityofbenefitsonpaymentthroughinsurancecover"
+      ],
+      "childIds": [
+        "2.71::validation::1::validation-rules",
+        "2.71::validation::2::validation-rules",
+        "2.71::business_rule::3::admissibility-of-benefits-on-payment-through-ins"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 35
+    },
+    {
+      "id": "2.71::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(II) Payment through General/ Private Insurance companies:\nAmount of Insurance Cover for transit loss by General Insurance and Private\nApproved Insurance Companies in India would be treated as payment realized\nfor exports under various export promotion schemes.",
+      "parentId": "2.71::section::0::admissibility-of-benefits-on-payment-through-ins",
+      "sectionId": "2.71",
+      "sectionTitle": "Admissibility of benefits on payment through insurance cover",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 30,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.71::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(II)\nPayment through General/ Private Insurance companies:\nAmount of Insurance Cover for transit loss by General Insurance and Private\nApproved Insurance Companies in India would be treated as payment realized\nfor exports under various export promotion schemes.",
+      "parentId": "2.71::section::0::admissibility-of-benefits-on-payment-through-ins",
+      "sectionId": "2.71",
+      "sectionTitle": "Admissibility of benefits on payment through insurance cover",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 30,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.71::business_rule::3::admissibility-of-benefits-on-payment-through-ins",
+      "type": "business_rule",
+      "title": "Admissibility of benefits on payment through insurance cover",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 2.71 Admissibility of benefits on payment through insurance cover\n(I) Payment through ECGC cover would count for benefits under FTP.",
+      "parentId": "2.71::section::0::admissibility-of-benefits-on-payment-through-ins",
+      "sectionId": "2.71",
+      "sectionTitle": "Admissibility of benefits on payment through insurance cover",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 30,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Admissibility of benefits on payment through insurance cover",
+        "Admissibilityofbenefitsonpaymentthroughinsurancecover"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "RA",
     "DGFT",

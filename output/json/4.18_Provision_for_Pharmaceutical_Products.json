@@ -47,6 +47,89 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4.18::section::0::provision-for-pharmaceutical-products",
+      "type": "section",
+      "title": "Provision for Pharmaceutical Products",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.18 Provision for Pharmaceutical Products\nRegional Authority may issue Advance Authorisation for pharmaceutical products\nmanufactured through Non-Infringing (NI) process. A manufacturer exporter can\navail the benefit of this provision whether the SION or the adhoc norms (under self-\ndeclared basis in terms of paragraph 4.07 of the Handbook of Procedures) for the\nsaid product is available or not. “Input combination permitted under NI process, as\napproved by the concerned agency of the regulated markets”, shall be exporter-\nspecific and country-specific and shall be available only when the exports are\ndestined for the same country.",
+      "parentId": "",
+      "sectionId": "4.18",
+      "sectionTitle": "Provision for Pharmaceutical Products",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 8,
+      "searchAliases": [
+        "Provision for Pharmaceutical Products",
+        "ProvisionforPharmaceuticalProducts"
+      ],
+      "childIds": [
+        "4.18::validation::1::validation-rules",
+        "4.18::business_rule::2::provision-for-pharmaceutical-products"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 8
+    },
+    {
+      "id": "4.18::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "“Input combination permitted under NI process, as\napproved by the concerned agency of the regulated markets”, shall be exporter-\nspecific and country-specific and shall be available only when the exports are\ndestined for the same country.",
+      "parentId": "4.18::section::0::provision-for-pharmaceutical-products",
+      "sectionId": "4.18",
+      "sectionTitle": "Provision for Pharmaceutical Products",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.18::business_rule::2::provision-for-pharmaceutical-products",
+      "type": "business_rule",
+      "title": "Provision for Pharmaceutical Products",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "“Input combination permitted under NI process, as\napproved by the concerned agency of the regulated markets”, shall be exporter-\nspecific and country-specific and shall be available only when the exports are\ndestined for the same country.",
+      "parentId": "4.18::section::0::provision-for-pharmaceutical-products",
+      "sectionId": "4.18",
+      "sectionTitle": "Provision for Pharmaceutical Products",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Provision for Pharmaceutical Products",
+        "ProvisionforPharmaceuticalProducts"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "Regional Authority"
   ],

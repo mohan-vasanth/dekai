@@ -58,6 +58,88 @@
     "However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4.38::section::0::application-fee-for-enhancement",
+      "type": "section",
+      "title": "Application fee for enhancement",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation. However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA.",
+      "parentId": "",
+      "sectionId": "4.38",
+      "sectionTitle": "Application fee for enhancement",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 21,
+      "startLine": 0,
+      "endLine": 4,
+      "searchAliases": [
+        "Application fee for enhancement",
+        "Applicationfeeforenhancement"
+      ],
+      "childIds": [
+        "4.38::exception::1::exceptions",
+        "4.38::business_rule::2::application-fee-for-enhancement"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 4
+    },
+    {
+      "id": "4.38::exception::1::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "However, no application fee would be charged if\nvalue of Authorisation is being reduced or applicant has already paid maximum fee of\nRs 1,00,000 for Advance Authorisation / DFIA.",
+      "parentId": "4.38::section::0::application-fee-for-enhancement",
+      "sectionId": "4.38",
+      "sectionTitle": "Application fee for enhancement",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 21,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.38::business_rule::2::application-fee-for-enhancement",
+      "type": "business_rule",
+      "title": "Application fee for enhancement",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 4.38 Application fee for enhancement\nApplication fee payable for enhancement would be on the difference in CIF values of\noriginal and final Authorisation.",
+      "parentId": "4.38::section::0::application-fee-for-enhancement",
+      "sectionId": "4.38",
+      "sectionTitle": "Application fee for enhancement",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 21,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Application fee for enhancement",
+        "Applicationfeeforenhancement"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [

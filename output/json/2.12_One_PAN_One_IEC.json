@@ -43,6 +43,91 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.12::section::0::one-pan-one-iec",
+      "type": "section",
+      "title": "One PAN-One IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "parentId": "",
+      "sectionId": "2.12",
+      "sectionTitle": "One PAN-One IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 1,
+      "searchAliases": [
+        "One PAN-One IEC",
+        "One PAN One IEC",
+        "OnePANOneIEC"
+      ],
+      "childIds": [
+        "2.12::validation::1::validation-rules",
+        "2.12::business_rule::2::one-pan-one-iec"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 1
+    },
+    {
+      "id": "2.12::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "parentId": "2.12::section::0::one-pan-one-iec",
+      "sectionId": "2.12",
+      "sectionTitle": "One PAN-One IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.12::business_rule::2::one-pan-one-iec",
+      "type": "business_rule",
+      "title": "One PAN-One IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.12 One PAN-One IEC\nOnly one IEC shall be issued against a single PAN.",
+      "parentId": "2.12::section::0::one-pan-one-iec",
+      "sectionId": "2.12",
+      "sectionTitle": "One PAN-One IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "One PAN-One IEC",
+        "One PAN One IEC",
+        "OnePANOneIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [

@@ -43,6 +43,91 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "6.26::section::0::sale-through-showrooms-retail-outlets-at-interna",
+      "type": "section",
+      "title": "Sale through Showrooms / Retail outlets at International",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.26 Sale through Showrooms / Retail outlets at International\nAirports\nEOUs may set up showrooms / retail outlets at International Airports for sale of\ngoods in accordance with procedure laid down by Customs authorities. Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs.",
+      "parentId": "",
+      "sectionId": "6.26",
+      "sectionTitle": "Sale through Showrooms / Retail outlets at International",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 15,
+      "startLine": 0,
+      "endLine": 5,
+      "searchAliases": [
+        "Sale through Showrooms / Retail outlets at International",
+        "Sale through Showrooms Retail outlets at International",
+        "SalethroughShowroomsRetailoutletsatInternational"
+      ],
+      "childIds": [
+        "6.26::validation::1::validation-rules",
+        "6.26::business_rule::2::sale-through-showrooms-retail-outlets-at-interna"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 5
+    },
+    {
+      "id": "6.26::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs.",
+      "parentId": "6.26::section::0::sale-through-showrooms-retail-outlets-at-interna",
+      "sectionId": "6.26",
+      "sectionTitle": "Sale through Showrooms / Retail outlets at International",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 15,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.26::business_rule::2::sale-through-showrooms-retail-outlets-at-interna",
+      "type": "business_rule",
+      "title": "Sale through Showrooms / Retail outlets at International",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Items\nremaining unsold after a period of 60 days shall be exported or returned to\nrespective EOUs.",
+      "parentId": "6.26::section::0::sale-through-showrooms-retail-outlets-at-interna",
+      "sectionId": "6.26",
+      "sectionTitle": "Sale through Showrooms / Retail outlets at International",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 15,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Sale through Showrooms / Retail outlets at International",
+        "Sale through Showrooms Retail outlets at International",
+        "SalethroughShowroomsRetailoutletsatInternational"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "Customs"
   ],

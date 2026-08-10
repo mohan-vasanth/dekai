@@ -36,6 +36,89 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "7.11::section::0::internal-audit-mechanism",
+      "type": "section",
+      "title": "Internal Audit Mechanism",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "7.11 Internal Audit Mechanism\nThe zonal offices of Additional DGFT shall constitute Audit team in their offices as\nper paragraph 7.10 of FTP and shall carry out post Audit.\npg. 162\npg. 162",
+      "parentId": "",
+      "sectionId": "7.11",
+      "sectionTitle": "Internal Audit Mechanism",
+      "documentName": "Chapter-7-of-HBP-2023.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 4,
+      "searchAliases": [
+        "Internal Audit Mechanism",
+        "InternalAuditMechanism"
+      ],
+      "childIds": [
+        "7.11::validation::1::validation-rules",
+        "7.11::business_rule::2::internal-audit-mechanism"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 4
+    },
+    {
+      "id": "7.11::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "7.11 Internal Audit Mechanism\nThe zonal offices of Additional DGFT shall constitute Audit team in their offices as\nper paragraph 7.10 of FTP and shall carry out post Audit.",
+      "parentId": "7.11::section::0::internal-audit-mechanism",
+      "sectionId": "7.11",
+      "sectionTitle": "Internal Audit Mechanism",
+      "documentName": "Chapter-7-of-HBP-2023.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "7.11::business_rule::2::internal-audit-mechanism",
+      "type": "business_rule",
+      "title": "Internal Audit Mechanism",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "7.11 Internal Audit Mechanism\nThe zonal offices of Additional DGFT shall constitute Audit team in their offices as\nper paragraph 7.10 of FTP and shall carry out post Audit.",
+      "parentId": "7.11::section::0::internal-audit-mechanism",
+      "sectionId": "7.11",
+      "sectionTitle": "Internal Audit Mechanism",
+      "documentName": "Chapter-7-of-HBP-2023.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Internal Audit Mechanism",
+        "InternalAuditMechanism"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "DGFT",
     "The zonal offices of Additional DGFT"

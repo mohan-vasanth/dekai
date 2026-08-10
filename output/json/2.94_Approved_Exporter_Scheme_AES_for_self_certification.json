@@ -41,6 +41,91 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.94::section::0::approved-exporter-scheme-aes-for-self-certificat",
+      "type": "section",
+      "title": "Approved Exporter Scheme (AES) for self-certification",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.94 Approved Exporter Scheme (AES) for self-certification\nDetails of the Scheme are provided in Appendix 2F of ANF.\nPOLICY INTERPRETATION AND RELAXATIONS",
+      "parentId": "",
+      "sectionId": "2.94",
+      "sectionTitle": "Approved Exporter Scheme (AES) for self-certification",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Approved Exporter Scheme (AES) for self-certification",
+        "Approved Exporter Scheme AES for self certification",
+        "ApprovedExporterSchemeAESforselfcertification"
+      ],
+      "childIds": [
+        "2.94::validation::1::validation-rules",
+        "2.94::business_rule::2::approved-exporter-scheme-aes-for-self-certificat"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "2.94::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.94 Approved Exporter Scheme (AES) for self-certification\nDetails of the Scheme are provided in Appendix 2F of ANF.",
+      "parentId": "2.94::section::0::approved-exporter-scheme-aes-for-self-certificat",
+      "sectionId": "2.94",
+      "sectionTitle": "Approved Exporter Scheme (AES) for self-certification",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.94::business_rule::2::approved-exporter-scheme-aes-for-self-certificat",
+      "type": "business_rule",
+      "title": "Approved Exporter Scheme (AES) for self-certification",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 2.94 Approved Exporter Scheme (AES) for self-certification\nDetails of the Scheme are provided in Appendix 2F of ANF.",
+      "parentId": "2.94::section::0::approved-exporter-scheme-aes-for-self-certificat",
+      "sectionId": "2.94",
+      "sectionTitle": "Approved Exporter Scheme (AES) for self-certification",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Approved Exporter Scheme (AES) for self-certification",
+        "Approved Exporter Scheme AES for self certification",
+        "ApprovedExporterSchemeAESforselfcertification"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [

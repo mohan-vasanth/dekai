@@ -54,6 +54,62 @@
     "The request for export of spare parts covered under\nSCOMET may be considered by IMWG along with the application for the main\nitem/equipment, on the same conditions, as applicable for the main\nitem/component."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "10.11::section::0::issue-of-export-authorisation-for-spare-parts-of",
+      "type": "section",
+      "title": "Issue of export authorisation for spare parts of SCOMET items",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same. The request for export of spare parts covered under\nSCOMET may be considered by IMWG along with the application for the main\nitem/equipment, on the same conditions, as applicable for the main\nitem/component. The applicant needs to indicate the requirement of spare parts\nafter judicious and reasonable assessment with justification thereof.",
+      "parentId": "",
+      "sectionId": "10.11",
+      "sectionTitle": "Issue of export authorisation for spare parts of SCOMET items",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 8,
+      "searchAliases": [
+        "Issue of export authorisation for spare parts of SCOMET items",
+        "IssueofexportauthorisationforsparepartsofSCOMETitems"
+      ],
+      "childIds": [
+        "10.11::business_rule::1::issue-of-export-authorisation-for-spare-parts-of"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 8
+    },
+    {
+      "id": "10.11::business_rule::1::issue-of-export-authorisation-for-spare-parts-of",
+      "type": "business_rule",
+      "title": "Issue of export authorisation for spare parts of SCOMET items",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 10.11 Issue of export authorisation for spare parts of SCOMET items\nunder Stock and Sale\nAn applicant may also apply for export of spare parts, under stock and sale\narrangement in the application for export of main item/equipment along with\njustification of the same.",
+      "parentId": "10.11::section::0::issue-of-export-authorisation-for-spare-parts-of",
+      "sectionId": "10.11",
+      "sectionTitle": "Issue of export authorisation for spare parts of SCOMET items",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Issue of export authorisation for spare parts of SCOMET items",
+        "IssueofexportauthorisationforsparepartsofSCOMETitems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [
     "The applicant needs to indicate the requirement of spare parts\nafter judicious and reasonable assessment with justification thereof."

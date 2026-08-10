@@ -48,6 +48,64 @@
     "8.03 Online Filing and Tracking of Quality Complaints/Trade\nDisputes\nA request for investigation and settlement of quality complaint/trade dispute\nwould\nbe\nfiled\nonline\nby\nan\nIndian/foreign\nentity\nat\n“www.dgft.gov.in>Services>Quality Complaints & Trade Disputes>fill Online\nApplication Form”."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "8.03::section::0::online-filing-and-tracking-of-quality-complaints",
+      "type": "section",
+      "title": "Online Filing and Tracking of Quality Complaints/Trade",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "8.03 Online Filing and Tracking of Quality Complaints/Trade\nDisputes\nA request for investigation and settlement of quality complaint/trade dispute\nwould be filed online by an Indian/foreign entity at\n“www.dgft.gov.in>Services>Quality Complaints & Trade Disputes>fill Online\nApplication Form”. Such complaint would be submitted online to the\njurisdictional Regional Authorities of DGFT as well as to the concerned Indian\nMission. On submission, a Unique Reference Number will be generated and sent\nto the email id of the complainant. The complainant can also upload supporting\ndocuments along with the complaint or later on.\n8.03 Online Filing and Tracking of Quality Complaints/Trade\nDisputes\nA request for investigation and settlement of quality complaint/trade dispute\nwould\nbe\nfiled\nonline\nby\nan\nIndian/foreign\nentity\nat\n“www.dgft.gov.in>Services>Quality Complaints & Trade Disputes>fill Online\nApplication Form”. Such complaint would be submitted online to the\njurisdictional Regional Authorities of DGFT as well as to the concerned Indian\nMission. On submission, a Unique Reference Number will be generated and sent\nto the email id of the complainant. The complainant can also upload supporting\ndocuments along with the complaint or later on.",
+      "parentId": "",
+      "sectionId": "8.03",
+      "sectionTitle": "Online Filing and Tracking of Quality Complaints/Trade",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 27,
+      "searchAliases": [
+        "Online Filing and Tracking of Quality Complaints/Trade",
+        "Online Filing and Tracking of Quality Complaints Trade",
+        "OnlineFilingandTrackingofQualityComplaintsTrade"
+      ],
+      "childIds": [
+        "8.03::business_rule::1::online-filing-and-tracking-of-quality-complaints"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 27
+    },
+    {
+      "id": "8.03::business_rule::1::online-filing-and-tracking-of-quality-complaints",
+      "type": "business_rule",
+      "title": "Online Filing and Tracking of Quality Complaints/Trade",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: Such complaint would be submitted online to the\njurisdictional Regional Authorities of DGFT as well as to the concerned Indian\nMission.",
+      "parentId": "8.03::section::0::online-filing-and-tracking-of-quality-complaints",
+      "sectionId": "8.03",
+      "sectionTitle": "Online Filing and Tracking of Quality Complaints/Trade",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Online Filing and Tracking of Quality Complaints/Trade",
+        "Online Filing and Tracking of Quality Complaints Trade",
+        "OnlineFilingandTrackingofQualityComplaintsTrade"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "dgft",
     "Regional Authorities of DGFT"

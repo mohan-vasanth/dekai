@@ -41,6 +41,91 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.84::section::0::appeal-against-de-registration",
+      "type": "section",
+      "title": "Appeal Against De-registration",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.84 Appeal Against De-registration\nA person aggrieved by a decision of registering authority in respect of any matter\nconnected with issue of RCMC may prefer an appeal to DGFT or an officer designated\nin this behalf within 45 days against said decision and decision of appellate authority\nshall be final.",
+      "parentId": "",
+      "sectionId": "2.84",
+      "sectionTitle": "Appeal Against De-registration",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 36,
+      "startLine": 0,
+      "endLine": 4,
+      "searchAliases": [
+        "Appeal Against De-registration",
+        "Appeal Against De registration",
+        "AppealAgainstDeregistration"
+      ],
+      "childIds": [
+        "2.84::validation::1::validation-rules",
+        "2.84::business_rule::2::appeal-against-de-registration"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 4
+    },
+    {
+      "id": "2.84::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.84 Appeal Against De-registration\nA person aggrieved by a decision of registering authority in respect of any matter\nconnected with issue of RCMC may prefer an appeal to DGFT or an officer designated\nin this behalf within 45 days against said decision and decision of appellate authority\nshall be final.",
+      "parentId": "2.84::section::0::appeal-against-de-registration",
+      "sectionId": "2.84",
+      "sectionTitle": "Appeal Against De-registration",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 36,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.84::business_rule::2::appeal-against-de-registration",
+      "type": "business_rule",
+      "title": "Appeal Against De-registration",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.84 Appeal Against De-registration\nA person aggrieved by a decision of registering authority in respect of any matter\nconnected with issue of RCMC may prefer an appeal to DGFT or an officer designated\nin this behalf within 45 days against said decision and decision of appellate authority\nshall be final.",
+      "parentId": "2.84::section::0::appeal-against-de-registration",
+      "sectionId": "2.84",
+      "sectionTitle": "Appeal Against De-registration",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 36,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Appeal Against De-registration",
+        "Appeal Against De registration",
+        "AppealAgainstDeregistration"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "DGFT",
     "RCMC may prefer an appeal to DGFT"

@@ -43,6 +43,89 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.26::section::0::mechanism-for-issuing-duplicates",
+      "type": "section",
+      "title": "Mechanism for issuing duplicates",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.26 Mechanism for issuing duplicates\nRA concerned shall obtain a report regarding utilization of such Authorisation from\nCustom authority at port of registration before issuing duplicate, for balance unutilized.",
+      "parentId": "",
+      "sectionId": "2.26",
+      "sectionTitle": "Mechanism for issuing duplicates",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 10,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Mechanism for issuing duplicates",
+        "Mechanismforissuingduplicates"
+      ],
+      "childIds": [
+        "2.26::validation::1::validation-rules",
+        "2.26::business_rule::2::mechanism-for-issuing-duplicates"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "2.26::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.26 Mechanism for issuing duplicates\nRA concerned shall obtain a report regarding utilization of such Authorisation from\nCustom authority at port of registration before issuing duplicate, for balance unutilized.",
+      "parentId": "2.26::section::0::mechanism-for-issuing-duplicates",
+      "sectionId": "2.26",
+      "sectionTitle": "Mechanism for issuing duplicates",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 10,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.26::business_rule::2::mechanism-for-issuing-duplicates",
+      "type": "business_rule",
+      "title": "Mechanism for issuing duplicates",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.26 Mechanism for issuing duplicates\nRA concerned shall obtain a report regarding utilization of such Authorisation from\nCustom authority at port of registration before issuing duplicate, for balance unutilized.",
+      "parentId": "2.26::section::0::mechanism-for-issuing-duplicates",
+      "sectionId": "2.26",
+      "sectionTitle": "Mechanism for issuing duplicates",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 10,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Mechanism for issuing duplicates",
+        "Mechanismforissuingduplicates"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "RA"
   ],

@@ -1,9 +1,6 @@
 {
   "section": "8",
   "exceptions": [
-    "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
-    "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037\ncbc:Declaration Indicator\nM\nboolean\nMandatory for all Declaration Types.",
-    "ipt:Transport C 1 Notes:\nFor all Declaration Types, specify for inward transport, except for\nthe following:\n(i) Goods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\n(ii) short payment where place of receipt = SPSTK, SPNOSTK\n(iii) declaration type = BKT (Blanket)\n(iv) recovery payment where place of receipt = RCNOSTK\n(v) payment for goods previously exempted from duties/taxes (e.g.",
-    "place of release = EM, EXEMPT)\n(vi) Supplementary declaration for schemes under AISS, IGDS such as\nPlace of Receipt = AISSLOC, SPIGDS\nA026 cac:Inward Transport M 1 Mandatory to specify Inward transport."
+    "A026 cac:Inward Transport M 1 Specify Inward transport details except for the following:\ni) goods released from or receipt into licensed premises such as\nLicensed Warehouse, Excise Factory, Zero-GST Warehouse,\nBonded Warehouse\nii) Declaration Type = BRE (Blanket)\nA060 cac:Transport Means M 1 Specify inward transport mode."
   ]
 }

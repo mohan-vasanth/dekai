@@ -41,6 +41,62 @@
     "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.22::section::0::application-for-revalidation",
+      "type": "section",
+      "title": "Application for Revalidation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.\nPROCEDURE FOR ISSUING DUPLICATE COPIES",
+      "parentId": "",
+      "sectionId": "2.22",
+      "sectionTitle": "Application for Revalidation",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 9,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Application for Revalidation",
+        "ApplicationforRevalidation"
+      ],
+      "childIds": [
+        "2.22::business_rule::1::application-for-revalidation"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "2.22::business_rule::1::application-for-revalidation",
+      "type": "business_rule",
+      "title": "Application for Revalidation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 2.22 Application for Revalidation\nAn application for revalidation of authorisation may be made to the office which has\nissued the authorisation.",
+      "parentId": "2.22::section::0::application-for-revalidation",
+      "sectionId": "2.22",
+      "sectionTitle": "Application for Revalidation",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 9,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Application for Revalidation",
+        "ApplicationforRevalidation"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [

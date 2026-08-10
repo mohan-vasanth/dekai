@@ -80,6 +80,113 @@
     "b)\nRemove samples without payment of duty and/or taxes on\nfurnishing a suitable undertaking to Customs authorities for\nbringing back samples within a stipulated period."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "6.29::section::0::samples",
+      "type": "section",
+      "title": "Samples",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.29 Samples\na) EOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs.\nb) Remove samples without payment of duty and/or taxes on\nfurnishing a suitable undertaking to Customs authorities for\nbringing back samples within a stipulated period.\nc) An EOU may export free samples, without any limit, including\nsamples made in wax moulds, silver mould and rubber moulds\nthrough all permissible mode of export including through courier\nagencies / post. For statutory requirement of Stability & Retention\nsample with manufacturer, an EOU / EHTP / BTP / STP\npg. 148\npg. 148\ncustomer site. Following documents should be submitted as proof\nof exports:\ni.\nPermission letter from Customs for exports.\nii.\nInvoice with value (for payment or free of charge).\n6.29 Samples\na)\nEOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs.\nb)\nRemove samples without payment of duty and/or taxes on\nfurnishing a suitable undertaking to Customs authorities for\nbringing back samples within a stipulated period.\nc)\nAn EOU may export free samples, without any limit, including\nsamples made in wax moulds, silver mould and rubber moulds\nthrough all permissible mode of export including through courier\nagencies / post. For statutory requirement of Stability & Retention\nsample with manufacturer, an EOU / EHTP / BTP / STP\nunit may re-import with or without payment of duties/taxes as\nprovided at para 6.01(d)(ii) of FTP those samples, which were\nexported by it, under intimation to Custom Authorities, and FOB\nvalue of such samples shall not be counted for NFE purpose and\nother export benefits, if any.\nd) An EOU, on basis of records maintained by them and on prior\nintimation to Customs authorities, may send samples to other EOUs\nfor display on returnable basis within a period of 30 days.",
+      "parentId": "",
+      "sectionId": "6.29",
+      "sectionTitle": "Samples",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 50,
+      "searchAliases": [
+        "Samples"
+      ],
+      "childIds": [
+        "6.29::validation::1::validation-rules",
+        "6.29::business_rule::2::samples",
+        "6.29::business_rule::3::samples"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 50
+    },
+    {
+      "id": "6.29::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "For statutory requirement of Stability & Retention\nsample with manufacturer, an EOU / EHTP / BTP / STP\nunit may re-import with or without payment of duties/taxes as\nprovided at para 6.01(d)(ii) of FTP those samples, which were\nexported by it, under intimation to Custom Authorities, and FOB\nvalue of such samples shall not be counted for NFE purpose and\nother export benefits, if any.",
+      "parentId": "6.29::section::0::samples",
+      "sectionId": "6.29",
+      "sectionTitle": "Samples",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.29::business_rule::2::samples",
+      "type": "business_rule",
+      "title": "Samples",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Following documents should be submitted as proof\nof exports:\ni.",
+      "parentId": "6.29::section::0::samples",
+      "sectionId": "6.29",
+      "sectionTitle": "Samples",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Samples"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.29::business_rule::3::samples",
+      "type": "business_rule",
+      "title": "Samples",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "For statutory requirement of Stability & Retention\nsample with manufacturer, an EOU / EHTP / BTP / STP\nunit may re-import with or without payment of duties/taxes as\nprovided at para 6.01(d)(ii) of FTP those samples, which were\nexported by it, under intimation to Custom Authorities, and FOB\nvalue of such samples shall not be counted for NFE purpose and\nother export benefits, if any.",
+      "parentId": "6.29::section::0::samples",
+      "sectionId": "6.29",
+      "sectionTitle": "Samples",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Samples"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "Customs",
     "Customs authority",

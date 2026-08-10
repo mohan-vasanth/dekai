@@ -39,6 +39,64 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4::section::0::goods-and-services-being-manufactured-produced-i",
+      "type": "section",
+      "title": "Goods and services being manufactured/produced in the district,",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4. Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+      "parentId": "",
+      "sectionId": "4",
+      "sectionTitle": "Goods and services being manufactured/produced in the district,",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Goods and services being manufactured/produced in the district,",
+        "Goods and services being manufactured produced in the district",
+        "Goodsandservicesbeingmanufacturedproducedinthedistrict"
+      ],
+      "childIds": [
+        "4::business_rule::1::goods-and-services-being-manufactured-produced-i"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "4::business_rule::1::goods-and-services-being-manufactured-produced-i",
+      "type": "business_rule",
+      "title": "Goods and services being manufactured/produced in the district,",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4. Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+      "parentId": "4::section::0::goods-and-services-being-manufactured-produced-i",
+      "sectionId": "4",
+      "sectionTitle": "Goods and services being manufactured/produced in the district,",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Goods and services being manufactured/produced in the district,",
+        "Goods and services being manufactured produced in the district",
+        "Goodsandservicesbeingmanufacturedproducedinthedistrict"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],

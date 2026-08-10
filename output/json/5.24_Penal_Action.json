@@ -43,6 +43,89 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "5.24::section::0::penal-action",
+      "type": "section",
+      "title": "Penal Action",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5.24 Penal Action\nIn case of failure to fulfil export obligation or any other condition of\nauthorisation, authorisation holder shall be liable for action under FT (D&R) Act,\n1992, as amended, Orders and Rules made thereunder, provisions of FTP/HBP,\nCustoms Act, 1962, as amended from time to time or any other law in force.",
+      "parentId": "",
+      "sectionId": "5.24",
+      "sectionTitle": "Penal Action",
+      "documentName": "HBP2023_Chapter05.pdf",
+      "pageNumber": 14,
+      "startLine": 0,
+      "endLine": 4,
+      "searchAliases": [
+        "Penal Action",
+        "PenalAction"
+      ],
+      "childIds": [
+        "5.24::validation::1::validation-rules",
+        "5.24::business_rule::2::penal-action"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 4
+    },
+    {
+      "id": "5.24::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5.24 Penal Action\nIn case of failure to fulfil export obligation or any other condition of\nauthorisation, authorisation holder shall be liable for action under FT (D&R) Act,\n1992, as amended, Orders and Rules made thereunder, provisions of FTP/HBP,\nCustoms Act, 1962, as amended from time to time or any other law in force.",
+      "parentId": "5.24::section::0::penal-action",
+      "sectionId": "5.24",
+      "sectionTitle": "Penal Action",
+      "documentName": "HBP2023_Chapter05.pdf",
+      "pageNumber": 14,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "5.24::business_rule::2::penal-action",
+      "type": "business_rule",
+      "title": "Penal Action",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5.24 Penal Action\nIn case of failure to fulfil export obligation or any other condition of\nauthorisation, authorisation holder shall be liable for action under FT (D&R) Act,\n1992, as amended, Orders and Rules made thereunder, provisions of FTP/HBP,\nCustoms Act, 1962, as amended from time to time or any other law in force.",
+      "parentId": "5.24::section::0::penal-action",
+      "sectionId": "5.24",
+      "sectionTitle": "Penal Action",
+      "documentName": "HBP2023_Chapter05.pdf",
+      "pageNumber": 14,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Penal Action",
+        "PenalAction"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "Customs"
   ],

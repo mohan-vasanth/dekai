@@ -8,10 +8,10 @@ type TranslationParams = Record<string, string | number>;
 const LANGUAGE_STORAGE_KEY = "dekai-language";
 const MODEL_STORAGE_KEY = "dekai-ai-model";
 const DEFAULT_LANGUAGE: AppLanguage = "English";
-const DEFAULT_MODEL = "GPT-4.1";
+const DEFAULT_MODEL = "Ollama (Qwen 2.5)";
 
 const SUPPORTED_LANGUAGES: AppLanguage[] = ["English", "Hindi", "Tamil"];
-const SUPPORTED_MODELS = [
+const KNOWN_MODELS = [
   "GPT-4.1",
   "Claude Sonnet",
   "Gemini Pro",
@@ -55,6 +55,7 @@ const EN_TRANSLATIONS = {
   "common.openResult": "Open Result",
   "common.openSection": "Open Section",
   "common.downloadMarkdown": "Download Markdown",
+  "common.downloadHtml": "Download HTML",
   "common.appliesInstantly": "Applies instantly",
   "common.success": "success",
   "common.warning": "warning",
@@ -351,8 +352,13 @@ const PreferencesContext = createContext<PreferencesContextValue | null>(null);
 const isSupportedLanguage = (value: unknown): value is AppLanguage =>
   typeof value === "string" && SUPPORTED_LANGUAGES.includes(value as AppLanguage);
 
-const isSupportedModel = (value: unknown): value is string =>
-  typeof value === "string" && SUPPORTED_MODELS.includes(value as (typeof SUPPORTED_MODELS)[number]);
+const isKnownModel = (value: unknown): value is string =>
+  typeof value === "string" && KNOWN_MODELS.includes(value as (typeof KNOWN_MODELS)[number]);
+
+const resolveModelOptions = (supportedModels?: string[]) => {
+  const dynamicModels = (supportedModels ?? []).filter((value): value is string => isKnownModel(value));
+  return dynamicModels.length > 0 ? dynamicModels : [...KNOWN_MODELS];
+};
 
 const interpolate = (template: string, params?: TranslationParams) => {
   if (!params) return template;
@@ -366,12 +372,13 @@ const readStoredLanguage = () => {
 
 const readStoredModel = () => {
   const value = window.localStorage.getItem(MODEL_STORAGE_KEY);
-  return isSupportedModel(value) ? value : DEFAULT_MODEL;
+  return isKnownModel(value) ? value : DEFAULT_MODEL;
 };
 
 export function PreferencesProvider({ children }: PropsWithChildren) {
   const { isAuthenticated } = useAuth();
   const { data: settings } = useSettings(isAuthenticated);
+  const modelOptions = resolveModelOptions(settings?.metadata?.supportedModels);
   const [language, setLanguageState] = useState<AppLanguage>(() => readStoredLanguage());
   const [aiModel, setAiModelState] = useState<string>(() => readStoredModel());
 
@@ -380,10 +387,15 @@ export function PreferencesProvider({ children }: PropsWithChildren) {
     if (isSupportedLanguage(settings.language)) {
       setLanguageState(settings.language);
     }
-    if (isSupportedModel(settings.aiModel)) {
+    if (modelOptions.includes(settings.aiModel)) {
       setAiModelState(settings.aiModel);
     }
-  }, [settings]);
+  }, [modelOptions, settings]);
+
+  useEffect(() => {
+    if (modelOptions.includes(aiModel)) return;
+    setAiModelState(modelOptions[0] ?? DEFAULT_MODEL);
+  }, [aiModel, modelOptions]);
 
   useEffect(() => {
     window.localStorage.setItem(LANGUAGE_STORAGE_KEY, language);
@@ -403,9 +415,9 @@ export function PreferencesProvider({ children }: PropsWithChildren) {
       aiModel,
       language,
       locale,
-      modelOptions: SUPPORTED_MODELS,
+      modelOptions,
       setAiModel: (nextModel: string) => {
-        if (isSupportedModel(nextModel)) {
+        if (modelOptions.includes(nextModel)) {
           setAiModelState(nextModel);
         }
       },
@@ -423,6 +435,7 @@ export function PreferencesProvider({ children }: PropsWithChildren) {
       },
       translateStatus: (status) => {
         if (status === "ready") return dictionary["common.ready"];
+        if (status === "queued") return locale === "ta" ? "வரிசையில்" : locale === "hi" ? "कतार में" : "queued";
         if (status === "processing") return dictionary["common.processing"];
         if (status === "failed") return locale === "ta" ? "தோல்வி" : locale === "hi" ? "विफल" : "failed";
         return status;
@@ -434,7 +447,7 @@ export function PreferencesProvider({ children }: PropsWithChildren) {
         return value;
       },
     };
-  }, [aiModel, language, locale]);
+  }, [aiModel, language, locale, modelOptions]);
 
   return <PreferencesContext.Provider value={value}>{children}</PreferencesContext.Provider>;
 }

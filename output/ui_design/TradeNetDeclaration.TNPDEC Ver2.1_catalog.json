@@ -1,0 +1,644 @@
+{
+  "screen_ids": [
+    "INTRODUCTION_overview",
+    "INTRODUCTION_submission",
+    "SCOPE_overview",
+    "SCOPE_submission",
+    "FIELD_OF_APPLICATION_overview",
+    "FIELD_OF_APPLICATION_submission",
+    "Principles_overview",
+    "Principles_submission",
+    "REFERENCES_overview",
+    "REFERENCES_submission",
+    "DEFINITIONS_AND_ABBREVIATIONS_overview",
+    "DEFINITIONS_AND_ABBREVIATIONS_submission",
+    "Abbreviations_overview",
+    "Abbreviations_submission",
+    "MESSAGE_FUNCTION_overview",
+    "MESSAGE_FUNCTION_submission",
+    "MESSAGE_DEFINITION_overview",
+    "MESSAGE_DEFINITION_submission",
+    "MESSAGE_DETAILS_overview",
+    "MESSAGE_DETAILS_submission",
+    "MESSAGE_DETAILS_exceptions",
+    "Maritime_overview",
+    "Maritime_submission",
+    "Rail_overview",
+    "Rail_submission",
+    "Road_overview",
+    "Road_submission",
+    "Mail_overview",
+    "Mail_submission",
+    "Multimodal_For_future_use_overview",
+    "Multimodal_For_future_use_submission",
+    "Pipeline_overview",
+    "Pipeline_submission",
+    "Pipeline_exceptions"
+  ],
+  "sections": [
+    {
+      "section": "1",
+      "title": "INTRODUCTION",
+      "ui": [
+        {
+          "screen_id": "INTRODUCTION_overview",
+          "name": "INTRODUCTION Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "INTRODUCTION_submission",
+          "name": "INTRODUCTION Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "xml_flag",
+            "and_flag",
+            "for_flag",
+            "pte_flag",
+            "ltd_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2",
+      "title": "SCOPE",
+      "ui": [
+        {
+          "screen_id": "SCOPE_overview",
+          "name": "SCOPE Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "SCOPE_submission",
+          "name": "SCOPE Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "for_flag",
+            "cas_flag",
+            "are_flag",
+            "net_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3",
+      "title": "FIELD OF APPLICATION",
+      "ui": [
+        {
+          "screen_id": "FIELD_OF_APPLICATION_overview",
+          "name": "FIELD OF APPLICATION Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "FIELD_OF_APPLICATION_submission",
+          "name": "FIELD OF APPLICATION Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "are_flag",
+            "for_flag",
+            "use_flag",
+            "may_flag",
+            "and_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3.1",
+      "title": "Principles",
+      "ui": [
+        {
+          "screen_id": "Principles_overview",
+          "name": "Principles Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Principles_submission",
+          "name": "Principles Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "and_flag",
+            "has_flag",
+            "for_flag",
+            "may_flag",
+            "one_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "4",
+      "title": "REFERENCES",
+      "ui": [
+        {
+          "screen_id": "REFERENCES_overview",
+          "name": "REFERENCES Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "REFERENCES_submission",
+          "name": "REFERENCES Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "rev_flag",
+            "net_flag",
+            "xml_flag",
+            "and_flag",
+            "doc_flag",
+            "for_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5",
+      "title": "DEFINITIONS AND ABBREVIATIONS",
+      "ui": [
+        {
+          "screen_id": "DEFINITIONS_AND_ABBREVIATIONS_overview",
+          "name": "DEFINITIONS AND ABBREVIATIONS Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "DEFINITIONS_AND_ABBREVIATIONS_submission",
+          "name": "DEFINITIONS AND ABBREVIATIONS Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "and_flag",
+            "definitions_flag",
+            "abbreviations_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5.1",
+      "title": "Abbreviations",
+      "ui": [
+        {
+          "screen_id": "Abbreviations_overview",
+          "name": "Abbreviations Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Abbreviations_submission",
+          "name": "Abbreviations Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "pte_flag",
+            "ltd_flag",
+            "xml_flag",
+            "ftz_flag",
+            "gst_flag",
+            "and_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6",
+      "title": "MESSAGE FUNCTION",
+      "ui": [
+        {
+          "screen_id": "MESSAGE_FUNCTION_overview",
+          "name": "MESSAGE FUNCTION Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "MESSAGE_FUNCTION_submission",
+          "name": "MESSAGE FUNCTION Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "the_flag",
+            "net_flag",
+            "and_flag",
+            "for_flag",
+            "are_flag",
+            "tti_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7",
+      "title": "MESSAGE DEFINITION",
+      "ui": [
+        {
+          "screen_id": "MESSAGE_DEFINITION_overview",
+          "name": "MESSAGE DEFINITION Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "MESSAGE_DEFINITION_submission",
+          "name": "MESSAGE DEFINITION Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "net_flag",
+            "doc_flag",
+            "xml_flag",
+            "for_flag",
+            "ver_flag",
+            "date_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "8",
+      "title": "MESSAGE DETAILS",
+      "ui": [
+        {
+          "screen_id": "MESSAGE_DETAILS_overview",
+          "name": "MESSAGE DETAILS Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "MESSAGE_DETAILS_submission",
+          "name": "MESSAGE DETAILS Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "ref_flag",
+            "tag_flag",
+            "tnp_flag",
+            "cbc_flag",
+            "the_flag",
+            "cac_flag"
+          ]
+        },
+        {
+          "screen_id": "MESSAGE_DETAILS_exceptions",
+          "name": "MESSAGE DETAILS Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "1",
+      "title": "Maritime",
+      "ui": [
+        {
+          "screen_id": "Maritime_overview",
+          "name": "Maritime Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Maritime_submission",
+          "name": "Maritime Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "maritime_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "2",
+      "title": "Rail",
+      "ui": [
+        {
+          "screen_id": "Rail_overview",
+          "name": "Rail Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Rail_submission",
+          "name": "Rail Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "rail_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "3",
+      "title": "Road",
+      "ui": [
+        {
+          "screen_id": "Road_overview",
+          "name": "Road Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Road_submission",
+          "name": "Road Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "air_flag",
+            "road_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "5",
+      "title": "Mail",
+      "ui": [
+        {
+          "screen_id": "Mail_overview",
+          "name": "Mail Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Mail_submission",
+          "name": "Mail Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "mail_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "6",
+      "title": "Multimodal (For future use)",
+      "ui": [
+        {
+          "screen_id": "Multimodal_For_future_use_overview",
+          "name": "Multimodal (For future use) Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Multimodal_For_future_use_submission",
+          "name": "Multimodal (For future use) Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "for_flag",
+            "use_flag",
+            "future_flag",
+            "multimodal_flag"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "7",
+      "title": "Pipeline",
+      "ui": [
+        {
+          "screen_id": "Pipeline_overview",
+          "name": "Pipeline Overview",
+          "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+          "widgets": [
+            "summary_card",
+            "conditions_table",
+            "authority_badges",
+            "timeline_panel"
+          ]
+        },
+        {
+          "screen_id": "Pipeline_submission",
+          "name": "Pipeline Submission",
+          "purpose": "Capture applicant data and supporting documents.",
+          "widgets": [
+            "dynamic_form",
+            "document_uploader",
+            "validation_panel",
+            "next_action_footer"
+          ],
+          "fields": [
+            "section_code",
+            "section_title",
+            "cbc_flag",
+            "for_flag",
+            "any_flag",
+            "cac_flag",
+            "igm_flag",
+            "and_flag"
+          ]
+        },
+        {
+          "screen_id": "Pipeline_exceptions",
+          "name": "Pipeline Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -32,6 +32,60 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "6.00::section::0::scheme",
+      "type": "section",
+      "title": "Scheme",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.00 Scheme\nPolicy relating to EOUs, EHTPs, STPs and BTPs Schemes is given in Chapter 6 of\nForeign Trade Policy (FTP).",
+      "parentId": "",
+      "sectionId": "6.00",
+      "sectionTitle": "Scheme",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Scheme"
+      ],
+      "childIds": [
+        "6.00::business_rule::1::scheme"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "6.00::business_rule::1::scheme",
+      "type": "business_rule",
+      "title": "Scheme",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.00 Scheme\nPolicy relating to EOUs, EHTPs, STPs and BTPs Schemes is given in Chapter 6 of\nForeign Trade Policy (FTP).",
+      "parentId": "6.00::section::0::scheme",
+      "sectionId": "6.00",
+      "sectionTitle": "Scheme",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Scheme"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],

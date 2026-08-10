@@ -61,6 +61,64 @@
     "QR code and a Unique Document"
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.86::section::0::identity-cards-for-importers-exporters",
+      "type": "section",
+      "title": "Identity Cards for Importers /Exporters",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.86 Identity Cards for Importers /Exporters\n(a) To facilitate collection of Authorisation and other documents from DGFT Hqrs and\nRA, identity cards (valid for 3 years) may be issued to proprietor/ partners /\ndirectors and authorised employees (not more than three), of importers and\nexporters, upon online application\n(b) In case of limited companies, more than three identity cards can be allotted per\ncompany. In case of loss of an identity card, a duplicate card may be issued on the\nbasis of an self-declaration.\n(c) Identity card would be issued electronically with QR code and a Unique Document\nIdentification Number (UDIN) for electronic verification.",
+      "parentId": "",
+      "sectionId": "2.86",
+      "sectionTitle": "Identity Cards for Importers /Exporters",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 36,
+      "startLine": 0,
+      "endLine": 9,
+      "searchAliases": [
+        "Identity Cards for Importers /Exporters",
+        "Identity Cards for Importers Exporters",
+        "IdentityCardsforImportersExporters"
+      ],
+      "childIds": [
+        "2.86::business_rule::1::identity-cards-for-importers-exporters"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 9
+    },
+    {
+      "id": "2.86::business_rule::1::identity-cards-for-importers-exporters",
+      "type": "business_rule",
+      "title": "Identity Cards for Importers /Exporters",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 2.86 Identity Cards for Importers /Exporters\n(a) To facilitate collection of Authorisation and other documents from DGFT Hqrs and\nRA, identity cards (valid for 3 years) may be issued to proprietor/ partners /\ndirectors and authorised employees (not more than three), of importers and\nexporters, upon online application\n(b) In case of limited companies, more than three identity cards can be allotted per\ncompany.",
+      "parentId": "2.86::section::0::identity-cards-for-importers-exporters",
+      "sectionId": "2.86",
+      "sectionTitle": "Identity Cards for Importers /Exporters",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 36,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Identity Cards for Importers /Exporters",
+        "Identity Cards for Importers Exporters",
+        "IdentityCardsforImportersExporters"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "DGFT",
     "RA",

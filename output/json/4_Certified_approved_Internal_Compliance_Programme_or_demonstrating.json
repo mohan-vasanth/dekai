@@ -41,6 +41,91 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4::section::0::certified-approved-internal-compliance-programme",
+      "type": "section",
+      "title": "Certified/approved Internal Compliance Programme or demonstrating",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4. Certified/approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company. [only for intra-company transfers]",
+      "parentId": "",
+      "sectionId": "4",
+      "sectionTitle": "Certified/approved Internal Compliance Programme or demonstrating",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 17,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Certified/approved Internal Compliance Programme or demonstrating",
+        "Certified approved Internal Compliance Programme or demonstrating",
+        "CertifiedapprovedInternalComplianceProgrammeordemonstrating"
+      ],
+      "childIds": [
+        "4::validation::1::validation-rules",
+        "4::business_rule::2::certified-approved-internal-compliance-programme"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "4::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Certified/approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company.",
+      "parentId": "4::section::0::certified-approved-internal-compliance-programme",
+      "sectionId": "4",
+      "sectionTitle": "Certified/approved Internal Compliance Programme or demonstrating",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 17,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4::business_rule::2::certified-approved-internal-compliance-programme",
+      "type": "business_rule",
+      "title": "Certified/approved Internal Compliance Programme or demonstrating",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: Certified/approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company.",
+      "parentId": "4::section::0::certified-approved-internal-compliance-programme",
+      "sectionId": "4",
+      "sectionTitle": "Certified/approved Internal Compliance Programme or demonstrating",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 17,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Certified/approved Internal Compliance Programme or demonstrating",
+        "Certified approved Internal Compliance Programme or demonstrating",
+        "CertifiedapprovedInternalComplianceProgrammeordemonstrating"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [

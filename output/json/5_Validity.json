@@ -49,6 +49,114 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "5::section::0::validity",
+      "type": "section",
+      "title": "Validity",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5. Validity\na. GAET issued for export / re-export of SCOMET items under the above Categories\n/ Sub Categories shall be valid for Three years from the date of issue of GAET\nsubject to subsequent post reporting(s) on quarterly basis to be reported within\n30 days from the last quarter;\nb. GAET cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.",
+      "parentId": "",
+      "sectionId": "5",
+      "sectionTitle": "Validity",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 31,
+      "startLine": 0,
+      "endLine": 5,
+      "searchAliases": [
+        "Validity"
+      ],
+      "childIds": [
+        "5::validation::1::validation-rules",
+        "5::validation::2::validation-rules",
+        "5::business_rule::3::validity"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 5
+    },
+    {
+      "id": "5::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "GAET issued for export / re-export of SCOMET items under the above Categories\n/ Sub Categories shall be valid for Three years from the date of issue of GAET\nsubject to subsequent post reporting(s) on quarterly basis to be reported within\n30 days from the last quarter;\nb.",
+      "parentId": "5::section::0::validity",
+      "sectionId": "5",
+      "sectionTitle": "Validity",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 31,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "5::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "GAET cannot be revalidated in terms of Paragraph 10.20 of HBP 2023.",
+      "parentId": "5::section::0::validity",
+      "sectionId": "5",
+      "sectionTitle": "Validity",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 31,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "5::business_rule::3::validity",
+      "type": "business_rule",
+      "title": "Validity",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "GAET issued for export / re-export of SCOMET items under the above Categories\n/ Sub Categories shall be valid for Three years from the date of issue of GAET\nsubject to subsequent post reporting(s) on quarterly basis to be reported within\n30 days from the last quarter;\nb.",
+      "parentId": "5::section::0::validity",
+      "sectionId": "5",
+      "sectionTitle": "Validity",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 31,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validity"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [
     "GAET issued for export / re-export of SCOMET items under the above Categories\n/ Sub Categories shall be valid for Three years from the date of issue of GAET\nsubject to subsequent post reporting(s) on quarterly basis to be reported within\n30 days from the last quarter;\nb."

@@ -44,6 +44,62 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4.03::section::0::applicant-details",
+      "type": "section",
+      "title": "Applicant details",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.03 Applicant details\nWhere applicant is a branch office or a manufacturing unit, name of branch office or\nmanufacturing unit should appear in electronic RCMC and in IEC of the applicant.",
+      "parentId": "",
+      "sectionId": "4.03",
+      "sectionTitle": "Applicant details",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Applicant details",
+        "Applicantdetails"
+      ],
+      "childIds": [
+        "4.03::business_rule::1::applicant-details"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "4.03::business_rule::1::applicant-details",
+      "type": "business_rule",
+      "title": "Applicant details",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.03 Applicant details\nWhere applicant is a branch office or a manufacturing unit, name of branch office or\nmanufacturing unit should appear in electronic RCMC and in IEC of the applicant.",
+      "parentId": "4.03::section::0::applicant-details",
+      "sectionId": "4.03",
+      "sectionTitle": "Applicant details",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Applicant details",
+        "Applicantdetails"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],

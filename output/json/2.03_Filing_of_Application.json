@@ -54,6 +54,89 @@
     "Documents in regional languages may be translated into English or Hindi\nand the translated copy may be self-certified and submitted along with the original copy."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.03::section::0::filing-of-application",
+      "type": "section",
+      "title": "Filing of Application",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.03 Filing of Application\n(a) Applications seeking authorisation for import/export of “restricted” goods, or for\nclaiming benefits under the schemes in FTP or for seeking clarifications or for other\npurposes may be made online on https://dgft.gov.in\n(b) Applicants may ensure while submitting documents that documents are either in\nEnglish or Hindi. Documents in regional languages may be translated into English or Hindi\nand the translated copy may be self-certified and submitted along with the original copy.",
+      "parentId": "",
+      "sectionId": "2.03",
+      "sectionTitle": "Filing of Application",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 6,
+      "searchAliases": [
+        "Filing of Application",
+        "FilingofApplication"
+      ],
+      "childIds": [
+        "2.03::validation::1::validation-rules",
+        "2.03::business_rule::2::filing-of-application"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 6
+    },
+    {
+      "id": "2.03::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.03 Filing of Application\n(a) Applications seeking authorisation for import/export of “restricted” goods, or for\nclaiming benefits under the schemes in FTP or for seeking clarifications or for other\npurposes may be made online on https://dgft.gov.in\n(b) Applicants may ensure while submitting documents that documents are either in\nEnglish or Hindi.",
+      "parentId": "2.03::section::0::filing-of-application",
+      "sectionId": "2.03",
+      "sectionTitle": "Filing of Application",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.03::business_rule::2::filing-of-application",
+      "type": "business_rule",
+      "title": "Filing of Application",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 2.03 Filing of Application\n(a) Applications seeking authorisation for import/export of “restricted” goods, or for\nclaiming benefits under the schemes in FTP or for seeking clarifications or for other\npurposes may be made online on https://dgft.gov.in\n(b) Applicants may ensure while submitting documents that documents are either in\nEnglish or Hindi.",
+      "parentId": "2.03::section::0::filing-of-application",
+      "sectionId": "2.03",
+      "sectionTitle": "Filing of Application",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Filing of Application",
+        "FilingofApplication"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "dgft"
   ],

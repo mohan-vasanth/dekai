@@ -64,6 +64,116 @@
     "(b) If the deficiencies are not rectified by the applicant within a period of 90 days, the\napplication will be deemed to have been withdrawn."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.05::section::0::incomplete-application",
+      "type": "section",
+      "title": "Incomplete Application",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.05 Incomplete Application\n(a) An incomplete or unauthorised application is liable to be rejected by the competent\nauthority with specific reason for rejection. Such incomplete application may be re-\nopened on rectifying the deficiencies.\n(b) If the deficiencies are not rectified by the applicant within a period of 90 days, the\napplication will be deemed to have been withdrawn.",
+      "parentId": "",
+      "sectionId": "2.05",
+      "sectionTitle": "Incomplete Application",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 5,
+      "searchAliases": [
+        "Incomplete Application",
+        "IncompleteApplication"
+      ],
+      "childIds": [
+        "2.05::validation::1::validation-rules",
+        "2.05::validation::2::validation-rules",
+        "2.05::business_rule::3::incomplete-application"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 5
+    },
+    {
+      "id": "2.05::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.05 Incomplete Application\n(a) An incomplete or unauthorised application is liable to be rejected by the competent\nauthority with specific reason for rejection.",
+      "parentId": "2.05::section::0::incomplete-application",
+      "sectionId": "2.05",
+      "sectionTitle": "Incomplete Application",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.05::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Such incomplete application may be re-\nopened on rectifying the deficiencies.",
+      "parentId": "2.05::section::0::incomplete-application",
+      "sectionId": "2.05",
+      "sectionTitle": "Incomplete Application",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.05::business_rule::3::incomplete-application",
+      "type": "business_rule",
+      "title": "Incomplete Application",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 2.05 Incomplete Application\n(a) An incomplete or unauthorised application is liable to be rejected by the competent\nauthority with specific reason for rejection.",
+      "parentId": "2.05::section::0::incomplete-application",
+      "sectionId": "2.05",
+      "sectionTitle": "Incomplete Application",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Incomplete Application",
+        "IncompleteApplication"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [
     "(b) If the deficiencies are not rectified by the applicant within a period of 90 days, the\napplication will be deemed to have been withdrawn."

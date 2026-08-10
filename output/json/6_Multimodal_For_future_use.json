@@ -1,6 +1,6 @@
 {
   "chapter_number": "",
-  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
   "section": "6",
   "title": "Multimodal (For future use)",
   "purpose": "6: Multimodal (For future use)",
@@ -30,6 +30,64 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "6::section::0::multimodal-for-future-use",
+      "type": "section",
+      "title": "Multimodal (For future use)",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6: Multimodal (For future use)",
+      "parentId": "",
+      "sectionId": "6",
+      "sectionTitle": "Multimodal (For future use)",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Multimodal (For future use)",
+        "Multimodal For future use",
+        "MultimodalForfutureuse"
+      ],
+      "childIds": [
+        "6::business_rule::1::multimodal-for-future-use"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6::business_rule::1::multimodal-for-future-use",
+      "type": "business_rule",
+      "title": "Multimodal (For future use)",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6: Multimodal (For future use)",
+      "parentId": "6::section::0::multimodal-for-future-use",
+      "sectionId": "6",
+      "sectionTitle": "Multimodal (For future use)",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Multimodal (For future use)",
+        "Multimodal For future use",
+        "MultimodalForfutureuse"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],
@@ -231,12 +289,14 @@
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [
-    11
+    11,
+    12
   ],
   "pages": [
-    11
+    11,
+    12
   ],
-  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+  "source_document": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
   "raw_text": "6: Multimodal (For future use)",
   "mermaid": "flowchart TD\n    S1[\"Review section 6 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
   "plantuml": "@startuml\nstart\n:Review section 6 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"

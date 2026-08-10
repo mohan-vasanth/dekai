@@ -45,7 +45,7 @@ export type DocumentRecord = {
   uploadedAt: string;
   lastUpdated: string;
   sizeKb: number;
-  status: "ready" | "processing" | "failed";
+  status: "ready" | "queued" | "processing" | "failed";
   progress: number;
   summary: string;
   stages: DocumentStage[];
@@ -231,7 +231,7 @@ export type DocumentJob = {
   documentId: string;
   documentName: string;
   action: string;
-  status: "processing" | "ready" | "failed";
+  status: "queued" | "processing" | "ready" | "failed";
   stage: string;
   progress: number;
   error: string | null;
@@ -258,6 +258,7 @@ export type DocumentsResponse = {
   metrics: Metrics;
   knowledgeStats: DocumentsKnowledgeStats;
   jobs: DocumentJob[];
+  rejected?: Array<{ fileName: string; reason: string }>;
 };
 
 export type DocumentsSearchResponse = {

@@ -37,6 +37,62 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "5.18::section::0::maintenance-of-annual-average-export-obligation",
+      "type": "section",
+      "title": "Maintenance of Annual Average Export Obligation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5.18 Maintenance of Annual Average Export Obligation\nThe excess exports done towards the average export obligation fulfilment of an\nEPCG authorisation during a year can be used to offset any shortfall in the Average\nEO done in other year(s) of the EO period or the block period as the case may be\nprovided Average EO imposed is maintained on an overall basis, within the block\nperiod or the EO period as applicable.",
+      "parentId": "",
+      "sectionId": "5.18",
+      "sectionTitle": "Maintenance of Annual Average Export Obligation",
+      "documentName": "HBP2023_Chapter05.pdf",
+      "pageNumber": 12,
+      "startLine": 0,
+      "endLine": 5,
+      "searchAliases": [
+        "Maintenance of Annual Average Export Obligation",
+        "MaintenanceofAnnualAverageExportObligation"
+      ],
+      "childIds": [
+        "5.18::business_rule::1::maintenance-of-annual-average-export-obligation"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 5
+    },
+    {
+      "id": "5.18::business_rule::1::maintenance-of-annual-average-export-obligation",
+      "type": "business_rule",
+      "title": "Maintenance of Annual Average Export Obligation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 5.18 Maintenance of Annual Average Export Obligation\nThe excess exports done towards the average export obligation fulfilment of an\nEPCG authorisation during a year can be used to offset any shortfall in the Average\nEO done in other year(s) of the EO period or the block period as the case may be\nprovided Average EO imposed is maintained on an overall basis, within the block\nperiod or the EO period as applicable.",
+      "parentId": "5.18::section::0::maintenance-of-annual-average-export-obligation",
+      "sectionId": "5.18",
+      "sectionTitle": "Maintenance of Annual Average Export Obligation",
+      "documentName": "HBP2023_Chapter05.pdf",
+      "pageNumber": 12,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Maintenance of Annual Average Export Obligation",
+        "MaintenanceofAnnualAverageExportObligation"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [
     "5.18 Maintenance of Annual Average Export Obligation\nThe excess exports done towards the average export obligation fulfilment of an\nEPCG authorisation during a year can be used to offset any shortfall in the Average\nEO done in other year(s) of the EO period or the block period as the case may be\nprovided Average EO imposed is maintained on an overall basis, within the block\nperiod or the EO period as applicable."

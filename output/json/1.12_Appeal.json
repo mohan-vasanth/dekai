@@ -66,6 +66,140 @@
     "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "1.12::section::0::appeal",
+      "type": "section",
+      "title": "Appeal",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days. Decision of DGFT shall be final\nand binding thereon.\npg. 9\npg. 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+      "parentId": "",
+      "sectionId": "1.12",
+      "sectionTitle": "Appeal",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 7,
+      "startLine": 0,
+      "endLine": 7,
+      "searchAliases": [
+        "Appeal"
+      ],
+      "childIds": [
+        "1.12::validation::1::validation-rules",
+        "1.12::validation::2::validation-rules",
+        "1.12::business_rule::3::appeal",
+        "1.12::business_rule::4::appeal"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 7
+    },
+    {
+      "id": "1.12::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Decision of DGFT shall be final\nand binding thereon.",
+      "parentId": "1.12::section::0::appeal",
+      "sectionId": "1.12",
+      "sectionTitle": "Appeal",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 7,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "1.12::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+      "parentId": "1.12::section::0::appeal",
+      "sectionId": "1.12",
+      "sectionTitle": "Appeal",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 7,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "1.12::business_rule::3::appeal",
+      "type": "business_rule",
+      "title": "Appeal",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Decision of DGFT shall be final\nand binding thereon.",
+      "parentId": "1.12::section::0::appeal",
+      "sectionId": "1.12",
+      "sectionTitle": "Appeal",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 7,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Appeal"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "1.12::business_rule::4::appeal",
+      "type": "business_rule",
+      "title": "Appeal",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+      "parentId": "1.12::section::0::appeal",
+      "sectionId": "1.12",
+      "sectionTitle": "Appeal",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 7,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Appeal"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "DGFT",
     "Decision of DGFT"

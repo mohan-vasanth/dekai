@@ -30,6 +30,7 @@ import {
   validateTableHtmlSource,
   type DetectedTableMatch,
   type EditableTable,
+  type ExtractTablesOptions,
   type TableSourceFormat,
 } from "../lib/html-table-editor";
 import { Badge, Button } from "./ui";
@@ -41,6 +42,7 @@ type HtmlTableEditorModalProps = {
   markdown: string;
   onClose: () => void;
   onSave: (markdown: string) => void;
+  tableExtractionOptions?: ExtractTablesOptions;
 };
 
 type EditorTab = "grid" | "html" | "preview" | "markdown";
@@ -270,6 +272,7 @@ export function HtmlTableEditorModal({
   markdown,
   onClose,
   onSave,
+  tableExtractionOptions,
 }: HtmlTableEditorModalProps) {
   const [drafts, setDrafts] = useState<TableDraft[]>([]);
   const [selectedTableId, setSelectedTableId] = useState("");
@@ -284,7 +287,7 @@ export function HtmlTableEditorModal({
       return;
     }
 
-    const matches = extractTablesFromMarkdown(markdown);
+    const matches = extractTablesFromMarkdown(markdown, tableExtractionOptions);
     const nextDrafts = matches.map(createDraft);
     setDrafts(nextDrafts);
     setSelectedTableId(nextDrafts.find((draft) => draft.id === initialTableId)?.id ?? nextDrafts[0]?.id ?? "");
@@ -293,7 +296,7 @@ export function HtmlTableEditorModal({
     setStatusMessage("");
     setErrorMessage("");
     setActiveTab("grid");
-  }, [initialTableId, isOpen, markdown]);
+  }, [initialTableId, isOpen, markdown, tableExtractionOptions]);
 
   if (!isOpen) {
     return null;

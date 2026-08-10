@@ -1,21 +1,19 @@
 {
   "chapter_number": "",
-  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
   "section": "7",
   "title": "MESSAGE DEFINITION",
   "business_rules": [
     {
       "rule_id": "CH-SEC7-R001",
-      "rule_description": "IF validations pass THEN recommend action: TDS41-MDS-XML-IPTDEC-M\nTrade Net Declaration.IPTDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nSender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents\nLogical Destinations\n: SC and CAs (if applicable)(via Trade Net system)\nResponse message: Trade Net Response message\n- for the Issuing Authorities to issue the respective Permit to the Declarant; refer to\nreference 2 for more details\n- for the Issuing Authorities to inform the Declarant on the rejection of\nthe declaration; refer to reference 3 for more details)\n- for the Issuing Authorities and Trade Net system to inform the Declarant\non the errors found when processing the declaration message; refer to\nreference 4 for more details)\n7.",
+      "rule_description": "7. MESSAGE DEFINITION\nRefer to reference 1, chapter 4, Message Definition. Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
       "trigger": "MESSAGE DEFINITION",
-      "condition": "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "condition": "Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
       "validation": "Not explicitly covered in uploaded documents.",
-      "action": "TDS41-MDS-XML-IPTDEC-M\nTrade Net Declaration.IPTDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nSender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents\nLogical Destinations\n: SC and CAs (if applicable)(via Trade Net system)\nResponse message: Trade Net Response message\n- for the Issuing Authorities to issue the respective Permit to the Declarant; refer to\nreference 2 for more details\n- for the Issuing Authorities to inform the Declarant on the rejection of\nthe declaration; refer to reference 3 for more details)\n- for the Issuing Authorities and Trade Net system to inform the Declarant\non the errors found when processing the declaration message; refer to\nreference 4 for more details)\n7.",
+      "action": "Manual review required.",
       "exception": "No explicit exception found in uploaded documents.",
       "output": "DEKAI should produce a compliance decision for 7 - MESSAGE DEFINITION."
     }
   ],
-  "ai_rules": [
-    "IF validations pass THEN recommend action: TDS41-MDS-XML-IPTDEC-M\nTrade Net Declaration.IPTDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nSender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents\nLogical Destinations\n: SC and CAs (if applicable)(via Trade Net system)\nResponse message: Trade Net Response message\n- for the Issuing Authorities to issue the respective Permit to the Declarant; refer to\nreference 2 for more details\n- for the Issuing Authorities to inform the Declarant on the rejection of\nthe declaration; refer to reference 3 for more details)\n- for the Issuing Authorities and Trade Net system to inform the Declarant\non the errors found when processing the declaration message; refer to\nreference 4 for more details)\n7."
-  ]
+  "ai_rules": []
 }

@@ -23,7 +23,7 @@ from parser.sql_generator import SQLGenerator
 from parser.text_cleaner import TextCleaner
 from parser.timeline_extractor import TimelineExtractor
 from parser.ui_generator import UIGenerator
-from parser.utils import safe_section_slug, write_json, write_text
+from parser.utils import safe_document_section_slug, write_json, write_text
 from parser.validation_extractor import ValidationExtractor
 from parser.exception_extractor import ExceptionExtractor
 from parser.workflow_extractor import WorkflowExtractor
@@ -159,7 +159,7 @@ class DGFTKnowledgePipeline:
         return document
 
     def _write_section_outputs(self, section: SectionKnowledge) -> None:
-        output_name = safe_section_slug(section.section, section.title)
+        output_name = safe_document_section_slug(section.source_document, section.section, section.title)
         markdown_path = CONFIG.markdown_dir / f"{output_name}.md"
         json_path = CONFIG.json_dir / f"{output_name}.json"
         rules_path = CONFIG.rules_dir / f"{output_name}.json"

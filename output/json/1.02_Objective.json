@@ -30,6 +30,60 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "1.02::section::0::objective",
+      "type": "section",
+      "title": "Objective",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.02 Objective\nThe objective is to implement provisions of FT (D&R) Act, Rules and Orders made\nthereunder and provisions of FTP by laying down simple, transparent and digitally\n(electronically) compatible procedures, which are user friendly and easy to comply\nwith and administer for efficient management of Foreign Trade.",
+      "parentId": "",
+      "sectionId": "1.02",
+      "sectionTitle": "Objective",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 4,
+      "searchAliases": [
+        "Objective"
+      ],
+      "childIds": [
+        "1.02::business_rule::1::objective"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 4
+    },
+    {
+      "id": "1.02::business_rule::1::objective",
+      "type": "business_rule",
+      "title": "Objective",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.02 Objective\nThe objective is to implement provisions of FT (D&R) Act, Rules and Orders made\nthereunder and provisions of FTP by laying down simple, transparent and digitally\n(electronically) compatible procedures, which are user friendly and easy to comply\nwith and administer for efficient management of Foreign Trade.",
+      "parentId": "1.02::section::0::objective",
+      "sectionId": "1.02",
+      "sectionTitle": "Objective",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Objective"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],

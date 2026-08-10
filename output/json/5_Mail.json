@@ -1,6 +1,6 @@
 {
   "chapter_number": "",
-  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
   "section": "5",
   "title": "Mail",
   "purpose": "Defines the operational requirements for Mail.",
@@ -30,6 +30,60 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "5::section::0::mail",
+      "type": "section",
+      "title": "Mail",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5: Mail",
+      "parentId": "",
+      "sectionId": "5",
+      "sectionTitle": "Mail",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Mail"
+      ],
+      "childIds": [
+        "5::business_rule::1::mail"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "5::business_rule::1::mail",
+      "type": "business_rule",
+      "title": "Mail",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5: Mail",
+      "parentId": "5::section::0::mail",
+      "sectionId": "5",
+      "sectionTitle": "Mail",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Mail"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],
@@ -204,12 +258,14 @@
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [
-    11
+    11,
+    12
   ],
   "pages": [
-    11
+    11,
+    12
   ],
-  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+  "source_document": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
   "raw_text": "5: Mail",
   "mermaid": "flowchart TD\n    S1[\"Review section 5 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
   "plantuml": "@startuml\nstart\n:Review section 5 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"

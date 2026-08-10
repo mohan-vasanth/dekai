@@ -57,6 +57,143 @@
     "a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "6.28::section::0::replacement-repair-of-imported-indigenous-goods",
+      "type": "section",
+      "title": "Replacement / Repair of Imported / Indigenous Goods",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.28 Replacement / Repair of Imported / Indigenous Goods\na) Units may send capital goods abroad for repair with permission of\nCustoms authorities. Any foreign exchange payment for this\npurpose will also be allowed. However, no permission will be\nrequired for sending capital goods for repair within country.\nb) EOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni. Transfer goods to DTA / abroad for repair / replacement,\ntesting or calibration and return.\nii. Transfer goods for quality testing / R&D purpose to any\nrecognized laboratory / institution upto Rs. 10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods. However, if goods have been consumed /\ndestroyed in process of testing etc. a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.\n6.28 Replacement / Repair of Imported / Indigenous Goods\na)\nUnits may send capital goods abroad for repair with permission of\nCustoms authorities. Any foreign exchange payment for this\npurpose will also be allowed. However, no permission will be\nrequired for sending capital goods for repair within country.\nb)\nEOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni.\nTransfer goods to DTA / abroad for repair / replacement,\ntesting or calibration and return.\nii.\nTransfer goods for quality testing / R&D purpose to any\nrecognized laboratory / institution upto Rs. 10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods. However, if goods have been consumed /\ndestroyed in process of testing etc. a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.",
+      "parentId": "",
+      "sectionId": "6.28",
+      "sectionTitle": "Replacement / Repair of Imported / Indigenous Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 37,
+      "searchAliases": [
+        "Replacement / Repair of Imported / Indigenous Goods",
+        "Replacement Repair of Imported Indigenous Goods",
+        "ReplacementRepairofImportedIndigenousGoods"
+      ],
+      "childIds": [
+        "6.28::exception::1::exceptions",
+        "6.28::exception::2::exceptions",
+        "6.28::validation::3::validation-rules",
+        "6.28::business_rule::4::replacement-repair-of-imported-indigenous-goods"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 37
+    },
+    {
+      "id": "6.28::exception::1::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "However, no permission will be\nrequired for sending capital goods for repair within country.",
+      "parentId": "6.28::section::0::replacement-repair-of-imported-indigenous-goods",
+      "sectionId": "6.28",
+      "sectionTitle": "Replacement / Repair of Imported / Indigenous Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.28::exception::2::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "However, if goods have been consumed /\ndestroyed in process of testing etc.",
+      "parentId": "6.28::section::0::replacement-repair-of-imported-indigenous-goods",
+      "sectionId": "6.28",
+      "sectionTitle": "Replacement / Repair of Imported / Indigenous Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.28::validation::3::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "However, no permission will be\nrequired for sending capital goods for repair within country.",
+      "parentId": "6.28::section::0::replacement-repair-of-imported-indigenous-goods",
+      "sectionId": "6.28",
+      "sectionTitle": "Replacement / Repair of Imported / Indigenous Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.28::business_rule::4::replacement-repair-of-imported-indigenous-goods",
+      "type": "business_rule",
+      "title": "Replacement / Repair of Imported / Indigenous Goods",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: Any foreign exchange payment for this\npurpose will also be allowed.",
+      "parentId": "6.28::section::0::replacement-repair-of-imported-indigenous-goods",
+      "sectionId": "6.28",
+      "sectionTitle": "Replacement / Repair of Imported / Indigenous Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Replacement / Repair of Imported / Indigenous Goods",
+        "Replacement Repair of Imported Indigenous Goods",
+        "ReplacementRepairofImportedIndigenousGoods"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "Customs"
   ],

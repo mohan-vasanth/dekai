@@ -48,6 +48,89 @@
     "4.29 Admissibility of drawback in case of rejection of application\nCustoms authorities in terms of Do R rules against shipping bills filed and processed\nunder an Advance Authorisation, in case application for an Advance Authorisation is\nrejected or modified by Regional Authority, may permit drawback."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4.29::section::0::admissibility-of-drawback-in-case-of-rejection-o",
+      "type": "section",
+      "title": "Admissibility of drawback in case of rejection of application",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.29 Admissibility of drawback in case of rejection of application\nCustoms authorities in terms of Do R rules against shipping bills filed and processed\nunder an Advance Authorisation, in case application for an Advance Authorisation is\nrejected or modified by Regional Authority, may permit drawback.",
+      "parentId": "",
+      "sectionId": "4.29",
+      "sectionTitle": "Admissibility of drawback in case of rejection of application",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 14,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Admissibility of drawback in case of rejection of application",
+        "Admissibilityofdrawbackincaseofrejectionofapplication"
+      ],
+      "childIds": [
+        "4.29::validation::1::validation-rules",
+        "4.29::business_rule::2::admissibility-of-drawback-in-case-of-rejection-o"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "4.29::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.29 Admissibility of drawback in case of rejection of application\nCustoms authorities in terms of Do R rules against shipping bills filed and processed\nunder an Advance Authorisation, in case application for an Advance Authorisation is\nrejected or modified by Regional Authority, may permit drawback.",
+      "parentId": "4.29::section::0::admissibility-of-drawback-in-case-of-rejection-o",
+      "sectionId": "4.29",
+      "sectionTitle": "Admissibility of drawback in case of rejection of application",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 14,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.29::business_rule::2::admissibility-of-drawback-in-case-of-rejection-o",
+      "type": "business_rule",
+      "title": "Admissibility of drawback in case of rejection of application",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 4.29 Admissibility of drawback in case of rejection of application\nCustoms authorities in terms of Do R rules against shipping bills filed and processed\nunder an Advance Authorisation, in case application for an Advance Authorisation is\nrejected or modified by Regional Authority, may permit drawback.",
+      "parentId": "4.29::section::0::admissibility-of-drawback-in-case-of-rejection-o",
+      "sectionId": "4.29",
+      "sectionTitle": "Admissibility of drawback in case of rejection of application",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 14,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Admissibility of drawback in case of rejection of application",
+        "Admissibilityofdrawbackincaseofrejectionofapplication"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "Regional Authority",
     "Customs"

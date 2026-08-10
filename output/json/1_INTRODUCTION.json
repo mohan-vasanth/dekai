@@ -1,6 +1,6 @@
 {
   "chapter_number": "",
-  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
   "section": "1",
   "title": "INTRODUCTION",
   "purpose": "INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.",
@@ -56,6 +56,87 @@
     "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "1::section::0::introduction",
+      "type": "section",
+      "title": "INTRODUCTION",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1. INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.\nThis document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+      "parentId": "",
+      "sectionId": "1",
+      "sectionTitle": "INTRODUCTION",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 4,
+      "searchAliases": [
+        "INTRODUCTION"
+      ],
+      "childIds": [
+        "1::validation::1::validation-rules",
+        "1::business_rule::2::introduction"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 4
+    },
+    {
+      "id": "1::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+      "parentId": "1::section::0::introduction",
+      "sectionId": "1",
+      "sectionTitle": "INTRODUCTION",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "1::business_rule::2::introduction",
+      "type": "business_rule",
+      "title": "INTRODUCTION",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+      "parentId": "1::section::0::introduction",
+      "sectionId": "1",
+      "sectionTitle": "INTRODUCTION",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "INTRODUCTION"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "Customs",
     "This specification provides the definition of the Customs",
@@ -348,7 +429,7 @@
   "pages": [
     2
   ],
-  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+  "source_document": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
   "raw_text": "1. INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.\nThis document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
   "mermaid": "flowchart TD\n    S1[\"Evaluate condition: INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.\"]\n    S2[\"Evaluate condition: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.\"]\n    S1 --> S2\n    S3[\"Run validation: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.\"]\n    S2 --> S3",
   "plantuml": "@startuml\nstart\n:Evaluate condition\\: INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.;\n:Evaluate condition\\: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.;\n:Run validation\\: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.;\nstop\n@enduml"

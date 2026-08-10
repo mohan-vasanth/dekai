@@ -1,26 +1,23 @@
 [
   {
     "chunk_id": "6-table-2",
-    "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+    "document_name": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
     "chapter_number": "",
-    "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+    "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
     "section": "6",
     "title": "MESSAGE FUNCTION Table 2",
     "chunk_index": 1,
-    "text": "MESSAGE FUNCTION Table 2 Columns: Code, Declaration Type, Transfer Conditions Code: DUT; Declaration Type: Duty; Transfer Conditions: To allow the Declarant to submit Declarations such as anti-dumping duties, excise for local manufacturing, previously exempted vehicles and short payment Code: GST; Declaration Type: GST (including duty exemption); Transfer Conditions: To allow the Declarant to submit Declarations such as: a) non-dutiable HS for i) direct import ii) release from FTZ to customs territories iii) release from BW to customs territories and, iv) release of Class II cargoes from BWCY b) dutiable HS i) Motor vehicles ii) Ethyl alcohol for lab use iii) Industrial exemption iv) Beer for SAF c) Short Payment d) Auction cargoes release from FTZ or local cargoes which entered ALPS & subsequently enter customs territory Code: DNG; Declaration Type: Duty & GST; Transfer Conditions: To allow the Declarant to submit Declarations such as: a) Direct import b) Local manufacturing c) Sale of: i) embassy vehicles to others ii) vehicles by foreign armed forces iii) vehicles by disabled persons",
+    "text": "MESSAGE FUNCTION Table 2 Columns: Code, Declaration Type, Transfer Conditions Code: TTI Code: TTF Code: IGM Code: REM Code: BRE",
     "keywords": [
       "Code",
       "Declaration Type",
       "Transfer Conditions",
-      "DUT",
-      "Duty",
-      "To allow the Declarant to submit Declarations such as anti-dumping duties, excise for local manufacturing, previously exempted vehicles and short payment",
-      "GST",
-      "GST (including duty exemption)",
-      "To allow the Declarant to submit Declarations such as: a) non-dutiable HS for i) direct import ii) release from FTZ to customs territories iii) release from BW to customs territories and, iv) release of Class II cargoes from BWCY b) dutiable HS i) Motor vehicles ii) Ethyl alcohol for lab use iii) Industrial exemption iv) Beer for SAF c) Short Payment d) Auction cargoes release from FTZ or local cargoes which entered ALPS & subsequently enter customs territory",
-      "DNG",
-      "Duty & GST",
-      "To allow the Declarant to submit Declarations such as: a) Direct import b) Local manufacturing c) Sale of: i) embassy vehicles to others ii) vehicles by foreign armed forces iii) vehicles by disabled persons",
+      "TTI",
+      "Transhipment with Inter-gateway movement",
+      "TTF",
+      "Transhipment within same FTZ",
+      "IGM",
+      "Inter-gateway movement",
       "The",
       "Net",
       "and",
@@ -52,24 +49,28 @@
     "hs_codes": [],
     "exim_codes": [],
     "description": "Table columns: Code, Declaration Type, Transfer Conditions",
-    "chunk_hash": "c311a4a63f674e6463e5822c008d9c9fafe0f522",
+    "chunk_hash": "a55d420ac526cf6eb1f1f3b27ebf6ff9625beff5",
     "is_table_row": false,
     "heading": "MESSAGE FUNCTION",
     "field_names": [
       "Code",
       "Declaration Type",
       "Transfer Conditions"
-    ]
+    ],
+    "tag_name": "MESSAGE FUNCTION",
+    "normalized_tag_name": "MESSAGEFUNCTION",
+    "namespace": "",
+    "xml_fields": []
   },
   {
     "chunk_id": "6-table-2-row-1",
-    "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+    "document_name": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
     "chapter_number": "",
-    "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+    "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
     "section": "6",
     "title": "MESSAGE FUNCTION Table 2 Row 1",
     "chunk_index": 2,
-    "text": "Code: DUT; Declaration Type: Duty; Transfer Conditions: To allow the Declarant to submit Declarations such as anti-dumping duties, excise for local manufacturing, previously exempted vehicles and short payment",
+    "text": "Code: TTI",
     "keywords": [
       "Code",
       "Declaration Type",
@@ -79,9 +80,9 @@
       "and",
       "for",
       "are",
-      "DUT",
-      "GST",
-      "FTZ"
+      "TTI",
+      "FTZ",
+      "TTF"
     ],
     "intent": "Support MESSAGE FUNCTION processing and compliance validation.",
     "tags": [
@@ -107,24 +108,28 @@
     "hs_codes": [],
     "exim_codes": [],
     "description": "Table row 1 in MESSAGE FUNCTION",
-    "chunk_hash": "2415d74c81ff45ecd2f1eb35e1844c364e623994",
+    "chunk_hash": "6e3f717501f0df17d750c25e1d5df23964327ee9",
     "is_table_row": true,
     "heading": "MESSAGE FUNCTION",
     "field_names": [
       "Code",
       "Declaration Type",
       "Transfer Conditions"
-    ]
+    ],
+    "tag_name": "Code: TTI",
+    "normalized_tag_name": "TTI",
+    "namespace": "",
+    "xml_fields": []
   },
   {
     "chunk_id": "6-table-2-row-2",
-    "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+    "document_name": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
     "chapter_number": "",
-    "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+    "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
     "section": "6",
     "title": "MESSAGE FUNCTION Table 2 Row 2",
     "chunk_index": 3,
-    "text": "Code: GST; Declaration Type: GST (including duty exemption); Transfer Conditions: To allow the Declarant to submit Declarations such as: a) non-dutiable HS for i) direct import ii) release from FTZ to customs territories iii) release from BW to customs territories and, iv) release of Class II cargoes from BWCY b) dutiable HS i) Motor vehicles ii) Ethyl alcohol for lab use iii) Industrial exemption iv) Beer for SAF c) Short Payment d) Auction cargoes release from FTZ or local cargoes which entered ALPS & subsequently enter customs territory",
+    "text": "Code: TTF",
     "keywords": [
       "Code",
       "Declaration Type",
@@ -134,9 +139,9 @@
       "and",
       "for",
       "are",
-      "DUT",
-      "GST",
-      "FTZ"
+      "TTI",
+      "FTZ",
+      "TTF"
     ],
     "intent": "Support MESSAGE FUNCTION processing and compliance validation.",
     "tags": [
@@ -162,24 +167,28 @@
     "hs_codes": [],
     "exim_codes": [],
     "description": "Table row 2 in MESSAGE FUNCTION",
-    "chunk_hash": "0830c4ad819a23148b53f80d594cd1b086e40903",
+    "chunk_hash": "2a49b6da9e0c8dabf8e6f24038b89dbfa6cb7363",
     "is_table_row": true,
     "heading": "MESSAGE FUNCTION",
     "field_names": [
       "Code",
       "Declaration Type",
       "Transfer Conditions"
-    ]
+    ],
+    "tag_name": "Code: TTF",
+    "normalized_tag_name": "TTF",
+    "namespace": "",
+    "xml_fields": []
   },
   {
     "chunk_id": "6-table-2-row-3",
-    "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+    "document_name": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
     "chapter_number": "",
-    "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+    "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
     "section": "6",
     "title": "MESSAGE FUNCTION Table 2 Row 3",
     "chunk_index": 4,
-    "text": "Code: DNG; Declaration Type: Duty & GST; Transfer Conditions: To allow the Declarant to submit Declarations such as: a) Direct import b) Local manufacturing c) Sale of: i) embassy vehicles to others ii) vehicles by foreign armed forces iii) vehicles by disabled persons",
+    "text": "Code: IGM",
     "keywords": [
       "Code",
       "Declaration Type",
@@ -189,9 +198,9 @@
       "and",
       "for",
       "are",
-      "DUT",
-      "GST",
-      "FTZ"
+      "TTI",
+      "FTZ",
+      "TTF"
     ],
     "intent": "Support MESSAGE FUNCTION processing and compliance validation.",
     "tags": [
@@ -217,86 +226,40 @@
     "hs_codes": [],
     "exim_codes": [],
     "description": "Table row 3 in MESSAGE FUNCTION",
-    "chunk_hash": "bf21b3db65f649c2e6d274083b704ed02912ca69",
+    "chunk_hash": "707b1a21c8e947beab7e5aaae4764020c7fa5a59",
     "is_table_row": true,
     "heading": "MESSAGE FUNCTION",
     "field_names": [
       "Code",
       "Declaration Type",
       "Transfer Conditions"
-    ]
+    ],
+    "tag_name": "Code: IGM",
+    "normalized_tag_name": "IGM",
+    "namespace": "",
+    "xml_fields": []
   },
   {
-    "chunk_id": "6-table-3",
-    "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+    "chunk_id": "6-table-2-row-4",
+    "document_name": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
     "chapter_number": "",
-    "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+    "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
     "section": "6",
-    "title": "MESSAGE FUNCTION Table 3",
+    "title": "MESSAGE FUNCTION Table 2 Row 4",
     "chunk_index": 5,
-    "text": "d) Release of goods from FTZ e) Release of goods from LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty Columns: d) Release of goods from FTZ e) Release of goods from LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty d) Release of goods from FTZ e) Release of goods from LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty: BKT",
+    "text": "Code: REM",
     "keywords": [
-      "d) Release of goods from FTZ e) Release of goods from LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty",
-      "BKT",
-      "Blanket",
-      "To allow the Declarant to submit Declarations such as: a) gas b) water c) video tapes d) petroleum",
+      "Code",
+      "Declaration Type",
+      "Transfer Conditions",
       "The",
       "Net",
       "and",
       "for",
       "are",
-      "DUT",
-      "GST",
-      "FTZ"
-    ],
-    "intent": "Support MESSAGE FUNCTION processing and compliance validation.",
-    "tags": [
-      "6",
-      "MESSAGE FUNCTION",
-      "document-driven",
-      "dgft",
-      "table",
-      "table-block"
-    ],
-    "related_sections": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "8"
-    ],
-    "source_pages": [
-      6,
-      7,
-      8
-    ],
-    "hs_codes": [],
-    "exim_codes": [],
-    "description": "Table columns: d) Release of goods from FTZ e) Release of goods from LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty",
-    "chunk_hash": "217645b3e2036bb10be0e37f91eb0e810d3fce0b",
-    "is_table_row": false,
-    "heading": "MESSAGE FUNCTION",
-    "field_names": []
-  },
-  {
-    "chunk_id": "6-table-3-row-1",
-    "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
-    "chapter_number": "",
-    "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
-    "section": "6",
-    "title": "MESSAGE FUNCTION Table 3 Row 1",
-    "chunk_index": 6,
-    "text": "d) Release of goods from FTZ e) Release of goods from LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty: BKT",
-    "keywords": [
-      "d) Release of goods from FTZ e) Release of goods from LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty",
-      "The",
-      "Net",
-      "and",
-      "for",
-      "are",
-      "DUT",
-      "GST",
-      "FTZ"
+      "TTI",
+      "FTZ",
+      "TTF"
     ],
     "intent": "Support MESSAGE FUNCTION processing and compliance validation.",
     "tags": [
@@ -321,39 +284,104 @@
     ],
     "hs_codes": [],
     "exim_codes": [],
-    "description": "Table row 1 in MESSAGE FUNCTION",
-    "chunk_hash": "729661db376d12c481ccd7cb9f6788f4c661ad0b",
+    "description": "Table row 4 in MESSAGE FUNCTION",
+    "chunk_hash": "c34a7caaa4c51348baaab4e422b413ba84b97352",
     "is_table_row": true,
     "heading": "MESSAGE FUNCTION",
     "field_names": [
-      "d) Release of goods from FTZ e) Release of goods from LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty"
-    ]
+      "Code",
+      "Declaration Type",
+      "Transfer Conditions"
+    ],
+    "tag_name": "Code: REM",
+    "normalized_tag_name": "REM",
+    "namespace": "",
+    "xml_fields": []
+  },
+  {
+    "chunk_id": "6-table-2-row-5",
+    "document_name": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+    "chapter_number": "",
+    "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
+    "section": "6",
+    "title": "MESSAGE FUNCTION Table 2 Row 5",
+    "chunk_index": 6,
+    "text": "Code: BRE",
+    "keywords": [
+      "Code",
+      "Declaration Type",
+      "Transfer Conditions",
+      "The",
+      "Net",
+      "and",
+      "for",
+      "are",
+      "TTI",
+      "FTZ",
+      "TTF"
+    ],
+    "intent": "Support MESSAGE FUNCTION processing and compliance validation.",
+    "tags": [
+      "6",
+      "MESSAGE FUNCTION",
+      "document-driven",
+      "dgft",
+      "table",
+      "table-row"
+    ],
+    "related_sections": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "source_pages": [
+      6,
+      7,
+      8
+    ],
+    "hs_codes": [],
+    "exim_codes": [],
+    "description": "Table row 5 in MESSAGE FUNCTION",
+    "chunk_hash": "aae4f2cdb2d9166550c7442fa174e7f065a9dc01",
+    "is_table_row": true,
+    "heading": "MESSAGE FUNCTION",
+    "field_names": [
+      "Code",
+      "Declaration Type",
+      "Transfer Conditions"
+    ],
+    "tag_name": "Code: BRE",
+    "normalized_tag_name": "BRE",
+    "namespace": "",
+    "xml_fields": []
   },
   {
     "chunk_id": "6-7",
-    "document_name": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+    "document_name": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
     "chapter_number": "",
-    "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+    "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
     "section": "6",
     "title": "MESSAGE FUNCTION",
     "chunk_index": 7,
-    "text": "6. MESSAGE FUNCTION The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export or transit. Transfer conditions are: Code Declaration Type Transfer Conditions DUT Duty To allow the Declarant to submit Declarations such as anti-dumping duties, excise for local manufacturing, previously exempted vehicles and short payment GST GST (including duty exemption) To allow the Declarant to submit Declarations such as: a) non-dutiable HS for i) direct import ii) release from FTZ to customs territories iii) release from BW to customs territories and, iv) release of Class II cargoes from BWCY b) dutiable HS i) Motor vehicles ii) Ethyl alcohol for lab use iii) Industrial exemption iv) Beer for SAF c) Short Payment d) Auction cargoes release from FTZ or local cargoes which entered ALPS & subsequently enter customs territory DNG Duty & GST To allow the Declarant to submit Declarations such as: a) Direct import b) Local manufacturing c) Sale of: i) embassy vehicles to others ii) vehicles by foreign armed forces iii) vehicles by disabled persons Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC) OFFICIAL (CLOSED) Prepared by: TDS41-MDS-XML-IPTDEC-M Code | Declaration Type | Transfer Conditions DUT | Duty | To allow the Declarant to submit Declarations such as anti-dumping duties, excise for local manufacturing, previously exempted vehicles and short payment GST | GST (including duty exemption) | To allow the Declarant to submit Declarations such as: a) non-dutiable HS for i) direct import ii) release from FTZ to customs territories iii) release from BW to customs territories and, iv) release of Class II cargoes from BWCY b) dutiable HS i) Motor vehicles ii) Ethyl alcohol for lab use iii) Industrial exemption iv) Beer for SAF c) Short Payment d) Auction cargoes release from FTZ or local cargoes which entered ALPS & subsequently enter customs territory DNG | Duty & GST | To allow the Declarant to submit Declarations such as: a) Direct import b) Local manufacturing c) Sale of: i) embassy vehicles to others ii) vehicles by foreign armed forces iii) vehicles by disabled persons OFFICIAL (CLOSED) TRADENET MESSAGE 18/11/2021 11:10 AM Prepared by: For: Release Date 18/11/2021 Ver 4.1 Reference TRADENET Document Id. TDS41-MDS-XML-IPTDEC-M Trade Net Declaration.IPTDEC Ver2.1.doc OFFICIAL (CLOSED) 6. MESSAGE FUNCTION The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export or transit. Transfer conditions are: Code Declaration Type Transfer Conditions DUT Duty To allow the Declarant to submit Declarations such as anti-dumping duties, excise for local manufacturing, previously exempted vehicles and short payment GST GST (including duty exemption) To allow the Declarant to submit Declarations such as: a) non-dutiable HS for i) direct import ii) release from FTZ to customs territories iii) release from BW to customs territories and, iv) release of Class II cargoes from BWCY b) dutiable HS i) Motor vehicles ii) Ethyl alcohol for lab use iii) Industrial exemption iv) Beer for SAF c) Short Payment d) Auction cargoes release from FTZ or local cargoes which entered ALPS & subsequently enter customs territory DNG Duty & GST To allow the Declarant to submit Declarations such as: a) Direct import b) Local manufacturing c) Sale of: i) embassy vehicles to others ii) vehicles by foreign armed forces iii) vehicles by disabled persons OFFICIAL (CLOSED) AM d) Release of goods from FTZ e) Release of goods from LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty BKT Blanket To allow the Declarant to submit Declarations such as: a) gas b) water c) video tapes d) petroleum Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC) OFFICIAL (CLOSED) Prepared by: TDS41-MDS-XML-IPTDEC-M | | d) Release of goods from FTZ e) Release of goods from LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty BKT | Blanket | To allow the Declarant LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty BKT Blanket To allow the Declarant to submit Declarations such as: a) gas b) water c) video tapes d) petroleum Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC) OFFICIAL (CLOSED) Prepared by: TDS41-MDS-XML-IPTDEC-M | | d) Release of goods from FTZ e) Release of goods from LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty BKT | Blanket | To allow the Declarant to submit Declarations such as: a) gas b) water c) video tapes d) petroleum OFFICIAL (CLOSED) TRADENET MESSAGE 18/11/2021 11:10 AM Prepared by: For: Release Date 18/11/2021 Ver 4.1 Reference TRADENET Document Id. TDS41-MDS-XML-IPTDEC-M Trade Net Declaration.IPTDEC Ver2.1.doc OFFICIAL (CLOSED) d) Release of goods from FTZ e) Release of goods from LW f) Release of AD goods from FTZ g) Release of Class II cargoes from BWCY h) Short payment of GST and duty BKT Blanket To allow the Declarant to submit Declarations such as: a) gas b) water c) video tapes d) petroleum OFFICIAL (CLOSED) AM Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents Logical Destinations: SC and CAs (if applicable)(via Trade Net system) Response message: Trade Net Response message - for the Issuing Authorities to issue the respective Permit to the Declarant; refer to reference 2 for more details - for the Issuing Authorities to inform the Declarant on the rejection of the declaration; refer to reference 3 for more details) - for the Issuing Authorities and Trade Net system to inform the Declarant on the errors found when processing the declaration message; refer to reference 4 for more details)",
+    "text": "6. MESSAGE FUNCTION The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export or transit. Transfer conditions are: Code Declaration Type Transfer Conditions TTI Transhipment with Inter-gateway To allow the Declarant to submit Declarations such as: movement a) movement of goods between FTZ for transhipment b) storage of goods at approved Class II Yard pending transshipment TTF Transhipment within same FTZ To allow the Declarant to submit Declarations such as: a) internal delivery of goods within the same FTZ IGM Inter-gateway movement To allow the Declarant to submit Declarations such as: a) movement of goods between FTZ for bulk breaking or storage b) bonded Truck Scheme (for courier parcel transhipment) REM Removal To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse b) movement of goods under TIS BRE Blanket Removal To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC) OFFICIAL (CLOSED) Prepared by: TDS41-MDS-XML-TNPDEC-M | Code | | | Declaration Type | | | Transfer Conditions | TTI | | | Transhipment with Inter-gateway movement | | | To allow the Declarant to submit Declarations such as: a) movement of goods between FTZ for transhipment b) storage of goods at approved Class II Yard pending transshipment | | TTF | | | Transhipment within same FTZ | | | To allow the Declarant to submit Declarations such as: a) internal delivery of goods within the same FTZ | | IGM | | | Inter-gateway movement | | | To allow the Declarant to submit Declarations such as: a) movement of goods between FTZ for bulk breaking or storage b) bonded Truck Scheme (for courier parcel transhipment) | | REM | | | Removal | | | To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse b) movement of goods under TIS | | BRE | | | Blanket Removal | | | To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse | | OFFICIAL (CLOSED) TRADENET MESSAGE 18/11/2021 11:13 AM Prepared by: For: Release Date 18/11/2021 Ver 4.1 Reference TRADENET Document Id. TDS41-MDS-XML-TNPDEC-M Trade Net Declaration.TNPDEC Ver2.1.doc OFFICIAL (CLOSED) 6. MESSAGE FUNCTION The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export or transit. Transfer conditions are: Code Declaration Type Transfer Conditions TTI Transhipment with Inter-gateway movement To allow the Declarant to submit Declarations such as: a) movement of goods between FTZ for transhipment b) storage of goods at approved Class II Yard pending transshipment TTF Transhipment within same FTZ To allow the Declarant to submit Declarations such as: a) internal delivery of goods within the same FTZ IGM Inter-gateway movement To allow the Declarant to submit Declarations such as: a) movement of goods between FTZ for bulk breaking or storage b) bonded Truck Scheme (for courier parcel transhipment) REM Removal To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse b) movement of goods under TIS BRE Blanket Removal To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse OFFICIAL (CLOSED) AM Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents Logical Destinations: SC and CAs (if applicable)(via Trade Net system) Response message: Trade Net Response message - for the Issuing Authorities to issue the respective Permit to the Declarant; refer to reference 2 for more details - for the Issuing Authorities to inform the as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse b) movement of goods under TIS BRE Blanket Removal To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse OFFICIAL (CLOSED) AM Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents Logical Destinations: SC and CAs (if applicable)(via Trade Net system) Response message: Trade Net Response message - for the Issuing Authorities to issue the respective Permit to the Declarant; refer to reference 2 for more details - for the Issuing Authorities to inform the Declarant on the rejection of the declaration; refer to reference 3 for more details) - for the Issuing Authorities and Trade Net system to inform the Declarant on the errors found when processing the declaration message; refer to reference 4 for more details) Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC) OFFICIAL (CLOSED) Prepared by: TDS41-MDS-XML-TNPDEC-M OFFICIAL (CLOSED) TRADENET MESSAGE 18/11/2021 11:13 AM Prepared by: For: Release Date 18/11/2021 Ver 4.1 Reference TRADENET Document Id. TDS41-MDS-XML-TNPDEC-M Trade Net Declaration.TNPDEC Ver2.1.doc OFFICIAL (CLOSED) Sender : Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents Logical Destinations : SC and CAs (if applicable)(via Trade Net system) Response message: Trade Net Response message - for the Issuing Authorities to issue the respective Permit to the Declarant; refer to reference 2 for more details - for the Issuing Authorities to inform the Declarant on the rejection of the declaration; refer to reference 3 for more details) - for the Issuing Authorities and Trade Net system to inform the Declarant on the errors found when processing the declaration message; refer to reference 4 for more details) OFFICIAL (CLOSED) AM",
     "keywords": [
       "The",
       "Net",
       "and",
       "for",
       "are",
-      "DUT",
-      "GST",
+      "TTI",
       "FTZ",
-      "iii",
-      "lab",
-      "use",
-      "SAF",
-      "DNG",
+      "TTF",
+      "IGM",
+      "REM",
+      "TIS",
+      "BRE",
       "doc",
-      "XML"
+      "XML",
+      "Ver"
     ],
     "intent": "Support MESSAGE FUNCTION processing and compliance validation.",
     "tags": [
@@ -381,9 +409,13 @@
       "202111"
     ],
     "description": "",
-    "chunk_hash": "6c6cfdd67f31731950f1848fb00ce2b82eb5965a",
+    "chunk_hash": "dc61a0b0c52a5b4d06243d2aef7fc5601b233add",
     "is_table_row": false,
     "heading": "",
-    "field_names": []
+    "field_names": [],
+    "tag_name": "6. MESSAGE FUNCTION The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export or transit. Transfer conditions are: Code Declaration Type Transfer Conditions TTI Transhipment with Inter-gateway To allow the Declarant to submit Declarations such as: movement a) movement of goods between FTZ for transhipment b) storage of goods at approved Class II Yard pending transshipment TTF Transhipment within same FTZ To allow the Declarant to submit Declarations such as: a) internal delivery of goods within the same FTZ IGM Inter-gateway movement To allow the Declarant to submit Declarations such as: a) movement of goods between FTZ for bulk breaking or storage b) bonded Truck Scheme (for courier parcel transhipment) REM Removal To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse b) movement of goods under TIS BRE Blanket Removal To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC) OFFICIAL (CLOSED) Prepared by: TDS41-MDS-XML-TNPDEC-M | Code | | | Declaration Type | | | Transfer Conditions | TTI | | | Transhipment with Inter-gateway movement | | | To allow the Declarant to submit Declarations such as: a) movement of goods between FTZ for transhipment b) storage of goods at approved Class II Yard pending transshipment | | TTF | | | Transhipment within same FTZ | | | To allow the Declarant to submit Declarations such as: a) internal delivery of goods within the same FTZ | | IGM | | | Inter-gateway movement | | | To allow the Declarant to submit Declarations such as: a) movement of goods between FTZ for bulk breaking or storage b) bonded Truck Scheme (for courier parcel transhipment) | | REM | | | Removal | | | To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse b) movement of goods under TIS | | BRE | | | Blanket Removal | | | To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse | | OFFICIAL (CLOSED) TRADENET MESSAGE 18/11/2021 11:13 AM Prepared by: For: Release Date 18/11/2021 Ver 4.1 Reference TRADENET Document Id. TDS41-MDS-XML-TNPDEC-M Trade Net Declaration.TNPDEC Ver2.1.doc OFFICIAL (CLOSED) 6. MESSAGE FUNCTION The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export or transit. Transfer conditions are: Code Declaration Type Transfer Conditions TTI Transhipment with Inter-gateway movement To allow the Declarant to submit Declarations such as: a) movement of goods between FTZ for transhipment b) storage of goods at approved Class II Yard pending transshipment TTF Transhipment within same FTZ To allow the Declarant to submit Declarations such as: a) internal delivery of goods within the same FTZ IGM Inter-gateway movement To allow the Declarant to submit Declarations such as: a) movement of goods between FTZ for bulk breaking or storage b) bonded Truck Scheme (for courier parcel transhipment) REM Removal To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse b) movement of goods under TIS BRE Blanket Removal To allow the Declarant to submit Declarations such as: a) movement of goods between licensed premises such as Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded Warehouse OFFICIAL (CLOSED) AM Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents Logical Destinations: SC and CAs (if applicable)(via Trade Net system) Response message: Trade Net Response message - for the Issuing Authorities to issue the respective Permit to the Declarant; refer to reference 2 for more details - for the Issuing Authorities to inform the",
+    "normalized_tag_name": "CodeDeclarationTypeTransferConditionsTTITranshipmentWithInterGatewayToAllowTheDeclarantToSubmitDeclarationsSuchAsMovementAMovementOfGoodsBetweenFTZForTranshipmentBStorageOfGoodsAtApprovedClassIIYardPendingTransshipmentTTFTranshipmentWithinSameFTZToAllowTheDeclarantToSubmitDeclarationsSuchAsAInternalDeliveryOfGoodsWithinTheSameFTZIGMInterGatewayMovementToAllowTheDeclarantToSubmitDeclarationsSuchAsAMovementOfGoodsBetweenFTZForBulkBreakingOrStorageBBondedTruckSchemeForCourierParcelTranshipmentREMRemovalToAllowTheDeclarantToSubmitDeclarationsSuchAsAMovementOfGoodsBetweenLicensedPremisesSuchAsLicensedWarehouseExciseFactoryZeroGSTWarehouseBondedWarehouseBMovementOfGoodsUnderTISBREBlanketRemovalToAllowTheDeclarantToSubmitDeclarationsSuchAsAMovementOfGoodsBetweenLicensedPremisesSuchAsLicensedWarehouseExciseFactoryZeroGSTWarehouseBondedWarehouseTradeNetDeclarationTNPDECVer21DocMessageSpecificationXMLTNPDECOFFICIALCLOSEDPreparedByTDS41MDSXMLTNPDECMCodeDeclarationTypeTransferConditionsTTITranshipmentWithInterGatewayMovementToAllowTheDeclarantToSubmitDeclarationsSuchAsAMovementOfGoodsBetweenFTZForTranshipmentBStorageOfGoodsAtApprovedClassIIYardPendingTransshipmentTTFTranshipmentWithinSameFTZToAllowTheDeclarantToSubmitDeclarationsSuchAsAInternalDeliveryOfGoodsWithinTheSameFTZIGMInterGatewayMovementToAllowTheDeclarantToSubmitDeclarationsSuchAsAMovementOfGoodsBetweenFTZForBulkBreakingOrStorageBBondedTruckSchemeForCourierParcelTranshipmentREMRemovalToAllowTheDeclarantToSubmitDeclarationsSuchAsAMovementOfGoodsBetweenLicensedPremisesSuchAsLicensedWarehouseExciseFactoryZeroGSTWarehouseBondedWarehouseBMovementOfGoodsUnderTISBREBlanketRemovalToAllowTheDeclarantToSubmitDeclarationsSuchAsAMovementOfGoodsBetweenLicensedPremisesSuchAsLicensedWarehouseExciseFactoryZeroGSTWarehouseBondedWarehouseOFFICIALCLOSEDTRADENETMESSAGE181120211113AMPreparedByForReleaseDate18112021Ver41ReferenceTRADENETDocumentIdTDS41MDSXMLTNPDECMTradeNetDeclarationTNPDECVer21DocOFFICIALCLOSED6MESSAGEFUNCTIONTheTradeNetDeclarationMessagePermitsTheTransferOfDataFromTheDeclarantToSCAndCAIfApplicableForThePurposeOfMeetingLegislativeAndOrOperationalRequirementsInRespectOfTheDeclarationOfGoodsForImportExportOrTransitTransferConditionsAreCodeDeclarationTypeTransferConditionsTTITranshipmentWithInterGatewayMovementToAllowTheDeclarantToSubmitDeclarationsSuchAsAMovementOfGoodsBetweenFTZForTranshipmentBStorageOfGoodsAtApprovedClassIIYardPendingTransshipmentTTFTranshipmentWithinSameFTZToAllowTheDeclarantToSubmitDeclarationsSuchAsAInternalDeliveryOfGoodsWithinTheSameFTZIGMInterGatewayMovementToAllowTheDeclarantToSubmitDeclarationsSuchAsAMovementOfGoodsBetweenFTZForBulkBreakingOrStorageBBondedTruckSchemeForCourierParcelTranshipmentREMRemovalToAllowTheDeclarantToSubmitDeclarationsSuchAsAMovementOfGoodsBetweenLicensedPremisesSuchAsLicensedWarehouseExciseFactoryZeroGSTWarehouseBondedWarehouseBMovementOfGoodsUnderTISBREBlanketRemovalToAllowTheDeclarantToSubmitDeclarationsSuchAsAMovementOfGoodsBetweenLicensedPremisesSuchAsLicensedWarehouseExciseFactoryZeroGSTWarehouseBondedWarehouseOFFICIALCLOSEDAMSenderTradersFreightForwardersAirCargoAgentsShippingAgentsLogicalDestinationsSCAndCAsIfApplicableViaTradeNetSystemResponseMessageTradeNetResponseMessageForTheIssuingAuthoritiesToIssueTheRespectivePermitToTheDeclarantReferToReference2ForMoreDetailsForTheIssuingAuthoritiesToInformThe",
+    "namespace": "",
+    "xml_fields": []
   }
 ]

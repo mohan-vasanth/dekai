@@ -44,6 +44,11 @@ def safe_section_slug(section: str, title: str) -> str:
     return f"{safe_section}_{slugify(title)}"
 
 
+def safe_document_section_slug(document_name: str, section: str, title: str) -> str:
+    document_stem = Path(str(document_name or "").strip()).stem or "document"
+    return f"{slugify(document_stem)}__{safe_section_slug(section, title)}"
+
+
 def split_sentences(text: str) -> List[str]:
     text = normalise_whitespace(text)
     if not text:

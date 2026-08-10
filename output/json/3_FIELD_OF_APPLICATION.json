@@ -1,6 +1,6 @@
 {
   "chapter_number": "",
-  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
   "section": "3",
   "title": "FIELD OF APPLICATION",
   "purpose": "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.",
@@ -43,6 +43,62 @@
     "FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "3::section::0::field-of-application",
+      "type": "section",
+      "title": "FIELD OF APPLICATION",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "3. FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade. This message may be applied for both national and international trade. It is\nbased on universal practice and is not dependent on the type of business or industry.",
+      "parentId": "",
+      "sectionId": "3",
+      "sectionTitle": "FIELD OF APPLICATION",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "FIELD OF APPLICATION",
+        "FIELDOFAPPLICATION"
+      ],
+      "childIds": [
+        "3::business_rule::1::field-of-application"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "3::business_rule::1::field-of-application",
+      "type": "business_rule",
+      "title": "FIELD OF APPLICATION",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "3. FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade. This message may be applied for both national and international trade.",
+      "parentId": "3::section::0::field-of-application",
+      "sectionId": "3",
+      "sectionTitle": "FIELD OF APPLICATION",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "FIELD OF APPLICATION",
+        "FIELDOFAPPLICATION"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],
@@ -315,7 +371,7 @@
   "pages": [
     3
   ],
-  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+  "source_document": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
   "raw_text": "3. FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade. This message may be applied for both national and international trade. It is\nbased on universal practice and is not dependent on the type of business or industry.",
   "mermaid": "flowchart TD\n    S1[\"Evaluate condition: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.\"]",
   "plantuml": "@startuml\nstart\n:Evaluate condition\\: FIELD OF APPLICATION\nThe message specification provided in this document are intended for use for the exchange of information between the\ntrading partners in international trade.;\nstop\n@enduml"

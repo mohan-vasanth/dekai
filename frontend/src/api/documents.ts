@@ -16,8 +16,8 @@ export const documentsApi = {
   getFile(documentId: string) {
     return apiBlobRequest(`/api/documents/${documentId}/file`);
   },
-  getJob(jobId: string) {
-    return apiRequest<{ job: DocumentJob }>(`/api/documents/jobs/${jobId}`);
+  getJob(jobId: string, options?: RequestInit) {
+    return apiRequest<{ job: DocumentJob }>(`/api/documents/jobs/${jobId}`, options);
   },
   replace(documentId: string, file: File) {
     const body = new FormData();

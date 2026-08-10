@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import logging
 import re
+from collections import Counter
 from time import perf_counter
 from typing import Any
 
@@ -652,7 +653,12 @@ class ChatService:
                     ],
                 }
 
-        if current_document and (is_xml_field_query(question) or plan.intent == "Section Request" or bool(plan.section_request_name)):
+        if current_document and (
+            is_xml_field_query(question)
+            or plan.intent == "Section Request"
+            or bool(plan.section_request_name)
+            or (_looks_like_heading_lookup(question) and self._is_trade_net_document(str(current_document.get("name", ""))))
+        ):
             normalized_name = _normalize(str(current_document.get("name", "")))
             selected = document_map.get(normalized_name)
             if selected:
@@ -1595,7 +1601,8 @@ class ChatService:
         ranked_section_hits = [
             item
             for item in retrieval
-            if item.get("sectionId") and str(item.get("type", "")).lower() in {"section", "chunk", "rule", "condition", "workflow"}
+            if item.get("sectionId")
+            and str(item.get("type", "")).lower() in {"section", "chunk", "hierarchy", "rule", "condition", "workflow", "definition"}
         ]
         if not ranked_section_hits:
             return [], 0.0
@@ -2575,6 +2582,7 @@ class ChatService:
         question_tokens = set(_document_tokens(normalized_question))
         matched_document_name = ""
         matched_label = ""
+        matched_document_tokens: set[str] = set()
 
         for document_name in allowed_document_names or []:
             aliases = _document_aliases(document_name)
@@ -2597,9 +2605,31 @@ class ChatService:
             if alias_hit or token_hit:
                 matched_document_name = document_name
                 matched_label = token_hit.upper() if token_hit else alias_hit.upper()
+                matched_document_tokens = {
+                    token
+                    for token in _document_tokens(document_name)
+                    if len(token) >= 4
+                }
                 break
 
         if not matched_document_name:
+            return None
+
+        generic_identity_tokens = {
+            "about",
+            "document",
+            "file",
+            "meaning",
+            "pdf",
+            "tell",
+            "what",
+        }
+        content_tokens = {
+            token
+            for token in question_tokens
+            if len(token) >= 4 and token not in matched_document_tokens and token not in generic_identity_tokens
+        }
+        if content_tokens:
             return None
 
         candidate_sections = [
@@ -2842,6 +2872,393 @@ class ChatService:
             )
         return sources
 
+    def _is_list_request(self, question: str) -> bool:
+        normalized_question = _normalize(question)
+        return any(
+            phrase in normalized_question
+            for phrase in (
+                "what are the",
+                "which are the",
+                "what are all",
+                "list all",
+                "list the",
+                "give all",
+                "enumerate",
+                "different",
+                "valid",
+            )
+        )
+
+    def _requested_code(self, question: str) -> str:
+        normalized_question = _normalize(question)
+        for pattern in (
+            r"\bcode\s*(\d{1,3})\b",
+            r"\bcorresponds to code\s*(\d{1,3})\b",
+        ):
+            match = re.search(pattern, normalized_question, flags=re.IGNORECASE)
+            if match:
+                return match.group(1).strip()
+        return ""
+
+    def _extract_enumerated_items(self, text: str) -> list[dict[str, str]]:
+        items: list[dict[str, str]] = []
+        seen: set[tuple[str, str]] = set()
+        for line in _nonempty_lines(text):
+            match = re.match(r"^\s*(\d{1,3})\s*[:.)-]\s*(.+?)\s*$", line)
+            if not match:
+                continue
+            code = match.group(1).strip()
+            label = normalise_whitespace(match.group(2))
+            if not label or len(label) > 120:
+                continue
+            key = (code, label.casefold())
+            if key in seen:
+                continue
+            seen.add(key)
+            items.append({"code": code, "label": label})
+        return items
+
+    def _extract_inline_enumerated_items(self, text: str) -> list[dict[str, str]]:
+        items: list[dict[str, str]] = []
+        seen: set[tuple[str, str]] = set()
+        inline_text = normalise_whitespace(text)
+        for code, label in re.findall(
+            r"(?<![A-Za-z0-9])(\d{1,3})\s*[:.)-]\s*([A-Za-z][A-Za-z0-9/&(), \-]{1,90}?)(?=(?:\s+[A-Z]\d{3}\b)|(?:\s+[a-z]{2,5}:[A-Za-z])|(?:\s+\d{1,3}\s*[:.)-])|$)",
+            inline_text,
+        ):
+            cleaned_label = normalise_whitespace(label).strip(" -:;,.")
+            if not cleaned_label or len(cleaned_label) > 90:
+                continue
+            key = (code.strip(), cleaned_label.casefold())
+            if key in seen:
+                continue
+            seen.add(key)
+            items.append({"code": code.strip(), "label": cleaned_label})
+        return items
+
+    def _enumeration_topic_terms(self, question: str) -> set[str]:
+        normalized_question = _normalize(question)
+        ignored_terms = {
+            "all",
+            "are",
+            "code",
+            "codes",
+            "corresponds",
+            "different",
+            "document",
+            "give",
+            "inpdec",
+            "in",
+            "is",
+            "listed",
+            "list",
+            "pdf",
+            "the",
+            "to",
+            "valid",
+            "what",
+            "which",
+        }
+        return {
+            token
+            for token in re.findall(r"\b[a-z0-9][a-z0-9/&._:-]{2,}\b", normalized_question)
+            if token not in ignored_terms and token not in GROUNDING_STOPWORDS
+        }
+
+    def _looks_like_structural_label(self, label: str) -> bool:
+        normalized_label = _normalize(label)
+        if not normalized_label:
+            return True
+        if any(token in normalized_label for token in ("official", "closed", " doc ", " document ", "prepared by")):
+            return True
+        if normalized_label in {
+            "message definition",
+            "message details",
+            "header section",
+            "introduction",
+            "scope",
+            "references",
+            "definitions and abbreviations",
+        }:
+            return True
+        tokens = [token for token in re.findall(r"\b[a-z][a-z]+\b", normalized_label)]
+        if not tokens:
+            return False
+        if len(tokens) > 4:
+            return False
+        return label.strip() == label.strip().upper()
+
+    def _structured_enumeration_evidence(
+        self,
+        question: str,
+        retrieval: list[dict[str, Any]],
+        sections: list[dict[str, Any]],
+        chunks: list[dict[str, Any]],
+        answer_sections: list[dict[str, Any]],
+        selected_chunks: list[dict[str, Any]],
+    ) -> dict[str, Any] | None:
+        wants_list = self._is_list_request(question)
+        requested_code = self._requested_code(question)
+        if not wants_list and not requested_code:
+            return None
+
+        topic_terms = self._enumeration_topic_terms(question)
+        if not topic_terms and not requested_code:
+            return None
+
+        target_document_name = next(
+            (
+                str(item.get("documentName", "")).strip()
+                for item in [*selected_chunks, *answer_sections, *retrieval]
+                if str(item.get("documentName", "")).strip()
+            ),
+            "",
+        )
+        if not target_document_name:
+            return None
+
+        target_document_normalized = _normalize(target_document_name)
+        scored_anchor_records: list[tuple[int, float, dict[str, Any]]] = []
+        for item in retrieval[:20]:
+            if _normalize(str(item.get("documentName", "")).strip()) != target_document_normalized:
+                continue
+            structure_text = _normalize(
+                " ".join(
+                    [
+                        str(item.get("title", "")),
+                        str(item.get("heading", "")),
+                        str(item.get("matchedField", "")),
+                        str(item.get("matchedHeading", "")),
+                        " ".join(str(field) for field in item.get("fieldNames", [])),
+                    ]
+                )
+            )
+            topic_score = sum(1 for term in topic_terms if term in structure_text)
+            if topic_terms and topic_score <= 0:
+                continue
+            item_text = _normalize(
+                " ".join(
+                    [
+                        structure_text,
+                        str(item.get("text", "")),
+                        " ".join(str(field) for field in item.get("fieldNames", [])),
+                    ]
+                )
+            )
+            if str(item.get("type", "")).lower() == "chunk" and (
+                len([page for page in item.get("sourcePages", []) if str(page).isdigit()]) > 2
+                or len(str(item.get("text", ""))) > 500
+            ):
+                continue
+            scored_anchor_records.append((topic_score, float(item.get("score", 0.0)), item))
+
+        scored_anchor_records.sort(key=lambda value: (value[0], value[1]), reverse=True)
+        if not scored_anchor_records:
+            return None
+        top_topic_score = scored_anchor_records[0][0]
+        anchor_records = [
+            item
+            for topic_score, _score, item in scored_anchor_records
+            if topic_score >= max(1, top_topic_score)
+        ][:8]
+
+        anchor_text = _normalize(
+            " ".join(
+                " ".join(
+                    [
+                        str(item.get("title", "")),
+                        str(item.get("heading", "")),
+                        str(item.get("matchedField", "")),
+                        str(item.get("matchedHeading", "")),
+                        str(item.get("text", "")),
+                    ]
+                )
+                for item in anchor_records
+            )
+        )
+        if not anchor_records or not any(
+            phrase in anchor_text
+            for phrase in ("valid code", "valid codes", "mode code", "codes are", "transport mode")
+        ):
+            return None
+
+        page_counts: Counter[int] = Counter()
+        for item in anchor_records:
+            for page in item.get("sourcePages", []):
+                if str(page).isdigit():
+                    page_counts[int(page)] += 1
+        if not page_counts:
+            return None
+
+        top_page_count = max(page_counts.values())
+        focus_pages = {
+            page
+            for page, count in page_counts.items()
+            if count >= max(1, top_page_count - 1)
+        } or {page for page, _count in page_counts.most_common(2)}
+
+        candidate_sections = [
+            section
+            for section in sections
+            if _normalize(str(section.get("documentName", "")).strip()) == target_document_normalized
+            and focus_pages.intersection(
+                {
+                    int(page)
+                    for page in section.get("sourcePages", [])
+                    if str(page).isdigit()
+                }
+            )
+        ]
+        if not candidate_sections:
+            return None
+
+        enumerated_items: list[dict[str, Any]] = []
+        for section in candidate_sections:
+            raw_text = str(section.get("rawText", ""))
+            lines = _nonempty_lines(raw_text)
+            is_compact_section = bool(lines) and len(lines) <= 3 and max((len(line) for line in lines), default=0) <= 80
+            if not is_compact_section:
+                continue
+            for item in self._extract_enumerated_items(raw_text):
+                if self._looks_like_structural_label(str(item.get("label", ""))):
+                    continue
+                enumerated_items.append(
+                    {
+                        **item,
+                        "section": section,
+                        "pages": [int(page) for page in section.get("sourcePages", []) if str(page).isdigit()],
+                    }
+                )
+
+        for anchor_record in anchor_records:
+            anchor_text_value = " ".join(
+                [
+                    str(anchor_record.get("title", "")),
+                    str(anchor_record.get("heading", "")),
+                    str(anchor_record.get("matchedField", "")),
+                    str(anchor_record.get("matchedHeading", "")),
+                    str(anchor_record.get("text", "")),
+                    " ".join(str(field) for field in anchor_record.get("fieldNames", [])),
+                ]
+            )
+            normalized_anchor_text = _normalize(anchor_text_value)
+            if topic_terms and not any(term in normalized_anchor_text for term in topic_terms):
+                continue
+            anchor_items: list[dict[str, str]] = []
+            for snippet in re.findall(
+                r"(?:valid\s+codes?(?:\s*\([^)]*\))?\s+are\s*:?\s*)(.{0,220})",
+                str(anchor_record.get("text", "")),
+                flags=re.IGNORECASE | re.DOTALL,
+            ):
+                anchor_items.extend(self._extract_inline_enumerated_items(snippet))
+            if not anchor_items:
+                anchor_items = self._extract_inline_enumerated_items(str(anchor_record.get("text", "")))
+            if not anchor_items:
+                continue
+            for anchor_item in anchor_items:
+                if self._looks_like_structural_label(str(anchor_item.get("label", ""))):
+                    continue
+                enumerated_items.append(
+                    {
+                        **anchor_item,
+                        "section": {
+                            "id": anchor_item["code"],
+                            "title": anchor_item["label"],
+                            "chapterNumber": next((section.get("chapterNumber", "") for section in answer_sections if str(section.get("documentName", "")).strip() == target_document_name), ""),
+                            "chapterTitle": next((section.get("chapterTitle", "") for section in answer_sections if str(section.get("documentName", "")).strip() == target_document_name), ""),
+                            "documentName": target_document_name,
+                            "summary": anchor_item["label"],
+                            "businessMeaning": "",
+                            "businessExplanation": "",
+                            "requiredDocuments": [],
+                            "documents": [],
+                            "notes": [],
+                            "validations": [],
+                            "exceptions": [],
+                            "definitions": [],
+                            "timelines": [],
+                            "authorities": [],
+                            "workflow": [],
+                            "sourcePages": [int(page) for page in anchor_record.get("sourcePages", []) if str(page).isdigit()],
+                            "rawText": str(anchor_record.get("text", "")),
+                        },
+                        "pages": [int(page) for page in anchor_record.get("sourcePages", []) if str(page).isdigit()],
+                    }
+                )
+
+        if not enumerated_items:
+            return None
+
+        deduped_items: list[dict[str, Any]] = []
+        seen_item_keys: set[tuple[str, str]] = set()
+        for item in sorted(
+            enumerated_items,
+            key=lambda value: (
+                int(value["code"]) if str(value.get("code", "")).isdigit() else 9999,
+                str(value.get("label", "")).casefold(),
+            ),
+        ):
+            key = (str(item.get("code", "")).strip(), str(item.get("label", "")).casefold())
+            if key in seen_item_keys:
+                continue
+            seen_item_keys.add(key)
+            deduped_items.append(item)
+
+        if wants_list and len(deduped_items) < 2:
+            return None
+
+        matched_items = deduped_items
+        if requested_code:
+            matched_items = [item for item in deduped_items if str(item.get("code", "")).strip() == requested_code]
+            if not matched_items:
+                return None
+
+        matched_sections: list[dict[str, Any]] = []
+        matched_chunks: list[dict[str, Any]] = []
+        seen_sections: set[tuple[str, str]] = set()
+        for item in matched_items:
+            section_payload = dict(item["section"])
+            section_key = (str(item["code"]).strip(), str(item["label"]).casefold())
+            if section_key not in seen_sections:
+                seen_sections.add(section_key)
+                section_payload["id"] = str(item["code"]).strip()
+                section_payload["title"] = str(item["label"]).strip()
+                section_payload["summary"] = str(item["label"]).strip()
+                section_payload["businessMeaning"] = ""
+                section_payload["businessExplanation"] = ""
+                section_payload["sourcePages"] = list(item["pages"])
+                section_payload["rawText"] = f'{item["code"]}: {item["label"]}'
+                matched_sections.append(section_payload)
+            matched_chunks.append(
+                {
+                    "id": f'enum-{item["code"]}-{re.sub(r"[^a-z0-9]+", "-", str(item["label"]).casefold()).strip("-")}',
+                    "type": "chunk",
+                    "entityType": "chunk",
+                    "documentName": target_document_name,
+                    "sectionId": str(item["code"]).strip(),
+                    "title": str(item["label"]).strip(),
+                    "heading": str(item["label"]).strip(),
+                    "fieldNames": [str(item["label"]).strip()],
+                    "sourcePages": list(item["pages"]),
+                    "text": f'{item["code"]}: {item["label"]}',
+                }
+            )
+        evidence_lines = [f'{item["code"]}: {item["label"]}' for item in matched_items]
+
+        if requested_code:
+            answer_text = f'According to the selected document, code {requested_code} corresponds to {matched_items[0]["label"]}.'
+        else:
+            formatted_items = [f'{item["code"]}. {item["label"]}' for item in matched_items]
+            answer_text = f'According to the selected document, the listed values are {_natural_list(formatted_items, limit=len(formatted_items))}.'
+
+        return {
+            "answerText": answer_text,
+            "evidenceLines": evidence_lines,
+            "sections": matched_sections,
+            "chunks": matched_chunks,
+            "items": matched_items,
+        }
+
     def _source_block(
         self,
         *,
@@ -3036,6 +3453,10 @@ class ChatService:
         question_targets_list = any(
             phrase in normalized_question for phrase in ("category", "categories", "list", "include", "which are", "what are")
         )
+        question_targets_condition_list = question_targets_list and any(
+            token in normalized_question
+            for token in ("condition", "conditions", "criteria", "eligibility", "requirement", "requirements", "rule", "rules")
+        )
 
         clean_conditions = _unique([_clean_evidence_item(item, 220) for item in condition_items if _clean_evidence_item(item, 220)])
         clean_exceptions = _unique([_clean_evidence_item(item, 220) for item in exception_items if _clean_evidence_item(item, 220)])
@@ -3043,7 +3464,7 @@ class ChatService:
         clean_documents = _unique([_clean_evidence_item(item, 180) for item in required_documents if _clean_evidence_item(item, 180)])
         clean_workflow = _unique([_clean_evidence_item(item, 220) for item in workflow_steps if _clean_evidence_item(item, 220)])
 
-        if question_targets_list and clean_conditions:
+        if question_targets_condition_list and clean_conditions:
             return f"The key conditions mentioned are {_natural_list(clean_conditions, limit=6)}."
         if question_targets_documents and clean_documents:
             return f"The required documents mentioned are {_natural_list(clean_documents, limit=6)}."
@@ -3656,6 +4077,7 @@ class ChatService:
         condition_items: list[str],
         exception_items: list[str],
         seed_answer: str,
+        structured_evidence_lines: list[str],
         source_payload: dict[str, Any],
         conversation_turns: list[dict[str, Any]],
         include_full_section_text: bool,
@@ -3746,6 +4168,7 @@ class ChatService:
                 "Conversation memory:\n" + self._format_conversation_turns(conversation_turns),
                 "Retrieved sources:\n" + ("\n".join(source_lines) if source_lines else "None"),
                 "Helpful retrieval draft answer:\n" + (seed_answer or "None"),
+                "Structured list/code evidence:\n" + (_bullet_lines(structured_evidence_lines, limit=12) or "- None"),
                 "Workflow steps:\n" + (_bullet_lines(workflow_steps, limit=6) or "- None"),
                 "Conditions:\n" + (_bullet_lines(condition_items, limit=6) or "- None"),
                 "Exceptions:\n" + (_bullet_lines(exception_items, limit=6) or "- None"),
@@ -3766,6 +4189,8 @@ class ChatService:
                 f'If the answer is not supported by the retrieved context, reply exactly: "{MISSING_INFORMATION_MESSAGE}"',
                 "Do not guess. Do not hallucinate. Do not invent examples, rules, pages, section numbers, or business meaning.",
                 "If a requested detail is missing from the context, omit it instead of inventing it.",
+                "For list or enumeration questions, include all matching items supported by the retrieved context, not just the first matching item.",
+                "For code lookup questions, return only the code-to-value mapping explicitly supported by the retrieved context.",
                 "Keep the answer grounded in the retrieved documents and cite the source information only when present in the context.",
                 f"Answer in {target_language}. If the target language is English, use simple English.",
                 "When the context supports it, structure the answer with these headings in this order:",
@@ -3873,6 +4298,7 @@ class ChatService:
         selected_scope_label = "selected_document"
         selected_document = None
         document_selection_debug: dict[str, Any] = {"selectionMethod": "none", "rankedDocuments": []}
+        structured_evidence_lines: list[str] = []
 
         current_document_name = getattr(self, "_current_document_name", "")
         if current_document_name:
@@ -4070,6 +4496,27 @@ class ChatService:
                 if plan.intent == TRADE_NET_XML_FIELD_INTENT:
                     selected_chunks = [heading_target_chunk]
 
+        structured_enumeration = self._structured_enumeration_evidence(
+            resolved_question,
+            retrieval,
+            sections,
+            chunks,
+            answer_sections,
+            selected_chunks,
+        )
+        if structured_enumeration:
+            answer_sections = structured_enumeration["sections"] or answer_sections
+            if answer_sections:
+                primary_section = answer_sections[0]
+                section_keys = {
+                    self._section_record_key(section)
+                    for section in answer_sections
+                    if self._section_record_key(section)
+                }
+            selected_chunks = structured_enumeration["chunks"] or selected_chunks
+            seed_answer = structured_enumeration["answerText"]
+            structured_evidence_lines = structured_enumeration["evidenceLines"]
+
         section_rules = [rule for rule in rules if self._record_section_key(rule) in section_keys][:8]
         section_conditions = [condition for condition in conditions if self._record_section_key(condition) in section_keys][:8]
         section_workflows = [
@@ -4234,6 +4681,7 @@ class ChatService:
             condition_items=condition_items,
             exception_items=exception_items,
             seed_answer=seed_answer,
+            structured_evidence_lines=structured_evidence_lines,
             source_payload=source_payload,
             conversation_turns=conversation_turns,
             include_full_section_text=full_content_request or plan.intent == "Section Request" or is_xml_field_query(resolved_question),

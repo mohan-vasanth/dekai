@@ -30,6 +30,64 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4::section::0::representative-of-the-branch-manager-of-the-conc",
+      "type": "section",
+      "title": "Representative of the Branch Manager of the concerned Bank:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4. Representative of the Branch Manager of the concerned Bank:\nMember",
+      "parentId": "",
+      "sectionId": "4",
+      "sectionTitle": "Representative of the Branch Manager of the concerned Bank:",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 1,
+      "searchAliases": [
+        "Representative of the Branch Manager of the concerned Bank:",
+        "Representative of the Branch Manager of the concerned Bank",
+        "RepresentativeoftheBranchManageroftheconcernedBank"
+      ],
+      "childIds": [
+        "4::business_rule::1::representative-of-the-branch-manager-of-the-conc"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 1
+    },
+    {
+      "id": "4::business_rule::1::representative-of-the-branch-manager-of-the-conc",
+      "type": "business_rule",
+      "title": "Representative of the Branch Manager of the concerned Bank:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4. Representative of the Branch Manager of the concerned Bank:\nMember",
+      "parentId": "4::section::0::representative-of-the-branch-manager-of-the-conc",
+      "sectionId": "4",
+      "sectionTitle": "Representative of the Branch Manager of the concerned Bank:",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Representative of the Branch Manager of the concerned Bank:",
+        "Representative of the Branch Manager of the concerned Bank",
+        "RepresentativeoftheBranchManageroftheconcernedBank"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],

@@ -45,6 +45,88 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.64::section::0::export-policy",
+      "type": "section",
+      "title": "Export Policy",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.64 Export Policy\nPolicy relating to Exports is given in Chapter-2 of FTP. Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+      "parentId": "",
+      "sectionId": "2.64",
+      "sectionTitle": "Export Policy",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 28,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Export Policy",
+        "ExportPolicy"
+      ],
+      "childIds": [
+        "2.64::exception::1::exceptions",
+        "2.64::business_rule::2::export-policy"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "2.64::exception::1::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+      "parentId": "2.64::section::0::export-policy",
+      "sectionId": "2.64",
+      "sectionTitle": "Export Policy",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 28,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.64::business_rule::2::export-policy",
+      "type": "business_rule",
+      "title": "Export Policy",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Further, Schedule 2,\nAppendix-1 of ITC (HS) specifies list of items, which may be exported without an\nAuthorisation but subject to terms and conditions specified.",
+      "parentId": "2.64::section::0::export-policy",
+      "sectionId": "2.64",
+      "sectionTitle": "Export Policy",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 28,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Export Policy",
+        "ExportPolicy"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],

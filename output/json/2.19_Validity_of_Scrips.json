@@ -43,6 +43,89 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.19::section::0::validity-of-scrips",
+      "type": "section",
+      "title": "Validity of Scrips",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.",
+      "parentId": "",
+      "sectionId": "2.19",
+      "sectionTitle": "Validity of Scrips",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 8,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Validity of Scrips",
+        "ValidityofScrips"
+      ],
+      "childIds": [
+        "2.19::validation::1::validation-rules",
+        "2.19::business_rule::2::validity-of-scrips"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "2.19::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.",
+      "parentId": "2.19::section::0::validity-of-scrips",
+      "sectionId": "2.19",
+      "sectionTitle": "Validity of Scrips",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 8,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.19::business_rule::2::validity-of-scrips",
+      "type": "business_rule",
+      "title": "Validity of Scrips",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.19 Validity of Scrips\nScrips issued under the FTP must be valid on the date on which actual debit of duty\nis made.",
+      "parentId": "2.19::section::0::validity-of-scrips",
+      "sectionId": "2.19",
+      "sectionTitle": "Validity of Scrips",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 8,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validity of Scrips",
+        "ValidityofScrips"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [

@@ -1,6 +1,6 @@
 {
   "chapter_number": "",
-  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
   "section": "3",
   "title": "Road",
   "purpose": "Defines the operational requirements for Road.",
@@ -32,6 +32,60 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "3::section::0::road",
+      "type": "section",
+      "title": "Road",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "3: Road\n4: Air",
+      "parentId": "",
+      "sectionId": "3",
+      "sectionTitle": "Road",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 1,
+      "searchAliases": [
+        "Road"
+      ],
+      "childIds": [
+        "3::business_rule::1::road"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 1
+    },
+    {
+      "id": "3::business_rule::1::road",
+      "type": "business_rule",
+      "title": "Road",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "3: Road\n4: Air",
+      "parentId": "3::section::0::road",
+      "sectionId": "3",
+      "sectionTitle": "Road",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Road"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],
@@ -219,12 +273,14 @@
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [
-    11
+    11,
+    12
   ],
   "pages": [
-    11
+    11,
+    12
   ],
-  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+  "source_document": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
   "raw_text": "3: Road\n4: Air",
   "mermaid": "flowchart TD\n    S1[\"Review section 3 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
   "plantuml": "@startuml\nstart\n:Review section 3 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"

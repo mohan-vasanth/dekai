@@ -64,6 +64,116 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4.64::section::0::agency-commission",
+      "type": "section",
+      "title": "Agency Commission",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI. Value Addition\nshall be calculated after deducting agency commission.",
+      "parentId": "",
+      "sectionId": "4.64",
+      "sectionTitle": "Agency Commission",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 39,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Agency Commission",
+        "AgencyCommission"
+      ],
+      "childIds": [
+        "4.64::validation::1::validation-rules",
+        "4.64::business_rule::2::agency-commission",
+        "4.64::business_rule::3::agency-commission"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "4.64::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Value Addition\nshall be calculated after deducting agency commission.",
+      "parentId": "4.64::section::0::agency-commission",
+      "sectionId": "4.64",
+      "sectionTitle": "Agency Commission",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 39,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.64::business_rule::2::agency-commission",
+      "type": "business_rule",
+      "title": "Agency Commission",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.64 Agency Commission\nExporter availing scheme of gold / silver / platinum jewellery are allowed to pay\nagency commission subject to the guidelines laid down by RBI.",
+      "parentId": "4.64::section::0::agency-commission",
+      "sectionId": "4.64",
+      "sectionTitle": "Agency Commission",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 39,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Agency Commission",
+        "AgencyCommission"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.64::business_rule::3::agency-commission",
+      "type": "business_rule",
+      "title": "Agency Commission",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Value Addition\nshall be calculated after deducting agency commission.",
+      "parentId": "4.64::section::0::agency-commission",
+      "sectionId": "4.64",
+      "sectionTitle": "Agency Commission",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 39,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Agency Commission",
+        "AgencyCommission"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [
     "Value Addition\nshall be calculated after deducting agency commission."

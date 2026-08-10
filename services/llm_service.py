@@ -4,6 +4,7 @@ import json
 import logging
 import os
 from dataclasses import dataclass
+from functools import lru_cache
 from typing import Any, Generator, Iterable
 
 import httpx
@@ -98,15 +99,64 @@ MODEL_ALIASES = {
 }
 
 DEFAULT_MODEL_LABEL = "GPT-4.1"
+MODEL_SELECTION_PRIORITY = (
+    "GPT-4.1",
+    "Claude Sonnet",
+    "Gemini Pro",
+    "Ollama (Qwen 2.5)",
+    "Ollama (Llama 3.2)",
+    "GPT-4.1 Mini",
+)
 
 
 class LLMService:
+    def supported_model_labels(self) -> list[str]:
+        return [label for label in MODEL_SELECTION_PRIORITY if label in MODEL_SPECS]
+
+    @lru_cache(maxsize=1)
+    def _ollama_installed_models(self) -> set[str]:
+        try:
+            with httpx.Client(timeout=httpx.Timeout(2.0, connect=1.5)) as client:
+                response = client.get(f'{os.getenv("OLLAMA_BASE_URL", "http://localhost:11434").rstrip("/")}/api/tags')
+                response.raise_for_status()
+        except Exception:
+            return set()
+
+        payload = response.json()
+        installed: set[str] = set()
+        for item in payload.get("models", []):
+            for key in ("name", "model"):
+                value = str(item.get(key, "")).strip()
+                if not value:
+                    continue
+                installed.add(value)
+                installed.add(value.split(":", 1)[0])
+        return installed
+
+    def is_model_available(self, display_model: str) -> bool:
+        spec = MODEL_SPECS.get(MODEL_ALIASES.get((display_model or "").strip(), (display_model or "").strip()))
+        if not spec:
+            return False
+        if spec.provider == "ollama":
+            installed = self._ollama_installed_models()
+            return spec.model_id in installed or f"{spec.model_id}:latest" in installed
+        if spec.env_key_name:
+            return bool(os.getenv(spec.env_key_name, "").strip())
+        return True
+
+    def available_model_labels(self) -> list[str]:
+        labels = [label for label in self.supported_model_labels() if self.is_model_available(label)]
+        return labels or [DEFAULT_MODEL_LABEL]
+
+    def preferred_model_label(self) -> str:
+        return self.available_model_labels()[0]
+
     def resolve_model(self, display_model: str) -> ModelSpec:
-        requested_model = MODEL_ALIASES.get((display_model or "").strip(), (display_model or "").strip()) or DEFAULT_MODEL_LABEL
+        requested_model = MODEL_ALIASES.get((display_model or "").strip(), (display_model or "").strip()) or self.preferred_model_label()
         spec = MODEL_SPECS.get(requested_model)
         if spec:
             return spec
-        return MODEL_SPECS[DEFAULT_MODEL_LABEL]
+        return MODEL_SPECS[self.preferred_model_label()]
 
     def ensure_configured(self, spec: ModelSpec) -> None:
         if spec.provider == "ollama":

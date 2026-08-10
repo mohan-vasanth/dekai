@@ -37,6 +37,12 @@ export type DetectedTableMatch = {
   table: EditableTable;
 };
 
+export type ExtractTablesOptions = {
+  includeHtml?: boolean;
+  includeMarkdown?: boolean;
+  includePipeFallback?: boolean;
+};
+
 type SourceRange = {
   start: number;
   end: number;
@@ -464,8 +470,27 @@ function serializeAttributes(attributes: Array<{ name: string; value: string }>)
     .join(" ")}`;
 }
 
+function withDocumentTableClass(attributes: Array<{ name: string; value: string }>) {
+  const nextAttributes = attributes.map((attribute) => ({ ...attribute }));
+  const classAttribute = nextAttributes.find((attribute) => attribute.name === "class");
+  if (!classAttribute) {
+    nextAttributes.push({ name: "class", value: "document-table" });
+    return nextAttributes;
+  }
+
+  const classes = classAttribute.value
+    .split(/\s+/)
+    .map((token) => token.trim())
+    .filter(Boolean);
+  if (!classes.includes("document-table")) {
+    classes.push("document-table");
+  }
+  classAttribute.value = classes.join(" ");
+  return nextAttributes;
+}
+
 export function serializeTableToHtml(table: EditableTable) {
-  const lines = [`<table${serializeAttributes(table.attributes)}>`];
+  const lines = [`<table${serializeAttributes(withDocumentTableClass(table.attributes))}>`];
   const headerRows = table.rows.filter((row) => row.cells.every((cell) => cell.isHeader));
   const bodyRows = table.rows.slice(headerRows.length || 0);
 
@@ -540,12 +565,15 @@ export function countSupportedHtmlTags(source: string, options?: { treatAsHtml?:
   return count;
 }
 
-export function extractTablesFromMarkdown(markdown: string) {
-  const htmlMatches = extractHtmlTables(markdown);
+export function extractTablesFromMarkdown(markdown: string, options: ExtractTablesOptions = {}) {
+  const includeHtml = options.includeHtml ?? true;
+  const includeMarkdown = options.includeMarkdown ?? true;
+  const includePipeFallback = options.includePipeFallback ?? true;
+  const htmlMatches = includeHtml ? extractHtmlTables(markdown) : [];
   const htmlRanges = htmlMatches.map((match) => ({ start: match.start, end: match.end }));
-  const markdownMatches = extractMarkdownAstTables(markdown, htmlRanges);
+  const markdownMatches = includeMarkdown ? extractMarkdownAstTables(markdown, htmlRanges) : [];
   const markdownRanges = markdownMatches.map((match) => ({ start: match.start, end: match.end }));
-  const fallbackMatches = extractPipeFallbackTables(markdown, htmlRanges.concat(markdownRanges));
+  const fallbackMatches = includePipeFallback ? extractPipeFallbackTables(markdown, htmlRanges.concat(markdownRanges)) : [];
 
   return htmlMatches
     .concat(markdownMatches, fallbackMatches)

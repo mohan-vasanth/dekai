@@ -1,6 +1,6 @@
 {
   "chapter_number": "",
-  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
   "section": "3.1",
   "title": "Principles",
   "purpose": "Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.",
@@ -24,7 +24,7 @@
   ],
   "conditions": [
     "The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.",
-    "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    "Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
   ],
   "condition_logic": [
     {
@@ -35,9 +35,9 @@
     },
     {
       "id": ".3.1.2",
-      "if": "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "if": "Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
       "then": "Route for review",
-      "source": "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+      "source": "Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
     }
   ],
   "validations": [
@@ -75,9 +75,90 @@
         "Release Date\n18/11/2021",
         "Ver\n4.1",
         "Reference\nTRADENET",
-        "Document Id.\nTDS41-MDS-XML-IPTDEC-M"
+        "Document Id.\nTDS41-MDS-XML-TNPDEC-M"
       ]
     ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "3.1::section::0::principles",
+      "type": "section",
+      "title": "Principles",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information. Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item. A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\nTrade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-TNPDEC-M\nTrade Net Declaration.TNPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information. Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item. A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\nOFFICIAL (CLOSED)\nAM",
+      "parentId": "",
+      "sectionId": "3.1",
+      "sectionTitle": "Principles",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 37,
+      "searchAliases": [
+        "Principles"
+      ],
+      "childIds": [
+        "3.1::validation::1::validation-rules",
+        "3.1::business_rule::2::principles"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 37
+    },
+    {
+      "id": "3.1::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.",
+      "parentId": "3.1::section::0::principles",
+      "sectionId": "3.1",
+      "sectionTitle": "Principles",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "3.1::business_rule::2::principles",
+      "type": "business_rule",
+      "title": "Principles",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information. Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item.",
+      "parentId": "3.1::section::0::principles",
+      "sectionId": "3.1",
+      "sectionTitle": "Principles",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Principles"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
   ],
   "authorities": [
     "Issuing Authorities",
@@ -87,10 +168,10 @@
   "actions": [],
   "workflow": [
     "Evaluate condition: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.",
-    "Evaluate condition: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "Evaluate condition: Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
     "Run validation: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation."
   ],
-  "workflow_ascii": "Principles\nEvaluate condition: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\n   |\n   v\nEvaluate condition: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\n   |\n   v\nRun validation: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.",
+  "workflow_ascii": "Principles\nEvaluate condition: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\n   |\n   v\nEvaluate condition: Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\n   |\n   v\nRun validation: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.",
   "decision_tree": [
     "IF section 3.1 applies THEN proceed with standard DGFT workflow"
   ],
@@ -403,8 +484,8 @@
     3,
     4
   ],
-  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
-  "raw_text": "3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information. Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item. A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-IPTDEC-M\nTrade Net Declaration.IPTDEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information. Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item. A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\nOFFICIAL (CLOSED)\nAM",
-  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\"]\n    S2[\"Evaluate condition: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\"]\n    S1 --> S2\n    S3[\"Run validation: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\"]\n    S2 --> S3",
-  "plantuml": "@startuml\nstart\n:Evaluate condition\\: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.;\n:Evaluate condition\\: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by\\:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11\\:10\nAM\nPrepared by\\:\nFor\\:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.;\n:Run validation\\: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.;\nstop\n@enduml"
+  "source_document": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+  "raw_text": "3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information. Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item. A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\nTrade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-TNPDEC-M\nTrade Net Declaration.TNPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information. Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item. A customs item consists of the grouping of those\ndocument lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\nOFFICIAL (CLOSED)\nAM",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.\"]\n    S2[\"Evaluate condition: Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\"]\n    S1 --> S2\n    S3[\"Run validation: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.;\n:Evaluate condition\\: Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by\\:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11\\:13\nAM\nPrepared by\\:\nFor\\:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.;\n:Run validation\\: Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.;\nstop\n@enduml"
 }

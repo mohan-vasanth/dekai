@@ -49,6 +49,88 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "8.05::section::0::choice-to-pursue-other-options",
+      "type": "section",
+      "title": "Choice to pursue other options",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "8.05 Choice to pursue other options\nThis mechanism is to provide an additional window for resolution of\ncomplaints/disputes to create confidence in business environment in the\ncountry. Efforts would be made to resolve the complaints amicably and\nexpeditiously. However, this mechanism is only conciliatory in nature. The\naggrieved parties are free to pursue any other course of action including legal\naction against the erring party. Disputes between two Indian parties or between\ntwo foreign parties are not covered under this mechanism.\npg. 166\npg. 166\nii.\nWherever necessary, action would be taken against the erring Indian\nEntity under the Foreign Trade (Development & Regulation) Act, 1992, as\namended and the Foreign Trade (Regulation) Rules, 1993, as amended,\niii.\nThe Indian Missions would take up the issue with authorities concerned\nfor resolving the complaint and would update status online on regular\nbasis,\niv.\nThe facility of tracking and viewing status of the complaints/disputes by\nthe complainant has also been provided on the DGFT website.",
+      "parentId": "",
+      "sectionId": "8.05",
+      "sectionTitle": "Choice to pursue other options",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 20,
+      "searchAliases": [
+        "Choice to pursue other options",
+        "Choicetopursueotheroptions"
+      ],
+      "childIds": [
+        "8.05::exception::1::exceptions",
+        "8.05::business_rule::2::choice-to-pursue-other-options"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 20
+    },
+    {
+      "id": "8.05::exception::1::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "However, this mechanism is only conciliatory in nature.",
+      "parentId": "8.05::section::0::choice-to-pursue-other-options",
+      "sectionId": "8.05",
+      "sectionTitle": "Choice to pursue other options",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "8.05::business_rule::2::choice-to-pursue-other-options",
+      "type": "business_rule",
+      "title": "Choice to pursue other options",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: Wherever necessary, action would be taken against the erring Indian\nEntity under the Foreign Trade (Development & Regulation) Act, 1992, as\namended and the Foreign Trade (Regulation) Rules, 1993, as amended,\niii.",
+      "parentId": "8.05::section::0::choice-to-pursue-other-options",
+      "sectionId": "8.05",
+      "sectionTitle": "Choice to pursue other options",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Choice to pursue other options",
+        "Choicetopursueotheroptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "DGFT"
   ],

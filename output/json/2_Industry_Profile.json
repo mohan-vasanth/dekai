@@ -30,6 +30,62 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2::section::0::industry-profile",
+      "type": "section",
+      "title": "Industry Profile",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2. Industry Profile",
+      "parentId": "",
+      "sectionId": "2",
+      "sectionTitle": "Industry Profile",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Industry Profile",
+        "IndustryProfile"
+      ],
+      "childIds": [
+        "2::business_rule::1::industry-profile"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::1::industry-profile",
+      "type": "business_rule",
+      "title": "Industry Profile",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2. Industry Profile",
+      "parentId": "2::section::0::industry-profile",
+      "sectionId": "2",
+      "sectionTitle": "Industry Profile",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Industry Profile",
+        "IndustryProfile"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],

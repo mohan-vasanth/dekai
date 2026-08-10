@@ -43,6 +43,64 @@
     "(b) An application for amendment in import or export Authorisation has be\nmade online to DGFT Hqrs."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.47::section::0::import-export-of-restricted-items",
+      "type": "section",
+      "title": "Import /Export of Restricted Items",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.47 Import /Export of Restricted Items\n(a) An application for grant of an Authorisation for import or export of items\nmentioned as ‘Restricted’ in ITC (HS) may be made online to DGFT Hqrs in\nANF 2M /ANF 2N respectively along with documents prescribed therein.\n(b) An application for amendment in import or export Authorisation has be\nmade online to DGFT Hqrs.",
+      "parentId": "",
+      "sectionId": "2.47",
+      "sectionTitle": "Import /Export of Restricted Items",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 18,
+      "startLine": 0,
+      "endLine": 5,
+      "searchAliases": [
+        "Import /Export of Restricted Items",
+        "Import Export of Restricted Items",
+        "ImportExportofRestrictedItems"
+      ],
+      "childIds": [
+        "2.47::business_rule::1::import-export-of-restricted-items"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 5
+    },
+    {
+      "id": "2.47::business_rule::1::import-export-of-restricted-items",
+      "type": "business_rule",
+      "title": "Import /Export of Restricted Items",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: (b) An application for amendment in import or export Authorisation has be\nmade online to DGFT Hqrs.",
+      "parentId": "2.47::section::0::import-export-of-restricted-items",
+      "sectionId": "2.47",
+      "sectionTitle": "Import /Export of Restricted Items",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 18,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Import /Export of Restricted Items",
+        "Import Export of Restricted Items",
+        "ImportExportofRestrictedItems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "DGFT",
     "ITC (HS) may be made online to DGFT"

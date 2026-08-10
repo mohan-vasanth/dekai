@@ -46,6 +46,66 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "1.06::section::0::conversion-of-currencies-in-e-brcs",
+      "type": "section",
+      "title": "Conversion of Currencies in e-BRCs",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.\n(b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+      "parentId": "",
+      "sectionId": "1.06",
+      "sectionTitle": "Conversion of Currencies in e-BRCs",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 8,
+      "searchAliases": [
+        "Conversion of Currencies in e-BRCs",
+        "Conversion of Currencies in e BR Cs",
+        "ConversionofCurrenciesineBRCs",
+        "Conversion of Currencies in e-BR Cs"
+      ],
+      "childIds": [
+        "1.06::business_rule::1::conversion-of-currencies-in-e-brcs"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 8
+    },
+    {
+      "id": "1.06::business_rule::1::conversion-of-currencies-in-e-brcs",
+      "type": "business_rule",
+      "title": "Conversion of Currencies in e-BRCs",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate. (b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+      "parentId": "1.06::section::0::conversion-of-currencies-in-e-brcs",
+      "sectionId": "1.06",
+      "sectionTitle": "Conversion of Currencies in e-BRCs",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Conversion of Currencies in e-BRCs",
+        "Conversion of Currencies in e BR Cs",
+        "ConversionofCurrenciesineBRCs",
+        "Conversion of Currencies in e-BR Cs"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "CBIC"
   ],

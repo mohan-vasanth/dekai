@@ -41,6 +41,89 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "6.09::section::0::leasing-of-capital-goods",
+      "type": "section",
+      "title": "Leasing of Capital Goods",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.09 Leasing of Capital Goods\nValue of imported capital goods financed through leasing companies or obtained\nfree of cost and / or on loan / lease basis, shall also be taken into account for\npurpose of calculation of NFE as defined in FTP.",
+      "parentId": "",
+      "sectionId": "6.09",
+      "sectionTitle": "Leasing of Capital Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 8,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Leasing of Capital Goods",
+        "LeasingofCapitalGoods"
+      ],
+      "childIds": [
+        "6.09::validation::1::validation-rules",
+        "6.09::business_rule::2::leasing-of-capital-goods"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "6.09::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.09 Leasing of Capital Goods\nValue of imported capital goods financed through leasing companies or obtained\nfree of cost and / or on loan / lease basis, shall also be taken into account for\npurpose of calculation of NFE as defined in FTP.",
+      "parentId": "6.09::section::0::leasing-of-capital-goods",
+      "sectionId": "6.09",
+      "sectionTitle": "Leasing of Capital Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 8,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.09::business_rule::2::leasing-of-capital-goods",
+      "type": "business_rule",
+      "title": "Leasing of Capital Goods",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.09 Leasing of Capital Goods\nValue of imported capital goods financed through leasing companies or obtained\nfree of cost and / or on loan / lease basis, shall also be taken into account for\npurpose of calculation of NFE as defined in FTP.",
+      "parentId": "6.09::section::0::leasing-of-capital-goods",
+      "sectionId": "6.09",
+      "sectionTitle": "Leasing of Capital Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 8,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Leasing of Capital Goods",
+        "LeasingofCapitalGoods"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [

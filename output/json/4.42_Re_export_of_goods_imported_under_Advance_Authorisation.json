@@ -42,6 +42,64 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4.42::section::0::re-export-of-goods-imported-under-advance-author",
+      "type": "section",
+      "title": "Re-export of goods imported under Advance Authorisation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.42 Re-export of goods imported under Advance Authorisation\nScheme\nGoods imported against Advance Authorisation Scheme, which are found\ndefective or unfit for use, may be re-exported, as per Department of Revenue\nguidelines. The authorisation holder has to inform the Regional Authority who\nhas issued the authorisation before re-export of such defective goods.",
+      "parentId": "",
+      "sectionId": "4.42",
+      "sectionTitle": "Re-export of goods imported under Advance Authorisation",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 24,
+      "startLine": 0,
+      "endLine": 5,
+      "searchAliases": [
+        "Re-export of goods imported under Advance Authorisation",
+        "Re export of goods imported under Advance Authorisation",
+        "ReexportofgoodsimportedunderAdvanceAuthorisation"
+      ],
+      "childIds": [
+        "4.42::business_rule::1::re-export-of-goods-imported-under-advance-author"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 5
+    },
+    {
+      "id": "4.42::business_rule::1::re-export-of-goods-imported-under-advance-author",
+      "type": "business_rule",
+      "title": "Re-export of goods imported under Advance Authorisation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: The authorisation holder has to inform the Regional Authority who\nhas issued the authorisation before re-export of such defective goods.",
+      "parentId": "4.42::section::0::re-export-of-goods-imported-under-advance-author",
+      "sectionId": "4.42",
+      "sectionTitle": "Re-export of goods imported under Advance Authorisation",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 24,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Re-export of goods imported under Advance Authorisation",
+        "Re export of goods imported under Advance Authorisation",
+        "ReexportofgoodsimportedunderAdvanceAuthorisation"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "Regional Authority",
     "The authorisation holder has to inform the Regional Authority"

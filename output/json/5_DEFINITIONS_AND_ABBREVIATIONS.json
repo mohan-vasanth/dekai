@@ -1,6 +1,6 @@
 {
   "chapter_number": "",
-  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
   "section": "5",
   "title": "DEFINITIONS AND ABBREVIATIONS",
   "purpose": "Defines the operational requirements for DEFINITIONS AND ABBREVIATIONS.",
@@ -30,6 +30,62 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "5::section::0::definitions-and-abbreviations",
+      "type": "section",
+      "title": "DEFINITIONS AND ABBREVIATIONS",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5. DEFINITIONS AND ABBREVIATIONS",
+      "parentId": "",
+      "sectionId": "5",
+      "sectionTitle": "DEFINITIONS AND ABBREVIATIONS",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "DEFINITIONS AND ABBREVIATIONS",
+        "DEFINITIONSANDABBREVIATIONS"
+      ],
+      "childIds": [
+        "5::business_rule::1::definitions-and-abbreviations"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "5::business_rule::1::definitions-and-abbreviations",
+      "type": "business_rule",
+      "title": "DEFINITIONS AND ABBREVIATIONS",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5. DEFINITIONS AND ABBREVIATIONS",
+      "parentId": "5::section::0::definitions-and-abbreviations",
+      "sectionId": "5",
+      "sectionTitle": "DEFINITIONS AND ABBREVIATIONS",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "DEFINITIONS AND ABBREVIATIONS",
+        "DEFINITIONSANDABBREVIATIONS"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],
@@ -227,7 +283,7 @@
   "pages": [
     5
   ],
-  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+  "source_document": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
   "raw_text": "5. DEFINITIONS AND ABBREVIATIONS",
   "mermaid": "flowchart TD\n    S1[\"Review section 5 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
   "plantuml": "@startuml\nstart\n:Review section 5 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"

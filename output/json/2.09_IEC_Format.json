@@ -43,6 +43,62 @@
     "2.09 IEC Format\nAn electronic copy of the IEC may be downloaded online on their DGFT Dashboard."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.09::section::0::iec-format",
+      "type": "section",
+      "title": "IEC Format",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.09 IEC Format\nAn electronic copy of the IEC may be downloaded online on their DGFT Dashboard. The\ndetails of any IEC may be verified on the DGFT Website under Services → ‘View IEC\nRelated Details’",
+      "parentId": "",
+      "sectionId": "2.09",
+      "sectionTitle": "IEC Format",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "IEC Format",
+        "IECFormat"
+      ],
+      "childIds": [
+        "2.09::business_rule::1::iec-format"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "2.09::business_rule::1::iec-format",
+      "type": "business_rule",
+      "title": "IEC Format",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.09 IEC Format\nAn electronic copy of the IEC may be downloaded online on their DGFT Dashboard. The\ndetails of any IEC may be verified on the DGFT Website under Services → ‘View IEC\nRelated Details’",
+      "parentId": "2.09::section::0::iec-format",
+      "sectionId": "2.09",
+      "sectionTitle": "IEC Format",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "IEC Format",
+        "IECFormat"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "DGFT",
     "An electronic copy of the IEC may be downloaded online on their DGFT",

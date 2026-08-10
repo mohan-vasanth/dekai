@@ -30,6 +30,62 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "3::section::0::representative-of-agricultural-and-processed-foo",
+      "type": "section",
+      "title": "Representative of Agricultural and Processed Food Products Export",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "3. Representative of Agricultural and Processed Food Products Export\nDevelopment Authority (APEDA): Member",
+      "parentId": "",
+      "sectionId": "3",
+      "sectionTitle": "Representative of Agricultural and Processed Food Products Export",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 1,
+      "searchAliases": [
+        "Representative of Agricultural and Processed Food Products Export",
+        "RepresentativeofAgriculturalandProcessedFoodProductsExport"
+      ],
+      "childIds": [
+        "3::business_rule::1::representative-of-agricultural-and-processed-foo"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 1
+    },
+    {
+      "id": "3::business_rule::1::representative-of-agricultural-and-processed-foo",
+      "type": "business_rule",
+      "title": "Representative of Agricultural and Processed Food Products Export",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "3. Representative of Agricultural and Processed Food Products Export\nDevelopment Authority (APEDA): Member",
+      "parentId": "3::section::0::representative-of-agricultural-and-processed-foo",
+      "sectionId": "3",
+      "sectionTitle": "Representative of Agricultural and Processed Food Products Export",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Representative of Agricultural and Processed Food Products Export",
+        "RepresentativeofAgriculturalandProcessedFoodProductsExport"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "Development Authority"
   ],

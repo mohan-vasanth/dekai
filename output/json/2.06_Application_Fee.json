@@ -43,6 +43,88 @@
     "2.06 Application Fee\nThe scale of fee, mode of payment, procedure for refund of fee and categories of persons\nexempted from payment of fee are provided in Appendix-2K."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.06::section::0::application-fee",
+      "type": "section",
+      "title": "Application Fee",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.06 Application Fee\nThe scale of fee, mode of payment, procedure for refund of fee and categories of persons\nexempted from payment of fee are provided in Appendix-2K.\nIMPORTER EXPORTER CODE (IEC)",
+      "parentId": "",
+      "sectionId": "2.06",
+      "sectionTitle": "Application Fee",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Application Fee",
+        "ApplicationFee"
+      ],
+      "childIds": [
+        "2.06::exception::1::exceptions",
+        "2.06::business_rule::2::application-fee"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "2.06::exception::1::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.06 Application Fee\nThe scale of fee, mode of payment, procedure for refund of fee and categories of persons\nexempted from payment of fee are provided in Appendix-2K.",
+      "parentId": "2.06::section::0::application-fee",
+      "sectionId": "2.06",
+      "sectionTitle": "Application Fee",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.06::business_rule::2::application-fee",
+      "type": "business_rule",
+      "title": "Application Fee",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 2.06 Application Fee\nThe scale of fee, mode of payment, procedure for refund of fee and categories of persons\nexempted from payment of fee are provided in Appendix-2K.",
+      "parentId": "2.06::section::0::application-fee",
+      "sectionId": "2.06",
+      "sectionTitle": "Application Fee",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Application Fee",
+        "ApplicationFee"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [

@@ -1,6 +1,6 @@
 {
   "chapter_number": "",
-  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
   "section": "2",
   "title": "SCOPE",
   "purpose": "SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).",
@@ -26,7 +26,7 @@
   ],
   "conditions": [
     "SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).",
-    "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    "Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
   ],
   "condition_logic": [
     {
@@ -37,9 +37,9 @@
     },
     {
       "id": ".2.2",
-      "if": "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "if": "Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
       "then": "Route for review",
-      "source": "Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+      "source": "Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
     }
   ],
   "validations": [
@@ -70,19 +70,100 @@
         "Release Date\n18/11/2021",
         "Ver\n4.1",
         "Reference\nTRADENET",
-        "Document Id.\nTDS41-MDS-XML-IPTDEC-M"
+        "Document Id.\nTDS41-MDS-XML-TNPDEC-M"
       ]
     ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "2::section::0::scope",
+      "type": "section",
+      "title": "SCOPE",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2. SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).\n- message format.\nThe segments, composite data elements, data elements and codes used in this document are based on the respective\ndirectories in the UN/CEFACT. Refer to references 3 to 12 for more details.\nTrade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-TNPDEC-M\nTrade Net Declaration.TNPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\n2. SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).\n- message format.\nThe segments, composite data elements, data elements and codes used in this document are based on the respective\ndirectories in the UN/CEFACT. Refer to references 3 to 12 for more details.\nOFFICIAL (CLOSED)\nAM",
+      "parentId": "",
+      "sectionId": "2",
+      "sectionTitle": "SCOPE",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 35,
+      "searchAliases": [
+        "SCOPE"
+      ],
+      "childIds": [
+        "2::validation::1::validation-rules",
+        "2::business_rule::2::scope"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 35
+    },
+    {
+      "id": "2::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).",
+      "parentId": "2::section::0::scope",
+      "sectionId": "2",
+      "sectionTitle": "SCOPE",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::2::scope",
+      "type": "business_rule",
+      "title": "SCOPE",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).",
+      "parentId": "2::section::0::scope",
+      "sectionId": "2",
+      "sectionTitle": "SCOPE",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "SCOPE"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
   ],
   "authorities": [],
   "timelines": [],
   "actions": [],
   "workflow": [
     "Evaluate condition: SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).",
-    "Evaluate condition: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "Evaluate condition: Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
     "Run validation: SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable)."
   ],
-  "workflow_ascii": "SCOPE\nEvaluate condition: SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).\n   |\n   v\nEvaluate condition: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\n   |\n   v\nRun validation: SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).",
+  "workflow_ascii": "SCOPE\nEvaluate condition: SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).\n   |\n   v\nEvaluate condition: Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\n   |\n   v\nRun validation: SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).",
   "decision_tree": [
     "IF section 2 applies THEN proceed with standard DGFT workflow"
   ],
@@ -376,8 +457,8 @@
     2,
     3
   ],
-  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
-  "raw_text": "2. SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).\n- message format.\nThe segments, composite data elements, data elements and codes used in this document are based on the respective\ndirectories in the UN/CEFACT. Refer to references 3 to 12 for more details.\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-IPTDEC-M\nTrade Net Declaration.IPTDEC Ver2.1.doc\nOFFICIAL (CLOSED)\n2. SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).\n- message format.\nThe segments, composite data elements, data elements and codes used in this document are based on the respective\ndirectories in the UN/CEFACT. Refer to references 3 to 12 for more details.\nOFFICIAL (CLOSED)\nAM",
-  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).\"]\n    S2[\"Evaluate condition: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\"]\n    S1 --> S2\n    S3[\"Run validation: SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).\"]\n    S2 --> S3",
-  "plantuml": "@startuml\nstart\n:Evaluate condition\\: SCOPE\nThe document shall provide the following principles and details for the following\\:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).;\n:Evaluate condition\\: Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by\\:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11\\:10\nAM\nPrepared by\\:\nFor\\:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.;\n:Run validation\\: SCOPE\nThe document shall provide the following principles and details for the following\\:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).;\nstop\n@enduml"
+  "source_document": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+  "raw_text": "2. SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).\n- message format.\nThe segments, composite data elements, data elements and codes used in this document are based on the respective\ndirectories in the UN/CEFACT. Refer to references 3 to 12 for more details.\nTrade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-TNPDEC-M\nTrade Net Declaration.TNPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\n2. SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).\n- message format.\nThe segments, composite data elements, data elements and codes used in this document are based on the respective\ndirectories in the UN/CEFACT. Refer to references 3 to 12 for more details.\nOFFICIAL (CLOSED)\nAM",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).\"]\n    S2[\"Evaluate condition: Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\"]\n    S1 --> S2\n    S3[\"Run validation: SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: SCOPE\nThe document shall provide the following principles and details for the following\\:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).;\n:Evaluate condition\\: Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by\\:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11\\:13\nAM\nPrepared by\\:\nFor\\:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.;\n:Run validation\\: SCOPE\nThe document shall provide the following principles and details for the following\\:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).;\nstop\n@enduml"
 }

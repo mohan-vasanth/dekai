@@ -60,6 +60,62 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.77::section::0::registering-authorities",
+      "type": "section",
+      "title": "Registering Authorities",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.77 Registering Authorities\n(a) Registering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC.\n(b) The list of notified Registering Authorities is at Appendix -2T.\n2.77 Registering Authorities\n(a)\nRegistering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC.\n(b)\nThe list of notified Registering Authorities is at Appendix -2T.",
+      "parentId": "",
+      "sectionId": "2.77",
+      "sectionTitle": "Registering Authorities",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 34,
+      "startLine": 0,
+      "endLine": 9,
+      "searchAliases": [
+        "Registering Authorities",
+        "RegisteringAuthorities"
+      ],
+      "childIds": [
+        "2.77::business_rule::1::registering-authorities"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 9
+    },
+    {
+      "id": "2.77::business_rule::1::registering-authorities",
+      "type": "business_rule",
+      "title": "Registering Authorities",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 2.77 Registering Authorities\n(a) Registering Authority is a body notified by DGFT in this regard to register\nimporters/ exporters as its members by issuing RCMC.",
+      "parentId": "2.77::section::0::registering-authorities",
+      "sectionId": "2.77",
+      "sectionTitle": "Registering Authorities",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 34,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Registering Authorities",
+        "RegisteringAuthorities"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "DGFT",
     "Registering Authorities",

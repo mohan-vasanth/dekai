@@ -110,7 +110,7 @@ export function ChatPage() {
     const question = nextDraft.trim();
     if (!question || isRequestInFlightRef.current) return;
 
-    const currentDocumentName = "";
+    const currentDocumentName = resolvedDocumentName.trim();
     const requestKey = buildRequestKey(question, currentDocumentName, aiModel, language);
     if (pendingRequestKeys.has(requestKey)) return;
     const userId = makeId("user");
@@ -271,7 +271,7 @@ export function ChatPage() {
       isRequestInFlightRef.current = false;
       setIsRequestInFlight(false);
     }
-  }, [aiModel, conversationId, language, pushToast, t]);
+  }, [aiModel, conversationId, language, pushToast, resolvedDocumentName, t]);
 
   useEffect(() => {
     const autoSubmitKey = `${newChatKey ?? "default"}:${prefilledQuestion}`;

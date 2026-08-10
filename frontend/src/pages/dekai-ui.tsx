@@ -57,7 +57,7 @@ export const makeId = (prefix: string) =>
 
 export const statusTone = (status: string) => {
   if (status === "ready") return "success";
-  if (status === "processing") return "warning";
+  if (status === "queued" || status === "processing") return "warning";
   if (status === "failed") return "danger";
   return "default";
 };

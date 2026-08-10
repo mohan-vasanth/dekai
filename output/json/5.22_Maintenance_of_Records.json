@@ -41,6 +41,89 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "5.22::section::0::maintenance-of-records",
+      "type": "section",
+      "title": "Maintenance of Records",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5.22 Maintenance of Records\nEvery EPCG authorisation holder shall maintain, for a period of 2 years from date\nof redemption, a true and proper account of exports/ supplies made and services\nrendered towards fulfillment of export obligation.",
+      "parentId": "",
+      "sectionId": "5.22",
+      "sectionTitle": "Maintenance of Records",
+      "documentName": "HBP2023_Chapter05.pdf",
+      "pageNumber": 13,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Maintenance of Records",
+        "MaintenanceofRecords"
+      ],
+      "childIds": [
+        "5.22::validation::1::validation-rules",
+        "5.22::business_rule::2::maintenance-of-records"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "5.22::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5.22 Maintenance of Records\nEvery EPCG authorisation holder shall maintain, for a period of 2 years from date\nof redemption, a true and proper account of exports/ supplies made and services\nrendered towards fulfillment of export obligation.",
+      "parentId": "5.22::section::0::maintenance-of-records",
+      "sectionId": "5.22",
+      "sectionTitle": "Maintenance of Records",
+      "documentName": "HBP2023_Chapter05.pdf",
+      "pageNumber": 13,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "5.22::business_rule::2::maintenance-of-records",
+      "type": "business_rule",
+      "title": "Maintenance of Records",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5.22 Maintenance of Records\nEvery EPCG authorisation holder shall maintain, for a period of 2 years from date\nof redemption, a true and proper account of exports/ supplies made and services\nrendered towards fulfillment of export obligation.",
+      "parentId": "5.22::section::0::maintenance-of-records",
+      "sectionId": "5.22",
+      "sectionTitle": "Maintenance of Records",
+      "documentName": "HBP2023_Chapter05.pdf",
+      "pageNumber": 13,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Maintenance of Records",
+        "MaintenanceofRecords"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [
     "5.22 Maintenance of Records\nEvery EPCG authorisation holder shall maintain, for a period of 2 years from date\nof redemption, a true and proper account of exports/ supplies made and services\nrendered towards fulfillment of export obligation."

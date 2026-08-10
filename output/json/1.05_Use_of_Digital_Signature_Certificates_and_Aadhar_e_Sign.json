@@ -45,6 +45,91 @@
     "1.05 Use of Digital Signature Certificates and Aadhar e-Sign\nDGFT allows submission of applications authenticated through digital signature\ncertificate (DSC) issued by any approved entity of Controller of Certifying Authority of\nIndia or through Aadhar e Sign in online environment."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "1.05::section::0::use-of-digital-signature-certificates-and-aadhar",
+      "type": "section",
+      "title": "Use of Digital Signature Certificates and Aadhar e-Sign",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.05 Use of Digital Signature Certificates and Aadhar e-Sign\nDGFT allows submission of applications authenticated through digital signature\ncertificate (DSC) issued by any approved entity of Controller of Certifying Authority of\nIndia or through Aadhar e Sign in online environment.",
+      "parentId": "",
+      "sectionId": "1.05",
+      "sectionTitle": "Use of Digital Signature Certificates and Aadhar e-Sign",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Use of Digital Signature Certificates and Aadhar e-Sign",
+        "Use of Digital Signature Certificates and Aadhar e Sign",
+        "UseofDigitalSignatureCertificatesandAadhareSign"
+      ],
+      "childIds": [
+        "1.05::validation::1::validation-rules",
+        "1.05::business_rule::2::use-of-digital-signature-certificates-and-aadhar"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "1.05::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.05 Use of Digital Signature Certificates and Aadhar e-Sign\nDGFT allows submission of applications authenticated through digital signature\ncertificate (DSC) issued by any approved entity of Controller of Certifying Authority of\nIndia or through Aadhar e Sign in online environment.",
+      "parentId": "1.05::section::0::use-of-digital-signature-certificates-and-aadhar",
+      "sectionId": "1.05",
+      "sectionTitle": "Use of Digital Signature Certificates and Aadhar e-Sign",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "1.05::business_rule::2::use-of-digital-signature-certificates-and-aadhar",
+      "type": "business_rule",
+      "title": "Use of Digital Signature Certificates and Aadhar e-Sign",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 1.05 Use of Digital Signature Certificates and Aadhar e-Sign\nDGFT allows submission of applications authenticated through digital signature\ncertificate (DSC) issued by any approved entity of Controller of Certifying Authority of\nIndia or through Aadhar e Sign in online environment.",
+      "parentId": "1.05::section::0::use-of-digital-signature-certificates-and-aadhar",
+      "sectionId": "1.05",
+      "sectionTitle": "Use of Digital Signature Certificates and Aadhar e-Sign",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Use of Digital Signature Certificates and Aadhar e-Sign",
+        "Use of Digital Signature Certificates and Aadhar e Sign",
+        "UseofDigitalSignatureCertificatesandAadhareSign"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "DGFT",
     "DSC) issued by any approved entity of Controller of Certifying Authority"

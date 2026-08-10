@@ -55,6 +55,90 @@
     "Proof of obligation for repair of defective/damaged items:\nContract agreement and/or ‘Statement of Work (SOW)’/ Master Service\nagreement (MSA) between Indian exporter and with the entity abroad/Direct\nsubsidiary/Parent of the Indian Company or another subsidiary of the foreign\nparent of the Indian Company/Authorised Vendor/Original Equipment\nmanufacturer having EMS agreement/Master service agreement/ contract with\nIndian Company from (which the goods were imported initially) defining\nconditions for undertaking repair in India"
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "1::section::0::proof-of-import-of-the-item-s",
+      "type": "section",
+      "title": "Proof of import of the item(s):",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1. Proof of import of the item(s):\na. Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb. Documentary proof and/or self-declaration that the item exempted from\nlicense requirement or place under no license requirement for India.\nc. Bill of Entry (first time)\n1. Proof of import of the item(s):\na. Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb. Documentary proof and/or self-declaration that the item exempted from\nlicense requirement or place under no license requirement for India.\nc. Bill of Entry (first time)\n2.\nProof of obligation for repair of defective/damaged items:\nContract agreement and/or ‘Statement of Work (SOW)’/ Master Service\nagreement (MSA) between Indian exporter and with the entity abroad/Direct\nsubsidiary/Parent of the Indian Company or another subsidiary of the foreign\nparent of the Indian Company/Authorised Vendor/Original Equipment\nmanufacturer having EMS agreement/Master service agreement/ contract with\nIndian Company from (which the goods were imported initially) defining\nconditions for undertaking repair in India",
+      "parentId": "",
+      "sectionId": "1",
+      "sectionTitle": "Proof of import of the item(s):",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 20,
+      "searchAliases": [
+        "Proof of import of the item(s):",
+        "Proof of import of the item s",
+        "Proofofimportoftheitems"
+      ],
+      "childIds": [
+        "1::exception::1::exceptions",
+        "1::business_rule::2::proof-of-import-of-the-item-s"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 20
+    },
+    {
+      "id": "1::exception::1::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Documentary proof and/or self-declaration that the item exempted from\nlicense requirement or place under no license requirement for India.",
+      "parentId": "1::section::0::proof-of-import-of-the-item-s",
+      "sectionId": "1",
+      "sectionTitle": "Proof of import of the item(s):",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "1::business_rule::2::proof-of-import-of-the-item-s",
+      "type": "business_rule",
+      "title": "Proof of import of the item(s):",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: Export Authorisation (if applicable) issued by the foreign country for\noriginal import of the items to India;\nb.",
+      "parentId": "1::section::0::proof-of-import-of-the-item-s",
+      "sectionId": "1",
+      "sectionTitle": "Proof of import of the item(s):",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Proof of import of the item(s):",
+        "Proof of import of the item s",
+        "Proofofimportoftheitems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [

@@ -52,6 +52,91 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2::section::0::non-reporting-of-the-arr-shall-lead-to-denial-of",
+      "type": "section",
+      "title": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2. Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e. after\n30th June.",
+      "parentId": "",
+      "sectionId": "2",
+      "sectionTitle": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 55,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP",
+        "Non reporting of the ARR shall lead to denial of benefits under the RODTEP",
+        "NonreportingoftheARRshallleadtodenialofbenefitsundertheRODTEP"
+      ],
+      "childIds": [
+        "2::validation::1::validation-rules",
+        "2::business_rule::2::non-reporting-of-the-arr-shall-lead-to-denial-of"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "2::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+      "parentId": "2::section::0::non-reporting-of-the-arr-shall-lead-to-denial-of",
+      "sectionId": "2",
+      "sectionTitle": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 55,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::2::non-reporting-of-the-arr-shall-lead-to-denial-of",
+      "type": "business_rule",
+      "title": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+      "parentId": "2::section::0::non-reporting-of-the-arr-shall-lead-to-denial-of",
+      "sectionId": "2",
+      "sectionTitle": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 55,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP",
+        "Non reporting of the ARR shall lead to denial of benefits under the RODTEP",
+        "NonreportingoftheARRshallleadtodenialofbenefitsundertheRODTEP"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "Customs"
   ],

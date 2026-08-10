@@ -43,6 +43,62 @@
     "2.32 Submission of Certified Copies of Documents\nWherever original documents have been submitted to a different RA / nominated\nagency or to a different division of same RA, applicant can furnish photocopy of\ndocuments duly certified by him in lieu of original."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.32::section::0::submission-of-certified-copies-of-documents",
+      "type": "section",
+      "title": "Submission of Certified Copies of Documents",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.32 Submission of Certified Copies of Documents\nWherever original documents have been submitted to a different RA / nominated\nagency or to a different division of same RA, applicant can furnish photocopy of\ndocuments duly certified by him in lieu of original.\nWAREHOUSING FACILITY",
+      "parentId": "",
+      "sectionId": "2.32",
+      "sectionTitle": "Submission of Certified Copies of Documents",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 12,
+      "startLine": 0,
+      "endLine": 4,
+      "searchAliases": [
+        "Submission of Certified Copies of Documents",
+        "SubmissionofCertifiedCopiesofDocuments"
+      ],
+      "childIds": [
+        "2.32::business_rule::1::submission-of-certified-copies-of-documents"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 4
+    },
+    {
+      "id": "2.32::business_rule::1::submission-of-certified-copies-of-documents",
+      "type": "business_rule",
+      "title": "Submission of Certified Copies of Documents",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: 2.32 Submission of Certified Copies of Documents\nWherever original documents have been submitted to a different RA / nominated\nagency or to a different division of same RA, applicant can furnish photocopy of\ndocuments duly certified by him in lieu of original.",
+      "parentId": "2.32::section::0::submission-of-certified-copies-of-documents",
+      "sectionId": "2.32",
+      "sectionTitle": "Submission of Certified Copies of Documents",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 12,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Submission of Certified Copies of Documents",
+        "SubmissionofCertifiedCopiesofDocuments"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "RA",
     "Wherever original documents have been submitted to a different RA"

@@ -42,6 +42,60 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "10.00::section::0::policy",
+      "type": "section",
+      "title": "Policy",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "10.00 Policy\nPolicy relating to general provisions governing the export of dual use items,\nmunitions and nuclear related items, including software and technology, viz.\nSCOMET, is specified in Chapter 10 of FTP.",
+      "parentId": "",
+      "sectionId": "10.00",
+      "sectionTitle": "Policy",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Policy"
+      ],
+      "childIds": [
+        "10.00::business_rule::1::policy"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "10.00::business_rule::1::policy",
+      "type": "business_rule",
+      "title": "Policy",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "10.00 Policy\nPolicy relating to general provisions governing the export of dual use items,\nmunitions and nuclear related items, including software and technology, viz. SCOMET, is specified in Chapter 10 of FTP.",
+      "parentId": "10.00::section::0::policy",
+      "sectionId": "10.00",
+      "sectionTitle": "Policy",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Policy"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],

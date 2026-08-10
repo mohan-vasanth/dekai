@@ -11,7 +11,7 @@ from config import CONFIG
 from parser.utils import (
     extract_numeric_identifiers,
     normalise_whitespace,
-    safe_section_slug,
+    safe_document_section_slug,
     stable_text_hash,
     split_lines,
     split_sentences,
@@ -55,8 +55,29 @@ class KnowledgeEngineService:
         self.index_path = runtime_store.knowledge_index_path
         self.schema_path = runtime_store.knowledge_schema_path
 
+    def _latest_source_mtime(self) -> float:
+        paths: list[Path] = [
+            CONFIG.json_dir / "master_knowledge_base.json",
+            CONFIG.reports_dir / "chapter_reports.json",
+            runtime_store.document_versions_path,
+        ]
+        paths.extend(CONFIG.json_dir.glob("*_searchable.json"))
+        paths.extend(CONFIG.reports_dir.glob("*_report.json"))
+        paths.extend(CONFIG.chunk_output_dir.glob("*.json"))
+
+        latest_mtime = 0.0
+        for path in paths:
+            if not path.exists():
+                continue
+            try:
+                latest_mtime = max(latest_mtime, path.stat().st_mtime)
+            except OSError:
+                continue
+        return latest_mtime
+
     def _document_stages(self, status: str) -> list[dict[str, str]]:
         labels = [
+            "Queued",
             "Validate PDF",
             "Extract Text",
             "Convert to Markdown",
@@ -66,20 +87,30 @@ class KnowledgeEngineService:
             "Index into Knowledge Base",
             "Ready",
         ]
+        if status == "queued":
+            return [
+                {"label": label, "state": "current" if index == 0 else "upcoming"}
+                for index, label in enumerate(labels)
+            ]
         if status == "ready":
             return [{"label": label, "state": "complete"} for label in labels]
         if status == "failed":
             return [
-                {"label": label, "state": "complete" if index == 0 else "current" if index == 1 else "upcoming"}
+                {"label": label, "state": "complete" if index <= 1 else "current" if index == 2 else "upcoming"}
                 for index, label in enumerate(labels)
             ]
         return [
-            {"label": label, "state": "complete" if index == 0 else "current" if index == 1 else "upcoming"}
+            {"label": label, "state": "complete" if index <= 1 else "current" if index == 2 else "upcoming"}
             for index, label in enumerate(labels)
         ]
 
     def load_index(self, refresh: bool = False) -> dict[str, Any]:
         if refresh or not self.index_path.exists():
+            return self.build_index()
+        try:
+            if self._latest_source_mtime() > self.index_path.stat().st_mtime:
+                return self.build_index()
+        except OSError:
             return self.build_index()
         cached = runtime_store.read_json(self.index_path, {})
         if cached:
@@ -107,12 +138,32 @@ class KnowledgeEngineService:
                 report_by_document[report["summary"]["source_pdf"]] = report
 
         sections_raw = []
-        for section_file in CONFIG.json_dir.glob("*.json"):
-            if section_file.name in {"master_knowledge_base.json", "unified_topics.json"} or section_file.name.endswith("_searchable.json"):
+        known_documents = {
+            str(name).strip()
+            for name in [
+                *master.get("source_documents", []),
+                *[path.name for path in CONFIG.input_pdf_dir.glob("*.pdf")],
+            ]
+            if str(name).strip()
+        }
+        for searchable_file in CONFIG.json_dir.glob("*_searchable.json"):
+            payload = _safe_json(searchable_file, None)
+            if not isinstance(payload, dict):
                 continue
-            payload = _safe_json(section_file, None)
-            if isinstance(payload, dict) and payload.get("section"):
-                sections_raw.append(payload)
+            source_pdf = str(payload.get("source_pdf", "")).strip()
+            if known_documents and source_pdf and source_pdf not in known_documents:
+                continue
+            for section_payload in payload.get("sections", []):
+                if isinstance(section_payload, dict) and section_payload.get("section"):
+                    sections_raw.append(section_payload)
+
+        if not sections_raw:
+            for section_file in CONFIG.json_dir.glob("*.json"):
+                if section_file.name in {"master_knowledge_base.json", "unified_topics.json"} or section_file.name.endswith("_searchable.json"):
+                    continue
+                payload = _safe_json(section_file, None)
+                if isinstance(payload, dict) and payload.get("section"):
+                    sections_raw.append(payload)
 
         sections = []
         rules: list[dict[str, Any]] = []
@@ -256,7 +307,7 @@ class KnowledgeEngineService:
             section_record["eximCodes"] = list(section_record["hsCodes"])
             sections.append(section_record)
 
-            chunk_payload = _safe_json(CONFIG.chunk_output_dir / f"{safe_section_slug(section_id, title)}.json", [])
+            chunk_payload = _safe_json(CONFIG.chunk_output_dir / f"{safe_document_section_slug(document_name, section_id, title)}.json", [])
             if not isinstance(chunk_payload, list) or not chunk_payload:
                 chunk_payload = [
                     {
@@ -756,7 +807,7 @@ class KnowledgeEngineService:
                     "lastUpdated": _iso_timestamp(path),
                     "sizeKb": round(path.stat().st_size / 1024),
                     "status": status,
-                    "progress": 100 if status != "processing" else 65,
+                    "progress": 100 if status not in {"queued", "processing"} else 0 if status == "queued" else 65,
                     "summary": _clean(
                         error_message
                         or next(

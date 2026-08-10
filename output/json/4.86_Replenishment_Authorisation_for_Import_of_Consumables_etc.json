@@ -44,6 +44,91 @@
     "Application for import of consumables etc., as given in paragraph 4.35 of FTP\nshall be filed online to the concerned Regional Authority in ANF 4H."
   ],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4.86::section::0::replenishment-authorisation-for-import-of-consum",
+      "type": "section",
+      "title": "Replenishment Authorisation for Import of Consumables etc.",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.86 Replenishment Authorisation for Import of Consumables etc.\nApplication for import of consumables etc., as given in paragraph 4.35 of FTP\nshall be filed online to the concerned Regional Authority in ANF 4H.",
+      "parentId": "",
+      "sectionId": "4.86",
+      "sectionTitle": "Replenishment Authorisation for Import of Consumables etc.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Replenishment Authorisation for Import of Consumables etc.",
+        "Replenishment Authorisation for Import of Consumables etc",
+        "ReplenishmentAuthorisationforImportofConsumablesetc"
+      ],
+      "childIds": [
+        "4.86::validation::1::validation-rules",
+        "4.86::business_rule::2::replenishment-authorisation-for-import-of-consum"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "4.86::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Application for import of consumables etc., as given in paragraph 4.35 of FTP\nshall be filed online to the concerned Regional Authority in ANF 4H.",
+      "parentId": "4.86::section::0::replenishment-authorisation-for-import-of-consum",
+      "sectionId": "4.86",
+      "sectionTitle": "Replenishment Authorisation for Import of Consumables etc.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.86::business_rule::2::replenishment-authorisation-for-import-of-consum",
+      "type": "business_rule",
+      "title": "Replenishment Authorisation for Import of Consumables etc.",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Application for import of consumables etc., as given in paragraph 4.35 of FTP\nshall be filed online to the concerned Regional Authority in ANF 4H.",
+      "parentId": "4.86::section::0::replenishment-authorisation-for-import-of-consum",
+      "sectionId": "4.86",
+      "sectionTitle": "Replenishment Authorisation for Import of Consumables etc.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Replenishment Authorisation for Import of Consumables etc.",
+        "Replenishment Authorisation for Import of Consumables etc",
+        "ReplenishmentAuthorisationforImportofConsumablesetc"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "Regional Authority"
   ],

@@ -44,6 +44,64 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4.91::section::0::diamond-jewellery-dollar-accounts",
+      "type": "section",
+      "title": "Diamond & Jewellery Dollar Accounts",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.91 Diamond & Jewellery Dollar Accounts\nPolicy for Diamond and Jewellery Dollar Accounts is given in paragraph 4.50\nof FTP. Its operation will be governed by procedure specified by the RBI.",
+      "parentId": "",
+      "sectionId": "4.91",
+      "sectionTitle": "Diamond & Jewellery Dollar Accounts",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 53,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Diamond & Jewellery Dollar Accounts",
+        "Diamond Jewellery Dollar Accounts",
+        "DiamondJewelleryDollarAccounts"
+      ],
+      "childIds": [
+        "4.91::business_rule::1::diamond-jewellery-dollar-accounts"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "4.91::business_rule::1::diamond-jewellery-dollar-accounts",
+      "type": "business_rule",
+      "title": "Diamond & Jewellery Dollar Accounts",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.91 Diamond & Jewellery Dollar Accounts\nPolicy for Diamond and Jewellery Dollar Accounts is given in paragraph 4.50\nof FTP. Its operation will be governed by procedure specified by the RBI.",
+      "parentId": "4.91::section::0::diamond-jewellery-dollar-accounts",
+      "sectionId": "4.91",
+      "sectionTitle": "Diamond & Jewellery Dollar Accounts",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 53,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Diamond & Jewellery Dollar Accounts",
+        "Diamond Jewellery Dollar Accounts",
+        "DiamondJewelleryDollarAccounts"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],

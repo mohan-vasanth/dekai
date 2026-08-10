@@ -1,17 +1,18 @@
 # DEKAI DGFT Master Knowledge Report
 
 - Knowledge Base: DEKAI DGFT Knowledge Base
-- Source Documents: HBP2023_Chapter01.pdf, HBP Chapter 2.pdf, HBP2023_Chapter03.pdf, HBP2023_Chapter04+as+on+20.04.2026.pdf, HBP-Chapter-6.pdf, Chapter-7-of-HBP-2023.pdf, HBP2023_Chapter08.pdf, HBP2023_Chapter09.pdf, Chapter+10+HBP+(19.05.2026).pdf, TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf
-- Chapters: 10
-- Sections: 392
-- Unified Topics: 595
+- Source Documents: HBP2023_Chapter01.pdf, HBP Chapter 2.pdf, HBP2023_Chapter03.pdf, HBP2023_Chapter04+as+on+20.04.2026.pdf, HBP2023_Chapter05.pdf, HBP-Chapter-6.pdf, Chapter-7-of-HBP-2023.pdf, HBP2023_Chapter08.pdf, HBP2023_Chapter09.pdf, Chapter+10+HBP+(19.05.2026).pdf, TradeNetDeclaration.INPDEC Ver2.1.pdf, TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf, TradeNetDeclaration.OUTDEC Ver2.1.pdf, TradeNetDeclaration.TNPDEC Ver2.1.pdf
+- Chapters: 11
+- Sections: 465
+- Unified Topics: 696
 
 ## Chapter Reports
-- Chapter  TradeNetDeclaration.IPTDEC Ver2.1 (2): rules=30, conditions=362, validations=18, workflows=68, authorities=19, timelines=0, exceptions=43
+- Chapter  TradeNetDeclaration.INPDEC Ver2.1: rules=121, conditions=1685, validations=93, workflows=275, authorities=65, timelines=5, exceptions=167
 - Chapter 1 Legal Framework and Trade Facilitation: rules=23, conditions=32, validations=24, workflows=77, authorities=35, timelines=9, exceptions=2
 - Chapter 2 General Provisions Regarding Imports and Exports: rules=273, conditions=404, validations=262, workflows=611, authorities=203, timelines=123, exceptions=90
 - Chapter 3 Developing Districts as Export Hubs: rules=35, conditions=42, validations=14, workflows=83, authorities=66, timelines=0, exceptions=0
 - Chapter 4 Duty Exemption / Remission Schemes: rules=628, conditions=487, validations=606, workflows=760, authorities=248, timelines=264, exceptions=98
+- Chapter 5 Export Promotion Capital Goods (EPCG) Scheme: rules=129, conditions=104, validations=127, workflows=181, authorities=41, timelines=34, exceptions=17
 - Chapter 6 Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology: rules=204, conditions=144, validations=181, workflows=268, authorities=77, timelines=73, exceptions=34
 - Chapter 7 Deemed Exports: rules=50, conditions=38, validations=47, workflows=76, authorities=18, timelines=17, exceptions=15
 - Chapter 8 Quality Complaints and Trade Disputes: rules=17, conditions=4, validations=0, workflows=49, authorities=40, timelines=0, exceptions=1
@@ -73,6 +74,19 @@ DGFT
 |   +-- 4.10 Advance Authorisation for applicants with multiple units
 |   +-- 4.11 Advance Authorisation for Free of Cost and Paid Material
 |   +-- 4.12 Entitlement
++-- Chapter 5: Export Promotion Capital Goods (EPCG) Scheme
+|   +-- 5.01 Policy
+|   +-- 5.02 Application Form
+|   +-- 5.03 Nexus Certification
+|   +-- 5.04 Certificate of Installation of Capital Goods
+|   +-- 5.05 Port of Registration
+|   +-- 5.06 Import of spares, tools, refractories and catalysts
+|   +-- 5.07 Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG
+|   +-- 5.08 Procurement from SEZ
+|   +-- 5.09 Sourcing of Capital Goods Manufactured Indigenously
+|   +-- 5.10 Conditions for fulfillment of Export Obligation
+|   +-- 5.11 Realization of Export proceeds
+|   +-- 5.12 Calculation of Average Export Obligation
 +-- Chapter 6: Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology
 |   +-- 6.00 Scheme
 |   +-- 6.01 Application / Approval / Renewal of approval
@@ -133,21 +147,21 @@ DGFT
 +-- Unified Topics
     +-- A-B -> Chapters 6
     +-- A001 -> Chapters 
+    +-- A002 -> Chapters 
+    +-- A003 -> Chapters 
     +-- A008 -> Chapters 
+    +-- A009 -> Chapters 
     +-- A010 -> Chapters 
     +-- A011 -> Chapters 
+    +-- A013 -> Chapters 
     +-- A014 -> Chapters 
     +-- A016 -> Chapters 
+    +-- A017 -> Chapters 
+    +-- A020 -> Chapters 
     +-- A022 -> Chapters 
     +-- A023 -> Chapters 
     +-- A026 -> Chapters 
+    +-- A027 -> Chapters 
+    +-- A028 -> Chapters 
     +-- A030 -> Chapters 
     +-- A032 -> Chapters 
-    +-- A033 -> Chapters 
-    +-- A035 -> Chapters 
-    +-- A037 -> Chapters 
-    +-- A038 -> Chapters 
-    +-- A039 -> Chapters 
-    +-- A040 -> Chapters 
-    +-- A043 -> Chapters 
-    +-- A054 -> Chapters 

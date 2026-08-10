@@ -41,6 +41,87 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "1.03::section::0::definition",
+      "type": "section",
+      "title": "Definition",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.03 Definition\nFor the purpose of this Handbook, definitions and glossary contained in FT (D&R) Act,\nRules and Orders made there under and in the FTP shall apply.",
+      "parentId": "",
+      "sectionId": "1.03",
+      "sectionTitle": "Definition",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Definition"
+      ],
+      "childIds": [
+        "1.03::validation::1::validation-rules",
+        "1.03::business_rule::2::definition"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "1.03::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.03 Definition\nFor the purpose of this Handbook, definitions and glossary contained in FT (D&R) Act,\nRules and Orders made there under and in the FTP shall apply.",
+      "parentId": "1.03::section::0::definition",
+      "sectionId": "1.03",
+      "sectionTitle": "Definition",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "1.03::business_rule::2::definition",
+      "type": "business_rule",
+      "title": "Definition",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.03 Definition\nFor the purpose of this Handbook, definitions and glossary contained in FT (D&R) Act,\nRules and Orders made there under and in the FTP shall apply.",
+      "parentId": "1.03::section::0::definition",
+      "sectionId": "1.03",
+      "sectionTitle": "Definition",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Definition"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [

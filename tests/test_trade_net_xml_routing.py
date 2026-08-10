@@ -23,6 +23,11 @@ class TradeNetXmlRoutingTests(unittest.TestCase):
             raise AssertionError("Expected at least one ready TradeNet document in the knowledge base.")
 
         cls.trade_net_document_name = str(trade_net_documents[0]["name"])
+        cls.section_pages = {
+            f'{section.get("id", "")} {section.get("title", "")}'.strip(): list(section.get("sourcePages", []))
+            for section in cls.index.get("sections", [])
+            if str(section.get("documentName", "")).strip() == cls.trade_net_document_name
+        }
         cls.query_results: dict[str, dict] = {}
         for query in cls.EXPECTED_SECTIONS:
             plan = retrieval_decision_service.detect_intent(query)
@@ -111,7 +116,7 @@ class TradeNetXmlRoutingTests(unittest.TestCase):
         self.assertEqual(answer.get("knowledgeSourcesUsed"), ["TradeNet"])
         self.assertEqual(answer.get("referencedPdf"), self.trade_net_document_name)
         self.assertEqual(answer.get("sourceSection"), "7 Pipeline")
-        self.assertEqual(answer.get("sourcePages"), list(range(11, 21)))
+        self.assertEqual(answer.get("sourcePages"), self.section_pages["7 Pipeline"])
         self.assertEqual(debug.get("selected_retrieval_engine"), "trade_net_xml_field")
         self.assertEqual(debug.get("selected_document"), self.trade_net_document_name)
         self.assertEqual(debug.get("selected_section"), "7 Pipeline")

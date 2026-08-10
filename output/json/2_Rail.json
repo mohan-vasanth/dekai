@@ -1,6 +1,6 @@
 {
   "chapter_number": "",
-  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "chapter_title": "TradeNetDeclaration.TNPDEC Ver2.1",
   "section": "2",
   "title": "Rail",
   "purpose": "Defines the operational requirements for Rail.",
@@ -30,6 +30,60 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2::section::0::rail",
+      "type": "section",
+      "title": "Rail",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2: Rail",
+      "parentId": "",
+      "sectionId": "2",
+      "sectionTitle": "Rail",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Rail"
+      ],
+      "childIds": [
+        "2::business_rule::1::rail"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::1::rail",
+      "type": "business_rule",
+      "title": "Rail",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2: Rail",
+      "parentId": "2::section::0::rail",
+      "sectionId": "2",
+      "sectionTitle": "Rail",
+      "documentName": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Rail"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],
@@ -204,12 +258,14 @@
   "related_chapters": [],
   "related_rules": [],
   "page_numbers": [
-    11
+    11,
+    12
   ],
   "pages": [
-    11
+    11,
+    12
   ],
-  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+  "source_document": "TradeNetDeclaration.TNPDEC Ver2.1.pdf",
   "raw_text": "2: Rail",
   "mermaid": "flowchart TD\n    S1[\"Review section 2 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
   "plantuml": "@startuml\nstart\n:Review section 2 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"

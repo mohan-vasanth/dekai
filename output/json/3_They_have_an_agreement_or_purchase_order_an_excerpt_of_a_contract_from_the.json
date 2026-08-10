@@ -48,6 +48,64 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "3::section::0::they-have-an-agreement-or-purchase-order-an-exce",
+      "type": "section",
+      "title": "They have an agreement or purchase order, an excerpt of a contract from the",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "3. They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.\n1101\npg.\nfor GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.\n3. They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;",
+      "parentId": "",
+      "sectionId": "3",
+      "sectionTitle": "They have an agreement or purchase order, an excerpt of a contract from the",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 33,
+      "startLine": 0,
+      "endLine": 11,
+      "searchAliases": [
+        "They have an agreement or purchase order, an excerpt of a contract from the",
+        "They have an agreement or purchase order an excerpt of a contract from the",
+        "Theyhaveanagreementorpurchaseorderanexcerptofacontractfromthe"
+      ],
+      "childIds": [
+        "3::business_rule::1::they-have-an-agreement-or-purchase-order-an-exce"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 11
+    },
+    {
+      "id": "3::business_rule::1::they-have-an-agreement-or-purchase-order-an-exce",
+      "type": "business_rule",
+      "title": "They have an agreement or purchase order, an excerpt of a contract from the",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+      "parentId": "3::section::0::they-have-an-agreement-or-purchase-order-an-exce",
+      "sectionId": "3",
+      "sectionTitle": "They have an agreement or purchase order, an excerpt of a contract from the",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 33,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "They have an agreement or purchase order, an excerpt of a contract from the",
+        "They have an agreement or purchase order an excerpt of a contract from the",
+        "Theyhaveanagreementorpurchaseorderanexcerptofacontractfromthe"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "DGFT",
     "GAEIS for export of that/those item(s) and would apply separately to DGFT"

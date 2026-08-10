@@ -39,6 +39,62 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "6.16::section::0::transfer-of-power-from-one-unit-to-another",
+      "type": "section",
+      "title": "Transfer of Power from one Unit to another",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+      "parentId": "",
+      "sectionId": "6.16",
+      "sectionTitle": "Transfer of Power from one Unit to another",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 10,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Transfer of Power from one Unit to another",
+        "TransferofPowerfromoneUnittoanother"
+      ],
+      "childIds": [
+        "6.16::business_rule::1::transfer-of-power-from-one-unit-to-another"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "6.16::business_rule::1::transfer-of-power-from-one-unit-to-another",
+      "type": "business_rule",
+      "title": "Transfer of Power from one Unit to another",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.16 Transfer of Power from one Unit to another\nTransfer of power from Captive Power plants from one unit of EOU / EHTP / STP\n/ BTP unit to another is permitted as prescribed in sector specific condition in\nAppendix 6B of Appendices & ANFs.",
+      "parentId": "6.16::section::0::transfer-of-power-from-one-unit-to-another",
+      "sectionId": "6.16",
+      "sectionTitle": "Transfer of Power from one Unit to another",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 10,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Transfer of Power from one Unit to another",
+        "TransferofPowerfromoneUnittoanother"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],

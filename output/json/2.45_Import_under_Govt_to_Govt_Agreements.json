@@ -30,6 +30,64 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2.45::section::0::import-under-govt-to-govt-agreements",
+      "type": "section",
+      "title": "Import under Govt. to Govt. Agreements",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.45 Import under Govt. to Govt. Agreements\nImport of goods under Government-to-Government agreements may be allowed\nwithout an Authorisation on production of necessary evidence to satisfaction of\nCustoms authorities.",
+      "parentId": "",
+      "sectionId": "2.45",
+      "sectionTitle": "Import under Govt. to Govt. Agreements",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 17,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Import under Govt. to Govt. Agreements",
+        "Import under Govt to Govt Agreements",
+        "ImportunderGovttoGovtAgreements"
+      ],
+      "childIds": [
+        "2.45::business_rule::1::import-under-govt-to-govt-agreements"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "2.45::business_rule::1::import-under-govt-to-govt-agreements",
+      "type": "business_rule",
+      "title": "Import under Govt. to Govt. Agreements",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.45 Import under Govt. to Govt. Agreements\nImport of goods under Government-to-Government agreements may be allowed\nwithout an Authorisation on production of necessary evidence to satisfaction of\nCustoms authorities.",
+      "parentId": "2.45::section::0::import-under-govt-to-govt-agreements",
+      "sectionId": "2.45",
+      "sectionTitle": "Import under Govt. to Govt. Agreements",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 17,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Import under Govt. to Govt. Agreements",
+        "Import under Govt to Govt Agreements",
+        "ImportunderGovttoGovtAgreements"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [
     "Customs",
     "Import of goods under Government-to-Government"

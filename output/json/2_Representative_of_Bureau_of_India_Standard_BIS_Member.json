@@ -30,6 +30,64 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2::section::0::representative-of-bureau-of-india-standard-bis-m",
+      "type": "section",
+      "title": "Representative of Bureau of India Standard (BIS):Member",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2. Representative of Bureau of India Standard (BIS):Member",
+      "parentId": "",
+      "sectionId": "2",
+      "sectionTitle": "Representative of Bureau of India Standard (BIS):Member",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Representative of Bureau of India Standard (BIS):Member",
+        "Representative of Bureau of India Standard BIS Member",
+        "RepresentativeofBureauofIndiaStandardBISMember"
+      ],
+      "childIds": [
+        "2::business_rule::1::representative-of-bureau-of-india-standard-bis-m"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::1::representative-of-bureau-of-india-standard-bis-m",
+      "type": "business_rule",
+      "title": "Representative of Bureau of India Standard (BIS):Member",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2. Representative of Bureau of India Standard (BIS):Member",
+      "parentId": "2::section::0::representative-of-bureau-of-india-standard-bis-m",
+      "sectionId": "2",
+      "sectionTitle": "Representative of Bureau of India Standard (BIS):Member",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Representative of Bureau of India Standard (BIS):Member",
+        "Representative of Bureau of India Standard BIS Member",
+        "RepresentativeofBureauofIndiaStandardBISMember"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],

@@ -3,6 +3,7 @@ import { ArrowUpRight, BrainCircuit, DatabaseZap, FileCog, SearchCheck, Upload }
 import { memo, useCallback, useEffect, useMemo, useRef, useState, type DragEvent, type ReactNode } from "react";
 import { documentsApi } from "../api/documents";
 import { PageBackButton, useAppBack } from "../components/navigation";
+import { useDocumentJobPolling } from "../hooks/use-document-job-polling";
 import { Badge, Button, PageMotion, Panel, ProgressBar, useToast } from "../components/ui";
 import { useDebouncedValue } from "../hooks/use-debounced-value";
 import { useDocumentSearch } from "../hooks/use-document-search";
@@ -37,6 +38,16 @@ function formatIndexedTime(value: string | null | undefined) {
   return value ? formatDateTime(value) : "Not indexed yet";
 }
 
+function formatIndexedTimeLines(value: string | null | undefined) {
+  if (!value) {
+    return ["Not indexed", "yet"];
+  }
+
+  const formatted = formatDateTime(value);
+  const [datePart, timePart = ""] = formatted.split(", ");
+  return [datePart, timePart];
+}
+
 function getDocumentScopeLabel(scope: DocumentRecord["knowledgeScope"] | DocumentsKnowledgeStats["scope"] | undefined) {
   if (scope === "single-document-index") {
     return "Single-document index";
@@ -50,6 +61,9 @@ function getKnowledgeStatusLabel(document: DocumentRecord) {
   }
   if (document.knowledgeStatus === "action-required" || document.status === "failed") {
     return "Action required";
+  }
+  if (document.status === "queued") {
+    return "Queued for processing";
   }
   return "Processing knowledge";
 }
@@ -101,7 +115,7 @@ function toExecutionStages(document: DocumentRecord) {
 function buildFallbackKnowledgeStats(documents: DocumentRecord[]): DocumentsKnowledgeStats {
   const readyDocuments = documents.filter((document) => document.status === "ready").length;
   const failedDocuments = documents.filter((document) => document.status === "failed").length;
-  const processingDocuments = documents.filter((document) => document.status === "processing").length;
+  const processingDocuments = documents.filter((document) => document.status === "queued" || document.status === "processing").length;
 
   return {
     scope: documents.length > 1 ? "shared-knowledge-base" : "single-document-index",
@@ -182,27 +196,32 @@ const DocumentTable = memo(function DocumentTable({
   translateStatus: (value: string) => string;
 }) {
   const columns = [
-    { key: "documentName", label: t("documents.documentName"), className: "w-[34%]" },
-    { key: "knowledgeScope", label: "Knowledge Scope", className: "w-[16%]" },
-    { key: "processingStatus", label: "Processing Status", className: "w-[14%]" },
-    { key: "knowledgeStatus", label: t("documents.knowledgeStatus"), className: "w-[18%]" },
-    { key: "progress", label: "Progress", className: "w-[18%]" },
-    { key: "sectionsIndexed", label: "Sections Indexed", className: "hidden 2xl:table-cell 2xl:w-[8%]" },
-    { key: "chunks", label: "Chunks", className: "hidden 2xl:table-cell 2xl:w-[7%]" },
-    { key: "embeddings", label: "Embeddings", className: "hidden 2xl:table-cell 2xl:w-[8%]" },
-    { key: "lastIndexed", label: "Last Indexed", className: "hidden 2xl:table-cell 2xl:w-[11%]" },
-    { key: "actions", label: t("common.actions"), className: "hidden 2xl:table-cell 2xl:w-[18%]" },
+    { key: "documentName", label: t("documents.documentName"), width: "260px", headerClassName: "text-left", cellClassName: "text-left" },
+    { key: "knowledgeScope", label: "Knowledge Scope", width: "150px", headerClassName: "text-left", cellClassName: "text-left" },
+    { key: "processingStatus", label: "Processing Status", width: "140px", headerClassName: "text-center", cellClassName: "text-center" },
+    { key: "knowledgeStatus", label: t("documents.knowledgeStatus"), width: "150px", headerClassName: "text-center", cellClassName: "text-center" },
+    { key: "progress", label: "Progress", width: "120px", headerClassName: "text-left", cellClassName: "text-left" },
+    { key: "sectionsIndexed", label: "Sections Indexed", width: "120px", headerClassName: "text-center", cellClassName: "text-center" },
+    { key: "chunks", label: "Chunks Indexed", width: "120px", headerClassName: "text-center", cellClassName: "text-center" },
+    { key: "embeddings", label: "Embeddings Indexed", width: "140px", headerClassName: "text-center", cellClassName: "text-center" },
+    { key: "lastIndexed", label: "Last Indexed", width: "130px", headerClassName: "text-center", cellClassName: "text-center" },
+    { key: "actions", label: t("common.actions"), width: "150px", headerClassName: "text-center", cellClassName: "text-center" },
   ] as const;
 
   return (
     <div className="overflow-hidden rounded-[2rem] border border-[var(--border)] bg-[var(--panel)]">
-      <div className="overflow-hidden">
-        <table className="w-full table-fixed border-collapse">
+      <div className="overflow-x-auto overscroll-x-contain">
+        <table className="min-w-[1480px] table-fixed border-collapse">
+          <colgroup>
+            {columns.map((column) => (
+              <col key={column.key} style={{ width: column.width }} />
+            ))}
+          </colgroup>
           <thead className="bg-[var(--panel-subtle)]">
             <tr>
               {columns.map((column) => (
                 <th
-                  className={`px-4 py-4 text-left text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted-foreground)] ${column.className}`}
+                  className={`align-top whitespace-normal px-4 py-4 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted-foreground)] leading-5 ${column.headerClassName}`}
                   key={column.key}
                 >
                   {column.label}
@@ -223,52 +242,71 @@ const DocumentTable = memo(function DocumentTable({
                 key={document.id}
                 className={selectedId === document.id ? "bg-[var(--panel-strong)]" : "bg-[var(--panel)] hover:bg-[var(--panel-subtle)]"}
               >
-                <td className="border-t border-[var(--border)] px-4 py-4">
-                  <button className="block min-w-0 text-left" onClick={() => onSelect(document)} type="button">
-                    <p className="truncate text-sm font-semibold text-[var(--foreground)]">{document.name}</p>
-                    <p className="mt-1 truncate text-xs text-[var(--muted-foreground)]">
+                <td className="align-top border-t border-[var(--border)] px-4 py-4">
+                  <button className="block w-full min-w-0 text-left" onClick={() => onSelect(document)} title={document.name} type="button">
+                    <p className="max-w-full overflow-hidden text-ellipsis whitespace-nowrap text-sm font-semibold text-[var(--foreground)]" title={document.name}>
+                      {document.name}
+                    </p>
+                    <p
+                      className="mt-1 max-w-full overflow-hidden text-ellipsis whitespace-nowrap text-xs text-[var(--muted-foreground)]"
+                      title={document.status === "failed" ? document.failureReason || document.failureDetail || "Processing failed" : document.chapterTitle}
+                    >
                       {document.status === "failed" ? document.failureReason || document.failureDetail || "Processing failed" : document.chapterTitle}
                     </p>
                   </button>
                 </td>
-                <td className="border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)]">
-                  <span className="block break-words">{getDocumentScopeLabel(document.knowledgeScope)}</span>
+                <td className="align-top border-t border-[var(--border)] px-4 py-4 text-left text-sm text-[var(--muted-foreground)]">
+                  <span className="block whitespace-normal leading-6">{getDocumentScopeLabel(document.knowledgeScope)}</span>
                 </td>
-                <td className="border-t border-[var(--border)] px-4 py-4">
-                  <Badge tone={statusTone(document.status)}>{translateStatus(document.status)}</Badge>
-                </td>
-                <td className="border-t border-[var(--border)] px-4 py-4">
-                  <Badge tone={getStatusBadgeTone(document.knowledgeStatus)}>{getKnowledgeStatusLabel(document)}</Badge>
-                </td>
-                <td className="border-t border-[var(--border)] px-4 py-4">
-                  <div className="min-w-0">
-                    <ProgressBar value={document.progress} />
+                <td className="align-top border-t border-[var(--border)] px-4 py-4">
+                  <div className="flex justify-center">
+                    <Badge tone={statusTone(document.status)}>{translateStatus(document.status)}</Badge>
                   </div>
                 </td>
-                <td className="hidden border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)] 2xl:table-cell">
+                <td className="align-top border-t border-[var(--border)] px-4 py-4">
+                  <div className="flex justify-center">
+                    <Badge tone={getStatusBadgeTone(document.knowledgeStatus)}>{getKnowledgeStatusLabel(document)}</Badge>
+                  </div>
+                </td>
+                <td className="align-top border-t border-[var(--border)] px-4 py-4">
+                  <div className="min-w-0 space-y-2">
+                    <div className="text-right text-xs font-medium text-[var(--muted-foreground)]">{Math.round(document.progress)}%</div>
+                    <div className="h-2 overflow-hidden rounded-full bg-[var(--panel-subtle)]">
+                      <div
+                        className="h-full rounded-full bg-[linear-gradient(90deg,var(--accent),#60a5fa)]"
+                        style={{ width: `${Math.max(0, Math.min(100, document.progress))}%` }}
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td className="align-top border-t border-[var(--border)] px-4 py-4 text-center text-sm tabular-nums text-[var(--muted-foreground)]">
                   {formatFullNumber(document.sectionsIndexed ?? document.sections)}
                 </td>
-                <td className="hidden border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)] 2xl:table-cell">
+                <td className="align-top border-t border-[var(--border)] px-4 py-4 text-center text-sm tabular-nums text-[var(--muted-foreground)]">
                   {formatFullNumber(document.totalChunks ?? 0)}
                 </td>
-                <td className="hidden border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)] 2xl:table-cell">
+                <td className="align-top border-t border-[var(--border)] px-4 py-4 text-center text-sm tabular-nums text-[var(--muted-foreground)]">
                   {formatFullNumber(document.totalEmbeddings ?? 0)}
                 </td>
-                <td className="hidden border-t border-[var(--border)] px-4 py-4 text-sm text-[var(--muted-foreground)] 2xl:table-cell">
-                  {formatIndexedTime(document.lastIndexedAt)}
+                <td className="align-top border-t border-[var(--border)] px-4 py-4 text-center text-sm text-[var(--muted-foreground)]">
+                  <div className="leading-5" title={formatIndexedTime(document.lastIndexedAt)}>
+                    {formatIndexedTimeLines(document.lastIndexedAt).map((line) => (
+                      <div key={line}>{line}</div>
+                    ))}
+                  </div>
                 </td>
-                <td className="hidden border-t border-[var(--border)] px-4 py-4 2xl:table-cell">
-                  <div className="flex flex-wrap gap-2">
-                    <Button onClick={() => onView(document)} size="sm" type="button" variant="secondary">
+                <td className="align-top border-t border-[var(--border)] px-4 py-4">
+                  <div className="space-y-2 pl-1">
+                    <Button className="w-full justify-center whitespace-normal text-center leading-5" onClick={() => onView(document)} size="sm" type="button" variant="secondary">
                       {t("common.view")}
                     </Button>
-                    <Button onClick={() => onReplace(document)} size="sm" type="button" variant="ghost">
+                    <Button className="w-full justify-center whitespace-normal text-center leading-5" onClick={() => onReplace(document)} size="sm" type="button" variant="ghost">
                       {getSecondaryActionLabel(document)}
                     </Button>
-                    <Button onClick={() => onReindex(document)} size="sm" type="button" variant="ghost">
+                    <Button className="w-full justify-center whitespace-normal text-center leading-5" onClick={() => onReindex(document)} size="sm" type="button" variant="ghost">
                       {getPrimaryActionLabel(document)}
                     </Button>
-                    <Button onClick={() => onDelete(document)} size="sm" type="button" variant="ghost">
+                    <Button className="w-full justify-center whitespace-normal text-center leading-5" onClick={() => onDelete(document)} size="sm" type="button" variant="ghost">
                       {t("common.delete")}
                     </Button>
                   </div>
@@ -415,6 +453,7 @@ const ProcessingProgressPanel = memo(function ProcessingProgressPanel({
 export function DocumentsPage() {
   const queryClient = useQueryClient();
   const { data, isLoading } = useDocuments();
+  useDocumentJobPolling(data?.jobs);
   const initialActiveDocument = useMemo(() => activeDocumentStorage.get(), []);
   const { pushToast } = useToast();
   const { t, translateStatus } = usePreferences();
@@ -502,8 +541,12 @@ export function DocumentsPage() {
   });
 
   const documents = useMemo(() => data?.documents ?? [], [data?.documents]);
-  const knowledgeStats = useMemo(() => data?.knowledgeStats ?? buildFallbackKnowledgeStats(documents), [data?.knowledgeStats, documents]);
-  const searchedDocuments = useMemo(() => searchData?.documents ?? [], [searchData?.documents]);
+  const knowledgeStats = useMemo(() => buildFallbackKnowledgeStats(documents), [documents]);
+  const documentById = useMemo(() => new Map(documents.map((document) => [document.id, document])), [documents]);
+  const searchedDocuments = useMemo(
+    () => (searchData?.documents ?? []).map((document) => documentById.get(document.id) ?? document),
+    [documentById, searchData?.documents],
+  );
   const filteredDocuments = useMemo(
     () => (normalizedSearch ? (searchData ? searchedDocuments : documents) : documents),
     [documents, normalizedSearch, searchData, searchedDocuments],

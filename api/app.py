@@ -19,7 +19,7 @@ from services.chat_service import chat_service
 from services.data_service import data_service
 from services.document_version_service import document_version_service
 from services.knowledge_engine import knowledge_engine_service
-from services.pipeline_service import PipelineBusyError, pipeline_service
+from services.pipeline_service import DuplicateDocumentError, PipelineBusyError, pipeline_service
 from services.pdf_markdown_service import pdf_markdown_service
 from services.search_service import search_service
 from services.settings_service import settings_service
@@ -60,6 +60,10 @@ logger = logging.getLogger(__name__)
 
 
 def _job_error(exc: PipelineBusyError) -> HTTPException:
+    return HTTPException(status_code=status.HTTP_409_CONFLICT, detail=str(exc))
+
+
+def _duplicate_job_error(exc: DuplicateDocumentError) -> HTTPException:
     return HTTPException(status_code=status.HTTP_409_CONFLICT, detail=str(exc))
 
 
@@ -153,7 +157,20 @@ def _latest_timestamp_text(*values: Any) -> str | None:
 
 
 def _document_stage_fallback(status_value: str) -> list[dict[str, str]]:
+    if status_value == "queued":
+        return [
+            {"label": "Queued", "state": "current"},
+            {"label": "Validate PDF", "state": "upcoming"},
+            {"label": "Extract Text", "state": "upcoming"},
+            {"label": "Convert to Markdown", "state": "upcoming"},
+            {"label": "Identify Sections", "state": "upcoming"},
+            {"label": "Generate Chunks", "state": "upcoming"},
+            {"label": "Create Embeddings", "state": "upcoming"},
+            {"label": "Index into Knowledge Base", "state": "upcoming"},
+            {"label": "Ready", "state": "upcoming"},
+        ]
     return [
+        {"label": "Queued", "state": "complete"},
         {"label": "Validate PDF", "state": "complete"},
         {"label": "Extract Text", "state": "current" if status_value == "processing" else "complete"},
         {"label": "Convert to Markdown", "state": "upcoming" if status_value == "processing" else "complete"},
@@ -296,7 +313,7 @@ def _documents_payload() -> dict[str, Any]:
     jobs = pipeline_service.list_jobs()
     version_history = document_version_service.list_documents()
     latest_jobs_by_document_name: dict[str, dict[str, Any]] = {}
-    processing_jobs_by_document_name: dict[str, dict[str, Any]] = {}
+    active_jobs_by_document_name: dict[str, dict[str, Any]] = {}
     for job in jobs:
         document_name = str(job.get("documentName", "")).strip()
         if not document_name or "documents" in document_name.casefold():
@@ -309,15 +326,22 @@ def _documents_payload() -> dict[str, Any]:
             job_timestamp = _parse_timestamp(job.get("updatedAt"))
             if current_timestamp is None or (job_timestamp and job_timestamp >= current_timestamp):
                 latest_jobs_by_document_name[document_name] = job
-        if job.get("status") == "processing":
-            processing_jobs_by_document_name[document_name] = job
+        if job.get("status") in {"queued", "processing"}:
+            processing_jobs_by_document_name = active_jobs_by_document_name.get(document_name)
+            if processing_jobs_by_document_name is None:
+                active_jobs_by_document_name[document_name] = job
+            else:
+                current_timestamp = _parse_timestamp(processing_jobs_by_document_name.get("updatedAt"))
+                job_timestamp = _parse_timestamp(job.get("updatedAt"))
+                if current_timestamp is None or (job_timestamp and job_timestamp >= current_timestamp):
+                    active_jobs_by_document_name[document_name] = job
 
     detail_stats = _document_detail_stats(index)
     documents = []
     known_ids: set[str] = set()
 
     for document in index.get("documents", []):
-        job = processing_jobs_by_document_name.get(str(document.get("name", "")))
+        job = active_jobs_by_document_name.get(str(document.get("name", "")))
         summarized = _document_summary(document, job) if job else dict(document)
         documents.append(summarized)
         known_ids.add(str(summarized["id"]))
@@ -332,7 +356,7 @@ def _documents_payload() -> dict[str, Any]:
         versions = entry.get("versions", [])
         latest_version = versions[-1] if versions else {}
         metadata = latest_version.get("metadata", {}) if isinstance(latest_version, dict) else {}
-        job = processing_jobs_by_document_name.get(document_name)
+        job = active_jobs_by_document_name.get(document_name)
         latest_version_updated_at = _parse_timestamp((latest_version or {}).get("createdAt"))
         job_updated_at = _parse_timestamp((job or {}).get("updatedAt"))
         use_job = bool(job and (latest_version_updated_at is None or (job_updated_at and job_updated_at >= latest_version_updated_at)))
@@ -359,8 +383,12 @@ def _documents_payload() -> dict[str, Any]:
                     "lastUpdated": entry.get("updatedAt", latest_version.get("createdAt", entry.get("createdAt"))),
                     "sizeKb": 0,
                     "status": status_value,
-                    "progress": int(((job if use_job else {}) or {}).get("progress", 100 if status_value != "processing" else 5) or 0),
-                    "summary": str(latest_version.get("error", "") or metadata.get("error", "") or f"{document_name} is being processed."),
+                    "progress": int(((job if use_job else {}) or {}).get("progress", 100 if status_value not in {"processing", "queued"} else 0 if status_value == "queued" else 5) or 0),
+                    "summary": str(
+                        latest_version.get("error", "")
+                        or metadata.get("error", "")
+                        or (f"{document_name} is queued for processing." if status_value == "queued" else f"{document_name} is being processed.")
+                    ),
                     "stages": ((job if use_job else {}) or {}).get("stages", _document_stage_fallback(status_value)),
                 },
                 job if use_job else None,
@@ -382,7 +410,7 @@ def _documents_payload() -> dict[str, Any]:
 
     ready_documents = [document for document in documents if document.get("knowledgeStatus") == "knowledge-ready"]
     failed_documents = [document for document in documents if document.get("status") == "failed"]
-    processing_documents = [document for document in documents if document.get("status") == "processing"]
+    processing_documents = [document for document in documents if document.get("status") in {"queued", "processing"}]
     knowledge_stats = {
         "scope": knowledge_scope,
         "documentsInKnowledgeBase": len(documents),
@@ -567,17 +595,21 @@ async def upload_document(file: UploadFile = File(...), user: AuthUser = Depends
         job = pipeline_service.upload_document(file.filename, await file.read())
     except PipelineBusyError as exc:
         raise _job_error(exc) from exc
-    return {"job": job}
+    except DuplicateDocumentError as exc:
+        raise _duplicate_job_error(exc) from exc
+    return {"job": job, "jobs": [job]}
 
 
 @app.post("/api/documents/upload-batch")
 async def upload_documents(files: list[UploadFile] = File(...), user: AuthUser = Depends(get_admin_user)) -> dict[str, Any]:
     try:
         payload = [(file.filename, await file.read()) for file in files]
-        job = pipeline_service.upload_documents(payload)
+        result = pipeline_service.upload_documents(payload)
     except PipelineBusyError as exc:
         raise _job_error(exc) from exc
-    return {"job": job}
+    except DuplicateDocumentError as exc:
+        raise _duplicate_job_error(exc) from exc
+    return result
 
 
 @app.post("/api/documents/{document_id}/replace")

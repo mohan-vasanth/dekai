@@ -34,6 +34,60 @@
   "documents": [],
   "required_documents": [],
   "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4.52::section::0::policy",
+      "type": "section",
+      "title": "Policy",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.52 Policy\nPolicy relating to the Duty-Free Import Authorisation (DFIA) Scheme is\nprescribed in Chapter 4 of FTP.",
+      "parentId": "",
+      "sectionId": "4.52",
+      "sectionTitle": "Policy",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 33,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Policy"
+      ],
+      "childIds": [
+        "4.52::business_rule::1::policy"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "4.52::business_rule::1::policy",
+      "type": "business_rule",
+      "title": "Policy",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.52 Policy\nPolicy relating to the Duty-Free Import Authorisation (DFIA) Scheme is\nprescribed in Chapter 4 of FTP.",
+      "parentId": "4.52::section::0::policy",
+      "sectionId": "4.52",
+      "sectionTitle": "Policy",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 33,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Policy"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
   "authorities": [],
   "timelines": [],
   "actions": [],
