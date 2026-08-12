@@ -1,0 +1,21 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.COODEC Ver2.1",
+  "section": "6",
+  "title": "MESSAGE FUNCTION",
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC6-R001",
+      "rule_description": "IF validations pass THEN recommend action: They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "trigger": "MESSAGE FUNCTION",
+      "condition": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6 - MESSAGE FUNCTION."
+    }
+  ],
+  "ai_rules": [
+    "IF validations pass THEN recommend action: They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes."
+  ]
+}

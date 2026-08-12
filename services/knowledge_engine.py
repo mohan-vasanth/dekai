@@ -17,7 +17,7 @@ from parser.utils import (
     split_sentences,
     unique_preserve,
 )
-from parser.xml_utils import build_section_hierarchy, extract_xml_fields, field_search_aliases
+from parser.xml_utils import build_section_hierarchy, canonical_xml_tag, extract_xml_fields, field_search_aliases
 
 from .document_version_service import document_version_service
 from .embedding_service import embedding_service
@@ -50,10 +50,48 @@ def _normalize_name(value: str) -> str:
     return " ".join(str(value or "").lower().split())
 
 
+def _infer_document_type(document_name: str) -> str:
+    match = re.search(r"\b([A-Z]{3,8}DEC)\b", str(document_name or ""), flags=re.IGNORECASE)
+    return match.group(1).upper() if match else ""
+
+
+def _section_name(section_id: str, title: str) -> str:
+    candidate = normalise_whitespace(str(title or "")).strip()
+    candidate = re.sub(rf"^{re.escape(str(section_id or '').strip())}\s*[.:-]?\s*", "", candidate).strip()
+    return candidate or normalise_whitespace(str(title or "")).strip()
+
+
+def _section_path(section_id: str, title: str, heading: str = "", xml_tag: str = "") -> str:
+    return " > ".join(
+        part
+        for part in [
+            str(section_id or "").strip(),
+            normalise_whitespace(str(title or "")).strip(),
+            normalise_whitespace(str(heading or "")).strip(),
+            str(xml_tag or "").strip(),
+        ]
+        if part
+    )
+
+
 class KnowledgeEngineService:
     def __init__(self) -> None:
         self.index_path = runtime_store.knowledge_index_path
         self.schema_path = runtime_store.knowledge_schema_path
+
+    def _index_requires_refresh(self, payload: dict[str, Any]) -> bool:
+        for collection_name in ("chunks", "searchRecords"):
+            for item in payload.get(collection_name, []):
+                if not isinstance(item, dict):
+                    continue
+                if any(key not in item for key in ("documentType", "sectionName", "sectionPath")):
+                    return True
+                if collection_name == "chunks" and any(key not in item for key in ("xmlTag", "fieldName", "pageNumber", "sourceText")):
+                    return True
+                if collection_name == "searchRecords" and any(key not in item for key in ("pageNumber", "sourceText")):
+                    return True
+                break
+        return False
 
     def _latest_source_mtime(self) -> float:
         paths: list[Path] = [
@@ -114,6 +152,8 @@ class KnowledgeEngineService:
             return self.build_index()
         cached = runtime_store.read_json(self.index_path, {})
         if cached:
+            if self._index_requires_refresh(cached):
+                return self.build_index()
             return cached
         return self.build_index()
 
@@ -251,6 +291,9 @@ class KnowledgeEngineService:
                 "chapterNumber": chapter_number,
                 "chapterTitle": str(section_payload.get("chapter_title", "DGFT Chapter")),
                 "documentName": document_name,
+                "documentType": _infer_document_type(document_name),
+                "sectionName": _section_name(section_id, title),
+                "sectionPath": _section_path(section_id, title),
                 "purpose": _clean(section_payload.get("purpose", "")),
                 "summary": _clean(section_payload.get("summary", ""), 320),
                 "businessMeaning": _clean(section_payload.get("business_meaning", ""), 260),
@@ -346,6 +389,11 @@ class KnowledgeEngineService:
                         document_name=document_name,
                     )
                 primary_xml_field = chunk_xml_fields[0] if chunk_xml_fields else {}
+                primary_tag_name = str(chunk.get("tag_name", "")).strip() or str(primary_xml_field.get("tag_name", ""))
+                primary_field_code = str(chunk.get("field_code", "")).strip() or str(primary_xml_field.get("field_code", ""))
+                primary_field_name = str(chunk.get("field_name", "")).strip() or primary_tag_name
+                primary_xml_tag = str(chunk.get("xml_tag", "")).strip() or canonical_xml_tag(primary_tag_name)
+                heading = str(chunk.get("heading", "")).strip()
                 chunk_field_names = unique_preserve(
                     [
                         *chunk.get("field_names", []),
@@ -357,24 +405,32 @@ class KnowledgeEngineService:
                     "id": chunk.get("chunk_id") or f"{section_id}-chunk-{chunk.get('chunk_index', 1)}",
                     "entityType": "chunk",
                     "documentName": document_name,
+                    "documentType": str(chunk.get("document_type", "")).strip() or _infer_document_type(document_name),
                     "chapterNumber": chapter_number,
                     "chapterTitle": section_record["chapterTitle"],
                     "sectionId": section_id,
+                    "sectionName": str(chunk.get("section_name", "")).strip() or section_record["sectionName"],
+                    "sectionPath": str(chunk.get("section_path", "")).strip() or _section_path(section_id, title, heading, primary_xml_tag),
                     "title": title,
                     "text": chunk_text,
+                    "sourceText": str(chunk.get("source_text", "")).strip() or chunk_text,
                     "keywords": unique_preserve(chunk.get("keywords", [])),
                     "intent": str(chunk.get("intent", "")),
                     "tags": unique_preserve(chunk.get("tags", [])),
                     "relatedSections": unique_preserve(chunk.get("related_sections", [])),
                     "sourcePages": [int(page) for page in chunk.get("source_pages", pages) if isinstance(page, int)],
+                    "pageNumber": int(chunk.get("page_number", 0) or 0) or ([int(page) for page in chunk.get("source_pages", pages) if isinstance(page, int)] or [0])[0],
                     "hsCodes": self._extract_hs_codes(chunk_text, *chunk.get("hs_codes", [])),
                     "eximCodes": self._extract_hs_codes(chunk_text, *chunk.get("exim_codes", [])),
                     "description": str(chunk.get("description", "")).strip(),
                     "chunkHash": str(chunk.get("chunk_hash", "")).strip() or stable_text_hash(chunk_text),
                     "isTableRow": bool(chunk.get("is_table_row", False)),
-                    "heading": str(chunk.get("heading", "")).strip(),
+                    "heading": heading,
                     "fieldNames": chunk_field_names,
-                    "tagName": str(chunk.get("tag_name", "")).strip() or str(primary_xml_field.get("tag_name", "")),
+                    "fieldCode": primary_field_code,
+                    "fieldName": primary_field_name,
+                    "xmlTag": primary_xml_tag,
+                    "tagName": primary_tag_name,
                     "normalizedTagName": str(chunk.get("normalized_tag_name", "")).strip() or str(primary_xml_field.get("normalized_tag_name", "")),
                     "namespace": str(chunk.get("namespace", "")).strip() or str(primary_xml_field.get("namespace", "")),
                     "xmlFields": chunk_xml_fields,
@@ -581,6 +637,9 @@ class KnowledgeEngineService:
                         "hsCodes": section_record["hsCodes"],
                         "eximCodes": section_record["eximCodes"],
                         "fieldNames": section_record.get("fieldNames", []),
+                        "documentType": section_record.get("documentType", ""),
+                        "sectionName": section_record.get("sectionName", ""),
+                        "sectionPath": section_record.get("sectionPath", ""),
                     },
                 )
             )
@@ -607,12 +666,19 @@ class KnowledgeEngineService:
                                     str(node.get("normalizedTagName", "")),
                                 ]
                             ),
+                            "fieldCode": str(node.get("fieldCode", "")),
+                            "fieldName": str(node.get("tagName", "") or node.get("title", "")).strip(),
+                            "xmlTag": canonical_xml_tag(str(node.get("tagName", "") or node.get("title", ""))),
                             "tagName": str(node.get("tagName", "")),
                             "normalizedTagName": str(node.get("normalizedTagName", "")),
                             "namespace": str(node.get("namespace", "")),
+                            "documentType": section_record.get("documentType", ""),
+                            "sectionName": section_record.get("sectionName", ""),
+                            "sectionPath": _section_path(section_id, title, node_title, canonical_xml_tag(str(node.get("tagName", "") or node_title))),
                             "nodeType": node_type,
                             "parentId": str(node.get("parentId", "")),
                             "pageNumber": int(node.get("pageNumber", 0) or 0),
+                            "sourceText": node_content,
                             "searchAliases": unique_preserve(node.get("searchAliases", [])),
                         },
                     )
@@ -649,9 +715,17 @@ class KnowledgeEngineService:
                     "isTableRow": chunk.get("isTableRow", False),
                     "heading": chunk.get("heading", ""),
                     "fieldNames": chunk.get("fieldNames", []),
+                    "fieldCode": chunk.get("fieldCode", ""),
+                    "fieldName": chunk.get("fieldName", "") or chunk.get("tagName", ""),
+                    "xmlTag": chunk.get("xmlTag", "") or canonical_xml_tag(str(chunk.get("tagName", ""))),
                     "tagName": chunk.get("tagName", ""),
                     "normalizedTagName": chunk.get("normalizedTagName", ""),
                     "namespace": chunk.get("namespace", ""),
+                    "documentType": chunk.get("documentType", ""),
+                    "sectionName": chunk.get("sectionName", ""),
+                    "sectionPath": chunk.get("sectionPath", ""),
+                    "pageNumber": chunk.get("pageNumber", 0),
+                    "sourceText": chunk.get("sourceText", "") or chunk.get("text", ""),
                     "xmlFields": chunk.get("xmlFields", []),
                 },
             )
@@ -1024,11 +1098,13 @@ class KnowledgeEngineService:
                 " ".join(section.get("authorities", [])),
                 " ".join(section.get("keywords", [])),
                 " ".join(section.get("fieldNames", [])),
+                str((extra or {}).get("fieldCode", "")),
                 " ".join(str(code) for code in (extra or {}).get("hsCodes", [])),
                 str((extra or {}).get("description", "")),
                 str((extra or {}).get("tagName", "")),
                 str((extra or {}).get("normalizedTagName", "")),
                 " ".join(str(alias) for alias in (extra or {}).get("searchAliases", [])),
+                " ".join(str(field.get("field_code", "")) for field in (extra or {}).get("xmlFields", []) if isinstance(field, dict)),
                 " ".join(str(field.get("tag_name", "")) for field in (extra or {}).get("xmlFields", []) if isinstance(field, dict)),
                 " ".join(str(field.get("normalized_tag_name", "")) for field in (extra or {}).get("xmlFields", []) if isinstance(field, dict)),
             ]
@@ -1040,11 +1116,16 @@ class KnowledgeEngineService:
             "text": text,
             "preview": _clean(text, 220),
             "sectionId": section.get("id", ""),
+            "sectionName": section.get("sectionName", _section_name(str(section.get("id", "")), str(section.get("title", "")))),
+            "sectionPath": section.get("sectionPath", _section_path(str(section.get("id", "")), str(section.get("title", "")))),
             "chapterNumber": section.get("chapterNumber", ""),
             "chapterTitle": section.get("chapterTitle", ""),
             "documentName": section.get("documentName", ""),
+            "documentType": section.get("documentType", _infer_document_type(str(section.get("documentName", "")))),
             "documentId": "-".join("".join(char.lower() if char.isalnum() else "-" for char in str(section.get("documentName", ""))).split("-")),
             "sourcePages": source_pages,
+            "pageNumber": source_pages[0] if source_pages else 0,
+            "sourceText": text,
             "vector": embedding_service.embed_text(searchable_text),
         }
         if extra:
@@ -1104,13 +1185,13 @@ class KnowledgeEngineService:
             "collections": {
                 "documents": ["id", "lineageId", "name", "version", "versionCount", "pages", "sections", "rules", "conditions", "exceptions", "workflows"],
                 "chapters": ["chapter_number", "chapter_title", "summary_en", "section_count", "rule_count"],
-                "sections": ["id", "title", "chapterNumber", "documentName", "summary", "businessMeaning", "pages", "keywords", "fieldNames", "hsCodes", "eximCodes", "conditions", "hierarchyNodes"],
+                "sections": ["id", "title", "chapterNumber", "documentName", "documentType", "sectionName", "sectionPath", "summary", "businessMeaning", "pages", "keywords", "fieldNames", "hsCodes", "eximCodes", "conditions", "hierarchyNodes"],
                 "rules": ["id", "sectionId", "ruleName", "description", "condition", "exception", "sourcePages"],
                 "conditions": ["id", "sectionId", "text", "sourcePages"],
                 "workflows": ["id", "section", "steps", "sourcePages"],
                 "definitions": ["id", "term", "definition", "sectionId", "sourcePages"],
-                "chunks": ["id", "sectionId", "text", "sourcePages", "vector", "hsCodes", "eximCodes", "description", "chunkHash", "isTableRow", "heading", "fieldNames", "tagName", "normalizedTagName", "namespace", "xmlFields"],
-                "searchRecords": ["id", "type", "title", "text", "sectionId", "documentName", "sourcePages", "heading", "fieldNames", "tagName", "normalizedTagName", "namespace", "nodeType", "parentId", "searchAliases"],
+                "chunks": ["id", "sectionId", "sectionName", "sectionPath", "text", "sourceText", "documentType", "sourcePages", "pageNumber", "vector", "hsCodes", "eximCodes", "description", "chunkHash", "isTableRow", "heading", "fieldNames", "fieldCode", "fieldName", "xmlTag", "tagName", "normalizedTagName", "namespace", "xmlFields"],
+                "searchRecords": ["id", "type", "title", "text", "sourceText", "sectionId", "sectionName", "sectionPath", "documentName", "documentType", "sourcePages", "pageNumber", "heading", "fieldNames", "fieldCode", "fieldName", "xmlTag", "tagName", "normalizedTagName", "namespace", "nodeType", "parentId", "searchAliases"],
                 "relationships": ["id", "sourceType", "sourceId", "targetType", "targetId", "relation"],
                 "versionHistory": ["lineageId", "currentName", "versions"],
             },

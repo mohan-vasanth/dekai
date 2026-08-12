@@ -1,0 +1,21 @@
+{
+  "section": "3.1",
+  "conditions": [
+    "The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.",
+    "Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+  ],
+  "condition_logic": [
+    {
+      "id": ".3.1.1",
+      "if": "The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.",
+      "then": "Route for review",
+      "source": "The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item."
+    },
+    {
+      "id": ".3.1.2",
+      "if": "Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "Route for review",
+      "source": "Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    }
+  ]
+}

@@ -5,7 +5,7 @@
 - page_count: 21
 - section_count: 16
 - rule_count: 25
-- condition_count: 364
+- condition_count: 362
 - workflow_count: 62
 - validation_count: 19
 - exception_count: 35
@@ -31,4 +31,4 @@
 | 3 | Road | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 5 | Mail | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 6 | Multimodal (For future use) | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 7 | Pipeline | 9 | 298 | 9 | 34 | 1 | 2 | 54 |
+| 7 | Pipeline | 9 | 296 | 9 | 34 | 1 | 2 | 54 |

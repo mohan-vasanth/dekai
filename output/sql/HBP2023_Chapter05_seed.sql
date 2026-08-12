@@ -371,92 +371,113 @@ authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
 2
-2
-Chapter-5
-Export Promotion Capital Goods (EPCG) Scheme
-5.04 Certificate of Installation of Capital Goods
-(a) Authorization holder shall produce, within 3 years from date of completion
-of import, to the concerned RA, a certificate from the jurisdictional Customs
-authority or an independent Chartered Engineer, at the option of the
-authorisation holder, confirming installation of capital goods/spares at
-factory/premises of authorization holder or his supporting
-manufacturer(s).', 'Indha Certificate of Installation of Capital Goods section-la, 5.04 Certificate of Installation of Capital Goods
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | Application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |.', 'Indha Certificate of Installation of Capital Goods section-la, 5.04 Certificate of Installation of Capital Goods
 (a) Authorization holder kandippa produce, within 3 years from date of completion
 of import, to the concerned RA, a certificate from the jurisdictional Customs
 authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
 2
-2
-Chapter-5
-export Promotion Capital Goods (EPCG) Scheme
-5.04 Certificate of Installation of Capital Goods
-(a) Authorization holder kandippa produce, within 3 years from date of completion
-of import, to the concerned RA, a certificate from the jurisdictional Customs
-authority or an independent Chartered Engineer, at the option of the
-authorisation holder, confirming installation of capital goods/spares at
-factory/premises of authorization holder or his supporting
-manufacturer(s).', '5.04 Certificate of Installation of Capital Goods
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |.', '5.04 Certificate of Installation of Capital Goods
 (a) Authorization holder shall produce, within 3 years from date of completion
 of import, to the concerned RA, a certificate from the jurisdictional Customs
 authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
 2
-2
-Chapter-5
-Export Promotion Capital Goods (EPCG) Scheme
-5.04 Certificate of Installation of Capital Goods
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | Application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |. |
+5.03 | Nexus Certification | | | | | | | |
+(a) | RA concerned shall, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent
+| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue
+| EPCG authorisation. For is | suan | ce of su | ch ce | rtific | ate, | the | Charte | red Engineer
+| shall act only in the doma | in o | f his/he | r co | mpet | ence |.', 'Certificate of Installation of Capital Goods governs how DGFT business controls should be applied, validated, and enforced.', 'Certificate of Installation of Capital Goods explains the operating rule set that DEKAI should enforce. Key control points include 5.04 Certificate of Installation of Capital Goods
 (a) Authorization holder shall produce, within 3 years from date of completion
 of import, to the concerned RA, a certificate from the jurisdictional Customs
 authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
-manufacturer(s). The RA may allow extension of the said period for
-submission of certificate, upto valid EO period with a payment of a
-composition fee of Rs. 10,000/- per year by the authorisation holder.', 'Certificate of Installation of Capital Goods governs how DGFT business controls should be applied, validated, and enforced.', 'Certificate of Installation of Capital Goods explains the operating rule set that DEKAI should enforce. Key control points include 5.04 Certificate of Installation of Capital Goods
-(a) Authorization holder shall produce, within 3 years from date of completion
-of import, to the concerned RA, a certificate from the jurisdictional Customs
-authority or an independent Chartered Engineer, at the option of the
-authorisation holder, confirming installation of capital goods/spares at
-factory/premises of authorization holder or his supporting
 2
-2
-Chapter-5
-Export Promotion Capital Goods (EPCG) Scheme
-5.04 Certificate of Installation of Capital Goods
-(a) Authorization holder shall produce, within 3 years from date of completion
-of import, to the concerned RA, a certificate from the jurisdictional Customs
-authority or an independent Chartered Engineer, at the option of the
-authorisation holder, confirming installation of capital goods/spares at
-factory/premises of authorization holder or his supporting
-manufacturer(s). The section also drives actions such as The RA may allow extension of the said period for
-submission of certificate, upto valid EO period with a payment of a
-composition fee of Rs..', 'Indha Certificate of Installation of Capital Goods section-la, Certificate of Installation of Capital Goods explains the operating rule set that DEKAI should enforce. Key control points include 5.04 Certificate of Installation of Capital Goods
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | Application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |. The section also drives actions such as |
+5.03 | Nexus Certification | | | | | | | |
+(a) | RA concerned shall, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent
+| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue
+| EPCG authorisation..', 'Indha Certificate of Installation of Capital Goods section-la, Certificate of Installation of Capital Goods explains the operating rule set that DEKAI should enforce. Key control points include 5.04 Certificate of Installation of Capital Goods
 (a) Authorization holder kandippa produce, within 3 years from date of completion
 of import, to the concerned RA, a certificate from the jurisdictional Customs
 authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
 2
-2
-Chapter-5
-export Promotion Capital Goods (EPCG) Scheme
-5.04 Certificate of Installation of Capital Goods
-(a) Authorization holder kandippa produce, within 3 years from date of completion
-of import, to the concerned RA, a certificate from the jurisdictional Customs
-authority or an independent Chartered Engineer, at the option of the
-authorisation holder, confirming installation of capital goods/spares at
-factory/premises of authorization holder or his supporting
-manufacturer(s). The section also drives actions such as The RA may allow extension of the said period for
-submission of certificate, upto valid EO period with a payment of a
-composition fee of Rs..', '5.04 Certificate of Installation of Capital Goods
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |. The section also drives actions such as |
+5.03 | Nexus Certification | | | | | | | |
+(a) | RA concerned kandippa, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent
+| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue
+| EPCG authorisation..', '5.04 Certificate of Installation of Capital Goods
 (a) Authorization holder shall produce, within 3 years from date of completion
 of import, to the concerned RA, a certificate from the jurisdictional Customs
 authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
 2
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | Application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |. |
+5.03 | Nexus Certification | | | | | | | |
+(a) | RA concerned shall, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent
+| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue
+| EPCG authorisation. For is | suan | ce of su | ch ce | rtific | ate, | the | Charte | red Engineer
+| shall act only in the doma | in o | f his/he | r co | mpet | ence |. In | case o | f fabrication,
+| reasonable wastage, if any |, an | ticipate | d at t | he ti | me | of in | stallati | on of capital
+| goods shall be certified b | y the | Charte | red | Engin | eer | in th | e nex | us certificate
+| and the same would be | men | tioned | in th | e co | ndit | ion | sheet | of the EPCG
+| authorisation at the time | of is | sue. The | was | tage | so p | erm | itted a | t the time of
+| issuance of authorisation | wou | ld be a | llowe | d to | be | sold | as scr | ap/waste on
+| payment of applicable dut | y by | the aut | horis | ation | hol | der. | |
+(b) | An application for amen | dme | nt in t | he li | st of | im | port | item( | s) including
+| addition(s)/deletion(s), if | any, | may be | filed | with | RA | conc | erned | provided the
+| authorisation is valid for i | mpo | rt. The | appli | cant | wou | ld g | ive jus | tification for
+| seeking such amendment | (s) | along w | ith | fresh | nex | us c | ertific | ate from an
+| independent Chartered En | gine | er. | | | | | |
+(c) | An application for amen | dme | nt in t | he li | st of | ex | port | item( | s) including
+| addition(s)/deletion(s) if | any, | may be | filed | with | RA | conc | erned | provided the
+| Export Obligation period | of th | e autho | risati | on is | vali | d an | d the | CG has nexus
+| with export product. The a | ppli | cant wo | uld g | ive ju | stif | icati | on for | seeking such
+| amendment(s) along wit | h fr | esh nex | us c | ertifi | cate | fro | m an | independent
+| Chartered Engineer. | | | | | | | |
+5.04 | Certificate of Installati | on o | f Capit | al G | oods | | | |
+(a) | Authorization holder shall | pro | duce, w | ithin | 3 ye | ars f | rom | date o | f completion
+| of import, to the concerne | d RA |, a certif | icate | from | the | juri | sdicti | onal Customs
+| authority or an indepen | dent | Charte | red | Engin | eer |, at | the o | ption of the
+| authorisation holder, con | firm | ing ins | tallat | ion | of c | apita | l goo | ds/spares at
+| factory/premises of a | uth | orizatio | n h | olde | r | or | his | supporting
 2
 Chapter-5
 Export Promotion Capital Goods (EPCG) Scheme
@@ -476,7 +497,7 @@ permitted to shift capital goods during the entire export obligation period
 to other units mentioned in the IEC and RCMC of the authorization holder
 subject to production of fresh installation certificate to the RA concerned
 within six months of the shifting.
-(a) Deleted.', '[2, 3]', '["the", "his", "may", "for", "fee", "per", "IEC", "and", "six", "from", "date", "EPCG", "said", "upto", "with", "year", "opts", "send", "copy", "RCMC"]', 'Support Certificate of Installation of Capital Goods processing and compliance validation.', '["5.04", "Certificate of Installation of Capital Goods", "business-rule", "document-driven", "dgft"]');
+(a) Deleted.', '[2, 3]', '["the", "his", "giv", "FTP", "app", "for", "may", "ade", "red", "ing", "nit", "ble", "ned", "ANF", "doc", "sis", "fro", "CEC", "sub", "dix"]', 'Support Certificate of Installation of Capital Goods processing and compliance validation.', '["5.04", "Certificate of Installation of Capital Goods", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_04-R001', '5.04', '5.04 Certificate of Installation of Capital Goods
 (a) Authorization holder shall produce, within 3 years from date of completion
 of import, to the concerned RA, a certificate from the jurisdictional Customs
@@ -484,6 +505,79 @@ authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
 2
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | Application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |.', 'business_rule', 'Certificate of Installation of Capital Goods', '5.04 Certificate of Installation of Capital Goods
+(a) Authorization holder shall produce, within 3 years from date of completion
+of import, to the concerned RA, a certificate from the jurisdictional Customs
+authority or an independent Chartered Engineer, at the option of the
+authorisation holder, confirming installation of capital goods/spares at
+factory/premises of authorization holder or his supporting
+2
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | Application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |.', '5.04 Certificate of Installation of Capital Goods
+(a) Authorization holder shall produce, within 3 years from date of completion
+of import, to the concerned RA, a certificate from the jurisdictional Customs
+authority or an independent Chartered Engineer, at the option of the
+authorisation holder, confirming installation of capital goods/spares at
+factory/premises of authorization holder or his supporting
+2
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | Application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |.', '|
+5.03 | Nexus Certification | | | | | | | |
+(a) | RA concerned shall, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent
+| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue
+| EPCG authorisation.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.04 - Certificate of Installation of Capital Goods.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_04-R002', '5.04', '|
+5.03 | Nexus Certification | | | | | | | |
+(a) | RA concerned shall, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent
+| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue
+| EPCG authorisation.', 'business_rule', 'Certificate of Installation of Capital Goods', '|
+5.03 | Nexus Certification | | | | | | | |
+(a) | RA concerned shall, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent
+| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue
+| EPCG authorisation.', '|
+5.03 | Nexus Certification | | | | | | | |
+(a) | RA concerned shall, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent
+| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue
+| EPCG authorisation.', 'The | was | tage | so p | erm | itted a | t the time of
+| issuance of authorisation | wou | ld be a | llowe | d to | be | sold | as scr | ap/waste on
+| payment of applicable dut | y by | the aut | horis | ation | hol | der.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.04 - Certificate of Installation of Capital Goods.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_04-R003', '5.04', 'For is | suan | ce of su | ch ce | rtific | ate, | the | Charte | red Engineer
+| shall act only in the doma | in o | f his/he | r co | mpet | ence |.', 'business_rule', 'Certificate of Installation of Capital Goods', 'For is | suan | ce of su | ch ce | rtific | ate, | the | Charte | red Engineer
+| shall act only in the doma | in o | f his/he | r co | mpet | ence |.', 'For is | suan | ce of su | ch ce | rtific | ate, | the | Charte | red Engineer
+| shall act only in the doma | in o | f his/he | r co | mpet | ence |.', 'The | appli | cant | wou | ld g | ive jus | tification for
+| seeking such amendment | (s) | along w | ith | fresh | nex | us c | ertific | ate from an
+| independent Chartered En | gine | er.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.04 - Certificate of Installation of Capital Goods.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_04-R004', '5.04', 'In | case o | f fabrication,
+| reasonable wastage, if any |, an | ticipate | d at t | he ti | me | of in | stallati | on of capital
+| goods shall be certified b | y the | Charte | red | Engin | eer | in th | e nex | us certificate
+| and the same would be | men | tioned | in th | e co | ndit | ion | sheet | of the EPCG
+| authorisation at the time | of is | sue.', 'business_rule', 'Certificate of Installation of Capital Goods', 'any |', 'In | case o | f fabrication,
+| reasonable wastage, if any |, an | ticipate | d at t | he ti | me | of in | stallati | on of capital
+| goods shall be certified b | y the | Charte | red | Engin | eer | in th | e nex | us certificate
+| and the same would be | men | tioned | in th | e co | ndit | ion | sheet | of the EPCG
+| authorisation at the time | of is | sue.', 'The a | ppli | cant wo | uld g | ive ju | stif | icati | on for | seeking such
+| amendment(s) along wit | h fr | esh nex | us c | ertifi | cate | fro | m an | independent
+| Chartered Engineer.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.04 - Certificate of Installation of Capital Goods.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_04-R005', '5.04', '| | | | | | | |
+5.04 | Certificate of Installati | on o | f Capit | al G | oods | | | |
+(a) | Authorization holder shall | pro | duce, w | ithin | 3 ye | ars f | rom | date o | f completion
+| of import, to the concerne | d RA |, a certif | icate | from | the | juri | sdicti | onal Customs
+| authority or an indepen | dent | Charte | red | Engin | eer |, at | the o | ption of the
+| authorisation holder, con | firm | ing ins | tallat | ion | of c | apita | l goo | ds/spares at
+| factory/premises of a | uth | orizatio | n h | olde | r | or | his | supporting
 2
 Chapter-5
 Export Promotion Capital Goods (EPCG) Scheme
@@ -493,29 +587,13 @@ of import, to the concerned RA, a certificate from the jurisdictional Customs
 authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
-manufacturer(s).', 'business_rule', 'Certificate of Installation of Capital Goods', '5.04 Certificate of Installation of Capital Goods
-(a) Authorization holder shall produce, within 3 years from date of completion
-of import, to the concerned RA, a certificate from the jurisdictional Customs
-authority or an independent Chartered Engineer, at the option of the
-authorisation holder, confirming installation of capital goods/spares at
-factory/premises of authorization holder or his supporting
-2
-2
-Chapter-5
-Export Promotion Capital Goods (EPCG) Scheme
-5.04 Certificate of Installation of Capital Goods
-(a) Authorization holder shall produce, within 3 years from date of completion
-of import, to the concerned RA, a certificate from the jurisdictional Customs
-authority or an independent Chartered Engineer, at the option of the
-authorisation holder, confirming installation of capital goods/spares at
-factory/premises of authorization holder or his supporting
-manufacturer(s).', '5.04 Certificate of Installation of Capital Goods
-(a) Authorization holder shall produce, within 3 years from date of completion
-of import, to the concerned RA, a certificate from the jurisdictional Customs
-authority or an independent Chartered Engineer, at the option of the
-authorisation holder, confirming installation of capital goods/spares at
-factory/premises of authorization holder or his supporting
-2
+manufacturer(s).', 'business_rule', 'Certificate of Installation of Capital Goods', '| any', '| | | | | | | |
+5.04 | Certificate of Installati | on o | f Capit | al G | oods | | | |
+(a) | Authorization holder shall | pro | duce, w | ithin | 3 ye | ars f | rom | date o | f completion
+| of import, to the concerne | d RA |, a certif | icate | from | the | juri | sdicti | onal Customs
+| authority or an indepen | dent | Charte | red | Engin | eer |, at | the o | ption of the
+| authorisation holder, con | firm | ing ins | tallat | ion | of c | apita | l goo | ds/spares at
+| factory/premises of a | uth | orizatio | n h | olde | r | or | his | supporting
 2
 Chapter-5
 Export Promotion Capital Goods (EPCG) Scheme
@@ -528,25 +606,22 @@ factory/premises of authorization holder or his supporting
 manufacturer(s).', 'The RA may allow extension of the said period for
 submission of certificate, upto valid EO period with a payment of a
 composition fee of Rs.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.04 - Certificate of Installation of Capital Goods.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_04-R002', '5.04', 'Where
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_04-R006', '5.04', 'Where
 the authorisation holder opts for independent Chartered Engineer’s
 certificate, he shall send a copy of the certificate to the jurisdictional
-Customs Authority for intimation/record.', 'business_rule', 'Certificate of Installation of Capital Goods', 'The RA may allow extension of the said period for
-submission of certificate, upto valid EO period with a payment of a
-composition fee of Rs.', 'Where
+Customs Authority for intimation/record.', 'business_rule', 'Certificate of Installation of Capital Goods', 'The | appli | cant | wou | ld g | ive jus | tification for
+| seeking such amendment | (s) | along w | ith | fresh | nex | us c | ertific | ate from an
+| independent Chartered En | gine | er.', 'Where
 the authorisation holder opts for independent Chartered Engineer’s
 certificate, he shall send a copy of the certificate to the jurisdictional
 Customs Authority for intimation/record.', 'The RA may allow extension of the said period for
 submission of certificate, upto valid EO period with a payment of a
 composition fee of Rs.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.04 - Certificate of Installation of Capital Goods.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_04-R003', '5.04', 'The authorization holder shall be
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_04-R007', '5.04', 'The authorization holder shall be
 permitted to shift capital goods during the entire export obligation period
 to other units mentioned in the IEC and RCMC of the authorization holder
 subject to production of fresh installation certificate to the RA concerned
-within six months of the shifting.', 'business_rule', 'Certificate of Installation of Capital Goods', 'Where
-the authorisation holder opts for independent Chartered Engineer’s
-certificate, he shall send a copy of the certificate to the jurisdictional
-Customs Authority for intimation/record.', 'The authorization holder shall be
+within six months of the shifting.', 'business_rule', 'Certificate of Installation of Capital Goods', '| any', 'The authorization holder shall be
 permitted to shift capital goods during the entire export obligation period
 to other units mentioned in the IEC and RCMC of the authorization holder
 subject to production of fresh installation certificate to the RA concerned
@@ -560,6 +635,46 @@ authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
 2
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | Application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.04', '|
+5.03 | Nexus Certification | | | | | | | |
+(a) | RA concerned shall, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent
+| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue
+| EPCG authorisation.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.04', 'For is | suan | ce of su | ch ce | rtific | ate, | the | Charte | red Engineer
+| shall act only in the doma | in o | f his/he | r co | mpet | ence |.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.04', 'In | case o | f fabrication,
+| reasonable wastage, if any |, an | ticipate | d at t | he ti | me | of in | stallati | on of capital
+| goods shall be certified b | y the | Charte | red | Engin | eer | in th | e nex | us certificate
+| and the same would be | men | tioned | in th | e co | ndit | ion | sheet | of the EPCG
+| authorisation at the time | of is | sue.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.04', '| |
+(b) | An application for amen | dme | nt in t | he li | st of | im | port | item( | s) including
+| addition(s)/deletion(s), if | any, | may be | filed | with | RA | conc | erned | provided the
+| authorisation is valid for i | mpo | rt.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.04', 'The | appli | cant | wou | ld g | ive jus | tification for
+| seeking such amendment | (s) | along w | ith | fresh | nex | us c | ertific | ate from an
+| independent Chartered En | gine | er.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.04', '| | | | | |
+(c) | An application for amen | dme | nt in t | he li | st of | ex | port | item( | s) including
+| addition(s)/deletion(s) if | any, | may be | filed | with | RA | conc | erned | provided the
+| Export Obligation period | of th | e autho | risati | on is | vali | d an | d the | CG has nexus
+| with export product.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.04', 'The a | ppli | cant wo | uld g | ive ju | stif | icati | on for | seeking such
+| amendment(s) along wit | h fr | esh nex | us c | ertifi | cate | fro | m an | independent
+| Chartered Engineer.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.04', '| | | | | | | |
+5.04 | Certificate of Installati | on o | f Capit | al G | oods | | | |
+(a) | Authorization holder shall | pro | duce, w | ithin | 3 ye | ars f | rom | date o | f completion
+| of import, to the concerne | d RA |, a certif | icate | from | the | juri | sdicti | onal Customs
+| authority or an indepen | dent | Charte | red | Engin | eer |, at | the o | ption of the
+| authorisation holder, con | firm | ing ins | tallat | ion | of c | apita | l goo | ds/spares at
+| factory/premises of a | uth | orizatio | n h | olde | r | or | his | supporting
 2
 Chapter-5
 Export Promotion Capital Goods (EPCG) Scheme
@@ -589,6 +704,33 @@ authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
 2
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | Application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.04', 'In | case o | f fabrication,
+| reasonable wastage, if any |, an | ticipate | d at t | he ti | me | of in | stallati | on of capital
+| goods shall be certified b | y the | Charte | red | Engin | eer | in th | e nex | us certificate
+| and the same would be | men | tioned | in th | e co | ndit | ion | sheet | of the EPCG
+| authorisation at the time | of is | sue.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.04', '| |
+(b) | An application for amen | dme | nt in t | he li | st of | im | port | item( | s) including
+| addition(s)/deletion(s), if | any, | may be | filed | with | RA | conc | erned | provided the
+| authorisation is valid for i | mpo | rt.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.04', '| | | | | |
+(c) | An application for amen | dme | nt in t | he li | st of | ex | port | item( | s) including
+| addition(s)/deletion(s) if | any, | may be | filed | with | RA | conc | erned | provided the
+| Export Obligation period | of th | e autho | risati | on is | vali | d an | d the | CG has nexus
+| with export product.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.04', '| | | | | | | |
+5.04 | Certificate of Installati | on o | f Capit | al G | oods | | | |
+(a) | Authorization holder shall | pro | duce, w | ithin | 3 ye | ars f | rom | date o | f completion
+| of import, to the concerne | d RA |, a certif | icate | from | the | juri | sdicti | onal Customs
+| authority or an indepen | dent | Charte | red | Engin | eer |, at | the o | ption of the
+| authorisation holder, con | firm | ing ins | tallat | ion | of c | apita | l goo | ds/spares at
+| factory/premises of a | uth | orizatio | n h | olde | r | or | his | supporting
 2
 Chapter-5
 Export Promotion Capital Goods (EPCG) Scheme
@@ -622,6 +764,23 @@ authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
 2
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | Application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.04', '| |
+(b) | An application for amen | dme | nt in t | he li | st of | im | port | item( | s) including
+| addition(s)/deletion(s), if | any, | may be | filed | with | RA | conc | erned | provided the
+| authorisation is valid for i | mpo | rt.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.04', '| | | | | | | |
+5.04 | Certificate of Installati | on o | f Capit | al G | oods | | | |
+(a) | Authorization holder shall | pro | duce, w | ithin | 3 ye | ars f | rom | date o | f completion
+| of import, to the concerne | d RA |, a certif | icate | from | the | juri | sdicti | onal Customs
+| authority or an indepen | dent | Charte | red | Engin | eer |, at | the o | ption of the
+| authorisation holder, con | firm | ing ins | tallat | ion | of c | apita | l goo | ds/spares at
+| factory/premises of a | uth | orizatio | n h | olde | r | or | his | supporting
 2
 Chapter-5
 Export Promotion Capital Goods (EPCG) Scheme
@@ -644,72 +803,76 @@ authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
 2
-2
-Chapter-5
-Export Promotion Capital Goods (EPCG) Scheme
-5.04 Certificate of Installation of Capital Goods
-(a) Authorization holder shall produce, within 3 years from date of completion
-of import, to the concerned RA, a certificate from the jurisdictional Customs
-authority or an independent Chartered Engineer, at the option of the
-authorisation holder, confirming installation of capital goods/spares at
-factory/premises of authorization holder or his supporting
-manufacturer(s).');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 2, 'Evaluate condition: The RA may allow extension of the said period for
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | Application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 2, 'Evaluate condition: |
+5.03 | Nexus Certification | | | | | | | |
+(a) | RA concerned shall, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent
+| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue
+| EPCG authorisation.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 3, 'Evaluate condition: For is | suan | ce of su | ch ce | rtific | ate, | the | Charte | red Engineer
+| shall act only in the doma | in o | f his/he | r co | mpet | ence |.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 4, '|
+5.03 | Nexus Certification | | | | | | | |
+(a) | RA concerned shall, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent
+| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue
+| EPCG authorisation.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 5, 'The | was | tage | so p | erm | itted a | t the time of
+| issuance of authorisation | wou | ld be a | llowe | d to | be | sold | as scr | ap/waste on
+| payment of applicable dut | y by | the aut | horis | ation | hol | der.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 6, 'The | appli | cant | wou | ld g | ive jus | tification for
+| seeking such amendment | (s) | along w | ith | fresh | nex | us c | ertific | ate from an
+| independent Chartered En | gine | er.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 7, 'The a | ppli | cant wo | uld g | ive ju | stif | icati | on for | seeking such
+| amendment(s) along wit | h fr | esh nex | us c | ertifi | cate | fro | m an | independent
+| Chartered Engineer.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 8, 'The RA may allow extension of the said period for
 submission of certificate, upto valid EO period with a payment of a
 composition fee of Rs.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 3, 'Evaluate condition: Where
-the authorisation holder opts for independent Chartered Engineer’s
-certificate, he shall send a copy of the certificate to the jurisdictional
-Customs Authority for intimation/record.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 4, 'The RA may allow extension of the said period for
-submission of certificate, upto valid EO period with a payment of a
-composition fee of Rs.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 5, 'Run validation: 5.04 Certificate of Installation of Capital Goods
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 9, 'Run validation: 5.04 Certificate of Installation of Capital Goods
 (a) Authorization holder shall produce, within 3 years from date of completion
 of import, to the concerned RA, a certificate from the jurisdictional Customs
 authority or an independent Chartered Engineer, at the option of the
 authorisation holder, confirming installation of capital goods/spares at
 factory/premises of authorization holder or his supporting
 2
-2
-Chapter-5
-Export Promotion Capital Goods (EPCG) Scheme
-5.04 Certificate of Installation of Capital Goods
-(a) Authorization holder shall produce, within 3 years from date of completion
-of import, to the concerned RA, a certificate from the jurisdictional Customs
-authority or an independent Chartered Engineer, at the option of the
-authorisation holder, confirming installation of capital goods/spares at
-factory/premises of authorization holder or his supporting
-manufacturer(s).');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 6, 'Run validation: Where
-the authorisation holder opts for independent Chartered Engineer’s
-certificate, he shall send a copy of the certificate to the jurisdictional
-Customs Authority for intimation/record.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 7, 'Run validation: The authorization holder shall be
-permitted to shift capital goods during the entire export obligation period
-to other units mentioned in the IEC and RCMC of the authorization holder
-subject to production of fresh installation certificate to the RA concerned
-within six months of the shifting.');
+5.01 | Policy | | | | | | | |
+Policy | relating to EPCG Scheme is | giv | en in Ch | apter | 5 of | FTP | | |
+5.02 | Application Form | | | | | | | |
+An app | lication for grant of an au | thor | isation | may | be m | ade | by R | egiste | red Office or
+Head | Office or a Branch Office or | Ma | nufactur | ing U | nit o | f an | eligi | ble ex | porter to RA
+concer | ned in ANF 5A along with | doc | uments | presc | ribe | d the | rein |.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 10, 'Run validation: |
+5.03 | Nexus Certification | | | | | | | |
+(a) | RA concerned shall, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent
+| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue
+| EPCG authorisation.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.04', 11, 'Run validation: For is | suan | ce of su | ch ce | rtific | ate, | the | Charte | red Engineer
+| shall act only in the doma | in o | f his/he | r co | mpet | ence |.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'the');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'his');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'giv');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'FTP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'app');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'for');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'fee');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'per');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'IEC');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'and');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'six');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'from');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'date');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'EPCG');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'said');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'upto');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'with');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'year');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'opts');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'send');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'copy');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'RCMC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'ade');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'red');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'ing');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'nit');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'ble');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'ned');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'ANF');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'doc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'sis');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'fro');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'CEC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'sub');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'keywords', 'dix');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'tags', '5.04');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'tags', 'Certificate of Installation of Capital Goods');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.04', 'tags', 'business-rule');
@@ -839,6 +1002,41 @@ the basis of such register.
 i. Para 5.04(a) amended vide Public Notice No. 15/2024-25 dated 25.07.2024.
 ii. Para 5.04(b) deleted vide Public Notice No. 15/2024-25 dated 25.07.2024.
 3
+| | ma | nufacturer(s). | Th | e | RA may | allow ext | ension of th | e sai | d period for
+| | sub | mission of c | erti | fi | cate, upto | valid EO | period wit | h a p | ayment of a
+| | com | position fee o | f R | s. | 10,000/- p | er year by | the authorisa | tion h | older. Where
+| | the | authorisatio | n | ho | lder opts | for inde | pendent Cha | rtere | d Engineer’s
+| | cer | tificate, he sh | all | s | end a cop | y of the | certificate to | the | jurisdictional
+| | Cus | toms Authori | ty f | or | intimatio | n/record. T | he authoriza | tion h | older shall be
+| | per | mitted to shif | t ca | p | ital goods | during the | entire expor | t obli | gation period
+| | to | other units me | nti | o | ned in the | IEC and R | CMC of the au | thori | zation holder
+| | sub | ject to produ | ctio | n | of fresh i | nstallation | certificate to | the R | A concerned
+| | wit | hin six month | s of | t | he shifting |. | | |
+(a) | | Del | eted. | | | | | | |
+5.0 | 5 | Po | rt of Registr | atio | n | | | | |
+EP | CG | Aut | horisation sh | all | b | e issued | with a sin | gle port of r | egistr | ation as per
+par | agr | ap | h 4.35 of HBP, | for | i | mports. Ho | wever, exp | orts can be | made f | rom any port
+spe | cifi | ed | in paragraph 4 |.35 | o | f HBP. | | | |
+5.0 | 6 | Im | port of spar | es, | to | ols, refra | ctories a | nd catalysts | |
+(a) | | Ap | plications for | p | ro | curement | of capita | l goods co | vered | under sub-
+| | par | agraphs (a) (i | ii) a | n | d (iv) of p | aragraph 5 |.01 of FTP sh | all co | ntain a list of
+| | pla | nt/machinery | ins | t | alled in fac | tory/prem | ises of the a | pplica | nt for which
+| | suc | h capital goo | ds a | r | e required |, duly cert | ified by inde | pende | nt Chartered
+| | Eng | ineer or juris | dict | io | nal Custo | ms Authori | ties. | |
+(b) | | In | case of impor | t o | f | spares, EP | CG author | isation shall | not s | pecify list of
+| | spa | res but shall i | ndi | ca | te: | | | |
+| | | (i) Name of | pla | n | t /machine | ry for whic | h spares are | requir | ed.
+| | | (ii) Value of | dut | y | saved allo | wed under | the authorisa | tion. |
+| | | (iii) Descript | ion | | of product | to be ex | ported and | value | of export
+| | | obligatio | n. | | | | | |
+(c) | | Aut | horisation ho | lde | r | shall mai | ntain a re | gister of sto | ck & | utilisation of
+| | cap | ital goods cov | ere | d | under sub | -paragrap | hs (a)(iii) and | (iv) o | f paragraph
+| | 5.0 | 1 of FTP impo | rte | d | under the | scheme a | nd at the tim | e of a | pplication for
+| | EO | DC, authorisa | tion | | holder sh | all submi | t certificate | from | independent
+| | Cha | rtered Engine | er | c | onfirming | their use i | n the installe | d cap | ital goods on
+| | the | basis of such | reg | is | ter. | | | |
+| i. | | Para 5.04(a) amen | ded | vi | de Public Noti | ce No. 15/202 | 4-25 dated 25.07 |.2024. |
+| ii. | | Para 5.04(b) delet | ed vi | d | e Public Notic | e No. 15/2024 | -25 dated 25.07.2 | 024. |
 3
 manufacturer(s). The RA may allow extension of the said period for
 submission of certificate, upto valid EO period with a payment of a
@@ -876,7 +1074,7 @@ the basis of such register.
 i.
 Para 5.04(a) amended vide Public Notice No. 15/2024-25 dated 25.07.2024.
 ii.
-Para 5.04(b) deleted vide Public Notice No. 15/2024-25 dated 25.07.2024.', '[3]', '["and", "for", "sub", "iii", "FTP", "the", "are", "not", "but", "use", "may", "fee", "per", "IEC", "six", "list", "such", "duly", "case", "EPCG"]', 'Support Import of spares, tools, refractories and catalysts processing and compliance validation.', '["5.06", "Import of spares, tools, refractories and catalysts", "business-rule", "document-driven", "dgft"]');
+Para 5.04(b) deleted vide Public Notice No. 15/2024-25 dated 25.07.2024.', '[3]', '["and", "for", "sub", "iii", "FTP", "the", "are", "not", "but", "use", "may", "ext", "sai", "wit", "com", "fee", "Cha", "cer", "all", "end"]', 'Support Import of spares, tools, refractories and catalysts processing and compliance validation.', '["5.06", "Import of spares, tools, refractories and catalysts", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R001', '5.06', '5.06 Import of spares, tools, refractories and catalysts
 (a) Applications for procurement of capital goods covered under sub-
 paragraphs (a) (iii) and (iv) of paragraph 5.01 of FTP shall contain a list of
@@ -906,11 +1104,10 @@ spares but shall indicate:
 spares but shall indicate:
 (i) Name of plant /machinery for which spares are required.', '(b) In case of import of spares, EPCG authorisation shall not specify list of
 spares but shall indicate:
-(i) Name of plant /machinery for which spares are required.', 'Para 5.04(a) amended vide Public Notice No.', '(b)
-In case of import of spares, EPCG authorisation shall not specify list of
-spares but shall indicate:
-(i)
-Name of plant /machinery for which spares are required.', 'DEKAI should produce a compliance decision for 5.06 - Import of spares, tools, refractories and catalysts.');
+(i) Name of plant /machinery for which spares are required.', 'Para 5.04(a) amended vide Public Notice No.', '| |
+(b) | | In | case of impor | t o | f | spares, EP | CG author | isation shall | not s | pecify list of
+| | spa | res but shall i | ndi | ca | te: | | | |
+| | | (i) Name of | pla | n | t /machine | ry for whic | h spares are | requir | ed.', 'DEKAI should produce a compliance decision for 5.06 - Import of spares, tools, refractories and catalysts.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R003', '5.06', '(c) Authorisation holder shall maintain a register of stock & utilisation of
 capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
 5.01 of FTP imported under the scheme and at the time of application for
@@ -926,19 +1123,111 @@ capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
 5.01 of FTP imported under the scheme and at the time of application for
 EODC, authorisation holder shall submit certificate from independent
 Chartered Engineer confirming their use in the installed capital goods on
-the basis of such register.', 'The RA may allow extension of the said period for
+the basis of such register.', '| | | | | | |
+5.0 | 5 | Po | rt of Registr | atio | n | | | | |
+EP | CG | Aut | horisation sh | all | b | e issued | with a sin | gle port of r | egistr | ation as per
+par | agr | ap | h 4.35 of HBP, | for | i | mports.', '(b)
+In case of import of spares, EPCG authorisation shall not specify list of
+spares but shall indicate:
+(i)
+Name of plant /machinery for which spares are required.', 'DEKAI should produce a compliance decision for 5.06 - Import of spares, tools, refractories and catalysts.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R004', '5.06', 'T | he authoriza | tion h | older shall be
+| | per | mitted to shif | t ca | p | ital goods | during the | entire expor | t obli | gation period
+| | to | other units me | nti | o | ned in the | IEC and R | CMC of the au | thori | zation holder
+| | sub | ject to produ | ctio | n | of fresh i | nstallation | certificate to | the R | A concerned
+| | wit | hin six month | s of | t | he shifting |.', 'business_rule', 'Import of spares, tools, refractories and catalysts', 'Where
+| | the | authorisatio | n | ho | lder opts | for inde | pendent Cha | rtere | d Engineer’s
+| | cer | tificate, he sh | all | s | end a cop | y of the | certificate to | the | jurisdictional
+| | Cus | toms Authori | ty f | or | intimatio | n/record.', 'T | he authoriza | tion h | older shall be
+| | per | mitted to shif | t ca | p | ital goods | during the | entire expor | t obli | gation period
+| | to | other units me | nti | o | ned in the | IEC and R | CMC of the au | thori | zation holder
+| | sub | ject to produ | ctio | n | of fresh i | nstallation | certificate to | the R | A concerned
+| | wit | hin six month | s of | t | he shifting |.', 'The RA may allow extension of the said period for
 submission of certificate, upto valid EO period with a payment of a
 composition fee of Rs.', '(b)
 In case of import of spares, EPCG authorisation shall not specify list of
 spares but shall indicate:
 (i)
 Name of plant /machinery for which spares are required.', 'DEKAI should produce a compliance decision for 5.06 - Import of spares, tools, refractories and catalysts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R004', '5.06', 'Where
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R005', '5.06', '| |
+(b) | | In | case of impor | t o | f | spares, EP | CG author | isation shall | not s | pecify list of
+| | spa | res but shall i | ndi | ca | te: | | | |
+| | | (i) Name of | pla | n | t /machine | ry for whic | h spares are | requir | ed.', 'business_rule', 'Import of spares, tools, refractories and catalysts', 'T | he authoriza | tion h | older shall be
+| | per | mitted to shif | t ca | p | ital goods | during the | entire expor | t obli | gation period
+| | to | other units me | nti | o | ned in the | IEC and R | CMC of the au | thori | zation holder
+| | sub | ject to produ | ctio | n | of fresh i | nstallation | certificate to | the R | A concerned
+| | wit | hin six month | s of | t | he shifting |.', '| | | |
+5.0 | 6 | Im | port of spar | es, | to | ols, refra | ctories a | nd catalysts | |
+(a) | | Ap | plications for | p | ro | curement | of capita | l goods co | vered | under sub-
+| | par | agraphs (a) (i | ii) a | n | d (iv) of p | aragraph 5 |.01 of FTP sh | all co | ntain a list of
+| | pla | nt/machinery | ins | t | alled in fac | tory/prem | ises of the a | pplica | nt for which
+| | suc | h capital goo | ds a | r | e required |, duly cert | ified by inde | pende | nt Chartered
+| | Eng | ineer or juris | dict | io | nal Custo | ms Authori | ties.', '(c)
+Authorisation holder shall maintain a register of stock & utilisation of
+capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
+5.01 of FTP imported under the scheme and at the time of application for
+EODC, authorisation holder shall submit certificate from independent
+Chartered Engineer confirming their use in the installed capital goods on
+the basis of such register.', '(b)
+In case of import of spares, EPCG authorisation shall not specify list of
+spares but shall indicate:
+(i)
+Name of plant /machinery for which spares are required.', 'DEKAI should produce a compliance decision for 5.06 - Import of spares, tools, refractories and catalysts.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R006', '5.06', '| | | | | |
+(c) | | Aut | horisation ho | lde | r | shall mai | ntain a re | gister of sto | ck & | utilisation of
+| | cap | ital goods cov | ere | d | under sub | -paragrap | hs (a)(iii) and | (iv) o | f paragraph
+| | 5.0 | 1 of FTP impo | rte | d | under the | scheme a | nd at the tim | e of a | pplication for
+| | EO | DC, authorisa | tion | | holder sh | all submi | t certificate | from | independent
+| | Cha | rtered Engine | er | c | onfirming | their use i | n the installe | d cap | ital goods on
+| | the | basis of such | reg | is | ter.', 'business_rule', 'Import of spares, tools, refractories and catalysts', 'Ho | wever, exp | orts can be | made f | rom any port
+spe | cifi | ed | in paragraph 4 |.35 | o | f HBP.', '| |
+(b) | | In | case of impor | t o | f | spares, EP | CG author | isation shall | not s | pecify list of
+| | spa | res but shall i | ndi | ca | te: | | | |
+| | | (i) Name of | pla | n | t /machine | ry for whic | h spares are | requir | ed.', '(c)
+Authorisation holder shall maintain a register of stock & utilisation of
+capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
+5.01 of FTP imported under the scheme and at the time of application for
+EODC, authorisation holder shall submit certificate from independent
+Chartered Engineer confirming their use in the installed capital goods on
+the basis of such register.', '(b)
+In case of import of spares, EPCG authorisation shall not specify list of
+spares but shall indicate:
+(i)
+Name of plant /machinery for which spares are required.', 'DEKAI should produce a compliance decision for 5.06 - Import of spares, tools, refractories and catalysts.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R007', '5.06', 'Where
 the authorisation holder opts for independent Chartered Engineer’s
 certificate, he shall send a copy of the certificate to the jurisdictional
-Customs Authority for intimation/record.', 'business_rule', 'Import of spares, tools, refractories and catalysts', 'The RA may allow extension of the said period for
-submission of certificate, upto valid EO period with a payment of a
-composition fee of Rs.', 'Where
+Customs Authority for intimation/record.', 'business_rule', 'Import of spares, tools, refractories and catalysts', '| | | |
+5.0 | 6 | Im | port of spar | es, | to | ols, refra | ctories a | nd catalysts | |
+(a) | | Ap | plications for | p | ro | curement | of capita | l goods co | vered | under sub-
+| | par | agraphs (a) (i | ii) a | n | d (iv) of p | aragraph 5 |.01 of FTP sh | all co | ntain a list of
+| | pla | nt/machinery | ins | t | alled in fac | tory/prem | ises of the a | pplica | nt for which
+| | suc | h capital goo | ds a | r | e required |, duly cert | ified by inde | pende | nt Chartered
+| | Eng | ineer or juris | dict | io | nal Custo | ms Authori | ties.', '| | | | | |
+(c) | | Aut | horisation ho | lde | r | shall mai | ntain a re | gister of sto | ck & | utilisation of
+| | cap | ital goods cov | ere | d | under sub | -paragrap | hs (a)(iii) and | (iv) o | f paragraph
+| | 5.0 | 1 of FTP impo | rte | d | under the | scheme a | nd at the tim | e of a | pplication for
+| | EO | DC, authorisa | tion | | holder sh | all submi | t certificate | from | independent
+| | Cha | rtered Engine | er | c | onfirming | their use i | n the installe | d cap | ital goods on
+| | the | basis of such | reg | is | ter.', '(c)
+Authorisation holder shall maintain a register of stock & utilisation of
+capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
+5.01 of FTP imported under the scheme and at the time of application for
+EODC, authorisation holder shall submit certificate from independent
+Chartered Engineer confirming their use in the installed capital goods on
+the basis of such register.', '(b)
+In case of import of spares, EPCG authorisation shall not specify list of
+spares but shall indicate:
+(i)
+Name of plant /machinery for which spares are required.', 'DEKAI should produce a compliance decision for 5.06 - Import of spares, tools, refractories and catalysts.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R008', '5.06', 'The authorization holder shall be
+permitted to shift capital goods during the entire export obligation period
+to other units mentioned in the IEC and RCMC of the authorization holder
+subject to production of fresh installation certificate to the RA concerned
+within six months of the shifting.', 'business_rule', 'Import of spares, tools, refractories and catalysts', '| |
+(b) | | In | case of impor | t o | f | spares, EP | CG author | isation shall | not s | pecify list of
+| | spa | res but shall i | ndi | ca | te: | | | |
+| | | (i) Name of | pla | n | t /machine | ry for whic | h spares are | requir | ed.', 'Where
 the authorisation holder opts for independent Chartered Engineer’s
 certificate, he shall send a copy of the certificate to the jurisdictional
 Customs Authority for intimation/record.', '(c)
@@ -952,14 +1241,19 @@ In case of import of spares, EPCG authorisation shall not specify list of
 spares but shall indicate:
 (i)
 Name of plant /machinery for which spares are required.', 'DEKAI should produce a compliance decision for 5.06 - Import of spares, tools, refractories and catalysts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R005', '5.06', 'The authorization holder shall be
-permitted to shift capital goods during the entire export obligation period
-to other units mentioned in the IEC and RCMC of the authorization holder
-subject to production of fresh installation certificate to the RA concerned
-within six months of the shifting.', 'business_rule', 'Import of spares, tools, refractories and catalysts', 'Where
-the authorisation holder opts for independent Chartered Engineer’s
-certificate, he shall send a copy of the certificate to the jurisdictional
-Customs Authority for intimation/record.', 'The authorization holder shall be
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R009', '5.06', '5.06 Import of spares, tools, refractories and catalysts
+(a)
+Applications for procurement of capital goods covered under sub-
+paragraphs (a) (iii) and (iv) of paragraph 5.01 of FTP shall contain a list of
+plant/machinery installed in factory/premises of the applicant for which
+such capital goods are required, duly certified by independent Chartered
+Engineer or jurisdictional Customs Authorities.', 'business_rule', 'Import of spares, tools, refractories and catalysts', '| | | | | |
+(c) | | Aut | horisation ho | lde | r | shall mai | ntain a re | gister of sto | ck & | utilisation of
+| | cap | ital goods cov | ere | d | under sub | -paragrap | hs (a)(iii) and | (iv) o | f paragraph
+| | 5.0 | 1 of FTP impo | rte | d | under the | scheme a | nd at the tim | e of a | pplication for
+| | EO | DC, authorisa | tion | | holder sh | all submi | t certificate | from | independent
+| | Cha | rtered Engine | er | c | onfirming | their use i | n the installe | d cap | ital goods on
+| | the | basis of such | reg | is | ter.', 'The authorization holder shall be
 permitted to shift capital goods during the entire export obligation period
 to other units mentioned in the IEC and RCMC of the authorization holder
 subject to production of fresh installation certificate to the RA concerned
@@ -974,17 +1268,13 @@ In case of import of spares, EPCG authorisation shall not specify list of
 spares but shall indicate:
 (i)
 Name of plant /machinery for which spares are required.', 'DEKAI should produce a compliance decision for 5.06 - Import of spares, tools, refractories and catalysts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R006', '5.06', '5.06 Import of spares, tools, refractories and catalysts
-(a)
-Applications for procurement of capital goods covered under sub-
-paragraphs (a) (iii) and (iv) of paragraph 5.01 of FTP shall contain a list of
-plant/machinery installed in factory/premises of the applicant for which
-such capital goods are required, duly certified by independent Chartered
-Engineer or jurisdictional Customs Authorities.', 'business_rule', 'Import of spares, tools, refractories and catalysts', 'The authorization holder shall be
-permitted to shift capital goods during the entire export obligation period
-to other units mentioned in the IEC and RCMC of the authorization holder
-subject to production of fresh installation certificate to the RA concerned
-within six months of the shifting.', '5.06 Import of spares, tools, refractories and catalysts
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R010', '5.06', '(b)
+In case of import of spares, EPCG authorisation shall not specify list of
+spares but shall indicate:
+(i)
+Name of plant /machinery for which spares are required.', 'business_rule', 'Import of spares, tools, refractories and catalysts', 'The RA may allow extension of the said period for
+submission of certificate, upto valid EO period with a payment of a
+composition fee of Rs.', '5.06 Import of spares, tools, refractories and catalysts
 (a)
 Applications for procurement of capital goods covered under sub-
 paragraphs (a) (iii) and (iv) of paragraph 5.01 of FTP shall contain a list of
@@ -1001,48 +1291,20 @@ In case of import of spares, EPCG authorisation shall not specify list of
 spares but shall indicate:
 (i)
 Name of plant /machinery for which spares are required.', 'DEKAI should produce a compliance decision for 5.06 - Import of spares, tools, refractories and catalysts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R007', '5.06', '(b)
-In case of import of spares, EPCG authorisation shall not specify list of
-spares but shall indicate:
-(i)
-Name of plant /machinery for which spares are required.', 'business_rule', 'Import of spares, tools, refractories and catalysts', '5.06 Import of spares, tools, refractories and catalysts
-(a)
-Applications for procurement of capital goods covered under sub-
-paragraphs (a) (iii) and (iv) of paragraph 5.01 of FTP shall contain a list of
-plant/machinery installed in factory/premises of the applicant for which
-such capital goods are required, duly certified by independent Chartered
-Engineer or jurisdictional Customs Authorities.', '(b)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R011', '5.06', '(c)
+Authorisation holder shall maintain a register of stock & utilisation of
+capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
+5.01 of FTP imported under the scheme and at the time of application for
+EODC, authorisation holder shall submit certificate from independent
+Chartered Engineer confirming their use in the installed capital goods on
+the basis of such register.', 'business_rule', 'Import of spares, tools, refractories and catalysts', 'Where
+the authorisation holder opts for independent Chartered Engineer’s
+certificate, he shall send a copy of the certificate to the jurisdictional
+Customs Authority for intimation/record.', '(b)
 In case of import of spares, EPCG authorisation shall not specify list of
 spares but shall indicate:
 (i)
 Name of plant /machinery for which spares are required.', '(c)
-Authorisation holder shall maintain a register of stock & utilisation of
-capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
-5.01 of FTP imported under the scheme and at the time of application for
-EODC, authorisation holder shall submit certificate from independent
-Chartered Engineer confirming their use in the installed capital goods on
-the basis of such register.', '(b)
-In case of import of spares, EPCG authorisation shall not specify list of
-spares but shall indicate:
-(i)
-Name of plant /machinery for which spares are required.', 'DEKAI should produce a compliance decision for 5.06 - Import of spares, tools, refractories and catalysts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_06-R008', '5.06', '(c)
-Authorisation holder shall maintain a register of stock & utilisation of
-capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
-5.01 of FTP imported under the scheme and at the time of application for
-EODC, authorisation holder shall submit certificate from independent
-Chartered Engineer confirming their use in the installed capital goods on
-the basis of such register.', 'business_rule', 'Import of spares, tools, refractories and catalysts', '(b)
-In case of import of spares, EPCG authorisation shall not specify list of
-spares but shall indicate:
-(i)
-Name of plant /machinery for which spares are required.', '(c)
-Authorisation holder shall maintain a register of stock & utilisation of
-capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
-5.01 of FTP imported under the scheme and at the time of application for
-EODC, authorisation holder shall submit certificate from independent
-Chartered Engineer confirming their use in the installed capital goods on
-the basis of such register.', '(c)
 Authorisation holder shall maintain a register of stock & utilisation of
 capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
 5.01 of FTP imported under the scheme and at the time of application for
@@ -1068,6 +1330,35 @@ capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
 EODC, authorisation holder shall submit certificate from independent
 Chartered Engineer confirming their use in the installed capital goods on
 the basis of such register.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.06', 'Where
+| | the | authorisatio | n | ho | lder opts | for inde | pendent Cha | rtere | d Engineer’s
+| | cer | tificate, he sh | all | s | end a cop | y of the | certificate to | the | jurisdictional
+| | Cus | toms Authori | ty f | or | intimatio | n/record.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.06', 'T | he authoriza | tion h | older shall be
+| | per | mitted to shif | t ca | p | ital goods | during the | entire expor | t obli | gation period
+| | to | other units me | nti | o | ned in the | IEC and R | CMC of the au | thori | zation holder
+| | sub | ject to produ | ctio | n | of fresh i | nstallation | certificate to | the R | A concerned
+| | wit | hin six month | s of | t | he shifting |.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.06', 'Ho | wever, exp | orts can be | made f | rom any port
+spe | cifi | ed | in paragraph 4 |.35 | o | f HBP.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.06', '| | | |
+5.0 | 6 | Im | port of spar | es, | to | ols, refra | ctories a | nd catalysts | |
+(a) | | Ap | plications for | p | ro | curement | of capita | l goods co | vered | under sub-
+| | par | agraphs (a) (i | ii) a | n | d (iv) of p | aragraph 5 |.01 of FTP sh | all co | ntain a list of
+| | pla | nt/machinery | ins | t | alled in fac | tory/prem | ises of the a | pplica | nt for which
+| | suc | h capital goo | ds a | r | e required |, duly cert | ified by inde | pende | nt Chartered
+| | Eng | ineer or juris | dict | io | nal Custo | ms Authori | ties.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.06', '| |
+(b) | | In | case of impor | t o | f | spares, EP | CG author | isation shall | not s | pecify list of
+| | spa | res but shall i | ndi | ca | te: | | | |
+| | | (i) Name of | pla | n | t /machine | ry for whic | h spares are | requir | ed.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.06', '| | | | | |
+(c) | | Aut | horisation ho | lde | r | shall mai | ntain a re | gister of sto | ck & | utilisation of
+| | cap | ital goods cov | ere | d | under sub | -paragrap | hs (a)(iii) and | (iv) o | f paragraph
+| | 5.0 | 1 of FTP impo | rte | d | under the | scheme a | nd at the tim | e of a | pplication for
+| | EO | DC, authorisa | tion | | holder sh | all submi | t certificate | from | independent
+| | Cha | rtered Engine | er | c | onfirming | their use i | n the installe | d cap | ital goods on
+| | the | basis of such | reg | is | ter.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('5.06', 'The RA may allow extension of the said period for
 submission of certificate, upto valid EO period with a payment of a
 composition fee of Rs.');
@@ -1111,6 +1402,22 @@ capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
 EODC, authorisation holder shall submit certificate from independent
 Chartered Engineer confirming their use in the installed capital goods on
 the basis of such register.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.06', 'Where
+| | the | authorisatio | n | ho | lder opts | for inde | pendent Cha | rtere | d Engineer’s
+| | cer | tificate, he sh | all | s | end a cop | y of the | certificate to | the | jurisdictional
+| | Cus | toms Authori | ty f | or | intimatio | n/record.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.06', 'T | he authoriza | tion h | older shall be
+| | per | mitted to shif | t ca | p | ital goods | during the | entire expor | t obli | gation period
+| | to | other units me | nti | o | ned in the | IEC and R | CMC of the au | thori | zation holder
+| | sub | ject to produ | ctio | n | of fresh i | nstallation | certificate to | the R | A concerned
+| | wit | hin six month | s of | t | he shifting |.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.06', '| | | | | |
+(c) | | Aut | horisation ho | lde | r | shall mai | ntain a re | gister of sto | ck & | utilisation of
+| | cap | ital goods cov | ere | d | under sub | -paragrap | hs (a)(iii) and | (iv) o | f paragraph
+| | 5.0 | 1 of FTP impo | rte | d | under the | scheme a | nd at the tim | e of a | pplication for
+| | EO | DC, authorisa | tion | | holder sh | all submi | t certificate | from | independent
+| | Cha | rtered Engine | er | c | onfirming | their use i | n the installe | d cap | ital goods on
+| | the | basis of such | reg | is | ter.');
 INSERT INTO documents (section_code, document_name) VALUES ('5.06', 'The RA may allow extension of the said period for
 submission of certificate, upto valid EO period with a payment of a
 composition fee of Rs.');
@@ -1150,6 +1457,10 @@ within six months of the shifting.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('5.06', '(b) In case of import of spares, EPCG authorisation shall not specify list of
 spares but shall indicate:
 (i) Name of plant /machinery for which spares are required.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('5.06', '| |
+(b) | | In | case of impor | t o | f | spares, EP | CG author | isation shall | not s | pecify list of
+| | spa | res but shall i | ndi | ca | te: | | | |
+| | | (i) Name of | pla | n | t /machine | ry for whic | h spares are | requir | ed.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('5.06', '(b)
 In case of import of spares, EPCG authorisation shall not specify list of
 spares but shall indicate:
@@ -1177,32 +1488,36 @@ EODC, authorisation holder shall submit certificate from independent
 Chartered Engineer confirming their use in the installed capital goods on
 the basis of such register.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 5, 'Para 5.04(a) amended vide Public Notice No.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 6, 'The RA may allow extension of the said period for
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 6, '| | | | | | |
+5.0 | 5 | Po | rt of Registr | atio | n | | | | |
+EP | CG | Aut | horisation sh | all | b | e issued | with a sin | gle port of r | egistr | ation as per
+par | agr | ap | h 4.35 of HBP, | for | i | mports.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 7, 'The RA may allow extension of the said period for
 submission of certificate, upto valid EO period with a payment of a
 composition fee of Rs.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 7, '(c)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 8, '(c)
 Authorisation holder shall maintain a register of stock & utilisation of
 capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
 5.01 of FTP imported under the scheme and at the time of application for
 EODC, authorisation holder shall submit certificate from independent
 Chartered Engineer confirming their use in the installed capital goods on
 the basis of such register.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 8, 'Run validation: 5.06 Import of spares, tools, refractories and catalysts
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 9, 'Run validation: 5.06 Import of spares, tools, refractories and catalysts
 (a) Applications for procurement of capital goods covered under sub-
 paragraphs (a) (iii) and (iv) of paragraph 5.01 of FTP shall contain a list of
 plant/machinery installed in factory/premises of the applicant for which
 such capital goods are required, duly certified by independent Chartered
 Engineer or jurisdictional Customs Authorities.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 9, 'Run validation: (b) In case of import of spares, EPCG authorisation shall not specify list of
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 10, 'Run validation: (b) In case of import of spares, EPCG authorisation shall not specify list of
 spares but shall indicate:
 (i) Name of plant /machinery for which spares are required.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 10, 'Run validation: (c) Authorisation holder shall maintain a register of stock & utilisation of
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 11, 'Run validation: (c) Authorisation holder shall maintain a register of stock & utilisation of
 capital goods covered under sub-paragraphs (a)(iii) and (iv) of paragraph
 5.01 of FTP imported under the scheme and at the time of application for
 EODC, authorisation holder shall submit certificate from independent
 Chartered Engineer confirming their use in the installed capital goods on
 the basis of such register.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 11, 'Handle exception: (b) In case of import of spares, EPCG authorisation shall not specify list of
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.06', 12, 'Handle exception: (b) In case of import of spares, EPCG authorisation shall not specify list of
 spares but shall indicate:
 (i) Name of plant /machinery for which spares are required.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'and');
@@ -1216,15 +1531,15 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'but');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'use');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'ext');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'sai');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'wit');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'com');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'fee');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'per');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'IEC');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'six');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'list');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'such');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'duly');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'case');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'EPCG');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'Cha');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'cer');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'all');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'keywords', 'end');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'tags', '5.06');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'tags', 'Import of spares, tools, refractories and catalysts');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.06', 'tags', 'business-rule');
@@ -1584,13 +1899,10 @@ where capital goods would be installed;
 (iii) Name, description including specifications, where applicable,
 and quantity of items; and
 (iv) Individual value of items to be procured. 4
-4
-5.08 Procurement from SEZ
-(a)
-If the request is made along with the application for authorisation for
-procurement of new Capital goods from SEZs, the RA may issue a
-"Certificate of supplies from SEZ", containing the details for the requested
-items after making the import item "Invalid for direct imports”.', 'Procurement from SEZ governs how DGFT business controls should be applied, validated, and enforced.', 'Procurement from SEZ explains the operating rule set that DEKAI should enforce. Key control points include The
+5.07 | Conversi | on of E | OU | /Relocate | d SEZ U | nits | to DTA U | nit u | n | der EPCG
+Schem | e | | | | | | | | |
+(a) | An EOU/a | relocat | ed S | EZ unit, wh | ile conv | erting | to a DTA | Unit, | m | ay apply for
+| an EPCG | authori | satio | n along w | ith doc | ument | s prescri | bed.', 'Procurement from SEZ governs how DGFT business controls should be applied, validated, and enforced.', 'Procurement from SEZ explains the operating rule set that DEKAI should enforce. Key control points include The
 "Certificate of supplies from SEZ" shall contain the following details:
 (i) Name, Address and GSTIN of SEZ unit;
 (ii) GSTIN & Address of recipient unit of EPCG authorisation holder
@@ -1625,6 +1937,43 @@ where capital goods would be installed;
 and quantity of items; and
 (iv) Individual value of items to be procured.
 4
+5.07 | Conversi | on of E | OU | /Relocate | d SEZ U | nits | to DTA U | nit u | n | der EPCG
+Schem | e | | | | | | | | |
+(a) | An EOU/a | relocat | ed S | EZ unit, wh | ile conv | erting | to a DTA | Unit, | m | ay apply for
+| an EPCG | authori | satio | n along w | ith doc | ument | s prescri | bed. ‘ | N | o Objection
+| Certificate | ’ shou | ld | be produ | ced fro | m th | e concer | ned | D | evelopment
+| Commissi | oner. | | | | | | | |
+(b) | The expo | rt oblig | atio | n period f | or a uni | t whi | ch conve | rts fr | o | m EOU/SEZ
+| Scheme to | EPCG S | che | me would | be the sa | me as | is availa | ble to | a | direct EPCG
+| Authorisa | tion hol | der | as per para | graph 5. | 01 of | FTP. | | |
+(c) | If a standa | lone EO | U / S | EZ unit wi | shes to d | e-bon | d from E | OU to | E | PCG Scheme,
+| there shal | l be no | requ | irement fo | r mainte | nance | of averag | e exp | o | rt obligation
+| and the u | nit shal | l be | required t | o maint | ain on | ly specifi | c exp | or | t obligation
+| equivalen | t to six | tim | es of the | proporti | onate | duty sa | ved a | m | ount of the
+| depreciat | ed valu | e of | capital go | ods for | which | the Auth | orisat | i | on has been
+| obtained. | | | | | | | | |
+(d) | In case on | e unit | of a | firm / com | pany o | pts to | de-bond | from | E | OU to EPCG
+| Scheme, | while o | ther | unit(s) a | re DTA | units |, then t | he av | e | rage export
+| obligation | in res | pect | of the aut | horisatio | ns iss | ued to t | he fir | m | / company
+| (other tha | n de-bo | ndin | g unit) sh | all rema | in unc | hanged a | nd th | e | average EO,
+| after de-b | onding | of th | e unit, shal | l be fixed | by ex | cluding t | he exp | o | rts made by
+| the de-bo | nded un | it fro | m the tota | l export | s of th | e firm/ co | mpan | y |, which runs
+| concurren | tly for | all th | e units of | the firm | / com | pany. In s | uch a | c | ase, specific
+| EO equiva | lent to | six t | imes of th | e propor | tionat | e duty sa | ved a | m | ount on the
+| depreciate | d value | of th | e Capital G | oods wo | uld be | imposed | on th | e | de- bonding
+| unit shifti | ng to th | e EP | CG Scheme |. | | | | |
+5.08 | Procure | ment fr | om | SEZ | | | | | |
+(a) | If the req | uest is | mad | e along w | ith the | applic | ation for | autho | r | isation for
+| procurem | ent of | new | Capital g | oods fr | om S | EZs, the | RA m | | ay issue a
+| "Certificat | e of sup | plie | s from SEZ | ", contai | ning t | he details | for th | e | requested
+| items afte | r maki | ng t | he import | item "I | nvalid | for dir | ect im | p | orts”. The
+| "Certificat | e of sup | plie | s from SEZ | " shall co | ntain | the follo | wing d | e | tails:
+| (i) | Name, A | ddr | ess and GS | TIN of SE | Z unit |; | | |
+| (ii) | GSTIN | & Ad | dress of re | cipient u | nit of | EPCG aut | horisa | t | ion holder
+| | where | capit | al goods w | ould be | install | ed; | | |
+| (iii) | Name, | des | cription in | cluding | specif | ications, | where | | applicable,
+| and | quanti | ty of | items; and | | | | | |
+| (iv) | Individ | ual v | alue of ite | ms to be | procu | red. | | |
 4
 5.08 Procurement from SEZ
 (a)
@@ -1651,7 +2000,7 @@ the authorisation for the RA to verify the actual utilization of authorisation
 at the time of application. The certificate may be issued to the extent of
 quantity available as per utilization status. In case the request for
 "Certificate of supplies from SEZ" is made along with the application for
-authorisation, the same procedure shall apply.', '[4, 5]', '["SEZ", "the", "for", "new", "may", "and", "iii", "has", "due", "per", "from", "made", "with", "SEZs", "item", "Name", "unit", "EPCG", "said", "copy"]', 'Support Procurement from SEZ processing and compliance validation.', '["5.08", "Procurement from SEZ", "business-rule", "document-driven", "dgft"]');
+authorisation, the same procedure shall apply.', '[4, 5]', '["SEZ", "the", "for", "new", "may", "and", "iii", "DTA", "nit", "der", "ile", "ith", "doc", "bed", "ced", "fro", "ned", "uni", "whi", "rts"]', 'Support Procurement from SEZ processing and compliance validation.', '["5.08", "Procurement from SEZ", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_08-R001', '5.08', 'The
 "Certificate of supplies from SEZ" shall contain the following details:
 (i) Name, Address and GSTIN of SEZ unit;
@@ -1672,9 +2021,14 @@ items after making the import item "Invalid for direct imports”.', '5.08 Procu
 procurement of new Capital goods from SEZs, the RA may issue a
 "Certificate of supplies from SEZ", containing the details for the requested
 items after making the import item "Invalid for direct imports”.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_08-R002', '5.08', '(b) The said “Certificate of supplies from SEZ" shall be marked in
-quadruplicate with a copy each to the authorisation holder, SEZ supplier
-unit, designated officer at SEZ and the relevant port customs authorities.', 'business_rule', 'Procurement from SEZ', 'The
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_08-R002', '5.08', 'The
+| "Certificat | e of sup | plie | s from SEZ | " shall co | ntain | the follo | wing d | e | tails:
+| (i) | Name, A | ddr | ess and GS | TIN of SE | Z unit |; | | |
+| (ii) | GSTIN | & Ad | dress of re | cipient u | nit of | EPCG aut | horisa | t | ion holder
+| | where | capit | al goods w | ould be | install | ed; | | |
+| (iii) | Name, | des | cription in | cluding | specif | ications, | where | | applicable,
+| and | quanti | ty of | items; and | | | | | |
+| (iv) | Individ | ual v | alue of ite | ms to be | procu | red.', 'business_rule', 'Procurement from SEZ', 'The
 "Certificate of supplies from SEZ" shall contain the following details:
 (i) Name, Address and GSTIN of SEZ unit;
 (ii) GSTIN & Address of recipient unit of EPCG authorisation holder
@@ -1689,6 +2043,60 @@ where capital goods would be installed;
 (iii) Name, description including specifications, where applicable,
 and quantity of items; and
 (iv) Individual value of items to be procured.', '4
+5.07 | Conversi | on of E | OU | /Relocate | d SEZ U | nits | to DTA U | nit u | n | der EPCG
+Schem | e | | | | | | | | |
+(a) | An EOU/a | relocat | ed S | EZ unit, wh | ile conv | erting | to a DTA | Unit, | m | ay apply for
+| an EPCG | authori | satio | n along w | ith doc | ument | s prescri | bed.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_08-R003', '5.08', '(b) The said “Certificate of supplies from SEZ" shall be marked in
+quadruplicate with a copy each to the authorisation holder, SEZ supplier
+unit, designated officer at SEZ and the relevant port customs authorities.', 'business_rule', 'Procurement from SEZ', '‘ | N | o Objection
+| Certificate | ’ shou | ld | be produ | ced fro | m th | e concer | ned | D | evelopment
+| Commissi | oner.', '| | |
+(c) | If a standa | lone EO | U / S | EZ unit wi | shes to d | e-bon | d from E | OU to | E | PCG Scheme,
+| there shal | l be no | requ | irement fo | r mainte | nance | of averag | e exp | o | rt obligation
+| and the u | nit shal | l be | required t | o maint | ain on | ly specifi | c exp | or | t obligation
+| equivalen | t to six | tim | es of the | proporti | onate | duty sa | ved a | m | ount of the
+| depreciat | ed valu | e of | capital go | ods for | which | the Auth | orisat | i | on has been
+| obtained.', '| | |
+(c) | If a standa | lone EO | U / S | EZ unit wi | shes to d | e-bon | d from E | OU to | E | PCG Scheme,
+| there shal | l be no | requ | irement fo | r mainte | nance | of averag | e exp | o | rt obligation
+| and the u | nit shal | l be | required t | o maint | ain on | ly specifi | c exp | or | t obligation
+| equivalen | t to six | tim | es of the | proporti | onate | duty sa | ved a | m | ount of the
+| depreciat | ed valu | e of | capital go | ods for | which | the Auth | orisat | i | on has been
+| obtained.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_08-R004', '5.08', 'The above certificate shall be issued as an online amendment to the
+authorisation and has to be transmitted.', 'business_rule', 'Procurement from SEZ', 'a standa | lone EO | U / S | EZ unit wi | shes to d | e-bon | d from E | OU to | E | PCG Scheme', 'The
+| "Certificat | e of sup | plie | s from SEZ | " shall co | ntain | the follo | wing d | e | tails:
+| (i) | Name, A | ddr | ess and GS | TIN of SE | Z unit |; | | |
+| (ii) | GSTIN | & Ad | dress of re | cipient u | nit of | EPCG aut | horisa | t | ion holder
+| | where | capit | al goods w | ould be | install | ed; | | |
+| (iii) | Name, | des | cription in | cluding | specif | ications, | where | | applicable,
+| and | quanti | ty of | items; and | | | | | |
+| (iv) | Individ | ual v | alue of ite | ms to be | procu | red.', '| | | | |
+5.08 | Procure | ment fr | om | SEZ | | | | | |
+(a) | If the req | uest is | mad | e along w | ith the | applic | ation for | autho | r | isation for
+| procurem | ent of | new | Capital g | oods fr | om S | EZs, the | RA m | | ay issue a
+| "Certificat | e of sup | plie | s from SEZ | ", contai | ning t | he details | for th | e | requested
+| items afte | r maki | ng t | he import | item "I | nvalid | for dir | ect im | p | orts”.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_08-R005', '5.08', '(c) In cases where the request for issue of "Certificate of supplies from SEZ" is
+made in due course, it shall be accompanied with an authorisation
+utilization status issued by the relevant Customs authorities mentioned on
+the authorisation for the RA to verify the actual utilization of authorisation
+at the time of application.', 'business_rule', 'Procurement from SEZ', '| | | | | | | | |
+(d) | In case on | e unit | of a | firm / com | pany o | pts to | de-bond | from | E | OU to EPCG
+| Scheme, | while o | ther | unit(s) a | re DTA | units |, then t | he av | e | rage export
+| obligation | in res | pect | of the aut | horisatio | ns iss | ued to t | he fir | m | / company
+| (other tha | n de-bo | ndin | g unit) sh | all rema | in unc | hanged a | nd th | e | average EO,
+| after de-b | onding | of th | e unit, shal | l be fixed | by ex | cluding t | he exp | o | rts made by
+| the de-bo | nded un | it fro | m the tota | l export | s of th | e firm/ co | mpan | y |, which runs
+| concurren | tly for | all th | e units of | the firm | / com | pany.', '| | |
+4
+5.08 Procurement from SEZ
+(a)
+If the request is made along with the application for authorisation for
+procurement of new Capital goods from SEZs, the RA may issue a
+"Certificate of supplies from SEZ", containing the details for the requested
+items after making the import item "Invalid for direct imports”.', '| | |
 4
 5.08 Procurement from SEZ
 (a)
@@ -1696,42 +2104,15 @@ If the request is made along with the application for authorisation for
 procurement of new Capital goods from SEZs, the RA may issue a
 "Certificate of supplies from SEZ", containing the details for the requested
 items after making the import item "Invalid for direct imports”.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_08-R003', '5.08', 'The above certificate shall be issued as an online amendment to the
-authorisation and has to be transmitted.', 'business_rule', 'Procurement from SEZ', '4
-4
-5.08 Procurement from SEZ
-(a)
-If the request is made along with the application for authorisation for
-procurement of new Capital goods from SEZs, the RA may issue a
-"Certificate of supplies from SEZ", containing the details for the requested
-items after making the import item "Invalid for direct imports”.', '4
-4
-5.08 Procurement from SEZ
-(a)
-If the request is made along with the application for authorisation for
-procurement of new Capital goods from SEZs, the RA may issue a
-"Certificate of supplies from SEZ", containing the details for the requested
-items after making the import item "Invalid for direct imports”.', 'The above certificate shall be issued as an online amendment to the
-authorisation and has to be transmitted.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_08-R004', '5.08', '(c) In cases where the request for issue of "Certificate of supplies from SEZ" is
-made in due course, it shall be accompanied with an authorisation
-utilization status issued by the relevant Customs authorities mentioned on
-the authorisation for the RA to verify the actual utilization of authorisation
-at the time of application.', 'business_rule', 'Procurement from SEZ', '(b) The said “Certificate of supplies from SEZ" shall be marked in
-quadruplicate with a copy each to the authorisation holder, SEZ supplier
-unit, designated officer at SEZ and the relevant port customs authorities.', '(b) The said “Certificate of supplies from SEZ" shall be marked in
-quadruplicate with a copy each to the authorisation holder, SEZ supplier
-unit, designated officer at SEZ and the relevant port customs authorities.', '(c) In cases where the request for issue of "Certificate of supplies from SEZ" is
-made in due course, it shall be accompanied with an authorisation
-utilization status issued by the relevant Customs authorities mentioned on
-the authorisation for the RA to verify the actual utilization of authorisation
-at the time of application.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_08-R005', '5.08', 'In case the request for
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_08-R006', '5.08', 'In case the request for
 "Certificate of supplies from SEZ" is made along with the application for
-authorisation, the same procedure shall apply.', 'business_rule', 'Procurement from SEZ', 'The above certificate shall be issued as an online amendment to the
-authorisation and has to be transmitted.', 'The above certificate shall be issued as an online amendment to the
-authorisation and has to be transmitted.', 'The certificate may be issued to the extent of
-quantity available as per utilization status.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ.');
+authorisation, the same procedure shall apply.', 'business_rule', 'Procurement from SEZ', 'In s | uch a | c | ase, specific
+| EO equiva | lent to | six t | imes of th | e propor | tionat | e duty sa | ved a | m | ount on the
+| depreciate | d value | of th | e Capital G | oods wo | uld be | imposed | on th | e | de- bonding
+| unit shifti | ng to th | e EP | CG Scheme |.', '(b) The said “Certificate of supplies from SEZ" shall be marked in
+quadruplicate with a copy each to the authorisation holder, SEZ supplier
+unit, designated officer at SEZ and the relevant port customs authorities.', 'The above certificate shall be issued as an online amendment to the
+authorisation and has to be transmitted.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.08 - Procurement from SEZ.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('5.08', '5.08 Procurement from SEZ
 (a) If the request is made along with the application for authorisation for
 procurement of new Capital goods from SEZs, the RA may issue a
@@ -1745,7 +2126,43 @@ where capital goods would be installed;
 (iii) Name, description including specifications, where applicable,
 and quantity of items; and
 (iv) Individual value of items to be procured.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('5.08', '4
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.08', '‘ | N | o Objection
+| Certificate | ’ shou | ld | be produ | ced fro | m th | e concer | ned | D | evelopment
+| Commissi | oner.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.08', '| | |
+(c) | If a standa | lone EO | U / S | EZ unit wi | shes to d | e-bon | d from E | OU to | E | PCG Scheme,
+| there shal | l be no | requ | irement fo | r mainte | nance | of averag | e exp | o | rt obligation
+| and the u | nit shal | l be | required t | o maint | ain on | ly specifi | c exp | or | t obligation
+| equivalen | t to six | tim | es of the | proporti | onate | duty sa | ved a | m | ount of the
+| depreciat | ed valu | e of | capital go | ods for | which | the Auth | orisat | i | on has been
+| obtained.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.08', '| | | | | | | | |
+(d) | In case on | e unit | of a | firm / com | pany o | pts to | de-bond | from | E | OU to EPCG
+| Scheme, | while o | ther | unit(s) a | re DTA | units |, then t | he av | e | rage export
+| obligation | in res | pect | of the aut | horisatio | ns iss | ued to t | he fir | m | / company
+| (other tha | n de-bo | ndin | g unit) sh | all rema | in unc | hanged a | nd th | e | average EO,
+| after de-b | onding | of th | e unit, shal | l be fixed | by ex | cluding t | he exp | o | rts made by
+| the de-bo | nded un | it fro | m the tota | l export | s of th | e firm/ co | mpan | y |, which runs
+| concurren | tly for | all th | e units of | the firm | / com | pany.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.08', 'In s | uch a | c | ase, specific
+| EO equiva | lent to | six t | imes of th | e propor | tionat | e duty sa | ved a | m | ount on the
+| depreciate | d value | of th | e Capital G | oods wo | uld be | imposed | on th | e | de- bonding
+| unit shifti | ng to th | e EP | CG Scheme |.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.08', '| | | | |
+5.08 | Procure | ment fr | om | SEZ | | | | | |
+(a) | If the req | uest is | mad | e along w | ith the | applic | ation for | autho | r | isation for
+| procurem | ent of | new | Capital g | oods fr | om S | EZs, the | RA m | | ay issue a
+| "Certificat | e of sup | plie | s from SEZ | ", contai | ning t | he details | for th | e | requested
+| items afte | r maki | ng t | he import | item "I | nvalid | for dir | ect im | p | orts”.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.08', 'The
+| "Certificat | e of sup | plie | s from SEZ | " shall co | ntain | the follo | wing d | e | tails:
+| (i) | Name, A | ddr | ess and GS | TIN of SE | Z unit |; | | |
+| (ii) | GSTIN | & Ad | dress of re | cipient u | nit of | EPCG aut | horisa | t | ion holder
+| | where | capit | al goods w | ould be | install | ed; | | |
+| (iii) | Name, | des | cription in | cluding | specif | ications, | where | | applicable,
+| and | quanti | ty of | items; and | | | | | |
+| (iv) | Individ | ual v | alue of ite | ms to be | procu | red.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.08', '| | |
 4
 5.08 Procurement from SEZ
 (a)
@@ -1781,7 +2198,10 @@ where capital goods would be installed;
 (iii) Name, description including specifications, where applicable,
 and quantity of items; and
 (iv) Individual value of items to be procured.');
-INSERT INTO documents (section_code, document_name) VALUES ('5.08', '4
+INSERT INTO documents (section_code, document_name) VALUES ('5.08', '‘ | N | o Objection
+| Certificate | ’ shou | ld | be produ | ced fro | m th | e concer | ned | D | evelopment
+| Commissi | oner.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.08', '| | |
 4
 5.08 Procurement from SEZ
 (a)
@@ -1811,7 +2231,15 @@ INSERT INTO timelines (section_code, timeline_text) VALUES ('5.08', '5.08 Procur
 procurement of new Capital goods from SEZs, the RA may issue a
 "Certificate of supplies from SEZ", containing the details for the requested
 items after making the import item "Invalid for direct imports”.');
-INSERT INTO timelines (section_code, timeline_text) VALUES ('5.08', '4
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.08', '| | | | | | | | |
+(d) | In case on | e unit | of a | firm / com | pany o | pts to | de-bond | from | E | OU to EPCG
+| Scheme, | while o | ther | unit(s) a | re DTA | units |, then t | he av | e | rage export
+| obligation | in res | pect | of the aut | horisatio | ns iss | ued to t | he fir | m | / company
+| (other tha | n de-bo | ndin | g unit) sh | all rema | in unc | hanged a | nd th | e | average EO,
+| after de-b | onding | of th | e unit, shal | l be fixed | by ex | cluding t | he exp | o | rts made by
+| the de-bo | nded un | it fro | m the tota | l export | s of th | e firm/ co | mpan | y |, which runs
+| concurren | tly for | all th | e units of | the firm | / com | pany.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.08', '| | |
 4
 5.08 Procurement from SEZ
 (a)
@@ -1832,20 +2260,33 @@ where capital goods would be installed;
 (iii) Name, description including specifications, where applicable,
 and quantity of items; and
 (iv) Individual value of items to be procured.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 3, 'Evaluate condition: 4
-4
-5.08 Procurement from SEZ
-(a)
-If the request is made along with the application for authorisation for
-procurement of new Capital goods from SEZs, the RA may issue a
-"Certificate of supplies from SEZ", containing the details for the requested
-items after making the import item "Invalid for direct imports”.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 3, 'Evaluate condition: ‘ | N | o Objection
+| Certificate | ’ shou | ld | be produ | ced fro | m th | e concer | ned | D | evelopment
+| Commissi | oner.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 4, '5.08 Procurement from SEZ
 (a) If the request is made along with the application for authorisation for
 procurement of new Capital goods from SEZs, the RA may issue a
 "Certificate of supplies from SEZ", containing the details for the requested
 items after making the import item "Invalid for direct imports”.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 5, '4
+5.07 | Conversi | on of E | OU | /Relocate | d SEZ U | nits | to DTA U | nit u | n | der EPCG
+Schem | e | | | | | | | | |
+(a) | An EOU/a | relocat | ed S | EZ unit, wh | ile conv | erting | to a DTA | Unit, | m | ay apply for
+| an EPCG | authori | satio | n along w | ith doc | ument | s prescri | bed.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 6, '| | |
+(c) | If a standa | lone EO | U / S | EZ unit wi | shes to d | e-bon | d from E | OU to | E | PCG Scheme,
+| there shal | l be no | requ | irement fo | r mainte | nance | of averag | e exp | o | rt obligation
+| and the u | nit shal | l be | required t | o maint | ain on | ly specifi | c exp | or | t obligation
+| equivalen | t to six | tim | es of the | proporti | onate | duty sa | ved a | m | ount of the
+| depreciat | ed valu | e of | capital go | ods for | which | the Auth | orisat | i | on has been
+| obtained.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 7, '| | | | |
+5.08 | Procure | ment fr | om | SEZ | | | | | |
+(a) | If the req | uest is | mad | e along w | ith the | applic | ation for | autho | r | isation for
+| procurem | ent of | new | Capital g | oods fr | om S | EZs, the | RA m | | ay issue a
+| "Certificat | e of sup | plie | s from SEZ | ", contai | ning t | he details | for th | e | requested
+| items afte | r maki | ng t | he import | item "I | nvalid | for dir | ect im | p | orts”.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 8, '| | |
 4
 5.08 Procurement from SEZ
 (a)
@@ -1853,18 +2294,8 @@ If the request is made along with the application for authorisation for
 procurement of new Capital goods from SEZs, the RA may issue a
 "Certificate of supplies from SEZ", containing the details for the requested
 items after making the import item "Invalid for direct imports”.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 6, 'The above certificate shall be issued as an online amendment to the
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 9, 'The above certificate shall be issued as an online amendment to the
 authorisation and has to be transmitted.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 7, '(c) In cases where the request for issue of "Certificate of supplies from SEZ" is
-made in due course, it shall be accompanied with an authorisation
-utilization status issued by the relevant Customs authorities mentioned on
-the authorisation for the RA to verify the actual utilization of authorisation
-at the time of application.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 8, 'The certificate may be issued to the extent of
-quantity available as per utilization status.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 9, 'In case the request for
-"Certificate of supplies from SEZ" is made along with the application for
-authorisation, the same procedure shall apply.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 10, 'Run validation: 5.08 Procurement from SEZ
 (a) If the request is made along with the application for authorisation for
 procurement of new Capital goods from SEZs, the RA may issue a
@@ -1878,14 +2309,13 @@ where capital goods would be installed;
 (iii) Name, description including specifications, where applicable,
 and quantity of items; and
 (iv) Individual value of items to be procured.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 12, 'Run validation: 4
-4
-5.08 Procurement from SEZ
-(a)
-If the request is made along with the application for authorisation for
-procurement of new Capital goods from SEZs, the RA may issue a
-"Certificate of supplies from SEZ", containing the details for the requested
-items after making the import item "Invalid for direct imports”.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.08', 12, 'Run validation: | | |
+(c) | If a standa | lone EO | U / S | EZ unit wi | shes to d | e-bon | d from E | OU to | E | PCG Scheme,
+| there shal | l be no | requ | irement fo | r mainte | nance | of averag | e exp | o | rt obligation
+| and the u | nit shal | l be | required t | o maint | ain on | ly specifi | c exp | or | t obligation
+| equivalen | t to six | tim | es of the | proporti | onate | duty sa | ved a | m | ount of the
+| depreciat | ed valu | e of | capital go | ods for | which | the Auth | orisat | i | on has been
+| obtained.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'SEZ');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'the');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'for');
@@ -1893,19 +2323,19 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'may');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'and');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'iii');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'has');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'due');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'per');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'from');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'made');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'with');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'SEZs');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'item');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'Name');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'unit');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'EPCG');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'said');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'copy');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'DTA');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'nit');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'der');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'ile');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'ith');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'doc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'bed');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'ced');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'fro');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'ned');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'uni');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'whi');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'keywords', 'rts');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'tags', '5.08');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'tags', 'Procurement from SEZ');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.08', 'tags', 'business-rule');
@@ -2068,13 +2498,13 @@ manufacturer, if any, along with EPCG authorisation number.', 'Conditions for fu
 In addition to conditions in paragraph 5.04 of FTP, the following conditions shall
 also be applicable for fulfillment of export obligation:
 (a) Name of the supporting manufacturer as well as the exporter shall be
-indicated on export documents. The section also drives actions such as The above certificate shall be issued as an online amendment to the
-authorisation and has to be transmitted..', 'Indha Conditions for fulfillment of Export Obligation section-la, Conditions for fulfillment of export Obligation explains the operating rule set that DEKAI should enforce. Key control points include 5.10 Conditions for fulfillment of export Obligation
+indicated on export documents. The section also drives actions such as The cer | tific | ate may | be issued | to | the extent of
+| quantity avai | lable | as per utiliza | tion | status..', 'Indha Conditions for fulfillment of Export Obligation section-la, Conditions for fulfillment of export Obligation explains the operating rule set that DEKAI should enforce. Key control points include 5.10 Conditions for fulfillment of export Obligation
 In addition to conditions in paragraph 5.04 of FTP, the following conditions kandippa
 also be applicable for fulfillment of export obligation:
 (a) Name of the supporting manufacturer as well as the exporter kandippa be
-indicated on export documents. The section also drives actions such as The above certificate kandippa be issued as an online amendment to the
-authorisation and has to be transmitted..', '5.10 Conditions for fulfillment of Export Obligation
+indicated on export documents. The section also drives actions such as The cer | tific | ate may | be issued | to | the extent of
+| quantity avai | lable | as per utiliza | tion | status..', '5.10 Conditions for fulfillment of Export Obligation
 In addition to conditions in paragraph 5.04 of FTP, the following conditions shall
 also be applicable for fulfillment of export obligation:
 (a) Name of the supporting manufacturer as well as the exporter shall be
@@ -2088,6 +2518,45 @@ realisation from RBI’s EDPMS should be in the name of third party
 exporter. The goods exported through third party should be
 manufactured by the EPCG authorisation holder or the supporting
 5
+(b) | The said “C | ertifi | cate of supplie | s f | rom SE | Z" shall b | e | marked in
+| quadruplicate | with | a copy each to | the | authorisa | tion holde | r, | SEZ supplier
+| unit, designat | ed of | ficer at SEZ and | the | relevant | port custo | m | s authorities.
+| The above ce | rtific | ate shall be iss | ued | as an o | nline ame | nd | ment to the
+| authorisation | and h | as to be transmi | tted |. | | |
+(c) | In cases wher | e the | request for issu | e of | "Certifica | te of supp | lie | s from SEZ" is
+| made in due | cou | rse, it shall be | ac | compani | ed with a | n | authorisation
+| utilization sta | tus is | sued by the rele | vant | Custom | s authoritie | s | mentioned on
+| the authorisat | ion f | or the RA to veri | fy th | e actual | utilization | of | authorisation
+| at the time of | app | lication. The cer | tific | ate may | be issued | to | the extent of
+| quantity avai | lable | as per utiliza | tion | status. | In case t | he | request for
+| "Certificate of | sup | plies from SEZ" | is m | ade alon | g with the | a | pplication for
+| authorisation, | the s | ame procedure s | hall | apply. | | |
+5.09 | Sourcing of | Capit | al Goods Manu | fac | tured In | digenous | ly |
+(a) | EPCG authoris | ation | holder intendin | g to | source c | apital good | s | manufactured
+| indigenously | shall | make a request | to | the RA f | or issuance | o | f Invalidation
+| Letter or Adva | nce | Release Order (A | RO) |. | | |
+(b) | Deemed expo | rt b | enefits as given | in | paragra | ph 7.03 of | | FTP shall be
+| available. | | | | | | |
+(c) | This request | can b | e made either a | lon | g with ap | plication | or | during the
+| validity period | of E | PCG Authorisati | on. | | | |
+(d) | Applicant sha | ll giv | e the name and | ad | dress of | the manuf | ac | turer(s) of
+| capital goods. | | | | | | |
+(e) | RA concerned | will i | ssue the invalida | tion | letter/A | RO, in quad | ru | plicate.
+(f) | Validity perio | d of i | nvalidation letter | /AR | O shall b | e co-termi | no | us with the
+| validity period | of E | PCG authorisatio | n. | | | |
+5.10 | Conditions f | or fu | lfillment of Ex | por | t Obliga | tion | |
+In add | ition to condit | ions i | n paragraph 5.0 | 4 of | FTP, the | following c | on | ditions shall
+also be | applicable fo | r fulfi | llment of export | obli | gation: | | |
+| (a) Name o | f the | supporting manu | fact | urer as | well as the | ex | porter shall be
+| indicate | d on | export documen | ts. | | | |
+| (b) In case | the | Authorisation h | olde | r wants | to export | th | rough a third
+| party, e | xpor | t documents viz. |, shi | pping bi | lls/Bill of e | xp | orts etc. shall
+| indicate | na | me of both a | uth | orisation | holder | an | d supporting
+| manufa | cture | r, if any, alon | g w | ith EPC | G authori | sa | tion number.
+| Shippin | g bi | ll/Bill of Expo | rt, | GST inv | oice and | e | -BRC/ export
+| realisat | ion f | rom RBI’s EDPM | S sh | ould be | in the nam | e | of third party
+| exporte | r. T | he goods expo | rted | throug | h third p | ar | ty should be
+| manufa | cture | d by the EPCG a | uth | orisation | holder or | th | e supporting
 5
 (b)
 The said “Certificate of supplies from SEZ" shall be marked in
@@ -2157,6 +2626,43 @@ towards such third party supplies.
 not use such proceeds towards EO fulfillment of any EPCG
 authorisation(s) obtained by them.
 6
+| manuf | actur | er where | the | capital goods | im | porte | d under the
+| author | isati | on have bee | n inst | alled. The goo | ds m | anuf | actured by the
+| author | isati | on holder s | hall b | e exported as | it | is by | the ultimate
+| export | er (th | ird party ex | porte | r) without furth | er p | roces | sing. Proceeds
+| realise | d thr | ough norma | l bank | ing channel fro | m th | ird p | arty exporter’s
+| accoun | t to | the authori | sation | holder’s acco | unt | on ac | count of such
+| export | s sha | ll only be cou | nted t | owards fulfillm | ent | of exp | ort obligation.
+(c) | Disclai | mer | certificate fr | om th | ird party that | they | shal | l not use such
+| procee | ds t | owards EO | fulfill | ment of any E | PC | G aut | horisation (s)
+| obtain | ed by | them. | | | | |
+(d) | The EP | CG a | uthorisation | hold | er shall submit | the | follow | ing additional
+| docum | ents | for discharg | e of E | O through third | par | ty ex | porter(s):
+| (i) | Proo | f of having | dispa | tched the goo | ds | from | authorisation
+| | hold | er’s factory | prem | ises to the ult | ima | te ex | porter/port of
+| | expo | rt viz. | | | | |
+| | (a) A | RE 1 certific | ate is | sued by Centra | l Ex | cise/ | Tax invoice for
+| | expo | rt prescribe | d unde | r the GST rules | wit | h due | authentication
+| | by th | e Customs v | erifyi | ng the exports | alon | g wit | h the shipping
+| | bill n | umber, date | and E | PCG authorisat | ion | numb | er, or
+| | (b) | Invoice d | uly | incorporating | th | e re | levant EPCG
+| | auth | orisation nu | mber | & date at the tim | e of | disp | atch in case the
+| | unit i | s not registe | red w | ith Central Exci | se/ | GST. |
+| (ii) | Lorry | Receipt (L | R) /Lo | gistical eviden | ce f | or tra | nsportation of
+| | good | s from the | premi | ses of the auth | oris | ation | holder to the
+| | third | party expor | ter/P | ort of export. | | |
+| (iii) | An u | ndertaking | from | the third part | y ex | porte | r on a stamp
+| | pape | r, declaring | that t | he products ex | port | ed fo | r fulfillment of
+| | EO b | y them on be | half o | f the license ho | lder | as pe | r details given
+| | in th | e statement | of exp | orts, were man | ufac | tured | by the license
+| | holde | r. | | | | |
+| (iv) | Finan | cial eviden | ce fo | r having recei | ved | proc | eeds through
+| | norm | al banking c | hanne | l from third par | ty e | xport | er’s account to
+| | the a | uthorisation | holde | r’s account on | acc | ount o | f such exports
+| | towa | rds such thi | rd par | ty supplies. | | |
+| (v) | Discl | aimer certifi | cate fr | om third party | exp | orter | that they shall
+| | not u | se such pr | oceeds | towards EO f | ulfil | lmen | t of any EPCG
+| | auth | orisation(s) | obtain | ed by them. | | |
 6
 manufacturer where the capital goods imported under the
 authorisation have been installed. The goods manufactured by the
@@ -2207,7 +2713,7 @@ towards such third party supplies.
 (v)
 Disclaimer certificate from third party exporter that they shall
 not use such proceeds towards EO fulfillment of any EPCG
-authorisation(s) obtained by them.', '[5, 6]', '["for", "FTP", "the", "viz", "etc", "and", "any", "GST", "RBI", "SEZ", "has", "due", "may", "per", "not", "use", "ARE", "iii", "also", "Name"]', 'Support Conditions for fulfillment of Export Obligation processing and compliance validation.', '["5.10", "Conditions for fulfillment of Export Obligation", "business-rule", "document-driven", "dgft"]');
+authorisation(s) obtained by them.', '[5, 6]', '["for", "FTP", "the", "viz", "etc", "and", "any", "GST", "RBI", "rom", "SEZ", "ate", "iss", "ued", "ame", "lie", "due", "cou", "rse", "sta"]', 'Support Conditions for fulfillment of Export Obligation processing and compliance validation.', '["5.10", "Conditions for fulfillment of Export Obligation", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R001', '5.10', '5.10 Conditions for fulfillment of Export Obligation
 In addition to conditions in paragraph 5.04 of FTP, the following conditions shall
 also be applicable for fulfillment of export obligation:
@@ -2217,143 +2723,199 @@ party, export documents viz., shipping bills/Bill of exports etc.', '5.10 Condit
 In addition to conditions in paragraph 5.04 of FTP, the following conditions shall
 also be applicable for fulfillment of export obligation:
 (a) Name of the supporting manufacturer as well as the exporter shall be
-indicated on export documents.', 'The above certificate shall be issued as an online amendment to the
-authorisation and has to be transmitted.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+indicated on export documents.', 'The cer | tific | ate may | be issued | to | the extent of
+| quantity avai | lable | as per utiliza | tion | status.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R002', '5.10', 'shall
 indicate name of both authorisation holder and supporting
 manufacturer, if any, along with EPCG authorisation number.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'any', 'shall
 indicate name of both authorisation holder and supporting
-manufacturer, if any, along with EPCG authorisation number.', '(c)
-In cases where the request for issue of "Certificate of supplies from SEZ" is
-made in due course, it shall be accompanied with an authorisation
-utilization status issued by the relevant Customs authorities mentioned on
-the authorisation for the RA to verify the actual utilization of authorisation
-at the time of application.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+manufacturer, if any, along with EPCG authorisation number.', '| In case t | he | request for
+| "Certificate of | sup | plies from SEZ" | is m | ade alon | g with the | a | pplication for
+| authorisation, | the s | ame procedure s | hall | apply.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R003', '5.10', 'Shipping bill/Bill of Export, GST invoice and e-BRC/ export
 realisation from RBI’s EDPMS should be in the name of third party
 exporter.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'The goods exported through third party should be
 manufactured by the EPCG authorisation holder or the supporting
 5
-5
-(b)
-The said “Certificate of supplies from SEZ" shall be marked in
-quadruplicate with a copy each to the authorisation holder, SEZ supplier
-unit, designated officer at SEZ and the relevant port customs authorities.', 'The goods exported through third party should be
+(b) | The said “C | ertifi | cate of supplie | s f | rom SE | Z" shall b | e | marked in
+| quadruplicate | with | a copy each to | the | authorisa | tion holde | r, | SEZ supplier
+| unit, designat | ed of | ficer at SEZ and | the | relevant | port custo | m | s authorities.', 'The goods exported through third party should be
 manufactured by the EPCG authorisation holder or the supporting
 5
-5
-(b)
-The said “Certificate of supplies from SEZ" shall be marked in
-quadruplicate with a copy each to the authorisation holder, SEZ supplier
-unit, designated officer at SEZ and the relevant port customs authorities.', 'The certificate may be issued to the extent of
-quantity available as per utilization status.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+(b) | The said “C | ertifi | cate of supplie | s f | rom SE | Z" shall b | e | marked in
+| quadruplicate | with | a copy each to | the | authorisa | tion holde | r, | SEZ supplier
+| unit, designat | ed of | ficer at SEZ and | the | relevant | port custo | m | s authorities.', 'The above certificate shall be issued as an online amendment to the
+authorisation and has to be transmitted.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R004', '5.10', 'The goods exported through third party should be
 manufactured by the EPCG authorisation holder or the supporting
 5
-5
-(b)
-The said “Certificate of supplies from SEZ" shall be marked in
-quadruplicate with a copy each to the authorisation holder, SEZ supplier
-unit, designated officer at SEZ and the relevant port customs authorities.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'The above certificate shall be issued as an online amendment to the
-authorisation and has to be transmitted.', 'The above certificate shall be issued as an online amendment to the
-authorisation and has to be transmitted.', 'In case the request for
+(b) | The said “C | ertifi | cate of supplie | s f | rom SE | Z" shall b | e | marked in
+| quadruplicate | with | a copy each to | the | authorisa | tion holde | r, | SEZ supplier
+| unit, designat | ed of | ficer at SEZ and | the | relevant | port custo | m | s authorities.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '| The above ce | rtific | ate shall be iss | ued | as an o | nline ame | nd | ment to the
+| authorisation | and h | as to be transmi | tted |.', '| The above ce | rtific | ate shall be iss | ued | as an o | nline ame | nd | ment to the
+| authorisation | and h | as to be transmi | tted |.', '(c)
+In cases where the request for issue of "Certificate of supplies from SEZ" is
+made in due course, it shall be accompanied with an authorisation
+utilization status issued by the relevant Customs authorities mentioned on
+the authorisation for the RA to verify the actual utilization of authorisation
+at the time of application.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R005', '5.10', '| The above ce | rtific | ate shall be iss | ued | as an o | nline ame | nd | ment to the
+| authorisation | and h | as to be transmi | tted |.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '| | |
+(c) | In cases wher | e the | request for issu | e of | "Certifica | te of supp | lie | s from SEZ" is
+| made in due | cou | rse, it shall be | ac | compani | ed with a | n | authorisation
+| utilization sta | tus is | sued by the rele | vant | Custom | s authoritie | s | mentioned on
+| the authorisat | ion f | or the RA to veri | fy th | e actual | utilization | of | authorisation
+| at the time of | app | lication.', '| | |
+(c) | In cases wher | e the | request for issu | e of | "Certifica | te of supp | lie | s from SEZ" is
+| made in due | cou | rse, it shall be | ac | compani | ed with a | n | authorisation
+| utilization sta | tus is | sued by the rele | vant | Custom | s authoritie | s | mentioned on
+| the authorisat | ion f | or the RA to veri | fy th | e actual | utilization | of | authorisation
+| at the time of | app | lication.', 'The certificate may be issued to the extent of
+quantity available as per utilization status.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R006', '5.10', '| | |
+(c) | In cases wher | e the | request for issu | e of | "Certifica | te of supp | lie | s from SEZ" is
+| made in due | cou | rse, it shall be | ac | compani | ed with a | n | authorisation
+| utilization sta | tus is | sued by the rele | vant | Custom | s authoritie | s | mentioned on
+| the authorisat | ion f | or the RA to veri | fy th | e actual | utilization | of | authorisation
+| at the time of | app | lication.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'The cer | tific | ate may | be issued | to | the extent of
+| quantity avai | lable | as per utiliza | tion | status.', '| | |
+5.09 | Sourcing of | Capit | al Goods Manu | fac | tured In | digenous | ly |
+(a) | EPCG authoris | ation | holder intendin | g to | source c | apital good | s | manufactured
+| indigenously | shall | make a request | to | the RA f | or issuance | o | f Invalidation
+| Letter or Adva | nce | Release Order (A | RO) |.', 'In case the request for
 "Certificate of supplies from SEZ" is made along with the application for
 authorisation, the same procedure shall apply.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R005', '5.10', 'The above certificate shall be issued as an online amendment to the
-authorisation and has to be transmitted.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(c)
-In cases where the request for issue of "Certificate of supplies from SEZ" is
-made in due course, it shall be accompanied with an authorisation
-utilization status issued by the relevant Customs authorities mentioned on
-the authorisation for the RA to verify the actual utilization of authorisation
-at the time of application.', '(c)
-In cases where the request for issue of "Certificate of supplies from SEZ" is
-made in due course, it shall be accompanied with an authorisation
-utilization status issued by the relevant Customs authorities mentioned on
-the authorisation for the RA to verify the actual utilization of authorisation
-at the time of application.', '(c) Disclaimer certificate from third party that they shall not use such
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R007', '5.10', '| | |
+5.09 | Sourcing of | Capit | al Goods Manu | fac | tured In | digenous | ly |
+(a) | EPCG authoris | ation | holder intendin | g to | source c | apital good | s | manufactured
+| indigenously | shall | make a request | to | the RA f | or issuance | o | f Invalidation
+| Letter or Adva | nce | Release Order (A | RO) |.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '| In case t | he | request for
+| "Certificate of | sup | plies from SEZ" | is m | ade alon | g with the | a | pplication for
+| authorisation, | the s | ame procedure s | hall | apply.', '| | |
+(b) | Deemed expo | rt b | enefits as given | in | paragra | ph 7.03 of | | FTP shall be
+| available.', '(c) Disclaimer certificate from third party that they shall not use such
 proceeds towards EO fulfillment of any EPCG authorisation (s)
 obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R006', '5.10', '(c)
-In cases where the request for issue of "Certificate of supplies from SEZ" is
-made in due course, it shall be accompanied with an authorisation
-utilization status issued by the relevant Customs authorities mentioned on
-the authorisation for the RA to verify the actual utilization of authorisation
-at the time of application.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'The certificate may be issued to the extent of
-quantity available as per utilization status.', 'In case the request for
-"Certificate of supplies from SEZ" is made along with the application for
-authorisation, the same procedure shall apply.', '(d) The EPCG authorisation holder shall submit the following additional
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R008', '5.10', '| | |
+(b) | Deemed expo | rt b | enefits as given | in | paragra | ph 7.03 of | | FTP shall be
+| available.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '| | | |
+| (b) In case | the | Authorisation h | olde | r wants | to export | th | rough a third
+| party, e | xpor | t documents viz.', '(f) | Validity perio | d of i | nvalidation letter | /AR | O shall b | e co-termi | no | us with the
+| validity period | of E | PCG authorisatio | n.', '(d) The EPCG authorisation holder shall submit the following additional
 documents for discharge of EO through third party exporter(s):
 (i) Proof of having dispatched the goods from authorisation
 holder’s factory premises to the ultimate exporter/port of
 export viz.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R007', '5.10', 'In case the request for
-"Certificate of supplies from SEZ" is made along with the application for
-authorisation, the same procedure shall apply.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'In case the request for
-"Certificate of supplies from SEZ" is made along with the application for
-authorisation, the same procedure shall apply.', '5.10 Conditions for fulfillment of Export Obligation
-In addition to conditions in paragraph 5.04 of FTP, the following conditions shall
-also be applicable for fulfillment of export obligation:
-(a)
-Name of the supporting manufacturer as well as the exporter shall be
-indicated on export documents.', '(a) ARE 1 certificate issued by Central Excise/Tax invoice for
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R009', '5.10', '(f) | Validity perio | d of i | nvalidation letter | /AR | O shall b | e co-termi | no | us with the
+| validity period | of E | PCG authorisatio | n.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'any', '| | | |
+5.10 | Conditions f | or fu | lfillment of Ex | por | t Obliga | tion | |
+In add | ition to condit | ions i | n paragraph 5.0 | 4 of | FTP, the | following c | on | ditions shall
+also be | applicable fo | r fulfi | llment of export | obli | gation: | | |
+| (a) Name o | f the | supporting manu | fact | urer as | well as the | ex | porter shall be
+| indicate | d on | export documen | ts.', '(a) ARE 1 certificate issued by Central Excise/Tax invoice for
 export prescribed under the GST rules with due authentication
 by the Customs verifying the exports along with the shipping
 bill number, date and EPCG authorisation number, or
 (b) Invoice duly incorporating the relevant EPCG
 authorisation number & date at the time of dispatch in case the
 unit is not registered with Central Excise/GST.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R008', '5.10', '5.10 Conditions for fulfillment of Export Obligation
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R010', '5.10', '| | | |
+5.10 | Conditions f | or fu | lfillment of Ex | por | t Obliga | tion | |
+In add | ition to condit | ions i | n paragraph 5.0 | 4 of | FTP, the | following c | on | ditions shall
+also be | applicable fo | r fulfi | llment of export | obli | gation: | | |
+| (a) Name o | f the | supporting manu | fact | urer as | well as the | ex | porter shall be
+| indicate | d on | export documen | ts.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'T | he goods expo | rted | throug | h third p | ar | ty should be
+| manufa | cture | d by the EPCG a | uth | orisation | holder or | th | e supporting
+5
+(b)
+The said “Certificate of supplies from SEZ" shall be marked in
+quadruplicate with a copy each to the authorisation holder, SEZ supplier
+unit, designated officer at SEZ and the relevant port customs authorities.', 'shall
+| indicate | na | me of both a | uth | orisation | holder | an | d supporting
+| manufa | cture | r, if any, alon | g w | ith EPC | G authori | sa | tion number.', '(v) Disclaimer certificate from third party exporter that they shall
+not use such proceeds towards EO fulfillment of any EPCG
+authorisation(s) obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R011', '5.10', 'shall
+| indicate | na | me of both a | uth | orisation | holder | an | d supporting
+| manufa | cture | r, if any, alon | g w | ith EPC | G authori | sa | tion number.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'The above certificate shall be issued as an online amendment to the
+authorisation and has to be transmitted.', 'T | he goods expo | rted | throug | h third p | ar | ty should be
+| manufa | cture | d by the EPCG a | uth | orisation | holder or | th | e supporting
+5
+(b)
+The said “Certificate of supplies from SEZ" shall be marked in
+quadruplicate with a copy each to the authorisation holder, SEZ supplier
+unit, designated officer at SEZ and the relevant port customs authorities.', '(c) | Disclai | mer | certificate fr | om th | ird party that | they | shal | l not use such
+| procee | ds t | owards EO | fulfill | ment of any E | PC | G aut | horisation (s)
+| obtain | ed by | them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R012', '5.10', 'T | he goods expo | rted | throug | h third p | ar | ty should be
+| manufa | cture | d by the EPCG a | uth | orisation | holder or | th | e supporting
+5
+(b)
+The said “Certificate of supplies from SEZ" shall be marked in
+quadruplicate with a copy each to the authorisation holder, SEZ supplier
+unit, designated officer at SEZ and the relevant port customs authorities.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(c)
+In cases where the request for issue of "Certificate of supplies from SEZ" is
+made in due course, it shall be accompanied with an authorisation
+utilization status issued by the relevant Customs authorities mentioned on
+the authorisation for the RA to verify the actual utilization of authorisation
+at the time of application.', 'The above certificate shall be issued as an online amendment to the
+authorisation and has to be transmitted.', '| | | | |
+(d) | The EP | CG a | uthorisation | hold | er shall submit | the | follow | ing additional
+| docum | ents | for discharg | e of E | O through third | par | ty ex | porter(s):
+| (i) | Proo | f of having | dispa | tched the goo | ds | from | authorisation
+| | hold | er’s factory | prem | ises to the ult | ima | te ex | porter/port of
+| | expo | rt viz.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R013', '5.10', 'The above certificate shall be issued as an online amendment to the
+authorisation and has to be transmitted.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'The certificate may be issued to the extent of
+quantity available as per utilization status.', '(c)
+In cases where the request for issue of "Certificate of supplies from SEZ" is
+made in due course, it shall be accompanied with an authorisation
+utilization status issued by the relevant Customs authorities mentioned on
+the authorisation for the RA to verify the actual utilization of authorisation
+at the time of application.', '| | |
+| (v) | Discl | aimer certifi | cate fr | om third party | exp | orter | that they shall
+| | not u | se such pr | oceeds | towards EO f | ulfil | lmen | t of any EPCG
+| | auth | orisation(s) | obtain | ed by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R014', '5.10', '(c)
+In cases where the request for issue of "Certificate of supplies from SEZ" is
+made in due course, it shall be accompanied with an authorisation
+utilization status issued by the relevant Customs authorities mentioned on
+the authorisation for the RA to verify the actual utilization of authorisation
+at the time of application.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'In case the request for
+"Certificate of supplies from SEZ" is made along with the application for
+authorisation, the same procedure shall apply.', 'In case the request for
+"Certificate of supplies from SEZ" is made along with the application for
+authorisation, the same procedure shall apply.', '(c)
+Disclaimer certificate from third party that they shall not use such
+proceeds towards EO fulfillment of any EPCG authorisation (s)
+obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R015', '5.10', 'In case the request for
+"Certificate of supplies from SEZ" is made along with the application for
+authorisation, the same procedure shall apply.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(b)
+In case the Authorisation holder wants to export through a third
+party, export documents viz., shipping bills/Bill of exports etc.', '5.10 Conditions for fulfillment of Export Obligation
 In addition to conditions in paragraph 5.04 of FTP, the following conditions shall
 also be applicable for fulfillment of export obligation:
 (a)
 Name of the supporting manufacturer as well as the exporter shall be
-indicated on export documents.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(b)
-In case the Authorisation holder wants to export through a third
-party, export documents viz., shipping bills/Bill of exports etc.', 'The goods manufactured by the
-authorisation holder shall be exported as it is by the ultimate
-exporter (third party exporter) without further processing.', '(v) Disclaimer certificate from third party exporter that they shall
-not use such proceeds towards EO fulfillment of any EPCG
-authorisation(s) obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R009', '5.10', 'The goods exported through third party should be
-manufactured by the EPCG authorisation holder or the supporting
-manufacturer where the capital goods imported under the
-authorisation have been installed.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'The goods exported through third party should be
-manufactured by the EPCG authorisation holder or the supporting
-manufacturer where the capital goods imported under the
-authorisation have been installed.', 'Proceeds
-realised through normal banking channel from third party exporter’s
-account to the authorisation holder’s account on account of such
-exports shall only be counted towards fulfillment of export obligation.', '(c)
-Disclaimer certificate from third party that they shall not use such
-proceeds towards EO fulfillment of any EPCG authorisation (s)
-obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R010', '5.10', 'The goods manufactured by the
-authorisation holder shall be exported as it is by the ultimate
-exporter (third party exporter) without further processing.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(c) Disclaimer certificate from third party that they shall not use such
-proceeds towards EO fulfillment of any EPCG authorisation (s)
-obtained by them.', '(c) Disclaimer certificate from third party that they shall not use such
-proceeds towards EO fulfillment of any EPCG authorisation (s)
-obtained by them.', '(d)
+indicated on export documents.', '(d)
 The EPCG authorisation holder shall submit the following additional
 documents for discharge of EO through third party exporter(s):
 (i)
 Proof of having dispatched the goods from authorisation
 holder’s factory premises to the ultimate exporter/port of
 export viz.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R011', '5.10', 'Proceeds
-realised through normal banking channel from third party exporter’s
-account to the authorisation holder’s account on account of such
-exports shall only be counted towards fulfillment of export obligation.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(a) ARE 1 certificate issued by Central Excise/Tax invoice for
-export prescribed under the GST rules with due authentication
-by the Customs verifying the exports along with the shipping
-bill number, date and EPCG authorisation number, or
-(b) Invoice duly incorporating the relevant EPCG
-authorisation number & date at the time of dispatch in case the
-unit is not registered with Central Excise/GST.', '(d) The EPCG authorisation holder shall submit the following additional
-documents for discharge of EO through third party exporter(s):
-(i) Proof of having dispatched the goods from authorisation
-holder’s factory premises to the ultimate exporter/port of
-export viz.', '(a) ARE 1 certificate issued by Central Excise/Tax invoice for
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R016', '5.10', '5.10 Conditions for fulfillment of Export Obligation
+In addition to conditions in paragraph 5.04 of FTP, the following conditions shall
+also be applicable for fulfillment of export obligation:
+(a)
+Name of the supporting manufacturer as well as the exporter shall be
+indicated on export documents.', 'business_rule', 'Conditions for fulfillment of Export Obligation', 'The goods exported through third party should be
+manufactured by the EPCG authorisation holder or the supporting
+manufacturer where the capital goods imported under the
+authorisation have been installed.', 'The goods manufactured by the
+authorisation holder shall be exported as it is by the ultimate
+exporter (third party exporter) without further processing.', '(a) ARE 1 certificate issued by Central Excise/Tax invoice for
 export prescribed under the GST rules with due authentication
 by the Customs verifying the exports along with the shipping
 bill number, date and EPCG authorisation number, or
@@ -2366,11 +2928,50 @@ relevant
 EPCG
 authorisation number & date at the time of dispatch in case the
 unit is not registered with Central Excise/GST.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R012', '5.10', '(c) Disclaimer certificate from third party that they shall not use such
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R017', '5.10', 'The goods exported through third party should be
+manufactured by the EPCG authorisation holder or the supporting
+manufacturer where the capital goods imported under the
+authorisation have been installed.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(c) Disclaimer certificate from third party that they shall not use such
 proceeds towards EO fulfillment of any EPCG authorisation (s)
-obtained by them.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(v) Disclaimer certificate from third party exporter that they shall
+obtained by them.', 'Proceeds
+realised through normal banking channel from third party exporter’s
+account to the authorisation holder’s account on account of such
+exports shall only be counted towards fulfillment of export obligation.', '(v)
+Disclaimer certificate from third party exporter that they shall
 not use such proceeds towards EO fulfillment of any EPCG
-authorisation(s) obtained by them.', '(a) ARE 1 certificate issued by Central Excise/Tax invoice for
+authorisation(s) obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R018', '5.10', 'The goods manufactured by the
+authorisation holder shall be exported as it is by the ultimate
+exporter (third party exporter) without further processing.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(a) ARE 1 certificate issued by Central Excise/Tax invoice for
+export prescribed under the GST rules with due authentication
+by the Customs verifying the exports along with the shipping
+bill number, date and EPCG authorisation number, or
+(b) Invoice duly incorporating the relevant EPCG
+authorisation number & date at the time of dispatch in case the
+unit is not registered with Central Excise/GST.', '(c) Disclaimer certificate from third party that they shall not use such
+proceeds towards EO fulfillment of any EPCG authorisation (s)
+obtained by them.', '(v)
+Disclaimer certificate from third party exporter that they shall
+not use such proceeds towards EO fulfillment of any EPCG
+authorisation(s) obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R019', '5.10', 'Proceeds
+realised through normal banking channel from third party exporter’s
+account to the authorisation holder’s account on account of such
+exports shall only be counted towards fulfillment of export obligation.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(v) Disclaimer certificate from third party exporter that they shall
+not use such proceeds towards EO fulfillment of any EPCG
+authorisation(s) obtained by them.', '(d) The EPCG authorisation holder shall submit the following additional
+documents for discharge of EO through third party exporter(s):
+(i) Proof of having dispatched the goods from authorisation
+holder’s factory premises to the ultimate exporter/port of
+export viz.', '(v)
+Disclaimer certificate from third party exporter that they shall
+not use such proceeds towards EO fulfillment of any EPCG
+authorisation(s) obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R020', '5.10', '(c) Disclaimer certificate from third party that they shall not use such
+proceeds towards EO fulfillment of any EPCG authorisation (s)
+obtained by them.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '6
+| manuf | actur | er where | the | capital goods | im | porte | d under the
+| author | isati | on have bee | n inst | alled.', '(a) ARE 1 certificate issued by Central Excise/Tax invoice for
 export prescribed under the GST rules with due authentication
 by the Customs verifying the exports along with the shipping
 bill number, date and EPCG authorisation number, or
@@ -2380,47 +2981,71 @@ unit is not registered with Central Excise/GST.', '(v)
 Disclaimer certificate from third party exporter that they shall
 not use such proceeds towards EO fulfillment of any EPCG
 authorisation(s) obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R013', '5.10', '(d) The EPCG authorisation holder shall submit the following additional
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R021', '5.10', '(d) The EPCG authorisation holder shall submit the following additional
 documents for discharge of EO through third party exporter(s):
 (i) Proof of having dispatched the goods from authorisation
 holder’s factory premises to the ultimate exporter/port of
-export viz.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '6
-6
-manufacturer where the capital goods imported under the
-authorisation have been installed.', '(v) Disclaimer certificate from third party exporter that they shall
+export viz.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(c) | Disclai | mer | certificate fr | om th | ird party that | they | shal | l not use such
+| procee | ds t | owards EO | fulfill | ment of any E | PC | G aut | horisation (s)
+| obtain | ed by | them.', '(v) Disclaimer certificate from third party exporter that they shall
 not use such proceeds towards EO fulfillment of any EPCG
 authorisation(s) obtained by them.', '(v)
 Disclaimer certificate from third party exporter that they shall
 not use such proceeds towards EO fulfillment of any EPCG
 authorisation(s) obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R014', '5.10', '(v) Disclaimer certificate from third party exporter that they shall
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R022', '5.10', '(v) Disclaimer certificate from third party exporter that they shall
 not use such proceeds towards EO fulfillment of any EPCG
-authorisation(s) obtained by them.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(c)
-Disclaimer certificate from third party that they shall not use such
-proceeds towards EO fulfillment of any EPCG authorisation (s)
-obtained by them.', '(c)
+authorisation(s) obtained by them.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '| | | | |
+| | (a) A | RE 1 certific | ate is | sued by Centra | l Ex | cise/ | Tax invoice for
+| | expo | rt prescribe | d unde | r the GST rules | wit | h due | authentication
+| | by th | e Customs v | erifyi | ng the exports | alon | g wit | h the shipping
+| | bill n | umber, date | and E | PCG authorisat | ion | numb | er, or
+| | (b) | Invoice d | uly | incorporating | th | e re | levant EPCG
+| | auth | orisation nu | mber | & date at the tim | e of | disp | atch in case the
+| | unit i | s not registe | red w | ith Central Exci | se/ | GST.', '| | | | |
+(d) | The EP | CG a | uthorisation | hold | er shall submit | the | follow | ing additional
+| docum | ents | for discharg | e of E | O through third | par | ty ex | porter(s):
+| (i) | Proo | f of having | dispa | tched the goo | ds | from | authorisation
+| | hold | er’s factory | prem | ises to the ult | ima | te ex | porter/port of
+| | expo | rt viz.', '(v)
+Disclaimer certificate from third party exporter that they shall
+not use such proceeds towards EO fulfillment of any EPCG
+authorisation(s) obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R023', '5.10', '| | | | |
+(d) | The EP | CG a | uthorisation | hold | er shall submit | the | follow | ing additional
+| docum | ents | for discharg | e of E | O through third | par | ty ex | porter(s):
+| (i) | Proo | f of having | dispa | tched the goo | ds | from | authorisation
+| | hold | er’s factory | prem | ises to the ult | ima | te ex | porter/port of
+| | expo | rt viz.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '| | |
+| (v) | Discl | aimer certifi | cate fr | om third party | exp | orter | that they shall
+| | not u | se such pr | oceeds | towards EO f | ulfil | lmen | t of any EPCG
+| | auth | orisation(s) | obtain | ed by them.', '| | |
+| (v) | Discl | aimer certifi | cate fr | om third party | exp | orter | that they shall
+| | not u | se such pr | oceeds | towards EO f | ulfil | lmen | t of any EPCG
+| | auth | orisation(s) | obtain | ed by them.', '(v)
+Disclaimer certificate from third party exporter that they shall
+not use such proceeds towards EO fulfillment of any EPCG
+authorisation(s) obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R024', '5.10', '| | |
+| (v) | Discl | aimer certifi | cate fr | om third party | exp | orter | that they shall
+| | not u | se such pr | oceeds | towards EO f | ulfil | lmen | t of any EPCG
+| | auth | orisation(s) | obtain | ed by them.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '| | |
+6
+manufacturer where the capital goods imported under the
+authorisation have been installed.', '(c)
 Disclaimer certificate from third party that they shall not use such
 proceeds towards EO fulfillment of any EPCG authorisation (s)
 obtained by them.', '(v)
 Disclaimer certificate from third party exporter that they shall
 not use such proceeds towards EO fulfillment of any EPCG
 authorisation(s) obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R015', '5.10', '(c)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R025', '5.10', '(c)
 Disclaimer certificate from third party that they shall not use such
 proceeds towards EO fulfillment of any EPCG authorisation (s)
-obtained by them.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(a) ARE 1 certificate issued by Central Excise/Tax invoice for
-export prescribed under the GST rules with due authentication
-by the Customs verifying the exports along with the shipping
-bill number, date and EPCG authorisation number, or
-(b)
-Invoice
-duly
-incorporating
-the
-relevant
-EPCG
-authorisation number & date at the time of dispatch in case the
-unit is not registered with Central Excise/GST.', '(d)
+obtained by them.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(c)
+Disclaimer certificate from third party that they shall not use such
+proceeds towards EO fulfillment of any EPCG authorisation (s)
+obtained by them.', '(d)
 The EPCG authorisation holder shall submit the following additional
 documents for discharge of EO through third party exporter(s):
 (i)
@@ -2430,16 +3055,25 @@ export viz.', '(v)
 Disclaimer certificate from third party exporter that they shall
 not use such proceeds towards EO fulfillment of any EPCG
 authorisation(s) obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R016', '5.10', '(d)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R026', '5.10', '(d)
 The EPCG authorisation holder shall submit the following additional
 documents for discharge of EO through third party exporter(s):
 (i)
 Proof of having dispatched the goods from authorisation
 holder’s factory premises to the ultimate exporter/port of
-export viz.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(v)
-Disclaimer certificate from third party exporter that they shall
-not use such proceeds towards EO fulfillment of any EPCG
-authorisation(s) obtained by them.', '(a) ARE 1 certificate issued by Central Excise/Tax invoice for
+export viz.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(a) ARE 1 certificate issued by Central Excise/Tax invoice for
+export prescribed under the GST rules with due authentication
+by the Customs verifying the exports along with the shipping
+bill number, date and EPCG authorisation number, or
+(b)
+Invoice
+duly
+incorporating
+the
+relevant
+EPCG
+authorisation number & date at the time of dispatch in case the
+unit is not registered with Central Excise/GST.', '(a) ARE 1 certificate issued by Central Excise/Tax invoice for
 export prescribed under the GST rules with due authentication
 by the Customs verifying the exports along with the shipping
 bill number, date and EPCG authorisation number, or
@@ -2455,7 +3089,7 @@ unit is not registered with Central Excise/GST.', '(v)
 Disclaimer certificate from third party exporter that they shall
 not use such proceeds towards EO fulfillment of any EPCG
 authorisation(s) obtained by them.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.10 - Conditions for fulfillment of Export Obligation.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R017', '5.10', '(v)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_10-R027', '5.10', '(v)
 Disclaimer certificate from third party exporter that they shall
 not use such proceeds towards EO fulfillment of any EPCG
 authorisation(s) obtained by them.', 'business_rule', 'Conditions for fulfillment of Export Obligation', '(v)
@@ -2476,6 +3110,30 @@ manufacturer, if any, along with EPCG authorisation number.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', 'The goods exported through third party should be
 manufactured by the EPCG authorisation holder or the supporting
 5
+(b) | The said “C | ertifi | cate of supplie | s f | rom SE | Z" shall b | e | marked in
+| quadruplicate | with | a copy each to | the | authorisa | tion holde | r, | SEZ supplier
+| unit, designat | ed of | ficer at SEZ and | the | relevant | port custo | m | s authorities.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', '| The above ce | rtific | ate shall be iss | ued | as an o | nline ame | nd | ment to the
+| authorisation | and h | as to be transmi | tted |.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', '| | |
+(c) | In cases wher | e the | request for issu | e of | "Certifica | te of supp | lie | s from SEZ" is
+| made in due | cou | rse, it shall be | ac | compani | ed with a | n | authorisation
+| utilization sta | tus is | sued by the rele | vant | Custom | s authoritie | s | mentioned on
+| the authorisat | ion f | or the RA to veri | fy th | e actual | utilization | of | authorisation
+| at the time of | app | lication.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', 'The cer | tific | ate may | be issued | to | the extent of
+| quantity avai | lable | as per utiliza | tion | status.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', '| In case t | he | request for
+| "Certificate of | sup | plies from SEZ" | is m | ade alon | g with the | a | pplication for
+| authorisation, | the s | ame procedure s | hall | apply.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', '| | | |
+| (b) In case | the | Authorisation h | olde | r wants | to export | th | rough a third
+| party, e | xpor | t documents viz.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', 'shall
+| indicate | na | me of both a | uth | orisation | holder | an | d supporting
+| manufa | cture | r, if any, alon | g w | ith EPC | G authori | sa | tion number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', 'T | he goods expo | rted | throug | h third p | ar | ty should be
+| manufa | cture | d by the EPCG a | uth | orisation | holder or | th | e supporting
 5
 (b)
 The said “Certificate of supplies from SEZ" shall be marked in
@@ -2515,6 +3173,24 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', '(v) Discl
 not use such proceeds towards EO fulfillment of any EPCG
 authorisation(s) obtained by them.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', '6
+| manuf | actur | er where | the | capital goods | im | porte | d under the
+| author | isati | on have bee | n inst | alled.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', '(c) | Disclai | mer | certificate fr | om th | ird party that | they | shal | l not use such
+| procee | ds t | owards EO | fulfill | ment of any E | PC | G aut | horisation (s)
+| obtain | ed by | them.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', '| | | | |
+| | (a) A | RE 1 certific | ate is | sued by Centra | l Ex | cise/ | Tax invoice for
+| | expo | rt prescribe | d unde | r the GST rules | wit | h due | authentication
+| | by th | e Customs v | erifyi | ng the exports | alon | g wit | h the shipping
+| | bill n | umber, date | and E | PCG authorisat | ion | numb | er, or
+| | (b) | Invoice d | uly | incorporating | th | e re | levant EPCG
+| | auth | orisation nu | mber | & date at the tim | e of | disp | atch in case the
+| | unit i | s not registe | red w | ith Central Exci | se/ | GST.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', '| | |
+| (v) | Discl | aimer certifi | cate fr | om third party | exp | orter | that they shall
+| | not u | se such pr | oceeds | towards EO f | ulfil | lmen | t of any EPCG
+| | auth | orisation(s) | obtain | ed by them.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.10', '| | |
 6
 manufacturer where the capital goods imported under the
 authorisation have been installed.');
@@ -2550,6 +3226,21 @@ INSERT INTO documents (section_code, document_name) VALUES ('5.10', 'Shipping bi
 INSERT INTO documents (section_code, document_name) VALUES ('5.10', 'The goods exported through third party should be
 manufactured by the EPCG authorisation holder or the supporting
 5
+(b) | The said “C | ertifi | cate of supplie | s f | rom SE | Z" shall b | e | marked in
+| quadruplicate | with | a copy each to | the | authorisa | tion holde | r, | SEZ supplier
+| unit, designat | ed of | ficer at SEZ and | the | relevant | port custo | m | s authorities.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.10', '| In case t | he | request for
+| "Certificate of | sup | plies from SEZ" | is m | ade alon | g with the | a | pplication for
+| authorisation, | the s | ame procedure s | hall | apply.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.10', '| | | |
+| (b) In case | the | Authorisation h | olde | r wants | to export | th | rough a third
+| party, e | xpor | t documents viz.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.10', '|, shi | pping bi | lls/Bill of e | xp | orts etc.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.10', '| Shippin | g bi | ll/Bill of Expo | rt, | GST inv | oice and | e | -BRC/ export
+| realisat | ion f | rom RBI’s EDPM | S sh | ould be | in the nam | e | of third party
+| exporte | r.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.10', 'T | he goods expo | rted | throug | h third p | ar | ty should be
+| manufa | cture | d by the EPCG a | uth | orisation | holder or | th | e supporting
 5
 (b)
 The said “Certificate of supplies from SEZ" shall be marked in
@@ -2600,6 +3291,23 @@ holder.');
 INSERT INTO documents (section_code, document_name) VALUES ('5.10', '(v) Disclaimer certificate from third party exporter that they shall
 not use such proceeds towards EO fulfillment of any EPCG
 authorisation(s) obtained by them.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.10', '(c) | Disclai | mer | certificate fr | om th | ird party that | they | shal | l not use such
+| procee | ds t | owards EO | fulfill | ment of any E | PC | G aut | horisation (s)
+| obtain | ed by | them.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.10', '| | | | |
+| | (a) A | RE 1 certific | ate is | sued by Centra | l Ex | cise/ | Tax invoice for
+| | expo | rt prescribe | d unde | r the GST rules | wit | h due | authentication
+| | by th | e Customs v | erifyi | ng the exports | alon | g wit | h the shipping
+| | bill n | umber, date | and E | PCG authorisat | ion | numb | er, or
+| | (b) | Invoice d | uly | incorporating | th | e re | levant EPCG
+| | auth | orisation nu | mber | & date at the tim | e of | disp | atch in case the
+| | unit i | s not registe | red w | ith Central Exci | se/ | GST.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.10', '| | |
+| (iii) | An u | ndertaking | from | the third part | y ex | porte | r on a stamp
+| | pape | r, declaring | that t | he products ex | port | ed fo | r fulfillment of
+| | EO b | y them on be | half o | f the license ho | lder | as pe | r details given
+| | in th | e statement | of exp | orts, were man | ufac | tured | by the license
+| | holde | r.');
 INSERT INTO documents (section_code, document_name) VALUES ('5.10', '(c)
 Disclaimer certificate from third party that they shall not use such
 proceeds towards EO fulfillment of any EPCG authorisation (s)
@@ -2634,8 +3342,8 @@ INSERT INTO documents (section_code, document_name) VALUES ('5.10', '(v)
 Disclaimer certificate from third party exporter that they shall
 not use such proceeds towards EO fulfillment of any EPCG
 authorisation(s) obtained by them.');
-INSERT INTO authorities (section_code, authority_name) VALUES ('5.10', 'customs');
 INSERT INTO authorities (section_code, authority_name) VALUES ('5.10', 'RA');
+INSERT INTO authorities (section_code, authority_name) VALUES ('5.10', 'customs');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 1, 'Evaluate condition: (b) In case the Authorisation holder wants to export through a third
 party, export documents viz., shipping bills/Bill of exports etc.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 2, 'Evaluate condition: shall
@@ -2644,32 +3352,27 @@ manufacturer, if any, along with EPCG authorisation number.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 3, 'Evaluate condition: The goods exported through third party should be
 manufactured by the EPCG authorisation holder or the supporting
 5
-5
-(b)
-The said “Certificate of supplies from SEZ" shall be marked in
-quadruplicate with a copy each to the authorisation holder, SEZ supplier
-unit, designated officer at SEZ and the relevant port customs authorities.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 4, 'The above certificate shall be issued as an online amendment to the
+(b) | The said “C | ertifi | cate of supplie | s f | rom SE | Z" shall b | e | marked in
+| quadruplicate | with | a copy each to | the | authorisa | tion holde | r, | SEZ supplier
+| unit, designat | ed of | ficer at SEZ and | the | relevant | port custo | m | s authorities.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 4, 'The cer | tific | ate may | be issued | to | the extent of
+| quantity avai | lable | as per utiliza | tion | status.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 5, '| In case t | he | request for
+| "Certificate of | sup | plies from SEZ" | is m | ade alon | g with the | a | pplication for
+| authorisation, | the s | ame procedure s | hall | apply.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 6, 'The above certificate shall be issued as an online amendment to the
 authorisation and has to be transmitted.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 5, '(c)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 7, '(c)
 In cases where the request for issue of "Certificate of supplies from SEZ" is
 made in due course, it shall be accompanied with an authorisation
 utilization status issued by the relevant Customs authorities mentioned on
 the authorisation for the RA to verify the actual utilization of authorisation
 at the time of application.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 6, 'The certificate may be issued to the extent of
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 8, 'The certificate may be issued to the extent of
 quantity available as per utilization status.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 7, 'In case the request for
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 9, 'In case the request for
 "Certificate of supplies from SEZ" is made along with the application for
 authorisation, the same procedure shall apply.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 8, '(c) Disclaimer certificate from third party that they shall not use such
-proceeds towards EO fulfillment of any EPCG authorisation (s)
-obtained by them.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 9, '(d) The EPCG authorisation holder shall submit the following additional
-documents for discharge of EO through third party exporter(s):
-(i) Proof of having dispatched the goods from authorisation
-holder’s factory premises to the ultimate exporter/port of
-export viz.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 10, 'Run validation: 5.10 Conditions for fulfillment of Export Obligation
 In addition to conditions in paragraph 5.04 of FTP, the following conditions shall
 also be applicable for fulfillment of export obligation:
@@ -2681,11 +3384,9 @@ manufacturer, if any, along with EPCG authorisation number.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.10', 12, 'Run validation: The goods exported through third party should be
 manufactured by the EPCG authorisation holder or the supporting
 5
-5
-(b)
-The said “Certificate of supplies from SEZ" shall be marked in
-quadruplicate with a copy each to the authorisation holder, SEZ supplier
-unit, designated officer at SEZ and the relevant port customs authorities.');
+(b) | The said “C | ertifi | cate of supplie | s f | rom SE | Z" shall b | e | marked in
+| quadruplicate | with | a copy each to | the | authorisa | tion holde | r, | SEZ supplier
+| unit, designat | ed of | ficer at SEZ and | the | relevant | port custo | m | s authorities.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'for');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'FTP');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'the');
@@ -2695,17 +3396,17 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'any');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'GST');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'RBI');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'rom');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'SEZ');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'has');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'ate');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'iss');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'ued');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'ame');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'lie');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'due');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'may');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'per');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'not');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'use');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'ARE');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'iii');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'also');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'Name');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'cou');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'rse');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'keywords', 'sta');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'tags', '5.10');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'tags', 'Conditions for fulfillment of Export Obligation');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.10', 'tags', 'business-rule');
@@ -2913,10 +3614,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -3029,10 +3726,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -3225,10 +3918,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -3254,10 +3943,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -3282,10 +3967,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -3310,10 +3991,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -3338,10 +4015,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -3927,10 +4600,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -4103,10 +4772,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -4212,10 +4877,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -4303,10 +4964,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -4381,10 +5038,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -4470,10 +5123,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -4537,10 +5186,6 @@ Above ₹10 Crores 15,000
 RA may consider the request for extension of block-wise EO period, received
 after 6 months, but within 6 years from date of issue of authorisation, with
 7
-Period from the date of issue Minimum export
-of Authorisation obligation to be fulfilled
-Block of 1st to 4th year 50%
-Block of 5th and 6th year Balance EO
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
 Up to ₹2 Crores 5,000 |
@@ -4640,6 +5285,47 @@ i. Para 5.13(e) added vide Public Notice No. 15/2024-25 dated 25.07.2024.
 ii. Para 5.13(f) added vide Public Notice No. 51/2025-26 dated 06.03.2026.
 iii. Para 5.14 amended vide Public Notice No. 24 dated 20.09.2024.
 9
+| (v) | | Authorisati | ons | issued from | 5th Decem | ber |, 2017 till 31st | Mar | ch 2023 |
+| sh | all b | e governed b | y pr | ovisions of | paragraph 5 |.14 | of HBP as ame | nded | vide PN |
+| No |. 43 | dated 05.12. | 201 | 7. | | | | | |
+| (e) | | Notwithstan | din | g sub-para ( | d) above, su | b-p | ara (c) above s | hall | |
+| | | also be appli | cab | le for author | isations issu | ed | under FTP (20 | 15-2 | 0) |
+| (f) | | Notwithstan | ding | the provis | ions contai | ned | in Para 5.13 | of t | he |
+| | | Handbook | of P | rocedures | (HBP), 202 | 3, | in respect of | EP | CG |
+| | | Authorisatio | ns | where the | Block-wise | Ex | port Obligatio | n (E | O) |
+| | | period (whe | the | r original or | as extende | d) i | s expiring dur | ing t | he |
+| | | period 01.0 | 3.20 | 26 to 31.05 |.2026, the c | onc | erned Block-w | ise | EO |
+| | | period shall | stan | d automatic | ally extende | d u | p to 31.08.202 | 6. | |
+5.1 | 4 | Re | port for EO | fulf | ilment | | | | | |
+Aut | ho | risa | tion holder s | hall | submit to R | A concerne | d a | report on fulf | ilme | nt of expo | rt
+obl | iga | tion | through onl | ine | mode after | expiry of fir | st | block period o | f fou | r years a | nd
+con | tin | uou | sly till the ex | piry | of valid EO | period. Suc | h re | port shall con | tain | a stateme | nt
+wit | h d | eta | ils of Shippin | g bi | ll/Invoice n | umber/Bill | of E | xport/FIRC n | umbe | r with da | te
+and | | num | ber, as ap | plic | able, duly | certified | by | Chartered | Acco | untant/Co | st
+Acc | ou | nta | nt/Company | Sec | retary for e | videncing f | ulfi | llment of spe | cific | as well | as
+ave | rag | e E | O (wherever | app | licable). | | | | | |
+5.1 | 5 | Au | tomatic Re | duc | tion/Enha | ncement | upt | o 10% Dut | y sa | ved |
+am | ou | nt | and pro rat | a R | eduction/E | nhancem | ent | in export ob | liga | tion |
+If a | uth | ori | sation issued | has | been utilize | d for import | of | goods:- | | |
+(a) | | In e | xcess of duty | sav | ed amount | indicated on | th | e authorisation | by | not more |
+| | tha | n 10%, the a | uth | orisation sh | all be deem | ed | to have been | enha | nced by |
+| | tha | t proportion. | Cus | toms shall a | utomaticall | y all | ow clearance | of su | ch goods |
+| | wit | hout endors | eme | nt by RA c | oncerned. T | he | authorisation | hol | der shall |
+| | fur | nish addition | al f | ee to cover | excess imp | orts | effected, in t | erms | of duty |
+| | sav | ed amount, t | o RA | concerned, | at the time | of a | pplication for E | ODC |. Export |
+| | obl | igation shall | auto | matically st | and enhance | d p | roportionately |. | |
+(b) | | In e | xcess of duty | sav | ed amount i | ndicated on | the | authorisation | by m | ore than |
+| | 10 | %, the RA | con | cerned, as | per its d | eleg | ated powers, | ma | y allow |
+| | enh | ancement in | d | uty saved | amount of | the | EPCG autho | risati | on. The |
+| | Aut | horisation h | old | er shall fur | nish additio | nal | BG/LUT to | the | Customs |
+| | Aut | hority. | | | | | | | |
+(c) | | Les | s than the du | ty s | aved amoun | t indicated o | n t | he authorisatio | n, th | e export |
+| | obl | igation shall | stan | d reduced | on pro-rata | bas | is with refere | nce | to actual |
+| | util | ization of the | aut | horisation. | | | | | |
+| i. | | Para 5.13(e) add | ed vid | e Public Notice | No. 15/2024-25 | dat | ed 25.07.2024. | | |
+| ii. | | Para 5.13(f) adde | d vid | e Public Notice | No. 51/2025-2 | 6 dat | ed 06.03.2026. | | |
+| iii. | | Para 5.14 amend | ed vi | de Public Notice | No. 24 dated 20 |.09. | 2024. | | |
+| | | | | | | | | | | 9
 9
 (v)
 Authorisations issued from 5th December, 2017 till 31st March 2023
@@ -4687,7 +5373,7 @@ Para 5.13(e) added vide Public Notice No. 15/2024-25 dated 25.07.2024.
 ii.
 Para 5.13(f) added vide Public Notice No. 51/2025-26 dated 06.03.2026.
 iii.
-Para 5.14 amended vide Public Notice No. 24 dated 20.09.2024.', '[9]', '["for", "and", "the", "pro", "has", "not", "fee", "per", "its", "may", "iii", "HBP", "FTP", "mode", "four", "till", "Such", "with", "date", "duly"]', 'Support Report for EO fulfilment processing and compliance validation.', '["5.14", "Report for EO fulfilment", "business-rule", "document-driven", "dgft"]');
+Para 5.14 amended vide Public Notice No. 24 dated 20.09.2024.', '[9]', '["for", "and", "the", "pro", "has", "not", "fee", "per", "its", "may", "iii", "ons", "ber", "Mar", "all", "HBP", "ame", "din", "b-p", "ara"]', 'Support Report for EO fulfilment processing and compliance validation.', '["5.14", "Report for EO fulfilment", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R001', '5.14', '5.14 Report for EO fulfilment
 Authorisation holder shall submit to RA concerned a report on fulfilment of export
 obligation through online mode after expiry of first block period of four years and
@@ -4761,14 +5447,15 @@ period (whether original or as extended) is expiring during the
 period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
 period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R004', '5.14', 'Customs shall automatically allow clearance of such goods
-without endorsement by RA concerned.', 'business_rule', 'Report for EO fulfilment', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
-also be applicable for authorisations issued under FTP (2015-20)
-(f) Notwithstanding the provisions contained in Para 5.13 of the
-Handbook of Procedures (HBP), 2023, in respect of EPCG
-Authorisations where the Block-wise Export Obligation (EO)
-period (whether original or as extended) is expiring during the
-period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
-period shall stand automatically extended up to 31.08.2026.', 'Customs shall automatically allow clearance of such goods
+without endorsement by RA concerned.', 'business_rule', 'Report for EO fulfilment', '| | | | | |
+| (e) | | Notwithstan | din | g sub-para ( | d) above, su | b-p | ara (c) above s | hall | |
+| | | also be appli | cab | le for author | isations issu | ed | under FTP (20 | 15-2 | 0) |
+| (f) | | Notwithstan | ding | the provis | ions contai | ned | in Para 5.13 | of t | he |
+| | | Handbook | of P | rocedures | (HBP), 202 | 3, | in respect of | EP | CG |
+| | | Authorisatio | ns | where the | Block-wise | Ex | port Obligatio | n (E | O) |
+| | | period (whe | the | r original or | as extende | d) i | s expiring dur | ing t | he |
+| | | period 01.0 | 3.20 | 26 to 31.05 |.2026, the c | onc | erned Block-w | ise | EO |
+| | | period shall | stan | d automatic | ally extende | d u | p to 31.08.202 | 6.', 'Customs shall automatically allow clearance of such goods
 without endorsement by RA concerned.', 'The authorisation holder shall
 furnish additional fee to cover excess imports effected, in terms of duty
 saved amount, to RA concerned, at the time of application for EODC.', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
@@ -4781,13 +5468,11 @@ period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
 period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R005', '5.14', 'The authorisation holder shall
 furnish additional fee to cover excess imports effected, in terms of duty
-saved amount, to RA concerned, at the time of application for EODC.', 'business_rule', 'Report for EO fulfilment', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
-amount and pro rata Reduction/Enhancement in export obligation
-If authorisation issued has been utilized for import of goods:-
-(a)
-In excess of duty saved amount indicated on the authorisation by not more
-than 10%, the authorisation shall be deemed to have been enhanced by
-that proportion.', 'The authorisation holder shall
+saved amount, to RA concerned, at the time of application for EODC.', 'business_rule', 'Report for EO fulfilment', '| |
+5.1 | 4 | Re | port for EO | fulf | ilment | | | | | |
+Aut | ho | risa | tion holder s | hall | submit to R | A concerne | d a | report on fulf | ilme | nt of expo | rt
+obl | iga | tion | through onl | ine | mode after | expiry of fir | st | block period o | f fou | r years a | nd
+con | tin | uou | sly till the ex | piry | of valid EO | period.', 'The authorisation holder shall
 furnish additional fee to cover excess imports effected, in terms of duty
 saved amount, to RA concerned, at the time of application for EODC.', 'The
 Authorisation holder shall furnish additional BG/LUT to the Customs
@@ -4800,13 +5485,11 @@ period (whether original or as extended) is expiring during the
 period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
 period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R006', '5.14', 'Export
-obligation shall automatically stand enhanced proportionately.', 'business_rule', 'Report for EO fulfilment', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
-amount and pro rata Reduction/Enhancement in export obligation
-If authorisation issued has been utilized for import of goods:-
-(a)
-In excess of duty saved amount indicated on the authorisation by not more
-than 10%, the authorisation shall be deemed to have been enhanced by
-that proportion.', 'Export
+obligation shall automatically stand enhanced proportionately.', 'business_rule', 'Report for EO fulfilment', 'Suc | h re | port shall con | tain | a stateme | nt
+wit | h d | eta | ils of Shippin | g bi | ll/Invoice n | umber/Bill | of E | xport/FIRC n | umbe | r with da | te
+and | | num | ber, as ap | plic | able, duly | certified | by | Chartered | Acco | untant/Co | st
+Acc | ou | nta | nt/Company | Sec | retary for e | videncing f | ulfi | llment of spe | cific | as well | as
+ave | rag | e E | O (wherever | app | licable).', 'Export
 obligation shall automatically stand enhanced proportionately.', 'Para 5.14 amended vide Public Notice No.', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
 also be applicable for authorisations issued under FTP (2015-20)
 (f) Notwithstanding the provisions contained in Para 5.13 of the
@@ -4817,15 +5500,116 @@ period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
 period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R007', '5.14', 'The
 Authorisation holder shall furnish additional BG/LUT to the Customs
-Authority.', 'business_rule', 'Report for EO fulfilment', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
+Authority.', 'business_rule', 'Report for EO fulfilment', '| | | | | |
+5.1 | 5 | Au | tomatic Re | duc | tion/Enha | ncement | upt | o 10% Dut | y sa | ved |
+am | ou | nt | and pro rat | a R | eduction/E | nhancem | ent | in export ob | liga | tion |
+If a | uth | ori | sation issued | has | been utilize | d for import | of | goods:- | | |
+(a) | | In e | xcess of duty | sav | ed amount | indicated on | th | e authorisation | by | not more |
+| | tha | n 10%, the a | uth | orisation sh | all be deem | ed | to have been | enha | nced by |
+| | tha | t proportion.', 'The
+Authorisation holder shall furnish additional BG/LUT to the Customs
+Authority.', '9
+| (v) | | Authorisati | ons | issued from | 5th Decem | ber |, 2017 till 31st | Mar | ch 2023 |
+| sh | all b | e governed b | y pr | ovisions of | paragraph 5 |.14 | of HBP as ame | nded | vide PN |
+| No |.', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
+also be applicable for authorisations issued under FTP (2015-20)
+(f) Notwithstanding the provisions contained in Para 5.13 of the
+Handbook of Procedures (HBP), 2023, in respect of EPCG
+Authorisations where the Block-wise Export Obligation (EO)
+period (whether original or as extended) is expiring during the
+period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
+period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R008', '5.14', '(c) Less than the duty saved amount indicated on the authorisation, the export
+obligation shall stand reduced on pro-rata basis with reference to actual
+utilization of the authorisation.', 'business_rule', 'Report for EO fulfilment', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
+also be applicable for authorisations issued under FTP (2015-20)
+(f) Notwithstanding the provisions contained in Para 5.13 of the
+Handbook of Procedures (HBP), 2023, in respect of EPCG
+Authorisations where the Block-wise Export Obligation (EO)
+period (whether original or as extended) is expiring during the
+period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
+period shall stand automatically extended up to 31.08.2026.', '(c) Less than the duty saved amount indicated on the authorisation, the export
+obligation shall stand reduced on pro-rata basis with reference to actual
+utilization of the authorisation.', '| |
+5.1 | 4 | Re | port for EO | fulf | ilment | | | | | |
+Aut | ho | risa | tion holder s | hall | submit to R | A concerne | d a | report on fulf | ilme | nt of expo | rt
+obl | iga | tion | through onl | ine | mode after | expiry of fir | st | block period o | f fou | r years a | nd
+con | tin | uou | sly till the ex | piry | of valid EO | period.', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
+also be applicable for authorisations issued under FTP (2015-20)
+(f) Notwithstanding the provisions contained in Para 5.13 of the
+Handbook of Procedures (HBP), 2023, in respect of EPCG
+Authorisations where the Block-wise Export Obligation (EO)
+period (whether original or as extended) is expiring during the
+period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
+period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R009', '5.14', '| | | | | |
+| (e) | | Notwithstan | din | g sub-para ( | d) above, su | b-p | ara (c) above s | hall | |
+| | | also be appli | cab | le for author | isations issu | ed | under FTP (20 | 15-2 | 0) |
+| (f) | | Notwithstan | ding | the provis | ions contai | ned | in Para 5.13 | of t | he |
+| | | Handbook | of P | rocedures | (HBP), 202 | 3, | in respect of | EP | CG |
+| | | Authorisatio | ns | where the | Block-wise | Ex | port Obligatio | n (E | O) |
+| | | period (whe | the | r original or | as extende | d) i | s expiring dur | ing t | he |
+| | | period 01.0 | 3.20 | 26 to 31.05 |.2026, the c | onc | erned Block-w | ise | EO |
+| | | period shall | stan | d automatic | ally extende | d u | p to 31.08.202 | 6.', 'business_rule', 'Report for EO fulfilment', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
 amount and pro rata Reduction/Enhancement in export obligation
 If authorisation issued has been utilized for import of goods:-
 (a)
 In excess of duty saved amount indicated on the authorisation by not more
 than 10%, the authorisation shall be deemed to have been enhanced by
-that proportion.', 'The
-Authorisation holder shall furnish additional BG/LUT to the Customs
-Authority.', '9
+that proportion.', '| | | | | |
+| (e) | | Notwithstan | din | g sub-para ( | d) above, su | b-p | ara (c) above s | hall | |
+| | | also be appli | cab | le for author | isations issu | ed | under FTP (20 | 15-2 | 0) |
+| (f) | | Notwithstan | ding | the provis | ions contai | ned | in Para 5.13 | of t | he |
+| | | Handbook | of P | rocedures | (HBP), 202 | 3, | in respect of | EP | CG |
+| | | Authorisatio | ns | where the | Block-wise | Ex | port Obligatio | n (E | O) |
+| | | period (whe | the | r original or | as extende | d) i | s expiring dur | ing t | he |
+| | | period 01.0 | 3.20 | 26 to 31.05 |.2026, the c | onc | erned Block-w | ise | EO |
+| | | period shall | stan | d automatic | ally extende | d u | p to 31.08.202 | 6.', '| | | | | |
+5.1 | 5 | Au | tomatic Re | duc | tion/Enha | ncement | upt | o 10% Dut | y sa | ved |
+am | ou | nt | and pro rat | a R | eduction/E | nhancem | ent | in export ob | liga | tion |
+If a | uth | ori | sation issued | has | been utilize | d for import | of | goods:- | | |
+(a) | | In e | xcess of duty | sav | ed amount | indicated on | th | e authorisation | by | not more |
+| | tha | n 10%, the a | uth | orisation sh | all be deem | ed | to have been | enha | nced by |
+| | tha | t proportion.', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
+also be applicable for authorisations issued under FTP (2015-20)
+(f) Notwithstanding the provisions contained in Para 5.13 of the
+Handbook of Procedures (HBP), 2023, in respect of EPCG
+Authorisations where the Block-wise Export Obligation (EO)
+period (whether original or as extended) is expiring during the
+period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
+period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R010', '5.14', 'Suc | h re | port shall con | tain | a stateme | nt
+wit | h d | eta | ils of Shippin | g bi | ll/Invoice n | umber/Bill | of E | xport/FIRC n | umbe | r with da | te
+and | | num | ber, as ap | plic | able, duly | certified | by | Chartered | Acco | untant/Co | st
+Acc | ou | nta | nt/Company | Sec | retary for e | videncing f | ulfi | llment of spe | cific | as well | as
+ave | rag | e E | O (wherever | app | licable).', 'business_rule', 'Report for EO fulfilment', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
+amount and pro rata Reduction/Enhancement in export obligation
+If authorisation issued has been utilized for import of goods:-
+(a)
+In excess of duty saved amount indicated on the authorisation by not more
+than 10%, the authorisation shall be deemed to have been enhanced by
+that proportion.', 'Suc | h re | port shall con | tain | a stateme | nt
+wit | h d | eta | ils of Shippin | g bi | ll/Invoice n | umber/Bill | of E | xport/FIRC n | umbe | r with da | te
+and | | num | ber, as ap | plic | able, duly | certified | by | Chartered | Acco | untant/Co | st
+Acc | ou | nta | nt/Company | Sec | retary for e | videncing f | ulfi | llment of spe | cific | as well | as
+ave | rag | e E | O (wherever | app | licable).', '| | Para 5.14 amend | ed vi | de Public Notice | No.', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
+also be applicable for authorisations issued under FTP (2015-20)
+(f) Notwithstanding the provisions contained in Para 5.13 of the
+Handbook of Procedures (HBP), 2023, in respect of EPCG
+Authorisations where the Block-wise Export Obligation (EO)
+period (whether original or as extended) is expiring during the
+period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
+period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R011', '5.14', '| Cus | toms shall a | utomaticall | y all | ow clearance | of su | ch goods |
+| | wit | hout endors | eme | nt by RA c | oncerned.', 'business_rule', 'Report for EO fulfilment', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
+amount and pro rata Reduction/Enhancement in export obligation
+If authorisation issued has been utilized for import of goods:-
+(a)
+In excess of duty saved amount indicated on the authorisation by not more
+than 10%, the authorisation shall be deemed to have been enhanced by
+that proportion.', '| Cus | toms shall a | utomaticall | y all | ow clearance | of su | ch goods |
+| | wit | hout endors | eme | nt by RA c | oncerned.', '| | |
+| | | | | | | | | | | 9
 9
 (v)
 Authorisations issued from 5th December, 2017 till 31st March 2023
@@ -4838,17 +5622,17 @@ Authorisations where the Block-wise Export Obligation (EO)
 period (whether original or as extended) is expiring during the
 period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
 period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R008', '5.14', '(c) Less than the duty saved amount indicated on the authorisation, the export
-obligation shall stand reduced on pro-rata basis with reference to actual
-utilization of the authorisation.', 'business_rule', 'Report for EO fulfilment', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R012', '5.14', 'T | he | authorisation | hol | der shall |
+| | fur | nish addition | al f | ee to cover | excess imp | orts | effected, in t | erms | of duty |
+| | sav | ed amount, t | o RA | concerned, | at the time | of a | pplication for E | ODC |.', 'business_rule', 'Report for EO fulfilment', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
 amount and pro rata Reduction/Enhancement in export obligation
 If authorisation issued has been utilized for import of goods:-
 (a)
 In excess of duty saved amount indicated on the authorisation by not more
 than 10%, the authorisation shall be deemed to have been enhanced by
-that proportion.', '(c) Less than the duty saved amount indicated on the authorisation, the export
-obligation shall stand reduced on pro-rata basis with reference to actual
-utilization of the authorisation.', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
+that proportion.', 'T | he | authorisation | hol | der shall |
+| | fur | nish addition | al f | ee to cover | excess imp | orts | effected, in t | erms | of duty |
+| | sav | ed amount, t | o RA | concerned, | at the time | of a | pplication for E | ODC |.', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
 also be applicable for authorisations issued under FTP (2015-20)
 (f) Notwithstanding the provisions contained in Para 5.13 of the
 Handbook of Procedures (HBP), 2023, in respect of EPCG
@@ -4863,7 +5647,80 @@ Authorisations where the Block-wise Export Obligation (EO)
 period (whether original or as extended) is expiring during the
 period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
 period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R009', '5.14', '9
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R013', '5.14', 'Export |
+| | obl | igation shall | auto | matically st | and enhance | d p | roportionately |.', 'business_rule', 'Report for EO fulfilment', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
+amount and pro rata Reduction/Enhancement in export obligation
+If authorisation issued has been utilized for import of goods:-
+(a)
+In excess of duty saved amount indicated on the authorisation by not more
+than 10%, the authorisation shall be deemed to have been enhanced by
+that proportion.', 'Export |
+| | obl | igation shall | auto | matically st | and enhance | d p | roportionately |.', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
+amount and pro rata Reduction/Enhancement in export obligation
+If authorisation issued has been utilized for import of goods:-
+(a)
+In excess of duty saved amount indicated on the authorisation by not more
+than 10%, the authorisation shall be deemed to have been enhanced by
+that proportion.', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
+also be applicable for authorisations issued under FTP (2015-20)
+(f) Notwithstanding the provisions contained in Para 5.13 of the
+Handbook of Procedures (HBP), 2023, in respect of EPCG
+Authorisations where the Block-wise Export Obligation (EO)
+period (whether original or as extended) is expiring during the
+period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
+period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R014', '5.14', 'The |
+| | Aut | horisation h | old | er shall fur | nish additio | nal | BG/LUT to | the | Customs |
+| | Aut | hority.', 'business_rule', 'Report for EO fulfilment', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
+amount and pro rata Reduction/Enhancement in export obligation
+If authorisation issued has been utilized for import of goods:-
+(a)
+In excess of duty saved amount indicated on the authorisation by not more
+than 10%, the authorisation shall be deemed to have been enhanced by
+that proportion.', 'The |
+| | Aut | horisation h | old | er shall fur | nish additio | nal | BG/LUT to | the | Customs |
+| | Aut | hority.', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
+amount and pro rata Reduction/Enhancement in export obligation
+If authorisation issued has been utilized for import of goods:-
+(a)
+In excess of duty saved amount indicated on the authorisation by not more
+than 10%, the authorisation shall be deemed to have been enhanced by
+that proportion.', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
+also be applicable for authorisations issued under FTP (2015-20)
+(f) Notwithstanding the provisions contained in Para 5.13 of the
+Handbook of Procedures (HBP), 2023, in respect of EPCG
+Authorisations where the Block-wise Export Obligation (EO)
+period (whether original or as extended) is expiring during the
+period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
+period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R015', '5.14', '| | | | | | | |
+(c) | | Les | s than the du | ty s | aved amoun | t indicated o | n t | he authorisatio | n, th | e export |
+| | obl | igation shall | stan | d reduced | on pro-rata | bas | is with refere | nce | to actual |
+| | util | ization of the | aut | horisation.', 'business_rule', 'Report for EO fulfilment', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
+amount and pro rata Reduction/Enhancement in export obligation
+If authorisation issued has been utilized for import of goods:-
+(a)
+In excess of duty saved amount indicated on the authorisation by not more
+than 10%, the authorisation shall be deemed to have been enhanced by
+that proportion.', '| | | | | | | |
+(c) | | Les | s than the du | ty s | aved amoun | t indicated o | n t | he authorisatio | n, th | e export |
+| | obl | igation shall | stan | d reduced | on pro-rata | bas | is with refere | nce | to actual |
+| | util | ization of the | aut | horisation.', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
+amount and pro rata Reduction/Enhancement in export obligation
+If authorisation issued has been utilized for import of goods:-
+(a)
+In excess of duty saved amount indicated on the authorisation by not more
+than 10%, the authorisation shall be deemed to have been enhanced by
+that proportion.', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
+also be applicable for authorisations issued under FTP (2015-20)
+(f) Notwithstanding the provisions contained in Para 5.13 of the
+Handbook of Procedures (HBP), 2023, in respect of EPCG
+Authorisations where the Block-wise Export Obligation (EO)
+period (whether original or as extended) is expiring during the
+period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
+period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R016', '5.14', '| | |
+| | | | | | | | | | | 9
 9
 (v)
 Authorisations issued from 5th December, 2017 till 31st March 2023
@@ -4874,7 +5731,8 @@ If authorisation issued has been utilized for import of goods:-
 (a)
 In excess of duty saved amount indicated on the authorisation by not more
 than 10%, the authorisation shall be deemed to have been enhanced by
-that proportion.', '9
+that proportion.', '| | |
+| | | | | | | | | | | 9
 9
 (v)
 Authorisations issued from 5th December, 2017 till 31st March 2023
@@ -4893,7 +5751,7 @@ Authorisations where the Block-wise Export Obligation (EO)
 period (whether original or as extended) is expiring during the
 period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
 period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R010', '5.14', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R017', '5.14', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
 also be applicable for authorisations issued under FTP (2015-20)
 (f) Notwithstanding the provisions contained in Para 5.13 of the
 Handbook of Procedures (HBP), 2023, in respect of EPCG
@@ -4927,7 +5785,7 @@ Authorisations where the Block-wise Export Obligation (EO)
 period (whether original or as extended) is expiring during the
 period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
 period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R011', '5.14', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R018', '5.14', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
 amount and pro rata Reduction/Enhancement in export obligation
 If authorisation issued has been utilized for import of goods:-
 (a)
@@ -4959,7 +5817,7 @@ Authorisations where the Block-wise Export Obligation (EO)
 period (whether original or as extended) is expiring during the
 period 01.03.2026 to 31.05.2026, the concerned Block-wise EO
 period shall stand automatically extended up to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.14 - Report for EO fulfilment.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R012', '5.14', '(c)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_14-R019', '5.14', '(c)
 Less than the duty saved amount indicated on the authorisation, the export
 obligation shall stand reduced on pro-rata basis with reference to actual
 utilization of the authorisation.', 'business_rule', 'Report for EO fulfilment', '5.15 Automatic Reduction/Enhancement upto 10% Duty saved
@@ -5000,6 +5858,32 @@ If authorisation issued has been utilized for import of goods:-
 (a) In excess of duty saved amount indicated on the authorisation by not more
 than 10%, the authorisation shall be deemed to have been enhanced by
 that proportion.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.14', '| | | | | |
+| (e) | | Notwithstan | din | g sub-para ( | d) above, su | b-p | ara (c) above s | hall | |
+| | | also be appli | cab | le for author | isations issu | ed | under FTP (20 | 15-2 | 0) |
+| (f) | | Notwithstan | ding | the provis | ions contai | ned | in Para 5.13 | of t | he |
+| | | Handbook | of P | rocedures | (HBP), 202 | 3, | in respect of | EP | CG |
+| | | Authorisatio | ns | where the | Block-wise | Ex | port Obligatio | n (E | O) |
+| | | period (whe | the | r original or | as extende | d) i | s expiring dur | ing t | he |
+| | | period 01.0 | 3.20 | 26 to 31.05 |.2026, the c | onc | erned Block-w | ise | EO |
+| | | period shall | stan | d automatic | ally extende | d u | p to 31.08.202 | 6.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.14', '| |
+5.1 | 4 | Re | port for EO | fulf | ilment | | | | | |
+Aut | ho | risa | tion holder s | hall | submit to R | A concerne | d a | report on fulf | ilme | nt of expo | rt
+obl | iga | tion | through onl | ine | mode after | expiry of fir | st | block period o | f fou | r years a | nd
+con | tin | uou | sly till the ex | piry | of valid EO | period.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.14', 'Suc | h re | port shall con | tain | a stateme | nt
+wit | h d | eta | ils of Shippin | g bi | ll/Invoice n | umber/Bill | of E | xport/FIRC n | umbe | r with da | te
+and | | num | ber, as ap | plic | able, duly | certified | by | Chartered | Acco | untant/Co | st
+Acc | ou | nta | nt/Company | Sec | retary for e | videncing f | ulfi | llment of spe | cific | as well | as
+ave | rag | e E | O (wherever | app | licable).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.14', '| | | | | |
+5.1 | 5 | Au | tomatic Re | duc | tion/Enha | ncement | upt | o 10% Dut | y sa | ved |
+am | ou | nt | and pro rat | a R | eduction/E | nhancem | ent | in export ob | liga | tion |
+If a | uth | ori | sation issued | has | been utilize | d for import | of | goods:- | | |
+(a) | | In e | xcess of duty | sav | ed amount | indicated on | th | e authorisation | by | not more |
+| | tha | n 10%, the a | uth | orisation sh | all be deem | ed | to have been | enha | nced by |
+| | tha | t proportion.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('5.14', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
 also be applicable for authorisations issued under FTP (2015-20)
 (f) Notwithstanding the provisions contained in Para 5.13 of the
@@ -5019,6 +5903,11 @@ INSERT INTO documents (section_code, document_name) VALUES ('5.14', 'Shipping bi
 INSERT INTO documents (section_code, document_name) VALUES ('5.14', 'The authorisation holder shall
 furnish additional fee to cover excess imports effected, in terms of duty
 saved amount, to RA concerned, at the time of application for EODC.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.14', 'Suc | h re | port shall con | tain | a stateme | nt
+wit | h d | eta | ils of Shippin | g bi | ll/Invoice n | umber/Bill | of E | xport/FIRC n | umbe | r with da | te
+and | | num | ber, as ap | plic | able, duly | certified | by | Chartered | Acco | untant/Co | st
+Acc | ou | nta | nt/Company | Sec | retary for e | videncing f | ulfi | llment of spe | cific | as well | as
+ave | rag | e E | O (wherever | app | licable).');
 INSERT INTO authorities (section_code, authority_name) VALUES ('5.14', 'RA');
 INSERT INTO authorities (section_code, authority_name) VALUES ('5.14', 'Authorisation holder shall submit to RA');
 INSERT INTO authorities (section_code, authority_name) VALUES ('5.14', 'Customs');
@@ -5027,6 +5916,11 @@ INSERT INTO timelines (section_code, timeline_text) VALUES ('5.14', '5.14 Report
 Authorisation holder shall submit to RA concerned a report on fulfilment of export
 obligation through online mode after expiry of first block period of four years and
 continuously till the expiry of valid EO period.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.14', '| |
+5.1 | 4 | Re | port for EO | fulf | ilment | | | | | |
+Aut | ho | risa | tion holder s | hall | submit to R | A concerne | d a | report on fulf | ilme | nt of expo | rt
+obl | iga | tion | through onl | ine | mode after | expiry of fir | st | block period o | f fou | r years a | nd
+con | tin | uou | sly till the ex | piry | of valid EO | period.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('5.14', '(e) Notwithstanding sub-para (d) above, sub-para (c) above shall
 also be applicable for authorisations issued under FTP (2015-20)
 (f) Notwithstanding the provisions contained in Para 5.13 of the
@@ -5106,15 +6000,15 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'its');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'may');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'iii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'ons');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'ber');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'Mar');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'all');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'HBP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'FTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'mode');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'four');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'till');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'Such');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'with');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'date');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'duly');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'ame');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'din');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'b-p');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'keywords', 'ara');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'tags', '5.14');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'tags', 'Report for EO fulfilment');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.14', 'tags', 'business-rule');
@@ -5185,13 +6079,35 @@ be applicable for authorisations issued under FTP (2015-20).
 while allowing extension in block-wise/EO period and/or regularisation of
 exports already made, the applicable Composition Fee shall be as under:-
 10
-| Composition fee to be
-Duty Saved value of EPCG |
-| levied (in Rupees)
-Authorisation issued |
-Up to ₹2 Crores 20,000 |
-More than ₹2 Crores to 10 Crores 30,000 |
-Above ₹10 Crores 60,000 |
+5.16 | Extension in Ex | port Obligatio | n P | eriod | | |
+(a) | Extension in Expo | rt Obligation Per | iod | of EPCG | author | isation issu | ed prior to
+| Notification of F | oreign Trade Pol | icy | 2023 s | hall be | governed b | y relevant
+| provisions of HBP | applicable on th | e d | ate of is | sue of a | uthorisation |.
+(b) | In case of exten | sion of Export | obl | igation | period | beyond 6 | years, two
+| extensions, from | date of expiry, of | on | e year e | ach or | two years i | n one go at
+| the choice of au | thorisation hold | er, | may be | conside | red by RA | concerned
+| with composition | fee as under: | | | | |
+| Duty Saved | value of EPCG | | Co | mposit | ion fee to b | e
+| Authorisati | on issued | | le | vied (in | Rupees) |
+| Up to ₹2 Cror | es | | 20 |,000 | |
+| More than ₹2 | Crores to 10 Cro | res | 30 |,000 | |
+| Above ₹10 Cr | ores | | 60 |,000 | |
+| No refund of earli | er paid Composit | ion | Fee sha | ll be ad | missible. |
+(c) | Request for exten | sion in EO Period | sh | all be m | ade to R | A concerne | d within 6
+| months from the | date of expiry o | f o | riginal | EO Peri | od. Howeve | r, RA may
+| consider the requ | est for extension | re | ceived a | fter 6 m | onths, but | within the
+| extendable validi | ty of EO period, w | ith | a late fe | e of Rs. | 10,000/-. T | he request
+| for extension for | regularisation pu | rp | ose, fro | m 6th to | 8th year, m | ay also be
+| considered after | expiry of EO peri | od | on paym | ent of l | ate fee of Rs |. 15,000/-.
+| This fee is in addi | tion to the compo | siti | on fee t | hat may | be payable | on account
+| of shortfall in ex | port obligation. | Ho | wever, E | O exten | sion, beyo | nd 8 years
+| from date of issu | e of authorisatio | n, s | hall not | be allo | wed by RA | under this
+| provision. | | | | | |
+(d) | Notwithstanding | sub-para (a) abo | ve, | sub-par | as (b) a | nd (c) abov | e shall also
+| be applicable for | authorisations is | sue | d under | FTP (2 | 015-20). |
+(e) | For implementati | on of all PRC dec | isi | ons invo | lving le | vy of Comp | osition Fee
+| while allowing ex | tension in block- | wi | se/EO p | eriod an | d/or regula | risation of
+| exports already m | ade, the applica | ble | Compos | ition Fe | e shall be as | under:-
 10
 5.16 Extension in Export Obligation Period
 (a)
@@ -5275,7 +6191,7 @@ Para 5.16(b) amended vide Public Notice No. 15/2024-25 dated 25.07.2024
 ii.
 Para 5.16(e) added vide Public Notice No. 15/2024-25 dated 25.07.2024.
 iii.
-Para 5.16 (f) added vide Public Notice No. 51/2025-26 dated 06.03.2026', '[10, 11]', '["HBP", "the", "two", "one", "may", "fee", "for", "but", "not", "and", "FTP", "all", "PRC", "iii", "EPCG", "date", "case", "from", "year", "each"]', 'Support Extension in Export Obligation Period processing and compliance validation.', '["5.16", "Extension in Export Obligation Period", "business-rule", "dgft"]');
+Para 5.16 (f) added vide Public Notice No. 51/2025-26 dated 06.03.2026', '[10, 11]', '["HBP", "the", "two", "one", "may", "fee", "for", "but", "not", "and", "FTP", "all", "PRC", "Per", "iod", "Pol", "icy", "ate", "sue", "obl"]', 'Support Extension in Export Obligation Period processing and compliance validation.', '["5.16", "Extension in Export Obligation Period", "business-rule", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R001', '5.16', '5.16 Extension in Export Obligation Period
 (a) Extension in Export Obligation Period of EPCG authorisation issued prior to
 Notification of Foreign Trade Policy 2023 shall be governed by relevant
@@ -5353,89 +6269,106 @@ for extension for regularisation purpose, from 6th to 8th year, may also be
 considered after expiry of EO period on payment of late fee of Rs.', 'However, EO extension, beyond 8 years
 from date of issue of authorisation, shall not be allowed by RA under this
 provision.', 'This fee is in addition to the composition fee that may be payable on account
-of shortfall in export obligation.', '(d)
-Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
-be applicable for authorisations issued under FTP (2015-20).', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
+of shortfall in export obligation.', 'Howeve | r, RA may
+| consider the requ | est for extension | re | ceived a | fter 6 m | onths, but | within the
+| extendable validi | ty of EO period, w | ith | a late fe | e of Rs.', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R005', '5.16', '(d) Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
 be applicable for authorisations issued under FTP (2015-20).', 'business_rule', 'Extension in Export Obligation Period', '(e) For implementation of all PRC decisions involving levy of Composition Fee
 while allowing extension in block-wise/EO period and/or regularisation of
 exports already made, the applicable Composition Fee shall be as under:-
 10
-| Composition fee to be
-Duty Saved value of EPCG |
-| levied (in Rupees)
-Authorisation issued |
-Up to ₹2 Crores 20,000 |
-More than ₹2 Crores to 10 Crores 30,000 |
-Above ₹10 Crores 60,000 |
-10
-5.16 Extension in Export Obligation Period
-(a)
-Extension in Export Obligation Period of EPCG authorisation issued prior to
-Notification of Foreign Trade Policy 2023 shall be governed by relevant
-provisions of HBP applicable on the date of issue of authorisation.', '(d) Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
+5.16 | Extension in Ex | port Obligatio | n P | eriod | | |
+(a) | Extension in Expo | rt Obligation Per | iod | of EPCG | author | isation issu | ed prior to
+| Notification of F | oreign Trade Pol | icy | 2023 s | hall be | governed b | y relevant
+| provisions of HBP | applicable on th | e d | ate of is | sue of a | uthorisation |.', '(d) Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
 be applicable for authorisations issued under FTP (2015-20).', 'However, EO extension, beyond 8 years
 from date of issue of authorisation, shall not be allowed by RA under this
-provision.', '(f) Notwithstanding the provisions contained in Para 5.16 of the Handbook of
-Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
-or extended Export Obligation (EO) period is expiring during the period
-01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
-to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
+provision.', '| | | | | |
+(d) | Notwithstanding | sub-para (a) abo | ve, | sub-par | as (b) a | nd (c) abov | e shall also
+| be applicable for | authorisations is | sue | d under | FTP (2 | 015-20).', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R006', '5.16', '(e) For implementation of all PRC decisions involving levy of Composition Fee
 while allowing extension in block-wise/EO period and/or regularisation of
 exports already made, the applicable Composition Fee shall be as under:-
 10
-| Composition fee to be
-Duty Saved value of EPCG |
-| levied (in Rupees)
-Authorisation issued |
-Up to ₹2 Crores 20,000 |
-More than ₹2 Crores to 10 Crores 30,000 |
-Above ₹10 Crores 60,000 |
-10
-5.16 Extension in Export Obligation Period
-(a)
-Extension in Export Obligation Period of EPCG authorisation issued prior to
-Notification of Foreign Trade Policy 2023 shall be governed by relevant
-provisions of HBP applicable on the date of issue of authorisation.', 'business_rule', 'Extension in Export Obligation Period', '(b)
-In case of extension of Export obligation period beyond 6 years, two
-extensions, from date of expiry, of one year each or two years in one go at
-the choice of authorisation holder, may be considered by RA concerned
-with composition fee as under:
-Duty Saved value of EPCG
-Authorisation issued
-Composition fee to be
-levied (in Rupees)
-Up to ₹2 Crores
-20,000
-More than ₹2 Crores to 10 Crores
-30,000
-Above ₹10 Crores
-60,000
-No refund of earlier paid Composition Fee shall be admissible.', '(e) For implementation of all PRC decisions involving levy of Composition Fee
+5.16 | Extension in Ex | port Obligatio | n P | eriod | | |
+(a) | Extension in Expo | rt Obligation Per | iod | of EPCG | author | isation issu | ed prior to
+| Notification of F | oreign Trade Pol | icy | 2023 s | hall be | governed b | y relevant
+| provisions of HBP | applicable on th | e d | ate of is | sue of a | uthorisation |.', 'business_rule', 'Extension in Export Obligation Period', '(b) | In case of exten | sion of Export | obl | igation | period | beyond 6 | years, two
+| extensions, from | date of expiry, of | on | e year e | ach or | two years i | n one go at
+| the choice of au | thorisation hold | er, | may be | conside | red by RA | concerned
+| with composition | fee as under: | | | | |
+| Duty Saved | value of EPCG | | Co | mposit | ion fee to b | e
+| Authorisati | on issued | | le | vied (in | Rupees) |
+| Up to ₹2 Cror | es | | 20 |,000 | |
+| More than ₹2 | Crores to 10 Cro | res | 30 |,000 | |
+| Above ₹10 Cr | ores | | 60 |,000 | |
+| No refund of earli | er paid Composit | ion | Fee sha | ll be ad | missible.', '(e) For implementation of all PRC decisions involving levy of Composition Fee
 while allowing extension in block-wise/EO period and/or regularisation of
 exports already made, the applicable Composition Fee shall be as under:-
 10
-| Composition fee to be
-Duty Saved value of EPCG |
-| levied (in Rupees)
-Authorisation issued |
-Up to ₹2 Crores 20,000 |
-More than ₹2 Crores to 10 Crores 30,000 |
-Above ₹10 Crores 60,000 |
+5.16 | Extension in Ex | port Obligatio | n P | eriod | | |
+(a) | Extension in Expo | rt Obligation Per | iod | of EPCG | author | isation issu | ed prior to
+| Notification of F | oreign Trade Pol | icy | 2023 s | hall be | governed b | y relevant
+| provisions of HBP | applicable on th | e d | ate of is | sue of a | uthorisation |.', '(d) Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
+be applicable for authorisations issued under FTP (2015-20).', '(d)
+Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
+be applicable for authorisations issued under FTP (2015-20).', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R007', '5.16', '| | | | | |
+(d) | Notwithstanding | sub-para (a) abo | ve, | sub-par | as (b) a | nd (c) abov | e shall also
+| be applicable for | authorisations is | sue | d under | FTP (2 | 015-20).', 'business_rule', 'Extension in Export Obligation Period', 'T | he request
+| for extension for | regularisation pu | rp | ose, fro | m 6th to | 8th year, m | ay also be
+| considered after | expiry of EO peri | od | on paym | ent of l | ate fee of Rs |.', '| | | | | |
+(d) | Notwithstanding | sub-para (a) abo | ve, | sub-par | as (b) a | nd (c) abov | e shall also
+| be applicable for | authorisations is | sue | d under | FTP (2 | 015-20).', '(b) | In case of exten | sion of Export | obl | igation | period | beyond 6 | years, two
+| extensions, from | date of expiry, of | on | e year e | ach or | two years i | n one go at
+| the choice of au | thorisation hold | er, | may be | conside | red by RA | concerned
+| with composition | fee as under: | | | | |
+| Duty Saved | value of EPCG | | Co | mposit | ion fee to b | e
+| Authorisati | on issued | | le | vied (in | Rupees) |
+| Up to ₹2 Cror | es | | 20 |,000 | |
+| More than ₹2 | Crores to 10 Cro | res | 30 |,000 | |
+| Above ₹10 Cr | ores | | 60 |,000 | |
+| No refund of earli | er paid Composit | ion | Fee sha | ll be ad | missible.', '(f) Notwithstanding the provisions contained in Para 5.16 of the Handbook of
+Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
+or extended Export Obligation (EO) period is expiring during the period
+01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
+to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R008', '5.16', '|
+(e) | For implementati | on of all PRC dec | isi | ons invo | lving le | vy of Comp | osition Fee
+| while allowing ex | tension in block- | wi | se/EO p | eriod an | d/or regula | risation of
+| exports already m | ade, the applica | ble | Compos | ition Fe | e shall be as | under:-
 10
 5.16 Extension in Export Obligation Period
 (a)
 Extension in Export Obligation Period of EPCG authorisation issued prior to
 Notification of Foreign Trade Policy 2023 shall be governed by relevant
-provisions of HBP applicable on the date of issue of authorisation.', '(d) Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
-be applicable for authorisations issued under FTP (2015-20).', '(f)
+provisions of HBP applicable on the date of issue of authorisation.', 'business_rule', 'Extension in Export Obligation Period', '|
+(e) | For implementati | on of all PRC dec | isi | ons invo | lving le | vy of Comp | osition Fee
+| while allowing ex | tension in block- | wi | se/EO p | eriod an | d/or regula | risation of
+| exports already m | ade, the applica | ble | Compos | ition Fe | e shall be as | under:-
+10
+5.16 Extension in Export Obligation Period
+(a)
+Extension in Export Obligation Period of EPCG authorisation issued prior to
+Notification of Foreign Trade Policy 2023 shall be governed by relevant
+provisions of HBP applicable on the date of issue of authorisation.', '|
+(e) | For implementati | on of all PRC dec | isi | ons invo | lving le | vy of Comp | osition Fee
+| while allowing ex | tension in block- | wi | se/EO p | eriod an | d/or regula | risation of
+| exports already m | ade, the applica | ble | Compos | ition Fe | e shall be as | under:-
+10
+5.16 Extension in Export Obligation Period
+(a)
+Extension in Export Obligation Period of EPCG authorisation issued prior to
+Notification of Foreign Trade Policy 2023 shall be governed by relevant
+provisions of HBP applicable on the date of issue of authorisation.', 'T | he request
+| for extension for | regularisation pu | rp | ose, fro | m 6th to | 8th year, m | ay also be
+| considered after | expiry of EO peri | od | on paym | ent of l | ate fee of Rs |.', '(f)
 Notwithstanding the provisions contained in Para 5.16 of the Handbook of
 Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
 or extended Export Obligation (EO) period is expiring during the period
 01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
 to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R007', '5.16', '(b)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R009', '5.16', '(b)
 In case of extension of Export obligation period beyond 6 years, two
 extensions, from date of expiry, of one year each or two years in one go at
 the choice of authorisation holder, may be considered by RA concerned
@@ -5450,36 +6383,55 @@ More than ₹2 Crores to 10 Crores
 30,000
 Above ₹10 Crores
 60,000
-No refund of earlier paid Composition Fee shall be admissible.', 'business_rule', 'Extension in Export Obligation Period', '(f) Notwithstanding the provisions contained in Para 5.16 of the Handbook of
+No refund of earlier paid Composition Fee shall be admissible.', 'business_rule', 'Extension in Export Obligation Period', '(b)
+In case of extension of Export obligation period beyond 6 years, two
+extensions, from date of expiry, of one year each or two years in one go at
+the choice of authorisation holder, may be considered by RA concerned
+with composition fee as under:
+Duty Saved value of EPCG
+Authorisation issued
+Composition fee to be
+levied (in Rupees)
+Up to ₹2 Crores
+20,000
+More than ₹2 Crores to 10 Crores
+30,000
+Above ₹10 Crores
+60,000
+No refund of earlier paid Composition Fee shall be admissible.', '(b)
+In case of extension of Export obligation period beyond 6 years, two
+extensions, from date of expiry, of one year each or two years in one go at
+the choice of authorisation holder, may be considered by RA concerned
+with composition fee as under:
+Duty Saved value of EPCG
+Authorisation issued
+Composition fee to be
+levied (in Rupees)
+Up to ₹2 Crores
+20,000
+More than ₹2 Crores to 10 Crores
+30,000
+Above ₹10 Crores
+60,000
+No refund of earlier paid Composition Fee shall be admissible.', '| This fee is in addi | tion to the compo | siti | on fee t | hat may | be payable | on account
+| of shortfall in ex | port obligation.', '(f)
+Notwithstanding the provisions contained in Para 5.16 of the Handbook of
 Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
 or extended Export Obligation (EO) period is expiring during the period
 01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
-to 31.08.2026.', '(b)
-In case of extension of Export obligation period beyond 6 years, two
-extensions, from date of expiry, of one year each or two years in one go at
-the choice of authorisation holder, may be considered by RA concerned
-with composition fee as under:
-Duty Saved value of EPCG
-Authorisation issued
-Composition fee to be
-levied (in Rupees)
-Up to ₹2 Crores
-20,000
-More than ₹2 Crores to 10 Crores
-30,000
-Above ₹10 Crores
-60,000
-No refund of earlier paid Composition Fee shall be admissible.', '(e) For implementation of all PRC decisions involving levy of Composition Fee
-while allowing extension in block-wise/EO period and/or regularisation of
-exports already made, the applicable Composition Fee shall be as under:-
-10
-| Composition fee to be
-Duty Saved value of EPCG |
-| levied (in Rupees)
-Authorisation issued |
-Up to ₹2 Crores 20,000 |
-More than ₹2 Crores to 10 Crores 30,000 |
-Above ₹10 Crores 60,000 |
+to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R010', '5.16', '(c)
+Request for extension in EO Period shall be made to RA concerned within 6
+months from the date of expiry of original EO Period.', 'business_rule', 'Extension in Export Obligation Period', '(f) Notwithstanding the provisions contained in Para 5.16 of the Handbook of
+Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
+or extended Export Obligation (EO) period is expiring during the period
+01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
+to 31.08.2026.', '(c)
+Request for extension in EO Period shall be made to RA concerned within 6
+months from the date of expiry of original EO Period.', '|
+(e) | For implementati | on of all PRC dec | isi | ons invo | lving le | vy of Comp | osition Fee
+| while allowing ex | tension in block- | wi | se/EO p | eriod an | d/or regula | risation of
+| exports already m | ade, the applica | ble | Compos | ition Fe | e shall be as | under:-
 10
 5.16 Extension in Export Obligation Period
 (a)
@@ -5491,16 +6443,16 @@ Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
 or extended Export Obligation (EO) period is expiring during the period
 01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
 to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R008', '5.16', '(c)
-Request for extension in EO Period shall be made to RA concerned within 6
-months from the date of expiry of original EO Period.', 'business_rule', 'Extension in Export Obligation Period', '(f)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R011', '5.16', '(d)
+Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
+be applicable for authorisations issued under FTP (2015-20).', 'business_rule', 'Extension in Export Obligation Period', '(f)
 Notwithstanding the provisions contained in Para 5.16 of the Handbook of
 Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
 or extended Export Obligation (EO) period is expiring during the period
 01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
-to 31.08.2026.', '(c)
-Request for extension in EO Period shall be made to RA concerned within 6
-months from the date of expiry of original EO Period.', '(b)
+to 31.08.2026.', '(d)
+Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
+be applicable for authorisations issued under FTP (2015-20).', '(b)
 In case of extension of Export obligation period beyond 6 years, two
 extensions, from date of expiry, of one year each or two years in one go at
 the choice of authorisation holder, may be considered by RA concerned
@@ -5521,24 +6473,7 @@ Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
 or extended Export Obligation (EO) period is expiring during the period
 01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
 to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R009', '5.16', '(d)
-Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
-be applicable for authorisations issued under FTP (2015-20).', 'business_rule', 'Extension in Export Obligation Period', '(f)
-Notwithstanding the provisions contained in Para 5.16 of the Handbook of
-Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
-or extended Export Obligation (EO) period is expiring during the period
-01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
-to 31.08.2026.', '(d)
-Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
-be applicable for authorisations issued under FTP (2015-20).', '(d)
-Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
-be applicable for authorisations issued under FTP (2015-20).', '(f)
-Notwithstanding the provisions contained in Para 5.16 of the Handbook of
-Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
-or extended Export Obligation (EO) period is expiring during the period
-01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
-to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R010', '5.16', '(e)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R012', '5.16', '(e)
 For implementation of all PRC decisions involving levy of Composition Fee
 while allowing extension in block-wise/EO period and/or regularisation of
 exports already made, the applicable Composition Fee shall be as under:-
@@ -5561,7 +6496,28 @@ Authorisation issued levied (in Rupees)
 Up to ₹2 Crores 30,000
 More than ₹2 Crores to 10 Crores 60,000
 Above ₹10 Crores 1,00,000
-No refund of earlier paid Composition Fee shall be admissible.', '(e)
+No refund of earlier paid Composition Fee shall be admissible.', '(d)
+Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
+be applicable for authorisations issued under FTP (2015-20).', '(f)
+Notwithstanding the provisions contained in Para 5.16 of the Handbook of
+Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
+or extended Export Obligation (EO) period is expiring during the period
+01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
+to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R013', '5.16', '(f) Notwithstanding the provisions contained in Para 5.16 of the Handbook of
+Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
+or extended Export Obligation (EO) period is expiring during the period
+01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
+to 31.08.2026.', 'business_rule', 'Extension in Export Obligation Period', '(f)
+Notwithstanding the provisions contained in Para 5.16 of the Handbook of
+Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
+or extended Export Obligation (EO) period is expiring during the period
+01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
+to 31.08.2026.', '(f) Notwithstanding the provisions contained in Para 5.16 of the Handbook of
+Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
+or extended Export Obligation (EO) period is expiring during the period
+01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
+to 31.08.2026.', '(e)
 For implementation of all PRC decisions involving levy of Composition Fee
 while allowing extension in block-wise/EO period and/or regularisation of
 exports already made, the applicable Composition Fee shall be as under:-
@@ -5576,26 +6532,7 @@ Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
 or extended Export Obligation (EO) period is expiring during the period
 01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
 to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R011', '5.16', '(f) Notwithstanding the provisions contained in Para 5.16 of the Handbook of
-Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
-or extended Export Obligation (EO) period is expiring during the period
-01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
-to 31.08.2026.', 'business_rule', 'Extension in Export Obligation Period', '(f)
-Notwithstanding the provisions contained in Para 5.16 of the Handbook of
-Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
-or extended Export Obligation (EO) period is expiring during the period
-01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
-to 31.08.2026.', '(f) Notwithstanding the provisions contained in Para 5.16 of the Handbook of
-Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
-or extended Export Obligation (EO) period is expiring during the period
-01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
-to 31.08.2026.', 'Para 5.16(b) amended vide Public Notice No.', '(f)
-Notwithstanding the provisions contained in Para 5.16 of the Handbook of
-Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
-or extended Export Obligation (EO) period is expiring during the period
-01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
-to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R012', '5.16', '51/2025-26 dated 06.03.2026
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R014', '5.16', '51/2025-26 dated 06.03.2026
 11
 Duty Saved value of EPCG | Composition fee to be
 Authorisation issued | levied (in Rupees)
@@ -5636,31 +6573,13 @@ More than ₹2 Crores to 10 Crores
 60,000
 Above ₹10 Crores
 1,00,000
-No refund of earlier paid Composition Fee shall be admissible.', '51/2025-26 dated 06.03.2026
-11
-Duty Saved value of EPCG | Composition fee to be
-Authorisation issued | levied (in Rupees)
-Up to ₹2 Crores 30,000 |
-More than ₹2 Crores to 10 Crores 60,000
-Above ₹10 Crores 1,00,000 |
-11
-Duty Saved value of EPCG
-Authorisation issued
-Composition fee to be
-levied (in Rupees)
-Up to ₹2 Crores
-30,000
-More than ₹2 Crores to 10 Crores
-60,000
-Above ₹10 Crores
-1,00,000
-No refund of earlier paid Composition Fee shall be admissible.', '(f)
+No refund of earlier paid Composition Fee shall be admissible.', 'Para 5.16(b) amended vide Public Notice No.', '(f)
 Notwithstanding the provisions contained in Para 5.16 of the Handbook of
 Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
 or extended Export Obligation (EO) period is expiring during the period
 01.03.2026 to 31.05.2026, the EO period shall stand automatically extended up
 to 31.08.2026.', 'DEKAI should produce a compliance decision for 5.16 - Extension in Export Obligation Period.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R013', '5.16', '(f)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_16-R015', '5.16', '(f)
 Notwithstanding the provisions contained in Para 5.16 of the Handbook of
 Procedures (HBP), 2023, in respect of EPCG Authorisations where the original
 or extended Export Obligation (EO) period is expiring during the period
@@ -5725,13 +6644,27 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('5.16', '(e) For i
 while allowing extension in block-wise/EO period and/or regularisation of
 exports already made, the applicable Composition Fee shall be as under:-
 10
-| Composition fee to be
-Duty Saved value of EPCG |
-| levied (in Rupees)
-Authorisation issued |
-Up to ₹2 Crores 20,000 |
-More than ₹2 Crores to 10 Crores 30,000 |
-Above ₹10 Crores 60,000 |
+5.16 | Extension in Ex | port Obligatio | n P | eriod | | |
+(a) | Extension in Expo | rt Obligation Per | iod | of EPCG | author | isation issu | ed prior to
+| Notification of F | oreign Trade Pol | icy | 2023 s | hall be | governed b | y relevant
+| provisions of HBP | applicable on th | e d | ate of is | sue of a | uthorisation |.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.16', '(b) | In case of exten | sion of Export | obl | igation | period | beyond 6 | years, two
+| extensions, from | date of expiry, of | on | e year e | ach or | two years i | n one go at
+| the choice of au | thorisation hold | er, | may be | conside | red by RA | concerned
+| with composition | fee as under: | | | | |
+| Duty Saved | value of EPCG | | Co | mposit | ion fee to b | e
+| Authorisati | on issued | | le | vied (in | Rupees) |
+| Up to ₹2 Cror | es | | 20 |,000 | |
+| More than ₹2 | Crores to 10 Cro | res | 30 |,000 | |
+| Above ₹10 Cr | ores | | 60 |,000 | |
+| No refund of earli | er paid Composit | ion | Fee sha | ll be ad | missible.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.16', 'T | he request
+| for extension for | regularisation pu | rp | ose, fro | m 6th to | 8th year, m | ay also be
+| considered after | expiry of EO peri | od | on paym | ent of l | ate fee of Rs |.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.16', '|
+(e) | For implementati | on of all PRC dec | isi | ons invo | lving le | vy of Comp | osition Fee
+| while allowing ex | tension in block- | wi | se/EO p | eriod an | d/or regula | risation of
+| exports already m | ade, the applica | ble | Compos | ition Fe | e shall be as | under:-
 10
 5.16 Extension in Export Obligation Period
 (a)
@@ -5790,6 +6723,28 @@ considered after expiry of EO period on payment of late fee of Rs.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('5.16', 'However, EO extension, beyond 8 years
 from date of issue of authorisation, shall not be allowed by RA under this
 provision.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.16', '(b) | In case of exten | sion of Export | obl | igation | period | beyond 6 | years, two
+| extensions, from | date of expiry, of | on | e year e | ach or | two years i | n one go at
+| the choice of au | thorisation hold | er, | may be | conside | red by RA | concerned
+| with composition | fee as under: | | | | |
+| Duty Saved | value of EPCG | | Co | mposit | ion fee to b | e
+| Authorisati | on issued | | le | vied (in | Rupees) |
+| Up to ₹2 Cror | es | | 20 |,000 | |
+| More than ₹2 | Crores to 10 Cro | res | 30 |,000 | |
+| Above ₹10 Cr | ores | | 60 |,000 | |
+| No refund of earli | er paid Composit | ion | Fee sha | ll be ad | missible.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.16', '|
+(c) | Request for exten | sion in EO Period | sh | all be m | ade to R | A concerne | d within 6
+| months from the | date of expiry o | f o | riginal | EO Peri | od.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.16', 'Howeve | r, RA may
+| consider the requ | est for extension | re | ceived a | fter 6 m | onths, but | within the
+| extendable validi | ty of EO period, w | ith | a late fe | e of Rs.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.16', 'T | he request
+| for extension for | regularisation pu | rp | ose, fro | m 6th to | 8th year, m | ay also be
+| considered after | expiry of EO peri | od | on paym | ent of l | ate fee of Rs |.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.16', '| Ho | wever, E | O exten | sion, beyo | nd 8 years
+| from date of issu | e of authorisatio | n, s | hall not | be allo | wed by RA | under this
+| provision.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('5.16', '(b)
 In case of extension of Export obligation period beyond 6 years, two
 extensions, from date of expiry, of one year each or two years in one go at
@@ -5817,6 +6772,12 @@ from date of issue of authorisation, shall not be allowed by RA under this
 provision.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('5.16', '(d) Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
 be applicable for authorisations issued under FTP (2015-20).');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('5.16', 'Howeve | r, RA may
+| consider the requ | est for extension | re | ceived a | fter 6 m | onths, but | within the
+| extendable validi | ty of EO period, w | ith | a late fe | e of Rs.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('5.16', '| | | | | |
+(d) | Notwithstanding | sub-para (a) abo | ve, | sub-par | as (b) a | nd (c) abov | e shall also
+| be applicable for | authorisations is | sue | d under | FTP (2 | 015-20).');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('5.16', '(d)
 Notwithstanding sub-para (a) above, sub-paras (b) and (c) above shall also
 be applicable for authorisations issued under FTP (2015-20).');
@@ -5910,13 +6871,13 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'FTP');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'all');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'PRC');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'iii');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'EPCG');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'date');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'case');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'from');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'year');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'each');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'Per');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'iod');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'Pol');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'icy');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'ate');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'sue');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'keywords', 'obl');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'tags', '5.16');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'tags', 'Extension in Export Obligation Period');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.16', 'tags', 'business-rule');
@@ -6299,6 +7260,42 @@ BG/LUT has been executed.
 (c) RA shall process such applications ordinarily within 30 days. Shortcomings, if
 any, shall be pointed out normally in one go. Once documents are complete in all
 12
+5.17 Relief in A | verage E | xpor | t Obligation | | |
+(a) To provide | relief to e | xpor | ters of those s | ectors | where total | exports in that
+sector/pro | duct grou | p has | declined by | more tha | n 5% as co | mpared to the
+previous y | ear, avera | ge e | xport obligati | on for | the year m | ay be reduced
+proportion | ate to red | uctio | n in exports | of that | particular | sector/product
+group duri | ng the rele | vant | year as again | st the pr | eceding ye | ar. However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline. | | | | |
+(b) The sectors | /product | grou | ps for which th | is relax | ation is to b | e allowed shall
+be conveye | d by the D | GFT | to all the RAs | within s | even mont | hs of the end of
+the previou | s financia | l year | and the RAs | shall re | -fix the ann | ual average EO
+for previou | s year acc | ordin | gly for exporte | rs in th | at sector/ p | roduct group.
+5.18 Maintena | nce of An | nual | Average Exp | ort Ob | ligation |
+The excess expor | ts done to | ward | s the average | export | obligation f | ulfilment of an
+EPCG authorisatio | n during a | year | can be used t | o offset a | ny shortfal | l in the Average
+EO done in other | year(s) of | the E | O period or th | e block | period as t | he case may be
+provided Average | EO impos | ed is | maintained o | n an ove | rall basis, w | ithin the block
+period or the EO p | eriod as a | pplic | able. | | |
+5.19 Automatic | EO exte | nsio | n in the even | t of ba | n on expo | rt product
+Whenever a ban | /restrictio | n is | imposed on | export | of any pro | duct, export
+obligation period | in respec | t of E | PCG authoris | ations a | lready issu | ed prior to
+imposition of ban | on such e | xport | products wou | ld stand | automatic | ally extended
+for a period equi | valent to | durat | ion of such b | an, with | out any co | mposition fee.
+Authorisation hol | der would | not b | e required to | maintain | average EO | as well for the
+ban period. | | | | | |
+5.20 Export Ob | ligation | Disch | arge Certifi | cate (E | ODC) |
+(a) Authorisation | holder sh | all ap | ply for online | EODC in | ANF 5B wi | th documents
+prescribed therei | n as a proo | f of E | O fulfillment. | | |
+(b) On being satis | fied, RA c | oncer | ned shall issu | e EODC | to the EPC | G authorisation
+holder and an on | line copy | will b | e forwarded | to ICEG | ATE throug | h API message
+exchange for furt | her actio | n by | Jurisdictional | Custom | s Authoriti | es with whom
+BG/LUT has been | executed. | | | | |
+(c) RA shall proce | ss such ap | plica | tions ordinari | ly withi | n 30 days. S | hortcomings, if
+any, shall be point | ed out no | rmall | y in one go. On | ce docu | ments are c | omplete in all
 12
 5.20 Export Obligation Discharge Certificate (EODC)
 (a) Authorisation holder shall apply for online EODC in ANF 5B with documents
@@ -6310,7 +7307,7 @@ BG/LUT has been executed.
 (c) RA shall process such applications ordinarily within 30 days. Shortcomings, if
 any, shall be pointed out normally in one go. Once documents are complete in all
 respects, export obligation shall be discharged within 30 days of receipt of
-complete documents /information.', '[12, 13]', '["for", "ANF", "the", "and", "API", "has", "any", "out", "one", "are", "all", "EODC", "with", "EPCG", "copy", "will", "whom", "been", "such", "days"]', 'Support Export Obligation Discharge Certificate (EODC) processing and compliance validation.', '["5.20", "Export Obligation Discharge Certificate (EODC)", "business-rule", "document-driven", "dgft"]');
+complete documents /information.', '[12, 13]', '["for", "ANF", "the", "and", "API", "has", "any", "out", "one", "are", "all", "tha", "ear", "ate", "red", "ken", "aft", "GFT", "RAs", "end"]', 'Support Export Obligation Discharge Certificate (EODC) processing and compliance validation.', '["5.20", "Export Obligation Discharge Certificate (EODC)", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R001', '5.20', '5.20 Export Obligation Discharge Certificate (EODC)
 (a) Authorisation holder shall apply for online EODC in ANF 5B with documents
 prescribed therein as a proof of EO fulfillment.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', '5.20 Export Obligation Discharge Certificate (EODC)
@@ -6319,7 +7316,11 @@ prescribed therein as a proof of EO fulfillment.', '5.20 Export Obligation Disch
 (a) Authorisation holder shall apply for online EODC in ANF 5B with documents
 prescribed therein as a proof of EO fulfillment.', '5.20 Export Obligation Discharge Certificate (EODC)
 (a) Authorisation holder shall apply for online EODC in ANF 5B with documents
-prescribed therein as a proof of EO fulfillment.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
+prescribed therein as a proof of EO fulfillment.', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R002', '5.20', '(b) On being satisfied, RA concerned shall issue EODC to the EPCG authorisation
 holder and an online copy will be forwarded to ICEGATE through API message
 exchange for further action by Jurisdictional Customs Authorities with whom
@@ -6329,67 +7330,166 @@ exchange for further action by Jurisdictional Customs Authorities with whom
 BG/LUT has been executed.', '(b) On being satisfied, RA concerned shall issue EODC to the EPCG authorisation
 holder and an online copy will be forwarded to ICEGATE through API message
 exchange for further action by Jurisdictional Customs Authorities with whom
-BG/LUT has been executed.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
+BG/LUT has been executed.', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R003', '5.20', '(c) RA shall process such applications ordinarily within 30 days.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', 'Once documents are complete in all
 12
-12
-5.20 Export Obligation Discharge Certificate (EODC)
-(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
-prescribed therein as a proof of EO fulfillment.', '(c) RA shall process such applications ordinarily within 30 days.', 'Once documents are complete in all
-12
-12
-5.20 Export Obligation Discharge Certificate (EODC)
-(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
-prescribed therein as a proof of EO fulfillment.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
+5.17 Relief in A | verage E | xpor | t Obligation | | |
+(a) To provide | relief to e | xpor | ters of those s | ectors | where total | exports in that
+sector/pro | duct grou | p has | declined by | more tha | n 5% as co | mpared to the
+previous y | ear, avera | ge e | xport obligati | on for | the year m | ay be reduced
+proportion | ate to red | uctio | n in exports | of that | particular | sector/product
+group duri | ng the rele | vant | year as again | st the pr | eceding ye | ar.', '(c) RA shall process such applications ordinarily within 30 days.', '5.18 Maintena | nce of An | nual | Average Exp | ort Ob | ligation |
+The excess expor | ts done to | ward | s the average | export | obligation f | ulfilment of an
+EPCG authorisatio | n during a | year | can be used t | o offset a | ny shortfal | l in the Average
+EO done in other | year(s) of | the E | O period or th | e block | period as t | he case may be
+provided Average | EO impos | ed is | maintained o | n an ove | rall basis, w | ithin the block
+period or the EO p | eriod as a | pplic | able.', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R004', '5.20', 'Shortcomings, if
-any, shall be pointed out normally in one go.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', 'Once documents are complete in all
+any, shall be pointed out normally in one go.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', '| | |
+5.19 Automatic | EO exte | nsio | n in the even | t of ba | n on expo | rt product
+Whenever a ban | /restrictio | n is | imposed on | export | of any pro | duct, export
+obligation period | in respec | t of E | PCG authoris | ations a | lready issu | ed prior to
+imposition of ban | on such e | xport | products wou | ld stand | automatic | ally extended
+for a period equi | valent to | durat | ion of such b | an, with | out any co | mposition fee.', 'Shortcomings, if
+any, shall be pointed out normally in one go.', 'Authorisation hol | der would | not b | e required to | maintain | average EO | as well for the
+ban period.', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R005', '5.20', '| | | | |
+(b) The sectors | /product | grou | ps for which th | is relax | ation is to b | e allowed shall
+be conveye | d by the D | GFT | to all the RAs | within s | even mont | hs of the end of
+the previou | s financia | l year | and the RAs | shall re | -fix the ann | ual average EO
+for previou | s year acc | ordin | gly for exporte | rs in th | at sector/ p | roduct group.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', '| | | | | |
+5.20 Export Ob | ligation | Disch | arge Certifi | cate (E | ODC) |
+(a) Authorisation | holder sh | all ap | ply for online | EODC in | ANF 5B wi | th documents
+prescribed therei | n as a proo | f of E | O fulfillment.', 'Once documents are complete in all
 12
-12
-5.20 Export Obligation Discharge Certificate (EODC)
-(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
-prescribed therein as a proof of EO fulfillment.', 'Shortcomings, if
-any, shall be pointed out normally in one go.', 'Once documents are complete in all
-12
-12
-5.20 Export Obligation Discharge Certificate (EODC)
-(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
-prescribed therein as a proof of EO fulfillment.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R005', '5.20', 'Once documents are complete in all
-12
-12
-5.20 Export Obligation Discharge Certificate (EODC)
-(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
-prescribed therein as a proof of EO fulfillment.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', 'Once documents are complete in all
-12
-12
-5.20 Export Obligation Discharge Certificate (EODC)
-(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
-prescribed therein as a proof of EO fulfillment.', 'Once documents are complete in all
-12
-12
-5.20 Export Obligation Discharge Certificate (EODC)
-(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
-prescribed therein as a proof of EO fulfillment.', 'Once documents are complete in all
-12
+5.17 Relief in A | verage E | xpor | t Obligation | | |
+(a) To provide | relief to e | xpor | ters of those s | ectors | where total | exports in that
+sector/pro | duct grou | p has | declined by | more tha | n 5% as co | mpared to the
+previous y | ear, avera | ge e | xport obligati | on for | the year m | ay be reduced
+proportion | ate to red | uctio | n in exports | of that | particular | sector/product
+group duri | ng the rele | vant | year as again | st the pr | eceding ye | ar.', 'On | ce docu | ments are c | omplete in all
 12
 5.20 Export Obligation Discharge Certificate (EODC)
 (a) Authorisation holder shall apply for online EODC in ANF 5B with documents
-prescribed therein as a proof of EO fulfillment.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R006', '5.20', 'Once documents are complete in all
+prescribed therein as a proof of EO fulfillment.', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R006', '5.20', 'Authorisation hol | der would | not b | e required to | maintain | average EO | as well for the
+ban period.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', 'any', '| | | | |
+(b) The sectors | /product | grou | ps for which th | is relax | ation is to b | e allowed shall
+be conveye | d by the D | GFT | to all the RAs | within s | even mont | hs of the end of
+the previou | s financia | l year | and the RAs | shall re | -fix the ann | ual average EO
+for previou | s year acc | ordin | gly for exporte | rs in th | at sector/ p | roduct group.', 'On | ce docu | ments are c | omplete in all
+12
+5.20 Export Obligation Discharge Certificate (EODC)
+(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
+prescribed therein as a proof of EO fulfillment.', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R007', '5.20', '| | |
+(b) On being satis | fied, RA c | oncer | ned shall issu | e EODC | to the EPC | G authorisation
+holder and an on | line copy | will b | e forwarded | to ICEG | ATE throug | h API message
+exchange for furt | her actio | n by | Jurisdictional | Custom | s Authoriti | es with whom
+BG/LUT has been | executed.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', 'On | ce docu | ments are c | omplete in all
+12
+5.20 Export Obligation Discharge Certificate (EODC)
+(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
+prescribed therein as a proof of EO fulfillment.', 'Authorisation hol | der would | not b | e required to | maintain | average EO | as well for the
+ban period.', 'On | ce docu | ments are c | omplete in all
+12
+5.20 Export Obligation Discharge Certificate (EODC)
+(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
+prescribed therein as a proof of EO fulfillment.', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R008', '5.20', '| | | | |
+(c) RA shall proce | ss such ap | plica | tions ordinari | ly withi | n 30 days.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', 'On | ce docu | ments are c | omplete in all
+12
+5.20 Export Obligation Discharge Certificate (EODC)
+(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
+prescribed therein as a proof of EO fulfillment.', '| | |
+(b) On being satis | fied, RA c | oncer | ned shall issu | e EODC | to the EPC | G authorisation
+holder and an on | line copy | will b | e forwarded | to ICEG | ATE throug | h API message
+exchange for furt | her actio | n by | Jurisdictional | Custom | s Authoriti | es with whom
+BG/LUT has been | executed.', 'On | ce docu | ments are c | omplete in all
+12
+5.20 Export Obligation Discharge Certificate (EODC)
+(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
+prescribed therein as a proof of EO fulfillment.', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R009', '5.20', 'S | hortcomings, if
+any, shall be point | ed out no | rmall | y in one go.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', 'On | ce docu | ments are c | omplete in all
+12
+5.20 Export Obligation Discharge Certificate (EODC)
+(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
+prescribed therein as a proof of EO fulfillment.', '| | | | |
+(c) RA shall proce | ss such ap | plica | tions ordinari | ly withi | n 30 days.', 'On | ce docu | ments are c | omplete in all
+12
+5.20 Export Obligation Discharge Certificate (EODC)
+(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
+prescribed therein as a proof of EO fulfillment.', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R010', '5.20', 'On | ce docu | ments are c | omplete in all
+12
+5.20 Export Obligation Discharge Certificate (EODC)
+(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
+prescribed therein as a proof of EO fulfillment.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', 'On | ce docu | ments are c | omplete in all
+12
+5.20 Export Obligation Discharge Certificate (EODC)
+(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
+prescribed therein as a proof of EO fulfillment.', 'S | hortcomings, if
+any, shall be point | ed out no | rmall | y in one go.', 'On | ce docu | ments are c | omplete in all
+12
+5.20 Export Obligation Discharge Certificate (EODC)
+(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
+prescribed therein as a proof of EO fulfillment.', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_20-R011', '5.20', 'Once documents are complete in all
 respects, export obligation shall be discharged within 30 days of receipt of
-complete documents /information.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', 'Once documents are complete in all
-12
-12
-5.20 Export Obligation Discharge Certificate (EODC)
-(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
-prescribed therein as a proof of EO fulfillment.', 'Once documents are complete in all
-respects, export obligation shall be discharged within 30 days of receipt of
-complete documents /information.', 'Once documents are complete in all
-12
+complete documents /information.', 'business_rule', 'Export Obligation Discharge Certificate (EODC)', 'On | ce docu | ments are c | omplete in all
 12
 5.20 Export Obligation Discharge Certificate (EODC)
 (a) Authorisation holder shall apply for online EODC in ANF 5B with documents
-prescribed therein as a proof of EO fulfillment.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
+prescribed therein as a proof of EO fulfillment.', 'On | ce docu | ments are c | omplete in all
+12
+5.20 Export Obligation Discharge Certificate (EODC)
+(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
+prescribed therein as a proof of EO fulfillment.', 'On | ce docu | ments are c | omplete in all
+12
+5.20 Export Obligation Discharge Certificate (EODC)
+(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
+prescribed therein as a proof of EO fulfillment.', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.', 'DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC).');
 INSERT INTO conditions (section_code, condition_text) VALUES ('5.20', '5.20 Export Obligation Discharge Certificate (EODC)
 (a) Authorisation holder shall apply for online EODC in ANF 5B with documents
 prescribed therein as a proof of EO fulfillment.');
@@ -6397,6 +7497,25 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('5.20', 'Shortcomi
 any, shall be pointed out normally in one go.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('5.20', 'Once documents are complete in all
 12
+5.17 Relief in A | verage E | xpor | t Obligation | | |
+(a) To provide | relief to e | xpor | ters of those s | ectors | where total | exports in that
+sector/pro | duct grou | p has | declined by | more tha | n 5% as co | mpared to the
+previous y | ear, avera | ge e | xport obligati | on for | the year m | ay be reduced
+proportion | ate to red | uctio | n in exports | of that | particular | sector/product
+group duri | ng the rele | vant | year as again | st the pr | eceding ye | ar.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.20', '| | |
+5.19 Automatic | EO exte | nsio | n in the even | t of ba | n on expo | rt product
+Whenever a ban | /restrictio | n is | imposed on | export | of any pro | duct, export
+obligation period | in respec | t of E | PCG authoris | ations a | lready issu | ed prior to
+imposition of ban | on such e | xport | products wou | ld stand | automatic | ally extended
+for a period equi | valent to | durat | ion of such b | an, with | out any co | mposition fee.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.20', '| | | | | |
+5.20 Export Ob | ligation | Disch | arge Certifi | cate (E | ODC) |
+(a) Authorisation | holder sh | all ap | ply for online | EODC in | ANF 5B wi | th documents
+prescribed therei | n as a proo | f of E | O fulfillment.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.20', 'S | hortcomings, if
+any, shall be point | ed out no | rmall | y in one go.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.20', 'On | ce docu | ments are c | omplete in all
 12
 5.20 Export Obligation Discharge Certificate (EODC)
 (a) Authorisation holder shall apply for online EODC in ANF 5B with documents
@@ -6408,15 +7527,49 @@ exchange for further action by Jurisdictional Customs Authorities with whom
 BG/LUT has been executed.');
 INSERT INTO documents (section_code, document_name) VALUES ('5.20', '(c) RA shall process such applications ordinarily within 30 days.');
 INSERT INTO documents (section_code, document_name) VALUES ('5.20', 'Once documents are complete in all
+12
+5.17 Relief in A | verage E | xpor | t Obligation | | |
+(a) To provide | relief to e | xpor | ters of those s | ectors | where total | exports in that
+sector/pro | duct grou | p has | declined by | more tha | n 5% as co | mpared to the
+previous y | ear, avera | ge e | xport obligati | on for | the year m | ay be reduced
+proportion | ate to red | uctio | n in exports | of that | particular | sector/product
+group duri | ng the rele | vant | year as again | st the pr | eceding ye | ar.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.20', '| | | | | |
+5.20 Export Ob | ligation | Disch | arge Certifi | cate (E | ODC) |
+(a) Authorisation | holder sh | all ap | ply for online | EODC in | ANF 5B wi | th documents
+prescribed therei | n as a proo | f of E | O fulfillment.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.20', '| | |
+(b) On being satis | fied, RA c | oncer | ned shall issu | e EODC | to the EPC | G authorisation
+holder and an on | line copy | will b | e forwarded | to ICEG | ATE throug | h API message
+exchange for furt | her actio | n by | Jurisdictional | Custom | s Authoriti | es with whom
+BG/LUT has been | executed.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.20', 'Once documents are complete in all
 respects, export obligation shall be discharged within 30 days of receipt of
 complete documents /information.');
 INSERT INTO authorities (section_code, authority_name) VALUES ('5.20', 'RA');
 INSERT INTO authorities (section_code, authority_name) VALUES ('5.20', 'Customs');
 INSERT INTO authorities (section_code, authority_name) VALUES ('5.20', 'Jurisdictional Customs Authorities');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('5.20', '(c) RA shall process such applications ordinarily within 30 days.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.20', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.20', '| | | | |
+(b) The sectors | /product | grou | ps for which th | is relax | ation is to b | e allowed shall
+be conveye | d by the D | GFT | to all the RAs | within s | even mont | hs of the end of
+the previou | s financia | l year | and the RAs | shall re | -fix the ann | ual average EO
+for previou | s year acc | ordin | gly for exporte | rs in th | at sector/ p | roduct group.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.20', '| | | | |
+(c) RA shall proce | ss such ap | plica | tions ordinari | ly withi | n 30 days.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('5.20', 'Once documents are complete in all
 respects, export obligation shall be discharged within 30 days of receipt of
 complete documents /information.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('5.20', 'However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 1, 'Evaluate condition: 5.20 Export Obligation Discharge Certificate (EODC)
 (a) Authorisation holder shall apply for online EODC in ANF 5B with documents
 prescribed therein as a proof of EO fulfillment.');
@@ -6424,10 +7577,12 @@ INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 2, '
 any, shall be pointed out normally in one go.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 3, 'Evaluate condition: Once documents are complete in all
 12
-12
-5.20 Export Obligation Discharge Certificate (EODC)
-(a) Authorisation holder shall apply for online EODC in ANF 5B with documents
-prescribed therein as a proof of EO fulfillment.');
+5.17 Relief in A | verage E | xpor | t Obligation | | |
+(a) To provide | relief to e | xpor | ters of those s | ectors | where total | exports in that
+sector/pro | duct grou | p has | declined by | more tha | n 5% as co | mpared to the
+previous y | ear, avera | ge e | xport obligati | on for | the year m | ay be reduced
+proportion | ate to red | uctio | n in exports | of that | particular | sector/product
+group duri | ng the rele | vant | year as again | st the pr | eceding ye | ar.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 4, '5.20 Export Obligation Discharge Certificate (EODC)
 (a) Authorisation holder shall apply for online EODC in ANF 5B with documents
 prescribed therein as a proof of EO fulfillment.');
@@ -6435,20 +7590,32 @@ INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 5, '
 holder and an online copy will be forwarded to ICEGATE through API message
 exchange for further action by Jurisdictional Customs Authorities with whom
 BG/LUT has been executed.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 6, 'Once documents are complete in all
-12
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 6, '5.18 Maintena | nce of An | nual | Average Exp | ort Ob | ligation |
+The excess expor | ts done to | ward | s the average | export | obligation f | ulfilment of an
+EPCG authorisatio | n during a | year | can be used t | o offset a | ny shortfal | l in the Average
+EO done in other | year(s) of | the E | O period or th | e block | period as t | he case may be
+provided Average | EO impos | ed is | maintained o | n an ove | rall basis, w | ithin the block
+period or the EO p | eriod as a | pplic | able.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 7, 'Authorisation hol | der would | not b | e required to | maintain | average EO | as well for the
+ban period.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 8, 'On | ce docu | ments are c | omplete in all
 12
 5.20 Export Obligation Discharge Certificate (EODC)
 (a) Authorisation holder shall apply for online EODC in ANF 5B with documents
 prescribed therein as a proof of EO fulfillment.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 7, 'Run validation: 5.20 Export Obligation Discharge Certificate (EODC)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 9, 'Run validation: 5.20 Export Obligation Discharge Certificate (EODC)
 (a) Authorisation holder shall apply for online EODC in ANF 5B with documents
 prescribed therein as a proof of EO fulfillment.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 8, 'Run validation: (b) On being satisfied, RA concerned shall issue EODC to the EPCG authorisation
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 10, 'Run validation: (b) On being satisfied, RA concerned shall issue EODC to the EPCG authorisation
 holder and an online copy will be forwarded to ICEGATE through API message
 exchange for further action by Jurisdictional Customs Authorities with whom
 BG/LUT has been executed.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 9, 'Run validation: (c) RA shall process such applications ordinarily within 30 days.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 11, 'Run validation: (c) RA shall process such applications ordinarily within 30 days.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.20', 12, 'Handle exception: However, in
+case export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for
+calculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export
+obligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown
+continuous | decline.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'for');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'ANF');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'the');
@@ -6460,15 +7627,15 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'one');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'are');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'all');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'EODC');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'with');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'EPCG');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'copy');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'will');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'whom');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'been');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'such');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'days');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'tha');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'ear');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'ate');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'red');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'ken');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'aft');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'GFT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'RAs');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'keywords', 'end');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'tags', '5.20');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'tags', 'Export Obligation Discharge Certificate (EODC)');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.20', 'tags', 'business-rule');
@@ -6802,9 +7969,17 @@ exported, within two years from the date of clearance by Customs of such goods,
 with permission of RA / Customs Authority and Capital Goods in replacement
 thereof be imported under EPCG scheme.', 'Re-Export / Repair/Replacement of Capital Goods Imported governs how DGFT business controls should be applied, validated, and enforced.', 'Re-Export / Repair/Replacement of Capital Goods Imported explains the operating rule set that DEKAI should enforce. Key control points include In such cases, while allowing export, the
 Customs shall credit the duty benefit availed which can be debited again at the
-time of import of such replaced Capital Goods.', 'Indha Re-Export / Repair/Replacement of Capital Goods Imported section-la, Re-export / Repair/Replacement of Capital Goods Imported explains the operating rule set that DEKAI should enforce. Key control points include In such cases, while allowing export, the
+time of import of such replaced Capital Goods. The section also drives actions such as | | | | | | | | | |
+(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export
+obligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall
+in export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs
+Authorit | y..', 'Indha Re-Export / Repair/Replacement of Capital Goods Imported section-la, Re-export / Repair/Replacement of Capital Goods Imported explains the operating rule set that DEKAI should enforce. Key control points include In such cases, while allowing export, the
 Customs kandippa credit the duty benefit availed which can be debited again at the
-time of import of such replaced Capital Goods.', '5.23 Re-Export / Repair/Replacement of Capital Goods Imported
+time of import of such replaced Capital Goods. The section also drives actions such as | | | | | | | | | |
+(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export
+obligatio | n, | | he kandippa pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall
+in export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs
+Authorit | y..', '5.23 Re-Export / Repair/Replacement of Capital Goods Imported
 under EPCG Scheme
 (a) Capital Goods imported under EPCG scheme, which are found defective or
 unfit for use, may be re-exported to foreign supplier within three years from the
@@ -6821,6 +7996,44 @@ abroad within three years from the date of clearance by Customs of such goods,
 with permission of RA / Customs Authority. The duty component on the
 expenditure incurred on the repairs as well as the insurance and the freight, both
 13
+respects, expo | rt | | obligation s | hall be d | isc | har | ged | within | 30 days o | f receipt of
+complete docu | m | e | nts /informa | tion. | | | | | |
+5.21 Regular | iz | | ation of bo | nafide d | efa | ult | and | exit fr | om EPCG | scheme
+(a) Authoris | at | i | on holder s | hall have | th | e o | ption | to sur | render the | unutilised
+authoris | at | io | n at any poi | nt of tim | e. I | n su | ch ca | ses no | penalty or | fees shall be
+levied. | | | | | | | | | |
+(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export
+obligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall
+in export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs
+Authorit | y. | S | uch facility | can also b | e a | vail | ed b | y EPCG | authorisati | on holder to
+exit at hi | s | o | ption. | | | | | | |
+(c) In case | o | f | domestic | sourcing | of | ca | pital | goods | through | invalidation
+letter/A | RO |, | the duties, t | axes and | ces | s pa | yabl | e shall | be with refe | rence to the
+notional | C | u | stoms duties | /taxes/c | ess | sav | ed o | n the FO | R value of | capital goods
+(includin | g | s | pares, jigs, f | ixtures, d | ies | and | mou | lds). | |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP. | | | | | | |
+5.22 Mainte | na | | nce of Reco | rds | | | | | |
+Every EPCG au | th | o | risation hold | er shall | ma | intai | n, fo | r a peri | od of 2 yea | rs from date
+of redemption, | a | t | rue and pro | per accou | nt | of e | xpor | ts/ sup | plies made | and services
+rendered towa | rd | s | fulfillment o | f export | obl | igat | ion. | | |
+5.23 Re-Exp | or | t | / Repair/ | Replace | me | nt o | f Ca | pital G | oods Imp | orted
+under EPCG S | c | h | eme | | | | | | |
+(a) Capital Goo | d | s | imported u | nder EPC | G | sche | me, | which | are found | defective or
+unfit for use, m | ay | | be re-export | ed to for | eig | n su | pplie | r withi | n three yea | rs from the
+date of clearan | ce | b | y Customs o | f such go | od | s, wi | th p | ermissi | on of RA/C | ustoms
+Authority. Cons | e | q | uently, EO w | ould be r | e-f | ixed |. | | |
+(b) Capital Goo | ds | | imported an | d found d | ef | ectiv | e or | otherw | ise unfit fo | r use may be
+exported, with | in | t | wo years fro | m the da | te | of cl | eara | nce by | Customs of | such goods,
+with permissio | n | | of RA / Cus | toms Aut | ho | rity | and | Capital | Goods in | replacement
+thereof be imp | or | t | ed under EP | CG schem | e. I | n su | ch c | ases, w | hile allowin | g export, the
+Customs shall | cr | e | dit the duty | benefit | ava | iled | whi | ch can | be debited | again at the
+time of import | of | s | uch replace | d Capital | Go | ods. | | | |
+(c) Capital Goo | ds | | imported un | der EPC | G s | che | me, | may be | re-exporte | d for repairs
+abroad within | th | r | ee years fro | m the da | te | of cl | eara | nce by | Customs of | such goods,
+with permissi | on | | of RA / C | ustoms | Aut | hori | ty. | The du | ty compo | nent on the
+expenditure in | cu | r | red on the re | pairs as | we | ll as | the i | nsuran | ce and the f | reight, both
 13
 respects, export obligation shall be discharged within 30 days of receipt of
 complete documents /information.
@@ -6840,31 +8053,130 @@ time of import of such replaced Capital Goods.
 abroad within three years from the date of clearance by Customs of such goods,
 with permission of RA / Customs Authority. The duty component on the
 expenditure incurred on the repairs as well as the insurance and the freight, both
-ways shall be taken into account for re-fixation of the EO.', '[13, 14]', '["are", "for", "use", "may", "the", "and", "two", "can", "EPCG", "from", "date", "such", "with", "duty", "time", "well", "both", "days", "ways", "into"]', 'Provide knowledge guidance for Re-Export / Repair/Replacement of Capital Goods Imported.', '["5.23", "Re-Export / Repair/Replacement of Capital Goods Imported", "business-rule", "document-driven", "dgft"]');
+ways shall be taken into account for re-fixation of the EO.', '[13, 14]', '["are", "for", "use", "may", "the", "and", "two", "can", "isc", "har", "ged", "nts", "efa", "ult", "sur", "any", "poi", "tim", "ses", "PCG"]', 'Support Re-Export / Repair/Replacement of Capital Goods Imported processing and compliance validation.', '["5.23", "Re-Export / Repair/Replacement of Capital Goods Imported", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_23-R001', '5.23', 'In such cases, while allowing export, the
 Customs shall credit the duty benefit availed which can be debited again at the
-time of import of such replaced Capital Goods.', 'business_rule', 'Re-Export / Repair/Replacement of Capital Goods Imported', 'Not explicitly covered in uploaded documents.', 'In such cases, while allowing export, the
+time of import of such replaced Capital Goods.', 'business_rule', 'Re-Export / Repair/Replacement of Capital Goods Imported', '| | | | | | | | | |
+(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export
+obligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall
+in export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs
+Authorit | y.', 'In such cases, while allowing export, the
 Customs shall credit the duty benefit availed which can be debited again at the
-time of import of such replaced Capital Goods.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.23 - Re-Export / Repair/Replacement of Capital Goods Imported.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_23-R002', '5.23', 'The duty component on the
+time of import of such replaced Capital Goods.', '| | | | | | | | | |
+(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export
+obligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall
+in export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs
+Authorit | y.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.23 - Re-Export / Repair/Replacement of Capital Goods Imported.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_23-R002', '5.23', 'I | n su | ch ca | ses no | penalty or | fees shall be
+levied.', 'business_rule', 'Re-Export / Repair/Replacement of Capital Goods Imported', '| | | | | | |
+(c) In case | o | f | domestic | sourcing | of | ca | pital | goods | through | invalidation
+letter/A | RO |, | the duties, t | axes and | ces | s pa | yabl | e shall | be with refe | rence to the
+notional | C | u | stoms duties | /taxes/c | ess | sav | ed o | n the FO | R value of | capital goods
+(includin | g | s | pares, jigs, f | ixtures, d | ies | and | mou | lds).', 'The duty component on the
 expenditure incurred on the repairs as well as the insurance and the freight, both
 13
+respects, expo | rt | | obligation s | hall be d | isc | har | ged | within | 30 days o | f receipt of
+complete docu | m | e | nts /informa | tion.', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.23 - Re-Export / Repair/Replacement of Capital Goods Imported.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_23-R003', '5.23', '| | | | | | | | | |
+(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export
+obligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall
+in export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs
+Authorit | y.', 'business_rule', 'Re-Export / Repair/Replacement of Capital Goods Imported', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', 'I | n su | ch ca | ses no | penalty or | fees shall be
+levied.', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.23 - Re-Export / Repair/Replacement of Capital Goods Imported.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_23-R004', '5.23', '| | | | | | |
+(c) In case | o | f | domestic | sourcing | of | ca | pital | goods | through | invalidation
+letter/A | RO |, | the duties, t | axes and | ces | s pa | yabl | e shall | be with refe | rence to the
+notional | C | u | stoms duties | /taxes/c | ess | sav | ed o | n the FO | R value of | capital goods
+(includin | g | s | pares, jigs, f | ixtures, d | ies | and | mou | lds).', 'business_rule', 'Re-Export / Repair/Replacement of Capital Goods Imported', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', '| | | | | | | | | |
+(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export
+obligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall
+in export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs
+Authorit | y.', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.23 - Re-Export / Repair/Replacement of Capital Goods Imported.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_23-R005', '5.23', '| | | | | | |
+5.22 Mainte | na | | nce of Reco | rds | | | | | |
+Every EPCG au | th | o | risation hold | er shall | ma | intai | n, fo | r a peri | od of 2 yea | rs from date
+of redemption, | a | t | rue and pro | per accou | nt | of e | xpor | ts/ sup | plies made | and services
+rendered towa | rd | s | fulfillment o | f export | obl | igat | ion.', 'business_rule', 'Re-Export / Repair/Replacement of Capital Goods Imported', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', '| | | | | | |
+(c) In case | o | f | domestic | sourcing | of | ca | pital | goods | through | invalidation
+letter/A | RO |, | the duties, t | axes and | ces | s pa | yabl | e shall | be with refe | rence to the
+notional | C | u | stoms duties | /taxes/c | ess | sav | ed o | n the FO | R value of | capital goods
+(includin | g | s | pares, jigs, f | ixtures, d | ies | and | mou | lds).', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.23 - Re-Export / Repair/Replacement of Capital Goods Imported.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_23-R006', '5.23', 'I | n su | ch c | ases, w | hile allowin | g export, the
+Customs shall | cr | e | dit the duty | benefit | ava | iled | whi | ch can | be debited | again at the
+time of import | of | s | uch replace | d Capital | Go | ods.', 'business_rule', 'Re-Export / Repair/Replacement of Capital Goods Imported', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', '| | | | | | |
+5.22 Mainte | na | | nce of Reco | rds | | | | | |
+Every EPCG au | th | o | risation hold | er shall | ma | intai | n, fo | r a peri | od of 2 yea | rs from date
+of redemption, | a | t | rue and pro | per accou | nt | of e | xpor | ts/ sup | plies made | and services
+rendered towa | rd | s | fulfillment o | f export | obl | igat | ion.', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.23 - Re-Export / Repair/Replacement of Capital Goods Imported.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_23-R007', '5.23', '| The du | ty compo | nent on the
+expenditure in | cu | r | red on the re | pairs as | we | ll as | the i | nsuran | ce and the f | reight, both
 13
 respects, export obligation shall be discharged within 30 days of receipt of
-complete documents /information.', 'business_rule', 'Re-Export / Repair/Replacement of Capital Goods Imported', 'Not explicitly covered in uploaded documents.', 'The duty component on the
+complete documents /information.', 'business_rule', 'Re-Export / Repair/Replacement of Capital Goods Imported', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', 'I | n su | ch c | ases, w | hile allowin | g export, the
+Customs shall | cr | e | dit the duty | benefit | ava | iled | whi | ch can | be debited | again at the
+time of import | of | s | uch replace | d Capital | Go | ods.', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.23 - Re-Export / Repair/Replacement of Capital Goods Imported.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_23-R008', '5.23', 'The duty component on the
 expenditure incurred on the repairs as well as the insurance and the freight, both
-13
+ways shall be taken into account for re-fixation of the EO.', 'business_rule', 'Re-Export / Repair/Replacement of Capital Goods Imported', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', '| The du | ty compo | nent on the
+expenditure in | cu | r | red on the re | pairs as | we | ll as | the i | nsuran | ce and the f | reight, both
 13
 respects, export obligation shall be discharged within 30 days of receipt of
-complete documents /information.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.23 - Re-Export / Repair/Replacement of Capital Goods Imported.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_23-R003', '5.23', 'The duty component on the
-expenditure incurred on the repairs as well as the insurance and the freight, both
-ways shall be taken into account for re-fixation of the EO.', 'business_rule', 'Re-Export / Repair/Replacement of Capital Goods Imported', 'Not explicitly covered in uploaded documents.', 'The duty component on the
-expenditure incurred on the repairs as well as the insurance and the freight, both
-ways shall be taken into account for re-fixation of the EO.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.23 - Re-Export / Repair/Replacement of Capital Goods Imported.');
-INSERT INTO documents (section_code, document_name) VALUES ('5.23', 'The duty component on the
-expenditure incurred on the repairs as well as the insurance and the freight, both
-13
+complete documents /information.', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.23 - Re-Export / Repair/Replacement of Capital Goods Imported.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.23', '| | | | | | | | | |
+(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export
+obligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall
+in export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs
+Authorit | y.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.23', '| | | | | | |
+(c) In case | o | f | domestic | sourcing | of | ca | pital | goods | through | invalidation
+letter/A | RO |, | the duties, t | axes and | ces | s pa | yabl | e shall | be with refe | rence to the
+notional | C | u | stoms duties | /taxes/c | ess | sav | ed o | n the FO | R value of | capital goods
+(includin | g | s | pares, jigs, f | ixtures, d | ies | and | mou | lds).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.23', '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.23', '| The du | ty compo | nent on the
+expenditure in | cu | r | red on the re | pairs as | we | ll as | the i | nsuran | ce and the f | reight, both
 13
 respects, export obligation shall be discharged within 30 days of receipt of
 complete documents /information.');
@@ -6889,21 +8201,55 @@ with permission of RA / Customs Authority.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('5.23', 'The duty component on the
 expenditure incurred on the repairs as well as the insurance and the freight, both
 13
+respects, expo | rt | | obligation s | hall be d | isc | har | ged | within | 30 days o | f receipt of
+complete docu | m | e | nts /informa | tion.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.23', '| | |
+(b) Capital Goo | ds | | imported an | d found d | ef | ectiv | e or | otherw | ise unfit fo | r use may be
+exported, with | in | t | wo years fro | m the da | te | of cl | eara | nce by | Customs of | such goods,
+with permissio | n | | of RA / Cus | toms Aut | ho | rity | and | Capital | Goods in | replacement
+thereof be imp | or | t | ed under EP | CG schem | e.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.23', '| | | |
+(c) Capital Goo | ds | | imported un | der EPC | G s | che | me, | may be | re-exporte | d for repairs
+abroad within | th | r | ee years fro | m the da | te | of cl | eara | nce by | Customs of | such goods,
+with permissi | on | | of RA / C | ustoms | Aut | hori | ty.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('5.23', '| The du | ty compo | nent on the
+expenditure in | cu | r | red on the re | pairs as | we | ll as | the i | nsuran | ce and the f | reight, both
 13
 respects, export obligation shall be discharged within 30 days of receipt of
 complete documents /information.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.23', 1, 'Run validation: In such cases, while allowing export, the
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.23', 1, 'Evaluate condition: | | | | | | | | | |
+(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export
+obligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall
+in export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs
+Authorit | y.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.23', 2, 'Evaluate condition: | | | | | | |
+(c) In case | o | f | domestic | sourcing | of | ca | pital | goods | through | invalidation
+letter/A | RO |, | the duties, t | axes and | ces | s pa | yabl | e shall | be with refe | rence to the
+notional | C | u | stoms duties | /taxes/c | ess | sav | ed o | n the FO | R value of | capital goods
+(includin | g | s | pares, jigs, f | ixtures, d | ies | and | mou | lds).');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.23', 3, 'Evaluate condition: | |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.23', 4, '| | | | | | | | | |
+(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export
+obligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall
+in export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs
+Authorit | y.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.23', 5, '| |
+(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-
+moto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in
+paragrap | h | 4 |.50 of HBP.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.23', 6, 'Run validation: In such cases, while allowing export, the
 Customs shall credit the duty benefit availed which can be debited again at the
 time of import of such replaced Capital Goods.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.23', 2, 'Run validation: The duty component on the
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.23', 7, 'Run validation: The duty component on the
 expenditure incurred on the repairs as well as the insurance and the freight, both
 13
-13
-respects, export obligation shall be discharged within 30 days of receipt of
-complete documents /information.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.23', 3, 'Run validation: The duty component on the
-expenditure incurred on the repairs as well as the insurance and the freight, both
-ways shall be taken into account for re-fixation of the EO.');
+respects, expo | rt | | obligation s | hall be d | isc | har | ged | within | 30 days o | f receipt of
+complete docu | m | e | nts /informa | tion.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.23', 8, 'Run validation: I | n su | ch ca | ses no | penalty or | fees shall be
+levied.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'are');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'for');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'use');
@@ -6912,18 +8258,18 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'and');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'two');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'can');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'EPCG');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'from');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'date');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'such');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'with');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'duty');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'time');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'well');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'both');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'days');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'ways');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'into');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'isc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'har');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'ged');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'nts');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'efa');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'ult');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'sur');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'poi');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'tim');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'ses');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'keywords', 'PCG');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'tags', '5.23');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'tags', 'Re-Export / Repair/Replacement of Capital Goods Imported');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.23', 'tags', 'business-rule');
@@ -7070,6 +8416,41 @@ Authorisations issued from 18.04.2013 till the issue of notification of HBP 2015
 20 shall be governed by provisions contained in Public Notice No.1 dated
 18.04.2013. The EPCG Authorisations issued between notification of HBP 2015-
 14
+ways shall be taken int | o account for | re-fixation | of the EO. | |
+5.24 Penal Action | | | | |
+In case of failure to | fulfil expo | rt obligati | on or an | y other cond | ition of
+authorisation, authoris | ation holder | shall be lia | ble for acti | on under FT ( | D&R) Act,
+1992, as amended, Ord | ers and Rule | s made th | ereunder, | provisions of | FTP/HBP,
+Customs Act, 1962, as a | mended from | time to ti | me or any | other law in fo | rce.
+5.25 Clubbing of EP | CG authoris | ations | | |
+(a) Clubbing of two | or more | EPCG aut | horisations | issued to | the same
+authorisation holder w | ould be perm | itted. | | |
+(b) An application for c | lubbing can b | e made to | RA concer | ned in ANF 5C |. Clubbing
+shall only be permitted | in case expor | t products | endorsed o | n the authoris | ations are
+same/similar and if aut | horisations a | re issued b | y the same | RA. |
+(c) Total export obliga | tion would | be re-fixed | taking int | o account tot | al of duty
+saved amount of the cl | ubbed author | isations. | | |
+(d) On Clubbing, autho | risations for | all purpo | se shall be | deemed to b | e a single
+EPCG authorisation. Ex | port obligati | on period f | or clubbed | authorisation | s shall be
+reckoned from first aut | horisation is | sue date. | | |
+(e) Average export ob | ligation for | clubbed au | thorisatio | ns would be | highest of
+average export obligati | ons endorsed | on individ | ual author | isations so clu | bbed.
+(f) Clubbing would be | permitted du | ring valid | EOP inclu | ding extended | period, if
+any. However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
+same policy period. | | | | |
+(g) In case of clubbing | of EPCG auth | orisations | where EO c | an be fulfilled | by export
+of alternate prod | uct(s)/servic | e(s), th | e propo | rtion of | alternate
+product(s)/service(s) f | or EO fulfill | ment/ regu | larization | will be restric | ted to the
+lowest of the percentag | e of alternate | product(s | )/service(s | ) allowed in th | e clubbed
+authorisations. | | | | |
+(h) EPCG authorisati | ons issued | prior to 0 | 1.04.2007 | shall be gov | erned by
+provisions contained | in Chapter | 5 of H | BP Vol.1 | (RE-2006).T | he EPCG
+Authorisations issued | between 01.0 | 4.2007 an | d 17.04.20 | 13 shall be go | verned by
+provisions contained in | Chapter 5 of | HBP Vol.1 | (RE-2012, | as amended). | The EPCG
+Authorisations issued f | rom 18.04.20 | 13 till the | issue of no | tification of H | BP 2015-
+20 shall be governed | by provisio | ns contai | ned in Pu | blic Notice N | o.1 dated
+18.04.2013. The EPCG | Authorisation | s issued b | etween not | ification of HB | P 2015-
 14
 ways shall be taken into account for re-fixation of the EO.
 5.25 Clubbing of EPCG authorisations
@@ -7111,7 +8492,7 @@ Authorisations issued from 18.04.2013 till the issue of notification of HBP 2015
 20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
 contained in HBP 2015-20. The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
-provisions contained in HBP 2015-20 (RE-2017).', '[14, 15]', '["two", "the", "for", "can", "ANF", "are", "and", "all", "EOP", "any", "may", "HBP", "Vol", "RE-", "EPCG", "more", "same", "made", "only", "case"]', 'Support Clubbing of EPCG authorisations processing and compliance validation.', '["5.25", "Clubbing of EPCG authorisations", "business-rule", "document-driven", "dgft"]');
+provisions contained in HBP 2015-20 (RE-2017).', '[14, 15]', '["two", "the", "for", "can", "ANF", "are", "and", "all", "EOP", "any", "may", "HBP", "Vol", "RE-", "int", "lia", "ble", "D&R", "Act", "Ord"]', 'Support Clubbing of EPCG authorisations processing and compliance validation.', '["5.25", "Clubbing of EPCG authorisations", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R001', '5.25', 'Clubbing
 shall only be permitted in case export products endorsed on the authorisations are
 same/similar and if authorisations are issued by the same RA.', 'business_rule', 'Clubbing of EPCG authorisations', 'Clubbing
@@ -7128,16 +8509,16 @@ EPCG authorisation.', 'business_rule', 'Clubbing of EPCG authorisations', '(f) C
 any.', '(d) On Clubbing, authorisations for all purpose shall be deemed to be a single
 EPCG authorisation.', 'Clubbing
 shall only be permitted in case export products endorsed on the authorisations are
-same/similar and if authorisations are issued by the same RA.', 'However, clubbing in case of all authorisations where EO period is over may
-be allowed for regularisation purposes provided they have been issued under
+same/similar and if authorisations are issued by the same RA.', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
 same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R003', '5.25', 'Export obligation period for clubbed authorisations shall be
 reckoned from first authorisation issue date.', 'business_rule', 'Clubbing of EPCG authorisations', 'However, clubbing in case of all authorisations where EO period is over may
 be allowed for regularisation purposes provided they have been issued under
 same policy period.', 'Export obligation period for clubbed authorisations shall be
 reckoned from first authorisation issue date.', 'Export obligation period for clubbed authorisations shall be
-reckoned from first authorisation issue date.', 'However, clubbing in case of all authorisations where EO period is over may
-be allowed for regularisation purposes provided they have been issued under
+reckoned from first authorisation issue date.', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
 same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R004', '5.25', '(h) EPCG authorisations issued prior to 01.04.2007 shall be governed by
 provisions contained in Chapter 5 of HBP Vol.1 (RE-2006).The EPCG
@@ -7151,8 +8532,8 @@ provisions contained in Chapter 5 of HBP Vol.1 (RE-2006).The EPCG
 Authorisations issued between 01.04.2007 and 17.04.2013 shall be governed by
 provisions contained in Chapter 5 of HBP Vol.1 (RE-2012, as amended).', 'However, clubbing in case of all authorisations where EO period is over may
 be allowed for regularisation purposes provided they have been issued under
-same policy period.', 'However, clubbing in case of all authorisations where EO period is over may
-be allowed for regularisation purposes provided they have been issued under
+same policy period.', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
 same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R005', '5.25', 'The EPCG
 Authorisations issued from 18.04.2013 till the issue of notification of HBP 2015-
@@ -7166,25 +8547,121 @@ Authorisations issued from 18.04.2013 till the issue of notification of HBP 2015
 18.04.2013.', '(h) EPCG authorisations issued prior to 01.04.2007 shall be governed by
 provisions contained in Chapter 5 of HBP Vol.1 (RE-2006).The EPCG
 Authorisations issued between 01.04.2007 and 17.04.2013 shall be governed by
-provisions contained in Chapter 5 of HBP Vol.1 (RE-2012, as amended).', 'However, clubbing in case of all authorisations where EO period is over may
-be allowed for regularisation purposes provided they have been issued under
+provisions contained in Chapter 5 of HBP Vol.1 (RE-2012, as amended).', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
 same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R006', '5.25', 'The EPCG Authorisations issued between notification of HBP 2015-
 14
+ways shall be taken int | o account for | re-fixation | of the EO.', 'business_rule', 'Clubbing of EPCG authorisations', 'The EPCG Authorisations issued between notification of HBP 2015-
 14
-ways shall be taken into account for re-fixation of the EO.', 'business_rule', 'Clubbing of EPCG authorisations', 'The EPCG Authorisations issued between notification of HBP 2015-
+ways shall be taken int | o account for | re-fixation | of the EO.', 'The EPCG Authorisations issued between notification of HBP 2015-
 14
-14
-ways shall be taken into account for re-fixation of the EO.', 'The EPCG Authorisations issued between notification of HBP 2015-
-14
-14
-ways shall be taken into account for re-fixation of the EO.', 'The EPCG
+ways shall be taken int | o account for | re-fixation | of the EO.', 'The EPCG
 Authorisations issued from 18.04.2013 till the issue of notification of HBP 2015-
 20 shall be governed by provisions contained in Public Notice No.1 dated
-18.04.2013.', 'However, clubbing in case of all authorisations where EO period is over may
-be allowed for regularisation purposes provided they have been issued under
+18.04.2013.', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
 same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R007', '5.25', '(h)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R007', '5.25', '| |
+5.24 Penal Action | | | | |
+In case of failure to | fulfil expo | rt obligati | on or an | y other cond | ition of
+authorisation, authoris | ation holder | shall be lia | ble for acti | on under FT ( | D&R) Act,
+1992, as amended, Ord | ers and Rule | s made th | ereunder, | provisions of | FTP/HBP,
+Customs Act, 1962, as a | mended from | time to ti | me or any | other law in fo | rce.', 'business_rule', 'Clubbing of EPCG authorisations', '| |
+5.24 Penal Action | | | | |
+In case of failure to | fulfil expo | rt obligati | on or an | y other cond | ition of
+authorisation, authoris | ation holder | shall be lia | ble for acti | on under FT ( | D&R) Act,
+1992, as amended, Ord | ers and Rule | s made th | ereunder, | provisions of | FTP/HBP,
+Customs Act, 1962, as a | mended from | time to ti | me or any | other law in fo | rce.', '| |
+5.24 Penal Action | | | | |
+In case of failure to | fulfil expo | rt obligati | on or an | y other cond | ition of
+authorisation, authoris | ation holder | shall be lia | ble for acti | on under FT ( | D&R) Act,
+1992, as amended, Ord | ers and Rule | s made th | ereunder, | provisions of | FTP/HBP,
+Customs Act, 1962, as a | mended from | time to ti | me or any | other law in fo | rce.', 'The EPCG Authorisations issued between notification of HBP 2015-
+14
+ways shall be taken int | o account for | re-fixation | of the EO.', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
+same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R008', '5.25', 'Clubbing
+shall only be permitted | in case expor | t products | endorsed o | n the authoris | ations are
+same/similar and if aut | horisations a | re issued b | y the same | RA.', 'business_rule', 'Clubbing of EPCG authorisations', 'Clubbing
+shall only be permitted | in case expor | t products | endorsed o | n the authoris | ations are
+same/similar and if aut | horisations a | re issued b | y the same | RA.', 'Clubbing
+shall only be permitted | in case expor | t products | endorsed o | n the authoris | ations are
+same/similar and if aut | horisations a | re issued b | y the same | RA.', '| |
+5.24 Penal Action | | | | |
+In case of failure to | fulfil expo | rt obligati | on or an | y other cond | ition of
+authorisation, authoris | ation holder | shall be lia | ble for acti | on under FT ( | D&R) Act,
+1992, as amended, Ord | ers and Rule | s made th | ereunder, | provisions of | FTP/HBP,
+Customs Act, 1962, as a | mended from | time to ti | me or any | other law in fo | rce.', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
+same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R009', '5.25', '| | |
+(d) On Clubbing, autho | risations for | all purpo | se shall be | deemed to b | e a single
+EPCG authorisation.', 'business_rule', 'Clubbing of EPCG authorisations', '(f) Clubbing would be | permitted du | ring valid | EOP inclu | ding extended | period, if
+any.', '| | |
+(d) On Clubbing, autho | risations for | all purpo | se shall be | deemed to b | e a single
+EPCG authorisation.', '5.25 Clubbing of EP | CG authoris | ations | | |
+(a) Clubbing of two | or more | EPCG aut | horisations | issued to | the same
+authorisation holder w | ould be perm | itted.', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
+same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R010', '5.25', 'Ex | port obligati | on period f | or clubbed | authorisation | s shall be
+reckoned from first aut | horisation is | sue date.', 'business_rule', 'Clubbing of EPCG authorisations', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
+same policy period.', 'Ex | port obligati | on period f | or clubbed | authorisation | s shall be
+reckoned from first aut | horisation is | sue date.', 'Clubbing
+shall only be permitted | in case expor | t products | endorsed o | n the authoris | ations are
+same/similar and if aut | horisations a | re issued b | y the same | RA.', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
+same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R011', '5.25', '| | | | |
+(h) EPCG authorisati | ons issued | prior to 0 | 1.04.2007 | shall be gov | erned by
+provisions contained | in Chapter | 5 of H | BP Vol.1 | (RE-2006).T | he EPCG
+Authorisations issued | between 01.0 | 4.2007 an | d 17.04.20 | 13 shall be go | verned by
+provisions contained in | Chapter 5 of | HBP Vol.1 | (RE-2012, | as amended).', 'business_rule', 'Clubbing of EPCG authorisations', '| | | | |
+(g) In case of clubbing | of EPCG auth | orisations | where EO c | an be fulfilled | by export
+of alternate prod | uct(s)/servic | e(s), th | e propo | rtion of | alternate
+product(s)/service(s) f | or EO fulfill | ment/ regu | larization | will be restric | ted to the
+lowest of the percentag | e of alternate | product(s | )/service(s | ) allowed in th | e clubbed
+authorisations.', '| | | | |
+(h) EPCG authorisati | ons issued | prior to 0 | 1.04.2007 | shall be gov | erned by
+provisions contained | in Chapter | 5 of H | BP Vol.1 | (RE-2006).T | he EPCG
+Authorisations issued | between 01.0 | 4.2007 an | d 17.04.20 | 13 shall be go | verned by
+provisions contained in | Chapter 5 of | HBP Vol.1 | (RE-2012, | as amended).', '| | | | |
+(h) EPCG authorisati | ons issued | prior to 0 | 1.04.2007 | shall be gov | erned by
+provisions contained | in Chapter | 5 of H | BP Vol.1 | (RE-2006).T | he EPCG
+Authorisations issued | between 01.0 | 4.2007 an | d 17.04.20 | 13 shall be go | verned by
+provisions contained in | Chapter 5 of | HBP Vol.1 | (RE-2012, | as amended).', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
+same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R012', '5.25', '| The EPCG
+Authorisations issued f | rom 18.04.20 | 13 till the | issue of no | tification of H | BP 2015-
+20 shall be governed | by provisio | ns contai | ned in Pu | blic Notice N | o.1 dated
+18.04.2013.', 'business_rule', 'Clubbing of EPCG authorisations', '| The EPCG
+Authorisations issued f | rom 18.04.20 | 13 till the | issue of no | tification of H | BP 2015-
+20 shall be governed | by provisio | ns contai | ned in Pu | blic Notice N | o.1 dated
+18.04.2013.', '| The EPCG
+Authorisations issued f | rom 18.04.20 | 13 till the | issue of no | tification of H | BP 2015-
+20 shall be governed | by provisio | ns contai | ned in Pu | blic Notice N | o.1 dated
+18.04.2013.', '| The EPCG
+Authorisations issued f | rom 18.04.20 | 13 till the | issue of no | tification of H | BP 2015-
+20 shall be governed | by provisio | ns contai | ned in Pu | blic Notice N | o.1 dated
+18.04.2013.', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
+same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R013', '5.25', 'The EPCG | Authorisation | s issued b | etween not | ification of HB | P 2015-
+14
+ways shall be taken into account for re-fixation of the EO.', 'business_rule', 'Clubbing of EPCG authorisations', 'The EPCG | Authorisation | s issued b | etween not | ification of HB | P 2015-
+14
+ways shall be taken into account for re-fixation of the EO.', 'The EPCG | Authorisation | s issued b | etween not | ification of HB | P 2015-
+14
+ways shall be taken into account for re-fixation of the EO.', 'The EPCG | Authorisation | s issued b | etween not | ification of HB | P 2015-
+14
+ways shall be taken into account for re-fixation of the EO.', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
+same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R014', '5.25', '(h)
 EPCG authorisations issued prior to 01.04.2007 shall be governed by
 provisions contained in Chapter 5 of HBP Vol.1 (RE-2006).The EPCG
 Authorisations issued between 01.04.2007 and 17.04.2013 shall be governed by
@@ -7202,35 +8679,34 @@ authorisations.', '(h)
 EPCG authorisations issued prior to 01.04.2007 shall be governed by
 provisions contained in Chapter 5 of HBP Vol.1 (RE-2006).The EPCG
 Authorisations issued between 01.04.2007 and 17.04.2013 shall be governed by
-provisions contained in Chapter 5 of HBP Vol.1 (RE-2012, as amended).', 'The EPCG Authorisations issued between notification of HBP 2015-
-14
-14
-ways shall be taken into account for re-fixation of the EO.', 'However, clubbing in case of all authorisations where EO period is over may
-be allowed for regularisation purposes provided they have been issued under
+provisions contained in Chapter 5 of HBP Vol.1 (RE-2012, as amended).', '(h)
+EPCG authorisations issued prior to 01.04.2007 shall be governed by
+provisions contained in Chapter 5 of HBP Vol.1 (RE-2006).The EPCG
+Authorisations issued between 01.04.2007 and 17.04.2013 shall be governed by
+provisions contained in Chapter 5 of HBP Vol.1 (RE-2012, as amended).', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
 same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R008', '5.25', 'The EPCG Authorisations issued between notification of HBP 2015-
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R015', '5.25', 'The EPCG Authorisations issued between notification of HBP 2015-
 20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
 contained in HBP 2015-20.', 'business_rule', 'Clubbing of EPCG authorisations', 'The EPCG Authorisations issued between notification of HBP 2015-
 20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
 contained in HBP 2015-20.', 'The EPCG Authorisations issued between notification of HBP 2015-
 20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
-contained in HBP 2015-20.', '(h)
-EPCG authorisations issued prior to 01.04.2007 shall be governed by
-provisions contained in Chapter 5 of HBP Vol.1 (RE-2006).The EPCG
-Authorisations issued between 01.04.2007 and 17.04.2013 shall be governed by
-provisions contained in Chapter 5 of HBP Vol.1 (RE-2012, as amended).', 'However, clubbing in case of all authorisations where EO period is over may
-be allowed for regularisation purposes provided they have been issued under
+contained in HBP 2015-20.', 'The EPCG Authorisations issued between notification of HBP 2015-
+20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
+contained in HBP 2015-20.', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
 same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R009', '5.25', 'The EPCG Authorisations issued between notification
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_25-R016', '5.25', 'The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
 provisions contained in HBP 2015-20 (RE-2017).', 'business_rule', 'Clubbing of EPCG authorisations', 'The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
 provisions contained in HBP 2015-20 (RE-2017).', 'The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
-provisions contained in HBP 2015-20 (RE-2017).', 'The EPCG Authorisations issued between notification of HBP 2015-
-20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
-contained in HBP 2015-20.', 'However, clubbing in case of all authorisations where EO period is over may
-be allowed for regularisation purposes provided they have been issued under
+provisions contained in HBP 2015-20 (RE-2017).', 'The EPCG Authorisations issued between notification
+of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
+provisions contained in HBP 2015-20 (RE-2017).', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
 same policy period.', 'DEKAI should produce a compliance decision for 5.25 - Clubbing of EPCG authorisations.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('5.25', 'Clubbing
 shall only be permitted in case export products endorsed on the authorisations are
@@ -7251,6 +8727,32 @@ Authorisations issued from 18.04.2013 till the issue of notification of HBP 2015
 18.04.2013.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('5.25', 'The EPCG Authorisations issued between notification of HBP 2015-
 14
+ways shall be taken int | o account for | re-fixation | of the EO.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.25', '| |
+5.24 Penal Action | | | | |
+In case of failure to | fulfil expo | rt obligati | on or an | y other cond | ition of
+authorisation, authoris | ation holder | shall be lia | ble for acti | on under FT ( | D&R) Act,
+1992, as amended, Ord | ers and Rule | s made th | ereunder, | provisions of | FTP/HBP,
+Customs Act, 1962, as a | mended from | time to ti | me or any | other law in fo | rce.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.25', 'Clubbing
+shall only be permitted | in case expor | t products | endorsed o | n the authoris | ations are
+same/similar and if aut | horisations a | re issued b | y the same | RA.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.25', '(f) Clubbing would be | permitted du | ring valid | EOP inclu | ding extended | period, if
+any.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.25', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
+same policy period.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.25', '| | | | |
+(g) In case of clubbing | of EPCG auth | orisations | where EO c | an be fulfilled | by export
+of alternate prod | uct(s)/servic | e(s), th | e propo | rtion of | alternate
+product(s)/service(s) f | or EO fulfill | ment/ regu | larization | will be restric | ted to the
+lowest of the percentag | e of alternate | product(s | )/service(s | ) allowed in th | e clubbed
+authorisations.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.25', '| The EPCG
+Authorisations issued f | rom 18.04.20 | 13 till the | issue of no | tification of H | BP 2015-
+20 shall be governed | by provisio | ns contai | ned in Pu | blic Notice N | o.1 dated
+18.04.2013.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.25', 'The EPCG | Authorisation | s issued b | etween not | ification of HB | P 2015-
 14
 ways shall be taken into account for re-fixation of the EO.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('5.25', '(g) In case of clubbing of EPCG authorisations where EO can be fulfilled by export
@@ -7271,10 +8773,16 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('5.25', 'The EPCG 
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
 provisions contained in HBP 2015-20 (RE-2017).');
 INSERT INTO documents (section_code, document_name) VALUES ('5.25', '(b) An application for clubbing can be made to RA concerned in ANF 5C.');
+INSERT INTO documents (section_code, document_name) VALUES ('5.25', '| | |
+(b) An application for c | lubbing can b | e made to | RA concer | ned in ANF 5C |.');
 INSERT INTO authorities (section_code, authority_name) VALUES ('5.25', 'RA');
 INSERT INTO authorities (section_code, authority_name) VALUES ('5.25', 'An application for clubbing can be made to RA');
+INSERT INTO authorities (section_code, authority_name) VALUES ('5.25', 'Customs');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('5.25', 'However, clubbing in case of all authorisations where EO period is over may
 be allowed for regularisation purposes provided they have been issued under
+same policy period.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('5.25', 'However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may
+be allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under
 same policy period.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.25', 1, 'Evaluate condition: Clubbing
 shall only be permitted in case export products endorsed on the authorisations are
@@ -7327,12 +8835,12 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'HBP');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'Vol');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'RE-');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'EPCG');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'more');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'same');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'made');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'only');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'case');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'int');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'lia');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'ble');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'D&R');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'Act');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'keywords', 'Ord');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'tags', '5.25');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'tags', 'Clubbing of EPCG authorisations');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.25', 'tags', 'business-rule');
@@ -7387,19 +8895,16 @@ reduced export obligation of 75% for green technology products are:
 (xi) Wastewater Treatment and Recycling,
 (xii) Rainwater harvesting system and rainwater filters, and
 (xiii) Green Hydrogen. 15
-15
-20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
-contained in HBP 2015-20. The EPCG Authorisations issued between notification
-of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
-provisions contained in HBP 2015-20 (RE-2017).', 'Green Technology Products governs how DGFT business controls should be applied, validated, and enforced.', 'Green Technology Products explains the operating rule set that DEKAI should enforce. Key control points include 15
-15
-20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
-contained in HBP 2015-20. The section also drives actions such as The EPCG Authorisations issued between notification
+the notifica | tion of HBP 2 | 015-20 | (RE-2017) | shall | be gov | erned b | y | provisions
+ned in HBP | 2015-20. Th | e EPCG | Authorisati | ons i | ssued b | etwee | n | notification
+2015-20 ( | RE-2017) till | the not | ification of | HBP | 2023 s | hall be | g | overned by
+ions contai | ned in HBP 2 | 015-20 | (RE-2017).', 'Green Technology Products governs how DGFT business controls should be applied, validated, and enforced.', 'Green Technology Products explains the operating rule set that DEKAI should enforce. Key control points include 15
+the notifica | tion of HBP 2 | 015-20 | (RE-2017) | shall | be gov | erned b | y | provisions
+ned in HBP | 2015-20. The section also drives actions such as The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
 provisions contained in HBP 2015-20 (RE-2017)..', 'Indha Green Technology Products section-la, Green Technology Products explains the operating rule set that DEKAI should enforce. Key control points include 15
-15
-20 till the notification of HBP 2015-20 (RE-2017) kandippa be governed by provisions
-contained in HBP 2015-20. The section also drives actions such as The EPCG Authorisations issued between notification
+the notifica | tion of HBP 2 | 015-20 | (RE-2017) | kandippa | be gov | erned b | y | provisions
+ned in HBP | 2015-20. The section also drives actions such as The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 kandippa be governed by
 provisions contained in HBP 2015-20 (RE-2017)..', '5.26 Green Technology Products
 The Export Products covered under Paragraph 5.10 of FTP which provides for
@@ -7419,33 +8924,69 @@ reduced export obligation of 75% for green technology products are:
 (xii) Rainwater harvesting system and rainwater filters, and
 (xiii) Green Hydrogen.
 15
+the notifica | tion of HBP 2 | 015-20 | (RE-2017) | shall | be gov | erned b | y | provisions
+ned in HBP | 2015-20. Th | e EPCG | Authorisati | ons i | ssued b | etwee | n | notification
+2015-20 ( | RE-2017) till | the not | ification of | HBP | 2023 s | hall be | g | overned by
+ions contai | ned in HBP 2 | 015-20 | (RE-2017). | | | | |
+Green Tec | hnology Pr | oducts | | | | | |
+xport Produ | cts covered | under | Paragraph 5 |.10 o | f FTP | which | p | rovides for
+d export ob | ligation of 7 | 5% for g | reen techn | ology | produ | cts are |: |
+(i) Solar En | ergy Genera | ting Sys | tems and pa | rts/E | quipm | ents th | e | reof,
+(ii) Wind E | nergy Genera | ting Sys | tems and p | arts/ | equipm | ent the | r | eof,
+(iii) LED lig | hts of variou | s kind, | | | | | |
+(iv) Vapour | Absorption C | hillers, | | | | | |
+(v) Waste H | eat Boiler, | | | | | | |
+(vi) Waste | Heat Recover | y Units, | | | | | |
+(vii) Unfire | d Heat Recov | ery Stea | m Generato | rs, | | | |
+(viii) Water | Treatment P | lants, | | | | | |
+(ix) Battery | Electric Ve | hicles ( | BEV) [other | than | Hybri | d Elect | r | ic Vehicles
+(HEVs) and | Plug-in Hybr | id Elec | tric Vehicle | (PHE | V)] of a | ll type | s, |
+(x) Vertical | Farming equi | pment, | | | | | |
+(xi) Wastew | ater Treatme | nt and | Recycling, | | | | |
+(xii) Rainwa | ter harvestin | g syste | m and rainw | ater | filters, | and | |
+(xiii) Green | Hydrogen. | | | | | | |
 15
 20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
 contained in HBP 2015-20. The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
-provisions contained in HBP 2015-20 (RE-2017).', '[15]', '["The", "FTP", "for", "are", "and", "iii", "LED", "vii", "BEV", "all", "xii", "HBP", "RE-", "Wind", "kind", "Heat", "viii", "than", "HEVs", "PHEV"]', 'Support Green Technology Products processing and compliance validation.', '["5.26", "Green Technology Products", "business-rule", "dgft"]');
+provisions contained in HBP 2015-20 (RE-2017).', '[15]', '["The", "FTP", "for", "are", "and", "iii", "LED", "vii", "BEV", "all", "xii", "HBP", "RE-", "gov", "ned", "ons", "not", "Tec", "cts", "Sys"]', 'Support Green Technology Products processing and compliance validation.', '["5.26", "Green Technology Products", "business-rule", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_26-R001', '5.26', '15
+the notifica | tion of HBP 2 | 015-20 | (RE-2017) | shall | be gov | erned b | y | provisions
+ned in HBP | 2015-20.', 'business_rule', 'Green Technology Products', '15
+the notifica | tion of HBP 2 | 015-20 | (RE-2017) | shall | be gov | erned b | y | provisions
+ned in HBP | 2015-20.', '15
+the notifica | tion of HBP 2 | 015-20 | (RE-2017) | shall | be gov | erned b | y | provisions
+ned in HBP | 2015-20.', 'The EPCG Authorisations issued between notification
+of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
+provisions contained in HBP 2015-20 (RE-2017).', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.26 - Green Technology Products.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_26-R002', '5.26', '| | | | | | |
 15
 20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
-contained in HBP 2015-20.', 'business_rule', 'Green Technology Products', '15
-15
-20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
-contained in HBP 2015-20.', '15
+contained in HBP 2015-20.', 'business_rule', 'Green Technology Products', 'Th | e EPCG | Authorisati | ons i | ssued b | etwee | n | notification
+2015-20 ( | RE-2017) till | the not | ification of | HBP | 2023 s | hall be | g | overned by
+ions contai | ned in HBP 2 | 015-20 | (RE-2017).', '| | | | | | |
 15
 20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
 contained in HBP 2015-20.', 'The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
 provisions contained in HBP 2015-20 (RE-2017).', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.26 - Green Technology Products.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_26-R002', '5.26', 'The EPCG Authorisations issued between notification
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH5-SEC5_26-R003', '5.26', 'The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
-provisions contained in HBP 2015-20 (RE-2017).', 'business_rule', 'Green Technology Products', 'The EPCG Authorisations issued between notification
-of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
-provisions contained in HBP 2015-20 (RE-2017).', 'The EPCG Authorisations issued between notification
+provisions contained in HBP 2015-20 (RE-2017).', 'business_rule', 'Green Technology Products', '| | | | | | |
+15
+20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
+contained in HBP 2015-20.', 'The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
 provisions contained in HBP 2015-20 (RE-2017).', 'The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
 provisions contained in HBP 2015-20 (RE-2017).', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.26 - Green Technology Products.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('5.26', '15
+the notifica | tion of HBP 2 | 015-20 | (RE-2017) | shall | be gov | erned b | y | provisions
+ned in HBP | 2015-20.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.26', 'Th | e EPCG | Authorisati | ons i | ssued b | etwee | n | notification
+2015-20 ( | RE-2017) till | the not | ification of | HBP | 2023 s | hall be | g | overned by
+ions contai | ned in HBP 2 | 015-20 | (RE-2017).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.26', '| | | | | | |
 15
 20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
 contained in HBP 2015-20.');
@@ -7453,20 +8994,26 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('5.26', 'The EPCG 
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
 provisions contained in HBP 2015-20 (RE-2017).');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.26', 1, 'Evaluate condition: 15
+the notifica | tion of HBP 2 | 015-20 | (RE-2017) | shall | be gov | erned b | y | provisions
+ned in HBP | 2015-20.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.26', 2, 'Evaluate condition: Th | e EPCG | Authorisati | ons i | ssued b | etwee | n | notification
+2015-20 ( | RE-2017) till | the not | ification of | HBP | 2023 s | hall be | g | overned by
+ions contai | ned in HBP 2 | 015-20 | (RE-2017).');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.26', 3, 'Evaluate condition: | | | | | | |
 15
 20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
 contained in HBP 2015-20.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.26', 2, 'Evaluate condition: The EPCG Authorisations issued between notification
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.26', 4, 'The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
 provisions contained in HBP 2015-20 (RE-2017).');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.26', 3, 'The EPCG Authorisations issued between notification
-of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
-provisions contained in HBP 2015-20 (RE-2017).');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.26', 4, 'Run validation: 15
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.26', 5, 'Run validation: 15
+the notifica | tion of HBP 2 | 015-20 | (RE-2017) | shall | be gov | erned b | y | provisions
+ned in HBP | 2015-20.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.26', 6, 'Run validation: | | | | | | |
 15
 20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions
 contained in HBP 2015-20.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.26', 5, 'Run validation: The EPCG Authorisations issued between notification
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.26', 7, 'Run validation: The EPCG Authorisations issued between notification
 of HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by
 provisions contained in HBP 2015-20 (RE-2017).');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'The');
@@ -7482,13 +9029,13 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'xii');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'HBP');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'RE-');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'Wind');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'kind');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'Heat');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'viii');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'than');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'HEVs');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'PHEV');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'gov');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'ned');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'ons');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'Tec');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'cts');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'keywords', 'Sys');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'tags', '5.26');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'tags', 'Green Technology Products');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.26', 'tags', 'business-rule');
@@ -7498,18 +9045,24 @@ An application for grant of an authorisation may be made by Registered Office or
 Head Office or a Branch Office or Man');
 INSERT INTO glossary (term, definition) VALUES ('API', 'Referenced in context: (b) On being satisfied, RA concerned shall issue EODC to the EPCG authorisation
 holder and an online copy will be forwarded to ICEGATE throu');
+INSERT INTO glossary (term, definition) VALUES ('AR', 'Referenced in context: (f) | Validity perio | d of i | nvalidation letter | /AR | O shall b | e co-termi | no | us with the
+| validity period | of E | PCG authoris');
 INSERT INTO glossary (term, definition) VALUES ('ARE', 'Referenced in context: (a) ARE 1 certificate issued by Central Excise/Tax invoice for
 export prescribed under the GST rules with due authentication
 by the Customs');
 INSERT INTO glossary (term, definition) VALUES ('ARO', 'Referenced in context: 5.09 Sourcing of Capital Goods Manufactured Indigenously
 (a) EPCG authorisation holder intending to source capital goods manufactured
 indige');
+INSERT INTO glossary (term, definition) VALUES ('ATE', 'Referenced in section title ''Export Obligation Discharge Certificate (EODC)''.');
 INSERT INTO glossary (term, definition) VALUES ('BEV', 'Referenced in context: 5.26 Green Technology Products
 The Export Products covered under Paragraph 5.10 of FTP which provides for
 reduced export obligation of 75% f');
 INSERT INTO glossary (term, definition) VALUES ('BG', 'Referenced in context: The
 Authorisation holder shall furnish additional BG/LUT to the Customs
 Authority.');
+INSERT INTO glossary (term, definition) VALUES ('BP', 'Referenced in context: | | | | |
+(h) EPCG authorisati | ons issued | prior to 0 | 1.04.2007 | shall be gov | erned by
+provisions contained | in Chapter | 5 of H |');
 INSERT INTO glossary (term, definition) VALUES ('BRC', 'Referenced in context: Shipping bill/Bill of Export, GST invoice and e-BRC/ export
 realisation from RBI’s EDPMS should be in the name of third party
 exporter.');
@@ -7518,11 +9071,18 @@ INSERT INTO glossary (term, definition) VALUES ('CEC', 'Referenced in context: 5
 Chartered Engineer (CEC) submitted by');
 INSERT INTO glossary (term, definition) VALUES ('CG', 'Referenced in context: (c) An application for amendment in the list of export item(s) including
 addition(s)/deletion(s) if any, may be filed with RA concerned prov');
+INSERT INTO glossary (term, definition) VALUES ('CMC', 'Referenced in context: T | he authoriza | tion h | older shall be
+| | per | mitted to shif | t ca | p | ital goods | during the | entire expor | t obli | gation pe');
+INSERT INTO glossary (term, definition) VALUES ('DC', 'Referenced in context: | | | | | |
+(c) | | Aut | horisation ho | lde | r | shall mai | ntain a re | gister of sto | ck & | utilisation of
+| | cap | ital goods cov');
 INSERT INTO glossary (term, definition) VALUES ('DGFT', 'Referenced in context: (b) The sectors /product groups for which this relaxation is to be allowed shall
 be conveyed by the DGFT to all the RAs within seven months');
 INSERT INTO glossary (term, definition) VALUES ('DOR', 'Referenced in context: Where EO of the first block is not fulfilled in terms of para (a) above, except
 in cases where the EO prescribed for first block is extended');
 INSERT INTO glossary (term, definition) VALUES ('DTA', 'Referenced in section title ''Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG''.');
+INSERT INTO glossary (term, definition) VALUES ('EDPM', 'Referenced in context: | Shippin | g bi | ll/Bill of Expo | rt, | GST inv | oice and | e | -BRC/ export
+| realisat | ion f | rom RBI’s EDPM | S sh | ould be | in t');
 INSERT INTO glossary (term, definition) VALUES ('EDPMS', 'Referenced in context: Shipping bill/Bill of Export, GST invoice and e-BRC/ export
 realisation from RBI’s EDPMS should be in the name of third party
 exporter.');
@@ -7534,11 +9094,21 @@ capital goods covered under sub-paragraphs (a)(iii) and (iv) of');
 INSERT INTO glossary (term, definition) VALUES ('EOP', 'Referenced in context: (f) Clubbing would be permitted during valid EOP including extended period, if
 any.');
 INSERT INTO glossary (term, definition) VALUES ('EOU', 'Referenced in section title ''Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG''.');
+INSERT INTO glossary (term, definition) VALUES ('EP', 'Referenced in context: | | | | | | |
+5.0 | 5 | Po | rt of Registr | atio | n | | | | |
+EP | CG | Aut | horisation sh | all | b | e issued | with a sin | gle port o');
+INSERT INTO glossary (term, definition) VALUES ('EPC', 'Referenced in context: shall
+| indicate | na | me of both a | uth | orisation | holder | an | d supporting
+| manufa | cture | r, if any, alon | g w | ith EPC | G a');
 INSERT INTO glossary (term, definition) VALUES ('EPCG', 'Referenced in context: 5.01 Policy
 Policy relating to EPCG Scheme is given in Chapter 5 of FTP');
+INSERT INTO glossary (term, definition) VALUES ('EZ', 'Referenced in section title ''Procurement from SEZ''.');
 INSERT INTO glossary (term, definition) VALUES ('FIRC', 'Referenced in context: Such report shall contain a statement
 with details of Shipping bill/Invoice number/Bill of Export/FIRC number with date
 and number, as appli');
+INSERT INTO glossary (term, definition) VALUES ('FO', 'Referenced in context: | | | | | | |
+(c) In case | o | f | domestic | sourcing | of | ca | pital | goods | through | invalidation
+letter/A | RO |, | the duties, t');
 INSERT INTO glossary (term, definition) VALUES ('FOR', 'Referenced in context: (c) In case of domestic sourcing of capital goods through invalidation
 letter/ARO, the duties, taxes and cess payable shall be with referenc');
 INSERT INTO glossary (term, definition) VALUES ('FT', 'Referenced in context: 5.24 Penal Action
@@ -7546,6 +9116,12 @@ In case of failure to fulfil export obligation or any other condition of
 authorisation, authorisation holder shall be liab');
 INSERT INTO glossary (term, definition) VALUES ('FTP', 'Referenced in context: 5.01 Policy
 Policy relating to EPCG Scheme is given in Chapter 5 of FTP');
+INSERT INTO glossary (term, definition) VALUES ('GFT', 'Referenced in context: | | | | |
+(b) The sectors | /product | grou | ps for which th | is relax | ation is to b | e allowed shall
+be conveye | d by the D | GFT | t');
+INSERT INTO glossary (term, definition) VALUES ('GS', 'Referenced in context: The
+| "Certificat | e of sup | plie | s from SEZ | " shall co | ntain | the follo | wing d | e | tails:
+| (i) | Name, A | ddr | ess and GS |');
 INSERT INTO glossary (term, definition) VALUES ('GST', 'Referenced in context: Shipping bill/Bill of Export, GST invoice and e-BRC/ export
 realisation from RBI’s EDPMS should be in the name of third party
 exporter.');
@@ -7553,9 +9129,15 @@ INSERT INTO glossary (term, definition) VALUES ('GSTIN', 'Referenced in context:
 "Certificate of supplies from SEZ" shall contain the following details:
 (i) Name, Address and GSTIN of SEZ unit;
 (ii) GSTIN & Address of');
+INSERT INTO glossary (term, definition) VALUES ('HB', 'Referenced in context: The EPCG | Authorisation | s issued b | etween not | ification of HB | P 2015-
+14
+ways shall be taken into account for re-fixation of the EO');
 INSERT INTO glossary (term, definition) VALUES ('HBP', 'Referenced in context: 5.05 Port of Registration
 EPCG Authorisation shall be issued with a single port of registration as per
 paragraph 4.35 of HBP, for imports.');
+INSERT INTO glossary (term, definition) VALUES ('ICEG', 'Referenced in context: | | |
+(b) On being satis | fied, RA c | oncer | ned shall issu | e EODC | to the EPC | G authorisation
+holder and an on | line copy | will b');
 INSERT INTO glossary (term, definition) VALUES ('ICEGATE', 'Referenced in context: (b) On being satisfied, RA concerned shall issue EODC to the EPCG authorisation
 holder and an online copy will be forwarded to ICEGATE throu');
 INSERT INTO glossary (term, definition) VALUES ('IEC', 'Referenced in context: The authorization holder shall be
@@ -7570,6 +9152,20 @@ third party ex');
 INSERT INTO glossary (term, definition) VALUES ('LUT', 'Referenced in context: The
 Authorisation holder shall furnish additional BG/LUT to the Customs
 Authority.');
+INSERT INTO glossary (term, definition) VALUES ('ODC', 'Referenced in context: T | he | authorisation | hol | der shall |
+| | fur | nish addition | al f | ee to cover | excess imp | orts | effected, in t | erms | of dut');
+INSERT INTO glossary (term, definition) VALUES ('OU', 'Referenced in context: 4
+5.07 | Conversi | on of E | OU | /Relocate | d SEZ U | nits | to DTA U | nit u | n | der EPCG
+Schem | e | | | | | | | | |
+(a) | An EOU/a |');
+INSERT INTO glossary (term, definition) VALUES ('PC', 'Referenced in context: (c) | Disclai | mer | certificate fr | om th | ird party that | they | shal | l not use such
+| procee | ds t | owards EO | fulfill | ment of');
+INSERT INTO glossary (term, definition) VALUES ('PCG', 'Referenced in context: | | |
+(c) | If a standa | lone EO | U / S | EZ unit wi | shes to d | e-bon | d from E | OU to | E | PCG Scheme,
+| there shal | l be no | req');
+INSERT INTO glossary (term, definition) VALUES ('PHE', 'Referenced in context: | | | | |
+Green Tec | hnology Pr | oducts | | | | | |
+xport Produ | cts covered | under | Paragraph 5 |.10 o | f FTP | which | p | rovides f');
 INSERT INTO glossary (term, definition) VALUES ('PHEV', 'Referenced in context: 5.26 Green Technology Products
 The Export Products covered under Paragraph 5.10 of FTP which provides for
 reduced export obligation of 75% f');
@@ -7586,6 +9182,14 @@ exporter.');
 INSERT INTO glossary (term, definition) VALUES ('RCMC', 'Referenced in context: The authorization holder shall be
 permitted to shift capital goods during the entire export obligation period
 to other units mentioned in th');
-INSERT INTO glossary (term, definition) VALUES ('RE', 'Referenced in context: (d) (i) Authorisations issued from 1st April, 2002 upto 31st August, 2004
-shall be governed by provisions of paragraph 5.8 of HBP Vol.1 (RE-');
+INSERT INTO glossary (term, definition) VALUES ('RE', 'Referenced in context: | | | | |
+| | (a) A | RE 1 certific | ate is | sued by Centra | l Ex | cise/ | Tax invoice for
+| | expo | rt prescribe | d unde | r the GST');
+INSERT INTO glossary (term, definition) VALUES ('RO', 'Referenced in context: | | |
+5.09 | Sourcing of | Capit | al Goods Manu | fac | tured In | digenous | ly |
+(a) | EPCG authoris | ation | holder intendin | g to | s');
+INSERT INTO glossary (term, definition) VALUES ('SE', 'Referenced in section title ''Procurement from SEZ''.');
 INSERT INTO glossary (term, definition) VALUES ('SEZ', 'Referenced in section title ''Conversion of EOU/Relocated SEZ Units to DTA Unit under EPCG''.');
+INSERT INTO glossary (term, definition) VALUES ('TIN', 'Referenced in context: The
+| "Certificat | e of sup | plie | s from SEZ | " shall co | ntain | the follo | wing d | e | tails:
+| (i) | Name, A | ddr | ess and GS |');

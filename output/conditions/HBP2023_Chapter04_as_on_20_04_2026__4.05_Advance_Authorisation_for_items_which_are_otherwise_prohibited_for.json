@@ -1,0 +1,98 @@
+{
+  "section": "4.05",
+  "conditions": [
+    "4.05 Advance Authorisation for items which are otherwise prohibited for\nexport\n(i) Items covered under Chapter 7 and Chapter 15 of ITC (HS) Schedule 2, which\nare prohibited for export, may be allowed to be exported under the Advance\nAuthorisation scheme, unless specifically disallowed.",
+    "Export shall be allowed\nsubject to pre-import condition under notified SION/prior fixation of norms\nby Norms Committee in terms of paragraph 4.06 of Hand Book of Procedures.",
+    "| | | | |\n(ii) | Applicant shall uploa | d docum | ents as prescrib | ed in A | NF 4 | A, if a | ny |, at the time\n| of online filing of appl | ication.",
+    "| | | | |\n4.03 Ap | plicant details | | | | | | |\nWhere | applicant is a branch | office or | a manufacturin | g unit, | name | of b | ran | ch office or\nmanufa | cturing unit should ap | pear in | electronic RCMC | and i | n IEC o | f the | ap | plicant.",
+    "S | ame f | orm i | s app | lic | able where\nStandar | d Input Output Norm | s (SION | ) have been no | tified | or on | the | ba | sis of adhoc\nnorms o | r on self-declaration | basis as | per paragraph 4 |.07 of | Handb | ook | of | Procedures.",
+    "4.05 Ad | vance Authorisatio | n for it | ems which ar | e oth | erwis | e pr | o | hibited for\nexport | | | | | | | |\n(i) | Items covered under | Chapter | 7 and Chapter 1 | 5 of IT | C (HS | ) Sch | ed | ule 2, which\n| are prohibited for ex | port, ma | y be allowed to | be exp | orted | unde | r t | he Advance\n| Authorisation schem | e, unless | specifically disa | llowe | d.",
+    "Exp | ort sh | al | l be allowed\n| subject to pre-import | conditi | on under notifie | d SIO | N/prio | r fix | ati | on of norms\n| by Norms Committee | in terms | of paragraph 4.",
+    "77\nChapter-4\nDuty Exemption / Remission Schemes\n4.05 Advance Authorisation for items which are otherwise prohibited for\nexport\n(i)\nItems covered under Chapter 7 and Chapter 15 of ITC (HS) Schedule 2, which\nare prohibited for export, may be allowed to be exported under the Advance\nAuthorisation scheme, unless specifically disallowed.",
+    "Such import shall be subject to actual\nuser condition and no transfer of imported raw material, for any purpose,\nincluding job work, shall be permitted.",
+    "In case of non-fulfilment of EO/ non-\nachievement of stipulated value addition, a penalty equal to five times of the\nCIF value of the imported material, corresponding to the shortfall in EO, shall\nbe imposed in addition to the applicable duty and interest.",
+    "(iii) “Wheat Flour (Atta)” is permitted to be exported under the Advance\nAuthorisation Scheme, subject to pre-import condition of wheat under the\nnotified SION only.",
+    "Such import\nshall be subject to actual user condition and no transfer of imported wheat for\nany purpose, including job work, shall be permitted.",
+    "In case of non- fulfillment\nof EO/ non-achievement of stipulated value addition, a penalty equal to five\ntimes of the CIF value of the imported material, corresponding to the shortfall\nin EO, shall be imposed in addition to the payment of applicable duty and\ninterest."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.05.1",
+      "if": "4.05 Advance Authorisation for items which are otherwise prohibited for\nexport\n(i) Items covered under Chapter 7 and Chapter 15 of ITC (HS) Schedule 2, which\nare prohibited for export, may be allowed to be exported under the Advance\nAuthorisation scheme, unless specifically disallowed.",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "4.05 Advance Authorisation for items which are otherwise prohibited for\nexport\n(i) Items covered under Chapter 7 and Chapter 15 of ITC (HS) Schedule 2, which\nare prohibited for export, may be allowed to be exported under the Advance\nAuthorisation scheme, unless specifically disallowed."
+    },
+    {
+      "id": "4.4.05.2",
+      "if": "Export shall be allowed\nsubject to pre-import condition under notified SION/prior fixation of norms\nby Norms Committee in terms of paragraph 4.06 of Hand Book of Procedures.",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "Export shall be allowed\nsubject to pre-import condition under notified SION/prior fixation of norms\nby Norms Committee in terms of paragraph 4.06 of Hand Book of Procedures."
+    },
+    {
+      "id": "4.4.05.3",
+      "if": "a | ny |",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "| | | | |\n(ii) | Applicant shall uploa | d docum | ents as prescrib | ed in A | NF 4 | A, if a | ny |, at the time\n| of online filing of appl | ication."
+    },
+    {
+      "id": "4.4.05.4",
+      "if": "| | | | |\n4.03 Ap | plicant details | | | | | | |\nWhere | applicant is a branch | office or | a manufacturin | g unit, | name | of b | ran | ch office or\nmanufa | cturing unit should ap | pear in | electronic RCMC | and i | n IEC o | f the | ap | plicant.",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "| | | | |\n4.03 Ap | plicant details | | | | | | |\nWhere | applicant is a branch | office or | a manufacturin | g unit, | name | of b | ran | ch office or\nmanufa | cturing unit should ap | pear in | electronic RCMC | and i | n IEC o | f the | ap | plicant."
+    },
+    {
+      "id": "4.4.05.5",
+      "if": "S | ame f | orm i | s app | lic | able where\nStandar | d Input Output Norm | s (SION | ) have been no | tified | or on | the | ba | sis of adhoc\nnorms o | r on self-declaration | basis as | per paragraph 4 |.07 of | Handb | ook | of | Procedures.",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "S | ame f | orm i | s app | lic | able where\nStandar | d Input Output Norm | s (SION | ) have been no | tified | or on | the | ba | sis of adhoc\nnorms o | r on self-declaration | basis as | per paragraph 4 |.07 of | Handb | ook | of | Procedures."
+    },
+    {
+      "id": "4.4.05.6",
+      "if": "4.05 Ad | vance Authorisatio | n for it | ems which ar | e oth | erwis | e pr | o | hibited for\nexport | | | | | | | |\n(i) | Items covered under | Chapter | 7 and Chapter 1 | 5 of IT | C (HS | ) Sch | ed | ule 2, which\n| are prohibited for ex | port, ma | y be allowed to | be exp | orted | unde | r t | he Advance\n| Authorisation schem | e, unless | specifically disa | llowe | d.",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "4.05 Ad | vance Authorisatio | n for it | ems which ar | e oth | erwis | e pr | o | hibited for\nexport | | | | | | | |\n(i) | Items covered under | Chapter | 7 and Chapter 1 | 5 of IT | C (HS | ) Sch | ed | ule 2, which\n| are prohibited for ex | port, ma | y be allowed to | be exp | orted | unde | r t | he Advance\n| Authorisation schem | e, unless | specifically disa | llowe | d."
+    },
+    {
+      "id": "4.4.05.7",
+      "if": "Exp | ort sh | al | l be allowed\n| subject to pre-import | conditi | on under notifie | d SIO | N/prio | r fix | ati | on of norms\n| by Norms Committee | in terms | of paragraph 4.",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "Exp | ort sh | al | l be allowed\n| subject to pre-import | conditi | on under notifie | d SIO | N/prio | r fix | ati | on of norms\n| by Norms Committee | in terms | of paragraph 4."
+    },
+    {
+      "id": "4.4.05.8",
+      "if": "77\nChapter-4\nDuty Exemption / Remission Schemes\n4.05 Advance Authorisation for items which are otherwise prohibited for\nexport\n(i)\nItems covered under Chapter 7 and Chapter 15 of ITC (HS) Schedule 2, which\nare prohibited for export, may be allowed to be exported under the Advance\nAuthorisation scheme, unless specifically disallowed.",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "77\nChapter-4\nDuty Exemption / Remission Schemes\n4.05 Advance Authorisation for items which are otherwise prohibited for\nexport\n(i)\nItems covered under Chapter 7 and Chapter 15 of ITC (HS) Schedule 2, which\nare prohibited for export, may be allowed to be exported under the Advance\nAuthorisation scheme, unless specifically disallowed."
+    },
+    {
+      "id": "4.4.05.9",
+      "if": "Such import shall be subject to actual\nuser condition and no transfer of imported raw material, for any purpose,\nincluding job work, shall be permitted.",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "Such import shall be subject to actual\nuser condition and no transfer of imported raw material, for any purpose,\nincluding job work, shall be permitted."
+    },
+    {
+      "id": "4.4.05.10",
+      "if": "In case of non-fulfilment of EO/ non-\nachievement of stipulated value addition, a penalty equal to five times of the\nCIF value of the imported material, corresponding to the shortfall in EO, shall\nbe imposed in addition to the applicable duty and interest.",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "In case of non-fulfilment of EO/ non-\nachievement of stipulated value addition, a penalty equal to five times of the\nCIF value of the imported material, corresponding to the shortfall in EO, shall\nbe imposed in addition to the applicable duty and interest."
+    },
+    {
+      "id": "4.4.05.11",
+      "if": "(iii) “Wheat Flour (Atta)” is permitted to be exported under the Advance\nAuthorisation Scheme, subject to pre-import condition of wheat under the\nnotified SION only.",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "(iii) “Wheat Flour (Atta)” is permitted to be exported under the Advance\nAuthorisation Scheme, subject to pre-import condition of wheat under the\nnotified SION only."
+    },
+    {
+      "id": "4.4.05.12",
+      "if": "Such import\nshall be subject to actual user condition and no transfer of imported wheat for\nany purpose, including job work, shall be permitted.",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "Such import\nshall be subject to actual user condition and no transfer of imported wheat for\nany purpose, including job work, shall be permitted."
+    },
+    {
+      "id": "4.4.05.13",
+      "if": "In case of non- fulfillment\nof EO/ non-achievement of stipulated value addition, a penalty equal to five\ntimes of the CIF value of the imported material, corresponding to the shortfall\nin EO, shall be imposed in addition to the payment of applicable duty and\ninterest.",
+      "then": "N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
+      "source": "In case of non- fulfillment\nof EO/ non-achievement of stipulated value addition, a penalty equal to five\ntimes of the CIF value of the imported material, corresponding to the shortfall\nin EO, shall be imposed in addition to the payment of applicable duty and\ninterest."
+    }
+  ]
+}

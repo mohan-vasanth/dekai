@@ -1,0 +1,19 @@
+{
+  "chapter_number": "1",
+  "chapter_title": "Legal Framework and Trade Facilitation Legal Framework and Trade Facilitation",
+  "section": "1.06",
+  "title": "Conversion of Currencies in e-BRCs",
+  "business_rules": [
+    {
+      "rule_id": "CH1-SEC1_06-R001",
+      "rule_description": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate. (b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+      "trigger": "Conversion of Currencies in e-BRCs",
+      "condition": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.06 - Conversion of Currencies in e-BRCs."
+    }
+  ],
+  "ai_rules": []
+}

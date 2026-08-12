@@ -1,0 +1,55 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "10.20",
+  "title": "Revalidation of SCOMET Authorisation",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC10_20-R001",
+      "rule_description": "The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na.",
+      "trigger": "Revalidation of SCOMET Authorisation",
+      "condition": "| g., lic | ense ap | plications, expor | t licenses, | end-user\ncertif | icates/state | | ments, | Purc | hase Or | der, Contract Ag | reement, e | tc.)\nd.",
+      "validation": "Documents | required w | | hile fil | ing f | or Volu | ntary Disclosu | re: |\nThe IMWG may | consider th | e | follo | wing | docume | nts for the regul | arization o | f exports\nmade under V | oluntary Dis | c | losur | e.",
+      "action": "To issue a | Show Caus | e | Notic | e; | | | |\niii.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10.20 - Revalidation of SCOMET Authorisation."
+    },
+    {
+      "rule_id": "CH10-SEC10_20-R002",
+      "rule_description": "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+      "trigger": "Revalidation of SCOMET Authorisation",
+      "condition": "Action by | the DGFT: | | | | | | |\nAll voluntary d | isclosure c | a | ses sh | all b | e placed | by DGFT befor | e the IMW | G, in its\nsubsequent m | eeting for | | discus | sion | after | submission of | all comp | lete and\nsupporting doc | umentation | | by the | exp | orter.",
+      "validation": "Any o | ther releva | n | t docu | men | ts as ma | y be required | |\nD.",
+      "action": "To issue | an Adjudic | a | tion O | rder | on sub | mission of an | adverse r | eport on\nproliferati | on concern | s | /infor | mati | on, viola | tion of relevant | export con | trol laws\nand regul | ations, etc.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10.20 - Revalidation of SCOMET Authorisation."
+    },
+    {
+      "rule_id": "CH10-SEC10_20-R003",
+      "rule_description": "The firm shall be liable for action in accordance with the\nFT(D&R) Act, the Rules and Orders made there under, the Foreign Trade\nPolicy (FTP), and any other applicable laws and regulations.",
+      "trigger": "Revalidation of SCOMET Authorisation",
+      "condition": "To inform | the exporte | r | that n | o fur | ther act | ion is warranted |, based on | the facts\ndisclosed, | supporting | d | ocum | enta | tion and | upon satisfacto | ry review; |\nii.",
+      "validation": "Documents required while filing for Voluntary Disclosure:\nThe IMWG may consider the following documents for the regularization of exports\nmade under Voluntary Disclosure.",
+      "action": "To issue a Show Cause Notice;\niii.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10.20 - Revalidation of SCOMET Authorisation."
+    },
+    {
+      "rule_id": "CH10-SEC10_20-R004",
+      "rule_description": "The period of renewal of\nauthorisation shall be counted from the date of actual expiry of authorisation.",
+      "trigger": "Revalidation of SCOMET Authorisation",
+      "condition": "To issue | an Adjudic | a | tion O | rder | on sub | mission of an | adverse r | eport on\nproliferati | on concern | s | /infor | mati | on, viola | tion of relevant | export con | trol laws\nand regul | ations, etc.",
+      "validation": "Any other relevant documents as may be required\nD.",
+      "action": "To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10.20 - Revalidation of SCOMET Authorisation."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: The written disclosure by the firm should be\naccompanied by a covering letter (on the letterhead) signed by a senior officer(\nnot below the rank of export compliance manager or equivalent designation) with\nthe following documents:\na.",
+    "IF detected context matches section rule THEN enforce: Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+    "IF detected context matches section rule THEN enforce: The firm shall be liable for action in accordance with the\nFT(D&R) Act, the Rules and Orders made there under, the Foreign Trade\nPolicy (FTP), and any other applicable laws and regulations.",
+    "IF detected context matches section rule THEN enforce: The period of renewal of\nauthorisation shall be counted from the date of actual expiry of authorisation.",
+    "IF validations pass THEN recommend action: To issue a | Show Caus | e | Notic | e; | | | |\niii."
+  ]
+}

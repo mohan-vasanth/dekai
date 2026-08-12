@@ -1,0 +1,55 @@
+{
+  "chapter_number": "1",
+  "chapter_title": "Legal Framework and Trade Facilitation Legal Framework and Trade Facilitation",
+  "section": "1.08",
+  "title": "Status Holder: Application for grant of Status Certificate",
+  "business_rules": [
+    {
+      "rule_id": "CH1-SEC1_08-R001",
+      "rule_description": "1.08 Status Holder: Application for grant of Status Certificate\n(a) Exporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents.",
+      "trigger": "Status Holder: Application for grant of Status Certificate",
+      "condition": "1.08 Status Holder: Application for grant of Status Certificate\n(a) Exporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents.",
+      "validation": "1.08 Status Holder: Application for grant of Status Certificate\n(a) Exporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents.",
+      "action": "(b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.08 - Status Holder: Application for grant of Status Certificate."
+    },
+    {
+      "rule_id": "CH1-SEC1_08-R002",
+      "rule_description": "(b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "trigger": "Status Holder: Application for grant of Status Certificate",
+      "condition": "(b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "validation": "(b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "action": "(b)\nOnline Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.08 - Status Holder: Application for grant of Status Certificate."
+    },
+    {
+      "rule_id": "CH1-SEC1_08-R003",
+      "rule_description": "1.08 Status Holder: Application for grant of Status Certificate\n(a)\nExporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents.",
+      "trigger": "Status Holder: Application for grant of Status Certificate",
+      "condition": "1.08 Status Holder: Application for grant of Status Certificate\n(a)\nExporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents.",
+      "validation": "1.08 Status Holder: Application for grant of Status Certificate\n(a)\nExporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents.",
+      "action": "(b)\nOnline Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.08 - Status Holder: Application for grant of Status Certificate."
+    },
+    {
+      "rule_id": "CH1-SEC1_08-R004",
+      "rule_description": "(b)\nOnline Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "trigger": "Status Holder: Application for grant of Status Certificate",
+      "condition": "(b)\nOnline Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "validation": "(b)\nOnline Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "action": "(b)\nOnline Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.08 - Status Holder: Application for grant of Status Certificate."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 1.08 Status Holder: Application for grant of Status Certificate\n(a) Exporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents.",
+    "IF detected context matches section rule THEN enforce: (b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+    "IF detected context matches section rule THEN enforce: 1.08 Status Holder: Application for grant of Status Certificate\n(a)\nExporters shall be required to file an application online for\nrecognition of status under the Policy in ANF 1B along with prescribed documents.",
+    "IF detected context matches section rule THEN enforce: (b)\nOnline Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A.",
+    "IF validations pass THEN recommend action: (b) Online Application for status certificate shall be filed with jurisdictional RA as\ndetermined by the location of Registered Office in the case of Company and of Head\nOffice in the case of others as per Appendix 1A."
+  ]
+}

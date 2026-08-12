@@ -1,0 +1,946 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.28",
+  "title": "Replacement / Repair of Imported / Indigenous Goods",
+  "purpose": "6.28 Replacement / Repair of Imported / Indigenous Goods\na) Units may send capital goods abroad for repair with permission of\nCustoms authorities.",
+  "purpose_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, 6.28 Replacement / Repair of Imported / Indigenous Goods\na) Units may send capital goods abroad for repair with permission of\nCustoms authorities.",
+  "summary": "6.28 Replacement / Repair of Imported / Indigenous Goods\na) Units may send capital goods abroad for repair with permission of\nCustoms authorities. Any foreign exchange payment for this\npurpose will also be allowed. However, no permission will be\nrequired for sending capital goods for repair within country.",
+  "business_meaning": "6.28 Replacement / Repair of Imported / Indigenous Goods\na) Units may send capital goods abroad for repair with permission of\nCustoms authorities.",
+  "business_explanation": "6.28 Replacement / Repair of Imported / Indigenous Goods\na) Units may send capital goods abroad for repair with permission of\nCustoms authorities. Any foreign exchange payment for this\npurpose will also be allowed. However, no permission will be\nrequired for sending capital goods for repair within country.",
+  "business_explanation_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, 6.28 Replacement / Repair of Imported / Indigenous Goods\na) Units may send capital goods abroad for repair with permission of\nCustoms authorities. Any foreign exchange payment for this\npurpose will also be allowed. However, no permission will be\nrequired for sending capital goods for repair within country.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_28-R001",
+      "rule_description": "IF validations pass THEN recommend action: Any foreign exchange payment for this\npurpose will also be allowed.",
+      "trigger": "Replacement / Repair of Imported / Indigenous Goods",
+      "condition": "However, if goods have been consumed /\ndestroyed in process of testing etc.",
+      "validation": "However, no permission will be\nrequired for sending capital goods for repair within country.",
+      "action": "Any foreign exchange payment for this\npurpose will also be allowed.",
+      "exception": "However, no permission will be\nrequired for sending capital goods for repair within country.",
+      "output": "DEKAI should produce a compliance decision for 6.28 - Replacement / Repair of Imported / Indigenous Goods."
+    }
+  ],
+  "conditions": [
+    "However, if goods have been consumed /\ndestroyed in process of testing etc.",
+    "a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.28.1",
+      "if": "However, if goods have been consumed /\ndestroyed in process of testing etc.",
+      "then": "Any foreign exchange payment for this\npurpose will also be allowed.",
+      "source": "However, if goods have been consumed /\ndestroyed in process of testing etc."
+    },
+    {
+      "id": "6.6.28.2",
+      "if": "a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.",
+      "then": "Any foreign exchange payment for this\npurpose will also be allowed.",
+      "source": "a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms."
+    }
+  ],
+  "validations": [
+    "However, no permission will be\nrequired for sending capital goods for repair within country."
+  ],
+  "exceptions": [
+    "However, no permission will be\nrequired for sending capital goods for repair within country.",
+    "However, if goods have been consumed /\ndestroyed in process of testing etc."
+  ],
+  "dependencies": [],
+  "documents": [
+    "10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods.",
+    "a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms."
+  ],
+  "required_documents": [
+    "10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods.",
+    "a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms."
+  ],
+  "tables": [
+    [
+      [
+        "",
+        "",
+        "customer site.",
+        "F",
+        "ollowing",
+        "docum",
+        "ents should",
+        "be submi",
+        "tted as proof"
+      ],
+      [
+        "",
+        "",
+        "of exports:",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "i. P",
+        "e",
+        "rmission l",
+        "etter fr",
+        "om Customs",
+        "for expo",
+        "rts."
+      ],
+      [
+        "",
+        "",
+        "ii. In",
+        "",
+        "voice with",
+        "value",
+        "(for payment",
+        "or free o",
+        "f charge)."
+      ],
+      [
+        "6.28 R",
+        "eplac",
+        "ement / Rep",
+        "a",
+        "ir of Imp",
+        "orted",
+        "/ Indigeno",
+        "us Good",
+        "s"
+      ],
+      [
+        "",
+        "a)",
+        "Units may sen",
+        "d",
+        "capital go",
+        "ods ab",
+        "road for rep",
+        "air with",
+        "permission of"
+      ],
+      [
+        "",
+        "",
+        "Customs auth",
+        "o",
+        "rities. An",
+        "y fore",
+        "ign exchan",
+        "ge paym",
+        "ent for this"
+      ],
+      [
+        "",
+        "",
+        "purpose will",
+        "a",
+        "lso be all",
+        "owed.",
+        "However, n",
+        "o permis",
+        "sion will be"
+      ],
+      [
+        "",
+        "",
+        "required for se",
+        "",
+        "nding capi",
+        "tal goo",
+        "ds for repair",
+        "within c",
+        "ountry."
+      ],
+      [
+        "",
+        "b)",
+        "EOU / EHTP /",
+        "S",
+        "TP / BTP",
+        "units m",
+        "ay, on basis",
+        "of record",
+        "s maintained"
+      ],
+      [
+        "",
+        "",
+        "by them and p",
+        "r",
+        "ior intima",
+        "tion to",
+        "Customs aut",
+        "horities:",
+        ""
+      ],
+      [
+        "",
+        "i.",
+        "Transfe",
+        "r",
+        "goods to",
+        "DTA /",
+        "abroad for",
+        "repair /",
+        "replacement,"
+      ],
+      [
+        "",
+        "",
+        "testing o",
+        "",
+        "r calibrati",
+        "on and",
+        "return.",
+        "",
+        ""
+      ],
+      [
+        "",
+        "ii.",
+        "Transfe",
+        "r",
+        "goods fo",
+        "r quali",
+        "ty testing /",
+        "R&D pu",
+        "rpose to any"
+      ],
+      [
+        "",
+        "",
+        "recogniz",
+        "",
+        "ed labora",
+        "tory /",
+        "institution",
+        "upto Rs.",
+        "10 lakh per"
+      ],
+      [
+        "",
+        "",
+        "annum",
+        "w",
+        "ithout pa",
+        "yment",
+        "of duty and/",
+        "or taxes",
+        "as applicable"
+      ],
+      [
+        "",
+        "",
+        "in such",
+        "c",
+        "ases on gi",
+        "ving su",
+        "itable under",
+        "taking to",
+        "Customs for"
+      ],
+      [
+        "",
+        "",
+        "return o",
+        "f",
+        "goods. H",
+        "oweve",
+        "r, if goods h",
+        "ave been",
+        "consumed /"
+      ],
+      [
+        "",
+        "",
+        "destroy",
+        "e",
+        "d in pro",
+        "cess o",
+        "f testing et",
+        "c. a cer",
+        "tificate from"
+      ],
+      [
+        "",
+        "",
+        "laborato",
+        "r",
+        "y / inst",
+        "itution",
+        "to this ef",
+        "fect be",
+        "furnished to"
+      ],
+      [
+        "",
+        "",
+        "Customs",
+        ".",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.29 S",
+        "ampl",
+        "es",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a)",
+        "EOU / EHTP /",
+        "S",
+        "TP / BTP",
+        "units m",
+        "ay on basis",
+        "of record",
+        "s maintained"
+      ],
+      [
+        "",
+        "",
+        "by them, and",
+        "o",
+        "n prior in",
+        "timatio",
+        "n to Custom",
+        "s author",
+        "ity, supply or"
+      ],
+      [
+        "",
+        "",
+        "sell samples in",
+        "",
+        "DTA for di",
+        "splay /",
+        "market pro",
+        "motion o",
+        "n payment of"
+      ],
+      [
+        "",
+        "",
+        "excise duty,",
+        "",
+        "if applic",
+        "able,",
+        "and/or pa",
+        "yment o",
+        "f GST and"
+      ],
+      [
+        "",
+        "",
+        "compensation",
+        "",
+        "cess alon",
+        "g with",
+        "reversal o",
+        "f duties",
+        "of Customs"
+      ],
+      [
+        "",
+        "",
+        "leviable under",
+        "",
+        "First Sche",
+        "dule t",
+        "o the Custo",
+        "ms Tariff",
+        "Act, 1975, if"
+      ],
+      [
+        "",
+        "",
+        "availed on inp",
+        "u",
+        "ts.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b)",
+        "Remove samp",
+        "l",
+        "es witho",
+        "ut pay",
+        "ment of d",
+        "uty and/",
+        "or taxes on"
+      ],
+      [
+        "",
+        "",
+        "furnishing a",
+        "s",
+        "uitable u",
+        "nderta",
+        "king to Cus",
+        "toms au",
+        "thorities for"
+      ],
+      [
+        "",
+        "",
+        "bringing back",
+        "s",
+        "amples wi",
+        "thin a",
+        "stipulated pe",
+        "riod.",
+        ""
+      ],
+      [
+        "",
+        "c)",
+        "An EOU may",
+        "e",
+        "xport fre",
+        "e sam",
+        "ples, withou",
+        "t any lim",
+        "it, including"
+      ],
+      [
+        "",
+        "",
+        "samples made",
+        "",
+        "in wax m",
+        "oulds,",
+        "silver moul",
+        "d and ru",
+        "bber moulds"
+      ],
+      [
+        "",
+        "",
+        "through all pe",
+        "r",
+        "missible m",
+        "ode o",
+        "f export incl",
+        "uding thr",
+        "ough courier"
+      ],
+      [
+        "",
+        "",
+        "agencies / pos",
+        "t.",
+        "For statu",
+        "tory re",
+        "quirement of",
+        "Stability",
+        "& Retention"
+      ],
+      [
+        "",
+        "",
+        "sample with m",
+        "a",
+        "nufacture",
+        "r, an E",
+        "OU / EHTP /",
+        "BTP / ST",
+        "P"
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "6.28::section::0::replacement-repair-of-imported-indigenous-goods",
+      "type": "section",
+      "title": "Replacement / Repair of Imported / Indigenous Goods",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.28 Replacement / Repair of Imported / Indigenous Goods\na) Units may send capital goods abroad for repair with permission of\nCustoms authorities. Any foreign exchange payment for this\npurpose will also be allowed. However, no permission will be\nrequired for sending capital goods for repair within country.\nb) EOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni. Transfer goods to DTA / abroad for repair / replacement,\ntesting or calibration and return.\nii. Transfer goods for quality testing / R&D purpose to any\nrecognized laboratory / institution upto Rs. 10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods. However, if goods have been consumed /\ndestroyed in process of testing etc. a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.\n6.28 Replacement / Repair of Imported / Indigenous Goods\na)\nUnits may send capital goods abroad for repair with permission of\nCustoms authorities. Any foreign exchange payment for this\npurpose will also be allowed. However, no permission will be\nrequired for sending capital goods for repair within country.\nb)\nEOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni.\nTransfer goods to DTA / abroad for repair / replacement,\ntesting or calibration and return.\nii.\nTransfer goods for quality testing / R&D purpose to any\nrecognized laboratory / institution upto Rs. 10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods. However, if goods have been consumed /\ndestroyed in process of testing etc. a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.",
+      "parentId": "",
+      "sectionId": "6.28",
+      "sectionTitle": "Replacement / Repair of Imported / Indigenous Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 37,
+      "searchAliases": [
+        "Replacement / Repair of Imported / Indigenous Goods",
+        "Replacement Repair of Imported Indigenous Goods",
+        "ReplacementRepairofImportedIndigenousGoods"
+      ],
+      "childIds": [
+        "6.28::exception::1::exceptions",
+        "6.28::exception::2::exceptions",
+        "6.28::validation::3::validation-rules",
+        "6.28::business_rule::4::replacement-repair-of-imported-indigenous-goods"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 37
+    },
+    {
+      "id": "6.28::exception::1::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "However, no permission will be\nrequired for sending capital goods for repair within country.",
+      "parentId": "6.28::section::0::replacement-repair-of-imported-indigenous-goods",
+      "sectionId": "6.28",
+      "sectionTitle": "Replacement / Repair of Imported / Indigenous Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.28::exception::2::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "However, if goods have been consumed /\ndestroyed in process of testing etc.",
+      "parentId": "6.28::section::0::replacement-repair-of-imported-indigenous-goods",
+      "sectionId": "6.28",
+      "sectionTitle": "Replacement / Repair of Imported / Indigenous Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.28::validation::3::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "However, no permission will be\nrequired for sending capital goods for repair within country.",
+      "parentId": "6.28::section::0::replacement-repair-of-imported-indigenous-goods",
+      "sectionId": "6.28",
+      "sectionTitle": "Replacement / Repair of Imported / Indigenous Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.28::business_rule::4::replacement-repair-of-imported-indigenous-goods",
+      "type": "business_rule",
+      "title": "Replacement / Repair of Imported / Indigenous Goods",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: Any foreign exchange payment for this\npurpose will also be allowed.",
+      "parentId": "6.28::section::0::replacement-repair-of-imported-indigenous-goods",
+      "sectionId": "6.28",
+      "sectionTitle": "Replacement / Repair of Imported / Indigenous Goods",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Replacement / Repair of Imported / Indigenous Goods",
+        "Replacement Repair of Imported Indigenous Goods",
+        "ReplacementRepairofImportedIndigenousGoods"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [
+    "Customs"
+  ],
+  "timelines": [
+    "However, no permission will be\nrequired for sending capital goods for repair within country."
+  ],
+  "actions": [
+    "Any foreign exchange payment for this\npurpose will also be allowed.",
+    "b) EOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni.",
+    "10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods.",
+    "a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.",
+    "b)\nEOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni."
+  ],
+  "workflow": [
+    "Evaluate condition: However, if goods have been consumed /\ndestroyed in process of testing etc.",
+    "Evaluate condition: a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.",
+    "Any foreign exchange payment for this\npurpose will also be allowed.",
+    "b) EOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni.",
+    "10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods.",
+    "a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.",
+    "b)\nEOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni.",
+    "Run validation: However, no permission will be\nrequired for sending capital goods for repair within country.",
+    "Handle exception: However, no permission will be\nrequired for sending capital goods for repair within country."
+  ],
+  "workflow_ascii": "Replacement / Repair of Imported / Indigenous Goods\nEvaluate condition: However, if goods have been consumed /\ndestroyed in process of testing etc.\n   |\n   v\nEvaluate condition: a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.\n   |\n   v\nAny foreign exchange payment for this\npurpose will also be allowed.\n   |\n   v\nb) EOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni.\n   |\n   v\n10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods.\n   |\n   v\na certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.\n   |\n   v\nb)\nEOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni.\n   |\n   v\nRun validation: However, no permission will be\nrequired for sending capital goods for repair within country.\n   |\n   v\nHandle exception: However, no permission will be\nrequired for sending capital goods for repair within country.",
+  "decision_tree": [
+    "IF However, if goods have been consumed /\ndestroyed in process of testing etc. THEN Any foreign exchange payment for this\npurpose will also be allowed.",
+    "IF a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms. THEN Any foreign exchange payment for this\npurpose will also be allowed.",
+    "IF exception applies (However, no permission will be\nrequired for sending capital goods for repair within country.) THEN route to manual review",
+    "IF exception applies (However, if goods have been consumed /\ndestroyed in process of testing etc.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Replacement / Repair of Imported / Indigenous Goods Decision\nIF However, if goods have been consumed /\ndestroyed in process of testing etc. THEN Any foreign exchange payment for this\npurpose will also be allowed.\n   |\n   v\nIF a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms. THEN Any foreign exchange payment for this\npurpose will also be allowed.\n   |\n   v\nIF exception applies (However, no permission will be\nrequired for sending capital goods for repair within country.) THEN route to manual review\n   |\n   v\nIF exception applies (However, if goods have been consumed /\ndestroyed in process of testing etc.) THEN route to manual review",
+  "examples": [
+    "User asks to process Replacement / Repair of Imported / Indigenous Goods; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Replacement / Repair of Imported / Indigenous Goods, submits 10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods., a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms., and DEKAI uses the extracted rules to any foreign exchange payment for this\npurpose will also be allowed..",
+  "real_world_example_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, Example: an importer or exporter invokes Replacement / Repair of Imported / Indigenous Goods, submits 10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods., a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms., and DEKAI uses the extracted rules to any foreign exchange payment for this\npurpose will also be allowed..",
+  "ai_rules": [
+    "IF validations pass THEN recommend action: Any foreign exchange payment for this\npurpose will also be allowed."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "any_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Any"
+    },
+    {
+      "name": "eou_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:EOU"
+    },
+    {
+      "name": "stp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:STP"
+    },
+    {
+      "name": "btp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:BTP"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "dta_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DTA"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.28",
+      "purpose": "Retrieve knowledge payload for section 6.28",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Replacement-Repair-of-Imported-Indigenous-Goods/validate",
+      "purpose": "Validate inputs and documents for Replacement / Repair of Imported / Indigenous Goods",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Replacement-Repair-of-Imported-Indigenous-Goods/execute",
+      "purpose": "Trigger business action for Any foreign exchange payment for this\npurpose will also be allowed.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Replacement_Repair_of_Imported_Indigenous_Goods_overview",
+      "name": "Replacement / Repair of Imported / Indigenous Goods Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Replacement_Repair_of_Imported_Indigenous_Goods_submission",
+      "name": "Replacement / Repair of Imported / Indigenous Goods Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "for_flag",
+        "any_flag",
+        "eou_flag",
+        "stp_flag",
+        "btp_flag"
+      ]
+    },
+    {
+      "screen_id": "Replacement_Repair_of_Imported_Indigenous_Goods_exceptions",
+      "name": "Replacement / Repair of Imported / Indigenous Goods Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Replacement / Repair of Imported / Indigenous Goods require?",
+    "Which documents are needed for Replacement / Repair of Imported / Indigenous Goods?",
+    "How does DEKAI validate Replacement / Repair of Imported / Indigenous Goods requests?",
+    "What action should be taken for Replacement / Repair of Imported / Indigenous Goods?"
+  ],
+  "expected_ai_answers": [
+    "Replacement / Repair of Imported / Indigenous Goods requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: 10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods., a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.",
+    "DEKAI validates Replacement / Repair of Imported / Indigenous Goods by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: Any foreign exchange payment for this\npurpose will also be allowed."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 6.28?",
+      "answer_en": "6.28 Replacement / Repair of Imported / Indigenous Goods\na) Units may send capital goods abroad for repair with permission of\nCustoms authorities. Any foreign exchange payment for this\npurpose will also be allowed. However, no permission will be\nrequired for sending capital goods for repair within country.",
+      "question_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, What is the purpose of section 6.28?",
+      "answer_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, 6.28 Replacement / Repair of Imported / Indigenous Goods\na) Units may send capital goods abroad for repair with permission of\nCustoms authorities. Any foreign exchange payment for this\npurpose will also be allowed. However, no permission will be\nrequired for sending capital goods for repair within country."
+    },
+    {
+      "question_en": "What documents are required under Replacement / Repair of Imported / Indigenous Goods?",
+      "answer_en": "10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods., a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.",
+      "question_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, What documents are required under Replacement / Repair of Imported / Indigenous Goods?",
+      "answer_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, 10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods., a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms."
+    },
+    {
+      "question_en": "Which authority handles Replacement / Repair of Imported / Indigenous Goods?",
+      "answer_en": "Customs",
+      "question_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, Which authority handles Replacement / Repair of Imported / Indigenous Goods?",
+      "answer_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, Customs"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Replacement / Repair of Imported / Indigenous Goods?",
+      "answer_en": "AI answers: DEKAI should evaluate section 6.28, apply the extracted rules, and guide the user through Evaluate condition: However, if goods have been consumed /\ndestroyed in process of testing etc..",
+      "question_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, User asks: How do I comply with Replacement / Repair of Imported / Indigenous Goods?",
+      "answer_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, AI answers: DEKAI should evaluate section 6.28, apply the extracted rules, and guide the user through Evaluate condition: However, if goods have been consumed /\ndestroyed in process of testing etc.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Replacement / Repair of Imported / Indigenous Goods?",
+      "answer_en": "AI answers: Applicable validations are However, no permission will be\nrequired for sending capital goods for repair within country.",
+      "question_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, User asks: Which validations apply to Replacement / Repair of Imported / Indigenous Goods?",
+      "answer_thanglish": "Indha Replacement / Repair of Imported / Indigenous Goods section-la, AI answers: Applicable validations are However, no permission will be\nrequired for sending capital goods for repair within country."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 6, section 6.28, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Replacement / Repair of Imported / Indigenous Goods into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: 10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods., a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms..",
+    "Route escalations or approvals to: Customs.",
+    "Trigger manual review when exception clauses are detected."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Replacement / Repair of Imported / Indigenous Goods section-la, Capture chapter 6, section 6.28, title, and page references as immutable knowledge metadata.",
+    "Indha Replacement / Repair of Imported / Indigenous Goods section-la, Bind validations for Replacement / Repair of Imported / Indigenous Goods into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Replacement / Repair of Imported / Indigenous Goods section-la, Expose document upload controls for: 10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods., a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms..",
+    "Indha Replacement / Repair of Imported / Indigenous Goods section-la, Route escalations or approvals to: Customs.",
+    "Indha Replacement / Repair of Imported / Indigenous Goods section-la, Trigger manual review when exception clauses are detected."
+  ],
+  "keywords": [
+    "may",
+    "for",
+    "Any",
+    "EOU",
+    "STP",
+    "BTP",
+    "and",
+    "DTA",
+    "R&D",
+    "per",
+    "etc",
+    "send",
+    "with",
+    "this",
+    "will",
+    "also",
+    "EHTP",
+    "them",
+    "upto",
+    "lakh"
+  ],
+  "search_keywords": [
+    "may",
+    "for",
+    "Any",
+    "EOU",
+    "STP",
+    "BTP",
+    "and",
+    "DTA",
+    "R&D",
+    "per",
+    "etc",
+    "send",
+    "with",
+    "this",
+    "will",
+    "also",
+    "EHTP",
+    "them",
+    "upto",
+    "lakh"
+  ],
+  "intent": "Support Replacement / Repair of Imported / Indigenous Goods processing and compliance validation.",
+  "tags": [
+    "6.28",
+    "Replacement / Repair of Imported / Indigenous Goods",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    16
+  ],
+  "pages": [
+    16
+  ],
+  "source_document": "HBP-Chapter-6.pdf",
+  "raw_text": "6.28 Replacement / Repair of Imported / Indigenous Goods\na) Units may send capital goods abroad for repair with permission of\nCustoms authorities. Any foreign exchange payment for this\npurpose will also be allowed. However, no permission will be\nrequired for sending capital goods for repair within country.\nb) EOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni. Transfer goods to DTA / abroad for repair / replacement,\ntesting or calibration and return.\nii. Transfer goods for quality testing / R&D purpose to any\nrecognized laboratory / institution upto Rs. 10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods. However, if goods have been consumed /\ndestroyed in process of testing etc. a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.\n6.28 Replacement / Repair of Imported / Indigenous Goods\na)\nUnits may send capital goods abroad for repair with permission of\nCustoms authorities. Any foreign exchange payment for this\npurpose will also be allowed. However, no permission will be\nrequired for sending capital goods for repair within country.\nb)\nEOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni.\nTransfer goods to DTA / abroad for repair / replacement,\ntesting or calibration and return.\nii.\nTransfer goods for quality testing / R&D purpose to any\nrecognized laboratory / institution upto Rs. 10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods. However, if goods have been consumed /\ndestroyed in process of testing etc. a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: However, if goods have been consumed /\ndestroyed in process of testing etc.\"]\n    S2[\"Evaluate condition: a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.\"]\n    S1 --> S2\n    S3[\"Any foreign exchange payment for this\npurpose will also be allowed.\"]\n    S2 --> S3\n    S4[\"b) EOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni.\"]\n    S3 --> S4\n    S5[\"10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods.\"]\n    S4 --> S5\n    S6[\"a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.\"]\n    S5 --> S6\n    S7[\"b)\nEOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities:\ni.\"]\n    S6 --> S7\n    S8[\"Run validation: However, no permission will be\nrequired for sending capital goods for repair within country.\"]\n    S7 --> S8\n    S9[\"Handle exception: However, no permission will be\nrequired for sending capital goods for repair within country.\"]\n    S8 --> S9",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: However, if goods have been consumed /\ndestroyed in process of testing etc.;\n:Evaluate condition\\: a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.;\n:Any foreign exchange payment for this\npurpose will also be allowed.;\n:b) EOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities\\:\ni.;\n:10 lakh per\nannum without payment of duty and/or taxes as applicable\nin such cases on giving suitable undertaking to Customs for\nreturn of goods.;\n:a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms.;\n:b)\nEOU / EHTP / STP / BTP units may, on basis of records maintained\nby them and prior intimation to Customs authorities\\:\ni.;\n:Run validation\\: However, no permission will be\nrequired for sending capital goods for repair within country.;\n:Handle exception\\: However, no permission will be\nrequired for sending capital goods for repair within country.;\nstop\n@enduml"
+}

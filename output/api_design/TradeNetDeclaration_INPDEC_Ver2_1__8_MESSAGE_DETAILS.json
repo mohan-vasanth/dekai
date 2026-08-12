@@ -1,0 +1,65 @@
+{
+  "section": "8",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/8",
+      "purpose": "Retrieve knowledge payload for section 8",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/MESSAGE-DETAILS/validate",
+      "purpose": "Validate inputs and documents for MESSAGE DETAILS",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/MESSAGE-DETAILS/execute",
+      "purpose": "Trigger business action for SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

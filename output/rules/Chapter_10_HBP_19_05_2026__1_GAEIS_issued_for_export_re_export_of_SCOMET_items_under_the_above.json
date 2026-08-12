@@ -1,0 +1,55 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "1",
+  "title": "GAEIS issued for export / re-export of SCOMET items under the above",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC1-R001",
+      "rule_description": "GAEIS issued for export / re-export of SCOMET items under the above\nCategories / Sub Categories shall be valid for Three years from the date of issue of\npg.",
+      "trigger": "GAEIS issued for export / re-export of SCOMET items under the above",
+      "condition": "Additiona | l details |, if any soug | ht by DGFT.",
+      "validation": "GAEIS issued for export / re-export of SCOMET items under the above\nCategories / Sub Categories shall be valid for Three years from the date of issue of\npg.",
+      "action": "GAEIS issued for export / re-export of SCOMET items under the above\nCategories / Sub Categories shall be valid for Three years from the date of issue of\npg.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1 - GAEIS issued for export / re-export of SCOMET items under the above."
+    },
+    {
+      "rule_id": "CH10-SEC1-R002",
+      "rule_description": "The docu | ments | submitted b | y the expor | ter must incl | ude the name, contact\nnumber and | email I | D of the auth | ority signin | g the EUC befo | re actual export.",
+      "trigger": "GAEIS issued for export / re-export of SCOMET items under the above",
+      "condition": "In case of | re-expo | rt of import | ed items, th | e additional do | cuments as mentioned\nin 1.b.vii.(i) | have to | be submitte | d at the time | of post repor | ting.",
+      "validation": "The docu | ments | submitted b | y the expor | ter must incl | ude the name, contact\nnumber and | email I | D of the auth | ority signin | g the EUC befo | re actual export.",
+      "action": "The docu | ments | submitted b | y the expor | ter must incl | ude the name, contact\nnumber and | email I | D of the auth | ority signin | g the EUC befo | re actual export.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1 - GAEIS issued for export / re-export of SCOMET items under the above."
+    },
+    {
+      "rule_id": "CH10-SEC1-R003",
+      "rule_description": "The India | n export | er shall subm | it post-ship | ment details o | f each export/re-export\nof SCOMET | items u | nder the abo | ve Categori | es/sub-catego | ries under GAEIS for 3\nyears on q | uarterly | basis (Mar | ch/June/Se | ptember/Dece | mber) by the end of\nsubsequent | month | of each qua | rter, in resp | ect of exports | made in the previous\nquarter; | | | | |\nb.",
+      "trigger": "GAEIS issued for export / re-export of SCOMET items under the above",
+      "condition": "GAEIS w | ould no | t be issued | for countri | es or entities | covered under UNSC\nembargo or | sanctio | ns list or on | assessment | of proliferatio | n concerns, or national\nsecurity and | foreign | policy consi | derations, e | tc.: |\nc.",
+      "validation": "The India | n export | er shall subm | it post-ship | ment details o | f each export/re-export\nof SCOMET | items u | nder the abo | ve Categori | es/sub-catego | ries under GAEIS for 3\nyears on q | uarterly | basis (Mar | ch/June/Se | ptember/Dece | mber) by the end of\nsubsequent | month | of each qua | rter, in resp | ect of exports | made in the previous\nquarter; | | | | |\nb.",
+      "action": "In case of | re-expo | rt of import | ed items, th | e additional do | cuments as mentioned\nin 1.b.vii.(i) | have to | be submitte | d at the time | of post repor | ting.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1 - GAEIS issued for export / re-export of SCOMET items under the above."
+    },
+    {
+      "rule_id": "CH10-SEC1-R004",
+      "rule_description": "GAEIS issued for export / re-export of SCOMET items under the above\nCategories / Sub Categories shall be valid for Three years from the date of issue of\nGAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported\nwithin 30 days from the last quarter;",
+      "trigger": "GAEIS issued for export / re-export of SCOMET items under the above",
+      "condition": "In case o | f inclus | ion of new | countries o | r amendment | to the existing list of\ncountries w | here th | e export is | expected to | be done und | er GAEIS the applicant\nexporter wil | l obtain | prior permi | ssion from D | GFT with rele | vant details;\nd.",
+      "validation": "Record K | eeping | | | |\nThe exporte | r will b | e required | to keep rec | ords of all the | export documents, in\nmanual or e | lectroni | c form, in ter | ms of Para 1 | 0.18 of HBP, f | or 5 years from the date\nof GAEIS iss | ued by | DGFT.",
+      "action": "GAEIS wo | uld not | be issued in c | ase of items | to be used to d | esign, develop, acquire,\nor manufact | ure, pos | sess, transp | ort, transfer | and/or used fo | r military applications,\nexplosives, | chemic | al, biologica | l, nuclear w | eapons or fo | r missiles capable of\ndelivering w | eapons | of mass dest | ruction and | their delivery | system;\nb.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1 - GAEIS issued for export / re-export of SCOMET items under the above."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: GAEIS issued for export / re-export of SCOMET items under the above\nCategories / Sub Categories shall be valid for Three years from the date of issue of\npg.",
+    "IF detected context matches section rule THEN enforce: The docu | ments | submitted b | y the expor | ter must incl | ude the name, contact\nnumber and | email I | D of the auth | ority signin | g the EUC befo | re actual export.",
+    "IF detected context matches section rule THEN enforce: The India | n export | er shall subm | it post-ship | ment details o | f each export/re-export\nof SCOMET | items u | nder the abo | ve Categori | es/sub-catego | ries under GAEIS for 3\nyears on q | uarterly | basis (Mar | ch/June/Se | ptember/Dece | mber) by the end of\nsubsequent | month | of each qua | rter, in resp | ect of exports | made in the previous\nquarter; | | | | |\nb.",
+    "IF detected context matches section rule THEN enforce: GAEIS issued for export / re-export of SCOMET items under the above\nCategories / Sub Categories shall be valid for Three years from the date of issue of\nGAEIS subject to subsequent post reporting(s) on a quarterly basis to be reported\nwithin 30 days from the last quarter;",
+    "IF validations pass THEN recommend action: GAEIS issued for export / re-export of SCOMET items under the above\nCategories / Sub Categories shall be valid for Three years from the date of issue of\npg."
+  ]
+}

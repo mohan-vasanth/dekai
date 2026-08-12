@@ -1,0 +1,315 @@
+{
+  "section": "8",
+  "conditions": [
+    "A062 cac:Unique Reference Number M 1 Format:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036 cbc:ID M 1 an..17 Specify Declarant entity identifier.",
+    "B020 cbc:Date M 1 n8 Specify date of Creation.",
+    "4 Specify sequence number.",
+    "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Specify Applicant/Declarant Id.",
+    "Mandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header).",
+    "B083 cbc:Common Access Reference M 1 an..7 COODEC\nB006 cbc:Application Type M 1 an3 Specify Application Type eg.",
+    "COO=Application of Certificate Of Origin\nB037 cbc:Declaration Indicator M boolean Mandatory to specify declaration indicator.",
+    "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+    "B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number.",
+    "A027 cac:Certificate Additional Information C 5 Repeat at most five times.",
+    "B038 cbc:Line M 5 an..35 specify certificate additional information.",
+    "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nRef Tag name | User defined\nS R Repr | Remarks\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "A062\ncac:Unique Reference Number\nM\n1\nFormat:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036\ncbc:ID\nM\n1 an..17\nSpecify Declarant entity identifier.",
+    "B020\ncbc:Date\nM\n1 n8\nSpecify date of Creation.",
+    "4\nSpecify sequence number.",
+    "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nSpecify Applicant/Declarant Id.",
+    "B083\ncbc:Common Access Reference\nM\n1 an..7\nCOODEC\nB006\ncbc:Application Type\nM\n1 an3\nSpecify Application Type eg.",
+    "COO=Application of Certificate Of Origin\nB037\ncbc:Declaration Indicator\nM\nboolean\nMandatory to specify declaration indicator.",
+    "B064\ncbc:Previous Permit Number\nC\n1 an..35\nSpecify previous Permit Number.",
+    "A027\ncac:Certificate Additional Information\nC\n5\nRepeat at most five times.",
+    "B038\ncbc:Line\nM\n5 an..35\nspecify certificate additional information.",
+    "OFFICIAL (CLOSED)\n/cac:Certificate Additional Information\ncoo:Certificate M 1 Mandatory to specify certificate details\nB005 cbc:Application Product Type M 1 an2 Specify Application Product Type.",
+    "The valid application product\ntypes are:\nNA=Application for non-textile products at Airport\nNH=Application for non-textile products at Headquarters\nTX=Application for textile products\nB079 cbc:Entry Year C 1 n4 FORMAT: CCYY\nOptional to specify Entry Year if Application Product Type = TX and\nCertificate Type = 9 or 18.",
+    "B016 cbc:GSPDonor Country C 1 an2 Mandatory for Certificate Type 2 to specify GSP Donor Country\n(Donation Acting Country).",
+    "Specify Country code (refer to UN/ECE Recommendation No.",
+    "A009 cac:Certificate Detail M 2 Repeat at most 2 times.",
+    "B068 cbc:Sequence Numeric M 1 n..5 Specify the sequence number of the Certificate.",
+    "B011 cbc:Certificate Type M 1 an..2 Specify Certificate Type eg.",
+    "1 (GSP Form A)\n2 (GSP Form A under Cumulative ASEAN)\n3 (Back-to-Back GSP Form A)\n4 (Ordinary Certificate of Origin)\n4A (Certificate of Processing)\n5 (Commonwealth Preference Certificate)\n7 (Form W – reserve)\n9 (Ordinary Certificate of Origin for textile products to EU\ncountries only)\n10 (Export Certificate for fresh cut orchids)\n12 (GSTP – Global System of Trade Preferences)\n16 (ATIGA Form D)\n17 (Back-to-Back ATIGA Form D)\n18 (Preferential CO for FTA)\n19 (Asean-China FTA Form E)\n20 (Back-to-Back ACFTA Form E)\n21 (India-Singapore CECA CO)\n22 (Back-to-Back AKFTA Form AK)\n23 (Asean-Korea FTA Form AK)\n24 (CO Generic Form Z)\n25 (Asean-Japan CEP Form AJ)\n26 (Back-to-Back AJCEP Form AJ)\n27 (Asean-India FTA Form AI)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n/cac:Certificate Additional Information\ncoo:Certificate\nM\n1\nMandatory to specify certificate details\nB005\ncbc:Application Product Type\nM\n1 an2\nSpecify Application Product Type.",
+    "The valid application product\ntypes are:\nNA=Application for non-textile products at Airport\nNH=Application for non-textile products at Headquarters\nTX=Application for textile products\nB079\ncbc:Entry Year\nC\n1 n4\nFORMAT: CCYY\nOptional to specify Entry Year if Application Product Type = TX and\nCertificate Type = 9 or 18.",
+    "B016\ncbc:GSPDonor Country\nC\n1 an2\nMandatory for Certificate Type 2 to specify GSP Donor Country\n(Donation Acting Country).",
+    "A009\ncac:Certificate Detail\nM\n2\nRepeat at most 2 times.",
+    "B068\ncbc:Sequence Numeric\nM\n1 n..5\nSpecify the sequence number of the Certificate.",
+    "B011\ncbc:Certificate Type\nM\n1 an..2\nSpecify Certificate Type eg.",
+    "1 (GSP Form A)\n2 (GSP Form A under Cumulative ASEAN)\n3 (Back-to-Back GSP Form A)\n4 (Ordinary Certificate of Origin)\n4A (Certificate of Processing)\n5 (Commonwealth Preference Certificate)\n7 (Form W – reserve)\n9 (Ordinary Certificate of Origin for textile products to EU\ncountries only)\n10 (Export Certificate for fresh cut orchids)\n12 (GSTP – Global System of Trade Preferences)\n16 (ATIGA Form D)\n17 (Back-to-Back ATIGA Form D)\n18 (Preferential CO for FTA)\n19 (Asean-China FTA Form E)\n20 (Back-to-Back ACFTA Form E)\n21 (India-Singapore CECA CO)\n22 (Back-to-Back AKFTA Form AK)\n23 (Asean-Korea FTA Form AK)\n24 (CO Generic Form Z)\n25 (Asean-Japan CEP Form AJ)\n26 (Back-to-Back AJCEP Form AJ)\n27 (Asean-India FTA Form AI)\nOFFICIAL (CLOSED)\n28 (Back-to-Back AIFTA Form AI)\n29 (Asean-Australia-New Zealand FTA Form AANZ)\n30 (Back-to-Back AANZFTA Form AANZ)\n31 (ASEAN-Hong Kong FTA Form AHK)\n32 (Back-to-Back AHKFTA Form AHK)\n33 Regional Comprehensive Economic Partnership (RCEP) Form RCEP\n34 Back-to-Back Form RCEP\nB015 cbc:Copies Numeric C 1 n..2 Specify additional number of copies required for this Certificate\nType.",
+    "/cac:Certificate Detail\nB014 cbc:Preference Content Percent C 1 n..3 i) If Certificate Type = 5, mandatory to specify the percentage of\nCommonwealth Preference Content in which the value of each and every\nmanufactured article in its condition described in the Certificate\nis not less than the specified percentage.",
+    "ii) Not applicable for other Certificate Type.",
+    "B018 cbc:Currency Code C 1 a3 All values in the Certificate at item level will be assumed to be\nSGD unless specified here.",
+    "Specify currency code (refer to UN/ECE Recommendation No.",
+    "B038 cbc:Additional Certificate Details C 5 an..35 Specify certificate additional details.",
+    "B038 cbc:Transport Details C 5 an..35 Specify transport details.",
+    "coo:Transport M 1\nA036 cac:Outward Transport M 1 Mandatory to specify OUT transport details.",
+    "A060 cac:Transport Means M 1 Mandatory to specify outward transport mode."
+  ],
+  "condition_logic": [
+    {
+      "id": ".8.1",
+      "if": "A062 cac:Unique Reference Number M 1 Format:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036 cbc:ID M 1 an..17 Specify Declarant entity identifier.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "A062 cac:Unique Reference Number M 1 Format:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036 cbc:ID M 1 an..17 Specify Declarant entity identifier."
+    },
+    {
+      "id": ".8.2",
+      "if": "B020 cbc:Date M 1 n8 Specify date of Creation.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B020 cbc:Date M 1 n8 Specify date of Creation."
+    },
+    {
+      "id": ".8.3",
+      "if": "4 Specify sequence number.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "4 Specify sequence number."
+    },
+    {
+      "id": ".8.4",
+      "if": "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Specify Applicant/Declarant Id.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Specify Applicant/Declarant Id."
+    },
+    {
+      "id": ".8.5",
+      "if": "Mandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header).",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "Mandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header)."
+    },
+    {
+      "id": ".8.6",
+      "if": "B083 cbc:Common Access Reference M 1 an..7 COODEC\nB006 cbc:Application Type M 1 an3 Specify Application Type eg.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B083 cbc:Common Access Reference M 1 an..7 COODEC\nB006 cbc:Application Type M 1 an3 Specify Application Type eg."
+    },
+    {
+      "id": ".8.7",
+      "if": "COO=Application of Certificate Of Origin\nB037 cbc:Declaration Indicator M boolean Mandatory to specify declaration indicator.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "COO=Application of Certificate Of Origin\nB037 cbc:Declaration Indicator M boolean Mandatory to specify declaration indicator."
+    },
+    {
+      "id": ".8.8",
+      "if": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”."
+    },
+    {
+      "id": ".8.9",
+      "if": "B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number."
+    },
+    {
+      "id": ".8.10",
+      "if": "A027 cac:Certificate Additional Information C 5 Repeat at most five times.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "A027 cac:Certificate Additional Information C 5 Repeat at most five times."
+    },
+    {
+      "id": ".8.11",
+      "if": "B038 cbc:Line M 5 an..35 specify certificate additional information.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B038 cbc:Line M 5 an..35 specify certificate additional information."
+    },
+    {
+      "id": ".8.12",
+      "if": "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nRef Tag name | User defined\nS R Repr | Remarks\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nRef Tag name | User defined\nS R Repr | Remarks\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".8.13",
+      "if": "A062\ncac:Unique Reference Number\nM\n1\nFormat:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036\ncbc:ID\nM\n1 an..17\nSpecify Declarant entity identifier.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "A062\ncac:Unique Reference Number\nM\n1\nFormat:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036\ncbc:ID\nM\n1 an..17\nSpecify Declarant entity identifier."
+    },
+    {
+      "id": ".8.14",
+      "if": "B020\ncbc:Date\nM\n1 n8\nSpecify date of Creation.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B020\ncbc:Date\nM\n1 n8\nSpecify date of Creation."
+    },
+    {
+      "id": ".8.15",
+      "if": "4\nSpecify sequence number.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "4\nSpecify sequence number."
+    },
+    {
+      "id": ".8.16",
+      "if": "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nSpecify Applicant/Declarant Id.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nSpecify Applicant/Declarant Id."
+    },
+    {
+      "id": ".8.17",
+      "if": "B083\ncbc:Common Access Reference\nM\n1 an..7\nCOODEC\nB006\ncbc:Application Type\nM\n1 an3\nSpecify Application Type eg.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B083\ncbc:Common Access Reference\nM\n1 an..7\nCOODEC\nB006\ncbc:Application Type\nM\n1 an3\nSpecify Application Type eg."
+    },
+    {
+      "id": ".8.18",
+      "if": "COO=Application of Certificate Of Origin\nB037\ncbc:Declaration Indicator\nM\nboolean\nMandatory to specify declaration indicator.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "COO=Application of Certificate Of Origin\nB037\ncbc:Declaration Indicator\nM\nboolean\nMandatory to specify declaration indicator."
+    },
+    {
+      "id": ".8.19",
+      "if": "B064\ncbc:Previous Permit Number\nC\n1 an..35\nSpecify previous Permit Number.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B064\ncbc:Previous Permit Number\nC\n1 an..35\nSpecify previous Permit Number."
+    },
+    {
+      "id": ".8.20",
+      "if": "A027\ncac:Certificate Additional Information\nC\n5\nRepeat at most five times.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "A027\ncac:Certificate Additional Information\nC\n5\nRepeat at most five times."
+    },
+    {
+      "id": ".8.21",
+      "if": "B038\ncbc:Line\nM\n5 an..35\nspecify certificate additional information.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B038\ncbc:Line\nM\n5 an..35\nspecify certificate additional information."
+    },
+    {
+      "id": ".8.22",
+      "if": "OFFICIAL (CLOSED)\n/cac:Certificate Additional Information\ncoo:Certificate M 1 Mandatory to specify certificate details\nB005 cbc:Application Product Type M 1 an2 Specify Application Product Type.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "OFFICIAL (CLOSED)\n/cac:Certificate Additional Information\ncoo:Certificate M 1 Mandatory to specify certificate details\nB005 cbc:Application Product Type M 1 an2 Specify Application Product Type."
+    },
+    {
+      "id": ".8.23",
+      "if": "The valid application product\ntypes are:\nNA=Application for non-textile products at Airport\nNH=Application for non-textile products at Headquarters\nTX=Application for textile products\nB079 cbc:Entry Year C 1 n4 FORMAT: CCYY\nOptional to specify Entry Year if Application Product Type = TX and\nCertificate Type = 9 or 18.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "The valid application product\ntypes are:\nNA=Application for non-textile products at Airport\nNH=Application for non-textile products at Headquarters\nTX=Application for textile products\nB079 cbc:Entry Year C 1 n4 FORMAT: CCYY\nOptional to specify Entry Year if Application Product Type = TX and\nCertificate Type = 9 or 18."
+    },
+    {
+      "id": ".8.24",
+      "if": "B016 cbc:GSPDonor Country C 1 an2 Mandatory for Certificate Type 2 to specify GSP Donor Country\n(Donation Acting Country).",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B016 cbc:GSPDonor Country C 1 an2 Mandatory for Certificate Type 2 to specify GSP Donor Country\n(Donation Acting Country)."
+    },
+    {
+      "id": ".8.25",
+      "if": "Specify Country code (refer to UN/ECE Recommendation No.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "Specify Country code (refer to UN/ECE Recommendation No."
+    },
+    {
+      "id": ".8.26",
+      "if": "A009 cac:Certificate Detail M 2 Repeat at most 2 times.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "A009 cac:Certificate Detail M 2 Repeat at most 2 times."
+    },
+    {
+      "id": ".8.27",
+      "if": "B068 cbc:Sequence Numeric M 1 n..5 Specify the sequence number of the Certificate.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B068 cbc:Sequence Numeric M 1 n..5 Specify the sequence number of the Certificate."
+    },
+    {
+      "id": ".8.28",
+      "if": "B011 cbc:Certificate Type M 1 an..2 Specify Certificate Type eg.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B011 cbc:Certificate Type M 1 an..2 Specify Certificate Type eg."
+    },
+    {
+      "id": ".8.29",
+      "if": "1 (GSP Form A)\n2 (GSP Form A under Cumulative ASEAN)\n3 (Back-to-Back GSP Form A)\n4 (Ordinary Certificate of Origin)\n4A (Certificate of Processing)\n5 (Commonwealth Preference Certificate)\n7 (Form W – reserve)\n9 (Ordinary Certificate of Origin for textile products to EU\ncountries only)\n10 (Export Certificate for fresh cut orchids)\n12 (GSTP – Global System of Trade Preferences)\n16 (ATIGA Form D)\n17 (Back-to-Back ATIGA Form D)\n18 (Preferential CO for FTA)\n19 (Asean-China FTA Form E)\n20 (Back-to-Back ACFTA Form E)\n21 (India-Singapore CECA CO)\n22 (Back-to-Back AKFTA Form AK)\n23 (Asean-Korea FTA Form AK)\n24 (CO Generic Form Z)\n25 (Asean-Japan CEP Form AJ)\n26 (Back-to-Back AJCEP Form AJ)\n27 (Asean-India FTA Form AI)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "1 (GSP Form A)\n2 (GSP Form A under Cumulative ASEAN)\n3 (Back-to-Back GSP Form A)\n4 (Ordinary Certificate of Origin)\n4A (Certificate of Processing)\n5 (Commonwealth Preference Certificate)\n7 (Form W – reserve)\n9 (Ordinary Certificate of Origin for textile products to EU\ncountries only)\n10 (Export Certificate for fresh cut orchids)\n12 (GSTP – Global System of Trade Preferences)\n16 (ATIGA Form D)\n17 (Back-to-Back ATIGA Form D)\n18 (Preferential CO for FTA)\n19 (Asean-China FTA Form E)\n20 (Back-to-Back ACFTA Form E)\n21 (India-Singapore CECA CO)\n22 (Back-to-Back AKFTA Form AK)\n23 (Asean-Korea FTA Form AK)\n24 (CO Generic Form Z)\n25 (Asean-Japan CEP Form AJ)\n26 (Back-to-Back AJCEP Form AJ)\n27 (Asean-India FTA Form AI)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".8.30",
+      "if": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n/cac:Certificate Additional Information\ncoo:Certificate\nM\n1\nMandatory to specify certificate details\nB005\ncbc:Application Product Type\nM\n1 an2\nSpecify Application Product Type.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n/cac:Certificate Additional Information\ncoo:Certificate\nM\n1\nMandatory to specify certificate details\nB005\ncbc:Application Product Type\nM\n1 an2\nSpecify Application Product Type."
+    },
+    {
+      "id": ".8.31",
+      "if": "The valid application product\ntypes are:\nNA=Application for non-textile products at Airport\nNH=Application for non-textile products at Headquarters\nTX=Application for textile products\nB079\ncbc:Entry Year\nC\n1 n4\nFORMAT: CCYY\nOptional to specify Entry Year if Application Product Type = TX and\nCertificate Type = 9 or 18.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "The valid application product\ntypes are:\nNA=Application for non-textile products at Airport\nNH=Application for non-textile products at Headquarters\nTX=Application for textile products\nB079\ncbc:Entry Year\nC\n1 n4\nFORMAT: CCYY\nOptional to specify Entry Year if Application Product Type = TX and\nCertificate Type = 9 or 18."
+    },
+    {
+      "id": ".8.32",
+      "if": "B016\ncbc:GSPDonor Country\nC\n1 an2\nMandatory for Certificate Type 2 to specify GSP Donor Country\n(Donation Acting Country).",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B016\ncbc:GSPDonor Country\nC\n1 an2\nMandatory for Certificate Type 2 to specify GSP Donor Country\n(Donation Acting Country)."
+    },
+    {
+      "id": ".8.33",
+      "if": "A009\ncac:Certificate Detail\nM\n2\nRepeat at most 2 times.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "A009\ncac:Certificate Detail\nM\n2\nRepeat at most 2 times."
+    },
+    {
+      "id": ".8.34",
+      "if": "B068\ncbc:Sequence Numeric\nM\n1 n..5\nSpecify the sequence number of the Certificate.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B068\ncbc:Sequence Numeric\nM\n1 n..5\nSpecify the sequence number of the Certificate."
+    },
+    {
+      "id": ".8.35",
+      "if": "B011\ncbc:Certificate Type\nM\n1 an..2\nSpecify Certificate Type eg.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B011\ncbc:Certificate Type\nM\n1 an..2\nSpecify Certificate Type eg."
+    },
+    {
+      "id": ".8.36",
+      "if": "1 (GSP Form A)\n2 (GSP Form A under Cumulative ASEAN)\n3 (Back-to-Back GSP Form A)\n4 (Ordinary Certificate of Origin)\n4A (Certificate of Processing)\n5 (Commonwealth Preference Certificate)\n7 (Form W – reserve)\n9 (Ordinary Certificate of Origin for textile products to EU\ncountries only)\n10 (Export Certificate for fresh cut orchids)\n12 (GSTP – Global System of Trade Preferences)\n16 (ATIGA Form D)\n17 (Back-to-Back ATIGA Form D)\n18 (Preferential CO for FTA)\n19 (Asean-China FTA Form E)\n20 (Back-to-Back ACFTA Form E)\n21 (India-Singapore CECA CO)\n22 (Back-to-Back AKFTA Form AK)\n23 (Asean-Korea FTA Form AK)\n24 (CO Generic Form Z)\n25 (Asean-Japan CEP Form AJ)\n26 (Back-to-Back AJCEP Form AJ)\n27 (Asean-India FTA Form AI)\nOFFICIAL (CLOSED)\n28 (Back-to-Back AIFTA Form AI)\n29 (Asean-Australia-New Zealand FTA Form AANZ)\n30 (Back-to-Back AANZFTA Form AANZ)\n31 (ASEAN-Hong Kong FTA Form AHK)\n32 (Back-to-Back AHKFTA Form AHK)\n33 Regional Comprehensive Economic Partnership (RCEP) Form RCEP\n34 Back-to-Back Form RCEP\nB015 cbc:Copies Numeric C 1 n..2 Specify additional number of copies required for this Certificate\nType.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "1 (GSP Form A)\n2 (GSP Form A under Cumulative ASEAN)\n3 (Back-to-Back GSP Form A)\n4 (Ordinary Certificate of Origin)\n4A (Certificate of Processing)\n5 (Commonwealth Preference Certificate)\n7 (Form W – reserve)\n9 (Ordinary Certificate of Origin for textile products to EU\ncountries only)\n10 (Export Certificate for fresh cut orchids)\n12 (GSTP – Global System of Trade Preferences)\n16 (ATIGA Form D)\n17 (Back-to-Back ATIGA Form D)\n18 (Preferential CO for FTA)\n19 (Asean-China FTA Form E)\n20 (Back-to-Back ACFTA Form E)\n21 (India-Singapore CECA CO)\n22 (Back-to-Back AKFTA Form AK)\n23 (Asean-Korea FTA Form AK)\n24 (CO Generic Form Z)\n25 (Asean-Japan CEP Form AJ)\n26 (Back-to-Back AJCEP Form AJ)\n27 (Asean-India FTA Form AI)\nOFFICIAL (CLOSED)\n28 (Back-to-Back AIFTA Form AI)\n29 (Asean-Australia-New Zealand FTA Form AANZ)\n30 (Back-to-Back AANZFTA Form AANZ)\n31 (ASEAN-Hong Kong FTA Form AHK)\n32 (Back-to-Back AHKFTA Form AHK)\n33 Regional Comprehensive Economic Partnership (RCEP) Form RCEP\n34 Back-to-Back Form RCEP\nB015 cbc:Copies Numeric C 1 n..2 Specify additional number of copies required for this Certificate\nType."
+    },
+    {
+      "id": ".8.37",
+      "if": "Certificate Type = 5",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "/cac:Certificate Detail\nB014 cbc:Preference Content Percent C 1 n..3 i) If Certificate Type = 5, mandatory to specify the percentage of\nCommonwealth Preference Content in which the value of each and every\nmanufactured article in its condition described in the Certificate\nis not less than the specified percentage."
+    },
+    {
+      "id": ".8.38",
+      "if": "ii) Not applicable for other Certificate Type.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "ii) Not applicable for other Certificate Type."
+    },
+    {
+      "id": ".8.39",
+      "if": "B018 cbc:Currency Code C 1 a3 All values in the Certificate at item level will be assumed to be\nSGD unless specified here.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B018 cbc:Currency Code C 1 a3 All values in the Certificate at item level will be assumed to be\nSGD unless specified here."
+    },
+    {
+      "id": ".8.40",
+      "if": "Specify currency code (refer to UN/ECE Recommendation No.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "Specify currency code (refer to UN/ECE Recommendation No."
+    },
+    {
+      "id": ".8.41",
+      "if": "B038 cbc:Additional Certificate Details C 5 an..35 Specify certificate additional details.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B038 cbc:Additional Certificate Details C 5 an..35 Specify certificate additional details."
+    },
+    {
+      "id": ".8.42",
+      "if": "B038 cbc:Transport Details C 5 an..35 Specify transport details.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "B038 cbc:Transport Details C 5 an..35 Specify transport details."
+    },
+    {
+      "id": ".8.43",
+      "if": "coo:Transport M 1\nA036 cac:Outward Transport M 1 Mandatory to specify OUT transport details.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "coo:Transport M 1\nA036 cac:Outward Transport M 1 Mandatory to specify OUT transport details."
+    },
+    {
+      "id": ".8.44",
+      "if": "A060 cac:Transport Means M 1 Mandatory to specify outward transport mode.",
+      "then": "“I/We declare that all the product(s) to be exported in this\nApplication has/have been registered with the TTSB of Singapore\nCustoms and qualify(s) for the respective Certificates applied for”.",
+      "source": "A060 cac:Transport Means M 1 Mandatory to specify outward transport mode."
+    }
+  ]
+}

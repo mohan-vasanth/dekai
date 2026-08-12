@@ -1,0 +1,587 @@
+{
+  "chapter_number": "3",
+  "chapter_title": "Developing Districts as Export Hubs Developing Districts as Export Hubs",
+  "section": "3.05",
+  "title": "District Export Action Plans for Each District",
+  "purpose": "3.05 District Export Action Plans for Each District\nThe District Export Action Plan may be prepared for each District.",
+  "purpose_thanglish": "Indha District Export Action Plans for Each District section-la, 3.05 District export Action Plans for Each District\nThe District export Action Plan may be prepared for each District.",
+  "summary": "3.05 District Export Action Plans for Each District\nThe District Export Action Plan may be prepared for each District. It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage. Informative material on various incentives provided by\nthe Government of India and the respective State Government of exporters may be\ndisseminated to the industry and other potential exporters.",
+  "business_meaning": "District Export Action Plans for Each District governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "District Export Action Plans for Each District explains the operating rule set that DEKAI should enforce. Key control points include Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+  "business_explanation_thanglish": "Indha District Export Action Plans for Each District section-la, District export Action Plans for Each District explains the operating rule set that DEKAI should enforce. Key control points include Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+  "business_logic": [
+    "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH3-SEC3_05-R001",
+      "rule_description": "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+      "trigger": "District Export Action Plans for Each District",
+      "condition": "Identifying the bottlenecks faced by the Industry.",
+      "validation": "It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3.05 - District Export Action Plans for Each District."
+    }
+  ],
+  "conditions": [
+    "Identifying the bottlenecks faced by the Industry.",
+    "Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.",
+    "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.",
+    "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+    "Clear identification of incentives/Support provided by the State and\nCentral Government.",
+    "Training\nand\ndevelopment\nneeds\nfor\nidentified\nexport\nproducts/services."
+  ],
+  "condition_logic": [
+    {
+      "id": "3.3.05.1",
+      "if": "Identifying the bottlenecks faced by the Industry.",
+      "then": "Route for review",
+      "source": "Identifying the bottlenecks faced by the Industry."
+    },
+    {
+      "id": "3.3.05.2",
+      "if": "Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.",
+      "then": "Route for review",
+      "source": "Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms."
+    },
+    {
+      "id": "3.3.05.3",
+      "if": "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.",
+      "then": "Route for review",
+      "source": "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired."
+    },
+    {
+      "id": "3.3.05.4",
+      "if": "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+      "then": "Route for review",
+      "source": "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation."
+    },
+    {
+      "id": "3.3.05.5",
+      "if": "Clear identification of incentives/Support provided by the State and\nCentral Government.",
+      "then": "Route for review",
+      "source": "Clear identification of incentives/Support provided by the State and\nCentral Government."
+    },
+    {
+      "id": "3.3.05.6",
+      "if": "Training\nand\ndevelopment\nneeds\nfor\nidentified\nexport\nproducts/services.",
+      "then": "Route for review",
+      "source": "Training\nand\ndevelopment\nneeds\nfor\nidentified\nexport\nproducts/services."
+    }
+  ],
+  "validations": [
+    "It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage.",
+    "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.",
+    "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation."
+  ],
+  "exceptions": [],
+  "dependencies": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "documents": [],
+  "required_documents": [],
+  "tables": [
+    [
+      [
+        "1.",
+        "District Profile"
+      ]
+    ],
+    [
+      [
+        "3.",
+        "",
+        "Comprehensive analysis of the major products (Goods and Services)",
+        ""
+      ],
+      [
+        "",
+        "",
+        "with export potential from District.",
+        ""
+      ]
+    ],
+    [
+      [
+        "5.",
+        "",
+        "Identifying institutional responsibilities, specifics of policy,",
+        ""
+      ],
+      [
+        "",
+        "",
+        "regulatory and operational reforms.",
+        ""
+      ]
+    ],
+    [
+      [
+        "7.",
+        "",
+        "Action Plan must identify quantifiable targets with specific timelines",
+        ""
+      ],
+      [
+        "",
+        "",
+        "for their implementation.",
+        ""
+      ]
+    ],
+    [
+      [
+        "9.",
+        "",
+        "Training and development needs for identified export",
+        ""
+      ],
+      [
+        "",
+        "",
+        "products/services.",
+        ""
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "3.05::section::0::district-export-action-plans-for-each-district",
+      "type": "section",
+      "title": "District Export Action Plans for Each District",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "3.05 District Export Action Plans for Each District\nThe District Export Action Plan may be prepared for each District. It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage. Informative material on various incentives provided by\nthe Government of India and the respective State Government of exporters may be\ndisseminated to the industry and other potential exporters. The Plan may also include\nstrategy to enhance logistics and infrastructure at the District level and better\nutilization of the Market Access Initiative (MAI) Scheme of the Department of\nCommerce for inviting foreign buyers under reverse buyer-seller meets at the District\nlevel and suitably gathering District level exports data.\nDistrict Export Action Plan may include the following:\nS.No. Indicative Content\n3.05 District Export Action Plans for Each District\nThe District Export Action Plan may be prepared for each District. It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage. Informative material on various incentives provided by\nthe Government of India and the respective State Government of exporters may be\ndisseminated to the industry and other potential exporters. The Plan may also include\nstrategy to enhance logistics and infrastructure at the District level and better\nutilization of the Market Access Initiative (MAI) Scheme of the Department of\nCommerce for inviting foreign buyers under reverse buyer-seller meets at the District\nlevel and suitably gathering District level exports data.\nDistrict Export Action Plan may include the following:\nS.No.\nIndicative Content\n1.\nDistrict Profile\n2.\nIndustry Profile\n3.\nComprehensive analysis of the major products (Goods and Services)\nwith export potential from District.\n4.\nIdentifying the bottlenecks faced by the Industry.\n5.\nIdentifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.\n6.\nIdentifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.\n7.\nAction Plan must identify quantifiable targets with specific timelines\nfor their implementation.\n8.\nClear identification of incentives/Support provided by the State and\nCentral Government.\n9.\nTraining\nand\ndevelopment\nneeds\nfor\nidentified\nexport\nproducts/services.",
+      "parentId": "",
+      "sectionId": "3.05",
+      "sectionTitle": "District Export Action Plans for Each District",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 63,
+      "searchAliases": [
+        "District Export Action Plans for Each District",
+        "DistrictExportActionPlansforEachDistrict"
+      ],
+      "childIds": [
+        "3.05::validation::1::validation-rules",
+        "3.05::validation::2::validation-rules",
+        "3.05::validation::3::validation-rules",
+        "3.05::business_rule::4::district-export-action-plans-for-each-district"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 63
+    },
+    {
+      "id": "3.05::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage.",
+      "parentId": "3.05::section::0::district-export-action-plans-for-each-district",
+      "sectionId": "3.05",
+      "sectionTitle": "District Export Action Plans for Each District",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "3.05::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.",
+      "parentId": "3.05::section::0::district-export-action-plans-for-each-district",
+      "sectionId": "3.05",
+      "sectionTitle": "District Export Action Plans for Each District",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "3.05::validation::3::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+      "parentId": "3.05::section::0::district-export-action-plans-for-each-district",
+      "sectionId": "3.05",
+      "sectionTitle": "District Export Action Plans for Each District",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "3.05::business_rule::4::district-export-action-plans-for-each-district",
+      "type": "business_rule",
+      "title": "District Export Action Plans for Each District",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+      "parentId": "3.05::section::0::district-export-action-plans-for-each-district",
+      "sectionId": "3.05",
+      "sectionTitle": "District Export Action Plans for Each District",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "District Export Action Plans for Each District",
+        "DistrictExportActionPlansforEachDistrict"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [
+    "State Government",
+    "Government of India and the respective State Government",
+    "Central Government"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: Identifying the bottlenecks faced by the Industry.",
+    "Evaluate condition: Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.",
+    "Evaluate condition: Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.",
+    "Run validation: It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage.",
+    "Run validation: Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.",
+    "Run validation: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation."
+  ],
+  "workflow_ascii": "District Export Action Plans for Each District\nEvaluate condition: Identifying the bottlenecks faced by the Industry.\n   |\n   v\nEvaluate condition: Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.\n   |\n   v\nEvaluate condition: Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.\n   |\n   v\nRun validation: It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage.\n   |\n   v\nRun validation: Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.\n   |\n   v\nRun validation: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+  "decision_tree": [
+    "IF section 3.05 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "District Export Action Plans for Each District Decision\nIF section 3.05 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process District Export Action Plans for Each District; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes District Export Action Plans for Each District, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the district export action plans for each district process.",
+  "real_world_example_thanglish": "Indha District Export Action Plans for Each District section-la, Example: an importer or exporter invokes District export Action Plans for Each District, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the district export action plans for each district process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:The"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "mai_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:MAI"
+    },
+    {
+      "name": "each_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Each"
+    },
+    {
+      "name": "plan_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Plan"
+    },
+    {
+      "name": "with_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:with"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/3.05",
+      "purpose": "Retrieve knowledge payload for section 3.05",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/District-Export-Action-Plans-for-Each-District/validate",
+      "purpose": "Validate inputs and documents for District Export Action Plans for Each District",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "District_Export_Action_Plans_for_Each_District_overview",
+      "name": "District Export Action Plans for Each District Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "District_Export_Action_Plans_for_Each_District_submission",
+      "name": "District Export Action Plans for Each District Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "may_flag",
+        "and_flag",
+        "mai_flag",
+        "each_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does District Export Action Plans for Each District require?",
+    "Which documents are needed for District Export Action Plans for Each District?",
+    "How does DEKAI validate District Export Action Plans for Each District requests?"
+  ],
+  "expected_ai_answers": [
+    "District Export Action Plans for Each District requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates District Export Action Plans for Each District by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 3.05?",
+      "answer_en": "District Export Action Plans for Each District explains the operating rule set that DEKAI should enforce. Key control points include Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+      "question_thanglish": "Indha District Export Action Plans for Each District section-la, What is the purpose of section 3.05?",
+      "answer_thanglish": "Indha District Export Action Plans for Each District section-la, District export Action Plans for Each District explains the operating rule set that DEKAI should enforce. Key control points include Action Plan must identify quantifiable targets with specific timelines\nfor their implementation."
+    },
+    {
+      "question_en": "What documents are required under District Export Action Plans for Each District?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha District Export Action Plans for Each District section-la, What documents are required under District export Action Plans for Each District?",
+      "answer_thanglish": "Indha District Export Action Plans for Each District section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles District Export Action Plans for Each District?",
+      "answer_en": "State Government, Government of India and the respective State Government, Central Government",
+      "question_thanglish": "Indha District Export Action Plans for Each District section-la, Which authority handles District export Action Plans for Each District?",
+      "answer_thanglish": "Indha District Export Action Plans for Each District section-la, State Government, Government of India and the respective State Government, Central Government"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with District Export Action Plans for Each District?",
+      "answer_en": "AI answers: DEKAI should evaluate section 3.05, apply the extracted rules, and guide the user through Evaluate condition: Identifying the bottlenecks faced by the Industry..",
+      "question_thanglish": "Indha District Export Action Plans for Each District section-la, User asks: How do I comply with District export Action Plans for Each District?",
+      "answer_thanglish": "Indha District Export Action Plans for Each District section-la, AI answers: DEKAI should evaluate section 3.05, apply the extracted rules, and guide the user through Evaluate condition: Identifying the bottlenecks faced by the Industry.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to District Export Action Plans for Each District?",
+      "answer_en": "AI answers: Applicable validations are It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage., Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired., Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+      "question_thanglish": "Indha District Export Action Plans for Each District section-la, User asks: Which validations apply to District export Action Plans for Each District?",
+      "answer_thanglish": "Indha District Export Action Plans for Each District section-la, AI answers: Applicable validations are It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage., Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired., Action Plan must identify quantifiable targets with specific timelines\nfor their implementation."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 3, section 3.05, title, and page references as immutable knowledge metadata.",
+    "Bind validations for District Export Action Plans for Each District into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: State Government, Government of India and the respective State Government, Central Government.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 5, 6, 7, 8, 9."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha District Export Action Plans for Each District section-la, Capture chapter 3, section 3.05, title, and page references as immutable knowledge metadata.",
+    "Indha District Export Action Plans for Each District section-la, Bind validations for District export Action Plans for Each District into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha District Export Action Plans for Each District section-la, Route escalations or approvals to: State Government, Government of India and the respective State Government, Central Government.",
+    "Indha District Export Action Plans for Each District section-la, Show contextual links to related sections: 1, 2, 3, 4, 5, 6, 7, 8, 9."
+  ],
+  "keywords": [
+    "for",
+    "The",
+    "may",
+    "and",
+    "MAI",
+    "Each",
+    "Plan",
+    "with",
+    "from",
+    "also",
+    "data",
+    "must",
+    "Plans",
+    "local",
+    "trade",
+    "their",
+    "stage",
+    "India",
+    "State",
+    "other"
+  ],
+  "search_keywords": [
+    "for",
+    "The",
+    "may",
+    "and",
+    "MAI",
+    "Each",
+    "Plan",
+    "with",
+    "from",
+    "also",
+    "data",
+    "must",
+    "Plans",
+    "local",
+    "trade",
+    "their",
+    "stage",
+    "India",
+    "State",
+    "other"
+  ],
+  "intent": "Provide knowledge guidance for District Export Action Plans for Each District.",
+  "tags": [
+    "3.05",
+    "District Export Action Plans for Each District",
+    "business-rule",
+    "dgft"
+  ],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation."
+  ],
+  "page_numbers": [
+    5
+  ],
+  "pages": [
+    5
+  ],
+  "source_document": "HBP2023_Chapter03.pdf",
+  "raw_text": "3.05 District Export Action Plans for Each District\nThe District Export Action Plan may be prepared for each District. It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage. Informative material on various incentives provided by\nthe Government of India and the respective State Government of exporters may be\ndisseminated to the industry and other potential exporters. The Plan may also include\nstrategy to enhance logistics and infrastructure at the District level and better\nutilization of the Market Access Initiative (MAI) Scheme of the Department of\nCommerce for inviting foreign buyers under reverse buyer-seller meets at the District\nlevel and suitably gathering District level exports data.\nDistrict Export Action Plan may include the following:\nS.No. Indicative Content\n3.05 District Export Action Plans for Each District\nThe District Export Action Plan may be prepared for each District. It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage. Informative material on various incentives provided by\nthe Government of India and the respective State Government of exporters may be\ndisseminated to the industry and other potential exporters. The Plan may also include\nstrategy to enhance logistics and infrastructure at the District level and better\nutilization of the Market Access Initiative (MAI) Scheme of the Department of\nCommerce for inviting foreign buyers under reverse buyer-seller meets at the District\nlevel and suitably gathering District level exports data.\nDistrict Export Action Plan may include the following:\nS.No.\nIndicative Content\n1.\nDistrict Profile\n2.\nIndustry Profile\n3.\nComprehensive analysis of the major products (Goods and Services)\nwith export potential from District.\n4.\nIdentifying the bottlenecks faced by the Industry.\n5.\nIdentifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.\n6.\nIdentifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.\n7.\nAction Plan must identify quantifiable targets with specific timelines\nfor their implementation.\n8.\nClear identification of incentives/Support provided by the State and\nCentral Government.\n9.\nTraining\nand\ndevelopment\nneeds\nfor\nidentified\nexport\nproducts/services.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Identifying the bottlenecks faced by the Industry.\"]\n    S2[\"Evaluate condition: Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.\"]\n    S2 --> S3\n    S4[\"Run validation: It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage.\"]\n    S3 --> S4\n    S5[\"Run validation: Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.\"]\n    S4 --> S5\n    S6[\"Run validation: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.\"]\n    S5 --> S6",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Identifying the bottlenecks faced by the Industry.;\n:Evaluate condition\\: Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.;\n:Evaluate condition\\: Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.;\n:Run validation\\: It may include the\nsupport required by the local industry and trade in boosting their manufacturing\nactivity and exports with impetus on supporting the industry from the production\nstage to the exporting stage.;\n:Run validation\\: Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.;\n:Run validation\\: Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.;\nstop\n@enduml"
+}

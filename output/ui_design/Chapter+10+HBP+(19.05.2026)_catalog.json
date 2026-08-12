@@ -35,6 +35,7 @@
     "Proof_of_import_of_the_item_s_exceptions",
     "Proof_of_obligation_for_repair_of_defective_damaged_items_overview",
     "Proof_of_obligation_for_repair_of_defective_damaged_items_submission",
+    "Proof_of_obligation_for_repair_of_defective_damaged_items_exceptions",
     "An_Undertaking_from_the_Indian_exporter_overview",
     "An_Undertaking_from_the_Indian_exporter_submission",
     "Certified_approved_Internal_Compliance_Programme_or_demonstrating_overview",
@@ -712,11 +713,21 @@
             "section_code",
             "section_title",
             "for_flag",
+            "exp_flag",
             "and_flag",
-            "sow_flag",
-            "the_flag",
-            "are_flag",
-            "one_flag"
+            "abr_flag",
+            "oad_flag",
+            "def_flag"
+          ]
+        },
+        {
+          "screen_id": "Proof_of_obligation_for_repair_of_defective_damaged_items_exceptions",
+          "name": "Proof of obligation for repair of defective/damaged items: Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
           ]
         }
       ]
@@ -828,9 +839,9 @@
             "aeo_flag",
             "icp_flag",
             "for_flag",
+            "ork_flag",
             "sow_flag",
-            "msa_flag",
-            "and_flag"
+            "msa_flag"
           ]
         },
         {
@@ -874,11 +885,11 @@
             "section_code",
             "section_title",
             "for_flag",
+            "rep_flag",
             "the_flag",
-            "new_flag",
-            "via_flag",
-            "nic_flag",
-            "end_flag"
+            "all_flag",
+            "exp_flag",
+            "ome_flag"
           ]
         },
         {
@@ -1020,9 +1031,9 @@
             "for_flag",
             "and_flag",
             "the_flag",
-            "may_flag",
-            "icp_flag",
-            "any_flag"
+            "nds_flag",
+            "new_flag",
+            "nia_flag"
           ]
         },
         {
@@ -1419,9 +1430,9 @@
             "for_flag",
             "the_flag",
             "end_flag",
-            "any_flag",
-            "not_flag",
-            "and_flag"
+            "det_flag",
+            "nts_flag",
+            "try_flag"
           ]
         }
       ]
@@ -1571,9 +1582,9 @@
             "the_flag",
             "for_flag",
             "non_flag",
+            "ddi_flag",
             "vii_flag",
-            "may_flag",
-            "gaet_flag"
+            "sub_flag"
           ]
         }
       ]
@@ -1800,8 +1811,8 @@
             "for_flag",
             "use_flag",
             "euc_flag",
-            "and_flag",
-            "they_flag"
+            "app_flag",
+            "ely_flag"
           ]
         }
       ]
@@ -1912,9 +1923,9 @@
             "for_flag",
             "the_flag",
             "sub_flag",
-            "from_flag",
-            "date_flag",
-            "post_flag"
+            "ter_flag",
+            "ude_flag",
+            "and_flag"
           ]
         }
       ]
@@ -2309,12 +2320,12 @@
           "fields": [
             "section_code",
             "section_title",
-            "for_flag",
+            "fil_flag",
+            "ing_flag",
             "the_flag",
             "may_flag",
-            "not_flag",
-            "anf_flag",
-            "etc_flag"
+            "nts_flag",
+            "for_flag"
           ]
         }
       ]

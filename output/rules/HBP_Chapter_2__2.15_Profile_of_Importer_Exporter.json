@@ -1,0 +1,66 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.15",
+  "title": "Profile of Importer / Exporter",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_15-R001",
+      "rule_description": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "trigger": "Profile of Importer / Exporter",
+      "condition": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "validation": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "action": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.15 - Profile of Importer / Exporter."
+    },
+    {
+      "rule_id": "CH2-SEC2_15-R002",
+      "rule_description": "| | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+      "trigger": "Profile of Importer / Exporter",
+      "condition": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "validation": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "action": "c) Proof of status as manufacturer exporter is also to be uploaded under the Profile.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.15 - Profile of Importer / Exporter."
+    },
+    {
+      "rule_id": "CH2-SEC2_15-R003",
+      "rule_description": "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+      "trigger": "Profile of Importer / Exporter",
+      "condition": "15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc.",
+      "validation": "| | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+      "action": "| |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.15 - Profile of Importer / Exporter."
+    },
+    {
+      "rule_id": "CH2-SEC2_15-R004",
+      "rule_description": "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+      "trigger": "Profile of Importer / Exporter",
+      "condition": "| | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |.",
+      "validation": "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+      "action": "| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.15 - Profile of Importer / Exporter."
+    },
+    {
+      "rule_id": "CH2-SEC2_15-R005",
+      "rule_description": "I | EC Holder | shall be\nresponsible for updating | the same as and whe | n a | chan | ge takes | place imme | diately or\nin any case at least once | in a year.",
+      "trigger": "Profile of Importer / Exporter",
+      "condition": "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+      "validation": "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+      "action": "| | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.15 - Profile of Importer / Exporter."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+    "IF detected context matches section rule THEN enforce: | | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+    "IF detected context matches section rule THEN enforce: | |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+    "IF detected context matches section rule THEN enforce: | such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+    "IF detected context matches section rule THEN enforce: I | EC Holder | shall be\nresponsible for updating | the same as and whe | n a | chan | ge takes | place imme | diately or\nin any case at least once | in a year.",
+    "IF validations pass THEN recommend action: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP."
+  ]
+}

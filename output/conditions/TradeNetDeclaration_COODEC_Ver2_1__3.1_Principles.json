@@ -1,0 +1,42 @@
+{
+  "section": "3.1",
+  "conditions": [
+    "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.",
+    "tariff number, declared use etc).",
+    "The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item.",
+    "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration."
+  ],
+  "condition_logic": [
+    {
+      "id": ".3.1.1",
+      "if": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.",
+      "then": "Route for review",
+      "source": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration."
+    },
+    {
+      "id": ".3.1.2",
+      "if": "tariff number, declared use etc).",
+      "then": "Route for review",
+      "source": "tariff number, declared use etc)."
+    },
+    {
+      "id": ".3.1.3",
+      "if": "The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item.",
+      "then": "Route for review",
+      "source": "The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item."
+    },
+    {
+      "id": ".3.1.4",
+      "if": "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "Route for review",
+      "source": "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".3.1.5",
+      "if": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.",
+      "then": "Route for review",
+      "source": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration."
+    }
+  ]
+}

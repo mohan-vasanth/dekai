@@ -1,0 +1,98 @@
+{
+  "section": "1.07",
+  "conditions": [
+    "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+    "RA, after satisfying itself of the bona fide of the payment, will obtain approval\nof EG&TF Division, DGFT Hqrs and then RA will upload the value (in lieu of e BRC\nvalue) in EDI system of DGFT for processing of the case.",
+    "(b) If the proof of payment issued by the Insurance Agency mentions claim value both\nin foreign exchange and INR, RA will use the foreign exchange value for processing.",
+    "If\nthe claim value is mentioned only in equivalent INR, RA will convert this INR value in\nequivalent US$ using the exchange rate (published by CBIC) applicable on the date of\nsettlement of insurance claim.",
+    "|\n(j) Facility | to ve | rify the d | oc | ume | nts/c | ertificat | e issued thro | ugh | DGFT Por | tal\nDigitally iss | ued e | -authorisa | tio | ns/ | e-cert | ificates t | hrough DGFT | Por | tal can be | verified at\nDGFT webs | ite un | der the lin | k | > Se | rvices | > Verify | Document.",
+    "| | |\n1.05 Use o | f Digi | tal Signat | ur | e C | ertific | ates and | Aadhar e-Si | gn | |\nDGFT allo | ws su | bmission | of | ap | plicati | ons aut | henticated th | roug | h digital | signature\ncertificate ( | DSC) | issued by | an | y ap | prove | d entity | of Controller | of Ce | rtifying Au | thority of\nIndia or thr | ough | Aadhar e S | ign | in | online | environ | ment.",
+    "| | |\n1.06 Conv | ersio | n of Curr | en | cies | in e-B | RCs | | | |\n(a) Curren | cies, | where Exc | ha | nge | rates | are not | ified by CBI | C: Th | e foreign | exchange\nrealised (a | s men | tioned by | b | ank | in the | e BRC) i | s converted | into | Indian Ru | pee (INR)\nusing the | month | ly exchan | ge | rat | es pub | lished b | y CBIC as on | Let | Export Or | der (LEO)\ndate.",
+    "| | | | | | | | | |\n(b) Curren | cies, | where Exc | ha | nge | rates | are not | notified by C | BIC: | In such c | ases, total\nrealised va | lue in | INR (as m | en | tion | ed by | bank in | the e BRC), w | ill be | converte | d into US$\nby using th | e US$ | /INR exch | an | ge r | ate pr | evailing | on the date o | f rea | lisation as | published\nby CBIC.",
+    "RA |, after | satisfying | it | self | of the | bona fid | e of the paym | ent, | will obtain | approval\nof EG&TF | Divisi | on, DGFT | Hq | rs | and th | en RA w | ill upload th | e va | lue (in lie | u of e BRC\nvalue) in E | DI sys | tem of DG | FT | for | proces | sing of t | he case.",
+    "| | |\n(b) If the p | roof o | f payment | iss | ue | d by th | e Insura | nce Agency m | enti | ons claim v | alue both\nin foreign e | xchan | ge and IN | R, | RA | will us | e the for | eign exchang | e va | lue for pro | cessing.",
+    "If\nthe claim v | alue i | s mention | ed | onl | y in eq | uivalent | INR, RA will | conv | ert this IN | R value in\nequivalent | US$ u | sing the e | xc | han | ge rate | (publish | ed by CBIC) | appl | icable on t | he date of\nsettlement | of ins | urance cla | im |.",
+    "(j) Facility to verify the documents/certificate issued through DGFT Portal\nDigitally issued e-authorisations/e-certificates through DGFT Portal can be verified at\nDGFT website under the link > Services > Verify Document.",
+    "STATUS HOLDER CERTIFICATION"
+  ],
+  "condition_logic": [
+    {
+      "id": "1.1.07.1",
+      "if": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency."
+    },
+    {
+      "id": "1.1.07.2",
+      "if": "RA, after satisfying itself of the bona fide of the payment, will obtain approval\nof EG&TF Division, DGFT Hqrs and then RA will upload the value (in lieu of e BRC\nvalue) in EDI system of DGFT for processing of the case.",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "RA, after satisfying itself of the bona fide of the payment, will obtain approval\nof EG&TF Division, DGFT Hqrs and then RA will upload the value (in lieu of e BRC\nvalue) in EDI system of DGFT for processing of the case."
+    },
+    {
+      "id": "1.1.07.3",
+      "if": "(b) If the proof of payment issued by the Insurance Agency mentions claim value both\nin foreign exchange and INR, RA will use the foreign exchange value for processing.",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "(b) If the proof of payment issued by the Insurance Agency mentions claim value both\nin foreign exchange and INR, RA will use the foreign exchange value for processing."
+    },
+    {
+      "id": "1.1.07.4",
+      "if": "the claim value is mentioned only in equivalent INR",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "If\nthe claim value is mentioned only in equivalent INR, RA will convert this INR value in\nequivalent US$ using the exchange rate (published by CBIC) applicable on the date of\nsettlement of insurance claim."
+    },
+    {
+      "id": "1.1.07.5",
+      "if": "|\n(j) Facility | to ve | rify the d | oc | ume | nts/c | ertificat | e issued thro | ugh | DGFT Por | tal\nDigitally iss | ued e | -authorisa | tio | ns/ | e-cert | ificates t | hrough DGFT | Por | tal can be | verified at\nDGFT webs | ite un | der the lin | k | > Se | rvices | > Verify | Document.",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "|\n(j) Facility | to ve | rify the d | oc | ume | nts/c | ertificat | e issued thro | ugh | DGFT Por | tal\nDigitally iss | ued e | -authorisa | tio | ns/ | e-cert | ificates t | hrough DGFT | Por | tal can be | verified at\nDGFT webs | ite un | der the lin | k | > Se | rvices | > Verify | Document."
+    },
+    {
+      "id": "1.1.07.6",
+      "if": "| | |\n1.05 Use o | f Digi | tal Signat | ur | e C | ertific | ates and | Aadhar e-Si | gn | |\nDGFT allo | ws su | bmission | of | ap | plicati | ons aut | henticated th | roug | h digital | signature\ncertificate ( | DSC) | issued by | an | y ap | prove | d entity | of Controller | of Ce | rtifying Au | thority of\nIndia or thr | ough | Aadhar e S | ign | in | online | environ | ment.",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "| | |\n1.05 Use o | f Digi | tal Signat | ur | e C | ertific | ates and | Aadhar e-Si | gn | |\nDGFT allo | ws su | bmission | of | ap | plicati | ons aut | henticated th | roug | h digital | signature\ncertificate ( | DSC) | issued by | an | y ap | prove | d entity | of Controller | of Ce | rtifying Au | thority of\nIndia or thr | ough | Aadhar e S | ign | in | online | environ | ment."
+    },
+    {
+      "id": "1.1.07.7",
+      "if": "| | |\n1.06 Conv | ersio | n of Curr | en | cies | in e-B | RCs | | | |\n(a) Curren | cies, | where Exc | ha | nge | rates | are not | ified by CBI | C: Th | e foreign | exchange\nrealised (a | s men | tioned by | b | ank | in the | e BRC) i | s converted | into | Indian Ru | pee (INR)\nusing the | month | ly exchan | ge | rat | es pub | lished b | y CBIC as on | Let | Export Or | der (LEO)\ndate.",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "| | |\n1.06 Conv | ersio | n of Curr | en | cies | in e-B | RCs | | | |\n(a) Curren | cies, | where Exc | ha | nge | rates | are not | ified by CBI | C: Th | e foreign | exchange\nrealised (a | s men | tioned by | b | ank | in the | e BRC) i | s converted | into | Indian Ru | pee (INR)\nusing the | month | ly exchan | ge | rat | es pub | lished b | y CBIC as on | Let | Export Or | der (LEO)\ndate."
+    },
+    {
+      "id": "1.1.07.8",
+      "if": "| | | | | | | | | |\n(b) Curren | cies, | where Exc | ha | nge | rates | are not | notified by C | BIC: | In such c | ases, total\nrealised va | lue in | INR (as m | en | tion | ed by | bank in | the e BRC), w | ill be | converte | d into US$\nby using th | e US$ | /INR exch | an | ge r | ate pr | evailing | on the date o | f rea | lisation as | published\nby CBIC.",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "| | | | | | | | | |\n(b) Curren | cies, | where Exc | ha | nge | rates | are not | notified by C | BIC: | In such c | ases, total\nrealised va | lue in | INR (as m | en | tion | ed by | bank in | the e BRC), w | ill be | converte | d into US$\nby using th | e US$ | /INR exch | an | ge r | ate pr | evailing | on the date o | f rea | lisation as | published\nby CBIC."
+    },
+    {
+      "id": "1.1.07.9",
+      "if": "RA |, after | satisfying | it | self | of the | bona fid | e of the paym | ent, | will obtain | approval\nof EG&TF | Divisi | on, DGFT | Hq | rs | and th | en RA w | ill upload th | e va | lue (in lie | u of e BRC\nvalue) in E | DI sys | tem of DG | FT | for | proces | sing of t | he case.",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "RA |, after | satisfying | it | self | of the | bona fid | e of the paym | ent, | will obtain | approval\nof EG&TF | Divisi | on, DGFT | Hq | rs | and th | en RA w | ill upload th | e va | lue (in lie | u of e BRC\nvalue) in E | DI sys | tem of DG | FT | for | proces | sing of t | he case."
+    },
+    {
+      "id": "1.1.07.10",
+      "if": "| | |\n(b) If the p | roof o | f payment | iss | ue | d by th | e Insura | nce Agency m | enti | ons claim v | alue both\nin foreign e | xchan | ge and IN | R, | RA | will us | e the for | eign exchang | e va | lue for pro | cessing.",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "| | |\n(b) If the p | roof o | f payment | iss | ue | d by th | e Insura | nce Agency m | enti | ons claim v | alue both\nin foreign e | xchan | ge and IN | R, | RA | will us | e the for | eign exchang | e va | lue for pro | cessing."
+    },
+    {
+      "id": "1.1.07.11",
+      "if": "the claim v | alue i | s mention | ed | onl | y in eq | uivalent | INR",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "If\nthe claim v | alue i | s mention | ed | onl | y in eq | uivalent | INR, RA will | conv | ert this IN | R value in\nequivalent | US$ u | sing the e | xc | han | ge rate | (publish | ed by CBIC) | appl | icable on t | he date of\nsettlement | of ins | urance cla | im |."
+    },
+    {
+      "id": "1.1.07.12",
+      "if": "(j) Facility to verify the documents/certificate issued through DGFT Portal\nDigitally issued e-authorisations/e-certificates through DGFT Portal can be verified at\nDGFT website under the link > Services > Verify Document.",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "(j) Facility to verify the documents/certificate issued through DGFT Portal\nDigitally issued e-authorisations/e-certificates through DGFT Portal can be verified at\nDGFT website under the link > Services > Verify Document."
+    },
+    {
+      "id": "1.1.07.13",
+      "if": "STATUS HOLDER CERTIFICATION",
+      "then": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "source": "STATUS HOLDER CERTIFICATION"
+    }
+  ]
+}

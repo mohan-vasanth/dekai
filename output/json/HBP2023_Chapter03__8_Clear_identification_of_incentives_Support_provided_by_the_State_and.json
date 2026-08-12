@@ -1,0 +1,348 @@
+{
+  "chapter_number": "3",
+  "chapter_title": "Developing Districts as Export Hubs Developing Districts as Export Hubs",
+  "section": "8",
+  "title": "Clear identification of incentives/Support provided by the State and",
+  "purpose": "Defines the operational requirements for Clear identification of incentives/Support provided by the State and.",
+  "purpose_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, Defines the operational requirements for Clear identification of incentives/Support provided by the State and.",
+  "summary": "8. Clear identification of incentives/Support provided by the State and\nCentral Government.",
+  "business_meaning": "8.",
+  "business_explanation": "8. Clear identification of incentives/Support provided by the State and\nCentral Government.",
+  "business_explanation_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, 8. Clear identification of incentives/Support provided by the State and\nCentral Government.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH3-SEC8-R001",
+      "rule_description": "8. Clear identification of incentives/Support provided by the State and\nCentral Government.",
+      "trigger": "Clear identification of incentives/Support provided by the State and",
+      "condition": "Clear identification of incentives/Support provided by the State and\nCentral Government.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 8 - Clear identification of incentives/Support provided by the State and."
+    }
+  ],
+  "conditions": [
+    "Clear identification of incentives/Support provided by the State and\nCentral Government."
+  ],
+  "condition_logic": [
+    {
+      "id": "3.8.1",
+      "if": "Clear identification of incentives/Support provided by the State and\nCentral Government.",
+      "then": "Route for review",
+      "source": "Clear identification of incentives/Support provided by the State and\nCentral Government."
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "8::section::0::clear-identification-of-incentives-support-provi",
+      "type": "section",
+      "title": "Clear identification of incentives/Support provided by the State and",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "8. Clear identification of incentives/Support provided by the State and\nCentral Government.",
+      "parentId": "",
+      "sectionId": "8",
+      "sectionTitle": "Clear identification of incentives/Support provided by the State and",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 1,
+      "searchAliases": [
+        "Clear identification of incentives/Support provided by the State and",
+        "Clear identification of incentives Support provided by the State and",
+        "ClearidentificationofincentivesSupportprovidedbytheStateand"
+      ],
+      "childIds": [
+        "8::business_rule::1::clear-identification-of-incentives-support-provi"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 1
+    },
+    {
+      "id": "8::business_rule::1::clear-identification-of-incentives-support-provi",
+      "type": "business_rule",
+      "title": "Clear identification of incentives/Support provided by the State and",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "8. Clear identification of incentives/Support provided by the State and\nCentral Government.",
+      "parentId": "8::section::0::clear-identification-of-incentives-support-provi",
+      "sectionId": "8",
+      "sectionTitle": "Clear identification of incentives/Support provided by the State and",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Clear identification of incentives/Support provided by the State and",
+        "Clear identification of incentives Support provided by the State and",
+        "ClearidentificationofincentivesSupportprovidedbytheStateand"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [
+    "Central Government"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: Clear identification of incentives/Support provided by the State and\nCentral Government."
+  ],
+  "workflow_ascii": "Clear identification of incentives/Support provided by the State and\nEvaluate condition: Clear identification of incentives/Support provided by the State and\nCentral Government.",
+  "decision_tree": [
+    "IF section 8 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Clear identification of incentives/Support provided by the State and Decision\nIF section 8 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Clear identification of incentives/Support provided by the State and; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Clear identification of incentives/Support provided by the State and, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the clear identification of incentives/support provided by the state and process.",
+  "real_world_example_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, Example: an importer or exporter invokes Clear identification of incentives/Support provided by the State and, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the clear identification of incentives/support provided by the state and process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "clear_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Clear"
+    },
+    {
+      "name": "state_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:State"
+    },
+    {
+      "name": "central_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Central"
+    },
+    {
+      "name": "provided_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:provided"
+    },
+    {
+      "name": "government_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Government"
+    },
+    {
+      "name": "identification_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:identification"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/8",
+      "purpose": "Retrieve knowledge payload for section 8",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Clear-identification-of-incentives-Support-provided-by-the-State-and/validate",
+      "purpose": "Validate inputs and documents for Clear identification of incentives/Support provided by the State and",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Clear_identification_of_incentives_Support_provided_by_the_State_and_overview",
+      "name": "Clear identification of incentives/Support provided by the State and Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Clear_identification_of_incentives_Support_provided_by_the_State_and_submission",
+      "name": "Clear identification of incentives/Support provided by the State and Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "clear_flag",
+        "state_flag",
+        "central_flag",
+        "provided_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Clear identification of incentives/Support provided by the State and require?",
+    "Which documents are needed for Clear identification of incentives/Support provided by the State and?",
+    "How does DEKAI validate Clear identification of incentives/Support provided by the State and requests?"
+  ],
+  "expected_ai_answers": [
+    "Clear identification of incentives/Support provided by the State and requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Clear identification of incentives/Support provided by the State and by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 8?",
+      "answer_en": "8. Clear identification of incentives/Support provided by the State and\nCentral Government.",
+      "question_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, What is the purpose of section 8?",
+      "answer_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, 8. Clear identification of incentives/Support provided by the State and\nCentral Government."
+    },
+    {
+      "question_en": "What documents are required under Clear identification of incentives/Support provided by the State and?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, What documents are required under Clear identification of incentives/Support provided by the State and?",
+      "answer_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Clear identification of incentives/Support provided by the State and?",
+      "answer_en": "Central Government",
+      "question_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, Which authority handles Clear identification of incentives/Support provided by the State and?",
+      "answer_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, Central Government"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Clear identification of incentives/Support provided by the State and?",
+      "answer_en": "AI answers: DEKAI should evaluate section 8, apply the extracted rules, and guide the user through Evaluate condition: Clear identification of incentives/Support provided by the State and\nCentral Government..",
+      "question_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, User asks: How do I comply with Clear identification of incentives/Support provided by the State and?",
+      "answer_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, AI answers: DEKAI should evaluate section 8, apply the extracted rules, and guide the user through Evaluate condition: Clear identification of incentives/Support provided by the State and\nCentral Government.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Clear identification of incentives/Support provided by the State and?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, User asks: Which validations apply to Clear identification of incentives/Support provided by the State and?",
+      "answer_thanglish": "Indha Clear identification of incentives/Support provided by the State and section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 3, section 8, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Clear identification of incentives/Support provided by the State and into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: Central Government."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Clear identification of incentives/Support provided by the State and section-la, Capture chapter 3, section 8, title, and page references as immutable knowledge metadata.",
+    "Indha Clear identification of incentives/Support provided by the State and section-la, Bind validations for Clear identification of incentives/Support provided by the State and into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Clear identification of incentives/Support provided by the State and section-la, Route escalations or approvals to: Central Government."
+  ],
+  "keywords": [
+    "the",
+    "and",
+    "Clear",
+    "State",
+    "Central",
+    "provided",
+    "Government",
+    "identification",
+    "incentives/Support"
+  ],
+  "search_keywords": [
+    "the",
+    "and",
+    "Clear",
+    "State",
+    "Central",
+    "provided",
+    "Government",
+    "identification",
+    "incentives/Support"
+  ],
+  "intent": "Provide knowledge guidance for Clear identification of incentives/Support provided by the State and.",
+  "tags": [
+    "8",
+    "Clear identification of incentives/Support provided by the State and",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    5
+  ],
+  "pages": [
+    5
+  ],
+  "source_document": "HBP2023_Chapter03.pdf",
+  "raw_text": "8. Clear identification of incentives/Support provided by the State and\nCentral Government.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Clear identification of incentives/Support provided by the State and\nCentral Government.\"]",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Clear identification of incentives/Support provided by the State and\nCentral Government.;\nstop\n@enduml"
+}

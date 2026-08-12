@@ -1,0 +1,1937 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "2",
+  "title": "Proof of obligation for repair of defective/damaged items:",
+  "purpose": "Proof of obligation for repair of defective/damaged items:\npg.",
+  "purpose_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, Proof of obligation for repair of defective/damaged items:\npg.",
+  "summary": "2. Proof of obligation for repair of defective/damaged items:\npg. 184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb.",
+  "business_meaning": "Proof of obligation for repair of defective/damaged items: governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Proof of obligation for repair of defective/damaged items: explains the operating rule set that DEKAI should enforce. Key control points include Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd. The section also drives actions such as | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |..",
+  "business_explanation_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, Proof of obligation for repair of defective/damaged items: explains the operating rule set that DEKAI should enforce. Key control points include Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd. The section also drives actions such as | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |..",
+  "business_logic": [
+    "Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.",
+    "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+    "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+    "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+    "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+    "Subsequent export/re-export is\nsubject to post reporting;\nd.",
+    "The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.",
+    "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+    "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+    "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+    "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC2-R001",
+      "rule_description": "Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb.",
+      "validation": "| No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk.",
+      "action": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "exception": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R002",
+      "rule_description": "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "| The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d.",
+      "validation": "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+      "action": "| General authorizat | ion f | or export | aft | er re | pair sh | all be val | id for a per | iod of one year\n| from the date of | issu | e of Gen | era | l au | thoriz | ation sub | ject to su | bsequent post\n| reporting(s) within | 30 | days from | th | e dat | e of su | ch export |; |\nf.",
+      "exception": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R003",
+      "rule_description": "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.",
+      "validation": "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+      "action": "| Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |.",
+      "exception": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R004",
+      "rule_description": "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "| Note: | Same | entity wo | uld imply t | hat (a) foreign\n| buyer (b) consigne | e or | intermedi | ari | es, if | any (c | ) the end | user are ex | actly the same\n| for which authoris | ation | has been | iss | ued | to the | applicant | exporter.",
+      "validation": "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+      "action": "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+      "exception": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R005",
+      "rule_description": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "| There has been n | o ch | ange to t | he | orig | inal ch | aracteris | tics/specifi | cations of the\n| SCOMET item(s) af | ter r | epair and | no | valu | e addit | ion has be | en done du | ring the repair\n| work; | | | | | | | |\nh.",
+      "validation": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+      "action": "Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b.",
+      "exception": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R006",
+      "rule_description": "Subsequent export/re-export is\nsubject to post reporting;\nd.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "| No Export Authori | sati | on would b | e | gran | ted wh | en the in | itial expor | t authorisation\n| has been suspende | d, m | odified or | re | voke | d by co | untry of i | mport; |\ni.",
+      "validation": "The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.",
+      "action": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+      "exception": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R007",
+      "rule_description": "The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "| No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk.",
+      "validation": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+      "action": "Subsequent export/re-export is\nsubject to post reporting;\nd.",
+      "exception": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R008",
+      "rule_description": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+      "validation": "No details of ‘End Use’ and ‘End Use Certificate’ would be required;\nk.",
+      "action": "The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.",
+      "exception": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R009",
+      "rule_description": "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+      "validation": "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+      "action": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+      "exception": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R010",
+      "rule_description": "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+      "validation": "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+      "action": "Subsequent export would be allowed to the same entity and location to which the\nlicense has originally been issued.",
+      "exception": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    },
+    {
+      "rule_id": "CH10-SEC2-R011",
+      "rule_description": "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory.",
+      "trigger": "Proof of obligation for repair of defective/damaged items:",
+      "condition": "Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b.",
+      "validation": "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory.",
+      "action": "Note: Same entity would imply that (a) foreign\nbuyer (b) consignee or intermediaries, if any (c) the end user are exactly the same\nfor which authorisation has been issued to the applicant exporter.",
+      "exception": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+      "output": "DEKAI should produce a compliance decision for 2 - Proof of obligation for repair of defective/damaged items:."
+    }
+  ],
+  "conditions": [
+    "184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb.",
+    "| The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d.",
+    "Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.",
+    "| Note: | Same | entity wo | uld imply t | hat (a) foreign\n| buyer (b) consigne | e or | intermedi | ari | es, if | any (c | ) the end | user are ex | actly the same\n| for which authoris | ation | has been | iss | ued | to the | applicant | exporter.",
+    "| There has been n | o ch | ange to t | he | orig | inal ch | aracteris | tics/specifi | cations of the\n| SCOMET item(s) af | ter r | epair and | no | valu | e addit | ion has be | en done du | ring the repair\n| work; | | | | | | | |\nh.",
+    "| No Export Authori | sati | on would b | e | gran | ted wh | en the in | itial expor | t authorisation\n| has been suspende | d, m | odified or | re | voke | d by co | untry of i | mport; |\ni.",
+    "| No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk.",
+    "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+    "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+    "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+    "Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b.",
+    "184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb.",
+    "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+    "Subsequent export/re-export is\nsubject to post reporting;\nd.",
+    "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+    "Note: Same entity would imply that (a) foreign\nbuyer (b) consignee or intermediaries, if any (c) the end user are exactly the same\nfor which authorisation has been issued to the applicant exporter.",
+    "There has been no change to the original characteristics/specifications of the\nSCOMET item(s) after repair and no value addition has been done during the repair\nwork;\nh.",
+    "No Export Authorisation would be granted when the initial export authorisation\nhas been suspended, modified or revoked by country of import;\ni.",
+    "No details of ‘End Use’ and ‘End Use Certificate’ would be required;\nk.",
+    "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+    "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+    "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.2.1",
+      "if": "184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb."
+    },
+    {
+      "id": "10.2.2",
+      "if": "| The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d."
+    },
+    {
+      "id": "10.2.3",
+      "if": "Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd."
+    },
+    {
+      "id": "10.2.4",
+      "if": "| Note: | Same | entity wo | uld imply t | hat (a) foreign\n| buyer (b) consigne | e or | intermedi | ari | es, if | any (c | ) the end | user are ex | actly the same\n| for which authoris | ation | has been | iss | ued | to the | applicant | exporter.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| Note: | Same | entity wo | uld imply t | hat (a) foreign\n| buyer (b) consigne | e or | intermedi | ari | es, if | any (c | ) the end | user are ex | actly the same\n| for which authoris | ation | has been | iss | ued | to the | applicant | exporter."
+    },
+    {
+      "id": "10.2.5",
+      "if": "| There has been n | o ch | ange to t | he | orig | inal ch | aracteris | tics/specifi | cations of the\n| SCOMET item(s) af | ter r | epair and | no | valu | e addit | ion has be | en done du | ring the repair\n| work; | | | | | | | |\nh.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| There has been n | o ch | ange to t | he | orig | inal ch | aracteris | tics/specifi | cations of the\n| SCOMET item(s) af | ter r | epair and | no | valu | e addit | ion has be | en done du | ring the repair\n| work; | | | | | | | |\nh."
+    },
+    {
+      "id": "10.2.6",
+      "if": "| No Export Authori | sati | on would b | e | gran | ted wh | en the in | itial expor | t authorisation\n| has been suspende | d, m | odified or | re | voke | d by co | untry of i | mport; |\ni.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| No Export Authori | sati | on would b | e | gran | ted wh | en the in | itial expor | t authorisation\n| has been suspende | d, m | odified or | re | voke | d by co | untry of i | mport; |\ni."
+    },
+    {
+      "id": "10.2.7",
+      "if": "| No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk."
+    },
+    {
+      "id": "10.2.8",
+      "if": "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM."
+    },
+    {
+      "id": "10.2.9",
+      "if": "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers]."
+    },
+    {
+      "id": "10.2.10",
+      "if": "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory."
+    },
+    {
+      "id": "10.2.11",
+      "if": "Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b."
+    },
+    {
+      "id": "10.2.12",
+      "if": "184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb."
+    },
+    {
+      "id": "10.2.13",
+      "if": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period."
+    },
+    {
+      "id": "10.2.14",
+      "if": "Subsequent export/re-export is\nsubject to post reporting;\nd.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "Subsequent export/re-export is\nsubject to post reporting;\nd."
+    },
+    {
+      "id": "10.2.15",
+      "if": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf."
+    },
+    {
+      "id": "10.2.16",
+      "if": "Note: Same entity would imply that (a) foreign\nbuyer (b) consignee or intermediaries, if any (c) the end user are exactly the same\nfor which authorisation has been issued to the applicant exporter.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "Note: Same entity would imply that (a) foreign\nbuyer (b) consignee or intermediaries, if any (c) the end user are exactly the same\nfor which authorisation has been issued to the applicant exporter."
+    },
+    {
+      "id": "10.2.17",
+      "if": "There has been no change to the original characteristics/specifications of the\nSCOMET item(s) after repair and no value addition has been done during the repair\nwork;\nh.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "There has been no change to the original characteristics/specifications of the\nSCOMET item(s) after repair and no value addition has been done during the repair\nwork;\nh."
+    },
+    {
+      "id": "10.2.18",
+      "if": "No Export Authorisation would be granted when the initial export authorisation\nhas been suspended, modified or revoked by country of import;\ni.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "No Export Authorisation would be granted when the initial export authorisation\nhas been suspended, modified or revoked by country of import;\ni."
+    },
+    {
+      "id": "10.2.19",
+      "if": "No details of ‘End Use’ and ‘End Use Certificate’ would be required;\nk.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "No details of ‘End Use’ and ‘End Use Certificate’ would be required;\nk."
+    },
+    {
+      "id": "10.2.20",
+      "if": "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM."
+    },
+    {
+      "id": "10.2.21",
+      "if": "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers]."
+    },
+    {
+      "id": "10.2.22",
+      "if": "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory."
+    }
+  ],
+  "validations": [
+    "| No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk.",
+    "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+    "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+    "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+    "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+    "The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.",
+    "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+    "No details of ‘End Use’ and ‘End Use Certificate’ would be required;\nk.",
+    "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+    "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+    "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory.",
+    "Documents Required for GAER"
+  ],
+  "exceptions": [
+    "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a."
+  ],
+  "dependencies": [
+    "10.12",
+    "1",
+    "3",
+    "4"
+  ],
+  "documents": [
+    "Proof of obligation for repair of defective/damaged items:\npg.",
+    "| Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |.",
+    "Documents Requ | ired | for GAER | | | | | |\n| 1.",
+    "Proof of imp | ort o | f the item(s | ): | | | | |\n| a.",
+    "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+    "Bill of Entry (f | irst | time) | | | | | |\n| 2.",
+    "Proof of oblig | atio | n for repair | of | defe | ctive/da | maged ite | ms: |\npg.",
+    "184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb.",
+    "The exporter is required to provide Bill",
+    "Subsequent export would be allowed to the same entity and location to which the\nlicense has originally been issued.",
+    "End Use Certificate",
+    "In such cases, either a new GAER authorization may be\napplied or application may be filed under Para 10.12(D) of HBP.",
+    "Documents Required for GAER"
+  ],
+  "required_documents": [
+    "Proof of obligation for repair of defective/damaged items:\npg.",
+    "| Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |.",
+    "Documents Requ | ired | for GAER | | | | | |\n| 1.",
+    "Proof of imp | ort o | f the item(s | ): | | | | |\n| a.",
+    "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+    "Bill of Entry (f | irst | time) | | | | | |\n| 2.",
+    "Proof of oblig | atio | n for repair | of | defe | ctive/da | maged ite | ms: |\npg.",
+    "184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb.",
+    "The exporter is required to provide Bill",
+    "Subsequent export would be allowed to the same entity and location to which the\nlicense has originally been issued.",
+    "End Use Certificate",
+    "In such cases, either a new GAER authorization may be\napplied or application may be filed under Para 10.12(D) of HBP.",
+    "Documents Required for GAER"
+  ],
+  "tables": [
+    [
+      [
+        "",
+        "different from exp",
+        "orte",
+        "r) and enti",
+        "ty",
+        "abr",
+        "oad def",
+        "ining ‘Sta",
+        "tement of",
+        "Work (SOW)’/"
+      ],
+      [
+        "",
+        "‘Scope of Work’ inc",
+        "ludi",
+        "ng conditi",
+        "on",
+        "s for",
+        "undert",
+        "aking rep",
+        "air in India",
+        ";"
+      ],
+      [
+        "b.",
+        "The items are to be",
+        "re-e",
+        "xported to",
+        "o",
+        "nly r",
+        "elated",
+        "entities0 a",
+        "nd repair s",
+        "upply chain1 in"
+      ],
+      [
+        "",
+        "the foreign country",
+        ".",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "c.",
+        "The exporter is re",
+        "quir",
+        "ed to regis",
+        "te",
+        "r and",
+        "obtai",
+        "n General",
+        "authoriza",
+        "tion for export"
+      ],
+      [
+        "",
+        "after repair only o",
+        "nce",
+        "during the",
+        "va",
+        "lidit",
+        "y perio",
+        "d. Subse",
+        "quent expo",
+        "rt/re-export is"
+      ],
+      [
+        "",
+        "subject to post rep",
+        "ortin",
+        "g;",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "d.",
+        "The exporter is re",
+        "quir",
+        "ed to pro",
+        "vi",
+        "de B",
+        "ill of E",
+        "ntry for",
+        "the import",
+        "ed item while"
+      ],
+      [
+        "",
+        "applying for GAER",
+        "for t",
+        "he first shi",
+        "p",
+        "ment",
+        ".",
+        "",
+        "",
+        ""
+      ],
+      [
+        "e.",
+        "General authorizat",
+        "ion f",
+        "or export",
+        "aft",
+        "er re",
+        "pair sh",
+        "all be val",
+        "id for a per",
+        "iod of one year"
+      ],
+      [
+        "",
+        "from the date of",
+        "issu",
+        "e of Gen",
+        "era",
+        "l au",
+        "thoriz",
+        "ation sub",
+        "ject to su",
+        "bsequent post"
+      ],
+      [
+        "",
+        "reporting(s) within",
+        "30",
+        "days from",
+        "th",
+        "e dat",
+        "e of su",
+        "ch export",
+        ";",
+        ""
+      ],
+      [
+        "f.",
+        "Subsequent export",
+        "wo",
+        "uld be allo",
+        "we",
+        "d to",
+        "the sa",
+        "me entity",
+        "and locatio",
+        "n to which the"
+      ],
+      [
+        "",
+        "license has origina",
+        "lly b",
+        "een issued",
+        ".",
+        "Note:",
+        "Same",
+        "entity wo",
+        "uld imply t",
+        "hat (a) foreign"
+      ],
+      [
+        "",
+        "buyer (b) consigne",
+        "e or",
+        "intermedi",
+        "ari",
+        "es, if",
+        "any (c",
+        ") the end",
+        "user are ex",
+        "actly the same"
+      ],
+      [
+        "",
+        "for which authoris",
+        "ation",
+        "has been",
+        "iss",
+        "ued",
+        "to the",
+        "applicant",
+        "exporter.",
+        ""
+      ],
+      [
+        "g.",
+        "There has been n",
+        "o ch",
+        "ange to t",
+        "he",
+        "orig",
+        "inal ch",
+        "aracteris",
+        "tics/specifi",
+        "cations of the"
+      ],
+      [
+        "",
+        "SCOMET item(s) af",
+        "ter r",
+        "epair and",
+        "no",
+        "valu",
+        "e addit",
+        "ion has be",
+        "en done du",
+        "ring the repair"
+      ],
+      [
+        "",
+        "work;",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "h.",
+        "No Export Authori",
+        "sati",
+        "on would b",
+        "e",
+        "gran",
+        "ted wh",
+        "en the in",
+        "itial expor",
+        "t authorisation"
+      ],
+      [
+        "",
+        "has been suspende",
+        "d, m",
+        "odified or",
+        "re",
+        "voke",
+        "d by co",
+        "untry of i",
+        "mport;",
+        ""
+      ],
+      [
+        "i.",
+        "No Export authori",
+        "satio",
+        "n would b",
+        "e",
+        "gran",
+        "ted for",
+        "UNSC s",
+        "anctioned",
+        "destinations or"
+      ],
+      [
+        "",
+        "countries/entities",
+        "of hi",
+        "gh risk, as",
+        "as",
+        "sess",
+        "ed by t",
+        "he IMWG,",
+        "from time",
+        "to time;"
+      ],
+      [
+        "j.",
+        "No details of ‘End U",
+        "se’",
+        "and ‘End U",
+        "se",
+        "Cert",
+        "ificate’",
+        "would be",
+        "required;",
+        ""
+      ],
+      [
+        "k.",
+        "GAER issued for s",
+        "peci",
+        "fic item an",
+        "d",
+        "spec",
+        "ific en",
+        "tity (buye",
+        "r/end use",
+        "r) shall not be"
+      ],
+      [
+        "",
+        "applicable in case",
+        "the",
+        "re-export",
+        "is",
+        "of a",
+        "differe",
+        "nt impor",
+        "ted item or",
+        "to a different"
+      ],
+      [
+        "",
+        "entity or Authorise",
+        "d O",
+        "EM. In suc",
+        "h c",
+        "ases,",
+        "either",
+        "a new G",
+        "AER author",
+        "ization may be"
+      ],
+      [
+        "",
+        "applied or applicat",
+        "ion",
+        "may be file",
+        "d",
+        "unde",
+        "r Para",
+        "10.12(D)",
+        "of HBP.",
+        ""
+      ],
+      [
+        "l.",
+        "Certified / appr",
+        "oved",
+        "Internal",
+        "",
+        "Com",
+        "pliance",
+        "Progra",
+        "mme or",
+        "demonstrating"
+      ],
+      [
+        "",
+        "compliance to the",
+        "ICP",
+        "of the fore",
+        "ig",
+        "n co",
+        "mpany",
+        "or ICP ce",
+        "rtified by t",
+        "he compliance"
+      ],
+      [
+        "",
+        "manager of that co",
+        "mpa",
+        "ny shall be",
+        "m",
+        "and",
+        "atory[o",
+        "nly for in",
+        "tra-compa",
+        "ny transfers]."
+      ],
+      [
+        "m.",
+        "Authorized Econom",
+        "ic O",
+        "perator (A",
+        "E",
+        "O) Ce",
+        "rtificat",
+        "ion along",
+        "with ICP co",
+        "mpliance shall"
+      ],
+      [
+        "",
+        "be mandatory. [for",
+        "re-e",
+        "xport to v",
+        "en",
+        "dors",
+        "/OEMs",
+        "].",
+        "",
+        ""
+      ],
+      [
+        "",
+        "A. Documents Requ",
+        "ired",
+        "for GAER",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "1. Proof of imp",
+        "ort o",
+        "f the item(s",
+        "):",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "a. Export Autho",
+        "risa",
+        "tion (if app",
+        "lic",
+        "able)",
+        "issued",
+        "by the f",
+        "oreign cou",
+        "ntry for"
+      ],
+      [
+        "",
+        "original import",
+        "of t",
+        "he items to",
+        "In",
+        "dia;",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "b. Documentary",
+        "pro",
+        "of and/or s",
+        "elf",
+        "-decl",
+        "aration",
+        "that the it",
+        "em exempt",
+        "ed from"
+      ],
+      [
+        "",
+        "license require",
+        "ment",
+        "or place un",
+        "d",
+        "er no",
+        "license",
+        "requirem",
+        "ent for Indi",
+        "a."
+      ],
+      [
+        "",
+        "c. Bill of Entry (f",
+        "irst",
+        "time)",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "2. Proof of oblig",
+        "atio",
+        "n for repair",
+        "of",
+        "defe",
+        "ctive/da",
+        "maged ite",
+        "ms:",
+        ""
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "type": "section",
+      "title": "Proof of obligation for repair of defective/damaged items:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2. Proof of obligation for repair of defective/damaged items:\npg. 184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb. | The items are to be | re-e | xported to | o | nly r | elated | entities0 a | nd repair s | upply chain1 in\n| the foreign country |. | | | | | | |\nc. | The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d. Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd. | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |. | | |\ne. | General authorizat | ion f | or export | aft | er re | pair sh | all be val | id for a per | iod of one year\n| from the date of | issu | e of Gen | era | l au | thoriz | ation sub | ject to su | bsequent post\n| reporting(s) within | 30 | days from | th | e dat | e of su | ch export |; |\nf. | Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |. | Note: | Same | entity wo | uld imply t | hat (a) foreign\n| buyer (b) consigne | e or | intermedi | ari | es, if | any (c | ) the end | user are ex | actly the same\n| for which authoris | ation | has been | iss | ued | to the | applicant | exporter. |\ng. | There has been n | o ch | ange to t | he | orig | inal ch | aracteris | tics/specifi | cations of the\n| SCOMET item(s) af | ter r | epair and | no | valu | e addit | ion has be | en done du | ring the repair\n| work; | | | | | | | |\nh. | No Export Authori | sati | on would b | e | gran | ted wh | en the in | itial expor | t authorisation\n| has been suspende | d, m | odified or | re | voke | d by co | untry of i | mport; |\ni. | No Export authori | satio | n would b | e | gran | ted for | UNSC s | anctioned | destinations or\n| countries/entities | of hi | gh risk, as | as | sess | ed by t | he IMWG, | from time | to time;\nj. | No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk. | GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM. In suc | h c | ases, | either | a new G | AER author | ization may be\n| applied or applicat | ion | may be file | d | unde | r Para | 10.12(D) | of HBP. |\nl. | Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].\nm. | Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory. [for | re-e | xport to v | en | dors | /OEMs | ]. | |\n| A. Documents Requ | ired | for GAER | | | | | |\n| 1. Proof of imp | ort o | f the item(s | ): | | | | |\n| a. Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b. Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.\n| c. Bill of Entry (f | irst | time) | | | | | |\n| 2. Proof of oblig | atio | n for repair | of | defe | ctive/da | maged ite | ms: |\npg. 184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb. The items are to be re-exported to only related entities0 and repair supply chain1 in\nthe foreign country.\nc. The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period. Subsequent export/re-export is\nsubject to post reporting;\nd. The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.\ne. General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf. Subsequent export would be allowed to the same entity and location to which the\nlicense has originally been issued. Note: Same entity would imply that (a) foreign\nbuyer (b) consignee or intermediaries, if any (c) the end user are exactly the same\nfor which authorisation has been issued to the applicant exporter.\ng. There has been no change to the original characteristics/specifications of the\nSCOMET item(s) after repair and no value addition has been done during the repair\nwork;\nh. No Export Authorisation would be granted when the initial export authorisation\nhas been suspended, modified or revoked by country of import;\ni. No Export authorisation would be granted for UNSC sanctioned destinations or\ncountries/entities of high risk, as assessed by the IMWG, from time to time;\nj. No details of ‘End Use’ and ‘End Use Certificate’ would be required;\nk. GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM. In such cases, either a new GAER authorization may be\napplied or application may be filed under Para 10.12(D) of HBP.\nl. Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].\nm. Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory. [for re-export to vendors/OEMs].\nA. Documents Required for GAER",
+      "parentId": "",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 77,
+      "searchAliases": [
+        "Proof of obligation for repair of defective/damaged items:",
+        "Proof of obligation for repair of defective damaged items",
+        "Proofofobligationforrepairofdefectivedamageditems"
+      ],
+      "childIds": [
+        "2::exception::1::exceptions",
+        "2::validation::2::validation-rules",
+        "2::validation::3::validation-rules",
+        "2::validation::4::validation-rules",
+        "2::validation::5::validation-rules",
+        "2::validation::6::validation-rules",
+        "2::validation::7::validation-rules",
+        "2::validation::8::validation-rules",
+        "2::validation::9::validation-rules",
+        "2::validation::10::validation-rules",
+        "2::validation::11::validation-rules",
+        "2::validation::12::validation-rules",
+        "2::validation::13::validation-rules",
+        "2::business_rule::14::proof-of-obligation-for-repair-of-defective-dama",
+        "2::business_rule::15::proof-of-obligation-for-repair-of-defective-dama",
+        "2::business_rule::16::proof-of-obligation-for-repair-of-defective-dama",
+        "2::business_rule::17::proof-of-obligation-for-repair-of-defective-dama",
+        "2::business_rule::18::proof-of-obligation-for-repair-of-defective-dama",
+        "2::business_rule::19::proof-of-obligation-for-repair-of-defective-dama",
+        "2::business_rule::20::proof-of-obligation-for-repair-of-defective-dama",
+        "2::business_rule::21::proof-of-obligation-for-repair-of-defective-dama",
+        "2::business_rule::22::proof-of-obligation-for-repair-of-defective-dama",
+        "2::business_rule::23::proof-of-obligation-for-repair-of-defective-dama",
+        "2::business_rule::24::proof-of-obligation-for-repair-of-defective-dama"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 77
+    },
+    {
+      "id": "2::exception::1::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::validation::3::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::validation::4::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::validation::5::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::validation::6::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::validation::7::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::validation::8::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::validation::9::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "No details of ‘End Use’ and ‘End Use Certificate’ would be required;\nk.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::validation::10::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::validation::11::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::validation::12::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::validation::13::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Documents Required for GAER",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::14::proof-of-obligation-for-repair-of-defective-dama",
+      "type": "business_rule",
+      "title": "Proof of obligation for repair of defective/damaged items:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Proof of obligation for repair of defective/damaged items:",
+        "Proof of obligation for repair of defective damaged items",
+        "Proofofobligationforrepairofdefectivedamageditems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::15::proof-of-obligation-for-repair-of-defective-dama",
+      "type": "business_rule",
+      "title": "Proof of obligation for repair of defective/damaged items:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Proof of obligation for repair of defective/damaged items:",
+        "Proof of obligation for repair of defective damaged items",
+        "Proofofobligationforrepairofdefectivedamageditems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::16::proof-of-obligation-for-repair-of-defective-dama",
+      "type": "business_rule",
+      "title": "Proof of obligation for repair of defective/damaged items:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Proof of obligation for repair of defective/damaged items:",
+        "Proof of obligation for repair of defective damaged items",
+        "Proofofobligationforrepairofdefectivedamageditems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::17::proof-of-obligation-for-repair-of-defective-dama",
+      "type": "business_rule",
+      "title": "Proof of obligation for repair of defective/damaged items:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Proof of obligation for repair of defective/damaged items:",
+        "Proof of obligation for repair of defective damaged items",
+        "Proofofobligationforrepairofdefectivedamageditems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::18::proof-of-obligation-for-repair-of-defective-dama",
+      "type": "business_rule",
+      "title": "Proof of obligation for repair of defective/damaged items:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Proof of obligation for repair of defective/damaged items:",
+        "Proof of obligation for repair of defective damaged items",
+        "Proofofobligationforrepairofdefectivedamageditems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::19::proof-of-obligation-for-repair-of-defective-dama",
+      "type": "business_rule",
+      "title": "Proof of obligation for repair of defective/damaged items:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Subsequent export/re-export is\nsubject to post reporting;\nd.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Proof of obligation for repair of defective/damaged items:",
+        "Proof of obligation for repair of defective damaged items",
+        "Proofofobligationforrepairofdefectivedamageditems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::20::proof-of-obligation-for-repair-of-defective-dama",
+      "type": "business_rule",
+      "title": "Proof of obligation for repair of defective/damaged items:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Proof of obligation for repair of defective/damaged items:",
+        "Proof of obligation for repair of defective damaged items",
+        "Proofofobligationforrepairofdefectivedamageditems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::21::proof-of-obligation-for-repair-of-defective-dama",
+      "type": "business_rule",
+      "title": "Proof of obligation for repair of defective/damaged items:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Proof of obligation for repair of defective/damaged items:",
+        "Proof of obligation for repair of defective damaged items",
+        "Proofofobligationforrepairofdefectivedamageditems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::22::proof-of-obligation-for-repair-of-defective-dama",
+      "type": "business_rule",
+      "title": "Proof of obligation for repair of defective/damaged items:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Proof of obligation for repair of defective/damaged items:",
+        "Proof of obligation for repair of defective damaged items",
+        "Proofofobligationforrepairofdefectivedamageditems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::23::proof-of-obligation-for-repair-of-defective-dama",
+      "type": "business_rule",
+      "title": "Proof of obligation for repair of defective/damaged items:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Proof of obligation for repair of defective/damaged items:",
+        "Proof of obligation for repair of defective damaged items",
+        "Proofofobligationforrepairofdefectivedamageditems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::24::proof-of-obligation-for-repair-of-defective-dama",
+      "type": "business_rule",
+      "title": "Proof of obligation for repair of defective/damaged items:",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory.",
+      "parentId": "2::section::0::proof-of-obligation-for-repair-of-defective-dama",
+      "sectionId": "2",
+      "sectionTitle": "Proof of obligation for repair of defective/damaged items:",
+      "documentName": "Chapter+10+HBP+(19.05.2026).pdf",
+      "pageNumber": 16,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Proof of obligation for repair of defective/damaged items:",
+        "Proof of obligation for repair of defective damaged items",
+        "Proofofobligationforrepairofdefectivedamageditems"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [
+    "| The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d.",
+    "| General authorizat | ion f | or export | aft | er re | pair sh | all be val | id for a per | iod of one year\n| from the date of | issu | e of Gen | era | l au | thoriz | ation sub | ject to su | bsequent post\n| reporting(s) within | 30 | days from | th | e dat | e of su | ch export |; |\nf.",
+    "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+    "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+    "There has been no change to the original characteristics/specifications of the\nSCOMET item(s) after repair and no value addition has been done during the repair\nwork;\nh."
+  ],
+  "actions": [
+    "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+    "| General authorizat | ion f | or export | aft | er re | pair sh | all be val | id for a per | iod of one year\n| from the date of | issu | e of Gen | era | l au | thoriz | ation sub | ject to su | bsequent post\n| reporting(s) within | 30 | days from | th | e dat | e of su | ch export |; |\nf.",
+    "| Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |.",
+    "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+    "Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b.",
+    "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+    "Subsequent export/re-export is\nsubject to post reporting;\nd.",
+    "The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.",
+    "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+    "Subsequent export would be allowed to the same entity and location to which the\nlicense has originally been issued.",
+    "Note: Same entity would imply that (a) foreign\nbuyer (b) consignee or intermediaries, if any (c) the end user are exactly the same\nfor which authorisation has been issued to the applicant exporter.",
+    "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+    "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers]."
+  ],
+  "workflow": [
+    "Evaluate condition: 184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb.",
+    "Evaluate condition: | The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d.",
+    "Evaluate condition: Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.",
+    "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+    "| General authorizat | ion f | or export | aft | er re | pair sh | all be val | id for a per | iod of one year\n| from the date of | issu | e of Gen | era | l au | thoriz | ation sub | ject to su | bsequent post\n| reporting(s) within | 30 | days from | th | e dat | e of su | ch export |; |\nf.",
+    "| Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |.",
+    "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+    "Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b.",
+    "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+    "Run validation: | No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk.",
+    "Run validation: | GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+    "Run validation: | Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+    "Handle exception: Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a."
+  ],
+  "workflow_ascii": "Proof of obligation for repair of defective/damaged items:\nEvaluate condition: 184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb.\n   |\n   v\nEvaluate condition: | The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d.\n   |\n   v\nEvaluate condition: Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.\n   |\n   v\n| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.\n   |\n   v\n| General authorizat | ion f | or export | aft | er re | pair sh | all be val | id for a per | iod of one year\n| from the date of | issu | e of Gen | era | l au | thoriz | ation sub | ject to su | bsequent post\n| reporting(s) within | 30 | days from | th | e dat | e of su | ch export |; |\nf.\n   |\n   v\n| Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |.\n   |\n   v\n| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.\n   |\n   v\nExport Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b.\n   |\n   v\nThe exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.\n   |\n   v\nRun validation: | No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk.\n   |\n   v\nRun validation: | GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.\n   |\n   v\nRun validation: | Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].\n   |\n   v\nHandle exception: Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+  "decision_tree": [
+    "IF 184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb. THEN | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+    "IF | The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d. THEN | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+    "IF Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd. THEN | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+    "IF | Note: | Same | entity wo | uld imply t | hat (a) foreign\n| buyer (b) consigne | e or | intermedi | ari | es, if | any (c | ) the end | user are ex | actly the same\n| for which authoris | ation | has been | iss | ued | to the | applicant | exporter. THEN | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+    "IF | There has been n | o ch | ange to t | he | orig | inal ch | aracteris | tics/specifi | cations of the\n| SCOMET item(s) af | ter r | epair and | no | valu | e addit | ion has be | en done du | ring the repair\n| work; | | | | | | | |\nh. THEN | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+    "IF exception applies (Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Proof of obligation for repair of defective/damaged items: Decision\nIF 184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb. THEN | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.\n   |\n   v\nIF | The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d. THEN | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.\n   |\n   v\nIF Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd. THEN | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.\n   |\n   v\nIF | Note: | Same | entity wo | uld imply t | hat (a) foreign\n| buyer (b) consigne | e or | intermedi | ari | es, if | any (c | ) the end | user are ex | actly the same\n| for which authoris | ation | has been | iss | ued | to the | applicant | exporter. THEN | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.\n   |\n   v\nIF | There has been n | o ch | ange to t | he | orig | inal ch | aracteris | tics/specifi | cations of the\n| SCOMET item(s) af | ter r | epair and | no | valu | e addit | ion has be | en done du | ring the repair\n| work; | | | | | | | |\nh. THEN | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.\n   |\n   v\nIF exception applies (Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.) THEN route to manual review",
+  "examples": [
+    "User asks to process Proof of obligation for repair of defective/damaged items:; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Proof of obligation for repair of defective/damaged items:, submits Proof of obligation for repair of defective/damaged items:\npg., | Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |., Documents Requ | ired | for GAER | | | | | |\n| 1., and DEKAI uses the extracted rules to | the exporter is re | quir | ed to pro | vi | de b | ill of e | ntry for | the import | ed item while\n| applying for gaer | for t | he first shi | p | ment |..",
+  "real_world_example_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, Example: an importer or exporter invokes Proof of obligation for repair of defective/damaged items:, submits Proof of obligation for repair of defective/damaged items:\npg., | Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |., documents Requ | ired | for GAER | | | | | |\n| 1., and DEKAI uses the extracted rules to | the exporter is re | quir | ed to pro | vi | de b | ill of e | ntry for | the import | ed item while\n| applying for gaer | for t | he first shi | p | ment |..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.",
+    "IF detected context matches section rule THEN enforce: | GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+    "IF detected context matches section rule THEN enforce: | Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+    "IF detected context matches section rule THEN enforce: | Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+    "IF detected context matches section rule THEN enforce: The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+    "IF detected context matches section rule THEN enforce: Subsequent export/re-export is\nsubject to post reporting;\nd.",
+    "IF validations pass THEN recommend action: | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "exp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:exp"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "abr_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:abr"
+    },
+    {
+      "name": "oad_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:oad"
+    },
+    {
+      "name": "def_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:def"
+    },
+    {
+      "name": "sta_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Sta"
+    },
+    {
+      "name": "sow_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:SOW"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Proof of obligation for repair of defective/damaged items:\npg."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "| Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Documents Requ | ired | for GAER | | | | | |\n| 1."
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Proof of imp | ort o | f the item(s | ): | | | | |\n| a."
+    },
+    {
+      "name": "document_5_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a."
+    },
+    {
+      "name": "document_6_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Bill of Entry (f | irst | time) | | | | | |\n| 2."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2",
+      "purpose": "Retrieve knowledge payload for section 2",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Proof-of-obligation-for-repair-of-defective-damaged-items/validate",
+      "purpose": "Validate inputs and documents for Proof of obligation for repair of defective/damaged items:",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Proof-of-obligation-for-repair-of-defective-damaged-items/execute",
+      "purpose": "Trigger business action for | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Proof_of_obligation_for_repair_of_defective_damaged_items_overview",
+      "name": "Proof of obligation for repair of defective/damaged items: Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Proof_of_obligation_for_repair_of_defective_damaged_items_submission",
+      "name": "Proof of obligation for repair of defective/damaged items: Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "exp_flag",
+        "and_flag",
+        "abr_flag",
+        "oad_flag",
+        "def_flag"
+      ]
+    },
+    {
+      "screen_id": "Proof_of_obligation_for_repair_of_defective_damaged_items_exceptions",
+      "name": "Proof of obligation for repair of defective/damaged items: Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Proof of obligation for repair of defective/damaged items: require?",
+    "Which documents are needed for Proof of obligation for repair of defective/damaged items:?",
+    "How does DEKAI validate Proof of obligation for repair of defective/damaged items: requests?",
+    "What action should be taken for Proof of obligation for repair of defective/damaged items:?"
+  ],
+  "expected_ai_answers": [
+    "Proof of obligation for repair of defective/damaged items: requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: Proof of obligation for repair of defective/damaged items:\npg., | Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |., Documents Requ | ired | for GAER | | | | | |\n| 1., Proof of imp | ort o | f the item(s | ): | | | | |\n| a., Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.",
+    "DEKAI validates Proof of obligation for repair of defective/damaged items: by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2?",
+      "answer_en": "Proof of obligation for repair of defective/damaged items: explains the operating rule set that DEKAI should enforce. Key control points include Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd. The section also drives actions such as | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |..",
+      "question_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, What is the purpose of section 2?",
+      "answer_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, Proof of obligation for repair of defective/damaged items: explains the operating rule set that DEKAI should enforce. Key control points include Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd. The section also drives actions such as | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.."
+    },
+    {
+      "question_en": "What documents are required under Proof of obligation for repair of defective/damaged items:?",
+      "answer_en": "Proof of obligation for repair of defective/damaged items:\npg., | Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |., Documents Requ | ired | for GAER | | | | | |\n| 1., Proof of imp | ort o | f the item(s | ): | | | | |\n| a., Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a., Bill of Entry (f | irst | time) | | | | | |\n| 2., Proof of oblig | atio | n for repair | of | defe | ctive/da | maged ite | ms: |\npg., 184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb., The exporter is required to provide Bill, Subsequent export would be allowed to the same entity and location to which the\nlicense has originally been issued., End Use Certificate, In such cases, either a new GAER authorization may be\napplied or application may be filed under Para 10.12(D) of HBP., Documents Required for GAER",
+      "question_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, What documents are required under Proof of obligation for repair of defective/damaged items:?",
+      "answer_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, Proof of obligation for repair of defective/damaged items:\npg., | Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |., documents Requ | ired | for GAER | | | | | |\n| 1., Proof of imp | ort o | f the item(s | ): | | | | |\n| a., Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a., Bill of Entry (f | irst | time) | | | | | |\n| 2., Proof of oblig | atio | n for repair | of | defe | ctive/da | maged ite | ms: |\npg., 184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb., The exporter is required to provide Bill, Subsequent export would be allowed to the same entity and location to which the\nlicense has originally been issued., End Use Certificate, In such cases, either a new GAER authorization may be\napplied or application may be filed under Para 10.12(D) of HBP., documents required for GAER"
+    },
+    {
+      "question_en": "Which authority handles Proof of obligation for repair of defective/damaged items:?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, Which authority handles Proof of obligation for repair of defective/damaged items:?",
+      "answer_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Proof of obligation for repair of defective/damaged items:?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2, apply the extracted rules, and guide the user through Evaluate condition: 184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb..",
+      "question_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, User asks: How do I comply with Proof of obligation for repair of defective/damaged items:?",
+      "answer_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, AI answers: DEKAI should evaluate section 2, apply the extracted rules, and guide the user through Evaluate condition: 184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Proof of obligation for repair of defective/damaged items:?",
+      "answer_en": "AI answers: Applicable validations are | No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk., | GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM., | Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+      "question_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, User asks: Which validations apply to Proof of obligation for repair of defective/damaged items:?",
+      "answer_thanglish": "Indha Proof of obligation for repair of defective/damaged items: section-la, AI answers: Applicable validations are | No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk., | GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) kandippa not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM., | Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny kandippa be | m | and | atory[o | nly for in | tra-compa | ny transfers]."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 10, section 2, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Proof of obligation for repair of defective/damaged items: into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: Proof of obligation for repair of defective/damaged items:\npg., | Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |., Documents Requ | ired | for GAER | | | | | |\n| 1., Proof of imp | ort o | f the item(s | ): | | | | |\n| a., Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a., Bill of Entry (f | irst | time) | | | | | |\n| 2..",
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 10.12, 1, 3, 4."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Proof of obligation for repair of defective/damaged items: section-la, Capture chapter 10, section 2, title, and page references as immutable knowledge metadata.",
+    "Indha Proof of obligation for repair of defective/damaged items: section-la, Bind validations for Proof of obligation for repair of defective/damaged items: into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Proof of obligation for repair of defective/damaged items: section-la, Expose document upload controls for: Proof of obligation for repair of defective/damaged items:\npg., | Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |., documents Requ | ired | for GAER | | | | | |\n| 1., Proof of imp | ort o | f the item(s | ): | | | | |\n| a., Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a., Bill of Entry (f | irst | time) | | | | | |\n| 2..",
+    "Indha Proof of obligation for repair of defective/damaged items: section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Proof of obligation for repair of defective/damaged items: section-la, Show contextual links to related sections: 10.12, 1, 3, 4."
+  ],
+  "keywords": [
+    "for",
+    "exp",
+    "and",
+    "abr",
+    "oad",
+    "def",
+    "Sta",
+    "SOW",
+    "inc",
+    "rep",
+    "air",
+    "The",
+    "are",
+    "nly",
+    "nce",
+    "pro",
+    "ill",
+    "shi",
+    "ion",
+    "aft"
+  ],
+  "search_keywords": [
+    "for",
+    "exp",
+    "and",
+    "abr",
+    "oad",
+    "def",
+    "Sta",
+    "SOW",
+    "inc",
+    "rep",
+    "air",
+    "The",
+    "are",
+    "nly",
+    "nce",
+    "pro",
+    "ill",
+    "shi",
+    "ion",
+    "aft"
+  ],
+  "intent": "Support Proof of obligation for repair of defective/damaged items: processing and compliance validation.",
+  "tags": [
+    "2",
+    "Proof of obligation for repair of defective/damaged items:",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "10.12",
+    "1",
+    "3",
+    "4"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.",
+    "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+    "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+    "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+    "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period."
+  ],
+  "page_numbers": [
+    16
+  ],
+  "pages": [
+    16
+  ],
+  "source_document": "Chapter+10+HBP+(19.05.2026).pdf",
+  "raw_text": "2. Proof of obligation for repair of defective/damaged items:\npg. 184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb. | The items are to be | re-e | xported to | o | nly r | elated | entities0 a | nd repair s | upply chain1 in\n| the foreign country |. | | | | | | |\nc. | The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d. Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd. | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |. | | |\ne. | General authorizat | ion f | or export | aft | er re | pair sh | all be val | id for a per | iod of one year\n| from the date of | issu | e of Gen | era | l au | thoriz | ation sub | ject to su | bsequent post\n| reporting(s) within | 30 | days from | th | e dat | e of su | ch export |; |\nf. | Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |. | Note: | Same | entity wo | uld imply t | hat (a) foreign\n| buyer (b) consigne | e or | intermedi | ari | es, if | any (c | ) the end | user are ex | actly the same\n| for which authoris | ation | has been | iss | ued | to the | applicant | exporter. |\ng. | There has been n | o ch | ange to t | he | orig | inal ch | aracteris | tics/specifi | cations of the\n| SCOMET item(s) af | ter r | epair and | no | valu | e addit | ion has be | en done du | ring the repair\n| work; | | | | | | | |\nh. | No Export Authori | sati | on would b | e | gran | ted wh | en the in | itial expor | t authorisation\n| has been suspende | d, m | odified or | re | voke | d by co | untry of i | mport; |\ni. | No Export authori | satio | n would b | e | gran | ted for | UNSC s | anctioned | destinations or\n| countries/entities | of hi | gh risk, as | as | sess | ed by t | he IMWG, | from time | to time;\nj. | No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk. | GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM. In suc | h c | ases, | either | a new G | AER author | ization may be\n| applied or applicat | ion | may be file | d | unde | r Para | 10.12(D) | of HBP. |\nl. | Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].\nm. | Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory. [for | re-e | xport to v | en | dors | /OEMs | ]. | |\n| A. Documents Requ | ired | for GAER | | | | | |\n| 1. Proof of imp | ort o | f the item(s | ): | | | | |\n| a. Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b. Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.\n| c. Bill of Entry (f | irst | time) | | | | | |\n| 2. Proof of oblig | atio | n for repair | of | defe | ctive/da | maged ite | ms: |\npg. 184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb. The items are to be re-exported to only related entities0 and repair supply chain1 in\nthe foreign country.\nc. The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period. Subsequent export/re-export is\nsubject to post reporting;\nd. The exporter is required to provide Bill of Entry for the imported item while\napplying for GAER for the first shipment.\ne. General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf. Subsequent export would be allowed to the same entity and location to which the\nlicense has originally been issued. Note: Same entity would imply that (a) foreign\nbuyer (b) consignee or intermediaries, if any (c) the end user are exactly the same\nfor which authorisation has been issued to the applicant exporter.\ng. There has been no change to the original characteristics/specifications of the\nSCOMET item(s) after repair and no value addition has been done during the repair\nwork;\nh. No Export Authorisation would be granted when the initial export authorisation\nhas been suspended, modified or revoked by country of import;\ni. No Export authorisation would be granted for UNSC sanctioned destinations or\ncountries/entities of high risk, as assessed by the IMWG, from time to time;\nj. No details of ‘End Use’ and ‘End Use Certificate’ would be required;\nk. GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM. In such cases, either a new GAER authorization may be\napplied or application may be filed under Para 10.12(D) of HBP.\nl. Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].\nm. Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory. [for re-export to vendors/OEMs].\nA. Documents Required for GAER",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb.\"]\n    S2[\"Evaluate condition: | The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.\"]\n    S2 --> S3\n    S4[\"| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.\"]\n    S3 --> S4\n    S5[\"| General authorizat | ion f | or export | aft | er re | pair sh | all be val | id for a per | iod of one year\n| from the date of | issu | e of Gen | era | l au | thoriz | ation sub | ject to su | bsequent post\n| reporting(s) within | 30 | days from | th | e dat | e of su | ch export |; |\nf.\"]\n    S4 --> S5\n    S6[\"| Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |.\"]\n    S5 --> S6\n    S7[\"| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.\"]\n    S6 --> S7\n    S8[\"Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b.\"]\n    S7 --> S8\n    S9[\"The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.\"]\n    S8 --> S9\n    S10[\"Run validation: | No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk.\"]\n    S9 --> S10\n    S11[\"Run validation: | GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.\"]\n    S10 --> S11\n    S12[\"Run validation: | Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].\"]\n    S11 --> S12\n    S13[\"Handle exception: Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.\"]\n    S12 --> S13",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb.;\n:Evaluate condition\\: | The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d.;\n:Evaluate condition\\: Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.;\n:| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.;\n:| General authorizat | ion f | or export | aft | er re | pair sh | all be val | id for a per | iod of one year\n| from the date of | issu | e of Gen | era | l au | thoriz | ation sub | ject to su | bsequent post\n| reporting(s) within | 30 | days from | th | e dat | e of su | ch export |; |\nf.;\n:| Subsequent export | wo | uld be allo | we | d to | the sa | me entity | and locatio | n to which the\n| license has origina | lly b | een issued |.;\n:| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.;\n:Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b.;\n:The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.;\n:Run validation\\: | No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk.;\n:Run validation\\: | GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.;\n:Run validation\\: | Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].;\n:Handle exception\\: Documentary | pro | of and/or s | elf | -decl | aration | that the it | em exempt | ed from\n| license require | ment | or place un | d | er no | license | requirem | ent for Indi | a.;\nstop\n@enduml"
+}

@@ -1,4 +1,4 @@
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '8.01', 'Committee on Quality Complaint & Trade Dispute (CQCTD)', '8.01 Committee on Quality Complaint & Trade Dispute (CQCTD)
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '8.01', 'Committee on Quality Complaint & Trade Dispute (CQCTD)', '8.01 Committee on Quality Complaint & Trade Dispute (CQCTD)
 For effective dealing of quality complaints and trade disputes, a Committee on
 Quality Complaint & Trade Dispute (CQCTD) is constituted in the 20 offices of
 the DGFT.', 'Indha Committee on Quality Complaint & Trade Dispute (CQCTD) section-la, 8.01 Committee on Quality Complaint & Trade Dispute (CQCTD)
@@ -200,7 +200,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.01', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.01', 'tags', '8.01');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.01', 'tags', 'Committee on Quality Complaint & Trade Dispute (CQCTD)');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.01', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '13', 'Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot', 'Defines the operational requirements for Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot.', 'Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, Defines the operational requirements for Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot.', '13. Jt. DGFT, Rajkot Jt.', '13.', '13. Jt. DGFT, Rajkot Jt.', 'Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, 13. Jt. DGFT, Rajkot Jt.', '13. Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '13', 'Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot', 'Defines the operational requirements for Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot.', 'Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, Defines the operational requirements for Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot.', '13. Jt. DGFT, Rajkot Jt.', '13.', '13. Jt. DGFT, Rajkot Jt.', 'Indha Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot section-la, 13. Jt. DGFT, Rajkot Jt.', '13. Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot
 Eastern Zone
 14 Addl. DGFT, Addl. DGFT RA, Kolkata and RA,
 Kolkata Guwahati
@@ -231,7 +231,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('13', 'ke
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('13', 'tags', '13');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('13', 'tags', 'Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('13', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '17', 'Addl. DGFT, Addl. DGFT RA, Hyderabad', 'Defines the operational requirements for Addl. DGFT, Addl. DGFT RA, Hyderabad.', 'Indha Addl. DGFT, Addl. DGFT RA, Hyderabad section-la, Defines the operational requirements for Addl. DGFT, Addl. DGFT RA, Hyderabad.', '17. Addl. DGFT, Addl.', '17.', '17. Addl. DGFT, Addl.', 'Indha Addl. DGFT, Addl. DGFT RA, Hyderabad section-la, 17. Addl. DGFT, Addl.', '17. Addl. DGFT, Addl. DGFT RA, Hyderabad
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '17', 'Addl. DGFT, Addl. DGFT RA, Hyderabad', 'Defines the operational requirements for Addl. DGFT, Addl. DGFT RA, Hyderabad.', 'Indha Addl. DGFT, Addl. DGFT RA, Hyderabad section-la, Defines the operational requirements for Addl. DGFT, Addl. DGFT RA, Hyderabad.', '17. Addl. DGFT, Addl.', '17.', '17. Addl. DGFT, Addl.', 'Indha Addl. DGFT, Addl. DGFT RA, Hyderabad section-la, 17. Addl. DGFT, Addl.', '17. Addl. DGFT, Addl. DGFT RA, Hyderabad
 pg. 164
 2 | Jt. DGFT, Panipat | Jt. DGFT | RA, Panipat
 4 | Jt. DGFT, Kanpur | Jt. DGFT | RA, Kanpur
@@ -282,7 +282,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('17', 'ke
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('17', 'tags', '17');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('17', 'tags', 'Addl. DGFT, Addl. DGFT RA, Hyderabad');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('17', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '8.02', 'Composition of the CQCTD', 'Defines the operational requirements for Composition of the CQCTD.', 'Indha Composition of the CQCTD section-la, Defines the operational requirements for Composition of the CQCTD.', '8.02 Composition of the CQCTD
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '8.02', 'Composition of the CQCTD', 'Defines the operational requirements for Composition of the CQCTD.', 'Indha Composition of the CQCTD section-la, Defines the operational requirements for Composition of the CQCTD.', '8.02 Composition of the CQCTD
 The CQCTD may comprise the following members:
 8.02 Composition of the CQCTD
 The CQCTD may comprise the following members:
@@ -373,7 +373,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.02', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.02', 'tags', '8.02');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.02', 'tags', 'Composition of the CQCTD');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.02', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '1', 'Additional DGFT/Joint DGFT/ (H.O.O):Chairperson', 'Defines the operational requirements for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson.', 'Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, Defines the operational requirements for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson.', '1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson', '1.', '1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson', 'Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, 1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson', '1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson', '[3]', '["DGFT", "Additional", "DGFT/Joint", "Chairperson"]', 'Provide knowledge guidance for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson.', '["1", "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson", "dgft"]');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '1', 'Additional DGFT/Joint DGFT/ (H.O.O):Chairperson', 'Defines the operational requirements for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson.', 'Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, Defines the operational requirements for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson.', '1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson', '1.', '1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson', 'Indha Additional DGFT/Joint DGFT/ (H.O.O):Chairperson section-la, 1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson', '1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson', '[3]', '["DGFT", "Additional", "DGFT/Joint", "Chairperson"]', 'Provide knowledge guidance for Additional DGFT/Joint DGFT/ (H.O.O):Chairperson.', '["1", "Additional DGFT/Joint DGFT/ (H.O.O):Chairperson", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH8-SEC1-R001', '1', '1. Additional DGFT/Joint DGFT/ (H.O.O):Chairperson', 'business_rule', 'Additional DGFT/Joint DGFT/ (H.O.O):Chairperson', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 1 - Additional DGFT/Joint DGFT/ (H.O.O):Chairperson.');
 INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'DGFT');
 INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'Additional DGFT/Joint DGFT');
@@ -387,7 +387,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'Additional DGFT/Joint DGFT/ (H.O.O):Chairperson');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '2', 'Representative of Bureau of India Standard (BIS):Member', 'Defines the operational requirements for Representative of Bureau of India Standard (BIS):Member.', 'Indha Representative of Bureau of India Standard (BIS):Member section-la, Defines the operational requirements for Representative of Bureau of India Standard (BIS):Member.', '2. Representative of Bureau of India Standard (BIS):Member', '2.', '2. Representative of Bureau of India Standard (BIS):Member', 'Indha Representative of Bureau of India Standard (BIS):Member section-la, 2. Representative of Bureau of India Standard (BIS):Member', '2. Representative of Bureau of India Standard (BIS):Member', '[3]', '["BIS", "India", "Bureau", "Member", "Standard", "Representative"]', 'Provide knowledge guidance for Representative of Bureau of India Standard (BIS):Member.', '["2", "Representative of Bureau of India Standard (BIS):Member", "dgft"]');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '2', 'Representative of Bureau of India Standard (BIS):Member', 'Defines the operational requirements for Representative of Bureau of India Standard (BIS):Member.', 'Indha Representative of Bureau of India Standard (BIS):Member section-la, Defines the operational requirements for Representative of Bureau of India Standard (BIS):Member.', '2. Representative of Bureau of India Standard (BIS):Member', '2.', '2. Representative of Bureau of India Standard (BIS):Member', 'Indha Representative of Bureau of India Standard (BIS):Member section-la, 2. Representative of Bureau of India Standard (BIS):Member', '2. Representative of Bureau of India Standard (BIS):Member', '[3]', '["BIS", "India", "Bureau", "Member", "Standard", "Representative"]', 'Provide knowledge guidance for Representative of Bureau of India Standard (BIS):Member.', '["2", "Representative of Bureau of India Standard (BIS):Member", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH8-SEC2-R001', '2', '2. Representative of Bureau of India Standard (BIS):Member', 'business_rule', 'Representative of Bureau of India Standard (BIS):Member', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Representative of Bureau of India Standard (BIS):Member.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 1, 'Review section 2 requirements');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 2, 'Capture applicant inputs');
@@ -401,7 +401,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', '2');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'Representative of Bureau of India Standard (BIS):Member');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '3', 'Representative of Agricultural and Processed Food Products Export', 'Defines the operational requirements for Representative of Agricultural and Processed Food Products Export.', 'Indha Representative of Agricultural and Processed Food Products Export section-la, Defines the operational requirements for Representative of Agricultural and Processed Food Products export.', '3. Representative of Agricultural and Processed Food Products Export
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '3', 'Representative of Agricultural and Processed Food Products Export', 'Defines the operational requirements for Representative of Agricultural and Processed Food Products Export.', 'Indha Representative of Agricultural and Processed Food Products Export section-la, Defines the operational requirements for Representative of Agricultural and Processed Food Products export.', '3. Representative of Agricultural and Processed Food Products Export
 Development Authority (APEDA): Member', '3.', '3. Representative of Agricultural and Processed Food Products Export
 Development Authority (APEDA): Member', 'Indha Representative of Agricultural and Processed Food Products Export section-la, 3. Representative of Agricultural and Processed Food Products export
 Development authority (APEDA): Member', '3. Representative of Agricultural and Processed Food Products Export
@@ -426,7 +426,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', '3');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'Representative of Agricultural and Processed Food Products Export');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '4', 'Representative of the Branch Manager of the concerned Bank:', 'Defines the operational requirements for Representative of the Branch Manager of the concerned Bank:.', 'Indha Representative of the Branch Manager of the concerned Bank: section-la, Defines the operational requirements for Representative of the Branch Manager of the concerned Bank:.', '4. Representative of the Branch Manager of the concerned Bank:
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '4', 'Representative of the Branch Manager of the concerned Bank:', 'Defines the operational requirements for Representative of the Branch Manager of the concerned Bank:.', 'Indha Representative of the Branch Manager of the concerned Bank: section-la, Defines the operational requirements for Representative of the Branch Manager of the concerned Bank:.', '4. Representative of the Branch Manager of the concerned Bank:
 Member', '4.', '4. Representative of the Branch Manager of the concerned Bank:
 Member', 'Indha Representative of the Branch Manager of the concerned Bank: section-la, 4. Representative of the Branch Manager of the concerned Bank:
 Member', '4. Representative of the Branch Manager of the concerned Bank:
@@ -446,7 +446,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', '4');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'Representative of the Branch Manager of the concerned Bank:');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '5', 'Representative of Federation of Indian Exporter Organisation', 'Defines the operational requirements for Representative of Federation of Indian Exporter Organisation.', 'Indha Representative of Federation of Indian Exporter Organisation section-la, Defines the operational requirements for Representative of Federation of Indian Exporter Organisation.', '5. Representative of Federation of Indian Exporter Organisation
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '5', 'Representative of Federation of Indian Exporter Organisation', 'Defines the operational requirements for Representative of Federation of Indian Exporter Organisation.', 'Indha Representative of Federation of Indian Exporter Organisation section-la, Defines the operational requirements for Representative of Federation of Indian Exporter Organisation.', '5. Representative of Federation of Indian Exporter Organisation
 (FIEO)/ and OR Export Promotion Council/Commodity Boards:
 Member', '5.', '5. Representative of Federation of Indian Exporter Organisation
 (FIEO)/ and OR Export Promotion Council/Commodity Boards:
@@ -476,7 +476,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', '5');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'Representative of Federation of Indian Exporter Organisation');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '6', 'Representative of Export Inspection Agency: Member', 'Defines the operational requirements for Representative of Export Inspection Agency: Member.', 'Indha Representative of Export Inspection Agency: Member section-la, Defines the operational requirements for Representative of export Inspection Agency: Member.', '6. Representative of Export Inspection Agency: Member', '6.', '6. Representative of Export Inspection Agency: Member', 'Indha Representative of Export Inspection Agency: Member section-la, 6. Representative of export Inspection Agency: Member', '6. Representative of Export Inspection Agency: Member', '[3]', '["Export", "Agency", "Member", "Inspection", "Representative"]', 'Provide knowledge guidance for Representative of Export Inspection Agency: Member.', '["6", "Representative of Export Inspection Agency: Member", "dgft"]');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '6', 'Representative of Export Inspection Agency: Member', 'Defines the operational requirements for Representative of Export Inspection Agency: Member.', 'Indha Representative of Export Inspection Agency: Member section-la, Defines the operational requirements for Representative of export Inspection Agency: Member.', '6. Representative of Export Inspection Agency: Member', '6.', '6. Representative of Export Inspection Agency: Member', 'Indha Representative of Export Inspection Agency: Member section-la, 6. Representative of export Inspection Agency: Member', '6. Representative of Export Inspection Agency: Member', '[3]', '["Export", "Agency", "Member", "Inspection", "Representative"]', 'Provide knowledge guidance for Representative of Export Inspection Agency: Member.', '["6", "Representative of Export Inspection Agency: Member", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH8-SEC6-R001', '6', '6. Representative of Export Inspection Agency: Member', 'business_rule', 'Representative of Export Inspection Agency: Member', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6 - Representative of Export Inspection Agency: Member.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 1, 'Review section 6 requirements');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 2, 'Capture applicant inputs');
@@ -489,7 +489,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', '6');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'Representative of Export Inspection Agency: Member');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '7', 'Nominee of Director of Industries of State Government: Member', 'Defines the operational requirements for Nominee of Director of Industries of State Government: Member.', 'Indha Nominee of Director of Industries of State Government: Member section-la, Defines the operational requirements for Nominee of Director of Industries of State Government: Member.', '7. Nominee of Director of Industries of State Government: Member', '7.', '7. Nominee of Director of Industries of State Government: Member', 'Indha Nominee of Director of Industries of State Government: Member section-la, 7. Nominee of Director of Industries of State Government: Member', '7. Nominee of Director of Industries of State Government: Member', '[3]', '["State", "Member", "Nominee", "Director", "Industries", "Government"]', 'Provide knowledge guidance for Nominee of Director of Industries of State Government: Member.', '["7", "Nominee of Director of Industries of State Government: Member", "dgft"]');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '7', 'Nominee of Director of Industries of State Government: Member', 'Defines the operational requirements for Nominee of Director of Industries of State Government: Member.', 'Indha Nominee of Director of Industries of State Government: Member section-la, Defines the operational requirements for Nominee of Director of Industries of State Government: Member.', '7. Nominee of Director of Industries of State Government: Member', '7.', '7. Nominee of Director of Industries of State Government: Member', 'Indha Nominee of Director of Industries of State Government: Member section-la, 7. Nominee of Director of Industries of State Government: Member', '7. Nominee of Director of Industries of State Government: Member', '[3]', '["State", "Member", "Nominee", "Director", "Industries", "Government"]', 'Provide knowledge guidance for Nominee of Director of Industries of State Government: Member.', '["7", "Nominee of Director of Industries of State Government: Member", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH8-SEC7-R001', '7', '7. Nominee of Director of Industries of State Government: Member', 'business_rule', 'Nominee of Director of Industries of State Government: Member', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 7 - Nominee of Director of Industries of State Government: Member.');
 INSERT INTO authorities (section_code, authority_name) VALUES ('7', 'State Government');
 INSERT INTO authorities (section_code, authority_name) VALUES ('7', 'Nominee of Director of Industries of State Government');
@@ -505,7 +505,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', '7');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'Nominee of Director of Industries of State Government: Member');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '8', 'Nominee of Development Commissioner of MSME: Member', 'Defines the operational requirements for Nominee of Development Commissioner of MSME: Member.', 'Indha Nominee of Development Commissioner of MSME: Member section-la, Defines the operational requirements for Nominee of Development Commissioner of MSME: Member.', '8. Nominee of Development Commissioner of MSME: Member', '8.', '8. Nominee of Development Commissioner of MSME: Member', 'Indha Nominee of Development Commissioner of MSME: Member section-la, 8. Nominee of Development Commissioner of MSME: Member', '8. Nominee of Development Commissioner of MSME: Member', '[3]', '["MSME", "Member", "Nominee", "Development", "Commissioner"]', 'Provide knowledge guidance for Nominee of Development Commissioner of MSME: Member.', '["8", "Nominee of Development Commissioner of MSME: Member", "dgft"]');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '8', 'Nominee of Development Commissioner of MSME: Member', 'Defines the operational requirements for Nominee of Development Commissioner of MSME: Member.', 'Indha Nominee of Development Commissioner of MSME: Member section-la, Defines the operational requirements for Nominee of Development Commissioner of MSME: Member.', '8. Nominee of Development Commissioner of MSME: Member', '8.', '8. Nominee of Development Commissioner of MSME: Member', 'Indha Nominee of Development Commissioner of MSME: Member section-la, 8. Nominee of Development Commissioner of MSME: Member', '8. Nominee of Development Commissioner of MSME: Member', '[3]', '["MSME", "Member", "Nominee", "Development", "Commissioner"]', 'Provide knowledge guidance for Nominee of Development Commissioner of MSME: Member.', '["8", "Nominee of Development Commissioner of MSME: Member", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH8-SEC8-R001', '8', '8. Nominee of Development Commissioner of MSME: Member', 'business_rule', 'Nominee of Development Commissioner of MSME: Member', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 8 - Nominee of Development Commissioner of MSME: Member.');
 INSERT INTO authorities (section_code, authority_name) VALUES ('8', 'Development Commissioner');
 INSERT INTO authorities (section_code, authority_name) VALUES ('8', 'Nominee of Development Commissioner');
@@ -520,7 +520,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', '8');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', 'Nominee of Development Commissioner of MSME: Member');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '9', 'Officer as nominated by Chairperson: Member Secretary', 'Defines the operational requirements for Officer as nominated by Chairperson: Member Secretary.', 'Indha Officer as nominated by Chairperson: Member Secretary section-la, Defines the operational requirements for Officer as nominated by Chairperson: Member Secretary.', '9. Officer as nominated by Chairperson: Member Secretary', '9.', '9. Officer as nominated by Chairperson: Member Secretary', 'Indha Officer as nominated by Chairperson: Member Secretary section-la, 9. Officer as nominated by Chairperson: Member Secretary', '9. Officer as nominated by Chairperson: Member Secretary', '[3]', '["Member", "Officer", "nominated", "Secretary", "Chairperson"]', 'Provide knowledge guidance for Officer as nominated by Chairperson: Member Secretary.', '["9", "Officer as nominated by Chairperson: Member Secretary", "dgft"]');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '9', 'Officer as nominated by Chairperson: Member Secretary', 'Defines the operational requirements for Officer as nominated by Chairperson: Member Secretary.', 'Indha Officer as nominated by Chairperson: Member Secretary section-la, Defines the operational requirements for Officer as nominated by Chairperson: Member Secretary.', '9. Officer as nominated by Chairperson: Member Secretary', '9.', '9. Officer as nominated by Chairperson: Member Secretary', 'Indha Officer as nominated by Chairperson: Member Secretary section-la, 9. Officer as nominated by Chairperson: Member Secretary', '9. Officer as nominated by Chairperson: Member Secretary', '[3]', '["Member", "Officer", "nominated", "Secretary", "Chairperson"]', 'Provide knowledge guidance for Officer as nominated by Chairperson: Member Secretary.', '["9", "Officer as nominated by Chairperson: Member Secretary", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH8-SEC9-R001', '9', '9. Officer as nominated by Chairperson: Member Secretary', 'business_rule', 'Officer as nominated by Chairperson: Member Secretary', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 9 - Officer as nominated by Chairperson: Member Secretary.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('9', 1, 'Review section 9 requirements');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('9', 2, 'Capture applicant inputs');
@@ -533,7 +533,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9', 'tags', '9');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9', 'tags', 'Officer as nominated by Chairperson: Member Secretary');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '10', 'Any other agency, as co-opted by Chairperson: Member.', 'Defines the operational requirements for Any other agency, as co-opted by Chairperson: Member..', 'Indha Any other agency, as co-opted by Chairperson: Member. section-la, Defines the operational requirements for Any other agency, as co-opted by Chairperson: Member..', '10. Any other agency, as co-opted by Chairperson: Member.', '10.', '10. Any other agency, as co-opted by Chairperson: Member.', 'Indha Any other agency, as co-opted by Chairperson: Member. section-la, 10. Any other agency, as co-opted by Chairperson: Member.', '10. Any other agency, as co-opted by Chairperson: Member.', '[3]', '["Any", "other", "agency", "Member", "co-opted", "Chairperson"]', 'Provide knowledge guidance for Any other agency, as co-opted by Chairperson: Member..', '["10", "Any other agency, as co-opted by Chairperson: Member.", "dgft"]');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '10', 'Any other agency, as co-opted by Chairperson: Member.', 'Defines the operational requirements for Any other agency, as co-opted by Chairperson: Member..', 'Indha Any other agency, as co-opted by Chairperson: Member. section-la, Defines the operational requirements for Any other agency, as co-opted by Chairperson: Member..', '10. Any other agency, as co-opted by Chairperson: Member.', '10.', '10. Any other agency, as co-opted by Chairperson: Member.', 'Indha Any other agency, as co-opted by Chairperson: Member. section-la, 10. Any other agency, as co-opted by Chairperson: Member.', '10. Any other agency, as co-opted by Chairperson: Member.', '[3]', '["Any", "other", "agency", "Member", "co-opted", "Chairperson"]', 'Provide knowledge guidance for Any other agency, as co-opted by Chairperson: Member..', '["10", "Any other agency, as co-opted by Chairperson: Member.", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH8-SEC10-R001', '10', '10. Any other agency, as co-opted by Chairperson: Member.', 'business_rule', 'Any other agency, as co-opted by Chairperson: Member.', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 10 - Any other agency, as co-opted by Chairperson: Member..');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10', 1, 'Review section 10 requirements');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('10', 2, 'Capture applicant inputs');
@@ -547,7 +547,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10', 'ke
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10', 'tags', '10');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10', 'tags', 'Any other agency, as co-opted by Chairperson: Member.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '8.03', 'Online Filing and Tracking of Quality Complaints/Trade', '8.03 Online Filing and Tracking of Quality Complaints/Trade
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '8.03', 'Online Filing and Tracking of Quality Complaints/Trade', '8.03 Online Filing and Tracking of Quality Complaints/Trade
 Disputes
 A request for investigation and settlement of quality complaint/trade dispute
 would be filed online by an Indian/foreign entity at
@@ -672,33 +672,29 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.03', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.03', 'tags', 'Online Filing and Tracking of Quality Complaints/Trade');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.03', 'tags', 'document-driven');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.03', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '8.04', 'Mechanism for resolving Quality Complaints/Trade Disputes', '8.04 Mechanism for resolving Quality Complaints/Trade Disputes
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '8.04', 'Mechanism for resolving Quality Complaints/Trade Disputes', '8.04 Mechanism for resolving Quality Complaints/Trade Disputes
 i.', 'Indha Mechanism for resolving Quality Complaints/Trade Disputes section-la, 8.04 Mechanism for resolving Quality Complaints/Trade Disputes
 i.', '8.04 Mechanism for resolving Quality Complaints/Trade Disputes
 i. CQCTD in the Regional Authorities of the DGFT would take up the matter
 with the concerned entity or authorities in their jurisdiction for resolving
 the complaint and would update status online on a regular basis,
 pg. 165
-| Hyderabad | |
 19 | | Dy.', '8.04 Mechanism for resolving Quality Complaints/Trade Disputes
 i.', '8.04 Mechanism for resolving Quality Complaints/Trade Disputes
 i. CQCTD in the Regional Authorities of the DGFT would take up the matter
 with the concerned entity or authorities in their jurisdiction for resolving
 the complaint and would update status online on a regular basis,
 pg. 165
-| Hyderabad | |
 19 | | Dy.', 'Indha Mechanism for resolving Quality Complaints/Trade Disputes section-la, 8.04 Mechanism for resolving Quality Complaints/Trade Disputes
 i. CQCTD in the Regional Authorities of the DGFT would take up the matter
 with the concerned entity or authorities in their jurisdiction for resolving
 the complaint and would update status online on a regular basis,
 pg. 165
-| Hyderabad | |
 19 | | Dy.', '8.04 Mechanism for resolving Quality Complaints/Trade Disputes
 i. CQCTD in the Regional Authorities of the DGFT would take up the matter
 with the concerned entity or authorities in their jurisdiction for resolving
 the complaint and would update status online on a regular basis,
 pg. 165
-| Hyderabad | |
 19 | | Dy. DGFT, | | Dy. DGFT | RA, Vishakhapatnam
 | | Vishakhapatnam | | |
 pg. 165
@@ -783,7 +779,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.04', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.04', 'tags', '8.04');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.04', 'tags', 'Mechanism for resolving Quality Complaints/Trade Disputes');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.04', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes', '8.05', 'Choice to pursue other options', '8.05 Choice to pursue other options
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter08.pdf', '8', 'Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes', '8.05', 'Choice to pursue other options', '8.05 Choice to pursue other options
 This mechanism is to provide an additional window for resolution of
 complaints/disputes to create confidence in business environment in the
 country.', 'Indha Choice to pursue other options section-la, 8.05 Choice to pursue other options
@@ -813,6 +809,22 @@ aggrieved parties are free to pursue any other course of action including legal
 action against the erring party. Disputes between two Indian parties or between
 two foreign parties are not covered under this mechanism.
 pg. 166
+| ii. | Wherever ne | ces | sary |, | action w | ould be taken | against | the errin | g Indian
+| | Entity under t | he | For | ei | gn Trade | (Development | & Regula | tion) Act, | 1992, as
+| | amended and | the | Fo | rei | gn Trade | (Regulation) R | ules, 199 | 3, as amen | ded,
+| iii. | The Indian M | iss | ions | w | ould take | up the issue | with auth | orities c | oncerned
+| | for resolving | th | e co | m | plaint an | d would updat | e status | online on | regular
+| | basis, | | | | | | | |
+| iv. | The facility of | tr | acki | ng | and view | ing status of t | he comp | laints/dis | putes by
+| | the complaina | nt | has | al | so been pr | ovided on the | DGFT we | bsite. |
+| 8.05 | Choice to p | urs | ue | ot | her opti | ons | | |
+T | his | mechanism is | t | o | pr | ovide an | additional w | indow f | or resol | ution of
+c | ompl | aints/disputes | t | o c | re | ate confi | dence in busi | ness env | ironment | in the
+c | ountr | y. Efforts w | oul | d b | e | made to | resolve the | complain | ts amica | bly and
+e | xpedi | tiously. Howe | ve | r, t | hi | s mechan | ism is only c | onciliator | y in nat | ure. The
+a | ggrie | ved parties ar | e f | ree | to | pursue a | ny other cour | se of acti | on includ | ing legal
+a | ction | against the er | rin | g pa | rt | y. Dispute | s between two | Indian p | arties or | between
+t | wo fo | reign parties a | re | not | co | vered und | er this mechan | ism. | |
 pg. 166
 ii.
 Wherever necessary, action would be taken against the erring Indian
@@ -824,36 +836,52 @@ for resolving the complaint and would update status online on regular
 basis,
 iv.
 The facility of tracking and viewing status of the complaints/disputes by
-the complainant has also been provided on the DGFT website.', '[4]', '["for", "the", "and", "are", "any", "two", "not", "Act", "iii", "has", "This", "made", "only", "free", "take", "with", "also", "been", "DGFT", "other"]', 'Support Choice to pursue other options processing and compliance validation.', '["8.05", "Choice to pursue other options", "dgft"]');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH8-SEC8_05-R001', '8.05', 'IF validations pass THEN recommend action: Wherever necessary, action would be taken against the erring Indian
-Entity under the Foreign Trade (Development & Regulation) Act, 1992, as
-amended and the Foreign Trade (Regulation) Rules, 1993, as amended,
-iii.', 'business_rule', 'Choice to pursue other options', 'Wherever necessary, action would be taken against the erring Indian
-Entity under the Foreign Trade (Development & Regulation) Act, 1992, as
-amended and the Foreign Trade (Regulation) Rules, 1993, as amended,
-iii.', 'Not explicitly covered in uploaded documents.', 'Wherever necessary, action would be taken against the erring Indian
-Entity under the Foreign Trade (Development & Regulation) Act, 1992, as
-amended and the Foreign Trade (Regulation) Rules, 1993, as amended,
-iii.', 'However, this mechanism is only conciliatory in nature.', 'DEKAI should produce a compliance decision for 8.05 - Choice to pursue other options.');
+the complainant has also been provided on the DGFT website.', '[4]', '["for", "the", "and", "are", "any", "two", "not", "ces", "Act", "rei", "ded", "iii", "iss", "ing", "has", "urs", "her", "ons", "his", "ate"]', 'Support Choice to pursue other options processing and compliance validation.', '["8.05", "Choice to pursue other options", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH8-SEC8_05-R001', '8.05', 'IF validations pass THEN recommend action: | Wherever ne | ces | sary |, | action w | ould be taken | against | the errin | g Indian
+| | Entity under t | he | For | ei | gn Trade | (Development | & Regula | tion) Act, | 1992, as
+| | amended and | the | Fo | rei | gn Trade | (Regulation) R | ules, 199 | 3, as amen | ded,
+| iii.', 'business_rule', 'Choice to pursue other options', '| Wherever ne | ces | sary |, | action w | ould be taken | against | the errin | g Indian
+| | Entity under t | he | For | ei | gn Trade | (Development | & Regula | tion) Act, | 1992, as
+| | amended and | the | Fo | rei | gn Trade | (Regulation) R | ules, 199 | 3, as amen | ded,
+| iii.', 'Not explicitly covered in uploaded documents.', '| Wherever ne | ces | sary |, | action w | ould be taken | against | the errin | g Indian
+| | Entity under t | he | For | ei | gn Trade | (Development | & Regula | tion) Act, | 1992, as
+| | amended and | the | Fo | rei | gn Trade | (Regulation) R | ules, 199 | 3, as amen | ded,
+| iii.', 'However, this mechanism is only conciliatory in nature.', 'DEKAI should produce a compliance decision for 8.05 - Choice to pursue other options.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8.05', '| Wherever ne | ces | sary |, | action w | ould be taken | against | the errin | g Indian
+| | Entity under t | he | For | ei | gn Trade | (Development | & Regula | tion) Act, | 1992, as
+| | amended and | the | Fo | rei | gn Trade | (Regulation) R | ules, 199 | 3, as amen | ded,
+| iii.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('8.05', 'Wherever necessary, action would be taken against the erring Indian
 Entity under the Foreign Trade (Development & Regulation) Act, 1992, as
 amended and the Foreign Trade (Regulation) Rules, 1993, as amended,
 iii.');
 INSERT INTO authorities (section_code, authority_name) VALUES ('8.05', 'DGFT');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('8.05', 'However, this mechanism is only conciliatory in nature.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8.05', 1, 'Evaluate condition: Wherever necessary, action would be taken against the erring Indian
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8.05', 1, 'Evaluate condition: | Wherever ne | ces | sary |, | action w | ould be taken | against | the errin | g Indian
+| | Entity under t | he | For | ei | gn Trade | (Development | & Regula | tion) Act, | 1992, as
+| | amended and | the | Fo | rei | gn Trade | (Regulation) R | ules, 199 | 3, as amen | ded,
+| iii.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8.05', 2, 'Evaluate condition: Wherever necessary, action would be taken against the erring Indian
 Entity under the Foreign Trade (Development & Regulation) Act, 1992, as
 amended and the Foreign Trade (Regulation) Rules, 1993, as amended,
 iii.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8.05', 2, 'Wherever necessary, action would be taken against the erring Indian
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8.05', 3, '| Wherever ne | ces | sary |, | action w | ould be taken | against | the errin | g Indian
+| | Entity under t | he | For | ei | gn Trade | (Development | & Regula | tion) Act, | 1992, as
+| | amended and | the | Fo | rei | gn Trade | (Regulation) R | ules, 199 | 3, as amen | ded,
+| iii.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8.05', 4, '| The Indian M | iss | ions | w | ould take | up the issue | with auth | orities c | oncerned
+| | for resolving | th | e co | m | plaint an | d would updat | e status | online on | regular
+| | basis, | | | | | | | |
+| iv.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8.05', 5, 'Wherever necessary, action would be taken against the erring Indian
 Entity under the Foreign Trade (Development & Regulation) Act, 1992, as
 amended and the Foreign Trade (Regulation) Rules, 1993, as amended,
 iii.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8.05', 3, 'The Indian Missions would take up the issue with authorities concerned
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8.05', 6, 'The Indian Missions would take up the issue with authorities concerned
 for resolving the complaint and would update status online on regular
 basis,
 iv.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8.05', 4, 'Handle exception: However, this mechanism is only conciliatory in nature.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8.05', 7, 'Handle exception: However, this mechanism is only conciliatory in nature.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'for');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'the');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'and');
@@ -861,19 +889,19 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'any');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'two');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'ces');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'Act');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'rei');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'ded');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'iii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'iss');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'ing');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'has');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'This');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'made');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'only');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'free');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'take');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'with');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'also');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'been');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'DGFT');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'other');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'urs');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'her');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'ons');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'his');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'keywords', 'ate');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'tags', '8.05');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'tags', 'Choice to pursue other options');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8.05', 'tags', 'dgft');

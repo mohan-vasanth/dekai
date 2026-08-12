@@ -1,0 +1,56 @@
+{
+  "section": "3",
+  "conditions": [
+    "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.",
+    "| Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny.",
+    "| Authorized Econom | ic Op | erator (AEO) T | 2 | Cer | tification of | CBIC |.",
+    "| In case of re-export | of im | ported items, t | h | e fol | lowing addit | iona | l docu | men | ts have\nto b | e submitted: | | | | | | | | |\n(i | ) Proof of import of | the it | em(s): | | | | | | |\n|  Documen | tary | proof that the i | t | em( | s) originally | impo | rted, | mat | ch with\n| intended | item( | s) of re-export |; | | | | | |\n|  Bill of en | try co | ntaining details | | of th | e items to b | e re- | expor | ted; |\n|  Export Li | cense | (if applicable) | | or a | ny other doc | ume | nts s | how | ing that\n| export r | egulat | ion of the co | | untr | y of export | doe | s no | t ha | ve any\n| restrictio | n on r | e- export from | | Indi | a; | | | |\n|  In case o | f any | such restrictio | n |, th | e exporter w | ill p | rovid | e a l | etter of\n| explanati | on d | etailing the lis | t | of | countries/e | ntiti | es, to | wh | ich re-\n| export/r | eturn | is restricted / r | | egul | ated; | | | |\n|  Purchas | e orde | r | | | | | | |\nviii |.",
+    "After issuance of | GAEIS | authorization | a | nd | before actual | exp | ort, th | e a | pplicant\nexp | orter must ensure | the fo | llowing: | | | | | | |\n1.",
+    "| They shall notify t | he rel | evant governm | | ent a | uthorities i | n the | onli | ne p | ortal of\nDG | FT, on a quarterly | basis | of such export i | | n the | prescribed | form | at [A | ayat | Niryat\nFor | m (ANF) 10I], alo | ng wit | h the End-Use | C | erti | ficate (EUC) | for e | ach e | xpor | t.",
+    "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;"
+  ],
+  "condition_logic": [
+    {
+      "id": "10.3.1",
+      "if": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.",
+      "then": "| Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny.",
+      "source": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg."
+    },
+    {
+      "id": "10.3.2",
+      "if": "| Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny.",
+      "then": "| Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny.",
+      "source": "| Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny."
+    },
+    {
+      "id": "10.3.3",
+      "if": "| Authorized Econom | ic Op | erator (AEO) T | 2 | Cer | tification of | CBIC |.",
+      "then": "| Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny.",
+      "source": "| Authorized Econom | ic Op | erator (AEO) T | 2 | Cer | tification of | CBIC |."
+    },
+    {
+      "id": "10.3.4",
+      "if": "| In case of re-export | of im | ported items, t | h | e fol | lowing addit | iona | l docu | men | ts have\nto b | e submitted: | | | | | | | | |\n(i | ) Proof of import of | the it | em(s): | | | | | | |\n|  Documen | tary | proof that the i | t | em( | s) originally | impo | rted, | mat | ch with\n| intended | item( | s) of re-export |; | | | | | |\n|  Bill of en | try co | ntaining details | | of th | e items to b | e re- | expor | ted; |\n|  Export Li | cense | (if applicable) | | or a | ny other doc | ume | nts s | how | ing that\n| export r | egulat | ion of the co | | untr | y of export | doe | s no | t ha | ve any\n| restrictio | n on r | e- export from | | Indi | a; | | | |\n|  In case o | f any | such restrictio | n |, th | e exporter w | ill p | rovid | e a l | etter of\n| explanati | on d | etailing the lis | t | of | countries/e | ntiti | es, to | wh | ich re-\n| export/r | eturn | is restricted / r | | egul | ated; | | | |\n|  Purchas | e orde | r | | | | | | |\nviii |.",
+      "then": "| Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny.",
+      "source": "| In case of re-export | of im | ported items, t | h | e fol | lowing addit | iona | l docu | men | ts have\nto b | e submitted: | | | | | | | | |\n(i | ) Proof of import of | the it | em(s): | | | | | | |\n|  Documen | tary | proof that the i | t | em( | s) originally | impo | rted, | mat | ch with\n| intended | item( | s) of re-export |; | | | | | |\n|  Bill of en | try co | ntaining details | | of th | e items to b | e re- | expor | ted; |\n|  Export Li | cense | (if applicable) | | or a | ny other doc | ume | nts s | how | ing that\n| export r | egulat | ion of the co | | untr | y of export | doe | s no | t ha | ve any\n| restrictio | n on r | e- export from | | Indi | a; | | | |\n|  In case o | f any | such restrictio | n |, th | e exporter w | ill p | rovid | e a l | etter of\n| explanati | on d | etailing the lis | t | of | countries/e | ntiti | es, to | wh | ich re-\n| export/r | eturn | is restricted / r | | egul | ated; | | | |\n|  Purchas | e orde | r | | | | | | |\nviii |."
+    },
+    {
+      "id": "10.3.5",
+      "if": "After issuance of | GAEIS | authorization | a | nd | before actual | exp | ort, th | e a | pplicant\nexp | orter must ensure | the fo | llowing: | | | | | | |\n1.",
+      "then": "| Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny.",
+      "source": "After issuance of | GAEIS | authorization | a | nd | before actual | exp | ort, th | e a | pplicant\nexp | orter must ensure | the fo | llowing: | | | | | | |\n1."
+    },
+    {
+      "id": "10.3.6",
+      "if": "| They shall notify t | he rel | evant governm | | ent a | uthorities i | n the | onli | ne p | ortal of\nDG | FT, on a quarterly | basis | of such export i | | n the | prescribed | form | at [A | ayat | Niryat\nFor | m (ANF) 10I], alo | ng wit | h the End-Use | C | erti | ficate (EUC) | for e | ach e | xpor | t.",
+      "then": "| Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny.",
+      "source": "| They shall notify t | he rel | evant governm | | ent a | uthorities i | n the | onli | ne p | ortal of\nDG | FT, on a quarterly | basis | of such export i | | n the | prescribed | form | at [A | ayat | Niryat\nFor | m (ANF) 10I], alo | ng wit | h the End-Use | C | erti | ficate (EUC) | for e | ach e | xpor | t."
+    },
+    {
+      "id": "10.3.7",
+      "if": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;",
+      "then": "| Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny.",
+      "source": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\nexport;"
+    }
+  ]
+}

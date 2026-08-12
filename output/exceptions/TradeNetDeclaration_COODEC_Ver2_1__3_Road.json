@@ -1,0 +1,12 @@
+{
+  "section": "3",
+  "exceptions": [
+    "B018\ncbc:Currency Code\nC\n1 a3\nAll values in the Certificate at item level will be assumed to be\nSGD unless specified here.",
+    "unit Code (attribute) M 1 an..3 Specify unit (refer to UN/ECE Recommendation No.",
+    "B058\ncbc:Harmonized System Quantity\nunit Code (attribute)\nM\nM\n1 n..16\n1 an..3\nSpecify the item quantity and measure unit specifier.",
+    "unit Code (attribute) M 1 an3 Specify unit (refer to UN/ECE Recommendation No.",
+    "Specify invoice number except for goods under single invoice.",
+    "B058\ncbc:Item Certificate Quantity\nunit Code (attribute)\nC\nM\n1 n..16\n1 an3\nOptional to specify Certificate item quantity and measurement unit\nto be printed on the Certificate.",
+    "B058\ncbc:Textile Quota Quantity\nunit Code (attribute)\nC\nM\n1 n..16\n1 an3\na) Applicable only for Application Product Type = TX."
+  ]
+}

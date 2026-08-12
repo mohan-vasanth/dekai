@@ -1,0 +1,270 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "section": "5",
+  "title": "Mail",
+  "purpose": "Defines the operational requirements for Mail.",
+  "purpose_thanglish": "Indha Mail section-la, Defines the operational requirements for Mail.",
+  "summary": "5: Mail",
+  "business_meaning": "5: Mail",
+  "business_explanation": "5: Mail",
+  "business_explanation_thanglish": "Indha Mail section-la, 5: Mail",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC5-R001",
+      "rule_description": "5: Mail",
+      "trigger": "Mail",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5 - Mail."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "5::section::0::mail",
+      "type": "section",
+      "title": "Mail",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5: Mail",
+      "parentId": "",
+      "sectionId": "5",
+      "sectionTitle": "Mail",
+      "documentName": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Mail"
+      ],
+      "childIds": [
+        "5::business_rule::1::mail"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "5::business_rule::1::mail",
+      "type": "business_rule",
+      "title": "Mail",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5: Mail",
+      "parentId": "5::section::0::mail",
+      "sectionId": "5",
+      "sectionTitle": "Mail",
+      "documentName": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Mail"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 5 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Mail\nReview section 5 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 5 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Mail Decision\nIF section 5 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Mail; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Mail, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the mail process.",
+  "real_world_example_thanglish": "Indha Mail section-la, Example: an importer or exporter invokes Mail, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the mail process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "mail_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Mail"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5",
+      "purpose": "Retrieve knowledge payload for section 5",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Mail/validate",
+      "purpose": "Validate inputs and documents for Mail",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Mail_overview",
+      "name": "Mail Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Mail_submission",
+      "name": "Mail Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "mail_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Mail require?",
+    "Which documents are needed for Mail?",
+    "How does DEKAI validate Mail requests?"
+  ],
+  "expected_ai_answers": [
+    "Mail requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Mail by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 5?",
+      "answer_en": "5: Mail",
+      "question_thanglish": "Indha Mail section-la, What is the purpose of section 5?",
+      "answer_thanglish": "Indha Mail section-la, 5: Mail"
+    },
+    {
+      "question_en": "What documents are required under Mail?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Mail section-la, What documents are required under Mail?",
+      "answer_thanglish": "Indha Mail section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Mail?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Mail section-la, Which authority handles Mail?",
+      "answer_thanglish": "Indha Mail section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Mail?",
+      "answer_en": "AI answers: DEKAI should evaluate section 5, apply the extracted rules, and guide the user through Review section 5 requirements.",
+      "question_thanglish": "Indha Mail section-la, User asks: How do I comply with Mail?",
+      "answer_thanglish": "Indha Mail section-la, AI answers: DEKAI should evaluate section 5, apply the extracted rules, and guide the user through Review section 5 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Mail?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Mail section-la, User asks: Which validations apply to Mail?",
+      "answer_thanglish": "Indha Mail section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter , section 5, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Mail into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Mail section-la, Capture chapter , section 5, title, and page references as immutable knowledge metadata.",
+    "Indha Mail section-la, Bind validations for Mail into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "Mail"
+  ],
+  "search_keywords": [
+    "Mail"
+  ],
+  "intent": "Provide knowledge guidance for Mail.",
+  "tags": [
+    "5",
+    "Mail",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    11
+  ],
+  "pages": [
+    11
+  ],
+  "source_document": "TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf",
+  "raw_text": "5: Mail",
+  "mermaid": "flowchart TD\n    S1[\"Review section 5 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 5 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

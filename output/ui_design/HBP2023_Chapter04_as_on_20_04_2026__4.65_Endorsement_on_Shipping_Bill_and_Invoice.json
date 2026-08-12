@@ -1,0 +1,37 @@
+{
+  "section": "4.65",
+  "ui": [
+    {
+      "screen_id": "Endorsement_on_Shipping_Bill_and_Invoice_overview",
+      "name": "Endorsement on Shipping Bill and Invoice Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Endorsement_on_Shipping_Bill_and_Invoice_submission",
+      "name": "Endorsement on Shipping Bill and Invoice Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "its_flag",
+        "for_flag",
+        "fob_flag",
+        "ent_flag",
+        "the_flag"
+      ]
+    }
+  ]
+}

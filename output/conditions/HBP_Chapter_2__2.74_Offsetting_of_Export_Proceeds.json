@@ -1,0 +1,70 @@
+{
+  "section": "2.74",
+  "conditions": [
+    "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+    "|\n(b) If the proof of | payment issu | ed by | the Insur | ance Ag | en | cy mentions cl | aim value\nboth in foreign | exchange an | d INR, | RA will u | se the | fo | reign exchange | value for\nprocessing.",
+    "If | the claim val | ue is | mentioned | only | in | equivalent INR |, RA will\nconvert this IN | R value in equ | ivalent | US$ usin | g the ex | ch | ange rate (publ | ished by\nCBEC) applicab | le on the date | of sett | lement of | insura | nce | claim”.",
+    "|\n2.72 RBI write-off | on export p | rocee | ds realiz | ation | | |\nRealization of export | proceeds shal | l not b | e insisted | under | Fo | reign Trade Po | licy, if the\nReserve Bank of Ind | ia (RBI) or an | y “Au | thorised | Bank” ( | au | thorised by RB | I for this\npurpose) writes off t | he requireme | nt of r | ealization | of exp | ort | proceeds on m | erits and\nthe exporter produce | s a certificate | from t | he concer | ned Fo | rei | gn Mission of In | dia about\nthe fact of non-recov | ery of export | procee | ds from t | he buy | er.",
+    "| | | | |\n2.73 Conversion o | f Shipping B | ill fro | m one Sc | heme | to | another |\nCustoms Authorities, | after recordi | ng rea | sons in | writing, | p | ermit conversi | on of any\nscheme-shipping bill | on which b | enefit | of that s | cheme | h | as not been a | vailed, in\naccordance with the | Regulations u | nder | Customs | Act, 19 | 62, | and exporter | would be\nentitled to benefit un | der scheme in | which | shipment | is subs | eq | uently converte | d.",
+    "2.74 Offsetting of | Export Proc | eeds | | | | |\nSubject to specific ap | proval of RBI |, any | payables, | or equ | ity | investment m | ade by an\nAuthorisation holder | under any exp | ort pr | omotion s | cheme, | ca | n be used to off | set\n| | | | | | | pg.",
+    "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a) Appendix-2L in lieu of Bank Realisation Certificate.",
+    "(b) Specific permission of RBI.",
+    "PROVISIONS RELATED TO QUALITY CERTIFICATION:"
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.74.1",
+      "if": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "then": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "source": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg."
+    },
+    {
+      "id": "2.2.74.2",
+      "if": "|\n(b) If the proof of | payment issu | ed by | the Insur | ance Ag | en | cy mentions cl | aim value\nboth in foreign | exchange an | d INR, | RA will u | se the | fo | reign exchange | value for\nprocessing.",
+      "then": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "source": "|\n(b) If the proof of | payment issu | ed by | the Insur | ance Ag | en | cy mentions cl | aim value\nboth in foreign | exchange an | d INR, | RA will u | se the | fo | reign exchange | value for\nprocessing."
+    },
+    {
+      "id": "2.2.74.3",
+      "if": "| the claim val | ue is | mentioned | only | in | equivalent INR |",
+      "then": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "source": "If | the claim val | ue is | mentioned | only | in | equivalent INR |, RA will\nconvert this IN | R value in equ | ivalent | US$ usin | g the ex | ch | ange rate (publ | ished by\nCBEC) applicab | le on the date | of sett | lement of | insura | nce | claim”."
+    },
+    {
+      "id": "2.2.74.4",
+      "if": "|\n2.72 RBI write-off | on export p | rocee | ds realiz | ation | | |\nRealization of export | proceeds shal | l not b | e insisted | under | Fo | reign Trade Po | licy, if the\nReserve Bank of Ind | ia (RBI) or an | y “Au | thorised | Bank” ( | au | thorised by RB | I for this\npurpose) writes off t | he requireme | nt of r | ealization | of exp | ort | proceeds on m | erits and\nthe exporter produce | s a certificate | from t | he concer | ned Fo | rei | gn Mission of In | dia about\nthe fact of non-recov | ery of export | procee | ds from t | he buy | er.",
+      "then": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "source": "|\n2.72 RBI write-off | on export p | rocee | ds realiz | ation | | |\nRealization of export | proceeds shal | l not b | e insisted | under | Fo | reign Trade Po | licy, if the\nReserve Bank of Ind | ia (RBI) or an | y “Au | thorised | Bank” ( | au | thorised by RB | I for this\npurpose) writes off t | he requireme | nt of r | ealization | of exp | ort | proceeds on m | erits and\nthe exporter produce | s a certificate | from t | he concer | ned Fo | rei | gn Mission of In | dia about\nthe fact of non-recov | ery of export | procee | ds from t | he buy | er."
+    },
+    {
+      "id": "2.2.74.5",
+      "if": "| | | | |\n2.73 Conversion o | f Shipping B | ill fro | m one Sc | heme | to | another |\nCustoms Authorities, | after recordi | ng rea | sons in | writing, | p | ermit conversi | on of any\nscheme-shipping bill | on which b | enefit | of that s | cheme | h | as not been a | vailed, in\naccordance with the | Regulations u | nder | Customs | Act, 19 | 62, | and exporter | would be\nentitled to benefit un | der scheme in | which | shipment | is subs | eq | uently converte | d.",
+      "then": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "source": "| | | | |\n2.73 Conversion o | f Shipping B | ill fro | m one Sc | heme | to | another |\nCustoms Authorities, | after recordi | ng rea | sons in | writing, | p | ermit conversi | on of any\nscheme-shipping bill | on which b | enefit | of that s | cheme | h | as not been a | vailed, in\naccordance with the | Regulations u | nder | Customs | Act, 19 | 62, | and exporter | would be\nentitled to benefit un | der scheme in | which | shipment | is subs | eq | uently converte | d."
+    },
+    {
+      "id": "2.2.74.6",
+      "if": "2.74 Offsetting of | Export Proc | eeds | | | | |\nSubject to specific ap | proval of RBI |, any | payables, | or equ | ity | investment m | ade by an\nAuthorisation holder | under any exp | ort pr | omotion s | cheme, | ca | n be used to off | set\n| | | | | | | pg.",
+      "then": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "source": "2.74 Offsetting of | Export Proc | eeds | | | | |\nSubject to specific ap | proval of RBI |, any | payables, | or equ | ity | investment m | ade by an\nAuthorisation holder | under any exp | ort pr | omotion s | cheme, | ca | n be used to off | set\n| | | | | | | pg."
+    },
+    {
+      "id": "2.2.74.7",
+      "if": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a) Appendix-2L in lieu of Bank Realisation Certificate.",
+      "then": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "source": "In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a) Appendix-2L in lieu of Bank Realisation Certificate."
+    },
+    {
+      "id": "2.2.74.8",
+      "if": "(b) Specific permission of RBI.",
+      "then": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "source": "(b) Specific permission of RBI."
+    },
+    {
+      "id": "2.2.74.9",
+      "if": "PROVISIONS RELATED TO QUALITY CERTIFICATION:",
+      "then": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "source": "PROVISIONS RELATED TO QUALITY CERTIFICATION:"
+    }
+  ]
+}

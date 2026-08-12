@@ -1,0 +1,787 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.27",
+  "title": "Validity of duplicate Authorisation",
+  "purpose": "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+  "purpose_thanglish": "Indha Validity of duplicate Authorisation section-la, 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation kandippa be co-terminus with original period.",
+  "summary": "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period. No\nrequest shall be entertained if validity has expired.",
+  "business_meaning": "Validity of duplicate Authorisation governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Validity of duplicate Authorisation explains the operating rule set that DEKAI should enforce. Key control points include 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+  "business_explanation_thanglish": "Indha Validity of duplicate Authorisation section-la, Validity of duplicate Authorisation explains the operating rule set that DEKAI should enforce. Key control points include 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation kandippa be co-terminus with original period.",
+  "business_logic": [
+    "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+    "No\nrequest shall be entertained if validity has expired."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_27-R001",
+      "rule_description": "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+      "trigger": "Validity of duplicate Authorisation",
+      "condition": "No\nrequest shall be entertained if validity has expired.",
+      "validation": "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.27 - Validity of duplicate Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_27-R002",
+      "rule_description": "No\nrequest shall be entertained if validity has expired.",
+      "trigger": "Validity of duplicate Authorisation",
+      "condition": "No\nrequest shall be entertained if validity has expired.",
+      "validation": "No\nrequest shall be entertained if validity has expired.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.27 - Validity of duplicate Authorisation."
+    }
+  ],
+  "conditions": [
+    "No\nrequest shall be entertained if validity has expired."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.27.1",
+      "if": "No\nrequest shall be entertained if validity has expired.",
+      "then": "Route for review",
+      "source": "No\nrequest shall be entertained if validity has expired."
+    }
+  ],
+  "validations": [
+    "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+    "No\nrequest shall be entertained if validity has expired."
+  ],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [
+    [
+      [
+        "declaration, as gi",
+        "ven in",
+        "Appendix 2M, to",
+        "concerned office",
+        "wh",
+        "e",
+        "re",
+        "the orig",
+        "inal Licence"
+      ],
+      [
+        "was issued.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.24 Documen",
+        "ts req",
+        "uired for dupli",
+        "cate copy of fre",
+        "el",
+        "y",
+        "tr",
+        "ansfera",
+        "ble"
+      ],
+      [
+        "Authorisation",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Duplicate copy",
+        "of free",
+        "ly transferable",
+        "Authorisation m",
+        "ay",
+        "",
+        "be",
+        "issued",
+        "against an"
+      ],
+      [
+        "application acco",
+        "mpanie",
+        "d with following",
+        "documents:",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(i) An applica",
+        "tion w",
+        "ith fee equivale",
+        "nt to 10% of dut",
+        "y s",
+        "a",
+        "ve",
+        "d or du",
+        "ty credit (of"
+      ],
+      [
+        "unutilized",
+        "balanc",
+        "e).",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(ii) A copy of",
+        "FIR rep",
+        "orting loss.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(iii) Self- decla",
+        "ration",
+        "to indemnify rev",
+        "enue loss, which",
+        "m",
+        "a",
+        "y b",
+        "e cause",
+        "d on account"
+      ],
+      [
+        "of issue of",
+        "such d",
+        "uplicate.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.25 Exception",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "When an Author",
+        "isation",
+        "is lost by a Gov",
+        "ernment agency",
+        "an",
+        "d",
+        "a",
+        "proof to",
+        "this effect is"
+      ],
+      [
+        "submitted, docu",
+        "ments",
+        "at serial nos. (i)",
+        "to (iii) of Paragr",
+        "ap",
+        "h",
+        "2.2",
+        "4 abov",
+        "e shall not be"
+      ],
+      [
+        "required. In such",
+        "cases,",
+        "revalidation shal",
+        "l be for six mont",
+        "hs f",
+        "r",
+        "om",
+        "date of",
+        "endorsement."
+      ],
+      [
+        "2.26 Mechanis",
+        "m for",
+        "issuing duplica",
+        "tes",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "RA concerned sh",
+        "all obt",
+        "ain a report reg",
+        "arding utilization",
+        "of",
+        "",
+        "suc",
+        "h Auth",
+        "orisation from"
+      ],
+      [
+        "Custom authority",
+        "at port",
+        "of registration be",
+        "fore issuing dupli",
+        "cat",
+        "e",
+        ", fo",
+        "r balanc",
+        "e unutilized."
+      ],
+      [
+        "2.27 Validity o",
+        "f dupl",
+        "icate Authoris",
+        "ation",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Validity of dupl",
+        "icate A",
+        "uthorisation sh",
+        "all be co-termin",
+        "us",
+        "w",
+        "ith",
+        "origin",
+        "al period. No"
+      ],
+      [
+        "request shall be",
+        "enterta",
+        "ined if validity ha",
+        "s expired.",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.28 Applicabi",
+        "lity of",
+        "the provision",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Provision of Para",
+        "graph",
+        "2.26 and 2.27 sh",
+        "all be applicable f",
+        "or",
+        "c",
+        "ase",
+        "s cover",
+        "ed under both"
+      ],
+      [
+        "Paragraph 2.23 a",
+        "nd 2.2",
+        "4.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "BANK GUARAN",
+        "TEE /",
+        "LUT/ CORPOR",
+        "ATE GUARANT",
+        "EE",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.29 Execution",
+        "of BG",
+        "/Legal undert",
+        "aking for Adva",
+        "nce",
+        "",
+        "Au",
+        "thorisa",
+        "tion/"
+      ],
+      [
+        "EPCG Authoris",
+        "ation",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(a) Before cle",
+        "arance",
+        "of goods through",
+        "Customs, Autho",
+        "ris",
+        "at",
+        "ion",
+        "holder",
+        "shall execute"
+      ],
+      [
+        "a BG/LUT",
+        "with C",
+        "ustoms Authoriti",
+        "es. In such cases,",
+        "RA",
+        "s",
+        "ha",
+        "ll endor",
+        "se the"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "pg. 19"
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "2.27::section::0::validity-of-duplicate-authorisation",
+      "type": "section",
+      "title": "Validity of duplicate Authorisation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period. No\nrequest shall be entertained if validity has expired.",
+      "parentId": "",
+      "sectionId": "2.27",
+      "sectionTitle": "Validity of duplicate Authorisation",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 10,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Validity of duplicate Authorisation",
+        "ValidityofduplicateAuthorisation"
+      ],
+      "childIds": [
+        "2.27::validation::1::validation-rules",
+        "2.27::validation::2::validation-rules",
+        "2.27::business_rule::3::validity-of-duplicate-authorisation",
+        "2.27::business_rule::4::validity-of-duplicate-authorisation"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "2.27::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+      "parentId": "2.27::section::0::validity-of-duplicate-authorisation",
+      "sectionId": "2.27",
+      "sectionTitle": "Validity of duplicate Authorisation",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 10,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.27::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "No\nrequest shall be entertained if validity has expired.",
+      "parentId": "2.27::section::0::validity-of-duplicate-authorisation",
+      "sectionId": "2.27",
+      "sectionTitle": "Validity of duplicate Authorisation",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 10,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.27::business_rule::3::validity-of-duplicate-authorisation",
+      "type": "business_rule",
+      "title": "Validity of duplicate Authorisation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+      "parentId": "2.27::section::0::validity-of-duplicate-authorisation",
+      "sectionId": "2.27",
+      "sectionTitle": "Validity of duplicate Authorisation",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 10,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validity of duplicate Authorisation",
+        "ValidityofduplicateAuthorisation"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.27::business_rule::4::validity-of-duplicate-authorisation",
+      "type": "business_rule",
+      "title": "Validity of duplicate Authorisation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "No\nrequest shall be entertained if validity has expired.",
+      "parentId": "2.27::section::0::validity-of-duplicate-authorisation",
+      "sectionId": "2.27",
+      "sectionTitle": "Validity of duplicate Authorisation",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 10,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validity of duplicate Authorisation",
+        "ValidityofduplicateAuthorisation"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: No\nrequest shall be entertained if validity has expired.",
+    "Run validation: 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+    "Run validation: No\nrequest shall be entertained if validity has expired."
+  ],
+  "workflow_ascii": "Validity of duplicate Authorisation\nEvaluate condition: No\nrequest shall be entertained if validity has expired.\n   |\n   v\nRun validation: 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.\n   |\n   v\nRun validation: No\nrequest shall be entertained if validity has expired.",
+  "decision_tree": [
+    "IF section 2.27 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Validity of duplicate Authorisation Decision\nIF section 2.27 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Validity of duplicate Authorisation; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Validity of duplicate Authorisation, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the validity of duplicate authorisation process.",
+  "real_world_example_thanglish": "Indha Validity of duplicate Authorisation section-la, Example: an importer or exporter invokes Validity of duplicate Authorisation, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the validity of duplicate authorisation process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+    "IF detected context matches section rule THEN enforce: No\nrequest shall be entertained if validity has expired."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "has_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:has"
+    },
+    {
+      "name": "with_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:with"
+    },
+    {
+      "name": "shall_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:shall"
+    },
+    {
+      "name": "period_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:period"
+    },
+    {
+      "name": "request_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:request"
+    },
+    {
+      "name": "expired_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:expired"
+    },
+    {
+      "name": "validity_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Validity"
+    },
+    {
+      "name": "original_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:original"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.27",
+      "purpose": "Retrieve knowledge payload for section 2.27",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Validity-of-duplicate-Authorisation/validate",
+      "purpose": "Validate inputs and documents for Validity of duplicate Authorisation",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Validity_of_duplicate_Authorisation_overview",
+      "name": "Validity of duplicate Authorisation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Validity_of_duplicate_Authorisation_submission",
+      "name": "Validity of duplicate Authorisation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "has_flag",
+        "with_flag",
+        "shall_flag",
+        "period_flag",
+        "request_flag",
+        "expired_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Validity of duplicate Authorisation require?",
+    "Which documents are needed for Validity of duplicate Authorisation?",
+    "How does DEKAI validate Validity of duplicate Authorisation requests?"
+  ],
+  "expected_ai_answers": [
+    "Validity of duplicate Authorisation requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Validity of duplicate Authorisation by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.27?",
+      "answer_en": "Validity of duplicate Authorisation explains the operating rule set that DEKAI should enforce. Key control points include 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+      "question_thanglish": "Indha Validity of duplicate Authorisation section-la, What is the purpose of section 2.27?",
+      "answer_thanglish": "Indha Validity of duplicate Authorisation section-la, Validity of duplicate Authorisation explains the operating rule set that DEKAI should enforce. Key control points include 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation kandippa be co-terminus with original period."
+    },
+    {
+      "question_en": "What documents are required under Validity of duplicate Authorisation?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Validity of duplicate Authorisation section-la, What documents are required under Validity of duplicate Authorisation?",
+      "answer_thanglish": "Indha Validity of duplicate Authorisation section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Validity of duplicate Authorisation?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Validity of duplicate Authorisation section-la, Which authority handles Validity of duplicate Authorisation?",
+      "answer_thanglish": "Indha Validity of duplicate Authorisation section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Validity of duplicate Authorisation?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.27, apply the extracted rules, and guide the user through Evaluate condition: No\nrequest shall be entertained if validity has expired..",
+      "question_thanglish": "Indha Validity of duplicate Authorisation section-la, User asks: How do I comply with Validity of duplicate Authorisation?",
+      "answer_thanglish": "Indha Validity of duplicate Authorisation section-la, AI answers: DEKAI should evaluate section 2.27, apply the extracted rules, and guide the user through Evaluate condition: No\nrequest kandippa be entertained if validity has expired.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Validity of duplicate Authorisation?",
+      "answer_en": "AI answers: Applicable validations are 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period., No\nrequest shall be entertained if validity has expired.",
+      "question_thanglish": "Indha Validity of duplicate Authorisation section-la, User asks: Which validations apply to Validity of duplicate Authorisation?",
+      "answer_thanglish": "Indha Validity of duplicate Authorisation section-la, AI answers: Applicable validations are 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation kandippa be co-terminus with original period., No\nrequest kandippa be entertained if validity has expired."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.27, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Validity of duplicate Authorisation into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Validity of duplicate Authorisation section-la, Capture chapter 2, section 2.27, title, and page references as immutable knowledge metadata.",
+    "Indha Validity of duplicate Authorisation section-la, Bind validations for Validity of duplicate Authorisation into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "has",
+    "with",
+    "shall",
+    "period",
+    "request",
+    "expired",
+    "Validity",
+    "original",
+    "duplicate",
+    "co-terminus",
+    "entertained",
+    "Authorisation"
+  ],
+  "search_keywords": [
+    "has",
+    "with",
+    "shall",
+    "period",
+    "request",
+    "expired",
+    "Validity",
+    "original",
+    "duplicate",
+    "co-terminus",
+    "entertained",
+    "Authorisation"
+  ],
+  "intent": "Provide knowledge guidance for Validity of duplicate Authorisation.",
+  "tags": [
+    "2.27",
+    "Validity of duplicate Authorisation",
+    "business-rule",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.",
+    "No\nrequest shall be entertained if validity has expired."
+  ],
+  "page_numbers": [
+    10
+  ],
+  "pages": [
+    10
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period. No\nrequest shall be entertained if validity has expired.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: No\nrequest shall be entertained if validity has expired.\"]\n    S2[\"Run validation: 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.\"]\n    S1 --> S2\n    S3[\"Run validation: No\nrequest shall be entertained if validity has expired.\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: No\nrequest shall be entertained if validity has expired.;\n:Run validation\\: 2.27 Validity of duplicate Authorisation\nValidity of duplicate Authorisation shall be co-terminus with original period.;\n:Run validation\\: No\nrequest shall be entertained if validity has expired.;\nstop\n@enduml"
+}

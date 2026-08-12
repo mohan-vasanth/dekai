@@ -310,7 +310,12 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -326,7 +331,12 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -483,7 +493,8 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "status",
@@ -500,7 +511,8 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -777,13 +789,36 @@
           "purpose": "Validate inputs and documents for Surrender of IEC",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "status",
             "errors",
             "warnings",
             "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Surrender-of-IEC/execute",
+          "purpose": "Trigger business action for | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
           ]
         }
       ]
@@ -880,7 +915,11 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -897,7 +936,11 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1159,7 +1202,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Revalidation-of-Import-Export-Licence-Certificate-Authorisation/execute",
-          "purpose": "Trigger business action for 17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+          "purpose": "Trigger business action for The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -1301,7 +1344,10 @@
             "section_title",
             "document_1_submitted",
             "document_2_submitted",
-            "document_3_submitted"
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -1319,7 +1365,10 @@
             "section_title",
             "document_1_submitted",
             "document_2_submitted",
-            "document_3_submitted"
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1630,7 +1679,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Execution-of-BG-Legal-undertaking-for-Advance-Authorisation/execute",
-          "purpose": "Trigger business action for 19\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued.",
+          "purpose": "Trigger business action for 19\ndeclaration, as gi | ven in | Appendix 2M, to | concerned office | wh | e | re | the orig | inal Licence\nwas issued.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -1740,7 +1789,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -1759,7 +1810,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -2355,7 +2408,8 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "status",
@@ -2374,7 +2428,8 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -2518,7 +2573,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -2537,7 +2594,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -2618,7 +2677,8 @@
             "section_title",
             "document_1_submitted",
             "document_2_submitted",
-            "document_3_submitted"
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "status",
@@ -2636,7 +2696,8 @@
             "section_title",
             "document_1_submitted",
             "document_2_submitted",
-            "document_3_submitted"
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -2733,7 +2794,8 @@
           "purpose": "Validate inputs and documents for EXIM Facilitation Committee",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted"
           ],
           "response_fields": [
             "status",
@@ -2745,10 +2807,11 @@
         {
           "method": "POST",
           "path": "/api/dgft/EXIM-Facilitation-Committee/execute",
-          "purpose": "Trigger business action for NRAI/Department of Sports\nwill maintain the required records.",
+          "purpose": "Trigger business action for NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -2801,7 +2864,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Import-of-Restricted-items-required-by-Hotels-Restaurants-Travel/execute",
-          "purpose": "Trigger business action for 28\n(b)\nImport/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+          "purpose": "Trigger business action for 28\n(b) | Import/Export | auth | orisations for | a restricted item, i | f so, | d | irected | by th | e competent\n| authority, shall | be | issued for imp | ort/ Export throu | gh o | n | e of th | e sea | ports or air\n| ports or ICDs | or L | CS, as per the | option indicated |, in | w | riting, | by t | he applicant.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -3449,7 +3512,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",
@@ -3465,7 +3529,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -3664,7 +3729,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",
@@ -3680,7 +3746,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -3873,13 +3940,34 @@
           "purpose": "Validate inputs and documents for Free of Cost Exports for status holders",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "status",
             "errors",
             "warnings",
             "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Free-of-Cost-Exports-for-status-holders/execute",
+          "purpose": "Trigger business action for 38\n2.67 Direct ne | gotiatio | n of ex | port docum | ent | s | | |\nIn cases where e | xporter d | irectly | negotiates doc | um | ent (not t | hrough auth | orise | d dealer)\nwith permission | of RBI, h | e is req | uired to sub | mit f | ollowing | documents | for a | vailing of\nbenefits under ex | port pro | motion | schemes: | | | | |\n(a) Permissio | n from R | BI allo | wing direct ne | got | iation of | documents | (not | required\nfor status holder | s), | | | | | | |\n(b) Copy of F | oreign In | ward R | emittance Ce | rtifi | cate (FIR | C) as per Fo | rm 1 | 0-H of\nIncome Tax Depa | rtment i | n lieu of | BRC, and | | | | |\n(c) Statement | giving d | etails o | f shipping bil | ls / | invoice | against whic | h FI | RC was\nissued.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
           ]
         }
       ]
@@ -4055,7 +4143,10 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "status",
@@ -4071,7 +4162,10 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -4173,7 +4267,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -4185,7 +4280,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Track-and-Trace-system-for-export-of-drug-formulations/execute",
-          "purpose": "Trigger business action for In such cases, offsetting would be equal to realisation of\nexport proceeds and exporter would have to submit following additional documents:\n(a)\nAppendix-2L in lieu of Bank Realisation Certificate.",
+          "purpose": "Trigger business action for In such | ca | ses, offsetting would | be equal | to realis | ation of\nexport proceed | s | and | ex | porter | would hav | e t | o submit following a | dditional d | ocumen | ts:\n(a) Appendi | x | -2L | in l | ieu of | Bank Real | is | ation Certificate.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -4193,7 +4288,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -4513,7 +4609,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",
@@ -4529,7 +4626,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -4790,13 +4888,34 @@
           "purpose": "Validate inputs and documents for Interview with authorised Officers",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "status",
             "errors",
             "warnings",
             "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Interview-with-authorised-Officers/execute",
+          "purpose": "Trigger business action for 45\n2.83 De- R | egist | ration | | | | | | |\nRegistering | autho | rity may de | -regi | ste | r an RC | MC | holder for a sp | ecified | period for\nviolation of c | ondit | ions of regis | trati | on.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
           ]
         }
       ]
@@ -5066,13 +5185,32 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "status",
             "errors",
             "warnings",
             "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/TRQ-under-FTA-CECA/execute",
+          "purpose": "Trigger business action for | | | | | |\n(b) | Som | e of the key | criteria use | d in the determ | ination | of t | he rules | of | orig | in are:\n(i | ) | Wholly obt | ained | | | | | | |\n(i | i) | Change in t | ariff classifi | cation | | | | | |\n(i | ii) | Value addit | ion | | | | | | |\n(i | v) | Non minim | al operation | s | | | | | |\n(c) | For | exports un | der India’s | FTAs, PTAs | and G | SP, | specifi | ed | age | ncies are\n| auth | orised to is | sue the cer | tificates of ori | gin, they | sh | all also | pr | ovid | e services\n| relat | ing to issue | of Co O, incl | uding details r | egardin | g ru | les of or | ig | in, lis | t of items\n| cove | red by an | agreemen | t, extent of | tariff p | refe | rence, | ve | rifica | tion and\n| certi | fication of | eligibility.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
           ]
         }
       ]
@@ -5327,13 +5465,36 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "status",
             "errors",
             "warnings",
             "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Application-to-EPCG-Committee/execute",
+          "purpose": "Trigger business action for 61\n2.94 | Approved Exp | orter Sch | e | me (AES | ) for self-c | ert | ificat | ion |\nDetail | s of the Scheme a | re provid | ed | in Appe | ndix 2F of A | NF.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
           ]
         }
       ]

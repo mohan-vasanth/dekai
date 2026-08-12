@@ -1,0 +1,126 @@
+{
+  "section": "4.44",
+  "conditions": [
+    "| | | | | | | | |\n(c) | In case of onli | ne filing of | EODC | application, | | E | xporters | sha | ll link | all\n| exports online | on DGFT sy | stem b | y linking file | | n | umber / | aut | horisati | on\n| number with t | he relevant | shippi | ng bill num | | be | rs / bill | of | exports | /\n| invoices in case | of deemed | exports | /Tax invoice | | s f | or suppli | es p | rescrib | ed\n| under CGST/SG | ST/UT GST | rules.",
+    "| | | | | | |\n(d) | In case of non | EDI shippin | g bills a | nd supplies | | un | der Cha | pter | -7 of F | TP,\n| exporter shall f | ile relevant | details | manually on | | th | e websit | e of | the DG | FT\n| within two mo | nths from th | e date | of expiry of | E | xp | ort Obli | gati | on peri | od.",
+    "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+    "| | | | | | |\n(e) | e-BRC/ export | realisations | from | RBI's EDPM | | S | whereve | r av | ailable | in\n| DGFT IT syste | m shall be | linked | with these | s | hi | pping bi | lls | within | six\n| months from th | e date of exp | iry of e | xport obliga | t | io | n/realisa | tion | or as p | er\n| the time perio | d prescribed | for re | alization of f | | or | eign exch | ang | e by R | BI.",
+    "| Regional Autho | rity shall no | t take | action for no | | n l | inking/ | sub | mission | of\n| e-BRC/ export | realisations | from | RBI's EDPM | S | | whereve | r av | ailable | in\n| DGFT IT system | before expi | ry of sa | id period, p | r | ov | ided oth | er d | ocume | nts\n| substantiating f | ulfilment of | Export | Obligation h | a | v | e been fur | nis | hed by t | he\n| exporter.",
+    "| | | | | | | | |\n(f) | In case Authori | sation holde | r fails t | o complete | E | x | port Obli | gati | on or fa | ils\n| to submit relev | ant informa | tion / | documents, | | Re | gional A | uth | ority sh | all\n| enforce conditi | on of Auth | orisatio | n and Unde | r | ta | king and | als | o initia | te\n| penal action as | per law inc | luding r | efusal of fur | t | h | er author | isat | ion to t | he\n| defaulting expo | rter.",
+    "(c)\nIn case of online filing of EODC application, Exporters shall link all\nexports online on DGFT system by linking file number / authorisation\nnumber with the relevant shipping bill numbers / bill of exports /\ninvoices in case of deemed exports/Tax invoices for supplies prescribed\nunder CGST/SGST/UT GST rules.",
+    "(d)\nIn case of non EDI shipping bills and supplies under Chapter-7 of FTP,\nexporter shall file relevant details manually on the website of the DGFT\nwithin two months from the date of expiry of Export Obligation period.",
+    "Copies of shipping bills shall be submitted to Regional Authority\nconcerned for verification within two months from date of expiry of\nexport obligation period.",
+    "In case an applicant is not able to upload any\nprescribed document then such documents may be submitted in physical\nform to the concerned authority.",
+    "(e)\ne-BRC/ export realisations from RBI's EDPMS wherever available in\nDGFT IT system shall be linked with these shipping bills within six\nmonths from the date of expiry of export obligation/realisation or as per\nthe time period prescribed for realization of foreign exchange by RBI.",
+    "Regional Authority shall not take action for non linking/ submission of\ne-BRC/ export realisations from RBI's EDPMS wherever available in\nDGFT IT system before expiry of said period, provided other documents\nsubstantiating fulfilment of Export Obligation have been furnished by the\nexporter.",
+    "(f)\nIn case Authorisation holder fails to complete Export Obligation or fails\nto submit relevant information / documents, Regional Authority shall\nenforce condition of Authorisation and Undertaking and also initiate\npenal action as per law including refusal of further authorisation to the\ndefaulting exporter.",
+    "(ii) Within eligible entitlement, an exporter may apply for one or more\nthan one authorisation in a licensing year, subject to the condition\nthat against one Port of registration, not more than five\nauthorisations can be issued for same product group.",
+    "(iv) Authorisation for Annual Requirement shall be issued only where\nSIONs or valid Adhoc norms exists on the date of issue of\nAuthorisation.",
+    "However, no Authorisation for Annual\nRequirement shall be issued where input is listed in Appendix-4J.",
+    "(b) At the time of clearance of the import consignment against the\nauthorisation, exporter shall mention technical characteristics, quality\nand specifications which shall be endorsed in the Bill of Entry / invoice,\nduly attested by the Customs authority, in respect of following inputs:\n“Alloy steel including stainless steel, copper alloy, synthetic rubber,\nbearings, solvents, perfumes/ essential oils/aromatic chemicals,\nsurfactants, relevant fabrics and marble.”"
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.44.1",
+      "if": "| | | | | | | | |\n(c) | In case of onli | ne filing of | EODC | application, | | E | xporters | sha | ll link | all\n| exports online | on DGFT sy | stem b | y linking file | | n | umber / | aut | horisati | on\n| number with t | he relevant | shippi | ng bill num | | be | rs / bill | of | exports | /\n| invoices in case | of deemed | exports | /Tax invoice | | s f | or suppli | es p | rescrib | ed\n| under CGST/SG | ST/UT GST | rules.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "| | | | | | | | |\n(c) | In case of onli | ne filing of | EODC | application, | | E | xporters | sha | ll link | all\n| exports online | on DGFT sy | stem b | y linking file | | n | umber / | aut | horisati | on\n| number with t | he relevant | shippi | ng bill num | | be | rs / bill | of | exports | /\n| invoices in case | of deemed | exports | /Tax invoice | | s f | or suppli | es p | rescrib | ed\n| under CGST/SG | ST/UT GST | rules."
+    },
+    {
+      "id": "4.4.44.2",
+      "if": "| | | | | | |\n(d) | In case of non | EDI shippin | g bills a | nd supplies | | un | der Cha | pter | -7 of F | TP,\n| exporter shall f | ile relevant | details | manually on | | th | e websit | e of | the DG | FT\n| within two mo | nths from th | e date | of expiry of | E | xp | ort Obli | gati | on peri | od.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "| | | | | | |\n(d) | In case of non | EDI shippin | g bills a | nd supplies | | un | der Cha | pter | -7 of F | TP,\n| exporter shall f | ile relevant | details | manually on | | th | e websit | e of | the DG | FT\n| within two mo | nths from th | e date | of expiry of | E | xp | ort Obli | gati | on peri | od."
+    },
+    {
+      "id": "4.4.44.3",
+      "if": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period."
+    },
+    {
+      "id": "4.4.44.4",
+      "if": "| | | | | | |\n(e) | e-BRC/ export | realisations | from | RBI's EDPM | | S | whereve | r av | ailable | in\n| DGFT IT syste | m shall be | linked | with these | s | hi | pping bi | lls | within | six\n| months from th | e date of exp | iry of e | xport obliga | t | io | n/realisa | tion | or as p | er\n| the time perio | d prescribed | for re | alization of f | | or | eign exch | ang | e by R | BI.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "| | | | | | |\n(e) | e-BRC/ export | realisations | from | RBI's EDPM | | S | whereve | r av | ailable | in\n| DGFT IT syste | m shall be | linked | with these | s | hi | pping bi | lls | within | six\n| months from th | e date of exp | iry of e | xport obliga | t | io | n/realisa | tion | or as p | er\n| the time perio | d prescribed | for re | alization of f | | or | eign exch | ang | e by R | BI."
+    },
+    {
+      "id": "4.4.44.5",
+      "if": "| Regional Autho | rity shall no | t take | action for no | | n l | inking/ | sub | mission | of\n| e-BRC/ export | realisations | from | RBI's EDPM | S | | whereve | r av | ailable | in\n| DGFT IT system | before expi | ry of sa | id period, p | r | ov | ided oth | er d | ocume | nts\n| substantiating f | ulfilment of | Export | Obligation h | a | v | e been fur | nis | hed by t | he\n| exporter.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "| Regional Autho | rity shall no | t take | action for no | | n l | inking/ | sub | mission | of\n| e-BRC/ export | realisations | from | RBI's EDPM | S | | whereve | r av | ailable | in\n| DGFT IT system | before expi | ry of sa | id period, p | r | ov | ided oth | er d | ocume | nts\n| substantiating f | ulfilment of | Export | Obligation h | a | v | e been fur | nis | hed by t | he\n| exporter."
+    },
+    {
+      "id": "4.4.44.6",
+      "if": "| | | | | | | | |\n(f) | In case Authori | sation holde | r fails t | o complete | E | x | port Obli | gati | on or fa | ils\n| to submit relev | ant informa | tion / | documents, | | Re | gional A | uth | ority sh | all\n| enforce conditi | on of Auth | orisatio | n and Unde | r | ta | king and | als | o initia | te\n| penal action as | per law inc | luding r | efusal of fur | t | h | er author | isat | ion to t | he\n| defaulting expo | rter.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "| | | | | | | | |\n(f) | In case Authori | sation holde | r fails t | o complete | E | x | port Obli | gati | on or fa | ils\n| to submit relev | ant informa | tion / | documents, | | Re | gional A | uth | ority sh | all\n| enforce conditi | on of Auth | orisatio | n and Unde | r | ta | king and | als | o initia | te\n| penal action as | per law inc | luding r | efusal of fur | t | h | er author | isat | ion to t | he\n| defaulting expo | rter."
+    },
+    {
+      "id": "4.4.44.7",
+      "if": "(c)\nIn case of online filing of EODC application, Exporters shall link all\nexports online on DGFT system by linking file number / authorisation\nnumber with the relevant shipping bill numbers / bill of exports /\ninvoices in case of deemed exports/Tax invoices for supplies prescribed\nunder CGST/SGST/UT GST rules.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "(c)\nIn case of online filing of EODC application, Exporters shall link all\nexports online on DGFT system by linking file number / authorisation\nnumber with the relevant shipping bill numbers / bill of exports /\ninvoices in case of deemed exports/Tax invoices for supplies prescribed\nunder CGST/SGST/UT GST rules."
+    },
+    {
+      "id": "4.4.44.8",
+      "if": "(d)\nIn case of non EDI shipping bills and supplies under Chapter-7 of FTP,\nexporter shall file relevant details manually on the website of the DGFT\nwithin two months from the date of expiry of Export Obligation period.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "(d)\nIn case of non EDI shipping bills and supplies under Chapter-7 of FTP,\nexporter shall file relevant details manually on the website of the DGFT\nwithin two months from the date of expiry of Export Obligation period."
+    },
+    {
+      "id": "4.4.44.9",
+      "if": "Copies of shipping bills shall be submitted to Regional Authority\nconcerned for verification within two months from date of expiry of\nexport obligation period.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "Copies of shipping bills shall be submitted to Regional Authority\nconcerned for verification within two months from date of expiry of\nexport obligation period."
+    },
+    {
+      "id": "4.4.44.10",
+      "if": "In case an applicant is not able to upload any\nprescribed document then such documents may be submitted in physical\nform to the concerned authority.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "In case an applicant is not able to upload any\nprescribed document then such documents may be submitted in physical\nform to the concerned authority."
+    },
+    {
+      "id": "4.4.44.11",
+      "if": "(e)\ne-BRC/ export realisations from RBI's EDPMS wherever available in\nDGFT IT system shall be linked with these shipping bills within six\nmonths from the date of expiry of export obligation/realisation or as per\nthe time period prescribed for realization of foreign exchange by RBI.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "(e)\ne-BRC/ export realisations from RBI's EDPMS wherever available in\nDGFT IT system shall be linked with these shipping bills within six\nmonths from the date of expiry of export obligation/realisation or as per\nthe time period prescribed for realization of foreign exchange by RBI."
+    },
+    {
+      "id": "4.4.44.12",
+      "if": "Regional Authority shall not take action for non linking/ submission of\ne-BRC/ export realisations from RBI's EDPMS wherever available in\nDGFT IT system before expiry of said period, provided other documents\nsubstantiating fulfilment of Export Obligation have been furnished by the\nexporter.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "Regional Authority shall not take action for non linking/ submission of\ne-BRC/ export realisations from RBI's EDPMS wherever available in\nDGFT IT system before expiry of said period, provided other documents\nsubstantiating fulfilment of Export Obligation have been furnished by the\nexporter."
+    },
+    {
+      "id": "4.4.44.13",
+      "if": "(f)\nIn case Authorisation holder fails to complete Export Obligation or fails\nto submit relevant information / documents, Regional Authority shall\nenforce condition of Authorisation and Undertaking and also initiate\npenal action as per law including refusal of further authorisation to the\ndefaulting exporter.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "(f)\nIn case Authorisation holder fails to complete Export Obligation or fails\nto submit relevant information / documents, Regional Authority shall\nenforce condition of Authorisation and Undertaking and also initiate\npenal action as per law including refusal of further authorisation to the\ndefaulting exporter."
+    },
+    {
+      "id": "4.4.44.14",
+      "if": "(ii) Within eligible entitlement, an exporter may apply for one or more\nthan one authorisation in a licensing year, subject to the condition\nthat against one Port of registration, not more than five\nauthorisations can be issued for same product group.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "(ii) Within eligible entitlement, an exporter may apply for one or more\nthan one authorisation in a licensing year, subject to the condition\nthat against one Port of registration, not more than five\nauthorisations can be issued for same product group."
+    },
+    {
+      "id": "4.4.44.15",
+      "if": "(iv) Authorisation for Annual Requirement shall be issued only where\nSIONs or valid Adhoc norms exists on the date of issue of\nAuthorisation.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "(iv) Authorisation for Annual Requirement shall be issued only where\nSIONs or valid Adhoc norms exists on the date of issue of\nAuthorisation."
+    },
+    {
+      "id": "4.4.44.16",
+      "if": "However, no Authorisation for Annual\nRequirement shall be issued where input is listed in Appendix-4J.",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "However, no Authorisation for Annual\nRequirement shall be issued where input is listed in Appendix-4J."
+    },
+    {
+      "id": "4.4.44.17",
+      "if": "(b) At the time of clearance of the import consignment against the\nauthorisation, exporter shall mention technical characteristics, quality\nand specifications which shall be endorsed in the Bill of Entry / invoice,\nduly attested by the Customs authority, in respect of following inputs:\n“Alloy steel including stainless steel, copper alloy, synthetic rubber,\nbearings, solvents, perfumes/ essential oils/aromatic chemicals,\nsurfactants, relevant fabrics and marble.”",
+      "then": "| Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
+      "source": "(b) At the time of clearance of the import consignment against the\nauthorisation, exporter shall mention technical characteristics, quality\nand specifications which shall be endorsed in the Bill of Entry / invoice,\nduly attested by the Customs authority, in respect of following inputs:\n“Alloy steel including stainless steel, copper alloy, synthetic rubber,\nbearings, solvents, perfumes/ essential oils/aromatic chemicals,\nsurfactants, relevant fabrics and marble.”"
+    }
+  ]
+}

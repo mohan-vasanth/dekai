@@ -1,0 +1,65 @@
+{
+  "section": "5.1",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5.1",
+      "purpose": "Retrieve knowledge payload for section 5.1",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Abbreviations/validate",
+      "purpose": "Validate inputs and documents for Abbreviations",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Abbreviations/execute",
+      "purpose": "Trigger business action for 5.1 Abbreviations\nAPERAK Application Error and Acknowledgement\nCA Controlling Agency\nCO Certificate of Origin\nDE Data Element\nEDI Electronic Data Interchange\nERRORM Error Message\nGST Goods and Services Tax\nIESGP/IE Singapore International Enterprise Singapore Board\nCOODEC Application of Certificate of Origin\nCOODCI Issue of Certificate of Origin\nMDS Message Design Specifications\nCrimsonlogic Crimson Logic Pte Ltd\nSC Singapore Customs\nSTDID Singapore Trade Data Interchange Directory\nTCODEC Trade Certificate of Origin Declaration\nUNSM United Nation Standard Message\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

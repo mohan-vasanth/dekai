@@ -220,7 +220,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -232,14 +234,16 @@
         {
           "method": "POST",
           "path": "/api/dgft/Certificate-of-Installation-of-Capital-Goods/execute",
-          "purpose": "Trigger business action for The RA may allow extension of the said period for\nsubmission of certificate, upto valid EO period with a payment of a\ncomposition fee of Rs.",
+          "purpose": "Trigger business action for |\n5.03 | Nexus Certification | | | | | | | |\n(a) | RA concerned shall, on th | e ba | sis of n | exus | certif | icat | e fro | m an | independent\n| Chartered Engineer (CEC) | sub | mitted b | y the | appl | ican | t in | Appen | dix 5A, issue\n| EPCG authorisation.",
           "request_fields": [
             "section_code",
             "section_title",
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -600,7 +604,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Conditions-for-fulfillment-of-Export-Obligation/execute",
-          "purpose": "Trigger business action for The above certificate shall be issued as an online amendment to the\nauthorisation and has to be transmitted.",
+          "purpose": "Trigger business action for The cer | tific | ate may | be issued | to | the extent of\n| quantity avai | lable | as per utiliza | tion | status.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -786,7 +790,8 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "status",
@@ -803,7 +808,8 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1047,7 +1053,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -1066,7 +1074,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1222,6 +1232,22 @@
             "warnings",
             "next_actions"
           ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Re-Export-Repair-Replacement-of-Capital-Goods-Imported/execute",
+          "purpose": "Trigger business action for | | | | | | | | | |\n(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export\nobligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall\nin export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs\nAuthorit | y.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
         }
       ]
     },
@@ -1308,7 +1334,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",
@@ -1324,7 +1351,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "reference_id",

@@ -1,0 +1,57 @@
+{
+  "section": "6.22",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.22",
+      "purpose": "Retrieve knowledge payload for section 6.22",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Contract-Farming/validate",
+      "purpose": "Validate inputs and documents for Contract Farming",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Contract-Farming/execute",
+      "purpose": "Trigger business action for 6.22 Contract Farming\nEOUs engaged in production / processing of agriculture / horticulture /\naquaculture products may, on basis of annual permission from Customs\nauthorities, take out inputs and equipments (specified in Appendix 6I of\nAppendices & ANFs) to DTA farm subject to following conditions:\na) Supply of inputs by EOUs to contract farm(s) shall be subject to\ninput-output norms approved by DGFT / BOA.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

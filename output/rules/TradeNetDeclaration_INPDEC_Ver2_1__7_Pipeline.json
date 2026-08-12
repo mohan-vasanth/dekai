@@ -1,0 +1,217 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.INPDEC Ver2.1",
+  "section": "7",
+  "title": "Pipeline",
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC7-R001",
+      "rule_description": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.",
+      "trigger": "Pipeline",
+      "condition": "7: Pipeline\nB082 cbc:Mode Code M 1 n1 Specify Inward Transport Mode.",
+      "validation": "a) For all Declaration Types except GTR, BKT, SFZ (with inter-\ngateway movement), REX, specify Party Type:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Importer)\n- (Freight Forwarder; optional)\nOFFICIAL (CLOSED)\nAM\nb) For Declaration Type = GTR, specify Party Type:\n- (Declarant)\n- (Claimant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Importer)\n- (Freight Forwarder; optional)\nc) For Declaration Type = BKT, specify Party Type:\n- (Declarant)\n- (Claimant; required for duty exemption and/or GST relief)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional)\n- (Importer)\n- (Freight Forwarder; optional)\nd) For Declaration Type = SFZ (with inter-gateway movement), specify\nParty Type:\n- (Declarant)\n- (Declaring Agent; if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Outward Carrier Agent; optional if goods are meant for storage\nin FTZ or transport mode = 2, 3, 5 or 7)\n- (Importer)\n- (Consignee; optional)\n- (Freight Forwarder; optional)\ne) For Declaration Types REX, specify Party Type:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Outward Carrier Agent; optional for transport mode 2, 3, 5 or\n7)\n- (Importer)\n- (Exporter)\n- (Consignee; optional)\n- (Freight Forwarder; optional)\nA014 cac:Declarant Party M 1 Specify the identity of the Declarant.",
+      "action": "B078 cbc:Net Register Tonnage C 1 n..15 Specify the Net Register Ton of outward vessel (TNE).",
+      "exception": "a) For all Declaration Types, specify inward transport, except\nfor the following:\ni) goods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\nii) declaration type = BKT (Blanket)\niii) declaration type = SHO\niv) for goods previously exempted/suspended from duties/taxes\nv) supplementary declaration for schemes under AISS, IGDS\nsuch as place of receipt = AISSLOC, SPIGDS\nb) For Declaration Type = SFZ (when there is intergateway\nmovement):\ni) Specify Inward transport.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R002",
+      "rule_description": "/cac:Party Name\n/cac:Importer Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "trigger": "Pipeline",
+      "condition": "B076 cbc:Conveyance Reference Number C 1 an..17 For transport mode = 1, specify inward voyage number.",
+      "validation": "TDS41-MDS-XML-INPDEC-M\nTrade Net Declaration.INPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nb) For Declaration Type = GTR, specify Party Type:\n- (Declarant)\n- (Claimant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Importer)\n- (Freight Forwarder; optional)\nc) For Declaration Type = BKT, specify Party Type:\n- (Declarant)\n- (Claimant; required for duty exemption and/or GST relief)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional)\n- (Importer)\n- (Freight Forwarder; optional)\nd) For Declaration Type = SFZ (with inter-gateway movement), specify\nParty Type:\n- (Declarant)\n- (Declaring Agent; if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Outward Carrier Agent; optional if goods are meant for storage\nin FTZ or transport mode = 2, 3, 5 or 7)\n- (Importer)\n- (Consignee; optional)\n- (Freight Forwarder; optional)\ne) For Declaration Types REX, specify Party Type:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Outward Carrier Agent; optional for transport mode 2, 3, 5 or\n7)\n- (Importer)\n- (Exporter)\n- (Consignee; optional)\n- (Freight Forwarder; optional)\nA014\ncac:Declarant Party\nM\n1\nSpecify the identity of the Declarant.",
+      "action": "B078\ncbc:Net Register Tonnage\nC\n1 n..15\nSpecify the Net Register Ton of outward vessel (TNE).",
+      "exception": "B055 cbc:Discharge Port C 1 an..5 Specify Port of Discharge except for seastore permits application.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R003",
+      "rule_description": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Inward Carrier Agent Party\nC\n1\na) Specify Inward Carrier Agent, must be registered with Customs.",
+      "trigger": "Pipeline",
+      "condition": "Specify ‘NA’\nif there is no inward voyage number.",
+      "validation": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.",
+      "action": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.",
+      "exception": "B016 cbc:Final Destination Country C 1 a2 Specify Country of Final Destination for outward transport for\ndeclaration type = REX and SFZ(with inter-gateway movement without\nstorage) except for seastore permits application.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R004",
+      "rule_description": "/cac:Party Name\n/cac:Importer Party\nA040\ncac:Outward Carrier Agent Party\nC\n1\na) Specify Outward Carrier Agent, must be registered with Customs.",
+      "trigger": "Pipeline",
+      "condition": "For transport mode = 4, specify inward flight number.",
+      "validation": "/cac:Party Name\n/cac:Importer Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "action": "/cac:Party Name\n/cac:Importer Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "exception": "a) For all Declaration Types except GTR, BKT, SFZ (with inter-\ngateway movement), REX, specify Party Type:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Importer)\n- (Freight Forwarder; optional)\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R005",
+      "rule_description": "B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "trigger": "Pipeline",
+      "condition": "Specify ‘NA’\nif there is no inward flight number.",
+      "validation": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Inward Carrier Agent Party\nC\n1\na) Specify Inward Carrier Agent, must be registered with Customs.",
+      "action": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Inward Carrier Agent Party\nC\n1\na) Specify Inward Carrier Agent, must be registered with Customs.",
+      "exception": "B055\ncbc:Discharge Port\nC\n1 an..5\nSpecify Port of Discharge except for seastore permits application.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R006",
+      "rule_description": "B058\ncbc:Harmonized System Quantity\nM\n1 n..16\nFor all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nOFFICIAL (CLOSED)\nAM\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\nunit Code (attribute) M 1 an..3 (value).",
+      "trigger": "Pipeline",
+      "condition": "Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "validation": "/cac:Party Name\n/cac:Importer Party\nA040\ncac:Outward Carrier Agent Party\nC\n1\na) Specify Outward Carrier Agent, must be registered with Customs.",
+      "action": "/cac:Party Name\n/cac:Importer Party\nA040\ncac:Outward Carrier Agent Party\nC\n1\na) Specify Outward Carrier Agent, must be registered with Customs.",
+      "exception": "B016\ncbc:Final Destination Country\nC\n1 a2\nSpecify Country of Final Destination for outward transport for\ndeclaration type = REX and SFZ(with inter-gateway movement without\nstorage) except for seastore permits application.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R007",
+      "rule_description": "a) For Declaration Type = GTR, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+      "trigger": "Pipeline",
+      "condition": "TDS41-MDS-XML-INPDEC-M\nTrade Net Declaration.INPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\ninp:Transport\nC\n1\nNotes:\n1) Specify Transport details.",
+      "validation": "B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "action": "a) For Declaration Type = GTR, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+      "exception": "a) For all Declaration Types except GTR, BKT, SFZ (with inter-\ngateway movement), REX, specify Party Type:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Importer)\n- (Freight Forwarder; optional)\nOFFICIAL (CLOSED)\nAM\nb) For Declaration Type = GTR, specify Party Type:\n- (Declarant)\n- (Claimant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Importer)\n- (Freight Forwarder; optional)\nc) For Declaration Type = BKT, specify Party Type:\n- (Declarant)\n- (Claimant; required for duty exemption and/or GST relief)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional)\n- (Importer)\n- (Freight Forwarder; optional)\nd) For Declaration Type = SFZ (with inter-gateway movement), specify\nParty Type:\n- (Declarant)\n- (Declaring Agent; if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Outward Carrier Agent; optional if goods are meant for storage\nin FTZ or transport mode = 2, 3, 5 or 7)\n- (Importer)\n- (Consignee; optional)\n- (Freight Forwarder; optional)\ne) For Declaration Types REX, specify Party Type:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Outward Carrier Agent; optional for transport mode 2, 3, 5 or\n7)\n- (Importer)\n- (Exporter)\n- (Consignee; optional)\n- (Freight Forwarder; optional)\nA014 cac:Declarant Party M 1 Specify the identity of the Declarant.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R008",
+      "rule_description": "b) For other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "trigger": "Pipeline",
+      "condition": "a) For all Declaration Types, specify inward transport, except\nfor the following:\ni) goods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\nii) declaration type = BKT (Blanket)\niii) declaration type = SHO\niv) for goods previously exempted/suspended from duties/taxes\nv) supplementary declaration for schemes under AISS, IGDS\nsuch as place of receipt = AISSLOC, SPIGDS\nb) For Declaration Type = SFZ (when there is intergateway\nmovement):\ni) Specify Inward transport.",
+      "validation": "B058\ncbc:Harmonized System Quantity\nM\n1 n..16\nFor all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nOFFICIAL (CLOSED)\nAM\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\nunit Code (attribute) M 1 an..3 (value).",
+      "action": "b) For other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "exception": "TDS41-MDS-XML-INPDEC-M\nTrade Net Declaration.INPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nb) For Declaration Type = GTR, specify Party Type:\n- (Declarant)\n- (Claimant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Importer)\n- (Freight Forwarder; optional)\nc) For Declaration Type = BKT, specify Party Type:\n- (Declarant)\n- (Claimant; required for duty exemption and/or GST relief)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional)\n- (Importer)\n- (Freight Forwarder; optional)\nd) For Declaration Type = SFZ (with inter-gateway movement), specify\nParty Type:\n- (Declarant)\n- (Declaring Agent; if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Outward Carrier Agent; optional if goods are meant for storage\nin FTZ or transport mode = 2, 3, 5 or 7)\n- (Importer)\n- (Consignee; optional)\n- (Freight Forwarder; optional)\ne) For Declaration Types REX, specify Party Type:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or\n7)\n- (Outward Carrier Agent; optional for transport mode 2, 3, 5 or\n7)\n- (Importer)\n- (Exporter)\n- (Consignee; optional)\n- (Freight Forwarder; optional)\nA014\ncac:Declarant Party\nM\n1\nSpecify the identity of the Declarant.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R009",
+      "rule_description": "a)\nFor Declaration Type = GTR, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+      "trigger": "Pipeline",
+      "condition": "ii) Specify Outward transport (if goods are not meant for\nstorage).",
+      "validation": "a) For Declaration Type = GTR, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+      "action": "a)\nFor Declaration Type = GTR, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+      "exception": "OFFICIAL (CLOSED)\nAM\ncurrency ID (attribute) M 1 a3 Specify the currency code (refer to UN/ECE Recommendation No.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R010",
+      "rule_description": "b)\nFor other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nOFFICIAL (CLOSED)\nAM\nOther tax) X GST rate, where applicable.",
+      "trigger": "Pipeline",
+      "condition": "c)\nFor declaration type = REX, specify:\ni) Inward transport.",
+      "validation": "b) For other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "action": "b)\nFor other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nOFFICIAL (CLOSED)\nAM\nOther tax) X GST rate, where applicable.",
+      "exception": "currency ID (attribute) M 1 a3 Specify the currency code (refer to UN/ECE Recommendation No.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R011",
+      "rule_description": "/cac:Goods And Services Tax\nA016 cac:Excise Duty C 1 For dutiable goods subject to Excise Duty except for declaration\ntype=SHO where the goods were earlier imported under schemes such as\nMES or ZGS.",
+      "trigger": "Pipeline",
+      "condition": "2)\nOutward Transport details need not be filled if goods are meant\nfor storage with valid place of storage as FTZ.",
+      "validation": "a)\nFor Declaration Type = GTR, the declared item GST payable amount\nmust be equal to (CIF/LSP x GST rate).",
+      "action": "B003 cbc:Goods And Services Tax Amount M 1 n..16 Specify item GST payable amount.",
+      "exception": "TDS41-MDS-XML-INPDEC-M\nTrade Net Declaration.INPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\ncurrency ID (attribute)\nM\n1 a3\nSpecify the currency code (refer to UN/ECE Recommendation No.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R012",
+      "rule_description": "B024 cbc:Duty Rate M 1 n..8 Specify item Excise Duty rate for dutiable goods subject to Excise\nDuty.",
+      "trigger": "Pipeline",
+      "condition": "A026\ncac:Inward Transport\nM\n1\nSpecify Inward Transport.",
+      "validation": "b)\nFor other Declaration Types, the declared item GST payable\namount must equal to (CIF/LSP + Customs Duty + Excise Duty +\nOFFICIAL (CLOSED)\nAM\nOther tax) X GST rate, where applicable.",
+      "action": "A056 cac:Total Tariff C 1\nB003 cbc:Total Goods And Services Tax Amount C 1 n..16 Specify Total GST amount payable based on the sum of GST amount\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "exception": "B004\ncbc:Amount\ncurrency ID (attribute)\nM\nM\n1 n..16\n1 a3\nSpecify freight charge amount.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R013",
+      "rule_description": "/cac:Excise Duty\nA016 cac:Customs Duty C 1 For dutiable goods subject to Customs Duty, if any, except for\ndeclaration type=SHO where the goods were earlier imported under\nschemes such as MES or ZGS.",
+      "trigger": "Pipeline",
+      "condition": "A060\ncac:Transport Means\nC\n1\nSpecify inward transport mode.",
+      "validation": "i) For transport mode = 1, the unit code must be set to TNE.",
+      "action": "B003\ncbc:Goods And Services Tax Amount\nM\n1 n..16\nSpecify item GST payable amount.",
+      "exception": "B004\ncbc:Amount\ncurrency ID (attribute)\nM\nM\n1 n..16\n1 a3\nSpecify insurance charge amount.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R014",
+      "rule_description": "B024 cbc:Duty Rate M 1 n..8 Specify item Customs Duty rate for dutiable goods subject to Customs\nDuty, if any.",
+      "trigger": "Pipeline",
+      "condition": "19) are:\n7: Pipeline\nB082\ncbc:Mode Code\nM\n1 n1\nSpecify Inward Transport Mode.",
+      "validation": "ii) For transport mode = 4, the unit code must be set to KGM.",
+      "action": "A056\ncac:Total Tariff\nC\n1\nB003\ncbc:Total Goods And Services Tax Amount\nC\n1 n..16\nSpecify Total GST amount payable based on the sum of GST amount\nOFFICIAL (CLOSED)\nAM\ndeclared at line items.",
+      "exception": "B004\ncbc:Amount\ncurrency ID (attribute)\nM\nM\n1 n..16\n1 a3\nSpecify other taxable charge amount.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R015",
+      "rule_description": "i) For transport mode = 1, the unit code must be set to TNE.",
+      "trigger": "Pipeline",
+      "condition": "B076\ncbc:Conveyance Reference Number\nC\n1 an..17\nFor transport mode = 1, specify inward voyage number.",
+      "validation": "ii) For transport mode = 4, the unit code must be set to KGM.",
+      "action": "B003 cbc:Total Excise Duty Amount C 1 n..16 Specify Total Excise Duty amount payable based on the sum of excise\nduty amount declared at line items.",
+      "exception": "B058\ncbc:Harmonized System Quantity\nM\n1 n..16\nFor all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nOFFICIAL (CLOSED)\nAM\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\nunit Code (attribute) M 1 an..3 (value).",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R016",
+      "rule_description": "ii) For transport mode = 4, the unit code must be set to KGM.",
+      "trigger": "Pipeline",
+      "condition": "OFFICIAL (CLOSED)\nAM\nB049 cbc:Transport Identifier C 1 an..35 For transport mode = 1, specify inward vessel name.",
+      "validation": "ii) For transport mode = 4, the unit code must be set to KGM.",
+      "action": "B003 cbc:Total Customs Duty Amount C 1 n..16 Specify Total Customs Duty amount payable based on the sum of\ncustoms duty amount declared at line items.",
+      "exception": "unit Code (attribute) M 1 an..3 Specify unit (refer to STDID code list).",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R017",
+      "rule_description": "/cac:Goods And Services Tax\nA016\ncac:Excise Duty\nC\n1\nFor dutiable goods subject to Excise Duty except for declaration\ntype=SHO where the goods were earlier imported under schemes such as\nMES or ZGS.",
+      "trigger": "Pipeline",
+      "condition": "For transport mode = 3, specify Vehicle Licence/Registration Number,\nif any.",
+      "validation": "ii) For transport mode = 4, the unit code must be set to KGM.",
+      "action": "B003 cbc:Total Other Tax Amount C 1 n..16 Specify Total Other Tax amount payable based on the sum of other tax\namount declared at line items.",
+      "exception": "A057 cac:Transaction Value C 1 Specify item CIF/FOB, LSP, Unit price and optional item charge\namount except for trade facilitation granted by Customs.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R018",
+      "rule_description": "B024\ncbc:Duty Rate\nM\n1 n..8\nSpecify item Excise Duty rate for dutiable goods subject to Excise\nDuty.",
+      "trigger": "Pipeline",
+      "condition": "For transport mode = 4, specify inward Aircraft Registration Number\nfor chartered flights, if any.",
+      "validation": "ii) For transport mode = 4, the unit code must be set to KGM.",
+      "action": "B003 cbc:Total Amount Payable C 1 n..16 Specify Total Amount Payable = 0 (no payment of duties and taxes\ninvolved).",
+      "exception": "TDS41-MDS-XML-INPDEC-M\nTrade Net Declaration.INPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nunit Code (attribute)\nM\n1 an..3\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\n(value).",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R019",
+      "rule_description": "/cac:Excise Duty\nA016\ncac:Customs Duty\nC\n1\nFor dutiable goods subject to Customs Duty, if any, except for\ndeclaration type=SHO where the goods were earlier imported under\nschemes such as MES or ZGS.",
+      "trigger": "Pipeline",
+      "condition": "/cac:Transport Mode\nB064 cbc:MAWBOUCROBLNumber C 1 an..35 For transport mode = 1, specify inward OUCR/ Ocean Bill of Lading\nNumber.",
+      "validation": "ii) For transport mode = 4, the unit code must be set to KGM.",
+      "action": "B003\ncbc:Total Excise Duty Amount\nC\n1 n..16\nSpecify Total Excise Duty amount payable based on the sum of excise\nduty amount declared at line items.",
+      "exception": "B058\ncbc:Total Dutiable Quantity\nunit Code (attribute)\nC\nM\n1 n..16\n1 an..3\nFor goods to be bonded into or released from licensed premises such\nas Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse, specify Total dutiable quantity/weight/volume\ni) for products based on specific rates, specify either weight or\nvolume according to duty rate unit specifier.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    },
+    {
+      "rule_id": "CH-SEC7-R020",
+      "rule_description": "B024\ncbc:Duty Rate\nM\n1 n..8\nSpecify item Customs Duty rate for dutiable goods subject to Customs\nDuty, if any.",
+      "trigger": "Pipeline",
+      "condition": "For transport mode = 4, specify inward Master Air Waybill.",
+      "validation": "ii) For transport mode = 4, the unit code must be set to KGM.",
+      "action": "B003\ncbc:Total Customs Duty Amount\nC\n1 n..16\nSpecify Total Customs Duty amount payable based on the sum of\ncustoms duty amount declared at line items.",
+      "exception": "B058\ncbc:Dutiable Quantity\nunit Code (attribute)\nC\nM\n1 n..16\n1 an..3\nFor dutiable cargo based on specific rates in accordance with duty\nrate unit specifier:\ni) Dutiable quantity/weight/volume.",
+      "output": "DEKAI should produce a compliance decision for 7 - Pipeline."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: /cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.",
+    "IF detected context matches section rule THEN enforce: /cac:Party Name\n/cac:Importer Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+    "IF detected context matches section rule THEN enforce: /cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Inward Carrier Agent Party\nC\n1\na) Specify Inward Carrier Agent, must be registered with Customs.",
+    "IF detected context matches section rule THEN enforce: /cac:Party Name\n/cac:Importer Party\nA040\ncac:Outward Carrier Agent Party\nC\n1\na) Specify Outward Carrier Agent, must be registered with Customs.",
+    "IF detected context matches section rule THEN enforce: B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "IF detected context matches section rule THEN enforce: B058\ncbc:Harmonized System Quantity\nM\n1 n..16\nFor all Declaration Types, specify HS code quantity and the measure\nunit specifier must match the measurement unit in the Singapore\nOFFICIAL (CLOSED)\nAM\nTrade Classification.Specify quantity and unit according to invoice\nif the measurement unit in Singapore Trade Classification = ‘-’\nunit Code (attribute) M 1 an..3 (value).",
+    "IF validations pass THEN recommend action: B078 cbc:Net Register Tonnage C 1 n..15 Specify the Net Register Ton of outward vessel (TNE)."
+  ]
+}

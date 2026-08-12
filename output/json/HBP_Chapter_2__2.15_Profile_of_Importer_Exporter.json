@@ -1,0 +1,1610 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.15",
+  "title": "Profile of Importer / Exporter",
+  "purpose": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+  "purpose_thanglish": "Indha Profile of Importer / Exporter section-la, IEC Holder kandippa be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+  "summary": "2.15 Profile of Importer / Exporter\na) ANF-1 contains the profile of the importer/exporter. IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year. b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+  "business_meaning": "Profile of Importer / Exporter governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Profile of Importer / Exporter explains the operating rule set that DEKAI should enforce. Key control points include IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year. The section also drives actions such as b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP..",
+  "business_explanation_thanglish": "Indha Profile of Importer / Exporter section-la, Profile of Importer / Exporter explains the operating rule set that DEKAI should enforce. Key control points include IEC Holder kandippa be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year. The section also drives actions such as b) documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP..",
+  "business_logic": [
+    "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+    "| | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+    "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+    "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+    "I | EC Holder | shall be\nresponsible for updating | the same as and whe | n a | chan | ge takes | place imme | diately or\nin any case at least once | in a year."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_15-R001",
+      "rule_description": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "trigger": "Profile of Importer / Exporter",
+      "condition": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "validation": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "action": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.15 - Profile of Importer / Exporter."
+    },
+    {
+      "rule_id": "CH2-SEC2_15-R002",
+      "rule_description": "| | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+      "trigger": "Profile of Importer / Exporter",
+      "condition": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "validation": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "action": "c) Proof of status as manufacturer exporter is also to be uploaded under the Profile.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.15 - Profile of Importer / Exporter."
+    },
+    {
+      "rule_id": "CH2-SEC2_15-R003",
+      "rule_description": "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+      "trigger": "Profile of Importer / Exporter",
+      "condition": "15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc.",
+      "validation": "| | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+      "action": "| |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.15 - Profile of Importer / Exporter."
+    },
+    {
+      "rule_id": "CH2-SEC2_15-R004",
+      "rule_description": "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+      "trigger": "Profile of Importer / Exporter",
+      "condition": "| | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |.",
+      "validation": "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+      "action": "| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.15 - Profile of Importer / Exporter."
+    },
+    {
+      "rule_id": "CH2-SEC2_15-R005",
+      "rule_description": "I | EC Holder | shall be\nresponsible for updating | the same as and whe | n a | chan | ge takes | place imme | diately or\nin any case at least once | in a year.",
+      "trigger": "Profile of Importer / Exporter",
+      "condition": "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+      "validation": "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+      "action": "| | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.15 - Profile of Importer / Exporter."
+    }
+  ],
+  "conditions": [
+    "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+    "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc.",
+    "| | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |.",
+    "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+    "| | | | |\n(e) In case of change in c | onstitution of a PAN b | as | ed IE | C by way | of merger, | acquisition,\nliquidation, inheritance, | business transfer et | c.",
+    "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+    "| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P.",
+    "15\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.15.1",
+      "if": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "then": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "source": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year."
+    },
+    {
+      "id": "2.2.15.2",
+      "if": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "then": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "source": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP."
+    },
+    {
+      "id": "2.2.15.3",
+      "if": "15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc.",
+      "then": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "source": "15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc."
+    },
+    {
+      "id": "2.2.15.4",
+      "if": "| | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |.",
+      "then": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "source": "| | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |."
+    },
+    {
+      "id": "2.2.15.5",
+      "if": "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+      "then": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "source": "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC."
+    },
+    {
+      "id": "2.2.15.6",
+      "if": "| | | | |\n(e) In case of change in c | onstitution of a PAN b | as | ed IE | C by way | of merger, | acquisition,\nliquidation, inheritance, | business transfer et | c.",
+      "then": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "source": "| | | | |\n(e) In case of change in c | onstitution of a PAN b | as | ed IE | C by way | of merger, | acquisition,\nliquidation, inheritance, | business transfer et | c."
+    },
+    {
+      "id": "2.2.15.7",
+      "if": "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+      "then": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "source": "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y."
+    },
+    {
+      "id": "2.2.15.8",
+      "if": "| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P.",
+      "then": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "source": "| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P."
+    },
+    {
+      "id": "2.2.15.9",
+      "if": "15\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc.",
+      "then": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "source": "15\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc."
+    }
+  ],
+  "validations": [
+    "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+    "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "| | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+    "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+    "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+    "I | EC Holder | shall be\nresponsible for updating | the same as and whe | n a | chan | ge takes | place imme | diately or\nin any case at least once | in a year.",
+    "| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P."
+  ],
+  "exceptions": [],
+  "dependencies": [
+    "2.14",
+    "1"
+  ],
+  "documents": [
+    "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "c) Proof of status as manufacturer exporter is also to be uploaded under the Profile.",
+    "| | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |.",
+    "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+    "| |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments.",
+    "| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P.",
+    "| | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile."
+  ],
+  "required_documents": [
+    "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "c) Proof of status as manufacturer exporter is also to be uploaded under the Profile.",
+    "| | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |.",
+    "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+    "| |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments.",
+    "| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P.",
+    "| | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile."
+  ],
+  "tables": [
+    [
+      [
+        "IEC can be surrendered",
+        "only if all authorisatio",
+        "ns",
+        "/ obli",
+        "gations h",
+        "ave been cl",
+        "osed for the"
+      ],
+      [
+        "IEC or in cases where",
+        "the firm has been am",
+        "a",
+        "lgama",
+        "ted/acq",
+        "uired/merge",
+        "d etc. with"
+      ],
+      [
+        "another entity such that",
+        "all the authorisation",
+        "s/",
+        "obliga",
+        "tions are",
+        "transferre",
+        "d to the IEC"
+      ],
+      [
+        "of the new entity.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.14 Modification of I",
+        "EC",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(a) Modification(s)/Upd",
+        "ation(s) in IEC can b",
+        "e d",
+        "one",
+        "online on",
+        "ly with app",
+        "licable fees"
+      ],
+      [
+        "and requisite documents",
+        ".",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(b) Any change in cons",
+        "titution of firm, addr",
+        "es",
+        "s, ban",
+        "k details",
+        "or any oth",
+        "er primary"
+      ],
+      [
+        "details, the IEC holder is",
+        "required to ensure t",
+        "ha",
+        "t the",
+        "IEC detai",
+        "ls are suita",
+        "bly updated"
+      ],
+      [
+        "online within 30 days of",
+        "effecting such change",
+        "(s)",
+        ".",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(c) Request for (i) Cance",
+        "llation of existing IEC",
+        "an",
+        "d (ii)",
+        "PAN cha",
+        "nge in existi",
+        "ng numeric"
+      ],
+      [
+        "IECs has to be made to t",
+        "he jurisdictional Regio",
+        "na",
+        "l Aut",
+        "hority.",
+        "",
+        ""
+      ],
+      [
+        "(d) RAs shall consider",
+        "applications seekin",
+        "g",
+        "mod",
+        "ification",
+        "in IEC (al",
+        "l numeric),"
+      ],
+      [
+        "involving change in",
+        "PAN, by ensuring",
+        "",
+        "that",
+        "liabiliti",
+        "es of the",
+        "previous"
+      ],
+      [
+        "applicant/applicant firm",
+        "are transferred to t",
+        "he",
+        "new",
+        "applican",
+        "t/applicant",
+        "firm whose"
+      ],
+      [
+        "PAN will be reflecting in",
+        "the modified IEC.",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(e) In case of change in c",
+        "onstitution of a PAN b",
+        "as",
+        "ed IE",
+        "C by way",
+        "of merger,",
+        "acquisition,"
+      ],
+      [
+        "liquidation, inheritance,",
+        "business transfer et",
+        "c.",
+        "such",
+        "that PAN",
+        "of the ne",
+        "w entity so"
+      ],
+      [
+        "formed is different from",
+        "the earlier one, an IE",
+        "C",
+        "shall",
+        "be availe",
+        "d against th",
+        "e new PAN"
+      ],
+      [
+        "within 30 days of effect",
+        "ing such change, if no",
+        "t",
+        "existi",
+        "ng alread",
+        "y. Previous",
+        "IEC (s) can"
+      ],
+      [
+        "also be operationally lin",
+        "ked to the IEC of the n",
+        "ew",
+        "entit",
+        "y.",
+        "",
+        ""
+      ],
+      [
+        "(f) An application for tra",
+        "nsfer of unredeemed",
+        "Au",
+        "thori",
+        "sation(s)",
+        "from earlie",
+        "r IEC to the"
+      ],
+      [
+        "new IEC may be submitte",
+        "d online to the origina",
+        "l j",
+        "urisd",
+        "ictional R",
+        "A along with",
+        "supporting"
+      ],
+      [
+        "documents. Concerned R",
+        "A may sanction the",
+        "gi",
+        "ven li",
+        "nkage af",
+        "ter due scr",
+        "utiny of the"
+      ],
+      [
+        "evidence provided by the",
+        "applicant including su",
+        "bm",
+        "issio",
+        "n of affida",
+        "vits etc.",
+        ""
+      ],
+      [
+        "2.15 Profile of Impor",
+        "ter / Exporter",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "a) ANF-1 contains the",
+        "profile of the impo",
+        "rt",
+        "er/ex",
+        "porter. I",
+        "EC Holder",
+        "shall be"
+      ],
+      [
+        "responsible for updating",
+        "the same as and whe",
+        "n a",
+        "chan",
+        "ge takes",
+        "place imme",
+        "diately or"
+      ],
+      [
+        "in any case at least once",
+        "in a year.",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "b) Documents which are",
+        "uploaded in the Impo",
+        "rt",
+        "er-Ex",
+        "porter Pr",
+        "ofile are no",
+        "t required"
+      ],
+      [
+        "to be filed each time the",
+        "importer/exporter ap",
+        "pli",
+        "es fo",
+        "r authori",
+        "sation/scrip",
+        "/ licence/"
+      ],
+      [
+        "registration under differ",
+        "ent schemes of this FT",
+        "P.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "c) Proof of status as man",
+        "ufacturer exporter is",
+        "als",
+        "o to",
+        "be upload",
+        "ed under th",
+        "e Profile."
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "pg. 15"
+      ]
+    ],
+    [
+      [
+        "2.16 V",
+        "a",
+        "lidit",
+        "y period o",
+        "f",
+        "Authorisatio",
+        "n/ Li",
+        "c",
+        "ence / Certific",
+        "ate /",
+        ""
+      ],
+      [
+        "Autho",
+        "r",
+        "isati",
+        "on / Perm",
+        "is",
+        "sions",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Validit",
+        "y",
+        "perio",
+        "d of Import",
+        "/",
+        "Export Autho",
+        "risatio",
+        "n",
+        "s from the date",
+        "of issue",
+        "shall be as"
+      ],
+      [
+        "follows",
+        ",",
+        "unles",
+        "s specified",
+        "oth",
+        "erwise:",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Sr.",
+        "T",
+        "ype",
+        "of Authoris",
+        "ati",
+        "on",
+        "",
+        "",
+        "Validity Period",
+        "",
+        ""
+      ],
+      [
+        "No",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(i)",
+        "E",
+        "xport",
+        "Authorisati",
+        "o",
+        "n for restricted",
+        "",
+        "",
+        "24 months",
+        "",
+        ""
+      ],
+      [
+        "",
+        "(",
+        "Non-S",
+        "COMET) go",
+        "od",
+        "s",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(ii)",
+        "E",
+        "xport",
+        "Authorisati",
+        "o",
+        "n for SCOMET",
+        "items",
+        "",
+        "24 months",
+        "",
+        ""
+      ],
+      [
+        "(iii)",
+        "I",
+        "mpor",
+        "t Authorisat",
+        "io",
+        "ns for Restrict",
+        "ed",
+        "",
+        "18 months",
+        "",
+        ""
+      ],
+      [
+        "",
+        "it",
+        "ems",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(iv)",
+        "E",
+        "PCG",
+        "Authorisatio",
+        "n",
+        "",
+        "",
+        "",
+        "24 months",
+        "",
+        ""
+      ],
+      [
+        "(v)",
+        "A",
+        "dvan",
+        "ce Authorisa",
+        "ti",
+        "ons (AA) for",
+        "",
+        "",
+        "Co-terminus",
+        "with",
+        "contracted"
+      ],
+      [
+        "",
+        "D",
+        "eeme",
+        "d Exports",
+        "",
+        "",
+        "",
+        "",
+        "duration of proj",
+        "ect exec",
+        "ution or 12"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "months, whiche",
+        "ver is m",
+        "ore."
+      ],
+      [
+        "(vi)",
+        "A",
+        "A {ex",
+        "cept (v) abo",
+        "ve",
+        "}, DFIA,",
+        "",
+        "",
+        "12 months from",
+        "issue da",
+        "te."
+      ],
+      [
+        "",
+        "R",
+        "eplen",
+        "ishment Au",
+        "th",
+        "orisation for G",
+        "ems",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "&",
+        "Jewe",
+        "llery as per",
+        "C",
+        "hapter 4 of FT",
+        "P.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(vii)",
+        "R",
+        "egist",
+        "ration certif",
+        "ica",
+        "te for import",
+        "/",
+        "",
+        "Original shipme",
+        "nt perio",
+        "d as"
+      ],
+      [
+        "",
+        "e",
+        "xport",
+        "as per para",
+        "1.",
+        "05 of FTP",
+        "",
+        "",
+        "mentioned in th",
+        "e ICLC o",
+        "r as"
+      ],
+      [
+        "",
+        "(",
+        "Trans",
+        "itional Arra",
+        "ng",
+        "ement)",
+        "",
+        "",
+        "stipulated by DG",
+        "FT.",
+        ""
+      ],
+      [
+        "Howev",
+        "e",
+        "r, EX",
+        "IM Facilitat",
+        "io",
+        "n Committee",
+        "(EFC)",
+        "a",
+        "nd Inter Minist",
+        "erial W",
+        "orking Group"
+      ],
+      [
+        "(IMWG",
+        ")",
+        "(for",
+        "SCOMET ite",
+        "m",
+        "s) may appro",
+        "ve the",
+        "g",
+        "rant of Export/",
+        "Import",
+        "Authorisation"
+      ],
+      [
+        "for a",
+        "",
+        "shor",
+        "ter / lon",
+        "ge",
+        "r duration",
+        "in sp",
+        "",
+        "ecific cases to",
+        "meet",
+        "contractual"
+      ],
+      [
+        "obligat",
+        "io",
+        "ns/d",
+        "elivery sch",
+        "ed",
+        "ule or on s",
+        "pecific",
+        "",
+        "recommendatio",
+        "n of t",
+        "he concerned"
+      ],
+      [
+        "Techni",
+        "c",
+        "al / A",
+        "dministrativ",
+        "e",
+        "Ministry / De",
+        "partme",
+        "n",
+        "t / or any other",
+        "agency.",
+        ""
+      ],
+      [
+        "b) DGF",
+        "T",
+        "ma",
+        "y decide to",
+        "is",
+        "sue specific",
+        "author",
+        "i",
+        "sation/ class of",
+        "authori",
+        "sations for a"
+      ],
+      [
+        "longer",
+        "/s",
+        "hort",
+        "er validity",
+        "pe",
+        "riod. Any ex",
+        "tensio",
+        "n",
+        "/revalidation",
+        "in such",
+        "cases to be"
+      ],
+      [
+        "allowe",
+        "d",
+        "only",
+        "by DGFT.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "pg. 16"
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "2.15::section::0::profile-of-importer-exporter",
+      "type": "section",
+      "title": "Profile of Importer / Exporter",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.15 Profile of Importer / Exporter\na) ANF-1 contains the profile of the importer/exporter. IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.\nb) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\nc) Proof of status as manufacturer exporter is also to be uploaded under the Profile.\npg. 15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc. with\nanother entity such that | all the authorisation | s/ | obliga | tions are | transferre | d to the IEC\nof the new entity. | | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |. | | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |. | | |\n(c) Request for (i) Cance | llation of existing IEC | an | d (ii) | PAN cha | nge in existi | ng numeric\nIECs has to be made to t | he jurisdictional Regio | na | l Aut | hority. | |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC. | | | | |\n(e) In case of change in c | onstitution of a PAN b | as | ed IE | C by way | of merger, | acquisition,\nliquidation, inheritance, | business transfer et | c. | such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y. Previous | IEC (s) can\nalso be operationally lin | ked to the IEC of the n | ew | entit | y. | |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments. Concerned R | A may sanction the | gi | ven li | nkage af | ter due scr | utiny of the\nevidence provided by the | applicant including su | bm | issio | n of affida | vits etc. |\n2.15 Profile of Impor | ter / Exporter | | | | |\na) ANF-1 contains the | profile of the impo | rt | er/ex | porter. I | EC Holder | shall be\nresponsible for updating | the same as and whe | n a | chan | ge takes | place imme | diately or\nin any case at least once | in a year. | | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P. | | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile.\n| | | | | | pg. 15\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc. with\nanother entity such that all the authorisations/obligations are transferred to the IEC\nof the new entity.\n2.15 Profile of Importer / Exporter\na) ANF-1 contains the profile of the importer/exporter. IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.\nb) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\nc) Proof of status as manufacturer exporter is also to be uploaded under the Profile.\npg. 15\nISSUANCE OF AUTHORISATION",
+      "parentId": "",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 56,
+      "searchAliases": [
+        "Profile of Importer / Exporter",
+        "Profile of Importer Exporter",
+        "ProfileofImporterExporter"
+      ],
+      "childIds": [
+        "2.15::validation::1::validation-rules",
+        "2.15::validation::2::validation-rules",
+        "2.15::validation::3::validation-rules",
+        "2.15::validation::4::validation-rules",
+        "2.15::validation::5::validation-rules",
+        "2.15::validation::6::validation-rules",
+        "2.15::validation::7::validation-rules",
+        "2.15::business_rule::8::profile-of-importer-exporter",
+        "2.15::business_rule::9::profile-of-importer-exporter",
+        "2.15::business_rule::10::profile-of-importer-exporter",
+        "2.15::business_rule::11::profile-of-importer-exporter",
+        "2.15::business_rule::12::profile-of-importer-exporter"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 56
+    },
+    {
+      "id": "2.15::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "parentId": "2.15::section::0::profile-of-importer-exporter",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.15::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "parentId": "2.15::section::0::profile-of-importer-exporter",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.15::validation::3::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+      "parentId": "2.15::section::0::profile-of-importer-exporter",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.15::validation::4::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+      "parentId": "2.15::section::0::profile-of-importer-exporter",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.15::validation::5::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+      "parentId": "2.15::section::0::profile-of-importer-exporter",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.15::validation::6::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "I | EC Holder | shall be\nresponsible for updating | the same as and whe | n a | chan | ge takes | place imme | diately or\nin any case at least once | in a year.",
+      "parentId": "2.15::section::0::profile-of-importer-exporter",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.15::validation::7::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P.",
+      "parentId": "2.15::section::0::profile-of-importer-exporter",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.15::business_rule::8::profile-of-importer-exporter",
+      "type": "business_rule",
+      "title": "Profile of Importer / Exporter",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+      "parentId": "2.15::section::0::profile-of-importer-exporter",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Profile of Importer / Exporter",
+        "Profile of Importer Exporter",
+        "ProfileofImporterExporter"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.15::business_rule::9::profile-of-importer-exporter",
+      "type": "business_rule",
+      "title": "Profile of Importer / Exporter",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+      "parentId": "2.15::section::0::profile-of-importer-exporter",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Profile of Importer / Exporter",
+        "Profile of Importer Exporter",
+        "ProfileofImporterExporter"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.15::business_rule::10::profile-of-importer-exporter",
+      "type": "business_rule",
+      "title": "Profile of Importer / Exporter",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+      "parentId": "2.15::section::0::profile-of-importer-exporter",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Profile of Importer / Exporter",
+        "Profile of Importer Exporter",
+        "ProfileofImporterExporter"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.15::business_rule::11::profile-of-importer-exporter",
+      "type": "business_rule",
+      "title": "Profile of Importer / Exporter",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+      "parentId": "2.15::section::0::profile-of-importer-exporter",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Profile of Importer / Exporter",
+        "Profile of Importer Exporter",
+        "ProfileofImporterExporter"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.15::business_rule::12::profile-of-importer-exporter",
+      "type": "business_rule",
+      "title": "Profile of Importer / Exporter",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "I | EC Holder | shall be\nresponsible for updating | the same as and whe | n a | chan | ge takes | place imme | diately or\nin any case at least once | in a year.",
+      "parentId": "2.15::section::0::profile-of-importer-exporter",
+      "sectionId": "2.15",
+      "sectionTitle": "Profile of Importer / Exporter",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Profile of Importer / Exporter",
+        "Profile of Importer Exporter",
+        "ProfileofImporterExporter"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [
+    "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+    "| | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+    "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y."
+  ],
+  "actions": [
+    "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "c) Proof of status as manufacturer exporter is also to be uploaded under the Profile.",
+    "| |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments.",
+    "| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P.",
+    "| | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile."
+  ],
+  "workflow": [
+    "Evaluate condition: IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+    "Evaluate condition: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "Evaluate condition: 15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc.",
+    "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "c) Proof of status as manufacturer exporter is also to be uploaded under the Profile.",
+    "| |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments.",
+    "| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P.",
+    "| | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile.",
+    "Run validation: IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+    "Run validation: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "Run validation: | | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |."
+  ],
+  "workflow_ascii": "Profile of Importer / Exporter\nEvaluate condition: IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.\n   |\n   v\nEvaluate condition: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\n   |\n   v\nEvaluate condition: 15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc.\n   |\n   v\nb) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\n   |\n   v\nc) Proof of status as manufacturer exporter is also to be uploaded under the Profile.\n   |\n   v\n| |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments.\n   |\n   v\n| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P.\n   |\n   v\n| | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile.\n   |\n   v\nRun validation: IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.\n   |\n   v\nRun validation: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\n   |\n   v\nRun validation: | | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+  "decision_tree": [
+    "IF IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year. THEN b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "IF b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP. THEN b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "IF 15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc. THEN b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "IF | | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |. THEN b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+    "IF | |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC. THEN b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP."
+  ],
+  "decision_tree_ascii": "Profile of Importer / Exporter Decision\nIF IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year. THEN b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\n   |\n   v\nIF b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP. THEN b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\n   |\n   v\nIF 15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc. THEN b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\n   |\n   v\nIF | | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |. THEN b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\n   |\n   v\nIF | |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC. THEN b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+  "examples": [
+    "User asks to process Profile of Importer / Exporter; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Profile of Importer / Exporter, submits b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., c) Proof of status as manufacturer exporter is also to be uploaded under the Profile., | | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |., and DEKAI uses the extracted rules to b) documents which are uploaded in the importer-exporter profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this ftp..",
+  "real_world_example_thanglish": "Indha Profile of Importer / Exporter section-la, Example: an importer or exporter invokes Profile of Importer / Exporter, submits b) documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., c) Proof of status as manufacturer exporter is also to be uploaded under the Profile., | | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |., and DEKAI uses the extracted rules to b) documents which are uploaded in the importer-exporter profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this ftp..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+    "IF detected context matches section rule THEN enforce: | | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+    "IF detected context matches section rule THEN enforce: | |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+    "IF detected context matches section rule THEN enforce: | such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+    "IF detected context matches section rule THEN enforce: I | EC Holder | shall be\nresponsible for updating | the same as and whe | n a | chan | ge takes | place imme | diately or\nin any case at least once | in a year.",
+    "IF validations pass THEN recommend action: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "iec_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:IEC"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "any_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:any"
+    },
+    {
+      "name": "are_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:are"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "ftp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:FTP"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "c) Proof of status as manufacturer exporter is also to be uploaded under the Profile."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "| | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |."
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC."
+    },
+    {
+      "name": "document_5_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "| |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments."
+    },
+    {
+      "name": "document_6_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.15",
+      "purpose": "Retrieve knowledge payload for section 2.15",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Profile-of-Importer-Exporter/validate",
+      "purpose": "Validate inputs and documents for Profile of Importer / Exporter",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Profile-of-Importer-Exporter/execute",
+      "purpose": "Trigger business action for b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Profile_of_Importer_Exporter_overview",
+      "name": "Profile of Importer / Exporter Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Profile_of_Importer_Exporter_submission",
+      "name": "Profile of Importer / Exporter Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "iec_flag",
+        "for_flag",
+        "and_flag",
+        "any_flag",
+        "are_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Profile of Importer / Exporter require?",
+    "Which documents are needed for Profile of Importer / Exporter?",
+    "How does DEKAI validate Profile of Importer / Exporter requests?",
+    "What action should be taken for Profile of Importer / Exporter?"
+  ],
+  "expected_ai_answers": [
+    "Profile of Importer / Exporter requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., c) Proof of status as manufacturer exporter is also to be uploaded under the Profile., | | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |., | |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC., | |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments.",
+    "DEKAI validates Profile of Importer / Exporter by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.15?",
+      "answer_en": "Profile of Importer / Exporter explains the operating rule set that DEKAI should enforce. Key control points include IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year. The section also drives actions such as b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP..",
+      "question_thanglish": "Indha Profile of Importer / Exporter section-la, What is the purpose of section 2.15?",
+      "answer_thanglish": "Indha Profile of Importer / Exporter section-la, Profile of Importer / Exporter explains the operating rule set that DEKAI should enforce. Key control points include IEC Holder kandippa be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year. The section also drives actions such as b) documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.."
+    },
+    {
+      "question_en": "What documents are required under Profile of Importer / Exporter?",
+      "answer_en": "b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., c) Proof of status as manufacturer exporter is also to be uploaded under the Profile., | | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |., | |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC., | |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments., | | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P., | | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile.",
+      "question_thanglish": "Indha Profile of Importer / Exporter section-la, What documents are required under Profile of Importer / Exporter?",
+      "answer_thanglish": "Indha Profile of Importer / Exporter section-la, b) documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., c) Proof of status as manufacturer exporter is also to be uploaded under the Profile., | | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |., | |\n(d) RAs kandippa consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC., | |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments., | | | | |\nb) documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P., | | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile."
+    },
+    {
+      "question_en": "Which authority handles Profile of Importer / Exporter?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Profile of Importer / Exporter section-la, Which authority handles Profile of Importer / Exporter?",
+      "answer_thanglish": "Indha Profile of Importer / Exporter section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Profile of Importer / Exporter?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.15, apply the extracted rules, and guide the user through Evaluate condition: IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year..",
+      "question_thanglish": "Indha Profile of Importer / Exporter section-la, User asks: How do I comply with Profile of Importer / Exporter?",
+      "answer_thanglish": "Indha Profile of Importer / Exporter section-la, AI answers: DEKAI should evaluate section 2.15, apply the extracted rules, and guide the user through Evaluate condition: IEC Holder kandippa be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Profile of Importer / Exporter?",
+      "answer_en": "AI answers: Applicable validations are IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year., b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., | | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+      "question_thanglish": "Indha Profile of Importer / Exporter section-la, User asks: Which validations apply to Profile of Importer / Exporter?",
+      "answer_thanglish": "Indha Profile of Importer / Exporter section-la, AI answers: Applicable validations are IEC Holder kandippa be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year., b) documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., | | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.15, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Profile of Importer / Exporter into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., c) Proof of status as manufacturer exporter is also to be uploaded under the Profile., | | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |., | |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC., | |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments., | | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P..",
+    "Show contextual links to related sections: 2.14, 1."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Profile of Importer / Exporter section-la, Capture chapter 2, section 2.15, title, and page references as immutable knowledge metadata.",
+    "Indha Profile of Importer / Exporter section-la, Bind validations for Profile of Importer / Exporter into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Profile of Importer / Exporter section-la, Expose document upload controls for: b) documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP., c) Proof of status as manufacturer exporter is also to be uploaded under the Profile., | | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |., | |\n(d) RAs kandippa consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC., | |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments., | | | | |\nb) documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P..",
+    "Indha Profile of Importer / Exporter section-la, Show contextual links to related sections: 2.14, 1."
+  ],
+  "keywords": [
+    "the",
+    "IEC",
+    "for",
+    "and",
+    "any",
+    "are",
+    "not",
+    "FTP",
+    "can",
+    "all",
+    "ave",
+    "has",
+    "etc",
+    "new",
+    "Upd",
+    "one",
+    "app",
+    "ban",
+    "oth",
+    "bly"
+  ],
+  "search_keywords": [
+    "the",
+    "IEC",
+    "for",
+    "and",
+    "any",
+    "are",
+    "not",
+    "FTP",
+    "can",
+    "all",
+    "ave",
+    "has",
+    "etc",
+    "new",
+    "Upd",
+    "one",
+    "app",
+    "ban",
+    "oth",
+    "bly"
+  ],
+  "intent": "Support Profile of Importer / Exporter processing and compliance validation.",
+  "tags": [
+    "2.15",
+    "Profile of Importer / Exporter",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "2.14",
+    "1"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.",
+    "| | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.",
+    "| |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC.",
+    "| such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y.",
+    "I | EC Holder | shall be\nresponsible for updating | the same as and whe | n a | chan | ge takes | place imme | diately or\nin any case at least once | in a year."
+  ],
+  "page_numbers": [
+    6,
+    7
+  ],
+  "pages": [
+    6,
+    7
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.15 Profile of Importer / Exporter\na) ANF-1 contains the profile of the importer/exporter. IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.\nb) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\nc) Proof of status as manufacturer exporter is also to be uploaded under the Profile.\npg. 15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc. with\nanother entity such that | all the authorisation | s/ | obliga | tions are | transferre | d to the IEC\nof the new entity. | | | | | |\n2.14 Modification of I | EC | | | | |\n(a) Modification(s)/Upd | ation(s) in IEC can b | e d | one | online on | ly with app | licable fees\nand requisite documents |. | | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |. | | |\n(c) Request for (i) Cance | llation of existing IEC | an | d (ii) | PAN cha | nge in existi | ng numeric\nIECs has to be made to t | he jurisdictional Regio | na | l Aut | hority. | |\n(d) RAs shall consider | applications seekin | g | mod | ification | in IEC (al | l numeric),\ninvolving change in | PAN, by ensuring | | that | liabiliti | es of the | previous\napplicant/applicant firm | are transferred to t | he | new | applican | t/applicant | firm whose\nPAN will be reflecting in | the modified IEC. | | | | |\n(e) In case of change in c | onstitution of a PAN b | as | ed IE | C by way | of merger, | acquisition,\nliquidation, inheritance, | business transfer et | c. | such | that PAN | of the ne | w entity so\nformed is different from | the earlier one, an IE | C | shall | be availe | d against th | e new PAN\nwithin 30 days of effect | ing such change, if no | t | existi | ng alread | y. Previous | IEC (s) can\nalso be operationally lin | ked to the IEC of the n | ew | entit | y. | |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments. Concerned R | A may sanction the | gi | ven li | nkage af | ter due scr | utiny of the\nevidence provided by the | applicant including su | bm | issio | n of affida | vits etc. |\n2.15 Profile of Impor | ter / Exporter | | | | |\na) ANF-1 contains the | profile of the impo | rt | er/ex | porter. I | EC Holder | shall be\nresponsible for updating | the same as and whe | n a | chan | ge takes | place imme | diately or\nin any case at least once | in a year. | | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P. | | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile.\n| | | | | | pg. 15\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc. with\nanother entity such that all the authorisations/obligations are transferred to the IEC\nof the new entity.\n2.15 Profile of Importer / Exporter\na) ANF-1 contains the profile of the importer/exporter. IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.\nb) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\nc) Proof of status as manufacturer exporter is also to be uploaded under the Profile.\npg. 15\nISSUANCE OF AUTHORISATION",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.\"]\n    S2[\"Evaluate condition: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: 15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc.\"]\n    S2 --> S3\n    S4[\"b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\"]\n    S3 --> S4\n    S5[\"c) Proof of status as manufacturer exporter is also to be uploaded under the Profile.\"]\n    S4 --> S5\n    S6[\"| |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments.\"]\n    S5 --> S6\n    S7[\"| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P.\"]\n    S6 --> S7\n    S8[\"| | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile.\"]\n    S7 --> S8\n    S9[\"Run validation: IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.\"]\n    S8 --> S9\n    S10[\"Run validation: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.\"]\n    S9 --> S10\n    S11[\"Run validation: | | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.\"]\n    S10 --> S11",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.;\n:Evaluate condition\\: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.;\n:Evaluate condition\\: 15\nIEC can be surrendered | only if all authorisatio | ns | / obli | gations h | ave been cl | osed for the\nIEC or in cases where | the firm has been am | a | lgama | ted/acq | uired/merge | d etc.;\n:b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.;\n:c) Proof of status as manufacturer exporter is also to be uploaded under the Profile.;\n:| |\n(f) An application for tra | nsfer of unredeemed | Au | thori | sation(s) | from earlie | r IEC to the\nnew IEC may be submitte | d online to the origina | l j | urisd | ictional R | A along with | supporting\ndocuments.;\n:| | | | |\nb) Documents which are | uploaded in the Impo | rt | er-Ex | porter Pr | ofile are no | t required\nto be filed each time the | importer/exporter ap | pli | es fo | r authori | sation/scrip | / licence/\nregistration under differ | ent schemes of this FT | P.;\n:| | | |\nc) Proof of status as man | ufacturer exporter is | als | o to | be upload | ed under th | e Profile.;\n:Run validation\\: IEC Holder shall be\nresponsible for updating the same as and when a change takes place immediately or\nin any case at least once in a year.;\n:Run validation\\: b) Documents which are uploaded in the Importer-Exporter Profile are not required\nto be filed each time the importer/exporter applies for authorisation/scrip/ licence/\nregistration under different schemes of this FTP.;\n:Run validation\\: | | | | |\n(b) Any change in cons | titution of firm, addr | es | s, ban | k details | or any oth | er primary\ndetails, the IEC holder is | required to ensure t | ha | t the | IEC detai | ls are suita | bly updated\nonline within 30 days of | effecting such change | (s) |.;\nstop\n@enduml"
+}

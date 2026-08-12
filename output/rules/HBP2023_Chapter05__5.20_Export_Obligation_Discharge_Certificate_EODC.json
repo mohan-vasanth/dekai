@@ -1,0 +1,127 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.20",
+  "title": "Export Obligation Discharge Certificate (EODC)",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_20-R001",
+      "rule_description": "5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "trigger": "Export Obligation Discharge Certificate (EODC)",
+      "condition": "5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "validation": "5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "action": "5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "exception": "However, in\ncase export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for\ncalculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export\nobligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown\ncontinuous | decline.",
+      "output": "DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC)."
+    },
+    {
+      "rule_id": "CH5-SEC5_20-R002",
+      "rule_description": "(b) On being satisfied, RA concerned shall issue EODC to the EPCG authorisation\nholder and an online copy will be forwarded to ICEGATE through API message\nexchange for further action by Jurisdictional Customs Authorities with whom\nBG/LUT has been executed.",
+      "trigger": "Export Obligation Discharge Certificate (EODC)",
+      "condition": "any",
+      "validation": "(b) On being satisfied, RA concerned shall issue EODC to the EPCG authorisation\nholder and an online copy will be forwarded to ICEGATE through API message\nexchange for further action by Jurisdictional Customs Authorities with whom\nBG/LUT has been executed.",
+      "action": "(b) On being satisfied, RA concerned shall issue EODC to the EPCG authorisation\nholder and an online copy will be forwarded to ICEGATE through API message\nexchange for further action by Jurisdictional Customs Authorities with whom\nBG/LUT has been executed.",
+      "exception": "However, in\ncase export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for\ncalculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export\nobligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown\ncontinuous | decline.",
+      "output": "DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC)."
+    },
+    {
+      "rule_id": "CH5-SEC5_20-R003",
+      "rule_description": "(c) RA shall process such applications ordinarily within 30 days.",
+      "trigger": "Export Obligation Discharge Certificate (EODC)",
+      "condition": "Once documents are complete in all\n12\n5.17 Relief in A | verage E | xpor | t Obligation | | |\n(a) To provide | relief to e | xpor | ters of those s | ectors | where total | exports in that\nsector/pro | duct grou | p has | declined by | more tha | n 5% as co | mpared to the\nprevious y | ear, avera | ge e | xport obligati | on for | the year m | ay be reduced\nproportion | ate to red | uctio | n in exports | of that | particular | sector/product\ngroup duri | ng the rele | vant | year as again | st the pr | eceding ye | ar.",
+      "validation": "(c) RA shall process such applications ordinarily within 30 days.",
+      "action": "5.18 Maintena | nce of An | nual | Average Exp | ort Ob | ligation |\nThe excess expor | ts done to | ward | s the average | export | obligation f | ulfilment of an\nEPCG authorisatio | n during a | year | can be used t | o offset a | ny shortfal | l in the Average\nEO done in other | year(s) of | the E | O period or th | e block | period as t | he case may be\nprovided Average | EO impos | ed is | maintained o | n an ove | rall basis, w | ithin the block\nperiod or the EO p | eriod as a | pplic | able.",
+      "exception": "However, in\ncase export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for\ncalculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export\nobligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown\ncontinuous | decline.",
+      "output": "DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC)."
+    },
+    {
+      "rule_id": "CH5-SEC5_20-R004",
+      "rule_description": "Shortcomings, if\nany, shall be pointed out normally in one go.",
+      "trigger": "Export Obligation Discharge Certificate (EODC)",
+      "condition": "| | |\n5.19 Automatic | EO exte | nsio | n in the even | t of ba | n on expo | rt product\nWhenever a ban | /restrictio | n is | imposed on | export | of any pro | duct, export\nobligation period | in respec | t of E | PCG authoris | ations a | lready issu | ed prior to\nimposition of ban | on such e | xport | products wou | ld stand | automatic | ally extended\nfor a period equi | valent to | durat | ion of such b | an, with | out any co | mposition fee.",
+      "validation": "Shortcomings, if\nany, shall be pointed out normally in one go.",
+      "action": "Authorisation hol | der would | not b | e required to | maintain | average EO | as well for the\nban period.",
+      "exception": "However, in\ncase export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for\ncalculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export\nobligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown\ncontinuous | decline.",
+      "output": "DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC)."
+    },
+    {
+      "rule_id": "CH5-SEC5_20-R005",
+      "rule_description": "| | | | |\n(b) The sectors | /product | grou | ps for which th | is relax | ation is to b | e allowed shall\nbe conveye | d by the D | GFT | to all the RAs | within s | even mont | hs of the end of\nthe previou | s financia | l year | and the RAs | shall re | -fix the ann | ual average EO\nfor previou | s year acc | ordin | gly for exporte | rs in th | at sector/ p | roduct group.",
+      "trigger": "Export Obligation Discharge Certificate (EODC)",
+      "condition": "| | | | | |\n5.20 Export Ob | ligation | Disch | arge Certifi | cate (E | ODC) |\n(a) Authorisation | holder sh | all ap | ply for online | EODC in | ANF 5B wi | th documents\nprescribed therei | n as a proo | f of E | O fulfillment.",
+      "validation": "Once documents are complete in all\n12\n5.17 Relief in A | verage E | xpor | t Obligation | | |\n(a) To provide | relief to e | xpor | ters of those s | ectors | where total | exports in that\nsector/pro | duct grou | p has | declined by | more tha | n 5% as co | mpared to the\nprevious y | ear, avera | ge e | xport obligati | on for | the year m | ay be reduced\nproportion | ate to red | uctio | n in exports | of that | particular | sector/product\ngroup duri | ng the rele | vant | year as again | st the pr | eceding ye | ar.",
+      "action": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "exception": "However, in\ncase export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for\ncalculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export\nobligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown\ncontinuous | decline.",
+      "output": "DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC)."
+    },
+    {
+      "rule_id": "CH5-SEC5_20-R006",
+      "rule_description": "Authorisation hol | der would | not b | e required to | maintain | average EO | as well for the\nban period.",
+      "trigger": "Export Obligation Discharge Certificate (EODC)",
+      "condition": "any",
+      "validation": "| | | | |\n(b) The sectors | /product | grou | ps for which th | is relax | ation is to b | e allowed shall\nbe conveye | d by the D | GFT | to all the RAs | within s | even mont | hs of the end of\nthe previou | s financia | l year | and the RAs | shall re | -fix the ann | ual average EO\nfor previou | s year acc | ordin | gly for exporte | rs in th | at sector/ p | roduct group.",
+      "action": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "exception": "However, in\ncase export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for\ncalculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export\nobligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown\ncontinuous | decline.",
+      "output": "DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC)."
+    },
+    {
+      "rule_id": "CH5-SEC5_20-R007",
+      "rule_description": "| | |\n(b) On being satis | fied, RA c | oncer | ned shall issu | e EODC | to the EPC | G authorisation\nholder and an on | line copy | will b | e forwarded | to ICEG | ATE throug | h API message\nexchange for furt | her actio | n by | Jurisdictional | Custom | s Authoriti | es with whom\nBG/LUT has been | executed.",
+      "trigger": "Export Obligation Discharge Certificate (EODC)",
+      "condition": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "validation": "Authorisation hol | der would | not b | e required to | maintain | average EO | as well for the\nban period.",
+      "action": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "exception": "However, in\ncase export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for\ncalculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export\nobligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown\ncontinuous | decline.",
+      "output": "DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC)."
+    },
+    {
+      "rule_id": "CH5-SEC5_20-R008",
+      "rule_description": "| | | | |\n(c) RA shall proce | ss such ap | plica | tions ordinari | ly withi | n 30 days.",
+      "trigger": "Export Obligation Discharge Certificate (EODC)",
+      "condition": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "validation": "| | |\n(b) On being satis | fied, RA c | oncer | ned shall issu | e EODC | to the EPC | G authorisation\nholder and an on | line copy | will b | e forwarded | to ICEG | ATE throug | h API message\nexchange for furt | her actio | n by | Jurisdictional | Custom | s Authoriti | es with whom\nBG/LUT has been | executed.",
+      "action": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "exception": "However, in\ncase export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for\ncalculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export\nobligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown\ncontinuous | decline.",
+      "output": "DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC)."
+    },
+    {
+      "rule_id": "CH5-SEC5_20-R009",
+      "rule_description": "S | hortcomings, if\nany, shall be point | ed out no | rmall | y in one go.",
+      "trigger": "Export Obligation Discharge Certificate (EODC)",
+      "condition": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "validation": "| | | | |\n(c) RA shall proce | ss such ap | plica | tions ordinari | ly withi | n 30 days.",
+      "action": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "exception": "However, in\ncase export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for\ncalculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export\nobligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown\ncontinuous | decline.",
+      "output": "DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC)."
+    },
+    {
+      "rule_id": "CH5-SEC5_20-R010",
+      "rule_description": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "trigger": "Export Obligation Discharge Certificate (EODC)",
+      "condition": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "validation": "S | hortcomings, if\nany, shall be point | ed out no | rmall | y in one go.",
+      "action": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "exception": "However, in\ncase export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for\ncalculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export\nobligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown\ncontinuous | decline.",
+      "output": "DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC)."
+    },
+    {
+      "rule_id": "CH5-SEC5_20-R011",
+      "rule_description": "Once documents are complete in all\nrespects, export obligation shall be discharged within 30 days of receipt of\ncomplete documents /information.",
+      "trigger": "Export Obligation Discharge Certificate (EODC)",
+      "condition": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "validation": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "action": "On | ce docu | ments are c | omplete in all\n12\n5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+      "exception": "However, in\ncase export | decline is | cont | inuous over c | onsecuti | ve years, th | e base year for\ncalculation | of eligibi | lity a | nd calculatio | n of red | uction in | average export\nobligation | will be ta | ken a | s the year aft | er whic | h the expor | ts have shown\ncontinuous | decline.",
+      "output": "DEKAI should produce a compliance decision for 5.20 - Export Obligation Discharge Certificate (EODC)."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment.",
+    "IF detected context matches section rule THEN enforce: (b) On being satisfied, RA concerned shall issue EODC to the EPCG authorisation\nholder and an online copy will be forwarded to ICEGATE through API message\nexchange for further action by Jurisdictional Customs Authorities with whom\nBG/LUT has been executed.",
+    "IF detected context matches section rule THEN enforce: (c) RA shall process such applications ordinarily within 30 days.",
+    "IF detected context matches section rule THEN enforce: Shortcomings, if\nany, shall be pointed out normally in one go.",
+    "IF detected context matches section rule THEN enforce: | | | | |\n(b) The sectors | /product | grou | ps for which th | is relax | ation is to b | e allowed shall\nbe conveye | d by the D | GFT | to all the RAs | within s | even mont | hs of the end of\nthe previou | s financia | l year | and the RAs | shall re | -fix the ann | ual average EO\nfor previou | s year acc | ordin | gly for exporte | rs in th | at sector/ p | roduct group.",
+    "IF detected context matches section rule THEN enforce: Authorisation hol | der would | not b | e required to | maintain | average EO | as well for the\nban period.",
+    "IF validations pass THEN recommend action: 5.20 Export Obligation Discharge Certificate (EODC)\n(a) Authorisation holder shall apply for online EODC in ANF 5B with documents\nprescribed therein as a proof of EO fulfillment."
+  ]
+}

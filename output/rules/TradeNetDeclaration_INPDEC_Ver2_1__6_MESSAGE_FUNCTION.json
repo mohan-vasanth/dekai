@@ -1,0 +1,21 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.INPDEC Ver2.1",
+  "section": "6",
+  "title": "MESSAGE FUNCTION",
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC6-R001",
+      "rule_description": "IF validations pass THEN recommend action: Transfer conditions are:\nCode Declaration Type Transfer Conditions\nSFZ Storage in FTZ To allow the Declarant to submit Declarations for storage of non-\ndutiable goods and certain dutiable goods in the FTZ\nAPS Approved Premises/Schemes To allow the Declarant to submit Declarations such as:\na) ME\nb) Bonding of goods into a LW\nc) Bonding of goods into a BW\nd) CFW\ne) Class II cargoes\nNote: In general, any references to “LW” (or Licensed Warehouse) and\n“BW” (or Bonded Warehouse) refer to licensed premises used for storing\ndutiable and non-dutiable goods, respectively.",
+      "trigger": "MESSAGE FUNCTION",
+      "condition": "MESSAGE FUNCTION\nThe Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the\npurpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export\nor transit.",
+      "validation": "Transfer conditions are:\nCode Declaration Type Transfer Conditions\nSFZ Storage in FTZ To allow the Declarant to submit Declarations for storage of non-\ndutiable goods and certain dutiable goods in the FTZ\nAPS Approved Premises/Schemes To allow the Declarant to submit Declarations such as:\na) ME\nb) Bonding of goods into a LW\nc) Bonding of goods into a BW\nd) CFW\ne) Class II cargoes\nNote: In general, any references to “LW” (or Licensed Warehouse) and\n“BW” (or Bonded Warehouse) refer to licensed premises used for storing\ndutiable and non-dutiable goods, respectively.",
+      "action": "Transfer conditions are:\nCode Declaration Type Transfer Conditions\nSFZ Storage in FTZ To allow the Declarant to submit Declarations for storage of non-\ndutiable goods and certain dutiable goods in the FTZ\nAPS Approved Premises/Schemes To allow the Declarant to submit Declarations such as:\na) ME\nb) Bonding of goods into a LW\nc) Bonding of goods into a BW\nd) CFW\ne) Class II cargoes\nNote: In general, any references to “LW” (or Licensed Warehouse) and\n“BW” (or Bonded Warehouse) refer to licensed premises used for storing\ndutiable and non-dutiable goods, respectively.",
+      "exception": "BKT Blanket [including blanket GST To allow the Declarant to submit Declarations such as:\nRelief (& duty exemption)] a) Blanket permit for gas\nb) Blanket permit for water\nc) Blanket permit for recorded media\nd) Beer sampling (for Licensed Distillery)\nGTR GST Relief (& duty exemption) To allow the Declarant to submit Declarations such as:\na) Dutiable HS\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nCode | Declaration Type | Transfer Conditions\nSFZ | Storage in FTZ | To allow the Declarant to submit Declarations for storage of non-\ndutiable goods and certain dutiable goods in the FTZ\nAPS | Approved Premises/Schemes | To allow the Declarant to submit Declarations such as:\na) ME\nb) Bonding of goods into a LW\nc) Bonding of goods into a BW\nd) CFW\ne) Class II cargoes\nNote: In general, any references to “LW” (or Licensed Warehouse) and\n“BW” (or Bonded Warehouse) refer to licensed premises used for storing\ndutiable and non-dutiable goods, respectively.",
+      "output": "DEKAI should produce a compliance decision for 6 - MESSAGE FUNCTION."
+    }
+  ],
+  "ai_rules": [
+    "IF validations pass THEN recommend action: Transfer conditions are:\nCode Declaration Type Transfer Conditions\nSFZ Storage in FTZ To allow the Declarant to submit Declarations for storage of non-\ndutiable goods and certain dutiable goods in the FTZ\nAPS Approved Premises/Schemes To allow the Declarant to submit Declarations such as:\na) ME\nb) Bonding of goods into a LW\nc) Bonding of goods into a BW\nd) CFW\ne) Class II cargoes\nNote: In general, any references to “LW” (or Licensed Warehouse) and\n“BW” (or Bonded Warehouse) refer to licensed premises used for storing\ndutiable and non-dutiable goods, respectively."
+  ]
+}

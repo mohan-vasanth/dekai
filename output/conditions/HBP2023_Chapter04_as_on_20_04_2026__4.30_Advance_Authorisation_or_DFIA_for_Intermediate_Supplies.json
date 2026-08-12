@@ -1,0 +1,105 @@
+{
+  "section": "4.30",
+  "conditions": [
+    "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+    "If in the i | ntervening per | iod (i.e.",
+    "from | date of fili | ng of application\n| and date of issue of | authorisation) | the norms get | changed, t | he authorisation\n| will be issued in pro | portion to prov | isional exports | / Deemed | Export supplies\n| already made till any | amendment in | norms is notif | ied.",
+    "| | | |\n(c) | The export of SCOM | ET items shall | not be permitte | d against | an Authorisation\n| until and unless th | e requisite SC | OMET Authori | sation is | obtained by the\n| applicant.",
+    "| |\n29 Ad | missibility of draw | back in case | of rejection | of applic | ation\nCustom | s authorities in term | s of Do R rules | against shippi | ng bills file | d and processed\nunder a | n Advance Authoris | ation, in case ap | plication for a | n Advance | Authorisation is\nrejected | or modified by Reg | ional Authority |, may permit d | rawback.",
+    "(b)\nIf application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "If in the intervening period (i.e.",
+    "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+    "(c)\nThe export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+    "(d)\nInputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+    "(b) Advance Authorisation or DFIA for Intermediate supply shall be issued after\nmaking Authorisation of ultimate exporter invalid for direct import of item,\nto be supplied by intermediate manufacturer.",
+    "The above stated evidence is not required if invalidation is\napplied along with the application of Advance Authorisation.",
+    "(d) Facility of Advance Authorisation shall be available even in cases where\nintermediate supplier has supplied or intend to supply material subsequent to\nfulfilment of EO by exporter holding Advance Authorisation / DFIA from\nwhere invalidation letter was issued.",
+    "(e) The invalidation letter shall specify the following:\n(i) Name, Address and GSTIN of supplier;\n(ii) GSTIN & Address of recipient unit of Advance\nAuthorisation/DFIA holder where inputs would be processed;\n(iii) Name, description including specifications, where applicable, and\nquantity of items; and\n(iv) Individual value of items to be procured."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.30.1",
+      "if": "application is ap | proved",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority."
+    },
+    {
+      "id": "4.4.30.2",
+      "if": "If in the i | ntervening per | iod (i.e.",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "If in the i | ntervening per | iod (i.e."
+    },
+    {
+      "id": "4.4.30.3",
+      "if": "from | date of fili | ng of application\n| and date of issue of | authorisation) | the norms get | changed, t | he authorisation\n| will be issued in pro | portion to prov | isional exports | / Deemed | Export supplies\n| already made till any | amendment in | norms is notif | ied.",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "from | date of fili | ng of application\n| and date of issue of | authorisation) | the norms get | changed, t | he authorisation\n| will be issued in pro | portion to prov | isional exports | / Deemed | Export supplies\n| already made till any | amendment in | norms is notif | ied."
+    },
+    {
+      "id": "4.4.30.4",
+      "if": "| | | |\n(c) | The export of SCOM | ET items shall | not be permitte | d against | an Authorisation\n| until and unless th | e requisite SC | OMET Authori | sation is | obtained by the\n| applicant.",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "| | | |\n(c) | The export of SCOM | ET items shall | not be permitte | d against | an Authorisation\n| until and unless th | e requisite SC | OMET Authori | sation is | obtained by the\n| applicant."
+    },
+    {
+      "id": "4.4.30.5",
+      "if": "| |\n29 Ad | missibility of draw | back in case | of rejection | of applic | ation\nCustom | s authorities in term | s of Do R rules | against shippi | ng bills file | d and processed\nunder a | n Advance Authoris | ation, in case ap | plication for a | n Advance | Authorisation is\nrejected | or modified by Reg | ional Authority |, may permit d | rawback.",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "| |\n29 Ad | missibility of draw | back in case | of rejection | of applic | ation\nCustom | s authorities in term | s of Do R rules | against shippi | ng bills file | d and processed\nunder a | n Advance Authoris | ation, in case ap | plication for a | n Advance | Authorisation is\nrejected | or modified by Reg | ional Authority |, may permit d | rawback."
+    },
+    {
+      "id": "4.4.30.6",
+      "if": "application is approved",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "(b)\nIf application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority."
+    },
+    {
+      "id": "4.4.30.7",
+      "if": "If in the intervening period (i.e.",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "If in the intervening period (i.e."
+    },
+    {
+      "id": "4.4.30.8",
+      "if": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified."
+    },
+    {
+      "id": "4.4.30.9",
+      "if": "(c)\nThe export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "(c)\nThe export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant."
+    },
+    {
+      "id": "4.4.30.10",
+      "if": "(d)\nInputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "(d)\nInputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs."
+    },
+    {
+      "id": "4.4.30.11",
+      "if": "(b) Advance Authorisation or DFIA for Intermediate supply shall be issued after\nmaking Authorisation of ultimate exporter invalid for direct import of item,\nto be supplied by intermediate manufacturer.",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "(b) Advance Authorisation or DFIA for Intermediate supply shall be issued after\nmaking Authorisation of ultimate exporter invalid for direct import of item,\nto be supplied by intermediate manufacturer."
+    },
+    {
+      "id": "4.4.30.12",
+      "if": "The above stated evidence is not required if invalidation is\napplied along with the application of Advance Authorisation.",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "The above stated evidence is not required if invalidation is\napplied along with the application of Advance Authorisation."
+    },
+    {
+      "id": "4.4.30.13",
+      "if": "(d) Facility of Advance Authorisation shall be available even in cases where\nintermediate supplier has supplied or intend to supply material subsequent to\nfulfilment of EO by exporter holding Advance Authorisation / DFIA from\nwhere invalidation letter was issued.",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "(d) Facility of Advance Authorisation shall be available even in cases where\nintermediate supplier has supplied or intend to supply material subsequent to\nfulfilment of EO by exporter holding Advance Authorisation / DFIA from\nwhere invalidation letter was issued."
+    },
+    {
+      "id": "4.4.30.14",
+      "if": "(e) The invalidation letter shall specify the following:\n(i) Name, Address and GSTIN of supplier;\n(ii) GSTIN & Address of recipient unit of Advance\nAuthorisation/DFIA holder where inputs would be processed;\n(iii) Name, description including specifications, where applicable, and\nquantity of items; and\n(iv) Individual value of items to be procured.",
+      "then": "| | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
+      "source": "(e) The invalidation letter shall specify the following:\n(i) Name, Address and GSTIN of supplier;\n(ii) GSTIN & Address of recipient unit of Advance\nAuthorisation/DFIA holder where inputs would be processed;\n(iii) Name, description including specifications, where applicable, and\nquantity of items; and\n(iv) Individual value of items to be procured."
+    }
+  ]
+}

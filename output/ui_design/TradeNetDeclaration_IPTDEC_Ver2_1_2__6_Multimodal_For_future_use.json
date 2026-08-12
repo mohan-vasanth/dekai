@@ -1,0 +1,35 @@
+{
+  "section": "6",
+  "ui": [
+    {
+      "screen_id": "Multimodal_For_future_use_overview",
+      "name": "Multimodal (For future use) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Multimodal_For_future_use_submission",
+      "name": "Multimodal (For future use) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "use_flag",
+        "future_flag",
+        "multimodal_flag"
+      ]
+    }
+  ]
+}

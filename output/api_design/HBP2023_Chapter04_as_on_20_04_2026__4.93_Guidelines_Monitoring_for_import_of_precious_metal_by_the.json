@@ -1,0 +1,57 @@
+{
+  "section": "4.93",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.93",
+      "purpose": "Retrieve knowledge payload for section 4.93",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Guidelines-Monitoring-for-import-of-precious-metal-by-the/validate",
+      "purpose": "Validate inputs and documents for Guidelines/ Monitoring for import of precious metal by the",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Guidelines-Monitoring-for-import-of-precious-metal-by-the/execute",
+      "purpose": "Trigger business action for | | | | | | |\n0 Re- | import of reject | e | d jewell | ery | | | |\nAn exp | orter of plain/ stu | d | ded preci | ous metal jewe | llery shall | b | e allo | wed to re-\nimport | duty free jewelle | ry | rejected | and returned | by buyer u | p | to | 2% of FOB\nvalue o | f exports in prec | ed | ing licen | cing year (bas | ed on CA | c | ertifi | ed copy of\nexport | of precedin | g | year) | with re | fund of | | a | ny duty\nexempt | ion/refund/reple | ni | shment | benefit availe | d on inpu | t | s us | ed as per\ncustom | s rules and regula | ti | ons.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

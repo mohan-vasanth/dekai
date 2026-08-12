@@ -207,7 +207,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/E-governance-of-Foreign-Trade-in-DGFT/execute",
-          "purpose": "Trigger business action for (c) Facility of online filing and processing of applications\nThrough the DGFT Customer Portal, applicants can apply online for various trade\nrelated benefits/services including for issue of authorisations/scrips and\namendments thereof under various FTP provisions.",
+          "purpose": "Trigger business action for The sai | d procedure | is contained in following\ncompilations: | | | | |\n(a) Hand Book of | Procedures | | | |\n(b) Appendices & | Aayat Nirya | t F | orms and | |\n(c) Standard Inpu | t Output No | rm | s (SION) | |\nThese compilations, | as amended | fr | om time to | time, shall co | me into force from the date\nof the notification an | d shall cont | in | ue to be in | operation unl | ess otherwise specified or\namended.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -354,7 +354,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -373,7 +375,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -594,7 +598,11 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -611,7 +619,11 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -651,7 +663,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",

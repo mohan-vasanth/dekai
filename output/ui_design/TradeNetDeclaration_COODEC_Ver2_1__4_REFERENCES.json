@@ -1,0 +1,37 @@
+{
+  "section": "4",
+  "ui": [
+    {
+      "screen_id": "REFERENCES_overview",
+      "name": "REFERENCES Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "REFERENCES_submission",
+      "name": "REFERENCES Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "rev_flag",
+        "and_flag",
+        "net_flag",
+        "xml_flag",
+        "jan_flag",
+        "for_flag"
+      ]
+    }
+  ]
+}

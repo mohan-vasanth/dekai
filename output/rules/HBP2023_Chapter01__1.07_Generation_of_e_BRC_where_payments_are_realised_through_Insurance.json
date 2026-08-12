@@ -1,0 +1,21 @@
+{
+  "chapter_number": "1",
+  "chapter_title": "Legal Framework and Trade Facilitation Legal Framework and Trade Facilitation",
+  "section": "1.07",
+  "title": "Generation of e BRC where payments are realised through Insurance",
+  "business_rules": [
+    {
+      "rule_id": "CH1-SEC1_07-R001",
+      "rule_description": "IF validations pass THEN recommend action: 1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "trigger": "Generation of e BRC where payments are realised through Insurance",
+      "condition": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "validation": "|\n(j) Facility | to ve | rify the d | oc | ume | nts/c | ertificat | e issued thro | ugh | DGFT Por | tal\nDigitally iss | ued e | -authorisa | tio | ns/ | e-cert | ificates t | hrough DGFT | Por | tal can be | verified at\nDGFT webs | ite un | der the lin | k | > Se | rvices | > Verify | Document.",
+      "action": "1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.07 - Generation of e BRC where payments are realised through Insurance."
+    }
+  ],
+  "ai_rules": [
+    "IF validations pass THEN recommend action: 1.07 Generation of e BRC where payments are realised through Insurance\nAgencies\n(a) An applicant realising export proceeds through Insurance Agency will approach\nthe concerned RA with the proof of payment issued by the concerned Insurance\nAgency."
+  ]
+}

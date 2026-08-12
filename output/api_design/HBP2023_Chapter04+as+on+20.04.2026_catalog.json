@@ -313,7 +313,10 @@
           "purpose": "Validate inputs and documents for Advance Authorisation for items which are otherwise prohibited for",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "status",
@@ -325,10 +328,13 @@
         {
           "method": "POST",
           "path": "/api/dgft/Advance-Authorisation-for-items-which-are-otherwise-prohibited-for/execute",
-          "purpose": "Trigger business action for (ii) The Export Obligation Period (EOP) of Advance Authorisations issued for such\nitems shall be 90 days from the date of clearance of import consignment and\nno extension in EOP shall be allowed.",
+          "purpose": "Trigger business action for N | o physical copy | of ap | plicati | on is | re | quired to be\n| submitted to Regiona | l Author | ity.",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -509,7 +515,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Cases-involving-Acetic-Anhydride-Ephedrine-and-Pseudo-ephedrine/execute",
-          "purpose": "Trigger business action for 81\n(v)\nApplicant or his supporting manufacturer/co-licensee shall maintain a\nproper\naccount\nof\nconsumption\nand\nutilization\nof\nduty\nfree\nimported/domestically procured inputs against each authorisation, as\nprescribed in Appendix-4H.",
+          "purpose": "Trigger business action for 81\n(v) | Applicant or his suppo | rting | manufactur | er/co-licensee | shal | l | maintain a\n| proper account of | cons | umption a | nd utilization | of | | duty free\n| imported/domestically | proc | ured inputs | against each a | uth | ori | sation, as\n| prescribed in Appendix- | 4H.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -618,7 +624,9 @@
             "section_title",
             "document_1_submitted",
             "document_2_submitted",
-            "document_3_submitted"
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "status",
@@ -636,7 +644,9 @@
             "section_title",
             "document_1_submitted",
             "document_2_submitted",
-            "document_3_submitted"
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -719,7 +729,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -739,7 +750,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -877,7 +889,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -889,14 +903,16 @@
         {
           "method": "POST",
           "path": "/api/dgft/Undertaking/execute",
-          "purpose": "Trigger business action for 84\n31.03.2026.i Since all decisions of the Norms Committees are available in the\nform of minutes on the DGFT website, all other applicants of Advance\nAuthorisation are also eligible to apply and get their authorisations based\non such ratified norms on repeat basis during validity of these norms.",
+          "purpose": "Trigger business action for 84\n| 31.03.2026.i Since all d | ecis | ions of the Norm | s Committees are avai | lable in the\n| form of minutes on | the | DGFT website, | all other applicants o | f Advance\n| Authorisation are also | elig | ible to apply a | nd get their authorisat | ions based\n| on such ratified norm | s on | repeat basis du | ring validity of these n | orms.",
           "request_fields": [
             "section_code",
             "section_title",
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -999,7 +1015,10 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "status",
@@ -1016,7 +1035,10 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1175,7 +1197,8 @@
           "purpose": "Validate inputs and documents for Redemption of Authorisation issued under paragraph 4.18 of HBP",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted"
           ],
           "response_fields": [
             "status",
@@ -1190,7 +1213,8 @@
           "purpose": "Trigger business action for 4.20 Redemption of Authorisation issued under paragraph 4.18 of HBP\nProvisions contained in paragraph 4.49 of HBP, except sub-paragraph (f), shall be\napplicable.",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1292,7 +1316,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -1304,7 +1329,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Standardisation-of-Adhoc-Norms/execute",
-          "purpose": "Trigger business action for As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+          "purpose": "Trigger business action for However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
           "request_fields": [
             "section_code",
             "section_title",
@@ -1312,7 +1337,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1558,7 +1584,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Exports-Deemed-Export-supplies-in-anticipation-or-subsequent-to/execute",
-          "purpose": "Trigger business action for 4.27 Exports/Deemed Export supplies in anticipation or subsequent to\nissue of an Authorisation.",
+          "purpose": "Trigger business action for | | |\n24 Amend | ment | of Export it | em and in | puts | | | |\n(i) An a | pplicat | ion for amen | dment of an | expo | rt item or in | put o | r qua | ntity of input\nund | er SION | or under ad | -hoc Norms | shall | be filed onli | ne in | ANF | 4B.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -1717,7 +1743,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Advance-Authorisation-or-DFIA-for-Intermediate-Supplies/execute",
-          "purpose": "Trigger business action for 89\nissue of an Authorisation.",
+          "purpose": "Trigger business action for | | | |\n(b) | If application is ap | proved, author | isation shall b | e issued | based on input/\n| output norms in fo | rce on the da | te of receipt o | f applica | tion by Regional\n| Authority.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -1841,7 +1867,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Application-of-ARO/execute",
-          "purpose": "Trigger business action for 90\n(b)\nAdvance Authorisation or DFIA for Intermediate supply shall be issued after\nmaking Authorisation of ultimate exporter invalid for direct import of item,\nto be supplied by intermediate manufacturer.",
+          "purpose": "Trigger business action for 90\n(b) | | Advance Authori | sation or DFIA fo | r Intermed | iate suppl | y shall b | e issued after\n| | making Authoris | ation of ultimate | exporter in | valid for | direct im | port of item,\n| | to be supplied b | y intermediate | manufactur | er.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -2522,7 +2548,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Advance-Authorisation-for-Annual-Requirement/execute",
-          "purpose": "Trigger business action for In addition, this information may be generated\nfrom Computer System and maintained in a book form.",
+          "purpose": "Trigger business action for | Copies of ship | ping bills | shall b | e submitted | | t | o Regio | nal | Author | ity\n| concerned for | verification | within | two month | s | f | rom date | of | expiry | of\n| export obligati | on period.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -2571,7 +2597,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",
@@ -2583,11 +2610,12 @@
         {
           "method": "POST",
           "path": "/api/dgft/Special-Advance-Authorisation-for-export-of-Articles-of-Apparel/execute",
-          "purpose": "Trigger business action for 101\nAdvance Authorisation given above would apply except the following:\n(i)\nAuthorisation holder shall have flexibility to export any product\nfalling under export product group using duty exempted material.",
+          "purpose": "Trigger business action for | (ii) | Within eligible en | ti | tlement, | an exporter | m | ay apply for o | ne or | more\n| | than one authoris | at | ion in a | licensing ye | ar |, subject to the | con | dition\n| | that against on | e | Port o | f registrati | on |, not more | than | five\n| | authorisations ca | n | be issu | ed for same | p | roduct group.",
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -3158,7 +3186,9 @@
             "section_title",
             "document_1_submitted",
             "document_2_submitted",
-            "document_3_submitted"
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "status",
@@ -3170,13 +3200,15 @@
         {
           "method": "POST",
           "path": "/api/dgft/Re-export-of-goods-imported-under-DFIA-Scheme/execute",
-          "purpose": "Trigger business action for (ii) Based on the certificate, a fresh DFIA shall be issued by Regional\nAuthority concerned.",
+          "purpose": "Trigger business action for | | | | |\n(e) | | An applicati | on fo | r such amendme | nts in unuti | lized | and | un-t | ransferred\n| | DFIAs, whic | h are | system-related a | nd correctiv | e in n | atur | e, sh | all be filed\n| | in ANF 4G.",
           "request_fields": [
             "section_code",
             "section_title",
             "document_1_submitted",
             "document_2_submitted",
-            "document_3_submitted"
+            "document_3_submitted",
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -3377,13 +3409,34 @@
           "purpose": "Validate inputs and documents for Wastage Norms",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "status",
             "errors",
             "warnings",
             "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Wastage-Norms/execute",
+          "purpose": "Trigger business action for | | | | |\n58 Ap | plication for | Rep | lenishm | e | n | t Au | thorisa | ti | on | |\n(a) | Application fo | r RE | P Authori | s | a | tion | shall be | fi | led onlin | e in | ANF-4H and\n| upload the d | ocu | ments pr | e | s | cribe | d there | in | to con | cern | ed Regional\n| Authority as p | er A | ppendix 4 | A |.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
           ]
         }
       ]
@@ -3643,13 +3696,32 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "status",
             "errors",
             "warnings",
             "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Endorsement-on-Shipping-Bill-and-Invoice/execute",
+          "purpose": "Trigger business action for 4.64 | Age | ncy Commiss | ion | | | |\nExp | orte | r availing schem | e of gold / | silver / platin | um | jewellery are a | llowed to pay\nage | ncy c | ommission su | bject to the | guidelines lai | d | down by RBI.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted",
+            "document_3_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
           ]
         }
       ]
@@ -3924,7 +3996,9 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "status",
@@ -3936,12 +4010,14 @@
         {
           "method": "POST",
           "path": "/api/dgft/Port-of-Export/execute",
-          "purpose": "Trigger business action for d)\nInstructions issued by Customs Department in this regard should be\nfollowed mutatis mutandis.",
+          "purpose": "Trigger business action for | | |\nd) Instructi | ons issued by Customs D | epa | rtment in thi | s regard should be\nfollowed | mutatis mutandis.",
           "request_fields": [
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -4038,7 +4114,8 @@
           "purpose": "Validate inputs and documents for Export of Cut & Polished Diamonds for Certification/Grading & Re-",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted"
           ],
           "response_fields": [
             "status",
@@ -4140,7 +4217,8 @@
             "section_title",
             "document_1_submitted",
             "document_2_submitted",
-            "document_3_submitted"
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "status",
@@ -4158,7 +4236,8 @@
             "section_title",
             "document_1_submitted",
             "document_2_submitted",
-            "document_3_submitted"
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -4393,7 +4472,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Export-through-Exhibitions-Export-Promotion-Tours-Export-of/execute",
-          "purpose": "Trigger business action for (g)\nIn case of exports through nominated agency, exporter shall submit\nproof of exports to nominated agency within 15 days of exports, who\nshall, after verifying documents, release admissible quantity of the gold/\nsilver/ platinum etc.",
+          "purpose": "Trigger business action for | | |\n(g) | In case of e | xports t | hrough | no | minated | agency, ex | porte | r shall submit\n| proof of exp | orts to n | ominate | d | agency | within 15 d | ays o | f exports, who\n| shall, after v | erifying d | ocumen | ts, | release | admissible q | uant | ity of the gold/\n| silver/ plati | num etc.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -4499,7 +4578,8 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "status",
@@ -4518,7 +4598,8 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -4682,7 +4763,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -4702,7 +4784,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -4876,13 +4959,30 @@
           "purpose": "Validate inputs and documents for Personal Carriage of Gems & Jewellery Import Parcels",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted"
           ],
           "response_fields": [
             "status",
             "errors",
             "warnings",
             "next_actions"
+          ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Personal-Carriage-of-Gems-Jewellery-Import-Parcels/execute",
+          "purpose": "Trigger business action for 85 Regulari | stion of B | onafid | e | De | fault | | | |\nCases of bona | fide default | in fulfi | ll | men | t of Export | | Obligation | by an e | xporter who\nhas obtained | precious | metals | fr | om | nominated | | agencies | may be | regularised\nprovided exp | orter has | paid c | u | sto | ms duty al | o | ng-with | interest | thereon as\nnotified by D | o R.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
           ]
         }
       ]
@@ -5091,7 +5191,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",
@@ -5103,11 +5204,12 @@
         {
           "method": "POST",
           "path": "/api/dgft/Guidelines-Monitoring-for-import-of-precious-metal-by-the/execute",
-          "purpose": "Trigger business action for 4.93 Guidelines/ Monitoring for import of precious metal by the\nNominated Agencies\nThe guidelines on import of precious metal by the nominated agencies and\nmonitoring are as under:\n(a) Following guidelines for monitoring the import of precious metal and\nits distribution and / or own use by the Nominated Agencies will be\nfollowed, (other than the Banks nominated by RBI for this purpose):\n(i) Every Nominated Agency is required to maintain records of\nimports of precious metal (both quantity and value) and its\ndistribution for the purpose of exports of value added product as\nwell as for the purpose of domestic consumption as per the format\ngiven in Appendix 4-M of Hand Book of Procedures.",
+          "purpose": "Trigger business action for | | | | | | |\n0 Re- | import of reject | e | d jewell | ery | | | |\nAn exp | orter of plain/ stu | d | ded preci | ous metal jewe | llery shall | b | e allo | wed to re-\nimport | duty free jewelle | ry | rejected | and returned | by buyer u | p | to | 2% of FOB\nvalue o | f exports in prec | ed | ing licen | cing year (bas | ed on CA | c | ertifi | ed copy of\nexport | of precedin | g | year) | with re | fund of | | a | ny duty\nexempt | ion/refund/reple | ni | shment | benefit availe | d on inpu | t | s us | ed as per\ncustom | s rules and regula | ti | ons.",
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -5198,7 +5300,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/To-assess-the-nature-of-inputs-used-in-export-production-and-the-amount-of-actual/execute",
-          "purpose": "Trigger business action for 129\nNominated Agencies\nThe guidelines on import of precious metal by the nominated agencies and\nmonitoring are as under:\n(a)\nFollowing guidelines for monitoring the import of precious metal and\nits distribution and / or own use by the Nominated Agencies will be\nfollowed, (other than the Banks nominated by RBI for this purpose):\n(i)\nEvery Nominated Agency is required to maintain records of\nimports of precious metal (both quantity and value) and its\ndistribution for the purpose of exports of value added product as\nwell as for the purpose of domestic consumption as per the format\ngiven in Appendix 4-M of Hand Book of Procedures.",
+          "purpose": "Trigger business action for Failu | re to comply | will\n| | render Nom | inated | Agency Certifica | te liable to | be cancelle | d in\n| | addition to | action | under FT (DR) | Act 1992, a | s amended, | after\n| | affording opp | ortuni | ty of personal he | aring.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -5445,7 +5547,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",
@@ -5457,11 +5560,12 @@
         {
           "method": "POST",
           "path": "/api/dgft/Certain-ARR-cases-may-also-be-identified-by-the-IT-assisted-risk-based-criteria-for/execute",
-          "purpose": "Trigger business action for Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+          "purpose": "Trigger business action for | Non-reporting of | the ARR | s | hall lea | d | to | denial of | benefits un | der t | he RODTEP\n| scheme and no fur | ther scro | ll | out of | R | ODT | EP claims | for the SBs | will b | e permitted\n| at the Customs Po | rt of Expo | r | t after t | h | e gr | ace period | of three (3 | ) mon | ths i.e.",
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -5616,7 +5720,8 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "status",
@@ -5633,7 +5738,8 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "reference_id",

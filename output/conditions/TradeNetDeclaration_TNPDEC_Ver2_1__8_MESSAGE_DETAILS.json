@@ -1,0 +1,350 @@
+{
+  "section": "8",
+  "conditions": [
+    "A062 cac:Unique Reference Number M 1 Format:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036 cbc:ID M 1 an..17 Specify Declarant entity identifier.",
+    "B020 cbc:Date M 1 n8 Specify date of Creation.",
+    "4 Specify sequence number.",
+    "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Specify Message Sender Id (must be same as the Sender Id as\nspecified in the interchange header).",
+    "B083 cbc:Common Access Reference M 1 an..7 TNPDEC\nB021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg.",
+    "B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable.",
+    "B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks.",
+    "Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nRef Tag name | User defined\nS R Repr | Remarks\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "A062\ncac:Unique Reference Number\nM\n1\nFormat:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036\ncbc:ID\nM\n1 an..17\nSpecify Declarant entity identifier.",
+    "B020\ncbc:Date\nM\n1 n8\nSpecify date of Creation.",
+    "4\nSpecify sequence number.",
+    "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nSpecify Message Sender Id (must be same as the Sender Id as\nspecified in the interchange header).",
+    "B083\ncbc:Common Access Reference\nM\n1 an..7\nTNPDEC\nB021\ncbc:Declaration Type\nM\n1 an..7\nSpecify Declaration Type eg.",
+    "B064\ncbc:Previous Permit Number\nC\n1 an..35\nSpecify previous Permit Number if applicable.",
+    "B034\ncbc:Free Text\nM\n2 an..512\nSpecify general/trader’s remarks.",
+    "OFFICIAL (CLOSED)\nAM\nB007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any).",
+    "B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application\nA069 cac:CPCProcessing Code C 5 Repeat at most 5 times each for Processing code 1, 2 and 3.",
+    "B057 cbc:Processing Code One M 1 an..35 Specify processing code 1 such as:\n(1) No.",
+    "B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2 such as:\n(1) Voyage duration for seastore permits application.",
+    "B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3.",
+    "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\ntnp:Cargo M 1\nB009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List).",
+    "A032 cac:Release Location M 1 Specify Place of Release.",
+    "B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists).",
+    "B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others).",
+    "/cac:Release Location\nA032 cac:Receipt Location M 1 Specify Place of Receipt.",
+    "/cac:Receipt Location\nA052 cac:Storage Location C 1 Specify Place of Storage for goods meant to be stored in FTZ, C2Y or\nCFW where there may be no out transport details.",
+    "5 Specify sequence number.",
+    "B027 cbc:Equipment ID M 1 an..13 Specify container number.",
+    "B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nTrade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "TDS41-MDS-XML-TNPDEC-M\nTrade Net Declaration.TNPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nB007\ncbc:Banker Guarantee Code\nC\n1 an..3\nSpecify BG indicator (if any).",
+    "B089\ncbc:Customs Procedure Code\nM\n1 an..7\nSpecify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application\nA069\ncac:CPCProcessing Code\nC\n5\nRepeat at most 5 times each for Processing code 1, 2 and 3.",
+    "B057\ncbc:Processing Code One\nM\n1 an..35\nSpecify processing code 1 such as:\n(1) No.",
+    "B057\ncbc:Processing Code Two\nC\n1 an..35\nSpecify processing code 2 such as:\n(1) Voyage duration for seastore permits application.",
+    "B057\ncbc:Processing Code Three\nC\n1 an..35\nSpecify processing code 3.",
+    "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\ntnp:Cargo\nM\n1\nB009\ncbc:Cargo Packing Type\nM\n1 an..3\nSpecify Cargo Packing Type (refer to STDID Code List).",
+    "A032\ncac:Release Location\nM\n1\nSpecify Place of Release.",
+    "B039\ncbc:Location Code\nM\n1 an..7\nSpecify location code (refer to STDID Code Lists).",
+    "B040\ncbc:Location Name\nC\n1 an..256\nSpecify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others).",
+    "/cac:Release Location\nA032\ncac:Receipt Location\nM\n1\nSpecify Place of Receipt.",
+    "/cac:Receipt Location\nA052\ncac:Storage Location\nC\n1\nSpecify Place of Storage for goods meant to be stored in FTZ, C2Y or\nCFW where there may be no out transport details.",
+    "5\nSpecify sequence number.",
+    "B027\ncbc:Equipment ID\nM\n1 an..13\nSpecify container number.",
+    "B069\ncbc:Size Type Code\nM\n1 an5\nSpecify container type and size using the following valid codes:\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nOFFICIAL (CLOSED)\nAM\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028 cbc:Equipment Weight Measure Numeric M 1 n..",
+    "3 Specify container weight (TNE).",
+    "A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container.",
+    "B067 cbc:Seal ID M 1 an..35 Specify the shipper seal number.",
+    "/cac:Transport Equipment Seal\n/cac:Transport Equipment\nB020 cbc:Removal Start Date C 1 n8 FORMAT: CCYYMMDD\nFor Declaration Types = removal (REM) and blanket removal (BRE),\nspecify Start Date of Cargo Removal Period.",
+    "tnp:Transport C 1 Specify Transport details.",
+    "A026 cac:Inward Transport M 1 Specify Inward transport details except for the following:\ni) goods released from or receipt into licensed premises such as\nLicensed Warehouse, Excise Factory, Zero-GST Warehouse,\nBonded Warehouse\nii) Declaration Type = BRE (Blanket)\nA060 cac:Transport Means M 1 Specify inward transport mode."
+  ],
+  "condition_logic": [
+    {
+      "id": ".8.1",
+      "if": "A062 cac:Unique Reference Number M 1 Format:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036 cbc:ID M 1 an..17 Specify Declarant entity identifier.",
+      "then": "Route for review",
+      "source": "A062 cac:Unique Reference Number M 1 Format:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036 cbc:ID M 1 an..17 Specify Declarant entity identifier."
+    },
+    {
+      "id": ".8.2",
+      "if": "B020 cbc:Date M 1 n8 Specify date of Creation.",
+      "then": "Route for review",
+      "source": "B020 cbc:Date M 1 n8 Specify date of Creation."
+    },
+    {
+      "id": ".8.3",
+      "if": "4 Specify sequence number.",
+      "then": "Route for review",
+      "source": "4 Specify sequence number."
+    },
+    {
+      "id": ".8.4",
+      "if": "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Specify Message Sender Id (must be same as the Sender Id as\nspecified in the interchange header).",
+      "then": "Route for review",
+      "source": "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Specify Message Sender Id (must be same as the Sender Id as\nspecified in the interchange header)."
+    },
+    {
+      "id": ".8.5",
+      "if": "B083 cbc:Common Access Reference M 1 an..7 TNPDEC\nB021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg.",
+      "then": "Route for review",
+      "source": "B083 cbc:Common Access Reference M 1 an..7 TNPDEC\nB021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg."
+    },
+    {
+      "id": ".8.6",
+      "if": "B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable.",
+      "then": "Route for review",
+      "source": "B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable."
+    },
+    {
+      "id": ".8.7",
+      "if": "B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks.",
+      "then": "Route for review",
+      "source": "B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks."
+    },
+    {
+      "id": ".8.8",
+      "if": "Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nRef Tag name | User defined\nS R Repr | Remarks\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "Route for review",
+      "source": "Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nRef Tag name | User defined\nS R Repr | Remarks\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".8.9",
+      "if": "A062\ncac:Unique Reference Number\nM\n1\nFormat:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036\ncbc:ID\nM\n1 an..17\nSpecify Declarant entity identifier.",
+      "then": "Route for review",
+      "source": "A062\ncac:Unique Reference Number\nM\n1\nFormat:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036\ncbc:ID\nM\n1 an..17\nSpecify Declarant entity identifier."
+    },
+    {
+      "id": ".8.10",
+      "if": "B020\ncbc:Date\nM\n1 n8\nSpecify date of Creation.",
+      "then": "Route for review",
+      "source": "B020\ncbc:Date\nM\n1 n8\nSpecify date of Creation."
+    },
+    {
+      "id": ".8.11",
+      "if": "4\nSpecify sequence number.",
+      "then": "Route for review",
+      "source": "4\nSpecify sequence number."
+    },
+    {
+      "id": ".8.12",
+      "if": "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nSpecify Message Sender Id (must be same as the Sender Id as\nspecified in the interchange header).",
+      "then": "Route for review",
+      "source": "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nSpecify Message Sender Id (must be same as the Sender Id as\nspecified in the interchange header)."
+    },
+    {
+      "id": ".8.13",
+      "if": "B083\ncbc:Common Access Reference\nM\n1 an..7\nTNPDEC\nB021\ncbc:Declaration Type\nM\n1 an..7\nSpecify Declaration Type eg.",
+      "then": "Route for review",
+      "source": "B083\ncbc:Common Access Reference\nM\n1 an..7\nTNPDEC\nB021\ncbc:Declaration Type\nM\n1 an..7\nSpecify Declaration Type eg."
+    },
+    {
+      "id": ".8.14",
+      "if": "B064\ncbc:Previous Permit Number\nC\n1 an..35\nSpecify previous Permit Number if applicable.",
+      "then": "Route for review",
+      "source": "B064\ncbc:Previous Permit Number\nC\n1 an..35\nSpecify previous Permit Number if applicable."
+    },
+    {
+      "id": ".8.15",
+      "if": "B034\ncbc:Free Text\nM\n2 an..512\nSpecify general/trader’s remarks.",
+      "then": "Route for review",
+      "source": "B034\ncbc:Free Text\nM\n2 an..512\nSpecify general/trader’s remarks."
+    },
+    {
+      "id": ".8.16",
+      "if": "OFFICIAL (CLOSED)\nAM\nB007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any).",
+      "then": "Route for review",
+      "source": "OFFICIAL (CLOSED)\nAM\nB007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any)."
+    },
+    {
+      "id": ".8.17",
+      "if": "B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application\nA069 cac:CPCProcessing Code C 5 Repeat at most 5 times each for Processing code 1, 2 and 3.",
+      "then": "Route for review",
+      "source": "B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application\nA069 cac:CPCProcessing Code C 5 Repeat at most 5 times each for Processing code 1, 2 and 3."
+    },
+    {
+      "id": ".8.18",
+      "if": "B057 cbc:Processing Code One M 1 an..35 Specify processing code 1 such as:\n(1) No.",
+      "then": "Route for review",
+      "source": "B057 cbc:Processing Code One M 1 an..35 Specify processing code 1 such as:\n(1) No."
+    },
+    {
+      "id": ".8.19",
+      "if": "B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2 such as:\n(1) Voyage duration for seastore permits application.",
+      "then": "Route for review",
+      "source": "B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2 such as:\n(1) Voyage duration for seastore permits application."
+    },
+    {
+      "id": ".8.20",
+      "if": "B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3.",
+      "then": "Route for review",
+      "source": "B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3."
+    },
+    {
+      "id": ".8.21",
+      "if": "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\ntnp:Cargo M 1\nB009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List).",
+      "then": "Route for review",
+      "source": "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\ntnp:Cargo M 1\nB009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List)."
+    },
+    {
+      "id": ".8.22",
+      "if": "A032 cac:Release Location M 1 Specify Place of Release.",
+      "then": "Route for review",
+      "source": "A032 cac:Release Location M 1 Specify Place of Release."
+    },
+    {
+      "id": ".8.23",
+      "if": "B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists).",
+      "then": "Route for review",
+      "source": "B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists)."
+    },
+    {
+      "id": ".8.24",
+      "if": "B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others).",
+      "then": "Route for review",
+      "source": "B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others)."
+    },
+    {
+      "id": ".8.25",
+      "if": "/cac:Release Location\nA032 cac:Receipt Location M 1 Specify Place of Receipt.",
+      "then": "Route for review",
+      "source": "/cac:Release Location\nA032 cac:Receipt Location M 1 Specify Place of Receipt."
+    },
+    {
+      "id": ".8.26",
+      "if": "/cac:Receipt Location\nA052 cac:Storage Location C 1 Specify Place of Storage for goods meant to be stored in FTZ, C2Y or\nCFW where there may be no out transport details.",
+      "then": "Route for review",
+      "source": "/cac:Receipt Location\nA052 cac:Storage Location C 1 Specify Place of Storage for goods meant to be stored in FTZ, C2Y or\nCFW where there may be no out transport details."
+    },
+    {
+      "id": ".8.27",
+      "if": "5 Specify sequence number.",
+      "then": "Route for review",
+      "source": "5 Specify sequence number."
+    },
+    {
+      "id": ".8.28",
+      "if": "B027 cbc:Equipment ID M 1 an..13 Specify container number.",
+      "then": "Route for review",
+      "source": "B027 cbc:Equipment ID M 1 an..13 Specify container number."
+    },
+    {
+      "id": ".8.29",
+      "if": "B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nTrade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "Route for review",
+      "source": "B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nTrade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-TNPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:13\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".8.30",
+      "if": "TDS41-MDS-XML-TNPDEC-M\nTrade Net Declaration.TNPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nB007\ncbc:Banker Guarantee Code\nC\n1 an..3\nSpecify BG indicator (if any).",
+      "then": "Route for review",
+      "source": "TDS41-MDS-XML-TNPDEC-M\nTrade Net Declaration.TNPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nB007\ncbc:Banker Guarantee Code\nC\n1 an..3\nSpecify BG indicator (if any)."
+    },
+    {
+      "id": ".8.31",
+      "if": "B089\ncbc:Customs Procedure Code\nM\n1 an..7\nSpecify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application\nA069\ncac:CPCProcessing Code\nC\n5\nRepeat at most 5 times each for Processing code 1, 2 and 3.",
+      "then": "Route for review",
+      "source": "B089\ncbc:Customs Procedure Code\nM\n1 an..7\nSpecify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application\nA069\ncac:CPCProcessing Code\nC\n5\nRepeat at most 5 times each for Processing code 1, 2 and 3."
+    },
+    {
+      "id": ".8.32",
+      "if": "B057\ncbc:Processing Code One\nM\n1 an..35\nSpecify processing code 1 such as:\n(1) No.",
+      "then": "Route for review",
+      "source": "B057\ncbc:Processing Code One\nM\n1 an..35\nSpecify processing code 1 such as:\n(1) No."
+    },
+    {
+      "id": ".8.33",
+      "if": "B057\ncbc:Processing Code Two\nC\n1 an..35\nSpecify processing code 2 such as:\n(1) Voyage duration for seastore permits application.",
+      "then": "Route for review",
+      "source": "B057\ncbc:Processing Code Two\nC\n1 an..35\nSpecify processing code 2 such as:\n(1) Voyage duration for seastore permits application."
+    },
+    {
+      "id": ".8.34",
+      "if": "B057\ncbc:Processing Code Three\nC\n1 an..35\nSpecify processing code 3.",
+      "then": "Route for review",
+      "source": "B057\ncbc:Processing Code Three\nC\n1 an..35\nSpecify processing code 3."
+    },
+    {
+      "id": ".8.35",
+      "if": "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\ntnp:Cargo\nM\n1\nB009\ncbc:Cargo Packing Type\nM\n1 an..3\nSpecify Cargo Packing Type (refer to STDID Code List).",
+      "then": "Route for review",
+      "source": "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\ntnp:Cargo\nM\n1\nB009\ncbc:Cargo Packing Type\nM\n1 an..3\nSpecify Cargo Packing Type (refer to STDID Code List)."
+    },
+    {
+      "id": ".8.36",
+      "if": "A032\ncac:Release Location\nM\n1\nSpecify Place of Release.",
+      "then": "Route for review",
+      "source": "A032\ncac:Release Location\nM\n1\nSpecify Place of Release."
+    },
+    {
+      "id": ".8.37",
+      "if": "B039\ncbc:Location Code\nM\n1 an..7\nSpecify location code (refer to STDID Code Lists).",
+      "then": "Route for review",
+      "source": "B039\ncbc:Location Code\nM\n1 an..7\nSpecify location code (refer to STDID Code Lists)."
+    },
+    {
+      "id": ".8.38",
+      "if": "B040\ncbc:Location Name\nC\n1 an..256\nSpecify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others).",
+      "then": "Route for review",
+      "source": "B040\ncbc:Location Name\nC\n1 an..256\nSpecify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others)."
+    },
+    {
+      "id": ".8.39",
+      "if": "/cac:Release Location\nA032\ncac:Receipt Location\nM\n1\nSpecify Place of Receipt.",
+      "then": "Route for review",
+      "source": "/cac:Release Location\nA032\ncac:Receipt Location\nM\n1\nSpecify Place of Receipt."
+    },
+    {
+      "id": ".8.40",
+      "if": "/cac:Receipt Location\nA052\ncac:Storage Location\nC\n1\nSpecify Place of Storage for goods meant to be stored in FTZ, C2Y or\nCFW where there may be no out transport details.",
+      "then": "Route for review",
+      "source": "/cac:Receipt Location\nA052\ncac:Storage Location\nC\n1\nSpecify Place of Storage for goods meant to be stored in FTZ, C2Y or\nCFW where there may be no out transport details."
+    },
+    {
+      "id": ".8.41",
+      "if": "5\nSpecify sequence number.",
+      "then": "Route for review",
+      "source": "5\nSpecify sequence number."
+    },
+    {
+      "id": ".8.42",
+      "if": "B027\ncbc:Equipment ID\nM\n1 an..13\nSpecify container number.",
+      "then": "Route for review",
+      "source": "B027\ncbc:Equipment ID\nM\n1 an..13\nSpecify container number."
+    },
+    {
+      "id": ".8.43",
+      "if": "B069\ncbc:Size Type Code\nM\n1 an5\nSpecify container type and size using the following valid codes:\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nOFFICIAL (CLOSED)\nAM\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028 cbc:Equipment Weight Measure Numeric M 1 n..",
+      "then": "Route for review",
+      "source": "B069\ncbc:Size Type Code\nM\n1 an5\nSpecify container type and size using the following valid codes:\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nOFFICIAL (CLOSED)\nAM\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028 cbc:Equipment Weight Measure Numeric M 1 n.."
+    },
+    {
+      "id": ".8.44",
+      "if": "3 Specify container weight (TNE).",
+      "then": "Route for review",
+      "source": "3 Specify container weight (TNE)."
+    },
+    {
+      "id": ".8.45",
+      "if": "A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container.",
+      "then": "Route for review",
+      "source": "A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container."
+    },
+    {
+      "id": ".8.46",
+      "if": "B067 cbc:Seal ID M 1 an..35 Specify the shipper seal number.",
+      "then": "Route for review",
+      "source": "B067 cbc:Seal ID M 1 an..35 Specify the shipper seal number."
+    },
+    {
+      "id": ".8.47",
+      "if": "/cac:Transport Equipment Seal\n/cac:Transport Equipment\nB020 cbc:Removal Start Date C 1 n8 FORMAT: CCYYMMDD\nFor Declaration Types = removal (REM) and blanket removal (BRE),\nspecify Start Date of Cargo Removal Period.",
+      "then": "Route for review",
+      "source": "/cac:Transport Equipment Seal\n/cac:Transport Equipment\nB020 cbc:Removal Start Date C 1 n8 FORMAT: CCYYMMDD\nFor Declaration Types = removal (REM) and blanket removal (BRE),\nspecify Start Date of Cargo Removal Period."
+    },
+    {
+      "id": ".8.48",
+      "if": "tnp:Transport C 1 Specify Transport details.",
+      "then": "Route for review",
+      "source": "tnp:Transport C 1 Specify Transport details."
+    },
+    {
+      "id": ".8.49",
+      "if": "A026 cac:Inward Transport M 1 Specify Inward transport details except for the following:\ni) goods released from or receipt into licensed premises such as\nLicensed Warehouse, Excise Factory, Zero-GST Warehouse,\nBonded Warehouse\nii) Declaration Type = BRE (Blanket)\nA060 cac:Transport Means M 1 Specify inward transport mode.",
+      "then": "Route for review",
+      "source": "A026 cac:Inward Transport M 1 Specify Inward transport details except for the following:\ni) goods released from or receipt into licensed premises such as\nLicensed Warehouse, Excise Factory, Zero-GST Warehouse,\nBonded Warehouse\nii) Declaration Type = BRE (Blanket)\nA060 cac:Transport Means M 1 Specify inward transport mode."
+    }
+  ]
+}

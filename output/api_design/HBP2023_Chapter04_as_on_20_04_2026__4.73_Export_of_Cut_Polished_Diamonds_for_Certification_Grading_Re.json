@@ -1,0 +1,39 @@
+{
+  "section": "4.73",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.73",
+      "purpose": "Retrieve knowledge payload for section 4.73",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Export-of-Cut-Polished-Diamonds-for-Certification-Grading-Re/validate",
+      "purpose": "Validate inputs and documents for Export of Cut & Polished Diamonds for Certification/Grading & Re-",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

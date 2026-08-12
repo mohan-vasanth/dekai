@@ -2806,8 +2806,6 @@ Prepared by:
 TDS41-MDS-XML-INPDEC-M
 Ref Tag name | User defined
 S R Repr | Remarks
-HEADER SECTION | |
-| inp:Header |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -2946,7 +2944,6 @@ Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-INPDEC-M
-| inp:Cargo |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -3339,8 +3336,6 @@ Prepared by:
 TDS41-MDS-XML-INPDEC-M
 Ref Tag name | User defined
 S R Repr | Remarks
-HEADER SECTION | |
-| inp:Header |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -3425,7 +3420,6 @@ Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-INPDEC-M
-| inp:Cargo |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -4935,15 +4929,6 @@ Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-INPDEC-M
-| cac:Licence |
-B064 cbc:Reference ID
-/cac:Licence | |
-cac:Supporting Document Reference | |
-B023 cbc:Document ID
-B033 cbc:Filename
-/cac:Supporting Document Reference
-INVOICE SECTION | |
-| cac:Invoice |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -5089,7 +5074,6 @@ Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-INPDEC-M
-| inp:Item |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -5785,7 +5769,6 @@ Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-INPDEC-M
-| inp:Summary |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -5945,7 +5928,6 @@ Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-INPDEC-M
-| End Declaration --------------------- | | | | | | | | | |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -6158,7 +6140,6 @@ Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-INPDEC-M
-| inp:Item |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -6248,7 +6229,6 @@ Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-INPDEC-M
-| inp:Item |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -6483,7 +6463,6 @@ Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-INPDEC-M
-| inp:Summary |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -7518,32 +7497,6 @@ Lists).');
 INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A022 cac:Total Invoice Value C 1 Specify Total Invoice value (if any).');
 INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B004 cbc:Amount M 1 n..16 Specify total invoice value (excluding other charges listed
 separately).');
-INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
-OFFICIAL (CLOSED)
-Prepared by:
-TDS41-MDS-XML-INPDEC-M
-| cac:Licence |
-B064 cbc:Reference ID
-/cac:Licence | |
-cac:Supporting Document Reference | |
-B023 cbc:Document ID
-B033 cbc:Filename
-/cac:Supporting Document Reference
-INVOICE SECTION | |
-| cac:Invoice |
-OFFICIAL (CLOSED)
-TRADENET MESSAGE
-18/11/2021 10:56
-AM
-Prepared by:
-For:
-Release Date
-18/11/2021
-Ver
-4.1
-Reference
-TRADENET
-Document Id.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-INPDEC-M
 Trade Net Declaration.INPDEC Ver2.1.doc
 OFFICIAL (CLOSED)
@@ -7663,7 +7616,6 @@ Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-INPDEC-M
-| inp:Item |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -8273,7 +8225,6 @@ Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-INPDEC-M
-| inp:Summary |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56
@@ -8430,7 +8381,6 @@ Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-INPDEC-M
-| End Declaration --------------------- | | | | | | | | | |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 10:56

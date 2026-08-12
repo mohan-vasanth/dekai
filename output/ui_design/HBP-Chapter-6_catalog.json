@@ -60,6 +60,7 @@
     "Exports_through_Exhibitions_Export_Promotion_Tour_exceptions",
     "Personal_Carriage_of_Gems_and_Jewellery_as_samples_for_Export_overview",
     "Personal_Carriage_of_Gems_and_Jewellery_as_samples_for_Export_submission",
+    "Personal_Carriage_of_Gems_and_Jewellery_as_samples_for_Export_exceptions",
     "Export_through_Show_rooms_abroad_Duty_free_shops_overview",
     "Export_through_Show_rooms_abroad_Duty_free_shops_submission",
     "Export_through_Show_rooms_abroad_Duty_free_shops_exceptions",
@@ -73,6 +74,7 @@
     "Replacement_Repair_of_Imported_Indigenous_Goods_exceptions",
     "Samples_overview",
     "Samples_submission",
+    "Samples_exceptions",
     "Donation_of_Computer_and_Computer_Peripherals_overview",
     "Donation_of_Computer_and_Computer_Peripherals_submission",
     "Distinct_Identity_overview",
@@ -80,6 +82,7 @@
     "Distinct_Identity_exceptions",
     "Unit_Approval_Committee_for_EOUs_overview",
     "Unit_Approval_Committee_for_EOUs_submission",
+    "Unit_Approval_Committee_for_EOUs_exceptions",
     "Approval_of_EHTP_STP_BTP_Units_overview",
     "Approval_of_EHTP_STP_BTP_Units_submission",
     "Approval_of_EHTP_STP_BTP_Units_exceptions",
@@ -860,10 +863,10 @@
             "section_title",
             "dta_flag",
             "and_flag",
-            "for_flag",
-            "hbp_flag",
-            "vol_flag",
-            "are_flag"
+            "nfe_flag",
+            "its_flag",
+            "per_flag",
+            "ces_flag"
           ]
         },
         {
@@ -1131,7 +1134,17 @@
             "cut_flag",
             "eou_flag",
             "has_flag",
-            "two_flag"
+            "one_flag"
+          ]
+        },
+        {
+          "screen_id": "Personal_Carriage_of_Gems_and_Jewellery_as_samples_for_Export_exceptions",
+          "name": "Personal Carriage of Gems and Jewellery as samples for Export Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
           ]
         }
       ]
@@ -1353,6 +1366,16 @@
             "and_flag",
             "dta_flag"
           ]
+        },
+        {
+          "screen_id": "Samples_exceptions",
+          "name": "Samples Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
+          ]
         }
       ]
     },
@@ -1472,10 +1495,20 @@
             "section_title",
             "for_flag",
             "may_flag",
+            "ara_flag",
             "ftp_flag",
-            "and_flag",
-            "fob_flag",
-            "not_flag"
+            "sam_flag",
+            "les_flag"
+          ]
+        },
+        {
+          "screen_id": "Unit_Approval_Committee_for_EOUs_exceptions",
+          "name": "Unit Approval Committee for EOUs Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
           ]
         }
       ]
@@ -1646,8 +1679,8 @@
             "per_flag",
             "ftp_flag",
             "and_flag",
-            "d&r_flag",
-            "act_flag"
+            "ead_flag",
+            "wit_flag"
           ]
         }
       ]

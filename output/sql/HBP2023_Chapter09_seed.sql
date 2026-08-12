@@ -1,4 +1,4 @@
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter09.pdf', '9', 'Promoting Cross Border Trade in Digital Economy', '9.00', 'Policy', '9.00 Policy
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter09.pdf', '9', 'Promoting Cross Border Trade in Digital Economy Promoting Cross Border Trade in Digital Economy', '9.00', 'Policy', '9.00 Policy
 The given chapter elaborates on the procedures in relation to the Policy as
 notified under ‘Cross Border E-Commerce from India’ i.e., Chapter 9 of the
 Foreign Trade Policy.', 'Indha Policy section-la, 9.00 Policy
@@ -54,7 +54,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.00', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.00', 'tags', '9.00');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.00', 'tags', 'Policy');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.00', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter09.pdf', '9', 'Promoting Cross Border Trade in Digital Economy', '9.01', 'Foreign Trade Policy Benefits/Schemes to e-Commerce', '9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter09.pdf', '9', 'Promoting Cross Border Trade in Digital Economy Promoting Cross Border Trade in Digital Economy', '9.01', 'Foreign Trade Policy Benefits/Schemes to e-Commerce', '9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce
 Exporters
 Suitable IT enablement shall be undertaken to ensure seamless delivery of
 Foreign Trade Policy Benefits/Schemes to e-Commerce Exporters.', 'Indha Foreign Trade Policy Benefits/Schemes to e-Commerce section-la, 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce
@@ -101,7 +101,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.01', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.01', 'tags', 'Foreign Trade Policy Benefits/Schemes to e-Commerce');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.01', 'tags', 'business-rule');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.01', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter09.pdf', '9', 'Promoting Cross Border Trade in Digital Economy', '9.02', 'E-COMMERCE EXPORT HUBs (ECEHs)', 'Application for creation/notification of an ECEH area shall be made
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter09.pdf', '9', 'Promoting Cross Border Trade in Digital Economy Promoting Cross Border Trade in Digital Economy', '9.02', 'E-COMMERCE EXPORT HUBs (ECEHs)', 'Application for creation/notification of an ECEH area shall be made
 to the DGFT.', 'Indha E-COMMERCE EXPORT HUBs (ECEHs) section-la, application for creation/notification of an ECEH area kandippa be made
 to the DGFT.', '9.02 E-COMMERCE EXPORT HUBs (ECEHs)
 a) Creation of ECEH
@@ -126,6 +126,34 @@ ii. DGFT shall notify procedures for supervision and inspections at
 ECEHs. An independent evaluation and assessment mechanism may also be
 developed.
 pg. 168
+| | | | | | | Chapter-9
+Prom | oti | ng | | Cro | ss Border T | rade in Digita | l Economy
+9.00 Policy | | | | | | |
+The given chap | ter | ela | b | ora | tes on the proce | dures in relation to | the Policy as
+notified under | ‘Cr | oss | | Bor | der E-Commerce | from India’ i.e., Ch | apter 9 of the
+Foreign Trade | Pol | icy. | | | | |
+9.01 Foreign | Tr | ade | P | oli | cy Benefits/Sch | emes to e-Comme | rce
+Exporters | | | | | | |
+Suitable IT ena | ble | me | n | t sh | all be undertake | n to ensure seamle | ss delivery of
+Foreign Trade | Pol | icy | B | ene | fits/Schemes to e | -Commerce Expor | ters.
+9.02 E-COMM | ER | CE | E | XP | ORT HUBs (ECEH | s) |
+a) Creation o | f E | CEH | | | | |
+i. Applicati | on | for | c | rea | tion/notification | of an ECEH area | shall be made
+to the DGFT. | | | | | | |
+ii. The auth | ori | ty f | o | r a | pproval for an E | CEH vests with the | DGFT. DGFT
+shall constitut | e | a co | | mm | ittee for evaluat | ion of ECEH app | lications. The
+Committee sha | ll h | ave | | a m | ember from the | Department of Re | venue besides
+any other mem | be | rs as | | req | uired from time- | to-time. |
+iii. DGFT m | ay | spe | c | ify | export products | or markets, which | shall not be
+eligible for EC | EH | ope | r | atio | ns. The negative | list of items that ca | nnot be dealt
+within the ECE | Hs | shal | l | be | notified separate | ly. |
+b) Administ | rati | on | o | f E | CEH | |
+i. The ECE | H d | evel | o | pe | r shall provide an | annual statement | of accounts as
+per instruction | s in | thi | s | reg | ard. | |
+ii. DGFT sh | all | no | ti | fy | procedures for | supervision and i | nspections at
+ECEHs. An ind | epe | nde | n | t ev | aluation and ass | essment mechanis | m may also be
+developed. | | | | | | |
+| | | | | | | pg. 168
 pg. 168
 Chapter-9
 Promoting Cross Border Trade in Digital Economy
@@ -150,7 +178,7 @@ per instructions in this regard.
 ii.
 DGFT shall notify procedures for supervision and inspections at
 ECEHs. An independent evaluation and assessment mechanism may also be
-developed.', '[2]', '["for", "the", "any", "iii", "may", "not", "per", "and", "HUBs", "ECEH", "area", "made", "DGFT", "with", "have", "from", "list", "that", "this", "also"]', 'Provide knowledge guidance for E-COMMERCE EXPORT HUBs (ECEHs).', '["9.02", "E-COMMERCE EXPORT HUBs (ECEHs)", "business-rule", "document-driven", "dgft"]');
+developed.', '[2]', '["for", "the", "any", "iii", "may", "not", "per", "and", "oti", "Cro", "ter", "ela", "ora", "tes", "oss", "Bor", "der", "Pol", "icy", "ade"]', 'Provide knowledge guidance for E-COMMERCE EXPORT HUBs (ECEHs).', '["9.02", "E-COMMERCE EXPORT HUBs (ECEHs)", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH9-SEC9_02-R001', '9.02', 'Application for creation/notification of an ECEH area shall be made
 to the DGFT.', 'business_rule', 'E-COMMERCE EXPORT HUBs (ECEHs)', 'Application for creation/notification of an ECEH area shall be made
 to the DGFT.', 'Application for creation/notification of an ECEH area shall be made
@@ -170,17 +198,41 @@ eligible for ECEH operations.', 'business_rule', 'E-COMMERCE EXPORT HUBs (ECEHs)
 ECEHs.', 'DGFT may specify export products or markets, which shall not be
 eligible for ECEH operations.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs).');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH9-SEC9_02-R005', '9.02', 'The negative list of items that cannot be dealt
-within the ECEHs shall be notified separately.', 'business_rule', 'E-COMMERCE EXPORT HUBs (ECEHs)', 'DGFT shall notify procedures for supervision and inspections at
-ECEHs.', 'The negative list of items that cannot be dealt
+within the ECEHs shall be notified separately.', 'business_rule', 'E-COMMERCE EXPORT HUBs (ECEHs)', '168
+| | | | | | | Chapter-9
+Prom | oti | ng | | Cro | ss Border T | rade in Digita | l Economy
+9.00 Policy | | | | | | |
+The given chap | ter | ela | b | ora | tes on the proce | dures in relation to | the Policy as
+notified under | ‘Cr | oss | | Bor | der E-Commerce | from India’ i.e., Ch | apter 9 of the
+Foreign Trade | Pol | icy.', 'The negative list of items that cannot be dealt
 within the ECEHs shall be notified separately.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs).');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH9-SEC9_02-R006', '9.02', 'The ECEH developer shall provide an annual statement of accounts as
-per instructions in this regard.', 'business_rule', 'E-COMMERCE EXPORT HUBs (ECEHs)', 'DGFT shall notify procedures for supervision and inspections at
-ECEHs.', 'The ECEH developer shall provide an annual statement of accounts as
+per instructions in this regard.', 'business_rule', 'E-COMMERCE EXPORT HUBs (ECEHs)', 'Applicati | on | for | c | rea | tion/notification | of an ECEH area | shall be made
+to the DGFT.', 'The ECEH developer shall provide an annual statement of accounts as
 per instructions in this regard.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs).');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH9-SEC9_02-R007', '9.02', 'DGFT shall notify procedures for supervision and inspections at
-ECEHs.', 'business_rule', 'E-COMMERCE EXPORT HUBs (ECEHs)', 'DGFT shall notify procedures for supervision and inspections at
-ECEHs.', 'DGFT shall notify procedures for supervision and inspections at
+ECEHs.', 'business_rule', 'E-COMMERCE EXPORT HUBs (ECEHs)', 'DGFT m | ay | spe | c | ify | export products | or markets, which | shall not be
+eligible for EC | EH | ope | r | atio | ns.', 'DGFT shall notify procedures for supervision and inspections at
 ECEHs.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH9-SEC9_02-R008', '9.02', 'Applicati | on | for | c | rea | tion/notification | of an ECEH area | shall be made
+to the DGFT.', 'business_rule', 'E-COMMERCE EXPORT HUBs (ECEHs)', 'The negative | list of items that ca | nnot be dealt
+within the ECE | Hs | shal | l | be | notified separate | ly.', '| | | | |
+9.01 Foreign | Tr | ade | P | oli | cy Benefits/Sch | emes to e-Comme | rce
+Exporters | | | | | | |
+Suitable IT ena | ble | me | n | t sh | all be undertake | n to ensure seamle | ss delivery of
+Foreign Trade | Pol | icy | B | ene | fits/Schemes to e | -Commerce Expor | ters.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH9-SEC9_02-R009', '9.02', 'DGFT
+shall constitut | e | a co | | mm | ittee for evaluat | ion of ECEH app | lications.', 'business_rule', 'E-COMMERCE EXPORT HUBs (ECEHs)', 'The negative | list of items that ca | nnot be dealt
+within the ECE | Hs | shal | l | be | notified separate | ly.', 'Applicati | on | for | c | rea | tion/notification | of an ECEH area | shall be made
+to the DGFT.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH9-SEC9_02-R010', '9.02', 'DGFT m | ay | spe | c | ify | export products | or markets, which | shall not be
+eligible for EC | EH | ope | r | atio | ns.', 'business_rule', 'E-COMMERCE EXPORT HUBs (ECEHs)', 'The negative | list of items that ca | nnot be dealt
+within the ECE | Hs | shal | l | be | notified separate | ly.', 'DGFT
+shall constitut | e | a co | | mm | ittee for evaluat | ion of ECEH app | lications.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs).');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH9-SEC9_02-R011', '9.02', 'The ECE | H d | evel | o | pe | r shall provide an | annual statement | of accounts as
+per instruction | s in | thi | s | reg | ard.', 'business_rule', 'E-COMMERCE EXPORT HUBs (ECEHs)', 'The negative | list of items that ca | nnot be dealt
+within the ECE | Hs | shal | l | be | notified separate | ly.', 'DGFT m | ay | spe | c | ify | export products | or markets, which | shall not be
+eligible for EC | EH | ope | r | atio | ns.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 9.02 - E-COMMERCE EXPORT HUBs (ECEHs).');
 INSERT INTO conditions (section_code, condition_text) VALUES ('9.02', 'Application for creation/notification of an ECEH area shall be made
 to the DGFT.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('9.02', 'DGFT may specify export products or markets, which shall not be
@@ -189,16 +241,33 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('9.02', 'The negat
 within the ECEHs shall be notified separately.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('9.02', 'DGFT shall notify procedures for supervision and inspections at
 ECEHs.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('9.02', '168
+| | | | | | | Chapter-9
+Prom | oti | ng | | Cro | ss Border T | rade in Digita | l Economy
+9.00 Policy | | | | | | |
+The given chap | ter | ela | b | ora | tes on the proce | dures in relation to | the Policy as
+notified under | ‘Cr | oss | | Bor | der E-Commerce | from India’ i.e., Ch | apter 9 of the
+Foreign Trade | Pol | icy.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('9.02', 'Applicati | on | for | c | rea | tion/notification | of an ECEH area | shall be made
+to the DGFT.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('9.02', 'DGFT m | ay | spe | c | ify | export products | or markets, which | shall not be
+eligible for EC | EH | ope | r | atio | ns.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('9.02', 'The negative | list of items that ca | nnot be dealt
+within the ECE | Hs | shal | l | be | notified separate | ly.');
 INSERT INTO documents (section_code, document_name) VALUES ('9.02', 'Application for creation/notification of an ECEH area shall be made
 to the DGFT.');
 INSERT INTO documents (section_code, document_name) VALUES ('9.02', 'DGFT
 shall constitute a committee for evaluation of ECEH applications.');
 INSERT INTO documents (section_code, document_name) VALUES ('9.02', 'The ECEH developer shall provide an annual statement of accounts as
 per instructions in this regard.');
+INSERT INTO documents (section_code, document_name) VALUES ('9.02', 'The ECE | H d | evel | o | pe | r shall provide an | annual statement | of accounts as
+per instruction | s in | thi | s | reg | ard.');
 INSERT INTO authorities (section_code, authority_name) VALUES ('9.02', 'DGFT');
 INSERT INTO authorities (section_code, authority_name) VALUES ('9.02', 'The authority for approval for an ECEH vests with the DGFT');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('9.02', 'The negative list of items that cannot be dealt
 within the ECEHs shall be notified separately.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('9.02', 'The negative | list of items that ca | nnot be dealt
+within the ECE | Hs | shal | l | be | notified separate | ly.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('9.02', 1, 'Evaluate condition: Application for creation/notification of an ECEH area shall be made
 to the DGFT.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('9.02', 2, 'Evaluate condition: DGFT may specify export products or markets, which shall not be
@@ -220,26 +289,35 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'not');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'per');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'and');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'HUBs');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'ECEH');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'area');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'made');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'DGFT');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'with');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'have');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'from');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'list');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'that');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'this');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'also');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'oti');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'Cro');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'ter');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'ela');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'ora');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'tes');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'oss');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'Bor');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'der');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'Pol');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'icy');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'keywords', 'ade');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'tags', '9.02');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'tags', 'E-COMMERCE EXPORT HUBs (ECEHs)');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'tags', 'business-rule');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'tags', 'document-driven');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9.02', 'tags', 'dgft');
+INSERT INTO glossary (term, definition) VALUES ('CE', 'Referenced in section title ''E-COMMERCE EXPORT HUBs (ECEHs)''.');
+INSERT INTO glossary (term, definition) VALUES ('CEH', 'Referenced in section title ''E-COMMERCE EXPORT HUBs (ECEHs)''.');
+INSERT INTO glossary (term, definition) VALUES ('COMM', 'Referenced in section title ''E-COMMERCE EXPORT HUBs (ECEHs)''.');
 INSERT INTO glossary (term, definition) VALUES ('COMMERCE', 'Referenced in section title ''E-COMMERCE EXPORT HUBs (ECEHs)''.');
 INSERT INTO glossary (term, definition) VALUES ('DGFT', 'Referenced in context: Application for creation/notification of an ECEH area shall be made
 to the DGFT.');
+INSERT INTO glossary (term, definition) VALUES ('EC', 'Referenced in section title ''E-COMMERCE EXPORT HUBs (ECEHs)''.');
+INSERT INTO glossary (term, definition) VALUES ('ECE', 'Referenced in section title ''E-COMMERCE EXPORT HUBs (ECEHs)''.');
 INSERT INTO glossary (term, definition) VALUES ('ECEH', 'Referenced in section title ''E-COMMERCE EXPORT HUBs (ECEHs)''.');
+INSERT INTO glossary (term, definition) VALUES ('EH', 'Referenced in section title ''E-COMMERCE EXPORT HUBs (ECEHs)''.');
+INSERT INTO glossary (term, definition) VALUES ('ER', 'Referenced in section title ''E-COMMERCE EXPORT HUBs (ECEHs)''.');
 INSERT INTO glossary (term, definition) VALUES ('EXPORT', 'Referenced in section title ''E-COMMERCE EXPORT HUBs (ECEHs)''.');
 INSERT INTO glossary (term, definition) VALUES ('IT', 'Referenced in section title ''Foreign Trade Policy Benefits/Schemes to e-Commerce''.');
+INSERT INTO glossary (term, definition) VALUES ('ORT', 'Referenced in section title ''E-COMMERCE EXPORT HUBs (ECEHs)''.');
+INSERT INTO glossary (term, definition) VALUES ('XP', 'Referenced in section title ''E-COMMERCE EXPORT HUBs (ECEHs)''.');

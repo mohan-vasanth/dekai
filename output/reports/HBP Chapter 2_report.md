@@ -4,14 +4,14 @@
 - source_pdf: HBP Chapter 2.pdf
 - page_count: 52
 - section_count: 100
-- rule_count: 527
-- condition_count: 397
-- workflow_count: 611
-- validation_count: 262
-- exception_count: 90
-- timeline_count: 123
-- authority_count: 203
-- glossary_count: 199
+- rule_count: 654
+- condition_count: 587
+- workflow_count: 676
+- validation_count: 360
+- exception_count: 121
+- timeline_count: 168
+- authority_count: 221
+- glossary_count: 344
 
 ## Section Metrics
 | section | title | rules | conditions | validations | exceptions | timelines | authorities | documents |
@@ -20,58 +20,58 @@
 | 2.01 | Coverage | 0 | 1 | 1 | 0 | 0 | 0 | 2 |
 | 2.02 | Countries of Imports/Exports | 0 | 4 | 0 | 2 | 0 | 0 | 2 |
 | 2.03 | Filing of Application | 0 | 2 | 1 | 0 | 0 | 1 | 2 |
-| 2.04 | Territorial Jurisdiction of RA | 1 | 1 | 1 | 1 | 0 | 4 | 1 |
+| 2.04 | Territorial Jurisdiction of RA | 2 | 7 | 3 | 3 | 0 | 4 | 6 |
 | 2.05 | Incomplete Application | 0 | 3 | 2 | 0 | 1 | 0 | 3 |
 | 2.06 | Application Fee | 0 | 0 | 0 | 1 | 0 | 0 | 1 |
-| 2.07 | IEC Number Exempted Categories | 5 | 11 | 3 | 12 | 0 | 7 | 2 |
+| 2.07 | IEC Number Exempted Categories | 5 | 18 | 4 | 15 | 1 | 8 | 3 |
 | 2.08 | Application for IEC | 5 | 5 | 5 | 2 | 1 | 1 | 6 |
 | 2.09 | IEC Format | 0 | 1 | 0 | 0 | 0 | 3 | 1 |
 | 2.10 | Validity of IEC | 1 | 1 | 1 | 2 | 0 | 0 | 0 |
 | 2.11 | Validity of IEC for EOUs / SEZs | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 2.12 | One PAN-One IEC | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
-| 2.13 | Surrender of IEC | 2 | 3 | 2 | 0 | 0 | 2 | 0 |
+| 2.13 | Surrender of IEC | 9 | 8 | 9 | 3 | 1 | 4 | 4 |
 | 2.14 | Modification of IEC | 4 | 6 | 4 | 0 | 3 | 6 | 4 |
-| 2.15 | Profile of Importer / Exporter | 1 | 3 | 2 | 0 | 1 | 0 | 2 |
-| 2.16 | Validity period of Authorisation/ Licence / Certificate / | 2 | 6 | 2 | 5 | 5 | 4 | 3 |
+| 2.15 | Profile of Importer / Exporter | 5 | 9 | 7 | 0 | 3 | 0 | 7 |
+| 2.16 | Validity period of Authorisation/ Licence / Certificate / | 3 | 10 | 3 | 5 | 6 | 4 | 3 |
 | 2.17 | Date of reckoning of Import / Export | 1 | 0 | 1 | 1 | 0 | 0 | 0 |
 | 2.18 | Validity of Authorisation/ Licence for import/export | 4 | 1 | 4 | 1 | 0 | 0 | 1 |
 | 2.19 | Validity of Scrips | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
-| 2.20 | Revalidation of Import / Export Licence Certificate/ Authorisation / | 8 | 6 | 13 | 4 | 12 | 10 | 2 |
+| 2.20 | Revalidation of Import / Export Licence Certificate/ Authorisation / | 11 | 9 | 16 | 6 | 15 | 11 | 2 |
 | 2.21 | Authority to Revalidate | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | 2.22 | Application for Revalidation | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 2.23 | Duplicate copies of Export / Import Authorisation | 6 | 5 | 8 | 3 | 8 | 8 | 3 |
+| 2.23 | Duplicate copies of Export / Import Authorisation | 10 | 10 | 14 | 6 | 13 | 8 | 6 |
 | 2.24 | Documents required for duplicate copy of freely transferable | 0 | 2 | 2 | 0 | 0 | 0 | 6 |
 | 2.25 | Exception | 2 | 1 | 2 | 1 | 1 | 1 | 1 |
 | 2.26 | Mechanism for issuing duplicates | 1 | 1 | 1 | 0 | 1 | 1 | 0 |
 | 2.27 | Validity of duplicate Authorisation | 2 | 1 | 2 | 0 | 0 | 0 | 0 |
 | 2.28 | Applicability of the provision | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
-| 2.29 | Execution of BG/Legal undertaking for Advance Authorisation/ | 7 | 6 | 7 | 0 | 3 | 13 | 6 |
+| 2.29 | Execution of BG/Legal undertaking for Advance Authorisation/ | 10 | 10 | 10 | 1 | 4 | 13 | 10 |
 | 2.29 | A Any firm/ company coming under the NCLT proceedings shall make a | 2 | 1 | 2 | 0 | 1 | 1 | 2 |
-| 2.30 | Advance Payment | 5 | 4 | 5 | 1 | 2 | 11 | 4 |
+| 2.30 | Advance Payment | 11 | 8 | 11 | 1 | 4 | 11 | 7 |
 | 2.31 | Import under Lease Financing | 2 | 1 | 2 | 0 | 0 | 0 | 0 |
 | 2.32 | Submission of Certified Copies of Documents | 0 | 1 | 0 | 0 | 0 | 2 | 1 |
 | 2.33 | Warehousing Facility | 2 | 4 | 3 | 1 | 1 | 3 | 5 |
-| 2.34 | Free Sale and Commerce Certificate | 4 | 10 | 4 | 2 | 2 | 1 | 8 |
+| 2.34 | Free Sale and Commerce Certificate | 7 | 16 | 7 | 3 | 4 | 2 | 12 |
 | 2.35 | End User Certificate | 3 | 4 | 2 | 0 | 1 | 4 | 3 |
-| 2.36 | Imports under Indo-US Memorandum of Understanding | 9 | 15 | 7 | 4 | 1 | 3 | 14 |
-| 2.37 | Import of Consumer or Other goods as Gifts | 7 | 8 | 7 | 3 | 0 | 3 | 7 |
+| 2.36 | Imports under Indo-US Memorandum of Understanding | 14 | 28 | 10 | 5 | 2 | 3 | 21 |
+| 2.37 | Import of Consumer or Other goods as Gifts | 10 | 15 | 10 | 5 | 0 | 3 | 12 |
 | 2.38 | Import of Cheque Books /Ticket Forms etc. | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 2.39 | Import of Reconditioned/ Second Hand Aircraft Spares | 1 | 1 | 1 | 0 | 0 | 0 | 0 |
 | 2.40 | Import of Replacement Goods | 2 | 3 | 2 | 2 | 3 | 1 | 2 |
-| 2.41 | Other Conditions for Import of Replacement Goods | 2 | 4 | 2 | 0 | 0 | 3 | 4 |
+| 2.41 | Other Conditions for Import of Replacement Goods | 5 | 9 | 5 | 0 | 2 | 3 | 5 |
 | 2.42 | Import of Overseas Office Equipment | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 2.43 | Import of Ammunition by Licensed /Authorised Arms Dealers | 4 | 4 | 2 | 0 | 2 | 1 | 4 |
-| 2.44 | Duty Free Imports for specific Sectors | 8 | 5 | 8 | 0 | 0 | 3 | 4 |
+| 2.44 | Duty Free Imports for specific Sectors | 9 | 10 | 9 | 0 | 0 | 4 | 7 |
 | 2.45 | Import under Govt. to Govt. Agreements | 0 | 0 | 0 | 0 | 0 | 2 | 0 |
-| 2.46 | Transfer of Imported Goods | 9 | 13 | 10 | 0 | 4 | 3 | 3 |
+| 2.46 | Transfer of Imported Goods | 12 | 18 | 13 | 0 | 4 | 3 | 4 |
 | 2.47 | Import /Export of Restricted Items | 0 | 0 | 0 | 0 | 0 | 2 | 2 |
-| 2.48 | EXIM Facilitation Committee | 6 | 8 | 5 | 2 | 6 | 9 | 0 |
-| 2.49 | Import of Restricted items required by Hotels, Restaurants, Travel | 9 | 9 | 11 | 3 | 5 | 6 | 2 |
+| 2.48 | EXIM Facilitation Committee | 6 | 12 | 5 | 2 | 10 | 9 | 1 |
+| 2.49 | Import of Restricted items required by Hotels, Restaurants, Travel | 14 | 13 | 16 | 5 | 7 | 6 | 2 |
 | 2.50 | Import of Restricted items for R&D by units of Government | 0 | 0 | 1 | 1 | 0 | 2 | 0 |
 | 2.51 | Import of Metallic Waste and Scrap | 11 | 16 | 11 | 2 | 1 | 2 | 11 |
-| 1 | Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7. | 9 | 14 | 7 | 3 | 1 | 2 | 3 |
-| 2.52 | Recognition as Pre-shipment Inspection Agency (PSIA) and issuance | 7 | 9 | 8 | 5 | 5 | 3 | 8 |
-| 2.53 | Responsibility and Liability of PSIA and Importer | 7 | 6 | 8 | 0 | 1 | 4 | 9 |
+| 1 | Chennai, 2. Cochin, 3. Ennore, 4. JNPT, 5. Kandla, 6. Mormugao, 7. | 13 | 20 | 9 | 5 | 2 | 3 | 3 |
+| 2.52 | Recognition as Pre-shipment Inspection Agency (PSIA) and issuance | 9 | 14 | 11 | 5 | 8 | 3 | 11 |
+| 2.53 | Responsibility and Liability of PSIA and Importer | 11 | 8 | 13 | 0 | 1 | 5 | 12 |
 | 2.54 | Import of other kinds of metallic waste and scraps | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 2.55 | Imports of seconds and defectives | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 2.56 | Services of Inspection and Certification Agencies | 1 | 6 | 1 | 1 | 0 | 5 | 0 |
@@ -79,40 +79,40 @@
 | 2.58 | Eligible entities for allocation of quota | 2 | 7 | 3 | 1 | 0 | 0 | 0 |
 | 2.59 | Conditions applicable on availing quotas | 5 | 7 | 6 | 1 | 4 | 4 | 3 |
 | 2.60 | Exhibits Required for National and International Exhibitions or Fairs | 2 | 0 | 2 | 2 | 4 | 1 | 0 |
-| 2.61 | Sale of Exhibits | 7 | 6 | 6 | 2 | 7 | 4 | 1 |
+| 2.61 | Sale of Exhibits | 9 | 8 | 8 | 2 | 9 | 4 | 2 |
 | 2.62 | Import of Samples | 5 | 3 | 5 | 2 | 0 | 1 | 0 |
 | 2.63 | Exports of Samples / Exhibits | 2 | 0 | 2 | 0 | 0 | 1 | 2 |
 | 2.64 | Export Policy | 1 | 1 | 0 | 1 | 0 | 0 | 0 |
 | 2.65 | Gifts / Spares / Replacement Goods | 0 | 1 | 0 | 0 | 0 | 1 | 1 |
-| 2.66 | Export by post | 2 | 3 | 2 | 0 | 1 | 3 | 1 |
+| 2.66 | Export by post | 3 | 9 | 3 | 1 | 2 | 3 | 2 |
 | 2.67 | Direct negotiation of export documents | 2 | 2 | 2 | 0 | 0 | 0 | 1 |
 | 2.68 | Application for Grant of Export Authorisation/Certificate/ | 1 | 1 | 1 | 0 | 0 | 1 | 2 |
 | 2.69 | Export of Items under (STE) | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
-| 2.70 | Free of Cost Exports for status holders | 4 | 3 | 4 | 0 | 4 | 0 | 0 |
+| 2.70 | Free of Cost Exports for status holders | 5 | 6 | 6 | 0 | 6 | 1 | 3 |
 | 2.71 | Admissibility of benefits on payment through insurance cover | 0 | 4 | 2 | 0 | 1 | 4 | 4 |
 | 2.72 | RBI write-off on export proceeds realization | 1 | 1 | 1 | 1 | 0 | 0 | 1 |
 | 2.73 | Conversion of Shipping Bill from one Scheme to another | 0 | 1 | 0 | 0 | 1 | 3 | 1 |
-| 2.74 | Offsetting of Export Proceeds | 1 | 4 | 0 | 0 | 0 | 0 | 1 |
+| 2.74 | Offsetting of Export Proceeds | 2 | 9 | 1 | 1 | 1 | 4 | 4 |
 | 2.75 | Quality Certification | 2 | 5 | 2 | 0 | 0 | 1 | 2 |
-| 2.76 | Track and Trace system for export of drug formulations | 6 | 17 | 6 | 7 | 4 | 3 | 5 |
+| 2.76 | Track and Trace system for export of drug formulations | 11 | 31 | 11 | 10 | 5 | 4 | 8 |
 | 2.77 | Registering Authorities | 0 | 4 | 0 | 0 | 0 | 4 | 0 |
 | 2.78 | Criteria for EPCs as Registering Authorities | 4 | 1 | 4 | 1 | 3 | 5 | 0 |
-| 2.79 | Registration- cum- Membership Certificate (RCMC) | 2 | 6 | 2 | 1 | 0 | 1 | 3 |
+| 2.79 | Registration- cum- Membership Certificate (RCMC) | 6 | 11 | 6 | 3 | 0 | 2 | 3 |
 | 2.80 | Applying for RCMC | 1 | 5 | 1 | 2 | 2 | 0 | 2 |
 | 2.81 | Validity Period of RCMC | 1 | 1 | 1 | 1 | 1 | 0 | 0 |
-| 2.82 | Intimation Regarding Change in Constitution of Business of RCMC | 2 | 2 | 2 | 1 | 1 | 0 | 1 |
+| 2.82 | Intimation Regarding Change in Constitution of Business of RCMC | 6 | 7 | 6 | 3 | 4 | 0 | 2 |
 | 2.83 | De- Registration | 2 | 3 | 2 | 0 | 1 | 0 | 0 |
 | 2.84 | Appeal Against De-registration | 1 | 0 | 1 | 0 | 1 | 2 | 0 |
 | 2.85 | Directives of DGFT | 0 | 0 | 0 | 0 | 0 | 2 | 0 |
 | 2.86 | Identity Cards for Importers /Exporters | 0 | 3 | 0 | 0 | 1 | 3 | 3 |
-| 2.87 | Interview with authorised Officers | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 2.88 | Free Trade Agreements (FTAs) / Preferential Trade Agreements | 0 | 6 | 0 | 1 | 1 | 1 | 4 |
-| 2.89 | Unilateral Tariff Preferences | 1 | 25 | 1 | 1 | 2 | 3 | 10 |
-| 2.90 | Certificates of Origin (Co O) | 1 | 12 | 1 | 0 | 1 | 2 | 7 |
+| 2.87 | Interview with authorised Officers | 5 | 7 | 3 | 0 | 2 | 2 | 3 |
+| 2.88 | Free Trade Agreements (FTAs) / Preferential Trade Agreements | 0 | 7 | 0 | 1 | 1 | 2 | 4 |
+| 2.89 | Unilateral Tariff Preferences | 1 | 35 | 1 | 1 | 3 | 3 | 11 |
+| 2.90 | Certificates of Origin (Co O) | 1 | 23 | 1 | 0 | 2 | 2 | 10 |
 | 2.91 | Rules of Origin (Preferential) | 2 | 5 | 2 | 0 | 0 | 0 | 4 |
-| 2.92 | TRQ under FTA/CECA | 2 | 19 | 0 | 0 | 10 | 2 | 2 |
-| 2.93 | Rules of Origin (Non-Preferential) | 8 | 16 | 12 | 0 | 1 | 1 | 14 |
+| 2.92 | TRQ under FTA/CECA | 2 | 25 | 0 | 0 | 10 | 2 | 3 |
+| 2.93 | Rules of Origin (Non-Preferential) | 11 | 23 | 18 | 0 | 1 | 1 | 20 |
 | 2.94 | Approved Exporter Scheme (AES) for self-certification | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | 2.95 | Application to PIC | 1 | 0 | 1 | 0 | 0 | 1 | 1 |
 | 2.96 | Application to PRC | 4 | 1 | 4 | 0 | 0 | 3 | 3 |
-| 2.97 | Application to EPCG Committee | 1 | 1 | 4 | 0 | 0 | 5 | 2 |
+| 2.97 | Application to EPCG Committee | 3 | 4 | 9 | 0 | 0 | 5 | 5 |

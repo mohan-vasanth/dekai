@@ -1,0 +1,37 @@
+{
+  "section": "5.1",
+  "ui": [
+    {
+      "screen_id": "Abbreviations_overview",
+      "name": "Abbreviations Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Abbreviations_submission",
+      "name": "Abbreviations Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "pte_flag",
+        "ltd_flag",
+        "xml_flag",
+        "ftz_flag",
+        "gst_flag",
+        "and_flag"
+      ]
+    }
+  ]
+}

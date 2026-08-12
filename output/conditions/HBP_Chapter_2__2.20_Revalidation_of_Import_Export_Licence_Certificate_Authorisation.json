@@ -1,0 +1,70 @@
+{
+  "section": "2.20",
+  "conditions": [
+    "2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ).",
+    "(c) However, revalidation of freely transferable authorisation / duty credit scrips and\nstock and sale (excluding SCOMET items) authorisation shall not be permitted unless\nvalidity has expired while in custody of Customs Authority / RA / Government\nAuthority.",
+    "The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n.",
+    "| | | | | | | | | |\n2.20 Revalid | ation of Im | port / | E | x | port | L | icence Cer | tific | ate/ | Authorisation /\nPermissions | for Non-S | COMET | i | t | ems | | | | |\n(a) Import Aut | horisation, | may be r | e | v | alidat | e | d, on merits | for a | perio | d of six months\nfrom date o | f expiry of | validity b | | y | the D | G | FT (HQ).",
+    "| |\n(c) However, r | evalidation | of freely | t | r | ansfe | r | able authoris | atio | n / du | ty credit scrips and\nstock and sale | (excluding | SCOMET | i | t | ems) | a | uthorisation | shal | l not | be permitted unless\nvalidity has e | xpired whi | le in cus | t | | ody o | f | Customs Au | tho | rity / | RA / Government\nAuthority.",
+    "17\n2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ).",
+    "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+    "RA shall\nverify the same before revalidation is allowed.",
+    "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.20.1",
+      "if": "2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ).",
+      "then": "The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n.",
+      "source": "2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ)."
+    },
+    {
+      "id": "2.2.20.2",
+      "if": "(c) However, revalidation of freely transferable authorisation / duty credit scrips and\nstock and sale (excluding SCOMET items) authorisation shall not be permitted unless\nvalidity has expired while in custody of Customs Authority / RA / Government\nAuthority.",
+      "then": "The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n.",
+      "source": "(c) However, revalidation of freely transferable authorisation / duty credit scrips and\nstock and sale (excluding SCOMET items) authorisation shall not be permitted unless\nvalidity has expired while in custody of Customs Authority / RA / Government\nAuthority."
+    },
+    {
+      "id": "2.2.20.3",
+      "if": "The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n.",
+      "then": "The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n.",
+      "source": "The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n."
+    },
+    {
+      "id": "2.2.20.4",
+      "if": "| | | | | | | | | |\n2.20 Revalid | ation of Im | port / | E | x | port | L | icence Cer | tific | ate/ | Authorisation /\nPermissions | for Non-S | COMET | i | t | ems | | | | |\n(a) Import Aut | horisation, | may be r | e | v | alidat | e | d, on merits | for a | perio | d of six months\nfrom date o | f expiry of | validity b | | y | the D | G | FT (HQ).",
+      "then": "The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n.",
+      "source": "| | | | | | | | | |\n2.20 Revalid | ation of Im | port / | E | x | port | L | icence Cer | tific | ate/ | Authorisation /\nPermissions | for Non-S | COMET | i | t | ems | | | | |\n(a) Import Aut | horisation, | may be r | e | v | alidat | e | d, on merits | for a | perio | d of six months\nfrom date o | f expiry of | validity b | | y | the D | G | FT (HQ)."
+    },
+    {
+      "id": "2.2.20.5",
+      "if": "| |\n(c) However, r | evalidation | of freely | t | r | ansfe | r | able authoris | atio | n / du | ty credit scrips and\nstock and sale | (excluding | SCOMET | i | t | ems) | a | uthorisation | shal | l not | be permitted unless\nvalidity has e | xpired whi | le in cus | t | | ody o | f | Customs Au | tho | rity / | RA / Government\nAuthority.",
+      "then": "The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n.",
+      "source": "| |\n(c) However, r | evalidation | of freely | t | r | ansfe | r | able authoris | atio | n / du | ty credit scrips and\nstock and sale | (excluding | SCOMET | i | t | ems) | a | uthorisation | shal | l not | be permitted unless\nvalidity has e | xpired whi | le in cus | t | | ody o | f | Customs Au | tho | rity / | RA / Government\nAuthority."
+    },
+    {
+      "id": "2.2.20.6",
+      "if": "17\n2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ).",
+      "then": "The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n.",
+      "source": "17\n2.20 Revalidation of Import / Export Licence Certificate/ Authorisation /\nPermissions for Non-SCOMET items\n(a) Import Authorisation, may be revalidated, on merits for a period of six months\nfrom date of expiry of validity by the DGFT (HQ)."
+    },
+    {
+      "id": "2.2.20.7",
+      "if": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "then": "The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n.",
+      "source": "17\n(i) If Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii) If Authorisation/Scrip rejected by Customs server with error Code\n(iii) If request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation."
+    },
+    {
+      "id": "2.2.20.8",
+      "if": "RA shall\nverify the same before revalidation is allowed.",
+      "then": "The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n.",
+      "source": "RA shall\nverify the same before revalidation is allowed."
+    },
+    {
+      "id": "2.2.20.9",
+      "if": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "then": "The\naffected | exports wo | uld only | b | | e acco | u | nted for EO | fulfil | ment | only if the authority\nconcern | ed approve | s the EO | e | x | tensio | | n.",
+      "source": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation."
+    }
+  ]
+}

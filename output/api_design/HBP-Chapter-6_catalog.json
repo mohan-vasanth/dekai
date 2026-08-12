@@ -239,7 +239,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -259,7 +260,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -310,7 +312,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Import-Domestic-Procurement-of-Goods/execute",
-          "purpose": "Trigger business action for 137\ngoods to DTA against valid Gems & Jewellery REP as applicable on\npayment of appropriate duty is also permitted.",
+          "purpose": "Trigger business action for 137\n| goods | to DTA against v | alid Gems & | Jewellery RE | P as a | pplicable on\n| payme | nt of appropriat | e duty is als | o permitted.",
           "request_fields": [
             "section_code",
             "section_title"
@@ -448,7 +450,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",
@@ -464,7 +467,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -656,7 +660,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -675,7 +681,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -935,6 +943,23 @@
             "warnings",
             "next_actions"
           ]
+        },
+        {
+          "method": "POST",
+          "path": "/api/dgft/Supply-of-Precious-Semi-precious-Synthetic-Stones-from-DTA/execute",
+          "purpose": "Trigger business action for | | | | | | | | |\n.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |\nlatinum into St | a | nd | ard Bar | s | | | | | |\nScrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment\nof India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them\nin standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs\nauthorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST\nand compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under\nFirst Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,\non basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs\nauthorities.",
+          "request_fields": [
+            "section_code",
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
+          ],
+          "response_fields": [
+            "reference_id",
+            "status",
+            "authority",
+            "timeline"
+          ]
         }
       ]
     },
@@ -1050,7 +1075,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -1070,7 +1096,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1110,7 +1137,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",
@@ -1126,7 +1154,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1227,7 +1256,8 @@
           "purpose": "Validate inputs and documents for Personal Carriage of Gems and Jewellery as samples for Export",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted"
           ],
           "response_fields": [
             "status",
@@ -1242,7 +1272,8 @@
           "purpose": "Trigger business action for b) Unit shall declare personal carriage of such samples to Customs\nwhile leaving country and obtain necessary endorsement.",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1487,7 +1518,8 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "status",
@@ -1506,7 +1538,8 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1653,7 +1686,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Unit-Approval-Committee-for-EOUs/execute",
-          "purpose": "Trigger business action for 149\nunit may re-import with or without payment of duties/taxes as\nprovided at para 6.01(d)(ii) of FTP those samples, which were\nexported by it, under intimation to Custom Authorities, and FOB\nvalue of such samples shall not be counted for NFE purpose and\nother export benefits, if any.",
+          "purpose": "Trigger business action for 149\n| unit may re-i | mport | with or without | payment | of | duties/t | axes as\n| provided at p | ara 6.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -1867,7 +1900,8 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "status",
@@ -1886,7 +1920,8 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted"
           ],
           "response_fields": [
             "reference_id",

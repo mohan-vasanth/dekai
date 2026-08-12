@@ -1,0 +1,28 @@
+{
+  "section": "4.88",
+  "conditions": [
+    "127\nFor those cas | es, where | the la | st | dat | e for expo | r | ts/ reple | nishmen | t/ imports/\ndrawal of pre | cious meta | l as ca | lc | ulat | ed under v | a | rious sub | -paras | of para 4.82,\n4.83, 4.84 of | Handbook | of Pro | ce | dur | es, 2015-20 | | expires b | etween | 01.02.2021\nand 30.06.20 | 21, such l | ast dat | e | sta | nds extend | | ed by six | month | s.",
+    "85 Regulari | stion of B | onafid | e | De | fault | | | |\nCases of bona | fide default | in fulfi | ll | men | t of Export | | Obligation | by an e | xporter who\nhas obtained | precious | metals | fr | om | nominated | | agencies | may be | regularised\nprovided exp | orter has | paid c | u | sto | ms duty al | o | ng-with | interest | thereon as\nnotified by D | o R.",
+    "127\n4.84 B\nFor those cases, where the last date for exports/ replenishment/ imports/\ndrawal of precious metal as calculated under various sub-paras of para 4.82,\n4.83, 4.84 of Handbook of Procedures, 2015-20 expires between 01.02.2021\nand 30.06.2021, such last date stands extended by six months."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.88.1",
+      "if": "127\nFor those cas | es, where | the la | st | dat | e for expo | r | ts/ reple | nishmen | t/ imports/\ndrawal of pre | cious meta | l as ca | lc | ulat | ed under v | a | rious sub | -paras | of para 4.82,\n4.83, 4.84 of | Handbook | of Pro | ce | dur | es, 2015-20 | | expires b | etween | 01.02.2021\nand 30.06.20 | 21, such l | ast dat | e | sta | nds extend | | ed by six | month | s.",
+      "then": "85 Regulari | stion of B | onafid | e | De | fault | | | |\nCases of bona | fide default | in fulfi | ll | men | t of Export | | Obligation | by an e | xporter who\nhas obtained | precious | metals | fr | om | nominated | | agencies | may be | regularised\nprovided exp | orter has | paid c | u | sto | ms duty al | o | ng-with | interest | thereon as\nnotified by D | o R.",
+      "source": "127\nFor those cas | es, where | the la | st | dat | e for expo | r | ts/ reple | nishmen | t/ imports/\ndrawal of pre | cious meta | l as ca | lc | ulat | ed under v | a | rious sub | -paras | of para 4.82,\n4.83, 4.84 of | Handbook | of Pro | ce | dur | es, 2015-20 | | expires b | etween | 01.02.2021\nand 30.06.20 | 21, such l | ast dat | e | sta | nds extend | | ed by six | month | s."
+    },
+    {
+      "id": "4.4.88.2",
+      "if": "85 Regulari | stion of B | onafid | e | De | fault | | | |\nCases of bona | fide default | in fulfi | ll | men | t of Export | | Obligation | by an e | xporter who\nhas obtained | precious | metals | fr | om | nominated | | agencies | may be | regularised\nprovided exp | orter has | paid c | u | sto | ms duty al | o | ng-with | interest | thereon as\nnotified by D | o R.",
+      "then": "85 Regulari | stion of B | onafid | e | De | fault | | | |\nCases of bona | fide default | in fulfi | ll | men | t of Export | | Obligation | by an e | xporter who\nhas obtained | precious | metals | fr | om | nominated | | agencies | may be | regularised\nprovided exp | orter has | paid c | u | sto | ms duty al | o | ng-with | interest | thereon as\nnotified by D | o R.",
+      "source": "85 Regulari | stion of B | onafid | e | De | fault | | | |\nCases of bona | fide default | in fulfi | ll | men | t of Export | | Obligation | by an e | xporter who\nhas obtained | precious | metals | fr | om | nominated | | agencies | may be | regularised\nprovided exp | orter has | paid c | u | sto | ms duty al | o | ng-with | interest | thereon as\nnotified by D | o R."
+    },
+    {
+      "id": "4.4.88.3",
+      "if": "127\n4.84 B\nFor those cases, where the last date for exports/ replenishment/ imports/\ndrawal of precious metal as calculated under various sub-paras of para 4.82,\n4.83, 4.84 of Handbook of Procedures, 2015-20 expires between 01.02.2021\nand 30.06.2021, such last date stands extended by six months.",
+      "then": "85 Regulari | stion of B | onafid | e | De | fault | | | |\nCases of bona | fide default | in fulfi | ll | men | t of Export | | Obligation | by an e | xporter who\nhas obtained | precious | metals | fr | om | nominated | | agencies | may be | regularised\nprovided exp | orter has | paid c | u | sto | ms duty al | o | ng-with | interest | thereon as\nnotified by D | o R.",
+      "source": "127\n4.84 B\nFor those cases, where the last date for exports/ replenishment/ imports/\ndrawal of precious metal as calculated under various sub-paras of para 4.82,\n4.83, 4.84 of Handbook of Procedures, 2015-20 expires between 01.02.2021\nand 30.06.2021, such last date stands extended by six months."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "chapter_number": "7",
+  "chapter_title": "Deemed Exports",
+  "section": "7.05",
+  "title": "Frequency of application and time period for claiming TED /",
+  "business_rules": [
+    {
+      "rule_id": "CH7-SEC7_05-R001",
+      "rule_description": "Claims should be filed within a period of twelve months\nfrom date of receipt of supplies by project authority or from date of receipt\nof the payment by supplier as per the option of applicant, either against a\nparticular project or all the projects.",
+      "trigger": "Frequency of application and time period for claiming TED /",
+      "condition": "In cases where payment is received in advance and supply is\nmade subsequently, in such cases application can be filed within\n12 months from the last date of such supplies.",
+      "validation": "(c) An application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP.",
+      "action": "7.05 Frequency of application and time period for claiming TED /\nDrawback\n(a) In respect of supplies covered in Paragraphs 7.02 (a) to (c) of FTP,\napplication for TED refund / drawback (whichever applicable) may be filed\nwithin 12 months from the date of realisation of 100% payment against\nsuch supplies.",
+      "exception": "However, benefit will be limited to the\nextent of payment received.",
+      "output": "DEKAI should produce a compliance decision for 7.05 - Frequency of application and time period for claiming TED /."
+    },
+    {
+      "rule_id": "CH7-SEC7_05-R002",
+      "rule_description": "(c) An application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP.",
+      "trigger": "Frequency of application and time period for claiming TED /",
+      "condition": "Claim can be filed\n‘Invalidation Letter / ARO wise’ against individual Authorisation within the\ntime limit as specified above.",
+      "validation": "7.04 | Procedure for cl | aiming TE | D refun | d on Fuel | |\nFor su | pply of High Speed | Diesel (HSD | ) from D | epots of d | omestic oil Publi | c Sector\nUnder | takings under Par | agraph 7.02 | (b) of F | TP, termi | nal excise duty | shall be\nrefund | ed on the basis of | duty paid c | ertificate | issued by | concerned dom | estic oil\nPublic | Sector Undertakin | g in the for | mat give | n in Anne | xure-IV to ANF-7 | A.",
+      "action": "In cases where payment is received in advance and supply is\nmade subsequently, in such cases application can be filed within\n12 months from the last date of such supplies.",
+      "exception": "However, benefit will be limited to the\nextent of payment received.",
+      "output": "DEKAI should produce a compliance decision for 7.05 - Frequency of application and time period for claiming TED /."
+    },
+    {
+      "rule_id": "CH7-SEC7_05-R003",
+      "rule_description": "7.04 | Procedure for cl | aiming TE | D refun | d on Fuel | |\nFor su | pply of High Speed | Diesel (HSD | ) from D | epots of d | omestic oil Publi | c Sector\nUnder | takings under Par | agraph 7.02 | (b) of F | TP, termi | nal excise duty | shall be\nrefund | ed on the basis of | duty paid c | ertificate | issued by | concerned dom | estic oil\nPublic | Sector Undertakin | g in the for | mat give | n in Anne | xure-IV to ANF-7 | A.",
+      "trigger": "Frequency of application and time period for claiming TED /",
+      "condition": "Claims may also be filed where part\npayments have been received.",
+      "validation": "(c)\nAn application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP.",
+      "action": "(b) In respect of supplies covered in Paragraphs 7.02 (d) to (g) of FTP,\nclaim may be filed either on the basis of proof of supplies effected or\npayment received.",
+      "exception": "However, benefit will be limited to the\nextent of payment received.",
+      "output": "DEKAI should produce a compliance decision for 7.05 - Frequency of application and time period for claiming TED /."
+    },
+    {
+      "rule_id": "CH7-SEC7_05-R004",
+      "rule_description": "(c)\nAn application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP.",
+      "trigger": "Frequency of application and time period for claiming TED /",
+      "condition": "Deemed export benefits may be allowed after\n100% supplies have been made.",
+      "validation": "(c)\nAn application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP.",
+      "action": "Claims should be filed within a period of twelve months\nfrom date of receipt of supplies by project authority or from date of receipt\nof the payment by supplier as per the option of applicant, either against a\nparticular project or all the projects.",
+      "exception": "However, benefit will be limited to the\nextent of payment received.",
+      "output": "DEKAI should produce a compliance decision for 7.05 - Frequency of application and time period for claiming TED /."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Claims should be filed within a period of twelve months\nfrom date of receipt of supplies by project authority or from date of receipt\nof the payment by supplier as per the option of applicant, either against a\nparticular project or all the projects.",
+    "IF detected context matches section rule THEN enforce: (c) An application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP.",
+    "IF detected context matches section rule THEN enforce: 7.04 | Procedure for cl | aiming TE | D refun | d on Fuel | |\nFor su | pply of High Speed | Diesel (HSD | ) from D | epots of d | omestic oil Publi | c Sector\nUnder | takings under Par | agraph 7.02 | (b) of F | TP, termi | nal excise duty | shall be\nrefund | ed on the basis of | duty paid c | ertificate | issued by | concerned dom | estic oil\nPublic | Sector Undertakin | g in the for | mat give | n in Anne | xure-IV to ANF-7 | A.",
+    "IF detected context matches section rule THEN enforce: (c)\nAn application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP.",
+    "IF validations pass THEN recommend action: 7.05 Frequency of application and time period for claiming TED /\nDrawback\n(a) In respect of supplies covered in Paragraphs 7.02 (a) to (c) of FTP,\napplication for TED refund / drawback (whichever applicable) may be filed\nwithin 12 months from the date of realisation of 100% payment against\nsuch supplies."
+  ]
+}

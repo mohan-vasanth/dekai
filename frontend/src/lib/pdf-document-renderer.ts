@@ -194,6 +194,12 @@ function splitMarkdownSections(markdown: string) {
 
 function parseFieldLine(line: string): ParsedField | null {
   const cleaned = normalizeWhitespace(line.replace(/^-+\s*/, ""));
+  if (/^<!--[\s\S]*-->$/.test(cleaned) || cleaned.startsWith("<!--")) {
+    return null;
+  }
+  if (/<\/?[a-z][^>]*>/i.test(cleaned)) {
+    return null;
+  }
   const boldMatch = /^\*\*([^*]+)\*\*:\s*(.+)$/.exec(cleaned);
   if (boldMatch) {
     return {
@@ -300,11 +306,12 @@ function renderSection(
   globalTableIds: string[],
   tableCursor: { value: number },
 ): ParsedSection {
-  const lines = content.replace(/\r\n/g, "\n").split("\n");
+  const { sectionMarkdown: markdownWithoutTables, tableIds, tablesHtml } = renderSectionTables(content, globalTableIds, tableCursor, heading);
+  const sanitizedMarkdown = stripViewerOnlySubsections(markdownWithoutTables);
+  const lines = sanitizedMarkdown.replace(/\r\n/g, "\n").split("\n");
   const { fields, remaining } = extractFieldsFromLines(lines);
   const sectionWithoutFieldLines = remaining.join("\n").trim();
-  const { sectionMarkdown, tableIds, tablesHtml } = renderSectionTables(sectionWithoutFieldLines, globalTableIds, tableCursor, heading);
-  const bodyHtml = renderSectionBody(sectionMarkdown);
+  const bodyHtml = renderSectionBody(sectionWithoutFieldLines);
   const kind = inferSectionKind(heading, documentType, Boolean(tableIds.length));
 
   return {

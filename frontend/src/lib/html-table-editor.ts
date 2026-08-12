@@ -254,17 +254,21 @@ export function parseHtmlTable(html: string, id = "table-1"): EditableTable {
           }
 
           for (let colOffset = 0; colOffset < colSpan; colOffset += 1) {
-            occupancy[targetRowIndex][columnIndex + colOffset] = {
+            const nextCell = {
               value,
               isHeader,
             };
+            occupancy[targetRowIndex][columnIndex + colOffset] = nextCell;
+            if (rowOffset === 0) {
+              rowCells[columnIndex + colOffset] = nextCell;
+            }
           }
         }
 
         columnIndex += colSpan;
       });
 
-    maxColumns = Math.max(maxColumns, rowCells.length);
+    maxColumns = Math.max(maxColumns, occupancy[rowIndex]?.length ?? rowCells.length);
     rows.push({
       id: createRowId(rowIndex),
       cells: rowCells.map((cell) => ({ ...cell })),

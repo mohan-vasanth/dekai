@@ -1,0 +1,49 @@
+{
+  "section": "6",
+  "conditions": [
+    "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+    "Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+    "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+    "They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+    "Sender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+    "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)"
+  ],
+  "condition_logic": [
+    {
+      "id": ".6.1",
+      "if": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "then": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "source": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes."
+    },
+    {
+      "id": ".6.2",
+      "if": "Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+      "then": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "source": "Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin."
+    },
+    {
+      "id": ".6.3",
+      "if": "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+      "then": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "source": "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes."
+    },
+    {
+      "id": ".6.4",
+      "if": "They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+      "then": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "source": "They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes."
+    },
+    {
+      "id": ".6.5",
+      "if": "Sender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+      "then": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "source": "Sender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin."
+    },
+    {
+      "id": ".6.6",
+      "if": "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)",
+      "then": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "source": "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)"
+    }
+  ]
+}

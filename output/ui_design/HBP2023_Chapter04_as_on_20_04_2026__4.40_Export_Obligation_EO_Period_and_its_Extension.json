@@ -1,0 +1,47 @@
+{
+  "section": "4.40",
+  "ui": [
+    {
+      "screen_id": "Export_Obligation_EO_Period_and_its_Extension_overview",
+      "name": "Export Obligation (EO) Period and its Extension Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_Obligation_EO_Period_and_its_Extension_submission",
+      "name": "Export Obligation (EO) Period and its Extension Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "its_flag",
+        "for_flag",
+        "the_flag",
+        "ftp_flag",
+        "ata_flag"
+      ]
+    },
+    {
+      "screen_id": "Export_Obligation_EO_Period_and_its_Extension_exceptions",
+      "name": "Export Obligation (EO) Period and its Extension Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

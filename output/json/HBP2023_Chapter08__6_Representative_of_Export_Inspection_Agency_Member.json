@@ -1,0 +1,310 @@
+{
+  "chapter_number": "8",
+  "chapter_title": "Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes",
+  "section": "6",
+  "title": "Representative of Export Inspection Agency: Member",
+  "purpose": "Defines the operational requirements for Representative of Export Inspection Agency: Member.",
+  "purpose_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, Defines the operational requirements for Representative of export Inspection Agency: Member.",
+  "summary": "6. Representative of Export Inspection Agency: Member",
+  "business_meaning": "6.",
+  "business_explanation": "6. Representative of Export Inspection Agency: Member",
+  "business_explanation_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, 6. Representative of export Inspection Agency: Member",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH8-SEC6-R001",
+      "rule_description": "6. Representative of Export Inspection Agency: Member",
+      "trigger": "Representative of Export Inspection Agency: Member",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6 - Representative of Export Inspection Agency: Member."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "6::section::0::representative-of-export-inspection-agency-membe",
+      "type": "section",
+      "title": "Representative of Export Inspection Agency: Member",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6. Representative of Export Inspection Agency: Member",
+      "parentId": "",
+      "sectionId": "6",
+      "sectionTitle": "Representative of Export Inspection Agency: Member",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Representative of Export Inspection Agency: Member",
+        "Representative of Export Inspection Agency Member",
+        "RepresentativeofExportInspectionAgencyMember"
+      ],
+      "childIds": [
+        "6::business_rule::1::representative-of-export-inspection-agency-membe"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6::business_rule::1::representative-of-export-inspection-agency-membe",
+      "type": "business_rule",
+      "title": "Representative of Export Inspection Agency: Member",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6. Representative of Export Inspection Agency: Member",
+      "parentId": "6::section::0::representative-of-export-inspection-agency-membe",
+      "sectionId": "6",
+      "sectionTitle": "Representative of Export Inspection Agency: Member",
+      "documentName": "HBP2023_Chapter08.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Representative of Export Inspection Agency: Member",
+        "Representative of Export Inspection Agency Member",
+        "RepresentativeofExportInspectionAgencyMember"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 6 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Representative of Export Inspection Agency: Member\nReview section 6 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 6 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Representative of Export Inspection Agency: Member Decision\nIF section 6 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Representative of Export Inspection Agency: Member; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Representative of Export Inspection Agency: Member, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the representative of export inspection agency: member process.",
+  "real_world_example_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, Example: an importer or exporter invokes Representative of export Inspection Agency: Member, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the representative of export inspection agency: member process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "export_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Export"
+    },
+    {
+      "name": "agency_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Agency"
+    },
+    {
+      "name": "member_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Member"
+    },
+    {
+      "name": "inspection_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Inspection"
+    },
+    {
+      "name": "representative_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Representative"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6",
+      "purpose": "Retrieve knowledge payload for section 6",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Representative-of-Export-Inspection-Agency-Member/validate",
+      "purpose": "Validate inputs and documents for Representative of Export Inspection Agency: Member",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Representative_of_Export_Inspection_Agency_Member_overview",
+      "name": "Representative of Export Inspection Agency: Member Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Representative_of_Export_Inspection_Agency_Member_submission",
+      "name": "Representative of Export Inspection Agency: Member Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "export_flag",
+        "agency_flag",
+        "member_flag",
+        "inspection_flag",
+        "representative_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Representative of Export Inspection Agency: Member require?",
+    "Which documents are needed for Representative of Export Inspection Agency: Member?",
+    "How does DEKAI validate Representative of Export Inspection Agency: Member requests?"
+  ],
+  "expected_ai_answers": [
+    "Representative of Export Inspection Agency: Member requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Representative of Export Inspection Agency: Member by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 6?",
+      "answer_en": "6. Representative of Export Inspection Agency: Member",
+      "question_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, What is the purpose of section 6?",
+      "answer_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, 6. Representative of export Inspection Agency: Member"
+    },
+    {
+      "question_en": "What documents are required under Representative of Export Inspection Agency: Member?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, What documents are required under Representative of export Inspection Agency: Member?",
+      "answer_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Representative of Export Inspection Agency: Member?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, Which authority handles Representative of export Inspection Agency: Member?",
+      "answer_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Representative of Export Inspection Agency: Member?",
+      "answer_en": "AI answers: DEKAI should evaluate section 6, apply the extracted rules, and guide the user through Review section 6 requirements.",
+      "question_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, User asks: How do I comply with Representative of export Inspection Agency: Member?",
+      "answer_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, AI answers: DEKAI should evaluate section 6, apply the extracted rules, and guide the user through Review section 6 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Representative of Export Inspection Agency: Member?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, User asks: Which validations apply to Representative of export Inspection Agency: Member?",
+      "answer_thanglish": "Indha Representative of Export Inspection Agency: Member section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 8, section 6, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Representative of Export Inspection Agency: Member into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Representative of Export Inspection Agency: Member section-la, Capture chapter 8, section 6, title, and page references as immutable knowledge metadata.",
+    "Indha Representative of Export Inspection Agency: Member section-la, Bind validations for Representative of export Inspection Agency: Member into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "Export",
+    "Agency",
+    "Member",
+    "Inspection",
+    "Representative"
+  ],
+  "search_keywords": [
+    "Export",
+    "Agency",
+    "Member",
+    "Inspection",
+    "Representative"
+  ],
+  "intent": "Provide knowledge guidance for Representative of Export Inspection Agency: Member.",
+  "tags": [
+    "6",
+    "Representative of Export Inspection Agency: Member",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    3
+  ],
+  "pages": [
+    3
+  ],
+  "source_document": "HBP2023_Chapter08.pdf",
+  "raw_text": "6. Representative of Export Inspection Agency: Member",
+  "mermaid": "flowchart TD\n    S1[\"Review section 6 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 6 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

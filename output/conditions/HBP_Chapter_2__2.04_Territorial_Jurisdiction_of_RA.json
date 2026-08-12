@@ -1,0 +1,56 @@
+{
+  "section": "2.04",
+  "conditions": [
+    "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+    "Procedu | re for app | licat | ions | for authori | s | atio | ns/ l | icense/ permissions/\ncertificates for import/exp | ort and appl | icat | ions | for benefits u | n | der | FTP | are laid out.",
+    "2.02 Countries of Imp | orts/Exp | ort | s | | | | |\nUnless otherwise specifi | cally provid | ed, | inter | national trade | | (i.e |.",
+    "Country specific\nprohibitions/limitations, i | f any, are sp | ecifi | ed i | n the FTP or t | h | e IT | C(HS | ).",
+    "APPLICATIONS | | | | | | | |\n2.03 Filing of Applica | tion | | | | | | |\n(a) Applications seeking | authorisati | on | for | import/export | | of | “restr | icted” goods, or for\nclaiming benefits under | the scheme | s in | FT | P or for seek | i | ng | clarif | ications or for other\npurposes may be made on | line on https |://d | gft.g | ov.in | | | |\n(b) Applicants may ens | ure while s | ubm | ittin | g documents | | that | doc | uments are either in\nEnglish or Hindi.",
+    "Docum | ents in regio | nal | lang | uages may be | t | rans | lated | into English or Hindi\nand the translated copy m | ay be self-ce | rtifi | ed a | nd submitted | a | long | with | the original copy.",
+    "Ea | ch application, unless\notherwise specified, shall | be submitte | d to | juris | dictional RA."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.04.1",
+      "if": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "then": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "source": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+    },
+    {
+      "id": "2.2.04.2",
+      "if": "Procedu | re for app | licat | ions | for authori | s | atio | ns/ l | icense/ permissions/\ncertificates for import/exp | ort and appl | icat | ions | for benefits u | n | der | FTP | are laid out.",
+      "then": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "source": "Procedu | re for app | licat | ions | for authori | s | atio | ns/ l | icense/ permissions/\ncertificates for import/exp | ort and appl | icat | ions | for benefits u | n | der | FTP | are laid out."
+    },
+    {
+      "id": "2.2.04.3",
+      "if": "2.02 Countries of Imp | orts/Exp | ort | s | | | | |\nUnless otherwise specifi | cally provid | ed, | inter | national trade | | (i.e |.",
+      "then": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "source": "2.02 Countries of Imp | orts/Exp | ort | s | | | | |\nUnless otherwise specifi | cally provid | ed, | inter | national trade | | (i.e |."
+    },
+    {
+      "id": "2.2.04.4",
+      "if": "Country specific\nprohibitions/limitations, i | f any, are sp | ecifi | ed i | n the FTP or t | h | e IT | C(HS | ).",
+      "then": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "source": "Country specific\nprohibitions/limitations, i | f any, are sp | ecifi | ed i | n the FTP or t | h | e IT | C(HS | )."
+    },
+    {
+      "id": "2.2.04.5",
+      "if": "APPLICATIONS | | | | | | | |\n2.03 Filing of Applica | tion | | | | | | |\n(a) Applications seeking | authorisati | on | for | import/export | | of | “restr | icted” goods, or for\nclaiming benefits under | the scheme | s in | FT | P or for seek | i | ng | clarif | ications or for other\npurposes may be made on | line on https |://d | gft.g | ov.in | | | |\n(b) Applicants may ens | ure while s | ubm | ittin | g documents | | that | doc | uments are either in\nEnglish or Hindi.",
+      "then": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "source": "APPLICATIONS | | | | | | | |\n2.03 Filing of Applica | tion | | | | | | |\n(a) Applications seeking | authorisati | on | for | import/export | | of | “restr | icted” goods, or for\nclaiming benefits under | the scheme | s in | FT | P or for seek | i | ng | clarif | ications or for other\npurposes may be made on | line on https |://d | gft.g | ov.in | | | |\n(b) Applicants may ens | ure while s | ubm | ittin | g documents | | that | doc | uments are either in\nEnglish or Hindi."
+    },
+    {
+      "id": "2.2.04.6",
+      "if": "Docum | ents in regio | nal | lang | uages may be | t | rans | lated | into English or Hindi\nand the translated copy m | ay be self-ce | rtifi | ed a | nd submitted | a | long | with | the original copy.",
+      "then": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "source": "Docum | ents in regio | nal | lang | uages may be | t | rans | lated | into English or Hindi\nand the translated copy m | ay be self-ce | rtifi | ed a | nd submitted | a | long | with | the original copy."
+    },
+    {
+      "id": "2.2.04.7",
+      "if": "Ea | ch application, unless\notherwise specified, shall | be submitte | d to | juris | dictional RA.",
+      "then": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "source": "Ea | ch application, unless\notherwise specified, shall | be submitte | d to | juris | dictional RA."
+    }
+  ]
+}

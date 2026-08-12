@@ -1,0 +1,38 @@
+{
+  "section": "6",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6",
+      "purpose": "Retrieve knowledge payload for section 6",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Multimodal-For-future-use/validate",
+      "purpose": "Validate inputs and documents for Multimodal (For future use)",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

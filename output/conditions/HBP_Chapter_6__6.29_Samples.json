@@ -1,0 +1,49 @@
+{
+  "section": "6.29",
+  "conditions": [
+    "6.29 Samples\na) EOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs.",
+    "H | oweve | r, if goods h | ave been | consumed /\n| | destroy | e | d in pro | cess o | f testing et | c.",
+    "a cer | tificate from\n| | laborato | r | y / inst | itution | to this ef | fect be | furnished to\n| | Customs |.",
+    "| | | | |\n6.29 S | ampl | es | | | | | |\n| a) | EOU / EHTP / | S | TP / BTP | units m | ay on basis | of record | s maintained\n| | by them, and | o | n prior in | timatio | n to Custom | s author | ity, supply or\n| | sell samples in | | DTA for di | splay / | market pro | motion o | n payment of\n| | excise duty, | | if applic | able, | and/or pa | yment o | f GST and\n| | compensation | | cess alon | g with | reversal o | f duties | of Customs\n| | leviable under | | First Sche | dule t | o the Custo | ms Tariff | Act, 1975, if\n| | availed on inp | u | ts.",
+    "6.29 Samples\na)\nEOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs.",
+    "For statutory requirement of Stability & Retention\nsample with manufacturer, an EOU / EHTP / BTP / STP\nunit may re-import with or without payment of duties/taxes as\nprovided at para 6.01(d)(ii) of FTP those samples, which were\nexported by it, under intimation to Custom Authorities, and FOB\nvalue of such samples shall not be counted for NFE purpose and\nother export benefits, if any."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.29.1",
+      "if": "applicable",
+      "then": "6.29 Samples\na) EOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs.",
+      "source": "6.29 Samples\na) EOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs."
+    },
+    {
+      "id": "6.6.29.2",
+      "if": "H | oweve | r, if goods h | ave been | consumed /\n| | destroy | e | d in pro | cess o | f testing et | c.",
+      "then": "6.29 Samples\na) EOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs.",
+      "source": "H | oweve | r, if goods h | ave been | consumed /\n| | destroy | e | d in pro | cess o | f testing et | c."
+    },
+    {
+      "id": "6.6.29.3",
+      "if": "a cer | tificate from\n| | laborato | r | y / inst | itution | to this ef | fect be | furnished to\n| | Customs |.",
+      "then": "6.29 Samples\na) EOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs.",
+      "source": "a cer | tificate from\n| | laborato | r | y / inst | itution | to this ef | fect be | furnished to\n| | Customs |."
+    },
+    {
+      "id": "6.6.29.4",
+      "if": "applic | able",
+      "then": "6.29 Samples\na) EOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs.",
+      "source": "| | | | |\n6.29 S | ampl | es | | | | | |\n| a) | EOU / EHTP / | S | TP / BTP | units m | ay on basis | of record | s maintained\n| | by them, and | o | n prior in | timatio | n to Custom | s author | ity, supply or\n| | sell samples in | | DTA for di | splay / | market pro | motion o | n payment of\n| | excise duty, | | if applic | able, | and/or pa | yment o | f GST and\n| | compensation | | cess alon | g with | reversal o | f duties | of Customs\n| | leviable under | | First Sche | dule t | o the Custo | ms Tariff | Act, 1975, if\n| | availed on inp | u | ts."
+    },
+    {
+      "id": "6.6.29.5",
+      "if": "applicable",
+      "then": "6.29 Samples\na) EOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs.",
+      "source": "6.29 Samples\na)\nEOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs."
+    },
+    {
+      "id": "6.6.29.6",
+      "if": "For statutory requirement of Stability & Retention\nsample with manufacturer, an EOU / EHTP / BTP / STP\nunit may re-import with or without payment of duties/taxes as\nprovided at para 6.01(d)(ii) of FTP those samples, which were\nexported by it, under intimation to Custom Authorities, and FOB\nvalue of such samples shall not be counted for NFE purpose and\nother export benefits, if any.",
+      "then": "6.29 Samples\na) EOU / EHTP / STP / BTP units may on basis of records maintained\nby them, and on prior intimation to Customs authority, supply or\nsell samples in DTA for display / market promotion on payment of\nexcise duty, if applicable, and/or payment of GST and\ncompensation cess along with reversal of duties of Customs\nleviable under First Schedule to the Customs Tariff Act, 1975, if\navailed on inputs.",
+      "source": "For statutory requirement of Stability & Retention\nsample with manufacturer, an EOU / EHTP / BTP / STP\nunit may re-import with or without payment of duties/taxes as\nprovided at para 6.01(d)(ii) of FTP those samples, which were\nexported by it, under intimation to Custom Authorities, and FOB\nvalue of such samples shall not be counted for NFE purpose and\nother export benefits, if any."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.97",
+  "title": "Application to EPCG Committee",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_97-R001",
+      "rule_description": "(b) Additional DGFT in-charge of EPCG shall be the Chairman of the EPCG\nCommittee, with Joint DGFT (EPCG) as Member Secretary and official from\nDepartment of Revenue as member.",
+      "trigger": "Application to EPCG Committee",
+      "condition": "Representative(s) from concerned line\nMinistry / Department may be co-opted as member, as and when required.",
+      "validation": "2.97 Application to EPCG Committee\n(a) Application to the Export Promotion Capital Goods (EPCG) Committee under\nPara 2.59 of FTP is to be made online in ANF-2D with the prescribed fee in\nterms of Appendix-2K with required documents.",
+      "action": "61\n2.94 | Approved Exp | orter Sch | e | me (AES | ) for self-c | ert | ificat | ion |\nDetail | s of the Scheme a | re provid | ed | in Appe | ndix 2F of A | NF.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.97 - Application to EPCG Committee."
+    },
+    {
+      "rule_id": "CH2-SEC2_97-R002",
+      "rule_description": "|\n(b) | Director Genera | l of Fore | ig | n Trade | shall be t | he | Chair | man of PRC | with all\n| Additional DGF | Ts, all Joi | nt | DGFTs | in charge o | f P | olicy | Divisions in | Hqrs as\n| members.",
+      "trigger": "Application to EPCG Committee",
+      "condition": "61\n2.94 | Approved Exp | orter Sch | e | me (AES | ) for self-c | ert | ificat | ion |\nDetail | s of the Scheme a | re provid | ed | in Appe | ndix 2F of A | NF.",
+      "validation": "(b) Additional DGFT in-charge of EPCG shall be the Chairman of the EPCG\nCommittee, with Joint DGFT (EPCG) as Member Secretary and official from\nDepartment of Revenue as member.",
+      "action": "61\n2.94 | Approved Exp | orter Sch | e | me (AES | ) for self-c | ert | ificat | ion |\nDetail | s of the Scheme a | re provid | ed | in Appe | ndix 2F of A | NF.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.97 - Application to EPCG Committee."
+    },
+    {
+      "rule_id": "CH2-SEC2_97-R003",
+      "rule_description": "| | | |\n(b) | Additional DGF | T in-char | ge | of EPC | G shall be | th | e Ch | airman of t | he EPCG\n| Committee, wit | h Joint D | GF | T (EPCG | ) as Memb | er S | ecret | ary and offi | cial from\n| Department of | Revenue | as | membe | r.",
+      "trigger": "Application to EPCG Committee",
+      "condition": "The A | dditional/ | Jo | int DGFT | (PRC) shal | l act | as M | ember Secre | tary; and\n| the Committee c | an Co-opt | m | ember/ | s with specif | ic e | xpert | ise/experien | ce as and\n| when required.",
+      "validation": "Representative(s) from concerned line\nMinistry / Department may be co-opted as member, as and when required.",
+      "action": "61\n2.94 | Approved Exp | orter Sch | e | me (AES | ) for self-c | ert | ificat | ion |\nDetail | s of the Scheme a | re provid | ed | in Appe | ndix 2F of A | NF.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.97 - Application to EPCG Committee."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (b) Additional DGFT in-charge of EPCG shall be the Chairman of the EPCG\nCommittee, with Joint DGFT (EPCG) as Member Secretary and official from\nDepartment of Revenue as member.",
+    "IF detected context matches section rule THEN enforce: |\n(b) | Director Genera | l of Fore | ig | n Trade | shall be t | he | Chair | man of PRC | with all\n| Additional DGF | Ts, all Joi | nt | DGFTs | in charge o | f P | olicy | Divisions in | Hqrs as\n| members.",
+    "IF detected context matches section rule THEN enforce: | | | |\n(b) | Additional DGF | T in-char | ge | of EPC | G shall be | th | e Ch | airman of t | he EPCG\n| Committee, wit | h Joint D | GF | T (EPCG | ) as Memb | er S | ecret | ary and offi | cial from\n| Department of | Revenue | as | membe | r.",
+    "IF validations pass THEN recommend action: 61\n2.94 | Approved Exp | orter Sch | e | me (AES | ) for self-c | ert | ificat | ion |\nDetail | s of the Scheme a | re provid | ed | in Appe | ndix 2F of A | NF."
+  ]
+}

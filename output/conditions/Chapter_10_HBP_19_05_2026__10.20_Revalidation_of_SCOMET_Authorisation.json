@@ -1,0 +1,63 @@
+{
+  "section": "10.20",
+  "conditions": [
+    "| g., lic | ense ap | plications, expor | t licenses, | end-user\ncertif | icates/state | | ments, | Purc | hase Or | der, Contract Ag | reement, e | tc.)\nd.",
+    "Action by | the DGFT: | | | | | | |\nAll voluntary d | isclosure c | a | ses sh | all b | e placed | by DGFT befor | e the IMW | G, in its\nsubsequent m | eeting for | | discus | sion | after | submission of | all comp | lete and\nsupporting doc | umentation | | by the | exp | orter.",
+    "To inform | the exporte | r | that n | o fur | ther act | ion is warranted |, based on | the facts\ndisclosed, | supporting | d | ocum | enta | tion and | upon satisfacto | ry review; |\nii.",
+    "To issue | an Adjudic | a | tion O | rder | on sub | mission of an | adverse r | eport on\nproliferati | on concern | s | /infor | mati | on, viola | tion of relevant | export con | trol laws\nand regul | ations, etc.",
+    "Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd.",
+    "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+    "To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii.",
+    "To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.10.20.1",
+      "if": "| g., lic | ense ap | plications, expor | t licenses, | end-user\ncertif | icates/state | | ments, | Purc | hase Or | der, Contract Ag | reement, e | tc.)\nd.",
+      "then": "To issue a | Show Caus | e | Notic | e; | | | |\niii.",
+      "source": "| g., lic | ense ap | plications, expor | t licenses, | end-user\ncertif | icates/state | | ments, | Purc | hase Or | der, Contract Ag | reement, e | tc.)\nd."
+    },
+    {
+      "id": "10.10.20.2",
+      "if": "Action by | the DGFT: | | | | | | |\nAll voluntary d | isclosure c | a | ses sh | all b | e placed | by DGFT befor | e the IMW | G, in its\nsubsequent m | eeting for | | discus | sion | after | submission of | all comp | lete and\nsupporting doc | umentation | | by the | exp | orter.",
+      "then": "To issue a | Show Caus | e | Notic | e; | | | |\niii.",
+      "source": "Action by | the DGFT: | | | | | | |\nAll voluntary d | isclosure c | a | ses sh | all b | e placed | by DGFT befor | e the IMW | G, in its\nsubsequent m | eeting for | | discus | sion | after | submission of | all comp | lete and\nsupporting doc | umentation | | by the | exp | orter."
+    },
+    {
+      "id": "10.10.20.3",
+      "if": "To inform | the exporte | r | that n | o fur | ther act | ion is warranted |, based on | the facts\ndisclosed, | supporting | d | ocum | enta | tion and | upon satisfacto | ry review; |\nii.",
+      "then": "To issue a | Show Caus | e | Notic | e; | | | |\niii.",
+      "source": "To inform | the exporte | r | that n | o fur | ther act | ion is warranted |, based on | the facts\ndisclosed, | supporting | d | ocum | enta | tion and | upon satisfacto | ry review; |\nii."
+    },
+    {
+      "id": "10.10.20.4",
+      "if": "To issue | an Adjudic | a | tion O | rder | on sub | mission of an | adverse r | eport on\nproliferati | on concern | s | /infor | mati | on, viola | tion of relevant | export con | trol laws\nand regul | ations, etc.",
+      "then": "To issue a | Show Caus | e | Notic | e; | | | |\niii.",
+      "source": "To issue | an Adjudic | a | tion O | rder | on sub | mission of an | adverse r | eport on\nproliferati | on concern | s | /infor | mati | on, viola | tion of relevant | export con | trol laws\nand regul | ations, etc."
+    },
+    {
+      "id": "10.10.20.5",
+      "if": "Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd.",
+      "then": "To issue a | Show Caus | e | Notic | e; | | | |\niii.",
+      "source": "Licensing documents (e.g., license applications, export licenses, end-user\ncertificates/statements, Purchase Order, Contract Agreement, etc.)\nd."
+    },
+    {
+      "id": "10.10.20.6",
+      "if": "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter.",
+      "then": "To issue a | Show Caus | e | Notic | e; | | | |\niii.",
+      "source": "Action by the DGFT:\nAll voluntary disclosure cases shall be placed by DGFT before the IMWG, in its\nsubsequent meeting for discussion after submission of all complete and\nsupporting documentation by the exporter."
+    },
+    {
+      "id": "10.10.20.7",
+      "if": "To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii.",
+      "then": "To issue a | Show Caus | e | Notic | e; | | | |\niii.",
+      "source": "To inform the exporter that no further action is warranted, based on the facts\ndisclosed, supporting documentation and upon satisfactory review;\nii."
+    },
+    {
+      "id": "10.10.20.8",
+      "if": "To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc.",
+      "then": "To issue a | Show Caus | e | Notic | e; | | | |\niii.",
+      "source": "To issue an Adjudication Order on submission of an adverse report on\nproliferation concerns/information, violation of relevant export control laws\nand regulations, etc."
+    }
+  ]
+}

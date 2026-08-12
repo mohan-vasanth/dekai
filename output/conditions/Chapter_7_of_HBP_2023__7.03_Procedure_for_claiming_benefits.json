@@ -1,0 +1,140 @@
+{
+  "section": "7.03",
+  "conditions": [
+    "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+    "(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+    "If Advance | Authorisation\n/ DFIA is not obt | ained for du | ty free inp | ut | s, Duty | drawback sh | all be allowed\non basic custom | duty paid o | n inputs us | ed | in the | resultant pro | duct.",
+    "(d) In respect | of supply | of goods t | o | other | categories as | listed in the\nParagraph 7.02 ( | d), (e), (f) | & (g) of FTP |, | Advanc | e Authorisati | on / DFIA for\nimport of duty f | ree inputs | as provide | d | under | Chapter 4 o | f FTP may be\nobtained agains | t Project | Authority | C | ertifica | te as per | Appendix-7C.",
+    "However, if Adv | ance Autho | risation / | D | FIA is | not obtained | against such\nsupplies for duty | free inputs | as provide | d i | n Chap | ter 4 of FTP, | claim for duty\ndrawback for bas | ic custom d | uty may be | fi | led as | per ANF-7A.",
+    "| | | | |\n(c) Applicant | shall uploa | d document | s a | s pres | cribed in ANF | - 7A, if any, at\nthe time of onlin | e filing of | application.",
+    "| |\n(d) In case rec | ipient unit | files claim f | or | TED / | Duty Drawba | ck, disclaimer\ncertificate as pre | scribed in | the Annexu | re | -III to | ANF-7A sha | ll be obtained\nfrom supplier an | d shall be | submitted | al | ong wi | th the applic | ation.",
+    "In case\nsupplier of the go | ods is an a | pplicant the | n | the dis | claimer certif | icate from the\nrecipient of the g | oods shall b | e submitte | d.",
+    "| | |\n(e) Claim can | be filed onl | y after pay | me | nt is r | eceived in full |, to the extent\nof supplies mad | e for suppl | ies covered | i | n Para | 7.08 A (a) | to (c) of FTP.",
+    "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+    "(d)\nIn respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C.",
+    "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+    "(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application.",
+    "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+    "(e)\nClaim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+    "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted.",
+    "(g) Sub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods."
+  ],
+  "condition_logic": [
+    {
+      "id": "7.7.03.1",
+      "if": "any",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(c) Applicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application."
+    },
+    {
+      "id": "7.7.03.2",
+      "if": "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(d) In case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application."
+    },
+    {
+      "id": "7.7.03.3",
+      "if": "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "In case\nsupplier of the goods is an applicant then the disclaimer certificate from the\nrecipient of the goods shall be submitted."
+    },
+    {
+      "id": "7.7.03.4",
+      "if": "(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(e) Claim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP."
+    },
+    {
+      "id": "7.7.03.5",
+      "if": "If Advance | Authorisation\n/ DFIA is not obt | ained for du | ty free inp | ut | s, Duty | drawback sh | all be allowed\non basic custom | duty paid o | n inputs us | ed | in the | resultant pro | duct.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "If Advance | Authorisation\n/ DFIA is not obt | ained for du | ty free inp | ut | s, Duty | drawback sh | all be allowed\non basic custom | duty paid o | n inputs us | ed | in the | resultant pro | duct."
+    },
+    {
+      "id": "7.7.03.6",
+      "if": "(d) In respect | of supply | of goods t | o | other | categories as | listed in the\nParagraph 7.02 ( | d), (e), (f) | & (g) of FTP |, | Advanc | e Authorisati | on / DFIA for\nimport of duty f | ree inputs | as provide | d | under | Chapter 4 o | f FTP may be\nobtained agains | t Project | Authority | C | ertifica | te as per | Appendix-7C.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(d) In respect | of supply | of goods t | o | other | categories as | listed in the\nParagraph 7.02 ( | d), (e), (f) | & (g) of FTP |, | Advanc | e Authorisati | on / DFIA for\nimport of duty f | ree inputs | as provide | d | under | Chapter 4 o | f FTP may be\nobtained agains | t Project | Authority | C | ertifica | te as per | Appendix-7C."
+    },
+    {
+      "id": "7.7.03.7",
+      "if": "However, if Adv | ance Autho | risation / | D | FIA is | not obtained | against such\nsupplies for duty | free inputs | as provide | d i | n Chap | ter 4 of FTP, | claim for duty\ndrawback for bas | ic custom d | uty may be | fi | led as | per ANF-7A.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "However, if Adv | ance Autho | risation / | D | FIA is | not obtained | against such\nsupplies for duty | free inputs | as provide | d i | n Chap | ter 4 of FTP, | claim for duty\ndrawback for bas | ic custom d | uty may be | fi | led as | per ANF-7A."
+    },
+    {
+      "id": "7.7.03.8",
+      "if": "any",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "| | | | |\n(c) Applicant | shall uploa | d document | s a | s pres | cribed in ANF | - 7A, if any, at\nthe time of onlin | e filing of | application."
+    },
+    {
+      "id": "7.7.03.9",
+      "if": "| |\n(d) In case rec | ipient unit | files claim f | or | TED / | Duty Drawba | ck, disclaimer\ncertificate as pre | scribed in | the Annexu | re | -III to | ANF-7A sha | ll be obtained\nfrom supplier an | d shall be | submitted | al | ong wi | th the applic | ation.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "| |\n(d) In case rec | ipient unit | files claim f | or | TED / | Duty Drawba | ck, disclaimer\ncertificate as pre | scribed in | the Annexu | re | -III to | ANF-7A sha | ll be obtained\nfrom supplier an | d shall be | submitted | al | ong wi | th the applic | ation."
+    },
+    {
+      "id": "7.7.03.10",
+      "if": "In case\nsupplier of the go | ods is an a | pplicant the | n | the dis | claimer certif | icate from the\nrecipient of the g | oods shall b | e submitte | d.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "In case\nsupplier of the go | ods is an a | pplicant the | n | the dis | claimer certif | icate from the\nrecipient of the g | oods shall b | e submitte | d."
+    },
+    {
+      "id": "7.7.03.11",
+      "if": "| | |\n(e) Claim can | be filed onl | y after pay | me | nt is r | eceived in full |, to the extent\nof supplies mad | e for suppl | ies covered | i | n Para | 7.08 A (a) | to (c) of FTP.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "| | |\n(e) Claim can | be filed onl | y after pay | me | nt is r | eceived in full |, to the extent\nof supplies mad | e for suppl | ies covered | i | n Para | 7.08 A (a) | to (c) of FTP."
+    },
+    {
+      "id": "7.7.03.12",
+      "if": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product."
+    },
+    {
+      "id": "7.7.03.13",
+      "if": "(d)\nIn respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(d)\nIn respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C."
+    },
+    {
+      "id": "7.7.03.14",
+      "if": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A."
+    },
+    {
+      "id": "7.7.03.15",
+      "if": "any",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(c)\nApplicant shall upload documents as prescribed in ANF- 7A, if any, at\nthe time of online filing of application."
+    },
+    {
+      "id": "7.7.03.16",
+      "if": "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(d)\nIn case recipient unit files claim for TED / Duty Drawback, disclaimer\ncertificate as prescribed in the Annexure-III to ANF-7A shall be obtained\nfrom supplier and shall be submitted along with the application."
+    },
+    {
+      "id": "7.7.03.17",
+      "if": "(e)\nClaim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(e)\nClaim can be filed only after payment is received in full, to the extent\nof supplies made for supplies covered in Para 7.08 A (a) to (c) of FTP."
+    },
+    {
+      "id": "7.7.03.18",
+      "if": "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted."
+    },
+    {
+      "id": "7.7.03.19",
+      "if": "(g) Sub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods.",
+      "then": "(b) Application can be made by Registered office / Head office or\nManufacturing unit.",
+      "source": "(g) Sub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods."
+    }
+  ]
+}

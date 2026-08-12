@@ -1,0 +1,44 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "3",
+  "title": "They have an agreement or purchase order, an excerpt of a contract from the",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC3-R001",
+      "rule_description": "After issuance of | GAEIS | authorization | a | nd | before actual | exp | ort, th | e a | pplicant\nexp | orter must ensure | the fo | llowing: | | | | | | |\n1.",
+      "trigger": "They have an agreement or purchase order, an excerpt of a contract from the",
+      "condition": "They have an agreement or purchase order, an excerpt of a contract from the\nentity (buyer/consignee / end-user) receiving the items which state that the\nexport is for a permitted use / an end-use as declared in the EUC before the actual\npg.",
+      "validation": "After issuance of | GAEIS | authorization | a | nd | before actual | exp | ort, th | e a | pplicant\nexp | orter must ensure | the fo | llowing: | | | | | | |\n1.",
+      "action": "| Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - They have an agreement or purchase order, an excerpt of a contract from the."
+    },
+    {
+      "rule_id": "CH10-SEC3-R002",
+      "rule_description": "| They shall notify t | he rel | evant governm | | ent a | uthorities i | n the | onli | ne p | ortal of\nDG | FT, on a quarterly | basis | of such export i | | n the | prescribed | form | at [A | ayat | Niryat\nFor | m (ANF) 10I], alo | ng wit | h the End-Use | C | erti | ficate (EUC) | for e | ach e | xpor | t.",
+      "trigger": "They have an agreement or purchase order, an excerpt of a contract from the",
+      "condition": "| Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny.",
+      "validation": "| They shall notify t | he rel | evant governm | | ent a | uthorities i | n the | onli | ne p | ortal of\nDG | FT, on a quarterly | basis | of such export i | | n the | prescribed | form | at [A | ayat | Niryat\nFor | m (ANF) 10I], alo | ng wit | h the End-Use | C | erti | ficate (EUC) | for e | ach e | xpor | t.",
+      "action": "| In case of re-export | of im | ported items, t | h | e fol | lowing addit | iona | l docu | men | ts have\nto b | e submitted: | | | | | | | | |\n(i | ) Proof of import of | the it | em(s): | | | | | | |\n|  Documen | tary | proof that the i | t | em( | s) originally | impo | rted, | mat | ch with\n| intended | item( | s) of re-export |; | | | | | |\n|  Bill of en | try co | ntaining details | | of th | e items to b | e re- | expor | ted; |\n|  Export Li | cense | (if applicable) | | or a | ny other doc | ume | nts s | how | ing that\n| export r | egulat | ion of the co | | untr | y of export | doe | s no | t ha | ve any\n| restrictio | n on r | e- export from | | Indi | a; | | | |\n|  In case o | f any | such restrictio | n |, th | e exporter w | ill p | rovid | e a l | etter of\n| explanati | on d | etailing the lis | t | of | countries/e | ntiti | es, to | wh | ich re-\n| export/r | eturn | is restricted / r | | egul | ated; | | | |\n|  Purchas | e orde | r | | | | | | |\nviii |.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - They have an agreement or purchase order, an excerpt of a contract from the."
+    },
+    {
+      "rule_id": "CH10-SEC3-R003",
+      "rule_description": "In | case | of any\nadd | itional sheet used | along | with the EUC, | t | he s | ame must b | e on | the le | tter | head of\nthe | company and sign | ed by | the same perso | | n wh | o signs the E | UC.",
+      "trigger": "They have an agreement or purchase order, an excerpt of a contract from the",
+      "condition": "| Authorized Econom | ic Op | erator (AEO) T | 2 | Cer | tification of | CBIC |.",
+      "validation": "In | case | of any\nadd | itional sheet used | along | with the EUC, | t | he s | ame must b | e on | the le | tter | head of\nthe | company and sign | ed by | the same perso | | n wh | o signs the E | UC.",
+      "action": "for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - They have an agreement or purchase order, an excerpt of a contract from the."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: After issuance of | GAEIS | authorization | a | nd | before actual | exp | ort, th | e a | pplicant\nexp | orter must ensure | the fo | llowing: | | | | | | |\n1.",
+    "IF detected context matches section rule THEN enforce: | They shall notify t | he rel | evant governm | | ent a | uthorities i | n the | onli | ne p | ortal of\nDG | FT, on a quarterly | basis | of such export i | | n the | prescribed | form | at [A | ayat | Niryat\nFor | m (ANF) 10I], alo | ng wit | h the End-Use | C | erti | ficate (EUC) | for e | ach e | xpor | t.",
+    "IF detected context matches section rule THEN enforce: In | case | of any\nadd | itional sheet used | along | with the EUC, | t | he s | ame must b | e on | the le | tter | head of\nthe | company and sign | ed by | the same perso | | n wh | o signs the E | UC.",
+    "IF validations pass THEN recommend action: | Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny."
+  ]
+}

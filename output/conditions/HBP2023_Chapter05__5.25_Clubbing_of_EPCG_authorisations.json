@@ -1,0 +1,119 @@
+{
+  "section": "5.25",
+  "conditions": [
+    "Clubbing\nshall only be permitted in case export products endorsed on the authorisations are\nsame/similar and if authorisations are issued by the same RA.",
+    "(f) Clubbing would be permitted during valid EOP including extended period, if\nany.",
+    "However, clubbing in case of all authorisations where EO period is over may\nbe allowed for regularisation purposes provided they have been issued under\nsame policy period.",
+    "(g) In case of clubbing of EPCG authorisations where EO can be fulfilled by export\nof alternate product(s)/service(s), the proportion of alternate\nproduct(s)/service(s) for EO fulfillment/ regularization will be restricted to the\nlowest of the percentage of alternate product(s)/service(s) allowed in the clubbed\nauthorisations.",
+    "The EPCG\nAuthorisations issued from 18.04.2013 till the issue of notification of HBP 2015-\n20 shall be governed by provisions contained in Public Notice No.1 dated\n18.04.2013.",
+    "The EPCG Authorisations issued between notification of HBP 2015-\n14\nways shall be taken int | o account for | re-fixation | of the EO.",
+    "| |\n5.24 Penal Action | | | | |\nIn case of failure to | fulfil expo | rt obligati | on or an | y other cond | ition of\nauthorisation, authoris | ation holder | shall be lia | ble for acti | on under FT ( | D&R) Act,\n1992, as amended, Ord | ers and Rule | s made th | ereunder, | provisions of | FTP/HBP,\nCustoms Act, 1962, as a | mended from | time to ti | me or any | other law in fo | rce.",
+    "Clubbing\nshall only be permitted | in case expor | t products | endorsed o | n the authoris | ations are\nsame/similar and if aut | horisations a | re issued b | y the same | RA.",
+    "(f) Clubbing would be | permitted du | ring valid | EOP inclu | ding extended | period, if\nany.",
+    "However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may\nbe allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under\nsame policy period.",
+    "| | | | |\n(g) In case of clubbing | of EPCG auth | orisations | where EO c | an be fulfilled | by export\nof alternate prod | uct(s)/servic | e(s), th | e propo | rtion of | alternate\nproduct(s)/service(s) f | or EO fulfill | ment/ regu | larization | will be restric | ted to the\nlowest of the percentag | e of alternate | product(s | )/service(s | ) allowed in th | e clubbed\nauthorisations.",
+    "| The EPCG\nAuthorisations issued f | rom 18.04.20 | 13 till the | issue of no | tification of H | BP 2015-\n20 shall be governed | by provisio | ns contai | ned in Pu | blic Notice N | o.1 dated\n18.04.2013.",
+    "The EPCG | Authorisation | s issued b | etween not | ification of HB | P 2015-\n14\nways shall be taken into account for re-fixation of the EO.",
+    "(g) In case of clubbing of EPCG authorisations where EO can be fulfilled by export\nof\nalternate\nproduct(s)/service(s),\nthe\nproportion\nof\nalternate\nproduct(s)/service(s) for EO fulfillment/ regularization will be restricted to the\nlowest of the percentage of alternate product(s)/service(s) allowed in the clubbed\nauthorisations.",
+    "The EPCG Authorisations issued between notification of HBP 2015-\n20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions\ncontained in HBP 2015-20.",
+    "The EPCG Authorisations issued between notification\nof HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by\nprovisions contained in HBP 2015-20 (RE-2017)."
+  ],
+  "condition_logic": [
+    {
+      "id": "5.5.25.1",
+      "if": "Clubbing\nshall only be permitted in case export products endorsed on the authorisations are\nsame/similar and if authorisations are issued by the same RA.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "Clubbing\nshall only be permitted in case export products endorsed on the authorisations are\nsame/similar and if authorisations are issued by the same RA."
+    },
+    {
+      "id": "5.5.25.2",
+      "if": "(f) Clubbing would be permitted during valid EOP including extended period, if\nany.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "(f) Clubbing would be permitted during valid EOP including extended period, if\nany."
+    },
+    {
+      "id": "5.5.25.3",
+      "if": "However, clubbing in case of all authorisations where EO period is over may\nbe allowed for regularisation purposes provided they have been issued under\nsame policy period.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "However, clubbing in case of all authorisations where EO period is over may\nbe allowed for regularisation purposes provided they have been issued under\nsame policy period."
+    },
+    {
+      "id": "5.5.25.4",
+      "if": "(g) In case of clubbing of EPCG authorisations where EO can be fulfilled by export\nof alternate product(s)/service(s), the proportion of alternate\nproduct(s)/service(s) for EO fulfillment/ regularization will be restricted to the\nlowest of the percentage of alternate product(s)/service(s) allowed in the clubbed\nauthorisations.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "(g) In case of clubbing of EPCG authorisations where EO can be fulfilled by export\nof alternate product(s)/service(s), the proportion of alternate\nproduct(s)/service(s) for EO fulfillment/ regularization will be restricted to the\nlowest of the percentage of alternate product(s)/service(s) allowed in the clubbed\nauthorisations."
+    },
+    {
+      "id": "5.5.25.5",
+      "if": "The EPCG\nAuthorisations issued from 18.04.2013 till the issue of notification of HBP 2015-\n20 shall be governed by provisions contained in Public Notice No.1 dated\n18.04.2013.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "The EPCG\nAuthorisations issued from 18.04.2013 till the issue of notification of HBP 2015-\n20 shall be governed by provisions contained in Public Notice No.1 dated\n18.04.2013."
+    },
+    {
+      "id": "5.5.25.6",
+      "if": "The EPCG Authorisations issued between notification of HBP 2015-\n14\nways shall be taken int | o account for | re-fixation | of the EO.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "The EPCG Authorisations issued between notification of HBP 2015-\n14\nways shall be taken int | o account for | re-fixation | of the EO."
+    },
+    {
+      "id": "5.5.25.7",
+      "if": "| |\n5.24 Penal Action | | | | |\nIn case of failure to | fulfil expo | rt obligati | on or an | y other cond | ition of\nauthorisation, authoris | ation holder | shall be lia | ble for acti | on under FT ( | D&R) Act,\n1992, as amended, Ord | ers and Rule | s made th | ereunder, | provisions of | FTP/HBP,\nCustoms Act, 1962, as a | mended from | time to ti | me or any | other law in fo | rce.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "| |\n5.24 Penal Action | | | | |\nIn case of failure to | fulfil expo | rt obligati | on or an | y other cond | ition of\nauthorisation, authoris | ation holder | shall be lia | ble for acti | on under FT ( | D&R) Act,\n1992, as amended, Ord | ers and Rule | s made th | ereunder, | provisions of | FTP/HBP,\nCustoms Act, 1962, as a | mended from | time to ti | me or any | other law in fo | rce."
+    },
+    {
+      "id": "5.5.25.8",
+      "if": "Clubbing\nshall only be permitted | in case expor | t products | endorsed o | n the authoris | ations are\nsame/similar and if aut | horisations a | re issued b | y the same | RA.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "Clubbing\nshall only be permitted | in case expor | t products | endorsed o | n the authoris | ations are\nsame/similar and if aut | horisations a | re issued b | y the same | RA."
+    },
+    {
+      "id": "5.5.25.9",
+      "if": "(f) Clubbing would be | permitted du | ring valid | EOP inclu | ding extended | period, if\nany.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "(f) Clubbing would be | permitted du | ring valid | EOP inclu | ding extended | period, if\nany."
+    },
+    {
+      "id": "5.5.25.10",
+      "if": "However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may\nbe allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under\nsame policy period.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "However, clubbing | in case of al | l authorisa | tions wher | e EO period is | over may\nbe allowed for regular | isation purp | oses provi | ded they h | ave been iss | ued under\nsame policy period."
+    },
+    {
+      "id": "5.5.25.11",
+      "if": "| | | | |\n(g) In case of clubbing | of EPCG auth | orisations | where EO c | an be fulfilled | by export\nof alternate prod | uct(s)/servic | e(s), th | e propo | rtion of | alternate\nproduct(s)/service(s) f | or EO fulfill | ment/ regu | larization | will be restric | ted to the\nlowest of the percentag | e of alternate | product(s | )/service(s | ) allowed in th | e clubbed\nauthorisations.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "| | | | |\n(g) In case of clubbing | of EPCG auth | orisations | where EO c | an be fulfilled | by export\nof alternate prod | uct(s)/servic | e(s), th | e propo | rtion of | alternate\nproduct(s)/service(s) f | or EO fulfill | ment/ regu | larization | will be restric | ted to the\nlowest of the percentag | e of alternate | product(s | )/service(s | ) allowed in th | e clubbed\nauthorisations."
+    },
+    {
+      "id": "5.5.25.12",
+      "if": "| The EPCG\nAuthorisations issued f | rom 18.04.20 | 13 till the | issue of no | tification of H | BP 2015-\n20 shall be governed | by provisio | ns contai | ned in Pu | blic Notice N | o.1 dated\n18.04.2013.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "| The EPCG\nAuthorisations issued f | rom 18.04.20 | 13 till the | issue of no | tification of H | BP 2015-\n20 shall be governed | by provisio | ns contai | ned in Pu | blic Notice N | o.1 dated\n18.04.2013."
+    },
+    {
+      "id": "5.5.25.13",
+      "if": "The EPCG | Authorisation | s issued b | etween not | ification of HB | P 2015-\n14\nways shall be taken into account for re-fixation of the EO.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "The EPCG | Authorisation | s issued b | etween not | ification of HB | P 2015-\n14\nways shall be taken into account for re-fixation of the EO."
+    },
+    {
+      "id": "5.5.25.14",
+      "if": "(g) In case of clubbing of EPCG authorisations where EO can be fulfilled by export\nof\nalternate\nproduct(s)/service(s),\nthe\nproportion\nof\nalternate\nproduct(s)/service(s) for EO fulfillment/ regularization will be restricted to the\nlowest of the percentage of alternate product(s)/service(s) allowed in the clubbed\nauthorisations.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "(g) In case of clubbing of EPCG authorisations where EO can be fulfilled by export\nof\nalternate\nproduct(s)/service(s),\nthe\nproportion\nof\nalternate\nproduct(s)/service(s) for EO fulfillment/ regularization will be restricted to the\nlowest of the percentage of alternate product(s)/service(s) allowed in the clubbed\nauthorisations."
+    },
+    {
+      "id": "5.5.25.15",
+      "if": "The EPCG Authorisations issued between notification of HBP 2015-\n20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions\ncontained in HBP 2015-20.",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "The EPCG Authorisations issued between notification of HBP 2015-\n20 till the notification of HBP 2015-20 (RE-2017) shall be governed by provisions\ncontained in HBP 2015-20."
+    },
+    {
+      "id": "5.5.25.16",
+      "if": "The EPCG Authorisations issued between notification\nof HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by\nprovisions contained in HBP 2015-20 (RE-2017).",
+      "then": "5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "source": "The EPCG Authorisations issued between notification\nof HBP 2015-20 (RE-2017) till the notification of HBP 2023 shall be governed by\nprovisions contained in HBP 2015-20 (RE-2017)."
+    }
+  ]
+}

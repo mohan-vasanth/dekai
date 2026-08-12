@@ -4,13 +4,13 @@
 - source_pdf: HBP2023_Chapter03.pdf
 - page_count: 6
 - section_count: 32
-- rule_count: 21
+- rule_count: 20
 - condition_count: 41
-- workflow_count: 83
+- workflow_count: 82
 - validation_count: 14
 - exception_count: 0
 - timeline_count: 0
-- authority_count: 66
+- authority_count: 62
 - glossary_count: 15
 
 ## Section Metrics
@@ -47,4 +47,4 @@
 | 3.06 | State/UT Export Promotion Committees | 3 | 1 | 3 | 0 | 0 | 9 | 0 |
 | 3.07 | Nodal DGFT Regional Authority | 1 | 0 | 1 | 0 | 0 | 7 | 0 |
 | 3.08 | Online Monitoring of District Export Action Plans | 0 | 0 | 0 | 0 | 0 | 6 | 0 |
-| 3.09 | District Outreach Programs | 2 | 2 | 2 | 0 | 0 | 9 | 0 |
+| 3.09 | District Outreach Programs | 2 | 2 | 2 | 0 | 0 | 5 | 0 |

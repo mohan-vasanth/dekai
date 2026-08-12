@@ -1,0 +1,28 @@
+{
+  "section": "5.23",
+  "conditions": [
+    "| | | | | | | | | |\n(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export\nobligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall\nin export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs\nAuthorit | y.",
+    "| | | | | | |\n(c) In case | o | f | domestic | sourcing | of | ca | pital | goods | through | invalidation\nletter/A | RO |, | the duties, t | axes and | ces | s pa | yabl | e shall | be with refe | rence to the\nnotional | C | u | stoms duties | /taxes/c | ess | sav | ed o | n the FO | R value of | capital goods\n(includin | g | s | pares, jigs, f | ixtures, d | ies | and | mou | lds).",
+    "| |\n(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-\nmoto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in\nparagrap | h | 4 |.50 of HBP."
+  ],
+  "condition_logic": [
+    {
+      "id": "5.5.23.1",
+      "if": "| | | | | | | | | |\n(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export\nobligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall\nin export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs\nAuthorit | y.",
+      "then": "| | | | | | | | | |\n(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export\nobligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall\nin export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs\nAuthorit | y.",
+      "source": "| | | | | | | | | |\n(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export\nobligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall\nin export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs\nAuthorit | y."
+    },
+    {
+      "id": "5.5.23.2",
+      "if": "| | | | | | |\n(c) In case | o | f | domestic | sourcing | of | ca | pital | goods | through | invalidation\nletter/A | RO |, | the duties, t | axes and | ces | s pa | yabl | e shall | be with refe | rence to the\nnotional | C | u | stoms duties | /taxes/c | ess | sav | ed o | n the FO | R value of | capital goods\n(includin | g | s | pares, jigs, f | ixtures, d | ies | and | mou | lds).",
+      "then": "| | | | | | | | | |\n(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export\nobligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall\nin export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs\nAuthorit | y.",
+      "source": "| | | | | | |\n(c) In case | o | f | domestic | sourcing | of | ca | pital | goods | through | invalidation\nletter/A | RO |, | the duties, t | axes and | ces | s pa | yabl | e shall | be with refe | rence to the\nnotional | C | u | stoms duties | /taxes/c | ess | sav | ed o | n the FO | R value of | capital goods\n(includin | g | s | pares, jigs, f | ixtures, d | ies | and | mou | lds)."
+    },
+    {
+      "id": "5.5.23.3",
+      "if": "| |\n(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-\nmoto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in\nparagrap | h | 4 |.50 of HBP.",
+      "then": "| | | | | | | | | |\n(b) In case, | E | | PCG author | isation h | ol | der | fails | to fu | lfill prescr | ibed export\nobligatio | n, | | he shall pay | customs | du | ty/t | axes | /cess in | proportio | n of shortfall\nin export | o | b | ligation alon | g with ap | pli | cabl | e int | erest a | s prescribe | d by Customs\nAuthorit | y.",
+      "source": "| |\n(e) Authorisa | ti | o | n holder ca | n also p | ro | visio | nall | y pay | duty and i | nterest suo-\nmoto on | th | e | basis of sel | f/own ca | lcu | latio | n as | per th | e procedure | specified in\nparagrap | h | 4 |.50 of HBP."
+    }
+  ]
+}

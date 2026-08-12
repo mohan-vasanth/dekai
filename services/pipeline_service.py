@@ -30,6 +30,8 @@ class PipelineService:
         self._lock = threading.Lock()
         self._dispatch_lock = threading.Lock()
         self._logging_ready = False
+        self._worker_thread: threading.Thread | None = None
+        self._worker_job_id: str = ""
         self._staged_upload_dir = runtime_store.runtime_dir / "queued_uploads"
         self._staged_upload_dir.mkdir(parents=True, exist_ok=True)
 
@@ -382,6 +384,9 @@ class PipelineService:
                 document_version_service.update_document_status(document_name, "failed", str(exc))
         finally:
             self._cleanup_staged_upload(job)
+            with self._dispatch_lock:
+                self._worker_thread = None
+                self._worker_job_id = ""
             self._maybe_start_next_job()
 
     def _maybe_start_next_job(self) -> None:
@@ -391,6 +396,8 @@ class PipelineService:
         with self._dispatch_lock:
             if self._lock.locked():
                 return
+            if self._worker_thread and self._worker_thread.is_alive():
+                return
             jobs = self._reconcile_jobs(self._load_jobs())
             queued_jobs = sorted(
                 (job for job in jobs if job.get("status") == "queued"),
@@ -399,7 +406,11 @@ class PipelineService:
             if not queued_jobs:
                 return
             next_job = queued_jobs[0]
+            if self._worker_job_id == str(next_job.get("id", "")):
+                return
             thread = threading.Thread(target=lambda: self._run_queued_job(next_job), daemon=True)
+            self._worker_thread = thread
+            self._worker_job_id = str(next_job.get("id", ""))
             thread.start()
 
     def _queue_upload_job(self, filename: str, content: bytes, action: str) -> dict[str, Any]:

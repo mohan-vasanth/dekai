@@ -1,0 +1,37 @@
+{
+  "section": "2",
+  "ui": [
+    {
+      "screen_id": "SCOPE_overview",
+      "name": "SCOPE Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "SCOPE_submission",
+      "name": "SCOPE Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "for_flag",
+        "cas_flag",
+        "are_flag",
+        "net_flag"
+      ]
+    }
+  ]
+}

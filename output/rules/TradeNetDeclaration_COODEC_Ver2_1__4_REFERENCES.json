@@ -1,0 +1,19 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.COODEC Ver2.1",
+  "section": "4",
+  "title": "REFERENCES",
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC4-R001",
+      "rule_description": "4. REFERENCES\nS/ Document Name Document/Directory Rev Date\nN Reference\n1 Trade Declaration and Application of Certificate of Origin 0.1\n(TCODEC) message\n2 TCODEC (COODCI) message specification TDS41-MDS-XML-COODCI-M\n3 APERAK (STATUS) message specification TDS41-MDS-XML-STATUSA-M\n4 APERAK (ERRORM) message specification TDS41-MDS-XML-ERRORM-M\n5 Trade Net Declaration message specification TDS41-MDS-XML-DECLARATION-\nTX\n6 Trade Net Response message specification TDS41-MDS-XML-RESPONSE-TX\n7 UN/CEFACT XML Naming and Design Rules Naming And Design Rules_2.0.d\noc\n8 UN/ECE WP Trade Facilitation Recommendation No. 9, ECE/TRADE/203 1 Jan 96\nAlphabetic Code for the Representation of Currencies\n9 UN/ECE WP Trade Facilitation Recommendation No.",
+      "trigger": "REFERENCES",
+      "condition": "REFERENCES\nS/ Document Name Document/Directory Rev Date\nN Reference\n1 Trade Declaration and Application of Certificate of Origin 0.1\n(TCODEC) message\n2 TCODEC (COODCI) message specification TDS41-MDS-XML-COODCI-M\n3 APERAK (STATUS) message specification TDS41-MDS-XML-STATUSA-M\n4 APERAK (ERRORM) message specification TDS41-MDS-XML-ERRORM-M\n5 Trade Net Declaration message specification TDS41-MDS-XML-DECLARATION-\nTX\n6 Trade Net Response message specification TDS41-MDS-XML-RESPONSE-TX\n7 UN/CEFACT XML Naming and Design Rules Naming And Design Rules_2.0.d\noc\n8 UN/ECE WP Trade Facilitation Recommendation No.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4 - REFERENCES."
+    }
+  ],
+  "ai_rules": []
+}

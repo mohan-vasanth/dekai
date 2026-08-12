@@ -1,0 +1,47 @@
+{
+  "section": "3",
+  "ui": [
+    {
+      "screen_id": "Road_overview",
+      "name": "Road Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Road_submission",
+      "name": "Road Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "air_flag",
+        "cbc_flag",
+        "for_flag",
+        "any_flag",
+        "cac_flag",
+        "net_flag"
+      ]
+    },
+    {
+      "screen_id": "Road_exceptions",
+      "name": "Road Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

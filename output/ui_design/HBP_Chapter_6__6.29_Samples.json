@@ -1,0 +1,47 @@
+{
+  "section": "6.29",
+  "ui": [
+    {
+      "screen_id": "Samples_overview",
+      "name": "Samples Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Samples_submission",
+      "name": "Samples Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "eou_flag",
+        "stp_flag",
+        "btp_flag",
+        "may_flag",
+        "and_flag",
+        "dta_flag"
+      ]
+    },
+    {
+      "screen_id": "Samples_exceptions",
+      "name": "Samples Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

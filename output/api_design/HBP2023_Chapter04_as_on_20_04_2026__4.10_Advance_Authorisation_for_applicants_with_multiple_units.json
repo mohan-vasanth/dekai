@@ -1,0 +1,63 @@
+{
+  "section": "4.10",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.10",
+      "purpose": "Retrieve knowledge payload for section 4.10",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Advance-Authorisation-for-applicants-with-multiple-units/validate",
+      "purpose": "Validate inputs and documents for Advance Authorisation for applicants with multiple units",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Advance-Authorisation-for-applicants-with-multiple-units/execute",
+      "purpose": "Trigger business action for However, such duty free material imported or procured\nagainst Advance Authorisation can also be taken from the port directly to the\nproject site of the project authority, subject to furnishing a bond to the\ncustoms authority at the port of import complying with the other provisions\nas per Department of Revenue guidelines, if any.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

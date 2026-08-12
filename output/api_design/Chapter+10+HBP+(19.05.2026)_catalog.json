@@ -161,7 +161,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",
@@ -177,7 +178,8 @@
           "request_fields": [
             "section_code",
             "section_title",
-            "document_1_submitted"
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -344,7 +346,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -363,7 +367,9 @@
             "document_1_submitted",
             "document_2_submitted",
             "document_3_submitted",
-            "document_4_submitted"
+            "document_4_submitted",
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -407,7 +413,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "status",
@@ -427,7 +434,8 @@
             "document_2_submitted",
             "document_3_submitted",
             "document_4_submitted",
-            "document_5_submitted"
+            "document_5_submitted",
+            "document_6_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -818,7 +826,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Proof-of-obligation-for-repair-of-defective-damaged-items/execute",
-          "purpose": "Trigger business action for The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+          "purpose": "Trigger business action for | The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -998,7 +1006,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Authorized-Economic-Operator-AEO-Certification-along-with-ICP/execute",
-          "purpose": "Trigger business action for That Shipping Bills and Bill of Entry into destination country of subsequent\nre-exports and any other information as sought by DGFT shall be submitted to\nDGFT on quarterly basis.",
+          "purpose": "Trigger business action for That Shipping Bills and Bil | l of Entry int | o des | tination country | of subsequent |\nre-exports and any other inform | ation as so | ught | by DGFT shall b | e submitted to |\nDGFT on quarterly basis.",
           "request_fields": [
             "section_code",
             "section_title",
@@ -1114,7 +1122,9 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "status",
@@ -1131,7 +1141,9 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1732,7 +1744,8 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "status",
@@ -1749,7 +1762,8 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -1960,7 +1974,8 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "status",
@@ -1977,7 +1992,8 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -2096,7 +2112,9 @@
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "status",
@@ -2108,12 +2126,14 @@
         {
           "method": "POST",
           "path": "/api/dgft/The-applicant-exporter-declares-that-subsequent-to-the-issuance-of-export/execute",
-          "purpose": "Trigger business action for The applicant exporter declares that subsequent to the issuance of export\nauthorization, if the licensee has been notified in writing by DGFT or if they\nknow or has reason to believe that an item may be intended for military end\nuse or has a potential risk of use in or diversion to weapons of mass destruction\n(WMD) or in delivery of their missile system, the exporter would not be eligible\nfor GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+          "purpose": "Trigger business action for T | he applica | tion wo | uld be revi | ewed | /examin | ed fo | r th | e issuance o | f GAEI | S by the\nInt | er-Ministe | rial Wor | king Group | (IMW | G) base | d on | the | submitted a | pplicat | ion and\noth | er support | ing docu | ments sub | mitte | d by the | applic | ant | exporter in | the pre | scribed\npro | forma incl | uding: | | | | | | | |\ni.",
           "request_fields": [
             "section_code",
             "section_title",
             "document_1_submitted",
-            "document_2_submitted"
+            "document_2_submitted",
+            "document_3_submitted",
+            "document_4_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -2250,7 +2270,9 @@
           "purpose": "Validate inputs and documents for They have an agreement or purchase order, an excerpt of a contract from the",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",
@@ -2262,10 +2284,12 @@
         {
           "method": "POST",
           "path": "/api/dgft/They-have-an-agreement-or-purchase-order-an-excerpt-of-a-contract-from-the/execute",
-          "purpose": "Trigger business action for for GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+          "purpose": "Trigger business action for | Certified/Approve | d Int | ernal Complia | n | ce | Programme | by | the | Com | pliance\nMa | nager of the Compa | ny.",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -2399,7 +2423,9 @@
           "purpose": "Validate inputs and documents for GAEIS issued for export / re-export of SCOMET items under the above",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "status",
@@ -2414,7 +2440,9 @@
           "purpose": "Trigger business action for GAEIS issued for export / re-export of SCOMET items under the above\nCategories / Sub Categories shall be valid for Three years from the date of issue of\npg.",
           "request_fields": [
             "section_code",
-            "section_title"
+            "section_title",
+            "document_1_submitted",
+            "document_2_submitted"
           ],
           "response_fields": [
             "reference_id",
@@ -2978,7 +3006,7 @@
         {
           "method": "POST",
           "path": "/api/dgft/Revalidation-of-SCOMET-Authorisation/execute",
-          "purpose": "Trigger business action for To issue a Show Cause Notice;\niii.",
+          "purpose": "Trigger business action for To issue a | Show Caus | e | Notic | e; | | | |\niii.",
           "request_fields": [
             "section_code",
             "section_title",

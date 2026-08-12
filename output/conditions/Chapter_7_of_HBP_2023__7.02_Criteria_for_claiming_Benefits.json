@@ -1,0 +1,49 @@
+{
+  "section": "7.02",
+  "conditions": [
+    "In case Advance Authorisation, as\npg.",
+    "In case | Advance Aut | horisation, a | s\n| | | | | pg.",
+    "In case Advance Authorisation, as\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+    "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+    "(d) In respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C.",
+    "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A."
+  ],
+  "condition_logic": [
+    {
+      "id": "7.7.02.1",
+      "if": "In case Advance Authorisation, as\npg.",
+      "then": "7.02 Criteria for claiming Benefits\n(a) (i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+      "source": "In case Advance Authorisation, as\npg."
+    },
+    {
+      "id": "7.7.02.2",
+      "if": "In case | Advance Aut | horisation, a | s\n| | | | | pg.",
+      "then": "7.02 Criteria for claiming Benefits\n(a) (i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+      "source": "In case | Advance Aut | horisation, a | s\n| | | | | pg."
+    },
+    {
+      "id": "7.7.02.3",
+      "if": "In case Advance Authorisation, as\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+      "then": "7.02 Criteria for claiming Benefits\n(a) (i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+      "source": "In case Advance Authorisation, as\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned."
+    },
+    {
+      "id": "7.7.02.4",
+      "if": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+      "then": "7.02 Criteria for claiming Benefits\n(a) (i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+      "source": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product."
+    },
+    {
+      "id": "7.7.02.5",
+      "if": "(d) In respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C.",
+      "then": "7.02 Criteria for claiming Benefits\n(a) (i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+      "source": "(d) In respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C."
+    },
+    {
+      "id": "7.7.02.6",
+      "if": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "then": "7.02 Criteria for claiming Benefits\n(a) (i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+      "source": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A."
+    }
+  ]
+}

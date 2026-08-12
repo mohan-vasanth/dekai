@@ -2849,8 +2849,6 @@ Prepared by:
 TDS41-MDS-XML-IPTDEC-M
 Ref Tag name | User defined
 S R Repr | Remarks
-HEADER SECTION | |
-| ipt:Header |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10
@@ -3004,7 +3002,6 @@ Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-IPTDEC-M
-| ipt:Cargo |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10
@@ -3233,8 +3230,6 @@ Prepared by:
 TDS41-MDS-XML-IPTDEC-M
 Ref Tag name | User defined
 S R Repr | Remarks
-HEADER SECTION | |
-| ipt:Header |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10
@@ -3332,7 +3327,6 @@ Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-IPTDEC-M
-| ipt:Cargo |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10
@@ -4194,15 +4188,6 @@ Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-IPTDEC-M
-| cac:Licence |
-B064 cbc:Reference ID
-/cac:Licence | |
-cac:Supporting Document Reference | |
-B023 cbc:Document ID
-B033 cbc:Filename
-/cac:Supporting Document Reference
-INVOICE SECTION | |
-| cac:Invoice |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10
@@ -4515,7 +4500,6 @@ Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-IPTDEC-M
-| ipt:Item |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10
@@ -5048,7 +5032,6 @@ Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-IPTDEC-M
-| ipt:Summary |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10
@@ -5226,7 +5209,6 @@ Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-IPTDEC-M
-| End Declaration --------------------- | | | | | | | | | |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10
@@ -5431,15 +5413,6 @@ Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-IPTDEC-M
-| cac:Licence |
-B064 cbc:Reference ID
-/cac:Licence | |
-cac:Supporting Document Reference | |
-B023 cbc:Document ID
-B033 cbc:Filename
-/cac:Supporting Document Reference
-INVOICE SECTION | |
-| cac:Invoice |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10
@@ -6219,15 +6192,6 @@ Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-IPTDEC-M
-| cac:Licence |
-B064 cbc:Reference ID
-/cac:Licence | |
-cac:Supporting Document Reference | |
-B023 cbc:Document ID
-B033 cbc:Filename
-/cac:Supporting Document Reference
-INVOICE SECTION | |
-| cac:Invoice |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10
@@ -6486,24 +6450,6 @@ amount.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B003 cbc:Item CIFFOBValue M 1 n..16 Mandatory for all Declaration Types to specify item CIF/FOB value in
 SGD.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B003 cbc:Last Selling Price Value C 1 n..16 Specify item LSP value.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)
-OFFICIAL (CLOSED)
-Prepared by:
-TDS41-MDS-XML-IPTDEC-M
-| ipt:Item |
-OFFICIAL (CLOSED)
-TRADENET MESSAGE
-18/11/2021 11:10
-AM
-Prepared by:
-For:
-Release Date
-18/11/2021
-Ver
-4.1
-Reference
-TRADENET
-Document Id.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-IPTDEC-M
 Trade Net Declaration.IPTDEC Ver2.1.doc
 OFFICIAL (CLOSED)
@@ -6933,7 +6879,6 @@ Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-IPTDEC-M
-| ipt:Summary |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10
@@ -7104,7 +7049,6 @@ Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-IPTDEC-M
-| End Declaration --------------------- | | | | | | | | | |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10
@@ -7357,15 +7301,6 @@ Trade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-IPTDEC-M
-| cac:Licence |
-B064 cbc:Reference ID
-/cac:Licence | |
-cac:Supporting Document Reference | |
-B023 cbc:Document ID
-B033 cbc:Filename
-/cac:Supporting Document Reference
-INVOICE SECTION | |
-| cac:Invoice |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:10

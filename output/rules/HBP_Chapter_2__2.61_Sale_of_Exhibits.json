@@ -1,0 +1,107 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.61",
+  "title": "Sale of Exhibits",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_61-R001",
+      "rule_description": "2.61 Sale of Exhibits\n(a) Restricted Items: Sale of exhibits of restricted items, mentioned in ITC (HS),\nimported for an international exhibition / fair may also be made, without an\nAuthorisation within bond period allowed for re-export, on payment of\napplicable customs duties, subject to a ceiling limit of Rs.5 lakh (CIF) for such\nexhibits for each exhibitor.",
+      "trigger": "Sale of Exhibits",
+      "condition": "2.61 Sale of Exhibits\n(a) Restricted Items: Sale of exhibits of restricted items, mentioned in ITC (HS),\nimported for an international exhibition / fair may also be made, without an\nAuthorisation within bond period allowed for re-export, on payment of\napplicable customs duties, subject to a ceiling limit of Rs.5 lakh (CIF) for such\nexhibits for each exhibitor.",
+      "validation": "(b) Freely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "action": "2.61 Sale of Exhibits\n(a) Restricted Items: Sale of exhibits of restricted items, mentioned in ITC (HS),\nimported for an international exhibition / fair may also be made, without an\nAuthorisation within bond period allowed for re-export, on payment of\napplicable customs duties, subject to a ceiling limit of Rs.5 lakh (CIF) for such\nexhibits for each exhibitor.",
+      "exception": "(b) Freely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "output": "DEKAI should produce a compliance decision for 2.61 - Sale of Exhibits."
+    },
+    {
+      "rule_id": "CH2-SEC2_61-R002",
+      "rule_description": "(b) Freely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "trigger": "Sale of Exhibits",
+      "condition": "36\n(ii) | Imports have t | o | be complet | ed before 3 | 1 | s | t | March | of finan | cia | l year i.e.",
+      "validation": "| | | | | |\nEXHI | BITS AND SAMP | | LES | | | | | | | |\n2.60 | Exhibits Requi | r | ed for Natio | nal and Inte | r | n | | ationa | l Exhibiti | on | s or Fairs\nand D | emonstration | | | | | | | | | |\n(a) | Import / Ex | p | ort of exhibi | ts, including | | th | e | cons | truction a | nd | decorative\n| materials, exc | e | pt items in t | he ‘Prohibited | ’ | o | r | SCOM | ET List, re | qui | red for the\n| temporary sta | | nds of foreign | / Indian exhi | b | it | o | rs at e | xhibitions, | fai | r or similar\n| show or displ | a | y for a perio | d of six mon | t | hs | | on re-e | xport / re | -im | port basis,\n| shall be allow | e | d without an | Authorisation | | o | n | submi | ssion of a b | on | d/ security\n| to Customs or | | ATA Carnet.",
+      "action": "(b) Freely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "exception": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "output": "DEKAI should produce a compliance decision for 2.61 - Sale of Exhibits."
+    },
+    {
+      "rule_id": "CH2-SEC2_61-R003",
+      "rule_description": "| | | | | |\nEXHI | BITS AND SAMP | | LES | | | | | | | |\n2.60 | Exhibits Requi | r | ed for Natio | nal and Inte | r | n | | ationa | l Exhibiti | on | s or Fairs\nand D | emonstration | | | | | | | | | |\n(a) | Import / Ex | p | ort of exhibi | ts, including | | th | e | cons | truction a | nd | decorative\n| materials, exc | e | pt items in t | he ‘Prohibited | ’ | o | r | SCOM | ET List, re | qui | red for the\n| temporary sta | | nds of foreign | / Indian exhi | b | it | o | rs at e | xhibitions, | fai | r or similar\n| show or displ | a | y for a perio | d of six mon | t | hs | | on re-e | xport / re | -im | port basis,\n| shall be allow | e | d without an | Authorisation | | o | n | submi | ssion of a b | on | d/ security\n| to Customs or | | ATA Carnet.",
+      "trigger": "Sale of Exhibits",
+      "condition": "21\n| (b) of Customs N | o | tification No.",
+      "validation": "| | | | | | | |\n(b) | Freely importabl | e | items: How | ever, sale of | e | x | h | ibits of | items wh | ich | are freely\n| importable shall | | be allowed | within bond | | pe | r | iod al | lowed for | re | -export on\n| payment of appli | c | able customs | duties.",
+      "action": "| | | | | | | |\n(b) | Freely importabl | e | items: How | ever, sale of | e | x | h | ibits of | items wh | ich | are freely\n| importable shall | | be allowed | within bond | | pe | r | iod al | lowed for | re | -export on\n| payment of appli | c | able customs | duties.",
+      "exception": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "output": "DEKAI should produce a compliance decision for 2.61 - Sale of Exhibits."
+    },
+    {
+      "rule_id": "CH2-SEC2_61-R004",
+      "rule_description": "| | | | | | | |\n(b) | Freely importabl | e | items: How | ever, sale of | e | x | h | ibits of | items wh | ich | are freely\n| importable shall | | be allowed | within bond | | pe | r | iod al | lowed for | re | -export on\n| payment of appli | c | able customs | duties.",
+      "trigger": "Sale of Exhibits",
+      "condition": "36\n(ii)\nImports have to be completed before 31st March of financial year i.e.",
+      "validation": "36\n(ii)\nImports have to be completed before 31st March of financial year i.e.",
+      "action": "EXHIBITS AND SAMPLES\n2.61 Sale of Exhibits\n(a)\nRestricted Items: Sale of exhibits of restricted items, mentioned in ITC (HS),\nimported for an international exhibition / fair may also be made, without an\nAuthorisation within bond period allowed for re-export, on payment of\napplicable customs duties, subject to a ceiling limit of Rs.5 lakh (CIF) for such\nexhibits for each exhibitor.",
+      "exception": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "output": "DEKAI should produce a compliance decision for 2.61 - Sale of Exhibits."
+    },
+    {
+      "rule_id": "CH2-SEC2_61-R005",
+      "rule_description": "consignments must be cleared by customs authorities before this date.",
+      "trigger": "Sale of Exhibits",
+      "condition": "consignments must be cleared by customs authorities before this date.",
+      "validation": "consignments must be cleared by customs authorities before this date.",
+      "action": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "exception": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "output": "DEKAI should produce a compliance decision for 2.61 - Sale of Exhibits."
+    },
+    {
+      "rule_id": "CH2-SEC2_61-R006",
+      "rule_description": "(iii)\nSince import of maize (corn) is through STEs, the allottees of quota i.e.,\ndesignated agencies in paragraph 2.58 (b) above for this item shall also be\ngranted an import Authorisation for allotted quantities as indicated at Sl.",
+      "trigger": "Sale of Exhibits",
+      "condition": "21\n(b) of Customs Notification No.",
+      "validation": "(iii)\nSince import of maize (corn) is through STEs, the allottees of quota i.e.,\ndesignated agencies in paragraph 2.58 (b) above for this item shall also be\ngranted an import Authorisation for allotted quantities as indicated at Sl.",
+      "action": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "exception": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "output": "DEKAI should produce a compliance decision for 2.61 - Sale of Exhibits."
+    },
+    {
+      "rule_id": "CH2-SEC2_61-R007",
+      "rule_description": "(iv)\nApplication fee for these applications shall be paid according to procedure\ncontained in Appendix 2K of Appendices & Aayat Niryat Forms.",
+      "trigger": "Sale of Exhibits",
+      "condition": "EXHIBITS AND SAMPLES\n2.61 Sale of Exhibits\n(a)\nRestricted Items: Sale of exhibits of restricted items, mentioned in ITC (HS),\nimported for an international exhibition / fair may also be made, without an\nAuthorisation within bond period allowed for re-export, on payment of\napplicable customs duties, subject to a ceiling limit of Rs.5 lakh (CIF) for such\nexhibits for each exhibitor.",
+      "validation": "(iv)\nApplication fee for these applications shall be paid according to procedure\ncontained in Appendix 2K of Appendices & Aayat Niryat Forms.",
+      "action": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "exception": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "output": "DEKAI should produce a compliance decision for 2.61 - Sale of Exhibits."
+    },
+    {
+      "rule_id": "CH2-SEC2_61-R008",
+      "rule_description": "EXHIBITS AND SAMPLES\n2.61 Sale of Exhibits\n(a)\nRestricted Items: Sale of exhibits of restricted items, mentioned in ITC (HS),\nimported for an international exhibition / fair may also be made, without an\nAuthorisation within bond period allowed for re-export, on payment of\napplicable customs duties, subject to a ceiling limit of Rs.5 lakh (CIF) for such\nexhibits for each exhibitor.",
+      "trigger": "Sale of Exhibits",
+      "condition": "36\n(c) If goods brought for exhibition are not re-exported or sold within bond period\ndue to circumstances beyond control of importer, Customs Authorities may\nallow extension of bond period on merits.",
+      "validation": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "action": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "exception": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "output": "DEKAI should produce a compliance decision for 2.61 - Sale of Exhibits."
+    },
+    {
+      "rule_id": "CH2-SEC2_61-R009",
+      "rule_description": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "trigger": "Sale of Exhibits",
+      "condition": "36\n(c) If goods brought for exhibition are not re-exported or sold within bond period\ndue to circumstances beyond control of importer, Customs Authorities may\nallow extension of bond period on merits.",
+      "validation": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "action": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "exception": "(b)\nFreely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+      "output": "DEKAI should produce a compliance decision for 2.61 - Sale of Exhibits."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.61 Sale of Exhibits\n(a) Restricted Items: Sale of exhibits of restricted items, mentioned in ITC (HS),\nimported for an international exhibition / fair may also be made, without an\nAuthorisation within bond period allowed for re-export, on payment of\napplicable customs duties, subject to a ceiling limit of Rs.5 lakh (CIF) for such\nexhibits for each exhibitor.",
+    "IF detected context matches section rule THEN enforce: (b) Freely importable items: However, sale of exhibits of items which are freely\nimportable shall be allowed within bond period allowed for re-export on\npayment of applicable customs duties.",
+    "IF detected context matches section rule THEN enforce: | | | | | |\nEXHI | BITS AND SAMP | | LES | | | | | | | |\n2.60 | Exhibits Requi | r | ed for Natio | nal and Inte | r | n | | ationa | l Exhibiti | on | s or Fairs\nand D | emonstration | | | | | | | | | |\n(a) | Import / Ex | p | ort of exhibi | ts, including | | th | e | cons | truction a | nd | decorative\n| materials, exc | e | pt items in t | he ‘Prohibited | ’ | o | r | SCOM | ET List, re | qui | red for the\n| temporary sta | | nds of foreign | / Indian exhi | b | it | o | rs at e | xhibitions, | fai | r or similar\n| show or displ | a | y for a perio | d of six mon | t | hs | | on re-e | xport / re | -im | port basis,\n| shall be allow | e | d without an | Authorisation | | o | n | submi | ssion of a b | on | d/ security\n| to Customs or | | ATA Carnet.",
+    "IF detected context matches section rule THEN enforce: | | | | | | | |\n(b) | Freely importabl | e | items: How | ever, sale of | e | x | h | ibits of | items wh | ich | are freely\n| importable shall | | be allowed | within bond | | pe | r | iod al | lowed for | re | -export on\n| payment of appli | c | able customs | duties.",
+    "IF detected context matches section rule THEN enforce: consignments must be cleared by customs authorities before this date.",
+    "IF detected context matches section rule THEN enforce: (iii)\nSince import of maize (corn) is through STEs, the allottees of quota i.e.,\ndesignated agencies in paragraph 2.58 (b) above for this item shall also be\ngranted an import Authorisation for allotted quantities as indicated at Sl.",
+    "IF validations pass THEN recommend action: 2.61 Sale of Exhibits\n(a) Restricted Items: Sale of exhibits of restricted items, mentioned in ITC (HS),\nimported for an international exhibition / fair may also be made, without an\nAuthorisation within bond period allowed for re-export, on payment of\napplicable customs duties, subject to a ceiling limit of Rs.5 lakh (CIF) for such\nexhibits for each exhibitor."
+  ]
+}

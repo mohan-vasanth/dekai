@@ -1,0 +1,177 @@
+{
+  "chapter_number": "7",
+  "chapter_title": "Deemed Exports",
+  "section": "7.10",
+  "title": "Payment of interest",
+  "business_rules": [
+    {
+      "rule_id": "CH7-SEC7_10-R001",
+      "rule_description": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "trigger": "Payment of interest",
+      "condition": "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+      "validation": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "action": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R002",
+      "rule_description": "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+      "action": "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R003",
+      "rule_description": "No separate\napplication for claiming interest is required to be made.",
+      "trigger": "Payment of interest",
+      "condition": "No interest shall be paid thereafter.",
+      "validation": "No separate\napplication for claiming interest is required to be made.",
+      "action": "A single mandate\nshall be issued to the bank for principal amount and interest.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R004",
+      "rule_description": "A single mandate\nshall be issued to the bank for principal amount and interest.",
+      "trigger": "Payment of interest",
+      "condition": "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+      "validation": "A single mandate\nshall be issued to the bank for principal amount and interest.",
+      "action": "RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R005",
+      "rule_description": "No interest shall be paid thereafter.",
+      "trigger": "Payment of interest",
+      "condition": "Howev | er, an | applicati | on in ANF- | 7A, alo | ng with | docume | nts | p | rescribed | in ANF-7A\n& App | endix- | 7E, may | be made to | RA o | r DC co | ncerned, | as | t | he case m | ay be, for\nfixatio | n of br | and rate | where All In | dustry | Rate of | Drawbac | k is | | not availab | le or same\nis less | than 4 | /5th of d | uties actual | ly pai | d on raw | materia | ls or | | componen | ts used in\nthe pr | oducti | on or man | ufacture of | the sa | id goods |.",
+      "validation": "No interest shall be paid thereafter.",
+      "action": "(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R006",
+      "rule_description": "RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.",
+      "trigger": "Payment of interest",
+      "condition": "| | | |\n7.07 | Time | barred | / supplem | entar | y claim | | | | |\nIn cas | e claim | is filed | after presc | ribed | time per | iod, pro | visi | o | n of late c | ut, under\nParagr | aph 1 | 1.02 of H | BP and pro | vision | of supple | mentar | y cla | i | m under P | aragraph\n11.03 | of HBP | shall be | applicable.",
+      "validation": "RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.",
+      "action": "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R007",
+      "rule_description": "(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "trigger": "Payment of interest",
+      "condition": "In case p | ayme | nt is not | made w | ithi | n | the time | period as\n| given | above, th | en RA shal | l add | interest | compon | ent, | | along with | principal\n| amou | nt, in ac | cordance w | ith p | aragraph | 7.09 o | f th | | e FTP.",
+      "validation": "(c) RA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "action": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R008",
+      "rule_description": "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+      "trigger": "Payment of interest",
+      "condition": "interes | t is not add | ed by | RA/DC",
+      "validation": "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+      "action": "| | | | | | | | |\n7.10 | Paym | ent of in | terest | | | | | | |\n| (a) | RA shall | make paym | ent w | ithin 30 | days fro | m th | | e date of i | ssuance of\n| Appro | val Lette | r.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R009",
+      "rule_description": "| | | |\n7.07 | Time | barred | / supplem | entar | y claim | | | | |\nIn cas | e claim | is filed | after presc | ribed | time per | iod, pro | visi | o | n of late c | ut, under\nParagr | aph 1 | 1.02 of H | BP and pro | vision | of supple | mentar | y cla | i | m under P | aragraph\n11.03 | of HBP | shall be | applicable.",
+      "trigger": "Payment of interest",
+      "condition": "Wherev | er interest\n| is paid |, RA shall | inform the | reaso | n for pay | ment of | inte | r | est.",
+      "validation": "| | | |\n7.07 | Time | barred | / supplem | entar | y claim | | | | |\nIn cas | e claim | is filed | after presc | ribed | time per | iod, pro | visi | o | n of late c | ut, under\nParagr | aph 1 | 1.02 of H | BP and pro | vision | of supple | mentar | y cla | i | m under P | aragraph\n11.03 | of HBP | shall be | applicable.",
+      "action": "A singl | e mandate\n| shall b | e issued | to the bank | for pr | incipal a | mount an | d in | | terest.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R010",
+      "rule_description": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "action": "| (c) | RA shall | submit a mo | nthly | report re | garding | disb | | ursement | of deemed\n| export | s claims, | in the profo | rma a | s given in | Append | ix- | 7 | F.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R011",
+      "rule_description": "| | | | | | | | |\n7.10 | Paym | ent of in | terest | | | | | | |\n| (a) | RA shall | make paym | ent w | ithin 30 | days fro | m th | | e date of i | ssuance of\n| Appro | val Lette | r.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "| | | | | | | | |\n7.10 | Paym | ent of in | terest | | | | | | |\n| (a) | RA shall | make paym | ent w | ithin 30 | days fro | m th | | e date of i | ssuance of\n| Appro | val Lette | r.",
+      "action": "Wherev | er interest\n| is paid |, RA shall | inform the | reaso | n for pay | ment of | inte | r | est.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R012",
+      "rule_description": "A singl | e mandate\n| shall b | e issued | to the bank | for pr | incipal a | mount an | d in | | terest.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "A singl | e mandate\n| shall b | e issued | to the bank | for pr | incipal a | mount an | d in | | terest.",
+      "action": "161\n7.10 Payment of interest\n(a)\nRA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R013",
+      "rule_description": "| (c) | RA shall | submit a mo | nthly | report re | garding | disb | | ursement | of deemed\n| export | s claims, | in the profo | rma a | s given in | Append | ix- | 7 | F.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "| (c) | RA shall | submit a mo | nthly | report re | garding | disb | | ursement | of deemed\n| export | s claims, | in the profo | rma a | s given in | Append | ix- | 7 | F.",
+      "action": "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R014",
+      "rule_description": "Wherev | er interest\n| is paid |, RA shall | inform the | reaso | n for pay | ment of | inte | r | est.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "Wherev | er interest\n| is paid |, RA shall | inform the | reaso | n for pay | ment of | inte | r | est.",
+      "action": "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R015",
+      "rule_description": "161\n7.10 Payment of interest\n(a)\nRA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "161\n7.10 Payment of interest\n(a)\nRA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "action": "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    },
+    {
+      "rule_id": "CH7-SEC7_10-R016",
+      "rule_description": "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "trigger": "Payment of interest",
+      "condition": "interest is not added by RA/DC",
+      "validation": "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "action": "(c)\nRA shall submit a monthly report regarding disbursement of deemed\nexports claims, in the proforma as given in Appendix-7F.",
+      "exception": "| | | | | | |\n7.08 | Exem | ption fr | om payme | nt of | TED | | | | |\nFor cl | aiming | exempt | ion from p | ayme | nt of ter | minal e | xcis | | e duty, w | herever\napplic | able, p | rocedure | prescribed | by Ce | ntral Exci | se Auth | orit | y | shall be fo | llowed.",
+      "output": "DEKAI should produce a compliance decision for 7.10 - Payment of interest."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+    "IF detected context matches section rule THEN enforce: In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+    "IF detected context matches section rule THEN enforce: No separate\napplication for claiming interest is required to be made.",
+    "IF detected context matches section rule THEN enforce: A single mandate\nshall be issued to the bank for principal amount and interest.",
+    "IF detected context matches section rule THEN enforce: No interest shall be paid thereafter.",
+    "IF detected context matches section rule THEN enforce: RA shall maintain separate account for\ndisbursement of principal amount and interest for accounting purpose.",
+    "IF validations pass THEN recommend action: 7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter."
+  ]
+}

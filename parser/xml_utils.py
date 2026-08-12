@@ -42,6 +42,7 @@ XML_FIELD_HINT_WORDS = {
     "type",
 }
 ROOT_SUFFIXES = ("identifier", "number", "code", "id")
+FIELD_CODE_PATTERN = re.compile(r"\b[A-Z]\d{2,4}\b")
 FIELD_LINE_PATTERN = re.compile(
     r"^(?P<code>[A-Z]\d{2,4})\s+(?P<tag>(?:ipt|cac|cbc|ext):[A-Za-z][A-Za-z0-9._-]*(?:\s+[A-Za-z][A-Za-z0-9._/-]*){0,5})(?:\s+(?P<body>.*))?$",
     flags=re.IGNORECASE,
@@ -98,6 +99,25 @@ def normalized_tag_root(value: str) -> str:
 def normalized_search_words(value: str) -> str:
     base = split_camel_case(strip_xml_namespace(value))
     return " ".join(re.findall(r"[A-Za-z0-9]+", base)).casefold().strip()
+
+
+def canonical_xml_tag(value: str) -> str:
+    cleaned = _coerce_xml_query_candidate(value)
+    if not cleaned:
+        return ""
+    namespace = xml_namespace(cleaned)
+    normalized_body = normalized_search_words(cleaned)
+    if namespace and normalized_body:
+        return f"{namespace}:{normalized_body}"
+    return ""
+
+
+def xml_tag_components(value: str) -> tuple[str, str, str]:
+    canonical = canonical_xml_tag(value)
+    if not canonical or ":" not in canonical:
+        return "", "", ""
+    namespace, tag = canonical.split(":", 1)
+    return namespace, tag, canonical
 
 
 def extract_query_namespace(value: str) -> str:
@@ -170,6 +190,13 @@ def iter_query_field_aliases(value: str) -> list[str]:
             ]
         )
     return aliases
+
+
+def extract_field_code_references(value: str) -> list[str]:
+    cleaned = normalise_whitespace(str(value or "").strip())
+    if not cleaned:
+        return []
+    return unique_preserve(match.group(0).upper() for match in FIELD_CODE_PATTERN.finditer(cleaned))
 
 
 def is_xml_field_query(value: str) -> bool:

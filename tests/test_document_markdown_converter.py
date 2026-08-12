@@ -100,6 +100,56 @@ class DocumentMarkdownConverterTests(unittest.TestCase):
         self.assertNotIn("Customer product code V50766", markdown)
         self.assertNotIn("Customs code 8481805990", markdown)
 
+    def test_filters_table_row_fragments_even_when_pdf_flattening_changes_colon_spacing(self) -> None:
+        table = [
+            [
+                "Pallete/ Box\nYour Order\nOur Order",
+                "Pallete/ Box Description\nCustomer product code\nCommercial code\nProduct description",
+                "Gross weight\n(kg)",
+                "Net weight\n(kg)",
+                "Quantity",
+                "Balance",
+            ],
+            [
+                "BOX No : 72849006\nNP264235\nCO26052528\\4",
+                "Customer product code: V56968\nR298B613\nNO 2/2-PEEK-DN10-SST-ACT80-Gwintowany\nCustoms code: 8481209090 Country Of Origin: PL",
+                "",
+                "7.35",
+                "2.00",
+                "0.00",
+            ],
+        ]
+        raw_text = "\n".join(
+            [
+                "BOX No: 72849006 7.35",
+                "NP264235 Customer product code: V56968",
+                "Customs code: 8481209090",
+                "Commercial invoice",
+            ]
+        )
+        required_documents = [
+            "BOX No: 72849006 7.35\nNP264235 Customer product code: V56968\nCustoms code: 8481209090",
+            "Commercial invoice",
+        ]
+        document = DocumentKnowledge(
+            source_pdf=Path("table.pdf"),
+            page_count=1,
+            sections=[
+                _section(
+                    tables=[table],
+                    raw_text=raw_text,
+                    required_documents=required_documents,
+                )
+            ],
+        )
+
+        markdown = self.converter.convert_document(document)
+
+        self.assertIn("- Commercial invoice", markdown)
+        self.assertEqual(markdown.count("BOX No: 72849006 7.35"), 0)
+        self.assertEqual(markdown.count("NP264235 Customer product code: V56968"), 0)
+        self.assertEqual(markdown.count("Customs code: 8481209090"), 1)
+
     def test_splits_sparse_continuation_table_into_metadata_and_line_items(self) -> None:
         sparse_table = [
             ["Shipped from:\nEmerson AFCP Poland Sp. z o.o.\nul. Konstruktorska 13\nWarszawa 02-673\nPOLAND\n+48 42 6892032", "", "Shipping method:\nDO Carrier: DHL Global Forwarding\nPrecarrier: LOGISTYKA\nShipment Tracking number: 1062875214", "", "", ""],

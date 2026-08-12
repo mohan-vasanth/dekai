@@ -1,4 +1,4 @@
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '3.01', 'Policy', '3.01 Policy
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '3.01', 'Policy', '3.01 Policy
 Policy for Developing Districts as Export hubs is given in Chapter 3 of FTP.', 'Indha Policy section-la, 3.01 Policy
 Policy for Developing Districts as export hubs is given in Chapter 3 of FTP.', '3.01 Policy
 Policy for Developing Districts as Export hubs is given in Chapter 3 of FTP.', '3.01 Policy
@@ -23,7 +23,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.01', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.01', 'tags', '3.01');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.01', 'tags', 'Policy');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.01', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '3.02', 'Objective of policy', '3.02 Objective of policy
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '3.02', 'Objective of policy', '3.02 Objective of policy
 To convert each District of the country into an Export Hub by identifying products
 with export potential in the District, addressing bottlenecks for exporting these
 products, supporting local exporters/manufacturers to scale and find potential buyers
@@ -139,7 +139,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.02', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.02', 'tags', '3.02');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.02', 'tags', 'Objective of policy');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.02', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '3.03', 'District Export Promotion Committees -Institutional Mechanism at', 'Defines the operational requirements for District Export Promotion Committees -Institutional Mechanism at.', 'Indha District Export Promotion Committees -Institutional Mechanism at section-la, Defines the operational requirements for District export Promotion Committees -Institutional Mechanism at.', '3.03 District Export Promotion Committees -Institutional Mechanism at
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '3.03', 'District Export Promotion Committees -Institutional Mechanism at', 'Defines the operational requirements for District Export Promotion Committees -Institutional Mechanism at.', 'Indha District Export Promotion Committees -Institutional Mechanism at section-la, Defines the operational requirements for District export Promotion Committees -Institutional Mechanism at.', '3.03 District Export Promotion Committees -Institutional Mechanism at
 District Level
 Each District has a District Export Promotion Committee (DEPC) which is mostly
 chaired by Collector/DM/DC of the District and co-chaired by designated DGFT
@@ -340,7 +340,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.03', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.03', 'tags', '3.03');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.03', 'tags', 'District Export Promotion Committees -Institutional Mechanism at');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.03', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '1', 'Prepare a time-bound, detailed District Export Action strategy / plan for', 'Prepare a time-bound, detailed District Export Action strategy / plan for
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '1', 'Prepare a time-bound, detailed District Export Action strategy / plan for', 'Prepare a time-bound, detailed District Export Action strategy / plan for
 the district to develop as an export hub.', 'Indha Prepare a time-bound, detailed District Export Action strategy / plan for section-la, Prepare a time-bound, detailed District export Action strategy / plan for
 the district to develop as an export hub.', '1. Prepare a time-bound, detailed District Export Action strategy / plan for
 the district to develop as an export hub.', '1.', '1. Prepare a time-bound, detailed District Export Action strategy / plan for
@@ -367,25 +367,9 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'Prepare a time-bound, detailed District Export Action strategy / plan for');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '2', 'Benchmarking baseline export performance of the district, including', '64
-5 | Lead Bank Manager | Member
-7 | Representative – Sector Specific Export promotion Council | Member
-9 | Representative from District Trade/Commerce Associations | Member
-11 | Sector Specific Ministry of the State Government | Member
-13 | | Other State Government Representative (As per | | Member
-| | requirement) | |
-The preliminary exercise may include an assessment of a district to identify the
-current export profile, its further potential in the district, quantifiable targets to
-increase export performance from the District.', 'Indha Benchmarking baseline export performance of the district, including section-la, 64
-5 | Lead Bank Manager | Member
-7 | Representative – Sector Specific export promotion Council | Member
-9 | Representative from District Trade/Commerce Associations | Member
-11 | Sector Specific Ministry of the State Government | Member
-13 | | Other State Government Representative (As per | | Member
-| | requirement) | |
-The preliminary exercise may include an assessment of a district to identify the
-current export profile, its further potential in the district, quantifiable targets to
-increase export performance from the District.', '2. Benchmarking baseline export performance of the district, including
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '2', 'Benchmarking baseline export performance of the district, including', '| | Prepare a time-bound, detailed District Export Action strategy / plan for |
+| | the district to develop as an export hub.', 'Indha Benchmarking baseline export performance of the district, including section-la, | | Prepare a time-bound, detailed District export Action strategy / plan for |
+| | the district to develop as an export hub.', '2. Benchmarking baseline export performance of the district, including
 pg. 64
 5 | Lead Bank Manager | Member
 7 | Representative – Sector Specific Export promotion Council | Member
@@ -393,9 +377,7 @@ pg. 64
 11 | Sector Specific Ministry of the State Government | Member
 13 | | Other State Government Representative (As per | | Member
 | | requirement) | |
-The preliminary exercise may include an assessment of a district to identify the
-current export profile, its further potential in the district, quantifiable targets to
-increase export performance from the District.', '2.', '2. Benchmarking baseline export performance of the district, including
+1.', '2.', '2. Benchmarking baseline export performance of the district, including
 pg. 64
 5 | Lead Bank Manager | Member
 7 | Representative – Sector Specific Export promotion Council | Member
@@ -403,9 +385,7 @@ pg. 64
 11 | Sector Specific Ministry of the State Government | Member
 13 | | Other State Government Representative (As per | | Member
 | | requirement) | |
-The preliminary exercise may include an assessment of a district to identify the
-current export profile, its further potential in the district, quantifiable targets to
-increase export performance from the District.', 'Indha Benchmarking baseline export performance of the district, including section-la, 2. Benchmarking baseline export performance of the district, including
+1.', 'Indha Benchmarking baseline export performance of the district, including section-la, 2. Benchmarking baseline export performance of the district, including
 pg. 64
 5 | Lead Bank Manager | Member
 7 | Representative – Sector Specific export promotion Council | Member
@@ -413,9 +393,7 @@ pg. 64
 11 | Sector Specific Ministry of the State Government | Member
 13 | | Other State Government Representative (As per | | Member
 | | requirement) | |
-The preliminary exercise may include an assessment of a district to identify the
-current export profile, its further potential in the district, quantifiable targets to
-increase export performance from the District.', '2. Benchmarking baseline export performance of the district, including
+1.', '2. Benchmarking baseline export performance of the district, including
 pg. 64
 5 | Lead Bank Manager | Member
 7 | Representative – Sector Specific Export promotion Council | Member
@@ -423,15 +401,6 @@ pg. 64
 11 | Sector Specific Ministry of the State Government | Member
 13 | | Other State Government Representative (As per | | Member
 | | requirement) | |
-The preliminary exercise may include an assessment of a district to identify the
-current export profile, its further potential in the district, quantifiable targets to
-increase export performance from the District. This involves identifying and
-promoting products, which are currently being exported from there, and also
-identifying and promoting new products in the district with untapped export
-potential. These efforts are to be taken forward through an institutional mechanism to
-undertake a baseline study across goods and services, to map current export activities
-and the future potential along with the infrastructure and other constraints and
-bottlenecks that would need to be addressed to achieve this potential.
 1. | | Prepare a time-bound, detailed District Export Action strategy / plan for |
 | | the district to develop as an export hub. |
 pg. 64
@@ -492,7 +461,7 @@ the district to develop as an export hub.
 Benchmarking baseline export performance of the district, including
 identification of products and services currently exported with export
 volumes, destinations etc. and additional products/services with good
-promise of targeting export markets.', '[3, 4]', '["the", "per", "may", "its", "and", "are", "new", "map", "for", "hub", "etc", "all", "Lead", "Bank", "from", "This", "also", "with", "that", "need"]', 'Provide knowledge guidance for Benchmarking baseline export performance of the district, including.', '["2", "Benchmarking baseline export performance of the district, including", "dgft"]');
+promise of targeting export markets.', '[3, 4]', '["the", "per", "for", "hub", "etc", "and", "all", "may", "its", "are", "new", "map", "Lead", "Bank", "from", "plan", "MSME", "Govt", "body", "each"]', 'Provide knowledge guidance for Benchmarking baseline export performance of the district, including.', '["2", "Benchmarking baseline export performance of the district, including", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH3-SEC2-R001', '2', '2. Benchmarking baseline export performance of the district, including
 pg. 64
 5 | Lead Bank Manager | Member
@@ -501,18 +470,14 @@ pg. 64
 11 | Sector Specific Ministry of the State Government | Member
 13 | | Other State Government Representative (As per | | Member
 | | requirement) | |
-The preliminary exercise may include an assessment of a district to identify the
-current export profile, its further potential in the district, quantifiable targets to
-increase export performance from the District.', 'business_rule', 'Benchmarking baseline export performance of the district, including', '64
+1.', 'business_rule', 'Benchmarking baseline export performance of the district, including', '64
 5 | Lead Bank Manager | Member
 7 | Representative – Sector Specific Export promotion Council | Member
 9 | Representative from District Trade/Commerce Associations | Member
 11 | Sector Specific Ministry of the State Government | Member
 13 | | Other State Government Representative (As per | | Member
 | | requirement) | |
-The preliminary exercise may include an assessment of a district to identify the
-current export profile, its further potential in the district, quantifiable targets to
-increase export performance from the District.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Benchmarking baseline export performance of the district, including.');
+1.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Benchmarking baseline export performance of the district, including.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('2', '64
 5 | Lead Bank Manager | Member
 7 | Representative – Sector Specific Export promotion Council | Member
@@ -520,13 +485,7 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('2', '64
 11 | Sector Specific Ministry of the State Government | Member
 13 | | Other State Government Representative (As per | | Member
 | | requirement) | |
-The preliminary exercise may include an assessment of a district to identify the
-current export profile, its further potential in the district, quantifiable targets to
-increase export performance from the District.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'This involves identifying and
-promoting products, which are currently being exported from there, and also
-identifying and promoting new products in the district with untapped export
-potential.');
+1.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'of India
 Member
 7
@@ -560,6 +519,10 @@ Center, State and the District level.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'The preliminary exercise may include an assessment of a district to identify the
 current export profile, its further potential in the district, quantifiable targets to
 increase export performance from the District.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'This involves identifying and
+promoting products, which are currently being exported from there, and also
+identifying and promoting new products in the district with untapped export
+potential.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'Benchmarking baseline export performance of the district, including
 identification of products and services currently exported with export
 volumes, destinations etc.');
@@ -579,14 +542,8 @@ INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 1, 'Eva
 11 | Sector Specific Ministry of the State Government | Member
 13 | | Other State Government Representative (As per | | Member
 | | requirement) | |
-The preliminary exercise may include an assessment of a district to identify the
-current export profile, its further potential in the district, quantifiable targets to
-increase export performance from the District.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 2, 'Evaluate condition: This involves identifying and
-promoting products, which are currently being exported from there, and also
-identifying and promoting new products in the district with untapped export
-potential.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 3, 'Evaluate condition: of India
+1.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 2, 'Evaluate condition: of India
 Member
 7
 Representative – Sector Specific Export promotion Council
@@ -616,30 +573,33 @@ Member
 The primary function of the DEPC will be to prepare and implement District specific
 Export Action Plans in collaboration with all the relevant stakeholders from the
 Center, State and the District level.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 3, 'Evaluate condition: The preliminary exercise may include an assessment of a district to identify the
+current export profile, its further potential in the district, quantifiable targets to
+increase export performance from the District.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'the');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'per');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'may');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'its');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'and');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'are');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'new');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'map');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'for');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'hub');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'etc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'and');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'all');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'its');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'new');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'map');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Lead');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Bank');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'from');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'This');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'also');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'with');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'that');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'need');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'plan');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'MSME');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Govt');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'body');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'each');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', '2');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'Benchmarking baseline export performance of the district, including');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '3', 'Comprehensive analysis of the strength of each district and the gaps in', 'with a
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '3', 'Comprehensive analysis of the strength of each district and the gaps in', 'with a
 view to identifying interventions to enhance export of existing goods and
 services being exported and achieving the potential available for export
 of new goods and services.', 'Indha Comprehensive analysis of the strength of each district and the gaps in section-la, with a
@@ -706,7 +666,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', '3');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'Comprehensive analysis of the strength of each district and the gaps in');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '4', 'Goods and services being manufactured/produced in the district,', 'Defines the operational requirements for Goods and services being manufactured/produced in the district,.', 'Indha Goods and services being manufactured/produced in the district, section-la, Defines the operational requirements for Goods and services being manufactured/produced in the district,.', '4. Goods and services being manufactured/produced in the district,
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '4', 'Goods and services being manufactured/produced in the district,', 'Defines the operational requirements for Goods and services being manufactured/produced in the district,.', 'Indha Goods and services being manufactured/produced in the district, section-la, Defines the operational requirements for Goods and services being manufactured/produced in the district,.', '4. Goods and services being manufactured/produced in the district,
 identify the export potential of items available in such districts
 (including GI products).', '4.', '4. Goods and services being manufactured/produced in the district,
 identify the export potential of items available in such districts
@@ -745,7 +705,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', '4');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'Goods and services being manufactured/produced in the district,');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '5', 'Map the existing trade infrastructure available for thrust sector in the', 'Map the existing trade infrastructure available for thrust sector in the
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '5', 'Map the existing trade infrastructure available for thrust sector in the', 'Map the existing trade infrastructure available for thrust sector in the
 districts.', 'Indha Map the existing trade infrastructure available for thrust sector in the section-la, Map the existing trade infrastructure available for thrust sector in the
 districts.', '5. Map the existing trade infrastructure available for thrust sector in the
 districts.', '5.', '5. Map the existing trade infrastructure available for thrust sector in the
@@ -770,7 +730,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', '5');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'Map the existing trade infrastructure available for thrust sector in the');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '6', 'Identify major bottlenecks and challenges hindering export of thrust', 'Identify thrust Items/GI Products/Agricultural
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '6', 'Identify major bottlenecks and challenges hindering export of thrust', 'Identify thrust Items/GI Products/Agricultural
 items from export perspective for further in-depth analysis.', 'Indha Identify major bottlenecks and challenges hindering export of thrust section-la, Identify thrust Items/GI Products/Agricultural
 items from export perspective for further in-depth analysis.', '6. Identify major bottlenecks and challenges hindering export of thrust
 sector in the districts. Identify thrust Items/GI Products/Agricultural
@@ -816,7 +776,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', '6');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'Identify major bottlenecks and challenges hindering export of thrust');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '7', 'Identifying training and development needs of District industries and', 'Identifying training and development needs of District industries and
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '7', 'Identifying training and development needs of District industries and', 'Identifying training and development needs of District industries and
 coordination for training with other departments.', 'Indha Identifying training and development needs of District industries and section-la, Identifying training and development needs of District industries and
 coordination for training with other departments.', '7. Identifying training and development needs of District industries and
 coordination for training with other departments.', '7.', '7. Identifying training and development needs of District industries and
@@ -845,7 +805,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', '7');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'Identifying training and development needs of District industries and');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '8', 'Dissemination of information through trainings, seminars, guest lectures,', 'Defines the operational requirements for Dissemination of information through trainings, seminars, guest lectures,.', 'Indha Dissemination of information through trainings, seminars, guest lectures, section-la, Defines the operational requirements for Dissemination of information through trainings, seminars, guest lectures,.', '8. Dissemination of information through trainings, seminars, guest lectures,
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '8', 'Dissemination of information through trainings, seminars, guest lectures,', 'Defines the operational requirements for Dissemination of information through trainings, seminars, guest lectures,.', 'Indha Dissemination of information through trainings, seminars, guest lectures, section-la, Defines the operational requirements for Dissemination of information through trainings, seminars, guest lectures,.', '8. Dissemination of information through trainings, seminars, guest lectures,
 practical training, and exchange visits with other Districts of excellence.', '8.', '8. Dissemination of information through trainings, seminars, guest lectures,
 practical training, and exchange visits with other Districts of excellence.', 'Indha Dissemination of information through trainings, seminars, guest lectures, section-la, 8. Dissemination of information through trainings, seminars, guest lectures,
 practical training, and exchange visits with other Districts of excellence.', '8. Dissemination of information through trainings, seminars, guest lectures,
@@ -874,7 +834,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', '8');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', 'Dissemination of information through trainings, seminars, guest lectures,');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '9', 'Act as one point facilitator for export promotion at District level.', 'Act as one point facilitator for export promotion at District level.', 'Indha Act as one point facilitator for export promotion at District level. section-la, Act as one point facilitator for export promotion at District level.', '9. Act as one point facilitator for export promotion at District level.', '9.', '9. Act as one point facilitator for export promotion at District level.', 'Indha Act as one point facilitator for export promotion at District level. section-la, 9. Act as one point facilitator for export promotion at District level.', '9. Act as one point facilitator for export promotion at District level.', '[4]', '["Act", "one", "for", "point", "level", "export", "District", "promotion", "facilitator"]', 'Provide knowledge guidance for Act as one point facilitator for export promotion at District level..', '["9", "Act as one point facilitator for export promotion at District level.", "dgft"]');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '9', 'Act as one point facilitator for export promotion at District level.', 'Act as one point facilitator for export promotion at District level.', 'Indha Act as one point facilitator for export promotion at District level. section-la, Act as one point facilitator for export promotion at District level.', '9. Act as one point facilitator for export promotion at District level.', '9.', '9. Act as one point facilitator for export promotion at District level.', 'Indha Act as one point facilitator for export promotion at District level. section-la, 9. Act as one point facilitator for export promotion at District level.', '9. Act as one point facilitator for export promotion at District level.', '[4]', '["Act", "one", "for", "point", "level", "export", "District", "promotion", "facilitator"]', 'Provide knowledge guidance for Act as one point facilitator for export promotion at District level..', '["9", "Act as one point facilitator for export promotion at District level.", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH3-SEC9-R001', '9', '9. Act as one point facilitator for export promotion at District level.', 'business_rule', 'Act as one point facilitator for export promotion at District level.', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 9 - Act as one point facilitator for export promotion at District level..');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('9', 1, 'Review section 9 requirements');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('9', 2, 'Capture applicant inputs');
@@ -891,7 +851,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9', 'tags', '9');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9', 'tags', 'Act as one point facilitator for export promotion at District level.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '10', 'Entry of all district level data/ information/progress into the portal', 'Entry of all district level data/ information/progress into the portal
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '10', 'Entry of all district level data/ information/progress into the portal', 'Entry of all district level data/ information/progress into the portal
 being developed by DGFT and through the portal activate a virtual
 engagement/interaction forum for involving and reaching out to all
 stakeholders in the district, by enabling/facilitating them to come on
@@ -948,7 +908,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10', 'ke
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10', 'tags', '10');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10', 'tags', 'Entry of all district level data/ information/progress into the portal');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '11', 'Act as a grievance redressal forum for exporters and follow up with the', 'Act as a grievance redressal forum for exporters and follow up with the
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '11', 'Act as a grievance redressal forum for exporters and follow up with the', 'Act as a grievance redressal forum for exporters and follow up with the
 concerned Central and State agency.', 'Indha Act as a grievance redressal forum for exporters and follow up with the section-la, Act as a grievance redressal forum for exporters and follow up with the
 concerned Central and State agency.', '11. Act as a grievance redressal forum for exporters and follow up with the
 concerned Central and State agency.', '11.', '11. Act as a grievance redressal forum for exporters and follow up with the
@@ -977,7 +937,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('11', 'ke
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('11', 'tags', '11');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('11', 'tags', 'Act as a grievance redressal forum for exporters and follow up with the');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('11', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '12', 'Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in', 'in
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '12', 'Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in', 'in
 the District to encourage the industries to showcase their products to the
 world.', 'Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, in
 the District to encourage the industries to showcase their products to the
@@ -1015,7 +975,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('12', 'ke
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('12', 'tags', '12');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('12', 'tags', 'Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('12', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '13', 'Implementing the District Export Action Plan in a phased manner to', 'Implementing the District Export Action Plan in a phased manner to
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '13', 'Implementing the District Export Action Plan in a phased manner to', 'Implementing the District Export Action Plan in a phased manner to
 ensure the District achieves the targeted export growth.', 'Indha Implementing the District Export Action Plan in a phased manner to section-la, Implementing the District export Action Plan in a phased manner to
 ensure the District achieves the targeted export growth.', '13. Implementing the District Export Action Plan in a phased manner to
 ensure the District achieves the targeted export growth. pg.', '13.', '13. Implementing the District Export Action Plan in a phased manner to
@@ -1156,7 +1116,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('13', 'ke
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('13', 'tags', '13');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('13', 'tags', 'Implementing the District Export Action Plan in a phased manner to');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('13', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '3.05', 'District Export Action Plans for Each District', '3.05 District Export Action Plans for Each District
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '3.05', 'District Export Action Plans for Each District', '3.05 District Export Action Plans for Each District
 The District Export Action Plan may be prepared for each District.', 'Indha District Export Action Plans for Each District section-la, 3.05 District export Action Plans for Each District
 The District export Action Plan may be prepared for each District.', '3.05 District Export Action Plans for Each District
 The District Export Action Plan may be prepared for each District. It may include the
@@ -1308,7 +1268,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.05', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.05', 'tags', 'District Export Action Plans for Each District');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.05', 'tags', 'business-rule');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.05', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '1', 'District Profile', 'Defines the operational requirements for District Profile.', 'Indha District Profile section-la, Defines the operational requirements for District Profile.', '1. District Profile', '1.', '1. District Profile', 'Indha District Profile section-la, 1. District Profile', '1. District Profile', '[5]', '["Profile", "District"]', 'Provide knowledge guidance for District Profile.', '["1", "District Profile", "dgft"]');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '1', 'District Profile', 'Defines the operational requirements for District Profile.', 'Indha District Profile section-la, Defines the operational requirements for District Profile.', '1. District Profile', '1.', '1. District Profile', 'Indha District Profile section-la, 1. District Profile', '1. District Profile', '[5]', '["Profile", "District"]', 'Provide knowledge guidance for District Profile.', '["1", "District Profile", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH3-SEC1-R001', '1', '1. District Profile', 'business_rule', 'District Profile', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 1 - District Profile.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 1, 'Review section 1 requirements');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 2, 'Capture applicant inputs');
@@ -1318,7 +1278,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'District Profile');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '2', 'Industry Profile', 'Defines the operational requirements for Industry Profile.', 'Indha Industry Profile section-la, Defines the operational requirements for Industry Profile.', '2. Industry Profile', '2.', '2. Industry Profile', 'Indha Industry Profile section-la, 2. Industry Profile', '2. Industry Profile', '[5]', '["Profile", "Industry"]', 'Provide knowledge guidance for Industry Profile.', '["2", "Industry Profile", "dgft"]');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '2', 'Industry Profile', 'Defines the operational requirements for Industry Profile.', 'Indha Industry Profile section-la, Defines the operational requirements for Industry Profile.', '2. Industry Profile', '2.', '2. Industry Profile', 'Indha Industry Profile section-la, 2. Industry Profile', '2. Industry Profile', '[5]', '["Profile", "Industry"]', 'Provide knowledge guidance for Industry Profile.', '["2", "Industry Profile", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH3-SEC2-R001', '2', '2. Industry Profile', 'business_rule', 'Industry Profile', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Industry Profile.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 1, 'Review section 2 requirements');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 2, 'Capture applicant inputs');
@@ -1328,7 +1288,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', '2');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'Industry Profile');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '3', 'Comprehensive analysis of the major products (Goods and Services)', 'Defines the operational requirements for Comprehensive analysis of the major products (Goods and Services).', 'Indha Comprehensive analysis of the major products (Goods and Services) section-la, Defines the operational requirements for Comprehensive analysis of the major products (Goods and Services).', '3. Comprehensive analysis of the major products (Goods and Services)
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '3', 'Comprehensive analysis of the major products (Goods and Services)', 'Defines the operational requirements for Comprehensive analysis of the major products (Goods and Services).', 'Indha Comprehensive analysis of the major products (Goods and Services) section-la, Defines the operational requirements for Comprehensive analysis of the major products (Goods and Services).', '3. Comprehensive analysis of the major products (Goods and Services)
 with export potential from District.', '3.', '3. Comprehensive analysis of the major products (Goods and Services)
 with export potential from District.', 'Indha Comprehensive analysis of the major products (Goods and Services) section-la, 3. Comprehensive analysis of the major products (Goods and Services)
 with export potential from District.', '3. Comprehensive analysis of the major products (Goods and Services)
@@ -1354,7 +1314,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', '3');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'Comprehensive analysis of the major products (Goods and Services)');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '4', 'Identifying the bottlenecks faced by the Industry.', 'Defines the operational requirements for Identifying the bottlenecks faced by the Industry..', 'Indha Identifying the bottlenecks faced by the Industry. section-la, Defines the operational requirements for Identifying the bottlenecks faced by the Industry..', '4. Identifying the bottlenecks faced by the Industry.', '4.', '4. Identifying the bottlenecks faced by the Industry.', 'Indha Identifying the bottlenecks faced by the Industry. section-la, 4. Identifying the bottlenecks faced by the Industry.', '4. Identifying the bottlenecks faced by the Industry.', '[5]', '["the", "faced", "Industry", "Identifying", "bottlenecks"]', 'Provide knowledge guidance for Identifying the bottlenecks faced by the Industry..', '["4", "Identifying the bottlenecks faced by the Industry.", "dgft"]');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '4', 'Identifying the bottlenecks faced by the Industry.', 'Defines the operational requirements for Identifying the bottlenecks faced by the Industry..', 'Indha Identifying the bottlenecks faced by the Industry. section-la, Defines the operational requirements for Identifying the bottlenecks faced by the Industry..', '4. Identifying the bottlenecks faced by the Industry.', '4.', '4. Identifying the bottlenecks faced by the Industry.', 'Indha Identifying the bottlenecks faced by the Industry. section-la, 4. Identifying the bottlenecks faced by the Industry.', '4. Identifying the bottlenecks faced by the Industry.', '[5]', '["the", "faced", "Industry", "Identifying", "bottlenecks"]', 'Provide knowledge guidance for Identifying the bottlenecks faced by the Industry..', '["4", "Identifying the bottlenecks faced by the Industry.", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH3-SEC4-R001', '4', '4. Identifying the bottlenecks faced by the Industry.', 'business_rule', 'Identifying the bottlenecks faced by the Industry.', 'Identifying the bottlenecks faced by the Industry.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - Identifying the bottlenecks faced by the Industry..');
 INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'Identifying the bottlenecks faced by the Industry.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 1, 'Evaluate condition: Identifying the bottlenecks faced by the Industry.');
@@ -1366,7 +1326,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', '4');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'Identifying the bottlenecks faced by the Industry.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '5', 'Identifying institutional responsibilities, specifics of policy,', 'Defines the operational requirements for Identifying institutional responsibilities, specifics of policy,.', 'Indha Identifying institutional responsibilities, specifics of policy, section-la, Defines the operational requirements for Identifying institutional responsibilities, specifics of policy,.', '5. Identifying institutional responsibilities, specifics of policy,
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '5', 'Identifying institutional responsibilities, specifics of policy,', 'Defines the operational requirements for Identifying institutional responsibilities, specifics of policy,.', 'Indha Identifying institutional responsibilities, specifics of policy, section-la, Defines the operational requirements for Identifying institutional responsibilities, specifics of policy,.', '5. Identifying institutional responsibilities, specifics of policy,
 regulatory and operational reforms.', '5.', '5. Identifying institutional responsibilities, specifics of policy,
 regulatory and operational reforms.', 'Indha Identifying institutional responsibilities, specifics of policy, section-la, 5. Identifying institutional responsibilities, specifics of policy,
 regulatory and operational reforms.', '5. Identifying institutional responsibilities, specifics of policy,
@@ -1390,7 +1350,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', '5');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'Identifying institutional responsibilities, specifics of policy,');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '6', 'Identifying infrastructure/utilities/logistics/Policy interventions', 'Defines the operational requirements for Identifying infrastructure/utilities/logistics/Policy interventions.', 'Indha Identifying infrastructure/utilities/logistics/Policy interventions section-la, Defines the operational requirements for Identifying infrastructure/utilities/logistics/Policy interventions.', '6. Identifying infrastructure/utilities/logistics/Policy interventions
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '6', 'Identifying infrastructure/utilities/logistics/Policy interventions', 'Defines the operational requirements for Identifying infrastructure/utilities/logistics/Policy interventions.', 'Indha Identifying infrastructure/utilities/logistics/Policy interventions section-la, Defines the operational requirements for Identifying infrastructure/utilities/logistics/Policy interventions.', '6. Identifying infrastructure/utilities/logistics/Policy interventions
 required.', '6.', '6. Identifying infrastructure/utilities/logistics/Policy interventions
 required.', 'Indha Identifying infrastructure/utilities/logistics/Policy interventions section-la, 6. Identifying infrastructure/utilities/logistics/Policy interventions
 required.', '6. Identifying infrastructure/utilities/logistics/Policy interventions
@@ -1412,7 +1372,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', '6');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'Identifying infrastructure/utilities/logistics/Policy interventions');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '7', 'Action Plan must identify quantifiable targets with specific timelines', 'Action Plan must identify quantifiable targets with specific timelines
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '7', 'Action Plan must identify quantifiable targets with specific timelines', 'Action Plan must identify quantifiable targets with specific timelines
 for their implementation.', 'Indha Action Plan must identify quantifiable targets with specific timelines section-la, Action Plan must identify quantifiable targets with specific timelines
 for their implementation.', '7. Action Plan must identify quantifiable targets with specific timelines
 for their implementation.', 'Action Plan must identify quantifiable targets with specific timelines governs how DGFT business controls should be applied, validated, and enforced.', 'Action Plan must identify quantifiable targets with specific timelines explains the operating rule set that DEKAI should enforce. Key control points include Action Plan must identify quantifiable targets with specific timelines
@@ -1445,7 +1405,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tag
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'Action Plan must identify quantifiable targets with specific timelines');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'business-rule');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '8', 'Clear identification of incentives/Support provided by the State and', 'Defines the operational requirements for Clear identification of incentives/Support provided by the State and.', 'Indha Clear identification of incentives/Support provided by the State and section-la, Defines the operational requirements for Clear identification of incentives/Support provided by the State and.', '8. Clear identification of incentives/Support provided by the State and
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '8', 'Clear identification of incentives/Support provided by the State and', 'Defines the operational requirements for Clear identification of incentives/Support provided by the State and.', 'Indha Clear identification of incentives/Support provided by the State and section-la, Defines the operational requirements for Clear identification of incentives/Support provided by the State and.', '8. Clear identification of incentives/Support provided by the State and
 Central Government.', '8.', '8. Clear identification of incentives/Support provided by the State and
 Central Government.', 'Indha Clear identification of incentives/Support provided by the State and section-la, 8. Clear identification of incentives/Support provided by the State and
 Central Government.', '8. Clear identification of incentives/Support provided by the State and
@@ -1470,7 +1430,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'key
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', '8');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', 'Clear identification of incentives/Support provided by the State and');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '9', 'Training and development needs for identified export', 'Training and development needs for identified export
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '9', 'Training and development needs for identified export', 'Training and development needs for identified export
 products/services.', 'Indha Training and development needs for identified export section-la, Training and development needs for identified export
 products/services.', '9. Training and development needs for identified export
 products/services. pg.', 'Training and development needs for identified export governs how DGFT business controls should be applied, validated, and enforced.', 'Training and development needs for identified export explains the operating rule set that DEKAI should enforce. Key control points include | | Action Plan must identify quantifiable targets with specific timelines |
@@ -1537,7 +1497,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9', 'tag
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9', 'tags', 'Training and development needs for identified export');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9', 'tags', 'business-rule');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('9', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '10', 'Analysis of the export data of the District and ways and means to', 'Analysis of the export data of the District and ways and means to
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '10', 'Analysis of the export data of the District and ways and means to', 'Analysis of the export data of the District and ways and means to
 effectively capture it.', 'Indha Analysis of the export data of the District and ways and means to section-la, Analysis of the export data of the District and ways and means to
 effectively capture it.', '10. Analysis of the export data of the District and ways and means to
 effectively capture it.', '10.', '10. Analysis of the export data of the District and ways and means to
@@ -1562,7 +1522,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10', 'ke
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10', 'tags', '10');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10', 'tags', 'Analysis of the export data of the District and ways and means to');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('10', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '11', 'Mid-term and long-term export strategy/suggestions to promote', 'Mid-term and long-term export strategy/suggestions to promote
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '11', 'Mid-term and long-term export strategy/suggestions to promote', 'Mid-term and long-term export strategy/suggestions to promote
 exports of identified products/services from the district.', 'Indha Mid-term and long-term export strategy/suggestions to promote section-la, Mid-term and long-term export strategy/suggestions to promote
 exports of identified products/services from the district.', '11. Mid-term and long-term export strategy/suggestions to promote
 exports of identified products/services from the district.', '11.', '11. Mid-term and long-term export strategy/suggestions to promote
@@ -1591,7 +1551,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('11', 'ke
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('11', 'tags', '11');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('11', 'tags', 'Mid-term and long-term export strategy/suggestions to promote');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('11', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '3.06', 'State/UT Export Promotion Committees', '3.06 State/UT Export Promotion Committees
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '3.06', 'State/UT Export Promotion Committees', '3.06 State/UT Export Promotion Committees
 To synergise the efforts of the Department of Commerce/DGFT and the State/UT
 governments in promotion of exports from the State, each State shall constitute a
 State Export Promotion Committee(SEPC) headed by Chief Secretary of the State.', 'Indha State/UT Export Promotion Committees section-la, 3.06 State/UT export Promotion Committees
@@ -1714,7 +1674,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.06', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.06', 'tags', 'State/UT Export Promotion Committees');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.06', 'tags', 'business-rule');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.06', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '3.07', 'Nodal DGFT Regional Authority', '3.07 Nodal DGFT Regional Authority
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '3.07', 'Nodal DGFT Regional Authority', '3.07 Nodal DGFT Regional Authority
 Districts of the States/UTs have been assigned to the Jurisdictional DGFT Regional
 Authority and the nodal RA shall be responsible for the Districts under their
 jurisdiction for all activities related to Districts as Export Hubs initiative in those
@@ -1786,7 +1746,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.07', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.07', 'tags', 'Nodal DGFT Regional Authority');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.07', 'tags', 'business-rule');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.07', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '3.08', 'Online Monitoring of District Export Action Plans', '3.08 Online Monitoring of District Export Action Plans
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '3.08', 'Online Monitoring of District Export Action Plans', '3.08 Online Monitoring of District Export Action Plans
 DGFT would develop an online monitoring portal that maybe accessed on the DGFT
 website to enable the States/ DGFT RAs to upload all information related to the
 products/services with export potential of every District.', 'Indha Online Monitoring of District Export Action Plans section-la, 3.08 Online Monitoring of District export Action Plans
@@ -1861,7 +1821,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.08', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.08', 'tags', '3.08');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.08', 'tags', 'Online Monitoring of District Export Action Plans');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.08', 'tags', 'dgft');
-INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs', '3.09', 'District Outreach Programs', '3.09 District Outreach Programs
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP2023_Chapter03.pdf', '3', 'Developing Districts as Export Hubs Developing Districts as Export Hubs', '3.09', 'District Outreach Programs', '3.09 District Outreach Programs
 Each Jurisdictional DGFT RA in collaboration with the State and District
 administration and concerned agencies/EPCs of Central and State Government shall
 prepare a calendar of activities in each District to conduct awareness and training
@@ -1878,17 +1838,11 @@ outreach events to reach every potential exporter in the District. pg.', 'Distri
 Each Jurisdictional DGFT RA in collaboration with the State and District
 administration and concerned agencies/EPCs of Central and State Government shall
 prepare a calendar of activities in each District to conduct awareness and training
-programs to promote exports from the District. The section also drives actions such as |
-DGFT would develop an online monitoring portal that maybe accessed on the DGFT
-website to enable the States/ DGFT RAs to upload all information related to the
-products/services with export potential of every District..', 'Indha District Outreach Programs section-la, District Outreach Programs explains the operating rule set that DEKAI should enforce. Key control points include 3.09 District Outreach Programs
+programs to promote exports from the District.', 'Indha District Outreach Programs section-la, District Outreach Programs explains the operating rule set that DEKAI should enforce. Key control points include 3.09 District Outreach Programs
 Each Jurisdictional DGFT RA in collaboration with the State and District
 administration and concerned agencies/EPCs of Central and State Government kandippa
 prepare a calendar of activities in each District to conduct awareness and training
-programs to promote exports from the District. The section also drives actions such as |
-DGFT would develop an online monitoring portal that maybe accessed on the DGFT
-website to enable the States/ DGFT RAs to upload all information related to the
-products/services with export potential of every District..', '3.09 District Outreach Programs
+programs to promote exports from the District.', '3.09 District Outreach Programs
 Each Jurisdictional DGFT RA in collaboration with the State and District
 administration and concerned agencies/EPCs of Central and State Government shall
 prepare a calendar of activities in each District to conduct awareness and training
@@ -1897,20 +1851,13 @@ outreach events to reach every potential exporter in the District.
 pg. 67
 | 11. | | | Mid-term and long-term export strategy/suggestions to promote |
 | | | | exports of identified products/services from the district. |
-DGFT would develop an online monitoring portal that maybe accessed on the DGFT
-website to enable the States/ DGFT RAs to upload all information related to the
-products/services with export potential of every District. The portal mayalso help in
-monitoring the progress of District Export Action Plan in all the Districts. Each DGFT
-Jurisdictional RA will be primarily responsible for updating the information/progress
-made in implementing Export Action Plan for each District under their Jurisdiction.
-The information will also be available in public domain for the benefit of the trade.
 pg. 67
 10.
 Analysis of the export data of the District and ways and means to
 effectively capture it.
 11.
 Mid-term and long-term export strategy/suggestions to promote
-exports of identified products/services from the district.', '[6]', '["the", "and", "RAs", "all", "for", "Each", "DGFT", "with", "from", "Wide", "that", "help", "Plan", "will", "made", "also", "data", "ways", "State", "shall"]', 'Support District Outreach Programs processing and compliance validation.', '["3.09", "District Outreach Programs", "business-rule", "dgft"]');
+exports of identified products/services from the district.', '[6]', '["the", "and", "Each", "DGFT", "with", "from", "Wide", "data", "ways", "State", "shall", "given", "these", "reach", "every", "means", "events", "export", "Central", "prepare"]', 'Provide knowledge guidance for District Outreach Programs.', '["3.09", "District Outreach Programs", "business-rule", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH3-SEC3_09-R001', '3.09', '3.09 District Outreach Programs
 Each Jurisdictional DGFT RA in collaboration with the State and District
 administration and concerned agencies/EPCs of Central and State Government shall
@@ -1920,17 +1867,11 @@ programs to promote exports from the District.', 'business_rule', 'District Outr
 Each Jurisdictional DGFT RA in collaboration with the State and District
 administration and concerned agencies/EPCs of Central and State Government shall
 prepare a calendar of activities in each District to conduct awareness and training
-programs to promote exports from the District.', '|
-DGFT would develop an online monitoring portal that maybe accessed on the DGFT
-website to enable the States/ DGFT RAs to upload all information related to the
-products/services with export potential of every District.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3.09 - District Outreach Programs.');
+programs to promote exports from the District.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3.09 - District Outreach Programs.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH3-SEC3_09-R002', '3.09', 'Wide publicity shall be given to these
 outreach events to reach every potential exporter in the District.', 'business_rule', 'District Outreach Programs', 'Mid-term and long-term export strategy/suggestions to promote
 exports of identified products/services from the district.', 'Wide publicity shall be given to these
-outreach events to reach every potential exporter in the District.', '|
-DGFT would develop an online monitoring portal that maybe accessed on the DGFT
-website to enable the States/ DGFT RAs to upload all information related to the
-products/services with export potential of every District.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3.09 - District Outreach Programs.');
+outreach events to reach every potential exporter in the District.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3.09 - District Outreach Programs.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('3.09', '| | | Mid-term and long-term export strategy/suggestions to promote |
 | | | | exports of identified products/services from the district.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('3.09', 'Mid-term and long-term export strategy/suggestions to promote
@@ -1940,45 +1881,37 @@ INSERT INTO authorities (section_code, authority_name) VALUES ('3.09', 'RA');
 INSERT INTO authorities (section_code, authority_name) VALUES ('3.09', 'State Government');
 INSERT INTO authorities (section_code, authority_name) VALUES ('3.09', 'Each Jurisdictional DGFT RA');
 INSERT INTO authorities (section_code, authority_name) VALUES ('3.09', 'EPCs of Central and State Government');
-INSERT INTO authorities (section_code, authority_name) VALUES ('3.09', 'DGFT would develop an online monitoring portal that maybe accessed on the DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('3.09', 'States/ DGFT');
-INSERT INTO authorities (section_code, authority_name) VALUES ('3.09', 'Jurisdictional RA');
-INSERT INTO authorities (section_code, authority_name) VALUES ('3.09', 'Each DGFT');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3.09', 1, 'Evaluate condition: | | | Mid-term and long-term export strategy/suggestions to promote |
 | | | | exports of identified products/services from the district.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3.09', 2, 'Evaluate condition: Mid-term and long-term export strategy/suggestions to promote
 exports of identified products/services from the district.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3.09', 3, '|
-DGFT would develop an online monitoring portal that maybe accessed on the DGFT
-website to enable the States/ DGFT RAs to upload all information related to the
-products/services with export potential of every District.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3.09', 4, 'Run validation: 3.09 District Outreach Programs
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3.09', 3, 'Run validation: 3.09 District Outreach Programs
 Each Jurisdictional DGFT RA in collaboration with the State and District
 administration and concerned agencies/EPCs of Central and State Government shall
 prepare a calendar of activities in each District to conduct awareness and training
 programs to promote exports from the District.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3.09', 5, 'Run validation: Wide publicity shall be given to these
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3.09', 4, 'Run validation: Wide publicity shall be given to these
 outreach events to reach every potential exporter in the District.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'the');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'and');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'RAs');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'all');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'for');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'Each');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'DGFT');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'with');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'from');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'Wide');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'that');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'help');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'Plan');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'will');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'made');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'also');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'data');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'ways');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'State');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'given');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'these');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'reach');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'every');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'means');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'events');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'export');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'Central');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'keywords', 'prepare');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'tags', '3.09');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'tags', 'District Outreach Programs');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.09', 'tags', 'business-rule');

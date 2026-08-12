@@ -1,0 +1,1042 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.14",
+  "title": "Modification of IEC",
+  "purpose": "(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).",
+  "purpose_thanglish": "Indha Modification of IEC section-la, (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).",
+  "summary": "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents. (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s). (c) Request for (i) Cancellation of existing IEC and (ii) PAN change in existing numeric\nIECs has to be made to the jurisdictional Regional Authority.",
+  "business_meaning": "Modification of IEC governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Modification of IEC explains the operating rule set that DEKAI should enforce. Key control points include (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s). The section also drives actions such as (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments..",
+  "business_explanation_thanglish": "Indha Modification of IEC section-la, Modification of IEC explains the operating rule set that DEKAI should enforce. Key control points include (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s). The section also drives actions such as (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments..",
+  "business_logic": [
+    "(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+    "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_14-R001",
+      "rule_description": "(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).",
+      "trigger": "Modification of IEC",
+      "condition": "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.",
+      "validation": "(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).",
+      "action": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.14 - Modification of IEC."
+    },
+    {
+      "rule_id": "CH2-SEC2_14-R002",
+      "rule_description": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "trigger": "Modification of IEC",
+      "condition": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "validation": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "action": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.14 - Modification of IEC."
+    },
+    {
+      "rule_id": "CH2-SEC2_14-R003",
+      "rule_description": "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+      "trigger": "Modification of IEC",
+      "condition": "(e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc.",
+      "validation": "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+      "action": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.14 - Modification of IEC."
+    },
+    {
+      "rule_id": "CH2-SEC2_14-R004",
+      "rule_description": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "trigger": "Modification of IEC",
+      "condition": "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+      "validation": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "action": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.14 - Modification of IEC."
+    }
+  ],
+  "conditions": [
+    "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+    "(e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc.",
+    "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+    "Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc.",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.14.1",
+      "if": "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.",
+      "then": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "source": "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents."
+    },
+    {
+      "id": "2.2.14.2",
+      "if": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "then": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "source": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+    },
+    {
+      "id": "2.2.14.3",
+      "if": "(e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc.",
+      "then": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "source": "(e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc."
+    },
+    {
+      "id": "2.2.14.4",
+      "if": "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+      "then": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "source": "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already."
+    },
+    {
+      "id": "2.2.14.5",
+      "if": "Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc.",
+      "then": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "source": "Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc."
+    },
+    {
+      "id": "2.2.14.6",
+      "if": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "then": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "source": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+    }
+  ],
+  "validations": [
+    "(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+    "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+  ],
+  "exceptions": [],
+  "dependencies": [
+    "1"
+  ],
+  "documents": [
+    "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+    "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+  ],
+  "required_documents": [
+    "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+    "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+  ],
+  "tables": [
+    [
+      [
+        "IEC can be surrendered",
+        "only if all authorisatio",
+        "ns",
+        "/ obli",
+        "gations h",
+        "ave been cl",
+        "osed for the"
+      ],
+      [
+        "IEC or in cases where",
+        "the firm has been am",
+        "a",
+        "lgama",
+        "ted/acq",
+        "uired/merge",
+        "d etc. with"
+      ],
+      [
+        "another entity such that",
+        "all the authorisation",
+        "s/",
+        "obliga",
+        "tions are",
+        "transferre",
+        "d to the IEC"
+      ],
+      [
+        "of the new entity.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.14 Modification of I",
+        "EC",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(a) Modification(s)/Upd",
+        "ation(s) in IEC can b",
+        "e d",
+        "one",
+        "online on",
+        "ly with app",
+        "licable fees"
+      ],
+      [
+        "and requisite documents",
+        ".",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(b) Any change in cons",
+        "titution of firm, addr",
+        "es",
+        "s, ban",
+        "k details",
+        "or any oth",
+        "er primary"
+      ],
+      [
+        "details, the IEC holder is",
+        "required to ensure t",
+        "ha",
+        "t the",
+        "IEC detai",
+        "ls are suita",
+        "bly updated"
+      ],
+      [
+        "online within 30 days of",
+        "effecting such change",
+        "(s)",
+        ".",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(c) Request for (i) Cance",
+        "llation of existing IEC",
+        "an",
+        "d (ii)",
+        "PAN cha",
+        "nge in existi",
+        "ng numeric"
+      ],
+      [
+        "IECs has to be made to t",
+        "he jurisdictional Regio",
+        "na",
+        "l Aut",
+        "hority.",
+        "",
+        ""
+      ],
+      [
+        "(d) RAs shall consider",
+        "applications seekin",
+        "g",
+        "mod",
+        "ification",
+        "in IEC (al",
+        "l numeric),"
+      ],
+      [
+        "involving change in",
+        "PAN, by ensuring",
+        "",
+        "that",
+        "liabiliti",
+        "es of the",
+        "previous"
+      ],
+      [
+        "applicant/applicant firm",
+        "are transferred to t",
+        "he",
+        "new",
+        "applican",
+        "t/applicant",
+        "firm whose"
+      ],
+      [
+        "PAN will be reflecting in",
+        "the modified IEC.",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(e) In case of change in c",
+        "onstitution of a PAN b",
+        "as",
+        "ed IE",
+        "C by way",
+        "of merger,",
+        "acquisition,"
+      ],
+      [
+        "liquidation, inheritance,",
+        "business transfer et",
+        "c.",
+        "such",
+        "that PAN",
+        "of the ne",
+        "w entity so"
+      ],
+      [
+        "formed is different from",
+        "the earlier one, an IE",
+        "C",
+        "shall",
+        "be availe",
+        "d against th",
+        "e new PAN"
+      ],
+      [
+        "within 30 days of effect",
+        "ing such change, if no",
+        "t",
+        "existi",
+        "ng alread",
+        "y. Previous",
+        "IEC (s) can"
+      ],
+      [
+        "also be operationally lin",
+        "ked to the IEC of the n",
+        "ew",
+        "entit",
+        "y.",
+        "",
+        ""
+      ],
+      [
+        "(f) An application for tra",
+        "nsfer of unredeemed",
+        "Au",
+        "thori",
+        "sation(s)",
+        "from earlie",
+        "r IEC to the"
+      ],
+      [
+        "new IEC may be submitte",
+        "d online to the origina",
+        "l j",
+        "urisd",
+        "ictional R",
+        "A along with",
+        "supporting"
+      ],
+      [
+        "documents. Concerned R",
+        "A may sanction the",
+        "gi",
+        "ven li",
+        "nkage af",
+        "ter due scr",
+        "utiny of the"
+      ],
+      [
+        "evidence provided by the",
+        "applicant including su",
+        "bm",
+        "issio",
+        "n of affida",
+        "vits etc.",
+        ""
+      ],
+      [
+        "2.15 Profile of Impor",
+        "ter / Exporter",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "a) ANF-1 contains the",
+        "profile of the impo",
+        "rt",
+        "er/ex",
+        "porter. I",
+        "EC Holder",
+        "shall be"
+      ],
+      [
+        "responsible for updating",
+        "the same as and whe",
+        "n a",
+        "chan",
+        "ge takes",
+        "place imme",
+        "diately or"
+      ],
+      [
+        "in any case at least once",
+        "in a year.",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "b) Documents which are",
+        "uploaded in the Impo",
+        "rt",
+        "er-Ex",
+        "porter Pr",
+        "ofile are no",
+        "t required"
+      ],
+      [
+        "to be filed each time the",
+        "importer/exporter ap",
+        "pli",
+        "es fo",
+        "r authori",
+        "sation/scrip",
+        "/ licence/"
+      ],
+      [
+        "registration under differ",
+        "ent schemes of this FT",
+        "P.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "c) Proof of status as man",
+        "ufacturer exporter is",
+        "als",
+        "o to",
+        "be upload",
+        "ed under th",
+        "e Profile."
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "pg. 15"
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "2.14::section::0::modification-of-iec",
+      "type": "section",
+      "title": "Modification of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.\n(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).\n(c) Request for (i) Cancellation of existing IEC and (ii) PAN change in existing numeric\nIECs has to be made to the jurisdictional Regional Authority.\n(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.\n(e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc. such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already. Previous IEC (s) can\nalso be operationally linked to the IEC of the new entity.\n(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments. Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc.\n2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.\n(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).\n(c) Request for (i) Cancellation of existing IEC and (ii) PAN change in existing numeric\nIECs has to be made to the jurisdictional Regional Authority.\n(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.\n(e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc. such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already. Previous IEC (s) can\nalso be operationally linked to the IEC of the new entity.\n(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments. Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc.",
+      "parentId": "",
+      "sectionId": "2.14",
+      "sectionTitle": "Modification of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 51,
+      "searchAliases": [
+        "Modification of IEC",
+        "ModificationofIEC"
+      ],
+      "childIds": [
+        "2.14::validation::1::validation-rules",
+        "2.14::validation::2::validation-rules",
+        "2.14::validation::3::validation-rules",
+        "2.14::validation::4::validation-rules",
+        "2.14::business_rule::5::modification-of-iec",
+        "2.14::business_rule::6::modification-of-iec",
+        "2.14::business_rule::7::modification-of-iec",
+        "2.14::business_rule::8::modification-of-iec"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 51
+    },
+    {
+      "id": "2.14::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).",
+      "parentId": "2.14::section::0::modification-of-iec",
+      "sectionId": "2.14",
+      "sectionTitle": "Modification of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.14::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "parentId": "2.14::section::0::modification-of-iec",
+      "sectionId": "2.14",
+      "sectionTitle": "Modification of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.14::validation::3::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+      "parentId": "2.14::section::0::modification-of-iec",
+      "sectionId": "2.14",
+      "sectionTitle": "Modification of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.14::validation::4::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "parentId": "2.14::section::0::modification-of-iec",
+      "sectionId": "2.14",
+      "sectionTitle": "Modification of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.14::business_rule::5::modification-of-iec",
+      "type": "business_rule",
+      "title": "Modification of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).",
+      "parentId": "2.14::section::0::modification-of-iec",
+      "sectionId": "2.14",
+      "sectionTitle": "Modification of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Modification of IEC",
+        "ModificationofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.14::business_rule::6::modification-of-iec",
+      "type": "business_rule",
+      "title": "Modification of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "parentId": "2.14::section::0::modification-of-iec",
+      "sectionId": "2.14",
+      "sectionTitle": "Modification of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Modification of IEC",
+        "ModificationofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.14::business_rule::7::modification-of-iec",
+      "type": "business_rule",
+      "title": "Modification of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+      "parentId": "2.14::section::0::modification-of-iec",
+      "sectionId": "2.14",
+      "sectionTitle": "Modification of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Modification of IEC",
+        "ModificationofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.14::business_rule::8::modification-of-iec",
+      "type": "business_rule",
+      "title": "Modification of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "parentId": "2.14::section::0::modification-of-iec",
+      "sectionId": "2.14",
+      "sectionTitle": "Modification of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Modification of IEC",
+        "ModificationofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [
+    "Regional Authority",
+    "IECs has to be made to the jurisdictional Regional Authority",
+    "RA",
+    "jurisdictional RA",
+    "IEC may be submitted online to the original jurisdictional RA",
+    "Concerned RA"
+  ],
+  "timelines": [
+    "(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).",
+    "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+    "Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc."
+  ],
+  "actions": [
+    "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments."
+  ],
+  "workflow": [
+    "Evaluate condition: 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.",
+    "Evaluate condition: (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+    "Evaluate condition: (e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc.",
+    "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+    "Run validation: (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).",
+    "Run validation: (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+    "Run validation: such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already."
+  ],
+  "workflow_ascii": "Modification of IEC\nEvaluate condition: 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.\n   |\n   v\nEvaluate condition: (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.\n   |\n   v\nEvaluate condition: (e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc.\n   |\n   v\n(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.\n   |\n   v\nRun validation: (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).\n   |\n   v\nRun validation: (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.\n   |\n   v\nRun validation: such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+  "decision_tree": [
+    "IF 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents. THEN (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+    "IF (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC. THEN (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+    "IF (e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc. THEN (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+    "IF such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already. THEN (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+    "IF Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc. THEN (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments."
+  ],
+  "decision_tree_ascii": "Modification of IEC Decision\nIF 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents. THEN (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.\n   |\n   v\nIF (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC. THEN (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.\n   |\n   v\nIF (e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc. THEN (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.\n   |\n   v\nIF such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already. THEN (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.\n   |\n   v\nIF Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc. THEN (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+  "examples": [
+    "User asks to process Modification of IEC; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Modification of IEC, submits 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents., (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC., (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments., and DEKAI uses the extracted rules to (f) an application for transfer of unredeemed authorisation(s) from earlier iec to the\nnew iec may be submitted online to the original jurisdictional ra along with supporting\ndocuments..",
+  "real_world_example_thanglish": "Indha Modification of IEC section-la, Example: an importer or exporter invokes Modification of IEC, submits 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents., (d) RAs kandippa consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC., (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments., and DEKAI uses the extracted rules to (f) an application for transfer of unredeemed authorisation(s) from earlier iec to the\nnew iec may be submitted online to the original jurisdictional ra along with supporting\ndocuments..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).",
+    "IF detected context matches section rule THEN enforce: (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+    "IF detected context matches section rule THEN enforce: such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+    "IF detected context matches section rule THEN enforce: (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+    "IF validations pass THEN recommend action: (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "iec_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:IEC"
+    },
+    {
+      "name": "can_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:can"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "any_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Any"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "are_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:are"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "pan_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:PAN"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments."
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.14",
+      "purpose": "Retrieve knowledge payload for section 2.14",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Modification-of-IEC/validate",
+      "purpose": "Validate inputs and documents for Modification of IEC",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Modification-of-IEC/execute",
+      "purpose": "Trigger business action for (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Modification_of_IEC_overview",
+      "name": "Modification of IEC Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Modification_of_IEC_submission",
+      "name": "Modification of IEC Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "iec_flag",
+        "can_flag",
+        "and_flag",
+        "any_flag",
+        "the_flag",
+        "are_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Modification of IEC require?",
+    "Which documents are needed for Modification of IEC?",
+    "How does DEKAI validate Modification of IEC requests?",
+    "What action should be taken for Modification of IEC?"
+  ],
+  "expected_ai_answers": [
+    "Modification of IEC requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents., (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC., (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments., (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+    "DEKAI validates Modification of IEC by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.14?",
+      "answer_en": "Modification of IEC explains the operating rule set that DEKAI should enforce. Key control points include (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s). The section also drives actions such as (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments..",
+      "question_thanglish": "Indha Modification of IEC section-la, What is the purpose of section 2.14?",
+      "answer_thanglish": "Indha Modification of IEC section-la, Modification of IEC explains the operating rule set that DEKAI should enforce. Key control points include (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s). The section also drives actions such as (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.."
+    },
+    {
+      "question_en": "What documents are required under Modification of IEC?",
+      "answer_en": "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents., (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC., (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments., (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+      "question_thanglish": "Indha Modification of IEC section-la, What documents are required under Modification of IEC?",
+      "answer_thanglish": "Indha Modification of IEC section-la, 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents., (d) RAs kandippa consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC., (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments., (d) RAs kandippa consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+    },
+    {
+      "question_en": "Which authority handles Modification of IEC?",
+      "answer_en": "Regional Authority, IECs has to be made to the jurisdictional Regional Authority, RA, jurisdictional RA, IEC may be submitted online to the original jurisdictional RA, Concerned RA",
+      "question_thanglish": "Indha Modification of IEC section-la, Which authority handles Modification of IEC?",
+      "answer_thanglish": "Indha Modification of IEC section-la, Regional authority, IECs has to be made to the jurisdictional Regional authority, RA, jurisdictional RA, IEC may be submitted online to the original jurisdictional RA, Concerned RA"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Modification of IEC?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.14, apply the extracted rules, and guide the user through Evaluate condition: 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents..",
+      "question_thanglish": "Indha Modification of IEC section-la, User asks: How do I comply with Modification of IEC?",
+      "answer_thanglish": "Indha Modification of IEC section-la, AI answers: DEKAI should evaluate section 2.14, apply the extracted rules, and guide the user through Evaluate condition: 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Modification of IEC?",
+      "answer_en": "AI answers: Applicable validations are (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s)., (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC., such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+      "question_thanglish": "Indha Modification of IEC section-la, User asks: Which validations apply to Modification of IEC?",
+      "answer_thanglish": "Indha Modification of IEC section-la, AI answers: Applicable validations are (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s)., (d) RAs kandippa consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC., such that PAN of the new entity so\nformed is different from the earlier one, an IEC kandippa be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.14, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Modification of IEC into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents., (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC., (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments., (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC..",
+    "Route escalations or approvals to: Regional Authority, IECs has to be made to the jurisdictional Regional Authority, RA, jurisdictional RA.",
+    "Show contextual links to related sections: 1."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Modification of IEC section-la, Capture chapter 2, section 2.14, title, and page references as immutable knowledge metadata.",
+    "Indha Modification of IEC section-la, Bind validations for Modification of IEC into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Modification of IEC section-la, Expose document upload controls for: 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents., (d) RAs kandippa consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC., (f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments., (d) RAs kandippa consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC..",
+    "Indha Modification of IEC section-la, Route escalations or approvals to: Regional authority, IECs has to be made to the jurisdictional Regional authority, RA, jurisdictional RA.",
+    "Indha Modification of IEC section-la, Show contextual links to related sections: 1."
+  ],
+  "keywords": [
+    "IEC",
+    "can",
+    "and",
+    "Any",
+    "the",
+    "are",
+    "for",
+    "PAN",
+    "has",
+    "RAs",
+    "all",
+    "new",
+    "way",
+    "etc",
+    "one",
+    "not",
+    "may",
+    "due",
+    "done",
+    "only"
+  ],
+  "search_keywords": [
+    "IEC",
+    "can",
+    "and",
+    "Any",
+    "the",
+    "are",
+    "for",
+    "PAN",
+    "has",
+    "RAs",
+    "all",
+    "new",
+    "way",
+    "etc",
+    "one",
+    "not",
+    "may",
+    "due",
+    "done",
+    "only"
+  ],
+  "intent": "Support Modification of IEC processing and compliance validation.",
+  "tags": [
+    "2.14",
+    "Modification of IEC",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "1"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.",
+    "such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.",
+    "(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC."
+  ],
+  "page_numbers": [
+    6
+  ],
+  "pages": [
+    6
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.\n(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).\n(c) Request for (i) Cancellation of existing IEC and (ii) PAN change in existing numeric\nIECs has to be made to the jurisdictional Regional Authority.\n(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.\n(e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc. such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already. Previous IEC (s) can\nalso be operationally linked to the IEC of the new entity.\n(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments. Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc.\n2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.\n(b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).\n(c) Request for (i) Cancellation of existing IEC and (ii) PAN change in existing numeric\nIECs has to be made to the jurisdictional Regional Authority.\n(d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving\nchange\nin\nPAN,\nby\nensuring\nthat\nliabilities\nof\nthe\nprevious\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.\n(e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc. such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already. Previous IEC (s) can\nalso be operationally linked to the IEC of the new entity.\n(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments. Concerned RA may sanction the given linkage after due scrutiny of the\nevidence provided by the applicant including submission of affidavits etc.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.\"]\n    S2[\"Evaluate condition: (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: (e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc.\"]\n    S2 --> S3\n    S4[\"(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.\"]\n    S3 --> S4\n    S5[\"Run validation: (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).\"]\n    S4 --> S5\n    S6[\"Run validation: (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.\"]\n    S5 --> S6\n    S7[\"Run validation: such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.\"]\n    S6 --> S7",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 2.14 Modification of IEC\n(a) Modification(s)/Updation(s) in IEC can be done online only with applicable fees\nand requisite documents.;\n:Evaluate condition\\: (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.;\n:Evaluate condition\\: (e) In case of change in constitution of a PAN based IEC by way of merger, acquisition,\nliquidation, inheritance, business transfer etc.;\n:(f) An application for transfer of unredeemed Authorisation(s) from earlier IEC to the\nnew IEC may be submitted online to the original jurisdictional RA along with supporting\ndocuments.;\n:Run validation\\: (b) Any change in constitution of firm, address, bank details or any other primary\ndetails, the IEC holder is required to ensure that the IEC details are suitably updated\nonline within 30 days of effecting such change(s).;\n:Run validation\\: (d) RAs shall consider applications seeking modification in IEC (all numeric),\ninvolving change in PAN, by ensuring that liabilities of the previous\napplicant/applicant firm are transferred to the new applicant/applicant firm whose\nPAN will be reflecting in the modified IEC.;\n:Run validation\\: such that PAN of the new entity so\nformed is different from the earlier one, an IEC shall be availed against the new PAN\nwithin 30 days of effecting such change, if not existing already.;\nstop\n@enduml"
+}

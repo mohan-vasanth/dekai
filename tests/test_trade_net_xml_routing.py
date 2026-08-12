@@ -115,11 +115,11 @@ class TradeNetXmlRoutingTests(unittest.TestCase):
         self.assertEqual(answer.get("detectedIntent"), TRADE_NET_XML_FIELD_INTENT)
         self.assertEqual(answer.get("knowledgeSourcesUsed"), ["TradeNet"])
         self.assertEqual(answer.get("referencedPdf"), self.trade_net_document_name)
-        self.assertEqual(answer.get("sourceSection"), "7 Pipeline")
-        self.assertEqual(answer.get("sourcePages"), self.section_pages["7 Pipeline"])
+        self.assertEqual(answer.get("sourceSection"), "8 MESSAGE DETAILS")
+        self.assertEqual(answer.get("sourcePages"), [12])
         self.assertEqual(debug.get("selected_retrieval_engine"), "trade_net_xml_field")
         self.assertEqual(debug.get("selected_document"), self.trade_net_document_name)
-        self.assertEqual(debug.get("selected_section"), "7 Pipeline")
+        self.assertEqual(debug.get("selected_section"), "8 MESSAGE DETAILS")
         self.assertEqual(
             {
                 str(item.get("documentName", "")).strip()

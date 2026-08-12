@@ -1,0 +1,37 @@
+{
+  "section": "2",
+  "ui": [
+    {
+      "screen_id": "Benchmarking_baseline_export_performance_of_the_district_including_overview",
+      "name": "Benchmarking baseline export performance of the district, including Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Benchmarking_baseline_export_performance_of_the_district_including_submission",
+      "name": "Benchmarking baseline export performance of the district, including Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "per_flag",
+        "for_flag",
+        "hub_flag",
+        "etc_flag",
+        "and_flag"
+      ]
+    }
+  ]
+}

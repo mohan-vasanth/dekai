@@ -1,0 +1,91 @@
+{
+  "section": "6.11",
+  "conditions": [
+    "In addition, STP unit shall file, every month, report of\nservices classified in Annexure V of Appendix 6E of Appendices &\nANFs in the ‘Service Exports Reporting Form (SERF)’ prescribed in\nAnnexure VI of Appendix 6E of Appendices & ANFs to the\ndesignated officer in STP.",
+    "Any matter for\nclarification as to whether goods are homogenous or not shall be\ndecided by Units Approval Committee.",
+    "| | |\n(b) | If any goods are | ob | tained | f | rom another | EOU | / E | HTP / S | TP / BTP /\n| SEZ unit, or proc | ur | ed from | | an internatio | nal ex | hib | ition he | ld in India,\n| or bonded wa | re | houses | | or preciou | s me | tals | procu | red from\n| nominated agen | ci | es, valu | e | of such goo | ds sh | all | be inclu | ded under\n| “B”.",
+    "| | | | | | | |\n(c) | If any capital go | od | s are i | m | ported duty | and/ | or | tax free | or leased\n| from a leasing co | m | pany, r | e | ceived free o | f cost | and | / or on | loan basis\n| or transfer, CIF | va | lue of c | a | pital goods | shall b | e i | ncluded | pro- rata,\n| under “B” for pe | rio | d it re | m | ains with un | its.",
+    "| Pr | ovided | that above\n| amortization rat | es | would | | be applicabl | e only | if | an und | ertaking is\n| given by a unit t | ha | t it will | | not exit to D | TA in t | he | first 10 | years.",
+    "For\n| existing units, pr | op | ortion | at | e Customs a | nd exc | ise | duty m | ust be paid\n| where NFE is les | s t | han de | p | reciation alr | eady c | lai | med, be | fore exit.",
+    "In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of\n| services classifie | d | in Ann | e | xure V of Ap | pendi | x 6 | E of Ap | pendices &\n| ANFs in the ‘Serv | ic | e Expor | t | s Reporting | Form | (SE | RF)’ pr | escribed in\n| Annexure VI of | | Append | i | x 6E of Ap | pendi | ces | & AN | Fs to the\n| designated office | r | in STP.",
+    "Any | matter for\n| clarification as t | o | whethe | r | goods are h | omog | eno | us or n | ot shall be\n| decided by Units | A | pprova | l | Committee.",
+    "(b)\nIf any goods are obtained from another EOU / EHTP / STP / BTP /\nSEZ unit, or procured from an international exhibition held in India,\nor bonded warehouses or precious metals procured from\nnominated agencies, value of such goods shall be included under\n“B”.",
+    "(c)\nIf any capital goods are imported duty and/or tax free or leased\nfrom a leasing company, received free of cost and / or on loan basis\nor transfer, CIF value of capital goods shall be included pro- rata,\nunder “B” for period it remains with units.",
+    "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+    "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.11.1",
+      "if": "In addition, STP unit shall file, every month, report of\nservices classified in Annexure V of Appendix 6E of Appendices &\nANFs in the ‘Service Exports Reporting Form (SERF)’ prescribed in\nAnnexure VI of Appendix 6E of Appendices & ANFs to the\ndesignated officer in STP.",
+      "then": "6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+      "source": "In addition, STP unit shall file, every month, report of\nservices classified in Annexure V of Appendix 6E of Appendices &\nANFs in the ‘Service Exports Reporting Form (SERF)’ prescribed in\nAnnexure VI of Appendix 6E of Appendices & ANFs to the\ndesignated officer in STP."
+    },
+    {
+      "id": "6.6.11.2",
+      "if": "Any matter for\nclarification as to whether goods are homogenous or not shall be\ndecided by Units Approval Committee.",
+      "then": "6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+      "source": "Any matter for\nclarification as to whether goods are homogenous or not shall be\ndecided by Units Approval Committee."
+    },
+    {
+      "id": "6.6.11.3",
+      "if": "| | |\n(b) | If any goods are | ob | tained | f | rom another | EOU | / E | HTP / S | TP / BTP /\n| SEZ unit, or proc | ur | ed from | | an internatio | nal ex | hib | ition he | ld in India,\n| or bonded wa | re | houses | | or preciou | s me | tals | procu | red from\n| nominated agen | ci | es, valu | e | of such goo | ds sh | all | be inclu | ded under\n| “B”.",
+      "then": "6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+      "source": "| | |\n(b) | If any goods are | ob | tained | f | rom another | EOU | / E | HTP / S | TP / BTP /\n| SEZ unit, or proc | ur | ed from | | an internatio | nal ex | hib | ition he | ld in India,\n| or bonded wa | re | houses | | or preciou | s me | tals | procu | red from\n| nominated agen | ci | es, valu | e | of such goo | ds sh | all | be inclu | ded under\n| “B”."
+    },
+    {
+      "id": "6.6.11.4",
+      "if": "| | | | | | | |\n(c) | If any capital go | od | s are i | m | ported duty | and/ | or | tax free | or leased\n| from a leasing co | m | pany, r | e | ceived free o | f cost | and | / or on | loan basis\n| or transfer, CIF | va | lue of c | a | pital goods | shall b | e i | ncluded | pro- rata,\n| under “B” for pe | rio | d it re | m | ains with un | its.",
+      "then": "6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+      "source": "| | | | | | | |\n(c) | If any capital go | od | s are i | m | ported duty | and/ | or | tax free | or leased\n| from a leasing co | m | pany, r | e | ceived free o | f cost | and | / or on | loan basis\n| or transfer, CIF | va | lue of c | a | pital goods | shall b | e i | ncluded | pro- rata,\n| under “B” for pe | rio | d it re | m | ains with un | its."
+    },
+    {
+      "id": "6.6.11.5",
+      "if": "| Pr | ovided | that above\n| amortization rat | es | would | | be applicabl | e only | if | an und | ertaking is\n| given by a unit t | ha | t it will | | not exit to D | TA in t | he | first 10 | years.",
+      "then": "6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+      "source": "| Pr | ovided | that above\n| amortization rat | es | would | | be applicabl | e only | if | an und | ertaking is\n| given by a unit t | ha | t it will | | not exit to D | TA in t | he | first 10 | years."
+    },
+    {
+      "id": "6.6.11.6",
+      "if": "For\n| existing units, pr | op | ortion | at | e Customs a | nd exc | ise | duty m | ust be paid\n| where NFE is les | s t | han de | p | reciation alr | eady c | lai | med, be | fore exit.",
+      "then": "6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+      "source": "For\n| existing units, pr | op | ortion | at | e Customs a | nd exc | ise | duty m | ust be paid\n| where NFE is les | s t | han de | p | reciation alr | eady c | lai | med, be | fore exit."
+    },
+    {
+      "id": "6.6.11.7",
+      "if": "In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of\n| services classifie | d | in Ann | e | xure V of Ap | pendi | x 6 | E of Ap | pendices &\n| ANFs in the ‘Serv | ic | e Expor | t | s Reporting | Form | (SE | RF)’ pr | escribed in\n| Annexure VI of | | Append | i | x 6E of Ap | pendi | ces | & AN | Fs to the\n| designated office | r | in STP.",
+      "then": "6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+      "source": "In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of\n| services classifie | d | in Ann | e | xure V of Ap | pendi | x 6 | E of Ap | pendices &\n| ANFs in the ‘Serv | ic | e Expor | t | s Reporting | Form | (SE | RF)’ pr | escribed in\n| Annexure VI of | | Append | i | x 6E of Ap | pendi | ces | & AN | Fs to the\n| designated office | r | in STP."
+    },
+    {
+      "id": "6.6.11.8",
+      "if": "Any | matter for\n| clarification as t | o | whethe | r | goods are h | omog | eno | us or n | ot shall be\n| decided by Units | A | pprova | l | Committee.",
+      "then": "6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+      "source": "Any | matter for\n| clarification as t | o | whethe | r | goods are h | omog | eno | us or n | ot shall be\n| decided by Units | A | pprova | l | Committee."
+    },
+    {
+      "id": "6.6.11.9",
+      "if": "(b)\nIf any goods are obtained from another EOU / EHTP / STP / BTP /\nSEZ unit, or procured from an international exhibition held in India,\nor bonded warehouses or precious metals procured from\nnominated agencies, value of such goods shall be included under\n“B”.",
+      "then": "6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+      "source": "(b)\nIf any goods are obtained from another EOU / EHTP / STP / BTP /\nSEZ unit, or procured from an international exhibition held in India,\nor bonded warehouses or precious metals procured from\nnominated agencies, value of such goods shall be included under\n“B”."
+    },
+    {
+      "id": "6.6.11.10",
+      "if": "(c)\nIf any capital goods are imported duty and/or tax free or leased\nfrom a leasing company, received free of cost and / or on loan basis\nor transfer, CIF value of capital goods shall be included pro- rata,\nunder “B” for period it remains with units.",
+      "then": "6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+      "source": "(c)\nIf any capital goods are imported duty and/or tax free or leased\nfrom a leasing company, received free of cost and / or on loan basis\nor transfer, CIF value of capital goods shall be included pro- rata,\nunder “B” for period it remains with units."
+    },
+    {
+      "id": "6.6.11.11",
+      "if": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "then": "6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+      "source": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years."
+    },
+    {
+      "id": "6.6.11.12",
+      "if": "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit.",
+      "then": "6.11 Maintenance of Accounts\na) EOU / EHTP / STP / BTP unit shall maintain proper account, and\nshall file digitally signed quarterly and annual report as prescribed\nin Annexure to Appendix 6E of Appendices & ANFs to DC /\nDesignated Officer in Meit Y / Do BT and Customs and Central Excise\nauthorities.",
+      "source": "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit."
+    }
+  ]
+}

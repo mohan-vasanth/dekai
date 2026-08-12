@@ -1,0 +1,359 @@
+{
+  "chapter_number": "3",
+  "chapter_title": "Developing Districts as Export Hubs Developing Districts as Export Hubs",
+  "section": "12",
+  "title": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+  "purpose": "in\nthe District to encourage the industries to showcase their products to the\nworld.",
+  "purpose_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, in\nthe District to encourage the industries to showcase their products to the\nworld.",
+  "summary": "12. Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in\nthe District to encourage the industries to showcase their products to the\nworld.",
+  "business_meaning": "12.",
+  "business_explanation": "12. Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in\nthe District to encourage the industries to showcase their products to the\nworld.",
+  "business_explanation_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, 12. Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in\nthe District to encourage the industries to showcase their products to the\nworld.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH3-SEC12-R001",
+      "rule_description": "12. Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in\nthe District to encourage the industries to showcase their products to the\nworld.",
+      "trigger": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 12 - Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [
+    "1",
+    "2"
+  ],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "12::section::0::facilitate-in-organising-buyer-seller-meets-exhi",
+      "type": "section",
+      "title": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "12. Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in\nthe District to encourage the industries to showcase their products to the\nworld.",
+      "parentId": "",
+      "sectionId": "12",
+      "sectionTitle": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+        "Facilitate in organising buyer seller meets exhibitions trade fairs etc in",
+        "Facilitateinorganisingbuyersellermeetsexhibitionstradefairsetcin"
+      ],
+      "childIds": [
+        "12::business_rule::1::facilitate-in-organising-buyer-seller-meets-exhi"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "12::business_rule::1::facilitate-in-organising-buyer-seller-meets-exhi",
+      "type": "business_rule",
+      "title": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "12. Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in\nthe District to encourage the industries to showcase their products to the\nworld.",
+      "parentId": "12::section::0::facilitate-in-organising-buyer-seller-meets-exhi",
+      "sectionId": "12",
+      "sectionTitle": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+        "Facilitate in organising buyer seller meets exhibitions trade fairs etc in",
+        "Facilitateinorganisingbuyersellermeetsexhibitionstradefairsetcin"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 12 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in\nReview section 12 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 12 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in Decision\nIF section 12 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in process.",
+  "real_world_example_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, Example: an importer or exporter invokes Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "etc_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:etc"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "meets_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:meets"
+    },
+    {
+      "name": "trade_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:trade"
+    },
+    {
+      "name": "fairs_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:fairs"
+    },
+    {
+      "name": "their_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:their"
+    },
+    {
+      "name": "world_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:world"
+    },
+    {
+      "name": "district_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:District"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/12",
+      "purpose": "Retrieve knowledge payload for section 12",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Facilitate-in-organising-buyer-seller-meets-exhibitions-trade-fairs-etc-in/validate",
+      "purpose": "Validate inputs and documents for Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Facilitate_in_organising_buyer_seller_meets_exhibitions_trade_fairs_etc_in_overview",
+      "name": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Facilitate_in_organising_buyer_seller_meets_exhibitions_trade_fairs_etc_in_submission",
+      "name": "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "etc_flag",
+        "the_flag",
+        "meets_flag",
+        "trade_flag",
+        "fairs_flag",
+        "their_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in require?",
+    "Which documents are needed for Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in?",
+    "How does DEKAI validate Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in requests?"
+  ],
+  "expected_ai_answers": [
+    "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 12?",
+      "answer_en": "12. Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in\nthe District to encourage the industries to showcase their products to the\nworld.",
+      "question_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, What is the purpose of section 12?",
+      "answer_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, 12. Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in\nthe District to encourage the industries to showcase their products to the\nworld."
+    },
+    {
+      "question_en": "What documents are required under Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, What documents are required under Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in?",
+      "answer_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, Which authority handles Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in?",
+      "answer_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in?",
+      "answer_en": "AI answers: DEKAI should evaluate section 12, apply the extracted rules, and guide the user through Review section 12 requirements.",
+      "question_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, User asks: How do I comply with Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in?",
+      "answer_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, AI answers: DEKAI should evaluate section 12, apply the extracted rules, and guide the user through Review section 12 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, User asks: Which validations apply to Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in?",
+      "answer_thanglish": "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 3, section 12, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in into a rule engine keyed by the rule IDs extracted for this section.",
+    "Show contextual links to related sections: 1, 2."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, Capture chapter 3, section 12, title, and page references as immutable knowledge metadata.",
+    "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, Bind validations for Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in section-la, Show contextual links to related sections: 1, 2."
+  ],
+  "keywords": [
+    "etc",
+    "the",
+    "meets",
+    "trade",
+    "fairs",
+    "their",
+    "world",
+    "District",
+    "showcase",
+    "products",
+    "encourage",
+    "Facilitate",
+    "organising",
+    "industries",
+    "exhibitions",
+    "buyer-seller"
+  ],
+  "search_keywords": [
+    "etc",
+    "the",
+    "meets",
+    "trade",
+    "fairs",
+    "their",
+    "world",
+    "District",
+    "showcase",
+    "products",
+    "encourage",
+    "Facilitate",
+    "organising",
+    "industries",
+    "exhibitions",
+    "buyer-seller"
+  ],
+  "intent": "Provide knowledge guidance for Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in.",
+  "tags": [
+    "12",
+    "Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in",
+    "dgft"
+  ],
+  "related_sections": [
+    "1",
+    "2"
+  ],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    4
+  ],
+  "pages": [
+    4
+  ],
+  "source_document": "HBP2023_Chapter03.pdf",
+  "raw_text": "12. Facilitate in organising buyer-seller meets, exhibitions, trade fairs etc. in\nthe District to encourage the industries to showcase their products to the\nworld.",
+  "mermaid": "flowchart TD\n    S1[\"Review section 12 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 12 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

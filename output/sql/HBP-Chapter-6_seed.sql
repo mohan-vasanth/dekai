@@ -85,6 +85,39 @@ up of BTP unit shall be submitted to officer designated by Do BT.
 (c) On approval, a Letter of Permission (Lo P) / Letter of Intent (Lo I)
 shall be issued by DC / designated officer to EOU/ EHTP /
 pg. 134
+| | | | | | | Chapter-6
+| | | | Export Oriented | Un | i | ts (EOUs),
+Elec | troni | | cs Hardwa | re Technology P | ar | k | s(EHTPs),
+| | | Software | Technology Par | ks | ( | STPs) and
+| | | | Bio-Technology | Pa | r | ks (BTPs)
+6.00 S | cheme | | | | | |
+Policy | relating | t | o EOUs, EHTPs, | STPs and BTPs Schemes is | give | n | in Chapter 6 of
+Foreig | n Trade | | Policy (FTP). | | | |
+6.01 A | pplicat | | ion / Approval | / Renewal of approval | | |
+| (a) F | o | r setting up an E | OU, three copies of applica | tion | | as in ANF 6A of
+| A | p | pendices &ANFs | may be submitted to DC. | | |
+| (b) (i) A | | pplications for | setting up units under E | OU | sc | heme shall be
+| | | approved or rej | ected by Units Approval C | om | m | ittee within 15
+| | | days, as per crit | eria indicated in Appendix | 6A | o | f Appendices &
+| | | ANFs and sector | specific conditions relati | ng t | o | approval as in
+| | | Appendix 6B of A | ppendices & ANFs. In othe | r cas | e | s, approval may
+| | | be granted by D | C after clearance by BOA. | | |
+| (ii) | | STP / EHTP co | mplexes can be set up by | Cent | r | al Government,
+| | | State Governme | nt, Public or Private Sector | Und | e | rtakings or any
+| | | combination th | ereof, duly approved | by | I | nter-Ministerial
+| | | Standing Comm | ittee (IMSC) in Ministr | y o | f | Electronics &
+| | | Information Tec | hnology-Meit Y. Application | for | s | etting up EHTP
+| | | / STP unit shall | be in format prescribed b | y M | e | it Y and shallbe
+| | | submitted to offi | cer designated by Meit Y. | | |
+| (iii) | | A BTP can be se | t up by Central Governmen | t, St | a | te Government,
+| | | Public or Priva | te Sector Undertakings | or a | n | y combination
+| | | thereof. Applicat | ion for setting up of BTP s | hall | b | e submitted to
+| | | Department of | Bio-Technology (Do BT) a | nd s | u | ch applications
+| | | which meet guid | elines prescribed by Do BT | will | b | e approved and
+| | | recommended t | o DGFT for notification. A | pplic | a | tion for setting
+| | | up of BTP unit s | hall be submitted to officer | desi | g | nated by Do BT.
+| (c) | | On approval, a L | etter of Permission (Lo P) / | Lett | e | r of Intent (Lo I)
+| | | shall be issued b | y DC / designated officer to | EO | U | / EHTP /
 pg. 134
 Chapter-6
 Export Oriented Units (EOUs),
@@ -162,6 +195,47 @@ lease.
 (h) On completion of validity of LOP/LOI as provided for in
 Paragraph 6.05 of FTP, it shall be open to unit to continue under
 pg. 135
+| STP / BTP unit |. Lo | P / Lo I shall | have | an initial v | alidit | y of 2 years
+| to enable the | Unit | to construct | the p | lant & inst | all th | e machinery
+| and by this tim | e t | he unit shoul | d hav | e commenc | ed pr | oduction. In
+| case the unit i | s n | ot able to co | mme | nce produc | tion i | n the initial
+| validity period | of | 2 years, an e | xtensi | on of one y | ear m | ay be given
+| by the DC for v | alid | reasons to b | e rec | orded in wr | iting. | Subsequent
+| extension of | one | year may | be gi | ven by th | e Un | it Approval
+| Committee su | bje | ct to conditi | on th | at two th | irds | of activities
+| including cons | tru | ction, relatin | g to t | he setting | upof | the Unit are
+| completed and | a | Chartered En | ginee | r’s certifica | te to | this effect is
+| submitted by | the | Unit. Furthe | r ext | ension, if n | ecess | ary, will be
+| granted by t | he | Board of A | pprov | al. Once | unit | commences
+| production, Lo | P / | Lo I issued sh | all be | valid for a | perio | d of 5 years
+| for its activitie | s. T | his period m | ay be | extended f | urthe | r by DC for a
+| period of upto | 5 y | ears at a time |. Ho | wever, in ca | se of | extension of
+| Lo P required | for | completing | exit f | ormalities, | the | Lo P may be
+| extended for a | lim | ited period i |.e. les | s than 5 ye | ars by | the DC.
+(d) | Proposals for s | ett | ing up an EO | U req | uiring indu | strial | licence may
+| be granted ap | pr | oval by the | conce | rned DC a | fter c | learance of
+| proposal by BO | A ( | as per Appen | dix 6 | C of Appen | dices | & ANFs) and
+| Department f | or | Promotion | of In | dustry and | Inte | rnal Trade
+| (DPIIT) within | 45 | days. | | | |
+(e) | Lo P / Lo I shal | l sp | ecify item(s) | of ma | nufacture | / serv | ice activity,
+| annual capaci | ty, | projected an | nual e | xport for | first f | ive years in
+| dollar terms, | Net | Foreign Exch | ange | (NFE) ear | nings, | limitations,
+| if any, regardi | ng s | ale of finish | ed go | ods, by-pro | ducts | and rejects
+| in DTA and s | uch | other matte | r as | may be ne | cessa | ry and also
+| impose such c | ond | itions as may | be r | equired. | |
+(f) | Lo P / Lo I issu | ed t | o EOU / EHT | P / ST | P / BTP u | nits b | y concerned
+| authority wo | uld | be constru | ed a | s an auth | orisat | ion for all
+| purposes. Stan | dar | d format for | Lo P f | or EOU is g | iven i | n Appendix
+| 6D of Appendi | ces | & ANFs. | | | |
+(g) | EOUs shall hav | e s | eparate earm | arke | d premises | for se | parate Lo P.
+| Similarly, EOU | s m | ay be appro | ved o | n leased p | remis | es provided
+| lease has be | en | obtained fr | om G | overnmen | t De | partment /
+| Undertaking / | Ag | ency. Howev | er, in | case lease | is ob | tained from
+| private partie | s, it | shall have a | valid | ity period | of five | years from
+| date of LUT a | nd | DC shall sat | isfy h | imself of g | enuin | e nature of
+| lease. | | | | | |
+(h) | On completio | n | of validity o | f LO | P/LOI as | provi | ded for in
+| Paragraph 6.0 | 5 of | FTP, it shall | be op | en to unit t | o con | tinue under
 pg. 135
 STP / BTP unit. Lo P / Lo I shall have an initial validity of 2 years
 to enable the Unit to construct the plant & install the machinery
@@ -217,7 +291,7 @@ suomoto, take action to cancel approval under the scheme and
 take further action in this regard. Where units give their option
 to continue after expiry of six months as stipulated above,
 DC/Designated Officer will grant extension after obtaining
-approval of BOA/IMSC.', '[2, 3, 4]', '["For", "EOU", "ANF", "may", "per", "and", "BOA", "STP", "can", "set", "any", "iii", "BTP", "the", "not", "one", "two", "are", "its", "Net"]', 'Support Application / Approval / Renewal of approval processing and compliance validation.', '["6.01", "Application / Approval / Renewal of approval", "business-rule", "document-driven", "dgft"]');
+approval of BOA/IMSC.', '[2, 3, 4]', '["For", "EOU", "ANF", "may", "per", "and", "BOA", "STP", "can", "set", "any", "iii", "BTP", "Par", "FTP", "ion", "rej", "cas", "Und", "Tec"]', 'Support Application / Approval / Renewal of approval processing and compliance validation.', '["6.01", "Application / Approval / Renewal of approval", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R001', '6.01', '(b) (i) Applications for setting up units under EOU scheme shall be
 approved or rejected by Units Approval Committee within 15
 days, as per criteria indicated in Appendix 6A of Appendices &
@@ -267,12 +341,12 @@ private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R004', '6.01', 'Application for setting
-up of BTP unit shall be submitted to officer designated by Do BT.', 'business_rule', 'Application / Approval / Renewal of approval', 'Subsequent
-extension of one year may be given by the Unit Approval
-Committee subject to condition that two thirds of activities
-including construction, relating to the setting upof the Unit are
-completed and a Chartered Engineer’s certificate to this effect is
-submitted by the Unit.', 'Application for setting up of BTP shall be submitted to
+up of BTP unit shall be submitted to officer designated by Do BT.', 'business_rule', 'Application / Approval / Renewal of approval', '| | |
+| (b) (i) A | | pplications for | setting up units under E | OU | sc | heme shall be
+| | | approved or rej | ected by Units Approval C | om | m | ittee within 15
+| | | days, as per crit | eria indicated in Appendix | 6A | o | f Appendices &
+| | | ANFs and sector | specific conditions relati | ng t | o | approval as in
+| | | Appendix 6B of A | ppendices & ANFs.', 'Application for setting up of BTP shall be submitted to
 Department of Bio-Technology (Do BT) and such applications
 which meet guidelines prescribed by Do BT will be approved and
 recommended to DGFT for notification.', 'Application for setting up EHTP
@@ -283,7 +357,8 @@ date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R005', '6.01', '(c) On approval, a Letter of Permission (Lo P) / Letter of Intent (Lo I)
 shall be issued by DC / designated officer to EOU/ EHTP /
-pg.', 'business_rule', 'Application / Approval / Renewal of approval', 'necessary', 'Application for setting
+pg.', 'business_rule', 'Application / Approval / Renewal of approval', 'In othe | r cas | e | s, approval may
+| | | be granted by D | C after clearance by BOA.', 'Application for setting
 up of BTP unit shall be submitted to officer designated by Do BT.', 'Application for setting up of BTP shall be submitted to
 Department of Bio-Technology (Do BT) and such applications
 which meet guidelines prescribed by Do BT will be approved and
@@ -291,44 +366,152 @@ recommended to DGFT for notification.', 'However, in case lease is obtained from
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R006', '6.01', '(c)
-On approval, a Letter of Permission (Lo P) / Letter of Intent (Lo I)
-shall be issued by DC / designated officer to EOU/ EHTP /
-STP / BTP unit.', 'business_rule', 'Application / Approval / Renewal of approval', 'However, in case of extension of
-Lo P required for completing exit formalities, the Lo P may be
-extended for a limited period i.e.', '(c) On approval, a Letter of Permission (Lo P) / Letter of Intent (Lo I)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R006', '6.01', '| | |
+| (b) (i) A | | pplications for | setting up units under E | OU | sc | heme shall be
+| | | approved or rej | ected by Units Approval C | om | m | ittee within 15
+| | | days, as per crit | eria indicated in Appendix | 6A | o | f Appendices &
+| | | ANFs and sector | specific conditions relati | ng t | o | approval as in
+| | | Appendix 6B of A | ppendices & ANFs.', 'business_rule', 'Application / Approval / Renewal of approval', 'Applicat | ion for setting up of BTP s | hall | b | e submitted to
+| | | Department of | Bio-Technology (Do BT) a | nd s | u | ch applications
+| | | which meet guid | elines prescribed by Do BT | will | b | e approved and
+| | | recommended t | o DGFT for notification.', '(c) On approval, a Letter of Permission (Lo P) / Letter of Intent (Lo I)
 shall be issued by DC / designated officer to EOU/ EHTP /
 pg.', 'Application for setting
 up of BTP unit shall be submitted to officer designated by Do BT.', 'However, in case lease is obtained from
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R007', '6.01', 'Lo P / Lo I shall have an initial validity of 2 years
-to enable the Unit to construct the plant & install the machinery
-and by this time the unit should have commenced production.', 'business_rule', 'Application / Approval / Renewal of approval', '(d) Proposals for setting up an EOU requiring industrial licence may
-be granted approval by the concerned DC after clearance of
-proposal by BOA (as per Appendix 6C of Appendices & ANFs) and
-Department for Promotion of Industry and Internal Trade
-(DPIIT) within 45 days.', '(ii)
-STP / EHTP complexes can be set up by Central Government,
-State Government, Public or Private Sector Undertakings or any
-combination thereof, duly approved by Inter-Ministerial
-Standing Committee (IMSC) in Ministry of Electronics &
-Information Technology-Meit Y.', '(c) On approval, a Letter of Permission (Lo P) / Letter of Intent (Lo I)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R007', '6.01', 'Application | for | s | etting up EHTP
+| | | / STP unit shall | be in format prescribed b | y M | e | it Y and shallbe
+| | | submitted to offi | cer designated by Meit Y.', 'business_rule', 'Application / Approval / Renewal of approval', 'Subsequent
+extension of one year may be given by the Unit Approval
+Committee subject to condition that two thirds of activities
+including construction, relating to the setting upof the Unit are
+completed and a Chartered Engineer’s certificate to this effect is
+submitted by the Unit.', '| | |
+| (b) (i) A | | pplications for | setting up units under E | OU | sc | heme shall be
+| | | approved or rej | ected by Units Approval C | om | m | ittee within 15
+| | | days, as per crit | eria indicated in Appendix | 6A | o | f Appendices &
+| | | ANFs and sector | specific conditions relati | ng t | o | approval as in
+| | | Appendix 6B of A | ppendices & ANFs.', '(c) On approval, a Letter of Permission (Lo P) / Letter of Intent (Lo I)
 shall be issued by DC / designated officer to EOU/ EHTP /
 pg.', 'However, in case lease is obtained from
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R008', '6.01', 'Subsequent
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R008', '6.01', '| (c) | | On approval, a L | etter of Permission (Lo P) / | Lett | e | r of Intent (Lo I)
+| | | shall be issued b | y DC / designated officer to | EO | U | / EHTP /
+pg.', 'business_rule', 'Application / Approval / Renewal of approval', 'necessary', '| | |
+| (ii) | | STP / EHTP co | mplexes can be set up by | Cent | r | al Government,
+| | | State Governme | nt, Public or Private Sector | Und | e | rtakings or any
+| | | combination th | ereof, duly approved | by | I | nter-Ministerial
+| | | Standing Comm | ittee (IMSC) in Ministr | y o | f | Electronics &
+| | | Information Tec | hnology-Meit Y.', '| | | |
+6.01 A | pplicat | | ion / Approval | / Renewal of approval | | |
+| (a) F | o | r setting up an E | OU, three copies of applica | tion | | as in ANF 6A of
+| A | p | pendices &ANFs | may be submitted to DC.', 'However, in case lease is obtained from
+private parties, it shall have a validity period of five years from
+date of LUT and DC shall satisfy himself of genuine nature of
+lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R009', '6.01', '(c)
+On approval, a Letter of Permission (Lo P) / Letter of Intent (Lo I)
+shall be issued by DC / designated officer to EOU/ EHTP /
+STP / BTP unit.', 'business_rule', 'Application / Approval / Renewal of approval', 'However, in case of extension of
+Lo P required for completing exit formalities, the Lo P may be
+extended for a limited period i.e.', 'Application | for | s | etting up EHTP
+| | | / STP unit shall | be in format prescribed b | y M | e | it Y and shallbe
+| | | submitted to offi | cer designated by Meit Y.', '| | |
+| (b) (i) A | | pplications for | setting up units under E | OU | sc | heme shall be
+| | | approved or rej | ected by Units Approval C | om | m | ittee within 15
+| | | days, as per crit | eria indicated in Appendix | 6A | o | f Appendices &
+| | | ANFs and sector | specific conditions relati | ng t | o | approval as in
+| | | Appendix 6B of A | ppendices & ANFs.', 'However, in case lease is obtained from
+private parties, it shall have a validity period of five years from
+date of LUT and DC shall satisfy himself of genuine nature of
+lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R010', '6.01', 'Lo P / Lo I shall have an initial validity of 2 years
+to enable the Unit to construct the plant & install the machinery
+and by this time the unit should have commenced production.', 'business_rule', 'Application / Approval / Renewal of approval', '(d) Proposals for setting up an EOU requiring industrial licence may
+be granted approval by the concerned DC after clearance of
+proposal by BOA (as per Appendix 6C of Appendices & ANFs) and
+Department for Promotion of Industry and Internal Trade
+(DPIIT) within 45 days.', 'Applicat | ion for setting up of BTP s | hall | b | e submitted to
+| | | Department of | Bio-Technology (Do BT) a | nd s | u | ch applications
+| | | which meet guid | elines prescribed by Do BT | will | b | e approved and
+| | | recommended t | o DGFT for notification.', '| | |
+| (ii) | | STP / EHTP co | mplexes can be set up by | Cent | r | al Government,
+| | | State Governme | nt, Public or Private Sector | Und | e | rtakings or any
+| | | combination th | ereof, duly approved | by | I | nter-Ministerial
+| | | Standing Comm | ittee (IMSC) in Ministr | y o | f | Electronics &
+| | | Information Tec | hnology-Meit Y.', 'However, in case lease is obtained from
+private parties, it shall have a validity period of five years from
+date of LUT and DC shall satisfy himself of genuine nature of
+lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R011', '6.01', 'Subsequent
 extension of one year may be given by the Unit Approval
 Committee subject to condition that two thirds of activities
 including construction, relating to the setting upof the Unit are
 completed and a Chartered Engineer’s certificate to this effect is
-submitted by the Unit.', 'business_rule', 'Application / Approval / Renewal of approval', 'any', '(c)
+submitted by the Unit.', 'business_rule', 'Application / Approval / Renewal of approval', 'any', '| (c) | | On approval, a L | etter of Permission (Lo P) / | Lett | e | r of Intent (Lo I)
+| | | shall be issued b | y DC / designated officer to | EO | U | / EHTP /
+pg.', 'Application | for | s | etting up EHTP
+| | | / STP unit shall | be in format prescribed b | y M | e | it Y and shallbe
+| | | submitted to offi | cer designated by Meit Y.', 'However, in case lease is obtained from
+private parties, it shall have a validity period of five years from
+date of LUT and DC shall satisfy himself of genuine nature of
+lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R012', '6.01', 'Once unit commences
+production, Lo P / Lo I issued shall be valid for a period of 5 years
+for its activities.', 'business_rule', 'Application / Approval / Renewal of approval', 'However, in case lease is obtained from
+private parties, it shall have a validity period of five years from
+date of LUT and DC shall satisfy himself of genuine nature of
+lease.', '(ii)
+STP / EHTP complexes can be set up by Central Government,
+State Government, Public or Private Sector Undertakings or any
+combination thereof, duly approved by Inter-Ministerial
+Standing Committee (IMSC) in Ministry of Electronics &
+Information Technology-Meit Y.', 'Applicat | ion for setting up of BTP s | hall | b | e submitted to
+| | | Department of | Bio-Technology (Do BT) a | nd s | u | ch applications
+| | | which meet guid | elines prescribed by Do BT | will | b | e approved and
+| | | recommended t | o DGFT for notification.', 'However, in case lease is obtained from
+private parties, it shall have a validity period of five years from
+date of LUT and DC shall satisfy himself of genuine nature of
+lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R013', '6.01', '(e) Lo P / Lo I shall specify item(s) of manufacture / service activity,
+annual capacity, projected annual export for first five years in
+dollar terms, Net Foreign Exchange (NFE) earnings, limitations,
+if any, regarding sale of finished goods, by-products and rejects
+in DTA and such other matter as may be necessary and also
+impose such conditions as may be required.', 'business_rule', 'Application / Approval / Renewal of approval', '| Subsequent
+| extension of | one | year may | be gi | ven by th | e Un | it Approval
+| Committee su | bje | ct to conditi | on th | at two th | irds | of activities
+| including cons | tru | ction, relatin | g to t | he setting | upof | the Unit are
+| completed and | a | Chartered En | ginee | r’s certifica | te to | this effect is
+| submitted by | the | Unit.', '(c)
 On approval, a Letter of Permission (Lo P) / Letter of Intent (Lo I)
 shall be issued by DC / designated officer to EOU/ EHTP /
-STP / BTP unit.', '134
+STP / BTP unit.', 'A | pplic | a | tion for setting
+| | | up of BTP unit s | hall be submitted to officer | desi | g | nated by Do BT.', 'However, in case lease is obtained from
+private parties, it shall have a validity period of five years from
+date of LUT and DC shall satisfy himself of genuine nature of
+lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R014', '6.01', '(g) EOUs shall have separate earmarked premises for separate Lo P.', 'business_rule', 'Application / Approval / Renewal of approval', 'n | ecess | ary', 'Lo P / Lo I shall have an initial validity of 2 years
+to enable the Unit to construct the plant & install the machinery
+and by this time the unit should have commenced production.', '| (c) | | On approval, a L | etter of Permission (Lo P) / | Lett | e | r of Intent (Lo I)
+| | | shall be issued b | y DC / designated officer to | EO | U | / EHTP /
+pg.', 'However, in case lease is obtained from
+private parties, it shall have a validity period of five years from
+date of LUT and DC shall satisfy himself of genuine nature of
+lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R015', '6.01', 'However, in case lease is obtained from
+private parties, it shall have a validity period of five years from
+date of LUT and DC shall satisfy himself of genuine nature of
+lease.', 'business_rule', 'Application / Approval / Renewal of approval', 'any', 'Subsequent
+extension of one year may be given by the Unit Approval
+Committee subject to condition that two thirds of activities
+including construction, relating to the setting upof the Unit are
+completed and a Chartered Engineer’s certificate to this effect is
+submitted by the Unit.', '134
 Chapter-6
 Export Oriented Units (EOUs),
 Electronics Hardware Technology Parks(EHTPs),
@@ -341,14 +524,16 @@ Appendices &ANFs may be submitted to DC.', 'However, in case lease is obtained f
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R009', '6.01', 'Once unit commences
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R016', '6.01', '(h) On completion of validity of LOP/LOI as provided for in
+Paragraph 6.05 of FTP, it shall be open to unit to continue under
+pg.', 'business_rule', 'Application / Approval / Renewal of approval', '(d)
+Proposals for setting up an EOU requiring industrial licence may
+be granted approval by the concerned DC after clearance of
+proposal by BOA (as per Appendix 6C of Appendices & ANFs) and
+Department for Promotion of Industry and Internal Trade
+(DPIIT) within 45 days.', 'Once unit commences
 production, Lo P / Lo I issued shall be valid for a period of 5 years
-for its activities.', 'business_rule', 'Application / Approval / Renewal of approval', 'However, in case lease is obtained from
-private parties, it shall have a validity period of five years from
-date of LUT and DC shall satisfy himself of genuine nature of
-lease.', 'Lo P / Lo I shall have an initial validity of 2 years
-to enable the Unit to construct the plant & install the machinery
-and by this time the unit should have commenced production.', '(ii)
+for its activities.', '(ii)
 STP / EHTP complexes can be set up by Central Government,
 State Government, Public or Private Sector Undertakings or any
 combination thereof, duly approved by Inter-Ministerial
@@ -357,31 +542,25 @@ Information Technology-Meit Y.', 'However, in case lease is obtained from
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R010', '6.01', '(e) Lo P / Lo I shall specify item(s) of manufacture / service activity,
-annual capacity, projected annual export for first five years in
-dollar terms, Net Foreign Exchange (NFE) earnings, limitations,
-if any, regarding sale of finished goods, by-products and rejects
-in DTA and such other matter as may be necessary and also
-impose such conditions as may be required.', 'business_rule', 'Application / Approval / Renewal of approval', '(d)
-Proposals for setting up an EOU requiring industrial licence may
-be granted approval by the concerned DC after clearance of
-proposal by BOA (as per Appendix 6C of Appendices & ANFs) and
-Department for Promotion of Industry and Internal Trade
-(DPIIT) within 45 days.', 'Subsequent
-extension of one year may be given by the Unit Approval
-Committee subject to condition that two thirds of activities
-including construction, relating to the setting upof the Unit are
-completed and a Chartered Engineer’s certificate to this effect is
-submitted by the Unit.', '(c)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R017', '6.01', 'Lo | P / Lo I shall | have | an initial v | alidit | y of 2 years
+| to enable the | Unit | to construct | the p | lant & inst | all th | e machinery
+| and by this tim | e t | he unit shoul | d hav | e commenc | ed pr | oduction.', 'business_rule', 'Application / Approval / Renewal of approval', 'any', 'However, in case of extension of
+Lo P required for completing exit formalities, the Lo P may be
+extended for a limited period i.e.', '(c)
 On approval, a Letter of Permission (Lo P) / Letter of Intent (Lo I)
 shall be issued by DC / designated officer to EOU/ EHTP /
 STP / BTP unit.', 'However, in case lease is obtained from
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R011', '6.01', '(g) EOUs shall have separate earmarked premises for separate Lo P.', 'business_rule', 'Application / Approval / Renewal of approval', 'any', 'Once unit commences
-production, Lo P / Lo I issued shall be valid for a period of 5 years
-for its activities.', 'Subsequent
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R018', '6.01', '| | | |
+(g) | EOUs shall hav | e s | eparate earm | arke | d premises | for se | parate Lo P.', 'business_rule', 'Application / Approval / Renewal of approval', 'Where unit opts to continue,
+DC/Designated Officer will extend validity of the LOP/LOI.', '(e) Lo P / Lo I shall specify item(s) of manufacture / service activity,
+annual capacity, projected annual export for first five years in
+dollar terms, Net Foreign Exchange (NFE) earnings, limitations,
+if any, regarding sale of finished goods, by-products and rejects
+in DTA and such other matter as may be necessary and also
+impose such conditions as may be required.', 'Subsequent
 extension of one year may be given by the Unit Approval
 Committee subject to condition that two thirds of activities
 including construction, relating to the setting upof the Unit are
@@ -390,30 +569,28 @@ submitted by the Unit.', 'However, in case lease is obtained from
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R012', '6.01', 'However, in case lease is obtained from
-private parties, it shall have a validity period of five years from
-date of LUT and DC shall satisfy himself of genuine nature of
-lease.', 'business_rule', 'Application / Approval / Renewal of approval', 'Where unit opts to continue,
-DC/Designated Officer will extend validity of the LOP/LOI.', 'However, in case of extension of
-Lo P required for completing exit formalities, the Lo P may be
-extended for a limited period i.e.', 'Once unit commences
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R019', '6.01', 'Howev | er, in | case lease | is ob | tained from
+| private partie | s, it | shall have a | valid | ity period | of five | years from
+| date of LUT a | nd | DC shall sat | isfy h | imself of g | enuin | e nature of
+| lease.', 'business_rule', 'Application / Approval / Renewal of approval', 'If no
+intimation in this regard is received from unit within a period of
+six months of expiry of the validity, DC/Designated Officer will,
+suomoto, take action to cancel approval under the scheme and
+take further action in this regard.', '(g) EOUs shall have separate earmarked premises for separate Lo P.', 'Once unit commences
 production, Lo P / Lo I issued shall be valid for a period of 5 years
 for its activities.', 'However, in case lease is obtained from
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R013', '6.01', '(h) On completion of validity of LOP/LOI as provided for in
-Paragraph 6.05 of FTP, it shall be open to unit to continue under
-pg.', 'business_rule', 'Application / Approval / Renewal of approval', 'If no
-intimation in this regard is received from unit within a period of
-six months of expiry of the validity, DC/Designated Officer will,
-suomoto, take action to cancel approval under the scheme and
-take further action in this regard.', '(e) Lo P / Lo I shall specify item(s) of manufacture / service activity,
-annual capacity, projected annual export for first five years in
-dollar terms, Net Foreign Exchange (NFE) earnings, limitations,
-if any, regarding sale of finished goods, by-products and rejects
-in DTA and such other matter as may be necessary and also
-impose such conditions as may be required.', '(e) Lo P / Lo I shall specify item(s) of manufacture / service activity,
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R020', '6.01', '| | | | | |
+(h) | On completio | n | of validity o | f LO | P/LOI as | provi | ded for in
+| Paragraph 6.0 | 5 of | FTP, it shall | be op | en to unit t | o con | tinue under
+pg.', 'business_rule', 'Application / Approval / Renewal of approval', 'Where units give their option
+to continue after expiry of six months as stipulated above,
+DC/Designated Officer will grant extension after obtaining
+approval of BOA/IMSC.', 'Similarly, EOUs may be approved on leased premises provided
+lease has been obtained from Government Department /
+Undertaking / Agency.', '(e) Lo P / Lo I shall specify item(s) of manufacture / service activity,
 annual capacity, projected annual export for first five years in
 dollar terms, Net Foreign Exchange (NFE) earnings, limitations,
 if any, regarding sale of finished goods, by-products and rejects
@@ -422,7 +599,7 @@ impose such conditions as may be required.', 'However, in case lease is obtained
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R014', '6.01', '(e)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R021', '6.01', '(e)
 Lo P / Lo I shall specify item(s) of manufacture / service activity,
 annual capacity, projected annual export for first five years in
 dollar terms, Net Foreign Exchange (NFE) earnings, limitations,
@@ -431,34 +608,36 @@ in DTA and such other matter as may be necessary and also
 impose such conditions as may be required.', 'business_rule', 'Application / Approval / Renewal of approval', 'Where units give their option
 to continue after expiry of six months as stipulated above,
 DC/Designated Officer will grant extension after obtaining
-approval of BOA/IMSC.', '(g) EOUs shall have separate earmarked premises for separate Lo P.', '(f) Lo P / Lo I issued to EOU / EHTP / STP / BTP units by concerned
+approval of BOA/IMSC.', 'However, in case lease is obtained from
+private parties, it shall have a validity period of five years from
+date of LUT and DC shall satisfy himself of genuine nature of
+lease.', '(f) Lo P / Lo I issued to EOU / EHTP / STP / BTP units by concerned
 authority would be construed as an authorisation for all
 purposes.', 'However, in case lease is obtained from
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R015', '6.01', '(g)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R022', '6.01', '(g)
 EOUs shall have separate earmarked premises for separate Lo P.', 'business_rule', 'Application / Approval / Renewal of approval', 'Where units give their option
 to continue after expiry of six months as stipulated above,
 DC/Designated Officer will grant extension after obtaining
-approval of BOA/IMSC.', 'Similarly, EOUs may be approved on leased premises provided
-lease has been obtained from Government Department /
-Undertaking / Agency.', 'Similarly, EOUs may be approved on leased premises provided
+approval of BOA/IMSC.', '(h) On completion of validity of LOP/LOI as provided for in
+Paragraph 6.05 of FTP, it shall be open to unit to continue under
+pg.', 'Similarly, EOUs may be approved on leased premises provided
 lease has been obtained from Government Department /
 Undertaking / Agency.', 'However, in case lease is obtained from
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'DEKAI should produce a compliance decision for 6.01 - Application / Approval / Renewal of approval.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R016', '6.01', '(h)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_01-R023', '6.01', '(h)
 On completion of validity of LOP/LOI as provided for in
 Paragraph 6.05 of FTP, it shall be open to unit to continue under
 scheme or opt out of scheme.', 'business_rule', 'Application / Approval / Renewal of approval', 'Where units give their option
 to continue after expiry of six months as stipulated above,
 DC/Designated Officer will grant extension after obtaining
-approval of BOA/IMSC.', 'However, in case lease is obtained from
-private parties, it shall have a validity period of five years from
-date of LUT and DC shall satisfy himself of genuine nature of
-lease.', 'However, in case lease is obtained from
+approval of BOA/IMSC.', 'Lo | P / Lo I shall | have | an initial v | alidit | y of 2 years
+| to enable the | Unit | to construct | the p | lant & inst | all th | e machinery
+| and by this tim | e t | he unit shoul | d hav | e commenc | ed pr | oduction.', 'However, in case lease is obtained from
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.', 'However, in case lease is obtained from
@@ -476,6 +655,18 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('6.01', 'Applicati
 Department of Bio-Technology (Do BT) and such applications
 which meet guidelines prescribed by Do BT will be approved and
 recommended to DGFT for notification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.01', '| | |
+| (b) (i) A | | pplications for | setting up units under E | OU | sc | heme shall be
+| | | approved or rej | ected by Units Approval C | om | m | ittee within 15
+| | | days, as per crit | eria indicated in Appendix | 6A | o | f Appendices &
+| | | ANFs and sector | specific conditions relati | ng t | o | approval as in
+| | | Appendix 6B of A | ppendices & ANFs.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.01', 'In othe | r cas | e | s, approval may
+| | | be granted by D | C after clearance by BOA.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.01', 'Applicat | ion for setting up of BTP s | hall | b | e submitted to
+| | | Department of | Bio-Technology (Do BT) a | nd s | u | ch applications
+| | | which meet guid | elines prescribed by Do BT | will | b | e approved and
+| | | recommended t | o DGFT for notification.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.01', 'Subsequent
 extension of one year may be given by the Unit Approval
 Committee subject to condition that two thirds of activities
@@ -502,6 +693,21 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('6.01', 'However, 
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.01', '| Subsequent
+| extension of | one | year may | be gi | ven by th | e Un | it Approval
+| Committee su | bje | ct to conditi | on th | at two th | irds | of activities
+| including cons | tru | ction, relatin | g to t | he setting | upof | the Unit are
+| completed and | a | Chartered En | ginee | r’s certifica | te to | this effect is
+| submitted by | the | Unit.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.01', 'Furthe | r ext | ension, if n | ecess | ary, will be
+| granted by t | he | Board of A | pprov | al.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.01', '| | | |
+(e) | Lo P / Lo I shal | l sp | ecify item(s) | of ma | nufacture | / serv | ice activity,
+| annual capaci | ty, | projected an | nual e | xport for | first f | ive years in
+| dollar terms, | Net | Foreign Exch | ange | (NFE) ear | nings, | limitations,
+| if any, regardi | ng s | ale of finish | ed go | ods, by-pro | ducts | and rejects
+| in DTA and s | uch | other matte | r as | may be ne | cessa | ry and also
+| impose such c | ond | itions as may | be r | equired.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.01', '(d)
 Proposals for setting up an EOU requiring industrial licence may
 be granted approval by the concerned DC after clearance of
@@ -551,6 +757,17 @@ which meet guidelines prescribed by Do BT will be approved and
 recommended to DGFT for notification.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.01', 'Application for setting
 up of BTP unit shall be submitted to officer designated by Do BT.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.01', 'Application | for | s | etting up EHTP
+| | | / STP unit shall | be in format prescribed b | y M | e | it Y and shallbe
+| | | submitted to offi | cer designated by Meit Y.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.01', '| | |
+| (iii) | | A BTP can be se | t up by Central Governmen | t, St | a | te Government,
+| | | Public or Priva | te Sector Undertakings | or a | n | y combination
+| | | thereof.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.01', 'Applicat | ion for setting up of BTP s | hall | b | e submitted to
+| | | Department of | Bio-Technology (Do BT) a | nd s | u | ch applications
+| | | which meet guid | elines prescribed by Do BT | will | b | e approved and
+| | | recommended t | o DGFT for notification.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.01', '134
 Chapter-6
 Export Oriented Units (EOUs),
@@ -585,6 +802,14 @@ Department for Promotion of Industry and Internal Trade
 INSERT INTO documents (section_code, document_name) VALUES ('6.01', 'Similarly, EOUs may be approved on leased premises provided
 lease has been obtained from Government Department /
 Undertaking / Agency.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.01', '(d) | Proposals for s | ett | ing up an EO | U req | uiring indu | strial | licence may
+| be granted ap | pr | oval by the | conce | rned DC a | fter c | learance of
+| proposal by BO | A ( | as per Appen | dix 6 | C of Appen | dices | & ANFs) and
+| Department f | or | Promotion | of In | dustry and | Inte | rnal Trade
+| (DPIIT) within | 45 | days.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.01', '| Similarly, EOU | s m | ay be appro | ved o | n leased p | remis | es provided
+| lease has be | en | obtained fr | om G | overnmen | t De | partment /
+| Undertaking / | Ag | ency.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.01', '(d)
 Proposals for setting up an EOU requiring industrial licence may
 be granted approval by the concerned DC after clearance of
@@ -605,6 +830,14 @@ ANFs and sector specific conditions relating to approval as in
 Appendix 6B of Appendices & ANFs.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.01', 'In other cases, approval may
 be granted by DC after clearance by BOA.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.01', '| | |
+| (b) (i) A | | pplications for | setting up units under E | OU | sc | heme shall be
+| | | approved or rej | ected by Units Approval C | om | m | ittee within 15
+| | | days, as per crit | eria indicated in Appendix | 6A | o | f Appendices &
+| | | ANFs and sector | specific conditions relati | ng t | o | approval as in
+| | | Appendix 6B of A | ppendices & ANFs.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.01', 'In othe | r cas | e | s, approval may
+| | | be granted by D | C after clearance by BOA.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.01', 'Lo P / Lo I shall have an initial validity of 2 years
 to enable the Unit to construct the plant & install the machinery
 and by this time the unit should have commenced production.');
@@ -633,6 +866,32 @@ INSERT INTO timelines (section_code, timeline_text) VALUES ('6.01', 'However, in
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy himself of genuine nature of
 lease.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.01', 'Lo | P / Lo I shall | have | an initial v | alidit | y of 2 years
+| to enable the | Unit | to construct | the p | lant & inst | all th | e machinery
+| and by this tim | e t | he unit shoul | d hav | e commenc | ed pr | oduction.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.01', 'In
+| case the unit i | s n | ot able to co | mme | nce produc | tion i | n the initial
+| validity period | of | 2 years, an e | xtensi | on of one y | ear m | ay be given
+| by the DC for v | alid | reasons to b | e rec | orded in wr | iting.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.01', 'Once | unit | commences
+| production, Lo | P / | Lo I issued sh | all be | valid for a | perio | d of 5 years
+| for its activitie | s.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.01', '(d) | Proposals for s | ett | ing up an EO | U req | uiring indu | strial | licence may
+| be granted ap | pr | oval by the | conce | rned DC a | fter c | learance of
+| proposal by BO | A ( | as per Appen | dix 6 | C of Appen | dices | & ANFs) and
+| Department f | or | Promotion | of In | dustry and | Inte | rnal Trade
+| (DPIIT) within | 45 | days.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.01', '| | | |
+(e) | Lo P / Lo I shal | l sp | ecify item(s) | of ma | nufacture | / serv | ice activity,
+| annual capaci | ty, | projected an | nual e | xport for | first f | ive years in
+| dollar terms, | Net | Foreign Exch | ange | (NFE) ear | nings, | limitations,
+| if any, regardi | ng s | ale of finish | ed go | ods, by-pro | ducts | and rejects
+| in DTA and s | uch | other matte | r as | may be ne | cessa | ry and also
+| impose such c | ond | itions as may | be r | equired.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.01', 'Howev | er, in | case lease | is ob | tained from
+| private partie | s, it | shall have a | valid | ity period | of five | years from
+| date of LUT a | nd | DC shall sat | isfy h | imself of g | enuin | e nature of
+| lease.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.01', '(d)
 Proposals for setting up an EOU requiring industrial licence may
 be granted approval by the concerned DC after clearance of
@@ -724,13 +983,13 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'any');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'iii');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'BTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'the');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'not');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'one');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'two');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'are');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'its');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'Net');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'Par');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'FTP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'ion');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'rej');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'cas');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'Und');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'keywords', 'Tec');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'tags', '6.01');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'tags', 'Application / Approval / Renewal of approval');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.01', 'tags', 'business-rule');
@@ -945,6 +1204,44 @@ partial processing/ manufacture. Besides, supply of unsuitable /
 broken cut and polished diamonds, precious and semi-precious
 stones upto 5% of value of imported or indigenously procured
 pg. 136
+| | scheme or o | pt o | ut of schem | e. Where | unit op | ts to continue,
+| | DC/Designat | ed Of | ficer will ext | end validit | y of th | e LOP/LOI. If no
+| | intimation in | this | regard is rec | eived from | unit w | ithin a period of
+| | six months o | f exp | iry of the va | lidity, DC/D | esigna | ted Officer will,
+| | suomoto, tak | e act | ion to cance | l approval | under | the scheme and
+| | take further | actio | n in this rega | rd. Where | units g | ive their option
+| | to continue | after | expiry of | six months | as st | ipulated above,
+| | DC/Designat | ed O | fficer will | grant exte | nsion | after obtaining
+| | approval of B | OA/I | MSC. | | |
+6.02 L | egal U | ndertaking ( | LUT) | | | |
+| (a) | Approved EOU | / EH | TP / STP / B | TP unit sha | ll exec | ute an LUT with
+| | DC / Designated | Offic | er concerne | d as in Appe | ndix 6 | E of Appendices
+| | & ANFs. | | | | |
+| (b) | All EOU / EHTP | / ST | P / BTP uni | ts should h | ave pe | rmanent e-mail
+| | address. No LUT | for | new units sh | all be execu | ted un | less unit has its
+| | permanent e-m | ail a | ddress and d | igital signa | ture o | n said e-mail ID.
+| | In event of an E | OU no | t having per | manent e-m | ail ad | dress and digital
+| | signature, furth | er im | ports and D | TA sale sha | ll not | be permitted by
+| | DC. | | | | |
+6.03 E | xport | of Goods and | Serv | ices | | |
+| (a) | Software units | may | undertake e | xports usin | g data | communication
+| | links or in form | of ph | ysical expor | ts (which m | ay be t | hrough courier
+| | service also), in | cludi | ng export of | profession | al servi | ces.
+| (b) | EOUs shall be p | ermi | tted to expo | rt jewellery | on ba | sis of a notional
+| | rate certificate i | ssue | d by nominat | ed agency. | This ra | te will be based
+| | on prevailing G | old / | US$ rate an | d US$ / IN | R rate | in notional rate
+| | certificate. Cert | ificat | e issued by | nominated | agenc | y should not be
+| | older than 7 wo | rking | days of dat | e of shipme | nt. |
+| (c) | Exporter shall | have | flexibility t | o fix price | and r | epay gold loan
+| | within 180 day | s fro | m date of exp | ort. Price s | hall be | communicated
+| | to nominated a | genc | ies who will | issue a ce | rtificat | e showing final
+| | confirmation o | f rat | e to bank n | egotiating | docum | ent, to ensure
+| | export proceed | s are | realized at t | his rate. | |
+| (d) | Gems & Jewelle | ry EO | Us may re-e | xport impo | rted g | oods and export
+| | domestically pr | ocur | ed goods, in | cluding go | ods ge | nerated out of
+| | partial processi | ng/ | manufacture |. Besides, s | upply | of unsuitable /
+| | broken cut and | poli | shed diamo | nds, precio | us and | semi-precious
+| | stones upto 5% | of | value of imp | orted or i | ndigen | ously procured
 pg. 136
 scheme or opt out of scheme. Where unit opts to continue,
 DC/Designated Officer will extend validity of the LOP/LOI. If no
@@ -979,7 +1276,7 @@ partial processing/ manufacture. Besides, supply of unsuitable /
 broken cut and polished diamonds, precious and semi-precious
 stones upto 5% of value of imported or indigenously procured
 goods to DTA against valid Gems & Jewellery REP as applicable on
-payment of appropriate duty is also permitted.', '[4, 5]', '["and", "may", "INR", "not", "fix", "who", "are", "out", "cut", "opt", "the", "six", "DTA", "REP", "data", "form", "also", "EOUs", "rate", "This"]', 'Support Export of Goods and Services processing and compliance validation.', '["6.03", "Export of Goods and Services", "business-rule", "document-driven", "dgft"]');
+payment of appropriate duty is also permitted.', '[4, 5]', '["and", "may", "INR", "not", "fix", "who", "are", "out", "cut", "ext", "end", "rec", "six", "exp", "iry", "the", "ted", "tak", "act", "ion"]', 'Support Export of Goods and Services processing and compliance validation.', '["6.03", "Export of Goods and Services", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_03-R001', '6.03', '(b) EOUs shall be permitted to export jewellery on basis of a notional
 rate certificate issued by nominated agency.', 'business_rule', 'Export of Goods and Services', '(b) EOUs shall be permitted to export jewellery on basis of a notional
 rate certificate issued by nominated agency.', '(b) EOUs shall be permitted to export jewellery on basis of a notional
@@ -1004,32 +1301,70 @@ confirmation of rate to bank negotiating document, to ensure
 export proceeds are realized at this rate.', 'business_rule', 'Export of Goods and Services', 'Price shall be communicated
 to nominated agencies who will issue a certificate showing final
 confirmation of rate to bank negotiating document, to ensure
-export proceeds are realized at this rate.', '(b)
-EOUs shall be permitted to export jewellery on basis of a notional
-rate certificate issued by nominated agency.', 'Price shall be communicated
+export proceeds are realized at this rate.', '| | |
+6.02 L | egal U | ndertaking ( | LUT) | | | |
+| (a) | Approved EOU | / EH | TP / STP / B | TP unit sha | ll exec | ute an LUT with
+| | DC / Designated | Offic | er concerne | d as in Appe | ndix 6 | E of Appendices
+| | & ANFs.', 'Price shall be communicated
 to nominated agencies who will issue a certificate showing final
 confirmation of rate to bank negotiating document, to ensure
 export proceeds are realized at this rate.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_03-R005', '6.03', '(b)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_03-R005', '6.03', '| | | | |
+| (b) | All EOU / EHTP | / ST | P / BTP uni | ts should h | ave pe | rmanent e-mail
+| | address.', 'business_rule', 'Export of Goods and Services', 'Where | unit op | ts to continue,
+| | DC/Designat | ed Of | ficer will ext | end validit | y of th | e LOP/LOI.', '| (b) | EOUs shall be p | ermi | tted to expo | rt jewellery | on ba | sis of a notional
+| | rate certificate i | ssue | d by nominat | ed agency.', 'Where | units g | ive their option
+| | to continue | after | expiry of | six months | as st | ipulated above,
+| | DC/Designat | ed O | fficer will | grant exte | nsion | after obtaining
+| | approval of B | OA/I | MSC.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_03-R006', '6.03', '| (b) | EOUs shall be p | ermi | tted to expo | rt jewellery | on ba | sis of a notional
+| | rate certificate i | ssue | d by nominat | ed agency.', 'business_rule', 'Export of Goods and Services', 'If no
+| | intimation in | this | regard is rec | eived from | unit w | ithin a period of
+| | six months o | f exp | iry of the va | lidity, DC/D | esigna | ted Officer will,
+| | suomoto, tak | e act | ion to cance | l approval | under | the scheme and
+| | take further | actio | n in this rega | rd.', '|
+| (c) | Exporter shall | have | flexibility t | o fix price | and r | epay gold loan
+| | within 180 day | s fro | m date of exp | ort.', '| | |
+6.02 L | egal U | ndertaking ( | LUT) | | | |
+| (a) | Approved EOU | / EH | TP / STP / B | TP unit sha | ll exec | ute an LUT with
+| | DC / Designated | Offic | er concerne | d as in Appe | ndix 6 | E of Appendices
+| | & ANFs.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_03-R007', '6.03', 'Cert | ificat | e issued by | nominated | agenc | y should not be
+| | older than 7 wo | rking | days of dat | e of shipme | nt.', 'business_rule', 'Export of Goods and Services', 'Where | units g | ive their option
+| | to continue | after | expiry of | six months | as st | ipulated above,
+| | DC/Designat | ed O | fficer will | grant exte | nsion | after obtaining
+| | approval of B | OA/I | MSC.', 'Price s | hall be | communicated
+| | to nominated a | genc | ies who will | issue a ce | rtificat | e showing final
+| | confirmation o | f rat | e to bank n | egotiating | docum | ent, to ensure
+| | export proceed | s are | realized at t | his rate.', 'Cert | ificat | e issued by | nominated | agenc | y should not be
+| | older than 7 wo | rking | days of dat | e of shipme | nt.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_03-R008', '6.03', '|
+| (c) | Exporter shall | have | flexibility t | o fix price | and r | epay gold loan
+| | within 180 day | s fro | m date of exp | ort.', 'business_rule', 'Export of Goods and Services', '| (b) | EOUs shall be p | ermi | tted to expo | rt jewellery | on ba | sis of a notional
+| | rate certificate i | ssue | d by nominat | ed agency.', '(b)
 EOUs shall be permitted to export jewellery on basis of a notional
-rate certificate issued by nominated agency.', 'business_rule', 'Export of Goods and Services', 'Where unit opts to continue,
-DC/Designated Officer will extend validity of the LOP/LOI.', '(c)
+rate certificate issued by nominated agency.', '|
+| (c) | Exporter shall | have | flexibility t | o fix price | and r | epay gold loan
+| | within 180 day | s fro | m date of exp | ort.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_03-R009', '6.03', '(b)
+EOUs shall be permitted to export jewellery on basis of a notional
+rate certificate issued by nominated agency.', 'business_rule', 'Export of Goods and Services', '| This ra | te will be based
+| | on prevailing G | old / | US$ rate an | d US$ / IN | R rate | in notional rate
+| | certificate.', '(c)
+Exporter shall have flexibility to fix price and repay gold loan
+within 180 days from date of export.', 'Price s | hall be | communicated
+| | to nominated a | genc | ies who will | issue a ce | rtificat | e showing final
+| | confirmation o | f rat | e to bank n | egotiating | docum | ent, to ensure
+| | export proceed | s are | realized at t | his rate.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_03-R010', '6.03', '(c)
+Exporter shall have flexibility to fix price and repay gold loan
+within 180 days from date of export.', 'business_rule', 'Export of Goods and Services', 'Cert | ificat | e issued by | nominated | agenc | y should not be
+| | older than 7 wo | rking | days of dat | e of shipme | nt.', '(c)
 Exporter shall have flexibility to fix price and repay gold loan
 within 180 days from date of export.', 'Where units give their option
 to continue after expiry of six months as stipulated above,
 DC/Designated Officer will grant extension after obtaining
 approval of BOA/IMSC.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_03-R006', '6.03', '(c)
-Exporter shall have flexibility to fix price and repay gold loan
-within 180 days from date of export.', 'business_rule', 'Export of Goods and Services', 'If no
-intimation in this regard is received from unit within a period of
-six months of expiry of the validity, DC/Designated Officer will,
-suomoto, take action to cancel approval under the scheme and
-take further action in this regard.', '(c)
-Exporter shall have flexibility to fix price and repay gold loan
-within 180 days from date of export.', '(b)
-EOUs shall be permitted to export jewellery on basis of a notional
-rate certificate issued by nominated agency.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.03', '(b) EOUs shall be permitted to export jewellery on basis of a notional
 rate certificate issued by nominated agency.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.03', 'This rate will be based
@@ -1041,6 +1376,28 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('6.03', 'Price sha
 to nominated agencies who will issue a certificate showing final
 confirmation of rate to bank negotiating document, to ensure
 export proceeds are realized at this rate.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.03', 'Where | unit op | ts to continue,
+| | DC/Designat | ed Of | ficer will ext | end validit | y of th | e LOP/LOI.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.03', 'If no
+| | intimation in | this | regard is rec | eived from | unit w | ithin a period of
+| | six months o | f exp | iry of the va | lidity, DC/D | esigna | ted Officer will,
+| | suomoto, tak | e act | ion to cance | l approval | under | the scheme and
+| | take further | actio | n in this rega | rd.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.03', 'Where | units g | ive their option
+| | to continue | after | expiry of | six months | as st | ipulated above,
+| | DC/Designat | ed O | fficer will | grant exte | nsion | after obtaining
+| | approval of B | OA/I | MSC.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.03', '| (b) | EOUs shall be p | ermi | tted to expo | rt jewellery | on ba | sis of a notional
+| | rate certificate i | ssue | d by nominat | ed agency.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.03', '| This ra | te will be based
+| | on prevailing G | old / | US$ rate an | d US$ / IN | R rate | in notional rate
+| | certificate.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.03', 'Cert | ificat | e issued by | nominated | agenc | y should not be
+| | older than 7 wo | rking | days of dat | e of shipme | nt.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.03', 'Price s | hall be | communicated
+| | to nominated a | genc | ies who will | issue a ce | rtificat | e showing final
+| | confirmation o | f rat | e to bank n | egotiating | docum | ent, to ensure
+| | export proceed | s are | realized at t | his rate.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.03', 'Where unit opts to continue,
 DC/Designated Officer will extend validity of the LOP/LOI.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.03', 'If no
@@ -1066,13 +1423,33 @@ INSERT INTO documents (section_code, document_name) VALUES ('6.03', 'Price shall
 to nominated agencies who will issue a certificate showing final
 confirmation of rate to bank negotiating document, to ensure
 export proceeds are realized at this rate.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.03', '| (b) | EOUs shall be p | ermi | tted to expo | rt jewellery | on ba | sis of a notional
+| | rate certificate i | ssue | d by nominat | ed agency.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.03', '| This ra | te will be based
+| | on prevailing G | old / | US$ rate an | d US$ / IN | R rate | in notional rate
+| | certificate.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.03', '(b)
 EOUs shall be permitted to export jewellery on basis of a notional
 rate certificate issued by nominated agency.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6.03', 'ra');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.03', 'Certificate issued by nominated agency should not be
 older than 7 working days of date of shipment.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.03', '(c) Exporter shall have flexibility to fix price and repay gold loan
 within 180 days from date of export.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.03', 'If no
+| | intimation in | this | regard is rec | eived from | unit w | ithin a period of
+| | six months o | f exp | iry of the va | lidity, DC/D | esigna | ted Officer will,
+| | suomoto, tak | e act | ion to cance | l approval | under | the scheme and
+| | take further | actio | n in this rega | rd.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.03', 'Where | units g | ive their option
+| | to continue | after | expiry of | six months | as st | ipulated above,
+| | DC/Designat | ed O | fficer will | grant exte | nsion | after obtaining
+| | approval of B | OA/I | MSC.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.03', 'Cert | ificat | e issued by | nominated | agenc | y should not be
+| | older than 7 wo | rking | days of dat | e of shipme | nt.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.03', '|
+| (c) | Exporter shall | have | flexibility t | o fix price | and r | epay gold loan
+| | within 180 day | s fro | m date of exp | ort.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.03', 'If no
 intimation in this regard is received from unit within a period of
 six months of expiry of the validity, DC/Designated Officer will,
@@ -1102,13 +1479,15 @@ INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.03', 7, '
 to nominated agencies who will issue a certificate showing final
 confirmation of rate to bank negotiating document, to ensure
 export proceeds are realized at this rate.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.03', 8, 'Where units give their option
-to continue after expiry of six months as stipulated above,
-DC/Designated Officer will grant extension after obtaining
-approval of BOA/IMSC.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.03', 9, '(b)
-EOUs shall be permitted to export jewellery on basis of a notional
-rate certificate issued by nominated agency.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.03', 8, 'Where | units g | ive their option
+| | to continue | after | expiry of | six months | as st | ipulated above,
+| | DC/Designat | ed O | fficer will | grant exte | nsion | after obtaining
+| | approval of B | OA/I | MSC.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.03', 9, '| | |
+6.02 L | egal U | ndertaking ( | LUT) | | | |
+| (a) | Approved EOU | / EH | TP / STP / B | TP unit sha | ll exec | ute an LUT with
+| | DC / Designated | Offic | er concerne | d as in Appe | ndix 6 | E of Appendices
+| | & ANFs.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.03', 10, 'Run validation: (b) EOUs shall be permitted to export jewellery on basis of a notional
 rate certificate issued by nominated agency.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.03', 11, 'Run validation: (c) Exporter shall have flexibility to fix price and repay gold loan
@@ -1126,17 +1505,17 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'are');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'out');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'cut');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'opt');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'ext');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'end');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'rec');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'six');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'DTA');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'REP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'data');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'form');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'also');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'EOUs');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'rate');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'This');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'exp');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'iry');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'ted');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'tak');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'act');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'keywords', 'ion');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'tags', '6.03');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'tags', 'Export of Goods and Services');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.03', 'tags', 'business-rule');
@@ -1162,13 +1541,13 @@ power plants.', 'Import / Domestic Procurement of Goods governs how DGFT busines
 Goods permitted to be imported / procured from DTA shall include:
 (a) Raw materials, components, consumables, intermediates, spares
 and packing materials. The section also drives actions such as 137
-goods to DTA against valid Gems & Jewellery REP as applicable on
-payment of appropriate duty is also permitted..', 'Indha Import / Domestic Procurement of Goods section-la, import / Domestic Procurement of Goods explains the operating rule set that DEKAI should enforce. Key control points include 6.04 import / Domestic Procurement of Goods
+| goods | to DTA against v | alid Gems & | Jewellery RE | P as a | pplicable on
+| payme | nt of appropriat | e duty is als | o permitted..', 'Indha Import / Domestic Procurement of Goods section-la, import / Domestic Procurement of Goods explains the operating rule set that DEKAI should enforce. Key control points include 6.04 import / Domestic Procurement of Goods
 Goods permitted to be imported / procured from DTA kandippa include:
 (a) Raw materials, components, consumables, intermediates, spares
 and packing materials. The section also drives actions such as 137
-goods to DTA against valid Gems & Jewellery REP as applicable on
-payment of appropriate duty is also permitted..', '6.04 Import / Domestic Procurement of Goods
+| goods | to DTA against v | alid Gems & | Jewellery RE | P as a | pplicable on
+| payme | nt of appropriat | e duty is als | o permitted..', '6.04 Import / Domestic Procurement of Goods
 Goods permitted to be imported / procured from DTA shall include:
 (a) Raw materials, components, consumables, intermediates, spares
 and packing materials.
@@ -1201,6 +1580,40 @@ and product diversification development or evaluation.
 (iii) Office equipment, including PABX, Fax machines, projection
 system, Computers, Laptop and Server.
 pg. 137
+| goods | to DTA against v | alid Gems & | Jewellery RE | P as a | pplicable on
+| payme | nt of appropriat | e duty is als | o permitted. | |
+mpor | t / Do | mestic Procur | ement of G | oods | |
+permi | tted to | be imported / p | rocured fro | m DTA shall in | clude |:
+(a) | Raw m | aterials, compo | nents, cons | umables, inte | rmed | iates, spares
+| and pa | cking materials. | | | |
+(b) | Capita | l goods and its s | pares, whe | ther new or s | econd | -hand which
+| inter-a | lia includes the | following: | | |
+| (i) | Captive power | plants (DG S | ets, Wind Po | wer, S | olar Power),
+| | including tran | sformers a | nd accessorie | s. Th | is would be
+| | subject to the co | ndition tha | t no tax/duty | benef | its stipulated
+| | under EOU Sche | me shall be | available for | setti | ng up as well
+| | as operations | and mainte | nance of suc | h win | d and solar
+| | power plants. | | | |
+| (ii) | Pollution contro | l equipment |. | |
+| (iii) | Quality assuranc | e equipmen | t. | |
+| (iv) | Material handli | ng equipme | nt, like fork l | ifts a | nd overhead
+| | cranes, mobile c | ranes, craw | ler cranes, hoi | sts an | d stackers.
+| (v) | Un-interrupted | Power Sup | ply System (U | PS), | Special racks
+| | for storage, sto | rage system | s, modular fu | rnitu | re, computer
+| | furniture, anti- | static carp | et, teleconfe | rence | equipment,
+| | Servo Control S | ystem, Air- | conditioners | / Air | conditioning
+| | system, panel f | or electrical | s and special | data | transmission
+| | cable. | | | |
+| (vi) | Security System | s | | |
+| (vii) | Tools, jigs, fixtu | res, gauges |, moulds, dye | s, ins | truments an
+| | accessories. | | | |
+(c) | Raw m | aterials for mak | ing capital g | oods for use w | ithin | unit.
+(d) | Others | including: | | | |
+| (i) | Prototypes and | technical s | amples for e | xistin | g product(s)
+| | and product div | ersification | development | or ev | aluation.
+| (ii) | Drawings, blue p | rints, chart | s, microfilms a | nd te | chnical data.
+| (iii) | Office equipmen | t, including | PABX, Fax m | achin | es, projection
+| | system, Comput | ers, Laptop | and Server. | |
 pg. 137
 goods to DTA against valid Gems & Jewellery REP as applicable on
 payment of appropriate duty is also permitted.
@@ -1251,7 +1664,7 @@ Drawings, blue prints, charts, microfilms and technical data.
 Office equipment, including PABX, Fax machines, projection
 system, Computers, Laptop and Server.
 (e) Spares and consumables for above items.
-(f) Any other items not mentioned above with approval of BOA.', '[5, 6]', '["DTA", "Raw", "and", "its", "new", "the", "EOU", "for", "iii", "UPS", "Air", "vii", "use", "Fax", "REP", "Any", "not", "BOA", "from", "Sets"]', 'Support Import / Domestic Procurement of Goods processing and compliance validation.', '["6.04", "Import / Domestic Procurement of Goods", "business-rule", "dgft"]');
+(f) Any other items not mentioned above with approval of BOA.', '[5, 6]', '["DTA", "Raw", "and", "its", "new", "the", "EOU", "for", "iii", "UPS", "Air", "vii", "use", "Fax", "als", "fro", "whe", "lia", "ets", "wer"]', 'Support Import / Domestic Procurement of Goods processing and compliance validation.', '["6.04", "Import / Domestic Procurement of Goods", "business-rule", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_04-R001', '6.04', '6.04 Import / Domestic Procurement of Goods
 Goods permitted to be imported / procured from DTA shall include:
 (a) Raw materials, components, consumables, intermediates, spares
@@ -1263,8 +1676,8 @@ power plants.', '6.04 Import / Domestic Procurement of Goods
 Goods permitted to be imported / procured from DTA shall include:
 (a) Raw materials, components, consumables, intermediates, spares
 and packing materials.', '137
-goods to DTA against valid Gems & Jewellery REP as applicable on
-payment of appropriate duty is also permitted.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.04 - Import / Domestic Procurement of Goods.');
+| goods | to DTA against v | alid Gems & | Jewellery RE | P as a | pplicable on
+| payme | nt of appropriat | e duty is als | o permitted.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.04 - Import / Domestic Procurement of Goods.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_04-R002', '6.04', 'This would be
 subject to the condition that no tax/duty benefits stipulated
 under EOU Scheme shall be available for setting up as well
@@ -1277,13 +1690,41 @@ as operations and maintenance of such wind and solar
 power plants.', '137
 goods to DTA against valid Gems & Jewellery REP as applicable on
 payment of appropriate duty is also permitted.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.04 - Import / Domestic Procurement of Goods.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_04-R003', '6.04', '6.04 Import / Domestic Procurement of Goods
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_04-R003', '6.04', '| |
+mpor | t / Do | mestic Procur | ement of G | oods | |
+permi | tted to | be imported / p | rocured fro | m DTA shall in | clude |:
+(a) | Raw m | aterials, compo | nents, cons | umables, inte | rmed | iates, spares
+| and pa | cking materials.', 'business_rule', 'Import / Domestic Procurement of Goods', '(d) Others including:
+(i) Prototypes and technical samples for existing product(s)
+and product diversification development or evaluation.', '| |
+mpor | t / Do | mestic Procur | ement of G | oods | |
+permi | tted to | be imported / p | rocured fro | m DTA shall in | clude |:
+(a) | Raw m | aterials, compo | nents, cons | umables, inte | rmed | iates, spares
+| and pa | cking materials.', '137
+goods to DTA against valid Gems & Jewellery REP as applicable on
+payment of appropriate duty is also permitted.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.04 - Import / Domestic Procurement of Goods.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_04-R004', '6.04', 'Th | is would be
+| | subject to the co | ndition tha | t no tax/duty | benef | its stipulated
+| | under EOU Sche | me shall be | available for | setti | ng up as well
+| | as operations | and mainte | nance of suc | h win | d and solar
+| | power plants.', 'business_rule', 'Import / Domestic Procurement of Goods', 'Th | is would be
+| | subject to the co | ndition tha | t no tax/duty | benef | its stipulated
+| | under EOU Sche | me shall be | available for | setti | ng up as well
+| | as operations | and mainte | nance of suc | h win | d and solar
+| | power plants.', 'Th | is would be
+| | subject to the co | ndition tha | t no tax/duty | benef | its stipulated
+| | under EOU Sche | me shall be | available for | setti | ng up as well
+| | as operations | and mainte | nance of suc | h win | d and solar
+| | power plants.', '137
+goods to DTA against valid Gems & Jewellery REP as applicable on
+payment of appropriate duty is also permitted.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.04 - Import / Domestic Procurement of Goods.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_04-R005', '6.04', '6.04 Import / Domestic Procurement of Goods
 Goods permitted to be imported / procured from DTA shall include:
 (a)
 Raw materials, components, consumables, intermediates, spares
-and packing materials.', 'business_rule', 'Import / Domestic Procurement of Goods', '(d) Others including:
-(i) Prototypes and technical samples for existing product(s)
-and product diversification development or evaluation.', '6.04 Import / Domestic Procurement of Goods
+and packing materials.', 'business_rule', 'Import / Domestic Procurement of Goods', '| |
+| (iv) | Material handli | ng equipme | nt, like fork l | ifts a | nd overhead
+| | cranes, mobile c | ranes, craw | ler cranes, hoi | sts an | d stackers.', '6.04 Import / Domestic Procurement of Goods
 Goods permitted to be imported / procured from DTA shall include:
 (a)
 Raw materials, components, consumables, intermediates, spares
@@ -1300,6 +1741,17 @@ cranes, mobile cranes, crawler cranes, hoists and stackers.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.04', '(d) Others including:
 (i) Prototypes and technical samples for existing product(s)
 and product diversification development or evaluation.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.04', 'Th | is would be
+| | subject to the co | ndition tha | t no tax/duty | benef | its stipulated
+| | under EOU Sche | me shall be | available for | setti | ng up as well
+| | as operations | and mainte | nance of suc | h win | d and solar
+| | power plants.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.04', '| |
+| (iv) | Material handli | ng equipme | nt, like fork l | ifts a | nd overhead
+| | cranes, mobile c | ranes, craw | ler cranes, hoi | sts an | d stackers.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.04', '(d) | Others | including: | | | |
+| (i) | Prototypes and | technical s | amples for e | xistin | g product(s)
+| | and product div | ersification | development | or ev | aluation.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.04', '(iv)
 Material handling equipment, like fork lifts and overhead
 cranes, mobile cranes, crawler cranes, hoists and stackers.');
@@ -1322,22 +1774,25 @@ INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.04', 3, '
 (i) Prototypes and technical samples for existing product(s)
 and product diversification development or evaluation.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.04', 4, '137
+| goods | to DTA against v | alid Gems & | Jewellery RE | P as a | pplicable on
+| payme | nt of appropriat | e duty is als | o permitted.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.04', 5, '137
 goods to DTA against valid Gems & Jewellery REP as applicable on
 payment of appropriate duty is also permitted.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.04', 5, 'Run validation: 6.04 Import / Domestic Procurement of Goods
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.04', 6, 'Run validation: 6.04 Import / Domestic Procurement of Goods
 Goods permitted to be imported / procured from DTA shall include:
 (a) Raw materials, components, consumables, intermediates, spares
 and packing materials.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.04', 6, 'Run validation: This would be
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.04', 7, 'Run validation: This would be
 subject to the condition that no tax/duty benefits stipulated
 under EOU Scheme shall be available for setting up as well
 as operations and maintenance of such wind and solar
 power plants.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.04', 7, 'Run validation: 6.04 Import / Domestic Procurement of Goods
-Goods permitted to be imported / procured from DTA shall include:
-(a)
-Raw materials, components, consumables, intermediates, spares
-and packing materials.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.04', 8, 'Run validation: | |
+mpor | t / Do | mestic Procur | ement of G | oods | |
+permi | tted to | be imported / p | rocured fro | m DTA shall in | clude |:
+(a) | Raw m | aterials, compo | nents, cons | umables, inte | rmed | iates, spares
+| and pa | cking materials.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'DTA');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'Raw');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'and');
@@ -1352,12 +1807,12 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'vii');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'use');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'Fax');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'REP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'Any');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'not');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'BOA');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'from');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'Sets');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'als');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'fro');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'whe');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'lia');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'ets');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'keywords', 'wer');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'tags', '6.04');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'tags', 'Import / Domestic Procurement of Goods');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.04', 'tags', 'business-rule');
@@ -1466,6 +1921,43 @@ oleoresins, EO shall be fulfilled within 12 months.
 (d) Goods already imported / shipped / arrived before issue of Lo P /
 Lo I are also eligible for clearance as provided under para 6.01 (d)
 pg. 138
+| (e) | Spares and con | sumables fo | r above ite | ms. | |
+| (f) | Any other item | s not mentio | ned above | with | approval of B | OA.
+6.05 | Repair | / Remaking | of Jeweller | y | | |
+EOUs | may im | port plain / st | udded gold / | platinum | or sil | ver jewellery f | or export
+after r | epairs | /remaking. | | | | |
+6.06 | Condit | ions of Impo | rt | | | |
+Impor | t of goo | ds by EOU / E | HTP / STP / | BTP units s | hall b | e subject to fo | llowing
+condit | ions: | | | | | |
+| (a) | Goods shall be | imported i | nto EOU / | EHTP | / STP / BTP | premises.
+| | However, agri | culture and a | llied secto | rs an | d granite sect | or units in
+| | EOU may supp | ly / transfer | capital goo | ds an | d inputs in fa | rm / fields
+| | / quarries w | ith prior | intimation | to | jurisdictional | Customs
+| | authorities, pr | ovided owne | rship of go | ods r | ests with EOU | s. Granite
+| | sector would | also be allow | ed to take | spar | es upto 5% o | f value of
+| | Capital Goods | to quarry sit | e. | | |
+| (b) | Procedure as | prescribed u | nder Custo | ms/ | Central Excise | rules for
+| | EOUs and un | its in EHTP | / STP / | BTP | will be foll | owed and
+| | appropriate | bond exec | uted with | Cu | stoms/Centr | al Excise
+| | Authorities. | | | | |
+| (c) | (i) The perio | d of utilisat | ion of good | s, in | cluding capita | l goods,
+| | shall be | co-terminus | with the va | lidity | of Lo P. |
+| | (ii) Howeve | r, imported | tea shall be | utili | zed within a p | eriod of 6
+| | months | from date | of import. | Simi | larly, export | obligation
+| | against | import of it | ems {covere | d by | Chapter 9 of IT | C(HS)} and
+| | coconut | oil shall be f | ulfilled with | in a p | eriod of 90 day | s from the
+| | date on | which first i | mport consi | gnme | nt is cleared b | y Customs
+| | Authorit | ies. | | | |
+| | (iii) Further |, in case of | import of | spic | es for VA pu | rpose like
+| | crushin | g / grinding | / sterilizati | on or | for manufact | ure of oils
+| | and oleo | resins of pe | pper, carda | mom | and chillies (a | nd not for
+| | simple | cleaning, gr | ading, re- | pack | ing etc.), EO | shall be
+| | fulfilled | within 120 d | ays from t | he da | te of importat | ion of first
+| | consign | ment. In case | of import | of sp | ices (other th | an pepper,
+| | cardam | om and chil | lies) for m | anufa | cture of spic | e oils and
+| | oleoresi | ns, EO shall | be fulfilled | withi | n 12 months. |
+| (d) | Goods already | imported / | shipped / | arriv | ed before issu | e of Lo P /
+| | Lo I are also eli | gible for clea | rance as p | rovid | ed under para | 6.01 (d)
 pg. 138
 (e)
 Spares and consumables for above items.
@@ -1534,7 +2026,7 @@ declared / ad hoc norms in accordance with norms as finally
 fixed by Norms Committee in DGFT;
 (iii) in case of any difficulty in fixation of SION as above, BOA in
 consultation with Norms Committee in DGFT, will decide on
-a case to case basis.', '[6, 7]', '["EOU", "STP", "BTP", "and", "may", "for", "The", "tea", "ITC", "oil", "iii", "not", "etc", "are", "Any", "BOA", "FTP", "has", "use", "hoc"]', 'Support Conditions of Import processing and compliance validation.', '["6.06", "Conditions of Import", "business-rule", "document-driven", "dgft"]');
+a case to case basis.', '[6, 7]', '["EOU", "STP", "BTP", "and", "may", "for", "The", "tea", "ITC", "oil", "iii", "not", "etc", "are", "con", "ite", "Any", "ned", "sil", "ver"]', 'Support Conditions of Import processing and compliance validation.', '["6.06", "Conditions of Import", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R001', '6.06', '6.06 Conditions of Import
 Import of goods by EOU / EHTP / STP / BTP units shall be subject to following
 conditions:
@@ -1575,9 +2067,10 @@ Lo I are also eligible for clearance as provided under para 6.01 (d)
 (ii) of FTP under EOU / EHTP / STP / BTP scheme without
 payment of duty and/or taxes as applicable, provided, the said
 duties and/or taxes has not been paid and goods have not been
-cleared from Customs.', '(ii)
-However, imported tea shall be utilized within a period of 6
-months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
+cleared from Customs.', '| | However, agri | culture and a | llied secto | rs an | d granite sect | or units in
+| | EOU may supp | ly / transfer | capital goo | ds an | d inputs in fa | rm / fields
+| | / quarries w | ith prior | intimation | to | jurisdictional | Customs
+| | authorities, pr | ovided owne | rship of go | ods r | ests with EOU | s.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R004', '6.06', 'Similarly, export obligation
 against import of items {covered by Chapter 9 of ITC(HS)} and
 coconut oil shall be fulfilled within a period of 90 days from the
@@ -1602,11 +2095,9 @@ crushing / grinding / sterilization or for manufacture of oils
 and oleoresins of pepper, cardamom and chillies (and not for
 simple cleaning, grading, re- packing etc.), EO shall be
 fulfilled within 120 days from the date of importation of first
-consignment.', 'business_rule', 'Conditions of Import', '6.06 Conditions of Import
-Import of goods by EOU / EHTP / STP / BTP units shall be subject to following
-conditions:
-(a)
-Goods shall be imported into EOU / EHTP / STP / BTP premises.', '(iii) Further, in case of import of spices for VA purpose like
+consignment.', 'business_rule', 'Conditions of Import', '6.05 | Repair | / Remaking | of Jeweller | y | | |
+EOUs | may im | port plain / st | udded gold / | platinum | or sil | ver jewellery f | or export
+after r | epairs | /remaking.', '(iii) Further, in case of import of spices for VA purpose like
 crushing / grinding / sterilization or for manufacture of oils
 and oleoresins of pepper, cardamom and chillies (and not for
 simple cleaning, grading, re- packing etc.), EO shall be
@@ -1622,13 +2113,11 @@ However, imported tea shall be utilized within a period of 6
 months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R006', '6.06', 'In case of import of spices (other than pepper,
 cardamom and chillies) for manufacture of spice oils and
-oleoresins, EO shall be fulfilled within 12 months.', 'business_rule', 'Conditions of Import', '(iii)
-Further, in case of import of spices for VA purpose like
-crushing / grinding / sterilization or for manufacture of oils
-and oleoresins of pepper, cardamom and chillies (and not for
-simple cleaning, grading, re- packing etc.), EO shall be
-fulfilled within 120 days from the date of importation of first
-consignment.', 'In case of import of spices (other than pepper,
+oleoresins, EO shall be fulfilled within 12 months.', 'business_rule', 'Conditions of Import', '| | | | |
+6.06 | Condit | ions of Impo | rt | | | |
+Impor | t of goo | ds by EOU / E | HTP / STP / | BTP units s | hall b | e subject to fo | llowing
+condit | ions: | | | | | |
+| (a) | Goods shall be | imported i | nto EOU / | EHTP | / STP / BTP | premises.', 'In case of import of spices (other than pepper,
 cardamom and chillies) for manufacture of spice oils and
 oleoresins, EO shall be fulfilled within 12 months.', '(d)
 Goods already imported / shipped / arrived before issue of Lo P /
@@ -1641,13 +2130,13 @@ However, imported tea shall be utilized within a period of 6
 months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R007', '6.06', '(d) Goods already imported / shipped / arrived before issue of Lo P /
 Lo I are also eligible for clearance as provided under para 6.01 (d)
-pg.', 'business_rule', 'Conditions of Import', '(d)
-Goods already imported / shipped / arrived before issue of Lo P /
-Lo I are also eligible for clearance as provided under para 6.01 (d)
-(ii) of FTP under EOU / EHTP / STP / BTP scheme without
-payment of duty and/or taxes as applicable, provided, the said
-duties and/or taxes has not been paid and goods have not been
-cleared from Customs.', '(d) Goods already imported / shipped / arrived before issue of Lo P /
+pg.', 'business_rule', 'Conditions of Import', '| | | |
+| | (iii) Further |, in case of | import of | spic | es for VA pu | rpose like
+| | crushin | g / grinding | / sterilizati | on or | for manufact | ure of oils
+| | and oleo | resins of pe | pper, carda | mom | and chillies (a | nd not for
+| | simple | cleaning, gr | ading, re- | pack | ing etc.), EO | shall be
+| | fulfilled | within 120 d | ays from t | he da | te of importat | ion of first
+| | consign | ment.', '(d) Goods already imported / shipped / arrived before issue of Lo P /
 Lo I are also eligible for clearance as provided under para 6.01 (d)
 pg.', '(d)
 Goods already imported / shipped / arrived before issue of Lo P /
@@ -1658,7 +2147,138 @@ duties and/or taxes has not been paid and goods have not been
 cleared from Customs.', '(ii)
 However, imported tea shall be utilized within a period of 6
 months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R008', '6.06', '6.06 Conditions of Import
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R008', '6.06', '| | | | |
+6.06 | Condit | ions of Impo | rt | | | |
+Impor | t of goo | ds by EOU / E | HTP / STP / | BTP units s | hall b | e subject to fo | llowing
+condit | ions: | | | | | |
+| (a) | Goods shall be | imported i | nto EOU / | EHTP | / STP / BTP | premises.', 'business_rule', 'Conditions of Import', 'In case | of import | of sp | ices (other th | an pepper,
+| | cardam | om and chil | lies) for m | anufa | cture of spic | e oils and
+| | oleoresi | ns, EO shall | be fulfilled | withi | n 12 months.', '| | | | |
+6.06 | Condit | ions of Impo | rt | | | |
+Impor | t of goo | ds by EOU / E | HTP / STP / | BTP units s | hall b | e subject to fo | llowing
+condit | ions: | | | | | |
+| (a) | Goods shall be | imported i | nto EOU / | EHTP | / STP / BTP | premises.', '(d)
+Goods already imported / shipped / arrived before issue of Lo P /
+Lo I are also eligible for clearance as provided under para 6.01 (d)
+(ii) of FTP under EOU / EHTP / STP / BTP scheme without
+payment of duty and/or taxes as applicable, provided, the said
+duties and/or taxes has not been paid and goods have not been
+cleared from Customs.', '(ii)
+However, imported tea shall be utilized within a period of 6
+months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R009', '6.06', '| | | | |
+| (c) | (i) The perio | d of utilisat | ion of good | s, in | cluding capita | l goods,
+| | shall be | co-terminus | with the va | lidity | of Lo P.', 'business_rule', 'Conditions of Import', '|
+| (d) | Goods already | imported / | shipped / | arriv | ed before issu | e of Lo P /
+| | Lo I are also eli | gible for clea | rance as p | rovid | ed under para | 6.01 (d)
+pg.', '| | | | |
+| (c) | (i) The perio | d of utilisat | ion of good | s, in | cluding capita | l goods,
+| | shall be | co-terminus | with the va | lidity | of Lo P.', '(d)
+Goods already imported / shipped / arrived before issue of Lo P /
+Lo I are also eligible for clearance as provided under para 6.01 (d)
+(ii) of FTP under EOU / EHTP / STP / BTP scheme without
+payment of duty and/or taxes as applicable, provided, the said
+duties and/or taxes has not been paid and goods have not been
+cleared from Customs.', '(ii)
+However, imported tea shall be utilized within a period of 6
+months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R010', '6.06', '|
+| | (ii) Howeve | r, imported | tea shall be | utili | zed within a p | eriod of 6
+| | months | from date | of import.', 'business_rule', 'Conditions of Import', '6.06 Conditions of Import
+Import of goods by EOU / EHTP / STP / BTP units shall be subject to following
+conditions:
+(a)
+Goods shall be imported into EOU / EHTP / STP / BTP premises.', '|
+| | (ii) Howeve | r, imported | tea shall be | utili | zed within a p | eriod of 6
+| | months | from date | of import.', '(d)
+Goods already imported / shipped / arrived before issue of Lo P /
+Lo I are also eligible for clearance as provided under para 6.01 (d)
+(ii) of FTP under EOU / EHTP / STP / BTP scheme without
+payment of duty and/or taxes as applicable, provided, the said
+duties and/or taxes has not been paid and goods have not been
+cleared from Customs.', '(ii)
+However, imported tea shall be utilized within a period of 6
+months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R011', '6.06', '| Simi | larly, export | obligation
+| | against | import of it | ems {covere | d by | Chapter 9 of IT | C(HS)} and
+| | coconut | oil shall be f | ulfilled with | in a p | eriod of 90 day | s from the
+| | date on | which first i | mport consi | gnme | nt is cleared b | y Customs
+| | Authorit | ies.', 'business_rule', 'Conditions of Import', '(iii)
+Further, in case of import of spices for VA purpose like
+crushing / grinding / sterilization or for manufacture of oils
+and oleoresins of pepper, cardamom and chillies (and not for
+simple cleaning, grading, re- packing etc.), EO shall be
+fulfilled within 120 days from the date of importation of first
+consignment.', '| Simi | larly, export | obligation
+| | against | import of it | ems {covere | d by | Chapter 9 of IT | C(HS)} and
+| | coconut | oil shall be f | ulfilled with | in a p | eriod of 90 day | s from the
+| | date on | which first i | mport consi | gnme | nt is cleared b | y Customs
+| | Authorit | ies.', '(d)
+Goods already imported / shipped / arrived before issue of Lo P /
+Lo I are also eligible for clearance as provided under para 6.01 (d)
+(ii) of FTP under EOU / EHTP / STP / BTP scheme without
+payment of duty and/or taxes as applicable, provided, the said
+duties and/or taxes has not been paid and goods have not been
+cleared from Customs.', '(ii)
+However, imported tea shall be utilized within a period of 6
+months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R012', '6.06', '| | | |
+| | (iii) Further |, in case of | import of | spic | es for VA pu | rpose like
+| | crushin | g / grinding | / sterilizati | on or | for manufact | ure of oils
+| | and oleo | resins of pe | pper, carda | mom | and chillies (a | nd not for
+| | simple | cleaning, gr | ading, re- | pack | ing etc.), EO | shall be
+| | fulfilled | within 120 d | ays from t | he da | te of importat | ion of first
+| | consign | ment.', 'business_rule', 'Conditions of Import', '(d)
+Goods already imported / shipped / arrived before issue of Lo P /
+Lo I are also eligible for clearance as provided under para 6.01 (d)
+(ii) of FTP under EOU / EHTP / STP / BTP scheme without
+payment of duty and/or taxes as applicable, provided, the said
+duties and/or taxes has not been paid and goods have not been
+cleared from Customs.', '| | | |
+| | (iii) Further |, in case of | import of | spic | es for VA pu | rpose like
+| | crushin | g / grinding | / sterilizati | on or | for manufact | ure of oils
+| | and oleo | resins of pe | pper, carda | mom | and chillies (a | nd not for
+| | simple | cleaning, gr | ading, re- | pack | ing etc.), EO | shall be
+| | fulfilled | within 120 d | ays from t | he da | te of importat | ion of first
+| | consign | ment.', '(d)
+Goods already imported / shipped / arrived before issue of Lo P /
+Lo I are also eligible for clearance as provided under para 6.01 (d)
+(ii) of FTP under EOU / EHTP / STP / BTP scheme without
+payment of duty and/or taxes as applicable, provided, the said
+duties and/or taxes has not been paid and goods have not been
+cleared from Customs.', '(ii)
+However, imported tea shall be utilized within a period of 6
+months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R013', '6.06', 'In case | of import | of sp | ices (other th | an pepper,
+| | cardam | om and chil | lies) for m | anufa | cture of spic | e oils and
+| | oleoresi | ns, EO shall | be fulfilled | withi | n 12 months.', 'business_rule', 'Conditions of Import', '(e) Consumption of inputs by the EOU / EHTP / STP / BTP unit shall
+be based on the Standard Input Output Norms (SION) provided
+that:
+(i) where no SION have been notified, generation of waste,
+scrap and remnants upto 2% of input quantity shall be
+allowed;
+(ii) where additional items other than those given in SION are
+required as inputs or where generation of waste, scrap and
+remnants is beyond 2% of input quantity, use of such inputs
+shall be allowed by the jurisdictional DC within a period of
+three months from the date of application and based on self
+declared norms, with the unit undertaking to adjust self-
+declared / ad hoc norms in accordance with norms as finally
+fixed by Norms Committee in DGFT;
+(iii) in case of any difficulty in fixation of SION as above, BOA in
+consultation with Norms Committee in DGFT, will decide on
+a case to case basis.', 'In case | of import | of sp | ices (other th | an pepper,
+| | cardam | om and chil | lies) for m | anufa | cture of spic | e oils and
+| | oleoresi | ns, EO shall | be fulfilled | withi | n 12 months.', '(d)
+Goods already imported / shipped / arrived before issue of Lo P /
+Lo I are also eligible for clearance as provided under para 6.01 (d)
+(ii) of FTP under EOU / EHTP / STP / BTP scheme without
+payment of duty and/or taxes as applicable, provided, the said
+duties and/or taxes has not been paid and goods have not been
+cleared from Customs.', '(ii)
+However, imported tea shall be utilized within a period of 6
+months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R014', '6.06', '6.06 Conditions of Import
 Import of goods by EOU / EHTP / STP / BTP units shall be subject to following
 conditions:
 (a)
@@ -1691,7 +2311,7 @@ duties and/or taxes has not been paid and goods have not been
 cleared from Customs.', '(ii)
 However, imported tea shall be utilized within a period of 6
 months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R009', '6.06', '(c)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R015', '6.06', '(c)
 (i) The period of utilisation of goods, including capital goods,
 shall beco-terminus with the validity of Lo P.', 'business_rule', 'Conditions of Import', '(e) Consumption of inputs by the EOU / EHTP / STP / BTP unit shall
 be based on the Standard Input Output Norms (SION) provided
@@ -1720,7 +2340,7 @@ duties and/or taxes has not been paid and goods have not been
 cleared from Customs.', '(ii)
 However, imported tea shall be utilized within a period of 6
 months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R010', '6.06', '(ii)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R016', '6.06', '(ii)
 However, imported tea shall be utilized within a period of 6
 months from date of import.', 'business_rule', 'Conditions of Import', '(e) Consumption of inputs by the EOU / EHTP / STP / BTP unit shall
 be based on the Standard Input Output Norms (SION) provided
@@ -1749,7 +2369,7 @@ duties and/or taxes has not been paid and goods have not been
 cleared from Customs.', '(ii)
 However, imported tea shall be utilized within a period of 6
 months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R011', '6.06', '(iii)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R017', '6.06', '(iii)
 Further, in case of import of spices for VA purpose like
 crushing / grinding / sterilization or for manufacture of oils
 and oleoresins of pepper, cardamom and chillies (and not for
@@ -1786,7 +2406,7 @@ duties and/or taxes has not been paid and goods have not been
 cleared from Customs.', '(ii)
 However, imported tea shall be utilized within a period of 6
 months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R012', '6.06', '(d)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R018', '6.06', '(d)
 Goods already imported / shipped / arrived before issue of Lo P /
 Lo I are also eligible for clearance as provided under para 6.01 (d)
 (ii) of FTP under EOU / EHTP / STP / BTP scheme without
@@ -1823,7 +2443,7 @@ duties and/or taxes has not been paid and goods have not been
 cleared from Customs.', '(ii)
 However, imported tea shall be utilized within a period of 6
 months from date of import.', 'DEKAI should produce a compliance decision for 6.06 - Conditions of Import.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R013', '6.06', '(e) Consumption of inputs by the EOU / EHTP / STP / BTP unit shall
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_06-R019', '6.06', '(e) Consumption of inputs by the EOU / EHTP / STP / BTP unit shall
 be based on the Standard Input Output Norms (SION) provided
 that:
 (i) where no SION have been notified, generation of waste,
@@ -1895,6 +2515,28 @@ cardamom and chillies) for manufacture of spice oils and
 oleoresins, EO shall be fulfilled within 12 months.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.06', '(d) Goods already imported / shipped / arrived before issue of Lo P /
 Lo I are also eligible for clearance as provided under para 6.01 (d)
+pg.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.06', '6.05 | Repair | / Remaking | of Jeweller | y | | |
+EOUs | may im | port plain / st | udded gold / | platinum | or sil | ver jewellery f | or export
+after r | epairs | /remaking.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.06', '| | | | |
+6.06 | Condit | ions of Impo | rt | | | |
+Impor | t of goo | ds by EOU / E | HTP / STP / | BTP units s | hall b | e subject to fo | llowing
+condit | ions: | | | | | |
+| (a) | Goods shall be | imported i | nto EOU / | EHTP | / STP / BTP | premises.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.06', '| | | |
+| | (iii) Further |, in case of | import of | spic | es for VA pu | rpose like
+| | crushin | g / grinding | / sterilizati | on or | for manufact | ure of oils
+| | and oleo | resins of pe | pper, carda | mom | and chillies (a | nd not for
+| | simple | cleaning, gr | ading, re- | pack | ing etc.), EO | shall be
+| | fulfilled | within 120 d | ays from t | he da | te of importat | ion of first
+| | consign | ment.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.06', 'In case | of import | of sp | ices (other th | an pepper,
+| | cardam | om and chil | lies) for m | anufa | cture of spic | e oils and
+| | oleoresi | ns, EO shall | be fulfilled | withi | n 12 months.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.06', '|
+| (d) | Goods already | imported / | shipped / | arriv | ed before issu | e of Lo P /
+| | Lo I are also eli | gible for clea | rance as p | rovid | ed under para | 6.01 (d)
 pg.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.06', '6.06 Conditions of Import
 Import of goods by EOU / EHTP / STP / BTP units shall be subject to following
@@ -1972,6 +2614,31 @@ oleoresins, EO shall be fulfilled within 12 months.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.06', '(d) Goods already imported / shipped / arrived before issue of Lo P /
 Lo I are also eligible for clearance as provided under para 6.01 (d)
 pg.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.06', '6.05 | Repair | / Remaking | of Jeweller | y | | |
+EOUs | may im | port plain / st | udded gold / | platinum | or sil | ver jewellery f | or export
+after r | epairs | /remaking.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.06', '|
+| | (ii) Howeve | r, imported | tea shall be | utili | zed within a p | eriod of 6
+| | months | from date | of import.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.06', '| Simi | larly, export | obligation
+| | against | import of it | ems {covere | d by | Chapter 9 of IT | C(HS)} and
+| | coconut | oil shall be f | ulfilled with | in a p | eriod of 90 day | s from the
+| | date on | which first i | mport consi | gnme | nt is cleared b | y Customs
+| | Authorit | ies.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.06', '| | | |
+| | (iii) Further |, in case of | import of | spic | es for VA pu | rpose like
+| | crushin | g / grinding | / sterilizati | on or | for manufact | ure of oils
+| | and oleo | resins of pe | pper, carda | mom | and chillies (a | nd not for
+| | simple | cleaning, gr | ading, re- | pack | ing etc.), EO | shall be
+| | fulfilled | within 120 d | ays from t | he da | te of importat | ion of first
+| | consign | ment.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.06', 'In case | of import | of sp | ices (other th | an pepper,
+| | cardam | om and chil | lies) for m | anufa | cture of spic | e oils and
+| | oleoresi | ns, EO shall | be fulfilled | withi | n 12 months.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.06', '|
+| (d) | Goods already | imported / | shipped / | arriv | ed before issu | e of Lo P /
+| | Lo I are also eli | gible for clea | rance as p | rovid | ed under para | 6.01 (d)
+pg.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.06', '(ii)
 However, imported tea shall be utilized within a period of 6
 months from date of import.');
@@ -2012,6 +2679,10 @@ EOU may supply / transfer capital goods and inputs in farm / fields
 authorities, provided ownership of goods rests with EOUs.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.06', '(ii) However, imported tea shall be utilized within a period of 6
 months from date of import.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6.06', '| | However, agri | culture and a | llied secto | rs an | d granite sect | or units in
+| | EOU may supp | ly / transfer | capital goo | ds an | d inputs in fa | rm / fields
+| | / quarries w | ith prior | intimation | to | jurisdictional | Customs
+| | authorities, pr | ovided owne | rship of go | ods r | ests with EOU | s.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.06', '(ii)
 However, imported tea shall be utilized within a period of 6
 months from date of import.');
@@ -2064,12 +2735,12 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'not');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'etc');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'con');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'ite');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'Any');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'BOA');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'FTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'has');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'use');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'hoc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'ned');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'sil');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'keywords', 'ver');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'tags', '6.06');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'tags', 'Conditions of Import');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.06', 'tags', 'business-rule');
@@ -2124,6 +2795,42 @@ guidelines.
 units may access facility installed in EOU / EHTP / STP / BTP unit
 through communication links.
 pg. 139
+| (ii) of FTP un | der EO | U / EHTP | / | STP / BTP | scheme | without
+| payment of du | ty and | /or taxes a | s | applicable, pr | ovided, | the said
+| duties and/or t | axes h | as not been | p | aid and good | s have | not been
+| cleared from Cu | stoms. | | | | |
+(e) | Consumption o | f input | s by the EO | U | / EHTP / STP | / BTP | unit shall
+| be based on th | e Stan | dard Input | Ou | tput Norms | (SION) | provided
+| that: | | | | | |
+| (i) where n | o SION | have bee | n | notified, gene | ration | of waste,
+| scrap an | d rem | nants upto | 2 | % of input q | uantity | shall be
+| allowed; | | | | | |
+| (ii) where ad | dition | al items oth | er | than those g | iven in | SION are
+| required | as inp | uts or wher | e g | eneration of | waste, s | crap and
+| remnant | s is bey | ond 2% of i | np | ut quantity, u | se of su | ch inputs
+| shall be | allowe | d by the jur | isd | ictional DC w | ithin a | period of
+| three mo | nths fr | om the date | o | f application a | nd bas | ed on self
+| declared | norms |, with the | un | it undertakin | g to ad | just self-
+| declared | / ad ho | c norms in | ac | cordance with | norms | as finally
+| fixed by | Norms | Committee | in | DGFT; | |
+| (iii) in case o | f any d | ifficulty in f | ixa | tion of SION | as abov | e, BOA in
+| consultat | ion wi | th Norms Co | m | mittee in DGF | T, will d | ecide on
+| a case to | case b | asis. | | | |
+aking | out of Fax Ma | chine | s / Laptop | / | Computers | outsid | e
+ved pr | emises | | | | | |
+(a) | EOU / EHTP / | STP / | BTP units | ma | y install one f | ax mac | hine at a
+| place of its choi | ce, out | side premis | es | of unit, subjec | t to inti | mation of
+| its location to c | oncern | ed Customs | au | thorities. | |
+(b) | EOU / EHTP / | STP | / BTP unit | s | may, tempora | rily tak | e out of
+| premises of uni | t, duty | and/or tax f | ree | laptop / com | puters | and video
+| projection syste | ms for | working up | o | n by authorize | d empl | oyees.
+(c) | EOU / EHTP / S | TP / B | TP units ma | y i | nstall person | al comp | uters not
+| exceeding two | in num | ber, impor | te | d / procured | duty an | d/or tax
+| free in their r | egister | ed / admin | is | trative office | subjec | t to Do R
+| guidelines. | | | | | |
+(d) | For IT and IT | enable | d services, | pe | rsons authori | zed by | software
+| units may acces | s facili | ty installed | in | EOU / EHTP | / STP / | BTP unit
+| through commu | nicati | on links. | | | |
 pg. 139
 (ii) of FTP under EOU / EHTP / STP / BTP scheme without
 payment of duty and/or taxes as applicable, provided, the said
@@ -2168,7 +2875,7 @@ guidelines.
 (d)
 For IT and IT enabled services, persons authorized by software
 units may access facility installed in EOU / EHTP / STP / BTP unit
-through communication links.', '[7]', '["out", "Fax", "EOU", "STP", "BTP", "may", "one", "its", "tax", "and", "for", "not", "two", "FTP", "the", "has", "are", "use", "hoc", "iii"]', 'Support Taking out of Fax Machines / Laptop / Computers outside processing and compliance validation.', '["6.07", "Taking out of Fax Machines / Laptop / Computers outside", "business-rule", "document-driven", "dgft"]');
+through communication links.', '[7]', '["out", "Fax", "EOU", "STP", "BTP", "may", "one", "its", "tax", "and", "for", "not", "two", "FTP", "der", "the", "aid", "bee", "rem", "oth"]', 'Support Taking out of Fax Machines / Laptop / Computers outside processing and compliance validation.', '["6.07", "Taking out of Fax Machines / Laptop / Computers outside", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_07-R001', '6.07', '6.07 Taking out of Fax Machines / Laptop / Computers outside
 approved premises
 (a) EOU / EHTP / STP / BTP units may install one fax machine at a
@@ -2191,31 +2898,48 @@ exceeding two in number, imported / procured duty and/or tax
 free in their registered / administrative office subject to Do R
 guidelines.', 'business_rule', 'Taking out of Fax Machines / Laptop / Computers outside', '(b) EOU / EHTP / STP / BTP units may, temporarily take out of
 premises of unit, duty and/or tax free laptop / computers and video
-projection systems for working upon by authorized employees.', '(e)
-Consumption of inputs by the EOU / EHTP / STP / BTP unit shall
-be based on the Standard Input Output Norms (SION) provided
-that:
-(i)
-where no SION have been notified, generation of waste,
-scrap and remnants upto 2% of input quantity shall be
-allowed;
-(ii)
-where additional items other than those given in SION are
-required as inputs or where generation of waste, scrap and
-remnants is beyond 2% of input quantity, use of such inputs
-shall be allowed by the jurisdictional DC within a period of
-three months from the date of application and based on self
-declared norms, with the unit undertaking to adjust self-
-declared / ad hoc norms in accordance with norms as finally
-fixed by Norms Committee in DGFT;
-(iii)
-in case of any difficulty in fixation of SION as above, BOA in
-consultation with Norms Committee in DGFT, will decide on
-a case to case basis.', '(c) EOU / EHTP / STP / BTP units may install personal computers not
+projection systems for working upon by authorized employees.', '| | | | |
+(e) | Consumption o | f input | s by the EO | U | / EHTP / STP | / BTP | unit shall
+| be based on th | e Stan | dard Input | Ou | tput Norms | (SION) | provided
+| that: | | | | | |
+| (i) where n | o SION | have bee | n | notified, gene | ration | of waste,
+| scrap an | d rem | nants upto | 2 | % of input q | uantity | shall be
+| allowed; | | | | | |
+| (ii) where ad | dition | al items oth | er | than those g | iven in | SION are
+| required | as inp | uts or wher | e g | eneration of | waste, s | crap and
+| remnant | s is bey | ond 2% of i | np | ut quantity, u | se of su | ch inputs
+| shall be | allowe | d by the jur | isd | ictional DC w | ithin a | period of
+| three mo | nths fr | om the date | o | f application a | nd bas | ed on self
+| declared | norms |, with the | un | it undertakin | g to ad | just self-
+| declared | / ad ho | c norms in | ac | cordance with | norms | as finally
+| fixed by | Norms | Committee | in | DGFT; | |
+| (iii) in case o | f any d | ifficulty in f | ixa | tion of SION | as abov | e, BOA in
+| consultat | ion wi | th Norms Co | m | mittee in DGF | T, will d | ecide on
+| a case to | case b | asis.', '(c) EOU / EHTP / STP / BTP units may install personal computers not
 exceeding two in number, imported / procured duty and/or tax
 free in their registered / administrative office subject to Do R
 guidelines.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.07 - Taking out of Fax Machines / Laptop / Computers outside.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_07-R003', '6.07', '(e)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_07-R003', '6.07', '| | | | |
+(e) | Consumption o | f input | s by the EO | U | / EHTP / STP | / BTP | unit shall
+| be based on th | e Stan | dard Input | Ou | tput Norms | (SION) | provided
+| that: | | | | | |
+| (i) where n | o SION | have bee | n | notified, gene | ration | of waste,
+| scrap an | d rem | nants upto | 2 | % of input q | uantity | shall be
+| allowed; | | | | | |
+| (ii) where ad | dition | al items oth | er | than those g | iven in | SION are
+| required | as inp | uts or wher | e g | eneration of | waste, s | crap and
+| remnant | s is bey | ond 2% of i | np | ut quantity, u | se of su | ch inputs
+| shall be | allowe | d by the jur | isd | ictional DC w | ithin a | period of
+| three mo | nths fr | om the date | o | f application a | nd bas | ed on self
+| declared | norms |, with the | un | it undertakin | g to ad | just self-
+| declared | / ad ho | c norms in | ac | cordance with | norms | as finally
+| fixed by | Norms | Committee | in | DGFT; | |
+| (iii) in case o | f any d | ifficulty in f | ixa | tion of SION | as abov | e, BOA in
+| consultat | ion wi | th Norms Co | m | mittee in DGF | T, will d | ecide on
+| a case to | case b | asis.', 'business_rule', 'Taking out of Fax Machines / Laptop / Computers outside', '(c) EOU / EHTP / STP / BTP units may install personal computers not
+exceeding two in number, imported / procured duty and/or tax
+free in their registered / administrative office subject to Do R
+guidelines.', '(e)
 Consumption of inputs by the EOU / EHTP / STP / BTP unit shall
 be based on the Standard Input Output Norms (SION) provided
 that:
@@ -2235,10 +2959,49 @@ fixed by Norms Committee in DGFT;
 (iii)
 in case of any difficulty in fixation of SION as above, BOA in
 consultation with Norms Committee in DGFT, will decide on
-a case to case basis.', 'business_rule', 'Taking out of Fax Machines / Laptop / Computers outside', '(c) EOU / EHTP / STP / BTP units may install personal computers not
-exceeding two in number, imported / procured duty and/or tax
-free in their registered / administrative office subject to Do R
-guidelines.', '6.07 Taking out of Fax Machines / Laptop / Computers outside
+a case to case basis.', '139
+| (ii) of FTP un | der EO | U / EHTP | / | STP / BTP | scheme | without
+| payment of du | ty and | /or taxes a | s | applicable, pr | ovided, | the said
+| duties and/or t | axes h | as not been | p | aid and good | s have | not been
+| cleared from Cu | stoms.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.07 - Taking out of Fax Machines / Laptop / Computers outside.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_07-R004', '6.07', '(e)
+Consumption of inputs by the EOU / EHTP / STP / BTP unit shall
+be based on the Standard Input Output Norms (SION) provided
+that:
+(i)
+where no SION have been notified, generation of waste,
+scrap and remnants upto 2% of input quantity shall be
+allowed;
+(ii)
+where additional items other than those given in SION are
+required as inputs or where generation of waste, scrap and
+remnants is beyond 2% of input quantity, use of such inputs
+shall be allowed by the jurisdictional DC within a period of
+three months from the date of application and based on self
+declared norms, with the unit undertaking to adjust self-
+declared / ad hoc norms in accordance with norms as finally
+fixed by Norms Committee in DGFT;
+(iii)
+in case of any difficulty in fixation of SION as above, BOA in
+consultation with Norms Committee in DGFT, will decide on
+a case to case basis.', 'business_rule', 'Taking out of Fax Machines / Laptop / Computers outside', '| | | | |
+(e) | Consumption o | f input | s by the EO | U | / EHTP / STP | / BTP | unit shall
+| be based on th | e Stan | dard Input | Ou | tput Norms | (SION) | provided
+| that: | | | | | |
+| (i) where n | o SION | have bee | n | notified, gene | ration | of waste,
+| scrap an | d rem | nants upto | 2 | % of input q | uantity | shall be
+| allowed; | | | | | |
+| (ii) where ad | dition | al items oth | er | than those g | iven in | SION are
+| required | as inp | uts or wher | e g | eneration of | waste, s | crap and
+| remnant | s is bey | ond 2% of i | np | ut quantity, u | se of su | ch inputs
+| shall be | allowe | d by the jur | isd | ictional DC w | ithin a | period of
+| three mo | nths fr | om the date | o | f application a | nd bas | ed on self
+| declared | norms |, with the | un | it undertakin | g to ad | just self-
+| declared | / ad ho | c norms in | ac | cordance with | norms | as finally
+| fixed by | Norms | Committee | in | DGFT; | |
+| (iii) in case o | f any d | ifficulty in f | ixa | tion of SION | as abov | e, BOA in
+| consultat | ion wi | th Norms Co | m | mittee in DGF | T, will d | ecide on
+| a case to | case b | asis.', '6.07 Taking out of Fax Machines / Laptop / Computers outside
 approved premises
 (a)
 EOU / EHTP / STP / BTP units may install one fax machine at a
@@ -2248,7 +3011,7 @@ its location to concerned Customs authorities.', '139
 payment of duty and/or taxes as applicable, provided, the said
 duties and/or taxes has not been paid and goods have not been
 cleared from Customs.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.07 - Taking out of Fax Machines / Laptop / Computers outside.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_07-R004', '6.07', '6.07 Taking out of Fax Machines / Laptop / Computers outside
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_07-R005', '6.07', '6.07 Taking out of Fax Machines / Laptop / Computers outside
 approved premises
 (a)
 EOU / EHTP / STP / BTP units may install one fax machine at a
@@ -2284,7 +3047,7 @@ approved premises
 EOU / EHTP / STP / BTP units may install one fax machine at a
 place of its choice, outside premises of unit, subject to intimation of
 its location to concerned Customs authorities.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.07 - Taking out of Fax Machines / Laptop / Computers outside.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_07-R005', '6.07', '(c)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_07-R006', '6.07', '(c)
 EOU / EHTP / STP / BTP units may install personal computers not
 exceeding two in number, imported / procured duty and/or tax
 free in their registered / administrative office subject to Do R
@@ -2315,6 +3078,24 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('6.07', '(c) EOU /
 exceeding two in number, imported / procured duty and/or tax
 free in their registered / administrative office subject to Do R
 guidelines.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.07', '| | | | |
+(e) | Consumption o | f input | s by the EO | U | / EHTP / STP | / BTP | unit shall
+| be based on th | e Stan | dard Input | Ou | tput Norms | (SION) | provided
+| that: | | | | | |
+| (i) where n | o SION | have bee | n | notified, gene | ration | of waste,
+| scrap an | d rem | nants upto | 2 | % of input q | uantity | shall be
+| allowed; | | | | | |
+| (ii) where ad | dition | al items oth | er | than those g | iven in | SION are
+| required | as inp | uts or wher | e g | eneration of | waste, s | crap and
+| remnant | s is bey | ond 2% of i | np | ut quantity, u | se of su | ch inputs
+| shall be | allowe | d by the jur | isd | ictional DC w | ithin a | period of
+| three mo | nths fr | om the date | o | f application a | nd bas | ed on self
+| declared | norms |, with the | un | it undertakin | g to ad | just self-
+| declared | / ad ho | c norms in | ac | cordance with | norms | as finally
+| fixed by | Norms | Committee | in | DGFT; | |
+| (iii) in case o | f any d | ifficulty in f | ixa | tion of SION | as abov | e, BOA in
+| consultat | ion wi | th Norms Co | m | mittee in DGF | T, will d | ecide on
+| a case to | case b | asis.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.07', '(e)
 Consumption of inputs by the EOU / EHTP / STP / BTP unit shall
 be based on the Standard Input Output Norms (SION) provided
@@ -2351,6 +3132,24 @@ EOU / EHTP / STP / BTP units may install personal computers not
 exceeding two in number, imported / procured duty and/or tax
 free in their registered / administrative office subject to Do R
 guidelines.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.07', '| | | | |
+(e) | Consumption o | f input | s by the EO | U | / EHTP / STP | / BTP | unit shall
+| be based on th | e Stan | dard Input | Ou | tput Norms | (SION) | provided
+| that: | | | | | |
+| (i) where n | o SION | have bee | n | notified, gene | ration | of waste,
+| scrap an | d rem | nants upto | 2 | % of input q | uantity | shall be
+| allowed; | | | | | |
+| (ii) where ad | dition | al items oth | er | than those g | iven in | SION are
+| required | as inp | uts or wher | e g | eneration of | waste, s | crap and
+| remnant | s is bey | ond 2% of i | np | ut quantity, u | se of su | ch inputs
+| shall be | allowe | d by the jur | isd | ictional DC w | ithin a | period of
+| three mo | nths fr | om the date | o | f application a | nd bas | ed on self
+| declared | norms |, with the | un | it undertakin | g to ad | just self-
+| declared | / ad ho | c norms in | ac | cordance with | norms | as finally
+| fixed by | Norms | Committee | in | DGFT; | |
+| (iii) in case o | f any d | ifficulty in f | ixa | tion of SION | as abov | e, BOA in
+| consultat | ion wi | th Norms Co | m | mittee in DGF | T, will d | ecide on
+| a case to | case b | asis.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.07', '(e)
 Consumption of inputs by the EOU / EHTP / STP / BTP unit shall
 be based on the Standard Input Output Norms (SION) provided
@@ -2418,27 +3217,50 @@ exceeding two in number, imported / procured duty and/or tax
 free in their registered / administrative office subject to Do R
 guidelines.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.07', 6, '139
+| (ii) of FTP un | der EO | U / EHTP | / | STP / BTP | scheme | without
+| payment of du | ty and | /or taxes a | s | applicable, pr | ovided, | the said
+| duties and/or t | axes h | as not been | p | aid and good | s have | not been
+| cleared from Cu | stoms.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.07', 7, '139
 (ii) of FTP under EOU / EHTP / STP / BTP scheme without
 payment of duty and/or taxes as applicable, provided, the said
 duties and/or taxes has not been paid and goods have not been
 cleared from Customs.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.07', 7, '6.07 Taking out of Fax Machines / Laptop / Computers outside
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.07', 8, '6.07 Taking out of Fax Machines / Laptop / Computers outside
 approved premises
 (a)
 EOU / EHTP / STP / BTP units may install one fax machine at a
 place of its choice, outside premises of unit, subject to intimation of
 its location to concerned Customs authorities.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.07', 8, '(c)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.07', 9, '(c)
 EOU / EHTP / STP / BTP units may install personal computers not
 exceeding two in number, imported / procured duty and/or tax
 free in their registered / administrative office subject to Do R
 guidelines.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.07', 9, 'Run validation: 6.07 Taking out of Fax Machines / Laptop / Computers outside
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.07', 10, 'Run validation: 6.07 Taking out of Fax Machines / Laptop / Computers outside
 approved premises
 (a) EOU / EHTP / STP / BTP units may install one fax machine at a
 place of its choice, outside premises of unit, subject to intimation of
 its location to concerned Customs authorities.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.07', 10, 'Run validation: (e)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.07', 11, 'Run validation: | | | | |
+(e) | Consumption o | f input | s by the EO | U | / EHTP / STP | / BTP | unit shall
+| be based on th | e Stan | dard Input | Ou | tput Norms | (SION) | provided
+| that: | | | | | |
+| (i) where n | o SION | have bee | n | notified, gene | ration | of waste,
+| scrap an | d rem | nants upto | 2 | % of input q | uantity | shall be
+| allowed; | | | | | |
+| (ii) where ad | dition | al items oth | er | than those g | iven in | SION are
+| required | as inp | uts or wher | e g | eneration of | waste, s | crap and
+| remnant | s is bey | ond 2% of i | np | ut quantity, u | se of su | ch inputs
+| shall be | allowe | d by the jur | isd | ictional DC w | ithin a | period of
+| three mo | nths fr | om the date | o | f application a | nd bas | ed on self
+| declared | norms |, with the | un | it undertakin | g to ad | just self-
+| declared | / ad ho | c norms in | ac | cordance with | norms | as finally
+| fixed by | Norms | Committee | in | DGFT; | |
+| (iii) in case o | f any d | ifficulty in f | ixa | tion of SION | as abov | e, BOA in
+| consultat | ion wi | th Norms Co | m | mittee in DGF | T, will d | ecide on
+| a case to | case b | asis.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.07', 12, 'Run validation: (e)
 Consumption of inputs by the EOU / EHTP / STP / BTP unit shall
 be based on the Standard Input Output Norms (SION) provided
 that:
@@ -2459,12 +3281,6 @@ fixed by Norms Committee in DGFT;
 in case of any difficulty in fixation of SION as above, BOA in
 consultation with Norms Committee in DGFT, will decide on
 a case to case basis.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.07', 11, 'Run validation: 6.07 Taking out of Fax Machines / Laptop / Computers outside
-approved premises
-(a)
-EOU / EHTP / STP / BTP units may install one fax machine at a
-place of its choice, outside premises of unit, subject to intimation of
-its location to concerned Customs authorities.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'out');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'Fax');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'EOU');
@@ -2479,12 +3295,12 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'not');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'two');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'FTP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'der');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'the');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'has');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'are');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'use');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'hoc');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'iii');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'aid');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'bee');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'rem');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'keywords', 'oth');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'tags', '6.07');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'tags', 'Taking out of Fax Machines / Laptop / Computers outside');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.07', 'tags', 'business-rule');
@@ -2761,6 +3577,38 @@ any other charges. It will also include payment made in Indian
 Rupees on high sea sales; and
 “Inputs” mean raw materials, intermediates, components,
 pg. 140
+.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |
+Person(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or
+(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to
+the follow | ing | conditions: | | | | | | | | | | |
+(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the
+| d | uration of s | uch authori | sation |. | | | | | | | |
+(ii) | T | he Unit sh | all be resp | onsib | l | e for | c | arryin | g out | th | e w | or | k and
+| s | upervision a | nd shall be l | iable | f | or an | y m | isuse |. | | | |
+(iii) | E | xport of the | resultant p | rodu | c | ts / s | erv | ices | would t | ak | e pl | ace |
+| o | nly from the | premises of | the | u | nit. | | | | | | |
+.09 Leas | in | g of Capita | l Goods | | | | | | | | | |
+Value of im | po | rted capital | goods finan | ced t | h | rough | le | asing | compan | ie | s or | ob | tained
+free of cos | t a | nd / or on l | oan / lease | basis |, | shall | als | o be | taken i | nto | acc | ou | nt for
+purpose o | f ca | lculation of | NFE as defi | ned in | | FTP. | | | | | | |
+.10 Net | Fo | reign Exch | ange (NFE) | Ear | n | ings | | | | | | |
+(a) | | EOU / EHT | P / STP / | BTP | u | nit s | hal | l be | a positi | ve | ne | t f | oreign
+| | exchange ea | rner. NFE e | arnin | g | s sha | ll b | e calc | ulated | cu | mul | ati | vely in
+| | the block p | eriod as per | Para | | graph | 6. | 04 of | FTP, ac | co | rdin | g | to the
+| | formula giv | en below. It | ems o | f | man | ufa | cture | for exp | or | t sp | eci | fied in
+| | Lo P / Lo I al | one shall be | taken | | into | acc | ount f | or calcu | la | tion | of | NFE.
+| | Positive NFE | = A-B>0 W | here, | | | | | | | | |
+| | “NFE” is Ne | t Foreign Ex | chan | g | e; | | | | | | |
+| | “A” is FOB v | alue of expo | rts by | | EOU | / E | HTP / | STP / B | T | P un | it a | nd
+| | other suppli | es under pa | ra 6. | 0 | 8 of F | TP |; | | | | |
+| | “B” is sum t | otal of CIF v | alue | o | f all i | mp | orted | inputs | an | d CI | F v | alue of
+| | all imported | capital goo | ds, an | d | valu | e of | all pa | yments | m | ade | in | foreign
+| | exchange by | way of com | missi | o | n, ro | yal | ty, fee | s, divid | en | ds, i | nte | rest on
+| | external bor | rowings / h | igh s | e | a sale | s d | uring | first fiv | e | year | pe | riod or
+| | any other c | harges. It | will a | l | so in | clu | de pa | yment | m | ade | in | Indian
+| | Rupees on h | igh sea sale | s; and | | | | | | | | |
+| | “Inputs” me | an raw m | ater | i | als, i | nt | erme | diates |, c | om | po | nents
+| | | | | | | | | | | | | pg. 140
 pg. 140
 6.10 Net Foreign Exchange (NFE) Earnings
 (a)
@@ -2796,7 +3644,7 @@ amortized as under: 1st– 10th year: 10%. Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years. For
 existing units, proportionate Customs and excise duty must be paid
-where NFE is less than depreciation already claimed, before exit.', '[8, 9]', '["Net", "NFE", "EOU", "STP", "BTP", "the", "per", "FTP", "for", "A-B", "FOB", "and", "sum", "CIF", "all", "way", "sea", "any", "raw", "are"]', 'Support Net Foreign Exchange (NFE) Earnings processing and compliance validation.', '["6.10", "Net Foreign Exchange (NFE) Earnings", "business-rule", "document-driven", "dgft"]');
+where NFE is less than depreciation already claimed, before exit.', '[8, 9]', '["Net", "NFE", "EOU", "STP", "BTP", "the", "per", "FTP", "for", "A-B", "FOB", "and", "sum", "CIF", "all", "way", "sea", "any", "raw", "lit"]', 'Support Net Foreign Exchange (NFE) Earnings processing and compliance validation.', '["6.10", "Net Foreign Exchange (NFE) Earnings", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R001', '6.10', '6.10 Net Foreign Exchange (NFE) Earnings
 (a) EOU / EHTP / STP / BTP unit shall be a positive net foreign
 exchange earner.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', 'Items of manufacture for export specified in
@@ -2832,11 +3680,13 @@ pg.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R003', '6.10', 'Items of manufacture for export specified in
-Lo P / Lo I alone shall be taken into account for calculation of NFE.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', '(b) If any goods are obtained from another EOU / EHTP / STP / BTP /
-SEZ unit, or procured from an international exhibition held in India,
-or bonded warehouses or precious metals procured from
-nominated agencies, value of such goods shall be included under
-“B”.', 'Items of manufacture for export specified in
+Lo P / Lo I alone shall be taken into account for calculation of NFE.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', '140
+.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |
+Person(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or
+(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to
+the follow | ing | conditions: | | | | | | | | | | |
+(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the
+| d | uration of s | uch authori | sation |.', 'Items of manufacture for export specified in
 Lo P / Lo I alone shall be taken into account for calculation of NFE.', 'It will also include payment made in Indian
 Rupees on high sea sales; and
 “Inputs” mean raw materials, intermediates, components,
@@ -2844,30 +3694,89 @@ consumables, parts and packing materials.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R004', '6.10', '140
-6.10 Net Foreign Exchange (NFE) Earnings
-(a)
-EOU / EHTP / STP / BTP unit shall be a positive net foreign
-exchange earner.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', '(c) If any capital goods are imported duty and/or tax free or leased
-from a leasing company, received free of cost and / or on loan basis
-or transfer, CIF value of capital goods shall be included pro- rata,
-under “B” for period it remains with units.', '140
-6.10 Net Foreign Exchange (NFE) Earnings
-(a)
-EOU / EHTP / STP / BTP unit shall be a positive net foreign
-exchange earner.', '(b) If any goods are obtained from another EOU / EHTP / STP / BTP /
+.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |
+Person(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or
+(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to
+the follow | ing | conditions: | | | | | | | | | | |
+(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the
+| d | uration of s | uch authori | sation |.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', '| 0 | 8 of F | TP |; | | | | |
+| | “B” is sum t | otal of CIF v | alue | o | f all i | mp | orted | inputs | an | d CI | F v | alue of
+| | all imported | capital goo | ds, an | d | valu | e of | all pa | yments | m | ade | in | foreign
+| | exchange by | way of com | missi | o | n, ro | yal | ty, fee | s, divid | en | ds, i | nte | rest on
+| | external bor | rowings / h | igh s | e | a sale | s d | uring | first fiv | e | year | pe | riod or
+| | any other c | harges.', '140
+.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |
+Person(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or
+(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to
+the follow | ing | conditions: | | | | | | | | | | |
+(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the
+| d | uration of s | uch authori | sation |.', '(b) If any goods are obtained from another EOU / EHTP / STP / BTP /
 SEZ unit, or procured from an international exhibition held in India,
 or bonded warehouses or precious metals procured from
 nominated agencies, value of such goods shall be included under
 “B”.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R005', '6.10', '(b) If any goods are obtained from another EOU / EHTP / STP / BTP /
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R005', '6.10', '| | | | | | | |
+(ii) | T | he Unit sh | all be resp | onsib | l | e for | c | arryin | g out | th | e w | or | k and
+| s | upervision a | nd shall be l | iable | f | or an | y m | isuse |.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', '(b) If any goods are obtained from another EOU / EHTP / STP / BTP /
 SEZ unit, or procured from an international exhibition held in India,
 or bonded warehouses or precious metals procured from
 nominated agencies, value of such goods shall be included under
-“B”.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', 'Provided that above
+“B”.', '| | | | | | | |
+(ii) | T | he Unit sh | all be resp | onsib | l | e for | c | arryin | g out | th | e w | or | k and
+| s | upervision a | nd shall be l | iable | f | or an | y m | isuse |.', '(d) For annual calculation of NFE, value of imported capital goods and
+lump sum payment of foreign technical know-how fee shall be
+amortized as under: 1st– 10th year: 10%.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
-given by a unit that it will not exit to DTA in the first 10 years.', '(b) If any goods are obtained from another EOU / EHTP / STP / BTP /
+given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R006', '6.10', '| | | | | | |
+.09 Leas | in | g of Capita | l Goods | | | | | | | | | |
+Value of im | po | rted capital | goods finan | ced t | h | rough | le | asing | compan | ie | s or | ob | tained
+free of cos | t a | nd / or on l | oan / lease | basis |, | shall | als | o be | taken i | nto | acc | ou | nt for
+purpose o | f ca | lculation of | NFE as defi | ned in | | FTP.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', '(c) If any capital goods are imported duty and/or tax free or leased
+from a leasing company, received free of cost and / or on loan basis
+or transfer, CIF value of capital goods shall be included pro- rata,
+under “B” for period it remains with units.', '| | | | | | |
+.09 Leas | in | g of Capita | l Goods | | | | | | | | | |
+Value of im | po | rted capital | goods finan | ced t | h | rough | le | asing | compan | ie | s or | ob | tained
+free of cos | t a | nd / or on l | oan / lease | basis |, | shall | als | o be | taken i | nto | acc | ou | nt for
+purpose o | f ca | lculation of | NFE as defi | ned in | | FTP.', '(d) For annual calculation of NFE, value of imported capital goods and
+lump sum payment of foreign technical know-how fee shall be
+amortized as under: 1st– 10th year: 10%.', 'Provided that above
+amortization rates would be applicable only if an undertaking is
+given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R007', '6.10', 'It | ems o | f | man | ufa | cture | for exp | or | t sp | eci | fied in
+| | Lo P / Lo I al | one shall be | taken | | into | acc | ount f | or calcu | la | tion | of | NFE.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', 'Provided that above
+amortization rates would be applicable only if an undertaking is
+given by a unit that it will not exit to DTA in the first 10 years.', 'It | ems o | f | man | ufa | cture | for exp | or | t sp | eci | fied in
+| | Lo P / Lo I al | one shall be | taken | | into | acc | ount f | or calcu | la | tion | of | NFE.', '(d) For annual calculation of NFE, value of imported capital goods and
+lump sum payment of foreign technical know-how fee shall be
+amortized as under: 1st– 10th year: 10%.', 'Provided that above
+amortization rates would be applicable only if an undertaking is
+given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R008', '6.10', '140
+6.10 Net Foreign Exchange (NFE) Earnings
+(a)
+EOU / EHTP / STP / BTP unit shall be a positive net foreign
+exchange earner.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', 'For
+existing units, proportionate Customs and excise duty must be paid
+where NFE is less than depreciation already claimed, before exit.', '140
+6.10 Net Foreign Exchange (NFE) Earnings
+(a)
+EOU / EHTP / STP / BTP unit shall be a positive net foreign
+exchange earner.', '(d) For annual calculation of NFE, value of imported capital goods and
+lump sum payment of foreign technical know-how fee shall be
+amortized as under: 1st– 10th year: 10%.', 'Provided that above
+amortization rates would be applicable only if an undertaking is
+given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R009', '6.10', '(b) If any goods are obtained from another EOU / EHTP / STP / BTP /
+SEZ unit, or procured from an international exhibition held in India,
+or bonded warehouses or precious metals procured from
+nominated agencies, value of such goods shall be included under
+“B”.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', 'For
+existing units, proportionate Customs and excise duty must be paid
+where NFE is less than depreciation already claimed, before exit.', '(b) If any goods are obtained from another EOU / EHTP / STP / BTP /
 SEZ unit, or procured from an international exhibition held in India,
 or bonded warehouses or precious metals procured from
 nominated agencies, value of such goods shall be included under
@@ -2876,7 +3785,7 @@ lump sum payment of foreign technical know-how fee shall be
 amortized as under: 1st– 10th year: 10%.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R006', '6.10', '(c) If any capital goods are imported duty and/or tax free or leased
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R010', '6.10', '(c) If any capital goods are imported duty and/or tax free or leased
 from a leasing company, received free of cost and / or on loan basis
 or transfer, CIF value of capital goods shall be included pro- rata,
 under “B” for period it remains with units.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', 'For
@@ -2889,7 +3798,7 @@ lump sum payment of foreign technical know-how fee shall be
 amortized as under: 1st– 10th year: 10%.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R007', '6.10', '(d) For annual calculation of NFE, value of imported capital goods and
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R011', '6.10', '(d) For annual calculation of NFE, value of imported capital goods and
 lump sum payment of foreign technical know-how fee shall be
 amortized as under: 1st– 10th year: 10%.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', 'For
 existing units, proportionate Customs and excise duty must be paid
@@ -2900,7 +3809,7 @@ lump sum payment of foreign technical know-how fee shall be
 amortized as under: 1st– 10th year: 10%.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R008', '6.10', 'For
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_10-R012', '6.10', 'For
 existing units, proportionate Customs and excise duty must be paid
 where NFE is less than depreciation already claimed, before exit.', 'business_rule', 'Net Foreign Exchange (NFE) Earnings', 'For
 existing units, proportionate Customs and excise duty must be paid
@@ -2922,6 +3831,19 @@ all imported capital goods, and value of all payments made in foreign
 exchange by way of commission, royalty, fees, dividends, interest on
 external borrowings / high sea sales during first five year period or
 any other charges.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.10', '140
+.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |
+Person(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or
+(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to
+the follow | ing | conditions: | | | | | | | | | | |
+(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the
+| d | uration of s | uch authori | sation |.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.10', '| 0 | 8 of F | TP |; | | | | |
+| | “B” is sum t | otal of CIF v | alue | o | f all i | mp | orted | inputs | an | d CI | F v | alue of
+| | all imported | capital goo | ds, an | d | valu | e of | all pa | yments | m | ade | in | foreign
+| | exchange by | way of com | missi | o | n, ro | yal | ty, fee | s, divid | en | ds, i | nte | rest on
+| | external bor | rowings / h | igh s | e | a sale | s d | uring | first fiv | e | year | pe | riod or
+| | any other c | harges.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.10', '(b) If any goods are obtained from another EOU / EHTP / STP / BTP /
 SEZ unit, or procured from an international exhibition held in India,
 or bonded warehouses or precious metals procured from
@@ -2940,6 +3862,7 @@ where NFE is less than depreciation already claimed, before exit.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.10', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6.10', 'ra');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.10', 'Customs');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.10', 'Provided that above
 amortization rates would be applicable only if an undertaking is
@@ -2961,11 +3884,13 @@ all imported capital goods, and value of all payments made in foreign
 exchange by way of commission, royalty, fees, dividends, interest on
 external borrowings / high sea sales during first five year period or
 any other charges.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.10', 3, 'Evaluate condition: (b) If any goods are obtained from another EOU / EHTP / STP / BTP /
-SEZ unit, or procured from an international exhibition held in India,
-or bonded warehouses or precious metals procured from
-nominated agencies, value of such goods shall be included under
-“B”.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.10', 3, 'Evaluate condition: 140
+.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |
+Person(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or
+(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to
+the follow | ing | conditions: | | | | | | | | | | |
+(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the
+| d | uration of s | uch authori | sation |.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.10', 4, 'Positive NFE = A-B>0 Where,
 “NFE” is Net Foreign Exchange;
 “A” is FOB value of exports by EOU / EHTP / STP / BTP unit and
@@ -3021,7 +3946,7 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.10', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.10', 'keywords', 'sea');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.10', 'keywords', 'any');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.10', 'keywords', 'raw');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.10', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.10', 'keywords', 'lit');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.10', 'tags', '6.10');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.10', 'tags', 'Net Foreign Exchange (NFE) Earnings');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.10', 'tags', 'business-rule');
@@ -3088,6 +4013,43 @@ consignment with its exports, transfer to other SEZ / EOU / EHTP
 clarification as to whether goods are homogenous or not shall be
 decided by Units Approval Committee.
 pg. 141
+| consumables, p | ar | ts and | p | acking mat | erials. | | |
+(b) | If any goods are | ob | tained | f | rom another | EOU | / E | HTP / S | TP / BTP /
+| SEZ unit, or proc | ur | ed from | | an internatio | nal ex | hib | ition he | ld in India,
+| or bonded wa | re | houses | | or preciou | s me | tals | procu | red from
+| nominated agen | ci | es, valu | e | of such goo | ds sh | all | be inclu | ded under
+| “B”. | | | | | | | |
+(c) | If any capital go | od | s are i | m | ported duty | and/ | or | tax free | or leased
+| from a leasing co | m | pany, r | e | ceived free o | f cost | and | / or on | loan basis
+| or transfer, CIF | va | lue of c | a | pital goods | shall b | e i | ncluded | pro- rata,
+| under “B” for pe | rio | d it re | m | ains with un | its. | | |
+(d) | For annual calcu | la | tion of | N | FE, value of | impor | ted | capital | goods and
+| lump sum paym | e | nt of fo | r | eign techni | cal kn | ow | -how fe | e shall be
+| amortized as un | d | er: 1st– | | 10th year: | 10%. | Pr | ovided | that above
+| amortization rat | es | would | | be applicabl | e only | if | an und | ertaking is
+| given by a unit t | ha | t it will | | not exit to D | TA in t | he | first 10 | years. For
+| existing units, pr | op | ortion | at | e Customs a | nd exc | ise | duty m | ust be paid
+| where NFE is les | s t | han de | p | reciation alr | eady c | lai | med, be | fore exit.
+ainte | nance of Acco | u | nts | | | | | |
+a) | EOU / EHTP / S | TP | / BTP | | unit shall ma | intain | pr | oper ac | count, and
+| shall file digitally | s | igned q | u | arterly and a | nnual | re | port as | prescribed
+| in Annexure to | A | ppendi | x | 6E of App | endic | es | & ANF | s to DC /
+| Designated Offic | er | in Meit | Y | / Do BT and | Custo | ms | and Cen | tral Excise
+| authorities. In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of
+| services classifie | d | in Ann | e | xure V of Ap | pendi | x 6 | E of Ap | pendices &
+| ANFs in the ‘Serv | ic | e Expor | t | s Reporting | Form | (SE | RF)’ pr | escribed in
+| Annexure VI of | | Append | i | x 6E of Ap | pendi | ces | & AN | Fs to the
+| designated office | r | in STP. | U | se of SERF w | ould b | e li | mited t | o capturing
+| information on s | er | vices e | x | ports from S | TPs. | | |
+b) | Unit shall be abl | e t | o accou | n | t for entire | quanti | ty | of each | category of
+| homogenous go | od | s impor | t | ed / procur | ed dut | y a | nd/or t | ax free, by
+| way of exports, | sa | les / su | p | plies in DTA | or tr | ans | fer to o | ther SEZ /
+| EOU / EHTP / ST | P | / BTP u | n | its and bala | nce in | sto | ck. How | ever, at no
+| point of time, u | ni | ts shall | | be required | to co | rre | late ev | ery import
+| consignment wit | h | its expo | r | ts, transfer t | o othe | r S | EZ / EO | U / EHTP
+| /STP / BTP units |, s | ales in | D | TA and bala | nce in | sto | ck. Any | matter for
+| clarification as t | o | whethe | r | goods are h | omog | eno | us or n | ot shall be
+| decided by Units | A | pprova | l | Committee. | | | |
 pg. 141
 consumables, parts and packing materials.
 (b)
@@ -3130,7 +4092,7 @@ point of time, units shall be required to correlate every import
 consignment with its exports, transfer to other SEZ / EOU / EHTP
 /STP / BTP units, sales in DTA and balance in stock. Any matter for
 clarification as to whether goods are homogenous or not shall be
-decided by Units Approval Committee.', '[9]', '["EOU", "STP", "BTP", "and", "the", "Use", "for", "tax", "way", "DTA", "SEZ", "its", "Any", "are", "not", "CIF", "pro", "NFE", "sum", "fee"]', 'Support Maintenance of Accounts processing and compliance validation.', '["6.11", "Maintenance of Accounts", "business-rule", "document-driven", "dgft"]');
+decided by Units Approval Committee.', '[9]', '["EOU", "STP", "BTP", "and", "the", "Use", "for", "tax", "way", "DTA", "SEZ", "its", "Any", "are", "not", "mat", "rom", "HTP", "nal", "hib"]', 'Support Maintenance of Accounts processing and compliance validation.', '["6.11", "Maintenance of Accounts", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R001', '6.11', '6.11 Maintenance of Accounts
 a) EOU / EHTP / STP / BTP unit shall maintain proper account, and
 shall file digitally signed quarterly and annual report as prescribed
@@ -3174,15 +4136,44 @@ given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI sho
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R003', '6.11', 'b) Unit shall be able to account for entire quantity of each category of
 homogenous goods imported / procured duty and/or tax free, by
 way of exports, sales / supplies in DTA or transfer to other SEZ /
-EOU / EHTP / STP / BTP units and balance in stock.', 'business_rule', 'Maintenance of Accounts', '(b)
-If any goods are obtained from another EOU / EHTP / STP / BTP /
-SEZ unit, or procured from an international exhibition held in India,
-or bonded warehouses or precious metals procured from
-nominated agencies, value of such goods shall be included under
-“B”.', 'b) Unit shall be able to account for entire quantity of each category of
+EOU / EHTP / STP / BTP units and balance in stock.', 'business_rule', 'Maintenance of Accounts', '| | |
+(b) | If any goods are | ob | tained | f | rom another | EOU | / E | HTP / S | TP / BTP /
+| SEZ unit, or proc | ur | ed from | | an internatio | nal ex | hib | ition he | ld in India,
+| or bonded wa | re | houses | | or preciou | s me | tals | procu | red from
+| nominated agen | ci | es, valu | e | of such goo | ds sh | all | be inclu | ded under
+| “B”.', 'b) Unit shall be able to account for entire quantity of each category of
 homogenous goods imported / procured duty and/or tax free, by
 way of exports, sales / supplies in DTA or transfer to other SEZ /
-EOU / EHTP / STP / BTP units and balance in stock.', '(b)
+EOU / EHTP / STP / BTP units and balance in stock.', '| | |
+(d) | For annual calcu | la | tion of | N | FE, value of | impor | ted | capital | goods and
+| lump sum paym | e | nt of fo | r | eign techni | cal kn | ow | -how fe | e shall be
+| amortized as un | d | er: 1st– | | 10th year: | 10%.', 'Provided that above
+amortization rates would be applicable only if an undertaking is
+given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R004', '6.11', 'However, at no
+point of time, units shall be required to correlate every import
+consignment with its exports, transfer to other SEZ / EOU / EHTP
+/STP / BTP units, sales in DTA and balance in stock.', 'business_rule', 'Maintenance of Accounts', '| | | | | | | |
+(c) | If any capital go | od | s are i | m | ported duty | and/ | or | tax free | or leased
+| from a leasing co | m | pany, r | e | ceived free o | f cost | and | / or on | loan basis
+| or transfer, CIF | va | lue of c | a | pital goods | shall b | e i | ncluded | pro- rata,
+| under “B” for pe | rio | d it re | m | ains with un | its.', 'However, at no
+point of time, units shall be required to correlate every import
+consignment with its exports, transfer to other SEZ / EOU / EHTP
+/STP / BTP units, sales in DTA and balance in stock.', 'In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of
+| services classifie | d | in Ann | e | xure V of Ap | pendi | x 6 | E of Ap | pendices &
+| ANFs in the ‘Serv | ic | e Expor | t | s Reporting | Form | (SE | RF)’ pr | escribed in
+| Annexure VI of | | Append | i | x 6E of Ap | pendi | ces | & AN | Fs to the
+| designated office | r | in STP.', 'Provided that above
+amortization rates would be applicable only if an undertaking is
+given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R005', '6.11', 'Any matter for
+clarification as to whether goods are homogenous or not shall be
+decided by Units Approval Committee.', 'business_rule', 'Maintenance of Accounts', '| Pr | ovided | that above
+| amortization rat | es | would | | be applicabl | e only | if | an und | ertaking is
+| given by a unit t | ha | t it will | | not exit to D | TA in t | he | first 10 | years.', 'Any matter for
+clarification as to whether goods are homogenous or not shall be
+decided by Units Approval Committee.', '(b)
 If any goods are obtained from another EOU / EHTP / STP / BTP /
 SEZ unit, or procured from an international exhibition held in India,
 or bonded warehouses or precious metals procured from
@@ -3190,29 +4181,33 @@ nominated agencies, value of such goods shall be included under
 “B”.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R004', '6.11', 'However, at no
-point of time, units shall be required to correlate every import
-consignment with its exports, transfer to other SEZ / EOU / EHTP
-/STP / BTP units, sales in DTA and balance in stock.', 'business_rule', 'Maintenance of Accounts', '(c)
-If any capital goods are imported duty and/or tax free or leased
-from a leasing company, received free of cost and / or on loan basis
-or transfer, CIF value of capital goods shall be included pro- rata,
-under “B” for period it remains with units.', 'However, at no
-point of time, units shall be required to correlate every import
-consignment with its exports, transfer to other SEZ / EOU / EHTP
-/STP / BTP units, sales in DTA and balance in stock.', '(d)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R006', '6.11', '| | | | | | | |
+(c) | If any capital go | od | s are i | m | ported duty | and/ | or | tax free | or leased
+| from a leasing co | m | pany, r | e | ceived free o | f cost | and | / or on | loan basis
+| or transfer, CIF | va | lue of c | a | pital goods | shall b | e i | ncluded | pro- rata,
+| under “B” for pe | rio | d it re | m | ains with un | its.', 'business_rule', 'Maintenance of Accounts', 'For
+| existing units, pr | op | ortion | at | e Customs a | nd exc | ise | duty m | ust be paid
+| where NFE is les | s t | han de | p | reciation alr | eady c | lai | med, be | fore exit.', '| | | | | | | |
+(c) | If any capital go | od | s are i | m | ported duty | and/ | or | tax free | or leased
+| from a leasing co | m | pany, r | e | ceived free o | f cost | and | / or on | loan basis
+| or transfer, CIF | va | lue of c | a | pital goods | shall b | e i | ncluded | pro- rata,
+| under “B” for pe | rio | d it re | m | ains with un | its.', '(d)
 For annual calculation of NFE, value of imported capital goods and
 lump sum payment of foreign technical know-how fee shall be
 amortized as under: 1st– 10th year: 10%.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R005', '6.11', 'Any matter for
-clarification as to whether goods are homogenous or not shall be
-decided by Units Approval Committee.', 'business_rule', 'Maintenance of Accounts', 'Provided that above
-amortization rates would be applicable only if an undertaking is
-given by a unit that it will not exit to DTA in the first 10 years.', 'Any matter for
-clarification as to whether goods are homogenous or not shall be
-decided by Units Approval Committee.', '6.11 Maintenance of Accounts
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R007', '6.11', '| | |
+(d) | For annual calcu | la | tion of | N | FE, value of | impor | ted | capital | goods and
+| lump sum paym | e | nt of fo | r | eign techni | cal kn | ow | -how fe | e shall be
+| amortized as un | d | er: 1st– | | 10th year: | 10%.', 'business_rule', 'Maintenance of Accounts', 'In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of
+| services classifie | d | in Ann | e | xure V of Ap | pendi | x 6 | E of Ap | pendices &
+| ANFs in the ‘Serv | ic | e Expor | t | s Reporting | Form | (SE | RF)’ pr | escribed in
+| Annexure VI of | | Append | i | x 6E of Ap | pendi | ces | & AN | Fs to the
+| designated office | r | in STP.', '| | |
+(d) | For annual calcu | la | tion of | N | FE, value of | impor | ted | capital | goods and
+| lump sum paym | e | nt of fo | r | eign techni | cal kn | ow | -how fe | e shall be
+| amortized as un | d | er: 1st– | | 10th year: | 10%.', '6.11 Maintenance of Accounts
 a)
 EOU / EHTP / STP / BTP unit shall maintain proper account, and
 shall file digitally signed quarterly and annual report as prescribed
@@ -3221,7 +4216,103 @@ Designated Officer in Meit Y / Do BT and Customs and Central Excise
 authorities.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R006', '6.11', '(b)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R008', '6.11', 'ainte | nance of Acco | u | nts | | | | | |
+a) | EOU / EHTP / S | TP | / BTP | | unit shall ma | intain | pr | oper ac | count, and
+| shall file digitally | s | igned q | u | arterly and a | nnual | re | port as | prescribed
+| in Annexure to | A | ppendi | x | 6E of App | endic | es | & ANF | s to DC /
+| Designated Offic | er | in Meit | Y | / Do BT and | Custo | ms | and Cen | tral Excise
+| authorities.', 'business_rule', 'Maintenance of Accounts', 'Any | matter for
+| clarification as t | o | whethe | r | goods are h | omog | eno | us or n | ot shall be
+| decided by Units | A | pprova | l | Committee.', 'ainte | nance of Acco | u | nts | | | | | |
+a) | EOU / EHTP / S | TP | / BTP | | unit shall ma | intain | pr | oper ac | count, and
+| shall file digitally | s | igned q | u | arterly and a | nnual | re | port as | prescribed
+| in Annexure to | A | ppendi | x | 6E of App | endic | es | & ANF | s to DC /
+| Designated Offic | er | in Meit | Y | / Do BT and | Custo | ms | and Cen | tral Excise
+| authorities.', '6.11 Maintenance of Accounts
+a)
+EOU / EHTP / STP / BTP unit shall maintain proper account, and
+shall file digitally signed quarterly and annual report as prescribed
+in Annexure to Appendix 6E of Appendices & ANFs to DC /
+Designated Officer in Meit Y / Do BT and Customs and Central Excise
+authorities.', 'Provided that above
+amortization rates would be applicable only if an undertaking is
+given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R009', '6.11', 'In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of
+| services classifie | d | in Ann | e | xure V of Ap | pendi | x 6 | E of Ap | pendices &
+| ANFs in the ‘Serv | ic | e Expor | t | s Reporting | Form | (SE | RF)’ pr | escribed in
+| Annexure VI of | | Append | i | x 6E of Ap | pendi | ces | & AN | Fs to the
+| designated office | r | in STP.', 'business_rule', 'Maintenance of Accounts', '(b)
+If any goods are obtained from another EOU / EHTP / STP / BTP /
+SEZ unit, or procured from an international exhibition held in India,
+or bonded warehouses or precious metals procured from
+nominated agencies, value of such goods shall be included under
+“B”.', 'In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of
+| services classifie | d | in Ann | e | xure V of Ap | pendi | x 6 | E of Ap | pendices &
+| ANFs in the ‘Serv | ic | e Expor | t | s Reporting | Form | (SE | RF)’ pr | escribed in
+| Annexure VI of | | Append | i | x 6E of Ap | pendi | ces | & AN | Fs to the
+| designated office | r | in STP.', '6.11 Maintenance of Accounts
+a)
+EOU / EHTP / STP / BTP unit shall maintain proper account, and
+shall file digitally signed quarterly and annual report as prescribed
+in Annexure to Appendix 6E of Appendices & ANFs to DC /
+Designated Officer in Meit Y / Do BT and Customs and Central Excise
+authorities.', 'Provided that above
+amortization rates would be applicable only if an undertaking is
+given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R010', '6.11', '| | |
+b) | Unit shall be abl | e t | o accou | n | t for entire | quanti | ty | of each | category of
+| homogenous go | od | s impor | t | ed / procur | ed dut | y a | nd/or t | ax free, by
+| way of exports, | sa | les / su | p | plies in DTA | or tr | ans | fer to o | ther SEZ /
+| EOU / EHTP / ST | P | / BTP u | n | its and bala | nce in | sto | ck.', 'business_rule', 'Maintenance of Accounts', '(c)
+If any capital goods are imported duty and/or tax free or leased
+from a leasing company, received free of cost and / or on loan basis
+or transfer, CIF value of capital goods shall be included pro- rata,
+under “B” for period it remains with units.', '| | |
+b) | Unit shall be abl | e t | o accou | n | t for entire | quanti | ty | of each | category of
+| homogenous go | od | s impor | t | ed / procur | ed dut | y a | nd/or t | ax free, by
+| way of exports, | sa | les / su | p | plies in DTA | or tr | ans | fer to o | ther SEZ /
+| EOU / EHTP / ST | P | / BTP u | n | its and bala | nce in | sto | ck.', '6.11 Maintenance of Accounts
+a)
+EOU / EHTP / STP / BTP unit shall maintain proper account, and
+shall file digitally signed quarterly and annual report as prescribed
+in Annexure to Appendix 6E of Appendices & ANFs to DC /
+Designated Officer in Meit Y / Do BT and Customs and Central Excise
+authorities.', 'Provided that above
+amortization rates would be applicable only if an undertaking is
+given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R011', '6.11', 'How | ever, at no
+| point of time, u | ni | ts shall | | be required | to co | rre | late ev | ery import
+| consignment wit | h | its expo | r | ts, transfer t | o othe | r S | EZ / EO | U / EHTP
+| /STP / BTP units |, s | ales in | D | TA and bala | nce in | sto | ck.', 'business_rule', 'Maintenance of Accounts', 'Provided that above
+amortization rates would be applicable only if an undertaking is
+given by a unit that it will not exit to DTA in the first 10 years.', 'How | ever, at no
+| point of time, u | ni | ts shall | | be required | to co | rre | late ev | ery import
+| consignment wit | h | its expo | r | ts, transfer t | o othe | r S | EZ / EO | U / EHTP
+| /STP / BTP units |, s | ales in | D | TA and bala | nce in | sto | ck.', '6.11 Maintenance of Accounts
+a)
+EOU / EHTP / STP / BTP unit shall maintain proper account, and
+shall file digitally signed quarterly and annual report as prescribed
+in Annexure to Appendix 6E of Appendices & ANFs to DC /
+Designated Officer in Meit Y / Do BT and Customs and Central Excise
+authorities.', 'Provided that above
+amortization rates would be applicable only if an undertaking is
+given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R012', '6.11', 'Any | matter for
+| clarification as t | o | whethe | r | goods are h | omog | eno | us or n | ot shall be
+| decided by Units | A | pprova | l | Committee.', 'business_rule', 'Maintenance of Accounts', 'For
+existing units, proportionate Customs and excise duty must be paid
+where NFE is less than depreciation already claimed, before exit.', 'Any | matter for
+| clarification as t | o | whethe | r | goods are h | omog | eno | us or n | ot shall be
+| decided by Units | A | pprova | l | Committee.', '6.11 Maintenance of Accounts
+a)
+EOU / EHTP / STP / BTP unit shall maintain proper account, and
+shall file digitally signed quarterly and annual report as prescribed
+in Annexure to Appendix 6E of Appendices & ANFs to DC /
+Designated Officer in Meit Y / Do BT and Customs and Central Excise
+authorities.', 'Provided that above
+amortization rates would be applicable only if an undertaking is
+given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R013', '6.11', '(b)
 If any goods are obtained from another EOU / EHTP / STP / BTP /
 SEZ unit, or procured from an international exhibition held in India,
 or bonded warehouses or precious metals procured from
@@ -3242,7 +4333,7 @@ Designated Officer in Meit Y / Do BT and Customs and Central Excise
 authorities.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R007', '6.11', '(c)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R014', '6.11', '(c)
 If any capital goods are imported duty and/or tax free or leased
 from a leasing company, received free of cost and / or on loan basis
 or transfer, CIF value of capital goods shall be included pro- rata,
@@ -3261,7 +4352,7 @@ Designated Officer in Meit Y / Do BT and Customs and Central Excise
 authorities.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R008', '6.11', '(d)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R015', '6.11', '(d)
 For annual calculation of NFE, value of imported capital goods and
 lump sum payment of foreign technical know-how fee shall be
 amortized as under: 1st– 10th year: 10%.', 'business_rule', 'Maintenance of Accounts', 'For
@@ -3278,7 +4369,7 @@ Designated Officer in Meit Y / Do BT and Customs and Central Excise
 authorities.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R009', '6.11', 'For
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R016', '6.11', 'For
 existing units, proportionate Customs and excise duty must be paid
 where NFE is less than depreciation already claimed, before exit.', 'business_rule', 'Maintenance of Accounts', 'For
 existing units, proportionate Customs and excise duty must be paid
@@ -3293,7 +4384,7 @@ Designated Officer in Meit Y / Do BT and Customs and Central Excise
 authorities.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R010', '6.11', '6.11 Maintenance of Accounts
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R017', '6.11', '6.11 Maintenance of Accounts
 a)
 EOU / EHTP / STP / BTP unit shall maintain proper account, and
 shall file digitally signed quarterly and annual report as prescribed
@@ -3316,7 +4407,7 @@ Designated Officer in Meit Y / Do BT and Customs and Central Excise
 authorities.', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.', 'DEKAI should produce a compliance decision for 6.11 - Maintenance of Accounts.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R011', '6.11', 'b)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_11-R018', '6.11', 'b)
 Unit shall be able to account for entire quantity of each category of
 homogenous goods imported / procured duty and/or tax free, by
 way of exports, sales / supplies in DTA or transfer to other SEZ /
@@ -3343,6 +4434,31 @@ designated officer in STP.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.11', 'Any matter for
 clarification as to whether goods are homogenous or not shall be
 decided by Units Approval Committee.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.11', '| | |
+(b) | If any goods are | ob | tained | f | rom another | EOU | / E | HTP / S | TP / BTP /
+| SEZ unit, or proc | ur | ed from | | an internatio | nal ex | hib | ition he | ld in India,
+| or bonded wa | re | houses | | or preciou | s me | tals | procu | red from
+| nominated agen | ci | es, valu | e | of such goo | ds sh | all | be inclu | ded under
+| “B”.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.11', '| | | | | | | |
+(c) | If any capital go | od | s are i | m | ported duty | and/ | or | tax free | or leased
+| from a leasing co | m | pany, r | e | ceived free o | f cost | and | / or on | loan basis
+| or transfer, CIF | va | lue of c | a | pital goods | shall b | e i | ncluded | pro- rata,
+| under “B” for pe | rio | d it re | m | ains with un | its.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.11', '| Pr | ovided | that above
+| amortization rat | es | would | | be applicabl | e only | if | an und | ertaking is
+| given by a unit t | ha | t it will | | not exit to D | TA in t | he | first 10 | years.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.11', 'For
+| existing units, pr | op | ortion | at | e Customs a | nd exc | ise | duty m | ust be paid
+| where NFE is les | s t | han de | p | reciation alr | eady c | lai | med, be | fore exit.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.11', 'In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of
+| services classifie | d | in Ann | e | xure V of Ap | pendi | x 6 | E of Ap | pendices &
+| ANFs in the ‘Serv | ic | e Expor | t | s Reporting | Form | (SE | RF)’ pr | escribed in
+| Annexure VI of | | Append | i | x 6E of Ap | pendi | ces | & AN | Fs to the
+| designated office | r | in STP.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.11', 'Any | matter for
+| clarification as t | o | whethe | r | goods are h | omog | eno | us or n | ot shall be
+| decided by Units | A | pprova | l | Committee.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.11', '(b)
 If any goods are obtained from another EOU / EHTP / STP / BTP /
 SEZ unit, or procured from an international exhibition held in India,
@@ -3371,6 +4487,17 @@ services classified in Annexure V of Appendix 6E of Appendices &
 ANFs in the ‘Service Exports Reporting Form (SERF)’ prescribed in
 Annexure VI of Appendix 6E of Appendices & ANFs to the
 designated officer in STP.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.11', 'ainte | nance of Acco | u | nts | | | | | |
+a) | EOU / EHTP / S | TP | / BTP | | unit shall ma | intain | pr | oper ac | count, and
+| shall file digitally | s | igned q | u | arterly and a | nnual | re | port as | prescribed
+| in Annexure to | A | ppendi | x | 6E of App | endic | es | & ANF | s to DC /
+| Designated Offic | er | in Meit | Y | / Do BT and | Custo | ms | and Cen | tral Excise
+| authorities.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.11', 'In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of
+| services classifie | d | in Ann | e | xure V of Ap | pendi | x 6 | E of Ap | pendices &
+| ANFs in the ‘Serv | ic | e Expor | t | s Reporting | Form | (SE | RF)’ pr | escribed in
+| Annexure VI of | | Append | i | x 6E of Ap | pendi | ces | & AN | Fs to the
+| designated office | r | in STP.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.11', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.');
@@ -3384,6 +4511,9 @@ authorities.');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.11', 'Customs');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.11', 'Designated Officer in Meit Y / Do BT and Customs');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.11', 'Units Approval Committee');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.11', '| Pr | ovided | that above
+| amortization rat | es | would | | be applicabl | e only | if | an und | ertaking is
+| given by a unit t | ha | t it will | | not exit to D | TA in t | he | first 10 | years.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.11', 'Provided that above
 amortization rates would be applicable only if an undertaking is
 given by a unit that it will not exit to DTA in the first 10 years.');
@@ -3405,12 +4535,12 @@ designated officer in STP.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 2, 'Evaluate condition: Any matter for
 clarification as to whether goods are homogenous or not shall be
 decided by Units Approval Committee.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 3, 'Evaluate condition: (b)
-If any goods are obtained from another EOU / EHTP / STP / BTP /
-SEZ unit, or procured from an international exhibition held in India,
-or bonded warehouses or precious metals procured from
-nominated agencies, value of such goods shall be included under
-“B”.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 3, 'Evaluate condition: | | |
+(b) | If any goods are | ob | tained | f | rom another | EOU | / E | HTP / S | TP / BTP /
+| SEZ unit, or proc | ur | ed from | | an internatio | nal ex | hib | ition he | ld in India,
+| or bonded wa | re | houses | | or preciou | s me | tals | procu | red from
+| nominated agen | ci | es, valu | e | of such goo | ds sh | all | be inclu | ded under
+| “B”.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 4, '6.11 Maintenance of Accounts
 a) EOU / EHTP / STP / BTP unit shall maintain proper account, and
 shall file digitally signed quarterly and annual report as prescribed
@@ -3422,39 +4552,41 @@ services classified in Annexure V of Appendix 6E of Appendices &
 ANFs in the ‘Service Exports Reporting Form (SERF)’ prescribed in
 Annexure VI of Appendix 6E of Appendices & ANFs to the
 designated officer in STP.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 6, '(b)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 6, '| | |
+(d) | For annual calcu | la | tion of | N | FE, value of | impor | ted | capital | goods and
+| lump sum paym | e | nt of fo | r | eign techni | cal kn | ow | -how fe | e shall be
+| amortized as un | d | er: 1st– | | 10th year: | 10%.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 7, 'In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of
+| services classifie | d | in Ann | e | xure V of Ap | pendi | x 6 | E of Ap | pendices &
+| ANFs in the ‘Serv | ic | e Expor | t | s Reporting | Form | (SE | RF)’ pr | escribed in
+| Annexure VI of | | Append | i | x 6E of Ap | pendi | ces | & AN | Fs to the
+| designated office | r | in STP.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 8, '(b)
 If any goods are obtained from another EOU / EHTP / STP / BTP /
 SEZ unit, or procured from an international exhibition held in India,
 or bonded warehouses or precious metals procured from
 nominated agencies, value of such goods shall be included under
 “B”.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 7, '(d)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 9, '(d)
 For annual calculation of NFE, value of imported capital goods and
 lump sum payment of foreign technical know-how fee shall be
 amortized as under: 1st– 10th year: 10%.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 8, '6.11 Maintenance of Accounts
-a)
-EOU / EHTP / STP / BTP unit shall maintain proper account, and
-shall file digitally signed quarterly and annual report as prescribed
-in Annexure to Appendix 6E of Appendices & ANFs to DC /
-Designated Officer in Meit Y / Do BT and Customs and Central Excise
-authorities.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 9, 'Run validation: 6.11 Maintenance of Accounts
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 10, 'Run validation: 6.11 Maintenance of Accounts
 a) EOU / EHTP / STP / BTP unit shall maintain proper account, and
 shall file digitally signed quarterly and annual report as prescribed
 in Annexure to Appendix 6E of Appendices & ANFs to DC /
 Designated Officer in Meit Y / Do BT and Customs and Central Excise
 authorities.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 10, 'Run validation: In addition, STP unit shall file, every month, report of
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 11, 'Run validation: In addition, STP unit shall file, every month, report of
 services classified in Annexure V of Appendix 6E of Appendices &
 ANFs in the ‘Service Exports Reporting Form (SERF)’ prescribed in
 Annexure VI of Appendix 6E of Appendices & ANFs to the
 designated officer in STP.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 11, 'Run validation: b) Unit shall be able to account for entire quantity of each category of
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 12, 'Run validation: b) Unit shall be able to account for entire quantity of each category of
 homogenous goods imported / procured duty and/or tax free, by
 way of exports, sales / supplies in DTA or transfer to other SEZ /
 EOU / EHTP / STP / BTP units and balance in stock.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 12, 'Handle exception: However, at no
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.11', 13, 'Handle exception: However, at no
 point of time, units shall be required to correlate every import
 consignment with its exports, transfer to other SEZ / EOU / EHTP
 /STP / BTP units, sales in DTA and balance in stock.');
@@ -3473,11 +4605,11 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'Any');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'are');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'not');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'CIF');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'pro');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'NFE');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'sum');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'fee');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'mat');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'rom');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'HTP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'nal');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'keywords', 'hib');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'tags', '6.11');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'tags', 'Maintenance of Accounts');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.11', 'tags', 'business-rule');
@@ -3963,31 +5095,78 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.16', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.16', 'tags', 'Transfer of Power from one Unit to another');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.16', 'tags', 'dgft');
 INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP-Chapter-6.pdf', '6', 'Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology', '6.17', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA', '142
-6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
-Supplier of precious and semi-precious stones, synthetic stones and processed
-pearls from DTA to EOUs shall be eligible for grant of Replenishment
-Authorisation at rates and for items mentioned in HBP.', 'Indha Supply of Precious / Semi-precious / Synthetic Stones from DTA section-la, 142
-6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
-Supplier of precious and semi-precious stones, synthetic stones and processed
-pearls from DTA to EOUs kandippa be eligible for grant of Replenishment
-Authorisation at rates and for items mentioned in HBP.', '6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
+.12 Monitorin | g | of | NFE | | | | | | |
+Performance of E | O | Us | shall be | monitored by | Un | its Approv | al | Commi | ttee | as per
+guidelines given i | n | Ap | pendix 6 | F of Appendi | ces | & ANFs.', 'Indha Supply of Precious / Semi-precious / Synthetic Stones from DTA section-la, 142
+.12 Monitorin | g | of | NFE | | | | | | |
+Performance of E | O | Us | kandippa be | monitored by | Un | its Approv | al | Commi | ttee | as per
+guidelines given i | n | Ap | pendix 6 | F of Appendi | ces | & ANFs.', '6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
 Supplier of precious and semi-precious stones, synthetic stones and processed
 pg. 142
+.12 Monitorin | g | of | NFE | | | | | | |
+Performance of E | O | Us | shall be | monitored by | Un | its Approv | al | Commi | ttee | as per
+guidelines given i | n | Ap | pendix 6 | F of Appendi | ces | & ANFs. P | erf | ormanc | e of | EHTP /
+STP / BTP shall b | e | mo | nitored | by Meit Y / Do | BT | jointly wit | h j | urisdic | tion | al
+Customs authorit | y.', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA governs how DGFT business controls should be applied, validated, and enforced.', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA explains the operating rule set that DEKAI should enforce. Key control points include 142
+.12 Monitorin | g | of | NFE | | | | | | |
+Performance of E | O | Us | shall be | monitored by | Un | its Approv | al | Commi | ttee | as per
+guidelines given i | n | Ap | pendix 6 | F of Appendi | ces | & ANFs. The section also drives actions such as | | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities..', 'Indha Supply of Precious / Semi-precious / Synthetic Stones from DTA section-la, Supply of Precious / Semi-precious / Synthetic Stones from DTA explains the operating rule set that DEKAI should enforce. Key control points include 142
+.12 Monitorin | g | of | NFE | | | | | | |
+Performance of E | O | Us | kandippa be | monitored by | Un | its Approv | al | Commi | ttee | as per
+guidelines given i | n | Ap | pendix 6 | F of Appendi | ces | & ANFs. The section also drives actions such as | | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities..', '6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
+Supplier of precious and semi-precious stones, synthetic stones and processed
 pg. 142
-6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
-Supplier of precious and semi-precious stones, synthetic stones and processed
-pearls from DTA to EOUs shall be eligible for grant of Replenishment
-Authorisation at rates and for items mentioned in HBP.', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA governs how DGFT business controls should be applied, validated, and enforced.', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA explains the operating rule set that DEKAI should enforce. Key control points include 142
-6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
-Supplier of precious and semi-precious stones, synthetic stones and processed
-pearls from DTA to EOUs shall be eligible for grant of Replenishment
-Authorisation at rates and for items mentioned in HBP.', 'Indha Supply of Precious / Semi-precious / Synthetic Stones from DTA section-la, Supply of Precious / Semi-precious / Synthetic Stones from DTA explains the operating rule set that DEKAI should enforce. Key control points include 142
-6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
-Supplier of precious and semi-precious stones, synthetic stones and processed
-pearls from DTA to EOUs kandippa be eligible for grant of Replenishment
-Authorisation at rates and for items mentioned in HBP.', '6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
-Supplier of precious and semi-precious stones, synthetic stones and processed
-pg. 142
+.12 Monitorin | g | of | NFE | | | | | | |
+Performance of E | O | Us | shall be | monitored by | Un | its Approv | al | Commi | ttee | as per
+guidelines given i | n | Ap | pendix 6 | F of Appendi | ces | & ANFs. P | erf | ormanc | e of | EHTP /
+STP / BTP shall b | e | mo | nitored | by Meit Y / Do | BT | jointly wit | h j | urisdic | tion | al
+Customs authorit | y. | | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities. | | | | | | | | | |
+.14 DTA Suppl | ie | s | | | | | | | |
+Notwithstanding | p | ro | vision of | DTA sales in | Pa | ragraph 6 |.0 | 7 of FT | P, su | ch DTA
+sales shall not af | f | ect | applica | tion, to any | goo | ds, of any | o | ther pr | ohib | ition or
+regulation affecti | n | g i | mport th | ereof in forc | e at | the time, | w | hen suc | h go | ods are
+imported. This al | so | d | oes not | confer any im | mu | nity, exem | pt | ion or | relax | ation at
+any time from an | y | co | mmitme | nt or complia | nce | with any r | eq | uireme | nts t | o which
+importer may be | su | bj | ect to un | der other law | s or | regulatio | ns. | | |
+.15 Supplies to | | ot | her EOU | / EHTP / S | TP | / SEZ / B | TP | Units | |
+Supplies to other | E | OU | / EHTP | / STP / BTP / | SE | Z units sha | ll | be coun | ted | towards
+NFE provided tha | t | suc | h goods | are permissi | ble f | or procur | em | ent by | thes | e units.
+.16 Transfer o | f | Po | wer fro | m one Unit | to | another | | | |
+Transfer of power | f | ro | m Captiv | e Power plant | s fr | om one un | it o | f EOU / | EH | TP / STP
+/ BTP unit to ano | th | er | is perm | itted as presc | rib | ed in secto | r s | pecific | con | dition in
+Appendix 6B of A | p | pen | dices & | ANFs. | | | | | |
+.17 Supply of P | r | ec | ious / S | emi-precio | us / | Syntheti | c | Stones | fro | m DTA
+Supplier of precio | u | s a | nd semi | -precious sto | nes, | synthetic | sto | nes an | d pr | ocessed
 pg. 142
 6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
 Supplier of precious and semi-precious stones, synthetic stones and processed
@@ -3996,64 +5175,249 @@ Authorisation at rates and for items mentioned in HBP. Procedure for
 submission of application for grant of Replenishment Authorisation as
 contained in relevant Chapter of HBP Vol. I shall be applicable. However,
 application shall be made to DC concerned. Such supplies to EOUs are not eligible
-for any of deemed export benefits under Chapter 7 of the FTP.', '[10, 11]', '["DTA", "and", "for", "HBP", "Vol", "are", "not", "any", "the", "FTP", "from", "EOUs", "made", "Such", "shall", "grant", "rates", "items", "under", "Supply"]', 'Provide knowledge guidance for Supply of Precious / Semi-precious / Synthetic Stones from DTA.', '["6.17", "Supply of Precious / Semi-precious / Synthetic Stones from DTA", "business-rule", "document-driven", "dgft"]');
+for any of deemed export benefits under Chapter 7 of the FTP.', '[10, 11]', '["DTA", "and", "NFE", "its", "per", "ces", "erf", "STP", "BTP", "wit", "swe", "ing", "ard", "Bar", "epi", "gol", "ati", "num", "may", "Gov"]', 'Support Supply of Precious / Semi-precious / Synthetic Stones from DTA processing and compliance validation.', '["6.17", "Supply of Precious / Semi-precious / Synthetic Stones from DTA", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_17-R001', '6.17', '142
+.12 Monitorin | g | of | NFE | | | | | | |
+Performance of E | O | Us | shall be | monitored by | Un | its Approv | al | Commi | ttee | as per
+guidelines given i | n | Ap | pendix 6 | F of Appendi | ces | & ANFs.', 'business_rule', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA', '| | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities.', '142
+.12 Monitorin | g | of | NFE | | | | | | |
+Performance of E | O | Us | shall be | monitored by | Un | its Approv | al | Commi | ttee | as per
+guidelines given i | n | Ap | pendix 6 | F of Appendi | ces | & ANFs.', '| | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities.', '| | | | | | | | | |
+.14 DTA Suppl | ie | s | | | | | | | |
+Notwithstanding | p | ro | vision of | DTA sales in | Pa | ragraph 6 |.0 | 7 of FT | P, su | ch DTA
+sales shall not af | f | ect | applica | tion, to any | goo | ds, of any | o | ther pr | ohib | ition or
+regulation affecti | n | g i | mport th | ereof in forc | e at | the time, | w | hen suc | h go | ods are
+imported.', 'DEKAI should produce a compliance decision for 6.17 - Supply of Precious / Semi-precious / Synthetic Stones from DTA.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_17-R002', '6.17', 'P | erf | ormanc | e of | EHTP /
+STP / BTP shall b | e | mo | nitored | by Meit Y / Do | BT | jointly wit | h j | urisdic | tion | al
+Customs authorit | y.', 'business_rule', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA', '.16 Transfer o | f | Po | wer fro | m one Unit | to | another | | | |
+Transfer of power | f | ro | m Captiv | e Power plant | s fr | om one un | it o | f EOU / | EH | TP / STP
+/ BTP unit to ano | th | er | is perm | itted as presc | rib | ed in secto | r s | pecific | con | dition in
+Appendix 6B of A | p | pen | dices & | ANFs.', 'P | erf | ormanc | e of | EHTP /
+STP / BTP shall b | e | mo | nitored | by Meit Y / Do | BT | jointly wit | h j | urisdic | tion | al
+Customs authorit | y.', '| | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities.', 'However,
+application shall be made to DC concerned.', 'DEKAI should produce a compliance decision for 6.17 - Supply of Precious / Semi-precious / Synthetic Stones from DTA.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_17-R003', '6.17', '| | | | | | | | | |
+.14 DTA Suppl | ie | s | | | | | | | |
+Notwithstanding | p | ro | vision of | DTA sales in | Pa | ragraph 6 |.0 | 7 of FT | P, su | ch DTA
+sales shall not af | f | ect | applica | tion, to any | goo | ds, of any | o | ther pr | ohib | ition or
+regulation affecti | n | g i | mport th | ereof in forc | e at | the time, | w | hen suc | h go | ods are
+imported.', 'business_rule', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA', '.16 Transfer o | f | Po | wer fro | m one Unit | to | another | | | |
+Transfer of power | f | ro | m Captiv | e Power plant | s fr | om one un | it o | f EOU / | EH | TP / STP
+/ BTP unit to ano | th | er | is perm | itted as presc | rib | ed in secto | r s | pecific | con | dition in
+Appendix 6B of A | p | pen | dices & | ANFs.', '| | | | | | | | | |
+.14 DTA Suppl | ie | s | | | | | | | |
+Notwithstanding | p | ro | vision of | DTA sales in | Pa | ragraph 6 |.0 | 7 of FT | P, su | ch DTA
+sales shall not af | f | ect | applica | tion, to any | goo | ds, of any | o | ther pr | ohib | ition or
+regulation affecti | n | g i | mport th | ereof in forc | e at | the time, | w | hen suc | h go | ods are
+imported.', '| | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities.', 'However,
+application shall be made to DC concerned.', 'DEKAI should produce a compliance decision for 6.17 - Supply of Precious / Semi-precious / Synthetic Stones from DTA.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_17-R004', '6.17', '142
 6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
 Supplier of precious and semi-precious stones, synthetic stones and processed
 pearls from DTA to EOUs shall be eligible for grant of Replenishment
-Authorisation at rates and for items mentioned in HBP.', 'business_rule', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA', 'Not explicitly covered in uploaded documents.', '142
+Authorisation at rates and for items mentioned in HBP.', 'business_rule', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA', '.16 Transfer o | f | Po | wer fro | m one Unit | to | another | | | |
+Transfer of power | f | ro | m Captiv | e Power plant | s fr | om one un | it o | f EOU / | EH | TP / STP
+/ BTP unit to ano | th | er | is perm | itted as presc | rib | ed in secto | r s | pecific | con | dition in
+Appendix 6B of A | p | pen | dices & | ANFs.', '142
 6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
 Supplier of precious and semi-precious stones, synthetic stones and processed
 pearls from DTA to EOUs shall be eligible for grant of Replenishment
-Authorisation at rates and for items mentioned in HBP.', 'Manual review required.', 'However,
+Authorisation at rates and for items mentioned in HBP.', '| | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities.', 'However,
 application shall be made to DC concerned.', 'DEKAI should produce a compliance decision for 6.17 - Supply of Precious / Semi-precious / Synthetic Stones from DTA.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_17-R002', '6.17', 'I shall be applicable.', 'business_rule', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA', 'Not explicitly covered in uploaded documents.', 'I shall be applicable.', 'Manual review required.', 'However,
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_17-R005', '6.17', 'I shall be applicable.', 'business_rule', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA', '.16 Transfer o | f | Po | wer fro | m one Unit | to | another | | | |
+Transfer of power | f | ro | m Captiv | e Power plant | s fr | om one un | it o | f EOU / | EH | TP / STP
+/ BTP unit to ano | th | er | is perm | itted as presc | rib | ed in secto | r s | pecific | con | dition in
+Appendix 6B of A | p | pen | dices & | ANFs.', 'I shall be applicable.', '| | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities.', 'However,
 application shall be made to DC concerned.', 'DEKAI should produce a compliance decision for 6.17 - Supply of Precious / Semi-precious / Synthetic Stones from DTA.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_17-R003', '6.17', 'However,
-application shall be made to DC concerned.', 'business_rule', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA', 'Not explicitly covered in uploaded documents.', 'However,
-application shall be made to DC concerned.', 'Manual review required.', 'However,
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_17-R006', '6.17', 'However,
+application shall be made to DC concerned.', 'business_rule', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA', '.16 Transfer o | f | Po | wer fro | m one Unit | to | another | | | |
+Transfer of power | f | ro | m Captiv | e Power plant | s fr | om one un | it o | f EOU / | EH | TP / STP
+/ BTP unit to ano | th | er | is perm | itted as presc | rib | ed in secto | r s | pecific | con | dition in
+Appendix 6B of A | p | pen | dices & | ANFs.', 'However,
+application shall be made to DC concerned.', '| | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities.', 'However,
 application shall be made to DC concerned.', 'DEKAI should produce a compliance decision for 6.17 - Supply of Precious / Semi-precious / Synthetic Stones from DTA.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_17-R004', '6.17', 'Such supplies to EOUs are not eligible
-for any of deemed export benefits under Chapter 7 of the FTP.', 'business_rule', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA', 'Not explicitly covered in uploaded documents.', 'Such supplies to EOUs are not eligible
-for any of deemed export benefits under Chapter 7 of the FTP.', 'Manual review required.', 'However,
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_17-R007', '6.17', 'Such supplies to EOUs are not eligible
+for any of deemed export benefits under Chapter 7 of the FTP.', 'business_rule', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA', '.16 Transfer o | f | Po | wer fro | m one Unit | to | another | | | |
+Transfer of power | f | ro | m Captiv | e Power plant | s fr | om one un | it o | f EOU / | EH | TP / STP
+/ BTP unit to ano | th | er | is perm | itted as presc | rib | ed in secto | r s | pecific | con | dition in
+Appendix 6B of A | p | pen | dices & | ANFs.', 'Such supplies to EOUs are not eligible
+for any of deemed export benefits under Chapter 7 of the FTP.', '| | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities.', 'However,
 application shall be made to DC concerned.', 'DEKAI should produce a compliance decision for 6.17 - Supply of Precious / Semi-precious / Synthetic Stones from DTA.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.17', '| | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.17', '.16 Transfer o | f | Po | wer fro | m one Unit | to | another | | | |
+Transfer of power | f | ro | m Captiv | e Power plant | s fr | om one un | it o | f EOU / | EH | TP / STP
+/ BTP unit to ano | th | er | is perm | itted as presc | rib | ed in secto | r s | pecific | con | dition in
+Appendix 6B of A | p | pen | dices & | ANFs.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.17', 'Procedure for
 submission of application for grant of Replenishment Authorisation as
 contained in relevant Chapter of HBP Vol.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.17', 'However,
 application shall be made to DC concerned.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6.17', 'Customs');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6.17', '| | | | | | | | | |
+.14 DTA Suppl | ie | s | | | | | | | |
+Notwithstanding | p | ro | vision of | DTA sales in | Pa | ragraph 6 |.0 | 7 of FT | P, su | ch DTA
+sales shall not af | f | ect | applica | tion, to any | goo | ds, of any | o | ther pr | ohib | ition or
+regulation affecti | n | g i | mport th | ereof in forc | e at | the time, | w | hen suc | h go | ods are
+imported.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.17', 'However,
 application shall be made to DC concerned.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.17', 1, 'Run validation: 142
-6.17 Supply of Precious / Semi-precious / Synthetic Stones from DTA
-Supplier of precious and semi-precious stones, synthetic stones and processed
-pearls from DTA to EOUs shall be eligible for grant of Replenishment
-Authorisation at rates and for items mentioned in HBP.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.17', 2, 'Run validation: I shall be applicable.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.17', 3, 'Run validation: However,
-application shall be made to DC concerned.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.17', 4, 'Handle exception: However,
-application shall be made to DC concerned.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.17', 1, 'Evaluate condition: | | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.17', 2, 'Evaluate condition: .16 Transfer o | f | Po | wer fro | m one Unit | to | another | | | |
+Transfer of power | f | ro | m Captiv | e Power plant | s fr | om one un | it o | f EOU / | EH | TP / STP
+/ BTP unit to ano | th | er | is perm | itted as presc | rib | ed in secto | r s | pecific | con | dition in
+Appendix 6B of A | p | pen | dices & | ANFs.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.17', 3, '| | | | | | | | |
+.13 Conversio | n | of | Scrap | / Dust / swe | ep | ing of Go | ld | / Silv | er / |
+latinum into St | a | nd | ard Bar | s | | | | | |
+Scrap / dust / sw | e | epi | ng of gol | d / silver / pl | ati | num may b | e | sent to | Gov | ernment
+of India Mint / pri | v | ate | mint fr | om EOU / EHT | P / | STP units | an | d retur | ned | to them
+in standard bar | s | in | accord | ance with p | roc | edure pre | sc | ribed | by | Customs
+authorities, or ma | y | be | permitt | ed to be sold i | n D | TA on pay | me | nt of ap | plic | able GST
+and compensatio | n | ce | ss along | with reversal | of d | uties of C | ust | oms le | viabl | e under
+First Schedule of | th | e | Customs | Tariff Act, 19 | 75 | availed as | ex | emptio | n on | inputs,
+on basis of gold | / | sil | ver / pl | atinum conte | nt, | as may be | n | otified | by | Customs
+authorities.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.17', 4, 'Run validation: 142
+.12 Monitorin | g | of | NFE | | | | | | |
+Performance of E | O | Us | shall be | monitored by | Un | its Approv | al | Commi | ttee | as per
+guidelines given i | n | Ap | pendix 6 | F of Appendi | ces | & ANFs.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.17', 5, 'Run validation: P | erf | ormanc | e of | EHTP /
+STP / BTP shall b | e | mo | nitored | by Meit Y / Do | BT | jointly wit | h j | urisdic | tion | al
+Customs authorit | y.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.17', 6, 'Run validation: | | | | | | | | | |
+.14 DTA Suppl | ie | s | | | | | | | |
+Notwithstanding | p | ro | vision of | DTA sales in | Pa | ragraph 6 |.0 | 7 of FT | P, su | ch DTA
+sales shall not af | f | ect | applica | tion, to any | goo | ds, of any | o | ther pr | ohib | ition or
+regulation affecti | n | g i | mport th | ereof in forc | e at | the time, | w | hen suc | h go | ods are
+imported.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.17', 7, 'Handle exception: | | | | | | | | | |
+.14 DTA Suppl | ie | s | | | | | | | |
+Notwithstanding | p | ro | vision of | DTA sales in | Pa | ragraph 6 |.0 | 7 of FT | P, su | ch DTA
+sales shall not af | f | ect | applica | tion, to any | goo | ds, of any | o | ther pr | ohib | ition or
+regulation affecti | n | g i | mport th | ereof in forc | e at | the time, | w | hen suc | h go | ods are
+imported.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'DTA');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'and');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'for');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'HBP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'Vol');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'are');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'not');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'any');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'the');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'FTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'from');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'EOUs');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'made');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'Such');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'shall');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'grant');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'rates');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'items');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'under');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'Supply');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'NFE');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'its');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'per');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'ces');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'erf');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'STP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'BTP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'wit');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'swe');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'ing');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'ard');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'Bar');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'epi');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'gol');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'ati');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'num');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'keywords', 'Gov');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'tags', '6.17');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'tags', 'Supply of Precious / Semi-precious / Synthetic Stones from DTA');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.17', 'tags', 'business-rule');
@@ -4369,6 +5733,40 @@ vice versa for the purpose of according Status Holder Certificate.
 b) Sectoral norms as notified by Government shall apply to FDI in
 service activities.
 pg. 143
+pearls | from | DTA to EO | Us shall be | eligib | le | for grant of | Replenishment
+Author | isatio | n at rates a | nd for items | me | ntio | ned in HBP. | Procedure for
+submis | sion | of applicatio | n for grant | of | Repl | enishment Au | thorisation as
+contain | ed in | relevant Ch | apter of HBP | Vol. | I s | hall be applic | able. However,
+applica | tion s | hall be made t | o DC concerne | d. Suc | h s | upplies to EOUs | are not eligible
+for any | of de | emed export b | enefits under | Chap | ter | 7 of the FTP. |
+.18 A | pplic | ation for gra | nt of entitle | men | ts | |
+Applic | ation f | or grant of all | entitlements | may b | e m | ade to DC/Desi | gnated Officer
+concer | ned. | | | | | |
+.19 E | xport | through Ot | her Exporter | s | | |
+An EO | U / EH | TP / STP / BT | P unit may ex | port | goo | ds manufacture | d / software
+develo | ped by | it through ot | her exporter, | or an | y ot | her EOU / EHT | P/ STP / BTP /
+SEZ un | it subj | ect to conditi | on that: | | | |
+| a) | Goods shall b | e produced in | EOU | / EH | TP / STP / BTP | unit concerned
+| b) | Level of NFE | or any othe | r co | ndit | ions relating t | o imports and
+| | exports as pr | escribed shal | l con | tinu | e to be discha | rged by EOU /
+| | EHTP / STP / | BTP unit con | cerne | d. | |
+| c) | Export orders | so procured | shall | be e | xecuted within | parameters of
+| | EOU / EHTP | / STP / BTP | sche | me | s and goods sh | all be directly
+| | transferred fr | om unit to po | rt of s | hip | ment. |
+| d) | Fulfilment of | NFE by EOU | / EHT | P / | STP / BTP un | its in regard to
+| | such exports | shall be recko | ned o | n ba | sis of price at w | hich goods are
+| | supplied by E | OUs to other | expo | rter | or other EOU | / EHTP / STP/
+| | BTP / SEZ uni | t. | | | |
+| e) | All export en | titlements, in | cludi | ng | recognition as | Status Holder
+| | would accru | e to exporte | r in | wh | ose name for | eign exchange
+| | earnings are | realized. Ho | weve | r, s | uch export sh | all be counted
+| | towards fulfil | ment of obliga | tion | und | er this scheme | only.
+.20 O | ther | Entitlement | s | | | |
+| a) | FOB value of | export of an | EOU | / E | HTP / STP / B | TP unit can be
+| | clubbed with | FOBvalue of e | xport | s of | its parent com | pany in DTA or
+| | vice versa for | the purpose o | f acc | ordi | ng Status Hold | er Certificate.
+| b) | Sectoral norm | s as notified | by | Gov | ernment shall | apply to FDI i
+| | service activit | ies. | | | |
 pg. 143
 pearls from DTA to EOUs shall be eligible for grant of Replenishment
 Authorisation at rates and for items mentioned in HBP. Procedure for
@@ -4424,6 +5822,45 @@ v. DTA unit undertaking job work or supplying jewellery
 against exchange of gold / silver / platinum shall not be
 entitled to deemed export benefits under Chapter 7 of FTP.
 pg. 144
+c) | | STP U | n | its / EHTP U | nits / Softw | are EOU | s m | ay also | use all duty
+| | and/o | r | tax free equip | ment / goo | ds for tra | inin | g purpo | se (including
+| | comm | e | rcial training | ), subject | to condi | tion | that | no duty free
+| | equip | m | ent / goods s | hall be insta | lled out | side | premis | es of the unit
+| | for thi | s | purpose. | | | | |
+d) | | Export | | of iron ore s | hall be sub | ject to | decis | ion of | Government.
+| | Requir | e | ments of othe | r condition | s of expo | rts l | ike min | imum export
+| | price / | | export in cons | umer pack | etc. as pe | r IT | C (HS) | shall apply in
+| | case r | a | w materials a | re sourced | from DT | A an | d expo | rted without
+| | furthe | r | processing / | manufacturi | ng by EO | U. Ex | port of | textile items
+| | shall b | e | covered by | bilateral a | greemen | ts, w | herev | er applicable.
+| | Wood | b | ased units sh | all comply | with dir | ectio | n of Su | preme Court
+| | contai | n | ed in its orde | r dated 12. | 12.1996 | in W | rit (civ | il) No 202 of
+| | 1995- | | T.N. Godavarm | an Thirru | mulppad | v/s | Union | of India and
+| | others | | with WP (Civil | ) No 171 of | 1996 in | rega | rd to u | se of timber /
+| | other | w | ood. | | | | |
+ub– | C | ontrac | t | ing | | | | |
+a) | | Sub-co | n | tracting by E | OU gems a | nd jewell | ery | units t | hrough other
+| | EOUs, | o | r SEZ Units, o | r units in | DTA shal | l be | subject | to following
+| | condit | io | ns: - | | | | |
+| i. | | G | oods, finish | ed or se | mi-finish | ed, | includ | ing studded
+| | | j | ewellery, take | n out for s | ub-contr | acti | ng shal | l be brought
+| | | b | ack to unit | within 90 | days. | How | ever, | the Customs
+| | | A | uthorities ma | y grant an e | xtension | of t | ime be | yond 90 days
+| | | i | n deserving ca | ses. | | | |
+| ii. | | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting. | | | | |
+| iii. | | P | lain gold / sil | ver / platin | um jewe | llery | can be | received fro
+| | | D | TA / EOU/ SE | Z units in exc | hange of | equi | valent | quantity of gol
+| | | / | silver / plati | num, as th | e case m | ay | be, con | tained in sai
+| | | je | wellery. | | | | |
+| iv. | | E | OUs shall be | eligible fo | r wasta | ge a | s appli | cable as per
+| | | p | aragraph 4.5 | 9 of HBP | for sub- | cont | racting | and against
+| | | e | xchange. | | | | |
+| v. | | D | TA unit und | ertaking jo | b work | or | supplyi | ng jewellery
+| | | a | gainst exchan | ge of gold | / silver | / pl | atinum | shall not be
+| | | e | ntitled to dee | med export | benefits | unde | r Chap | ter 7 of FTP.
 pg. 144
 c)
 STP Units / EHTP Units / Software EOUs may also use all duty
@@ -4502,7 +5939,7 @@ the finished goods, job work contract and the basis of arriving at
 the value of intermediate goods. The EOU / EHTP / BTP / STP unit
 shall also ensure full repatriation of foreign exchange declared as
 the transaction value of the finished goods cleared from the sub-
-contractor’s premises abroad.', '[11, 12, 13]', '["FOB", "EOU", "STP", "BTP", "can", "its", "DTA", "for", "the", "FDI", "and", "HBP", "Vol", "are", "not", "any", "FTP", "may", "use", "all"]', 'Support Other Entitlements processing and compliance validation.', '["6.20", "Other Entitlements", "business-rule", "document-driven", "dgft"]');
+contractor’s premises abroad.', '[11, 12, 13]', '["FOB", "EOU", "STP", "BTP", "can", "its", "DTA", "for", "the", "FDI", "ned", "HBP", "Vol", "Suc", "are", "not", "any", "ter", "FTP", "gra"]', 'Support Other Entitlements processing and compliance validation.', '["6.20", "Other Entitlements", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R001', '6.20', 'b) Sectoral norms as notified by Government shall apply to FDI in
 service activities.', 'business_rule', 'Other Entitlements', '6.20 Other Entitlements
 a) FOB value of export of an EOU / EHTP / STP / BTP unit can be
@@ -4510,169 +5947,276 @@ clubbed with FOBvalue of exports of its parent company in DTA or
 vice versa for the purpose of according Status Holder Certificate.', 'b) Sectoral norms as notified by Government shall apply to FDI in
 service activities.', 'b) Sectoral norms as notified by Government shall apply to FDI in
 service activities.', 'However,
-application shall be made to DC concerned.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+applica | tion s | hall be made t | o DC concerne | d.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R002', '6.20', '143
-pearls from DTA to EOUs shall be eligible for grant of Replenishment
-Authorisation at rates and for items mentioned in HBP.', 'business_rule', 'Other Entitlements', 'b) Sectoral norms as notified by Government shall apply to FDI in
+pearls | from | DTA to EO | Us shall be | eligib | le | for grant of | Replenishment
+Author | isatio | n at rates a | nd for items | me | ntio | ned in HBP.', 'business_rule', 'Other Entitlements', 'b) Sectoral norms as notified by Government shall apply to FDI in
 service activities.', '143
-pearls from DTA to EOUs shall be eligible for grant of Replenishment
-Authorisation at rates and for items mentioned in HBP.', 'b)
+pearls | from | DTA to EO | Us shall be | eligib | le | for grant of | Replenishment
+Author | isatio | n at rates a | nd for items | me | ntio | ned in HBP.', '| b) | Sectoral norm | s as notified | by | Gov | ernment shall | apply to FDI i
+| | service activit | ies.', 'However,
+application shall be made to DC concerned.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R003', '6.20', 'Suc | h s | upplies to EOUs | are not eligible
+for any | of de | emed export b | enefits under | Chap | ter | 7 of the FTP.', 'business_rule', 'Other Entitlements', '.20 O | ther | Entitlement | s | | | |
+| a) | FOB value of | export of an | EOU | / E | HTP / STP / B | TP unit can be
+| | clubbed with | FOBvalue of e | xport | s of | its parent com | pany in DTA or
+| | vice versa for | the purpose o | f acc | ordi | ng Status Hold | er Certificate.', 'Suc | h s | upplies to EOUs | are not eligible
+for any | of de | emed export b | enefits under | Chap | ter | 7 of the FTP.', 'b)
 Sectoral norms as notified by Government shall apply to FDI in
 service activities.', 'However, the Customs
 Authorities may grant an extension of time beyond 90 days
 in deserving cases.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R003', '6.20', 'I shall be applicable.', 'business_rule', 'Other Entitlements', '6.20 Other Entitlements
-a)
-FOB value of export of an EOU / EHTP / STP / BTP unit can be
-clubbed with FOBvalue of exports of its parent company in DTA or
-vice versa for the purpose of according Status Holder Certificate.', 'I shall be applicable.', 'as per ITC (HS) shall apply in
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R004', '6.20', '| | | | | |
+.19 E | xport | through Ot | her Exporter | s | | |
+An EO | U / EH | TP / STP / BT | P unit may ex | port | goo | ds manufacture | d / software
+develo | ped by | it through ot | her exporter, | or an | y ot | her EOU / EHT | P/ STP / BTP /
+SEZ un | it subj | ect to conditi | on that: | | | |
+| a) | Goods shall b | e produced in | EOU | / EH | TP / STP / BTP | unit concerned
+| b) | Level of NFE | or any othe | r co | ndit | ions relating t | o imports and
+| | exports as pr | escribed shal | l con | tinu | e to be discha | rged by EOU /
+| | EHTP / STP / | BTP unit con | cerne | d.', 'business_rule', 'Other Entitlements', '| b) | Sectoral norm | s as notified | by | Gov | ernment shall | apply to FDI i
+| | service activit | ies.', '| | | | | |
+.19 E | xport | through Ot | her Exporter | s | | |
+An EO | U / EH | TP / STP / BT | P unit may ex | port | goo | ds manufacture | d / software
+develo | ped by | it through ot | her exporter, | or an | y ot | her EOU / EHT | P/ STP / BTP /
+SEZ un | it subj | ect to conditi | on that: | | | |
+| a) | Goods shall b | e produced in | EOU | / EH | TP / STP / BTP | unit concerned
+| b) | Level of NFE | or any othe | r co | ndit | ions relating t | o imports and
+| | exports as pr | escribed shal | l con | tinu | e to be discha | rged by EOU /
+| | EHTP / STP / | BTP unit con | cerne | d.', 'as per ITC (HS) shall apply in
 case raw materials are sourced from DTA and exported without
 further processing / manufacturing by EOU.', 'No cut and polished diamonds, precious and semiprecious
 stones (except precious, semi- precious and synthetic stones
 having zero duty) shall be allowed to be taken out for sub-
 contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R004', '6.20', 'However,
-application shall be made to DC concerned.', 'business_rule', 'Other Entitlements', 'b)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R005', '6.20', '| |
+| c) | Export orders | so procured | shall | be e | xecuted within | parameters of
+| | EOU / EHTP | / STP / BTP | sche | me | s and goods sh | all be directly
+| | transferred fr | om unit to po | rt of s | hip | ment.', 'business_rule', 'Other Entitlements', '6.20 Other Entitlements
+a)
+FOB value of export of an EOU / EHTP / STP / BTP unit can be
+clubbed with FOBvalue of exports of its parent company in DTA or
+vice versa for the purpose of according Status Holder Certificate.', '| |
+| c) | Export orders | so procured | shall | be e | xecuted within | parameters of
+| | EOU / EHTP | / STP / BTP | sche | me | s and goods sh | all be directly
+| | transferred fr | om unit to po | rt of s | hip | ment.', 'as pe | r IT | C (HS) | shall apply in
+| | case r | a | w materials a | re sourced | from DT | A an | d expo | rted without
+| | furthe | r | processing / | manufacturi | ng by EO | U.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R006', '6.20', '|
+| d) | Fulfilment of | NFE by EOU | / EHT | P / | STP / BTP un | its in regard to
+| | such exports | shall be recko | ned o | n ba | sis of price at w | hich goods are
+| | supplied by E | OUs to other | expo | rter | or other EOU | / EHTP / STP/
+| | BTP / SEZ uni | t.', 'business_rule', 'Other Entitlements', 'b)
 Sectoral norms as notified by Government shall apply to FDI in
-service activities.', 'However,
+service activities.', '|
+| d) | Fulfilment of | NFE by EOU | / EHT | P / | STP / BTP un | its in regard to
+| | such exports | shall be recko | ned o | n ba | sis of price at w | hich goods are
+| | supplied by E | OUs to other | expo | rter | or other EOU | / EHTP / STP/
+| | BTP / SEZ uni | t.', 'c) Export of finished goods from job worker’s premises may be
+permitted, provided such premises are registered with Central
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R007', '6.20', '| b) | Sectoral norm | s as notified | by | Gov | ernment shall | apply to FDI i
+| | service activit | ies.', 'business_rule', 'Other Entitlements', 'c) STP Units / EHTP Units / Software EOUs may also use all duty
+and/or tax free equipment / goods for training purpose (including
+commercial training), subject to condition that no duty free
+equipment / goods shall be installed outside premises of the unit
+for this purpose.', '| b) | Sectoral norm | s as notified | by | Gov | ernment shall | apply to FDI i
+| | service activit | ies.', 'c) Export of finished goods from job worker’s premises may be
+permitted, provided such premises are registered with Central
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R008', '6.20', '143
+pearls from DTA to EOUs shall be eligible for grant of Replenishment
+Authorisation at rates and for items mentioned in HBP.', 'business_rule', 'Other Entitlements', 'd) Export of iron ore shall be subject to decision of Government.', '143
+pearls from DTA to EOUs shall be eligible for grant of Replenishment
+Authorisation at rates and for items mentioned in HBP.', 'c) Export of finished goods from job worker’s premises may be
+permitted, provided such premises are registered with Central
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R009', '6.20', 'I shall be applicable.', 'business_rule', 'Other Entitlements', 'Export of textile items
+shall be covered by bilateral agreements, wherever applicable.', 'I shall be applicable.', 'c) Export of finished goods from job worker’s premises may be
+permitted, provided such premises are registered with Central
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R010', '6.20', 'However,
+application shall be made to DC concerned.', 'business_rule', 'Other Entitlements', '6.21 Sub–Contracting
+a) Sub-contracting by EOU gems and jewellery units through other
+EOUs, or SEZ Units, or units in DTA shall be subject to following
+conditions: -
+i.', 'However,
 application shall be made to DC concerned.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R005', '6.20', 'Such supplies to EOUs are not eligible
-for any of deemed export benefits under Chapter 7 of the FTP.', 'business_rule', 'Other Entitlements', 'c) STP Units / EHTP Units / Software EOUs may also use all duty
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R011', '6.20', 'Such supplies to EOUs are not eligible
+for any of deemed export benefits under Chapter 7 of the FTP.', 'business_rule', 'Other Entitlements', '144
+c)
+STP Units / EHTP Units / Software EOUs may also use all duty
 and/or tax free equipment / goods for training purpose (including
 commercial training), subject to condition that no duty free
 equipment / goods shall be installed outside premises of the unit
 for this purpose.', 'Such supplies to EOUs are not eligible
 for any of deemed export benefits under Chapter 7 of the FTP.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R006', '6.20', 'b)
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R012', '6.20', 'b)
 Sectoral norms as notified by Government shall apply to FDI in
-service activities.', 'business_rule', 'Other Entitlements', 'd) Export of iron ore shall be subject to decision of Government.', 'b)
+service activities.', 'business_rule', 'Other Entitlements', 'd)
+Export of iron ore shall be subject to decision of Government.', 'b)
 Sectoral norms as notified by Government shall apply to FDI in
 service activities.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R007', '6.20', 'c) STP Units / EHTP Units / Software EOUs may also use all duty
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R013', '6.20', 'c) STP Units / EHTP Units / Software EOUs may also use all duty
 and/or tax free equipment / goods for training purpose (including
 commercial training), subject to condition that no duty free
 equipment / goods shall be installed outside premises of the unit
-for this purpose.', 'business_rule', 'Other Entitlements', 'Export of textile items
-shall be covered by bilateral agreements, wherever applicable.', 'c) STP Units / EHTP Units / Software EOUs may also use all duty
+for this purpose.', 'business_rule', 'Other Entitlements', '6.21 Sub–Contracting
+a)
+Sub-contracting by EOU gems and jewellery units through other
+EOUs, or SEZ Units, or units in DTA shall be subject to following
+conditions: -
+i.', 'c) STP Units / EHTP Units / Software EOUs may also use all duty
 and/or tax free equipment / goods for training purpose (including
 commercial training), subject to condition that no duty free
 equipment / goods shall be installed outside premises of the unit
 for this purpose.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R008', '6.20', 'd) Export of iron ore shall be subject to decision of Government.', 'business_rule', 'Other Entitlements', '6.21 Sub–Contracting
-a) Sub-contracting by EOU gems and jewellery units through other
-EOUs, or SEZ Units, or units in DTA shall be subject to following
-conditions: -
-i.', 'd) Export of iron ore shall be subject to decision of Government.', 'c) Export of finished goods from job worker’s premises may be
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R014', '6.20', 'd) Export of iron ore shall be subject to decision of Government.', 'business_rule', 'Other Entitlements', 'b) Facility of getting job work done from DTA unit will be available
+subject to condition that goods are brought back to premises of unit
+on completion of job work.', 'd) Export of iron ore shall be subject to decision of Government.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R009', '6.20', 'as per ITC (HS) shall apply in
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R015', '6.20', 'as per ITC (HS) shall apply in
 case raw materials are sourced from DTA and exported without
-further processing / manufacturing by EOU.', 'business_rule', 'Other Entitlements', '144
-c)
-STP Units / EHTP Units / Software EOUs may also use all duty
-and/or tax free equipment / goods for training purpose (including
-commercial training), subject to condition that no duty free
-equipment / goods shall be installed outside premises of the unit
-for this purpose.', 'as per ITC (HS) shall apply in
+further processing / manufacturing by EOU.', 'business_rule', 'Other Entitlements', 'Where job worker is SEZ / EOU / EHTP /
+STP / BTP unit, export may be effected either from job worker’s
+premises or from premises of unit.', 'as per ITC (HS) shall apply in
 case raw materials are sourced from DTA and exported without
 further processing / manufacturing by EOU.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R010', '6.20', 'Export of textile items
-shall be covered by bilateral agreements, wherever applicable.', 'business_rule', 'Other Entitlements', 'd)
-Export of iron ore shall be subject to decision of Government.', 'Export of textile items
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R016', '6.20', 'Export of textile items
+shall be covered by bilateral agreements, wherever applicable.', 'business_rule', 'Other Entitlements', 'd) EOUs may be permitted to remove moulds, jigs, tools, fixtures,
+tackles, instruments, hangers and patterns and drawings to
+premises of sub-contractors, subject to condition that these shall be
+brought back to premises of units on completion of job work within
+a stipulated period.', 'Export of textile items
 shall be covered by bilateral agreements, wherever applicable.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R011', '6.20', 'Wood based units shall comply with direction of Supreme Court
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R017', '6.20', 'Wood based units shall comply with direction of Supreme Court
 contained in its order dated 12.12.1996 in Writ (civil) No 202 of
-1995- T.N.', 'business_rule', 'Other Entitlements', '6.21 Sub–Contracting
-a)
-Sub-contracting by EOU gems and jewellery units through other
-EOUs, or SEZ Units, or units in DTA shall be subject to following
-conditions: -
-i.', 'Wood based units shall comply with direction of Supreme Court
+1995- T.N.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
+be exported from sub-contractor premises subject to conditions
+that at the time of clearance of goods, the EOU / EHTP
+/ BTP / STP unit shall declare
+i.the transaction value of the finished goods to be cleared
+from the sub- contractor’s premises abroad;
+ii.job work charges to be paid to the sub-contractor
+abroad; and
+iii.', 'Wood based units shall comply with direction of Supreme Court
 contained in its order dated 12.12.1996 in Writ (civil) No 202 of
 1995- T.N.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R012', '6.20', '6.21 Sub–Contracting
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R018', '6.20', '6.21 Sub–Contracting
 a) Sub-contracting by EOU gems and jewellery units through other
 EOUs, or SEZ Units, or units in DTA shall be subject to following
 conditions: -
-i.', 'business_rule', 'Other Entitlements', 'b) Facility of getting job work done from DTA unit will be available
-subject to condition that goods are brought back to premises of unit
-on completion of job work.', '6.21 Sub–Contracting
+i.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
+be exported from sub-contractor premises subject to conditions
+that at the time of clearance of goods, the EOU / EHTP
+/ BTP / STP unit shall declare
+i.the transaction value of the finished goods to be cleared
+from the sub- contractor’s premises abroad;
+ii.job work charges to be paid to the sub-contractor
+abroad; and
+iii.', '6.21 Sub–Contracting
 a) Sub-contracting by EOU gems and jewellery units through other
 EOUs, or SEZ Units, or units in DTA shall be subject to following
 conditions: -
 i.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R013', '6.20', 'Goods, finished or semi-finished, including studded
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R019', '6.20', 'Goods, finished or semi-finished, including studded
 jewellery, taken out for sub-contracting shall be brought
-back to unit within 90 days.', 'business_rule', 'Other Entitlements', 'Where job worker is SEZ / EOU / EHTP /
-STP / BTP unit, export may be effected either from job worker’s
-premises or from premises of unit.', 'Goods, finished or semi-finished, including studded
+back to unit within 90 days.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
+be exported from sub-contractor premises subject to conditions
+that at the time of clearance of goods, the EOU / EHTP
+/ BTP / STP unit shall declare
+i.the transaction value of the finished goods to be cleared
+from the sub- contractor’s premises abroad;
+ii.job work charges to be paid to the sub-contractor
+abroad; and
+iii.', 'Goods, finished or semi-finished, including studded
 jewellery, taken out for sub-contracting shall be brought
 back to unit within 90 days.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R020', '6.20', 'No cut and polished diamonds, precious and semiprecious
 stones (except precious, semi- precious and synthetic stones
 having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R014', '6.20', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'business_rule', 'Other Entitlements', 'd) EOUs may be permitted to remove moulds, jigs, tools, fixtures,
-tackles, instruments, hangers and patterns and drawings to
-premises of sub-contractors, subject to condition that these shall be
-brought back to premises of units on completion of job work within
-a stipulated period.', 'No cut and polished diamonds, precious and semiprecious
+contracting.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
+be exported from sub-contractor premises subject to conditions
+that at the time of clearance of goods, the EOU / EHTP
+/ BTP / STP unit shall declare
+i.the transaction value of the finished goods to be cleared
+from the sub- contractor’s premises abroad;
+ii.job work charges to be paid to the sub-contractor
+abroad; and
+iii.', 'No cut and polished diamonds, precious and semiprecious
 stones (except precious, semi- precious and synthetic stones
 having zero duty) shall be allowed to be taken out for sub-
 contracting.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R015', '6.20', 'EOUs shall be eligible for wastage as applicable as per
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R021', '6.20', 'EOUs shall be eligible for wastage as applicable as per
 paragraph 4.59 of HBP for sub-contracting and against
 exchange.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
 be exported from sub-contractor premises subject to conditions
@@ -4686,11 +6230,11 @@ iii.', 'EOUs shall be eligible for wastage as applicable as per
 paragraph 4.59 of HBP for sub-contracting and against
 exchange.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R016', '6.20', 'DTA unit undertaking job work or supplying jewellery
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R022', '6.20', 'DTA unit undertaking job work or supplying jewellery
 against exchange of gold / silver / platinum shall not be
 entitled to deemed export benefits under Chapter 7 of FTP.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
 be exported from sub-contractor premises subject to conditions
@@ -4704,11 +6248,101 @@ iii.', 'DTA unit undertaking job work or supplying jewellery
 against exchange of gold / silver / platinum shall not be
 entitled to deemed export benefits under Chapter 7 of FTP.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R017', '6.20', '144
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R023', '6.20', 'as pe | r IT | C (HS) | shall apply in
+| | case r | a | w materials a | re sourced | from DT | A an | d expo | rted without
+| | furthe | r | processing / | manufacturi | ng by EO | U.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
+be exported from sub-contractor premises subject to conditions
+that at the time of clearance of goods, the EOU / EHTP
+/ BTP / STP unit shall declare
+i.the transaction value of the finished goods to be cleared
+from the sub- contractor’s premises abroad;
+ii.job work charges to be paid to the sub-contractor
+abroad; and
+iii.', 'as pe | r IT | C (HS) | shall apply in
+| | case r | a | w materials a | re sourced | from DT | A an | d expo | rted without
+| | furthe | r | processing / | manufacturi | ng by EO | U.', 'c) Export of finished goods from job worker’s premises may be
+permitted, provided such premises are registered with Central
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R024', '6.20', 'Ex | port of | textile items
+| | shall b | e | covered by | bilateral a | greemen | ts, w | herev | er applicable.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
+be exported from sub-contractor premises subject to conditions
+that at the time of clearance of goods, the EOU / EHTP
+/ BTP / STP unit shall declare
+i.the transaction value of the finished goods to be cleared
+from the sub- contractor’s premises abroad;
+ii.job work charges to be paid to the sub-contractor
+abroad; and
+iii.', 'Ex | port of | textile items
+| | shall b | e | covered by | bilateral a | greemen | ts, w | herev | er applicable.', 'c) Export of finished goods from job worker’s premises may be
+permitted, provided such premises are registered with Central
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R025', '6.20', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
+be exported from sub-contractor premises subject to conditions
+that at the time of clearance of goods, the EOU / EHTP
+/ BTP / STP unit shall declare
+i.the transaction value of the finished goods to be cleared
+from the sub- contractor’s premises abroad;
+ii.job work charges to be paid to the sub-contractor
+abroad; and
+iii.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'c) Export of finished goods from job worker’s premises may be
+permitted, provided such premises are registered with Central
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R026', '6.20', '| | E | OUs shall be | eligible fo | r wasta | ge a | s appli | cable as per
+| | | p | aragraph 4.5 | 9 of HBP | for sub- | cont | racting | and against
+| | | e | xchange.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
+be exported from sub-contractor premises subject to conditions
+that at the time of clearance of goods, the EOU / EHTP
+/ BTP / STP unit shall declare
+i.the transaction value of the finished goods to be cleared
+from the sub- contractor’s premises abroad;
+ii.job work charges to be paid to the sub-contractor
+abroad; and
+iii.', '| | E | OUs shall be | eligible fo | r wasta | ge a | s appli | cable as per
+| | | p | aragraph 4.5 | 9 of HBP | for sub- | cont | racting | and against
+| | | e | xchange.', 'c) Export of finished goods from job worker’s premises may be
+permitted, provided such premises are registered with Central
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R027', '6.20', '| | D | TA unit und | ertaking jo | b work | or | supplyi | ng jewellery
+| | | a | gainst exchan | ge of gold | / silver | / pl | atinum | shall not be
+| | | e | ntitled to dee | med export | benefits | unde | r Chap | ter 7 of FTP.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
+be exported from sub-contractor premises subject to conditions
+that at the time of clearance of goods, the EOU / EHTP
+/ BTP / STP unit shall declare
+i.the transaction value of the finished goods to be cleared
+from the sub- contractor’s premises abroad;
+ii.job work charges to be paid to the sub-contractor
+abroad; and
+iii.', '| | D | TA unit und | ertaking jo | b work | or | supplyi | ng jewellery
+| | | a | gainst exchan | ge of gold | / silver | / pl | atinum | shall not be
+| | | e | ntitled to dee | med export | benefits | unde | r Chap | ter 7 of FTP.', 'c) Export of finished goods from job worker’s premises may be
+permitted, provided such premises are registered with Central
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R028', '6.20', '144
 c)
 STP Units / EHTP Units / Software EOUs may also use all duty
 and/or tax free equipment / goods for training purpose (including
@@ -4730,11 +6364,11 @@ commercial training), subject to condition that no duty free
 equipment / goods shall be installed outside premises of the unit
 for this purpose.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R018', '6.20', 'd)
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R029', '6.20', 'd)
 Export of iron ore shall be subject to decision of Government.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
 be exported from sub-contractor premises subject to conditions
 that at the time of clearance of goods, the EOU / EHTP
@@ -4746,11 +6380,11 @@ abroad; and
 iii.', 'd)
 Export of iron ore shall be subject to decision of Government.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R019', '6.20', '6.21 Sub–Contracting
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R030', '6.20', '6.21 Sub–Contracting
 a)
 Sub-contracting by EOU gems and jewellery units through other
 EOUs, or SEZ Units, or units in DTA shall be subject to following
@@ -4770,11 +6404,11 @@ EOUs, or SEZ Units, or units in DTA shall be subject to following
 conditions: -
 i.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R020', '6.20', 'b) Facility of getting job work done from DTA unit will be available
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R031', '6.20', 'b) Facility of getting job work done from DTA unit will be available
 subject to condition that goods are brought back to premises of unit
 on completion of job work.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
 be exported from sub-contractor premises subject to conditions
@@ -4788,11 +6422,11 @@ iii.', 'Export of such products from
 job worker’s premises shall not be allowed through third parties as
 provided in FTP.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R021', '6.20', 'Export of such products from
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R032', '6.20', 'Export of such products from
 job worker’s premises shall not be allowed through third parties as
 provided in FTP.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
 be exported from sub-contractor premises subject to conditions
@@ -4808,11 +6442,11 @@ premises of sub-contractors, subject to condition that these shall be
 brought back to premises of units on completion of job work within
 a stipulated period.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R022', '6.20', 'd) EOUs may be permitted to remove moulds, jigs, tools, fixtures,
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R033', '6.20', 'd) EOUs may be permitted to remove moulds, jigs, tools, fixtures,
 tackles, instruments, hangers and patterns and drawings to
 premises of sub-contractors, subject to condition that these shall be
 brought back to premises of units on completion of job work within
@@ -4834,11 +6468,11 @@ ii.job work charges to be paid to the sub-contractor
 abroad; and
 iii.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R023', '6.20', 'Raw materials may or may not be sent along
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R034', '6.20', 'Raw materials may or may not be sent along
 with these goods.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
 be exported from sub-contractor premises subject to conditions
 that at the time of clearance of goods, the EOU / EHTP
@@ -4852,11 +6486,11 @@ shall also ensure full repatriation of foreign exchange declared as
 the transaction value of the finished goods cleared from the sub-
 contractor’s premises abroad.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R024', '6.20', 'e) In case of sub-contracting of production process abroad, goods may
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R035', '6.20', 'e) In case of sub-contracting of production process abroad, goods may
 be exported from sub-contractor premises subject to conditions
 that at the time of clearance of goods, the EOU / EHTP
 / BTP / STP unit shall declare
@@ -4877,11 +6511,11 @@ shall also ensure full repatriation of foreign exchange declared as
 the transaction value of the finished goods cleared from the sub-
 contractor’s premises abroad.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R025', '6.20', 'The EOU / EHTP / BTP / STP unit
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_20-R036', '6.20', 'The EOU / EHTP / BTP / STP unit
 shall also ensure full repatriation of foreign exchange declared as
 the transaction value of the finished goods cleared from the sub-
 contractor’s premises abroad.', 'business_rule', 'Other Entitlements', 'e) In case of sub-contracting of production process abroad, goods may
@@ -4897,16 +6531,22 @@ shall also ensure full repatriation of foreign exchange declared as
 the transaction value of the finished goods cleared from the sub-
 contractor’s premises abroad.', 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
-Excise/GST authorities.', 'No cut and polished diamonds, precious and semiprecious
-stones (except precious, semi- precious and synthetic stones
-having zero duty) shall be allowed to be taken out for sub-
-contracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
+Excise/GST authorities.', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.', 'DEKAI should produce a compliance decision for 6.20 - Other Entitlements.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.20', '6.20 Other Entitlements
 a) FOB value of export of an EOU / EHTP / STP / BTP unit can be
 clubbed with FOBvalue of exports of its parent company in DTA or
 vice versa for the purpose of according Status Holder Certificate.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.20', 'b) Sectoral norms as notified by Government shall apply to FDI in
 service activities.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.20', '.20 O | ther | Entitlement | s | | | |
+| a) | FOB value of | export of an | EOU | / E | HTP / STP / B | TP unit can be
+| | clubbed with | FOBvalue of e | xport | s of | its parent com | pany in DTA or
+| | vice versa for | the purpose o | f acc | ordi | ng Status Hold | er Certificate.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.20', '| b) | Sectoral norm | s as notified | by | Gov | ernment shall | apply to FDI i
+| | service activit | ies.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.20', '6.20 Other Entitlements
 a)
 FOB value of export of an EOU / EHTP / STP / BTP unit can be
@@ -4964,6 +6604,10 @@ ii.job work charges to be paid to the sub-contractor
 abroad; and
 iii.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.20', 'Status Holder Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('6.20', '.20 O | ther | Entitlement | s | | | |
+| a) | FOB value of | export of an | EOU | / E | HTP / STP / B | TP unit can be
+| | clubbed with | FOBvalue of e | xport | s of | its parent com | pany in DTA or
+| | vice versa for | the purpose o | f acc | ordi | ng Status Hold | er Certificate.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.20', 'Procedure for
 submission of application for grant of Replenishment Authorisation as
 contained in relevant Chapter of HBP Vol.');
@@ -4979,17 +6623,29 @@ the value of intermediate goods.');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.20', 'Sectoral norms as notified by Government');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.20', 'Export of iron ore shall be subject to decision of Government');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.20', 'Customs');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.20', '| |
+| c) | Export orders | so procured | shall | be e | xecuted within | parameters of
+| | EOU / EHTP | / STP / BTP | sche | me | s and goods sh | all be directly
+| | transferred fr | om unit to po | rt of s | hip | ment.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.20', 'Goods, finished or semi-finished, including studded
 jewellery, taken out for sub-contracting shall be brought
 back to unit within 90 days.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.20', 'However, the Customs
 Authorities may grant an extension of time beyond 90 days
 in deserving cases.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.20', '| | G | oods, finish | ed or se | mi-finish | ed, | includ | ing studded
+| | | j | ewellery, take | n out for s | ub-contr | acti | ng shal | l be brought
+| | | b | ack to unit | within 90 | days.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.20', '| How | ever, | the Customs
+| | | A | uthorities ma | y grant an e | xtension | of t | ime be | yond 90 days
+| | | i | n deserving ca | ses.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.20', 'd) EOUs may be permitted to remove moulds, jigs, tools, fixtures,
 tackles, instruments, hangers and patterns and drawings to
 premises of sub-contractors, subject to condition that these shall be
 brought back to premises of units on completion of job work within
 a stipulated period.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6.20', 'However,
+applica | tion s | hall be made t | o DC concerne | d.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.20', 'However,
 application shall be made to DC concerned.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.20', 'However, the Customs
@@ -4999,36 +6655,45 @@ INSERT INTO exceptions (section_code, exception_text) VALUES ('6.20', 'No cut an
 stones (except precious, semi- precious and synthetic stones
 having zero duty) shall be allowed to be taken out for sub-
 contracting.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6.20', '| | N | o cut and po | lished diam | onds, pr | eciou | s and | semiprecious
+| | | s | tones (except | precious, se | mi- prec | ious | and sy | nthetic stones
+| | | h | aving zero du | ty) shall be | allowed | to b | e take | n out for sub-
+| | | c | ontracting.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 1, 'Evaluate condition: 6.20 Other Entitlements
 a) FOB value of export of an EOU / EHTP / STP / BTP unit can be
 clubbed with FOBvalue of exports of its parent company in DTA or
 vice versa for the purpose of according Status Holder Certificate.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 2, 'Evaluate condition: b) Sectoral norms as notified by Government shall apply to FDI in
 service activities.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 3, 'Evaluate condition: 6.20 Other Entitlements
-a)
-FOB value of export of an EOU / EHTP / STP / BTP unit can be
-clubbed with FOBvalue of exports of its parent company in DTA or
-vice versa for the purpose of according Status Holder Certificate.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 3, 'Evaluate condition: .20 O | ther | Entitlement | s | | | |
+| a) | FOB value of | export of an | EOU | / E | HTP / STP / B | TP unit can be
+| | clubbed with | FOBvalue of e | xport | s of | its parent com | pany in DTA or
+| | vice versa for | the purpose o | f acc | ordi | ng Status Hold | er Certificate.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 4, 'b) Sectoral norms as notified by Government shall apply to FDI in
 service activities.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 5, 'b)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 5, '| b) | Sectoral norm | s as notified | by | Gov | ernment shall | apply to FDI i
+| | service activit | ies.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 6, 'b)
 Sectoral norms as notified by Government shall apply to FDI in
 service activities.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 6, 'as per ITC (HS) shall apply in
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 7, 'as per ITC (HS) shall apply in
 case raw materials are sourced from DTA and exported without
 further processing / manufacturing by EOU.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 7, 'c) Export of finished goods from job worker’s premises may be
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 8, 'as pe | r IT | C (HS) | shall apply in
+| | case r | a | w materials a | re sourced | from DT | A an | d expo | rted without
+| | furthe | r | processing / | manufacturi | ng by EO | U.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 9, 'c) Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
 Excise/GST authorities.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 8, 'Run validation: b) Sectoral norms as notified by Government shall apply to FDI in
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 10, 'Run validation: b) Sectoral norms as notified by Government shall apply to FDI in
 service activities.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 9, 'Run validation: 143
-pearls from DTA to EOUs shall be eligible for grant of Replenishment
-Authorisation at rates and for items mentioned in HBP.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 10, 'Run validation: I shall be applicable.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 11, 'Handle exception: However,
-application shall be made to DC concerned.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 11, 'Run validation: 143
+pearls | from | DTA to EO | Us shall be | eligib | le | for grant of | Replenishment
+Author | isatio | n at rates a | nd for items | me | ntio | ned in HBP.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 12, 'Run validation: Suc | h s | upplies to EOUs | are not eligible
+for any | of de | emed export b | enefits under | Chap | ter | 7 of the FTP.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.20', 13, 'Handle exception: However,
+applica | tion s | hall be made t | o DC concerne | d.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'FOB');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'EOU');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'STP');
@@ -5039,16 +6704,16 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'for');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'the');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'FDI');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'ned');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'HBP');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'Vol');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'Suc');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'are');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'not');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'ter');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'FTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'may');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'use');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'all');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'keywords', 'gra');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'tags', '6.20');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'tags', 'Other Entitlements');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.20', 'tags', 'business-rule');
@@ -5074,7 +6739,9 @@ Appendices & ANFs) to DTA farm subject to following conditions:
 a) Supply of inputs by EOUs to contract farm(s) shall be subject to
 input-output norms approved by DGFT / BOA. b) There shall be contract farming agreement between EOU and DTA
 pg. 145
-pg.', 'Contract Farming governs how DGFT business controls should be applied, validated, and enforced.', 'Contract Farming explains the operating rule set that DEKAI should enforce. Key control points include 6.22 Contract Farming
+b) | Facility of get | ting | job work do | ne from D | TA unit will b | e available
+| subject to con | ditio | n that goods | are broug | ht back to prem | ises of unit
+| on completio | n of j | ob work.', 'Contract Farming governs how DGFT business controls should be applied, validated, and enforced.', 'Contract Farming explains the operating rule set that DEKAI should enforce. Key control points include 6.22 Contract Farming
 EOUs engaged in production / processing of agriculture / horticulture /
 aquaculture products may, on basis of annual permission from Customs
 authorities, take out inputs and equipments (specified in Appendix 6I of
@@ -5107,6 +6774,45 @@ a) Supply of inputs by EOUs to contract farm(s) shall be subject to
 input-output norms approved by DGFT / BOA.
 b) There shall be contract farming agreement between EOU and DTA
 pg. 145
+b) | Facility of get | ting | job work do | ne from D | TA unit will b | e available
+| subject to con | ditio | n that goods | are broug | ht back to prem | ises of unit
+| on completio | n of j | ob work. | | |
+c) | Export of fin | ishe | d goods fro | m job wo | rker’s premise | s may be
+| permitted, pr | ovid | ed such pre | mises are | registered wi | th Central
+| Excise/GST a | utho | rities. Where | job work | er is SEZ / EOU | / EHTP /
+| STP / BTP un | it, e | xport may b | e effected | either from jo | b worker’s
+| premises or f | rom | premises of | unit. Expo | rt of such pro | ducts from
+| job worker’s | prem | ises shall no | t be allowe | d through third | parties as
+| provided in F | TP. | | | |
+d) | EOUs may be | per | mitted to r | emove mo | ulds, jigs, tool | s, fixtures,
+| tackles, instr | ume | nts, hanger | s and pa | tterns and dr | awings to
+| premises of s | ub-co | ntractors, su | bject to co | ndition that the | se shall be
+| brought back | to pr | emises of un | its on com | pletion of job w | ork within
+| a stipulated p | erio | d. Raw mate | rials may | or may not be | sent along
+| with these go | ods. | | | |
+e) | In case of sub- | cont | racting of pr | oduction p | rocess abroad, | goods may
+| be exported f | rom | sub-contrac | tor premi | ses subject to | conditions
+| that at the tim | e of | clearance of | goods, the | EOU / EHTP |
+| / BTP / STP u | nit s | hall declare | | |
+| i.the tran | sacti | on value of | the finish | ed goods to be | cleared
+| from the | sub | - contractor’ | s premises | abroad; |
+| ii.job wor | k ch | arges to be | paid to th | e sub-contrac | tor
+| abroad; | and | | | |
+| iii. valu | e of i | ntermediate | goods; | |
+| supported wi | th do | cuments lik | e sale pric | e contract / or | invoice for
+| the finished g | oods |, job work c | ontract an | d the basis of | arriving at
+| the value of in | term | ediate good | s. The EOU | / EHTP / BTP | / STP unit
+| shall also ens | ure f | ull repatriat | ion of fore | ign exchange d | eclared as
+| the transactio | n va | lue of the fi | nished goo | ds cleared fro | m the sub-
+| contractor’s p | remi | ses abroad. | | |
+ontra | ct Farming | | | | |
+engag | ed in produc | tion | / processi | ng of agri | culture / hort | iculture /
+ulture | products ma | y, o | n basis of | annual pe | rmission from | Customs
+ities, | take out inp | uts a | nd equipm | ents (spec | ified in Appe | ndix 6I of
+dices & | ANFs) to DT | A far | m subject to | following | conditions: |
+a) | Supply of inp | uts b | y EOUs to | contract fa | rm(s) shall be | subject to
+| input-output | norm | s approved | by DGFT / | BOA. |
+b) | There shall b | e con | tract farmin | g agreeme | nt between EO | U and DTA
 pg. 145
 b)
 Facility of getting job work done from DTA unit will be available
@@ -5160,7 +6866,7 @@ export of agriculture / horticulture / aquaculture products;
 otherwise it shall furnish bank guarantee equivalent to duty and/or
 taxes foregone on capital goods / inputs proposed to be taken out,
 to Deputy / Assistant Commissioner of Customs, till unit completes
-two years.', '[13, 14]', '["may", "out", "and", "DTA", "BOA", "EOU", "job", "are", "SEZ", "STP", "BTP", "not", "FTP", "Raw", "the", "sub", "iii", "for", "has", "two"]', 'Support Contract Farming processing and compliance validation.', '["6.22", "Contract Farming", "business-rule", "document-driven", "dgft"]');
+two years.', '[13, 14]', '["may", "out", "and", "DTA", "BOA", "EOU", "get", "job", "con", "are", "fin", "fro", "pre", "SEZ", "STP", "BTP", "rom", "pro", "per", "ume"]', 'Support Contract Farming processing and compliance validation.', '["6.22", "Contract Farming", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R001', '6.22', '6.22 Contract Farming
 EOUs engaged in production / processing of agriculture / horticulture /
 aquaculture products may, on basis of annual permission from Customs
@@ -5188,23 +6894,64 @@ a) Supply of inputs by EOUs to contract farm(s) shall be subject to
 input-output norms approved by DGFT / BOA.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R002', '6.22', 'b) There shall be contract farming agreement between EOU and DTA
 pg.', 'business_rule', 'Contract Farming', '145
-b)
-Facility of getting job work done from DTA unit will be available
-subject to condition that goods are brought back to premises of unit
-on completion of job work.', 'b) There shall be contract farming agreement between EOU and DTA
-pg.', 'c)
+b) | Facility of get | ting | job work do | ne from D | TA unit will b | e available
+| subject to con | ditio | n that goods | are broug | ht back to prem | ises of unit
+| on completio | n of j | ob work.', 'b) There shall be contract farming agreement between EOU and DTA
+pg.', '| | |
+c) | Export of fin | ishe | d goods fro | m job wo | rker’s premise | s may be
+| permitted, pr | ovid | ed such pre | mises are | registered wi | th Central
+| Excise/GST a | utho | rities.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R003', '6.22', '145
+b) | Facility of get | ting | job work do | ne from D | TA unit will b | e available
+| subject to con | ditio | n that goods | are broug | ht back to prem | ises of unit
+| on completio | n of j | ob work.', 'business_rule', 'Contract Farming', 'Where | job work | er is SEZ / EOU | / EHTP /
+| STP / BTP un | it, e | xport may b | e effected | either from jo | b worker’s
+| premises or f | rom | premises of | unit.', 'Expo | rt of such pro | ducts from
+| job worker’s | prem | ises shall no | t be allowe | d through third | parties as
+| provided in F | TP.', '| | |
+ontra | ct Farming | | | | |
+engag | ed in produc | tion | / processi | ng of agri | culture / hort | iculture /
+ulture | products ma | y, o | n basis of | annual pe | rmission from | Customs
+ities, | take out inp | uts a | nd equipm | ents (spec | ified in Appe | ndix 6I of
+dices & | ANFs) to DT | A far | m subject to | following | conditions: |
+a) | Supply of inp | uts b | y EOUs to | contract fa | rm(s) shall be | subject to
+| input-output | norm | s approved | by DGFT / | BOA.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R004', '6.22', 'Expo | rt of such pro | ducts from
+| job worker’s | prem | ises shall no | t be allowe | d through third | parties as
+| provided in F | TP.', 'business_rule', 'Contract Farming', '| | | |
+e) | In case of sub- | cont | racting of pr | oduction p | rocess abroad, | goods may
+| be exported f | rom | sub-contrac | tor premi | ses subject to | conditions
+| that at the tim | e of | clearance of | goods, the | EOU / EHTP |
+| / BTP / STP u | nit s | hall declare | | |
+| i.the tran | sacti | on value of | the finish | ed goods to be | cleared
+| from the | sub | - contractor’ | s premises | abroad; |
+| ii.job wor | k ch | arges to be | paid to th | e sub-contrac | tor
+| abroad; | and | | | |
+| iii.', '| | | |
+d) | EOUs may be | per | mitted to r | emove mo | ulds, jigs, tool | s, fixtures,
+| tackles, instr | ume | nts, hanger | s and pa | tterns and dr | awings to
+| premises of s | ub-co | ntractors, su | bject to co | ndition that the | se shall be
+| brought back | to pr | emises of un | its on com | pletion of job w | ork within
+| a stipulated p | erio | d.', 'c)
 Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
 Excise/GST authorities.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R003', '6.22', '145
-b)
-Facility of getting job work done from DTA unit will be available
-subject to condition that goods are brought back to premises of unit
-on completion of job work.', 'business_rule', 'Contract Farming', 'Where job worker is SEZ / EOU / EHTP /
-STP / BTP unit, export may be effected either from job worker’s
-premises or from premises of unit.', 'Export of such products from
-job worker’s premises shall not be allowed through third parties as
-provided in FTP.', '6.22 Contract Farming
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R005', '6.22', '| | | |
+d) | EOUs may be | per | mitted to r | emove mo | ulds, jigs, tool | s, fixtures,
+| tackles, instr | ume | nts, hanger | s and pa | tterns and dr | awings to
+| premises of s | ub-co | ntractors, su | bject to co | ndition that the | se shall be
+| brought back | to pr | emises of un | its on com | pletion of job w | ork within
+| a stipulated p | erio | d.', 'business_rule', 'Contract Farming', '| | |
+ontra | ct Farming | | | | |
+engag | ed in produc | tion | / processi | ng of agri | culture / hort | iculture /
+ulture | products ma | y, o | n basis of | annual pe | rmission from | Customs
+ities, | take out inp | uts a | nd equipm | ents (spec | ified in Appe | ndix 6I of
+dices & | ANFs) to DT | A far | m subject to | following | conditions: |
+a) | Supply of inp | uts b | y EOUs to | contract fa | rm(s) shall be | subject to
+| input-output | norm | s approved | by DGFT / | BOA.', 'The EOU | / EHTP / BTP | / STP unit
+| shall also ens | ure f | ull repatriat | ion of fore | ign exchange d | eclared as
+| the transactio | n va | lue of the fi | nished goo | ds cleared fro | m the sub-
+| contractor’s p | remi | ses abroad.', '6.22 Contract Farming
 EOUs engaged in production / processing of agriculture / horticulture /
 aquaculture products may, on basis of annual permission from Customs
 authorities, take out inputs and equipments (specified in Appendix 6I of
@@ -5212,14 +6959,76 @@ Appendices & ANFs) to DTA farm subject to following conditions:
 a)
 Supply of inputs by EOUs to contract farm(s) shall be subject to
 input-output norms approved by DGFT / BOA.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R004', '6.22', 'Export of such products from
-job worker’s premises shall not be allowed through third parties as
-provided in FTP.', 'business_rule', 'Contract Farming', 'd)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R006', '6.22', 'Raw mate | rials may | or may not be | sent along
+| with these go | ods.', 'business_rule', 'Contract Farming', '145
+b)
+Facility of getting job work done from DTA unit will be available
+subject to condition that goods are brought back to premises of unit
+on completion of job work.', '| | |
+ontra | ct Farming | | | | |
+engag | ed in produc | tion | / processi | ng of agri | culture / hort | iculture /
+ulture | products ma | y, o | n basis of | annual pe | rmission from | Customs
+ities, | take out inp | uts a | nd equipm | ents (spec | ified in Appe | ndix 6I of
+dices & | ANFs) to DT | A far | m subject to | following | conditions: |
+a) | Supply of inp | uts b | y EOUs to | contract fa | rm(s) shall be | subject to
+| input-output | norm | s approved | by DGFT / | BOA.', 'c) Unit has been in existence for at least two years and engaged in
+export of agriculture / horticulture / aquaculture products;
+otherwise it shall furnish bank guarantee equivalent to duty and/or
+taxes foregone on capital goods / inputs proposed to be taken out,
+to Deputy / Assistant Commissioner of Customs, till unit completes
+two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R007', '6.22', '| | | |
+e) | In case of sub- | cont | racting of pr | oduction p | rocess abroad, | goods may
+| be exported f | rom | sub-contrac | tor premi | ses subject to | conditions
+| that at the tim | e of | clearance of | goods, the | EOU / EHTP |
+| / BTP / STP u | nit s | hall declare | | |
+| i.the tran | sacti | on value of | the finish | ed goods to be | cleared
+| from the | sub | - contractor’ | s premises | abroad; |
+| ii.job wor | k ch | arges to be | paid to th | e sub-contrac | tor
+| abroad; | and | | | |
+| iii.', 'business_rule', 'Contract Farming', 'Where job worker is SEZ / EOU / EHTP /
+STP / BTP unit, export may be effected either from job worker’s
+premises or from premises of unit.', '|
+b) | There shall b | e con | tract farmin | g agreeme | nt between EO | U and DTA
+pg.', 'c) Unit has been in existence for at least two years and engaged in
+export of agriculture / horticulture / aquaculture products;
+otherwise it shall furnish bank guarantee equivalent to duty and/or
+taxes foregone on capital goods / inputs proposed to be taken out,
+to Deputy / Assistant Commissioner of Customs, till unit completes
+two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R008', '6.22', 'The EOU | / EHTP / BTP | / STP unit
+| shall also ens | ure f | ull repatriat | ion of fore | ign exchange d | eclared as
+| the transactio | n va | lue of the fi | nished goo | ds cleared fro | m the sub-
+| contractor’s p | remi | ses abroad.', 'business_rule', 'Contract Farming', 'd)
 EOUs may be permitted to remove moulds, jigs, tools, fixtures,
 tackles, instruments, hangers and patterns and drawings to
 premises of sub-contractors, subject to condition that these shall be
 brought back to premises of units on completion of job work within
-a stipulated period.', 'd)
+a stipulated period.', 'Export of such products from
+job worker’s premises shall not be allowed through third parties as
+provided in FTP.', 'c) Unit has been in existence for at least two years and engaged in
+export of agriculture / horticulture / aquaculture products;
+otherwise it shall furnish bank guarantee equivalent to duty and/or
+taxes foregone on capital goods / inputs proposed to be taken out,
+to Deputy / Assistant Commissioner of Customs, till unit completes
+two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R009', '6.22', '| | |
+ontra | ct Farming | | | | |
+engag | ed in produc | tion | / processi | ng of agri | culture / hort | iculture /
+ulture | products ma | y, o | n basis of | annual pe | rmission from | Customs
+ities, | take out inp | uts a | nd equipm | ents (spec | ified in Appe | ndix 6I of
+dices & | ANFs) to DT | A far | m subject to | following | conditions: |
+a) | Supply of inp | uts b | y EOUs to | contract fa | rm(s) shall be | subject to
+| input-output | norm | s approved | by DGFT / | BOA.', 'business_rule', 'Contract Farming', 'e)
+In case of sub-contracting of production process abroad, goods may
+be exported from sub-contractor premises subject to conditions
+that at the time of clearance of goods, the EOU / EHTP
+/ BTP / STP unit shall declare
+i.the transaction value of the finished goods to be cleared
+from the sub- contractor’s premises abroad;
+ii.job work charges to be paid to the sub-contractor
+abroad; and
+iii.', 'd)
 EOUs may be permitted to remove moulds, jigs, tools, fixtures,
 tackles, instruments, hangers and patterns and drawings to
 premises of sub-contractors, subject to condition that these shall be
@@ -5230,21 +7039,16 @@ otherwise it shall furnish bank guarantee equivalent to duty and/or
 taxes foregone on capital goods / inputs proposed to be taken out,
 to Deputy / Assistant Commissioner of Customs, till unit completes
 two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R005', '6.22', 'd)
-EOUs may be permitted to remove moulds, jigs, tools, fixtures,
-tackles, instruments, hangers and patterns and drawings to
-premises of sub-contractors, subject to condition that these shall be
-brought back to premises of units on completion of job work within
-a stipulated period.', 'business_rule', 'Contract Farming', 'e)
-In case of sub-contracting of production process abroad, goods may
-be exported from sub-contractor premises subject to conditions
-that at the time of clearance of goods, the EOU / EHTP
-/ BTP / STP unit shall declare
-i.the transaction value of the finished goods to be cleared
-from the sub- contractor’s premises abroad;
-ii.job work charges to be paid to the sub-contractor
-abroad; and
-iii.', 'e)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R010', '6.22', '|
+b) | There shall b | e con | tract farmin | g agreeme | nt between EO | U and DTA
+pg.', 'business_rule', 'Contract Farming', '6.22 Contract Farming
+EOUs engaged in production / processing of agriculture / horticulture /
+aquaculture products may, on basis of annual permission from Customs
+authorities, take out inputs and equipments (specified in Appendix 6I of
+Appendices & ANFs) to DTA farm subject to following conditions:
+a)
+Supply of inputs by EOUs to contract farm(s) shall be subject to
+input-output norms approved by DGFT / BOA.', 'e)
 In case of sub-contracting of production process abroad, goods may
 be exported from sub-contractor premises subject to conditions
 that at the time of clearance of goods, the EOU / EHTP
@@ -5259,8 +7063,11 @@ otherwise it shall furnish bank guarantee equivalent to duty and/or
 taxes foregone on capital goods / inputs proposed to be taken out,
 to Deputy / Assistant Commissioner of Customs, till unit completes
 two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R006', '6.22', 'Raw materials may or may not be sent along
-with these goods.', 'business_rule', 'Contract Farming', '6.22 Contract Farming
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R011', '6.22', '145
+b)
+Facility of getting job work done from DTA unit will be available
+subject to condition that goods are brought back to premises of unit
+on completion of job work.', 'business_rule', 'Contract Farming', '6.22 Contract Farming
 EOUs engaged in production / processing of agriculture / horticulture /
 aquaculture products may, on basis of annual permission from Customs
 authorities, take out inputs and equipments (specified in Appendix 6I of
@@ -5276,16 +7083,9 @@ otherwise it shall furnish bank guarantee equivalent to duty and/or
 taxes foregone on capital goods / inputs proposed to be taken out,
 to Deputy / Assistant Commissioner of Customs, till unit completes
 two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R007', '6.22', 'e)
-In case of sub-contracting of production process abroad, goods may
-be exported from sub-contractor premises subject to conditions
-that at the time of clearance of goods, the EOU / EHTP
-/ BTP / STP unit shall declare
-i.the transaction value of the finished goods to be cleared
-from the sub- contractor’s premises abroad;
-ii.job work charges to be paid to the sub-contractor
-abroad; and
-iii.', 'business_rule', 'Contract Farming', '6.22 Contract Farming
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R012', '6.22', 'Export of such products from
+job worker’s premises shall not be allowed through third parties as
+provided in FTP.', 'business_rule', 'Contract Farming', '6.22 Contract Farming
 EOUs engaged in production / processing of agriculture / horticulture /
 aquaculture products may, on basis of annual permission from Customs
 authorities, take out inputs and equipments (specified in Appendix 6I of
@@ -5305,10 +7105,12 @@ otherwise it shall furnish bank guarantee equivalent to duty and/or
 taxes foregone on capital goods / inputs proposed to be taken out,
 to Deputy / Assistant Commissioner of Customs, till unit completes
 two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R008', '6.22', 'The EOU / EHTP / BTP / STP unit
-shall also ensure full repatriation of foreign exchange declared as
-the transaction value of the finished goods cleared from the sub-
-contractor’s premises abroad.', 'business_rule', 'Contract Farming', '6.22 Contract Farming
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R013', '6.22', 'd)
+EOUs may be permitted to remove moulds, jigs, tools, fixtures,
+tackles, instruments, hangers and patterns and drawings to
+premises of sub-contractors, subject to condition that these shall be
+brought back to premises of units on completion of job work within
+a stipulated period.', 'business_rule', 'Contract Farming', '6.22 Contract Farming
 EOUs engaged in production / processing of agriculture / horticulture /
 aquaculture products may, on basis of annual permission from Customs
 authorities, take out inputs and equipments (specified in Appendix 6I of
@@ -5323,7 +7125,74 @@ otherwise it shall furnish bank guarantee equivalent to duty and/or
 taxes foregone on capital goods / inputs proposed to be taken out,
 to Deputy / Assistant Commissioner of Customs, till unit completes
 two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R009', '6.22', '6.22 Contract Farming
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R014', '6.22', 'Raw materials may or may not be sent along
+with these goods.', 'business_rule', 'Contract Farming', '6.22 Contract Farming
+EOUs engaged in production / processing of agriculture / horticulture /
+aquaculture products may, on basis of annual permission from Customs
+authorities, take out inputs and equipments (specified in Appendix 6I of
+Appendices & ANFs) to DTA farm subject to following conditions:
+a)
+Supply of inputs by EOUs to contract farm(s) shall be subject to
+input-output norms approved by DGFT / BOA.', 'c) Unit has been in existence for at least two years and engaged in
+export of agriculture / horticulture / aquaculture products;
+otherwise it shall furnish bank guarantee equivalent to duty and/or
+taxes foregone on capital goods / inputs proposed to be taken out,
+to Deputy / Assistant Commissioner of Customs, till unit completes
+two years.', 'c) Unit has been in existence for at least two years and engaged in
+export of agriculture / horticulture / aquaculture products;
+otherwise it shall furnish bank guarantee equivalent to duty and/or
+taxes foregone on capital goods / inputs proposed to be taken out,
+to Deputy / Assistant Commissioner of Customs, till unit completes
+two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R015', '6.22', 'e)
+In case of sub-contracting of production process abroad, goods may
+be exported from sub-contractor premises subject to conditions
+that at the time of clearance of goods, the EOU / EHTP
+/ BTP / STP unit shall declare
+i.the transaction value of the finished goods to be cleared
+from the sub- contractor’s premises abroad;
+ii.job work charges to be paid to the sub-contractor
+abroad; and
+iii.', 'business_rule', 'Contract Farming', '6.22 Contract Farming
+EOUs engaged in production / processing of agriculture / horticulture /
+aquaculture products may, on basis of annual permission from Customs
+authorities, take out inputs and equipments (specified in Appendix 6I of
+Appendices & ANFs) to DTA farm subject to following conditions:
+a)
+Supply of inputs by EOUs to contract farm(s) shall be subject to
+input-output norms approved by DGFT / BOA.', 'c) Unit has been in existence for at least two years and engaged in
+export of agriculture / horticulture / aquaculture products;
+otherwise it shall furnish bank guarantee equivalent to duty and/or
+taxes foregone on capital goods / inputs proposed to be taken out,
+to Deputy / Assistant Commissioner of Customs, till unit completes
+two years.', 'c) Unit has been in existence for at least two years and engaged in
+export of agriculture / horticulture / aquaculture products;
+otherwise it shall furnish bank guarantee equivalent to duty and/or
+taxes foregone on capital goods / inputs proposed to be taken out,
+to Deputy / Assistant Commissioner of Customs, till unit completes
+two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R016', '6.22', 'The EOU / EHTP / BTP / STP unit
+shall also ensure full repatriation of foreign exchange declared as
+the transaction value of the finished goods cleared from the sub-
+contractor’s premises abroad.', 'business_rule', 'Contract Farming', '6.22 Contract Farming
+EOUs engaged in production / processing of agriculture / horticulture /
+aquaculture products may, on basis of annual permission from Customs
+authorities, take out inputs and equipments (specified in Appendix 6I of
+Appendices & ANFs) to DTA farm subject to following conditions:
+a)
+Supply of inputs by EOUs to contract farm(s) shall be subject to
+input-output norms approved by DGFT / BOA.', 'c) Unit has been in existence for at least two years and engaged in
+export of agriculture / horticulture / aquaculture products;
+otherwise it shall furnish bank guarantee equivalent to duty and/or
+taxes foregone on capital goods / inputs proposed to be taken out,
+to Deputy / Assistant Commissioner of Customs, till unit completes
+two years.', 'c) Unit has been in existence for at least two years and engaged in
+export of agriculture / horticulture / aquaculture products;
+otherwise it shall furnish bank guarantee equivalent to duty and/or
+taxes foregone on capital goods / inputs proposed to be taken out,
+to Deputy / Assistant Commissioner of Customs, till unit completes
+two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R017', '6.22', '6.22 Contract Farming
 EOUs engaged in production / processing of agriculture / horticulture /
 aquaculture products may, on basis of annual permission from Customs
 authorities, take out inputs and equipments (specified in Appendix 6I of
@@ -5348,7 +7217,7 @@ otherwise it shall furnish bank guarantee equivalent to duty and/or
 taxes foregone on capital goods / inputs proposed to be taken out,
 to Deputy / Assistant Commissioner of Customs, till unit completes
 two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R010', '6.22', 'b)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R018', '6.22', 'b)
 There shall be contract farming agreement between EOU and DTA
 farmer(s).', 'business_rule', 'Contract Farming', '6.22 Contract Farming
 EOUs engaged in production / processing of agriculture / horticulture /
@@ -5368,7 +7237,7 @@ otherwise it shall furnish bank guarantee equivalent to duty and/or
 taxes foregone on capital goods / inputs proposed to be taken out,
 to Deputy / Assistant Commissioner of Customs, till unit completes
 two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.22 - Contract Farming.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R011', '6.22', 'c) Unit has been in existence for at least two years and engaged in
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_22-R019', '6.22', 'c) Unit has been in existence for at least two years and engaged in
 export of agriculture / horticulture / aquaculture products;
 otherwise it shall furnish bank guarantee equivalent to duty and/or
 taxes foregone on capital goods / inputs proposed to be taken out,
@@ -5398,6 +7267,31 @@ authorities, take out inputs and equipments (specified in Appendix 6I of
 Appendices & ANFs) to DTA farm subject to following conditions:
 a) Supply of inputs by EOUs to contract farm(s) shall be subject to
 input-output norms approved by DGFT / BOA.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.22', '145
+b) | Facility of get | ting | job work do | ne from D | TA unit will b | e available
+| subject to con | ditio | n that goods | are broug | ht back to prem | ises of unit
+| on completio | n of j | ob work.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.22', 'Where | job work | er is SEZ / EOU | / EHTP /
+| STP / BTP un | it, e | xport may b | e effected | either from jo | b worker’s
+| premises or f | rom | premises of | unit.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.22', '| | | |
+e) | In case of sub- | cont | racting of pr | oduction p | rocess abroad, | goods may
+| be exported f | rom | sub-contrac | tor premi | ses subject to | conditions
+| that at the tim | e of | clearance of | goods, the | EOU / EHTP |
+| / BTP / STP u | nit s | hall declare | | |
+| i.the tran | sacti | on value of | the finish | ed goods to be | cleared
+| from the | sub | - contractor’ | s premises | abroad; |
+| ii.job wor | k ch | arges to be | paid to th | e sub-contrac | tor
+| abroad; | and | | | |
+| iii.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.22', '| | |
+ontra | ct Farming | | | | |
+engag | ed in produc | tion | / processi | ng of agri | culture / hort | iculture /
+ulture | products ma | y, o | n basis of | annual pe | rmission from | Customs
+ities, | take out inp | uts a | nd equipm | ents (spec | ified in Appe | ndix 6I of
+dices & | ANFs) to DT | A far | m subject to | following | conditions: |
+a) | Supply of inp | uts b | y EOUs to | contract fa | rm(s) shall be | subject to
+| input-output | norm | s approved | by DGFT / | BOA.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.22', '145
 b)
 Facility of getting job work done from DTA unit will be available
@@ -5430,6 +7324,10 @@ Appendices & ANFs) to DTA farm subject to following conditions:
 a)
 Supply of inputs by EOUs to contract farm(s) shall be subject to
 input-output norms approved by DGFT / BOA.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.22', 'valu | e of i | ntermediate | goods; | |
+| supported wi | th do | cuments lik | e sale pric | e contract / or | invoice for
+| the finished g | oods |, job work c | ontract an | d the basis of | arriving at
+| the value of in | term | ediate good | s.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.22', 'value of intermediate goods;
 supported with documents like sale price contract / or invoice for
 the finished goods, job work contract and the basis of arriving at
@@ -5438,6 +7336,12 @@ INSERT INTO authorities (section_code, authority_name) VALUES ('6.22', 'DGFT');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.22', 'Customs');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.22', 'Commissioner of Customs');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.22', 'Deputy / Assistant Commissioner of Customs');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.22', '| | | |
+d) | EOUs may be | per | mitted to r | emove mo | ulds, jigs, tool | s, fixtures,
+| tackles, instr | ume | nts, hanger | s and pa | tterns and dr | awings to
+| premises of s | ub-co | ntractors, su | bject to co | ndition that the | se shall be
+| brought back | to pr | emises of un | its on com | pletion of job w | ork within
+| a stipulated p | erio | d.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.22', 'd)
 EOUs may be permitted to remove moulds, jigs, tools, fixtures,
 tackles, instruments, hangers and patterns and drawings to
@@ -5458,13 +7362,12 @@ Appendices & ANFs) to DTA farm subject to following conditions:
 a) Supply of inputs by EOUs to contract farm(s) shall be subject to
 input-output norms approved by DGFT / BOA.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 2, 'Evaluate condition: 145
-b)
-Facility of getting job work done from DTA unit will be available
-subject to condition that goods are brought back to premises of unit
-on completion of job work.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 3, 'Evaluate condition: Where job worker is SEZ / EOU / EHTP /
-STP / BTP unit, export may be effected either from job worker’s
-premises or from premises of unit.');
+b) | Facility of get | ting | job work do | ne from D | TA unit will b | e available
+| subject to con | ditio | n that goods | are broug | ht back to prem | ises of unit
+| on completio | n of j | ob work.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 3, 'Evaluate condition: Where | job work | er is SEZ / EOU | / EHTP /
+| STP / BTP un | it, e | xport may b | e effected | either from jo | b worker’s
+| premises or f | rom | premises of | unit.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 4, '6.22 Contract Farming
 EOUs engaged in production / processing of agriculture / horticulture /
 aquaculture products may, on basis of annual permission from Customs
@@ -5472,11 +7375,23 @@ authorities, take out inputs and equipments (specified in Appendix 6I of
 Appendices & ANFs) to DTA farm subject to following conditions:
 a) Supply of inputs by EOUs to contract farm(s) shall be subject to
 input-output norms approved by DGFT / BOA.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 5, 'c)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 5, '| | |
+c) | Export of fin | ishe | d goods fro | m job wo | rker’s premise | s may be
+| permitted, pr | ovid | ed such pre | mises are | registered wi | th Central
+| Excise/GST a | utho | rities.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 6, '| | |
+ontra | ct Farming | | | | |
+engag | ed in produc | tion | / processi | ng of agri | culture / hort | iculture /
+ulture | products ma | y, o | n basis of | annual pe | rmission from | Customs
+ities, | take out inp | uts a | nd equipm | ents (spec | ified in Appe | ndix 6I of
+dices & | ANFs) to DT | A far | m subject to | following | conditions: |
+a) | Supply of inp | uts b | y EOUs to | contract fa | rm(s) shall be | subject to
+| input-output | norm | s approved | by DGFT / | BOA.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 7, 'c)
 Export of finished goods from job worker’s premises may be
 permitted, provided such premises are registered with Central
 Excise/GST authorities.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 6, '6.22 Contract Farming
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 8, '6.22 Contract Farming
 EOUs engaged in production / processing of agriculture / horticulture /
 aquaculture products may, on basis of annual permission from Customs
 authorities, take out inputs and equipments (specified in Appendix 6I of
@@ -5484,44 +7399,44 @@ Appendices & ANFs) to DTA farm subject to following conditions:
 a)
 Supply of inputs by EOUs to contract farm(s) shall be subject to
 input-output norms approved by DGFT / BOA.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 7, 'c) Unit has been in existence for at least two years and engaged in
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 9, 'c) Unit has been in existence for at least two years and engaged in
 export of agriculture / horticulture / aquaculture products;
 otherwise it shall furnish bank guarantee equivalent to duty and/or
 taxes foregone on capital goods / inputs proposed to be taken out,
 to Deputy / Assistant Commissioner of Customs, till unit completes
 two years.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 8, 'Run validation: 6.22 Contract Farming
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 10, 'Run validation: 6.22 Contract Farming
 EOUs engaged in production / processing of agriculture / horticulture /
 aquaculture products may, on basis of annual permission from Customs
 authorities, take out inputs and equipments (specified in Appendix 6I of
 Appendices & ANFs) to DTA farm subject to following conditions:
 a) Supply of inputs by EOUs to contract farm(s) shall be subject to
 input-output norms approved by DGFT / BOA.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 9, 'Run validation: b) There shall be contract farming agreement between EOU and DTA
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 11, 'Run validation: b) There shall be contract farming agreement between EOU and DTA
 pg.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 10, 'Run validation: Export of such products from
-job worker’s premises shall not be allowed through third parties as
-provided in FTP.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.22', 12, 'Run validation: Expo | rt of such pro | ducts from
+| job worker’s | prem | ises shall no | t be allowe | d through third | parties as
+| provided in F | TP.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'may');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'out');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'and');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'DTA');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'BOA');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'EOU');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'get');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'job');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'con');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'fin');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'fro');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'pre');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'SEZ');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'STP');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'BTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'not');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'FTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'Raw');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'the');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'sub');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'iii');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'for');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'has');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'two');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'rom');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'pro');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'per');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'keywords', 'ume');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'tags', '6.22');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'tags', 'Contract Farming');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.22', 'tags', 'business-rule');
@@ -5897,6 +7812,41 @@ days from date of departure through normal banking channel.
 b) Unit shall declare personal carriage of such samples to Customs
 while leaving country and obtain necessary endorsement.
 pg. 146
+| | | farmer(s). | | | | |
+| | c) | Unit has be | en in existence | for at least t | w | o years an | d engaged in
+| | | export of | agriculture / | horticulture | / | aquacultu | re products;
+| | | otherwise it | shall furnish ba | nk guarantee | e | quivalent to | duty and/or
+| | | taxes foreg | one on capital g | oods / inputs | p | roposed to | be taken out,
+| | | to Deputy / | Assistant Comm | issioner of Cu | | stoms, till u | nit completes
+| | | two years. | | | | |
+6.23 | E | xport | s through | Exhibitions / | Export Prom | | otion Tou | r
+EOU | / | EHTP | / STP / BTP | units may expo | rt goods for h | o | lding / part | icipating in
+exhib | i | tions a | broad, with | permission of D | C, subject to f | o | llowing con | ditions:
+| | a) | Unit shall p | roduce to Cust | oms authoritie | | s letter in o | riginal, or its
+| | | certified co | py containing a | pproval of DC |. | For gems a | nd jewellery
+| | | items, a s | elf-certified ph | otograph of | | products s | hall also be
+| | | submitted. | | | | |
+| | b) | In case of r | e-import, such | items, on arriv | | al shall be v | erified along
+| | | with export | documents bef | ore clearance. | | |
+| | c) | Items not s | old abroad shall | be re-import | e | d within 60 | days of close
+| | | of exhibitio | n. However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition. In
+| | | case of exhi | bition in USA, t | he time perio | d | shall be 90 | days instead
+| | | of 60 days | mentioned abov | e. | | |
+| | d) | In case of pe | rsonal carriage | of goods and f | | or holding / | participating
+| | | in overseas | exhibitions, val | ue of such ge | m | s and jewel | lery shall not
+| | | exceed US $ | 5 million. | | | |
+6.24 | P | erson | al Carriag | e of Gems an | d Jewellery a | | s samples | for Export
+Prom | o | tion T | ours | | | | |
+Pers | on | al car | riage of go | ld / silver / | platinum jew | e | llery, cut a | nd polished
+diam | o | nds, pr | ecious, sem | i-precious ston | es, beads and | | articles as s | amples upto
+US $ | 1 | millio | n for export | promotion tou | rs, and tempo | r | ary display | / sale abroad
+by E | O | Us, is a | lso permitte | d with approva | l of DC subject | | to following | conditions:
+| | a) | EOU shall b | ring back good | s or repatriate | | sale procee | ds within 45
+| | | days from d | ate of departur | e through nor | m | al banking | channel.
+| | b) | Unit shall d | eclare persona | l carriage of s | | uch sample | s to Customs
+| | | while leavin | g country and | obtain necessa | r | y endorsem | ent.
 pg. 146
 farmer(s).
 c)
@@ -5917,7 +7867,7 @@ EOU shall bring back goods or repatriate sale proceeds within 45
 days from date of departure through normal banking channel.
 b)
 Unit shall declare personal carriage of such samples to Customs
-while leaving country and obtain necessary endorsement.', '[14]', '["and", "for", "cut", "EOU", "has", "two", "out", "Gems", "gold", "upto", "sale", "EOUs", "also", "with", "back", "days", "from", "date", "Unit", "such"]', 'Support Personal Carriage of Gems and Jewellery as samples for Export processing and compliance validation.', '["6.24", "Personal Carriage of Gems and Jewellery as samples for Export", "business-rule", "dgft"]');
+while leaving country and obtain necessary endorsement.', '[14]', '["and", "for", "cut", "EOU", "has", "one", "out", "nit", "two", "Tou", "STP", "BTP", "may", "con", "oms", "its", "bef", "ore", "not", "old"]', 'Support Personal Carriage of Gems and Jewellery as samples for Export processing and compliance validation.', '["6.24", "Personal Carriage of Gems and Jewellery as samples for Export", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R001', '6.24', '6.24 Personal Carriage of Gems and Jewellery as samples for Export
 Promotion Tours
 Personal carriage of gold / silver / platinum jewellery, cut and polished
@@ -5940,9 +7890,79 @@ US $ 1 million for export promotion tours, and temporary display / sale abroad
 by EOUs, is also permitted with approval of DC subject to following conditions:
 a) EOU shall bring back goods or repatriate sale proceeds within 45
 days from date of departure through normal banking channel.', 'b) Unit shall declare personal carriage of such samples to Customs
-while leaving country and obtain necessary endorsement.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+while leaving country and obtain necessary endorsement.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R002', '6.24', 'b) Unit shall declare personal carriage of such samples to Customs
-while leaving country and obtain necessary endorsement.', 'business_rule', 'Personal Carriage of Gems and Jewellery as samples for Export', '6.24 Personal Carriage of Gems and Jewellery as samples for Export
+while leaving country and obtain necessary endorsement.', 'business_rule', 'Personal Carriage of Gems and Jewellery as samples for Export', '| | | | |
+6.23 | E | xport | s through | Exhibitions / | Export Prom | | otion Tou | r
+EOU | / | EHTP | / STP / BTP | units may expo | rt goods for h | o | lding / part | icipating in
+exhib | i | tions a | broad, with | permission of D | C, subject to f | o | llowing con | ditions:
+| | a) | Unit shall p | roduce to Cust | oms authoritie | | s letter in o | riginal, or its
+| | | certified co | py containing a | pproval of DC |.', 'b) Unit shall declare personal carriage of such samples to Customs
+while leaving country and obtain necessary endorsement.', '| | | | |
+| | c) | Unit has be | en in existence | for at least t | w | o years an | d engaged in
+| | | export of | agriculture / | horticulture | / | aquacultu | re products;
+| | | otherwise it | shall furnish ba | nk guarantee | e | quivalent to | duty and/or
+| | | taxes foreg | one on capital g | oods / inputs | p | roposed to | be taken out,
+| | | to Deputy / | Assistant Comm | issioner of Cu | | stoms, till u | nit completes
+| | | two years.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R003', '6.24', '| | | | |
+| | c) | Unit has be | en in existence | for at least t | w | o years an | d engaged in
+| | | export of | agriculture / | horticulture | / | aquacultu | re products;
+| | | otherwise it | shall furnish ba | nk guarantee | e | quivalent to | duty and/or
+| | | taxes foreg | one on capital g | oods / inputs | p | roposed to | be taken out,
+| | | to Deputy / | Assistant Comm | issioner of Cu | | stoms, till u | nit completes
+| | | two years.', 'business_rule', 'Personal Carriage of Gems and Jewellery as samples for Export', '| For gems a | nd jewellery
+| | | items, a s | elf-certified ph | otograph of | | products s | hall also be
+| | | submitted.', '| | | | |
+| | c) | Unit has be | en in existence | for at least t | w | o years an | d engaged in
+| | | export of | agriculture / | horticulture | / | aquacultu | re products;
+| | | otherwise it | shall furnish ba | nk guarantee | e | quivalent to | duty and/or
+| | | taxes foreg | one on capital g | oods / inputs | p | roposed to | be taken out,
+| | | to Deputy / | Assistant Comm | issioner of Cu | | stoms, till u | nit completes
+| | | two years.', '| For gems a | nd jewellery
+| | | items, a s | elf-certified ph | otograph of | | products s | hall also be
+| | | submitted.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R004', '6.24', '| | | | |
+6.23 | E | xport | s through | Exhibitions / | Export Prom | | otion Tou | r
+EOU | / | EHTP | / STP / BTP | units may expo | rt goods for h | o | lding / part | icipating in
+exhib | i | tions a | broad, with | permission of D | C, subject to f | o | llowing con | ditions:
+| | a) | Unit shall p | roduce to Cust | oms authoritie | | s letter in o | riginal, or its
+| | | certified co | py containing a | pproval of DC |.', 'business_rule', 'Personal Carriage of Gems and Jewellery as samples for Export', '| | | | |
+| | b) | In case of r | e-import, such | items, on arriv | | al shall be v | erified along
+| | | with export | documents bef | ore clearance.', '| | | | |
+6.23 | E | xport | s through | Exhibitions / | Export Prom | | otion Tou | r
+EOU | / | EHTP | / STP / BTP | units may expo | rt goods for h | o | lding / part | icipating in
+exhib | i | tions a | broad, with | permission of D | C, subject to f | o | llowing con | ditions:
+| | a) | Unit shall p | roduce to Cust | oms authoritie | | s letter in o | riginal, or its
+| | | certified co | py containing a | pproval of DC |.', '| | b) | Unit shall d | eclare persona | l carriage of s | | uch sample | s to Customs
+| | | while leavin | g country and | obtain necessa | r | y endorsem | ent.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R005', '6.24', '| | | | |
+| | b) | In case of r | e-import, such | items, on arriv | | al shall be v | erified along
+| | | with export | documents bef | ore clearance.', 'business_rule', 'Personal Carriage of Gems and Jewellery as samples for Export', '| | |
+| | d) | In case of pe | rsonal carriage | of goods and f | | or holding / | participating
+| | | in overseas | exhibitions, val | ue of such ge | m | s and jewel | lery shall not
+| | | exceed US $ | 5 million.', '| | | | |
+| | b) | In case of r | e-import, such | items, on arriv | | al shall be v | erified along
+| | | with export | documents bef | ore clearance.', 'c)
+Unit has been in existence for at least two years and engaged in
+export of agriculture / horticulture / aquaculture products;
+otherwise it shall furnish bank guarantee equivalent to duty and/or
+taxes foregone on capital goods / inputs proposed to be taken out,
+to Deputy / Assistant Commissioner of Customs, till unit completes
+two years.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R006', '6.24', '| | |
+| | c) | Items not s | old abroad shall | be re-import | e | d within 60 | days of close
+| | | of exhibitio | n.', 'business_rule', 'Personal Carriage of Gems and Jewellery as samples for Export', '6.24 Personal Carriage of Gems and Jewellery as samples for Export
 Promotion Tours
 Personal carriage of gold / silver / platinum jewellery, cut and polished
 diamonds, precious, semi-precious stones, beads and articles as samples upto
@@ -5950,15 +7970,94 @@ US $ 1 million for export promotion tours, and temporary display / sale abroad
 by EOUs, is also permitted with approval of DC subject to following conditions:
 a)
 EOU shall bring back goods or repatriate sale proceeds within 45
-days from date of departure through normal banking channel.', 'b) Unit shall declare personal carriage of such samples to Customs
-while leaving country and obtain necessary endorsement.', 'c)
-Unit has been in existence for at least two years and engaged in
-export of agriculture / horticulture / aquaculture products;
-otherwise it shall furnish bank guarantee equivalent to duty and/or
-taxes foregone on capital goods / inputs proposed to be taken out,
-to Deputy / Assistant Commissioner of Customs, till unit completes
-two years.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R003', '6.24', 'c)
+days from date of departure through normal banking channel.', '| | |
+| | c) | Items not s | old abroad shall | be re-import | e | d within 60 | days of close
+| | | of exhibitio | n.', 'b)
+Unit shall declare personal carriage of such samples to Customs
+while leaving country and obtain necessary endorsement.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R007', '6.24', 'In
+| | | case of exhi | bition in USA, t | he time perio | d | shall be 90 | days instead
+| | | of 60 days | mentioned abov | e.', 'business_rule', 'Personal Carriage of Gems and Jewellery as samples for Export', '6.24 Personal Carriage of Gems and Jewellery as samples for Export
+Promotion Tours
+Personal carriage of gold / silver / platinum jewellery, cut and polished
+diamonds, precious, semi-precious stones, beads and articles as samples upto
+US $ 1 million for export promotion tours, and temporary display / sale abroad
+by EOUs, is also permitted with approval of DC subject to following conditions:
+a)
+EOU shall bring back goods or repatriate sale proceeds within 45
+days from date of departure through normal banking channel.', 'In
+| | | case of exhi | bition in USA, t | he time perio | d | shall be 90 | days instead
+| | | of 60 days | mentioned abov | e.', 'b)
+Unit shall declare personal carriage of such samples to Customs
+while leaving country and obtain necessary endorsement.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R008', '6.24', '| | |
+| | d) | In case of pe | rsonal carriage | of goods and f | | or holding / | participating
+| | | in overseas | exhibitions, val | ue of such ge | m | s and jewel | lery shall not
+| | | exceed US $ | 5 million.', 'business_rule', 'Personal Carriage of Gems and Jewellery as samples for Export', '6.24 Personal Carriage of Gems and Jewellery as samples for Export
+Promotion Tours
+Personal carriage of gold / silver / platinum jewellery, cut and polished
+diamonds, precious, semi-precious stones, beads and articles as samples upto
+US $ 1 million for export promotion tours, and temporary display / sale abroad
+by EOUs, is also permitted with approval of DC subject to following conditions:
+a)
+EOU shall bring back goods or repatriate sale proceeds within 45
+days from date of departure through normal banking channel.', '| | |
+| | d) | In case of pe | rsonal carriage | of goods and f | | or holding / | participating
+| | | in overseas | exhibitions, val | ue of such ge | m | s and jewel | lery shall not
+| | | exceed US $ | 5 million.', 'b)
+Unit shall declare personal carriage of such samples to Customs
+while leaving country and obtain necessary endorsement.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R009', '6.24', '| | | |
+6.24 | P | erson | al Carriag | e of Gems an | d Jewellery a | | s samples | for Export
+Prom | o | tion T | ours | | | | |
+Pers | on | al car | riage of go | ld / silver / | platinum jew | e | llery, cut a | nd polished
+diam | o | nds, pr | ecious, sem | i-precious ston | es, beads and | | articles as s | amples upto
+US $ | 1 | millio | n for export | promotion tou | rs, and tempo | r | ary display | / sale abroad
+by E | O | Us, is a | lso permitte | d with approva | l of DC subject | | to following | conditions:
+| | a) | EOU shall b | ring back good | s or repatriate | | sale procee | ds within 45
+| | | days from d | ate of departur | e through nor | m | al banking | channel.', 'business_rule', 'Personal Carriage of Gems and Jewellery as samples for Export', '6.24 Personal Carriage of Gems and Jewellery as samples for Export
+Promotion Tours
+Personal carriage of gold / silver / platinum jewellery, cut and polished
+diamonds, precious, semi-precious stones, beads and articles as samples upto
+US $ 1 million for export promotion tours, and temporary display / sale abroad
+by EOUs, is also permitted with approval of DC subject to following conditions:
+a)
+EOU shall bring back goods or repatriate sale proceeds within 45
+days from date of departure through normal banking channel.', '| | | |
+6.24 | P | erson | al Carriag | e of Gems an | d Jewellery a | | s samples | for Export
+Prom | o | tion T | ours | | | | |
+Pers | on | al car | riage of go | ld / silver / | platinum jew | e | llery, cut a | nd polished
+diam | o | nds, pr | ecious, sem | i-precious ston | es, beads and | | articles as s | amples upto
+US $ | 1 | millio | n for export | promotion tou | rs, and tempo | r | ary display | / sale abroad
+by E | O | Us, is a | lso permitte | d with approva | l of DC subject | | to following | conditions:
+| | a) | EOU shall b | ring back good | s or repatriate | | sale procee | ds within 45
+| | | days from d | ate of departur | e through nor | m | al banking | channel.', 'b)
+Unit shall declare personal carriage of such samples to Customs
+while leaving country and obtain necessary endorsement.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R010', '6.24', '| | b) | Unit shall d | eclare persona | l carriage of s | | uch sample | s to Customs
+| | | while leavin | g country and | obtain necessa | r | y endorsem | ent.', 'business_rule', 'Personal Carriage of Gems and Jewellery as samples for Export', '6.24 Personal Carriage of Gems and Jewellery as samples for Export
+Promotion Tours
+Personal carriage of gold / silver / platinum jewellery, cut and polished
+diamonds, precious, semi-precious stones, beads and articles as samples upto
+US $ 1 million for export promotion tours, and temporary display / sale abroad
+by EOUs, is also permitted with approval of DC subject to following conditions:
+a)
+EOU shall bring back goods or repatriate sale proceeds within 45
+days from date of departure through normal banking channel.', '| | b) | Unit shall d | eclare persona | l carriage of s | | uch sample | s to Customs
+| | | while leavin | g country and | obtain necessa | r | y endorsem | ent.', 'b)
+Unit shall declare personal carriage of such samples to Customs
+while leaving country and obtain necessary endorsement.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R011', '6.24', 'c)
 Unit has been in existence for at least two years and engaged in
 export of agriculture / horticulture / aquaculture products;
 otherwise it shall furnish bank guarantee equivalent to duty and/or
@@ -5980,8 +8079,10 @@ taxes foregone on capital goods / inputs proposed to be taken out,
 to Deputy / Assistant Commissioner of Customs, till unit completes
 two years.', 'b)
 Unit shall declare personal carriage of such samples to Customs
-while leaving country and obtain necessary endorsement.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R004', '6.24', '6.24 Personal Carriage of Gems and Jewellery as samples for Export
+while leaving country and obtain necessary endorsement.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R012', '6.24', '6.24 Personal Carriage of Gems and Jewellery as samples for Export
 Promotion Tours
 Personal carriage of gold / silver / platinum jewellery, cut and polished
 diamonds, precious, semi-precious stones, beads and articles as samples upto
@@ -6007,8 +8108,10 @@ a)
 EOU shall bring back goods or repatriate sale proceeds within 45
 days from date of departure through normal banking channel.', 'b)
 Unit shall declare personal carriage of such samples to Customs
-while leaving country and obtain necessary endorsement.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R005', '6.24', 'b)
+while leaving country and obtain necessary endorsement.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_24-R013', '6.24', 'b)
 Unit shall declare personal carriage of such samples to Customs
 while leaving country and obtain necessary endorsement.', 'business_rule', 'Personal Carriage of Gems and Jewellery as samples for Export', '6.24 Personal Carriage of Gems and Jewellery as samples for Export
 Promotion Tours
@@ -6022,7 +8125,9 @@ days from date of departure through normal banking channel.', 'b)
 Unit shall declare personal carriage of such samples to Customs
 while leaving country and obtain necessary endorsement.', 'b)
 Unit shall declare personal carriage of such samples to Customs
-while leaving country and obtain necessary endorsement.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
+while leaving country and obtain necessary endorsement.', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.', 'DEKAI should produce a compliance decision for 6.24 - Personal Carriage of Gems and Jewellery as samples for Export.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.24', '6.24 Personal Carriage of Gems and Jewellery as samples for Export
 Promotion Tours
 Personal carriage of gold / silver / platinum jewellery, cut and polished
@@ -6031,6 +8136,22 @@ US $ 1 million for export promotion tours, and temporary display / sale abroad
 by EOUs, is also permitted with approval of DC subject to following conditions:
 a) EOU shall bring back goods or repatriate sale proceeds within 45
 days from date of departure through normal banking channel.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.24', '| | | | |
+6.23 | E | xport | s through | Exhibitions / | Export Prom | | otion Tou | r
+EOU | / | EHTP | / STP / BTP | units may expo | rt goods for h | o | lding / part | icipating in
+exhib | i | tions a | broad, with | permission of D | C, subject to f | o | llowing con | ditions:
+| | a) | Unit shall p | roduce to Cust | oms authoritie | | s letter in o | riginal, or its
+| | | certified co | py containing a | pproval of DC |.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.24', '| For gems a | nd jewellery
+| | | items, a s | elf-certified ph | otograph of | | products s | hall also be
+| | | submitted.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.24', '| | | | |
+| | b) | In case of r | e-import, such | items, on arriv | | al shall be v | erified along
+| | | with export | documents bef | ore clearance.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.24', '| | |
+| | d) | In case of pe | rsonal carriage | of goods and f | | or holding / | participating
+| | | in overseas | exhibitions, val | ue of such ge | m | s and jewel | lery shall not
+| | | exceed US $ | 5 million.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.24', '6.24 Personal Carriage of Gems and Jewellery as samples for Export
 Promotion Tours
 Personal carriage of gold / silver / platinum jewellery, cut and polished
@@ -6040,6 +8161,9 @@ by EOUs, is also permitted with approval of DC subject to following conditions:
 a)
 EOU shall bring back goods or repatriate sale proceeds within 45
 days from date of departure through normal banking channel.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.24', '| | | | |
+| | b) | In case of r | e-import, such | items, on arriv | | al shall be v | erified along
+| | | with export | documents bef | ore clearance.');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.24', 'Customs');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.24', 'Unit shall declare personal carriage of such samples to Customs');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.24', 'Commissioner of Customs');
@@ -6052,6 +8176,31 @@ US $ 1 million for export promotion tours, and temporary display / sale abroad
 by EOUs, is also permitted with approval of DC subject to following conditions:
 a) EOU shall bring back goods or repatriate sale proceeds within 45
 days from date of departure through normal banking channel.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.24', '| | | | |
+| | c) | Unit has be | en in existence | for at least t | w | o years an | d engaged in
+| | | export of | agriculture / | horticulture | / | aquacultu | re products;
+| | | otherwise it | shall furnish ba | nk guarantee | e | quivalent to | duty and/or
+| | | taxes foreg | one on capital g | oods / inputs | p | roposed to | be taken out,
+| | | to Deputy / | Assistant Comm | issioner of Cu | | stoms, till u | nit completes
+| | | two years.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.24', '| | |
+| | c) | Items not s | old abroad shall | be re-import | e | d within 60 | days of close
+| | | of exhibitio | n.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.24', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.24', 'In
+| | | case of exhi | bition in USA, t | he time perio | d | shall be 90 | days instead
+| | | of 60 days | mentioned abov | e.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.24', '| | | |
+6.24 | P | erson | al Carriag | e of Gems an | d Jewellery a | | s samples | for Export
+Prom | o | tion T | ours | | | | |
+Pers | on | al car | riage of go | ld / silver / | platinum jew | e | llery, cut a | nd polished
+diam | o | nds, pr | ecious, sem | i-precious ston | es, beads and | | articles as s | amples upto
+US $ | 1 | millio | n for export | promotion tou | rs, and tempo | r | ary display | / sale abroad
+by E | O | Us, is a | lso permitte | d with approva | l of DC subject | | to following | conditions:
+| | a) | EOU shall b | ring back good | s or repatriate | | sale procee | ds within 45
+| | | days from d | ate of departur | e through nor | m | al banking | channel.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.24', 'c)
 Unit has been in existence for at least two years and engaged in
 export of agriculture / horticulture / aquaculture products;
@@ -6068,6 +8217,9 @@ by EOUs, is also permitted with approval of DC subject to following conditions:
 a)
 EOU shall bring back goods or repatriate sale proceeds within 45
 days from date of departure through normal banking channel.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6.24', 'However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 1, 'Evaluate condition: 6.24 Personal Carriage of Gems and Jewellery as samples for Export
 Promotion Tours
 Personal carriage of gold / silver / platinum jewellery, cut and polished
@@ -6076,28 +8228,40 @@ US $ 1 million for export promotion tours, and temporary display / sale abroad
 by EOUs, is also permitted with approval of DC subject to following conditions:
 a) EOU shall bring back goods or repatriate sale proceeds within 45
 days from date of departure through normal banking channel.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 2, 'Evaluate condition: 6.24 Personal Carriage of Gems and Jewellery as samples for Export
-Promotion Tours
-Personal carriage of gold / silver / platinum jewellery, cut and polished
-diamonds, precious, semi-precious stones, beads and articles as samples upto
-US $ 1 million for export promotion tours, and temporary display / sale abroad
-by EOUs, is also permitted with approval of DC subject to following conditions:
-a)
-EOU shall bring back goods or repatriate sale proceeds within 45
-days from date of departure through normal banking channel.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 3, 'b) Unit shall declare personal carriage of such samples to Customs
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 2, 'Evaluate condition: | | | | |
+6.23 | E | xport | s through | Exhibitions / | Export Prom | | otion Tou | r
+EOU | / | EHTP | / STP / BTP | units may expo | rt goods for h | o | lding / part | icipating in
+exhib | i | tions a | broad, with | permission of D | C, subject to f | o | llowing con | ditions:
+| | a) | Unit shall p | roduce to Cust | oms authoritie | | s letter in o | riginal, or its
+| | | certified co | py containing a | pproval of DC |.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 3, 'Evaluate condition: | For gems a | nd jewellery
+| | | items, a s | elf-certified ph | otograph of | | products s | hall also be
+| | | submitted.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 4, 'b) Unit shall declare personal carriage of such samples to Customs
 while leaving country and obtain necessary endorsement.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 4, 'c)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 5, '| | | | |
+| | c) | Unit has be | en in existence | for at least t | w | o years an | d engaged in
+| | | export of | agriculture / | horticulture | / | aquacultu | re products;
+| | | otherwise it | shall furnish ba | nk guarantee | e | quivalent to | duty and/or
+| | | taxes foreg | one on capital g | oods / inputs | p | roposed to | be taken out,
+| | | to Deputy / | Assistant Comm | issioner of Cu | | stoms, till u | nit completes
+| | | two years.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 6, '| For gems a | nd jewellery
+| | | items, a s | elf-certified ph | otograph of | | products s | hall also be
+| | | submitted.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 7, '| | b) | Unit shall d | eclare persona | l carriage of s | | uch sample | s to Customs
+| | | while leavin | g country and | obtain necessa | r | y endorsem | ent.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 8, 'c)
 Unit has been in existence for at least two years and engaged in
 export of agriculture / horticulture / aquaculture products;
 otherwise it shall furnish bank guarantee equivalent to duty and/or
 taxes foregone on capital goods / inputs proposed to be taken out,
 to Deputy / Assistant Commissioner of Customs, till unit completes
 two years.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 5, 'b)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 9, 'b)
 Unit shall declare personal carriage of such samples to Customs
 while leaving country and obtain necessary endorsement.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 6, 'Run validation: 6.24 Personal Carriage of Gems and Jewellery as samples for Export
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 10, 'Run validation: 6.24 Personal Carriage of Gems and Jewellery as samples for Export
 Promotion Tours
 Personal carriage of gold / silver / platinum jewellery, cut and polished
 diamonds, precious, semi-precious stones, beads and articles as samples upto
@@ -6105,38 +8269,42 @@ US $ 1 million for export promotion tours, and temporary display / sale abroad
 by EOUs, is also permitted with approval of DC subject to following conditions:
 a) EOU shall bring back goods or repatriate sale proceeds within 45
 days from date of departure through normal banking channel.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 7, 'Run validation: b) Unit shall declare personal carriage of such samples to Customs
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 11, 'Run validation: b) Unit shall declare personal carriage of such samples to Customs
 while leaving country and obtain necessary endorsement.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 8, 'Run validation: c)
-Unit has been in existence for at least two years and engaged in
-export of agriculture / horticulture / aquaculture products;
-otherwise it shall furnish bank guarantee equivalent to duty and/or
-taxes foregone on capital goods / inputs proposed to be taken out,
-to Deputy / Assistant Commissioner of Customs, till unit completes
-two years.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 12, 'Run validation: | | | | |
+| | c) | Unit has be | en in existence | for at least t | w | o years an | d engaged in
+| | | export of | agriculture / | horticulture | / | aquacultu | re products;
+| | | otherwise it | shall furnish ba | nk guarantee | e | quivalent to | duty and/or
+| | | taxes foreg | one on capital g | oods / inputs | p | roposed to | be taken out,
+| | | to Deputy / | Assistant Comm | issioner of Cu | | stoms, till u | nit completes
+| | | two years.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.24', 13, 'Handle exception: However, in | case exporter | | is participa | ting in more
+| | | than one ex | hibition within | 45 days of clo | s | e of first ex | hibition, then
+| | | 60 days sh | all be counted f | rom date of c | l | ose of last | exhibition.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'and');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'for');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'cut');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'EOU');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'has');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'two');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'one');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'out');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'Gems');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'gold');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'upto');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'sale');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'EOUs');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'also');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'with');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'back');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'days');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'from');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'date');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'Unit');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'such');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'nit');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'two');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'Tou');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'STP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'BTP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'con');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'oms');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'its');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'bef');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'ore');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'keywords', 'old');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'tags', '6.24');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'tags', 'Personal Carriage of Gems and Jewellery as samples for Export');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'tags', 'document-driven');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.24', 'tags', 'dgft');
 INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP-Chapter-6.pdf', '6', 'Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology', '6.25', 'Export through Show-rooms abroad / Duty free shops', '6.25 Export through Show-rooms abroad / Duty free shops
 Export of goods is also permitted for display / sale in permitted shops set up
@@ -6317,6 +8485,38 @@ should be followed mutatis mutandis.
 d) Personal carriage of parts by foreign bound passengers shall be
 allowed in case same are required for repairs of exported goods at
 pg. 147
+Export of goo | ds is also per | mitted for dis | play / sale i | n | pe | rmitted | shop | s set up
+abroad or in | showrooms o | f their distribu | tors / agen | ts |. It | ems not | sold | abroad
+within 180 d | ays shall be r | e- imported wi | thin 45 day | s. | | | |
+.26 Sale th | rough Show | rooms / Ret | ail outlets | a | t I | nterna | tion | al
+irports | | | | | | | |
+EOUs may se | t up showroo | ms / retail outl | ets at Inter | n | ati | onal Airp | orts | for sale of
+goods in acc | ordance with | procedure lai | d down by | C | ust | oms aut | hori | ties. Items
+remaining u | nsold after a | period of 60 | days shall b | e | e | xported | or r | eturned to
+respective E | OUs. | | | | | | |
+.27 Perso | nal Carriage | of Import / | Export Pa | rc | el | s inclu | ding |
+hrough For | eign Bound | Passengers | | | | | |
+a) | For Personal | carriage of je | wellery by | f | or | eign bo | und | passenger,
+| following do | cuments shall | be submi | tt | ed | by EO | Us a | s proof of
+| exports: | | | | | | |
+| i. | Copy of shippi | ng bill filed | by | E | OUs; | |
+| ii. | A copy of Curre | ncy Declar | at | io | n Form f | iled b | y Foreign
+| | buyer with Cus | toms at tim | e | of | his arri | val; a | nd
+| iii. | Foreign Exch | ange Real | is | ati | on / | Enca | shment
+| | Certificate fro | m Bank. | | | | |
+b) | In addition to | this, Persona | l Carriage b | y | fo | reign bo | und | passenger
+| on Document | Against Acce | ptance (DA | ) | / C | ash On | Deliv | ery (COD)
+| basis is als | o allowed. E | OUs will h | a | ve | to fur | nish | following
+| documents a | s proof of expo | rts:- | | | | |
+| i. | Copy of Shippi | ng Bill; | | | | |
+| ii. | Bank Certificat | e of Export | a | nd | Realisat | ion. |
+c) | Procedure fo | r personal carr | iage of imp | o | rt | parcels | will | be same as
+| for import o | f goods by ai | rfreight ex | c | ept | that p | arcel | s shall be
+| brought to Cu | stoms by EOU | s / foreign n | a | tio | nal for e | xami | nation and
+| release. Instr | uctions issued | by Custom | s | au | thoritie | s in t | his regard
+| should be foll | owed mutatis | mutandis. | | | | |
+d) | Personal car | riage of parts | by foreign | b | ou | nd pass | enge | rs shall be
+| allowed in ca | se same are re | quired for r | e | pai | rs of exp | orte | d goods at
 pg. 147
 6.27 Personal Carriage of Import / Export Parcels including
 through Foreign Bound Passengers
@@ -6353,7 +8553,7 @@ allowed in case same are required for repairs of exported goods at
 customer site. Following documents should be submitted as proof
 of exports:
 i. Permission letter from Customs for exports.
-ii. Invoice with value (for payment or free of charge).', '[15, 16]', '["For", "his", "and", "iii", "COD", "are", "EOUs", "Copy", "bill", "Form", "with", "time", "from", "Bank", "this", "Cash", "also", "will", "have", "same"]', 'Support Personal Carriage of Import / Export Parcels including processing and compliance validation.', '["6.27", "Personal Carriage of Import / Export Parcels including", "business-rule", "document-driven", "dgft"]');
+ii. Invoice with value (for payment or free of charge).', '[15, 16]', '["For", "his", "and", "iii", "COD", "are", "goo", "per", "dis", "set", "ems", "not", "ays", "day", "Ret", "ail", "may", "ets", "ati", "acc"]', 'Support Personal Carriage of Import / Export Parcels including processing and compliance validation.', '["6.27", "Personal Carriage of Import / Export Parcels including", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R001', '6.27', '6.27 Personal Carriage of Import / Export Parcels including
 through Foreign Bound Passengers
 a) For Personal carriage of jewellery by foreign bound passenger,
@@ -6400,7 +8600,81 @@ brought to Customs by EOUs / foreign national for examination and
 release.', 'DEKAI should produce a compliance decision for 6.27 - Personal Carriage of Import / Export Parcels including.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R004', '6.27', 'd) Personal carriage of parts by foreign bound passengers shall be
 allowed in case same are required for repairs of exported goods at
-pg.', 'business_rule', 'Personal Carriage of Import / Export Parcels including', 'd)
+pg.', 'business_rule', 'Personal Carriage of Import / Export Parcels including', 'Items
+remaining u | nsold after a | period of 60 | days shall b | e | e | xported | or r | eturned to
+respective E | OUs.', 'It | ems not | sold | abroad
+within 180 d | ays shall be r | e- imported wi | thin 45 day | s.', 'Instr | uctions issued | by Custom | s | au | thoritie | s in t | his regard
+| should be foll | owed mutatis | mutandis.', 'c)
+Procedure for personal carriage of import parcels will be same as
+for import of goods by airfreight except that parcels shall be
+brought to Customs by EOUs / foreign national for examination and
+release.', 'DEKAI should produce a compliance decision for 6.27 - Personal Carriage of Import / Export Parcels including.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R005', '6.27', 'It | ems not | sold | abroad
+within 180 d | ays shall be r | e- imported wi | thin 45 day | s.', 'business_rule', 'Personal Carriage of Import / Export Parcels including', '| Foreign Exch | ange Real | is | ati | on / | Enca | shment
+| | Certificate fro | m Bank.', 'Items
+remaining u | nsold after a | period of 60 | days shall b | e | e | xported | or r | eturned to
+respective E | OUs.', '147
+6.27 Personal Carriage of Import / Export Parcels including
+through Foreign Bound Passengers
+a)
+For Personal carriage of jewellery by foreign bound passenger,
+following documents shall be submitted by EOUs as proof of
+exports:
+i.', 'c)
+Procedure for personal carriage of import parcels will be same as
+for import of goods by airfreight except that parcels shall be
+brought to Customs by EOUs / foreign national for examination and
+release.', 'DEKAI should produce a compliance decision for 6.27 - Personal Carriage of Import / Export Parcels including.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R006', '6.27', 'Items
+remaining u | nsold after a | period of 60 | days shall b | e | e | xported | or r | eturned to
+respective E | OUs.', 'business_rule', 'Personal Carriage of Import / Export Parcels including', '| Bank Certificat | e of Export | a | nd | Realisat | ion.', '| | | | | | |
+.27 Perso | nal Carriage | of Import / | Export Pa | rc | el | s inclu | ding |
+hrough For | eign Bound | Passengers | | | | | |
+a) | For Personal | carriage of je | wellery by | f | or | eign bo | und | passenger,
+| following do | cuments shall | be submi | tt | ed | by EO | Us a | s proof of
+| exports: | | | | | | |
+| i.', 'Following documents should be submitted as proof
+of exports:
+i.', 'c)
+Procedure for personal carriage of import parcels will be same as
+for import of goods by airfreight except that parcels shall be
+brought to Customs by EOUs / foreign national for examination and
+release.', 'DEKAI should produce a compliance decision for 6.27 - Personal Carriage of Import / Export Parcels including.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R007', '6.27', '| | | | | | |
+.27 Perso | nal Carriage | of Import / | Export Pa | rc | el | s inclu | ding |
+hrough For | eign Bound | Passengers | | | | | |
+a) | For Personal | carriage of je | wellery by | f | or | eign bo | und | passenger,
+| following do | cuments shall | be submi | tt | ed | by EO | Us a | s proof of
+| exports: | | | | | | |
+| i.', 'business_rule', 'Personal Carriage of Import / Export Parcels including', 'd)
+Personal carriage of parts by foreign bound passengers shall be
+allowed in case same are required for repairs of exported goods at
+customer site.', '|
+c) | Procedure fo | r personal carr | iage of imp | o | rt | parcels | will | be same as
+| for import o | f goods by ai | rfreight ex | c | ept | that p | arcel | s shall be
+| brought to Cu | stoms by EOU | s / foreign n | a | tio | nal for e | xami | nation and
+| release.', 'Invoice with value (for payment or free of charge).', 'c)
+Procedure for personal carriage of import parcels will be same as
+for import of goods by airfreight except that parcels shall be
+brought to Customs by EOUs / foreign national for examination and
+release.', 'DEKAI should produce a compliance decision for 6.27 - Personal Carriage of Import / Export Parcels including.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R008', '6.27', '|
+c) | Procedure fo | r personal carr | iage of imp | o | rt | parcels | will | be same as
+| for import o | f goods by ai | rfreight ex | c | ept | that p | arcel | s shall be
+| brought to Cu | stoms by EOU | s / foreign n | a | tio | nal for e | xami | nation and
+| release.', 'business_rule', 'Personal Carriage of Import / Export Parcels including', 'd)
+Personal carriage of parts by foreign bound passengers shall be
+allowed in case same are required for repairs of exported goods at
+customer site.', '| | | | |
+d) | Personal car | riage of parts | by foreign | b | ou | nd pass | enge | rs shall be
+| allowed in ca | se same are re | quired for r | e | pai | rs of exp | orte | d goods at
+pg.', 'Invoice with value (for payment or free of charge).', 'c)
+Procedure for personal carriage of import parcels will be same as
+for import of goods by airfreight except that parcels shall be
+brought to Customs by EOUs / foreign national for examination and
+release.', 'DEKAI should produce a compliance decision for 6.27 - Personal Carriage of Import / Export Parcels including.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R009', '6.27', 'Instr | uctions issued | by Custom | s | au | thoritie | s in t | his regard
+| should be foll | owed mutatis | mutandis.', 'business_rule', 'Personal Carriage of Import / Export Parcels including', 'd)
 Personal carriage of parts by foreign bound passengers shall be
 allowed in case same are required for repairs of exported goods at
 customer site.', '147
@@ -6410,19 +8684,27 @@ a)
 For Personal carriage of jewellery by foreign bound passenger,
 following documents shall be submitted by EOUs as proof of
 exports:
-i.', '147
-6.27 Personal Carriage of Import / Export Parcels including
-through Foreign Bound Passengers
-a)
-For Personal carriage of jewellery by foreign bound passenger,
-following documents shall be submitted by EOUs as proof of
-exports:
-i.', 'c)
+i.', 'Invoice with value (for payment or free of charge).', 'c)
 Procedure for personal carriage of import parcels will be same as
 for import of goods by airfreight except that parcels shall be
 brought to Customs by EOUs / foreign national for examination and
 release.', 'DEKAI should produce a compliance decision for 6.27 - Personal Carriage of Import / Export Parcels including.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R005', '6.27', '147
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R010', '6.27', '| | | | |
+d) | Personal car | riage of parts | by foreign | b | ou | nd pass | enge | rs shall be
+| allowed in ca | se same are re | quired for r | e | pai | rs of exp | orte | d goods at
+pg.', 'business_rule', 'Personal Carriage of Import / Export Parcels including', 'd)
+Personal carriage of parts by foreign bound passengers shall be
+allowed in case same are required for repairs of exported goods at
+customer site.', 'c)
+Procedure for personal carriage of import parcels will be same as
+for import of goods by airfreight except that parcels shall be
+brought to Customs by EOUs / foreign national for examination and
+release.', 'Invoice with value (for payment or free of charge).', 'c)
+Procedure for personal carriage of import parcels will be same as
+for import of goods by airfreight except that parcels shall be
+brought to Customs by EOUs / foreign national for examination and
+release.', 'DEKAI should produce a compliance decision for 6.27 - Personal Carriage of Import / Export Parcels including.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R011', '6.27', '147
 6.27 Personal Carriage of Import / Export Parcels including
 through Foreign Bound Passengers
 a)
@@ -6432,18 +8714,15 @@ exports:
 i.', 'business_rule', 'Personal Carriage of Import / Export Parcels including', 'd)
 Personal carriage of parts by foreign bound passengers shall be
 allowed in case same are required for repairs of exported goods at
-customer site.', 'c)
-Procedure for personal carriage of import parcels will be same as
-for import of goods by airfreight except that parcels shall be
-brought to Customs by EOUs / foreign national for examination and
-release.', 'Following documents should be submitted as proof
-of exports:
-i.', 'c)
+customer site.', 'd)
+Personal carriage of parts by foreign bound passengers shall be
+allowed in case same are required for repairs of exported goods at
+customer site.', 'Invoice with value (for payment or free of charge).', 'c)
 Procedure for personal carriage of import parcels will be same as
 for import of goods by airfreight except that parcels shall be
 brought to Customs by EOUs / foreign national for examination and
 release.', 'DEKAI should produce a compliance decision for 6.27 - Personal Carriage of Import / Export Parcels including.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R006', '6.27', 'c)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R012', '6.27', 'c)
 Procedure for personal carriage of import parcels will be same as
 for import of goods by airfreight except that parcels shall be
 brought to Customs by EOUs / foreign national for examination and
@@ -6458,7 +8737,7 @@ Procedure for personal carriage of import parcels will be same as
 for import of goods by airfreight except that parcels shall be
 brought to Customs by EOUs / foreign national for examination and
 release.', 'DEKAI should produce a compliance decision for 6.27 - Personal Carriage of Import / Export Parcels including.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R007', '6.27', 'd)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R013', '6.27', 'd)
 Personal carriage of parts by foreign bound passengers shall be
 allowed in case same are required for repairs of exported goods at
 customer site.', 'business_rule', 'Personal Carriage of Import / Export Parcels including', 'd)
@@ -6472,7 +8751,7 @@ Procedure for personal carriage of import parcels will be same as
 for import of goods by airfreight except that parcels shall be
 brought to Customs by EOUs / foreign national for examination and
 release.', 'DEKAI should produce a compliance decision for 6.27 - Personal Carriage of Import / Export Parcels including.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R008', '6.27', 'Following documents should be submitted as proof
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_27-R014', '6.27', 'Following documents should be submitted as proof
 of exports:
 i.', 'business_rule', 'Personal Carriage of Import / Export Parcels including', 'd)
 Personal carriage of parts by foreign bound passengers shall be
@@ -6491,6 +8770,12 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('6.27', 'Bank Cert
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.27', 'd) Personal carriage of parts by foreign bound passengers shall be
 allowed in case same are required for repairs of exported goods at
 pg.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.27', 'Items
+remaining u | nsold after a | period of 60 | days shall b | e | e | xported | or r | eturned to
+respective E | OUs.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.27', '| Foreign Exch | ange Real | is | ati | on / | Enca | shment
+| | Certificate fro | m Bank.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.27', '| Bank Certificat | e of Export | a | nd | Realisat | ion.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.27', 'd)
 Personal carriage of parts by foreign bound passengers shall be
 allowed in case same are required for repairs of exported goods at
@@ -6514,6 +8799,29 @@ documents as proof of exports:-
 i.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.27', 'Copy of Shipping Bill');
 INSERT INTO documents (section_code, document_name) VALUES ('6.27', 'Bank Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('6.27', '| | | | | | |
+.27 Perso | nal Carriage | of Import / | Export Pa | rc | el | s inclu | ding |
+hrough For | eign Bound | Passengers | | | | | |
+a) | For Personal | carriage of je | wellery by | f | or | eign bo | und | passenger,
+| following do | cuments shall | be submi | tt | ed | by EO | Us a | s proof of
+| exports: | | | | | | |
+| i.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.27', '| Copy of shippi | ng bill filed | by | E | OUs; | |
+| ii.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.27', '| A copy of Curre | ncy Declar | at | io | n Form f | iled b | y Foreign
+| | buyer with Cus | toms at tim | e | of | his arri | val; a | nd
+| iii.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.27', '| Foreign Exch | ange Real | is | ati | on / | Enca | shment
+| | Certificate fro | m Bank.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.27', '| | | | |
+b) | In addition to | this, Persona | l Carriage b | y | fo | reign bo | und | passenger
+| on Document | Against Acce | ptance (DA | ) | / C | ash On | Deliv | ery (COD)
+| basis is als | o allowed.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.27', 'E | OUs will h | a | ve | to fur | nish | following
+| documents a | s proof of expo | rts:- | | | | |
+| i.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.27', '| Copy of Shippi | ng Bill; | | | | |
+| ii.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.27', '147
 6.27 Personal Carriage of Import / Export Parcels including
 through Foreign Bound Passengers
@@ -6533,6 +8841,11 @@ INSERT INTO documents (section_code, document_name) VALUES ('6.27', 'Invoice wit
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.27', 'Customs');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.27', 'Instructions issued by Customs');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.27', 'Permission letter from Customs');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.27', 'It | ems not | sold | abroad
+within 180 d | ays shall be r | e- imported wi | thin 45 day | s.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.27', 'Items
+remaining u | nsold after a | period of 60 | days shall b | e | e | xported | or r | eturned to
+respective E | OUs.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.27', 'c) Procedure for personal carriage of import parcels will be same as
 for import of goods by airfreight except that parcels shall be
 brought to Customs by EOUs / foreign national for examination and
@@ -6559,7 +8872,9 @@ documents as proof of exports:-
 i.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.27', 6, 'Instructions issued by Customs authorities in this regard
 should be followed mutatis mutandis.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.27', 7, '147
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.27', 7, 'Instr | uctions issued | by Custom | s | au | thoritie | s in t | his regard
+| should be foll | owed mutatis | mutandis.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.27', 8, '147
 6.27 Personal Carriage of Import / Export Parcels including
 through Foreign Bound Passengers
 a)
@@ -6567,10 +8882,9 @@ For Personal carriage of jewellery by foreign bound passenger,
 following documents shall be submitted by EOUs as proof of
 exports:
 i.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.27', 8, 'Following documents should be submitted as proof
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.27', 9, 'Following documents should be submitted as proof
 of exports:
 i.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.27', 9, 'Invoice with value (for payment or free of charge).');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.27', 10, 'Run validation: 6.27 Personal Carriage of Import / Export Parcels including
 through Foreign Bound Passengers
 a) For Personal carriage of jewellery by foreign bound passenger,
@@ -6594,20 +8908,20 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'iii');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'COD');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'are');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'EOUs');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'Copy');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'bill');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'Form');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'with');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'time');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'from');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'Bank');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'this');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'Cash');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'also');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'will');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'have');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'same');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'goo');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'per');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'dis');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'set');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'ems');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'ays');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'day');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'Ret');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'ail');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'ets');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'ati');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'keywords', 'acc');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'tags', '6.27');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'tags', 'Personal Carriage of Import / Export Parcels including');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.27', 'tags', 'business-rule');
@@ -6769,18 +9083,18 @@ furnishing a suitable undertaking to Customs authorities for
 bringing back samples within a stipulated period. c) An EOU may export free samples, without any limit, including
 samples made in wax moulds, silver mould and rubber moulds
 through all permissible mode of export including through courier
-agencies / post.', 'Samples governs how DGFT business controls should be applied, validated, and enforced.', 'Samples explains the operating rule set that DEKAI should enforce. Key control points include Following documents should be submitted as proof
-of exports:
-i. The section also drives actions such as 6.29 Samples
+agencies / post.', 'Samples governs how DGFT business controls should be applied, validated, and enforced.', 'Samples explains the operating rule set that DEKAI should enforce. Key control points include | F | ollowing | docum | ents should | be submi | tted as proof
+| | of exports: | | | | | |
+| | i. The section also drives actions such as 6.29 Samples
 a) EOU / EHTP / STP / BTP units may on basis of records maintained
 by them, and on prior intimation to Customs authority, supply or
 sell samples in DTA for display / market promotion on payment of
 excise duty, if applicable, and/or payment of GST and
 compensation cess along with reversal of duties of Customs
 leviable under First Schedule to the Customs Tariff Act, 1975, if
-availed on inputs..', 'Indha Samples section-la, Samples explains the operating rule set that DEKAI should enforce. Key control points include Following documents should be submitted as proof
-of exports:
-i. The section also drives actions such as 6.29 Samples
+availed on inputs..', 'Indha Samples section-la, Samples explains the operating rule set that DEKAI should enforce. Key control points include | F | ollowing | docum | ents should | be submi | tted as proof
+| | of exports: | | | | | |
+| | i. The section also drives actions such as 6.29 Samples
 a) EOU / EHTP / STP / BTP units may on basis of records maintained
 by them, and on prior intimation to Customs authority, supply or
 sell samples in DTA for display / market promotion on payment of
@@ -6804,6 +9118,43 @@ through all permissible mode of export including through courier
 agencies / post. For statutory requirement of Stability & Retention
 sample with manufacturer, an EOU / EHTP / BTP / STP
 pg. 148
+| | customer site. | F | ollowing | docum | ents should | be submi | tted as proof
+| | of exports: | | | | | |
+| | i. P | e | rmission l | etter fr | om Customs | for expo | rts.
+| | ii. In | | voice with | value | (for payment | or free o | f charge).
+6.28 R | eplac | ement / Rep | a | ir of Imp | orted | / Indigeno | us Good | s
+| a) | Units may sen | d | capital go | ods ab | road for rep | air with | permission of
+| | Customs auth | o | rities. An | y fore | ign exchan | ge paym | ent for this
+| | purpose will | a | lso be all | owed. | However, n | o permis | sion will be
+| | required for se | | nding capi | tal goo | ds for repair | within c | ountry.
+| b) | EOU / EHTP / | S | TP / BTP | units m | ay, on basis | of record | s maintained
+| | by them and p | r | ior intima | tion to | Customs aut | horities: |
+| i. | Transfe | r | goods to | DTA / | abroad for | repair / | replacement,
+| | testing o | | r calibrati | on and | return. | |
+| ii. | Transfe | r | goods fo | r quali | ty testing / | R&D pu | rpose to any
+| | recogniz | | ed labora | tory / | institution | upto Rs. | 10 lakh per
+| | annum | w | ithout pa | yment | of duty and/ | or taxes | as applicable
+| | in such | c | ases on gi | ving su | itable under | taking to | Customs for
+| | return o | f | goods. H | oweve | r, if goods h | ave been | consumed /
+| | destroy | e | d in pro | cess o | f testing et | c. a cer | tificate from
+| | laborato | r | y / inst | itution | to this ef | fect be | furnished to
+| | Customs |. | | | | |
+6.29 S | ampl | es | | | | | |
+| a) | EOU / EHTP / | S | TP / BTP | units m | ay on basis | of record | s maintained
+| | by them, and | o | n prior in | timatio | n to Custom | s author | ity, supply or
+| | sell samples in | | DTA for di | splay / | market pro | motion o | n payment of
+| | excise duty, | | if applic | able, | and/or pa | yment o | f GST and
+| | compensation | | cess alon | g with | reversal o | f duties | of Customs
+| | leviable under | | First Sche | dule t | o the Custo | ms Tariff | Act, 1975, if
+| | availed on inp | u | ts. | | | |
+| b) | Remove samp | l | es witho | ut pay | ment of d | uty and/ | or taxes on
+| | furnishing a | s | uitable u | nderta | king to Cus | toms au | thorities for
+| | bringing back | s | amples wi | thin a | stipulated pe | riod. |
+| c) | An EOU may | e | xport fre | e sam | ples, withou | t any lim | it, including
+| | samples made | | in wax m | oulds, | silver moul | d and ru | bber moulds
+| | through all pe | r | missible m | ode o | f export incl | uding thr | ough courier
+| | agencies / pos | t. | For statu | tory re | quirement of | Stability | & Retention
+| | sample with m | a | nufacture | r, an E | OU / EHTP / | BTP / ST | P
 pg. 148
 customer site. Following documents should be submitted as proof
 of exports:
@@ -6837,30 +9188,23 @@ value of such samples shall not be counted for NFE purpose and
 other export benefits, if any.
 d) An EOU, on basis of records maintained by them and on prior
 intimation to Customs authorities, may send samples to other EOUs
-for display on returnable basis within a period of 30 days.', '[16, 17]', '["EOU", "STP", "BTP", "may", "and", "DTA", "for", "GST", "the", "Act", "any", "wax", "all", "FTP", "FOB", "not", "NFE", "EHTP", "them", "sell"]', 'Support Samples processing and compliance validation.', '["6.29", "Samples", "business-rule", "document-driven", "dgft"]');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_29-R001', '6.29', 'Following documents should be submitted as proof
-of exports:
-i.', 'business_rule', 'Samples', 'applicable', 'For statutory requirement of Stability & Retention
-sample with manufacturer, an EOU / EHTP / BTP / STP
-unit may re-import with or without payment of duties/taxes as
-provided at para 6.01(d)(ii) of FTP those samples, which were
-exported by it, under intimation to Custom Authorities, and FOB
-value of such samples shall not be counted for NFE purpose and
-other export benefits, if any.', '6.29 Samples
+for display on returnable basis within a period of 30 days.', '[16, 17]', '["EOU", "STP", "BTP", "may", "and", "DTA", "for", "GST", "the", "Act", "any", "wax", "all", "rts", "Rep", "Imp", "sen", "ods", "air", "ign"]', 'Support Samples processing and compliance validation.', '["6.29", "Samples", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_29-R001', '6.29', '| F | ollowing | docum | ents should | be submi | tted as proof
+| | of exports: | | | | | |
+| | i.', 'business_rule', 'Samples', 'applicable', '| However, n | o permis | sion will be
+| | required for se | | nding capi | tal goo | ds for repair | within c | ountry.', '6.29 Samples
 a) EOU / EHTP / STP / BTP units may on basis of records maintained
 by them, and on prior intimation to Customs authority, supply or
 sell samples in DTA for display / market promotion on payment of
 excise duty, if applicable, and/or payment of GST and
 compensation cess along with reversal of duties of Customs
 leviable under First Schedule to the Customs Tariff Act, 1975, if
-availed on inputs.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.29 - Samples.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_29-R002', '6.29', 'For statutory requirement of Stability & Retention
-sample with manufacturer, an EOU / EHTP / BTP / STP
-unit may re-import with or without payment of duties/taxes as
-provided at para 6.01(d)(ii) of FTP those samples, which were
-exported by it, under intimation to Custom Authorities, and FOB
-value of such samples shall not be counted for NFE purpose and
-other export benefits, if any.', 'business_rule', 'Samples', 'applicable', 'For statutory requirement of Stability & Retention
+availed on inputs.', '| However, n | o permis | sion will be
+| | required for se | | nding capi | tal goo | ds for repair | within c | ountry.', 'DEKAI should produce a compliance decision for 6.29 - Samples.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_29-R002', '6.29', 'Following documents should be submitted as proof
+of exports:
+i.', 'business_rule', 'Samples', 'H | oweve | r, if goods h | ave been | consumed /
+| | destroy | e | d in pro | cess o | f testing et | c.', 'For statutory requirement of Stability & Retention
 sample with manufacturer, an EOU / EHTP / BTP / STP
 unit may re-import with or without payment of duties/taxes as
 provided at para 6.01(d)(ii) of FTP those samples, which were
@@ -6868,7 +9212,24 @@ exported by it, under intimation to Custom Authorities, and FOB
 value of such samples shall not be counted for NFE purpose and
 other export benefits, if any.', 'b) Remove samples without payment of duty and/or taxes on
 furnishing a suitable undertaking to Customs authorities for
-bringing back samples within a stipulated period.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.29 - Samples.');
+bringing back samples within a stipulated period.', '| However, n | o permis | sion will be
+| | required for se | | nding capi | tal goo | ds for repair | within c | ountry.', 'DEKAI should produce a compliance decision for 6.29 - Samples.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_29-R003', '6.29', 'For statutory requirement of Stability & Retention
+sample with manufacturer, an EOU / EHTP / BTP / STP
+unit may re-import with or without payment of duties/taxes as
+provided at para 6.01(d)(ii) of FTP those samples, which were
+exported by it, under intimation to Custom Authorities, and FOB
+value of such samples shall not be counted for NFE purpose and
+other export benefits, if any.', 'business_rule', 'Samples', 'a cer | tificate from
+| | laborato | r | y / inst | itution | to this ef | fect be | furnished to
+| | Customs |.', 'For statutory requirement of Stability & Retention
+sample with manufacturer, an EOU / EHTP / BTP / STP
+unit may re-import with or without payment of duties/taxes as
+provided at para 6.01(d)(ii) of FTP those samples, which were
+exported by it, under intimation to Custom Authorities, and FOB
+value of such samples shall not be counted for NFE purpose and
+other export benefits, if any.', 'In | | voice with | value | (for payment | or free o | f charge).', '| However, n | o permis | sion will be
+| | required for se | | nding capi | tal goo | ds for repair | within c | ountry.', 'DEKAI should produce a compliance decision for 6.29 - Samples.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.29', '6.29 Samples
 a) EOU / EHTP / STP / BTP units may on basis of records maintained
 by them, and on prior intimation to Customs authority, supply or
@@ -6877,6 +9238,20 @@ excise duty, if applicable, and/or payment of GST and
 compensation cess along with reversal of duties of Customs
 leviable under First Schedule to the Customs Tariff Act, 1975, if
 availed on inputs.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.29', 'H | oweve | r, if goods h | ave been | consumed /
+| | destroy | e | d in pro | cess o | f testing et | c.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.29', 'a cer | tificate from
+| | laborato | r | y / inst | itution | to this ef | fect be | furnished to
+| | Customs |.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.29', '| | | | |
+6.29 S | ampl | es | | | | | |
+| a) | EOU / EHTP / | S | TP / BTP | units m | ay on basis | of record | s maintained
+| | by them, and | o | n prior in | timatio | n to Custom | s author | ity, supply or
+| | sell samples in | | DTA for di | splay / | market pro | motion o | n payment of
+| | excise duty, | | if applic | able, | and/or pa | yment o | f GST and
+| | compensation | | cess alon | g with | reversal o | f duties | of Customs
+| | leviable under | | First Sche | dule t | o the Custo | ms Tariff | Act, 1975, if
+| | availed on inp | u | ts.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.29', '6.29 Samples
 a)
 EOU / EHTP / STP / BTP units may on basis of records maintained
@@ -6896,6 +9271,9 @@ other export benefits, if any.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.29', 'b) Remove samples without payment of duty and/or taxes on
 furnishing a suitable undertaking to Customs authorities for
 bringing back samples within a stipulated period.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.29', '| F | ollowing | docum | ents should | be submi | tted as proof
+| | of exports: | | | | | |
+| | i.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.29', 'Following documents should be submitted as proof
 of exports:
 i.');
@@ -6912,6 +9290,8 @@ INSERT INTO authorities (section_code, authority_name) VALUES ('6.29', 'Custom A
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.29', 'b) Remove samples without payment of duty and/or taxes on
 furnishing a suitable undertaking to Customs authorities for
 bringing back samples within a stipulated period.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.29', '| However, n | o permis | sion will be
+| | required for se | | nding capi | tal goo | ds for repair | within c | ountry.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.29', 'b)
 Remove samples without payment of duty and/or taxes on
 furnishing a suitable undertaking to Customs authorities for
@@ -6919,6 +9299,8 @@ bringing back samples within a stipulated period.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.29', 'd) An EOU, on basis of records maintained by them and on prior
 intimation to Customs authorities, may send samples to other EOUs
 for display on returnable basis within a period of 30 days.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6.29', '| However, n | o permis | sion will be
+| | required for se | | nding capi | tal goo | ds for repair | within c | ountry.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 1, 'Evaluate condition: 6.29 Samples
 a) EOU / EHTP / STP / BTP units may on basis of records maintained
 by them, and on prior intimation to Customs authority, supply or
@@ -6927,22 +9309,11 @@ excise duty, if applicable, and/or payment of GST and
 compensation cess along with reversal of duties of Customs
 leviable under First Schedule to the Customs Tariff Act, 1975, if
 availed on inputs.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 2, 'Evaluate condition: 6.29 Samples
-a)
-EOU / EHTP / STP / BTP units may on basis of records maintained
-by them, and on prior intimation to Customs authority, supply or
-sell samples in DTA for display / market promotion on payment of
-excise duty, if applicable, and/or payment of GST and
-compensation cess along with reversal of duties of Customs
-leviable under First Schedule to the Customs Tariff Act, 1975, if
-availed on inputs.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 3, 'Evaluate condition: For statutory requirement of Stability & Retention
-sample with manufacturer, an EOU / EHTP / BTP / STP
-unit may re-import with or without payment of duties/taxes as
-provided at para 6.01(d)(ii) of FTP those samples, which were
-exported by it, under intimation to Custom Authorities, and FOB
-value of such samples shall not be counted for NFE purpose and
-other export benefits, if any.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 2, 'Evaluate condition: H | oweve | r, if goods h | ave been | consumed /
+| | destroy | e | d in pro | cess o | f testing et | c.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 3, 'Evaluate condition: a cer | tificate from
+| | laborato | r | y / inst | itution | to this ef | fect be | furnished to
+| | Customs |.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 4, '6.29 Samples
 a) EOU / EHTP / STP / BTP units may on basis of records maintained
 by them, and on prior intimation to Customs authority, supply or
@@ -6954,30 +9325,26 @@ availed on inputs.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 5, 'b) Remove samples without payment of duty and/or taxes on
 furnishing a suitable undertaking to Customs authorities for
 bringing back samples within a stipulated period.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 6, 'Following documents should be submitted as proof
-of exports:
-i.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 7, 'Invoice with value (for payment or free of charge).');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 8, '6.29 Samples
-a)
-EOU / EHTP / STP / BTP units may on basis of records maintained
-by them, and on prior intimation to Customs authority, supply or
-sell samples in DTA for display / market promotion on payment of
-excise duty, if applicable, and/or payment of GST and
-compensation cess along with reversal of duties of Customs
-leviable under First Schedule to the Customs Tariff Act, 1975, if
-availed on inputs.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 9, 'b)
-Remove samples without payment of duty and/or taxes on
-furnishing a suitable undertaking to Customs authorities for
-bringing back samples within a stipulated period.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 10, 'Run validation: For statutory requirement of Stability & Retention
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 6, 'In | | voice with | value | (for payment | or free o | f charge).');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 7, 'An | y fore | ign exchan | ge paym | ent for this
+| | purpose will | a | lso be all | owed.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 8, '| b) | EOU / EHTP / | S | TP / BTP | units m | ay, on basis | of record | s maintained
+| | by them and p | r | ior intima | tion to | Customs aut | horities: |
+| i.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 9, 'a cer | tificate from
+| | laborato | r | y / inst | itution | to this ef | fect be | furnished to
+| | Customs |.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 10, 'Run validation: | However, n | o permis | sion will be
+| | required for se | | nding capi | tal goo | ds for repair | within c | ountry.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 11, 'Run validation: For statutory requirement of Stability & Retention
 sample with manufacturer, an EOU / EHTP / BTP / STP
 unit may re-import with or without payment of duties/taxes as
 provided at para 6.01(d)(ii) of FTP those samples, which were
 exported by it, under intimation to Custom Authorities, and FOB
 value of such samples shall not be counted for NFE purpose and
 other export benefits, if any.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.29', 12, 'Handle exception: | However, n | o permis | sion will be
+| | required for se | | nding capi | tal goo | ds for repair | within c | ountry.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'EOU');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'STP');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'BTP');
@@ -6991,13 +9358,13 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'any');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'wax');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'all');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'FTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'FOB');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'not');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'NFE');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'EHTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'them');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'sell');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'rts');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'Rep');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'Imp');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'sen');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'ods');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'air');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'keywords', 'ign');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'tags', '6.29');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'tags', 'Samples');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.29', 'tags', 'business-rule');
@@ -7344,25 +9711,56 @@ pg.', 'Unit Approval Committee for EOUs governs how DGFT business controls shoul
 a) Composition of Unit Approval Committee shall be as
 under:
 i. The section also drives actions such as 149
-unit may re-import with or without payment of duties/taxes as
-provided at para 6.01(d)(ii) of FTP those samples, which were
-exported by it, under intimation to Custom Authorities, and FOB
-value of such samples shall not be counted for NFE purpose and
-other export benefits, if any..', 'Indha Unit Approval Committee for EOUs section-la, Unit Approval Committee for EOUs explains the operating rule set that DEKAI should enforce. Key control points include 6.32 Unit Approval Committee for EOUs
+| unit may re-i | mport | with or without | payment | of | duties/t | axes as
+| provided at p | ara 6..', 'Indha Unit Approval Committee for EOUs section-la, Unit Approval Committee for EOUs explains the operating rule set that DEKAI should enforce. Key control points include 6.32 Unit Approval Committee for EOUs
 a) Composition of Unit Approval Committee kandippa be as
 under:
 i. The section also drives actions such as 149
-unit may re-import with or without payment of duties/taxes as
-provided at para 6.01(d)(ii) of FTP those samples, which were
-exported by it, under intimation to Custom Authorities, and FOB
-value of such samples kandippa not be counted for NFE purpose and
-other export benefits, if any..', '6.32 Unit Approval Committee for EOUs
+| unit may re-i | mport | with or without | payment | of | duties/t | axes as
+| provided at p | ara 6..', '6.32 Unit Approval Committee for EOUs
 a) Composition of Unit Approval Committee shall be as
 under:
 i. Development Commissioner: Chairperson
 ii. Jurisdictional Commissioner of CBIC or nominee:
 member
 pg. 149
+| unit may re-i | mport | with or without | payment | of | duties/t | axes as
+| provided at p | ara 6. | 01(d)(ii) of FTP | those sam | p | les, whic | h were
+| exported by it |, und | er intimation to C | ustom Au | th | orities, a | nd FOB
+| value of such | sampl | es shall not be co | unted for | N | FE purp | ose and
+| other export b | enefit | s, if any. | | | |
+d) | An EOU, on b | asis o | f records maintai | ned by t | he | m and o | n prior
+| intimation to C | ustom | s authorities, may | send sam | pl | es to oth | er EOUs
+| for display on | return | able basis within | a period o | f | 30 days. |
+.30 Donati | on of Compu | ter a | nd Computer Pe | ripheral | s | |
+EOU / EHTP | / STP / BTP un | it may | be allowed by Cu | stoms aut | ho | rities co | ncerned
+to donate im | ported / indige | nousl | y procured (bough | t or taken | o | n loan) co | mputer
+and comput | er periphera | ls, in | cluding printer, | plotter, | sc | anner, m | onitor,
+keyboard an | d storage units | witho | ut payment of dut | y other th | an | applicab | le taxes
+under GST La | w, two years | after t | heir import / proc | urement a | n | d use by | units, to
+a school run | by Central G | overn | ment, or Govern | ment of a | S | tate, or | a Union
+Territory, or | a local body; | an Ed | ucational Institut | ion run o | n | non-com | mercial
+basis by any | organization; | a Regi | stered Charitable | Hospital; | a | Public Li | brary; a
+Public Fund | ed Research | and | Development Est | ablishme | nt |; a Com | munity
+Information | Center run by | Centr | al Government or, | Governm | en | t of a St | ate or, a
+Union Territ | ory or local | body; | an Adult Educat | ion Cent | er | run by | Central
+Government | or, Governme | nt of a | State or, a Union | Territory | or | a local b | ody or,
+an organizati | on of Central | Gover | nment or, a Gover | nment of | a | State or, | a Union
+Territory as | per Customs / | Centr | al Excise notificati | on. | | |
+.31 Distin | ct Identity | | | | | |
+If an industri | al enterprise i | s oper | ating both as a do | mestic uni | t a | s well as | an EOU
+/ EHTP / S | TP/ BTP unit, | it sh | all have two disti | nct ident | iti | es with | separate
+accounts, inc | luding separat | e bank | accounts. It is, ho | wever, no | t | necessar | y for it to
+be a separat | e legal entity, | but it | should be possibl | e to disti | ng | uish imp | orts and
+exports or su | pplies effecte | d by E | OU / EHTP / STP | / BTP uni | ts | from tho | se made
+by other unit | s of enterprise |. | | | | |
+.32 Unit A | pproval Com | mitte | e for EOUs | | | |
+a) | Composition | of Uni | t Approval Com | mittee sh | all | be as |
+| under: | | | | | |
+i. | Develop | ment | Commissioner: Ch | airperson | | |
+ii. | Jurisdic | tional | Commissioner of | CBIC or | no | minee: |
+| membe | r | | | | |
+| | | | | | | pg. 149
 pg. 149
 unit may re-import with or without payment of duties/taxes as
 provided at para 6.01(d)(ii) of FTP those samples, which were
@@ -7408,30 +9806,70 @@ Governmentor its agencies;
 delegated by State Governments or its agencies;
 and
 (viii) to grant all approvals and clearances for
-establishment andoperation of EOUs', '[17, 18]', '["for", "may", "FTP", "and", "FOB", "not", "NFE", "any", "EOU", "iii", "the", "Act", "BOA", "SEZ", "law", "its", "vii", "all", "Unit", "EOUs"]', 'Support Unit Approval Committee for EOUs processing and compliance validation.', '["6.32", "Unit Approval Committee for EOUs", "business-rule", "document-driven", "dgft"]');
+establishment andoperation of EOUs', '[17, 18]', '["for", "may", "ara", "FTP", "sam", "les", "und", "FOB", "not", "ose", "and", "any", "EOU", "ned", "oth", "ter", "STP", "BTP", "aut", "dut"]', 'Support Unit Approval Committee for EOUs processing and compliance validation.', '["6.32", "Unit Approval Committee for EOUs", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R001', '6.32', '6.32 Unit Approval Committee for EOUs
 a) Composition of Unit Approval Committee shall be as
 under:
-i.', 'business_rule', 'Unit Approval Committee for EOUs', '149
-unit may re-import with or without payment of duties/taxes as
-provided at para 6.01(d)(ii) of FTP those samples, which were
-exported by it, under intimation to Custom Authorities, and FOB
-value of such samples shall not be counted for NFE purpose and
-other export benefits, if any.', '6.32 Unit Approval Committee for EOUs
+i.', 'business_rule', 'Unit Approval Committee for EOUs', '| 01(d)(ii) of FTP | those sam | p | les, whic | h were
+| exported by it |, und | er intimation to C | ustom Au | th | orities, a | nd FOB
+| value of such | sampl | es shall not be co | unted for | N | FE purp | ose and
+| other export b | enefit | s, if any.', '6.32 Unit Approval Committee for EOUs
 a) Composition of Unit Approval Committee shall be as
 under:
 i.', '149
-unit may re-import with or without payment of duties/taxes as
-provided at para 6.01(d)(ii) of FTP those samples, which were
-exported by it, under intimation to Custom Authorities, and FOB
-value of such samples shall not be counted for NFE purpose and
-other export benefits, if any.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R002', '6.32', '149
-unit may re-import with or without payment of duties/taxes as
-provided at para 6.01(d)(ii) of FTP those samples, which were
-exported by it, under intimation to Custom Authorities, and FOB
-value of such samples shall not be counted for NFE purpose and
-other export benefits, if any.', 'business_rule', 'Unit Approval Committee for EOUs', '149
+| unit may re-i | mport | with or without | payment | of | duties/t | axes as
+| provided at p | ara 6.', 'It is, ho | wever, no | t | necessar | y for it to
+be a separat | e legal entity, | but it | should be possibl | e to disti | ng | uish imp | orts and
+exports or su | pplies effecte | d by E | OU / EHTP / STP | / BTP uni | ts | from tho | se made
+by other unit | s of enterprise |.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R002', '6.32', '| 01(d)(ii) of FTP | those sam | p | les, whic | h were
+| exported by it |, und | er intimation to C | ustom Au | th | orities, a | nd FOB
+| value of such | sampl | es shall not be co | unted for | N | FE purp | ose and
+| other export b | enefit | s, if any.', 'business_rule', 'Unit Approval Committee for EOUs', '|
+.30 Donati | on of Compu | ter a | nd Computer Pe | ripheral | s | |
+EOU / EHTP | / STP / BTP un | it may | be allowed by Cu | stoms aut | ho | rities co | ncerned
+to donate im | ported / indige | nousl | y procured (bough | t or taken | o | n loan) co | mputer
+and comput | er periphera | ls, in | cluding printer, | plotter, | sc | anner, m | onitor,
+keyboard an | d storage units | witho | ut payment of dut | y other th | an | applicab | le taxes
+under GST La | w, two years | after t | heir import / proc | urement a | n | d use by | units, to
+a school run | by Central G | overn | ment, or Govern | ment of a | S | tate, or | a Union
+Territory, or | a local body; | an Ed | ucational Institut | ion run o | n | non-com | mercial
+basis by any | organization; | a Regi | stered Charitable | Hospital; | a | Public Li | brary; a
+Public Fund | ed Research | and | Development Est | ablishme | nt |; a Com | munity
+Information | Center run by | Centr | al Government or, | Governm | en | t of a St | ate or, a
+Union Territ | ory or local | body; | an Adult Educat | ion Cent | er | run by | Central
+Government | or, Governme | nt of a | State or, a Union | Territory | or | a local b | ody or,
+an organizati | on of Central | Gover | nment or, a Gover | nment of | a | State or, | a Union
+Territory as | per Customs / | Centr | al Excise notificati | on.', '| 01(d)(ii) of FTP | those sam | p | les, whic | h were
+| exported by it |, und | er intimation to C | ustom Au | th | orities, a | nd FOB
+| value of such | sampl | es shall not be co | unted for | N | FE purp | ose and
+| other export b | enefit | s, if any.', '|
+.30 Donati | on of Compu | ter a | nd Computer Pe | ripheral | s | |
+EOU / EHTP | / STP / BTP un | it may | be allowed by Cu | stoms aut | ho | rities co | ncerned
+to donate im | ported / indige | nousl | y procured (bough | t or taken | o | n loan) co | mputer
+and comput | er periphera | ls, in | cluding printer, | plotter, | sc | anner, m | onitor,
+keyboard an | d storage units | witho | ut payment of dut | y other th | an | applicab | le taxes
+under GST La | w, two years | after t | heir import / proc | urement a | n | d use by | units, to
+a school run | by Central G | overn | ment, or Govern | ment of a | S | tate, or | a Union
+Territory, or | a local body; | an Ed | ucational Institut | ion run o | n | non-com | mercial
+basis by any | organization; | a Regi | stered Charitable | Hospital; | a | Public Li | brary; a
+Public Fund | ed Research | and | Development Est | ablishme | nt |; a Com | munity
+Information | Center run by | Centr | al Government or, | Governm | en | t of a St | ate or, a
+Union Territ | ory or local | body; | an Adult Educat | ion Cent | er | run by | Central
+Government | or, Governme | nt of a | State or, a Union | Territory | or | a local b | ody or,
+an organizati | on of Central | Gover | nment or, a Gover | nment of | a | State or, | a Union
+Territory as | per Customs / | Centr | al Excise notificati | on.', 'It is, ho | wever, no | t | necessar | y for it to
+be a separat | e legal entity, | but it | should be possibl | e to disti | ng | uish imp | orts and
+exports or su | pplies effecte | d by E | OU / EHTP / STP | / BTP uni | ts | from tho | se made
+by other unit | s of enterprise |.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R003', '6.32', 'It is, ho | wever, no | t | necessar | y for it to
+be a separat | e legal entity, | but it | should be possibl | e to disti | ng | uish imp | orts and
+exports or su | pplies effecte | d by E | OU / EHTP / STP | / BTP uni | ts | from tho | se made
+by other unit | s of enterprise |.', 'business_rule', 'Unit Approval Committee for EOUs', '| | |
+.31 Distin | ct Identity | | | | | |
+If an industri | al enterprise i | s oper | ating both as a do | mestic uni | t a | s well as | an EOU
+/ EHTP / S | TP/ BTP unit, | it sh | all have two disti | nct ident | iti | es with | separate
+accounts, inc | luding separat | e bank | accounts.', '149
 unit may re-import with or without payment of duties/taxes as
 provided at para 6.01(d)(ii) of FTP those samples, which were
 exported by it, under intimation to Custom Authorities, and FOB
@@ -7441,15 +9879,16 @@ unit may re-import with or without payment of duties/taxes as
 provided at para 6.01(d)(ii) of FTP those samples, which were
 exported by it, under intimation to Custom Authorities, and FOB
 value of such samples shall not be counted for NFE purpose and
-other export benefits, if any.', 'd)
-An EOU, on basis of records maintained by them and on prior
-intimation to Customs authorities, may send samples to other EOUs
-for display on returnable basis within a period of 30 days.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R003', '6.32', '6.32 Unit Approval Committee for EOUs
-a)
-Composition of Unit Approval Committee shall be as
-under:
-i.', 'business_rule', 'Unit Approval Committee for EOUs', '149
+other export benefits, if any.', 'It is, ho | wever, no | t | necessar | y for it to
+be a separat | e legal entity, | but it | should be possibl | e to disti | ng | uish imp | orts and
+exports or su | pplies effecte | d by E | OU / EHTP / STP | / BTP uni | ts | from tho | se made
+by other unit | s of enterprise |.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R004', '6.32', '149
+unit may re-import with or without payment of duties/taxes as
+provided at para 6.01(d)(ii) of FTP those samples, which were
+exported by it, under intimation to Custom Authorities, and FOB
+value of such samples shall not be counted for NFE purpose and
+other export benefits, if any.', 'business_rule', 'Unit Approval Committee for EOUs', '149
 unit may re-import with or without payment of duties/taxes as
 provided at para 6.01(d)(ii) of FTP those samples, which were
 exported by it, under intimation to Custom Authorities, and FOB
@@ -7461,10 +9900,15 @@ under:
 i.', 'd)
 An EOU, on basis of records maintained by them and on prior
 intimation to Customs authorities, may send samples to other EOUs
-for display on returnable basis within a period of 30 days.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R004', '6.32', '(b) Powers and functions of Unit Approval Committee of EOUs shall be
-asunder:
-(i) To consider applications for setting up EOUs.', 'business_rule', 'Unit Approval Committee for EOUs', '149
+for display on returnable basis within a period of 30 days.', 'It is, ho | wever, no | t | necessar | y for it to
+be a separat | e legal entity, | but it | should be possibl | e to disti | ng | uish imp | orts and
+exports or su | pplies effecte | d by E | OU / EHTP / STP | / BTP uni | ts | from tho | se made
+by other unit | s of enterprise |.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R005', '6.32', '6.32 Unit Approval Committee for EOUs
+a)
+Composition of Unit Approval Committee shall be as
+under:
+i.', 'business_rule', 'Unit Approval Committee for EOUs', '149
 unit may re-import with or without payment of duties/taxes as
 provided at para 6.01(d)(ii) of FTP those samples, which were
 exported by it, under intimation to Custom Authorities, and FOB
@@ -7474,11 +9918,13 @@ asunder:
 (i) To consider applications for setting up EOUs.', 'd)
 An EOU, on basis of records maintained by them and on prior
 intimation to Customs authorities, may send samples to other EOUs
-for display on returnable basis within a period of 30 days.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R005', '6.32', 'Items of
-manufacture requiring industrial licence under
-Industrial (Development & Regulation) Act, 1951
-shall be considered by BOA.', 'business_rule', 'Unit Approval Committee for EOUs', '149
+for display on returnable basis within a period of 30 days.', 'It is, ho | wever, no | t | necessar | y for it to
+be a separat | e legal entity, | but it | should be possibl | e to disti | ng | uish imp | orts and
+exports or su | pplies effecte | d by E | OU / EHTP / STP | / BTP uni | ts | from tho | se made
+by other unit | s of enterprise |.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R006', '6.32', '(b) Powers and functions of Unit Approval Committee of EOUs shall be
+asunder:
+(i) To consider applications for setting up EOUs.', 'business_rule', 'Unit Approval Committee for EOUs', '149
 unit may re-import with or without payment of duties/taxes as
 provided at para 6.01(d)(ii) of FTP those samples, which were
 exported by it, under intimation to Custom Authorities, and FOB
@@ -7489,8 +9935,41 @@ Industrial (Development & Regulation) Act, 1951
 shall be considered by BOA.', 'd)
 An EOU, on basis of records maintained by them and on prior
 intimation to Customs authorities, may send samples to other EOUs
-for display on returnable basis within a period of 30 days.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R006', '6.32', '(ii) to consider and permit conversion of units in SEZ to
+for display on returnable basis within a period of 30 days.', 'It is, ho | wever, no | t | necessar | y for it to
+be a separat | e legal entity, | but it | should be possibl | e to disti | ng | uish imp | orts and
+exports or su | pplies effecte | d by E | OU / EHTP / STP | / BTP uni | ts | from tho | se made
+by other unit | s of enterprise |.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R007', '6.32', 'Items of
+manufacture requiring industrial licence under
+Industrial (Development & Regulation) Act, 1951
+shall be considered by BOA.', 'business_rule', 'Unit Approval Committee for EOUs', '149
+unit may re-import with or without payment of duties/taxes as
+provided at para 6.01(d)(ii) of FTP those samples, which were
+exported by it, under intimation to Custom Authorities, and FOB
+value of such samples shall not be counted for NFE purpose and
+other export benefits, if any.', '(ii) to consider and permit conversion of units in SEZ to
+EOU;
+(iii) to monitor performance of units;
+(iv) to supervise and monitor permission, clearances,
+licences granted to units and take appropriate action
+in accordance with law;
+(v) to call for information required to monitor
+performance of unit under permission, clearances,
+licenses granted to it;
+(vi) to perform any other function delegated by Central
+Governmentor its agencies;
+(vii) to perform any other function as may be
+delegated by State Governments or its agencies;
+and
+(viii) to grant all approvals and clearances for
+establishment andoperation of EOUs', 'd)
+An EOU, on basis of records maintained by them and on prior
+intimation to Customs authorities, may send samples to other EOUs
+for display on returnable basis within a period of 30 days.', 'It is, ho | wever, no | t | necessar | y for it to
+be a separat | e legal entity, | but it | should be possibl | e to disti | ng | uish imp | orts and
+exports or su | pplies effecte | d by E | OU / EHTP / STP | / BTP uni | ts | from tho | se made
+by other unit | s of enterprise |.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_32-R008', '6.32', '(ii) to consider and permit conversion of units in SEZ to
 EOU;
 (iii) to monitor performance of units;
 (iv) to supervise and monitor permission, clearances,
@@ -7528,7 +10007,35 @@ and
 establishment andoperation of EOUs', 'd)
 An EOU, on basis of records maintained by them and on prior
 intimation to Customs authorities, may send samples to other EOUs
-for display on returnable basis within a period of 30 days.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
+for display on returnable basis within a period of 30 days.', 'It is, ho | wever, no | t | necessar | y for it to
+be a separat | e legal entity, | but it | should be possibl | e to disti | ng | uish imp | orts and
+exports or su | pplies effecte | d by E | OU / EHTP / STP | / BTP uni | ts | from tho | se made
+by other unit | s of enterprise |.', 'DEKAI should produce a compliance decision for 6.32 - Unit Approval Committee for EOUs.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.32', '| 01(d)(ii) of FTP | those sam | p | les, whic | h were
+| exported by it |, und | er intimation to C | ustom Au | th | orities, a | nd FOB
+| value of such | sampl | es shall not be co | unted for | N | FE purp | ose and
+| other export b | enefit | s, if any.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.32', '|
+.30 Donati | on of Compu | ter a | nd Computer Pe | ripheral | s | |
+EOU / EHTP | / STP / BTP un | it may | be allowed by Cu | stoms aut | ho | rities co | ncerned
+to donate im | ported / indige | nousl | y procured (bough | t or taken | o | n loan) co | mputer
+and comput | er periphera | ls, in | cluding printer, | plotter, | sc | anner, m | onitor,
+keyboard an | d storage units | witho | ut payment of dut | y other th | an | applicab | le taxes
+under GST La | w, two years | after t | heir import / proc | urement a | n | d use by | units, to
+a school run | by Central G | overn | ment, or Govern | ment of a | S | tate, or | a Union
+Territory, or | a local body; | an Ed | ucational Institut | ion run o | n | non-com | mercial
+basis by any | organization; | a Regi | stered Charitable | Hospital; | a | Public Li | brary; a
+Public Fund | ed Research | and | Development Est | ablishme | nt |; a Com | munity
+Information | Center run by | Centr | al Government or, | Governm | en | t of a St | ate or, a
+Union Territ | ory or local | body; | an Adult Educat | ion Cent | er | run by | Central
+Government | or, Governme | nt of a | State or, a Union | Territory | or | a local b | ody or,
+an organizati | on of Central | Gover | nment or, a Gover | nment of | a | State or, | a Union
+Territory as | per Customs / | Centr | al Excise notificati | on.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.32', '| | |
+.31 Distin | ct Identity | | | | | |
+If an industri | al enterprise i | s oper | ating both as a do | mestic uni | t a | s well as | an EOU
+/ EHTP / S | TP/ BTP unit, | it sh | all have two disti | nct ident | iti | es with | separate
+accounts, inc | luding separat | e bank | accounts.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.32', '149
 unit may re-import with or without payment of duties/taxes as
 provided at para 6.01(d)(ii) of FTP those samples, which were
@@ -7563,67 +10070,132 @@ INSERT INTO authorities (section_code, authority_name) VALUES ('6.32', 'Composit
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.32', 'Development Commissioner');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.32', 'CBIC');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.32', 'Jurisdictional Commissioner');
-INSERT INTO authorities (section_code, authority_name) VALUES ('6.32', 'Custom Authorities');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.32', 'Customs');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6.32', 'Custom Authorities');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.32', 'DGFT');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.32', 'Joint DGFT');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.32', 'Joint / Deputy Development Commissioner');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.32', 'Powers and functions of Unit Approval Committee');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.32', '| | | |
+d) | An EOU, on b | asis o | f records maintai | ned by t | he | m and o | n prior
+| intimation to C | ustom | s authorities, may | send sam | pl | es to oth | er EOUs
+| for display on | return | able basis within | a period o | f | 30 days.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.32', '|
+.30 Donati | on of Compu | ter a | nd Computer Pe | ripheral | s | |
+EOU / EHTP | / STP / BTP un | it may | be allowed by Cu | stoms aut | ho | rities co | ncerned
+to donate im | ported / indige | nousl | y procured (bough | t or taken | o | n loan) co | mputer
+and comput | er periphera | ls, in | cluding printer, | plotter, | sc | anner, m | onitor,
+keyboard an | d storage units | witho | ut payment of dut | y other th | an | applicab | le taxes
+under GST La | w, two years | after t | heir import / proc | urement a | n | d use by | units, to
+a school run | by Central G | overn | ment, or Govern | ment of a | S | tate, or | a Union
+Territory, or | a local body; | an Ed | ucational Institut | ion run o | n | non-com | mercial
+basis by any | organization; | a Regi | stered Charitable | Hospital; | a | Public Li | brary; a
+Public Fund | ed Research | and | Development Est | ablishme | nt |; a Com | munity
+Information | Center run by | Centr | al Government or, | Governm | en | t of a St | ate or, a
+Union Territ | ory or local | body; | an Adult Educat | ion Cent | er | run by | Central
+Government | or, Governme | nt of a | State or, a Union | Territory | or | a local b | ody or,
+an organizati | on of Central | Gover | nment or, a Gover | nment of | a | State or, | a Union
+Territory as | per Customs / | Centr | al Excise notificati | on.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.32', 'd)
 An EOU, on basis of records maintained by them and on prior
 intimation to Customs authorities, may send samples to other EOUs
 for display on returnable basis within a period of 30 days.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 1, 'Evaluate condition: 149
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6.32', 'It is, ho | wever, no | t | necessar | y for it to
+be a separat | e legal entity, | but it | should be possibl | e to disti | ng | uish imp | orts and
+exports or su | pplies effecte | d by E | OU / EHTP / STP | / BTP uni | ts | from tho | se made
+by other unit | s of enterprise |.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 1, 'Evaluate condition: | 01(d)(ii) of FTP | those sam | p | les, whic | h were
+| exported by it |, und | er intimation to C | ustom Au | th | orities, a | nd FOB
+| value of such | sampl | es shall not be co | unted for | N | FE purp | ose and
+| other export b | enefit | s, if any.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 2, 'Evaluate condition: |
+.30 Donati | on of Compu | ter a | nd Computer Pe | ripheral | s | |
+EOU / EHTP | / STP / BTP un | it may | be allowed by Cu | stoms aut | ho | rities co | ncerned
+to donate im | ported / indige | nousl | y procured (bough | t or taken | o | n loan) co | mputer
+and comput | er periphera | ls, in | cluding printer, | plotter, | sc | anner, m | onitor,
+keyboard an | d storage units | witho | ut payment of dut | y other th | an | applicab | le taxes
+under GST La | w, two years | after t | heir import / proc | urement a | n | d use by | units, to
+a school run | by Central G | overn | ment, or Govern | ment of a | S | tate, or | a Union
+Territory, or | a local body; | an Ed | ucational Institut | ion run o | n | non-com | mercial
+basis by any | organization; | a Regi | stered Charitable | Hospital; | a | Public Li | brary; a
+Public Fund | ed Research | and | Development Est | ablishme | nt |; a Com | munity
+Information | Center run by | Centr | al Government or, | Governm | en | t of a St | ate or, a
+Union Territ | ory or local | body; | an Adult Educat | ion Cent | er | run by | Central
+Government | or, Governme | nt of a | State or, a Union | Territory | or | a local b | ody or,
+an organizati | on of Central | Gover | nment or, a Gover | nment of | a | State or, | a Union
+Territory as | per Customs / | Centr | al Excise notificati | on.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 3, 'Evaluate condition: | | |
+.31 Distin | ct Identity | | | | | |
+If an industri | al enterprise i | s oper | ating both as a do | mestic uni | t a | s well as | an EOU
+/ EHTP / S | TP/ BTP unit, | it sh | all have two disti | nct ident | iti | es with | separate
+accounts, inc | luding separat | e bank | accounts.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 4, '149
+| unit may re-i | mport | with or without | payment | of | duties/t | axes as
+| provided at p | ara 6.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 5, '|
+.30 Donati | on of Compu | ter a | nd Computer Pe | ripheral | s | |
+EOU / EHTP | / STP / BTP un | it may | be allowed by Cu | stoms aut | ho | rities co | ncerned
+to donate im | ported / indige | nousl | y procured (bough | t or taken | o | n loan) co | mputer
+and comput | er periphera | ls, in | cluding printer, | plotter, | sc | anner, m | onitor,
+keyboard an | d storage units | witho | ut payment of dut | y other th | an | applicab | le taxes
+under GST La | w, two years | after t | heir import / proc | urement a | n | d use by | units, to
+a school run | by Central G | overn | ment, or Govern | ment of a | S | tate, or | a Union
+Territory, or | a local body; | an Ed | ucational Institut | ion run o | n | non-com | mercial
+basis by any | organization; | a Regi | stered Charitable | Hospital; | a | Public Li | brary; a
+Public Fund | ed Research | and | Development Est | ablishme | nt |; a Com | munity
+Information | Center run by | Centr | al Government or, | Governm | en | t of a St | ate or, a
+Union Territ | ory or local | body; | an Adult Educat | ion Cent | er | run by | Central
+Government | or, Governme | nt of a | State or, a Union | Territory | or | a local b | ody or,
+an organizati | on of Central | Gover | nment or, a Gover | nment of | a | State or, | a Union
+Territory as | per Customs / | Centr | al Excise notificati | on.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 6, '149
 unit may re-import with or without payment of duties/taxes as
 provided at para 6.01(d)(ii) of FTP those samples, which were
 exported by it, under intimation to Custom Authorities, and FOB
 value of such samples shall not be counted for NFE purpose and
 other export benefits, if any.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 2, '149
-unit may re-import with or without payment of duties/taxes as
-provided at para 6.01(d)(ii) of FTP those samples, which were
-exported by it, under intimation to Custom Authorities, and FOB
-value of such samples shall not be counted for NFE purpose and
-other export benefits, if any.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 3, 'd)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 7, 'd)
 An EOU, on basis of records maintained by them and on prior
 intimation to Customs authorities, may send samples to other EOUs
 for display on returnable basis within a period of 30 days.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 4, 'Run validation: 6.32 Unit Approval Committee for EOUs
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 8, 'Run validation: 6.32 Unit Approval Committee for EOUs
 a) Composition of Unit Approval Committee shall be as
 under:
 i.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 5, 'Run validation: 149
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 9, 'Run validation: | 01(d)(ii) of FTP | those sam | p | les, whic | h were
+| exported by it |, und | er intimation to C | ustom Au | th | orities, a | nd FOB
+| value of such | sampl | es shall not be co | unted for | N | FE purp | ose and
+| other export b | enefit | s, if any.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 10, 'Run validation: 149
 unit may re-import with or without payment of duties/taxes as
 provided at para 6.01(d)(ii) of FTP those samples, which were
 exported by it, under intimation to Custom Authorities, and FOB
 value of such samples shall not be counted for NFE purpose and
 other export benefits, if any.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 6, 'Run validation: 6.32 Unit Approval Committee for EOUs
-a)
-Composition of Unit Approval Committee shall be as
-under:
-i.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.32', 11, 'Handle exception: It is, ho | wever, no | t | necessar | y for it to
+be a separat | e legal entity, | but it | should be possibl | e to disti | ng | uish imp | orts and
+exports or su | pplies effecte | d by E | OU / EHTP / STP | / BTP uni | ts | from tho | se made
+by other unit | s of enterprise |.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'for');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'ara');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'FTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'sam');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'les');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'und');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'FOB');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'not');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'NFE');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'ose');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'and');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'any');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'EOU');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'iii');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'the');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'Act');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'BOA');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'SEZ');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'law');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'its');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'vii');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'all');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'Unit');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'EOUs');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'ned');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'oth');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'ter');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'STP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'BTP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'aut');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'keywords', 'dut');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'tags', '6.32');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'tags', 'Unit Approval Committee for EOUs');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.32', 'tags', 'business-rule');
@@ -7659,6 +10231,43 @@ designated by Do BT. However, designated officers shall adopt criteria for
 automatic approval of new units as laid down in Appendix 6A of Appendices &
 ANFs.
 pg. 150
+| | iii. | | Joint | D | | GFT or nomine | e: Member | | |
+| | iv. | | Joint | / | | Deputy Develo | pment Comm | issioner of | t | he
+| | | | Zone |: | M | ember | | | |
+| | v. | | Any | ot | h | er nominee of | any Departme | nt / Agency | | as
+| | | | speci | a | l | invitee. | | | |
+(b) | | Power | s a | nd fu | n | c | tions of Unit A | pproval Comm | ittee of EOU | s | shall be
+| | asunde | r: | | | | | | | |
+| | | | (i) | | T | o consider ap | plications for s | etting up E | O | Us. Items of
+| | | | | | | manufacture | requiring ind | ustrial lic | e | nce under
+| | | | | | I | ndustrial (De | velopment & | Regulation | ) | Act, 1951
+| | | | | | s | hall be consid | ered by BOA. | | |
+| | | | (ii) | | t | o consider an | d permit conv | ersion of u | ni | ts in SEZ t
+| | | | | | E | OU; | | | |
+| | | | (iii) | | t | o monitor perf | ormance of un | its; | |
+| | | | (iv) | | t | o supervise a | nd monitor | permission, | | clearances,
+| | | | | | l | icences grante | d to units and | take appro | p | riate action
+| | | | | | i | n accordance | with law; | | |
+| | | | (v) | | t | o call for | information | required | to | monitor
+| | | | | | p | erformance o | f unit under | permission |, | clearances,
+| | | | | | l | icenses grante | d to it; | | |
+| | | | (vi) | | t | o perform any | other functio | n delegate | d | by Central
+| | | | | | G | overnmentor | its agencies; | | |
+| | | | (vii) | | t | o perform a | ny other fun | ction as | m | ay be
+| | | | | | d | elegated by S | tate Governme | nts or its a | g | encies;
+| | | | | | a | nd | | | |
+| | | | (viii) | t | | o grant all | approvals a | nd clearan | c | es for
+| | | | | | e | stablishment | andoperation | of EOUs | |
+.33 App | r | oval | of | EHT | P | | / STP / BTP | Units | | |
+In case of u | | nits u | nd | er EH | T | P | / STP scheme |, necessary app | roval / per | m | ission shall
+be granted | | by off | ic | er de | si | g | nated by Meit | Y / Director (S | TPI). Desig | n | ated officer
+shall also e | | xercis | e p | owe | rs | | of adjudication | under Section | 13 read wi | th | Section 11
+of FT(D&R | | ) Act, | 19 | 92, a | s | a | mended, in re | spect of STP / | EHTP as | m | entioned in
+Gazette N | o | tificat | ion | No. | S. | O |. 106 (E) date | d 30-1-2006. S | imilarly in | c | ase of units
+under BT | P |, nec | ess | ary | a | p | proval / per | mission shall | be granted | | by officer
+designate | d | by D | o B | T. H | o | | wever, designa | ted officers s | hall adopt | | criteria for
+automatic | | appro | val | of n | e | w | units as laid | down in Appen | dix 6A of A | p | pendices &
+ANFs. | | | | | | | | | | |
 pg. 150
 iii.
 Joint DGFT or nominee: Member
@@ -7696,7 +10305,7 @@ to perform any other function as may be
 delegated by State Governments or its agencies;
 and
 (viii) to grant all approvals and clearances for
-establishment andoperation of EOUs', '[18]', '["STP", "BTP", "D&R", "Act", "for", "new", "iii", "the", "Any", "and", "BOA", "SEZ", "EOU", "law", "its", "vii", "may", "all", "EHTP", "case"]', 'Support Approval of EHTP / STP / BTP Units processing and compliance validation.', '["6.33", "Approval of EHTP / STP / BTP Units", "business-rule", "document-driven", "dgft"]');
+establishment andoperation of EOUs', '[18]', '["STP", "BTP", "D&R", "Act", "for", "new", "iii", "GFT", "Any", "EOU", "ind", "lic", "nce", "BOA", "SEZ", "its", "and", "law", "vii", "fun"]', 'Support Approval of EHTP / STP / BTP Units processing and compliance validation.', '["6.33", "Approval of EHTP / STP / BTP Units", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_33-R001', '6.33', '6.33 Approval of EHTP / STP / BTP Units
 In case of units under EHTP / STP scheme, necessary approval / permission shall
 be granted by officer designated by Meit Y / Director (STPI).', 'business_rule', 'Approval of EHTP / STP / BTP Units', '6.33 Approval of EHTP / STP / BTP Units
@@ -7738,9 +10347,26 @@ automatic approval of new units as laid down in Appendix 6A of Appendices &
 ANFs.', 'DEKAI should produce a compliance decision for 6.33 - Approval of EHTP / STP / BTP Units.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_33-R004', '6.33', 'However, designated officers shall adopt criteria for
 automatic approval of new units as laid down in Appendix 6A of Appendices &
-ANFs.', 'business_rule', 'Approval of EHTP / STP / BTP Units', 'Similarly in case of units
-under BTP, necessary approval / permission shall be granted by officer
-designated by Do BT.', 'However, designated officers shall adopt criteria for
+ANFs.', 'business_rule', 'Approval of EHTP / STP / BTP Units', '| | |
+| | | | (ii) | | t | o consider an | d permit conv | ersion of u | ni | ts in SEZ t
+| | | | | | E | OU; | | | |
+| | | | (iii) | | t | o monitor perf | ormance of un | its; | |
+| | | | (iv) | | t | o supervise a | nd monitor | permission, | | clearances,
+| | | | | | l | icences grante | d to units and | take appro | p | riate action
+| | | | | | i | n accordance | with law; | | |
+| | | | (v) | | t | o call for | information | required | to | monitor
+| | | | | | p | erformance o | f unit under | permission |, | clearances,
+| | | | | | l | icenses grante | d to it; | | |
+| | | | (vi) | | t | o perform any | other functio | n delegate | d | by Central
+| | | | | | G | overnmentor | its agencies; | | |
+| | | | (vii) | | t | o perform a | ny other fun | ction as | m | ay be
+| | | | | | d | elegated by S | tate Governme | nts or its a | g | encies;
+| | | | | | a | nd | | | |
+| | | | (viii) | t | | o grant all | approvals a | nd clearan | c | es for
+| | | | | | e | stablishment | andoperation | of EOUs | |
+.33 App | r | oval | of | EHT | P | | / STP / BTP | Units | | |
+In case of u | | nits u | nd | er EH | T | P | / STP scheme |, necessary app | roval / per | m | ission shall
+be granted | | by off | ic | er de | si | g | nated by Meit | Y / Director (S | TPI).', 'However, designated officers shall adopt criteria for
 automatic approval of new units as laid down in Appendix 6A of Appendices &
 ANFs.', 'Designated officer
 shall also exercise powers of adjudication under Section 13 read with Section 11
@@ -7748,12 +10374,103 @@ of FT(D&R) Act, 1992, as amended, in respect of STP / EHTP as mentioned in
 Gazette Notification No.', 'However, designated officers shall adopt criteria for
 automatic approval of new units as laid down in Appendix 6A of Appendices &
 ANFs.', 'DEKAI should produce a compliance decision for 6.33 - Approval of EHTP / STP / BTP Units.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_33-R005', '6.33', '(b) Powers and functions of Unit Approval Committee of EOUs shall be
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_33-R005', '6.33', '| | | |
+(b) | | Power | s a | nd fu | n | c | tions of Unit A | pproval Comm | ittee of EOU | s | shall be
+| | asunde | r: | | | | | | | |
+| | | | (i) | | T | o consider ap | plications for s | etting up E | O | Us.', 'business_rule', 'Approval of EHTP / STP / BTP Units', 'Desig | n | ated officer
+shall also e | | xercis | e p | owe | rs | | of adjudication | under Section | 13 read wi | th | Section 11
+of FT(D&R | | ) Act, | 19 | 92, a | s | a | mended, in re | spect of STP / | EHTP as | m | entioned in
+Gazette N | o | tificat | ion | No.', '| | | |
+(b) | | Power | s a | nd fu | n | c | tions of Unit A | pproval Comm | ittee of EOU | s | shall be
+| | asunde | r: | | | | | | | |
+| | | | (i) | | T | o consider ap | plications for s | etting up E | O | Us.', 'Designated officer
+shall also exercise powers of adjudication under Section 13 read with Section 11
+of FT(D&R) Act, 1992, as amended, in respect of STP / EHTP as mentioned in
+Gazette Notification No.', 'However, designated officers shall adopt criteria for
+automatic approval of new units as laid down in Appendix 6A of Appendices &
+ANFs.', 'DEKAI should produce a compliance decision for 6.33 - Approval of EHTP / STP / BTP Units.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_33-R006', '6.33', '| | |
+| | | | (ii) | | t | o consider an | d permit conv | ersion of u | ni | ts in SEZ t
+| | | | | | E | OU; | | | |
+| | | | (iii) | | t | o monitor perf | ormance of un | its; | |
+| | | | (iv) | | t | o supervise a | nd monitor | permission, | | clearances,
+| | | | | | l | icences grante | d to units and | take appro | p | riate action
+| | | | | | i | n accordance | with law; | | |
+| | | | (v) | | t | o call for | information | required | to | monitor
+| | | | | | p | erformance o | f unit under | permission |, | clearances,
+| | | | | | l | icenses grante | d to it; | | |
+| | | | (vi) | | t | o perform any | other functio | n delegate | d | by Central
+| | | | | | G | overnmentor | its agencies; | | |
+| | | | (vii) | | t | o perform a | ny other fun | ction as | m | ay be
+| | | | | | d | elegated by S | tate Governme | nts or its a | g | encies;
+| | | | | | a | nd | | | |
+| | | | (viii) | t | | o grant all | approvals a | nd clearan | c | es for
+| | | | | | e | stablishment | andoperation | of EOUs | |
+.33 App | r | oval | of | EHT | P | | / STP / BTP | Units | | |
+In case of u | | nits u | nd | er EH | T | P | / STP scheme |, necessary app | roval / per | m | ission shall
+be granted | | by off | ic | er de | si | g | nated by Meit | Y / Director (S | TPI).', 'business_rule', 'Approval of EHTP / STP / BTP Units', 'Desig | n | ated officer
+shall also e | | xercis | e p | owe | rs | | of adjudication | under Section | 13 read wi | th | Section 11
+of FT(D&R | | ) Act, | 19 | 92, a | s | a | mended, in re | spect of STP / | EHTP as | m | entioned in
+Gazette N | o | tificat | ion | No.', '| | |
+| | | | (ii) | | t | o consider an | d permit conv | ersion of u | ni | ts in SEZ t
+| | | | | | E | OU; | | | |
+| | | | (iii) | | t | o monitor perf | ormance of un | its; | |
+| | | | (iv) | | t | o supervise a | nd monitor | permission, | | clearances,
+| | | | | | l | icences grante | d to units and | take appro | p | riate action
+| | | | | | i | n accordance | with law; | | |
+| | | | (v) | | t | o call for | information | required | to | monitor
+| | | | | | p | erformance o | f unit under | permission |, | clearances,
+| | | | | | l | icenses grante | d to it; | | |
+| | | | (vi) | | t | o perform any | other functio | n delegate | d | by Central
+| | | | | | G | overnmentor | its agencies; | | |
+| | | | (vii) | | t | o perform a | ny other fun | ction as | m | ay be
+| | | | | | d | elegated by S | tate Governme | nts or its a | g | encies;
+| | | | | | a | nd | | | |
+| | | | (viii) | t | | o grant all | approvals a | nd clearan | c | es for
+| | | | | | e | stablishment | andoperation | of EOUs | |
+.33 App | r | oval | of | EHT | P | | / STP / BTP | Units | | |
+In case of u | | nits u | nd | er EH | T | P | / STP scheme |, necessary app | roval / per | m | ission shall
+be granted | | by off | ic | er de | si | g | nated by Meit | Y / Director (S | TPI).', 'Designated officer
+shall also exercise powers of adjudication under Section 13 read with Section 11
+of FT(D&R) Act, 1992, as amended, in respect of STP / EHTP as mentioned in
+Gazette Notification No.', 'However, designated officers shall adopt criteria for
+automatic approval of new units as laid down in Appendix 6A of Appendices &
+ANFs.', 'DEKAI should produce a compliance decision for 6.33 - Approval of EHTP / STP / BTP Units.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_33-R007', '6.33', 'Desig | n | ated officer
+shall also e | | xercis | e p | owe | rs | | of adjudication | under Section | 13 read wi | th | Section 11
+of FT(D&R | | ) Act, | 19 | 92, a | s | a | mended, in re | spect of STP / | EHTP as | m | entioned in
+Gazette N | o | tificat | ion | No.', 'business_rule', 'Approval of EHTP / STP / BTP Units', 'Desig | n | ated officer
+shall also e | | xercis | e p | owe | rs | | of adjudication | under Section | 13 read wi | th | Section 11
+of FT(D&R | | ) Act, | 19 | 92, a | s | a | mended, in re | spect of STP / | EHTP as | m | entioned in
+Gazette N | o | tificat | ion | No.', 'Desig | n | ated officer
+shall also e | | xercis | e p | owe | rs | | of adjudication | under Section | 13 read wi | th | Section 11
+of FT(D&R | | ) Act, | 19 | 92, a | s | a | mended, in re | spect of STP / | EHTP as | m | entioned in
+Gazette N | o | tificat | ion | No.', 'Designated officer
+shall also exercise powers of adjudication under Section 13 read with Section 11
+of FT(D&R) Act, 1992, as amended, in respect of STP / EHTP as mentioned in
+Gazette Notification No.', 'However, designated officers shall adopt criteria for
+automatic approval of new units as laid down in Appendix 6A of Appendices &
+ANFs.', 'DEKAI should produce a compliance decision for 6.33 - Approval of EHTP / STP / BTP Units.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_33-R008', '6.33', 'S | imilarly in | c | ase of units
+under BT | P |, nec | ess | ary | a | p | proval / per | mission shall | be granted | | by officer
+designate | d | by D | o B | T.', 'business_rule', 'Approval of EHTP / STP / BTP Units', 'Desig | n | ated officer
+shall also e | | xercis | e p | owe | rs | | of adjudication | under Section | 13 read wi | th | Section 11
+of FT(D&R | | ) Act, | 19 | 92, a | s | a | mended, in re | spect of STP / | EHTP as | m | entioned in
+Gazette N | o | tificat | ion | No.', 'S | imilarly in | c | ase of units
+under BT | P |, nec | ess | ary | a | p | proval / per | mission shall | be granted | | by officer
+designate | d | by D | o B | T.', 'Designated officer
+shall also exercise powers of adjudication under Section 13 read with Section 11
+of FT(D&R) Act, 1992, as amended, in respect of STP / EHTP as mentioned in
+Gazette Notification No.', 'However, designated officers shall adopt criteria for
+automatic approval of new units as laid down in Appendix 6A of Appendices &
+ANFs.', 'DEKAI should produce a compliance decision for 6.33 - Approval of EHTP / STP / BTP Units.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_33-R009', '6.33', '(b) Powers and functions of Unit Approval Committee of EOUs shall be
 asunder:
 (i)
-To consider applications for setting up EOUs.', 'business_rule', 'Approval of EHTP / STP / BTP Units', 'Similarly in case of units
-under BTP, necessary approval / permission shall be granted by officer
-designated by Do BT.', '(b) Powers and functions of Unit Approval Committee of EOUs shall be
+To consider applications for setting up EOUs.', 'business_rule', 'Approval of EHTP / STP / BTP Units', 'Desig | n | ated officer
+shall also e | | xercis | e p | owe | rs | | of adjudication | under Section | 13 read wi | th | Section 11
+of FT(D&R | | ) Act, | 19 | 92, a | s | a | mended, in re | spect of STP / | EHTP as | m | entioned in
+Gazette N | o | tificat | ion | No.', '(b) Powers and functions of Unit Approval Committee of EOUs shall be
 asunder:
 (i)
 To consider applications for setting up EOUs.', 'Designated officer
@@ -7762,12 +10479,13 @@ of FT(D&R) Act, 1992, as amended, in respect of STP / EHTP as mentioned in
 Gazette Notification No.', 'However, designated officers shall adopt criteria for
 automatic approval of new units as laid down in Appendix 6A of Appendices &
 ANFs.', 'DEKAI should produce a compliance decision for 6.33 - Approval of EHTP / STP / BTP Units.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_33-R006', '6.33', 'Items of
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_33-R010', '6.33', 'Items of
 manufacture requiring industrial licence under
 Industrial (Development & Regulation) Act, 1951
-shall be considered by BOA.', 'business_rule', 'Approval of EHTP / STP / BTP Units', 'Similarly in case of units
-under BTP, necessary approval / permission shall be granted by officer
-designated by Do BT.', 'Items of
+shall be considered by BOA.', 'business_rule', 'Approval of EHTP / STP / BTP Units', 'Desig | n | ated officer
+shall also e | | xercis | e p | owe | rs | | of adjudication | under Section | 13 read wi | th | Section 11
+of FT(D&R | | ) Act, | 19 | 92, a | s | a | mended, in re | spect of STP / | EHTP as | m | entioned in
+Gazette N | o | tificat | ion | No.', 'Items of
 manufacture requiring industrial licence under
 Industrial (Development & Regulation) Act, 1951
 shall be considered by BOA.', 'Designated officer
@@ -7776,7 +10494,7 @@ of FT(D&R) Act, 1992, as amended, in respect of STP / EHTP as mentioned in
 Gazette Notification No.', 'However, designated officers shall adopt criteria for
 automatic approval of new units as laid down in Appendix 6A of Appendices &
 ANFs.', 'DEKAI should produce a compliance decision for 6.33 - Approval of EHTP / STP / BTP Units.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_33-R007', '6.33', '(ii)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_33-R011', '6.33', '(ii)
 to consider and permit conversion of units in SEZ to
 EOU;
 (iii)
@@ -7797,9 +10515,10 @@ to perform any other function as may be
 delegated by State Governments or its agencies;
 and
 (viii) to grant all approvals and clearances for
-establishment andoperation of EOUs', 'business_rule', 'Approval of EHTP / STP / BTP Units', 'Similarly in case of units
-under BTP, necessary approval / permission shall be granted by officer
-designated by Do BT.', '(ii)
+establishment andoperation of EOUs', 'business_rule', 'Approval of EHTP / STP / BTP Units', 'Desig | n | ated officer
+shall also e | | xercis | e p | owe | rs | | of adjudication | under Section | 13 read wi | th | Section 11
+of FT(D&R | | ) Act, | 19 | 92, a | s | a | mended, in re | spect of STP / | EHTP as | m | entioned in
+Gazette N | o | tificat | ion | No.', '(ii)
 to consider and permit conversion of units in SEZ to
 EOU;
 (iii)
@@ -7836,6 +10555,30 @@ Gazette Notification No.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.33', 'Similarly in case of units
 under BTP, necessary approval / permission shall be granted by officer
 designated by Do BT.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.33', '| | |
+| | | | (ii) | | t | o consider an | d permit conv | ersion of u | ni | ts in SEZ t
+| | | | | | E | OU; | | | |
+| | | | (iii) | | t | o monitor perf | ormance of un | its; | |
+| | | | (iv) | | t | o supervise a | nd monitor | permission, | | clearances,
+| | | | | | l | icences grante | d to units and | take appro | p | riate action
+| | | | | | i | n accordance | with law; | | |
+| | | | (v) | | t | o call for | information | required | to | monitor
+| | | | | | p | erformance o | f unit under | permission |, | clearances,
+| | | | | | l | icenses grante | d to it; | | |
+| | | | (vi) | | t | o perform any | other functio | n delegate | d | by Central
+| | | | | | G | overnmentor | its agencies; | | |
+| | | | (vii) | | t | o perform a | ny other fun | ction as | m | ay be
+| | | | | | d | elegated by S | tate Governme | nts or its a | g | encies;
+| | | | | | a | nd | | | |
+| | | | (viii) | t | | o grant all | approvals a | nd clearan | c | es for
+| | | | | | e | stablishment | andoperation | of EOUs | |
+.33 App | r | oval | of | EHT | P | | / STP / BTP | Units | | |
+In case of u | | nits u | nd | er EH | T | P | / STP scheme |, necessary app | roval / per | m | ission shall
+be granted | | by off | ic | er de | si | g | nated by Meit | Y / Director (S | TPI).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.33', 'Desig | n | ated officer
+shall also e | | xercis | e p | owe | rs | | of adjudication | under Section | 13 read wi | th | Section 11
+of FT(D&R | | ) Act, | 19 | 92, a | s | a | mended, in re | spect of STP / | EHTP as | m | entioned in
+Gazette N | o | tificat | ion | No.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.33', '(b) Powers and functions of Unit Approval Committee of EOUs shall be
 asunder:
 (i)
@@ -7908,19 +10651,19 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'for');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'new');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'iii');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'GFT');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'Any');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'EOU');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'ind');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'lic');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'nce');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'BOA');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'SEZ');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'EOU');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'law');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'its');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'law');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'vii');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'may');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'all');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'EHTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'case');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'keywords', 'fun');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'tags', '6.33');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'tags', 'Approval of EHTP / STP / BTP Units');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.33', 'tags', 'business-rule');
@@ -7993,6 +10736,39 @@ j) Permit merger of two or more units into one unit provided units
 fall within jurisdiction of same DC / Designated Officer subject to
 condition that activities are covered under provision of broad
 pg. 151
+.34 P | ower | s | of DC / De | si | gna | te | d Officer | | | |
+DC / D | esignat | e | d Officer s | hal | l ha | ve | following power | s in | respect | to | units.
+Jurisdi | ction o | f | DC is given | in | App | e | ndix 6J of Appen | dice | s & ANF | s. |
+| a) | C | onversion | of | sick | / c | losed DTA unit i | nto | EOU; | |
+| b) | C | onversion | of | EOU | to | STP / EHTP / B | TP | and vice | -ve | rsa as
+| | p | er prescrib | ed | pro | ce | dure; | | | |
+| c) | T | o allow in | cre | ase | in | value of capit | al g | oods in | ter | ms of Indian
+| | R | upees, on a | cc | oun | tof | foreign exchan | ge r | ate fluctu | at | ions;
+| d) | T | o permit c | ap | acit | y | enhancement w | ith | out any | lim | it in case of
+| | d | elicensed i | nd | ustr | ies | only; | | | |
+| e) | P | ermit broa | d-b | and | in | g for similar go | ods | and acti | viti | es mentioned
+| | i | n Lo P or to | pr | ovid | e | for backward or | for | ward lin | ka | ges to existing
+| | li | ne of manu | fa | ctur | e; | | | | |
+| f) | A | uthorize ch | an | ge i | n n | ame of company | or i | mpleme | nti | ng agency and
+| | c | hange from | a | co | mp | any to another | pro | vided ne | w | implementing
+| | a | gency / co | mp | any | un | dertakes to tak | e ov | er assets | an | d liabilities of
+| | e | xisting unit |; | | | | | | |
+| g) | P | ermit chan | ge | of lo | ca | tion from place | me | ntioned i | n L | o P to another
+| | a | nd / or in | clu | de | or | exclude additio | nal | location | /sp | ace provided
+| | t | hat no cha | ng | e i | n | other terms an | d c | ondition | s o | f approval is
+| | e | nvisaged | an | d th | at | new location | /spa | ce is w | ith | in territorial
+| | j | urisdiction | of | DC / | D | esignated Office | | | |
+| h) | E | xtend Exte | nd | as p | er | para 6.01(c) of | the | HBP, the | |
+| i. | | validity pe | rio | d o | f L | OP/LOI once un | it co | mmenc | es | production for
+| | | a period o | f u | p to | 5 | years at a time o | r | | |
+| ii. | | The 2 year | s i | nitia | l v | alidity period o | f LO | P/LOI (e | xc | ept in case
+| | | where the | re | is a | r | estriction on in | itial | period | of | approval, like
+| | | setting up | of | oil r | efi | nery project) by | on | e additio | nal | year for valid
+| | | reasons to | be | rec | or | ded in writing. | | | |
+| i) | C | ancel Lo P w | he | rev | er | warranted; | | | |
+| j) | P | ermit merg | er | of t | w | o or more units | into | one un | it p | rovided units
+| | f | all within j | uri | sdic | tio | n of same DC / | Des | ignated | Off | icer subject to
+| | c | ondition th | at | act | ivi | ties are covere | d u | nder pr | ovi | sion of broad
 pg. 151
 6.34 Powers of DC / Designated Officer
 DC / Designated Officer shall have following powers in respect to units.
@@ -8057,7 +10833,7 @@ does not involve clubbing of FOB value of exports of its parent
 company in DTA;
 q) Publicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.
 r) Exit from EOU/EHTP/STP/BTP Scheme (including grant of ‘in-
-principle’ exit letter as per Appendix 6K).', '[19, 20]', '["DTA", "EOU", "STP", "BTP", "and", "per", "any", "for", "new", "the", "HBP", "oil", "one", "two", "are", "D&R", "Act", "RBI", "DIR", "low"]', 'Support Powers of DC / Designated Officer processing and compliance validation.', '["6.34", "Powers of DC / Designated Officer", "business-rule", "document-driven", "dgft"]');
+principle’ exit letter as per Appendix 6K).', '[19, 20]', '["DTA", "EOU", "STP", "BTP", "and", "per", "any", "for", "new", "the", "HBP", "oil", "one", "two", "are", "gna", "hal", "App", "ANF", "nto"]', 'Support Powers of DC / Designated Officer processing and compliance validation.', '["6.34", "Powers of DC / Designated Officer", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_34-R001', '6.34', '6.34 Powers of DC / Designated Officer
 DC / Designated Officer shall have following powers in respect to units.', 'business_rule', 'Powers of DC / Designated Officer', 'a) Conversion of sick / closed DTA unit into EOU;
 b) Conversion of EOU to STP / EHTP / BTP and vice-versa as
@@ -8103,9 +10879,12 @@ Registering authority for EOU / EHTP / STP / BTP unit.', 'The 2 years initial va
 where there is a restriction on initial period of approval, like
 setting up of oil refinery project) by one additional year for valid
 reasons to be recorded in writing.', 'DEKAI should produce a compliance decision for 6.34 - Powers of DC / Designated Officer.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_34-R003', '6.34', '151
-6.34 Powers of DC / Designated Officer
-DC / Designated Officer shall have following powers in respect to units.', 'business_rule', 'Powers of DC / Designated Officer', 'i) Cancel Lo P wherever warranted;
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_34-R003', '6.34', '| | | |
+| i) | C | ancel Lo P w | he | rev | er | warranted; | | | |
+| j) | P | ermit merg | er | of t | w | o or more units | into | one un | it p | rovided units
+| | f | all within j | uri | sdic | tio | n of same DC / | Des | ignated | Off | icer subject to
+| | c | ondition th | at | act | ivi | ties are covere | d u | nder pr | ovi | sion of broad
+pg.', 'business_rule', 'Powers of DC / Designated Officer', 'i) Cancel Lo P wherever warranted;
 j) Permit merger of two or more units into one unit provided units
 fall within jurisdiction of same DC / Designated Officer subject to
 condition that activities are covered under provision of broad
@@ -8127,44 +10906,30 @@ q) Publicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.', 'The 2
 where there is a restriction on initial period of approval, like
 setting up of oil refinery project) by one additional year for valid
 reasons to be recorded in writing.', 'DEKAI should produce a compliance decision for 6.34 - Powers of DC / Designated Officer.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_34-R004', '6.34', 'i)
-Cancel Lo P wherever warranted;
-j)
-Permit merger of two or more units into one unit provided units
-fall within jurisdiction of same DC / Designated Officer subject to
-condition that activities are covered under provision of broad
-banding;
-k) Exercise powers of adjudication under Section 13 read with Section
-11 of FT (D&R) Act, in respect of EOUs as mentioned in Gazette
-Notification No.', 'business_rule', 'Powers of DC / Designated Officer', 'a)
-Conversion of sick / closed DTA unit into EOU;
-b)
-Conversion of EOU to STP / EHTP / BTP and vice-versa as
-per prescribed procedure;
-c)
-To allow increase in value of capital goods in terms of Indian
-Rupees, on accountof foreign exchange rate fluctuations;
-d)
-To permit capacity enhancement without any limit in case of
-delicensed industries only;
-e)
-Permit broad-banding for similar goods and activities mentioned
-in Lo P or to provide for backward or forward linkages to existing
-line of manufacture;
-f)
-Authorize change in name of company or implementing agency and
-change from a company to another provided new implementing
-agency / company undertakes to take over assets and liabilities of
-existing unit;
-g)
-Permit change of location from place mentioned in Lo P to another
-and / or include or exclude additional location/space provided
-that no change in other terms and conditions of approval is
-envisaged and that new location/space is within territorial
-jurisdiction of DC /Designated Office
-h)
-Extend Extend as per para 6.01(c) of the HBP, the
-i.', 'A separate
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_34-R004', '6.34', '151
+6.34 Powers of DC / Designated Officer
+DC / Designated Officer shall have following powers in respect to units.', 'business_rule', 'Powers of DC / Designated Officer', '|
+| a) | C | onversion | of | sick | / c | losed DTA unit i | nto | EOU; | |
+| b) | C | onversion | of | EOU | to | STP / EHTP / B | TP | and vice | -ve | rsa as
+| | p | er prescrib | ed | pro | ce | dure; | | | |
+| c) | T | o allow in | cre | ase | in | value of capit | al g | oods in | ter | ms of Indian
+| | R | upees, on a | cc | oun | tof | foreign exchan | ge r | ate fluctu | at | ions;
+| d) | T | o permit c | ap | acit | y | enhancement w | ith | out any | lim | it in case of
+| | d | elicensed i | nd | ustr | ies | only; | | | |
+| e) | P | ermit broa | d-b | and | in | g for similar go | ods | and acti | viti | es mentioned
+| | i | n Lo P or to | pr | ovid | e | for backward or | for | ward lin | ka | ges to existing
+| | li | ne of manu | fa | ctur | e; | | | | |
+| f) | A | uthorize ch | an | ge i | n n | ame of company | or i | mpleme | nti | ng agency and
+| | c | hange from | a | co | mp | any to another | pro | vided ne | w | implementing
+| | a | gency / co | mp | any | un | dertakes to tak | e ov | er assets | an | d liabilities of
+| | e | xisting unit |; | | | | | | |
+| g) | P | ermit chan | ge | of lo | ca | tion from place | me | ntioned i | n L | o P to another
+| | a | nd / or in | clu | de | or | exclude additio | nal | location | /sp | ace provided
+| | t | hat no cha | ng | e i | n | other terms an | d c | ondition | s o | f approval is
+| | e | nvisaged | an | d th | at | new location | /spa | ce is w | ith | in territorial
+| | j | urisdiction | of | DC / | D | esignated Office | | | |
+| h) | E | xtend Exte | nd | as p | er | para 6.01(c) of | the | HBP, the | |
+| i.', 'A separate
 Registration–cum–Membership Certificate shall not be required in
 their cases as provided for in Paragraph 2.56 of FTP;
 o) Green Card Issue of Green Card automatically after execution of LUT;
@@ -8182,14 +10947,7 @@ q) Publicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.', 'The 2
 where there is a restriction on initial period of approval, like
 setting up of oil refinery project) by one additional year for valid
 reasons to be recorded in writing.', 'DEKAI should produce a compliance decision for 6.34 - Powers of DC / Designated Officer.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_34-R005', '6.34', 'A separate
-Registration–cum–Membership Certificate shall not be required in
-their cases as provided for in Paragraph 2.56 of FTP;
-o) Green Card Issue of Green Card automatically after execution of LUT;
-p) Grant / renewal of Status Certificate in respect of EOUs provided it
-does not involve clubbing of FOB value of exports of its parent
-company in DTA;
-q) Publicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.', 'business_rule', 'Powers of DC / Designated Officer', 'i)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_34-R005', '6.34', 'i)
 Cancel Lo P wherever warranted;
 j)
 Permit merger of two or more units into one unit provided units
@@ -8198,7 +10956,40 @@ condition that activities are covered under provision of broad
 banding;
 k) Exercise powers of adjudication under Section 13 read with Section
 11 of FT (D&R) Act, in respect of EOUs as mentioned in Gazette
-Notification No.', 'A separate
+Notification No.', 'business_rule', 'Powers of DC / Designated Officer', '| | The 2 year | s i | nitia | l v | alidity period o | f LO | P/LOI (e | xc | ept in case
+| | | where the | re | is a | r | estriction on in | itial | period | of | approval, like
+| | | setting up | of | oil r | efi | nery project) by | on | e additio | nal | year for valid
+| | | reasons to | be | rec | or | ded in writing.', 'A separate
+Registration–cum–Membership Certificate shall not be required in
+their cases as provided for in Paragraph 2.56 of FTP;
+o) Green Card Issue of Green Card automatically after execution of LUT;
+p) Grant / renewal of Status Certificate in respect of EOUs provided it
+does not involve clubbing of FOB value of exports of its parent
+company in DTA;
+q) Publicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.', 'A separate
+Registration–cum–Membership Certificate shall not be required in
+their cases as provided for in Paragraph 2.56 of FTP;
+o) Green Card Issue of Green Card automatically after execution of LUT;
+p) Grant / renewal of Status Certificate in respect of EOUs provided it
+does not involve clubbing of FOB value of exports of its parent
+company in DTA;
+q) Publicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.', 'The 2 years initial validity period of LOP/LOI (except in case
+where there is a restriction on initial period of approval, like
+setting up of oil refinery project) by one additional year for valid
+reasons to be recorded in writing.', 'DEKAI should produce a compliance decision for 6.34 - Powers of DC / Designated Officer.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_34-R006', '6.34', 'A separate
+Registration–cum–Membership Certificate shall not be required in
+their cases as provided for in Paragraph 2.56 of FTP;
+o) Green Card Issue of Green Card automatically after execution of LUT;
+p) Grant / renewal of Status Certificate in respect of EOUs provided it
+does not involve clubbing of FOB value of exports of its parent
+company in DTA;
+q) Publicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.', 'business_rule', 'Powers of DC / Designated Officer', '| | | |
+| i) | C | ancel Lo P w | he | rev | er | warranted; | | | |
+| j) | P | ermit merg | er | of t | w | o or more units | into | one un | it p | rovided units
+| | f | all within j | uri | sdic | tio | n of same DC / | Des | ignated | Off | icer subject to
+| | c | ondition th | at | act | ivi | ties are covere | d u | nder pr | ovi | sion of broad
+pg.', 'A separate
 Registration–cum–Membership Certificate shall not be required in
 their cases as provided for in Paragraph 2.56 of FTP;
 o) Green Card Issue of Green Card automatically after execution of LUT;
@@ -8245,6 +11036,38 @@ INSERT INTO conditions (section_code, condition_text) VALUES ('6.34', 'i) Cancel
 j) Permit merger of two or more units into one unit provided units
 fall within jurisdiction of same DC / Designated Officer subject to
 condition that activities are covered under provision of broad
+pg.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.34', '|
+| a) | C | onversion | of | sick | / c | losed DTA unit i | nto | EOU; | |
+| b) | C | onversion | of | EOU | to | STP / EHTP / B | TP | and vice | -ve | rsa as
+| | p | er prescrib | ed | pro | ce | dure; | | | |
+| c) | T | o allow in | cre | ase | in | value of capit | al g | oods in | ter | ms of Indian
+| | R | upees, on a | cc | oun | tof | foreign exchan | ge r | ate fluctu | at | ions;
+| d) | T | o permit c | ap | acit | y | enhancement w | ith | out any | lim | it in case of
+| | d | elicensed i | nd | ustr | ies | only; | | | |
+| e) | P | ermit broa | d-b | and | in | g for similar go | ods | and acti | viti | es mentioned
+| | i | n Lo P or to | pr | ovid | e | for backward or | for | ward lin | ka | ges to existing
+| | li | ne of manu | fa | ctur | e; | | | | |
+| f) | A | uthorize ch | an | ge i | n n | ame of company | or i | mpleme | nti | ng agency and
+| | c | hange from | a | co | mp | any to another | pro | vided ne | w | implementing
+| | a | gency / co | mp | any | un | dertakes to tak | e ov | er assets | an | d liabilities of
+| | e | xisting unit |; | | | | | | |
+| g) | P | ermit chan | ge | of lo | ca | tion from place | me | ntioned i | n L | o P to another
+| | a | nd / or in | clu | de | or | exclude additio | nal | location | /sp | ace provided
+| | t | hat no cha | ng | e i | n | other terms an | d c | ondition | s o | f approval is
+| | e | nvisaged | an | d th | at | new location | /spa | ce is w | ith | in territorial
+| | j | urisdiction | of | DC / | D | esignated Office | | | |
+| h) | E | xtend Exte | nd | as p | er | para 6.01(c) of | the | HBP, the | |
+| i.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.34', '| | The 2 year | s i | nitia | l v | alidity period o | f LO | P/LOI (e | xc | ept in case
+| | | where the | re | is a | r | estriction on in | itial | period | of | approval, like
+| | | setting up | of | oil r | efi | nery project) by | on | e additio | nal | year for valid
+| | | reasons to | be | rec | or | ded in writing.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.34', '| | | |
+| i) | C | ancel Lo P w | he | rev | er | warranted; | | | |
+| j) | P | ermit merg | er | of t | w | o or more units | into | one un | it p | rovided units
+| | f | all within j | uri | sdic | tio | n of same DC / | Des | ignated | Off | icer subject to
+| | c | ondition th | at | act | ivi | ties are covere | d u | nder pr | ovi | sion of broad
 pg.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.34', 'a)
 Conversion of sick / closed DTA unit into EOU;
@@ -8322,6 +11145,28 @@ envisaged and that new location/space is within territorial
 jurisdiction of DC /Designated Office
 h) Extend Extend as per para 6.01(c) of the HBP, the
 i.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.34', '|
+| a) | C | onversion | of | sick | / c | losed DTA unit i | nto | EOU; | |
+| b) | C | onversion | of | EOU | to | STP / EHTP / B | TP | and vice | -ve | rsa as
+| | p | er prescrib | ed | pro | ce | dure; | | | |
+| c) | T | o allow in | cre | ase | in | value of capit | al g | oods in | ter | ms of Indian
+| | R | upees, on a | cc | oun | tof | foreign exchan | ge r | ate fluctu | at | ions;
+| d) | T | o permit c | ap | acit | y | enhancement w | ith | out any | lim | it in case of
+| | d | elicensed i | nd | ustr | ies | only; | | | |
+| e) | P | ermit broa | d-b | and | in | g for similar go | ods | and acti | viti | es mentioned
+| | i | n Lo P or to | pr | ovid | e | for backward or | for | ward lin | ka | ges to existing
+| | li | ne of manu | fa | ctur | e; | | | | |
+| f) | A | uthorize ch | an | ge i | n n | ame of company | or i | mpleme | nti | ng agency and
+| | c | hange from | a | co | mp | any to another | pro | vided ne | w | implementing
+| | a | gency / co | mp | any | un | dertakes to tak | e ov | er assets | an | d liabilities of
+| | e | xisting unit |; | | | | | | |
+| g) | P | ermit chan | ge | of lo | ca | tion from place | me | ntioned i | n L | o P to another
+| | a | nd / or in | clu | de | or | exclude additio | nal | location | /sp | ace provided
+| | t | hat no cha | ng | e i | n | other terms an | d c | ondition | s o | f approval is
+| | e | nvisaged | an | d th | at | new location | /spa | ce is w | ith | in territorial
+| | j | urisdiction | of | DC / | D | esignated Office | | | |
+| h) | E | xtend Exte | nd | as p | er | para 6.01(c) of | the | HBP, the | |
+| i.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.34', 'a)
 Conversion of sick / closed DTA unit into EOU;
 b)
@@ -8392,6 +11237,19 @@ INSERT INTO timelines (section_code, timeline_text) VALUES ('6.34', 'i) Cancel L
 j) Permit merger of two or more units into one unit provided units
 fall within jurisdiction of same DC / Designated Officer subject to
 condition that activities are covered under provision of broad
+pg.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.34', '| | validity pe | rio | d o | f L | OP/LOI once un | it co | mmenc | es | production for
+| | | a period o | f u | p to | 5 | years at a time o | r | | |
+| ii.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.34', '| | The 2 year | s i | nitia | l v | alidity period o | f LO | P/LOI (e | xc | ept in case
+| | | where the | re | is a | r | estriction on in | itial | period | of | approval, like
+| | | setting up | of | oil r | efi | nery project) by | on | e additio | nal | year for valid
+| | | reasons to | be | rec | or | ded in writing.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.34', '| | | |
+| i) | C | ancel Lo P w | he | rev | er | warranted; | | | |
+| j) | P | ermit merg | er | of t | w | o or more units | into | one un | it p | rovided units
+| | f | all within j | uri | sdic | tio | n of same DC / | Des | ignated | Off | icer subject to
+| | c | ondition th | at | act | ivi | ties are covere | d u | nder pr | ovi | sion of broad
 pg.');
 INSERT INTO timelines (section_code, timeline_text) VALUES ('6.34', 'a)
 Conversion of sick / closed DTA unit into EOU;
@@ -8522,11 +11380,11 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'one');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'two');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'are');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'D&R');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'Act');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'RBI');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'DIR');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'low');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'gna');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'hal');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'App');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'ANF');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'keywords', 'nto');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'tags', '6.34');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'tags', 'Powers of DC / Designated Officer');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.34', 'tags', 'business-rule');
@@ -8617,7 +11475,10 @@ Clearance of capital goods, including second hand, in DTA kandippa be allowed as
 para 6.14(b) of FTP and import policy in force on date of such clearance.', '6.36 Clearance of Capital Goods in DTA
 Clearance of capital goods, including second hand, in DTA shall be allowed as per
 para 6.14(b) of FTP and import policy in force on date of such clearance. pg. 152
-pg.', 'Clearance of Capital Goods in DTA governs how DGFT business controls should be applied, validated, and enforced.', 'Clearance of Capital Goods in DTA explains the operating rule set that DEKAI should enforce. Key control points include 6.36 Clearance of Capital Goods in DTA
+| | | b | anding; | | | | | |
+| k) | | E | xercise power | s of adjudication u | nder Sectio | n | 13 r | ead wit | h Section
+| | | 1 | 1 of FT (D&R | ) Act, in respect | of EOUs as | m | enti | oned in | Gazette
+| | | N | otification No |.', 'Clearance of Capital Goods in DTA governs how DGFT business controls should be applied, validated, and enforced.', 'Clearance of Capital Goods in DTA explains the operating rule set that DEKAI should enforce. Key control points include 6.36 Clearance of Capital Goods in DTA
 Clearance of capital goods, including second hand, in DTA shall be allowed as per
 para 6.14(b) of FTP and import policy in force on date of such clearance. The section also drives actions such as (M.A Series) Circular AP (DIR series Circular No.9 dated
 25.10.2001);
@@ -8635,6 +11496,36 @@ Home Affairs letter No..', '6.36 Clearance of Capital Goods in DTA
 Clearance of capital goods, including second hand, in DTA shall be allowed as per
 para 6.14(b) of FTP and import policy in force on date of such clearance.
 pg. 152
+| | | b | anding; | | | | | |
+| k) | | E | xercise power | s of adjudication u | nder Sectio | n | 13 r | ead wit | h Section
+| | | 1 | 1 of FT (D&R | ) Act, in respect | of EOUs as | m | enti | oned in | Gazette
+| | | N | otification No |. SO.194(E) dated | 6.3.2000; | | | |
+| l) | | D | o valuation of | exports declared | on SOFTE | X f | orm | by EOU | s as per
+| | | R | BI A.D. (M.A S | eries) Circular AP | (DIR seri | es | Circ | ular No |.9 dated
+| | | 2 | 5.10.2001); | | | | | |
+| m) | I | s | sue eligibility | certificates for g | rant of em | pl | oym | ent vis | a to low
+| | | l | evel foreign te | chnicians to be en | gaged by E | OU | s a | s per Mi | nistry of
+| | | H | ome Affairs le | tter No. 25022/7 | /99-F.1 dat | ed | 20. | 9.1999; |
+| n) | | R | egistration-cu | m-Membership | Certificat | e | Fu | nction | as a
+| | | R | egistering aut | hority for EOU / E | HTP / STP | / B | TP | unit. A | separate
+| | | R | egistration–cu | m–Membership C | ertificate | sha | ll n | ot be re | quired in
+| | | t | heir cases as p | rovided for in Par | agraph 2.5 | 6 o | f FT | P; |
+| o) | | G | reen Card Issu | e of Green Card au | tomaticall | y af | ter | executi | on of LUT
+| p) | | G | rant / renewal | of Status Certifica | te in respe | ct | of E | OUs pr | ovided it
+| | | d | oes not invol | ve clubbing of FO | B value of | e | xpor | ts of it | s parent
+| | | c | ompany in DT | A; | | | | |
+| q) | | P | ublicity of EOU | / EHTP / STP / B | TP Scheme | un | der | their ju | risdiction
+| r) | | E | xit from EOU | /EHTP/STP/BTP | Scheme (i | ncl | udi | ng gran | t of ‘in-
+| | | p | rinciple’ exit l | etter as per Appe | ndix 6K). | | | |
+.35 C | han | ge | | of Location / | Inclusion of Ad | ditional | Lo | cati | on wit | h BOA
+ppro | val | | | | | | | | |
+BOA m | ay c | on | s | ider change of | location of EOU / | EHTP / ST | P / | BTP | unit fr | om place
+mentio | ned | in | | Lo P to anothe | r and / or to inc | lude addit | io | nal l | ocation | outside
+territo | rial | ju | r | isdiction of o | riginal DC / Desi | gnated Of | fic | er, | subject | to such
+condit | ions | as | | BOA may decid | e. | | | | |
+.36 C | lear | a | n | ce of Capital | Goods in DTA | | | | |
+Cleara | nce o | f c | a | pital goods, in | cluding second ha | nd, in DTA | sh | all b | e allow | ed as per
+para 6 |.14(b | ) | o | f FTP and imp | ort policy in force | on date of | su | ch cl | earanc | e.
 pg. 152
 banding;
 k)
@@ -8668,15 +11559,14 @@ q)
 Publicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.
 r)
 Exit from EOU/EHTP/STP/BTP Scheme (including grant of ‘in-
-principle’ exit letter as per Appendix 6K).', '[20]', '["DTA", "per", "FTP", "and", "D&R", "Act", "RBI", "DIR", "for", "low", "EOU", "STP", "BTP", "cum", "not", "LUT", "FOB", "its", "hand", "para"]', 'Support Clearance of Capital Goods in DTA processing and compliance validation.', '["6.36", "Clearance of Capital Goods in DTA", "business-rule", "document-driven", "dgft"]');
+principle’ exit letter as per Appendix 6K).', '[20]', '["DTA", "per", "FTP", "and", "ead", "wit", "D&R", "Act", "orm", "EOU", "DIR", "sue", "for", "oym", "ent", "vis", "low", "ome", "dat", "aut"]', 'Support Clearance of Capital Goods in DTA processing and compliance validation.', '["6.36", "Clearance of Capital Goods in DTA", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_36-R001', '6.36', '6.36 Clearance of Capital Goods in DTA
 Clearance of capital goods, including second hand, in DTA shall be allowed as per
 para 6.14(b) of FTP and import policy in force on date of such clearance.', 'business_rule', 'Clearance of Capital Goods in DTA', '152
-banding;
-k)
-Exercise powers of adjudication under Section 13 read with Section
-11 of FT (D&R) Act, in respect of EOUs as mentioned in Gazette
-Notification No.', '6.36 Clearance of Capital Goods in DTA
+| | | b | anding; | | | | | |
+| k) | | E | xercise power | s of adjudication u | nder Sectio | n | 13 r | ead wit | h Section
+| | | 1 | 1 of FT (D&R | ) Act, in respect | of EOUs as | m | enti | oned in | Gazette
+| | | N | otification No |.', '6.36 Clearance of Capital Goods in DTA
 Clearance of capital goods, including second hand, in DTA shall be allowed as per
 para 6.14(b) of FTP and import policy in force on date of such clearance.', '(M.A Series) Circular AP (DIR series Circular No.9 dated
 25.10.2001);
@@ -8694,12 +11584,11 @@ Grant / renewal of Status Certificate in respect of EOUs provided it
 does not involve clubbing of FOB value of exports of its parent
 company in DTA;
 q)
-Publicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.', 'business_rule', 'Clearance of Capital Goods in DTA', '(M.A Series) Circular AP (DIR series Circular No.9 dated
-25.10.2001);
-m)
-Issue eligibility certificates for grant of employment visa to low
-level foreign technicians to be engaged by EOUs as per Ministry of
-Home Affairs letter No.', 'A separate
+Publicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.', 'business_rule', 'Clearance of Capital Goods in DTA', '(M.A S | eries) Circular AP | (DIR seri | es | Circ | ular No |.9 dated
+| | | 2 | 5.10.2001); | | | | | |
+| m) | I | s | sue eligibility | certificates for g | rant of em | pl | oym | ent vis | a to low
+| | | l | evel foreign te | chnicians to be en | gaged by E | OU | s a | s per Mi | nistry of
+| | | H | ome Affairs le | tter No.', 'A separate
 Registration–cum–Membership Certificate shall not be required in
 their cases as provided for in Paragraph 2.56 of FTP;
 o)
@@ -8717,6 +11606,29 @@ Function
 as
 a
 Registering authority for EOU / EHTP / STP / BTP unit.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6.36 - Clearance of Capital Goods in DTA.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.36', '152
+| | | b | anding; | | | | | |
+| k) | | E | xercise power | s of adjudication u | nder Sectio | n | 13 r | ead wit | h Section
+| | | 1 | 1 of FT (D&R | ) Act, in respect | of EOUs as | m | enti | oned in | Gazette
+| | | N | otification No |.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.36', '(M.A S | eries) Circular AP | (DIR seri | es | Circ | ular No |.9 dated
+| | | 2 | 5.10.2001); | | | | | |
+| m) | I | s | sue eligibility | certificates for g | rant of em | pl | oym | ent vis | a to low
+| | | l | evel foreign te | chnicians to be en | gaged by E | OU | s a | s per Mi | nistry of
+| | | H | ome Affairs le | tter No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.36', '| 9.1999; |
+| n) | | R | egistration-cu | m-Membership | Certificat | e | Fu | nction | as a
+| | | R | egistering aut | hority for EOU / E | HTP / STP | / B | TP | unit.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.36', 'A | separate
+| | | R | egistration–cu | m–Membership C | ertificate | sha | ll n | ot be re | quired in
+| | | t | heir cases as p | rovided for in Par | agraph 2.5 | 6 o | f FT | P; |
+| o) | | G | reen Card Issu | e of Green Card au | tomaticall | y af | ter | executi | on of LUT
+| p) | | G | rant / renewal | of Status Certifica | te in respe | ct | of E | OUs pr | ovided it
+| | | d | oes not invol | ve clubbing of FO | B value of | e | xpor | ts of it | s parent
+| | | c | ompany in DT | A; | | | | |
+| q) | | P | ublicity of EOU | / EHTP / STP / B | TP Scheme | un | der | their ju | risdiction
+| r) | | E | xit from EOU | /EHTP/STP/BTP | Scheme (i | ncl | udi | ng gran | t of ‘in-
+| | | p | rinciple’ exit l | etter as per Appe | ndix 6K).');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.36', '152
 banding;
 k)
@@ -8748,6 +11660,11 @@ does not involve clubbing of FOB value of exports of its parent
 company in DTA;
 q)
 Publicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.');
+INSERT INTO documents (section_code, document_name) VALUES ('6.36', '(M.A S | eries) Circular AP | (DIR seri | es | Circ | ular No |.9 dated
+| | | 2 | 5.10.2001); | | | | | |
+| m) | I | s | sue eligibility | certificates for g | rant of em | pl | oym | ent vis | a to low
+| | | l | evel foreign te | chnicians to be en | gaged by E | OU | s a | s per Mi | nistry of
+| | | H | ome Affairs le | tter No.');
 INSERT INTO documents (section_code, document_name) VALUES ('6.36', '(M.A Series) Circular AP (DIR series Circular No.9 dated
 25.10.2001);
 m)
@@ -8777,25 +11694,18 @@ company in DTA;
 q)
 Publicity of EOU / EHTP / STP / BTP Scheme under their jurisdiction.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.36', 1, 'Evaluate condition: 152
-banding;
-k)
-Exercise powers of adjudication under Section 13 read with Section
-11 of FT (D&R) Act, in respect of EOUs as mentioned in Gazette
-Notification No.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.36', 2, 'Evaluate condition: (M.A Series) Circular AP (DIR series Circular No.9 dated
-25.10.2001);
-m)
-Issue eligibility certificates for grant of employment visa to low
-level foreign technicians to be engaged by EOUs as per Ministry of
-Home Affairs letter No.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.36', 3, 'Evaluate condition: 25022/7/99-F.1 dated 20.9.1999;
-n)
-Registration-cum-Membership
-Certificate
-Function
-as
-a
-Registering authority for EOU / EHTP / STP / BTP unit.');
+| | | b | anding; | | | | | |
+| k) | | E | xercise power | s of adjudication u | nder Sectio | n | 13 r | ead wit | h Section
+| | | 1 | 1 of FT (D&R | ) Act, in respect | of EOUs as | m | enti | oned in | Gazette
+| | | N | otification No |.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.36', 2, 'Evaluate condition: (M.A S | eries) Circular AP | (DIR seri | es | Circ | ular No |.9 dated
+| | | 2 | 5.10.2001); | | | | | |
+| m) | I | s | sue eligibility | certificates for g | rant of em | pl | oym | ent vis | a to low
+| | | l | evel foreign te | chnicians to be en | gaged by E | OU | s a | s per Mi | nistry of
+| | | H | ome Affairs le | tter No.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.36', 3, 'Evaluate condition: | 9.1999; |
+| n) | | R | egistration-cu | m-Membership | Certificat | e | Fu | nction | as a
+| | | R | egistering aut | hority for EOU / E | HTP / STP | / B | TP | unit.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.36', 4, '(M.A Series) Circular AP (DIR series Circular No.9 dated
 25.10.2001);
 m)
@@ -8839,22 +11749,22 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'per');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'FTP');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'ead');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'wit');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'D&R');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'Act');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'RBI');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'DIR');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'for');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'low');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'orm');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'EOU');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'STP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'BTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'cum');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'not');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'LUT');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'FOB');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'its');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'hand');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'para');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'DIR');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'sue');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'oym');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'ent');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'vis');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'low');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'ome');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'dat');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'keywords', 'aut');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'tags', '6.36');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'tags', 'Clearance of Capital Goods in DTA');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.36', 'tags', 'business-rule');
@@ -8969,27 +11879,19 @@ equipment already installed. For this purpose, DTA unit may apply
 to DC / Designated Officer concerned in same manner as applicable
 to new units. In case there is an outstanding export commitment
 under Advance Authorisation Scheme, it will follow the procedure
-laid down in Appendix 6M of Appendices & ANFs.', '6.38 Conversion
+laid down in Appendix 6M of Appendices & ANFs.', 'Conversion governs how DGFT business controls should be applied, validated, and enforced.', 'Conversion explains the operating rule set that DEKAI should enforce. Key control points include | | |
+(a) De | p | re | ciat | ion Norms for | Computers an | d Com | puter Periph | erals: |
+| D | ep | rec | iation for com | puters and co | mpute | r peripherals | shall b | e as follows. The section also drives actions such as 6.38 Conversion
 a) Existing DTA units, may also apply for conversion into an EOU
 /EHTP / STP / BTP unit, but no concession in duties and taxes
 would be available under scheme for plant, machinery and
-equipment already installed.', '6.38 Conversion
+equipment already installed..', 'Indha Conversion section-la, Conversion explains the operating rule set that DEKAI should enforce. Key control points include | | |
+(a) De | p | re | ciat | ion Norms for | Computers an | d Com | puter Periph | erals: |
+| D | ep | rec | iation for com | puters and co | mpute | r peripherals | kandippa b | e as follows. The section also drives actions such as 6.38 Conversion
 a) Existing DTA units, may also apply for conversion into an EOU
 /EHTP / STP / BTP unit, but no concession in duties and taxes
 would be available under scheme for plant, machinery and
-equipment already installed. For this purpose, DTA unit may apply
-to DC / Designated Officer concerned in same manner as applicable
-to new units. In case there is an outstanding export commitment
-under Advance Authorisation Scheme, it will follow the procedure
-laid down in Appendix 6M of Appendices & ANFs.', 'Indha Conversion section-la, 6.38 Conversion
-a) Existing DTA units, may also apply for conversion into an EOU
-/EHTP / STP / BTP unit, but no concession in duties and taxes
-would be available under scheme for plant, machinery and
-equipment already installed. For this purpose, DTA unit may apply
-to DC / Designated Officer concerned in same manner as applicable
-to new units. In case there is an outstanding export commitment
-under Advance Authorisation Scheme, it will follow the procedure
-laid down in Appendix 6M of Appendices & ANFs.', '6.38 Conversion
+equipment already installed..', '6.38 Conversion
 a) Existing DTA units, may also apply for conversion into an EOU
 /EHTP / STP / BTP unit, but no concession in duties and taxes
 would be available under scheme for plant, machinery and
@@ -9008,6 +11910,39 @@ merger to EOU unit and vice-versa. In such cases, units will
 continue to avail permissible exemption in duties and taxes as
 applicable under relevant scheme. EHTP / STP/ BTP units desiring
 pg. 153
+6.37 | D | ep | re | ciation Norm | s | | | |
+Depr | e | cia | tion | up to 100% i | s permissible | for Co | mputers and | Compu | ter periphera
+5 yea | r | s a | nd 1 | 0 years in cas | e of other ite | ms. | | |
+(a) De | p | re | ciat | ion Norms for | Computers an | d Com | puter Periph | erals: |
+| D | ep | rec | iation for com | puters and co | mpute | r peripherals | shall b | e as follows.
+| 1 | 0% | fo | r every quarte | r in first year |; | | |
+| 8 | % | for | every quarter | in second yea | r; | | |
+| 5 | % | for | every quarter | in third year; | | | |
+| 1 | % | for | every quarter | in fourth and | fifth y | ear. | |
+(b) D | e | pr | ecia | tion Norms fo | r Other Capita | l Good | s: | |
+| F | or | cap | ital goods, oth | er than abov | e, depr | eciation rate | would | be as follows
+| 4 | % | for | every quarter | in first year; | | | |
+| 3 | % | for | every quarter | in second an | d third | year; | |
+| 2 |.5 | % fo | r every quart | er in fourth a | nd fifth | year; | |
+| 2 | % | for | every quarter | thereafter. | | | |
+6.38 | C | on | ve | rsion | | | | |
+| | a) | | Existing DTA | units, may a | lso ap | ply for conv | ersion i | nto an EOU
+| | | | /EHTP / STP | / BTP unit, | but no | concession | in duti | es and taxes
+| | | | would be av | ailable unde | r sch | eme for pla | nt, ma | chinery and
+| | | | equipment al | ready installe | d. For t | his purpose, | DTA un | it may apply
+| | | | to DC / Design | ated Officer c | oncer | ned in same | manner | as applicable
+| | | | to new units. | In case there | is an | outstanding | export | commitment
+| | | | under Advanc | e Authorisati | on Sch | eme, it will f | ollow t | he procedure
+| | | | laid down in | Appendix 6M | of App | endices & AN | Fs. In c | ase DTA unit
+| | | | has taken EP | CG authorisat | ion, th | e conversion | would | be permitted
+| | | | only if either | the unit has f | ulfilled | the stipulat | ed Expo | rt obligation
+| | | | and obtained | EODC or has | made | payment of a | pplicab | le duties and
+| | | | taxes and com | pensation ce | ss on c | apital goods | import | ed under the
+| | | | EPCG Scheme |. | | | |
+| | b) | | Existing EHT | P / STP / BTP | units | may also ap | ply for | conversion /
+| | | | merger to E | OU unit and | vice-v | ersa. In suc | h case | s, units will
+| | | | continue to a | vail permissi | ble ex | emption in | duties | and taxes as
+| | | | applicable un | der relevant s | cheme |. EHTP / STP | / BTP u | nits desiring
 pg. 153
 6.38 Conversion
 a)
@@ -9035,14 +11970,14 @@ applicable to new units. Likewise, EOU desiring conversion into
 EHTP / STP / BTP may apply to officer designated by Meit Y / Do BT
 through DC concerned.
 c) An EOU may be shifted to SEZ with approval of DC provided EOU
-has achieved pro-rata obligation under EOU scheme.', '[21, 22]', '["DTA", "may", "for", "EOU", "STP", "BTP", "but", "and", "new", "the", "has", "SEZ", "also", "into", "EHTP", "unit", "this", "same", "case", "will"]', 'Support Conversion processing and compliance validation.', '["6.38", "Conversion", "dgft"]');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_38-R001', '6.38', 'IF validations pass THEN recommend action: 6.38 Conversion
-a) Existing DTA units, may also apply for conversion into an EOU
-/EHTP / STP / BTP unit, but no concession in duties and taxes
-would be available under scheme for plant, machinery and
-equipment already installed.', 'business_rule', 'Conversion', 'In case there is an outstanding export commitment
+has achieved pro-rata obligation under EOU scheme.', '[21, 22]', '["DTA", "may", "for", "EOU", "STP", "BTP", "but", "and", "new", "the", "has", "cia", "ter", "yea", "cas", "ite", "ion", "Com", "rec", "ear"]', 'Support Conversion processing and compliance validation.', '["6.38", "Conversion", "business-rule", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_38-R001', '6.38', '| | |
+(a) De | p | re | ciat | ion Norms for | Computers an | d Com | puter Periph | erals: |
+| D | ep | rec | iation for com | puters and co | mpute | r peripherals | shall b | e as follows.', 'business_rule', 'Conversion', 'In case there is an outstanding export commitment
 under Advance Authorisation Scheme, it will follow the procedure
-laid down in Appendix 6M of Appendices & ANFs.', 'Not explicitly covered in uploaded documents.', '6.38 Conversion
+laid down in Appendix 6M of Appendices & ANFs.', '| | |
+(a) De | p | re | ciat | ion Norms for | Computers an | d Com | puter Periph | erals: |
+| D | ep | rec | iation for com | puters and co | mpute | r peripherals | shall b | e as follows.', '6.38 Conversion
 a) Existing DTA units, may also apply for conversion into an EOU
 /EHTP / STP / BTP unit, but no concession in duties and taxes
 would be available under scheme for plant, machinery and
@@ -9060,8 +11995,39 @@ only if either the unit has fulfilled the stipulated Export obligation
 and obtained EODC or has made payment of applicable duties and
 taxes and compensation cess on capital goods imported under the
 EPCG Scheme.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.38', '| 1 | 0% | fo | r every quarte | r in first year |; | | |
+| 8 | % | for | every quarter | in second yea | r; | | |
+| 5 | % | for | every quarter | in third year; | | | |
+| 1 | % | for | every quarter | in fourth and | fifth y | ear.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.38', '| |
+(b) D | e | pr | ecia | tion Norms fo | r Other Capita | l Good | s: | |
+| F | or | cap | ital goods, oth | er than abov | e, depr | eciation rate | would | be as follows
+| 4 | % | for | every quarter | in first year; | | | |
+| 3 | % | for | every quarter | in second an | d third | year; | |
+| 2 |.5 | % fo | r every quart | er in fourth a | nd fifth | year; | |
+| 2 | % | for | every quarter | thereafter.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.38', '| In case there | is an | outstanding | export | commitment
+| | | | under Advanc | e Authorisati | on Sch | eme, it will f | ollow t | he procedure
+| | | | laid down in | Appendix 6M | of App | endices & AN | Fs.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.38', 'In c | ase DTA unit
+| | | | has taken EP | CG authorisat | ion, th | e conversion | would | be permitted
+| | | | only if either | the unit has f | ulfilled | the stipulat | ed Expo | rt obligation
+| | | | and obtained | EODC or has | made | payment of a | pplicab | le duties and
+| | | | taxes and com | pensation ce | ss on c | apital goods | import | ed under the
+| | | | EPCG Scheme |.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.38', 'c) An EOU may be shifted to SEZ with approval of DC provided EOU
 has achieved pro-rata obligation under EOU scheme.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.38', '153
+6.37 | D | ep | re | ciation Norm | s | | | |
+Depr | e | cia | tion | up to 100% i | s permissible | for Co | mputers and | Compu | ter periphera
+5 yea | r | s a | nd 1 | 0 years in cas | e of other ite | ms.');
+INSERT INTO timelines (section_code, timeline_text) VALUES ('6.38', '| |
+(b) D | e | pr | ecia | tion Norms fo | r Other Capita | l Good | s: | |
+| F | or | cap | ital goods, oth | er than abov | e, depr | eciation rate | would | be as follows
+| 4 | % | for | every quarter | in first year; | | | |
+| 3 | % | for | every quarter | in second an | d third | year; | |
+| 2 |.5 | % fo | r every quart | er in fourth a | nd fifth | year; | |
+| 2 | % | for | every quarter | thereafter.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.38', '6.38 Conversion
 a) Existing DTA units, may also apply for conversion into an EOU
 /EHTP / STP / BTP unit, but no concession in duties and taxes
@@ -9070,6 +12036,12 @@ equipment already installed.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.38', 'In such cases, units will
 continue to avail permissible exemption in duties and taxes as
 applicable under relevant scheme.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6.38', '| | | |
+6.38 | C | on | ve | rsion | | | | |
+| | a) | | Existing DTA | units, may a | lso ap | ply for conv | ersion i | nto an EOU
+| | | | /EHTP / STP | / BTP unit, | but no | concession | in duti | es and taxes
+| | | | would be av | ailable unde | r sch | eme for pla | nt, ma | chinery and
+| | | | equipment al | ready installe | d.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.38', '153
 6.38 Conversion
 a)
@@ -9086,8 +12058,10 @@ only if either the unit has fulfilled the stipulated Export obligation
 and obtained EODC or has made payment of applicable duties and
 taxes and compensation cess on capital goods imported under the
 EPCG Scheme.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.38', 3, 'Evaluate condition: c) An EOU may be shifted to SEZ with approval of DC provided EOU
-has achieved pro-rata obligation under EOU scheme.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.38', 3, 'Evaluate condition: | 1 | 0% | fo | r every quarte | r in first year |; | | |
+| 8 | % | for | every quarter | in second yea | r; | | |
+| 5 | % | for | every quarter | in third year; | | | |
+| 1 | % | for | every quarter | in fourth and | fifth y | ear.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.38', 4, '6.38 Conversion
 a) Existing DTA units, may also apply for conversion into an EOU
 /EHTP / STP / BTP unit, but no concession in duties and taxes
@@ -9104,17 +12078,19 @@ taxes and compensation cess on capital goods imported under the
 EPCG Scheme.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.38', 7, 'b) Existing EHTP / STP / BTP units may also apply for conversion /
 merger to EOU unit and vice-versa.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.38', 8, '153
-6.38 Conversion
-a)
-Existing DTA units, may also apply for conversion into an EOU
-/EHTP / STP / BTP unit, but no concession in duties and taxes
-would be available under scheme for plant, machinery and
-equipment already installed.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.38', 9, 'b)
-Existing EHTP / STP / BTP units may also apply for conversion /
-merger to EOU unit and vice-versa.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.38', 10, 'Handle exception: 6.38 Conversion
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.38', 8, 'For t | his purpose, | DTA un | it may apply
+| | | | to DC / Design | ated Officer c | oncer | ned in same | manner | as applicable
+| | | | to new units.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.38', 9, 'In c | ase DTA unit
+| | | | has taken EP | CG authorisat | ion, th | e conversion | would | be permitted
+| | | | only if either | the unit has f | ulfilled | the stipulat | ed Expo | rt obligation
+| | | | and obtained | EODC or has | made | payment of a | pplicab | le duties and
+| | | | taxes and com | pensation ce | ss on c | apital goods | import | ed under the
+| | | | EPCG Scheme |.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.38', 10, 'Run validation: | | |
+(a) De | p | re | ciat | ion Norms for | Computers an | d Com | puter Periph | erals: |
+| D | ep | rec | iation for com | puters and co | mpute | r peripherals | shall b | e as follows.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.38', 11, 'Handle exception: 6.38 Conversion
 a) Existing DTA units, may also apply for conversion into an EOU
 /EHTP / STP / BTP unit, but no concession in duties and taxes
 would be available under scheme for plant, machinery and
@@ -9130,17 +12106,18 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'new');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'the');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'has');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'SEZ');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'also');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'into');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'EHTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'unit');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'this');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'same');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'case');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'will');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'cia');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'ter');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'yea');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'cas');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'ite');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'ion');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'Com');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'rec');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'keywords', 'ear');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'tags', '6.38');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'tags', 'Conversion');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'tags', 'business-rule');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.38', 'tags', 'dgft');
 INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('HBP-Chapter-6.pdf', '6', 'Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology', '6.39', 'Fast Track Clearance Procedure', '6.39 Fast Track Clearance Procedure
 a) Eligibility: EOUs having a status holder certificate under FTP shall
@@ -9189,6 +12166,43 @@ Jewellery for export promotion tours subject to fulfilment of
 conditions of Paragraph 6.23 of HBP. However, prior intimation
 thereof needs to be given.
 pg. 154
+| conversion as an | EOU may ap | pl | y to DC | conc | erned throu | gh Officer
+| designated by M | eit Y / Do BT | in | same | mann | er as |
+| applicable to ne | w units. Like | w | ise, EO | U de | siring conv | ersion into
+| EHTP / STP / BT | P may apply | to | officer | desig | nated by Me | it Y / Do BT
+| through DC conc | erned. | | | | |
+c) | An EOU may be | shifted to SE | Z | with ap | prova | l of DC pro | vided EOU
+| has achieved pro | -rata obligat | io | n under | EOU | scheme. |
+ast Tr | ack Clearance | Procedure | | | | |
+a) | Eligibility: EOUs | having a stat | us | holde | r certi | ficate unde | r FTP shall
+| be eligible for Fa | st Track Clea | ra | nce Pr | ocedu | re. |
+b) | Examination of | Import Ca | rg | o: Stat | us h | older units | shall be
+| exempted from | examination | o | f impo | rt car | go at port | of import.
+| However, jurisdi | ctional Com | m | issione | r of C | ustoms ma | y examine
+| consignments at | unit’s place o | n | rando | m basi | s. |
+c) | Installation of Co | mputers: Eli | gib | le EOU | s may | install two | computers
+| in their administ | rative / regi | st | ered of | fice o | utside prem | ises of the
+| unit under prior | intimation to | j | urisdict | ional | Asstt. |
+| / Deputy Commi | ssioner of Cu | st | oms. | | |
+d) | Procurement of | DG sets: P | ro | curem | ent o | f DG set o | f capacity
+| commensurate w | ith actual re | qu | ireme | nt of u | nit shall be | permitted
+| under intimation | to DC and ju | ri | sdictio | nal Cu | stoms auth | ority.
+e) | Temporary rem | oval of Capit | al | Goods |: Eligi | ble EOU m | ay remove
+| their capital go | ods or part | s | thereo | f for | repairs u | nder prior
+| intimation to j | urisdictional | A | sst. / | Depu | ty Commi | ssioner of
+| Customs or Cent | ral Excise. | | | | |
+f) | Personal carriag | e of samples: | Pe | rsonal | carria | ge of sampl | es of Gems
+| & Jewellery by st | atus holder E | O | Us are a | llowe | d subject to | limit fixed
+| in Paragraph 6.2 | 4 without a | ne | ed for | prior | permission | from DC /
+| Customs. | | | | | |
+g) | Activities which | do not requir | e | permis | sion: | In respect o | f following
+| activities of a sta | tus holder, p | er | missio | n will | not be req | uired from
+| DC or jurisdictio | nal Central E | xc | ise/Cus | toms | authority: | DTA sale of
+| finished produc | ts in term | s | of Pa | ragra | ph 6.07(a) | of FTP;
+| Participation in | exhibition | an | d Per | sonal | carriage o | f Gems &
+| Jewellery for ex | port promo | ti | on tou | rs su | bject to ful | filment of
+| conditions of Pa | ragraph 6.23 | o | f HBP. | How | ever, prior | intimation
+| thereof needs to | be given. | | | | |
 pg. 154
 conversion as an EOU may apply to DC concerned through Officer
 designated by Meit Y / Do BT in same manner as
@@ -9234,7 +12248,7 @@ finished products in terms of Paragraph 6.07(a) of FTP;
 Participation in exhibition and Personal carriage of Gems &
 Jewellery for export promotion tours subject to fulfilment of
 conditions of Paragraph 6.23 of HBP. However, prior intimation
-thereof needs to be given.', '[22]', '["FTP", "for", "may", "two", "the", "set", "and", "EOU", "are", "not", "DTA", "HBP", "new", "STP", "BTP", "SEZ", "has", "Fast", "EOUs", "from"]', 'Support Fast Track Clearance Procedure processing and compliance validation.', '["6.39", "Fast Track Clearance Procedure", "business-rule", "document-driven", "dgft"]');
+thereof needs to be given.', '[22]', '["FTP", "for", "may", "two", "the", "set", "and", "EOU", "are", "not", "DTA", "HBP", "eit", "ise", "STP", "pro", "has", "ast", "ack", "nce"]', 'Support Fast Track Clearance Procedure processing and compliance validation.', '["6.39", "Fast Track Clearance Procedure", "business-rule", "document-driven", "dgft"]');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R001', '6.39', '6.39 Fast Track Clearance Procedure
 a) Eligibility: EOUs having a status holder certificate under FTP shall
 be eligible for Fast Track Clearance Procedure.', 'business_rule', 'Fast Track Clearance Procedure', '6.39 Fast Track Clearance Procedure
@@ -9250,10 +12264,9 @@ exempted from examination of import cargo at port of import.', 'business_rule', 
 & Jewellery by status holder EOUs are allowed subject to limit fixed
 in Paragraph 6.24 without a need for prior permission from DC /
 Customs.', 'b) Examination of Import Cargo: Status holder units shall be
-exempted from examination of import cargo at port of import.', '154
-conversion as an EOU may apply to DC concerned through Officer
-designated by Meit Y / Do BT in same manner as
-applicable to new units.', 'However, jurisdictional Commissioner of Customs may examine
+exempted from examination of import cargo at port of import.', 'Like | w | ise, EO | U de | siring conv | ersion into
+| EHTP / STP / BT | P may apply | to | officer | desig | nated by Me | it Y / Do BT
+| through DC conc | erned.', 'However, jurisdictional Commissioner of Customs may examine
 consignments at unit’s place on random basis.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R003', '6.39', 'c) Installation of Computers: Eligible EOUs may install two computers
 in their administrative / registered office outside premises of the
@@ -9265,43 +12278,41 @@ Participation in exhibition and Personal carriage of Gems &
 Jewellery for export promotion tours subject to fulfilment of
 conditions of Paragraph 6.23 of HBP.', 'c) Installation of Computers: Eligible EOUs may install two computers
 in their administrative / registered office outside premises of the
-unit under prior intimation to jurisdictional Asstt.', 'Likewise, EOU desiring conversion into
-EHTP / STP / BTP may apply to officer designated by Meit Y / Do BT
-through DC concerned.', 'However, prior intimation
+unit under prior intimation to jurisdictional Asstt.', '154
+conversion as an EOU may apply to DC concerned through Officer
+designated by Meit Y / Do BT in same manner as
+applicable to new units.', 'However, prior intimation
 thereof needs to be given.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R004', '6.39', 'd) Procurement of DG sets: Procurement of DG set of capacity
 commensurate with actual requirement of unit shall be permitted
-under intimation to DC and jurisdictional Customs authority.', 'business_rule', 'Fast Track Clearance Procedure', 'c)
-An EOU may be shifted to SEZ with approval of DC provided EOU
-has achieved pro-rata obligation under EOU scheme.', 'd) Procurement of DG sets: Procurement of DG set of capacity
+under intimation to DC and jurisdictional Customs authority.', 'business_rule', 'Fast Track Clearance Procedure', '| | | | |
+c) | An EOU may be | shifted to SE | Z | with ap | prova | l of DC pro | vided EOU
+| has achieved pro | -rata obligat | io | n under | EOU | scheme.', 'd) Procurement of DG sets: Procurement of DG set of capacity
 commensurate with actual requirement of unit shall be permitted
-under intimation to DC and jurisdictional Customs authority.', 'c)
-Installation of Computers: Eligible EOUs may install two computers
-in their administrative / registered office outside premises of the
-unit under prior intimation to jurisdictional Asstt.', 'b)
-Examination of Import Cargo: Status holder units shall be
-exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
+under intimation to DC and jurisdictional Customs authority.', 'Likewise, EOU desiring conversion into
+EHTP / STP / BTP may apply to officer designated by Meit Y / Do BT
+through DC concerned.', '|
+b) | Examination of | Import Ca | rg | o: Stat | us h | older units | shall be
+| exempted from | examination | o | f impo | rt car | go at port | of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R005', '6.39', 'e) Temporary removal of Capital Goods: Eligible EOU may remove
 their capital goods or parts thereof for repairs under prior
-intimation to jurisdictional Asst.', 'business_rule', 'Fast Track Clearance Procedure', '6.39 Fast Track Clearance Procedure
-a)
-Eligibility: EOUs having a status holder certificate under FTP shall
-be eligible for Fast Track Clearance Procedure.', 'e) Temporary removal of Capital Goods: Eligible EOU may remove
+intimation to jurisdictional Asst.', 'business_rule', 'Fast Track Clearance Procedure', '| | | | |
+f) | Personal carriag | e of samples: | Pe | rsonal | carria | ge of sampl | es of Gems
+| & Jewellery by st | atus holder E | O | Us are a | llowe | d subject to | limit fixed
+| in Paragraph 6.2 | 4 without a | ne | ed for | prior | permission | from DC /
+| Customs.', 'e) Temporary removal of Capital Goods: Eligible EOU may remove
 their capital goods or parts thereof for repairs under prior
 intimation to jurisdictional Asst.', 'c)
 Installation of Computers: Eligible EOUs may install two computers
 in their administrative / registered office outside premises of the
-unit under prior intimation to jurisdictional Asstt.', 'b)
-Examination of Import Cargo: Status holder units shall be
-exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
+unit under prior intimation to jurisdictional Asstt.', '| However, jurisdi | ctional Com | m | issione | r of C | ustoms ma | y examine
+| consignments at | unit’s place o | n | rando | m basi | s.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
 INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R006', '6.39', 'f) Personal carriage of samples: Personal carriage of samples of Gems
 & Jewellery by status holder EOUs are allowed subject to limit fixed
 in Paragraph 6.24 without a need for prior permission from DC /
-Customs.', 'business_rule', 'Fast Track Clearance Procedure', 'f)
-Personal carriage of samples: Personal carriage of samples of Gems
-& Jewellery by status holder EOUs are allowed subject to limit fixed
-in Paragraph 6.24 without a need for prior permission from DC /
-Customs.', 'g) Activities which do not require permission: In respect of following
+Customs.', 'business_rule', 'Fast Track Clearance Procedure', 'c)
+An EOU may be shifted to SEZ with approval of DC provided EOU
+has achieved pro-rata obligation under EOU scheme.', 'g) Activities which do not require permission: In respect of following
 activities of a status holder, permission will not be required from
 DC or jurisdictional Central Excise/Customs authority: DTA sale of
 finished products in terms of Paragraph 6.07(a) of FTP;
@@ -9319,7 +12330,55 @@ DC or jurisdictional Central Excise/Customs authority: DTA sale of
 finished products in terms of Paragraph 6.07(a) of FTP;
 Participation in exhibition and Personal carriage of Gems &
 Jewellery for export promotion tours subject to fulfilment of
-conditions of Paragraph 6.23 of HBP.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
+conditions of Paragraph 6.23 of HBP.', 'business_rule', 'Fast Track Clearance Procedure', '6.39 Fast Track Clearance Procedure
+a)
+Eligibility: EOUs having a status holder certificate under FTP shall
+be eligible for Fast Track Clearance Procedure.', '|
+ast Tr | ack Clearance | Procedure | | | | |
+a) | Eligibility: EOUs | having a stat | us | holde | r certi | ficate unde | r FTP shall
+| be eligible for Fa | st Track Clea | ra | nce Pr | ocedu | re.', 'c)
+Installation of Computers: Eligible EOUs may install two computers
+in their administrative / registered office outside premises of the
+unit under prior intimation to jurisdictional Asstt.', 'b)
+Examination of Import Cargo: Status holder units shall be
+exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R008', '6.39', '|
+ast Tr | ack Clearance | Procedure | | | | |
+a) | Eligibility: EOUs | having a stat | us | holde | r certi | ficate unde | r FTP shall
+| be eligible for Fa | st Track Clea | ra | nce Pr | ocedu | re.', 'business_rule', 'Fast Track Clearance Procedure', 'f)
+Personal carriage of samples: Personal carriage of samples of Gems
+& Jewellery by status holder EOUs are allowed subject to limit fixed
+in Paragraph 6.24 without a need for prior permission from DC /
+Customs.', '|
+b) | Examination of | Import Ca | rg | o: Stat | us h | older units | shall be
+| exempted from | examination | o | f impo | rt car | go at port | of import.', 'c)
+Installation of Computers: Eligible EOUs may install two computers
+in their administrative / registered office outside premises of the
+unit under prior intimation to jurisdictional Asstt.', 'b)
+Examination of Import Cargo: Status holder units shall be
+exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R009', '6.39', '|
+b) | Examination of | Import Ca | rg | o: Stat | us h | older units | shall be
+| exempted from | examination | o | f impo | rt car | go at port | of import.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
+Activities which do not require permission: In respect of following
+activities of a status holder, permission will not be required from
+DC or jurisdictional Central Excise/Customs authority: DTA sale of
+finished products in terms of Paragraph 6.07(a) of FTP;
+Participation in exhibition and Personal carriage of Gems &
+Jewellery for export promotion tours subject to fulfilment of
+conditions of Paragraph 6.23 of HBP.', '| | |
+d) | Procurement of | DG sets: P | ro | curem | ent o | f DG set o | f capacity
+| commensurate w | ith actual re | qu | ireme | nt of u | nit shall be | permitted
+| under intimation | to DC and ju | ri | sdictio | nal Cu | stoms auth | ority.', 'c)
+Installation of Computers: Eligible EOUs may install two computers
+in their administrative / registered office outside premises of the
+unit under prior intimation to jurisdictional Asstt.', 'b)
+Examination of Import Cargo: Status holder units shall be
+exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R010', '6.39', '| | |
+d) | Procurement of | DG sets: P | ro | curem | ent o | f DG set o | f capacity
+| commensurate w | ith actual re | qu | ireme | nt of u | nit shall be | permitted
+| under intimation | to DC and ju | ri | sdictio | nal Cu | stoms auth | ority.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
 Activities which do not require permission: In respect of following
 activities of a status holder, permission will not be required from
 DC or jurisdictional Central Excise/Customs authority: DTA sale of
@@ -9335,10 +12394,11 @@ in their administrative / registered office outside premises of the
 unit under prior intimation to jurisdictional Asstt.', 'b)
 Examination of Import Cargo: Status holder units shall be
 exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R008', '6.39', '6.39 Fast Track Clearance Procedure
-a)
-Eligibility: EOUs having a status holder certificate under FTP shall
-be eligible for Fast Track Clearance Procedure.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R011', '6.39', '| | | | |
+f) | Personal carriag | e of samples: | Pe | rsonal | carria | ge of sampl | es of Gems
+| & Jewellery by st | atus holder E | O | Us are a | llowe | d subject to | limit fixed
+| in Paragraph 6.2 | 4 without a | ne | ed for | prior | permission | from DC /
+| Customs.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
 Activities which do not require permission: In respect of following
 activities of a status holder, permission will not be required from
 DC or jurisdictional Central Excise/Customs authority: DTA sale of
@@ -9353,9 +12413,10 @@ in their administrative / registered office outside premises of the
 unit under prior intimation to jurisdictional Asstt.', 'b)
 Examination of Import Cargo: Status holder units shall be
 exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R009', '6.39', 'b)
-Examination of Import Cargo: Status holder units shall be
-exempted from examination of import cargo at port of import.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R012', '6.39', '6.39 Fast Track Clearance Procedure
+a)
+Eligibility: EOUs having a status holder certificate under FTP shall
+be eligible for Fast Track Clearance Procedure.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
 Activities which do not require permission: In respect of following
 activities of a status holder, permission will not be required from
 DC or jurisdictional Central Excise/Customs authority: DTA sale of
@@ -9371,10 +12432,9 @@ in their administrative / registered office outside premises of the
 unit under prior intimation to jurisdictional Asstt.', 'b)
 Examination of Import Cargo: Status holder units shall be
 exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R010', '6.39', 'c)
-Installation of Computers: Eligible EOUs may install two computers
-in their administrative / registered office outside premises of the
-unit under prior intimation to jurisdictional Asstt.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R013', '6.39', 'b)
+Examination of Import Cargo: Status holder units shall be
+exempted from examination of import cargo at port of import.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
 Activities which do not require permission: In respect of following
 activities of a status holder, permission will not be required from
 DC or jurisdictional Central Excise/Customs authority: DTA sale of
@@ -9390,10 +12450,10 @@ in their administrative / registered office outside premises of the
 unit under prior intimation to jurisdictional Asstt.', 'b)
 Examination of Import Cargo: Status holder units shall be
 exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R011', '6.39', 'd)
-Procurement of DG sets: Procurement of DG set of capacity
-commensurate with actual requirement of unit shall be permitted
-under intimation to DC and jurisdictional Customs authority.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R014', '6.39', 'c)
+Installation of Computers: Eligible EOUs may install two computers
+in their administrative / registered office outside premises of the
+unit under prior intimation to jurisdictional Asstt.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
 Activities which do not require permission: In respect of following
 activities of a status holder, permission will not be required from
 DC or jurisdictional Central Excise/Customs authority: DTA sale of
@@ -9409,7 +12469,30 @@ in their administrative / registered office outside premises of the
 unit under prior intimation to jurisdictional Asstt.', 'b)
 Examination of Import Cargo: Status holder units shall be
 exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R012', '6.39', 'e)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R015', '6.39', 'd)
+Procurement of DG sets: Procurement of DG set of capacity
+commensurate with actual requirement of unit shall be permitted
+under intimation to DC and jurisdictional Customs authority.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
+Activities which do not require permission: In respect of following
+activities of a status holder, permission will not be required from
+DC or jurisdictional Central Excise/Customs authority: DTA sale of
+finished products in terms of Paragraph 6.07(a) of FTP;
+Participation in exhibition and Personal carriage of Gems &
+Jewellery for export promotion tours subject to fulfilment of
+conditions of Paragraph 6.23 of HBP.', 'g)
+Activities which do not require permission: In respect of following
+activities of a status holder, permission will not be required from
+DC or jurisdictional Central Excise/Customs authority: DTA sale of
+finished products in terms of Paragraph 6.07(a) of FTP;
+Participation in exhibition and Personal carriage of Gems &
+Jewellery for export promotion tours subject to fulfilment of
+conditions of Paragraph 6.23 of HBP.', 'c)
+Installation of Computers: Eligible EOUs may install two computers
+in their administrative / registered office outside premises of the
+unit under prior intimation to jurisdictional Asstt.', 'b)
+Examination of Import Cargo: Status holder units shall be
+exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R016', '6.39', 'e)
 Temporary removal of Capital Goods: Eligible EOU may remove
 their capital goods or parts thereof for repairs under prior
 intimation to jurisdictional Asst.', 'business_rule', 'Fast Track Clearance Procedure', 'g)
@@ -9432,7 +12515,7 @@ in their administrative / registered office outside premises of the
 unit under prior intimation to jurisdictional Asstt.', 'b)
 Examination of Import Cargo: Status holder units shall be
 exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R013', '6.39', 'f)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R017', '6.39', 'f)
 Personal carriage of samples: Personal carriage of samples of Gems
 & Jewellery by status holder EOUs are allowed subject to limit fixed
 in Paragraph 6.24 without a need for prior permission from DC /
@@ -9456,7 +12539,7 @@ in their administrative / registered office outside premises of the
 unit under prior intimation to jurisdictional Asstt.', 'b)
 Examination of Import Cargo: Status holder units shall be
 exempted from examination of import cargo at port of import.', 'DEKAI should produce a compliance decision for 6.39 - Fast Track Clearance Procedure.');
-INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R014', '6.39', 'g)
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH6-SEC6_39-R018', '6.39', 'g)
 Activities which do not require permission: In respect of following
 activities of a status holder, permission will not be required from
 DC or jurisdictional Central Excise/Customs authority: DTA sale of
@@ -9497,6 +12580,14 @@ finished products in terms of Paragraph 6.07(a) of FTP;
 Participation in exhibition and Personal carriage of Gems &
 Jewellery for export promotion tours subject to fulfilment of
 conditions of Paragraph 6.23 of HBP.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.39', '| | | | |
+c) | An EOU may be | shifted to SE | Z | with ap | prova | l of DC pro | vided EOU
+| has achieved pro | -rata obligat | io | n under | EOU | scheme.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6.39', '| | | | |
+f) | Personal carriag | e of samples: | Pe | rsonal | carria | ge of sampl | es of Gems
+| & Jewellery by st | atus holder E | O | Us are a | llowe | d subject to | limit fixed
+| in Paragraph 6.2 | 4 without a | ne | ed for | prior | permission | from DC /
+| Customs.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('6.39', 'c)
 An EOU may be shifted to SEZ with approval of DC provided EOU
 has achieved pro-rata obligation under EOU scheme.');
@@ -9531,12 +12622,18 @@ INSERT INTO authorities (section_code, authority_name) VALUES ('6.39', 'Customs 
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.39', 'DC and jurisdictional Customs');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.39', 'Deputy Commissioner');
 INSERT INTO authorities (section_code, authority_name) VALUES ('6.39', 'DC or jurisdictional Central Excise/Customs');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6.39', 'ra');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.39', 'b) Examination of Import Cargo: Status holder units shall be
 exempted from examination of import cargo at port of import.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.39', 'However, jurisdictional Commissioner of Customs may examine
 consignments at unit’s place on random basis.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.39', 'However, prior intimation
 thereof needs to be given.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6.39', '|
+b) | Examination of | Import Ca | rg | o: Stat | us h | older units | shall be
+| exempted from | examination | o | f impo | rt car | go at port | of import.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('6.39', '| However, jurisdi | ctional Com | m | issione | r of C | ustoms ma | y examine
+| consignments at | unit’s place o | n | rando | m basi | s.');
 INSERT INTO exceptions (section_code, exception_text) VALUES ('6.39', 'b)
 Examination of Import Cargo: Status holder units shall be
 exempted from examination of import cargo at port of import.');
@@ -9557,26 +12654,29 @@ conditions of Paragraph 6.23 of HBP.');
 INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 4, 'c) Installation of Computers: Eligible EOUs may install two computers
 in their administrative / registered office outside premises of the
 unit under prior intimation to jurisdictional Asstt.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 5, '154
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 5, 'Like | w | ise, EO | U de | siring conv | ersion into
+| EHTP / STP / BT | P may apply | to | officer | desig | nated by Me | it Y / Do BT
+| through DC conc | erned.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 6, '154
 conversion as an EOU may apply to DC concerned through Officer
 designated by Meit Y / Do BT in same manner as
 applicable to new units.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 6, 'Likewise, EOU desiring conversion into
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 7, 'Likewise, EOU desiring conversion into
 EHTP / STP / BTP may apply to officer designated by Meit Y / Do BT
 through DC concerned.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 7, 'c)
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 8, 'c)
 Installation of Computers: Eligible EOUs may install two computers
 in their administrative / registered office outside premises of the
 unit under prior intimation to jurisdictional Asstt.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 8, 'Run validation: 6.39 Fast Track Clearance Procedure
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 9, 'Run validation: 6.39 Fast Track Clearance Procedure
 a) Eligibility: EOUs having a status holder certificate under FTP shall
 be eligible for Fast Track Clearance Procedure.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 9, 'Run validation: b) Examination of Import Cargo: Status holder units shall be
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 10, 'Run validation: b) Examination of Import Cargo: Status holder units shall be
 exempted from examination of import cargo at port of import.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 10, 'Run validation: c) Installation of Computers: Eligible EOUs may install two computers
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 11, 'Run validation: c) Installation of Computers: Eligible EOUs may install two computers
 in their administrative / registered office outside premises of the
 unit under prior intimation to jurisdictional Asstt.');
-INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 11, 'Handle exception: b) Examination of Import Cargo: Status holder units shall be
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6.39', 12, 'Handle exception: b) Examination of Import Cargo: Status holder units shall be
 exempted from examination of import cargo at port of import.');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'FTP');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'for');
@@ -9590,14 +12690,14 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'not');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'DTA');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'HBP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'new');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'eit');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'ise');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'STP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'BTP');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'SEZ');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'pro');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'has');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'Fast');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'EOUs');
-INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'ast');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'ack');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'keywords', 'nce');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'tags', '6.39');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'tags', 'Fast Track Clearance Procedure');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.39', 'tags', 'business-rule');
@@ -10987,12 +14087,18 @@ INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.41', '
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.41', 'tags', '6.41');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.41', 'tags', 'Formats of various letters/permissions to EOUs');
 INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6.41', 'tags', 'dgft');
+INSERT INTO glossary (term, definition) VALUES ('AN', 'Referenced in section title ''Maintenance of Accounts''.');
 INSERT INTO glossary (term, definition) VALUES ('ANF', 'Referenced in context: 6.01 Application / Approval / Renewal of approval
 (a) For setting up an EOU, three copies of application as in ANF 6A of
 Appendices &ANFs ma');
 INSERT INTO glossary (term, definition) VALUES ('AP', 'Referenced in context: (M.A Series) Circular AP (DIR series Circular No.9 dated
 25.10.2001);
 m) Issue eligibility certificates for grant of employment visa to low');
+INSERT INTO glossary (term, definition) VALUES ('BI', 'Referenced in context: SO.194(E) dated | 6.3.2000; | | | |
+| l) | | D | o valuation of | exports declared | on SOFTE | X f | orm | by EOU | s as per
+| | | R | BI A');
+INSERT INTO glossary (term, definition) VALUES ('BO', 'Referenced in context: (d) | Proposals for s | ett | ing up an EO | U req | uiring indu | strial | licence may
+| be granted ap | pr | oval by the | conce | rned DC');
 INSERT INTO glossary (term, definition) VALUES ('BOA', 'Referenced in context: In other cases, approval may
 be granted by DC after clearance by BOA.');
 INSERT INTO glossary (term, definition) VALUES ('BT', 'Referenced in context: Application for setting up of BTP shall be submitted to
@@ -11004,13 +14110,12 @@ thereof.');
 INSERT INTO glossary (term, definition) VALUES ('CBIC', 'Referenced in context: Jurisdictional Commissioner of CBIC or nominee:
 member
 pg.');
-INSERT INTO glossary (term, definition) VALUES ('CG', 'Referenced in context: for disposal
-(days)
-1 Issue of Lo P / Lo I 15
-2 Conversion of Lo P / Lo I 15
-3 Acceptance of LUT 3
-4 Renewal of LUT 3
-5 Permission for broad');
+INSERT INTO glossary (term, definition) VALUES ('CG', 'Referenced in context: In c | ase DTA unit
+| | | | has taken EP | CG authorisat | ion, th | e conversion | would | be permitted
+| | | | only if either | the unit h');
+INSERT INTO glossary (term, definition) VALUES ('CI', 'Referenced in context: | 0 | 8 of F | TP |; | | | | |
+| | “B” is sum t | otal of CIF v | alue | o | f all i | mp | orted | inputs | an | d CI | F v | alue of
+| | a');
 INSERT INTO glossary (term, definition) VALUES ('CIF', 'Referenced in context: Positive NFE = A-B>0 Where,
 “NFE” is Net Foreign Exchange;
 “A” is FOB value of exports by EOU / EHTP / STP / BTP unit and
@@ -11034,6 +14139,9 @@ Appendices &ANFs ma');
 INSERT INTO glossary (term, definition) VALUES ('DG', 'Referenced in context: (b) Capital goods and its spares, whether new or second-hand which
 inter-alia includes the following:
 (i) Captive power plants (DG Sets, Win');
+INSERT INTO glossary (term, definition) VALUES ('DGF', 'Referenced in context: | | | | |
+(e) | Consumption o | f input | s by the EO | U | / EHTP / STP | / BTP | unit shall
+| be based on th | e Stan | dard Input | Ou |');
 INSERT INTO glossary (term, definition) VALUES ('DGFT', 'Referenced in context: Application for setting up of BTP shall be submitted to
 Department of Bio-Technology (Do BT) and such applications
 which meet guidelines pre');
@@ -11043,36 +14151,59 @@ m) Issue eligibility certificates for grant of employment visa to low');
 INSERT INTO glossary (term, definition) VALUES ('DPIIT', 'Referenced in context: (d) Proposals for setting up an EOU requiring industrial licence may
 be granted approval by the concerned DC after clearance of
 proposal by');
+INSERT INTO glossary (term, definition) VALUES ('DT', 'Referenced in context: as pe | r IT | C (HS) | shall apply in
+| | case r | a | w materials a | re sourced | from DT | A an | d expo | rted without
+| | furthe | r |');
 INSERT INTO glossary (term, definition) VALUES ('DTA', 'Referenced in context: (e) Lo P / Lo I shall specify item(s) of manufacture / service activity,
 annual capacity, projected annual export for first five years in
 do');
+INSERT INTO glossary (term, definition) VALUES ('EH', 'Referenced in context: | | |
+6.02 L | egal U | ndertaking ( | LUT) | | | |
+| (a) | Approved EOU | / EH | TP / STP / B | TP unit sha | ll exec | ute an LUT with
+| |');
+INSERT INTO glossary (term, definition) VALUES ('EHT', 'Referenced in context: | |
+(f) | Lo P / Lo I issu | ed t | o EOU / EHT | P / ST | P / BTP u | nits b | y concerned
+| authority wo | uld | be constru | ed a | s an');
 INSERT INTO glossary (term, definition) VALUES ('EHTP', 'Referenced in context: (ii) STP / EHTP complexes can be set up by Central Government,
 State Government, Public or Private Sector Undertakings or any
 combination th');
-INSERT INTO glossary (term, definition) VALUES ('EO', 'Referenced in context: (iii) Further, in case of import of spices for VA purpose like
-crushing / grinding / sterilization or for manufacture of oils
-and oleoresins');
+INSERT INTO glossary (term, definition) VALUES ('EO', 'Referenced in context: | (c) | | On approval, a L | etter of Permission (Lo P) / | Lett | e | r of Intent (Lo I)
+| | | shall be issued b | y DC / designated office');
 INSERT INTO glossary (term, definition) VALUES ('EODC', 'Referenced in context: In case DTA unit
 has taken EPCG authorisation, the conversion would be permitted
 only if either the unit has fulfilled the stipulated Export');
 INSERT INTO glossary (term, definition) VALUES ('EOU', 'Referenced in context: 6.01 Application / Approval / Renewal of approval
 (a) For setting up an EOU, three copies of application as in ANF 6A of
 Appendices &ANFs ma');
+INSERT INTO glossary (term, definition) VALUES ('EP', 'Referenced in context: In c | ase DTA unit
+| | | | has taken EP | CG authorisat | ion, th | e conversion | would | be permitted
+| | | | only if either | the unit h');
 INSERT INTO glossary (term, definition) VALUES ('EPCG', 'Referenced in context: In case DTA unit
 has taken EPCG authorisation, the conversion would be permitted
 only if either the unit has fulfilled the stipulated Export');
+INSERT INTO glossary (term, definition) VALUES ('EZ', 'Referenced in context: How | ever, at no
+| point of time, u | ni | ts shall | | be required | to co | rre | late ev | ery import
+| consignment wit | h | its expo |');
 INSERT INTO glossary (term, definition) VALUES ('FDI', 'Referenced in context: b) Sectoral norms as notified by Government shall apply to FDI in
 service activities.');
+INSERT INTO glossary (term, definition) VALUES ('FE', 'Referenced in context: | | |
+(d) | For annual calcu | la | tion of | N | FE, value of | impor | ted | capital | goods and
+| lump sum paym | e | nt of fo | r | eign');
+INSERT INTO glossary (term, definition) VALUES ('FO', 'Referenced in context: A | separate
+| | | R | egistration–cu | m–Membership C | ertificate | sha | ll n | ot be re | quired in
+| | | t | heir cases as p | rovided');
 INSERT INTO glossary (term, definition) VALUES ('FOB', 'Referenced in context: Positive NFE = A-B>0 Where,
 “NFE” is Net Foreign Exchange;
 “A” is FOB value of exports by EOU / EHTP / STP / BTP unit and
 other supplies und');
-INSERT INTO glossary (term, definition) VALUES ('FT', 'Referenced in context: Designated officer
-shall also exercise powers of adjudication under Section 13 read with Section 11
-of FT(D&R) Act, 1992, as amended, in res');
+INSERT INTO glossary (term, definition) VALUES ('FT', 'Referenced in context: | | | | | | | | | |
+.14 DTA Suppl | ie | s | | | | | | | |
+Notwithstanding | p | ro | vision of | DTA sales in | Pa | ragraph 6 |.0 | 7 of F');
 INSERT INTO glossary (term, definition) VALUES ('FTP', 'Referenced in context: 6.00 Scheme
 Policy relating to EOUs, EHTPs, STPs and BTPs Schemes is given in Chapter 6 of
 Foreign Trade Policy (FTP).');
+INSERT INTO glossary (term, definition) VALUES ('GFT', 'Referenced in context: | | Joint | D | | GFT or nomine | e: Member | | |
+| | iv.');
 INSERT INTO glossary (term, definition) VALUES ('GSP', 'Referenced in context: for disposal
 (days)
 1 Issue of Lo P / Lo I 15
@@ -11089,20 +14220,27 @@ Supplier of precious and semi-precious stones, synthetic stones and');
 INSERT INTO glossary (term, definition) VALUES ('HS', 'Referenced in context: Similarly, export obligation
 against import of items {covered by Chapter 9 of ITC(HS)} and
 coconut oil shall be fulfilled within a period of');
+INSERT INTO glossary (term, definition) VALUES ('HTP', 'Referenced in context: | | | | |
+6.06 | Condit | ions of Impo | rt | | | |
+Impor | t of goo | ds by EOU / E | HTP / STP / | BTP units s | hall b | e subject to fo');
 INSERT INTO glossary (term, definition) VALUES ('ID', 'Referenced in context: No LUT for new units shall be executed unless unit has its
 permanent e-mail address and digital signature on said e-mail ID.');
 INSERT INTO glossary (term, definition) VALUES ('IMSC', 'Referenced in context: (ii) STP / EHTP complexes can be set up by Central Government,
 State Government, Public or Private Sector Undertakings or any
 combination th');
+INSERT INTO glossary (term, definition) VALUES ('IN', 'Referenced in context: | This ra | te will be based
+| | on prevailing G | old / | US$ rate an | d US$ / IN | R rate | in notional rate
+| | certificate.');
 INSERT INTO glossary (term, definition) VALUES ('INR', 'Referenced in context: This rate will be based
 on prevailing Gold / US$ rate and US$ / INR rate in notional rate
 certificate.');
-INSERT INTO glossary (term, definition) VALUES ('IT', 'Referenced in context: (d) For IT and IT enabled services, persons authorized by software
-units may access facility installed in EOU / EHTP / STP / BTP unit
-throug');
+INSERT INTO glossary (term, definition) VALUES ('IT', 'Referenced in section title ''Conditions of Import''.');
 INSERT INTO glossary (term, definition) VALUES ('ITC', 'Referenced in context: Similarly, export obligation
 against import of items {covered by Chapter 9 of ITC(HS)} and
 coconut oil shall be fulfilled within a period of');
+INSERT INTO glossary (term, definition) VALUES ('LO', 'Referenced in context: | | | | | |
+(h) | On completio | n | of validity o | f LO | P/LOI as | provi | ded for in
+| Paragraph 6.0 | 5 of | FTP, it shall | be op | e');
 INSERT INTO glossary (term, definition) VALUES ('LOI', 'Referenced in context: (h) On completion of validity of LOP/LOI as provided for in
 Paragraph 6.05 of FTP, it shall be open to unit to continue under
 pg.');
@@ -11112,17 +14250,35 @@ pg.');
 INSERT INTO glossary (term, definition) VALUES ('LUT', 'Referenced in context: However, in case lease is obtained from
 private parties, it shall have a validity period of five years from
 date of LUT and DC shall satisfy');
+INSERT INTO glossary (term, definition) VALUES ('MSC', 'Referenced in context: Where | units g | ive their option
+| | to continue | after | expiry of | six months | as st | ipulated above,
+| | DC/Designat | ed O | ffice');
 INSERT INTO glossary (term, definition) VALUES ('NFE', 'Referenced in context: (e) Lo P / Lo I shall specify item(s) of manufacture / service activity,
 annual capacity, projected annual export for first five years in
 do');
+INSERT INTO glossary (term, definition) VALUES ('OA', 'Referenced in context: Where | units g | ive their option
+| | to continue | after | expiry of | six months | as st | ipulated above,
+| | DC/Designat | ed O | ffice');
+INSERT INTO glossary (term, definition) VALUES ('OP', 'Referenced in context: | | validity pe | rio | d o | f L | OP/LOI once un | it co | mmenc | es | production for
+| | | a period o | f u | p to | 5 | years at a time');
+INSERT INTO glossary (term, definition) VALUES ('OU', 'Referenced in context: | | | |
+6.01 A | pplicat | | ion / Approval | / Renewal of approval | | |
+| (a) F | o | r setting up an E | OU, three copies of applica | ti');
 INSERT INTO glossary (term, definition) VALUES ('PABX', 'Referenced in context: (iii) Office equipment, including PABX, Fax machines, projection
 system, Computers, Laptop and Server.');
+INSERT INTO glossary (term, definition) VALUES ('PS', 'Referenced in context: | (v) | Un-interrupted | Power Sup | ply System (U | PS), | Special racks
+| | for storage, sto | rage system | s, modular fu | rnitu | re, c');
 INSERT INTO glossary (term, definition) VALUES ('RBI', 'Referenced in context: SO.194(E) dated 6.3.2000;
 l) Do valuation of exports declared on SOFTEX form by EOUs as per
 RBI A.D.');
+INSERT INTO glossary (term, definition) VALUES ('RE', 'Referenced in section title ''Import / Domestic Procurement of Goods''.');
 INSERT INTO glossary (term, definition) VALUES ('REP', 'Referenced in context: Besides, supply of unsuitable /
 broken cut and polished diamonds, precious and semi-precious
 stones upto 5% of value of imported or indigeno');
+INSERT INTO glossary (term, definition) VALUES ('RF', 'Referenced in context: In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of
+| services classifie | d | in Ann | e | xure V of Ap | pendi');
+INSERT INTO glossary (term, definition) VALUES ('SE', 'Referenced in context: In a | dd | ition, S | T | P unit shall | file, ev | er | y month |, report of
+| services classifie | d | in Ann | e | xure V of Ap | pendi');
 INSERT INTO glossary (term, definition) VALUES ('SERF', 'Referenced in context: In addition, STP unit shall file, every month, report of
 services classified in Annexure V of Appendix 6E of Appendices &
 ANFs in the ‘Servi');
@@ -11136,15 +14292,23 @@ that:
 INSERT INTO glossary (term, definition) VALUES ('SO', 'Referenced in context: SO.194(E) dated 6.3.2000;
 l) Do valuation of exports declared on SOFTEX form by EOUs as per
 RBI A.D.');
+INSERT INTO glossary (term, definition) VALUES ('SOFTE', 'Referenced in context: SO.194(E) dated | 6.3.2000; | | | |
+| l) | | D | o valuation of | exports declared | on SOFTE | X f | orm | by EOU | s as per
+| | | R | BI A');
 INSERT INTO glossary (term, definition) VALUES ('SOFTEX', 'Referenced in context: SO.194(E) dated 6.3.2000;
 l) Do valuation of exports declared on SOFTEX form by EOUs as per
 RBI A.D.');
+INSERT INTO glossary (term, definition) VALUES ('ST', 'Referenced in context: | |
+(f) | Lo P / Lo I issu | ed t | o EOU / EHT | P / ST | P / BTP u | nits b | y concerned
+| authority wo | uld | be constru | ed a | s an');
 INSERT INTO glossary (term, definition) VALUES ('STP', 'Referenced in context: (ii) STP / EHTP complexes can be set up by Central Government,
 State Government, Public or Private Sector Undertakings or any
 combination th');
 INSERT INTO glossary (term, definition) VALUES ('STPI', 'Referenced in context: 6.33 Approval of EHTP / STP / BTP Units
 In case of units under EHTP / STP scheme, necessary approval / permission shall
 be granted by office');
+INSERT INTO glossary (term, definition) VALUES ('TA', 'Referenced in context: | | In event of an E | OU no | t having per | manent e-m | ail ad | dress and digital
+| | signature, furth | er im | ports and D | TA sale s');
 INSERT INTO glossary (term, definition) VALUES ('TED', 'Referenced in context: Time limit
 for disposal
 (days)
@@ -11162,6 +14326,14 @@ Renewal of LUT
 3
 5
 Permissio');
+INSERT INTO glossary (term, definition) VALUES ('TP', 'Referenced in context: | | |
+6.02 L | egal U | ndertaking ( | LUT) | | | |
+| (a) | Approved EOU | / EH | TP / STP / B | TP unit sha | ll exec | ute an LUT with
+| |');
+INSERT INTO glossary (term, definition) VALUES ('TPI', 'Referenced in context: | | |
+| | | | (ii) | | t | o consider an | d permit conv | ersion of u | ni | ts in SEZ t
+| | | | | | E | OU; | | | |
+| | | | (iii) | | t |');
 INSERT INTO glossary (term, definition) VALUES ('UPS', 'Referenced in context: (v) Un-interrupted Power Supply System (UPS), Special racks
 for storage, storage systems, modular furniture, computer
 furniture, anti-static');

@@ -1,0 +1,19 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.INPDEC Ver2.1",
+  "section": "4",
+  "title": "REFERENCES",
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC4-R001",
+      "rule_description": "4. REFERENCES\nS/ Document Name Document/Directory Rev Date\nN Reference\n1 Trade Net Declaration message specification TDS41-MDS-XML-\nDECLARATION-TX\n2 Trade Net Response message specification TDS41-MDS-XML-\nRESPONSE-TX\n3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules\n_2.0.doc\n4 UN/ECE WP Recommendation No. 3, Code for the ECE/TRADE/201 1 Jan 96\nRepresentation of Names of Countries - ISO Country Code\n5 UN/ECE WP Trade Facilitation Recommendation No.",
+      "trigger": "REFERENCES",
+      "condition": "REFERENCES\nS/ Document Name Document/Directory Rev Date\nN Reference\n1 Trade Net Declaration message specification TDS41-MDS-XML-\nDECLARATION-TX\n2 Trade Net Response message specification TDS41-MDS-XML-\nRESPONSE-TX\n3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules\n_2.0.doc\n4 UN/ECE WP Recommendation No.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4 - REFERENCES."
+    }
+  ],
+  "ai_rules": []
+}

@@ -1,0 +1,1086 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.87",
+  "title": "Personal Carriage of Gems & Jewellery Export Parcels",
+  "purpose": "Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+  "purpose_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, Procedure\nfor Personal Carriage of exports kandippa be as prescribed by Customs.",
+  "summary": "4.87 Personal Carriage of Gems & Jewellery Export Parcels\n(a) Personal Carriage of gems & jewellery parcels by Foreign Bound\nPassengers from all EOU/SEZ units and all firms in DTA through\nAirports in Delhi, Mumbai, Kolkata, Chennai, Kochi, Coimbatore,\nBangalore, Hyderabad, Jaipur and Ahmedabad is permitted. Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs. Export proceeds shall, however, be realised through normal banking\nchannel.",
+  "business_meaning": "Personal Carriage of Gems & Jewellery Export Parcels governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Personal Carriage of Gems & Jewellery Export Parcels explains the operating rule set that DEKAI should enforce. Key control points include Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+  "business_explanation_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, Personal Carriage of Gems & Jewellery export Parcels explains the operating rule set that DEKAI should enforce. Key control points include Procedure\nfor Personal Carriage of exports kandippa be as prescribed by Customs.",
+  "business_logic": [
+    "Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+    "Export proceeds shall, however, be realised through normal banking\nchannel.",
+    "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+    "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_87-R001",
+      "rule_description": "Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+      "trigger": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "condition": "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "validation": "Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+      "action": "Manual review required.",
+      "exception": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "output": "DEKAI should produce a compliance decision for 4.87 - Personal Carriage of Gems & Jewellery Export Parcels."
+    },
+    {
+      "rule_id": "CH4-SEC4_87-R002",
+      "rule_description": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "trigger": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "condition": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "validation": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "action": "Manual review required.",
+      "exception": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "output": "DEKAI should produce a compliance decision for 4.87 - Personal Carriage of Gems & Jewellery Export Parcels."
+    },
+    {
+      "rule_id": "CH4-SEC4_87-R003",
+      "rule_description": "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "trigger": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "condition": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "validation": "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "action": "Manual review required.",
+      "exception": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "output": "DEKAI should produce a compliance decision for 4.87 - Personal Carriage of Gems & Jewellery Export Parcels."
+    },
+    {
+      "rule_id": "CH4-SEC4_87-R004",
+      "rule_description": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "trigger": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "condition": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "validation": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "action": "Manual review required.",
+      "exception": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "output": "DEKAI should produce a compliance decision for 4.87 - Personal Carriage of Gems & Jewellery Export Parcels."
+    }
+  ],
+  "conditions": [
+    "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+    "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.87.1",
+      "if": "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "then": "Route for review",
+      "source": "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP."
+    },
+    {
+      "id": "4.4.87.2",
+      "if": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "then": "Route for review",
+      "source": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP."
+    }
+  ],
+  "validations": [
+    "Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+    "Export proceeds shall, however, be realised through normal banking\nchannel.",
+    "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+    "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP."
+  ],
+  "exceptions": [
+    "Export proceeds shall, however, be realised through normal banking\nchannel."
+  ],
+  "dependencies": [
+    "4.81",
+    "1",
+    "4"
+  ],
+  "documents": [
+    "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+    "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP."
+  ],
+  "required_documents": [
+    "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+    "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP."
+  ],
+  "tables": [
+    [
+      [
+        "For those cas",
+        "es, where",
+        "the la",
+        "st",
+        "dat",
+        "e for expo",
+        "r",
+        "ts/ reple",
+        "nishmen",
+        "t/ imports/"
+      ],
+      [
+        "drawal of pre",
+        "cious meta",
+        "l as ca",
+        "lc",
+        "ulat",
+        "ed under v",
+        "a",
+        "rious sub",
+        "-paras",
+        "of para 4.82,"
+      ],
+      [
+        "4.83, 4.84 of",
+        "Handbook",
+        "of Pro",
+        "ce",
+        "dur",
+        "es, 2015-20",
+        "",
+        "expires b",
+        "etween",
+        "01.02.2021"
+      ],
+      [
+        "and 30.06.20",
+        "21, such l",
+        "ast dat",
+        "e",
+        "sta",
+        "nds extend",
+        "",
+        "ed by six",
+        "month",
+        "s. However,"
+      ],
+      [
+        "relaxation in t",
+        "he period f",
+        "or repa",
+        "tr",
+        "iati",
+        "on/forex re",
+        "a",
+        "lization w",
+        "ould be",
+        "equal to the"
+      ],
+      [
+        "period as allo",
+        "wed plus si",
+        "x mont",
+        "hs",
+        ", or",
+        "as per RBI",
+        "g",
+        "uidelines",
+        ", whiche",
+        "ver is less."
+      ],
+      [
+        "85 Regulari",
+        "stion of B",
+        "onafid",
+        "e",
+        "De",
+        "fault",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Cases of bona",
+        "fide default",
+        "in fulfi",
+        "ll",
+        "men",
+        "t of Export",
+        "",
+        "Obligation",
+        "by an e",
+        "xporter who"
+      ],
+      [
+        "has obtained",
+        "precious",
+        "metals",
+        "fr",
+        "om",
+        "nominated",
+        "",
+        "agencies",
+        "may be",
+        "regularised"
+      ],
+      [
+        "provided exp",
+        "orter has",
+        "paid c",
+        "u",
+        "sto",
+        "ms duty al",
+        "o",
+        "ng-with",
+        "interest",
+        "thereon as"
+      ],
+      [
+        "notified by D",
+        "oR. Export",
+        "er will",
+        "h",
+        "ave",
+        "the option",
+        "",
+        "to pay cu",
+        "stoms d",
+        "uty through"
+      ],
+      [
+        "valid duty cr",
+        "edit scrips",
+        "issued",
+        "",
+        "und",
+        "er FTP. Th",
+        "e",
+        "interest",
+        "/ pena",
+        "lty shall be"
+      ],
+      [
+        "required to b",
+        "e paid in ca",
+        "sh. In c",
+        "as",
+        "e of",
+        "Advance A",
+        "u",
+        "thorisatio",
+        "n, the p",
+        "rovisions as"
+      ],
+      [
+        "given in para",
+        "graph 4.49",
+        "above",
+        "sh",
+        "all",
+        "apply. This",
+        "",
+        "shall be",
+        "without",
+        "prejudice to"
+      ],
+      [
+        "any action th",
+        "at may be t",
+        "aken a",
+        "ga",
+        "ins",
+        "t exporter",
+        "u",
+        "nder FT(",
+        "D&R) A",
+        "ct, Order or"
+      ],
+      [
+        "Rules issued h",
+        "ereunder a",
+        "s ame",
+        "nd",
+        "ed f",
+        "rom time t",
+        "o",
+        "time.",
+        "",
+        ""
+      ],
+      [
+        "86 Replenis",
+        "hment Au",
+        "thoris",
+        "a",
+        "tio",
+        "n for Impo",
+        "r",
+        "t of Con",
+        "sumab",
+        "les etc."
+      ],
+      [
+        "Application fo",
+        "r import o",
+        "f consu",
+        "m",
+        "abl",
+        "es etc., as g",
+        "i",
+        "ven in pa",
+        "ragraph",
+        "4.35 of FTP"
+      ],
+      [
+        "shall be filed",
+        "online to th",
+        "e conc",
+        "er",
+        "ned",
+        "Regional A",
+        "u",
+        "thority in",
+        "ANF 4H",
+        "."
+      ],
+      [
+        "87 Personal",
+        "Carriage",
+        "of Ge",
+        "ms",
+        "&",
+        "Jewellery",
+        "",
+        "Export P",
+        "arcels",
+        ""
+      ],
+      [
+        "(a) Person",
+        "al Carriag",
+        "e of g",
+        "e",
+        "ms",
+        "& jeweller",
+        "y",
+        "parcels",
+        "by For",
+        "eign Bound"
+      ],
+      [
+        "Passen",
+        "gers from",
+        "all E",
+        "OU",
+        "/SE",
+        "Z units an",
+        "",
+        "d all firm",
+        "s in D",
+        "TA through"
+      ],
+      [
+        "Airpor",
+        "ts in Delh",
+        "i, Mu",
+        "m",
+        "bai,",
+        "Kolkata,",
+        "C",
+        "hennai,",
+        "Kochi,",
+        "Coimbatore,"
+      ],
+      [
+        "Banga",
+        "lore, Hyder",
+        "abad, J",
+        "ai",
+        "pur",
+        "and Ahme",
+        "d",
+        "abad is p",
+        "ermitted",
+        ". Procedure"
+      ],
+      [
+        "for Pe",
+        "rsonal Car",
+        "riage o",
+        "f",
+        "exp",
+        "orts shall b",
+        "",
+        "e as pres",
+        "cribed",
+        "by Customs."
+      ],
+      [
+        "Export",
+        "proceeds",
+        "shall,",
+        "ho",
+        "we",
+        "ver, be real",
+        "i",
+        "sed throu",
+        "gh nor",
+        "mal banking"
+      ],
+      [
+        "chann",
+        "el.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(b) For cla",
+        "iming Repl",
+        "enishm",
+        "e",
+        "nt i",
+        "n case of P",
+        "e",
+        "rsonal Ca",
+        "rriage o",
+        "f Exports by"
+      ],
+      [
+        "Foreig",
+        "n Bound pa",
+        "ssenge",
+        "r,",
+        "doc",
+        "uments sha",
+        "l",
+        "l be same",
+        "as ment",
+        "ioned under"
+      ],
+      [
+        "paragr",
+        "aph 4.81(c",
+        ") of H",
+        "B",
+        "P.",
+        "Authorised",
+        "",
+        "Courier C",
+        "ompani",
+        "es are also"
+      ],
+      [
+        "permit",
+        "ted to oper",
+        "ate on",
+        "th",
+        "e a",
+        "bove lines.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "88 Personal",
+        "Carriage",
+        "of Ge",
+        "ms",
+        "&",
+        "Jewellery",
+        "I",
+        "mport P",
+        "arcels",
+        ""
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "4.87::section::0::personal-carriage-of-gems-jewellery-export-parce",
+      "type": "section",
+      "title": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.87 Personal Carriage of Gems & Jewellery Export Parcels\n(a) Personal Carriage of gems & jewellery parcels by Foreign Bound\nPassengers from all EOU/SEZ units and all firms in DTA through\nAirports in Delhi, Mumbai, Kolkata, Chennai, Kochi, Coimbatore,\nBangalore, Hyderabad, Jaipur and Ahmedabad is permitted. Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.\nExport proceeds shall, however, be realised through normal banking\nchannel.\n(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP. Authorised Courier Companies are also\npermitted to operate on the above lines.\n4.87 Personal Carriage of Gems & Jewellery Export Parcels\n(a)\nPersonal Carriage of gems & jewellery parcels by Foreign Bound\nPassengers from all EOU/SEZ units and all firms in DTA through\nAirports in Delhi, Mumbai, Kolkata, Chennai, Kochi, Coimbatore,\nBangalore, Hyderabad, Jaipur and Ahmedabad is permitted. Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.\nExport proceeds shall, however, be realised through normal banking\nchannel.\n(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP. Authorised Courier Companies are also\npermitted to operate on the above lines.",
+      "parentId": "",
+      "sectionId": "4.87",
+      "sectionTitle": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 25,
+      "searchAliases": [
+        "Personal Carriage of Gems & Jewellery Export Parcels",
+        "Personal Carriage of Gems Jewellery Export Parcels",
+        "PersonalCarriageofGemsJewelleryExportParcels"
+      ],
+      "childIds": [
+        "4.87::exception::1::exceptions",
+        "4.87::validation::2::validation-rules",
+        "4.87::validation::3::validation-rules",
+        "4.87::validation::4::validation-rules",
+        "4.87::validation::5::validation-rules",
+        "4.87::business_rule::6::personal-carriage-of-gems-jewellery-export-parce",
+        "4.87::business_rule::7::personal-carriage-of-gems-jewellery-export-parce",
+        "4.87::business_rule::8::personal-carriage-of-gems-jewellery-export-parce",
+        "4.87::business_rule::9::personal-carriage-of-gems-jewellery-export-parce"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 25
+    },
+    {
+      "id": "4.87::exception::1::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "parentId": "4.87::section::0::personal-carriage-of-gems-jewellery-export-parce",
+      "sectionId": "4.87",
+      "sectionTitle": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.87::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+      "parentId": "4.87::section::0::personal-carriage-of-gems-jewellery-export-parce",
+      "sectionId": "4.87",
+      "sectionTitle": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.87::validation::3::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "parentId": "4.87::section::0::personal-carriage-of-gems-jewellery-export-parce",
+      "sectionId": "4.87",
+      "sectionTitle": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.87::validation::4::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "parentId": "4.87::section::0::personal-carriage-of-gems-jewellery-export-parce",
+      "sectionId": "4.87",
+      "sectionTitle": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.87::validation::5::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "parentId": "4.87::section::0::personal-carriage-of-gems-jewellery-export-parce",
+      "sectionId": "4.87",
+      "sectionTitle": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.87::business_rule::6::personal-carriage-of-gems-jewellery-export-parce",
+      "type": "business_rule",
+      "title": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+      "parentId": "4.87::section::0::personal-carriage-of-gems-jewellery-export-parce",
+      "sectionId": "4.87",
+      "sectionTitle": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Personal Carriage of Gems & Jewellery Export Parcels",
+        "Personal Carriage of Gems Jewellery Export Parcels",
+        "PersonalCarriageofGemsJewelleryExportParcels"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.87::business_rule::7::personal-carriage-of-gems-jewellery-export-parce",
+      "type": "business_rule",
+      "title": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Export proceeds shall, however, be realised through normal banking\nchannel.",
+      "parentId": "4.87::section::0::personal-carriage-of-gems-jewellery-export-parce",
+      "sectionId": "4.87",
+      "sectionTitle": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Personal Carriage of Gems & Jewellery Export Parcels",
+        "Personal Carriage of Gems Jewellery Export Parcels",
+        "PersonalCarriageofGemsJewelleryExportParcels"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.87::business_rule::8::personal-carriage-of-gems-jewellery-export-parce",
+      "type": "business_rule",
+      "title": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "parentId": "4.87::section::0::personal-carriage-of-gems-jewellery-export-parce",
+      "sectionId": "4.87",
+      "sectionTitle": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Personal Carriage of Gems & Jewellery Export Parcels",
+        "Personal Carriage of Gems Jewellery Export Parcels",
+        "PersonalCarriageofGemsJewelleryExportParcels"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.87::business_rule::9::personal-carriage-of-gems-jewellery-export-parce",
+      "type": "business_rule",
+      "title": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "parentId": "4.87::section::0::personal-carriage-of-gems-jewellery-export-parce",
+      "sectionId": "4.87",
+      "sectionTitle": "Personal Carriage of Gems & Jewellery Export Parcels",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 52,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Personal Carriage of Gems & Jewellery Export Parcels",
+        "Personal Carriage of Gems Jewellery Export Parcels",
+        "PersonalCarriageofGemsJewelleryExportParcels"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [
+    "Customs",
+    "Personal Carriage of exports shall be as prescribed by Customs"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+    "Evaluate condition: (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+    "Run validation: Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+    "Run validation: Export proceeds shall, however, be realised through normal banking\nchannel.",
+    "Run validation: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+    "Handle exception: Export proceeds shall, however, be realised through normal banking\nchannel."
+  ],
+  "workflow_ascii": "Personal Carriage of Gems & Jewellery Export Parcels\nEvaluate condition: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.\n   |\n   v\nEvaluate condition: (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.\n   |\n   v\nRun validation: Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.\n   |\n   v\nRun validation: Export proceeds shall, however, be realised through normal banking\nchannel.\n   |\n   v\nRun validation: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.\n   |\n   v\nHandle exception: Export proceeds shall, however, be realised through normal banking\nchannel.",
+  "decision_tree": [
+    "IF exception applies (Export proceeds shall, however, be realised through normal banking\nchannel.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Personal Carriage of Gems & Jewellery Export Parcels Decision\nIF exception applies (Export proceeds shall, however, be realised through normal banking\nchannel.) THEN route to manual review",
+  "examples": [
+    "User asks to process Personal Carriage of Gems & Jewellery Export Parcels; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Personal Carriage of Gems & Jewellery Export Parcels, submits (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP., (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP., and DEKAI uses the extracted rules to follow the personal carriage of gems & jewellery export parcels process.",
+  "real_world_example_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, Example: an importer or exporter invokes Personal Carriage of Gems & Jewellery export Parcels, submits (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents kandippa be same as mentioned under\nparagraph 4.81(c) of HBP., (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents kandippa be same as mentioned under\nparagraph 4.81(c) of HBP., and DEKAI uses the extracted rules to follow the personal carriage of gems & jewellery export parcels process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+    "IF detected context matches section rule THEN enforce: Export proceeds shall, however, be realised through normal banking\nchannel.",
+    "IF detected context matches section rule THEN enforce: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+    "IF detected context matches section rule THEN enforce: (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "all_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:all"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "dta_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DTA"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "hbp_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:HBP"
+    },
+    {
+      "name": "are_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:are"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "gems_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Gems"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.87",
+      "purpose": "Retrieve knowledge payload for section 4.87",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Personal-Carriage-of-Gems-Jewellery-Export-Parcels/validate",
+      "purpose": "Validate inputs and documents for Personal Carriage of Gems & Jewellery Export Parcels",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Personal_Carriage_of_Gems_Jewellery_Export_Parcels_overview",
+      "name": "Personal Carriage of Gems & Jewellery Export Parcels Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Personal_Carriage_of_Gems_Jewellery_Export_Parcels_submission",
+      "name": "Personal Carriage of Gems & Jewellery Export Parcels Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "all_flag",
+        "and_flag",
+        "dta_flag",
+        "for_flag",
+        "hbp_flag",
+        "are_flag"
+      ]
+    },
+    {
+      "screen_id": "Personal_Carriage_of_Gems_Jewellery_Export_Parcels_exceptions",
+      "name": "Personal Carriage of Gems & Jewellery Export Parcels Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Personal Carriage of Gems & Jewellery Export Parcels require?",
+    "Which documents are needed for Personal Carriage of Gems & Jewellery Export Parcels?",
+    "How does DEKAI validate Personal Carriage of Gems & Jewellery Export Parcels requests?"
+  ],
+  "expected_ai_answers": [
+    "Personal Carriage of Gems & Jewellery Export Parcels requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP., (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+    "DEKAI validates Personal Carriage of Gems & Jewellery Export Parcels by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4.87?",
+      "answer_en": "Personal Carriage of Gems & Jewellery Export Parcels explains the operating rule set that DEKAI should enforce. Key control points include Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+      "question_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, What is the purpose of section 4.87?",
+      "answer_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, Personal Carriage of Gems & Jewellery export Parcels explains the operating rule set that DEKAI should enforce. Key control points include Procedure\nfor Personal Carriage of exports kandippa be as prescribed by Customs."
+    },
+    {
+      "question_en": "What documents are required under Personal Carriage of Gems & Jewellery Export Parcels?",
+      "answer_en": "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP., (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "question_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, What documents are required under Personal Carriage of Gems & Jewellery export Parcels?",
+      "answer_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents kandippa be same as mentioned under\nparagraph 4.81(c) of HBP., (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents kandippa be same as mentioned under\nparagraph 4.81(c) of HBP."
+    },
+    {
+      "question_en": "Which authority handles Personal Carriage of Gems & Jewellery Export Parcels?",
+      "answer_en": "Customs, Personal Carriage of exports shall be as prescribed by Customs",
+      "question_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, Which authority handles Personal Carriage of Gems & Jewellery export Parcels?",
+      "answer_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, Customs, Personal Carriage of exports kandippa be as prescribed by Customs"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Personal Carriage of Gems & Jewellery Export Parcels?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4.87, apply the extracted rules, and guide the user through Evaluate condition: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP..",
+      "question_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, User asks: How do I comply with Personal Carriage of Gems & Jewellery export Parcels?",
+      "answer_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, AI answers: DEKAI should evaluate section 4.87, apply the extracted rules, and guide the user through Evaluate condition: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents kandippa be same as mentioned under\nparagraph 4.81(c) of HBP.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Personal Carriage of Gems & Jewellery Export Parcels?",
+      "answer_en": "AI answers: Applicable validations are Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs., Export proceeds shall, however, be realised through normal banking\nchannel., (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+      "question_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, User asks: Which validations apply to Personal Carriage of Gems & Jewellery export Parcels?",
+      "answer_thanglish": "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, AI answers: Applicable validations are Procedure\nfor Personal Carriage of exports kandippa be as prescribed by Customs., export proceeds kandippa, however, be realised through normal banking\nchannel., (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents kandippa be same as mentioned under\nparagraph 4.81(c) of HBP."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 4.87, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Personal Carriage of Gems & Jewellery Export Parcels into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP., (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP..",
+    "Route escalations or approvals to: Customs, Personal Carriage of exports shall be as prescribed by Customs.",
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 4.81, 1, 4."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, Capture chapter 4, section 4.87, title, and page references as immutable knowledge metadata.",
+    "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, Bind validations for Personal Carriage of Gems & Jewellery export Parcels into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, Expose document upload controls for: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents kandippa be same as mentioned under\nparagraph 4.81(c) of HBP., (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents kandippa be same as mentioned under\nparagraph 4.81(c) of HBP..",
+    "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, Route escalations or approvals to: Customs, Personal Carriage of exports kandippa be as prescribed by Customs.",
+    "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Personal Carriage of Gems & Jewellery Export Parcels section-la, Show contextual links to related sections: 4.81, 1, 4."
+  ],
+  "keywords": [
+    "all",
+    "and",
+    "DTA",
+    "for",
+    "HBP",
+    "are",
+    "the",
+    "Gems",
+    "from",
+    "case",
+    "same",
+    "also",
+    "Bound",
+    "units",
+    "firms",
+    "Delhi",
+    "Kochi",
+    "shall",
+    "under",
+    "above"
+  ],
+  "search_keywords": [
+    "all",
+    "and",
+    "DTA",
+    "for",
+    "HBP",
+    "are",
+    "the",
+    "Gems",
+    "from",
+    "case",
+    "same",
+    "also",
+    "Bound",
+    "units",
+    "firms",
+    "Delhi",
+    "Kochi",
+    "shall",
+    "under",
+    "above"
+  ],
+  "intent": "Provide knowledge guidance for Personal Carriage of Gems & Jewellery Export Parcels.",
+  "tags": [
+    "4.87",
+    "Personal Carriage of Gems & Jewellery Export Parcels",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "4.81",
+    "1",
+    "4"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.",
+    "Export proceeds shall, however, be realised through normal banking\nchannel.",
+    "(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.",
+    "(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP."
+  ],
+  "page_numbers": [
+    52
+  ],
+  "pages": [
+    52
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "4.87 Personal Carriage of Gems & Jewellery Export Parcels\n(a) Personal Carriage of gems & jewellery parcels by Foreign Bound\nPassengers from all EOU/SEZ units and all firms in DTA through\nAirports in Delhi, Mumbai, Kolkata, Chennai, Kochi, Coimbatore,\nBangalore, Hyderabad, Jaipur and Ahmedabad is permitted. Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.\nExport proceeds shall, however, be realised through normal banking\nchannel.\n(b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP. Authorised Courier Companies are also\npermitted to operate on the above lines.\n4.87 Personal Carriage of Gems & Jewellery Export Parcels\n(a)\nPersonal Carriage of gems & jewellery parcels by Foreign Bound\nPassengers from all EOU/SEZ units and all firms in DTA through\nAirports in Delhi, Mumbai, Kolkata, Chennai, Kochi, Coimbatore,\nBangalore, Hyderabad, Jaipur and Ahmedabad is permitted. Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.\nExport proceeds shall, however, be realised through normal banking\nchannel.\n(b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP. Authorised Courier Companies are also\npermitted to operate on the above lines.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.\"]\n    S2[\"Evaluate condition: (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.\"]\n    S1 --> S2\n    S3[\"Run validation: Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.\"]\n    S2 --> S3\n    S4[\"Run validation: Export proceeds shall, however, be realised through normal banking\nchannel.\"]\n    S3 --> S4\n    S5[\"Run validation: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.\"]\n    S4 --> S5\n    S6[\"Handle exception: Export proceeds shall, however, be realised through normal banking\nchannel.\"]\n    S5 --> S6",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.;\n:Evaluate condition\\: (b)\nFor claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.;\n:Run validation\\: Procedure\nfor Personal Carriage of exports shall be as prescribed by Customs.;\n:Run validation\\: Export proceeds shall, however, be realised through normal banking\nchannel.;\n:Run validation\\: (b) For claiming Replenishment in case of Personal Carriage of Exports by\nForeign Bound passenger, documents shall be same as mentioned under\nparagraph 4.81(c) of HBP.;\n:Handle exception\\: Export proceeds shall, however, be realised through normal banking\nchannel.;\nstop\n@enduml"
+}

@@ -1,0 +1,21 @@
+{
+  "section": "1",
+  "conditions": [
+    "INTRODUCTION\nThis specification provides the definition of the Trade Declaration and Application of Certificate of Origin ie.",
+    "This document shall be used as a baseline for the interface software design and shall be agreed upon by representative from\nIE Singapore and Crimson Logic Pte Ltd."
+  ],
+  "condition_logic": [
+    {
+      "id": ".1.1",
+      "if": "INTRODUCTION\nThis specification provides the definition of the Trade Declaration and Application of Certificate of Origin ie.",
+      "then": "Route for review",
+      "source": "INTRODUCTION\nThis specification provides the definition of the Trade Declaration and Application of Certificate of Origin ie."
+    },
+    {
+      "id": ".1.2",
+      "if": "This document shall be used as a baseline for the interface software design and shall be agreed upon by representative from\nIE Singapore and Crimson Logic Pte Ltd.",
+      "then": "Route for review",
+      "source": "This document shall be used as a baseline for the interface software design and shall be agreed upon by representative from\nIE Singapore and Crimson Logic Pte Ltd."
+    }
+  ]
+}

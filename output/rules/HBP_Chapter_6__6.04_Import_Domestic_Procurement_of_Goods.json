@@ -1,0 +1,66 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.04",
+  "title": "Import / Domestic Procurement of Goods",
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_04-R001",
+      "rule_description": "6.04 Import / Domestic Procurement of Goods\nGoods permitted to be imported / procured from DTA shall include:\n(a) Raw materials, components, consumables, intermediates, spares\nand packing materials.",
+      "trigger": "Import / Domestic Procurement of Goods",
+      "condition": "This would be\nsubject to the condition that no tax/duty benefits stipulated\nunder EOU Scheme shall be available for setting up as well\nas operations and maintenance of such wind and solar\npower plants.",
+      "validation": "6.04 Import / Domestic Procurement of Goods\nGoods permitted to be imported / procured from DTA shall include:\n(a) Raw materials, components, consumables, intermediates, spares\nand packing materials.",
+      "action": "137\n| goods | to DTA against v | alid Gems & | Jewellery RE | P as a | pplicable on\n| payme | nt of appropriat | e duty is als | o permitted.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.04 - Import / Domestic Procurement of Goods."
+    },
+    {
+      "rule_id": "CH6-SEC6_04-R002",
+      "rule_description": "This would be\nsubject to the condition that no tax/duty benefits stipulated\nunder EOU Scheme shall be available for setting up as well\nas operations and maintenance of such wind and solar\npower plants.",
+      "trigger": "Import / Domestic Procurement of Goods",
+      "condition": "(iv) Material handling equipment, like fork lifts and overhead\ncranes, mobile cranes, crawler cranes, hoists and stackers.",
+      "validation": "This would be\nsubject to the condition that no tax/duty benefits stipulated\nunder EOU Scheme shall be available for setting up as well\nas operations and maintenance of such wind and solar\npower plants.",
+      "action": "137\ngoods to DTA against valid Gems & Jewellery REP as applicable on\npayment of appropriate duty is also permitted.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.04 - Import / Domestic Procurement of Goods."
+    },
+    {
+      "rule_id": "CH6-SEC6_04-R003",
+      "rule_description": "| |\nmpor | t / Do | mestic Procur | ement of G | oods | |\npermi | tted to | be imported / p | rocured fro | m DTA shall in | clude |:\n(a) | Raw m | aterials, compo | nents, cons | umables, inte | rmed | iates, spares\n| and pa | cking materials.",
+      "trigger": "Import / Domestic Procurement of Goods",
+      "condition": "(d) Others including:\n(i) Prototypes and technical samples for existing product(s)\nand product diversification development or evaluation.",
+      "validation": "| |\nmpor | t / Do | mestic Procur | ement of G | oods | |\npermi | tted to | be imported / p | rocured fro | m DTA shall in | clude |:\n(a) | Raw m | aterials, compo | nents, cons | umables, inte | rmed | iates, spares\n| and pa | cking materials.",
+      "action": "137\ngoods to DTA against valid Gems & Jewellery REP as applicable on\npayment of appropriate duty is also permitted.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.04 - Import / Domestic Procurement of Goods."
+    },
+    {
+      "rule_id": "CH6-SEC6_04-R004",
+      "rule_description": "Th | is would be\n| | subject to the co | ndition tha | t no tax/duty | benef | its stipulated\n| | under EOU Sche | me shall be | available for | setti | ng up as well\n| | as operations | and mainte | nance of suc | h win | d and solar\n| | power plants.",
+      "trigger": "Import / Domestic Procurement of Goods",
+      "condition": "Th | is would be\n| | subject to the co | ndition tha | t no tax/duty | benef | its stipulated\n| | under EOU Sche | me shall be | available for | setti | ng up as well\n| | as operations | and mainte | nance of suc | h win | d and solar\n| | power plants.",
+      "validation": "Th | is would be\n| | subject to the co | ndition tha | t no tax/duty | benef | its stipulated\n| | under EOU Sche | me shall be | available for | setti | ng up as well\n| | as operations | and mainte | nance of suc | h win | d and solar\n| | power plants.",
+      "action": "137\ngoods to DTA against valid Gems & Jewellery REP as applicable on\npayment of appropriate duty is also permitted.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.04 - Import / Domestic Procurement of Goods."
+    },
+    {
+      "rule_id": "CH6-SEC6_04-R005",
+      "rule_description": "6.04 Import / Domestic Procurement of Goods\nGoods permitted to be imported / procured from DTA shall include:\n(a)\nRaw materials, components, consumables, intermediates, spares\nand packing materials.",
+      "trigger": "Import / Domestic Procurement of Goods",
+      "condition": "| |\n| (iv) | Material handli | ng equipme | nt, like fork l | ifts a | nd overhead\n| | cranes, mobile c | ranes, craw | ler cranes, hoi | sts an | d stackers.",
+      "validation": "6.04 Import / Domestic Procurement of Goods\nGoods permitted to be imported / procured from DTA shall include:\n(a)\nRaw materials, components, consumables, intermediates, spares\nand packing materials.",
+      "action": "137\ngoods to DTA against valid Gems & Jewellery REP as applicable on\npayment of appropriate duty is also permitted.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.04 - Import / Domestic Procurement of Goods."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 6.04 Import / Domestic Procurement of Goods\nGoods permitted to be imported / procured from DTA shall include:\n(a) Raw materials, components, consumables, intermediates, spares\nand packing materials.",
+    "IF detected context matches section rule THEN enforce: This would be\nsubject to the condition that no tax/duty benefits stipulated\nunder EOU Scheme shall be available for setting up as well\nas operations and maintenance of such wind and solar\npower plants.",
+    "IF detected context matches section rule THEN enforce: | |\nmpor | t / Do | mestic Procur | ement of G | oods | |\npermi | tted to | be imported / p | rocured fro | m DTA shall in | clude |:\n(a) | Raw m | aterials, compo | nents, cons | umables, inte | rmed | iates, spares\n| and pa | cking materials.",
+    "IF detected context matches section rule THEN enforce: Th | is would be\n| | subject to the co | ndition tha | t no tax/duty | benef | its stipulated\n| | under EOU Sche | me shall be | available for | setti | ng up as well\n| | as operations | and mainte | nance of suc | h win | d and solar\n| | power plants.",
+    "IF detected context matches section rule THEN enforce: 6.04 Import / Domestic Procurement of Goods\nGoods permitted to be imported / procured from DTA shall include:\n(a)\nRaw materials, components, consumables, intermediates, spares\nand packing materials.",
+    "IF validations pass THEN recommend action: 137\n| goods | to DTA against v | alid Gems & | Jewellery RE | P as a | pplicable on\n| payme | nt of appropriat | e duty is als | o permitted."
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "section": "8",
+  "conditions": [
+    "A062 cac:Unique Reference Number M 1 Format:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036 cbc:ID M 1 an..17 Specify Declarant entity identifier.",
+    "B020 cbc:Date M 1 n8 Specify date of Creation.",
+    "4 Specify sequence number.",
+    "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header).",
+    "B083 cbc:Common Access Reference M 1 an..7 IPTDEC\nB021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg.",
+    "B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable.",
+    "bank, tel, date, etc if currency code is not on Customs\nExchange Rate List.",
+    "B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks.",
+    "/cac:Remarks\nB065 cbc:Additional Recipient ID C 3 an..17 Repeat at most 3 times for additional Recipient (for the purpose of\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nRef Tag name | User defined\nS R Repr | Remarks\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "A062\ncac:Unique Reference Number\nM\n1\nFormat:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036\ncbc:ID\nM\n1 an..17\nSpecify Declarant entity identifier.",
+    "B020\ncbc:Date\nM\n1 n8\nSpecify date of Creation.",
+    "4\nSpecify sequence number.",
+    "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nMandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header).",
+    "B083\ncbc:Common Access Reference\nM\n1 an..7\nIPTDEC\nB021\ncbc:Declaration Type\nM\n1 an..7\nSpecify Declaration Type eg.",
+    "B064\ncbc:Previous Permit Number\nC\n1 an..35\nSpecify previous Permit Number if applicable.",
+    "B034\ncbc:Free Text\nM\n2 an..512\nSpecify general/trader’s remarks.",
+    "B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any).",
+    "B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC).",
+    "B057 cbc:Processing Code One M 1 an..35 Specify processing code 1.",
+    "B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2.",
+    "B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3.",
+    "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\nipt:Cargo M 1\nB009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List).",
+    "A032 cac:Release Location M 1 Specify Place of Release.",
+    "B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists).",
+    "B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others).",
+    "/cac:Release Location\nA032 cac:Receipt Location M 1 Specify Place of Receipt.",
+    "5 Specify sequence number.",
+    "B027 cbc:Equipment ID M 1 an..13 Specify container number.",
+    "B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028 cbc:Equipment Weight Measure Numeric M 1 n..",
+    "3 Specify container weight (TNE).",
+    "A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container at the time\nof arrival.",
+    "B067 cbc:Seal ID M 1 an..35 Specify shipper seal number.",
+    "/cac:Transport Equipment Seal\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "B007\ncbc:Banker Guarantee Code\nC\n1 an..3\nSpecify BG indicator (if any).",
+    "B089\ncbc:Customs Procedure Code\nM\n1 an..7\nSpecify Customs Procedure Code (CPC).",
+    "B057\ncbc:Processing Code One\nM\n1 an..35\nSpecify processing code 1.",
+    "B057\ncbc:Processing Code Two\nC\n1 an..35\nSpecify processing code 2.",
+    "B057\ncbc:Processing Code Three\nC\n1 an..35\nSpecify processing code 3.",
+    "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\nipt:Cargo\nM\n1\nB009\ncbc:Cargo Packing Type\nM\n1 an..3\nSpecify Cargo Packing Type (refer to STDID Code List).",
+    "A032\ncac:Release Location\nM\n1\nSpecify Place of Release.",
+    "B039\ncbc:Location Code\nM\n1 an..7\nSpecify location code (refer to STDID Code Lists).",
+    "B040\ncbc:Location Name\nC\n1 an..256\nSpecify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others).",
+    "/cac:Release Location\nA032\ncac:Receipt Location\nM\n1\nSpecify Place of Receipt.",
+    "5\nSpecify sequence number.",
+    "B027\ncbc:Equipment ID\nM\n1 an..13\nSpecify container number.",
+    "B069\ncbc:Size Type Code\nM\n1 an5\nSpecify container type and size using the following valid codes:\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028\ncbc:Equipment Weight Measure Numeric\nM\n1 n..",
+    "3\nSpecify container weight (TNE).",
+    "A058\ncac:Transport Equipment Seal\nM\n1\nSpecify the shipper seal number affixed to the container at the time\nof arrival.",
+    "B067\ncbc:Seal ID\nM\n1 an..35\nSpecify shipper seal number.",
+    "/cac:Transport Equipment Seal\nOFFICIAL (CLOSED)\nAM\n/cac:Transport Equipment\nB037 cbc:Supply Indicator C 1 boolean Specify Supply Indicator for:\na) all dutiable goods of Singapore origin released from Licensed\nWarehouse, if there is a supply.",
+    "b) all imported goods where there is a supply prior to its release\nfrom Customs' control.",
+    "B020 cbc:Blanket Start Date C 1 n8 Format: CCYYMMDD\nFor blanket imports, specify Start Date of Blanket.",
+    "ipt:Transport C 1 Notes:\nFor all Declaration Types, specify for inward transport, except for\nthe following:\n(i) Goods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\n(ii) short payment where place of receipt = SPSTK, SPNOSTK\n(iii) declaration type = BKT (Blanket)\n(iv) recovery payment where place of receipt = RCNOSTK\n(v) payment for goods previously exempted from duties/taxes (e.g.",
+    "place of release = EM, EXEMPT)\n(vi) Supplementary declaration for schemes under AISS, IGDS such as\nPlace of Receipt = AISSLOC, SPIGDS\nA026 cac:Inward Transport M 1 Mandatory to specify Inward transport.",
+    "A060 cac:Transport Means C 1 Specify inward transport mode."
+  ],
+  "condition_logic": [
+    {
+      "id": ".8.1",
+      "if": "A062 cac:Unique Reference Number M 1 Format:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036 cbc:ID M 1 an..17 Specify Declarant entity identifier.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "A062 cac:Unique Reference Number M 1 Format:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036 cbc:ID M 1 an..17 Specify Declarant entity identifier."
+    },
+    {
+      "id": ".8.2",
+      "if": "B020 cbc:Date M 1 n8 Specify date of Creation.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B020 cbc:Date M 1 n8 Specify date of Creation."
+    },
+    {
+      "id": ".8.3",
+      "if": "4 Specify sequence number.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "4 Specify sequence number."
+    },
+    {
+      "id": ".8.4",
+      "if": "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header)."
+    },
+    {
+      "id": ".8.5",
+      "if": "B083 cbc:Common Access Reference M 1 an..7 IPTDEC\nB021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B083 cbc:Common Access Reference M 1 an..7 IPTDEC\nB021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg."
+    },
+    {
+      "id": ".8.6",
+      "if": "B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable."
+    },
+    {
+      "id": ".8.7",
+      "if": "bank, tel, date, etc if currency code is not on Customs\nExchange Rate List.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "bank, tel, date, etc if currency code is not on Customs\nExchange Rate List."
+    },
+    {
+      "id": ".8.8",
+      "if": "B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks."
+    },
+    {
+      "id": ".8.9",
+      "if": "/cac:Remarks\nB065 cbc:Additional Recipient ID C 3 an..17 Repeat at most 3 times for additional Recipient (for the purpose of\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nRef Tag name | User defined\nS R Repr | Remarks\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "/cac:Remarks\nB065 cbc:Additional Recipient ID C 3 an..17 Repeat at most 3 times for additional Recipient (for the purpose of\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nRef Tag name | User defined\nS R Repr | Remarks\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".8.10",
+      "if": "A062\ncac:Unique Reference Number\nM\n1\nFormat:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036\ncbc:ID\nM\n1 an..17\nSpecify Declarant entity identifier.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "A062\ncac:Unique Reference Number\nM\n1\nFormat:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036\ncbc:ID\nM\n1 an..17\nSpecify Declarant entity identifier."
+    },
+    {
+      "id": ".8.11",
+      "if": "B020\ncbc:Date\nM\n1 n8\nSpecify date of Creation.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B020\ncbc:Date\nM\n1 n8\nSpecify date of Creation."
+    },
+    {
+      "id": ".8.12",
+      "if": "4\nSpecify sequence number.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "4\nSpecify sequence number."
+    },
+    {
+      "id": ".8.13",
+      "if": "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nMandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nMandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header)."
+    },
+    {
+      "id": ".8.14",
+      "if": "B083\ncbc:Common Access Reference\nM\n1 an..7\nIPTDEC\nB021\ncbc:Declaration Type\nM\n1 an..7\nSpecify Declaration Type eg.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B083\ncbc:Common Access Reference\nM\n1 an..7\nIPTDEC\nB021\ncbc:Declaration Type\nM\n1 an..7\nSpecify Declaration Type eg."
+    },
+    {
+      "id": ".8.15",
+      "if": "B064\ncbc:Previous Permit Number\nC\n1 an..35\nSpecify previous Permit Number if applicable.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B064\ncbc:Previous Permit Number\nC\n1 an..35\nSpecify previous Permit Number if applicable."
+    },
+    {
+      "id": ".8.16",
+      "if": "B034\ncbc:Free Text\nM\n2 an..512\nSpecify general/trader’s remarks.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B034\ncbc:Free Text\nM\n2 an..512\nSpecify general/trader’s remarks."
+    },
+    {
+      "id": ".8.17",
+      "if": "B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any)."
+    },
+    {
+      "id": ".8.18",
+      "if": "B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC)."
+    },
+    {
+      "id": ".8.19",
+      "if": "B057 cbc:Processing Code One M 1 an..35 Specify processing code 1.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B057 cbc:Processing Code One M 1 an..35 Specify processing code 1."
+    },
+    {
+      "id": ".8.20",
+      "if": "B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2."
+    },
+    {
+      "id": ".8.21",
+      "if": "B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3."
+    },
+    {
+      "id": ".8.22",
+      "if": "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\nipt:Cargo M 1\nB009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\nipt:Cargo M 1\nB009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List)."
+    },
+    {
+      "id": ".8.23",
+      "if": "A032 cac:Release Location M 1 Specify Place of Release.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "A032 cac:Release Location M 1 Specify Place of Release."
+    },
+    {
+      "id": ".8.24",
+      "if": "B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists)."
+    },
+    {
+      "id": ".8.25",
+      "if": "B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others)."
+    },
+    {
+      "id": ".8.26",
+      "if": "/cac:Release Location\nA032 cac:Receipt Location M 1 Specify Place of Receipt.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "/cac:Release Location\nA032 cac:Receipt Location M 1 Specify Place of Receipt."
+    },
+    {
+      "id": ".8.27",
+      "if": "5 Specify sequence number.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "5 Specify sequence number."
+    },
+    {
+      "id": ".8.28",
+      "if": "B027 cbc:Equipment ID M 1 an..13 Specify container number.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B027 cbc:Equipment ID M 1 an..13 Specify container number."
+    },
+    {
+      "id": ".8.29",
+      "if": "B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028 cbc:Equipment Weight Measure Numeric M 1 n..",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028 cbc:Equipment Weight Measure Numeric M 1 n.."
+    },
+    {
+      "id": ".8.30",
+      "if": "3 Specify container weight (TNE).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "3 Specify container weight (TNE)."
+    },
+    {
+      "id": ".8.31",
+      "if": "A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container at the time\nof arrival.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container at the time\nof arrival."
+    },
+    {
+      "id": ".8.32",
+      "if": "B067 cbc:Seal ID M 1 an..35 Specify shipper seal number.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B067 cbc:Seal ID M 1 an..35 Specify shipper seal number."
+    },
+    {
+      "id": ".8.33",
+      "if": "/cac:Transport Equipment Seal\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "/cac:Transport Equipment Seal\nTrade Net Declaration.IPTDEC Ver2.1.doc Message Specification XML (IPTDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-IPTDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 11:10\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".8.34",
+      "if": "B007\ncbc:Banker Guarantee Code\nC\n1 an..3\nSpecify BG indicator (if any).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B007\ncbc:Banker Guarantee Code\nC\n1 an..3\nSpecify BG indicator (if any)."
+    },
+    {
+      "id": ".8.35",
+      "if": "B089\ncbc:Customs Procedure Code\nM\n1 an..7\nSpecify Customs Procedure Code (CPC).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B089\ncbc:Customs Procedure Code\nM\n1 an..7\nSpecify Customs Procedure Code (CPC)."
+    },
+    {
+      "id": ".8.36",
+      "if": "B057\ncbc:Processing Code One\nM\n1 an..35\nSpecify processing code 1.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B057\ncbc:Processing Code One\nM\n1 an..35\nSpecify processing code 1."
+    },
+    {
+      "id": ".8.37",
+      "if": "B057\ncbc:Processing Code Two\nC\n1 an..35\nSpecify processing code 2.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B057\ncbc:Processing Code Two\nC\n1 an..35\nSpecify processing code 2."
+    },
+    {
+      "id": ".8.38",
+      "if": "B057\ncbc:Processing Code Three\nC\n1 an..35\nSpecify processing code 3.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B057\ncbc:Processing Code Three\nC\n1 an..35\nSpecify processing code 3."
+    },
+    {
+      "id": ".8.39",
+      "if": "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\nipt:Cargo\nM\n1\nB009\ncbc:Cargo Packing Type\nM\n1 an..3\nSpecify Cargo Packing Type (refer to STDID Code List).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\nipt:Cargo\nM\n1\nB009\ncbc:Cargo Packing Type\nM\n1 an..3\nSpecify Cargo Packing Type (refer to STDID Code List)."
+    },
+    {
+      "id": ".8.40",
+      "if": "A032\ncac:Release Location\nM\n1\nSpecify Place of Release.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "A032\ncac:Release Location\nM\n1\nSpecify Place of Release."
+    },
+    {
+      "id": ".8.41",
+      "if": "B039\ncbc:Location Code\nM\n1 an..7\nSpecify location code (refer to STDID Code Lists).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B039\ncbc:Location Code\nM\n1 an..7\nSpecify location code (refer to STDID Code Lists)."
+    },
+    {
+      "id": ".8.42",
+      "if": "B040\ncbc:Location Name\nC\n1 an..256\nSpecify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B040\ncbc:Location Name\nC\n1 an..256\nSpecify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others)."
+    },
+    {
+      "id": ".8.43",
+      "if": "/cac:Release Location\nA032\ncac:Receipt Location\nM\n1\nSpecify Place of Receipt.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "/cac:Release Location\nA032\ncac:Receipt Location\nM\n1\nSpecify Place of Receipt."
+    },
+    {
+      "id": ".8.44",
+      "if": "5\nSpecify sequence number.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "5\nSpecify sequence number."
+    },
+    {
+      "id": ".8.45",
+      "if": "B027\ncbc:Equipment ID\nM\n1 an..13\nSpecify container number.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B027\ncbc:Equipment ID\nM\n1 an..13\nSpecify container number."
+    },
+    {
+      "id": ".8.46",
+      "if": "B069\ncbc:Size Type Code\nM\n1 an5\nSpecify container type and size using the following valid codes:\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028\ncbc:Equipment Weight Measure Numeric\nM\n1 n..",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B069\ncbc:Size Type Code\nM\n1 an5\nSpecify container type and size using the following valid codes:\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028\ncbc:Equipment Weight Measure Numeric\nM\n1 n.."
+    },
+    {
+      "id": ".8.47",
+      "if": "3\nSpecify container weight (TNE).",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "3\nSpecify container weight (TNE)."
+    },
+    {
+      "id": ".8.48",
+      "if": "A058\ncac:Transport Equipment Seal\nM\n1\nSpecify the shipper seal number affixed to the container at the time\nof arrival.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "A058\ncac:Transport Equipment Seal\nM\n1\nSpecify the shipper seal number affixed to the container at the time\nof arrival."
+    },
+    {
+      "id": ".8.49",
+      "if": "B067\ncbc:Seal ID\nM\n1 an..35\nSpecify shipper seal number.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B067\ncbc:Seal ID\nM\n1 an..35\nSpecify shipper seal number."
+    },
+    {
+      "id": ".8.50",
+      "if": "/cac:Transport Equipment Seal\nOFFICIAL (CLOSED)\nAM\n/cac:Transport Equipment\nB037 cbc:Supply Indicator C 1 boolean Specify Supply Indicator for:\na) all dutiable goods of Singapore origin released from Licensed\nWarehouse, if there is a supply.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "/cac:Transport Equipment Seal\nOFFICIAL (CLOSED)\nAM\n/cac:Transport Equipment\nB037 cbc:Supply Indicator C 1 boolean Specify Supply Indicator for:\na) all dutiable goods of Singapore origin released from Licensed\nWarehouse, if there is a supply."
+    },
+    {
+      "id": ".8.51",
+      "if": "b) all imported goods where there is a supply prior to its release\nfrom Customs' control.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "b) all imported goods where there is a supply prior to its release\nfrom Customs' control."
+    },
+    {
+      "id": ".8.52",
+      "if": "B020 cbc:Blanket Start Date C 1 n8 Format: CCYYMMDD\nFor blanket imports, specify Start Date of Blanket.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "B020 cbc:Blanket Start Date C 1 n8 Format: CCYYMMDD\nFor blanket imports, specify Start Date of Blanket."
+    },
+    {
+      "id": ".8.53",
+      "if": "ipt:Transport C 1 Notes:\nFor all Declaration Types, specify for inward transport, except for\nthe following:\n(i) Goods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\n(ii) short payment where place of receipt = SPSTK, SPNOSTK\n(iii) declaration type = BKT (Blanket)\n(iv) recovery payment where place of receipt = RCNOSTK\n(v) payment for goods previously exempted from duties/taxes (e.g.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "ipt:Transport C 1 Notes:\nFor all Declaration Types, specify for inward transport, except for\nthe following:\n(i) Goods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\n(ii) short payment where place of receipt = SPSTK, SPNOSTK\n(iii) declaration type = BKT (Blanket)\n(iv) recovery payment where place of receipt = RCNOSTK\n(v) payment for goods previously exempted from duties/taxes (e.g."
+    },
+    {
+      "id": ".8.54",
+      "if": "place of release = EM, EXEMPT)\n(vi) Supplementary declaration for schemes under AISS, IGDS such as\nPlace of Receipt = AISSLOC, SPIGDS\nA026 cac:Inward Transport M 1 Mandatory to specify Inward transport.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "place of release = EM, EXEMPT)\n(vi) Supplementary declaration for schemes under AISS, IGDS such as\nPlace of Receipt = AISSLOC, SPIGDS\nA026 cac:Inward Transport M 1 Mandatory to specify Inward transport."
+    },
+    {
+      "id": ".8.55",
+      "if": "A060 cac:Transport Means C 1 Specify inward transport mode.",
+      "then": "DUT = Duty\nGST = GST (including duty exemption)\nDNG = Duty and GST\nBKT = Blanket (including blanket GST payment and duty exemption)\nB037 cbc:Declaration Indicator M boolean Mandatory for all Declaration Types.",
+      "source": "A060 cac:Transport Means C 1 Specify inward transport mode."
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.COODEC Ver2.1",
+  "section": "5",
+  "title": "DEFINITIONS AND ABBREVIATIONS",
+  "purpose": "Defines the operational requirements for DEFINITIONS AND ABBREVIATIONS.",
+  "purpose_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, Defines the operational requirements for DEFINITIONS AND ABBREVIATIONS.",
+  "summary": "5. DEFINITIONS AND ABBREVIATIONS",
+  "business_meaning": "5.",
+  "business_explanation": "5. DEFINITIONS AND ABBREVIATIONS",
+  "business_explanation_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, 5. DEFINITIONS AND ABBREVIATIONS",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC5-R001",
+      "rule_description": "5. DEFINITIONS AND ABBREVIATIONS",
+      "trigger": "DEFINITIONS AND ABBREVIATIONS",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5 - DEFINITIONS AND ABBREVIATIONS."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "5::section::0::definitions-and-abbreviations",
+      "type": "section",
+      "title": "DEFINITIONS AND ABBREVIATIONS",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5. DEFINITIONS AND ABBREVIATIONS",
+      "parentId": "",
+      "sectionId": "5",
+      "sectionTitle": "DEFINITIONS AND ABBREVIATIONS",
+      "documentName": "TradeNetDeclaration.COODEC Ver2.1.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "DEFINITIONS AND ABBREVIATIONS",
+        "DEFINITIONSANDABBREVIATIONS"
+      ],
+      "childIds": [
+        "5::business_rule::1::definitions-and-abbreviations"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "5::business_rule::1::definitions-and-abbreviations",
+      "type": "business_rule",
+      "title": "DEFINITIONS AND ABBREVIATIONS",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5. DEFINITIONS AND ABBREVIATIONS",
+      "parentId": "5::section::0::definitions-and-abbreviations",
+      "sectionId": "5",
+      "sectionTitle": "DEFINITIONS AND ABBREVIATIONS",
+      "documentName": "TradeNetDeclaration.COODEC Ver2.1.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "DEFINITIONS AND ABBREVIATIONS",
+        "DEFINITIONSANDABBREVIATIONS"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 5 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "DEFINITIONS AND ABBREVIATIONS\nReview section 5 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 5 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "DEFINITIONS AND ABBREVIATIONS Decision\nIF section 5 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process DEFINITIONS AND ABBREVIATIONS; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes DEFINITIONS AND ABBREVIATIONS, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the definitions and abbreviations process.",
+  "real_world_example_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, Example: an importer or exporter invokes DEFINITIONS AND ABBREVIATIONS, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the definitions and abbreviations process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:AND"
+    },
+    {
+      "name": "definitions_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DEFINITIONS"
+    },
+    {
+      "name": "abbreviations_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ABBREVIATIONS"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5",
+      "purpose": "Retrieve knowledge payload for section 5",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/DEFINITIONS-AND-ABBREVIATIONS/validate",
+      "purpose": "Validate inputs and documents for DEFINITIONS AND ABBREVIATIONS",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "DEFINITIONS_AND_ABBREVIATIONS_overview",
+      "name": "DEFINITIONS AND ABBREVIATIONS Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "DEFINITIONS_AND_ABBREVIATIONS_submission",
+      "name": "DEFINITIONS AND ABBREVIATIONS Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "definitions_flag",
+        "abbreviations_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does DEFINITIONS AND ABBREVIATIONS require?",
+    "Which documents are needed for DEFINITIONS AND ABBREVIATIONS?",
+    "How does DEKAI validate DEFINITIONS AND ABBREVIATIONS requests?"
+  ],
+  "expected_ai_answers": [
+    "DEFINITIONS AND ABBREVIATIONS requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates DEFINITIONS AND ABBREVIATIONS by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 5?",
+      "answer_en": "5. DEFINITIONS AND ABBREVIATIONS",
+      "question_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, What is the purpose of section 5?",
+      "answer_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, 5. DEFINITIONS AND ABBREVIATIONS"
+    },
+    {
+      "question_en": "What documents are required under DEFINITIONS AND ABBREVIATIONS?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, What documents are required under DEFINITIONS AND ABBREVIATIONS?",
+      "answer_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles DEFINITIONS AND ABBREVIATIONS?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, Which authority handles DEFINITIONS AND ABBREVIATIONS?",
+      "answer_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with DEFINITIONS AND ABBREVIATIONS?",
+      "answer_en": "AI answers: DEKAI should evaluate section 5, apply the extracted rules, and guide the user through Review section 5 requirements.",
+      "question_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, User asks: How do I comply with DEFINITIONS AND ABBREVIATIONS?",
+      "answer_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, AI answers: DEKAI should evaluate section 5, apply the extracted rules, and guide the user through Review section 5 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to DEFINITIONS AND ABBREVIATIONS?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, User asks: Which validations apply to DEFINITIONS AND ABBREVIATIONS?",
+      "answer_thanglish": "Indha DEFINITIONS AND ABBREVIATIONS section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter , section 5, title, and page references as immutable knowledge metadata.",
+    "Bind validations for DEFINITIONS AND ABBREVIATIONS into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha DEFINITIONS AND ABBREVIATIONS section-la, Capture chapter , section 5, title, and page references as immutable knowledge metadata.",
+    "Indha DEFINITIONS AND ABBREVIATIONS section-la, Bind validations for DEFINITIONS AND ABBREVIATIONS into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "AND",
+    "DEFINITIONS",
+    "ABBREVIATIONS"
+  ],
+  "search_keywords": [
+    "AND",
+    "DEFINITIONS",
+    "ABBREVIATIONS"
+  ],
+  "intent": "Provide knowledge guidance for DEFINITIONS AND ABBREVIATIONS.",
+  "tags": [
+    "5",
+    "DEFINITIONS AND ABBREVIATIONS",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    5
+  ],
+  "pages": [
+    5
+  ],
+  "source_document": "TradeNetDeclaration.COODEC Ver2.1.pdf",
+  "raw_text": "5. DEFINITIONS AND ABBREVIATIONS",
+  "mermaid": "flowchart TD\n    S1[\"Review section 5 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 5 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

@@ -1,0 +1,137 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.10",
+  "title": "Net Foreign Exchange (NFE) Earnings",
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_10-R001",
+      "rule_description": "6.10 Net Foreign Exchange (NFE) Earnings\n(a) EOU / EHTP / STP / BTP unit shall be a positive net foreign\nexchange earner.",
+      "trigger": "Net Foreign Exchange (NFE) Earnings",
+      "condition": "Items of manufacture for export specified in\nLo P / Lo I alone shall be taken into account for calculation of NFE.",
+      "validation": "6.10 Net Foreign Exchange (NFE) Earnings\n(a) EOU / EHTP / STP / BTP unit shall be a positive net foreign\nexchange earner.",
+      "action": "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+      "exception": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "output": "DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings."
+    },
+    {
+      "rule_id": "CH6-SEC6_10-R002",
+      "rule_description": "NFE earnings shall be calculated cumulatively in\nthe block period as per Paragraph 6.04 of FTP, according to the\nformula given below.",
+      "trigger": "Net Foreign Exchange (NFE) Earnings",
+      "condition": "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+      "validation": "NFE earnings shall be calculated cumulatively in\nthe block period as per Paragraph 6.04 of FTP, according to the\nformula given below.",
+      "action": "It will also include payment made in Indian\nRupees on high sea sales; and\n“Inputs” mean raw materials, intermediates, components,\npg.",
+      "exception": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "output": "DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings."
+    },
+    {
+      "rule_id": "CH6-SEC6_10-R003",
+      "rule_description": "Items of manufacture for export specified in\nLo P / Lo I alone shall be taken into account for calculation of NFE.",
+      "trigger": "Net Foreign Exchange (NFE) Earnings",
+      "condition": "140\n.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |\nPerson(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or\n(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to\nthe follow | ing | conditions: | | | | | | | | | | |\n(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the\n| d | uration of s | uch authori | sation |.",
+      "validation": "Items of manufacture for export specified in\nLo P / Lo I alone shall be taken into account for calculation of NFE.",
+      "action": "It will also include payment made in Indian\nRupees on high sea sales; and\n“Inputs” mean raw materials, intermediates, components,\nconsumables, parts and packing materials.",
+      "exception": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "output": "DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings."
+    },
+    {
+      "rule_id": "CH6-SEC6_10-R004",
+      "rule_description": "140\n.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |\nPerson(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or\n(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to\nthe follow | ing | conditions: | | | | | | | | | | |\n(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the\n| d | uration of s | uch authori | sation |.",
+      "trigger": "Net Foreign Exchange (NFE) Earnings",
+      "condition": "| 0 | 8 of F | TP |; | | | | |\n| | “B” is sum t | otal of CIF v | alue | o | f all i | mp | orted | inputs | an | d CI | F v | alue of\n| | all imported | capital goo | ds, an | d | valu | e of | all pa | yments | m | ade | in | foreign\n| | exchange by | way of com | missi | o | n, ro | yal | ty, fee | s, divid | en | ds, i | nte | rest on\n| | external bor | rowings / h | igh s | e | a sale | s d | uring | first fiv | e | year | pe | riod or\n| | any other c | harges.",
+      "validation": "140\n.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |\nPerson(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or\n(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to\nthe follow | ing | conditions: | | | | | | | | | | |\n(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the\n| d | uration of s | uch authori | sation |.",
+      "action": "(b) If any goods are obtained from another EOU / EHTP / STP / BTP /\nSEZ unit, or procured from an international exhibition held in India,\nor bonded warehouses or precious metals procured from\nnominated agencies, value of such goods shall be included under\n“B”.",
+      "exception": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "output": "DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings."
+    },
+    {
+      "rule_id": "CH6-SEC6_10-R005",
+      "rule_description": "| | | | | | | |\n(ii) | T | he Unit sh | all be resp | onsib | l | e for | c | arryin | g out | th | e w | or | k and\n| s | upervision a | nd shall be l | iable | f | or an | y m | isuse |.",
+      "trigger": "Net Foreign Exchange (NFE) Earnings",
+      "condition": "(b) If any goods are obtained from another EOU / EHTP / STP / BTP /\nSEZ unit, or procured from an international exhibition held in India,\nor bonded warehouses or precious metals procured from\nnominated agencies, value of such goods shall be included under\n“B”.",
+      "validation": "| | | | | | | |\n(ii) | T | he Unit sh | all be resp | onsib | l | e for | c | arryin | g out | th | e w | or | k and\n| s | upervision a | nd shall be l | iable | f | or an | y m | isuse |.",
+      "action": "(d) For annual calculation of NFE, value of imported capital goods and\nlump sum payment of foreign technical know-how fee shall be\namortized as under: 1st– 10th year: 10%.",
+      "exception": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "output": "DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings."
+    },
+    {
+      "rule_id": "CH6-SEC6_10-R006",
+      "rule_description": "| | | | | | |\n.09 Leas | in | g of Capita | l Goods | | | | | | | | | |\nValue of im | po | rted capital | goods finan | ced t | h | rough | le | asing | compan | ie | s or | ob | tained\nfree of cos | t a | nd / or on l | oan / lease | basis |, | shall | als | o be | taken i | nto | acc | ou | nt for\npurpose o | f ca | lculation of | NFE as defi | ned in | | FTP.",
+      "trigger": "Net Foreign Exchange (NFE) Earnings",
+      "condition": "(c) If any capital goods are imported duty and/or tax free or leased\nfrom a leasing company, received free of cost and / or on loan basis\nor transfer, CIF value of capital goods shall be included pro- rata,\nunder “B” for period it remains with units.",
+      "validation": "| | | | | | |\n.09 Leas | in | g of Capita | l Goods | | | | | | | | | |\nValue of im | po | rted capital | goods finan | ced t | h | rough | le | asing | compan | ie | s or | ob | tained\nfree of cos | t a | nd / or on l | oan / lease | basis |, | shall | als | o be | taken i | nto | acc | ou | nt for\npurpose o | f ca | lculation of | NFE as defi | ned in | | FTP.",
+      "action": "(d) For annual calculation of NFE, value of imported capital goods and\nlump sum payment of foreign technical know-how fee shall be\namortized as under: 1st– 10th year: 10%.",
+      "exception": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "output": "DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings."
+    },
+    {
+      "rule_id": "CH6-SEC6_10-R007",
+      "rule_description": "It | ems o | f | man | ufa | cture | for exp | or | t sp | eci | fied in\n| | Lo P / Lo I al | one shall be | taken | | into | acc | ount f | or calcu | la | tion | of | NFE.",
+      "trigger": "Net Foreign Exchange (NFE) Earnings",
+      "condition": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "validation": "It | ems o | f | man | ufa | cture | for exp | or | t sp | eci | fied in\n| | Lo P / Lo I al | one shall be | taken | | into | acc | ount f | or calcu | la | tion | of | NFE.",
+      "action": "(d) For annual calculation of NFE, value of imported capital goods and\nlump sum payment of foreign technical know-how fee shall be\namortized as under: 1st– 10th year: 10%.",
+      "exception": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "output": "DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings."
+    },
+    {
+      "rule_id": "CH6-SEC6_10-R008",
+      "rule_description": "140\n6.10 Net Foreign Exchange (NFE) Earnings\n(a)\nEOU / EHTP / STP / BTP unit shall be a positive net foreign\nexchange earner.",
+      "trigger": "Net Foreign Exchange (NFE) Earnings",
+      "condition": "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit.",
+      "validation": "140\n6.10 Net Foreign Exchange (NFE) Earnings\n(a)\nEOU / EHTP / STP / BTP unit shall be a positive net foreign\nexchange earner.",
+      "action": "(d) For annual calculation of NFE, value of imported capital goods and\nlump sum payment of foreign technical know-how fee shall be\namortized as under: 1st– 10th year: 10%.",
+      "exception": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "output": "DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings."
+    },
+    {
+      "rule_id": "CH6-SEC6_10-R009",
+      "rule_description": "(b) If any goods are obtained from another EOU / EHTP / STP / BTP /\nSEZ unit, or procured from an international exhibition held in India,\nor bonded warehouses or precious metals procured from\nnominated agencies, value of such goods shall be included under\n“B”.",
+      "trigger": "Net Foreign Exchange (NFE) Earnings",
+      "condition": "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit.",
+      "validation": "(b) If any goods are obtained from another EOU / EHTP / STP / BTP /\nSEZ unit, or procured from an international exhibition held in India,\nor bonded warehouses or precious metals procured from\nnominated agencies, value of such goods shall be included under\n“B”.",
+      "action": "(d) For annual calculation of NFE, value of imported capital goods and\nlump sum payment of foreign technical know-how fee shall be\namortized as under: 1st– 10th year: 10%.",
+      "exception": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "output": "DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings."
+    },
+    {
+      "rule_id": "CH6-SEC6_10-R010",
+      "rule_description": "(c) If any capital goods are imported duty and/or tax free or leased\nfrom a leasing company, received free of cost and / or on loan basis\nor transfer, CIF value of capital goods shall be included pro- rata,\nunder “B” for period it remains with units.",
+      "trigger": "Net Foreign Exchange (NFE) Earnings",
+      "condition": "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit.",
+      "validation": "(c) If any capital goods are imported duty and/or tax free or leased\nfrom a leasing company, received free of cost and / or on loan basis\nor transfer, CIF value of capital goods shall be included pro- rata,\nunder “B” for period it remains with units.",
+      "action": "(d) For annual calculation of NFE, value of imported capital goods and\nlump sum payment of foreign technical know-how fee shall be\namortized as under: 1st– 10th year: 10%.",
+      "exception": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "output": "DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings."
+    },
+    {
+      "rule_id": "CH6-SEC6_10-R011",
+      "rule_description": "(d) For annual calculation of NFE, value of imported capital goods and\nlump sum payment of foreign technical know-how fee shall be\namortized as under: 1st– 10th year: 10%.",
+      "trigger": "Net Foreign Exchange (NFE) Earnings",
+      "condition": "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit.",
+      "validation": "(d) For annual calculation of NFE, value of imported capital goods and\nlump sum payment of foreign technical know-how fee shall be\namortized as under: 1st– 10th year: 10%.",
+      "action": "(d) For annual calculation of NFE, value of imported capital goods and\nlump sum payment of foreign technical know-how fee shall be\namortized as under: 1st– 10th year: 10%.",
+      "exception": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "output": "DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings."
+    },
+    {
+      "rule_id": "CH6-SEC6_10-R012",
+      "rule_description": "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit.",
+      "trigger": "Net Foreign Exchange (NFE) Earnings",
+      "condition": "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit.",
+      "validation": "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit.",
+      "action": "(d) For annual calculation of NFE, value of imported capital goods and\nlump sum payment of foreign technical know-how fee shall be\namortized as under: 1st– 10th year: 10%.",
+      "exception": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "output": "DEKAI should produce a compliance decision for 6.10 - Net Foreign Exchange (NFE) Earnings."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 6.10 Net Foreign Exchange (NFE) Earnings\n(a) EOU / EHTP / STP / BTP unit shall be a positive net foreign\nexchange earner.",
+    "IF detected context matches section rule THEN enforce: NFE earnings shall be calculated cumulatively in\nthe block period as per Paragraph 6.04 of FTP, according to the\nformula given below.",
+    "IF detected context matches section rule THEN enforce: Items of manufacture for export specified in\nLo P / Lo I alone shall be taken into account for calculation of NFE.",
+    "IF detected context matches section rule THEN enforce: 140\n.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |\nPerson(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or\n(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to\nthe follow | ing | conditions: | | | | | | | | | | |\n(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the\n| d | uration of s | uch authori | sation |.",
+    "IF detected context matches section rule THEN enforce: | | | | | | | |\n(ii) | T | he Unit sh | all be resp | onsib | l | e for | c | arryin | g out | th | e w | or | k and\n| s | upervision a | nd shall be l | iable | f | or an | y m | isuse |.",
+    "IF detected context matches section rule THEN enforce: | | | | | | |\n.09 Leas | in | g of Capita | l Goods | | | | | | | | | |\nValue of im | po | rted capital | goods finan | ced t | h | rough | le | asing | compan | ie | s or | ob | tained\nfree of cos | t a | nd / or on l | oan / lease | basis |, | shall | als | o be | taken i | nto | acc | ou | nt for\npurpose o | f ca | lculation of | NFE as defi | ned in | | FTP.",
+    "IF validations pass THEN recommend action: Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges."
+  ]
+}

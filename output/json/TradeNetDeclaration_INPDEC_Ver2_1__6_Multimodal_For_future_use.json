@@ -1,0 +1,303 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.INPDEC Ver2.1",
+  "section": "6",
+  "title": "Multimodal (For future use)",
+  "purpose": "6: Multimodal (For future use)",
+  "purpose_thanglish": "Indha Multimodal (For future use) section-la, 6: Multimodal (For future use)",
+  "summary": "6: Multimodal (For future use)",
+  "business_meaning": "6: Multimodal (For future use)",
+  "business_explanation": "6: Multimodal (For future use)",
+  "business_explanation_thanglish": "Indha Multimodal (For future use) section-la, 6: Multimodal (For future use)",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC6-R001",
+      "rule_description": "6: Multimodal (For future use)",
+      "trigger": "Multimodal (For future use)",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6 - Multimodal (For future use)."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "6::section::0::multimodal-for-future-use",
+      "type": "section",
+      "title": "Multimodal (For future use)",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6: Multimodal (For future use)",
+      "parentId": "",
+      "sectionId": "6",
+      "sectionTitle": "Multimodal (For future use)",
+      "documentName": "TradeNetDeclaration.INPDEC Ver2.1.pdf",
+      "pageNumber": 12,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Multimodal (For future use)",
+        "Multimodal For future use",
+        "MultimodalForfutureuse"
+      ],
+      "childIds": [
+        "6::business_rule::1::multimodal-for-future-use"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6::business_rule::1::multimodal-for-future-use",
+      "type": "business_rule",
+      "title": "Multimodal (For future use)",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6: Multimodal (For future use)",
+      "parentId": "6::section::0::multimodal-for-future-use",
+      "sectionId": "6",
+      "sectionTitle": "Multimodal (For future use)",
+      "documentName": "TradeNetDeclaration.INPDEC Ver2.1.pdf",
+      "pageNumber": 12,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Multimodal (For future use)",
+        "Multimodal For future use",
+        "MultimodalForfutureuse"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 6 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Multimodal (For future use)\nReview section 6 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 6 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Multimodal (For future use) Decision\nIF section 6 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Multimodal (For future use); the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Multimodal (For future use), submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the multimodal (for future use) process.",
+  "real_world_example_thanglish": "Indha Multimodal (For future use) section-la, Example: an importer or exporter invokes Multimodal (For future use), submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the multimodal (for future use) process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:For"
+    },
+    {
+      "name": "use_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:use"
+    },
+    {
+      "name": "future_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:future"
+    },
+    {
+      "name": "multimodal_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Multimodal"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6",
+      "purpose": "Retrieve knowledge payload for section 6",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Multimodal-For-future-use/validate",
+      "purpose": "Validate inputs and documents for Multimodal (For future use)",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Multimodal_For_future_use_overview",
+      "name": "Multimodal (For future use) Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Multimodal_For_future_use_submission",
+      "name": "Multimodal (For future use) Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "use_flag",
+        "future_flag",
+        "multimodal_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Multimodal (For future use) require?",
+    "Which documents are needed for Multimodal (For future use)?",
+    "How does DEKAI validate Multimodal (For future use) requests?"
+  ],
+  "expected_ai_answers": [
+    "Multimodal (For future use) requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Multimodal (For future use) by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 6?",
+      "answer_en": "6: Multimodal (For future use)",
+      "question_thanglish": "Indha Multimodal (For future use) section-la, What is the purpose of section 6?",
+      "answer_thanglish": "Indha Multimodal (For future use) section-la, 6: Multimodal (For future use)"
+    },
+    {
+      "question_en": "What documents are required under Multimodal (For future use)?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Multimodal (For future use) section-la, What documents are required under Multimodal (For future use)?",
+      "answer_thanglish": "Indha Multimodal (For future use) section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Multimodal (For future use)?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Multimodal (For future use) section-la, Which authority handles Multimodal (For future use)?",
+      "answer_thanglish": "Indha Multimodal (For future use) section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Multimodal (For future use)?",
+      "answer_en": "AI answers: DEKAI should evaluate section 6, apply the extracted rules, and guide the user through Review section 6 requirements.",
+      "question_thanglish": "Indha Multimodal (For future use) section-la, User asks: How do I comply with Multimodal (For future use)?",
+      "answer_thanglish": "Indha Multimodal (For future use) section-la, AI answers: DEKAI should evaluate section 6, apply the extracted rules, and guide the user through Review section 6 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Multimodal (For future use)?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Multimodal (For future use) section-la, User asks: Which validations apply to Multimodal (For future use)?",
+      "answer_thanglish": "Indha Multimodal (For future use) section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter , section 6, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Multimodal (For future use) into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Multimodal (For future use) section-la, Capture chapter , section 6, title, and page references as immutable knowledge metadata.",
+    "Indha Multimodal (For future use) section-la, Bind validations for Multimodal (For future use) into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "For",
+    "use",
+    "future",
+    "Multimodal"
+  ],
+  "search_keywords": [
+    "For",
+    "use",
+    "future",
+    "Multimodal"
+  ],
+  "intent": "Provide knowledge guidance for Multimodal (For future use).",
+  "tags": [
+    "6",
+    "Multimodal (For future use)",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    12,
+    13
+  ],
+  "pages": [
+    12,
+    13
+  ],
+  "source_document": "TradeNetDeclaration.INPDEC Ver2.1.pdf",
+  "raw_text": "6: Multimodal (For future use)",
+  "mermaid": "flowchart TD\n    S1[\"Review section 6 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 6 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

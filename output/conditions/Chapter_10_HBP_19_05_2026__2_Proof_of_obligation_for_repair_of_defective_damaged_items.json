@@ -1,0 +1,161 @@
+{
+  "section": "2",
+  "conditions": [
+    "184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb.",
+    "| The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d.",
+    "Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.",
+    "| Note: | Same | entity wo | uld imply t | hat (a) foreign\n| buyer (b) consigne | e or | intermedi | ari | es, if | any (c | ) the end | user are ex | actly the same\n| for which authoris | ation | has been | iss | ued | to the | applicant | exporter.",
+    "| There has been n | o ch | ange to t | he | orig | inal ch | aracteris | tics/specifi | cations of the\n| SCOMET item(s) af | ter r | epair and | no | valu | e addit | ion has be | en done du | ring the repair\n| work; | | | | | | | |\nh.",
+    "| No Export Authori | sati | on would b | e | gran | ted wh | en the in | itial expor | t authorisation\n| has been suspende | d, m | odified or | re | voke | d by co | untry of i | mport; |\ni.",
+    "| No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk.",
+    "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+    "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+    "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+    "Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b.",
+    "184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb.",
+    "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+    "Subsequent export/re-export is\nsubject to post reporting;\nd.",
+    "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+    "Note: Same entity would imply that (a) foreign\nbuyer (b) consignee or intermediaries, if any (c) the end user are exactly the same\nfor which authorisation has been issued to the applicant exporter.",
+    "There has been no change to the original characteristics/specifications of the\nSCOMET item(s) after repair and no value addition has been done during the repair\nwork;\nh.",
+    "No Export Authorisation would be granted when the initial export authorisation\nhas been suspended, modified or revoked by country of import;\ni.",
+    "No details of ‘End Use’ and ‘End Use Certificate’ would be required;\nk.",
+    "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+    "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+    "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.2.1",
+      "if": "184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "184\n| different from exp | orte | r) and enti | ty | abr | oad def | ining ‘Sta | tement of | Work (SOW)’/\n| ‘Scope of Work’ inc | ludi | ng conditi | on | s for | undert | aking rep | air in India |;\nb."
+    },
+    {
+      "id": "10.2.2",
+      "if": "| The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| The exporter is re | quir | ed to regis | te | r and | obtai | n General | authoriza | tion for export\n| after repair only o | nce | during the | va | lidit | y perio | d."
+    },
+    {
+      "id": "10.2.3",
+      "if": "Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "Subse | quent expo | rt/re-export is\n| subject to post rep | ortin | g; | | | | | |\nd."
+    },
+    {
+      "id": "10.2.4",
+      "if": "| Note: | Same | entity wo | uld imply t | hat (a) foreign\n| buyer (b) consigne | e or | intermedi | ari | es, if | any (c | ) the end | user are ex | actly the same\n| for which authoris | ation | has been | iss | ued | to the | applicant | exporter.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| Note: | Same | entity wo | uld imply t | hat (a) foreign\n| buyer (b) consigne | e or | intermedi | ari | es, if | any (c | ) the end | user are ex | actly the same\n| for which authoris | ation | has been | iss | ued | to the | applicant | exporter."
+    },
+    {
+      "id": "10.2.5",
+      "if": "| There has been n | o ch | ange to t | he | orig | inal ch | aracteris | tics/specifi | cations of the\n| SCOMET item(s) af | ter r | epair and | no | valu | e addit | ion has be | en done du | ring the repair\n| work; | | | | | | | |\nh.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| There has been n | o ch | ange to t | he | orig | inal ch | aracteris | tics/specifi | cations of the\n| SCOMET item(s) af | ter r | epair and | no | valu | e addit | ion has be | en done du | ring the repair\n| work; | | | | | | | |\nh."
+    },
+    {
+      "id": "10.2.6",
+      "if": "| No Export Authori | sati | on would b | e | gran | ted wh | en the in | itial expor | t authorisation\n| has been suspende | d, m | odified or | re | voke | d by co | untry of i | mport; |\ni.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| No Export Authori | sati | on would b | e | gran | ted wh | en the in | itial expor | t authorisation\n| has been suspende | d, m | odified or | re | voke | d by co | untry of i | mport; |\ni."
+    },
+    {
+      "id": "10.2.7",
+      "if": "| No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| No details of ‘End U | se’ | and ‘End U | se | Cert | ificate’ | would be | required; |\nk."
+    },
+    {
+      "id": "10.2.8",
+      "if": "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| GAER issued for s | peci | fic item an | d | spec | ific en | tity (buye | r/end use | r) shall not be\n| applicable in case | the | re-export | is | of a | differe | nt impor | ted item or | to a different\n| entity or Authorise | d O | EM."
+    },
+    {
+      "id": "10.2.9",
+      "if": "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers].",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| Certified / appr | oved | Internal | | Com | pliance | Progra | mme or | demonstrating\n| compliance to the | ICP | of the fore | ig | n co | mpany | or ICP ce | rtified by t | he compliance\n| manager of that co | mpa | ny shall be | m | and | atory[o | nly for in | tra-compa | ny transfers]."
+    },
+    {
+      "id": "10.2.10",
+      "if": "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "| Authorized Econom | ic O | perator (A | E | O) Ce | rtificat | ion along | with ICP co | mpliance shall\n| be mandatory."
+    },
+    {
+      "id": "10.2.11",
+      "if": "Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "Export Autho | risa | tion (if app | lic | able) | issued | by the f | oreign cou | ntry for\n| original import | of t | he items to | In | dia; | | | |\n| b."
+    },
+    {
+      "id": "10.2.12",
+      "if": "184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "184\ndifferent from exporter) and entity abroad defining ‘Statement of Work (SOW)’/\n‘Scope of Work’ including conditions for undertaking repair in India;\nb."
+    },
+    {
+      "id": "10.2.13",
+      "if": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "The exporter is required to register and obtain General authorization for export\nafter repair only once during the validity period."
+    },
+    {
+      "id": "10.2.14",
+      "if": "Subsequent export/re-export is\nsubject to post reporting;\nd.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "Subsequent export/re-export is\nsubject to post reporting;\nd."
+    },
+    {
+      "id": "10.2.15",
+      "if": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "General authorization for export after repair shall be valid for a period of one year\nfrom the date of issue of General authorization subject to subsequent post\nreporting(s) within 30 days from the date of such export;\nf."
+    },
+    {
+      "id": "10.2.16",
+      "if": "Note: Same entity would imply that (a) foreign\nbuyer (b) consignee or intermediaries, if any (c) the end user are exactly the same\nfor which authorisation has been issued to the applicant exporter.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "Note: Same entity would imply that (a) foreign\nbuyer (b) consignee or intermediaries, if any (c) the end user are exactly the same\nfor which authorisation has been issued to the applicant exporter."
+    },
+    {
+      "id": "10.2.17",
+      "if": "There has been no change to the original characteristics/specifications of the\nSCOMET item(s) after repair and no value addition has been done during the repair\nwork;\nh.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "There has been no change to the original characteristics/specifications of the\nSCOMET item(s) after repair and no value addition has been done during the repair\nwork;\nh."
+    },
+    {
+      "id": "10.2.18",
+      "if": "No Export Authorisation would be granted when the initial export authorisation\nhas been suspended, modified or revoked by country of import;\ni.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "No Export Authorisation would be granted when the initial export authorisation\nhas been suspended, modified or revoked by country of import;\ni."
+    },
+    {
+      "id": "10.2.19",
+      "if": "No details of ‘End Use’ and ‘End Use Certificate’ would be required;\nk.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "No details of ‘End Use’ and ‘End Use Certificate’ would be required;\nk."
+    },
+    {
+      "id": "10.2.20",
+      "if": "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "GAER issued for specific item and specific entity (buyer/end user) shall not be\napplicable in case the re-export is of a different imported item or to a different\nentity or Authorised OEM."
+    },
+    {
+      "id": "10.2.21",
+      "if": "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers].",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "Certified / approved Internal Compliance Programme or demonstrating\ncompliance to the ICP of the foreign company or ICP certified by the compliance\nmanager of that company shall be mandatory[only for intra-company transfers]."
+    },
+    {
+      "id": "10.2.22",
+      "if": "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory.",
+      "then": "| The exporter is re | quir | ed to pro | vi | de B | ill of E | ntry for | the import | ed item while\n| applying for GAER | for t | he first shi | p | ment |.",
+      "source": "Authorized Economic Operator (AEO) Certification along with ICP compliance shall\nbe mandatory."
+    }
+  ]
+}

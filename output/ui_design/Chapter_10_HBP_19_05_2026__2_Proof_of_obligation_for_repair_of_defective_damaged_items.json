@@ -1,0 +1,47 @@
+{
+  "section": "2",
+  "ui": [
+    {
+      "screen_id": "Proof_of_obligation_for_repair_of_defective_damaged_items_overview",
+      "name": "Proof of obligation for repair of defective/damaged items: Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Proof_of_obligation_for_repair_of_defective_damaged_items_submission",
+      "name": "Proof of obligation for repair of defective/damaged items: Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "exp_flag",
+        "and_flag",
+        "abr_flag",
+        "oad_flag",
+        "def_flag"
+      ]
+    },
+    {
+      "screen_id": "Proof_of_obligation_for_repair_of_defective_damaged_items_exceptions",
+      "name": "Proof of obligation for repair of defective/damaged items: Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

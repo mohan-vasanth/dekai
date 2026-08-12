@@ -1,0 +1,47 @@
+{
+  "section": "4.08",
+  "ui": [
+    {
+      "screen_id": "Cases_involving_Acetic_Anhydride_Ephedrine_and_Pseudo_ephedrine_overview",
+      "name": "Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Cases_involving_Acetic_Anhydride_Ephedrine_and_Pseudo_ephedrine_submission",
+      "name": "Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "for_flag",
+        "new_flag",
+        "his_flag",
+        "uth_flag",
+        "ori_flag"
+      ]
+    },
+    {
+      "screen_id": "Cases_involving_Acetic_Anhydride_Ephedrine_and_Pseudo_ephedrine_exceptions",
+      "name": "Cases involving Acetic Anhydride, Ephedrine and Pseudo- ephedrine Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "section": "4.97",
+  "conditions": [
+    "No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.",
+    "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+    "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+    "| O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion.",
+    "Sh | ippi | ng Bil | ls with rel | evant Scheme\n| C | ode as per C | us | toms | Notification | need t | o be | endo | rsed with | the Diamond\n| I | mprest Autho | riz | ation | Number, to es | tablish | co-r | elatio | n of export | s with the DIA\n| is | sued.",
+    "| | No ARO/Inva | lid | ation l | etter/Certifi | cate of s | upp | ly (Co | S) is allowe | d against DIA.",
+    "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.97.1",
+      "if": "No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA."
+    },
+    {
+      "id": "4.4.97.2",
+      "if": "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority."
+    },
+    {
+      "id": "4.4.97.3",
+      "if": "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A."
+    },
+    {
+      "id": "4.4.97.4",
+      "if": "| O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "| O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion."
+    },
+    {
+      "id": "4.4.97.5",
+      "if": "Sh | ippi | ng Bil | ls with rel | evant Scheme\n| C | ode as per C | us | toms | Notification | need t | o be | endo | rsed with | the Diamond\n| I | mprest Autho | riz | ation | Number, to es | tablish | co-r | elatio | n of export | s with the DIA\n| is | sued.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "Sh | ippi | ng Bil | ls with rel | evant Scheme\n| C | ode as per C | us | toms | Notification | need t | o be | endo | rsed with | the Diamond\n| I | mprest Autho | riz | ation | Number, to es | tablish | co-r | elatio | n of export | s with the DIA\n| is | sued."
+    },
+    {
+      "id": "4.4.97.6",
+      "if": "| | No ARO/Inva | lid | ation l | etter/Certifi | cate of s | upp | ly (Co | S) is allowe | d against DIA.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "| | No ARO/Inva | lid | ation l | etter/Certifi | cate of s | upp | ly (Co | S) is allowe | d against DIA."
+    },
+    {
+      "id": "4.4.97.7",
+      "if": "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue."
+    }
+  ]
+}

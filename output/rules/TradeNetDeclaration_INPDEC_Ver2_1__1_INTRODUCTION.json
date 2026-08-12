@@ -1,0 +1,21 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.INPDEC Ver2.1",
+  "section": "1",
+  "title": "INTRODUCTION",
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC1-R001",
+      "rule_description": "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+      "trigger": "INTRODUCTION",
+      "condition": "INTRODUCTION\nThis specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language\n(XML) between trading partners involved in Administration, commerce and transport.",
+      "validation": "This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1 - INTRODUCTION."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives\nfrom the Singapore Customs (SC)and Crimson Logic Pte Ltd."
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "section": "4.22",
+  "conditions": [
+    "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.",
+    "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+    "As a re | sult of the v | erific | ation process,\nin case, it is found t | hat the auth | orisation | holder ha | s consumed | lesse | r quantity of\ninputs than importe | d, authorisat | ion holde | r shall be | liable to pa | y cus | toms duty on\nunutilized imported | material, alon | g with int | erest ther | eon as notifi | ed by | Do R, or effect\nadditional export w | ithin the EO | period to | account | for the exp | ort of | the material\nremaining unutilized |.",
+    "This rec | ord i | n Appendix 4-\nI format, duly verifie | d and certifie | d by the ju | risdiction | al Customs | Autho | rity, or by the\nChartered Engineer | (Chemical) | along wi | th cross | attestation | by t | he Chartered\nAccountant who shal | l both indepe | ndently v | erify the i | nputs consu | med i | n the process,\nshall be submitted | to the con | cerned R | egional A | uthority at | the | time of filing\napplication for rede | mption / bo | nd waive | r.",
+    "Regiona | l Authority | shall | compare the\ndetails of Appendix | 4-I, with that | of the in | puts allow | ed in the au | thori | sation, before\nallowing redemption | or bond wai | ver again | st individ | ual authoris | ation.",
+    "| Such records\nshall be preserved | for a period | of at lea | st three y | ears from t | he d | ate of Export\nObligation Discharge | Certificate.",
+    "| | | | |\n(ii) In cases | where SION | specifica | lly allows | fuel, same | shall | be permitted\nunder | Advance Au | thorisatio | n.",
+    "Howe | ver, if fue | l is | not covered\nspecific | ally under SI | ON, it may | be allowe | d as per gen | eral f | uel Policy for\nproduct | s covered un | der SION | or under p | aragraph 4.",
+    "(iii) Applica | tions for fix | ation of | fuel entit | lement for | new | sectors and\nmodific | ation of the e | xisting en | titlement | as per Gene | ral No | te for Fuel in\nHandbo | ok of Proced | ures shall | be filed o | nline to the | Norm | s Committee\npg.",
+    "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+    "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+    "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+    "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.22.1",
+      "if": "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "(b) Import of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i) Facility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant."
+    },
+    {
+      "id": "4.4.22.2",
+      "if": "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "(ii) In cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation."
+    },
+    {
+      "id": "4.4.22.3",
+      "if": "However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "However, if fuel is not covered\nspecifically under SION, it may be allowed as per general fuel Policy for\nproducts covered under SION or under paragraph 4.07 above."
+    },
+    {
+      "id": "4.4.22.4",
+      "if": "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "(iii) Applications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\npg."
+    },
+    {
+      "id": "4.4.22.5",
+      "if": "As a re | sult of the v | erific | ation process,\nin case, it is found t | hat the auth | orisation | holder ha | s consumed | lesse | r quantity of\ninputs than importe | d, authorisat | ion holde | r shall be | liable to pa | y cus | toms duty on\nunutilized imported | material, alon | g with int | erest ther | eon as notifi | ed by | Do R, or effect\nadditional export w | ithin the EO | period to | account | for the exp | ort of | the material\nremaining unutilized |.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "As a re | sult of the v | erific | ation process,\nin case, it is found t | hat the auth | orisation | holder ha | s consumed | lesse | r quantity of\ninputs than importe | d, authorisat | ion holde | r shall be | liable to pa | y cus | toms duty on\nunutilized imported | material, alon | g with int | erest ther | eon as notifi | ed by | Do R, or effect\nadditional export w | ithin the EO | period to | account | for the exp | ort of | the material\nremaining unutilized |."
+    },
+    {
+      "id": "4.4.22.6",
+      "if": "This rec | ord i | n Appendix 4-\nI format, duly verifie | d and certifie | d by the ju | risdiction | al Customs | Autho | rity, or by the\nChartered Engineer | (Chemical) | along wi | th cross | attestation | by t | he Chartered\nAccountant who shal | l both indepe | ndently v | erify the i | nputs consu | med i | n the process,\nshall be submitted | to the con | cerned R | egional A | uthority at | the | time of filing\napplication for rede | mption / bo | nd waive | r.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "This rec | ord i | n Appendix 4-\nI format, duly verifie | d and certifie | d by the ju | risdiction | al Customs | Autho | rity, or by the\nChartered Engineer | (Chemical) | along wi | th cross | attestation | by t | he Chartered\nAccountant who shal | l both indepe | ndently v | erify the i | nputs consu | med i | n the process,\nshall be submitted | to the con | cerned R | egional A | uthority at | the | time of filing\napplication for rede | mption / bo | nd waive | r."
+    },
+    {
+      "id": "4.4.22.7",
+      "if": "Regiona | l Authority | shall | compare the\ndetails of Appendix | 4-I, with that | of the in | puts allow | ed in the au | thori | sation, before\nallowing redemption | or bond wai | ver again | st individ | ual authoris | ation.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "Regiona | l Authority | shall | compare the\ndetails of Appendix | 4-I, with that | of the in | puts allow | ed in the au | thori | sation, before\nallowing redemption | or bond wai | ver again | st individ | ual authoris | ation."
+    },
+    {
+      "id": "4.4.22.8",
+      "if": "| Such records\nshall be preserved | for a period | of at lea | st three y | ears from t | he d | ate of Export\nObligation Discharge | Certificate.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "| Such records\nshall be preserved | for a period | of at lea | st three y | ears from t | he d | ate of Export\nObligation Discharge | Certificate."
+    },
+    {
+      "id": "4.4.22.9",
+      "if": "| | | | |\n(ii) In cases | where SION | specifica | lly allows | fuel, same | shall | be permitted\nunder | Advance Au | thorisatio | n.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "| | | | |\n(ii) In cases | where SION | specifica | lly allows | fuel, same | shall | be permitted\nunder | Advance Au | thorisatio | n."
+    },
+    {
+      "id": "4.4.22.10",
+      "if": "Howe | ver, if fue | l is | not covered\nspecific | ally under SI | ON, it may | be allowe | d as per gen | eral f | uel Policy for\nproduct | s covered un | der SION | or under p | aragraph 4.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "Howe | ver, if fue | l is | not covered\nspecific | ally under SI | ON, it may | be allowe | d as per gen | eral f | uel Policy for\nproduct | s covered un | der SION | or under p | aragraph 4."
+    },
+    {
+      "id": "4.4.22.11",
+      "if": "(iii) Applica | tions for fix | ation of | fuel entit | lement for | new | sectors and\nmodific | ation of the e | xisting en | titlement | as per Gene | ral No | te for Fuel in\nHandbo | ok of Proced | ures shall | be filed o | nline to the | Norm | s Committee\npg.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "(iii) Applica | tions for fix | ation of | fuel entit | lement for | new | sectors and\nmodific | ation of the e | xisting en | titlement | as per Gene | ral No | te for Fuel in\nHandbo | ok of Proced | ures shall | be filed o | nline to the | Norm | s Committee\npg."
+    },
+    {
+      "id": "4.4.22.12",
+      "if": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "As a result of the verification process,\nin case, it is found that the authorisation holder has consumed lesser quantity of\ninputs than imported, authorisation holder shall be liable to pay customs duty on\nunutilized imported material, along with interest thereon as notified by Do R, or effect\nadditional export within the EO period to account for the export of the material\nremaining unutilized."
+    },
+    {
+      "id": "4.4.22.13",
+      "if": "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "(b)\nImport of fuel may also be allowed with actual user condition under SION by\nNorms Committee subject to following:\n(i)\nFacility of import of fuel shall be allowed only to manufacturer having\ncaptive powerplant."
+    },
+    {
+      "id": "4.4.22.14",
+      "if": "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "(ii)\nIn cases where SION specifically allows fuel, same shall be permitted\nunder Advance Authorisation."
+    },
+    {
+      "id": "4.4.22.15",
+      "if": "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B.",
+      "then": "However, f | or the Cus | toms duty | componen | t, the | authorisation\nholder has also the o | ption to furni | sh valid d | uty credit | scrip issued | unde | r Chapter 3 of\nFTP (2015-20).",
+      "source": "(iii)\nApplications for fixation of fuel entitlement for new sectors and\nmodification of the existing entitlement as per General Note for Fuel in\nHandbook of Procedures shall be filed online to the Norms Committee\nalong-with requisite data in ANF 4B."
+    }
+  ]
+}

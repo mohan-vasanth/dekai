@@ -1,0 +1,504 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.COODEC Ver2.1",
+  "section": "3.1",
+  "title": "Principles",
+  "purpose": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.",
+  "purpose_thanglish": "Indha Principles section-la, 3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.",
+  "summary": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration. Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item.",
+  "business_meaning": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.",
+  "business_explanation": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration. Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item.",
+  "business_explanation_thanglish": "Indha Principles section-la, 3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration. Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC3_1-R001",
+      "rule_description": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration. Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item.",
+      "trigger": "Principles",
+      "condition": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.",
+      "validation": "Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3.1 - Principles."
+    }
+  ],
+  "conditions": [
+    "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.",
+    "tariff number, declared use etc).",
+    "The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item.",
+    "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration."
+  ],
+  "condition_logic": [
+    {
+      "id": ".3.1.1",
+      "if": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.",
+      "then": "Route for review",
+      "source": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration."
+    },
+    {
+      "id": ".3.1.2",
+      "if": "tariff number, declared use etc).",
+      "then": "Route for review",
+      "source": "tariff number, declared use etc)."
+    },
+    {
+      "id": ".3.1.3",
+      "if": "The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item.",
+      "then": "Route for review",
+      "source": "The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item."
+    },
+    {
+      "id": ".3.1.4",
+      "if": "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "Route for review",
+      "source": "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".3.1.5",
+      "if": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.",
+      "then": "Route for review",
+      "source": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration."
+    }
+  ],
+  "validations": [
+    "Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation."
+  ],
+  "exceptions": [],
+  "dependencies": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "8"
+  ],
+  "documents": [
+    "Certificate of Origin and/or IESGP Outward Declaration",
+    "Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.",
+    "The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item.",
+    "A trade item consists of the grouping of those documents lines\nhaving the same customs characteristics (eg.",
+    "Trade Net Declaration"
+  ],
+  "required_documents": [
+    "Certificate of Origin and/or IESGP Outward Declaration",
+    "Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.",
+    "The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item.",
+    "A trade item consists of the grouping of those documents lines\nhaving the same customs characteristics (eg.",
+    "Trade Net Declaration"
+  ],
+  "tables": [
+    [
+      [
+        "Prepared by:\nCrimsonLogic Pte Ltd",
+        "For:\nSingapore Customs (SC)",
+        "Release Date\n18/11/2021",
+        "Ver\n4.1",
+        "Reference\nTRADENET",
+        "Document Id.\nTDS41-MDS-XML-COODEC-M"
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "3.1::section::0::principles",
+      "type": "section",
+      "title": "Principles",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration. Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item. A trade item consists of the grouping of those documents lines\nhaving the same customs characteristics (eg. tariff number, declared use etc). The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item.\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration. Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item. A trade item consists of the grouping of those documents lines\nhaving the same customs characteristics (eg. tariff number, declared use etc). The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item.\nOFFICIAL (CLOSED)",
+      "parentId": "",
+      "sectionId": "3.1",
+      "sectionTitle": "Principles",
+      "documentName": "TradeNetDeclaration.COODEC Ver2.1.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 34,
+      "searchAliases": [
+        "Principles"
+      ],
+      "childIds": [
+        "3.1::validation::1::validation-rules",
+        "3.1::business_rule::2::principles"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 34
+    },
+    {
+      "id": "3.1::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.",
+      "parentId": "3.1::section::0::principles",
+      "sectionId": "3.1",
+      "sectionTitle": "Principles",
+      "documentName": "TradeNetDeclaration.COODEC Ver2.1.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "3.1::business_rule::2::principles",
+      "type": "business_rule",
+      "title": "Principles",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration. Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item.",
+      "parentId": "3.1::section::0::principles",
+      "sectionId": "3.1",
+      "sectionTitle": "Principles",
+      "documentName": "TradeNetDeclaration.COODEC Ver2.1.pdf",
+      "pageNumber": 3,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Principles"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [
+    "Issuing Authorities",
+    "customs"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: 3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.",
+    "Evaluate condition: tariff number, declared use etc).",
+    "Evaluate condition: The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item.",
+    "Run validation: Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation."
+  ],
+  "workflow_ascii": "Principles\nEvaluate condition: 3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.\n   |\n   v\nEvaluate condition: tariff number, declared use etc).\n   |\n   v\nEvaluate condition: The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item.\n   |\n   v\nRun validation: Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.",
+  "decision_tree": [
+    "IF section 3.1 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Principles Decision\nIF section 3.1 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Principles; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Principles, submits Certificate of Origin and/or IESGP Outward Declaration, Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item., and DEKAI uses the extracted rules to follow the principles process.",
+  "real_world_example_thanglish": "Indha Principles section-la, Example: an importer or exporter invokes Principles, submits Certificate of Origin and/or IESGP Outward Declaration, Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item., and DEKAI uses the extracted rules to follow the principles process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "has_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:has"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "one_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:one"
+    },
+    {
+      "name": "use_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:use"
+    },
+    {
+      "name": "etc_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:etc"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Certificate of Origin and/or IESGP Outward Declaration"
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item."
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "A trade item consists of the grouping of those documents lines\nhaving the same customs characteristics (eg."
+    },
+    {
+      "name": "document_5_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Trade Net Declaration"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/3.1",
+      "purpose": "Retrieve knowledge payload for section 3.1",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Principles/validate",
+      "purpose": "Validate inputs and documents for Principles",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Principles_overview",
+      "name": "Principles Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Principles_submission",
+      "name": "Principles Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "and_flag",
+        "for_flag",
+        "has_flag",
+        "may_flag",
+        "one_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Principles require?",
+    "Which documents are needed for Principles?",
+    "How does DEKAI validate Principles requests?"
+  ],
+  "expected_ai_answers": [
+    "Principles requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: Certificate of Origin and/or IESGP Outward Declaration, Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item., A trade item consists of the grouping of those documents lines\nhaving the same customs characteristics (eg., Trade Net Declaration",
+    "DEKAI validates Principles by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 3.1?",
+      "answer_en": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration. Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item.",
+      "question_thanglish": "Indha Principles section-la, What is the purpose of section 3.1?",
+      "answer_thanglish": "Indha Principles section-la, 3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration. Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item."
+    },
+    {
+      "question_en": "What documents are required under Principles?",
+      "answer_en": "Certificate of Origin and/or IESGP Outward Declaration, Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item., A trade item consists of the grouping of those documents lines\nhaving the same customs characteristics (eg., Trade Net Declaration",
+      "question_thanglish": "Indha Principles section-la, What documents are required under Principles?",
+      "answer_thanglish": "Indha Principles section-la, Certificate of Origin and/or IESGP Outward Declaration, Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item., A trade item consists of the grouping of those documents lines\nhaving the same customs characteristics (eg., Trade Net Declaration"
+    },
+    {
+      "question_en": "Which authority handles Principles?",
+      "answer_en": "Issuing Authorities, customs",
+      "question_thanglish": "Indha Principles section-la, Which authority handles Principles?",
+      "answer_thanglish": "Indha Principles section-la, Issuing Authorities, customs"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Principles?",
+      "answer_en": "AI answers: DEKAI should evaluate section 3.1, apply the extracted rules, and guide the user through Evaluate condition: 3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration..",
+      "question_thanglish": "Indha Principles section-la, User asks: How do I comply with Principles?",
+      "answer_thanglish": "Indha Principles section-la, AI answers: DEKAI should evaluate section 3.1, apply the extracted rules, and guide the user through Evaluate condition: 3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Principles?",
+      "answer_en": "AI answers: Applicable validations are Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.",
+      "question_thanglish": "Indha Principles section-la, User asks: Which validations apply to Principles?",
+      "answer_thanglish": "Indha Principles section-la, AI answers: Applicable validations are Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter , section 3.1, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Principles into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: Certificate of Origin and/or IESGP Outward Declaration, Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item., A trade item consists of the grouping of those documents lines\nhaving the same customs characteristics (eg., Trade Net Declaration.",
+    "Route escalations or approvals to: Issuing Authorities, customs.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 8."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Principles section-la, Capture chapter , section 3.1, title, and page references as immutable knowledge metadata.",
+    "Indha Principles section-la, Bind validations for Principles into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Principles section-la, Expose document upload controls for: Certificate of Origin and/or IESGP Outward Declaration, Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation., The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item., A trade item consists of the grouping of those documents lines\nhaving the same customs characteristics (eg., Trade Net Declaration.",
+    "Indha Principles section-la, Route escalations or approvals to: Issuing Authorities, customs.",
+    "Indha Principles section-la, Show contextual links to related sections: 1, 2, 3, 4, 8."
+  ],
+  "keywords": [
+    "the",
+    "and",
+    "for",
+    "has",
+    "may",
+    "one",
+    "use",
+    "etc",
+    "Net",
+    "doc",
+    "XML",
+    "Ver",
+    "This",
+    "also",
+    "been",
+    "made",
+    "lieu",
+    "more",
+    "same",
+    "into"
+  ],
+  "search_keywords": [
+    "the",
+    "and",
+    "for",
+    "has",
+    "may",
+    "one",
+    "use",
+    "etc",
+    "Net",
+    "doc",
+    "XML",
+    "Ver",
+    "This",
+    "also",
+    "been",
+    "made",
+    "lieu",
+    "more",
+    "same",
+    "into"
+  ],
+  "intent": "Provide knowledge guidance for Principles.",
+  "tags": [
+    "3.1",
+    "Principles",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "8"
+  ],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    3,
+    4
+  ],
+  "pages": [
+    3,
+    4
+  ],
+  "source_document": "TradeNetDeclaration.COODEC Ver2.1.pdf",
+  "raw_text": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration. Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item. A trade item consists of the grouping of those documents lines\nhaving the same customs characteristics (eg. tariff number, declared use etc). The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item.\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration. Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.\nThe design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item. A trade item consists of the grouping of those documents lines\nhaving the same customs characteristics (eg. tariff number, declared use etc). The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item.\nOFFICIAL (CLOSED)",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.\"]\n    S2[\"Evaluate condition: tariff number, declared use etc).\"]\n    S1 --> S2\n    S3[\"Evaluate condition: The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item.\"]\n    S2 --> S3\n    S4[\"Run validation: Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.\"]\n    S3 --> S4",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.;\n:Evaluate condition\\: tariff number, declared use etc).;\n:Evaluate condition\\: The message correspondingly permits the use of\nsingle or multi-packaging concepts and their identification to a trade item.;\n:Run validation\\: Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.;\nstop\n@enduml"
+}

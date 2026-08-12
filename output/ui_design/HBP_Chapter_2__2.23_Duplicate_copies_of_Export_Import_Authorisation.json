@@ -1,0 +1,47 @@
+{
+  "section": "2.23",
+  "ui": [
+    {
+      "screen_id": "Duplicate_copies_of_Export_Import_Authorisation_overview",
+      "name": "Duplicate copies of Export / Import Authorisation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Duplicate_copies_of_Export_Import_Authorisation_submission",
+      "name": "Duplicate copies of Export / Import Authorisation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "may_flag",
+        "any_flag",
+        "not_flag",
+        "the_flag",
+        "err_flag"
+      ]
+    },
+    {
+      "screen_id": "Duplicate_copies_of_Export_Import_Authorisation_exceptions",
+      "name": "Duplicate copies of Export / Import Authorisation Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

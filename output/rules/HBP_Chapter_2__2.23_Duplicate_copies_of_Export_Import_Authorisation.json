@@ -1,0 +1,117 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.23",
+  "title": "Duplicate copies of Export / Import Authorisation",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_23-R001",
+      "rule_description": "In such a ca | se, RA shall | allow re | validatio | n | f | or a | period o | f 6 | m | onths (validity of 5\nmonths is subsum | ed) from th | e date o | f endorse | m | | ent.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "validation": "18\n(i) If Authoris | ation/Scrip | or any | amendme | n | t | th | ereof coul | d | not | be transmitted to\nCustoms S | erver within | fifteen | working d | a | y | s fr | om the da | te | of | issue/amendment;\n(ii) If Authoris | ation/Scrip | rejected | by Custo | m | | s se | rver with | err | or | Code\n(iii) If request | for issue of | waiver | of Bond | / | E | OD | C was no | t c | on | sidered within the\nperiod spe | cified unde | r Para | 11.10 of | H | | BP, | where co | mp | le | te application was\nsubmitted | within the v | alidity o | f the Auth | o | | risa | tion.",
+      "action": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "exception": "It was | tra | ns | mitted to Customs\nserver on 01.04 |.2017 by D | GFT ser | ver but | it | | is | accepted | by | C | ustoms server on\n31.10.2017.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R002",
+      "rule_description": "RA shall\nverify the same b | efore revali | dation is | allowed.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "18\n(i) If Authoris | ation/Scrip | or any | amendme | n | t | th | ereof coul | d | not | be transmitted to\nCustoms S | erver within | fifteen | working d | a | y | s fr | om the da | te | of | issue/amendment;\n(ii) If Authoris | ation/Scrip | rejected | by Custo | m | | s se | rver with | err | or | Code\n(iii) If request | for issue of | waiver | of Bond | / | E | OD | C was no | t c | on | sidered within the\nperiod spe | cified unde | r Para | 11.10 of | H | | BP, | where co | mp | le | te application was\nsubmitted | within the v | alidity o | f the Auth | o | | risa | tion.",
+      "validation": "It was | tra | ns | mitted to Customs\nserver on 01.04 |.2017 by D | GFT ser | ver but | it | | is | accepted | by | C | ustoms server on\n31.10.2017.",
+      "action": "18\n(i) If Authoris | ation/Scrip | or any | amendme | n | t | th | ereof coul | d | not | be transmitted to\nCustoms S | erver within | fifteen | working d | a | y | s fr | om the da | te | of | issue/amendment;\n(ii) If Authoris | ation/Scrip | rejected | by Custo | m | | s se | rver with | err | or | Code\n(iii) If request | for issue of | waiver | of Bond | / | E | OD | C was no | t c | on | sidered within the\nperiod spe | cified unde | r Para | 11.10 of | H | | BP, | where co | mp | le | te application was\nsubmitted | within the v | alidity o | f the Auth | o | | risa | tion.",
+      "exception": "| | | | | | |\nHowever, reques | t must be m | ade to | RA conce | r | n | ed | within a | mo | nt | h from the date of\nfinal acceptance o | f Authorisa | tion/Scr | ip in the | Cu | | sto | ms Server.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R003",
+      "rule_description": "| | | | | | |\nHowever, reques | t must be m | ade to | RA conce | r | n | ed | within a | mo | nt | h from the date of\nfinal acceptance o | f Authorisa | tion/Scr | ip in the | Cu | | sto | ms Server.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "RA shall\nverify the same b | efore revali | dation is | allowed.",
+      "validation": "In such a ca | se, RA shall | allow re | validatio | n | f | or a | period o | f 6 | m | onths (validity of 5\nmonths is subsum | ed) from th | e date o | f endorse | m | | ent.",
+      "action": "| For | example |: A | ut | horisation is issued\nhaving initial val | idity of 12 | months | on 01.0 | 4.",
+      "exception": "| | |\nNotwithstanding | anything co | ntained | above, th | e | s | e p | rovisions | of | re | validation shall not\napply wherever, | the authoris | ation/sc | rip holde | r | h | ad | clear 6 m | ont | hs | period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R004",
+      "rule_description": "| | |\nNotwithstanding | anything co | ntained | above, th | e | s | e p | rovisions | of | re | validation shall not\napply wherever, | the authoris | ation/sc | rip holde | r | h | ad | clear 6 m | ont | hs | period in hand for\nutilisation.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "| | |\nNotwithstanding | anything co | ntained | above, th | e | s | e p | rovisions | of | re | validation shall not\napply wherever, | the authoris | ation/sc | rip holde | r | h | ad | clear 6 m | ont | hs | period in hand for\nutilisation.",
+      "validation": "RA shall\nverify the same b | efore revali | dation is | allowed.",
+      "action": "| | | |\nThe applicant sha | ll submit re | quest fo | r endorse | m | | ent | of Author | isa | tio | n/Scrip along with\nscreen shot of DG | FT server a | s well as | Customs | S | | erve | r in supp | ort | of | his claim.",
+      "exception": "It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R005",
+      "rule_description": "In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "| | | | | | | | | |\n2.21 Authority | to Revalid | ate | | | | | | | |\nSuch revalidatio | n under Par | agraph | 2.20 abo | v | e | wo | uld be p | er | mit | ted under specific\norders of Head o | f concerned | Office a | nd such | r | e | vali | dation w | oul | d | be maximum up to\nthe extent of cust | ody period.",
+      "validation": "| | | | | | |\nHowever, reques | t must be m | ade to | RA conce | r | n | ed | within a | mo | nt | h from the date of\nfinal acceptance o | f Authorisa | tion/Scr | ip in the | Cu | | sto | ms Server.",
+      "action": "RA shall\nverify the same b | efore revali | dation is | allowed.",
+      "exception": "However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R006",
+      "rule_description": "In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "| | | | | | | | |\nPROCEDURE | FOR ISSU | ING D | UPLICA | T | | E C | OPIES | | |\n2.23 Duplicate | copies of E | xport / | Import | A | | uth | orisatio | n | |\nWhere a physical | copy of Aut | horisati | on/Perm | is | s | ion | s/ Licence | / | Ce | rtificate / is lost or\nmisplaced, an ap | plication for | issue of | a duplica | te | | ma | y be made | al | on | g with self-\n| | | | | | | | | | pg.",
+      "validation": "| | |\nNotwithstanding | anything co | ntained | above, th | e | s | e p | rovisions | of | re | validation shall not\napply wherever, | the authoris | ation/sc | rip holde | r | h | ad | clear 6 m | ont | hs | period in hand for\nutilisation.",
+      "action": "| | |\nNotwithstanding | anything co | ntained | above, th | e | s | e p | rovisions | of | re | validation shall not\napply wherever, | the authoris | ation/sc | rip holde | r | h | ad | clear 6 m | ont | hs | period in hand for\nutilisation.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R007",
+      "rule_description": "The applicant shall submit request for endorsement of Authorisation/Scrip along with\nscreen shot of DGFT server as well as Customs Server in support of his claim.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "validation": "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "action": "| | | | | | | | |\n2.22 Applicatio | n for Reva | lidatio | n | | | | | | |\nAn application fo | r revalidati | on of aut | horisatio | n | | ma | y be made | to | th | e office which has\nissued the author | isation.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R008",
+      "rule_description": "RA shall\nverify the same before revalidation is allowed.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "RA shall\nverify the same before revalidation is allowed.",
+      "validation": "In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+      "action": "| | | | | | | | |\nPROCEDURE | FOR ISSU | ING D | UPLICA | T | | E C | OPIES | | |\n2.23 Duplicate | copies of E | xport / | Import | A | | uth | orisatio | n | |\nWhere a physical | copy of Aut | horisati | on/Perm | is | s | ion | s/ Licence | / | Ce | rtificate / is lost or\nmisplaced, an ap | plication for | issue of | a duplica | te | | ma | y be made | al | on | g with self-\n| | | | | | | | | | pg.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R009",
+      "rule_description": "However, request must be made to RA concerned within a month from the date of\nfinal acceptance of Authorisation/Scrip in the Customs Server.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "validation": "It was transmitted to Customs\nserver on 01.04.2017 by DGFT server but it is accepted by Customs server on\n31.10.2017.",
+      "action": "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    },
+    {
+      "rule_id": "CH2-SEC2_23-R010",
+      "rule_description": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "trigger": "Duplicate copies of Export / Import Authorisation",
+      "condition": "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued.",
+      "validation": "In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.",
+      "action": "For example: Authorisation is issued\nhaving initial validity of 12 months on 01.04.2017.",
+      "exception": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "output": "DEKAI should produce a compliance decision for 2.23 - Duplicate copies of Export / Import Authorisation."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: In such a ca | se, RA shall | allow re | validatio | n | f | or a | period o | f 6 | m | onths (validity of 5\nmonths is subsum | ed) from th | e date o | f endorse | m | | ent.",
+    "IF detected context matches section rule THEN enforce: RA shall\nverify the same b | efore revali | dation is | allowed.",
+    "IF detected context matches section rule THEN enforce: | | | | | | |\nHowever, reques | t must be m | ade to | RA conce | r | n | ed | within a | mo | nt | h from the date of\nfinal acceptance o | f Authorisa | tion/Scr | ip in the | Cu | | sto | ms Server.",
+    "IF detected context matches section rule THEN enforce: | | |\nNotwithstanding | anything co | ntained | above, th | e | s | e p | rovisions | of | re | validation shall not\napply wherever, | the authoris | ation/sc | rip holde | r | h | ad | clear 6 m | ont | hs | period in hand for\nutilisation.",
+    "IF detected context matches section rule THEN enforce: In such cases, revalidation shall be allowed from the date of endorsement for the\nperiod of delay or six months, whichever is less.",
+    "IF detected context matches section rule THEN enforce: In such a case, RA shall allow revalidation for a period of 6 months (validity of 5\nmonths is subsumed) from the date of endorsement.",
+    "IF validations pass THEN recommend action: 2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg."
+  ]
+}

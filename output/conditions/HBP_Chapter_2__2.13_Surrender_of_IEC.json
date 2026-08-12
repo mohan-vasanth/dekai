@@ -1,0 +1,63 @@
+{
+  "section": "2.13",
+  "conditions": [
+    "2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.",
+    "Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard.",
+    "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+    "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+    "| | |\n2.13 Surrender of IEC | | |\nIf an IEC holder does not wish to operate allotte | d IEC, t | hey may surrende | r the same\nonline to the issuing authority.",
+    "14\n2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.",
+    "14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.13.1",
+      "if": "an IEC holder does not wish to operate allotted IEC",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority."
+    },
+    {
+      "id": "2.2.13.2",
+      "if": "Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard.",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard."
+    },
+    {
+      "id": "2.2.13.3",
+      "if": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible."
+    },
+    {
+      "id": "2.2.13.4",
+      "if": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time."
+    },
+    {
+      "id": "2.2.13.5",
+      "if": "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y."
+    },
+    {
+      "id": "2.2.13.6",
+      "if": "an IEC holder does not wish to operate allotte | d IEC",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "| | |\n2.13 Surrender of IEC | | |\nIf an IEC holder does not wish to operate allotte | d IEC, t | hey may surrende | r the same\nonline to the issuing authority."
+    },
+    {
+      "id": "2.2.13.7",
+      "if": "an IEC holder does not wish to operate allotted IEC",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "14\n2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority."
+    },
+    {
+      "id": "2.2.13.8",
+      "if": "14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc.",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc."
+    }
+  ]
+}

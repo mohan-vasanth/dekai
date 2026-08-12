@@ -1,0 +1,33 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.74",
+  "title": "Offsetting of Export Proceeds",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_74-R001",
+      "rule_description": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "trigger": "Offsetting of Export Proceeds",
+      "condition": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "validation": "|\n(II) Payment throu | gh General/ P | rivate I | nsurance | compa | nie | s: |\nAmount of Ins | urance Cover | for tra | nsit loss | by Gen | er | al Insurance an | d Private\nApproved Insu | rance Compan | ies in | India wou | ld be t | re | ated as paymen | t realized\nfor exports und | er various ex | port pr | omotion s | cheme | s.",
+      "action": "2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+      "exception": "| However, this | would not\nbe applicable in self – | write off case | s.",
+      "output": "DEKAI should produce a compliance decision for 2.74 - Offsetting of Export Proceeds."
+    },
+    {
+      "rule_id": "CH2-SEC2_74-R002",
+      "rule_description": "2.74 Offsetting of | Export Proc | eeds | | | | |\nSubject to specific ap | proval of RBI |, any | payables, | or equ | ity | investment m | ade by an\nAuthorisation holder | under any exp | ort pr | omotion s | cheme, | ca | n be used to off | set\n| | | | | | | pg.",
+      "trigger": "Offsetting of Export Proceeds",
+      "condition": "|\n(b) If the proof of | payment issu | ed by | the Insur | ance Ag | en | cy mentions cl | aim value\nboth in foreign | exchange an | d INR, | RA will u | se the | fo | reign exchange | value for\nprocessing.",
+      "validation": "|\n(II) Payment throu | gh General/ P | rivate I | nsurance | compa | nie | s: |\nAmount of Ins | urance Cover | for tra | nsit loss | by Gen | er | al Insurance an | d Private\nApproved Insu | rance Compan | ies in | India wou | ld be t | re | ated as paymen | t realized\nfor exports und | er various ex | port pr | omotion s | cheme | s.",
+      "action": "| | | | | | |\n2.71 Admissibility | of benefits | on pa | yment th | rough | in | surance cove | r\n(I) Payment throu | gh ECGC cover | woul | d count fo | r benef | its | under FTP.",
+      "exception": "| However, this | would not\nbe applicable in self – | write off case | s.",
+      "output": "DEKAI should produce a compliance decision for 2.74 - Offsetting of Export Proceeds."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg.",
+    "IF detected context matches section rule THEN enforce: 2.74 Offsetting of | Export Proc | eeds | | | | |\nSubject to specific ap | proval of RBI |, any | payables, | or equ | ity | investment m | ade by an\nAuthorisation holder | under any exp | ort pr | omotion s | cheme, | ca | n be used to off | set\n| | | | | | | pg.",
+    "IF validations pass THEN recommend action: 2.74 Offsetting of Export Proceeds\nSubject to specific approval of RBI, any payables, or equity investment made by an\nAuthorisation holder under any export promotion scheme, can be used to offset\npg."
+  ]
+}

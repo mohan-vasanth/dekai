@@ -1,0 +1,77 @@
+{
+  "section": "7.10",
+  "conditions": [
+    "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+    "(b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount.",
+    "No interest shall be paid thereafter.",
+    "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+    "Howev | er, an | applicati | on in ANF- | 7A, alo | ng with | docume | nts | p | rescribed | in ANF-7A\n& App | endix- | 7E, may | be made to | RA o | r DC co | ncerned, | as | t | he case m | ay be, for\nfixatio | n of br | and rate | where All In | dustry | Rate of | Drawbac | k is | | not availab | le or same\nis less | than 4 | /5th of d | uties actual | ly pai | d on raw | materia | ls or | | componen | ts used in\nthe pr | oducti | on or man | ufacture of | the sa | id goods |.",
+    "| | | |\n7.07 | Time | barred | / supplem | entar | y claim | | | | |\nIn cas | e claim | is filed | after presc | ribed | time per | iod, pro | visi | o | n of late c | ut, under\nParagr | aph 1 | 1.02 of H | BP and pro | vision | of supple | mentar | y cla | i | m under P | aragraph\n11.03 | of HBP | shall be | applicable.",
+    "In case p | ayme | nt is not | made w | ithi | n | the time | period as\n| given | above, th | en RA shal | l add | interest | compon | ent, | | along with | principal\n| amou | nt, in ac | cordance w | ith p | aragraph | 7.09 o | f th | | e FTP.",
+    "|\n| (b) | If interes | t is not add | ed by | RA/DC, a | separate | ap | p | lication, as | per ANF-\n| 7B ma | y be filed |, within 30 d | ays fr | om the d | ate of re | ceip | t | of princip | al amount.",
+    "Wherev | er interest\n| is paid |, RA shall | inform the | reaso | n for pay | ment of | inte | r | est.",
+    "(b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount."
+  ],
+  "condition_logic": [
+    {
+      "id": "7.7.10.1",
+      "if": "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP.",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "In case payment is not made within the time period as\ngiven above, then RA shall add interest component, along with principal\namount, in accordance with paragraph 7.09 of the FTP."
+    },
+    {
+      "id": "7.7.10.2",
+      "if": "interest is not added by RA/DC",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "(b) If interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount."
+    },
+    {
+      "id": "7.7.10.3",
+      "if": "No interest shall be paid thereafter.",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "No interest shall be paid thereafter."
+    },
+    {
+      "id": "7.7.10.4",
+      "if": "Wherever interest\nis paid, RA shall inform the reason for payment of interest.",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "Wherever interest\nis paid, RA shall inform the reason for payment of interest."
+    },
+    {
+      "id": "7.7.10.5",
+      "if": "Howev | er, an | applicati | on in ANF- | 7A, alo | ng with | docume | nts | p | rescribed | in ANF-7A\n& App | endix- | 7E, may | be made to | RA o | r DC co | ncerned, | as | t | he case m | ay be, for\nfixatio | n of br | and rate | where All In | dustry | Rate of | Drawbac | k is | | not availab | le or same\nis less | than 4 | /5th of d | uties actual | ly pai | d on raw | materia | ls or | | componen | ts used in\nthe pr | oducti | on or man | ufacture of | the sa | id goods |.",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "Howev | er, an | applicati | on in ANF- | 7A, alo | ng with | docume | nts | p | rescribed | in ANF-7A\n& App | endix- | 7E, may | be made to | RA o | r DC co | ncerned, | as | t | he case m | ay be, for\nfixatio | n of br | and rate | where All In | dustry | Rate of | Drawbac | k is | | not availab | le or same\nis less | than 4 | /5th of d | uties actual | ly pai | d on raw | materia | ls or | | componen | ts used in\nthe pr | oducti | on or man | ufacture of | the sa | id goods |."
+    },
+    {
+      "id": "7.7.10.6",
+      "if": "| | | |\n7.07 | Time | barred | / supplem | entar | y claim | | | | |\nIn cas | e claim | is filed | after presc | ribed | time per | iod, pro | visi | o | n of late c | ut, under\nParagr | aph 1 | 1.02 of H | BP and pro | vision | of supple | mentar | y cla | i | m under P | aragraph\n11.03 | of HBP | shall be | applicable.",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "| | | |\n7.07 | Time | barred | / supplem | entar | y claim | | | | |\nIn cas | e claim | is filed | after presc | ribed | time per | iod, pro | visi | o | n of late c | ut, under\nParagr | aph 1 | 1.02 of H | BP and pro | vision | of supple | mentar | y cla | i | m under P | aragraph\n11.03 | of HBP | shall be | applicable."
+    },
+    {
+      "id": "7.7.10.7",
+      "if": "In case p | ayme | nt is not | made w | ithi | n | the time | period as\n| given | above, th | en RA shal | l add | interest | compon | ent, | | along with | principal\n| amou | nt, in ac | cordance w | ith p | aragraph | 7.09 o | f th | | e FTP.",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "In case p | ayme | nt is not | made w | ithi | n | the time | period as\n| given | above, th | en RA shal | l add | interest | compon | ent, | | along with | principal\n| amou | nt, in ac | cordance w | ith p | aragraph | 7.09 o | f th | | e FTP."
+    },
+    {
+      "id": "7.7.10.8",
+      "if": "interes | t is not add | ed by | RA/DC",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "|\n| (b) | If interes | t is not add | ed by | RA/DC, a | separate | ap | p | lication, as | per ANF-\n| 7B ma | y be filed |, within 30 d | ays fr | om the d | ate of re | ceip | t | of princip | al amount."
+    },
+    {
+      "id": "7.7.10.9",
+      "if": "Wherev | er interest\n| is paid |, RA shall | inform the | reaso | n for pay | ment of | inte | r | est.",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "Wherev | er interest\n| is paid |, RA shall | inform the | reaso | n for pay | ment of | inte | r | est."
+    },
+    {
+      "id": "7.7.10.10",
+      "if": "interest is not added by RA/DC",
+      "then": "7.10 Payment of interest\n(a) RA shall make payment within 30 days from the date of issuance of\nApproval Letter.",
+      "source": "(b)\nIf interest is not added by RA/DC, a separate application, as per ANF-\n7B may be filed, within 30 days from the date of receipt of principal amount."
+    }
+  ]
+}

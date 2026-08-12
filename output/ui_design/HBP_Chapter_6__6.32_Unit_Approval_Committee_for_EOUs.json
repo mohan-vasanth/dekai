@@ -1,0 +1,47 @@
+{
+  "section": "6.32",
+  "ui": [
+    {
+      "screen_id": "Unit_Approval_Committee_for_EOUs_overview",
+      "name": "Unit Approval Committee for EOUs Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Unit_Approval_Committee_for_EOUs_submission",
+      "name": "Unit Approval Committee for EOUs Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "may_flag",
+        "ara_flag",
+        "ftp_flag",
+        "sam_flag",
+        "les_flag"
+      ]
+    },
+    {
+      "screen_id": "Unit_Approval_Committee_for_EOUs_exceptions",
+      "name": "Unit Approval Committee for EOUs Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1687 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.97",
+  "title": "General Provision",
+  "purpose": "For the purpose of import, the validity of DIA is 12 months from the date of\nissuance of Authorisation.",
+  "purpose_thanglish": "Indha General Provision section-la, For the purpose of import, the validity of DIA is 12 months from the date of\nissuance of Authorisation.",
+  "summary": "4.97 General Provision\ni. For the purpose of import, the validity of DIA is 12 months from the date of\nissuance of Authorisation. ii.",
+  "business_meaning": "General Provision governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "General Provision explains the operating rule set that DEKAI should enforce. Key control points include Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority. The section also drives actions such as Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import..",
+  "business_explanation_thanglish": "Indha General Provision section-la, General Provision explains the operating rule set that DEKAI should enforce. Key control points include Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional authority. The section also drives actions such as Authorisation holder kandippa also inform\nabout such re- importation to the Regional authority which had issued the\nAuthorisation within one month from the date of re-import..",
+  "business_logic": [
+    "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+    "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+    "One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired.",
+    "| T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency.",
+    "| 52 (d) of F | TP 2023, shall\n| n | ot be applica | ble | to thi | s scheme.",
+    "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue.",
+    "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_97-R001",
+      "rule_description": "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+      "trigger": "General Provision",
+      "condition": "No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.",
+      "validation": "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+      "action": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.97 - General Provision."
+    },
+    {
+      "rule_id": "CH4-SEC4_97-R002",
+      "rule_description": "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+      "trigger": "General Provision",
+      "condition": "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+      "validation": "One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired.",
+      "action": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.97 - General Provision."
+    },
+    {
+      "rule_id": "CH4-SEC4_97-R003",
+      "rule_description": "One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired.",
+      "trigger": "General Provision",
+      "condition": "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+      "validation": "| T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency.",
+      "action": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.97 - General Provision."
+    },
+    {
+      "rule_id": "CH4-SEC4_97-R004",
+      "rule_description": "| T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency.",
+      "trigger": "General Provision",
+      "condition": "| O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion.",
+      "validation": "| 52 (d) of F | TP 2023, shall\n| n | ot be applica | ble | to thi | s scheme.",
+      "action": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.97 - General Provision."
+    },
+    {
+      "rule_id": "CH4-SEC4_97-R005",
+      "rule_description": "| 52 (d) of F | TP 2023, shall\n| n | ot be applica | ble | to thi | s scheme.",
+      "trigger": "General Provision",
+      "condition": "Sh | ippi | ng Bil | ls with rel | evant Scheme\n| C | ode as per C | us | toms | Notification | need t | o be | endo | rsed with | the Diamond\n| I | mprest Autho | riz | ation | Number, to es | tablish | co-r | elatio | n of export | s with the DIA\n| is | sued.",
+      "validation": "| O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion.",
+      "action": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.97 - General Provision."
+    },
+    {
+      "rule_id": "CH4-SEC4_97-R006",
+      "rule_description": "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue.",
+      "trigger": "General Provision",
+      "condition": "| | No ARO/Inva | lid | ation l | etter/Certifi | cate of s | upp | ly (Co | S) is allowe | d against DIA.",
+      "validation": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "action": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.97 - General Provision."
+    },
+    {
+      "rule_id": "CH4-SEC4_97-R007",
+      "rule_description": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "trigger": "General Provision",
+      "condition": "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue.",
+      "validation": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "action": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.97 - General Provision."
+    }
+  ],
+  "conditions": [
+    "No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.",
+    "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+    "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+    "| O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion.",
+    "Sh | ippi | ng Bil | ls with rel | evant Scheme\n| C | ode as per C | us | toms | Notification | need t | o be | endo | rsed with | the Diamond\n| I | mprest Autho | riz | ation | Number, to es | tablish | co-r | elatio | n of export | s with the DIA\n| is | sued.",
+    "| | No ARO/Inva | lid | ation l | etter/Certifi | cate of s | upp | ly (Co | S) is allowe | d against DIA.",
+    "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.97.1",
+      "if": "No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA."
+    },
+    {
+      "id": "4.4.97.2",
+      "if": "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority."
+    },
+    {
+      "id": "4.4.97.3",
+      "if": "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A."
+    },
+    {
+      "id": "4.4.97.4",
+      "if": "| O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "| O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion."
+    },
+    {
+      "id": "4.4.97.5",
+      "if": "Sh | ippi | ng Bil | ls with rel | evant Scheme\n| C | ode as per C | us | toms | Notification | need t | o be | endo | rsed with | the Diamond\n| I | mprest Autho | riz | ation | Number, to es | tablish | co-r | elatio | n of export | s with the DIA\n| is | sued.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "Sh | ippi | ng Bil | ls with rel | evant Scheme\n| C | ode as per C | us | toms | Notification | need t | o be | endo | rsed with | the Diamond\n| I | mprest Autho | riz | ation | Number, to es | tablish | co-r | elatio | n of export | s with the DIA\n| is | sued."
+    },
+    {
+      "id": "4.4.97.6",
+      "if": "| | No ARO/Inva | lid | ation l | etter/Certifi | cate of s | upp | ly (Co | S) is allowe | d against DIA.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "| | No ARO/Inva | lid | ation l | etter/Certifi | cate of s | upp | ly (Co | S) is allowe | d against DIA."
+    },
+    {
+      "id": "4.4.97.7",
+      "if": "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue.",
+      "then": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "source": "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue."
+    }
+  ],
+  "validations": [
+    "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+    "One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired.",
+    "| T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency.",
+    "| 52 (d) of F | TP 2023, shall\n| n | ot be applica | ble | to thi | s scheme.",
+    "| O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion.",
+    "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import."
+  ],
+  "exceptions": [],
+  "dependencies": [
+    "4.10",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "documents": [
+    "No ARO/Invalidation letter/Certificate",
+    "The facility of Co-licensee is not available for the DIA.",
+    "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A."
+  ],
+  "required_documents": [
+    "No ARO/Invalidation letter/Certificate",
+    "The facility of Co-licensee is not available for the DIA.",
+    "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A."
+  ],
+  "tables": [
+    [
+      [
+        "5 Fil",
+        "i",
+        "ng of Applic",
+        "ati",
+        "on fo",
+        "r Diamond",
+        "Impre",
+        "st A",
+        "utho",
+        "risation (",
+        "DIA)"
+      ],
+      [
+        "The p",
+        "ol",
+        "icy regarding",
+        "D",
+        "iamon",
+        "d Imprest A",
+        "uthoris",
+        "atio",
+        "n is ou",
+        "tlined in t",
+        "he FTP 2023."
+      ],
+      [
+        "Applic",
+        "a",
+        "nts shall sub",
+        "mi",
+        "t thei",
+        "r application",
+        "onlin",
+        "e us",
+        "ing A",
+        "NF 4J to t",
+        "he concerned"
+      ],
+      [
+        "Region",
+        "a",
+        "l Authority, a",
+        "s s",
+        "pecifi",
+        "ed in Append",
+        "ix 4A.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6 Co",
+        "n",
+        "ditions of I",
+        "mp",
+        "orts",
+        "& Exports",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "i.",
+        "I",
+        "mports and e",
+        "xpo",
+        "rts sh",
+        "all be permit",
+        "ted onl",
+        "y thr",
+        "ough",
+        "Mumbai Ai",
+        "rport."
+      ],
+      [
+        "ii.",
+        "T",
+        "he import is",
+        "sub",
+        "ject to",
+        "pre-Import",
+        "conditi",
+        "on.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "iii.",
+        "T",
+        "he export ob",
+        "liga",
+        "tion s",
+        "hall be fulfill",
+        "ed excl",
+        "usiv",
+        "ely th",
+        "rough phy",
+        "sical export of"
+      ],
+      [
+        "",
+        "N",
+        "atural Cut a",
+        "nd",
+        "Polish",
+        "ed Diamond",
+        "s, with",
+        "eac",
+        "h dia",
+        "mond weig",
+        "hing no more"
+      ],
+      [
+        "",
+        "t",
+        "han ¼ of a C",
+        "ar",
+        "at (25",
+        "Cents). One",
+        "to one",
+        "cor",
+        "relati",
+        "on betwee",
+        "n import and"
+      ],
+      [
+        "",
+        "e",
+        "xport shall no",
+        "t b",
+        "e req",
+        "uired.",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "iv.",
+        "T",
+        "he holder of",
+        "DIA",
+        "must",
+        "achieve a mi",
+        "nimum",
+        "valu",
+        "e add",
+        "ition of 10",
+        "% by realizing"
+      ],
+      [
+        "",
+        "i",
+        "n Freely Conv",
+        "ert",
+        "ible C",
+        "urrency. Pro",
+        "vision",
+        "of P",
+        "ara 2.",
+        "52 (d) of F",
+        "TP 2023, shall"
+      ],
+      [
+        "",
+        "n",
+        "ot be applica",
+        "ble",
+        "to thi",
+        "s scheme.",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "v.",
+        "D",
+        "eemed expor",
+        "ts",
+        "are no",
+        "t allowed un",
+        "der this",
+        "sch",
+        "eme.",
+        "",
+        ""
+      ],
+      [
+        "vi.",
+        "B",
+        "efore clearan",
+        "ce",
+        "of go",
+        "ods through",
+        "Custom",
+        "s, th",
+        "e hol",
+        "der of Dia",
+        "mond Imprest"
+      ],
+      [
+        "",
+        "A",
+        "uthorisation",
+        "(DI",
+        "A) sh",
+        "all execute a",
+        "Bond e",
+        "qual",
+        "to the",
+        "export obl",
+        "igation of DIA"
+      ],
+      [
+        "",
+        "a",
+        "long with a p",
+        "erf",
+        "orman",
+        "ce Bank Guar",
+        "antee",
+        "of an",
+        "amou",
+        "nt equivale",
+        "nt to the duty"
+      ],
+      [
+        "",
+        "f",
+        "oregone, with",
+        "co",
+        "ncern",
+        "ed Customs A",
+        "uthori",
+        "ty.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "vii.",
+        "O",
+        "nly those exp",
+        "or",
+        "ts whi",
+        "ch are made",
+        "after th",
+        "e da",
+        "te of i",
+        "mport, ma",
+        "y be accepted"
+      ],
+      [
+        "",
+        "t",
+        "owards disch",
+        "arg",
+        "e of e",
+        "xport obligat",
+        "ion. Sh",
+        "ippi",
+        "ng Bil",
+        "ls with rel",
+        "evant Scheme"
+      ],
+      [
+        "",
+        "C",
+        "ode as per C",
+        "us",
+        "toms",
+        "Notification",
+        "need t",
+        "o be",
+        "endo",
+        "rsed with",
+        "the Diamond"
+      ],
+      [
+        "",
+        "I",
+        "mprest Autho",
+        "riz",
+        "ation",
+        "Number, to es",
+        "tablish",
+        "co-r",
+        "elatio",
+        "n of export",
+        "s with the DIA"
+      ],
+      [
+        "",
+        "is",
+        "sued.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "7 Ge",
+        "n",
+        "eral Provis",
+        "ion",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "i.",
+        "",
+        "For the purp",
+        "ose",
+        "of im",
+        "port, the vali",
+        "dity of",
+        "DIA",
+        "is 12",
+        "months fro",
+        "m the date of"
+      ],
+      [
+        "",
+        "",
+        "issuance of A",
+        "uth",
+        "orisat",
+        "ion.",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "ii.",
+        "",
+        "Period of ful",
+        "fil",
+        "ment",
+        "of export ob",
+        "ligatio",
+        "n is",
+        "18 m",
+        "onths fro",
+        "m the date of"
+      ],
+      [
+        "",
+        "",
+        "issuance of",
+        "",
+        "Autho",
+        "risation.",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "iii.",
+        "",
+        "Only one aut",
+        "hor",
+        "isatio",
+        "n is allowed f",
+        "or one",
+        "IEC f",
+        "or a p",
+        "articular fi",
+        "nancial year."
+      ],
+      [
+        "iv.",
+        "",
+        "No ARO/Inva",
+        "lid",
+        "ation l",
+        "etter/Certifi",
+        "cate of s",
+        "upp",
+        "ly (Co",
+        "S) is allowe",
+        "d against DIA."
+      ],
+      [
+        "v.",
+        "",
+        "Imported ma",
+        "ter",
+        "ial ma",
+        "y be used in a",
+        "ny unit",
+        "of D",
+        "iamon",
+        "d Imprest",
+        "Authorisation"
+      ],
+      [
+        "",
+        "",
+        "holder subjec",
+        "t t",
+        "o cond",
+        "ition of para",
+        "graph",
+        "4.10",
+        "of thi",
+        "s Handboo",
+        "k or by jobber"
+      ],
+      [
+        "",
+        "",
+        "/ supporting",
+        "ma",
+        "nufac",
+        "turer, provid",
+        "ed sam",
+        "e is",
+        "endor",
+        "sed on au",
+        "thorisation by"
+      ],
+      [
+        "",
+        "",
+        "Regional Aut",
+        "hor",
+        "ity. T",
+        "he facility of",
+        "Co-licen",
+        "see",
+        "is not",
+        "available f",
+        "or the DIA."
+      ]
+    ],
+    [
+      [
+        "",
+        "vi.",
+        "Goods export",
+        "ed",
+        "under D",
+        "iam",
+        "ond Im",
+        "prest Aut",
+        "horisatio",
+        "n may be",
+        "re-imported"
+      ],
+      [
+        "",
+        "",
+        "in same or s",
+        "ub",
+        "stantiall",
+        "y sa",
+        "me for",
+        "m subject",
+        "to such",
+        "condition",
+        "s as may be"
+      ],
+      [
+        "",
+        "",
+        "specified by D",
+        "ep",
+        "artmen",
+        "t of",
+        "Reven",
+        "ue. Authori",
+        "sation h",
+        "older shall",
+        "also inform"
+      ],
+      [
+        "",
+        "",
+        "about such re",
+        "- i",
+        "mportat",
+        "ion t",
+        "o the",
+        "Regional A",
+        "uthority",
+        "which ha",
+        "d issued the"
+      ],
+      [
+        "",
+        "",
+        "Authorisation",
+        "w",
+        "ithin on",
+        "e mo",
+        "nth fr",
+        "om the dat",
+        "e of re-im",
+        "port.",
+        ""
+      ],
+      [
+        "",
+        "vii.",
+        "No extension",
+        "of",
+        "export o",
+        "blig",
+        "ation p",
+        "eriod will",
+        "be allow",
+        "ed against",
+        "DIA."
+      ],
+      [
+        "",
+        "viii.",
+        "No Revalidati",
+        "on",
+        "will be",
+        "allow",
+        "ed ag",
+        "ainst DIA",
+        "",
+        "",
+        ""
+      ],
+      [
+        "9",
+        "8 Ful",
+        "filment of ex",
+        "po",
+        "rt obli",
+        "gati",
+        "on",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Diamo",
+        "nd Imprest Au",
+        "th",
+        "orisatio",
+        "n ho",
+        "lder s",
+        "hall file on",
+        "line app",
+        "lication in",
+        "ANF 4K to"
+      ],
+      [
+        "",
+        "Region",
+        "al Authority c",
+        "on",
+        "cerned,",
+        "as sp",
+        "ecifie",
+        "d in Appen",
+        "dix 4A a",
+        "nd upload",
+        "prescribed"
+      ],
+      [
+        "",
+        "docum",
+        "ents in suppor",
+        "t o",
+        "f fulfilm",
+        "ent o",
+        "f expo",
+        "rt obligatio",
+        "n.",
+        "",
+        ""
+      ],
+      [
+        "9",
+        "9 Reg",
+        "ularisation",
+        "o",
+        "f Bona",
+        "fide",
+        "Def",
+        "ault in",
+        "fulfilme",
+        "nt of e",
+        "xport"
+      ],
+      [
+        "",
+        "ligatio",
+        "n",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Cases o",
+        "f bonafide de",
+        "fau",
+        "lt in ful",
+        "filme",
+        "nt of",
+        "Export Obl",
+        "igation",
+        "may be re",
+        "gularised by"
+      ],
+      [
+        "",
+        "Region",
+        "al Authority as",
+        "u",
+        "nder:",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(",
+        "i)",
+        "The DIA holde",
+        "r s",
+        "hall, for",
+        "regu",
+        "lariza",
+        "tion, pay to",
+        "Custom",
+        "s Authorit",
+        "ies, Customs"
+      ],
+      [
+        "",
+        "",
+        "duty on unutil",
+        "ize",
+        "d value",
+        "of i",
+        "mporte",
+        "d material",
+        "along w",
+        "ith interes",
+        "t as notified"
+      ],
+      [
+        "",
+        "",
+        "by DoR. DIA",
+        "ho",
+        "lder sha",
+        "ll pa",
+        "y Cus",
+        "toms Duty",
+        "along-w",
+        "ith applic",
+        "able interest"
+      ],
+      [
+        "",
+        "",
+        "online throug",
+        "h I",
+        "CEGATE",
+        "Pay",
+        "ment",
+        "Gateway.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(",
+        "ii)",
+        "Authorisation",
+        "ho",
+        "lder sha",
+        "ll al",
+        "so be",
+        "required t",
+        "o pay an",
+        "amount e",
+        "quivalent to"
+      ],
+      [
+        "",
+        "",
+        "1% of the shor",
+        "tfa",
+        "ll in FOB",
+        "val",
+        "ue in I",
+        "ndian rupe",
+        "e, online",
+        "through D",
+        "GFT website"
+      ],
+      [
+        "",
+        "",
+        "into major “He",
+        "ad",
+        "of Acco",
+        "unt:",
+        "1453,",
+        "Foreign Tr",
+        "ade and",
+        "Export Pr",
+        "omotion and"
+      ],
+      [
+        "",
+        "",
+        "Minor Head 1",
+        "02\"",
+        ".xiii",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "pg. 132",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "4.97::section::0::general-provision",
+      "type": "section",
+      "title": "General Provision",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.97 General Provision\ni. For the purpose of import, the validity of DIA is 12 months from the date of\nissuance of Authorisation.\nii. Period of fulfilment of export obligation is 18 months from the date of\nissuance of Authorisation.\niii. Only one authorisation is allowed for one IEC for a particular financial year.\niv. No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.\nv. Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority. The facility of Co-licensee is not available for the DIA.\npg. 131\n5 Fil | i | ng of Applic | ati | on fo | r Diamond | Impre | st A | utho | risation ( | DIA)\nThe p | ol | icy regarding | D | iamon | d Imprest A | uthoris | atio | n is ou | tlined in t | he FTP 2023.\nApplic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A. | | | |\n6 Co | n | ditions of I | mp | orts | & Exports | | | | |\ni. | I | mports and e | xpo | rts sh | all be permit | ted onl | y thr | ough | Mumbai Ai | rport.\nii. | T | he import is | sub | ject to | pre-Import | conditi | on. | | |\niii. | T | he export ob | liga | tion s | hall be fulfill | ed excl | usiv | ely th | rough phy | sical export of\n| N | atural Cut a | nd | Polish | ed Diamond | s, with | eac | h dia | mond weig | hing no more\n| t | han ¼ of a C | ar | at (25 | Cents). One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired. | | | | |\niv. | T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency. Pro | vision | of P | ara 2. | 52 (d) of F | TP 2023, shall\n| n | ot be applica | ble | to thi | s scheme. | | | | |\nv. | D | eemed expor | ts | are no | t allowed un | der this | sch | eme. | |\nvi. | B | efore clearan | ce | of go | ods through | Custom | s, th | e hol | der of Dia | mond Imprest\n| A | uthorisation | (DI | A) sh | all execute a | Bond e | qual | to the | export obl | igation of DIA\n| a | long with a p | erf | orman | ce Bank Guar | antee | of an | amou | nt equivale | nt to the duty\n| f | oregone, with | co | ncern | ed Customs A | uthori | ty. | | |\nvii. | O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion. Sh | ippi | ng Bil | ls with rel | evant Scheme\n| C | ode as per C | us | toms | Notification | need t | o be | endo | rsed with | the Diamond\n| I | mprest Autho | riz | ation | Number, to es | tablish | co-r | elatio | n of export | s with the DIA\n| is | sued. | | | | | | | |\n7 Ge | n | eral Provis | ion | | | | | | |\ni. | | For the purp | ose | of im | port, the vali | dity of | DIA | is 12 | months fro | m the date of\n| | issuance of A | uth | orisat | ion. | | | | |\nii. | | Period of ful | fil | ment | of export ob | ligatio | n is | 18 m | onths fro | m the date of\n| | issuance of | | Autho | risation. | | | | |\niii. | | Only one aut | hor | isatio | n is allowed f | or one | IEC f | or a p | articular fi | nancial year.\niv. | | No ARO/Inva | lid | ation l | etter/Certifi | cate of s | upp | ly (Co | S) is allowe | d against DIA.\nv. | | Imported ma | ter | ial ma | y be used in a | ny unit | of D | iamon | d Imprest | Authorisation\n| | holder subjec | t t | o cond | ition of para | graph | 4.10 | of thi | s Handboo | k or by jobber\n| | / supporting | ma | nufac | turer, provid | ed sam | e is | endor | sed on au | thorisation by\n| | Regional Aut | hor | ity. T | he facility of | Co-licen | see | is not | available f | or the DIA.\npg. 131\n4.97 General Provision\ni.\nFor the purpose of import, the validity of DIA is 12 months from the date of\nissuance of Authorisation.\nii.\nPeriod of fulfilment of export obligation is 18 months from the date of\nissuance of Authorisation.\niii.\nOnly one authorisation is allowed for one IEC for a particular financial year.\niv.\nNo ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.\nv.\nImported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority. The facility of Co-licensee is not available for the DIA.\nvi. Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue. Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.\nvii. No extension of export obligation period will be allowed against DIA.\nviii. No Revalidation will be allowed against DIA",
+      "parentId": "",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 70,
+      "searchAliases": [
+        "General Provision",
+        "GeneralProvision"
+      ],
+      "childIds": [
+        "4.97::validation::1::validation-rules",
+        "4.97::validation::2::validation-rules",
+        "4.97::validation::3::validation-rules",
+        "4.97::validation::4::validation-rules",
+        "4.97::validation::5::validation-rules",
+        "4.97::validation::6::validation-rules",
+        "4.97::business_rule::7::general-provision",
+        "4.97::business_rule::8::general-provision",
+        "4.97::business_rule::9::general-provision",
+        "4.97::business_rule::10::general-provision",
+        "4.97::business_rule::11::general-provision",
+        "4.97::business_rule::12::general-provision",
+        "4.97::business_rule::13::general-provision"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 70
+    },
+    {
+      "id": "4.97::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.97::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.97::validation::3::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.97::validation::4::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| 52 (d) of F | TP 2023, shall\n| n | ot be applica | ble | to thi | s scheme.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.97::validation::5::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.97::validation::6::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.97::business_rule::7::general-provision",
+      "type": "business_rule",
+      "title": "General Provision",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "General Provision",
+        "GeneralProvision"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.97::business_rule::8::general-provision",
+      "type": "business_rule",
+      "title": "General Provision",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "General Provision",
+        "GeneralProvision"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.97::business_rule::9::general-provision",
+      "type": "business_rule",
+      "title": "General Provision",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "General Provision",
+        "GeneralProvision"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.97::business_rule::10::general-provision",
+      "type": "business_rule",
+      "title": "General Provision",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "General Provision",
+        "GeneralProvision"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.97::business_rule::11::general-provision",
+      "type": "business_rule",
+      "title": "General Provision",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| 52 (d) of F | TP 2023, shall\n| n | ot be applica | ble | to thi | s scheme.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "General Provision",
+        "GeneralProvision"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.97::business_rule::12::general-provision",
+      "type": "business_rule",
+      "title": "General Provision",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "General Provision",
+        "GeneralProvision"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.97::business_rule::13::general-provision",
+      "type": "business_rule",
+      "title": "General Provision",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "parentId": "4.97::section::0::general-provision",
+      "sectionId": "4.97",
+      "sectionTitle": "General Provision",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 56,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "General Provision",
+        "GeneralProvision"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [
+    "Regional Authority",
+    "Customs"
+  ],
+  "timelines": [
+    "For the purpose of import, the validity of DIA is 12 months from the date of\nissuance of Authorisation.",
+    "Period of fulfilment of export obligation is 18 months from the date of\nissuance of Authorisation.",
+    "| O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion.",
+    "| | For the purp | ose | of im | port, the vali | dity of | DIA | is 12 | months fro | m the date of\n| | issuance of A | uth | orisat | ion.",
+    "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import."
+  ],
+  "actions": [
+    "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import."
+  ],
+  "workflow": [
+    "Evaluate condition: No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.",
+    "Evaluate condition: Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+    "Evaluate condition: Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+    "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+    "Run validation: Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+    "Run validation: One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired.",
+    "Run validation: | T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency."
+  ],
+  "workflow_ascii": "General Provision\nEvaluate condition: No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.\n   |\n   v\nEvaluate condition: Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.\n   |\n   v\nEvaluate condition: Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.\n   |\n   v\nAuthorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.\n   |\n   v\nRun validation: Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.\n   |\n   v\nRun validation: One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired.\n   |\n   v\nRun validation: | T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency.",
+  "decision_tree": [
+    "IF No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA. THEN Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+    "IF Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority. THEN Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+    "IF Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A. THEN Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+    "IF | O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion. THEN Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+    "IF Sh | ippi | ng Bil | ls with rel | evant Scheme\n| C | ode as per C | us | toms | Notification | need t | o be | endo | rsed with | the Diamond\n| I | mprest Autho | riz | ation | Number, to es | tablish | co-r | elatio | n of export | s with the DIA\n| is | sued. THEN Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import."
+  ],
+  "decision_tree_ascii": "General Provision Decision\nIF No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA. THEN Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.\n   |\n   v\nIF Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority. THEN Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.\n   |\n   v\nIF Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A. THEN Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.\n   |\n   v\nIF | O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion. THEN Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.\n   |\n   v\nIF Sh | ippi | ng Bil | ls with rel | evant Scheme\n| C | ode as per C | us | toms | Notification | need t | o be | endo | rsed with | the Diamond\n| I | mprest Autho | riz | ation | Number, to es | tablish | co-r | elatio | n of export | s with the DIA\n| is | sued. THEN Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+  "examples": [
+    "User asks to process General Provision; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes General Provision, submits No ARO/Invalidation letter/Certificate, The facility of Co-licensee is not available for the DIA., Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A., and DEKAI uses the extracted rules to authorisation holder shall also inform\nabout such re- importation to the regional authority which had issued the\nauthorisation within one month from the date of re-import..",
+  "real_world_example_thanglish": "Indha General Provision section-la, Example: an importer or exporter invokes General Provision, submits No ARO/Invalidation letter/Certificate, The facility of Co-licensee is not available for the DIA., Applic | a | nts kandippa sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l authority, a | s s | pecifi | ed in Append | ix 4A., and DEKAI uses the extracted rules to authorisation holder kandippa also inform\nabout such re- importation to the regional authority which had issued the\nauthorisation within one month from the date of re-import..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+    "IF detected context matches section rule THEN enforce: Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+    "IF detected context matches section rule THEN enforce: One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired.",
+    "IF detected context matches section rule THEN enforce: | T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency.",
+    "IF detected context matches section rule THEN enforce: | 52 (d) of F | TP 2023, shall\n| n | ot be applica | ble | to thi | s scheme.",
+    "IF detected context matches section rule THEN enforce: Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue.",
+    "IF validations pass THEN recommend action: Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:For"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "dia_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DIA"
+    },
+    {
+      "name": "iii_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:iii"
+    },
+    {
+      "name": "one_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:one"
+    },
+    {
+      "name": "iec_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:IEC"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "any_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:any"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "No ARO/Invalidation letter/Certificate"
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "The facility of Co-licensee is not available for the DIA."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.97",
+      "purpose": "Retrieve knowledge payload for section 4.97",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/General-Provision/validate",
+      "purpose": "Validate inputs and documents for General Provision",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/General-Provision/execute",
+      "purpose": "Trigger business action for Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "General_Provision_overview",
+      "name": "General Provision Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "General_Provision_submission",
+      "name": "General Provision Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "dia_flag",
+        "iii_flag",
+        "one_flag",
+        "iec_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does General Provision require?",
+    "Which documents are needed for General Provision?",
+    "How does DEKAI validate General Provision requests?",
+    "What action should be taken for General Provision?"
+  ],
+  "expected_ai_answers": [
+    "General Provision requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: No ARO/Invalidation letter/Certificate, The facility of Co-licensee is not available for the DIA., Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+    "DEKAI validates General Provision by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4.97?",
+      "answer_en": "General Provision explains the operating rule set that DEKAI should enforce. Key control points include Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority. The section also drives actions such as Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import..",
+      "question_thanglish": "Indha General Provision section-la, What is the purpose of section 4.97?",
+      "answer_thanglish": "Indha General Provision section-la, General Provision explains the operating rule set that DEKAI should enforce. Key control points include Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional authority. The section also drives actions such as Authorisation holder kandippa also inform\nabout such re- importation to the Regional authority which had issued the\nAuthorisation within one month from the date of re-import.."
+    },
+    {
+      "question_en": "What documents are required under General Provision?",
+      "answer_en": "No ARO/Invalidation letter/Certificate, The facility of Co-licensee is not available for the DIA., Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+      "question_thanglish": "Indha General Provision section-la, What documents are required under General Provision?",
+      "answer_thanglish": "Indha General Provision section-la, No ARO/Invalidation letter/Certificate, The facility of Co-licensee is not available for the DIA., Applic | a | nts kandippa sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l authority, a | s s | pecifi | ed in Append | ix 4A."
+    },
+    {
+      "question_en": "Which authority handles General Provision?",
+      "answer_en": "Regional Authority, Customs",
+      "question_thanglish": "Indha General Provision section-la, Which authority handles General Provision?",
+      "answer_thanglish": "Indha General Provision section-la, Regional authority, Customs"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with General Provision?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4.97, apply the extracted rules, and guide the user through Evaluate condition: No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA..",
+      "question_thanglish": "Indha General Provision section-la, User asks: How do I comply with General Provision?",
+      "answer_thanglish": "Indha General Provision section-la, AI answers: DEKAI should evaluate section 4.97, apply the extracted rules, and guide the user through Evaluate condition: No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to General Provision?",
+      "answer_en": "AI answers: Applicable validations are Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A., One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired., | T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency.",
+      "question_thanglish": "Indha General Provision section-la, User asks: Which validations apply to General Provision?",
+      "answer_thanglish": "Indha General Provision section-la, AI answers: Applicable validations are Applic | a | nts kandippa sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l authority, a | s s | pecifi | ed in Append | ix 4A., One | to one | cor | relati | on betwee | n import and\n| e | xport kandippa no | t b | e req | uired., | T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 4.97, title, and page references as immutable knowledge metadata.",
+    "Bind validations for General Provision into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: No ARO/Invalidation letter/Certificate, The facility of Co-licensee is not available for the DIA., Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A..",
+    "Route escalations or approvals to: Regional Authority, Customs.",
+    "Show contextual links to related sections: 4.10, 1, 2, 3, 4, 5, 6."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha General Provision section-la, Capture chapter 4, section 4.97, title, and page references as immutable knowledge metadata.",
+    "Indha General Provision section-la, Bind validations for General Provision into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha General Provision section-la, Expose document upload controls for: No ARO/Invalidation letter/Certificate, The facility of Co-licensee is not available for the DIA., Applic | a | nts kandippa sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l authority, a | s s | pecifi | ed in Append | ix 4A..",
+    "Indha General Provision section-la, Route escalations or approvals to: Regional authority, Customs.",
+    "Indha General Provision section-la, Show contextual links to related sections: 4.10, 1, 2, 3, 4, 5, 6."
+  ],
+  "keywords": [
+    "For",
+    "the",
+    "DIA",
+    "iii",
+    "one",
+    "IEC",
+    "may",
+    "any",
+    "not",
+    "Fil",
+    "ati",
+    "icy",
+    "FTP",
+    "nts",
+    "sub",
+    "ing",
+    "and",
+    "xpo",
+    "rts",
+    "all"
+  ],
+  "search_keywords": [
+    "For",
+    "the",
+    "DIA",
+    "iii",
+    "one",
+    "IEC",
+    "may",
+    "any",
+    "not",
+    "Fil",
+    "ati",
+    "icy",
+    "FTP",
+    "nts",
+    "sub",
+    "ing",
+    "and",
+    "xpo",
+    "rts",
+    "all"
+  ],
+  "intent": "Support General Provision processing and compliance validation.",
+  "tags": [
+    "4.97",
+    "General Provision",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "4.10",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+    "Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.",
+    "One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired.",
+    "| T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency.",
+    "| 52 (d) of F | TP 2023, shall\n| n | ot be applica | ble | to thi | s scheme."
+  ],
+  "page_numbers": [
+    56,
+    57
+  ],
+  "pages": [
+    56,
+    57
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "4.97 General Provision\ni. For the purpose of import, the validity of DIA is 12 months from the date of\nissuance of Authorisation.\nii. Period of fulfilment of export obligation is 18 months from the date of\nissuance of Authorisation.\niii. Only one authorisation is allowed for one IEC for a particular financial year.\niv. No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.\nv. Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority. The facility of Co-licensee is not available for the DIA.\npg. 131\n5 Fil | i | ng of Applic | ati | on fo | r Diamond | Impre | st A | utho | risation ( | DIA)\nThe p | ol | icy regarding | D | iamon | d Imprest A | uthoris | atio | n is ou | tlined in t | he FTP 2023.\nApplic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A. | | | |\n6 Co | n | ditions of I | mp | orts | & Exports | | | | |\ni. | I | mports and e | xpo | rts sh | all be permit | ted onl | y thr | ough | Mumbai Ai | rport.\nii. | T | he import is | sub | ject to | pre-Import | conditi | on. | | |\niii. | T | he export ob | liga | tion s | hall be fulfill | ed excl | usiv | ely th | rough phy | sical export of\n| N | atural Cut a | nd | Polish | ed Diamond | s, with | eac | h dia | mond weig | hing no more\n| t | han ¼ of a C | ar | at (25 | Cents). One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired. | | | | |\niv. | T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency. Pro | vision | of P | ara 2. | 52 (d) of F | TP 2023, shall\n| n | ot be applica | ble | to thi | s scheme. | | | | |\nv. | D | eemed expor | ts | are no | t allowed un | der this | sch | eme. | |\nvi. | B | efore clearan | ce | of go | ods through | Custom | s, th | e hol | der of Dia | mond Imprest\n| A | uthorisation | (DI | A) sh | all execute a | Bond e | qual | to the | export obl | igation of DIA\n| a | long with a p | erf | orman | ce Bank Guar | antee | of an | amou | nt equivale | nt to the duty\n| f | oregone, with | co | ncern | ed Customs A | uthori | ty. | | |\nvii. | O | nly those exp | or | ts whi | ch are made | after th | e da | te of i | mport, ma | y be accepted\n| t | owards disch | arg | e of e | xport obligat | ion. Sh | ippi | ng Bil | ls with rel | evant Scheme\n| C | ode as per C | us | toms | Notification | need t | o be | endo | rsed with | the Diamond\n| I | mprest Autho | riz | ation | Number, to es | tablish | co-r | elatio | n of export | s with the DIA\n| is | sued. | | | | | | | |\n7 Ge | n | eral Provis | ion | | | | | | |\ni. | | For the purp | ose | of im | port, the vali | dity of | DIA | is 12 | months fro | m the date of\n| | issuance of A | uth | orisat | ion. | | | | |\nii. | | Period of ful | fil | ment | of export ob | ligatio | n is | 18 m | onths fro | m the date of\n| | issuance of | | Autho | risation. | | | | |\niii. | | Only one aut | hor | isatio | n is allowed f | or one | IEC f | or a p | articular fi | nancial year.\niv. | | No ARO/Inva | lid | ation l | etter/Certifi | cate of s | upp | ly (Co | S) is allowe | d against DIA.\nv. | | Imported ma | ter | ial ma | y be used in a | ny unit | of D | iamon | d Imprest | Authorisation\n| | holder subjec | t t | o cond | ition of para | graph | 4.10 | of thi | s Handboo | k or by jobber\n| | / supporting | ma | nufac | turer, provid | ed sam | e is | endor | sed on au | thorisation by\n| | Regional Aut | hor | ity. T | he facility of | Co-licen | see | is not | available f | or the DIA.\npg. 131\n4.97 General Provision\ni.\nFor the purpose of import, the validity of DIA is 12 months from the date of\nissuance of Authorisation.\nii.\nPeriod of fulfilment of export obligation is 18 months from the date of\nissuance of Authorisation.\niii.\nOnly one authorisation is allowed for one IEC for a particular financial year.\niv.\nNo ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.\nv.\nImported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority. The facility of Co-licensee is not available for the DIA.\nvi. Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue. Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.\nvii. No extension of export obligation period will be allowed against DIA.\nviii. No Revalidation will be allowed against DIA",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.\"]\n    S2[\"Evaluate condition: Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.\"]\n    S2 --> S3\n    S4[\"Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.\"]\n    S3 --> S4\n    S5[\"Run validation: Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.\"]\n    S4 --> S5\n    S6[\"Run validation: One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired.\"]\n    S5 --> S6\n    S7[\"Run validation: | T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency.\"]\n    S6 --> S7",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.;\n:Evaluate condition\\: Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.;\n:Evaluate condition\\: Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.;\n:Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.;\n:Run validation\\: Applic | a | nts shall sub | mi | t thei | r application | onlin | e us | ing A | NF 4J to t | he concerned\nRegion | a | l Authority, a | s s | pecifi | ed in Append | ix 4A.;\n:Run validation\\: One | to one | cor | relati | on betwee | n import and\n| e | xport shall no | t b | e req | uired.;\n:Run validation\\: | T | he holder of | DIA | must | achieve a mi | nimum | valu | e add | ition of 10 | % by realizing\n| i | n Freely Conv | ert | ible C | urrency.;\nstop\n@enduml"
+}

@@ -1,0 +1,44 @@
+{
+  "chapter_number": "1",
+  "chapter_title": "Legal Framework and Trade Facilitation Legal Framework and Trade Facilitation",
+  "section": "1.10",
+  "title": "Maintenance of Accounts and Submission of Annual Export Statement",
+  "business_rules": [
+    {
+      "rule_id": "CH1-SEC1_10-R001",
+      "rule_description": "1.10 Maintenance of Accounts and Submission of Annual Export Statement\nStatus Holders shall maintain true and proper accounts of its exports and imports\nbased on which such recognition has been granted.",
+      "trigger": "Maintenance of Accounts and Submission of Annual Export Statement",
+      "condition": "Records shall be maintained for a\nperiod of two years from the date of grant of status certificate.",
+      "validation": "1.10 Maintenance of Accounts and Submission of Annual Export Statement\nStatus Holders shall maintain true and proper accounts of its exports and imports\nbased on which such recognition has been granted.",
+      "action": "1.10 Maintenance of Accounts and Submission of Annual Export Statement\nStatus Holders shall maintain true and proper accounts of its exports and imports\nbased on which such recognition has been granted.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.10 - Maintenance of Accounts and Submission of Annual Export Statement."
+    },
+    {
+      "rule_id": "CH1-SEC1_10-R002",
+      "rule_description": "Records shall be maintained for a\nperiod of two years from the date of grant of status certificate.",
+      "trigger": "Maintenance of Accounts and Submission of Annual Export Statement",
+      "condition": "These accounts shall be\nmade available for inspection to RA concerned or any Authority authorized by DGFT,\nas and when required.",
+      "validation": "Records shall be maintained for a\nperiod of two years from the date of grant of status certificate.",
+      "action": "Records shall be maintained for a\nperiod of two years from the date of grant of status certificate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.10 - Maintenance of Accounts and Submission of Annual Export Statement."
+    },
+    {
+      "rule_id": "CH1-SEC1_10-R003",
+      "rule_description": "These accounts shall be\nmade available for inspection to RA concerned or any Authority authorized by DGFT,\nas and when required.",
+      "trigger": "Maintenance of Accounts and Submission of Annual Export Statement",
+      "condition": "These accounts shall be\nmade available for inspection to RA concerned or any Authority authorized by DGFT,\nas and when required.",
+      "validation": "These accounts shall be\nmade available for inspection to RA concerned or any Authority authorized by DGFT,\nas and when required.",
+      "action": "Records shall be maintained for a\nperiod of two years from the date of grant of status certificate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.10 - Maintenance of Accounts and Submission of Annual Export Statement."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 1.10 Maintenance of Accounts and Submission of Annual Export Statement\nStatus Holders shall maintain true and proper accounts of its exports and imports\nbased on which such recognition has been granted.",
+    "IF detected context matches section rule THEN enforce: Records shall be maintained for a\nperiod of two years from the date of grant of status certificate.",
+    "IF detected context matches section rule THEN enforce: These accounts shall be\nmade available for inspection to RA concerned or any Authority authorized by DGFT,\nas and when required.",
+    "IF validations pass THEN recommend action: 1.10 Maintenance of Accounts and Submission of Annual Export Statement\nStatus Holders shall maintain true and proper accounts of its exports and imports\nbased on which such recognition has been granted."
+  ]
+}

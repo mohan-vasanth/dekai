@@ -1,0 +1,37 @@
+{
+  "section": "4.77",
+  "ui": [
+    {
+      "screen_id": "Export_Procedure_Payment_of_Customs_Duty_overview",
+      "name": "Export Procedure/Payment of Customs Duty Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_Procedure_Payment_of_Customs_Duty_submission",
+      "name": "Export Procedure/Payment of Customs Duty Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "ent_flag",
+        "app_flag",
+        "des_flag",
+        "ion_flag"
+      ]
+    }
+  ]
+}

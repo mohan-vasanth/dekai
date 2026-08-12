@@ -1,0 +1,70 @@
+{
+  "section": "2",
+  "conditions": [
+    "198\n| |  Bill of entry contai | ning det | ails o | f t | he items to be re | -exported;\n| |  Export License (if a | pplicab | le) or | a | ny other docume | nts showing that\n| | export regulation | of the | coun | try | of export doe | s not have any\n| | restriction on re- ex | port fro | m In | dia |; |\n| |  In case of any such | restric | tion, | the | exporter will pr | ovide a letter of\n| | explanation detaili | ng the | list o | f | countries/entitie | s, to which re-\n| | export/return is res | tricted | / reg | ula | ted; |\n| |  Purchase order | | | | |\n| vii | i.",
+    "After issuance of G | AET aut | hori | zat | ion and before a | ctual export, the\n| | applicant exporter | must e | nsur | e t | he following: |\n| | 1.",
+    "They shall notify t | he relev | ant g | ov | ernment authorit | ies in the online\n| | portal of DGFT, on q | uarterl | y bas | is | of such export in | the prescribed\n| | format [Aayat Nirya | t Form | (AN | F) | - 10H], along w | ith the End-Use\n| | Certificate (EUC) for | each ex | port.",
+    "In case of any | additional sheet\n| | used along with the | EUC, th | e sam | e | must be on the l | etterhead of the\n| | company and signed | by the | same | pe | rson who signs t | he EUC.",
+    "They have an agre | ement o | r pur | ch | ase order, an exce | rpt of a contract\n| | from the entity (b | uyer/co | nsign | ee | /end-user) rece | iving the items\n| | which state that the | export | is fo | r | a permitted use | / an end-use as\n| | declared in the EUC | before t | he ac | tu | al export; |\n4.",
+    "| Additi | onal details, if any so | ught by | DGF | T | |\n| Post R | eporting for export | / re-ex | port | of | items under GA | ET\n| a.",
+    "198\nwith intended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+    "After issuance of GAET authorization and before actual export, the\napplicant exporter must ensure the following:\n2.",
+    "In case of re-export of imported items, the additional documents as\nmentioned in 1.b.vii.(i) have to be submitted at the time of post\nreporting."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.2.1",
+      "if": "198\n| |  Bill of entry contai | ning det | ails o | f t | he items to be re | -exported;\n| |  Export License (if a | pplicab | le) or | a | ny other docume | nts showing that\n| | export regulation | of the | coun | try | of export doe | s not have any\n| | restriction on re- ex | port fro | m In | dia |; |\n| |  In case of any such | restric | tion, | the | exporter will pr | ovide a letter of\n| | explanation detaili | ng the | list o | f | countries/entitie | s, to which re-\n| | export/return is res | tricted | / reg | ula | ted; |\n| |  Purchase order | | | | |\n| vii | i.",
+      "then": "Post Reporting for export / re-export of items under GAET\na.",
+      "source": "198\n| |  Bill of entry contai | ning det | ails o | f t | he items to be re | -exported;\n| |  Export License (if a | pplicab | le) or | a | ny other docume | nts showing that\n| | export regulation | of the | coun | try | of export doe | s not have any\n| | restriction on re- ex | port fro | m In | dia |; |\n| |  In case of any such | restric | tion, | the | exporter will pr | ovide a letter of\n| | explanation detaili | ng the | list o | f | countries/entitie | s, to which re-\n| | export/return is res | tricted | / reg | ula | ted; |\n| |  Purchase order | | | | |\n| vii | i."
+    },
+    {
+      "id": "10.2.2",
+      "if": "After issuance of G | AET aut | hori | zat | ion and before a | ctual export, the\n| | applicant exporter | must e | nsur | e t | he following: |\n| | 1.",
+      "then": "Post Reporting for export / re-export of items under GAET\na.",
+      "source": "After issuance of G | AET aut | hori | zat | ion and before a | ctual export, the\n| | applicant exporter | must e | nsur | e t | he following: |\n| | 1."
+    },
+    {
+      "id": "10.2.3",
+      "if": "They shall notify t | he relev | ant g | ov | ernment authorit | ies in the online\n| | portal of DGFT, on q | uarterl | y bas | is | of such export in | the prescribed\n| | format [Aayat Nirya | t Form | (AN | F) | - 10H], along w | ith the End-Use\n| | Certificate (EUC) for | each ex | port.",
+      "then": "Post Reporting for export / re-export of items under GAET\na.",
+      "source": "They shall notify t | he relev | ant g | ov | ernment authorit | ies in the online\n| | portal of DGFT, on q | uarterl | y bas | is | of such export in | the prescribed\n| | format [Aayat Nirya | t Form | (AN | F) | - 10H], along w | ith the End-Use\n| | Certificate (EUC) for | each ex | port."
+    },
+    {
+      "id": "10.2.4",
+      "if": "In case of any | additional sheet\n| | used along with the | EUC, th | e sam | e | must be on the l | etterhead of the\n| | company and signed | by the | same | pe | rson who signs t | he EUC.",
+      "then": "Post Reporting for export / re-export of items under GAET\na.",
+      "source": "In case of any | additional sheet\n| | used along with the | EUC, th | e sam | e | must be on the l | etterhead of the\n| | company and signed | by the | same | pe | rson who signs t | he EUC."
+    },
+    {
+      "id": "10.2.5",
+      "if": "They have an agre | ement o | r pur | ch | ase order, an exce | rpt of a contract\n| | from the entity (b | uyer/co | nsign | ee | /end-user) rece | iving the items\n| | which state that the | export | is fo | r | a permitted use | / an end-use as\n| | declared in the EUC | before t | he ac | tu | al export; |\n4.",
+      "then": "Post Reporting for export / re-export of items under GAET\na.",
+      "source": "They have an agre | ement o | r pur | ch | ase order, an exce | rpt of a contract\n| | from the entity (b | uyer/co | nsign | ee | /end-user) rece | iving the items\n| | which state that the | export | is fo | r | a permitted use | / an end-use as\n| | declared in the EUC | before t | he ac | tu | al export; |\n4."
+    },
+    {
+      "id": "10.2.6",
+      "if": "| Additi | onal details, if any so | ught by | DGF | T | |\n| Post R | eporting for export | / re-ex | port | of | items under GA | ET\n| a.",
+      "then": "Post Reporting for export / re-export of items under GAET\na.",
+      "source": "| Additi | onal details, if any so | ught by | DGF | T | |\n| Post R | eporting for export | / re-ex | port | of | items under GA | ET\n| a."
+    },
+    {
+      "id": "10.2.7",
+      "if": "198\nwith intended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+      "then": "Post Reporting for export / re-export of items under GAET\na.",
+      "source": "198\nwith intended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii."
+    },
+    {
+      "id": "10.2.8",
+      "if": "After issuance of GAET authorization and before actual export, the\napplicant exporter must ensure the following:\n2.",
+      "then": "Post Reporting for export / re-export of items under GAET\na.",
+      "source": "After issuance of GAET authorization and before actual export, the\napplicant exporter must ensure the following:\n2."
+    },
+    {
+      "id": "10.2.9",
+      "if": "In case of re-export of imported items, the additional documents as\nmentioned in 1.b.vii.(i) have to be submitted at the time of post\nreporting.",
+      "then": "Post Reporting for export / re-export of items under GAET\na.",
+      "source": "In case of re-export of imported items, the additional documents as\nmentioned in 1.b.vii.(i) have to be submitted at the time of post\nreporting."
+    }
+  ]
+}

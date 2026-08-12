@@ -45,6 +45,7 @@
     "Automatic_EO_extension_in_the_event_of_ban_on_export_product_submission",
     "Export_Obligation_Discharge_Certificate_EODC_overview",
     "Export_Obligation_Discharge_Certificate_EODC_submission",
+    "Export_Obligation_Discharge_Certificate_EODC_exceptions",
     "Regularization_of_bonafide_default_and_exit_from_EPCG_scheme_overview",
     "Regularization_of_bonafide_default_and_exit_from_EPCG_scheme_submission",
     "Maintenance_of_Records_overview",
@@ -204,10 +205,10 @@
             "section_title",
             "the_flag",
             "his_flag",
-            "may_flag",
-            "for_flag",
-            "fee_flag",
-            "per_flag"
+            "giv_flag",
+            "ftp_flag",
+            "app_flag",
+            "for_flag"
           ]
         }
       ]
@@ -848,6 +849,16 @@
             "and_flag",
             "api_flag",
             "has_flag"
+          ]
+        },
+        {
+          "screen_id": "Export_Obligation_Discharge_Certificate_EODC_exceptions",
+          "name": "Export Obligation Discharge Certificate (EODC) Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
           ]
         }
       ]

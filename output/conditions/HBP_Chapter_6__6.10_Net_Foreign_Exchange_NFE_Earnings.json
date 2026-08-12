@@ -1,0 +1,63 @@
+{
+  "section": "6.10",
+  "conditions": [
+    "Items of manufacture for export specified in\nLo P / Lo I alone shall be taken into account for calculation of NFE.",
+    "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+    "140\n.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |\nPerson(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or\n(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to\nthe follow | ing | conditions: | | | | | | | | | | |\n(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the\n| d | uration of s | uch authori | sation |.",
+    "| 0 | 8 of F | TP |; | | | | |\n| | “B” is sum t | otal of CIF v | alue | o | f all i | mp | orted | inputs | an | d CI | F v | alue of\n| | all imported | capital goo | ds, an | d | valu | e of | all pa | yments | m | ade | in | foreign\n| | exchange by | way of com | missi | o | n, ro | yal | ty, fee | s, divid | en | ds, i | nte | rest on\n| | external bor | rowings / h | igh s | e | a sale | s d | uring | first fiv | e | year | pe | riod or\n| | any other c | harges.",
+    "(b) If any goods are obtained from another EOU / EHTP / STP / BTP /\nSEZ unit, or procured from an international exhibition held in India,\nor bonded warehouses or precious metals procured from\nnominated agencies, value of such goods shall be included under\n“B”.",
+    "(c) If any capital goods are imported duty and/or tax free or leased\nfrom a leasing company, received free of cost and / or on loan basis\nor transfer, CIF value of capital goods shall be included pro- rata,\nunder “B” for period it remains with units.",
+    "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+    "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.10.1",
+      "if": "Items of manufacture for export specified in\nLo P / Lo I alone shall be taken into account for calculation of NFE.",
+      "then": "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+      "source": "Items of manufacture for export specified in\nLo P / Lo I alone shall be taken into account for calculation of NFE."
+    },
+    {
+      "id": "6.6.10.2",
+      "if": "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+      "then": "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+      "source": "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges."
+    },
+    {
+      "id": "6.6.10.3",
+      "if": "140\n.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |\nPerson(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or\n(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to\nthe follow | ing | conditions: | | | | | | | | | | |\n(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the\n| d | uration of s | uch authori | sation |.",
+      "then": "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+      "source": "140\n.08 Faci | lit | y of workin | g from a p | lace | o | utsi | de | the u | nit | | | |\nPerson(s) | / e | mployee(s) | authorized | by a u | | nit of | (i) | IT rel | ated EO | U | or ( | ii) | STP or\n(iii) EHTP | or | (iv) BTP ma | y work from | a pl | a | ce ou | tsid | e the | said un | it, | subj | ec | t to\nthe follow | ing | conditions: | | | | | | | | | | |\n(i) | T | here must | be an Aut | horis | a | tion | fro | m th | e unit | sp | ecif | yin | g the\n| d | uration of s | uch authori | sation |."
+    },
+    {
+      "id": "6.6.10.4",
+      "if": "| 0 | 8 of F | TP |; | | | | |\n| | “B” is sum t | otal of CIF v | alue | o | f all i | mp | orted | inputs | an | d CI | F v | alue of\n| | all imported | capital goo | ds, an | d | valu | e of | all pa | yments | m | ade | in | foreign\n| | exchange by | way of com | missi | o | n, ro | yal | ty, fee | s, divid | en | ds, i | nte | rest on\n| | external bor | rowings / h | igh s | e | a sale | s d | uring | first fiv | e | year | pe | riod or\n| | any other c | harges.",
+      "then": "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+      "source": "| 0 | 8 of F | TP |; | | | | |\n| | “B” is sum t | otal of CIF v | alue | o | f all i | mp | orted | inputs | an | d CI | F v | alue of\n| | all imported | capital goo | ds, an | d | valu | e of | all pa | yments | m | ade | in | foreign\n| | exchange by | way of com | missi | o | n, ro | yal | ty, fee | s, divid | en | ds, i | nte | rest on\n| | external bor | rowings / h | igh s | e | a sale | s d | uring | first fiv | e | year | pe | riod or\n| | any other c | harges."
+    },
+    {
+      "id": "6.6.10.5",
+      "if": "(b) If any goods are obtained from another EOU / EHTP / STP / BTP /\nSEZ unit, or procured from an international exhibition held in India,\nor bonded warehouses or precious metals procured from\nnominated agencies, value of such goods shall be included under\n“B”.",
+      "then": "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+      "source": "(b) If any goods are obtained from another EOU / EHTP / STP / BTP /\nSEZ unit, or procured from an international exhibition held in India,\nor bonded warehouses or precious metals procured from\nnominated agencies, value of such goods shall be included under\n“B”."
+    },
+    {
+      "id": "6.6.10.6",
+      "if": "(c) If any capital goods are imported duty and/or tax free or leased\nfrom a leasing company, received free of cost and / or on loan basis\nor transfer, CIF value of capital goods shall be included pro- rata,\nunder “B” for period it remains with units.",
+      "then": "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+      "source": "(c) If any capital goods are imported duty and/or tax free or leased\nfrom a leasing company, received free of cost and / or on loan basis\nor transfer, CIF value of capital goods shall be included pro- rata,\nunder “B” for period it remains with units."
+    },
+    {
+      "id": "6.6.10.7",
+      "if": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years.",
+      "then": "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+      "source": "Provided that above\namortization rates would be applicable only if an undertaking is\ngiven by a unit that it will not exit to DTA in the first 10 years."
+    },
+    {
+      "id": "6.6.10.8",
+      "if": "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit.",
+      "then": "Positive NFE = A-B>0 Where,\n“NFE” is Net Foreign Exchange;\n“A” is FOB value of exports by EOU / EHTP / STP / BTP unit and\nother supplies under para 6.08 of FTP;\n“B” is sum total of CIF value of all imported inputs and CIF value of\nall imported capital goods, and value of all payments made in foreign\nexchange by way of commission, royalty, fees, dividends, interest on\nexternal borrowings / high sea sales during first five year period or\nany other charges.",
+      "source": "For\nexisting units, proportionate Customs and excise duty must be paid\nwhere NFE is less than depreciation already claimed, before exit."
+    }
+  ]
+}

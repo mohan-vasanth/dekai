@@ -1,0 +1,57 @@
+{
+  "section": "5.25",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5.25",
+      "purpose": "Retrieve knowledge payload for section 5.25",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Clubbing-of-EPCG-authorisations/validate",
+      "purpose": "Validate inputs and documents for Clubbing of EPCG authorisations",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Clubbing-of-EPCG-authorisations/execute",
+      "purpose": "Trigger business action for 5.25 Clubbing of EPCG authorisations\n(a) Clubbing of two or more EPCG authorisations issued to the same\nauthorisation holder would be permitted.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

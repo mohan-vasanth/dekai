@@ -1,0 +1,21 @@
+{
+  "section": "2",
+  "conditions": [
+    "The segments, composite data elements, data elements and codes used in this document are based on the respective directories\nin the UN/EDIFACT D.09B Directory.",
+    "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+  ],
+  "condition_logic": [
+    {
+      "id": ".2.1",
+      "if": "The segments, composite data elements, data elements and codes used in this document are based on the respective directories\nin the UN/EDIFACT D.09B Directory.",
+      "then": "Route for review",
+      "source": "The segments, composite data elements, data elements and codes used in this document are based on the respective directories\nin the UN/EDIFACT D.09B Directory."
+    },
+    {
+      "id": ".2.2",
+      "if": "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "Route for review",
+      "source": "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    }
+  ]
+}

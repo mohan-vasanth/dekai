@@ -1,0 +1,22 @@
+{
+  "chapter_number": "1",
+  "chapter_title": "Legal Framework and Trade Facilitation Legal Framework and Trade Facilitation",
+  "section": "1.03",
+  "title": "Definition",
+  "business_rules": [
+    {
+      "rule_id": "CH1-SEC1_03-R001",
+      "rule_description": "1.03 Definition\nFor the purpose of this Handbook, definitions and glossary contained in FT (D&R) Act,\nRules and Orders made there under and in the FTP shall apply.",
+      "trigger": "Definition",
+      "condition": "Section 1.03 is applicable",
+      "validation": "1.03 Definition\nFor the purpose of this Handbook, definitions and glossary contained in FT (D&R) Act,\nRules and Orders made there under and in the FTP shall apply.",
+      "action": "1.03 Definition\nFor the purpose of this Handbook, definitions and glossary contained in FT (D&R) Act,\nRules and Orders made there under and in the FTP shall apply.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.03 - Definition."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 1.03 Definition\nFor the purpose of this Handbook, definitions and glossary contained in FT (D&R) Act,\nRules and Orders made there under and in the FTP shall apply.",
+    "IF validations pass THEN recommend action: 1.03 Definition\nFor the purpose of this Handbook, definitions and glossary contained in FT (D&R) Act,\nRules and Orders made there under and in the FTP shall apply."
+  ]
+}

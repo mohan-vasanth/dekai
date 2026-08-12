@@ -1,0 +1,47 @@
+{
+  "section": "2.76",
+  "ui": [
+    {
+      "screen_id": "Track_and_Trace_system_for_export_of_drug_formulations_overview",
+      "name": "Track and Trace system for export of drug formulations Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Track_and_Trace_system_for_export_of_drug_formulations_submission",
+      "name": "Track and Trace system for export of drug formulations Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "for_flag",
+        "the_flag",
+        "his_flag",
+        "ses_flag",
+        "hav_flag"
+      ]
+    },
+    {
+      "screen_id": "Track_and_Trace_system_for_export_of_drug_formulations_exceptions",
+      "name": "Track and Trace system for export of drug formulations Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

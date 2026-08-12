@@ -1,0 +1,1330 @@
+{
+  "section": "3",
+  "conditions": [
+    "3: Road\n4: Air\nB082 cbc:Mode Code M 1 n1 Specify Outward Transport Mode.",
+    "B076 cbc:Conveyance Reference Number C 1 an..17 Mandatory for transport mode = 1, specify voyage number.",
+    "Specify ‘NA’ if there is no voyage number.",
+    "For transport mode = 4, specify outward flight number.",
+    "Specify ‘NA’\nif there is no outward flight number.",
+    "B049 cbc:Transport Identifier C 1 an..35 Mandatory for transport mode = 1, specify vessel name.",
+    "For transport mode = 3, specify Vehicle Licence/Registration Number,\nif any.",
+    "For transport mode = 4, specify outward Aircraft Registration Number\nfor chartered flights, if any.",
+    "/cac:Transport Mode\n/cac:Transport Means\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n28 (Back-to-Back AIFTA Form AI)\n29 (Asean-Australia-New Zealand FTA Form AANZ)\n30 (Back-to-Back AANZFTA Form AANZ)\n31 (ASEAN-Hong Kong FTA Form AHK)\n32 (Back-to-Back AHKFTA Form AHK)\n33 Regional Comprehensive Economic Partnership (RCEP) Form RCEP\n34 Back-to-Back Form RCEP\nB015\ncbc:Copies Numeric\nC\n1 n..2\nSpecify additional number of copies required for this Certificate\nType.",
+    "/cac:Certificate Detail\nB014\ncbc:Preference Content Percent\nC\n1 n..3\ni) If Certificate Type = 5, mandatory to specify the percentage of\nCommonwealth Preference Content in which the value of each and every\nmanufactured article in its condition described in the Certificate\nis not less than the specified percentage.",
+    "ii) Not applicable for other Certificate Type.",
+    "B018\ncbc:Currency Code\nC\n1 a3\nAll values in the Certificate at item level will be assumed to be\nSGD unless specified here.",
+    "Specify currency code (refer to UN/ECE Recommendation No.",
+    "B038\ncbc:Additional Certificate Details\nC\n5 an..35\nSpecify certificate additional details.",
+    "B038\ncbc:Transport Details\nC\n5 an..35\nSpecify transport details.",
+    "coo:Transport\nM\n1\nA036\ncac:Outward Transport\nM\n1\nMandatory to specify OUT transport details.",
+    "A060\ncac:Transport Means\nM\n1\nMandatory to specify outward transport mode.",
+    "19) are:\n3: Road\n4: Air\nB082\ncbc:Mode Code\nM\n1 n1\nSpecify Outward Transport Mode.",
+    "B076\ncbc:Conveyance Reference Number\nC\n1 an..17\nMandatory for transport mode = 1, specify voyage number.",
+    "B049\ncbc:Transport Identifier\nC\n1 an..35\nMandatory for transport mode = 1, specify vessel name.",
+    "/cac:Transport Mode\n/cac:Transport Means\nOFFICIAL (CLOSED)\nB020 cbc:Departure Date M 1 n8 Format: CCYYMMDD\nFor outward transport, mandatory to specify Date of Departure.",
+    "B055 cbc:Discharge Port M 1 an..5 For outward transport, mandatory to specify Port of Discharge.",
+    "Specify port code (refer to UN/ECE Recommendation No.",
+    "B016 cbc:Final Destination Country M 1 a2 Mandatory to specify Country of Final Destination for outward\ntransport.",
+    "Specify country code (refer to UN/ECE Recommendation No.",
+    "/cac:Outward Transport\ncoo:Party M 1 Mandatory to specify party details.",
+    "Applicable Party Types:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Freight Forwarder; optional)\n- (Outward Carrier Agent; mandatory if Mode of Transport = 1 and\n4; optional for transport mode 2 or 3)\n- (Exporter)\n- (Consignee)\n- (Manufacturer; optional)\nA014 cac:Declarant Party M 1 Mandatory to specify the identity of the Declarant.",
+    "A043 cac:Person Information M 1 Specify Declarant Person Information.",
+    "B012 cbc:Code Value M 1 an..17 Specify Declarant Code.",
+    "B093 cbc:Name M 1 an..100 Specify Declarant name.",
+    "/cac:Person Information\nB071 cbc:Telephone M 1 an..25 Mandatory to specify Declarant contact number.",
+    "/cac:Declarant Party\nA040 cac:Declaring Agent Party C 1 Specify Declaring Agent.",
+    "A038 cac:Party Identification M 1 Specify Declaring Agent Party Identification.",
+    "B036 cbc:ID M 1 an..17 Specify Declaring Agent Entity Identifier.",
+    "/cac:Party Identification\nA039 cac:Party Name M 1 Specify Declaring Agent Party Name.",
+    "B093 cbc:Name M 2 an..50 Specify Declaring Agent name.",
+    "/cac:Party Name\n/cac:Declaring Agent Party\nA040 cac:Freight Forwarder Party C 1 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator for consol\nconsignment.",
+    "A038 cac:Party Identification M 1 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Party\nIdentification.",
+    "B036 cbc:ID M 1 an..17 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Entity\nIdentifier.",
+    "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\nB020\ncbc:Departure Date\nM\n1 n8\nFormat: CCYYMMDD\nFor outward transport, mandatory to specify Date of Departure.",
+    "B055\ncbc:Discharge Port\nM\n1 an..5\nFor outward transport, mandatory to specify Port of Discharge.",
+    "B016\ncbc:Final Destination Country\nM\n1 a2\nMandatory to specify Country of Final Destination for outward\ntransport.",
+    "/cac:Outward Transport\ncoo:Party\nM\n1\nMandatory to specify party details.",
+    "Applicable Party Types:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Freight Forwarder; optional)\n- (Outward Carrier Agent; mandatory if Mode of Transport = 1 and\n4; optional for transport mode 2 or 3)\n- (Exporter)\n- (Consignee)\n- (Manufacturer; optional)\nA014\ncac:Declarant Party\nM\n1\nMandatory to specify the identity of the Declarant.",
+    "A043\ncac:Person Information\nM\n1\nSpecify Declarant Person Information.",
+    "B012\ncbc:Code Value\nM\n1 an..17\nSpecify Declarant Code.",
+    "B093\ncbc:Name\nM\n1 an..100\nSpecify Declarant name.",
+    "/cac:Person Information\nB071\ncbc:Telephone\nM\n1 an..25\nMandatory to specify Declarant contact number.",
+    "/cac:Declarant Party\nA040\ncac:Declaring Agent Party\nC\n1\nSpecify Declaring Agent.",
+    "A038\ncac:Party Identification\nM\n1\nSpecify Declaring Agent Party Identification.",
+    "B036\ncbc:ID\nM\n1 an..17\nSpecify Declaring Agent Entity Identifier.",
+    "/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Declaring Agent Party Name.",
+    "B093\ncbc:Name\nM\n2 an..50\nSpecify Declaring Agent name.",
+    "/cac:Party Name\n/cac:Declaring Agent Party\nA040\ncac:Freight Forwarder Party\nC\n1\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator for consol\nconsignment.",
+    "A038\ncac:Party Identification\nM\n1\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Party\nIdentification.",
+    "B036\ncbc:ID\nM\n1 an..17\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Entity\nIdentifier.",
+    "OFFICIAL (CLOSED)\n/cac:Party Identification\nA039 cac:Party Name M 1 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Party Name.",
+    "B093 cbc:Name M 2 an..50 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator name.",
+    "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+    "b) Mandatory to specify outward carrier agent if outward transport\nmode = 1 or 4 (optional for outward transport mode = 2 or 3).",
+    "A038 cac:Party Identification M 1 Specify Outward Carrier Agent Party Identification.",
+    "B036 cbc:ID M 1 an..17 Specify Outward Carrier Agent Entity Identifier.",
+    "/cac:Party Identification\nA039 cac:Party Name M 1 Specify Outward Carrier Agent Party Name.",
+    "B093 cbc:Name M 2 an..50 Specify Outward Carrier Agent name.",
+    "/cac:Party Name\n/cac:Outward Carrier Agent Party\nA020 cac:Exporter Party M 1 Mandatory to specify Exporter details.",
+    "A040 cac:Party Detail M 1 Specify Exporter Party details.",
+    "A038 cac:Party Identification M 1 Specify Exporter Party Identification.",
+    "B036 cbc:ID M 1 an..17 Specify Exporter Entity Identifier.",
+    "/cac:Party Identification\nA039 cac:Party Name M 1 Specify Exporter Party Name.",
+    "B093 cbc:Name M 2 an..35 Specify Exporter name.",
+    "/cac:Party Name\n/cac:Party Detail\nA003 cac:Address Line M 1 Specify Exporter address line.",
+    "B038 cbc:Line M 3 an..35 Specify Exporter address.",
+    "/cac:Address Line\n/cac:Exporter Party\nA013 cac:Consignee Party M 1 Mandatory to specify consignee name and address.",
+    "A039 cac:Party Name M 1 Specify Consignee Party Name.",
+    "B093 cbc:Name M 2 an..35 Specify Consignee name.",
+    "/cac:Party Name\nA003 cac:Address Line M 1 Specify Consignee address line.",
+    "B038 cbc:Line M 3 an..35 Specify Consignee address.",
+    "/cac:Address Line\n/cac:Consignee Party\nA020 cac:Manufacturer Party C 1 Specify Manufacturer details.",
+    "Mandatory for Certificate Types =\n1,2,5,9,10,16,18,19,21, 23, 25, 27, 29, 31 & 33.",
+    "Optional for other\nCertificate Types.",
+    "A040 cac:Party Detail M 1 Specify Manufacturer Party details.",
+    "A038 cac:Party Identification M 1 Specify Manufacturer Party Identification.",
+    "B036 cbc:ID M 1 an..17 Specify Manufacturer Entity Identifier.",
+    "/cac:Party Identification\nA039 cac:Party Name M 1 Specify Manufacturer Party Name.",
+    "B093 cbc:Name M 2 an..35 Specify Manufacturer name.",
+    "/cac:Party Name\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Party Name.",
+    "B093\ncbc:Name\nM\n2 an..50\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator name.",
+    "/cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Outward Carrier Agent Party\nC\n1\na) Specify Outward Carrier Agent, must be registered with Customs.",
+    "A038\ncac:Party Identification\nM\n1\nSpecify Outward Carrier Agent Party Identification.",
+    "B036\ncbc:ID\nM\n1 an..17\nSpecify Outward Carrier Agent Entity Identifier.",
+    "/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Outward Carrier Agent Party Name.",
+    "B093\ncbc:Name\nM\n2 an..50\nSpecify Outward Carrier Agent name.",
+    "/cac:Party Name\n/cac:Outward Carrier Agent Party\nA020\ncac:Exporter Party\nM\n1\nMandatory to specify Exporter details.",
+    "A040\ncac:Party Detail\nM\n1\nSpecify Exporter Party details.",
+    "A038\ncac:Party Identification\nM\n1\nSpecify Exporter Party Identification.",
+    "B036\ncbc:ID\nM\n1 an..17\nSpecify Exporter Entity Identifier.",
+    "/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Exporter Party Name.",
+    "B093\ncbc:Name\nM\n2 an..35\nSpecify Exporter name.",
+    "/cac:Party Name\n/cac:Party Detail\nA003\ncac:Address Line\nM\n1\nSpecify Exporter address line.",
+    "B038\ncbc:Line\nM\n3 an..35\nSpecify Exporter address.",
+    "/cac:Address Line\n/cac:Exporter Party\nA013\ncac:Consignee Party\nM\n1\nMandatory to specify consignee name and address.",
+    "A039\ncac:Party Name\nM\n1\nSpecify Consignee Party Name.",
+    "B093\ncbc:Name\nM\n2 an..35\nSpecify Consignee name.",
+    "/cac:Party Name\nA003\ncac:Address Line\nM\n1\nSpecify Consignee address line.",
+    "B038\ncbc:Line\nM\n3 an..35\nSpecify Consignee address.",
+    "/cac:Address Line\n/cac:Consignee Party\nA020\ncac:Manufacturer Party\nC\n1\nSpecify Manufacturer details.",
+    "A040\ncac:Party Detail\nM\n1\nSpecify Manufacturer Party details.",
+    "A038\ncac:Party Identification\nM\n1\nSpecify Manufacturer Party Identification.",
+    "B036\ncbc:ID\nM\n1 an..17\nSpecify Manufacturer Entity Identifier.",
+    "/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Manufacturer Party Name.",
+    "B093\ncbc:Name\nM\n2 an..35\nSpecify Manufacturer name.",
+    "/cac:Party Name\nOFFICIAL (CLOSED)\n/cac:Party Detail\nA067 cac:Address M 1 Specify Manufacturer address in following format\nA003 cac:Address Line M 1\nB038 cbc:Line M 2 an..35 Specify Manufacturer Street and Number/PO Box.",
+    "/cac:Address Line\nB084 cbc:City Name C 1 an..35 Specify Manufacturer city name.",
+    "B085 cbc:Country Subentity Code C 1 an..9 Specify Manufacturer country subdivision code.",
+    "B086 cbc:Country Subentity C 1 an..35 Specify Manufacturer country subdivision name.",
+    "B087 cbc:Postal Zone C 1 an..9 Specify Manufacturer postal code.",
+    "B016 cbc:Country Code M 1 a2 Specify Manufacturer country code.",
+    "/cac:Address\n/cac:Manufacturer Party\ncac:Supporting Document Reference C 10 Repeat at most 10 times, specify supporting documents attached to\nthe declaration if applicable.",
+    "Only the following file formats are allowed:\n1) MS Word\n2) Adobe PDF\n3) MS Excel\n4) Image Files\na) Bitmap\nb) JPEG\nc) GIF Image\nd) EMF Image\ne) PNG Image\nf) TIF Image\nB023 cbc:Document ID M 1 an..3 Specify Document type code.",
+    "B033 cbc:Filename M 1 an..70 Specify Filename of the document.",
+    "B068 cbc:Item Sequence Numeric M 1 n..5 Mandatory to specify item Sequence Number.",
+    "B035 cbc:Item Harmonized System Code M 1 an..10 Mandatory to specify item Harmonized System code.",
+    "B058 cbc:Harmonized System Quantity M 1 n..16 Specify the item quantity and measure unit specifier.",
+    "unit Code (attribute) M 1 an..3 Specify unit (refer to UN/ECE Recommendation No.",
+    "B016 cbc:Origin Country M 1 an2 Mandatory to specify Country of Origin of goods.",
+    "B003 cbc:Item CIFFOBValue M 1 n..16 i) Specify FOB value in SGD for permit details.",
+    "ii) This FOB value will be printed on the Certificate if the\ncorresponding FOB value in Item Value below is not provided.",
+    "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n/cac:Party Detail\nA067\ncac:Address\nM\n1\nSpecify Manufacturer address in following format\nA003\ncac:Address Line\nM\n1\nB038\ncbc:Line\nM\n2 an..35\nSpecify Manufacturer Street and Number/PO Box.",
+    "/cac:Address Line\nB084\ncbc:City Name\nC\n1 an..35\nSpecify Manufacturer city name.",
+    "B085\ncbc:Country Subentity Code\nC\n1 an..9\nSpecify Manufacturer country subdivision code.",
+    "B086\ncbc:Country Subentity\nC\n1 an..35\nSpecify Manufacturer country subdivision name.",
+    "B087\ncbc:Postal Zone\nC\n1 an..9\nSpecify Manufacturer postal code.",
+    "B016\ncbc:Country Code\nM\n1 a2\nSpecify Manufacturer country code.",
+    "/cac:Address\n/cac:Manufacturer Party\ncac:Supporting Document Reference\nC\n10\nRepeat at most 10 times, specify supporting documents attached to\nthe declaration if applicable.",
+    "Only the following file formats are allowed:\n1) MS Word\n2) Adobe PDF\n3) MS Excel\n4) Image Files\na) Bitmap\nb) JPEG\nc) GIF Image\nd) EMF Image\ne) PNG Image\nf) TIF Image\nB023\ncbc:Document ID\nM\n1 an..3\nSpecify Document type code.",
+    "B033\ncbc:Filename\nM\n1 an..70\nSpecify Filename of the document.",
+    "B068\ncbc:Item Sequence Numeric\nM\n1 n..5\nMandatory to specify item Sequence Number.",
+    "B035\ncbc:Item Harmonized System Code\nM\n1 an..10\nMandatory to specify item Harmonized System code.",
+    "B058\ncbc:Harmonized System Quantity\nunit Code (attribute)\nM\nM\n1 n..16\n1 an..3\nSpecify the item quantity and measure unit specifier.",
+    "Specify unit (refer to UN/ECE Recommendation No.",
+    "B016\ncbc:Origin Country\nM\n1 an2\nMandatory to specify Country of Origin of goods.",
+    "B003\ncbc:Item CIFFOBValue\nM\n1 n..16\ni) Specify FOB value in SGD for permit details.",
+    "OFFICIAL (CLOSED)\nB070 cac:Shipping Marks Information C 1 Specify markings on cargo for marks and numbers, if any.",
+    "B065 cbc:Shipping Marks M 10 an..17 Repeat at most 10 times, specify markings on cargo for marks and\nnumbers.",
+    "/cac:Shipping Marks Information\nA028 cac:Item Certificate M 1 Specify Item Certificate detail.",
+    "B058 cbc:Item Certificate Quantity C 1 n..16 Optional to specify Certificate item quantity and measurement unit\nto be printed on the Certificate.",
+    "The measurement unit need not\nmatch the measurement unit in the Singapore Trade Classification.",
+    "unit Code (attribute) M 1 an3 Specify unit (refer to UN/ECE Recommendation No.",
+    "B003 cbc:Item Value C 1 n..16 i) This CIF/FOB value will be printed on the relevant certificates\nii) Optional for Certificate Type = 9, 16, 17, 19, 20, 21, 22, 23,\n24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.",
+    "Not applicable for\nother Certificate Types.",
+    "A027 cac:Item Certificate Description M 10 Repeat at most ten times, Provide description of the item, including\nnumber and type of packages to be printed on the Certificate.",
+    "B038 cbc:Line M 5 an..35 Specify certificate item description.",
+    "/cac:Item Certificate Description\nB020 cbc:Manufacturing Cost Date C 1 n8 Format: CCYYMMDD\nSpecify Date of Manufacturing Cost Statement/Letter of Undertaking.",
+    "b) Mandatory to Certificate Type = 9.",
+    "c) Optional for other Certificate Type.",
+    "Specify textile category code.",
+    "Specify textile quota quantity and measurement unit.",
+    "The measurement\nunit need not match the measurement unit in the Singapore Trade\nClassification.",
+    "B064 cbc:Item Invoice Number C 1 an..35 a) Optional for Certificate Types = 1, 2, 3, 12, 16, 17, 19, 20, 21,\n22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.",
+    "b) Not applicable for other Certificate Types.",
+    "Specify invoice number except for goods under single invoice.",
+    "B020 cbc:Item Invoice Date C 1 n8 Format: CCYYMMDD\nSpecify item invoice date.",
+    "B050 cbc:Origin Criterion C 3 an..25 a) Mandatory to specify Origin Criterion details if Certificate Type\n= 1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29,\n30, 31, 32, 33 & 34.",
+    "b) Optional for Certificate Type = 24.",
+    "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\nB070\ncac:Shipping Marks Information\nC\n1\nSpecify markings on cargo for marks and numbers, if any.",
+    "B065\ncbc:Shipping Marks\nM\n10 an..17\nRepeat at most 10 times, specify markings on cargo for marks and\nnumbers.",
+    "/cac:Shipping Marks Information\nA028\ncac:Item Certificate\nM\n1\nSpecify Item Certificate detail.",
+    "B058\ncbc:Item Certificate Quantity\nunit Code (attribute)\nC\nM\n1 n..16\n1 an3\nOptional to specify Certificate item quantity and measurement unit\nto be printed on the Certificate.",
+    "B003\ncbc:Item Value\nC\n1 n..16\ni) This CIF/FOB value will be printed on the relevant certificates\nii) Optional for Certificate Type = 9, 16, 17, 19, 20, 21, 22, 23,\n24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.",
+    "A027\ncac:Item Certificate Description\nM\n10\nRepeat at most ten times, Provide description of the item, including\nnumber and type of packages to be printed on the Certificate.",
+    "B038\ncbc:Line\nM\n5 an..35\nSpecify certificate item description.",
+    "/cac:Item Certificate Description\nB020\ncbc:Manufacturing Cost Date\nC\n1 n8\nFormat: CCYYMMDD\nSpecify Date of Manufacturing Cost Statement/Letter of Undertaking.",
+    "B064\ncbc:Item Invoice Number\nC\n1 an..35\na) Optional for Certificate Types = 1, 2, 3, 12, 16, 17, 19, 20, 21,\n22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.",
+    "B020\ncbc:Item Invoice Date\nC\n1 n8\nFormat: CCYYMMDD\nSpecify item invoice date.",
+    "B050\ncbc:Origin Criterion\nC\n3 an..25\na) Mandatory to specify Origin Criterion details if Certificate Type\n= 1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29,\n30, 31, 32, 33 & 34.",
+    "OFFICIAL (CLOSED)\nc) Not applicable for other Certificate Types.",
+    "Specify Origin Criterion according to rules and conditions.",
+    "B035 cbc:Harmonized System Code C 1 an..10 Specify Harmonized System code (cater for 6 digit), if applicable.",
+    "B014 cbc:Content Percent C 1 n..3 Specify percentage content of origin criterion details, if\napplicable.",
+    "/cac:Item Certificate\nSUMMARY SECTION\ncoo:Summary M 1 Mandatory to specify summary details.",
+    "B068 cbc:Number Of Items M 1 n..5 Mandatory to specify total number of items declared.",
+    "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\nc) Not applicable for other Certificate Types.",
+    "B035\ncbc:Harmonized System Code\nC\n1 an..10\nSpecify Harmonized System code (cater for 6 digit), if applicable.",
+    "B014\ncbc:Content Percent\nC\n1 n..3\nSpecify percentage content of origin criterion details, if\napplicable.",
+    "/cac:Item Certificate\nSUMMARY SECTION\ncoo:Summary\nM\n1\nMandatory to specify summary details.",
+    "B068\ncbc:Number Of Items\nM\n1 n..5\nMandatory to specify total number of items declared."
+  ],
+  "condition_logic": [
+    {
+      "id": ".3.1",
+      "if": "3: Road\n4: Air\nB082 cbc:Mode Code M 1 n1 Specify Outward Transport Mode.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "3: Road\n4: Air\nB082 cbc:Mode Code M 1 n1 Specify Outward Transport Mode."
+    },
+    {
+      "id": ".3.2",
+      "if": "B076 cbc:Conveyance Reference Number C 1 an..17 Mandatory for transport mode = 1, specify voyage number.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B076 cbc:Conveyance Reference Number C 1 an..17 Mandatory for transport mode = 1, specify voyage number."
+    },
+    {
+      "id": ".3.3",
+      "if": "Specify ‘NA’ if there is no voyage number.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Specify ‘NA’ if there is no voyage number."
+    },
+    {
+      "id": ".3.4",
+      "if": "For transport mode = 4, specify outward flight number.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "For transport mode = 4, specify outward flight number."
+    },
+    {
+      "id": ".3.5",
+      "if": "Specify ‘NA’\nif there is no outward flight number.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Specify ‘NA’\nif there is no outward flight number."
+    },
+    {
+      "id": ".3.6",
+      "if": "B049 cbc:Transport Identifier C 1 an..35 Mandatory for transport mode = 1, specify vessel name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B049 cbc:Transport Identifier C 1 an..35 Mandatory for transport mode = 1, specify vessel name."
+    },
+    {
+      "id": ".3.7",
+      "if": "For transport mode = 3, specify Vehicle Licence/Registration Number,\nif any.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "For transport mode = 3, specify Vehicle Licence/Registration Number,\nif any."
+    },
+    {
+      "id": ".3.8",
+      "if": "For transport mode = 4, specify outward Aircraft Registration Number\nfor chartered flights, if any.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "For transport mode = 4, specify outward Aircraft Registration Number\nfor chartered flights, if any."
+    },
+    {
+      "id": ".3.9",
+      "if": "/cac:Transport Mode\n/cac:Transport Means\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Transport Mode\n/cac:Transport Means\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".3.10",
+      "if": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n28 (Back-to-Back AIFTA Form AI)\n29 (Asean-Australia-New Zealand FTA Form AANZ)\n30 (Back-to-Back AANZFTA Form AANZ)\n31 (ASEAN-Hong Kong FTA Form AHK)\n32 (Back-to-Back AHKFTA Form AHK)\n33 Regional Comprehensive Economic Partnership (RCEP) Form RCEP\n34 Back-to-Back Form RCEP\nB015\ncbc:Copies Numeric\nC\n1 n..2\nSpecify additional number of copies required for this Certificate\nType.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n28 (Back-to-Back AIFTA Form AI)\n29 (Asean-Australia-New Zealand FTA Form AANZ)\n30 (Back-to-Back AANZFTA Form AANZ)\n31 (ASEAN-Hong Kong FTA Form AHK)\n32 (Back-to-Back AHKFTA Form AHK)\n33 Regional Comprehensive Economic Partnership (RCEP) Form RCEP\n34 Back-to-Back Form RCEP\nB015\ncbc:Copies Numeric\nC\n1 n..2\nSpecify additional number of copies required for this Certificate\nType."
+    },
+    {
+      "id": ".3.11",
+      "if": "Certificate Type = 5",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Certificate Detail\nB014\ncbc:Preference Content Percent\nC\n1 n..3\ni) If Certificate Type = 5, mandatory to specify the percentage of\nCommonwealth Preference Content in which the value of each and every\nmanufactured article in its condition described in the Certificate\nis not less than the specified percentage."
+    },
+    {
+      "id": ".3.12",
+      "if": "ii) Not applicable for other Certificate Type.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "ii) Not applicable for other Certificate Type."
+    },
+    {
+      "id": ".3.13",
+      "if": "B018\ncbc:Currency Code\nC\n1 a3\nAll values in the Certificate at item level will be assumed to be\nSGD unless specified here.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B018\ncbc:Currency Code\nC\n1 a3\nAll values in the Certificate at item level will be assumed to be\nSGD unless specified here."
+    },
+    {
+      "id": ".3.14",
+      "if": "Specify currency code (refer to UN/ECE Recommendation No.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Specify currency code (refer to UN/ECE Recommendation No."
+    },
+    {
+      "id": ".3.15",
+      "if": "B038\ncbc:Additional Certificate Details\nC\n5 an..35\nSpecify certificate additional details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B038\ncbc:Additional Certificate Details\nC\n5 an..35\nSpecify certificate additional details."
+    },
+    {
+      "id": ".3.16",
+      "if": "B038\ncbc:Transport Details\nC\n5 an..35\nSpecify transport details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B038\ncbc:Transport Details\nC\n5 an..35\nSpecify transport details."
+    },
+    {
+      "id": ".3.17",
+      "if": "coo:Transport\nM\n1\nA036\ncac:Outward Transport\nM\n1\nMandatory to specify OUT transport details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "coo:Transport\nM\n1\nA036\ncac:Outward Transport\nM\n1\nMandatory to specify OUT transport details."
+    },
+    {
+      "id": ".3.18",
+      "if": "A060\ncac:Transport Means\nM\n1\nMandatory to specify outward transport mode.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A060\ncac:Transport Means\nM\n1\nMandatory to specify outward transport mode."
+    },
+    {
+      "id": ".3.19",
+      "if": "19) are:\n3: Road\n4: Air\nB082\ncbc:Mode Code\nM\n1 n1\nSpecify Outward Transport Mode.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "19) are:\n3: Road\n4: Air\nB082\ncbc:Mode Code\nM\n1 n1\nSpecify Outward Transport Mode."
+    },
+    {
+      "id": ".3.20",
+      "if": "B076\ncbc:Conveyance Reference Number\nC\n1 an..17\nMandatory for transport mode = 1, specify voyage number.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B076\ncbc:Conveyance Reference Number\nC\n1 an..17\nMandatory for transport mode = 1, specify voyage number."
+    },
+    {
+      "id": ".3.21",
+      "if": "B049\ncbc:Transport Identifier\nC\n1 an..35\nMandatory for transport mode = 1, specify vessel name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B049\ncbc:Transport Identifier\nC\n1 an..35\nMandatory for transport mode = 1, specify vessel name."
+    },
+    {
+      "id": ".3.22",
+      "if": "/cac:Transport Mode\n/cac:Transport Means\nOFFICIAL (CLOSED)\nB020 cbc:Departure Date M 1 n8 Format: CCYYMMDD\nFor outward transport, mandatory to specify Date of Departure.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Transport Mode\n/cac:Transport Means\nOFFICIAL (CLOSED)\nB020 cbc:Departure Date M 1 n8 Format: CCYYMMDD\nFor outward transport, mandatory to specify Date of Departure."
+    },
+    {
+      "id": ".3.23",
+      "if": "B055 cbc:Discharge Port M 1 an..5 For outward transport, mandatory to specify Port of Discharge.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B055 cbc:Discharge Port M 1 an..5 For outward transport, mandatory to specify Port of Discharge."
+    },
+    {
+      "id": ".3.24",
+      "if": "Specify port code (refer to UN/ECE Recommendation No.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Specify port code (refer to UN/ECE Recommendation No."
+    },
+    {
+      "id": ".3.25",
+      "if": "B016 cbc:Final Destination Country M 1 a2 Mandatory to specify Country of Final Destination for outward\ntransport.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B016 cbc:Final Destination Country M 1 a2 Mandatory to specify Country of Final Destination for outward\ntransport."
+    },
+    {
+      "id": ".3.26",
+      "if": "Specify country code (refer to UN/ECE Recommendation No.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Specify country code (refer to UN/ECE Recommendation No."
+    },
+    {
+      "id": ".3.27",
+      "if": "/cac:Outward Transport\ncoo:Party M 1 Mandatory to specify party details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Outward Transport\ncoo:Party M 1 Mandatory to specify party details."
+    },
+    {
+      "id": ".3.28",
+      "if": "Applicable Party Types:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Freight Forwarder; optional)\n- (Outward Carrier Agent; mandatory if Mode of Transport = 1 and\n4; optional for transport mode 2 or 3)\n- (Exporter)\n- (Consignee)\n- (Manufacturer; optional)\nA014 cac:Declarant Party M 1 Mandatory to specify the identity of the Declarant.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Applicable Party Types:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Freight Forwarder; optional)\n- (Outward Carrier Agent; mandatory if Mode of Transport = 1 and\n4; optional for transport mode 2 or 3)\n- (Exporter)\n- (Consignee)\n- (Manufacturer; optional)\nA014 cac:Declarant Party M 1 Mandatory to specify the identity of the Declarant."
+    },
+    {
+      "id": ".3.29",
+      "if": "A043 cac:Person Information M 1 Specify Declarant Person Information.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A043 cac:Person Information M 1 Specify Declarant Person Information."
+    },
+    {
+      "id": ".3.30",
+      "if": "B012 cbc:Code Value M 1 an..17 Specify Declarant Code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B012 cbc:Code Value M 1 an..17 Specify Declarant Code."
+    },
+    {
+      "id": ".3.31",
+      "if": "B093 cbc:Name M 1 an..100 Specify Declarant name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093 cbc:Name M 1 an..100 Specify Declarant name."
+    },
+    {
+      "id": ".3.32",
+      "if": "/cac:Person Information\nB071 cbc:Telephone M 1 an..25 Mandatory to specify Declarant contact number.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Person Information\nB071 cbc:Telephone M 1 an..25 Mandatory to specify Declarant contact number."
+    },
+    {
+      "id": ".3.33",
+      "if": "/cac:Declarant Party\nA040 cac:Declaring Agent Party C 1 Specify Declaring Agent.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Declarant Party\nA040 cac:Declaring Agent Party C 1 Specify Declaring Agent."
+    },
+    {
+      "id": ".3.34",
+      "if": "A038 cac:Party Identification M 1 Specify Declaring Agent Party Identification.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A038 cac:Party Identification M 1 Specify Declaring Agent Party Identification."
+    },
+    {
+      "id": ".3.35",
+      "if": "B036 cbc:ID M 1 an..17 Specify Declaring Agent Entity Identifier.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B036 cbc:ID M 1 an..17 Specify Declaring Agent Entity Identifier."
+    },
+    {
+      "id": ".3.36",
+      "if": "/cac:Party Identification\nA039 cac:Party Name M 1 Specify Declaring Agent Party Name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Identification\nA039 cac:Party Name M 1 Specify Declaring Agent Party Name."
+    },
+    {
+      "id": ".3.37",
+      "if": "B093 cbc:Name M 2 an..50 Specify Declaring Agent name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093 cbc:Name M 2 an..50 Specify Declaring Agent name."
+    },
+    {
+      "id": ".3.38",
+      "if": "/cac:Party Name\n/cac:Declaring Agent Party\nA040 cac:Freight Forwarder Party C 1 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator for consol\nconsignment.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Name\n/cac:Declaring Agent Party\nA040 cac:Freight Forwarder Party C 1 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator for consol\nconsignment."
+    },
+    {
+      "id": ".3.39",
+      "if": "A038 cac:Party Identification M 1 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Party\nIdentification.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A038 cac:Party Identification M 1 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Party\nIdentification."
+    },
+    {
+      "id": ".3.40",
+      "if": "B036 cbc:ID M 1 an..17 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Entity\nIdentifier.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B036 cbc:ID M 1 an..17 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Entity\nIdentifier."
+    },
+    {
+      "id": ".3.41",
+      "if": "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Trade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".3.42",
+      "if": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\nB020\ncbc:Departure Date\nM\n1 n8\nFormat: CCYYMMDD\nFor outward transport, mandatory to specify Date of Departure.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\nB020\ncbc:Departure Date\nM\n1 n8\nFormat: CCYYMMDD\nFor outward transport, mandatory to specify Date of Departure."
+    },
+    {
+      "id": ".3.43",
+      "if": "B055\ncbc:Discharge Port\nM\n1 an..5\nFor outward transport, mandatory to specify Port of Discharge.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B055\ncbc:Discharge Port\nM\n1 an..5\nFor outward transport, mandatory to specify Port of Discharge."
+    },
+    {
+      "id": ".3.44",
+      "if": "B016\ncbc:Final Destination Country\nM\n1 a2\nMandatory to specify Country of Final Destination for outward\ntransport.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B016\ncbc:Final Destination Country\nM\n1 a2\nMandatory to specify Country of Final Destination for outward\ntransport."
+    },
+    {
+      "id": ".3.45",
+      "if": "/cac:Outward Transport\ncoo:Party\nM\n1\nMandatory to specify party details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Outward Transport\ncoo:Party\nM\n1\nMandatory to specify party details."
+    },
+    {
+      "id": ".3.46",
+      "if": "Applicable Party Types:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Freight Forwarder; optional)\n- (Outward Carrier Agent; mandatory if Mode of Transport = 1 and\n4; optional for transport mode 2 or 3)\n- (Exporter)\n- (Consignee)\n- (Manufacturer; optional)\nA014\ncac:Declarant Party\nM\n1\nMandatory to specify the identity of the Declarant.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Applicable Party Types:\n- (Declarant)\n- (Declaring Agent, if declared by Agent)\n- (Freight Forwarder; optional)\n- (Outward Carrier Agent; mandatory if Mode of Transport = 1 and\n4; optional for transport mode 2 or 3)\n- (Exporter)\n- (Consignee)\n- (Manufacturer; optional)\nA014\ncac:Declarant Party\nM\n1\nMandatory to specify the identity of the Declarant."
+    },
+    {
+      "id": ".3.47",
+      "if": "A043\ncac:Person Information\nM\n1\nSpecify Declarant Person Information.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A043\ncac:Person Information\nM\n1\nSpecify Declarant Person Information."
+    },
+    {
+      "id": ".3.48",
+      "if": "B012\ncbc:Code Value\nM\n1 an..17\nSpecify Declarant Code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B012\ncbc:Code Value\nM\n1 an..17\nSpecify Declarant Code."
+    },
+    {
+      "id": ".3.49",
+      "if": "B093\ncbc:Name\nM\n1 an..100\nSpecify Declarant name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093\ncbc:Name\nM\n1 an..100\nSpecify Declarant name."
+    },
+    {
+      "id": ".3.50",
+      "if": "/cac:Person Information\nB071\ncbc:Telephone\nM\n1 an..25\nMandatory to specify Declarant contact number.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Person Information\nB071\ncbc:Telephone\nM\n1 an..25\nMandatory to specify Declarant contact number."
+    },
+    {
+      "id": ".3.51",
+      "if": "/cac:Declarant Party\nA040\ncac:Declaring Agent Party\nC\n1\nSpecify Declaring Agent.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Declarant Party\nA040\ncac:Declaring Agent Party\nC\n1\nSpecify Declaring Agent."
+    },
+    {
+      "id": ".3.52",
+      "if": "A038\ncac:Party Identification\nM\n1\nSpecify Declaring Agent Party Identification.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A038\ncac:Party Identification\nM\n1\nSpecify Declaring Agent Party Identification."
+    },
+    {
+      "id": ".3.53",
+      "if": "B036\ncbc:ID\nM\n1 an..17\nSpecify Declaring Agent Entity Identifier.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B036\ncbc:ID\nM\n1 an..17\nSpecify Declaring Agent Entity Identifier."
+    },
+    {
+      "id": ".3.54",
+      "if": "/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Declaring Agent Party Name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Declaring Agent Party Name."
+    },
+    {
+      "id": ".3.55",
+      "if": "B093\ncbc:Name\nM\n2 an..50\nSpecify Declaring Agent name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093\ncbc:Name\nM\n2 an..50\nSpecify Declaring Agent name."
+    },
+    {
+      "id": ".3.56",
+      "if": "/cac:Party Name\n/cac:Declaring Agent Party\nA040\ncac:Freight Forwarder Party\nC\n1\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator for consol\nconsignment.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Name\n/cac:Declaring Agent Party\nA040\ncac:Freight Forwarder Party\nC\n1\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator for consol\nconsignment."
+    },
+    {
+      "id": ".3.57",
+      "if": "A038\ncac:Party Identification\nM\n1\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Party\nIdentification.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A038\ncac:Party Identification\nM\n1\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Party\nIdentification."
+    },
+    {
+      "id": ".3.58",
+      "if": "B036\ncbc:ID\nM\n1 an..17\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Entity\nIdentifier.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B036\ncbc:ID\nM\n1 an..17\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Entity\nIdentifier."
+    },
+    {
+      "id": ".3.59",
+      "if": "OFFICIAL (CLOSED)\n/cac:Party Identification\nA039 cac:Party Name M 1 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Party Name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "OFFICIAL (CLOSED)\n/cac:Party Identification\nA039 cac:Party Name M 1 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Party Name."
+    },
+    {
+      "id": ".3.60",
+      "if": "B093 cbc:Name M 2 an..50 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093 cbc:Name M 2 an..50 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator name."
+    },
+    {
+      "id": ".3.61",
+      "if": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs."
+    },
+    {
+      "id": ".3.62",
+      "if": "b) Mandatory to specify outward carrier agent if outward transport\nmode = 1 or 4 (optional for outward transport mode = 2 or 3).",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "b) Mandatory to specify outward carrier agent if outward transport\nmode = 1 or 4 (optional for outward transport mode = 2 or 3)."
+    },
+    {
+      "id": ".3.63",
+      "if": "A038 cac:Party Identification M 1 Specify Outward Carrier Agent Party Identification.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A038 cac:Party Identification M 1 Specify Outward Carrier Agent Party Identification."
+    },
+    {
+      "id": ".3.64",
+      "if": "B036 cbc:ID M 1 an..17 Specify Outward Carrier Agent Entity Identifier.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B036 cbc:ID M 1 an..17 Specify Outward Carrier Agent Entity Identifier."
+    },
+    {
+      "id": ".3.65",
+      "if": "/cac:Party Identification\nA039 cac:Party Name M 1 Specify Outward Carrier Agent Party Name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Identification\nA039 cac:Party Name M 1 Specify Outward Carrier Agent Party Name."
+    },
+    {
+      "id": ".3.66",
+      "if": "B093 cbc:Name M 2 an..50 Specify Outward Carrier Agent name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093 cbc:Name M 2 an..50 Specify Outward Carrier Agent name."
+    },
+    {
+      "id": ".3.67",
+      "if": "/cac:Party Name\n/cac:Outward Carrier Agent Party\nA020 cac:Exporter Party M 1 Mandatory to specify Exporter details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Name\n/cac:Outward Carrier Agent Party\nA020 cac:Exporter Party M 1 Mandatory to specify Exporter details."
+    },
+    {
+      "id": ".3.68",
+      "if": "A040 cac:Party Detail M 1 Specify Exporter Party details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A040 cac:Party Detail M 1 Specify Exporter Party details."
+    },
+    {
+      "id": ".3.69",
+      "if": "A038 cac:Party Identification M 1 Specify Exporter Party Identification.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A038 cac:Party Identification M 1 Specify Exporter Party Identification."
+    },
+    {
+      "id": ".3.70",
+      "if": "B036 cbc:ID M 1 an..17 Specify Exporter Entity Identifier.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B036 cbc:ID M 1 an..17 Specify Exporter Entity Identifier."
+    },
+    {
+      "id": ".3.71",
+      "if": "/cac:Party Identification\nA039 cac:Party Name M 1 Specify Exporter Party Name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Identification\nA039 cac:Party Name M 1 Specify Exporter Party Name."
+    },
+    {
+      "id": ".3.72",
+      "if": "B093 cbc:Name M 2 an..35 Specify Exporter name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093 cbc:Name M 2 an..35 Specify Exporter name."
+    },
+    {
+      "id": ".3.73",
+      "if": "/cac:Party Name\n/cac:Party Detail\nA003 cac:Address Line M 1 Specify Exporter address line.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Name\n/cac:Party Detail\nA003 cac:Address Line M 1 Specify Exporter address line."
+    },
+    {
+      "id": ".3.74",
+      "if": "B038 cbc:Line M 3 an..35 Specify Exporter address.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B038 cbc:Line M 3 an..35 Specify Exporter address."
+    },
+    {
+      "id": ".3.75",
+      "if": "/cac:Address Line\n/cac:Exporter Party\nA013 cac:Consignee Party M 1 Mandatory to specify consignee name and address.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Address Line\n/cac:Exporter Party\nA013 cac:Consignee Party M 1 Mandatory to specify consignee name and address."
+    },
+    {
+      "id": ".3.76",
+      "if": "A039 cac:Party Name M 1 Specify Consignee Party Name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A039 cac:Party Name M 1 Specify Consignee Party Name."
+    },
+    {
+      "id": ".3.77",
+      "if": "B093 cbc:Name M 2 an..35 Specify Consignee name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093 cbc:Name M 2 an..35 Specify Consignee name."
+    },
+    {
+      "id": ".3.78",
+      "if": "/cac:Party Name\nA003 cac:Address Line M 1 Specify Consignee address line.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Name\nA003 cac:Address Line M 1 Specify Consignee address line."
+    },
+    {
+      "id": ".3.79",
+      "if": "B038 cbc:Line M 3 an..35 Specify Consignee address.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B038 cbc:Line M 3 an..35 Specify Consignee address."
+    },
+    {
+      "id": ".3.80",
+      "if": "/cac:Address Line\n/cac:Consignee Party\nA020 cac:Manufacturer Party C 1 Specify Manufacturer details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Address Line\n/cac:Consignee Party\nA020 cac:Manufacturer Party C 1 Specify Manufacturer details."
+    },
+    {
+      "id": ".3.81",
+      "if": "Mandatory for Certificate Types =\n1,2,5,9,10,16,18,19,21, 23, 25, 27, 29, 31 & 33.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Mandatory for Certificate Types =\n1,2,5,9,10,16,18,19,21, 23, 25, 27, 29, 31 & 33."
+    },
+    {
+      "id": ".3.82",
+      "if": "Optional for other\nCertificate Types.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Optional for other\nCertificate Types."
+    },
+    {
+      "id": ".3.83",
+      "if": "A040 cac:Party Detail M 1 Specify Manufacturer Party details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A040 cac:Party Detail M 1 Specify Manufacturer Party details."
+    },
+    {
+      "id": ".3.84",
+      "if": "A038 cac:Party Identification M 1 Specify Manufacturer Party Identification.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A038 cac:Party Identification M 1 Specify Manufacturer Party Identification."
+    },
+    {
+      "id": ".3.85",
+      "if": "B036 cbc:ID M 1 an..17 Specify Manufacturer Entity Identifier.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B036 cbc:ID M 1 an..17 Specify Manufacturer Entity Identifier."
+    },
+    {
+      "id": ".3.86",
+      "if": "/cac:Party Identification\nA039 cac:Party Name M 1 Specify Manufacturer Party Name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Identification\nA039 cac:Party Name M 1 Specify Manufacturer Party Name."
+    },
+    {
+      "id": ".3.87",
+      "if": "B093 cbc:Name M 2 an..35 Specify Manufacturer name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093 cbc:Name M 2 an..35 Specify Manufacturer name."
+    },
+    {
+      "id": ".3.88",
+      "if": "/cac:Party Name\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Name\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".3.89",
+      "if": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Party Name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Party Name."
+    },
+    {
+      "id": ".3.90",
+      "if": "B093\ncbc:Name\nM\n2 an..50\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093\ncbc:Name\nM\n2 an..50\nSpecify Freight Forwarder/NVOCC/Cargo Agent/Consolidator name."
+    },
+    {
+      "id": ".3.91",
+      "if": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Outward Carrier Agent Party\nC\n1\na) Specify Outward Carrier Agent, must be registered with Customs.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Outward Carrier Agent Party\nC\n1\na) Specify Outward Carrier Agent, must be registered with Customs."
+    },
+    {
+      "id": ".3.92",
+      "if": "A038\ncac:Party Identification\nM\n1\nSpecify Outward Carrier Agent Party Identification.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A038\ncac:Party Identification\nM\n1\nSpecify Outward Carrier Agent Party Identification."
+    },
+    {
+      "id": ".3.93",
+      "if": "B036\ncbc:ID\nM\n1 an..17\nSpecify Outward Carrier Agent Entity Identifier.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B036\ncbc:ID\nM\n1 an..17\nSpecify Outward Carrier Agent Entity Identifier."
+    },
+    {
+      "id": ".3.94",
+      "if": "/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Outward Carrier Agent Party Name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Outward Carrier Agent Party Name."
+    },
+    {
+      "id": ".3.95",
+      "if": "B093\ncbc:Name\nM\n2 an..50\nSpecify Outward Carrier Agent name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093\ncbc:Name\nM\n2 an..50\nSpecify Outward Carrier Agent name."
+    },
+    {
+      "id": ".3.96",
+      "if": "/cac:Party Name\n/cac:Outward Carrier Agent Party\nA020\ncac:Exporter Party\nM\n1\nMandatory to specify Exporter details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Name\n/cac:Outward Carrier Agent Party\nA020\ncac:Exporter Party\nM\n1\nMandatory to specify Exporter details."
+    },
+    {
+      "id": ".3.97",
+      "if": "A040\ncac:Party Detail\nM\n1\nSpecify Exporter Party details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A040\ncac:Party Detail\nM\n1\nSpecify Exporter Party details."
+    },
+    {
+      "id": ".3.98",
+      "if": "A038\ncac:Party Identification\nM\n1\nSpecify Exporter Party Identification.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A038\ncac:Party Identification\nM\n1\nSpecify Exporter Party Identification."
+    },
+    {
+      "id": ".3.99",
+      "if": "B036\ncbc:ID\nM\n1 an..17\nSpecify Exporter Entity Identifier.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B036\ncbc:ID\nM\n1 an..17\nSpecify Exporter Entity Identifier."
+    },
+    {
+      "id": ".3.100",
+      "if": "/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Exporter Party Name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Exporter Party Name."
+    },
+    {
+      "id": ".3.101",
+      "if": "B093\ncbc:Name\nM\n2 an..35\nSpecify Exporter name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093\ncbc:Name\nM\n2 an..35\nSpecify Exporter name."
+    },
+    {
+      "id": ".3.102",
+      "if": "/cac:Party Name\n/cac:Party Detail\nA003\ncac:Address Line\nM\n1\nSpecify Exporter address line.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Name\n/cac:Party Detail\nA003\ncac:Address Line\nM\n1\nSpecify Exporter address line."
+    },
+    {
+      "id": ".3.103",
+      "if": "B038\ncbc:Line\nM\n3 an..35\nSpecify Exporter address.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B038\ncbc:Line\nM\n3 an..35\nSpecify Exporter address."
+    },
+    {
+      "id": ".3.104",
+      "if": "/cac:Address Line\n/cac:Exporter Party\nA013\ncac:Consignee Party\nM\n1\nMandatory to specify consignee name and address.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Address Line\n/cac:Exporter Party\nA013\ncac:Consignee Party\nM\n1\nMandatory to specify consignee name and address."
+    },
+    {
+      "id": ".3.105",
+      "if": "A039\ncac:Party Name\nM\n1\nSpecify Consignee Party Name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A039\ncac:Party Name\nM\n1\nSpecify Consignee Party Name."
+    },
+    {
+      "id": ".3.106",
+      "if": "B093\ncbc:Name\nM\n2 an..35\nSpecify Consignee name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093\ncbc:Name\nM\n2 an..35\nSpecify Consignee name."
+    },
+    {
+      "id": ".3.107",
+      "if": "/cac:Party Name\nA003\ncac:Address Line\nM\n1\nSpecify Consignee address line.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Name\nA003\ncac:Address Line\nM\n1\nSpecify Consignee address line."
+    },
+    {
+      "id": ".3.108",
+      "if": "B038\ncbc:Line\nM\n3 an..35\nSpecify Consignee address.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B038\ncbc:Line\nM\n3 an..35\nSpecify Consignee address."
+    },
+    {
+      "id": ".3.109",
+      "if": "/cac:Address Line\n/cac:Consignee Party\nA020\ncac:Manufacturer Party\nC\n1\nSpecify Manufacturer details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Address Line\n/cac:Consignee Party\nA020\ncac:Manufacturer Party\nC\n1\nSpecify Manufacturer details."
+    },
+    {
+      "id": ".3.110",
+      "if": "A040\ncac:Party Detail\nM\n1\nSpecify Manufacturer Party details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A040\ncac:Party Detail\nM\n1\nSpecify Manufacturer Party details."
+    },
+    {
+      "id": ".3.111",
+      "if": "A038\ncac:Party Identification\nM\n1\nSpecify Manufacturer Party Identification.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A038\ncac:Party Identification\nM\n1\nSpecify Manufacturer Party Identification."
+    },
+    {
+      "id": ".3.112",
+      "if": "B036\ncbc:ID\nM\n1 an..17\nSpecify Manufacturer Entity Identifier.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B036\ncbc:ID\nM\n1 an..17\nSpecify Manufacturer Entity Identifier."
+    },
+    {
+      "id": ".3.113",
+      "if": "/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Manufacturer Party Name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Identification\nA039\ncac:Party Name\nM\n1\nSpecify Manufacturer Party Name."
+    },
+    {
+      "id": ".3.114",
+      "if": "B093\ncbc:Name\nM\n2 an..35\nSpecify Manufacturer name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B093\ncbc:Name\nM\n2 an..35\nSpecify Manufacturer name."
+    },
+    {
+      "id": ".3.115",
+      "if": "/cac:Party Name\nOFFICIAL (CLOSED)\n/cac:Party Detail\nA067 cac:Address M 1 Specify Manufacturer address in following format\nA003 cac:Address Line M 1\nB038 cbc:Line M 2 an..35 Specify Manufacturer Street and Number/PO Box.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Party Name\nOFFICIAL (CLOSED)\n/cac:Party Detail\nA067 cac:Address M 1 Specify Manufacturer address in following format\nA003 cac:Address Line M 1\nB038 cbc:Line M 2 an..35 Specify Manufacturer Street and Number/PO Box."
+    },
+    {
+      "id": ".3.116",
+      "if": "/cac:Address Line\nB084 cbc:City Name C 1 an..35 Specify Manufacturer city name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Address Line\nB084 cbc:City Name C 1 an..35 Specify Manufacturer city name."
+    },
+    {
+      "id": ".3.117",
+      "if": "B085 cbc:Country Subentity Code C 1 an..9 Specify Manufacturer country subdivision code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B085 cbc:Country Subentity Code C 1 an..9 Specify Manufacturer country subdivision code."
+    },
+    {
+      "id": ".3.118",
+      "if": "B086 cbc:Country Subentity C 1 an..35 Specify Manufacturer country subdivision name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B086 cbc:Country Subentity C 1 an..35 Specify Manufacturer country subdivision name."
+    },
+    {
+      "id": ".3.119",
+      "if": "B087 cbc:Postal Zone C 1 an..9 Specify Manufacturer postal code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B087 cbc:Postal Zone C 1 an..9 Specify Manufacturer postal code."
+    },
+    {
+      "id": ".3.120",
+      "if": "B016 cbc:Country Code M 1 a2 Specify Manufacturer country code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B016 cbc:Country Code M 1 a2 Specify Manufacturer country code."
+    },
+    {
+      "id": ".3.121",
+      "if": "/cac:Address\n/cac:Manufacturer Party\ncac:Supporting Document Reference C 10 Repeat at most 10 times, specify supporting documents attached to\nthe declaration if applicable.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Address\n/cac:Manufacturer Party\ncac:Supporting Document Reference C 10 Repeat at most 10 times, specify supporting documents attached to\nthe declaration if applicable."
+    },
+    {
+      "id": ".3.122",
+      "if": "Only the following file formats are allowed:\n1) MS Word\n2) Adobe PDF\n3) MS Excel\n4) Image Files\na) Bitmap\nb) JPEG\nc) GIF Image\nd) EMF Image\ne) PNG Image\nf) TIF Image\nB023 cbc:Document ID M 1 an..3 Specify Document type code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Only the following file formats are allowed:\n1) MS Word\n2) Adobe PDF\n3) MS Excel\n4) Image Files\na) Bitmap\nb) JPEG\nc) GIF Image\nd) EMF Image\ne) PNG Image\nf) TIF Image\nB023 cbc:Document ID M 1 an..3 Specify Document type code."
+    },
+    {
+      "id": ".3.123",
+      "if": "B033 cbc:Filename M 1 an..70 Specify Filename of the document.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B033 cbc:Filename M 1 an..70 Specify Filename of the document."
+    },
+    {
+      "id": ".3.124",
+      "if": "B068 cbc:Item Sequence Numeric M 1 n..5 Mandatory to specify item Sequence Number.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B068 cbc:Item Sequence Numeric M 1 n..5 Mandatory to specify item Sequence Number."
+    },
+    {
+      "id": ".3.125",
+      "if": "B035 cbc:Item Harmonized System Code M 1 an..10 Mandatory to specify item Harmonized System code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B035 cbc:Item Harmonized System Code M 1 an..10 Mandatory to specify item Harmonized System code."
+    },
+    {
+      "id": ".3.126",
+      "if": "B058 cbc:Harmonized System Quantity M 1 n..16 Specify the item quantity and measure unit specifier.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B058 cbc:Harmonized System Quantity M 1 n..16 Specify the item quantity and measure unit specifier."
+    },
+    {
+      "id": ".3.127",
+      "if": "unit Code (attribute) M 1 an..3 Specify unit (refer to UN/ECE Recommendation No.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "unit Code (attribute) M 1 an..3 Specify unit (refer to UN/ECE Recommendation No."
+    },
+    {
+      "id": ".3.128",
+      "if": "B016 cbc:Origin Country M 1 an2 Mandatory to specify Country of Origin of goods.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B016 cbc:Origin Country M 1 an2 Mandatory to specify Country of Origin of goods."
+    },
+    {
+      "id": ".3.129",
+      "if": "B003 cbc:Item CIFFOBValue M 1 n..16 i) Specify FOB value in SGD for permit details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B003 cbc:Item CIFFOBValue M 1 n..16 i) Specify FOB value in SGD for permit details."
+    },
+    {
+      "id": ".3.130",
+      "if": "ii) This FOB value will be printed on the Certificate if the\ncorresponding FOB value in Item Value below is not provided.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "ii) This FOB value will be printed on the Certificate if the\ncorresponding FOB value in Item Value below is not provided."
+    },
+    {
+      "id": ".3.131",
+      "if": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n/cac:Party Detail\nA067\ncac:Address\nM\n1\nSpecify Manufacturer address in following format\nA003\ncac:Address Line\nM\n1\nB038\ncbc:Line\nM\n2 an..35\nSpecify Manufacturer Street and Number/PO Box.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n/cac:Party Detail\nA067\ncac:Address\nM\n1\nSpecify Manufacturer address in following format\nA003\ncac:Address Line\nM\n1\nB038\ncbc:Line\nM\n2 an..35\nSpecify Manufacturer Street and Number/PO Box."
+    },
+    {
+      "id": ".3.132",
+      "if": "/cac:Address Line\nB084\ncbc:City Name\nC\n1 an..35\nSpecify Manufacturer city name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Address Line\nB084\ncbc:City Name\nC\n1 an..35\nSpecify Manufacturer city name."
+    },
+    {
+      "id": ".3.133",
+      "if": "B085\ncbc:Country Subentity Code\nC\n1 an..9\nSpecify Manufacturer country subdivision code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B085\ncbc:Country Subentity Code\nC\n1 an..9\nSpecify Manufacturer country subdivision code."
+    },
+    {
+      "id": ".3.134",
+      "if": "B086\ncbc:Country Subentity\nC\n1 an..35\nSpecify Manufacturer country subdivision name.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B086\ncbc:Country Subentity\nC\n1 an..35\nSpecify Manufacturer country subdivision name."
+    },
+    {
+      "id": ".3.135",
+      "if": "B087\ncbc:Postal Zone\nC\n1 an..9\nSpecify Manufacturer postal code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B087\ncbc:Postal Zone\nC\n1 an..9\nSpecify Manufacturer postal code."
+    },
+    {
+      "id": ".3.136",
+      "if": "B016\ncbc:Country Code\nM\n1 a2\nSpecify Manufacturer country code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B016\ncbc:Country Code\nM\n1 a2\nSpecify Manufacturer country code."
+    },
+    {
+      "id": ".3.137",
+      "if": "/cac:Address\n/cac:Manufacturer Party\ncac:Supporting Document Reference\nC\n10\nRepeat at most 10 times, specify supporting documents attached to\nthe declaration if applicable.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Address\n/cac:Manufacturer Party\ncac:Supporting Document Reference\nC\n10\nRepeat at most 10 times, specify supporting documents attached to\nthe declaration if applicable."
+    },
+    {
+      "id": ".3.138",
+      "if": "Only the following file formats are allowed:\n1) MS Word\n2) Adobe PDF\n3) MS Excel\n4) Image Files\na) Bitmap\nb) JPEG\nc) GIF Image\nd) EMF Image\ne) PNG Image\nf) TIF Image\nB023\ncbc:Document ID\nM\n1 an..3\nSpecify Document type code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Only the following file formats are allowed:\n1) MS Word\n2) Adobe PDF\n3) MS Excel\n4) Image Files\na) Bitmap\nb) JPEG\nc) GIF Image\nd) EMF Image\ne) PNG Image\nf) TIF Image\nB023\ncbc:Document ID\nM\n1 an..3\nSpecify Document type code."
+    },
+    {
+      "id": ".3.139",
+      "if": "B033\ncbc:Filename\nM\n1 an..70\nSpecify Filename of the document.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B033\ncbc:Filename\nM\n1 an..70\nSpecify Filename of the document."
+    },
+    {
+      "id": ".3.140",
+      "if": "B068\ncbc:Item Sequence Numeric\nM\n1 n..5\nMandatory to specify item Sequence Number.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B068\ncbc:Item Sequence Numeric\nM\n1 n..5\nMandatory to specify item Sequence Number."
+    },
+    {
+      "id": ".3.141",
+      "if": "B035\ncbc:Item Harmonized System Code\nM\n1 an..10\nMandatory to specify item Harmonized System code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B035\ncbc:Item Harmonized System Code\nM\n1 an..10\nMandatory to specify item Harmonized System code."
+    },
+    {
+      "id": ".3.142",
+      "if": "B058\ncbc:Harmonized System Quantity\nunit Code (attribute)\nM\nM\n1 n..16\n1 an..3\nSpecify the item quantity and measure unit specifier.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B058\ncbc:Harmonized System Quantity\nunit Code (attribute)\nM\nM\n1 n..16\n1 an..3\nSpecify the item quantity and measure unit specifier."
+    },
+    {
+      "id": ".3.143",
+      "if": "Specify unit (refer to UN/ECE Recommendation No.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Specify unit (refer to UN/ECE Recommendation No."
+    },
+    {
+      "id": ".3.144",
+      "if": "B016\ncbc:Origin Country\nM\n1 an2\nMandatory to specify Country of Origin of goods.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B016\ncbc:Origin Country\nM\n1 an2\nMandatory to specify Country of Origin of goods."
+    },
+    {
+      "id": ".3.145",
+      "if": "B003\ncbc:Item CIFFOBValue\nM\n1 n..16\ni) Specify FOB value in SGD for permit details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B003\ncbc:Item CIFFOBValue\nM\n1 n..16\ni) Specify FOB value in SGD for permit details."
+    },
+    {
+      "id": ".3.146",
+      "if": "OFFICIAL (CLOSED)\nB070 cac:Shipping Marks Information C 1 Specify markings on cargo for marks and numbers, if any.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "OFFICIAL (CLOSED)\nB070 cac:Shipping Marks Information C 1 Specify markings on cargo for marks and numbers, if any."
+    },
+    {
+      "id": ".3.147",
+      "if": "B065 cbc:Shipping Marks M 10 an..17 Repeat at most 10 times, specify markings on cargo for marks and\nnumbers.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B065 cbc:Shipping Marks M 10 an..17 Repeat at most 10 times, specify markings on cargo for marks and\nnumbers."
+    },
+    {
+      "id": ".3.148",
+      "if": "/cac:Shipping Marks Information\nA028 cac:Item Certificate M 1 Specify Item Certificate detail.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Shipping Marks Information\nA028 cac:Item Certificate M 1 Specify Item Certificate detail."
+    },
+    {
+      "id": ".3.149",
+      "if": "B058 cbc:Item Certificate Quantity C 1 n..16 Optional to specify Certificate item quantity and measurement unit\nto be printed on the Certificate.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B058 cbc:Item Certificate Quantity C 1 n..16 Optional to specify Certificate item quantity and measurement unit\nto be printed on the Certificate."
+    },
+    {
+      "id": ".3.150",
+      "if": "The measurement unit need not\nmatch the measurement unit in the Singapore Trade Classification.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "The measurement unit need not\nmatch the measurement unit in the Singapore Trade Classification."
+    },
+    {
+      "id": ".3.151",
+      "if": "unit Code (attribute) M 1 an3 Specify unit (refer to UN/ECE Recommendation No.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "unit Code (attribute) M 1 an3 Specify unit (refer to UN/ECE Recommendation No."
+    },
+    {
+      "id": ".3.152",
+      "if": "B003 cbc:Item Value C 1 n..16 i) This CIF/FOB value will be printed on the relevant certificates\nii) Optional for Certificate Type = 9, 16, 17, 19, 20, 21, 22, 23,\n24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B003 cbc:Item Value C 1 n..16 i) This CIF/FOB value will be printed on the relevant certificates\nii) Optional for Certificate Type = 9, 16, 17, 19, 20, 21, 22, 23,\n24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34."
+    },
+    {
+      "id": ".3.153",
+      "if": "Not applicable for\nother Certificate Types.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Not applicable for\nother Certificate Types."
+    },
+    {
+      "id": ".3.154",
+      "if": "A027 cac:Item Certificate Description M 10 Repeat at most ten times, Provide description of the item, including\nnumber and type of packages to be printed on the Certificate.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A027 cac:Item Certificate Description M 10 Repeat at most ten times, Provide description of the item, including\nnumber and type of packages to be printed on the Certificate."
+    },
+    {
+      "id": ".3.155",
+      "if": "B038 cbc:Line M 5 an..35 Specify certificate item description.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B038 cbc:Line M 5 an..35 Specify certificate item description."
+    },
+    {
+      "id": ".3.156",
+      "if": "/cac:Item Certificate Description\nB020 cbc:Manufacturing Cost Date C 1 n8 Format: CCYYMMDD\nSpecify Date of Manufacturing Cost Statement/Letter of Undertaking.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Item Certificate Description\nB020 cbc:Manufacturing Cost Date C 1 n8 Format: CCYYMMDD\nSpecify Date of Manufacturing Cost Statement/Letter of Undertaking."
+    },
+    {
+      "id": ".3.157",
+      "if": "b) Mandatory to Certificate Type = 9.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "b) Mandatory to Certificate Type = 9."
+    },
+    {
+      "id": ".3.158",
+      "if": "c) Optional for other Certificate Type.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "c) Optional for other Certificate Type."
+    },
+    {
+      "id": ".3.159",
+      "if": "Specify textile category code.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Specify textile category code."
+    },
+    {
+      "id": ".3.160",
+      "if": "Specify textile quota quantity and measurement unit.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Specify textile quota quantity and measurement unit."
+    },
+    {
+      "id": ".3.161",
+      "if": "The measurement\nunit need not match the measurement unit in the Singapore Trade\nClassification.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "The measurement\nunit need not match the measurement unit in the Singapore Trade\nClassification."
+    },
+    {
+      "id": ".3.162",
+      "if": "B064 cbc:Item Invoice Number C 1 an..35 a) Optional for Certificate Types = 1, 2, 3, 12, 16, 17, 19, 20, 21,\n22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B064 cbc:Item Invoice Number C 1 an..35 a) Optional for Certificate Types = 1, 2, 3, 12, 16, 17, 19, 20, 21,\n22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34."
+    },
+    {
+      "id": ".3.163",
+      "if": "b) Not applicable for other Certificate Types.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "b) Not applicable for other Certificate Types."
+    },
+    {
+      "id": ".3.164",
+      "if": "Specify invoice number except for goods under single invoice.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Specify invoice number except for goods under single invoice."
+    },
+    {
+      "id": ".3.165",
+      "if": "B020 cbc:Item Invoice Date C 1 n8 Format: CCYYMMDD\nSpecify item invoice date.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B020 cbc:Item Invoice Date C 1 n8 Format: CCYYMMDD\nSpecify item invoice date."
+    },
+    {
+      "id": ".3.166",
+      "if": "B050 cbc:Origin Criterion C 3 an..25 a) Mandatory to specify Origin Criterion details if Certificate Type\n= 1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29,\n30, 31, 32, 33 & 34.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B050 cbc:Origin Criterion C 3 an..25 a) Mandatory to specify Origin Criterion details if Certificate Type\n= 1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29,\n30, 31, 32, 33 & 34."
+    },
+    {
+      "id": ".3.167",
+      "if": "b) Optional for Certificate Type = 24.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "b) Optional for Certificate Type = 24."
+    },
+    {
+      "id": ".3.168",
+      "if": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\nB070\ncac:Shipping Marks Information\nC\n1\nSpecify markings on cargo for marks and numbers, if any.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\nB070\ncac:Shipping Marks Information\nC\n1\nSpecify markings on cargo for marks and numbers, if any."
+    },
+    {
+      "id": ".3.169",
+      "if": "B065\ncbc:Shipping Marks\nM\n10 an..17\nRepeat at most 10 times, specify markings on cargo for marks and\nnumbers.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B065\ncbc:Shipping Marks\nM\n10 an..17\nRepeat at most 10 times, specify markings on cargo for marks and\nnumbers."
+    },
+    {
+      "id": ".3.170",
+      "if": "/cac:Shipping Marks Information\nA028\ncac:Item Certificate\nM\n1\nSpecify Item Certificate detail.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Shipping Marks Information\nA028\ncac:Item Certificate\nM\n1\nSpecify Item Certificate detail."
+    },
+    {
+      "id": ".3.171",
+      "if": "B058\ncbc:Item Certificate Quantity\nunit Code (attribute)\nC\nM\n1 n..16\n1 an3\nOptional to specify Certificate item quantity and measurement unit\nto be printed on the Certificate.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B058\ncbc:Item Certificate Quantity\nunit Code (attribute)\nC\nM\n1 n..16\n1 an3\nOptional to specify Certificate item quantity and measurement unit\nto be printed on the Certificate."
+    },
+    {
+      "id": ".3.172",
+      "if": "B003\ncbc:Item Value\nC\n1 n..16\ni) This CIF/FOB value will be printed on the relevant certificates\nii) Optional for Certificate Type = 9, 16, 17, 19, 20, 21, 22, 23,\n24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B003\ncbc:Item Value\nC\n1 n..16\ni) This CIF/FOB value will be printed on the relevant certificates\nii) Optional for Certificate Type = 9, 16, 17, 19, 20, 21, 22, 23,\n24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34."
+    },
+    {
+      "id": ".3.173",
+      "if": "A027\ncac:Item Certificate Description\nM\n10\nRepeat at most ten times, Provide description of the item, including\nnumber and type of packages to be printed on the Certificate.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "A027\ncac:Item Certificate Description\nM\n10\nRepeat at most ten times, Provide description of the item, including\nnumber and type of packages to be printed on the Certificate."
+    },
+    {
+      "id": ".3.174",
+      "if": "B038\ncbc:Line\nM\n5 an..35\nSpecify certificate item description.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B038\ncbc:Line\nM\n5 an..35\nSpecify certificate item description."
+    },
+    {
+      "id": ".3.175",
+      "if": "/cac:Item Certificate Description\nB020\ncbc:Manufacturing Cost Date\nC\n1 n8\nFormat: CCYYMMDD\nSpecify Date of Manufacturing Cost Statement/Letter of Undertaking.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Item Certificate Description\nB020\ncbc:Manufacturing Cost Date\nC\n1 n8\nFormat: CCYYMMDD\nSpecify Date of Manufacturing Cost Statement/Letter of Undertaking."
+    },
+    {
+      "id": ".3.176",
+      "if": "B064\ncbc:Item Invoice Number\nC\n1 an..35\na) Optional for Certificate Types = 1, 2, 3, 12, 16, 17, 19, 20, 21,\n22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B064\ncbc:Item Invoice Number\nC\n1 an..35\na) Optional for Certificate Types = 1, 2, 3, 12, 16, 17, 19, 20, 21,\n22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34."
+    },
+    {
+      "id": ".3.177",
+      "if": "B020\ncbc:Item Invoice Date\nC\n1 n8\nFormat: CCYYMMDD\nSpecify item invoice date.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B020\ncbc:Item Invoice Date\nC\n1 n8\nFormat: CCYYMMDD\nSpecify item invoice date."
+    },
+    {
+      "id": ".3.178",
+      "if": "B050\ncbc:Origin Criterion\nC\n3 an..25\na) Mandatory to specify Origin Criterion details if Certificate Type\n= 1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29,\n30, 31, 32, 33 & 34.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B050\ncbc:Origin Criterion\nC\n3 an..25\na) Mandatory to specify Origin Criterion details if Certificate Type\n= 1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29,\n30, 31, 32, 33 & 34."
+    },
+    {
+      "id": ".3.179",
+      "if": "OFFICIAL (CLOSED)\nc) Not applicable for other Certificate Types.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "OFFICIAL (CLOSED)\nc) Not applicable for other Certificate Types."
+    },
+    {
+      "id": ".3.180",
+      "if": "Specify Origin Criterion according to rules and conditions.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "Specify Origin Criterion according to rules and conditions."
+    },
+    {
+      "id": ".3.181",
+      "if": "B035 cbc:Harmonized System Code C 1 an..10 Specify Harmonized System code (cater for 6 digit), if applicable.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B035 cbc:Harmonized System Code C 1 an..10 Specify Harmonized System code (cater for 6 digit), if applicable."
+    },
+    {
+      "id": ".3.182",
+      "if": "B014 cbc:Content Percent C 1 n..3 Specify percentage content of origin criterion details, if\napplicable.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B014 cbc:Content Percent C 1 n..3 Specify percentage content of origin criterion details, if\napplicable."
+    },
+    {
+      "id": ".3.183",
+      "if": "/cac:Item Certificate\nSUMMARY SECTION\ncoo:Summary M 1 Mandatory to specify summary details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Item Certificate\nSUMMARY SECTION\ncoo:Summary M 1 Mandatory to specify summary details."
+    },
+    {
+      "id": ".3.184",
+      "if": "B068 cbc:Number Of Items M 1 n..5 Mandatory to specify total number of items declared.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B068 cbc:Number Of Items M 1 n..5 Mandatory to specify total number of items declared."
+    },
+    {
+      "id": ".3.185",
+      "if": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\nc) Not applicable for other Certificate Types.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\nc) Not applicable for other Certificate Types."
+    },
+    {
+      "id": ".3.186",
+      "if": "B035\ncbc:Harmonized System Code\nC\n1 an..10\nSpecify Harmonized System code (cater for 6 digit), if applicable.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B035\ncbc:Harmonized System Code\nC\n1 an..10\nSpecify Harmonized System code (cater for 6 digit), if applicable."
+    },
+    {
+      "id": ".3.187",
+      "if": "B014\ncbc:Content Percent\nC\n1 n..3\nSpecify percentage content of origin criterion details, if\napplicable.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B014\ncbc:Content Percent\nC\n1 n..3\nSpecify percentage content of origin criterion details, if\napplicable."
+    },
+    {
+      "id": ".3.188",
+      "if": "/cac:Item Certificate\nSUMMARY SECTION\ncoo:Summary\nM\n1\nMandatory to specify summary details.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "/cac:Item Certificate\nSUMMARY SECTION\ncoo:Summary\nM\n1\nMandatory to specify summary details."
+    },
+    {
+      "id": ".3.189",
+      "if": "B068\ncbc:Number Of Items\nM\n1 n..5\nMandatory to specify total number of items declared.",
+      "then": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "source": "B068\ncbc:Number Of Items\nM\n1 n..5\nMandatory to specify total number of items declared."
+    }
+  ]
+}

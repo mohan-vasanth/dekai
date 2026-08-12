@@ -1,0 +1,1718 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.13",
+  "title": "Surrender of IEC",
+  "purpose": "2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.",
+  "purpose_thanglish": "Indha Surrender of IEC section-la, 2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.",
+  "summary": "2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority. On receipt, the issuing authority shall examine the\nrequest. On approval the updated IEC shall be transmitted to the Customs authorities.",
+  "business_meaning": "Surrender of IEC governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Surrender of IEC explains the operating rule set that DEKAI should enforce. Key control points include On receipt, the issuing authority shall examine the\nrequest. The section also drives actions such as | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible..",
+  "business_explanation_thanglish": "Indha Surrender of IEC section-la, Surrender of IEC explains the operating rule set that DEKAI should enforce. Key control points include On receipt, the issuing authority kandippa examine the\nrequest. The section also drives actions such as | |\nc) The details submitted in the IEC applicatio | n kandippa | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible..",
+  "business_logic": [
+    "On receipt, the issuing authority shall examine the\nrequest.",
+    "On approval the updated IEC shall be transmitted to the Customs authorities.",
+    "14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.",
+    "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+    "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+    "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+    "On receipt, the | issuing | authority shall e | xamine the\nrequest.",
+    "On approval the updated IEC shall be tra | nsmitte | d to the Customs | authorities."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_13-R001",
+      "rule_description": "On receipt, the issuing authority shall examine the\nrequest.",
+      "trigger": "Surrender of IEC",
+      "condition": "an IEC holder does not wish to operate allotted IEC",
+      "validation": "On receipt, the issuing authority shall examine the\nrequest.",
+      "action": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "exception": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+      "output": "DEKAI should produce a compliance decision for 2.13 - Surrender of IEC."
+    },
+    {
+      "rule_id": "CH2-SEC2_13-R002",
+      "rule_description": "On approval the updated IEC shall be transmitted to the Customs authorities.",
+      "trigger": "Surrender of IEC",
+      "condition": "Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard.",
+      "validation": "On approval the updated IEC shall be transmitted to the Customs authorities.",
+      "action": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+      "exception": "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+      "output": "DEKAI should produce a compliance decision for 2.13 - Surrender of IEC."
+    },
+    {
+      "rule_id": "CH2-SEC2_13-R003",
+      "rule_description": "14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.",
+      "trigger": "Surrender of IEC",
+      "condition": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "validation": "14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.",
+      "action": "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+      "exception": "| | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP.",
+      "output": "DEKAI should produce a compliance decision for 2.13 - Surrender of IEC."
+    },
+    {
+      "rule_id": "CH2-SEC2_13-R004",
+      "rule_description": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "trigger": "Surrender of IEC",
+      "condition": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+      "validation": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "action": "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+      "exception": "| | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP.",
+      "output": "DEKAI should produce a compliance decision for 2.13 - Surrender of IEC."
+    },
+    {
+      "rule_id": "CH2-SEC2_13-R005",
+      "rule_description": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+      "trigger": "Surrender of IEC",
+      "condition": "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+      "validation": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+      "action": "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+      "exception": "| | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP.",
+      "output": "DEKAI should produce a compliance decision for 2.13 - Surrender of IEC."
+    },
+    {
+      "rule_id": "CH2-SEC2_13-R006",
+      "rule_description": "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+      "trigger": "Surrender of IEC",
+      "condition": "an IEC holder does not wish to operate allotte | d IEC",
+      "validation": "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+      "action": "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+      "exception": "| | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP.",
+      "output": "DEKAI should produce a compliance decision for 2.13 - Surrender of IEC."
+    },
+    {
+      "rule_id": "CH2-SEC2_13-R007",
+      "rule_description": "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+      "trigger": "Surrender of IEC",
+      "condition": "an IEC holder does not wish to operate allotted IEC",
+      "validation": "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+      "action": "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+      "exception": "| | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP.",
+      "output": "DEKAI should produce a compliance decision for 2.13 - Surrender of IEC."
+    },
+    {
+      "rule_id": "CH2-SEC2_13-R008",
+      "rule_description": "On receipt, the | issuing | authority shall e | xamine the\nrequest.",
+      "trigger": "Surrender of IEC",
+      "condition": "14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc.",
+      "validation": "On receipt, the | issuing | authority shall e | xamine the\nrequest.",
+      "action": "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+      "exception": "| | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP.",
+      "output": "DEKAI should produce a compliance decision for 2.13 - Surrender of IEC."
+    },
+    {
+      "rule_id": "CH2-SEC2_13-R009",
+      "rule_description": "On approval the updated IEC shall be tra | nsmitte | d to the Customs | authorities.",
+      "trigger": "Surrender of IEC",
+      "condition": "14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc.",
+      "validation": "On approval the updated IEC shall be tra | nsmitte | d to the Customs | authorities.",
+      "action": "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+      "exception": "| | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP.",
+      "output": "DEKAI should produce a compliance decision for 2.13 - Surrender of IEC."
+    }
+  ],
+  "conditions": [
+    "2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.",
+    "Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard.",
+    "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+    "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+    "| | |\n2.13 Surrender of IEC | | |\nIf an IEC holder does not wish to operate allotte | d IEC, t | hey may surrende | r the same\nonline to the issuing authority.",
+    "14\n2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.",
+    "14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.13.1",
+      "if": "an IEC holder does not wish to operate allotted IEC",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority."
+    },
+    {
+      "id": "2.2.13.2",
+      "if": "Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard.",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard."
+    },
+    {
+      "id": "2.2.13.3",
+      "if": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible."
+    },
+    {
+      "id": "2.2.13.4",
+      "if": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time."
+    },
+    {
+      "id": "2.2.13.5",
+      "if": "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y."
+    },
+    {
+      "id": "2.2.13.6",
+      "if": "an IEC holder does not wish to operate allotte | d IEC",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "| | |\n2.13 Surrender of IEC | | |\nIf an IEC holder does not wish to operate allotte | d IEC, t | hey may surrende | r the same\nonline to the issuing authority."
+    },
+    {
+      "id": "2.2.13.7",
+      "if": "an IEC holder does not wish to operate allotted IEC",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "14\n2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority."
+    },
+    {
+      "id": "2.2.13.8",
+      "if": "14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc.",
+      "then": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "source": "14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc."
+    }
+  ],
+  "validations": [
+    "On receipt, the issuing authority shall examine the\nrequest.",
+    "On approval the updated IEC shall be transmitted to the Customs authorities.",
+    "14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.",
+    "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+    "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+    "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+    "On receipt, the | issuing | authority shall e | xamine the\nrequest.",
+    "On approval the updated IEC shall be tra | nsmitte | d to the Customs | authorities."
+  ],
+  "exceptions": [
+    "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+    "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+    "| | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP."
+  ],
+  "dependencies": [
+    "2.0",
+    "2.08",
+    "2.09",
+    "2.10",
+    "2.11",
+    "2.12",
+    "1"
+  ],
+  "documents": [
+    "14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.",
+    "Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard.",
+    "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+    "| | |\n2.09 IEC Format | | |\nAn electronic copy of the IEC may be downloaded | online | on their DGFT Da | shboard."
+  ],
+  "required_documents": [
+    "14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.",
+    "Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard.",
+    "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+    "| | |\n2.09 IEC Format | | |\nAn electronic copy of the IEC may be downloaded | online | on their DGFT Da | shboard."
+  ],
+  "tables": [
+    [
+      [
+        "2.08 Application for IEC",
+        "",
+        "",
+        ""
+      ],
+      [
+        "a) Exporters/ Importers shall file online applica",
+        "tion in",
+        "ANF-2A format t",
+        "hrough the"
+      ],
+      [
+        "online process at https://dgft.gov.in with applicab",
+        "le fee a",
+        "nd requisite docu",
+        "ments."
+      ],
+      [
+        "b) IEC will be auto-generated and applicant will b",
+        "e infor",
+        "med through e-m",
+        "ail and SMS."
+      ],
+      [
+        "Applicant can also view and download the e-IEC",
+        "after c",
+        "ompletion of the",
+        "submission"
+      ],
+      [
+        "process of application by logging onto their dashb",
+        "oard.",
+        "",
+        ""
+      ],
+      [
+        "c) The details submitted in the IEC applicatio",
+        "n shall",
+        "be validated thro",
+        "ugh online"
+      ],
+      [
+        "integration with records m",
+        "aintain",
+        "ed by",
+        "relevant"
+      ],
+      [
+        "Ministries/Departments/Organisations/Banks,",
+        "wherev",
+        "er feasible. Fu",
+        "rther, the"
+      ],
+      [
+        "applicant is required to submit the following deta",
+        "ils/doc",
+        "uments (scanned",
+        "copies to be"
+      ],
+      [
+        "uploaded), unless specifically exempted by the s",
+        "ystem",
+        "during the online",
+        "application"
+      ],
+      [
+        "process:",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(i) Cancelled cheque bearing entity’s pre-pr",
+        "inted n",
+        "ame or Bank ce",
+        "rtificate in"
+      ],
+      [
+        "format prescribed;",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(ii) Address proof of the applicant entity as det",
+        "ailed in",
+        "the application",
+        ""
+      ],
+      [
+        "(d) The guidelines for the conduct of post-verific",
+        "ation of",
+        "Online IECs will b",
+        "e issued by"
+      ],
+      [
+        "DGFT Headquarters from time to time.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.09 IEC Format",
+        "",
+        "",
+        ""
+      ],
+      [
+        "An electronic copy of the IEC may be downloaded",
+        "online",
+        "on their DGFT Da",
+        "shboard. Th"
+      ],
+      [
+        "details of any IEC may be verified on the DGFT",
+        "Websit",
+        "e under Services",
+        "→ ‘View IE"
+      ],
+      [
+        "Related Details’",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.10 Validity of IEC",
+        "",
+        "",
+        ""
+      ],
+      [
+        "a) An IEC allotted to an applicant shall",
+        "have",
+        "permanent valid",
+        "ity unless"
+      ],
+      [
+        "suspended/cancelled by the competent authorit",
+        "y. The I",
+        "EC will cover all",
+        "branches /"
+      ],
+      [
+        "divisions / units / factories of the applicant.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "b) IEC’s can however be de-activated in pursuanc",
+        "e of the",
+        "policy in para 2.0",
+        "5(e) of FTP."
+      ],
+      [
+        "2.11 Validity of IEC for EOUs / SEZs",
+        "",
+        "",
+        ""
+      ],
+      [
+        "An IEC will remain valid irrespective of a firm’s s",
+        "tatus as",
+        "a DTA unit or an",
+        "SEZ unit or"
+      ],
+      [
+        "an EOU/EHTP/STP/BTP unit.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.12 One PAN-One IEC",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Only one IEC shall be issued against a single PAN.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.13 Surrender of IEC",
+        "",
+        "",
+        ""
+      ],
+      [
+        "If an IEC holder does not wish to operate allotte",
+        "d IEC, t",
+        "hey may surrende",
+        "r the same"
+      ],
+      [
+        "online to the issuing authority. On receipt, the",
+        "issuing",
+        "authority shall e",
+        "xamine the"
+      ],
+      [
+        "request. On approval the updated IEC shall be tra",
+        "nsmitte",
+        "d to the Customs",
+        "authorities."
+      ],
+      [
+        "",
+        "",
+        "",
+        "pg. 14"
+      ]
+    ],
+    [
+      [
+        "IEC can be surrendered",
+        "only if all authorisatio",
+        "ns",
+        "/ obli",
+        "gations h",
+        "ave been cl",
+        "osed for the"
+      ],
+      [
+        "IEC or in cases where",
+        "the firm has been am",
+        "a",
+        "lgama",
+        "ted/acq",
+        "uired/merge",
+        "d etc. with"
+      ],
+      [
+        "another entity such that",
+        "all the authorisation",
+        "s/",
+        "obliga",
+        "tions are",
+        "transferre",
+        "d to the IEC"
+      ],
+      [
+        "of the new entity.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2.14 Modification of I",
+        "EC",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(a) Modification(s)/Upd",
+        "ation(s) in IEC can b",
+        "e d",
+        "one",
+        "online on",
+        "ly with app",
+        "licable fees"
+      ],
+      [
+        "and requisite documents",
+        ".",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(b) Any change in cons",
+        "titution of firm, addr",
+        "es",
+        "s, ban",
+        "k details",
+        "or any oth",
+        "er primary"
+      ],
+      [
+        "details, the IEC holder is",
+        "required to ensure t",
+        "ha",
+        "t the",
+        "IEC detai",
+        "ls are suita",
+        "bly updated"
+      ],
+      [
+        "online within 30 days of",
+        "effecting such change",
+        "(s)",
+        ".",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(c) Request for (i) Cance",
+        "llation of existing IEC",
+        "an",
+        "d (ii)",
+        "PAN cha",
+        "nge in existi",
+        "ng numeric"
+      ],
+      [
+        "IECs has to be made to t",
+        "he jurisdictional Regio",
+        "na",
+        "l Aut",
+        "hority.",
+        "",
+        ""
+      ],
+      [
+        "(d) RAs shall consider",
+        "applications seekin",
+        "g",
+        "mod",
+        "ification",
+        "in IEC (al",
+        "l numeric),"
+      ],
+      [
+        "involving change in",
+        "PAN, by ensuring",
+        "",
+        "that",
+        "liabiliti",
+        "es of the",
+        "previous"
+      ],
+      [
+        "applicant/applicant firm",
+        "are transferred to t",
+        "he",
+        "new",
+        "applican",
+        "t/applicant",
+        "firm whose"
+      ],
+      [
+        "PAN will be reflecting in",
+        "the modified IEC.",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(e) In case of change in c",
+        "onstitution of a PAN b",
+        "as",
+        "ed IE",
+        "C by way",
+        "of merger,",
+        "acquisition,"
+      ],
+      [
+        "liquidation, inheritance,",
+        "business transfer et",
+        "c.",
+        "such",
+        "that PAN",
+        "of the ne",
+        "w entity so"
+      ],
+      [
+        "formed is different from",
+        "the earlier one, an IE",
+        "C",
+        "shall",
+        "be availe",
+        "d against th",
+        "e new PAN"
+      ],
+      [
+        "within 30 days of effect",
+        "ing such change, if no",
+        "t",
+        "existi",
+        "ng alread",
+        "y. Previous",
+        "IEC (s) can"
+      ],
+      [
+        "also be operationally lin",
+        "ked to the IEC of the n",
+        "ew",
+        "entit",
+        "y.",
+        "",
+        ""
+      ],
+      [
+        "(f) An application for tra",
+        "nsfer of unredeemed",
+        "Au",
+        "thori",
+        "sation(s)",
+        "from earlie",
+        "r IEC to the"
+      ],
+      [
+        "new IEC may be submitte",
+        "d online to the origina",
+        "l j",
+        "urisd",
+        "ictional R",
+        "A along with",
+        "supporting"
+      ],
+      [
+        "documents. Concerned R",
+        "A may sanction the",
+        "gi",
+        "ven li",
+        "nkage af",
+        "ter due scr",
+        "utiny of the"
+      ],
+      [
+        "evidence provided by the",
+        "applicant including su",
+        "bm",
+        "issio",
+        "n of affida",
+        "vits etc.",
+        ""
+      ],
+      [
+        "2.15 Profile of Impor",
+        "ter / Exporter",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "a) ANF-1 contains the",
+        "profile of the impo",
+        "rt",
+        "er/ex",
+        "porter. I",
+        "EC Holder",
+        "shall be"
+      ],
+      [
+        "responsible for updating",
+        "the same as and whe",
+        "n a",
+        "chan",
+        "ge takes",
+        "place imme",
+        "diately or"
+      ],
+      [
+        "in any case at least once",
+        "in a year.",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "b) Documents which are",
+        "uploaded in the Impo",
+        "rt",
+        "er-Ex",
+        "porter Pr",
+        "ofile are no",
+        "t required"
+      ],
+      [
+        "to be filed each time the",
+        "importer/exporter ap",
+        "pli",
+        "es fo",
+        "r authori",
+        "sation/scrip",
+        "/ licence/"
+      ],
+      [
+        "registration under differ",
+        "ent schemes of this FT",
+        "P.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "c) Proof of status as man",
+        "ufacturer exporter is",
+        "als",
+        "o to",
+        "be upload",
+        "ed under th",
+        "e Profile."
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "pg. 15"
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "2.13::section::0::surrender-of-iec",
+      "type": "section",
+      "title": "Surrender of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority. On receipt, the issuing authority shall examine the\nrequest. On approval the updated IEC shall be transmitted to the Customs authorities.\npg. 14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.\nb) IEC will be auto-generated and applicant will b | e infor | med through e-m | ail and SMS.\nApplicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard. | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible. Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time. | | |\n2.09 IEC Format | | |\nAn electronic copy of the IEC may be downloaded | online | on their DGFT Da | shboard. Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y. The I | EC will cover all | branches /\ndivisions / units / factories of the applicant. | | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP.\n2.11 Validity of IEC for EOUs / SEZs | | |\nAn IEC will remain valid irrespective of a firm’s s | tatus as | a DTA unit or an | SEZ unit or\nan EOU/EHTP/STP/BTP unit. | | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN. | | |\n2.13 Surrender of IEC | | |\nIf an IEC holder does not wish to operate allotte | d IEC, t | hey may surrende | r the same\nonline to the issuing authority. On receipt, the | issuing | authority shall e | xamine the\nrequest. On approval the updated IEC shall be tra | nsmitte | d to the Customs | authorities.\n| | | pg. 14\n2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority. On receipt, the issuing authority shall examine the\nrequest. On approval the updated IEC shall be transmitted to the Customs authorities.\npg. 14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc. with\nanother entity such that all the authorisations/obligations are transferred to the IEC\nof the new entity.",
+      "parentId": "",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 49,
+      "searchAliases": [
+        "Surrender of IEC",
+        "SurrenderofIEC"
+      ],
+      "childIds": [
+        "2.13::exception::1::exceptions",
+        "2.13::exception::2::exceptions",
+        "2.13::exception::3::exceptions",
+        "2.13::validation::4::validation-rules",
+        "2.13::validation::5::validation-rules",
+        "2.13::validation::6::validation-rules",
+        "2.13::validation::7::validation-rules",
+        "2.13::validation::8::validation-rules",
+        "2.13::validation::9::validation-rules",
+        "2.13::validation::10::validation-rules",
+        "2.13::validation::11::validation-rules",
+        "2.13::validation::12::validation-rules",
+        "2.13::business_rule::13::surrender-of-iec",
+        "2.13::business_rule::14::surrender-of-iec",
+        "2.13::business_rule::15::surrender-of-iec",
+        "2.13::business_rule::16::surrender-of-iec",
+        "2.13::business_rule::17::surrender-of-iec",
+        "2.13::business_rule::18::surrender-of-iec",
+        "2.13::business_rule::19::surrender-of-iec",
+        "2.13::business_rule::20::surrender-of-iec",
+        "2.13::business_rule::21::surrender-of-iec"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 49
+    },
+    {
+      "id": "2.13::exception::1::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::exception::2::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::exception::3::exceptions",
+      "type": "exception",
+      "title": "Exceptions",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Exceptions"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::validation::4::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "On receipt, the issuing authority shall examine the\nrequest.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::validation::5::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "On approval the updated IEC shall be transmitted to the Customs authorities.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::validation::6::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::validation::7::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::validation::8::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::validation::9::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::validation::10::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::validation::11::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "On receipt, the | issuing | authority shall e | xamine the\nrequest.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::validation::12::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "On approval the updated IEC shall be tra | nsmitte | d to the Customs | authorities.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::business_rule::13::surrender-of-iec",
+      "type": "business_rule",
+      "title": "Surrender of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "On receipt, the issuing authority shall examine the\nrequest.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Surrender of IEC",
+        "SurrenderofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::business_rule::14::surrender-of-iec",
+      "type": "business_rule",
+      "title": "Surrender of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "On approval the updated IEC shall be transmitted to the Customs authorities.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Surrender of IEC",
+        "SurrenderofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::business_rule::15::surrender-of-iec",
+      "type": "business_rule",
+      "title": "Surrender of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Surrender of IEC",
+        "SurrenderofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::business_rule::16::surrender-of-iec",
+      "type": "business_rule",
+      "title": "Surrender of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Surrender of IEC",
+        "SurrenderofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::business_rule::17::surrender-of-iec",
+      "type": "business_rule",
+      "title": "Surrender of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Surrender of IEC",
+        "SurrenderofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::business_rule::18::surrender-of-iec",
+      "type": "business_rule",
+      "title": "Surrender of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Surrender of IEC",
+        "SurrenderofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::business_rule::19::surrender-of-iec",
+      "type": "business_rule",
+      "title": "Surrender of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Surrender of IEC",
+        "SurrenderofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::business_rule::20::surrender-of-iec",
+      "type": "business_rule",
+      "title": "Surrender of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "On receipt, the | issuing | authority shall e | xamine the\nrequest.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Surrender of IEC",
+        "SurrenderofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2.13::business_rule::21::surrender-of-iec",
+      "type": "business_rule",
+      "title": "Surrender of IEC",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "On approval the updated IEC shall be tra | nsmitte | d to the Customs | authorities.",
+      "parentId": "2.13::section::0::surrender-of-iec",
+      "sectionId": "2.13",
+      "sectionTitle": "Surrender of IEC",
+      "documentName": "HBP Chapter 2.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Surrender of IEC",
+        "SurrenderofIEC"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [
+    "Customs",
+    "On approval the updated IEC shall be transmitted to the Customs",
+    "dgft",
+    "IEC may be verified on the DGFT"
+  ],
+  "timelines": [
+    "Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard."
+  ],
+  "actions": [
+    "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+    "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN."
+  ],
+  "workflow": [
+    "Evaluate condition: 2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.",
+    "Evaluate condition: Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard.",
+    "Evaluate condition: | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+    "| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.",
+    "Run validation: On receipt, the issuing authority shall examine the\nrequest.",
+    "Run validation: On approval the updated IEC shall be transmitted to the Customs authorities.",
+    "Run validation: 14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.",
+    "Handle exception: Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time."
+  ],
+  "workflow_ascii": "Surrender of IEC\nEvaluate condition: 2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.\n   |\n   v\nEvaluate condition: Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard.\n   |\n   v\nEvaluate condition: | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.\n   |\n   v\n| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.\n   |\n   v\nFu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.\n   |\n   v\n| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.\n   |\n   v\nRun validation: On receipt, the issuing authority shall examine the\nrequest.\n   |\n   v\nRun validation: On approval the updated IEC shall be transmitted to the Customs authorities.\n   |\n   v\nRun validation: 14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.\n   |\n   v\nHandle exception: Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+  "decision_tree": [
+    "IF 2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority. THEN | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "IF Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard. THEN | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "IF | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible. THEN | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "IF Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time. THEN | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "IF Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y. THEN | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "IF exception applies (Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.) THEN route to manual review",
+    "IF exception applies (Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.) THEN route to manual review",
+    "IF exception applies (| | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Surrender of IEC Decision\nIF 2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority. THEN | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.\n   |\n   v\nIF Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard. THEN | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.\n   |\n   v\nIF | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible. THEN | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.\n   |\n   v\nIF Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time. THEN | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.\n   |\n   v\nIF Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y. THEN | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.\n   |\n   v\nIF exception applies (Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.) THEN route to manual review\n   |\n   v\nIF exception applies (Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.) THEN route to manual review\n   |\n   v\nIF exception applies (| | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP.) THEN route to manual review",
+  "examples": [
+    "User asks to process Surrender of IEC; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Surrender of IEC, submits 14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments., Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard., Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time., and DEKAI uses the extracted rules to | |\nc) the details submitted in the iec applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nministries/departments/organisations/banks, | wherev | er feasible..",
+  "real_world_example_thanglish": "Indha Surrender of IEC section-la, Example: an importer or exporter invokes Surrender of IEC, submits 14\n2.08 application for IEC | | |\na) Exporters/ Importers kandippa file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments., Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard., Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time., and DEKAI uses the extracted rules to | |\nc) the details submitted in the iec applicatio | n kandippa | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nministries/departments/organisations/banks, | wherev | er feasible..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: On receipt, the issuing authority shall examine the\nrequest.",
+    "IF detected context matches section rule THEN enforce: On approval the updated IEC shall be transmitted to the Customs authorities.",
+    "IF detected context matches section rule THEN enforce: 14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.",
+    "IF detected context matches section rule THEN enforce: | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "IF detected context matches section rule THEN enforce: Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.",
+    "IF detected context matches section rule THEN enforce: Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y.",
+    "IF validations pass THEN recommend action: | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "iec_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:IEC"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "gov_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:gov"
+    },
+    {
+      "name": "fee_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:fee"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time."
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "| | |\n2.09 IEC Format | | |\nAn electronic copy of the IEC may be downloaded | online | on their DGFT Da | shboard."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.13",
+      "purpose": "Retrieve knowledge payload for section 2.13",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Surrender-of-IEC/validate",
+      "purpose": "Validate inputs and documents for Surrender of IEC",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Surrender-of-IEC/execute",
+      "purpose": "Trigger business action for | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Surrender_of_IEC_overview",
+      "name": "Surrender of IEC Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Surrender_of_IEC_submission",
+      "name": "Surrender of IEC Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "iec_flag",
+        "not_flag",
+        "may_flag",
+        "the_flag",
+        "for_flag",
+        "gov_flag"
+      ]
+    },
+    {
+      "screen_id": "Surrender_of_IEC_exceptions",
+      "name": "Surrender of IEC Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Surrender of IEC require?",
+    "Which documents are needed for Surrender of IEC?",
+    "How does DEKAI validate Surrender of IEC requests?",
+    "What action should be taken for Surrender of IEC?"
+  ],
+  "expected_ai_answers": [
+    "Surrender of IEC requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: 14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments., Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard., Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time., | | |\n2.09 IEC Format | | |\nAn electronic copy of the IEC may be downloaded | online | on their DGFT Da | shboard.",
+    "DEKAI validates Surrender of IEC by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2.13?",
+      "answer_en": "Surrender of IEC explains the operating rule set that DEKAI should enforce. Key control points include On receipt, the issuing authority shall examine the\nrequest. The section also drives actions such as | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible..",
+      "question_thanglish": "Indha Surrender of IEC section-la, What is the purpose of section 2.13?",
+      "answer_thanglish": "Indha Surrender of IEC section-la, Surrender of IEC explains the operating rule set that DEKAI should enforce. Key control points include On receipt, the issuing authority kandippa examine the\nrequest. The section also drives actions such as | |\nc) The details submitted in the IEC applicatio | n kandippa | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.."
+    },
+    {
+      "question_en": "What documents are required under Surrender of IEC?",
+      "answer_en": "14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments., Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard., Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time., | | |\n2.09 IEC Format | | |\nAn electronic copy of the IEC may be downloaded | online | on their DGFT Da | shboard.",
+      "question_thanglish": "Indha Surrender of IEC section-la, What documents are required under Surrender of IEC?",
+      "answer_thanglish": "Indha Surrender of IEC section-la, 14\n2.08 application for IEC | | |\na) Exporters/ Importers kandippa file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments., Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard., Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time., | | |\n2.09 IEC Format | | |\nAn electronic copy of the IEC may be downloaded | online | on their DGFT Da | shboard."
+    },
+    {
+      "question_en": "Which authority handles Surrender of IEC?",
+      "answer_en": "Customs, On approval the updated IEC shall be transmitted to the Customs, dgft, IEC may be verified on the DGFT",
+      "question_thanglish": "Indha Surrender of IEC section-la, Which authority handles Surrender of IEC?",
+      "answer_thanglish": "Indha Surrender of IEC section-la, Customs, On approval the updated IEC kandippa be transmitted to the Customs, dgft, IEC may be verified on the DGFT"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Surrender of IEC?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2.13, apply the extracted rules, and guide the user through Evaluate condition: 2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority..",
+      "question_thanglish": "Indha Surrender of IEC section-la, User asks: How do I comply with Surrender of IEC?",
+      "answer_thanglish": "Indha Surrender of IEC section-la, AI answers: DEKAI should evaluate section 2.13, apply the extracted rules, and guide the user through Evaluate condition: 2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Surrender of IEC?",
+      "answer_en": "AI answers: Applicable validations are On receipt, the issuing authority shall examine the\nrequest., On approval the updated IEC shall be transmitted to the Customs authorities., 14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.",
+      "question_thanglish": "Indha Surrender of IEC section-la, User asks: Which validations apply to Surrender of IEC?",
+      "answer_thanglish": "Indha Surrender of IEC section-la, AI answers: Applicable validations are On receipt, the issuing authority kandippa examine the\nrequest., On approval the updated IEC kandippa be transmitted to the Customs authorities., 14\n2.08 application for IEC | | |\na) Exporters/ Importers kandippa file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 2, section 2.13, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Surrender of IEC into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: 14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments., Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard., Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time., | | |\n2.09 IEC Format | | |\nAn electronic copy of the IEC may be downloaded | online | on their DGFT Da | shboard..",
+    "Route escalations or approvals to: Customs, On approval the updated IEC shall be transmitted to the Customs, dgft, IEC may be verified on the DGFT.",
+    "Trigger manual review when exception clauses are detected.",
+    "Show contextual links to related sections: 2.08, 2.09, 2.10, 2.11, 2.12, 1."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Surrender of IEC section-la, Capture chapter 2, section 2.13, title, and page references as immutable knowledge metadata.",
+    "Indha Surrender of IEC section-la, Bind validations for Surrender of IEC into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Surrender of IEC section-la, Expose document upload controls for: 14\n2.08 application for IEC | | |\na) Exporters/ Importers kandippa file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments., Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard., Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time., | | |\n2.09 IEC Format | | |\nAn electronic copy of the IEC may be downloaded | online | on their DGFT Da | shboard..",
+    "Indha Surrender of IEC section-la, Route escalations or approvals to: Customs, On approval the updated IEC kandippa be transmitted to the Customs, dgft, IEC may be verified on the DGFT.",
+    "Indha Surrender of IEC section-la, Trigger manual review when exception clauses are detected.",
+    "Indha Surrender of IEC section-la, Show contextual links to related sections: 2.08, 2.09, 2.10, 2.11, 2.12, 1."
+  ],
+  "keywords": [
+    "IEC",
+    "not",
+    "may",
+    "the",
+    "for",
+    "gov",
+    "fee",
+    "and",
+    "med",
+    "e-m",
+    "ail",
+    "SMS",
+    "can",
+    "ugh",
+    "ame",
+    "det",
+    "any",
+    "ity",
+    "all",
+    "FTP"
+  ],
+  "search_keywords": [
+    "IEC",
+    "not",
+    "may",
+    "the",
+    "for",
+    "gov",
+    "fee",
+    "and",
+    "med",
+    "e-m",
+    "ail",
+    "SMS",
+    "can",
+    "ugh",
+    "ame",
+    "det",
+    "any",
+    "ity",
+    "all",
+    "FTP"
+  ],
+  "intent": "Support Surrender of IEC processing and compliance validation.",
+  "tags": [
+    "2.13",
+    "Surrender of IEC",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "2.08",
+    "2.09",
+    "2.10",
+    "2.11",
+    "2.12",
+    "1"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "On receipt, the issuing authority shall examine the\nrequest.",
+    "On approval the updated IEC shall be transmitted to the Customs authorities.",
+    "14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.",
+    "| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.",
+    "Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time."
+  ],
+  "page_numbers": [
+    5,
+    6
+  ],
+  "pages": [
+    5,
+    6
+  ],
+  "source_document": "HBP Chapter 2.pdf",
+  "raw_text": "2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority. On receipt, the issuing authority shall examine the\nrequest. On approval the updated IEC shall be transmitted to the Customs authorities.\npg. 14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.\nb) IEC will be auto-generated and applicant will b | e infor | med through e-m | ail and SMS.\nApplicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard. | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible. Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time. | | |\n2.09 IEC Format | | |\nAn electronic copy of the IEC may be downloaded | online | on their DGFT Da | shboard. Th\ndetails of any IEC may be verified on the DGFT | Websit | e under Services | → ‘View IE\nRelated Details’ | | |\n2.10 Validity of IEC | | |\na) An IEC allotted to an applicant shall | have | permanent valid | ity unless\nsuspended/cancelled by the competent authorit | y. The I | EC will cover all | branches /\ndivisions / units / factories of the applicant. | | |\nb) IEC’s can however be de-activated in pursuanc | e of the | policy in para 2.0 | 5(e) of FTP.\n2.11 Validity of IEC for EOUs / SEZs | | |\nAn IEC will remain valid irrespective of a firm’s s | tatus as | a DTA unit or an | SEZ unit or\nan EOU/EHTP/STP/BTP unit. | | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN. | | |\n2.13 Surrender of IEC | | |\nIf an IEC holder does not wish to operate allotte | d IEC, t | hey may surrende | r the same\nonline to the issuing authority. On receipt, the | issuing | authority shall e | xamine the\nrequest. On approval the updated IEC shall be tra | nsmitte | d to the Customs | authorities.\n| | | pg. 14\n2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority. On receipt, the issuing authority shall examine the\nrequest. On approval the updated IEC shall be transmitted to the Customs authorities.\npg. 14\nIEC can be surrendered only if all authorisations/ obligations have been closed for the\nIEC or in cases where the firm has been amalgamated/acquired/merged etc. with\nanother entity such that all the authorisations/obligations are transferred to the IEC\nof the new entity.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.\"]\n    S2[\"Evaluate condition: Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.\"]\n    S2 --> S3\n    S4[\"| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.\"]\n    S3 --> S4\n    S5[\"Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.\"]\n    S4 --> S5\n    S6[\"| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.\"]\n    S5 --> S6\n    S7[\"Run validation: On receipt, the issuing authority shall examine the\nrequest.\"]\n    S6 --> S7\n    S8[\"Run validation: On approval the updated IEC shall be transmitted to the Customs authorities.\"]\n    S7 --> S8\n    S9[\"Run validation: 14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.\"]\n    S8 --> S9\n    S10[\"Handle exception: Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.\"]\n    S9 --> S10",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 2.13 Surrender of IEC\nIf an IEC holder does not wish to operate allotted IEC, they may surrender the same\nonline to the issuing authority.;\n:Evaluate condition\\: Applicant can also view and download the e-IEC | after c | ompletion of the | submission\nprocess of application by logging onto their dashb | oard.;\n:Evaluate condition\\: | |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.;\n:| |\nc) The details submitted in the IEC applicatio | n shall | be validated thro | ugh online\nintegration with records m | aintain | ed by | relevant\nMinistries/Departments/Organisations/Banks, | wherev | er feasible.;\n:Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess\\: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.;\n:| | |\n2.12 One PAN-One IEC | | |\nOnly one IEC shall be issued against a single PAN.;\n:Run validation\\: On receipt, the issuing authority shall examine the\nrequest.;\n:Run validation\\: On approval the updated IEC shall be transmitted to the Customs authorities.;\n:Run validation\\: 14\n2.08 Application for IEC | | |\na) Exporters/ Importers shall file online applica | tion in | ANF-2A format t | hrough the\nonline process at https\\://dgft.gov.in with applicab | le fee a | nd requisite docu | ments.;\n:Handle exception\\: Fu | rther, the\napplicant is required to submit the following deta | ils/doc | uments (scanned | copies to be\nuploaded), unless specifically exempted by the s | ystem | during the online | application\nprocess\\: | | |\n(i) Cancelled cheque bearing entity’s pre-pr | inted n | ame or Bank ce | rtificate in\nformat prescribed; | | |\n(ii) Address proof of the applicant entity as det | ailed in | the application |\n(d) The guidelines for the conduct of post-verific | ation of | Online IECs will b | e issued by\nDGFT Headquarters from time to time.;\nstop\n@enduml"
+}

@@ -1,0 +1,47 @@
+{
+  "section": "6",
+  "ui": [
+    {
+      "screen_id": "MESSAGE_FUNCTION_overview",
+      "name": "MESSAGE FUNCTION Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "MESSAGE_FUNCTION_submission",
+      "name": "MESSAGE FUNCTION Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "net_flag",
+        "and_flag",
+        "for_flag",
+        "are_flag",
+        "sfz_flag"
+      ]
+    },
+    {
+      "screen_id": "MESSAGE_FUNCTION_exceptions",
+      "name": "MESSAGE FUNCTION Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

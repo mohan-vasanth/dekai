@@ -1,0 +1,272 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.INPDEC Ver2.1",
+  "section": "2",
+  "title": "Rail",
+  "purpose": "Defines the operational requirements for Rail.",
+  "purpose_thanglish": "Indha Rail section-la, Defines the operational requirements for Rail.",
+  "summary": "2: Rail",
+  "business_meaning": "2: Rail",
+  "business_explanation": "2: Rail",
+  "business_explanation_thanglish": "Indha Rail section-la, 2: Rail",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC2-R001",
+      "rule_description": "2: Rail",
+      "trigger": "Rail",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2 - Rail."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "2::section::0::rail",
+      "type": "section",
+      "title": "Rail",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2: Rail",
+      "parentId": "",
+      "sectionId": "2",
+      "sectionTitle": "Rail",
+      "documentName": "TradeNetDeclaration.INPDEC Ver2.1.pdf",
+      "pageNumber": 12,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Rail"
+      ],
+      "childIds": [
+        "2::business_rule::1::rail"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "2::business_rule::1::rail",
+      "type": "business_rule",
+      "title": "Rail",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "2: Rail",
+      "parentId": "2::section::0::rail",
+      "sectionId": "2",
+      "sectionTitle": "Rail",
+      "documentName": "TradeNetDeclaration.INPDEC Ver2.1.pdf",
+      "pageNumber": 12,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Rail"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 2 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Rail\nReview section 2 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 2 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Rail Decision\nIF section 2 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Rail; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Rail, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the rail process.",
+  "real_world_example_thanglish": "Indha Rail section-la, Example: an importer or exporter invokes Rail, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the rail process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "rail_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Rail"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2",
+      "purpose": "Retrieve knowledge payload for section 2",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Rail/validate",
+      "purpose": "Validate inputs and documents for Rail",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Rail_overview",
+      "name": "Rail Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Rail_submission",
+      "name": "Rail Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "rail_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Rail require?",
+    "Which documents are needed for Rail?",
+    "How does DEKAI validate Rail requests?"
+  ],
+  "expected_ai_answers": [
+    "Rail requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Rail by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 2?",
+      "answer_en": "2: Rail",
+      "question_thanglish": "Indha Rail section-la, What is the purpose of section 2?",
+      "answer_thanglish": "Indha Rail section-la, 2: Rail"
+    },
+    {
+      "question_en": "What documents are required under Rail?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Rail section-la, What documents are required under Rail?",
+      "answer_thanglish": "Indha Rail section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Rail?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Rail section-la, Which authority handles Rail?",
+      "answer_thanglish": "Indha Rail section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Rail?",
+      "answer_en": "AI answers: DEKAI should evaluate section 2, apply the extracted rules, and guide the user through Review section 2 requirements.",
+      "question_thanglish": "Indha Rail section-la, User asks: How do I comply with Rail?",
+      "answer_thanglish": "Indha Rail section-la, AI answers: DEKAI should evaluate section 2, apply the extracted rules, and guide the user through Review section 2 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Rail?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Rail section-la, User asks: Which validations apply to Rail?",
+      "answer_thanglish": "Indha Rail section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter , section 2, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Rail into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Rail section-la, Capture chapter , section 2, title, and page references as immutable knowledge metadata.",
+    "Indha Rail section-la, Bind validations for Rail into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "Rail"
+  ],
+  "search_keywords": [
+    "Rail"
+  ],
+  "intent": "Provide knowledge guidance for Rail.",
+  "tags": [
+    "2",
+    "Rail",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    12,
+    13
+  ],
+  "pages": [
+    12,
+    13
+  ],
+  "source_document": "TradeNetDeclaration.INPDEC Ver2.1.pdf",
+  "raw_text": "2: Rail",
+  "mermaid": "flowchart TD\n    S1[\"Review section 2 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 2 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

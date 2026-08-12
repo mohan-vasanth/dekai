@@ -101,7 +101,7 @@ export function ChatComposer({
         compact ? "p-3" : "p-3.5 sm:p-4",
       )}
     >
-      <div className="flex items-end gap-2 sm:gap-3">
+      <div className="grid grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-2 sm:gap-3">
         <button
           aria-label="Attach file"
           className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl text-[var(--muted-foreground)] transition hover:bg-[var(--panel-subtle)] hover:text-[var(--foreground)]"
@@ -111,7 +111,7 @@ export function ChatComposer({
           <Paperclip className="h-4.5 w-4.5" />
         </button>
 
-        <div className="min-w-0 flex-1">
+        <div className="min-w-0">
           <textarea
             className={cn(
               "block max-h-12 min-h-6 w-full resize-none overflow-y-auto border-none bg-transparent px-1 py-2 text-[var(--foreground)] outline-none placeholder:text-[var(--muted-foreground)]",
@@ -130,24 +130,26 @@ export function ChatComposer({
           />
         </div>
 
-        <button
-          aria-label="Voice input"
-          className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl text-[var(--muted-foreground)] transition hover:bg-[var(--panel-subtle)] hover:text-[var(--foreground)]"
-          onClick={onVoice}
-          type="button"
-        >
-          <Mic className="h-4.5 w-4.5" />
-        </button>
+        <div className="flex shrink-0 items-center gap-2">
+          <button
+            aria-label="Voice input"
+            className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl text-[var(--muted-foreground)] transition hover:bg-[var(--panel-subtle)] hover:text-[var(--foreground)]"
+            onClick={onVoice}
+            type="button"
+          >
+            <Mic className="h-4.5 w-4.5" />
+          </button>
 
-        <button
-          aria-label="Send message"
-          className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[var(--accent)] text-[var(--accent-foreground)] shadow-[0_12px_28px_rgba(15,118,110,0.24)] transition hover:bg-[var(--accent-strong)] disabled:cursor-not-allowed disabled:opacity-50"
-          disabled={disabled || !value.trim()}
-          onClick={onSubmit}
-          type="button"
-        >
-          <ArrowUp className="h-4.5 w-4.5" />
-        </button>
+          <button
+            aria-label="Send message"
+            className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-[var(--accent)] text-[var(--accent-foreground)] shadow-[0_12px_28px_rgba(15,118,110,0.24)] transition hover:bg-[var(--accent-strong)] disabled:cursor-not-allowed disabled:opacity-50"
+            disabled={disabled || !value.trim()}
+            onClick={onSubmit}
+            type="button"
+          >
+            <ArrowUp className="h-4.5 w-4.5" />
+          </button>
+        </div>
       </div>
     </div>
   );

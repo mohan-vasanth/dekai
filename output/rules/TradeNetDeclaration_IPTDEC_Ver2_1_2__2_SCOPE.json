@@ -1,0 +1,21 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.IPTDEC Ver2.1 (2)",
+  "section": "2",
+  "title": "SCOPE",
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC2-R001",
+      "rule_description": "SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).",
+      "trigger": "SCOPE",
+      "condition": "SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).",
+      "validation": "SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable).",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2 - SCOPE."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: SCOPE\nThe document shall provide the following principles and details for the following:\n- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if\napplicable)."
+  ]
+}

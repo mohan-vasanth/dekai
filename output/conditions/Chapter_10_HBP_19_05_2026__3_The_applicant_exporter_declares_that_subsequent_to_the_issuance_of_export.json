@@ -1,0 +1,77 @@
+{
+  "section": "3",
+  "conditions": [
+    "The applicant exporter declares that subsequent to the issuance of export\nauthorization, if the licensee has been notified in writing by DGFT or if they\nknow or has reason to believe that an item may be intended for military end\nuse or has a potential risk of use in or diversion to weapons of mass destruction\n(WMD) or in delivery of their missile system, the exporter would not be eligible\npg.",
+    "D | etailed de | scriptio | n of the ite | ms th | at are i | ntend | ed | to be export | ed un | der this\naut | horization | with rel | evant tech | nical | details/s | pecif | icat | ions; | |\nii.",
+    "| End-user c | ertificat | e (EUC) fro | m al | l the en | tities | inv | olved in the | suppl | y chain\n(bu | yer, consi | gnee, en | d user and | any o | ther int | erme | diar | y) on the let | terhea | d (duly\nsig | ned and s | tamped | ) is to be | sub | mitted | befor | e is | suance of | author | ization.",
+    "Sub | sequent E | UC subm | issions for | entit | ies in th | e list o | f co | untries (as a | pprov | ed) will\nbe | subject to | post-rep | orting requ | irem | ents as | menti | one | d at viii belo | w.",
+    "| The list of | countrie | s where th | e exp | ort is ex | pecte | d to | be done und | er GA | EIS is to\nbe | provided b | y the ap | plicant at t | he tim | e of sub | missi | on | of the applic | ation.",
+    "Any on- | site insp | ection will | be al | lowed b | y the | app | licant expor | ter if r | equired\n| by the | DGFT or | authorized | repr | esentati | ves of | the | Governmen | t of In | dia;\n| 2.",
+    "The ap | plicant | exporter d | eclare | s that | the it | ems | that are in | tende | d to be\n| exported s | hall not | be used for | any | purpose | other | tha | n the purpo | se(s) s | tated in\n| the EUC a | nd that | such use s | hall | not be c | hang | ed n | or the item | s mod | ified or\n| replicated | without | the prior c | onse | nt of the | Gove | rnm | ent of India.",
+    "The app | licant e | xporter dec | lares | that su | bsequ | ent | to the issua | nce of | export\n| authorizat | ion, if th | e licensee | has b | een not | ified | in w | riting by D | GFT or | if they\n| know or h | as reaso | n to believ | e tha | t an ite | m may | be | intended fo | r milit | ary end\n| use or has | a potent | ial risk of u | se in | or diver | sion t | o we | apons of ma | ss dest | ruction\n| (WMD) or | in delive | ry of their | missi | le syste | m, the | exp | orter would | not be | eligible\n| | | | | | | | | | pg.",
+    "Para 10.15(II): General Authorization for Export of Information\nSecurity items under SCOMET Category 8A5 Part 2(GAEIS)\nExport of indigenous SCOMET items (Information Security items under SCOMET\nCategory 8A5 Part 2) will be allowed based on a one-time General Authorization\n(GAEIS) subject to the following conditions:\n3.",
+    "The applicant exporter declares that subsequent to the issuance of export\nauthorization, if the licensee has been notified in writing by DGFT or if they\nknow or has reason to believe that an item may be intended for military end\nuse or has a potential risk of use in or diversion to weapons of mass destruction\n(WMD) or in delivery of their missile system, the exporter would not be eligible\nfor GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.3.1",
+      "if": "The applicant exporter declares that subsequent to the issuance of export\nauthorization, if the licensee has been notified in writing by DGFT or if they\nknow or has reason to believe that an item may be intended for military end\nuse or has a potential risk of use in or diversion to weapons of mass destruction\n(WMD) or in delivery of their missile system, the exporter would not be eligible\npg.",
+      "then": "T | he applica | tion wo | uld be revi | ewed | /examin | ed fo | r th | e issuance o | f GAEI | S by the\nInt | er-Ministe | rial Wor | king Group | (IMW | G) base | d on | the | submitted a | pplicat | ion and\noth | er support | ing docu | ments sub | mitte | d by the | applic | ant | exporter in | the pre | scribed\npro | forma incl | uding: | | | | | | | |\ni.",
+      "source": "The applicant exporter declares that subsequent to the issuance of export\nauthorization, if the licensee has been notified in writing by DGFT or if they\nknow or has reason to believe that an item may be intended for military end\nuse or has a potential risk of use in or diversion to weapons of mass destruction\n(WMD) or in delivery of their missile system, the exporter would not be eligible\npg."
+    },
+    {
+      "id": "10.3.2",
+      "if": "D | etailed de | scriptio | n of the ite | ms th | at are i | ntend | ed | to be export | ed un | der this\naut | horization | with rel | evant tech | nical | details/s | pecif | icat | ions; | |\nii.",
+      "then": "T | he applica | tion wo | uld be revi | ewed | /examin | ed fo | r th | e issuance o | f GAEI | S by the\nInt | er-Ministe | rial Wor | king Group | (IMW | G) base | d on | the | submitted a | pplicat | ion and\noth | er support | ing docu | ments sub | mitte | d by the | applic | ant | exporter in | the pre | scribed\npro | forma incl | uding: | | | | | | | |\ni.",
+      "source": "D | etailed de | scriptio | n of the ite | ms th | at are i | ntend | ed | to be export | ed un | der this\naut | horization | with rel | evant tech | nical | details/s | pecif | icat | ions; | |\nii."
+    },
+    {
+      "id": "10.3.3",
+      "if": "| End-user c | ertificat | e (EUC) fro | m al | l the en | tities | inv | olved in the | suppl | y chain\n(bu | yer, consi | gnee, en | d user and | any o | ther int | erme | diar | y) on the let | terhea | d (duly\nsig | ned and s | tamped | ) is to be | sub | mitted | befor | e is | suance of | author | ization.",
+      "then": "T | he applica | tion wo | uld be revi | ewed | /examin | ed fo | r th | e issuance o | f GAEI | S by the\nInt | er-Ministe | rial Wor | king Group | (IMW | G) base | d on | the | submitted a | pplicat | ion and\noth | er support | ing docu | ments sub | mitte | d by the | applic | ant | exporter in | the pre | scribed\npro | forma incl | uding: | | | | | | | |\ni.",
+      "source": "| End-user c | ertificat | e (EUC) fro | m al | l the en | tities | inv | olved in the | suppl | y chain\n(bu | yer, consi | gnee, en | d user and | any o | ther int | erme | diar | y) on the let | terhea | d (duly\nsig | ned and s | tamped | ) is to be | sub | mitted | befor | e is | suance of | author | ization."
+    },
+    {
+      "id": "10.3.4",
+      "if": "Sub | sequent E | UC subm | issions for | entit | ies in th | e list o | f co | untries (as a | pprov | ed) will\nbe | subject to | post-rep | orting requ | irem | ents as | menti | one | d at viii belo | w.",
+      "then": "T | he applica | tion wo | uld be revi | ewed | /examin | ed fo | r th | e issuance o | f GAEI | S by the\nInt | er-Ministe | rial Wor | king Group | (IMW | G) base | d on | the | submitted a | pplicat | ion and\noth | er support | ing docu | ments sub | mitte | d by the | applic | ant | exporter in | the pre | scribed\npro | forma incl | uding: | | | | | | | |\ni.",
+      "source": "Sub | sequent E | UC subm | issions for | entit | ies in th | e list o | f co | untries (as a | pprov | ed) will\nbe | subject to | post-rep | orting requ | irem | ents as | menti | one | d at viii belo | w."
+    },
+    {
+      "id": "10.3.5",
+      "if": "| The list of | countrie | s where th | e exp | ort is ex | pecte | d to | be done und | er GA | EIS is to\nbe | provided b | y the ap | plicant at t | he tim | e of sub | missi | on | of the applic | ation.",
+      "then": "T | he applica | tion wo | uld be revi | ewed | /examin | ed fo | r th | e issuance o | f GAEI | S by the\nInt | er-Ministe | rial Wor | king Group | (IMW | G) base | d on | the | submitted a | pplicat | ion and\noth | er support | ing docu | ments sub | mitte | d by the | applic | ant | exporter in | the pre | scribed\npro | forma incl | uding: | | | | | | | |\ni.",
+      "source": "| The list of | countrie | s where th | e exp | ort is ex | pecte | d to | be done und | er GA | EIS is to\nbe | provided b | y the ap | plicant at t | he tim | e of sub | missi | on | of the applic | ation."
+    },
+    {
+      "id": "10.3.6",
+      "if": "Any on- | site insp | ection will | be al | lowed b | y the | app | licant expor | ter if r | equired\n| by the | DGFT or | authorized | repr | esentati | ves of | the | Governmen | t of In | dia;\n| 2.",
+      "then": "T | he applica | tion wo | uld be revi | ewed | /examin | ed fo | r th | e issuance o | f GAEI | S by the\nInt | er-Ministe | rial Wor | king Group | (IMW | G) base | d on | the | submitted a | pplicat | ion and\noth | er support | ing docu | ments sub | mitte | d by the | applic | ant | exporter in | the pre | scribed\npro | forma incl | uding: | | | | | | | |\ni.",
+      "source": "Any on- | site insp | ection will | be al | lowed b | y the | app | licant expor | ter if r | equired\n| by the | DGFT or | authorized | repr | esentati | ves of | the | Governmen | t of In | dia;\n| 2."
+    },
+    {
+      "id": "10.3.7",
+      "if": "The ap | plicant | exporter d | eclare | s that | the it | ems | that are in | tende | d to be\n| exported s | hall not | be used for | any | purpose | other | tha | n the purpo | se(s) s | tated in\n| the EUC a | nd that | such use s | hall | not be c | hang | ed n | or the item | s mod | ified or\n| replicated | without | the prior c | onse | nt of the | Gove | rnm | ent of India.",
+      "then": "T | he applica | tion wo | uld be revi | ewed | /examin | ed fo | r th | e issuance o | f GAEI | S by the\nInt | er-Ministe | rial Wor | king Group | (IMW | G) base | d on | the | submitted a | pplicat | ion and\noth | er support | ing docu | ments sub | mitte | d by the | applic | ant | exporter in | the pre | scribed\npro | forma incl | uding: | | | | | | | |\ni.",
+      "source": "The ap | plicant | exporter d | eclare | s that | the it | ems | that are in | tende | d to be\n| exported s | hall not | be used for | any | purpose | other | tha | n the purpo | se(s) s | tated in\n| the EUC a | nd that | such use s | hall | not be c | hang | ed n | or the item | s mod | ified or\n| replicated | without | the prior c | onse | nt of the | Gove | rnm | ent of India."
+    },
+    {
+      "id": "10.3.8",
+      "if": "The app | licant e | xporter dec | lares | that su | bsequ | ent | to the issua | nce of | export\n| authorizat | ion, if th | e licensee | has b | een not | ified | in w | riting by D | GFT or | if they\n| know or h | as reaso | n to believ | e tha | t an ite | m may | be | intended fo | r milit | ary end\n| use or has | a potent | ial risk of u | se in | or diver | sion t | o we | apons of ma | ss dest | ruction\n| (WMD) or | in delive | ry of their | missi | le syste | m, the | exp | orter would | not be | eligible\n| | | | | | | | | | pg.",
+      "then": "T | he applica | tion wo | uld be revi | ewed | /examin | ed fo | r th | e issuance o | f GAEI | S by the\nInt | er-Ministe | rial Wor | king Group | (IMW | G) base | d on | the | submitted a | pplicat | ion and\noth | er support | ing docu | ments sub | mitte | d by the | applic | ant | exporter in | the pre | scribed\npro | forma incl | uding: | | | | | | | |\ni.",
+      "source": "The app | licant e | xporter dec | lares | that su | bsequ | ent | to the issua | nce of | export\n| authorizat | ion, if th | e licensee | has b | een not | ified | in w | riting by D | GFT or | if they\n| know or h | as reaso | n to believ | e tha | t an ite | m may | be | intended fo | r milit | ary end\n| use or has | a potent | ial risk of u | se in | or diver | sion t | o we | apons of ma | ss dest | ruction\n| (WMD) or | in delive | ry of their | missi | le syste | m, the | exp | orter would | not be | eligible\n| | | | | | | | | | pg."
+    },
+    {
+      "id": "10.3.9",
+      "if": "Para 10.15(II): General Authorization for Export of Information\nSecurity items under SCOMET Category 8A5 Part 2(GAEIS)\nExport of indigenous SCOMET items (Information Security items under SCOMET\nCategory 8A5 Part 2) will be allowed based on a one-time General Authorization\n(GAEIS) subject to the following conditions:\n3.",
+      "then": "T | he applica | tion wo | uld be revi | ewed | /examin | ed fo | r th | e issuance o | f GAEI | S by the\nInt | er-Ministe | rial Wor | king Group | (IMW | G) base | d on | the | submitted a | pplicat | ion and\noth | er support | ing docu | ments sub | mitte | d by the | applic | ant | exporter in | the pre | scribed\npro | forma incl | uding: | | | | | | | |\ni.",
+      "source": "Para 10.15(II): General Authorization for Export of Information\nSecurity items under SCOMET Category 8A5 Part 2(GAEIS)\nExport of indigenous SCOMET items (Information Security items under SCOMET\nCategory 8A5 Part 2) will be allowed based on a one-time General Authorization\n(GAEIS) subject to the following conditions:\n3."
+    },
+    {
+      "id": "10.3.10",
+      "if": "The applicant exporter declares that subsequent to the issuance of export\nauthorization, if the licensee has been notified in writing by DGFT or if they\nknow or has reason to believe that an item may be intended for military end\nuse or has a potential risk of use in or diversion to weapons of mass destruction\n(WMD) or in delivery of their missile system, the exporter would not be eligible\nfor GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy.",
+      "then": "T | he applica | tion wo | uld be revi | ewed | /examin | ed fo | r th | e issuance o | f GAEI | S by the\nInt | er-Ministe | rial Wor | king Group | (IMW | G) base | d on | the | submitted a | pplicat | ion and\noth | er support | ing docu | ments sub | mitte | d by the | applic | ant | exporter in | the pre | scribed\npro | forma incl | uding: | | | | | | | |\ni.",
+      "source": "The applicant exporter declares that subsequent to the issuance of export\nauthorization, if the licensee has been notified in writing by DGFT or if they\nknow or has reason to believe that an item may be intended for military end\nuse or has a potential risk of use in or diversion to weapons of mass destruction\n(WMD) or in delivery of their missile system, the exporter would not be eligible\nfor GAEIS for export of that/those item(s) and would apply separately to DGFT\nfor a fresh authorization in terms of regular policy."
+    }
+  ]
+}

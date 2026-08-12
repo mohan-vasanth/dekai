@@ -1,0 +1,119 @@
+{
+  "section": "4.37",
+  "conditions": [
+    "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+    "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+    "|\n(xii) | After clubbing, Authoris | atio | ns shall for | all | p | urposes, be dee | med to be one\n| Authorisation.",
+    "The value | add | ition would | be c | a | lculated on the b | asis of total CIF\n| and total FOB arrived at | afte | r clubbing t | he A | u | thorisations.",
+    "(xiv) | No clubbing shall be | pe | rmitted in | res | p | ect of Authori | sations where\n| misrepresentation / frau | d h | ave come to | the | n | otice of RA.",
+    "Furth | er, no clubbing\n| of Authorisations, where | EO | DC/redemp | tion | l | etter has already | been issued or\n| adjudication orders have | alr | eady been p | asse | d | by RA/Customs | Authority, shall\n| be permitted.",
+    "| | | |\n37 En | hancement/Reductio | n in | the value | of | A | dvance Author | isation\n(a) | In respect of an Advance | Aut | horisation, | Regi | o | nal Authority con | cerned (as per\n| their financial powers) m | ay | consider a re | qu | es | t: |\n| (i) for enhancement / | red | uction in CIF | val | u | e of Advance Aut | horisation;\n( | ii) Enhancement/ red | uct | ion in CIF val | ue, | q | uantity of inputs, | FOB value and\n| quantity of expor | ts | of an Adva | nce | A | uthorisation.",
+    "H | owever, Value\n| Addition after suc | h en | hancement | doe | s | not fall below m | inimum Value\n| Addition stipulate | d (f | or the expor | t p | ro | duct) in FTP an | d Handbook of\n| Procedures laid th | ere | under and | the | r | e is no change i | n input-output\n| norms and FTP un | der | which Adva | nce | A | uthorisation was | issued.",
+    "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+    "The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations.",
+    "(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+    "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+    "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a)\nIn respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i)\nfor enhancement / reduction in CIF value of Advance Authorisation;\n(ii)\nEnhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+    "(b) Request for pro-rata enhancement in value and quantity may be made either\nbefore or after exports.",
+    "In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION.",
+    "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.37.1",
+      "if": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a) In respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i) for enhancement / reduction in CIF value of Advance Authorisation;\n(ii) Enhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation."
+    },
+    {
+      "id": "4.4.37.2",
+      "if": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued."
+    },
+    {
+      "id": "4.4.37.3",
+      "if": "|\n(xii) | After clubbing, Authoris | atio | ns shall for | all | p | urposes, be dee | med to be one\n| Authorisation.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "|\n(xii) | After clubbing, Authoris | atio | ns shall for | all | p | urposes, be dee | med to be one\n| Authorisation."
+    },
+    {
+      "id": "4.4.37.4",
+      "if": "The value | add | ition would | be c | a | lculated on the b | asis of total CIF\n| and total FOB arrived at | afte | r clubbing t | he A | u | thorisations.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "The value | add | ition would | be c | a | lculated on the b | asis of total CIF\n| and total FOB arrived at | afte | r clubbing t | he A | u | thorisations."
+    },
+    {
+      "id": "4.4.37.5",
+      "if": "(xiv) | No clubbing shall be | pe | rmitted in | res | p | ect of Authori | sations where\n| misrepresentation / frau | d h | ave come to | the | n | otice of RA.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "(xiv) | No clubbing shall be | pe | rmitted in | res | p | ect of Authori | sations where\n| misrepresentation / frau | d h | ave come to | the | n | otice of RA."
+    },
+    {
+      "id": "4.4.37.6",
+      "if": "Furth | er, no clubbing\n| of Authorisations, where | EO | DC/redemp | tion | l | etter has already | been issued or\n| adjudication orders have | alr | eady been p | asse | d | by RA/Customs | Authority, shall\n| be permitted.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "Furth | er, no clubbing\n| of Authorisations, where | EO | DC/redemp | tion | l | etter has already | been issued or\n| adjudication orders have | alr | eady been p | asse | d | by RA/Customs | Authority, shall\n| be permitted."
+    },
+    {
+      "id": "4.4.37.7",
+      "if": "| | | |\n37 En | hancement/Reductio | n in | the value | of | A | dvance Author | isation\n(a) | In respect of an Advance | Aut | horisation, | Regi | o | nal Authority con | cerned (as per\n| their financial powers) m | ay | consider a re | qu | es | t: |\n| (i) for enhancement / | red | uction in CIF | val | u | e of Advance Aut | horisation;\n( | ii) Enhancement/ red | uct | ion in CIF val | ue, | q | uantity of inputs, | FOB value and\n| quantity of expor | ts | of an Adva | nce | A | uthorisation.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "| | | |\n37 En | hancement/Reductio | n in | the value | of | A | dvance Author | isation\n(a) | In respect of an Advance | Aut | horisation, | Regi | o | nal Authority con | cerned (as per\n| their financial powers) m | ay | consider a re | qu | es | t: |\n| (i) for enhancement / | red | uction in CIF | val | u | e of Advance Aut | horisation;\n( | ii) Enhancement/ red | uct | ion in CIF val | ue, | q | uantity of inputs, | FOB value and\n| quantity of expor | ts | of an Adva | nce | A | uthorisation."
+    },
+    {
+      "id": "4.4.37.8",
+      "if": "H | owever, Value\n| Addition after suc | h en | hancement | doe | s | not fall below m | inimum Value\n| Addition stipulate | d (f | or the expor | t p | ro | duct) in FTP an | d Handbook of\n| Procedures laid th | ere | under and | the | r | e is no change i | n input-output\n| norms and FTP un | der | which Adva | nce | A | uthorisation was | issued.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "H | owever, Value\n| Addition after suc | h en | hancement | doe | s | not fall below m | inimum Value\n| Addition stipulate | d (f | or the expor | t p | ro | duct) in FTP an | d Handbook of\n| Procedures laid th | ere | under and | the | r | e is no change i | n input-output\n| norms and FTP un | der | which Adva | nce | A | uthorisation was | issued."
+    },
+    {
+      "id": "4.4.37.9",
+      "if": "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "(xii)\nAfter clubbing, Authorisations shall for all purposes, be deemed to be one\nAuthorisation."
+    },
+    {
+      "id": "4.4.37.10",
+      "if": "The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "The value addition would be calculated on the basis of total CIF\nand total FOB arrived at after clubbing the Authorisations."
+    },
+    {
+      "id": "4.4.37.11",
+      "if": "(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "(xiv)\nNo clubbing shall be permitted in respect of Authorisations where\nmisrepresentation / fraud have come to the notice of RA."
+    },
+    {
+      "id": "4.4.37.12",
+      "if": "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "Further, no clubbing\nof Authorisations, where EODC/redemption letter has already been issued or\nadjudication orders have already been passed by RA/Customs Authority, shall\nbe permitted."
+    },
+    {
+      "id": "4.4.37.13",
+      "if": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a)\nIn respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i)\nfor enhancement / reduction in CIF value of Advance Authorisation;\n(ii)\nEnhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "4.37 Enhancement/Reduction in the value of Advance Authorisation\n(a)\nIn respect of an Advance Authorisation, Regional Authority concerned (as per\ntheir financial powers) may consider a request:\n(i)\nfor enhancement / reduction in CIF value of Advance Authorisation;\n(ii)\nEnhancement/ reduction in CIF value, quantity of inputs, FOB value and\nquantity of exports of an Advance Authorisation."
+    },
+    {
+      "id": "4.4.37.14",
+      "if": "(b) Request for pro-rata enhancement in value and quantity may be made either\nbefore or after exports.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "(b) Request for pro-rata enhancement in value and quantity may be made either\nbefore or after exports."
+    },
+    {
+      "id": "4.4.37.15",
+      "if": "In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "In such cases where there is a change in SION prior to\nexport of said product, pro-rata enhancement shall be given after calculating\nentitlement on revised SION."
+    },
+    {
+      "id": "4.4.37.16",
+      "if": "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority.",
+      "then": "However, Value\nAddition after such enhancement does not fall below minimum Value\nAddition stipulated (for the export product) in FTP and Handbook of\nProcedures laid there under and there is no change in input-output\nnorms and FTP under which Advance Authorisation was issued.",
+      "source": "(c) Application for the enhancement in CIF or FOB value of Authorisation\n/reduction in the value of Authorisation / EOP Extension / Revalidation of\nAuthorisation shall be filed online in ANF 4D to concerned Regional\nAuthority."
+    }
+  ]
+}

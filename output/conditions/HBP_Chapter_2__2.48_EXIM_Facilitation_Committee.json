@@ -1,0 +1,91 @@
+{
+  "section": "2.48",
+  "conditions": [
+    "27\n| (ii) | for g | oods imported | w | ith A | ctual Use | r condition, | provi | ded suc | h go | od is\n| | freel | y importable w | it | hout | Actual U | ser condition | on d | ate of tr | ansf | er\n| (iii) | for g | oods with AU C | o | nditio | n after a | period of tw | o yea | rs from | the | date\n| | of im | port.",
+    "| | | | | | | |\n| (iv) | for tr | ansfer of Impo | r | ted Fi | rearms ( | a) after 10 y | ears o | f import | or | (b) on\n| | attai | ning the age o | f | 60 ye | ars by s | uch importe | r, su | bject to | con | dition\n| | that | transferee fulfi | ls | cond | itions as | in Arms Act | and R | ules the | re u | nder.",
+    "| (v) | for tr | ansfer of weap | o | n/s (f | irearm/ | s) imported | by a R | enowne | d S | hooter\n| | (as d | efined in Polic | y | Cond | ition 3 o | f Chapter 9 | 3 of I | TC (HS) | 202 | 2) for\n| | the p | urpose of his/ | h | er pu | rsuing s | hooting as a | spor | t to any | upc | oming\n| | shoo | ter as certifie | d | either | by the | National Ri | fle As | sociatio | n of | India\n| | (NRA | I) or the Depa | rt | ment | of Sport | s, Ministry o | f You | th Affair | s & | Sports\n| | after | two years | fr | om t | he date | of import |.",
+    "Th | e transf | ere | e can\n| | subs | equently trans | fe | r/res | ell to an | y buyer as c | ertifi | ed by th | e N | RAI or\n| | Depa | rtment of Spo | rt | s for | the sole | purpose of | purs | uing sho | otin | g as a\n| | spor | t after one yea | r f | rom t | he date | of its first sa | le.",
+    "| | | |\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.",
+    "(iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.",
+    "(v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import.",
+    "The transferee can\nsubsequently transfer/resell to any buyer as certified by the NRAI or\nDepartment of Sports for the sole purpose of pursuing shooting as a\nsport after one year from the date of its first sale.",
+    "Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police.",
+    "27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant.",
+    "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+    "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.48.1",
+      "if": "27\n| (ii) | for g | oods imported | w | ith A | ctual Use | r condition, | provi | ded suc | h go | od is\n| | freel | y importable w | it | hout | Actual U | ser condition | on d | ate of tr | ansf | er\n| (iii) | for g | oods with AU C | o | nditio | n after a | period of tw | o yea | rs from | the | date\n| | of im | port.",
+      "then": "NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
+      "source": "27\n| (ii) | for g | oods imported | w | ith A | ctual Use | r condition, | provi | ded suc | h go | od is\n| | freel | y importable w | it | hout | Actual U | ser condition | on d | ate of tr | ansf | er\n| (iii) | for g | oods with AU C | o | nditio | n after a | period of tw | o yea | rs from | the | date\n| | of im | port."
+    },
+    {
+      "id": "2.2.48.2",
+      "if": "| | | | | | | |\n| (iv) | for tr | ansfer of Impo | r | ted Fi | rearms ( | a) after 10 y | ears o | f import | or | (b) on\n| | attai | ning the age o | f | 60 ye | ars by s | uch importe | r, su | bject to | con | dition\n| | that | transferee fulfi | ls | cond | itions as | in Arms Act | and R | ules the | re u | nder.",
+      "then": "NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
+      "source": "| | | | | | | |\n| (iv) | for tr | ansfer of Impo | r | ted Fi | rearms ( | a) after 10 y | ears o | f import | or | (b) on\n| | attai | ning the age o | f | 60 ye | ars by s | uch importe | r, su | bject to | con | dition\n| | that | transferee fulfi | ls | cond | itions as | in Arms Act | and R | ules the | re u | nder."
+    },
+    {
+      "id": "2.2.48.3",
+      "if": "| (v) | for tr | ansfer of weap | o | n/s (f | irearm/ | s) imported | by a R | enowne | d S | hooter\n| | (as d | efined in Polic | y | Cond | ition 3 o | f Chapter 9 | 3 of I | TC (HS) | 202 | 2) for\n| | the p | urpose of his/ | h | er pu | rsuing s | hooting as a | spor | t to any | upc | oming\n| | shoo | ter as certifie | d | either | by the | National Ri | fle As | sociatio | n of | India\n| | (NRA | I) or the Depa | rt | ment | of Sport | s, Ministry o | f You | th Affair | s & | Sports\n| | after | two years | fr | om t | he date | of import |.",
+      "then": "NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
+      "source": "| (v) | for tr | ansfer of weap | o | n/s (f | irearm/ | s) imported | by a R | enowne | d S | hooter\n| | (as d | efined in Polic | y | Cond | ition 3 o | f Chapter 9 | 3 of I | TC (HS) | 202 | 2) for\n| | the p | urpose of his/ | h | er pu | rsuing s | hooting as a | spor | t to any | upc | oming\n| | shoo | ter as certifie | d | either | by the | National Ri | fle As | sociatio | n of | India\n| | (NRA | I) or the Depa | rt | ment | of Sport | s, Ministry o | f You | th Affair | s & | Sports\n| | after | two years | fr | om t | he date | of import |."
+    },
+    {
+      "id": "2.2.48.4",
+      "if": "Th | e transf | ere | e can\n| | subs | equently trans | fe | r/res | ell to an | y buyer as c | ertifi | ed by th | e N | RAI or\n| | Depa | rtment of Spo | rt | s for | the sole | purpose of | purs | uing sho | otin | g as a\n| | spor | t after one yea | r f | rom t | he date | of its first sa | le.",
+      "then": "NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
+      "source": "Th | e transf | ere | e can\n| | subs | equently trans | fe | r/res | ell to an | y buyer as c | ertifi | ed by th | e N | RAI or\n| | Depa | rtment of Spo | rt | s for | the sole | purpose of | purs | uing sho | otin | g as a\n| | spor | t after one yea | r f | rom t | he date | of its first sa | le."
+    },
+    {
+      "id": "2.2.48.5",
+      "if": "| | | |\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import.",
+      "then": "NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
+      "source": "| | | |\n(ii)\nfor goods imported with Actual User condition, provided such good is\nfreely importable without Actual User condition on date of transfer\n(iii)\nfor goods with AU Condition after a period of two years from the date\nof import."
+    },
+    {
+      "id": "2.2.48.6",
+      "if": "(iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under.",
+      "then": "NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
+      "source": "(iv)\nfor transfer of Imported Firearms (a) after 10 years of import or (b) on\nattaining the age of 60 years by such importer, subject to condition\nthat transferee fulfils conditions as in Arms Act and Rules there under."
+    },
+    {
+      "id": "2.2.48.7",
+      "if": "(v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import.",
+      "then": "NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
+      "source": "(v)\nfor transfer of weapon/s (firearm/s) imported by a Renowned Shooter\n(as defined in Policy Condition 3 of Chapter 93 of ITC (HS) 2022) for\nthe purpose of his/her pursuing shooting as a sport to any upcoming\nshooter as certified either by the National Rifle Association of India\n(NRAI) or the Department of Sports, Ministry of Youth Affairs & Sports\nafter two years from the date of import."
+    },
+    {
+      "id": "2.2.48.8",
+      "if": "The transferee can\nsubsequently transfer/resell to any buyer as certified by the NRAI or\nDepartment of Sports for the sole purpose of pursuing shooting as a\nsport after one year from the date of its first sale.",
+      "then": "NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
+      "source": "The transferee can\nsubsequently transfer/resell to any buyer as certified by the NRAI or\nDepartment of Sports for the sole purpose of pursuing shooting as a\nsport after one year from the date of its first sale."
+    },
+    {
+      "id": "2.2.48.9",
+      "if": "Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police.",
+      "then": "NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
+      "source": "Such transfer/sale is\nsubject to the provisions of the Arms Act, 1959 and other\nrules/regulations by state/local police."
+    },
+    {
+      "id": "2.2.48.10",
+      "if": "so",
+      "then": "NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
+      "source": "27\n(b) Import/Export authorisations for a restricted item, if so, directed by the competent\nauthority, shall be issued for import/ Export through one of the sea ports or air\nports or ICDs or LCS, as per the option indicated, in writing, by the applicant."
+    },
+    {
+      "id": "2.2.48.11",
+      "if": "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port.",
+      "then": "NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
+      "source": "Authorisation holder shall import at the port specified in the Authorisation and\nthereafter all imports against said authorisation shall be made only through that\nport, unless the authorisation holder obtains permission from customs authority\nconcerned to import through any other specified port."
+    },
+    {
+      "id": "2.2.48.12",
+      "if": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis.",
+      "then": "NRAI | /Dep | artment | of | Sports\n| | will | maintain the re | q | uired | records.",
+      "source": "Where a case has been deferred in EFC for want of comments from the\nTechnical Authorities and Departments /Ministries concerned but\nsubsequently, NOC(s) has / have been received from the concerned agency(ies)\nwith no divergence in views, authorisation shall be issued with the approval of\nChairman, EFC and the case shall be brought before EFC in its subsequent\nmeeting for approval on ex-post facto basis."
+    }
+  ]
+}

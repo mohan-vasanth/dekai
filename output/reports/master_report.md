@@ -1,28 +1,28 @@
 # DEKAI DGFT Master Knowledge Report
 
 - Knowledge Base: DEKAI DGFT Knowledge Base
-- Source Documents: HBP2023_Chapter01.pdf, HBP Chapter 2.pdf, HBP2023_Chapter03.pdf, HBP2023_Chapter04+as+on+20.04.2026.pdf, HBP2023_Chapter05.pdf, HBP-Chapter-6.pdf, Chapter-7-of-HBP-2023.pdf, HBP2023_Chapter08.pdf, HBP2023_Chapter09.pdf, Chapter+10+HBP+(19.05.2026).pdf, TradeNetDeclaration.INPDEC Ver2.1.pdf, TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf, TradeNetDeclaration.OUTDEC Ver2.1.pdf, TradeNetDeclaration.TNPDEC Ver2.1.pdf
+- Source Documents: HBP2023_Chapter01.pdf, HBP Chapter 2.pdf, HBP2023_Chapter03.pdf, HBP2023_Chapter04+as+on+20.04.2026.pdf, HBP2023_Chapter05.pdf, HBP-Chapter-6.pdf, Chapter-7-of-HBP-2023.pdf, HBP2023_Chapter08.pdf, HBP2023_Chapter09.pdf, Chapter+10+HBP+(19.05.2026).pdf, TradeNetDeclaration.COODEC Ver2.1.pdf, TradeNetDeclaration.INPDEC Ver2.1.pdf, TradeNetDeclaration.IPTDEC Ver2.1 (2).pdf, TradeNetDeclaration.TNPDEC Ver2.1.pdf
 - Chapters: 11
-- Sections: 465
-- Unified Topics: 696
+- Sections: 462
+- Unified Topics: 988
 
 ## Chapter Reports
-- Chapter  TradeNetDeclaration.INPDEC Ver2.1: rules=121, conditions=1685, validations=93, workflows=275, authorities=65, timelines=5, exceptions=167
-- Chapter 1 Legal Framework and Trade Facilitation: rules=23, conditions=32, validations=24, workflows=77, authorities=35, timelines=9, exceptions=2
-- Chapter 2 General Provisions Regarding Imports and Exports: rules=273, conditions=404, validations=262, workflows=611, authorities=203, timelines=123, exceptions=90
-- Chapter 3 Developing Districts as Export Hubs: rules=35, conditions=42, validations=14, workflows=83, authorities=66, timelines=0, exceptions=0
-- Chapter 4 Duty Exemption / Remission Schemes: rules=628, conditions=487, validations=606, workflows=760, authorities=248, timelines=264, exceptions=98
-- Chapter 5 Export Promotion Capital Goods (EPCG) Scheme: rules=129, conditions=104, validations=127, workflows=181, authorities=41, timelines=34, exceptions=17
-- Chapter 6 Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology: rules=204, conditions=144, validations=181, workflows=268, authorities=77, timelines=73, exceptions=34
-- Chapter 7 Deemed Exports: rules=50, conditions=38, validations=47, workflows=76, authorities=18, timelines=17, exceptions=15
-- Chapter 8 Quality Complaints and Trade Disputes: rules=17, conditions=4, validations=0, workflows=49, authorities=40, timelines=0, exceptions=1
-- Chapter 9 Promoting Cross Border Trade in Digital Economy: rules=9, conditions=5, validations=8, workflows=8, authorities=2, timelines=1, exceptions=0
-- Chapter 10 SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies: rules=240, conditions=337, validations=261, workflows=351, authorities=96, timelines=153, exceptions=39
+- Chapter  TradeNetDeclaration.COODEC Ver2.1: rules=105, conditions=1460, validations=72, workflows=255, authorities=62, timelines=5, exceptions=137
+- Chapter 1 Legal Framework and Trade Facilitation Legal Framework and Trade Facilitation: rules=33, conditions=52, validations=35, workflows=86, authorities=37, timelines=13, exceptions=2
+- Chapter 2 General Provisions Regarding Imports and Exports: rules=362, conditions=594, validations=360, workflows=676, authorities=221, timelines=168, exceptions=121
+- Chapter 3 Developing Districts as Export Hubs Developing Districts as Export Hubs: rules=35, conditions=42, validations=14, workflows=82, authorities=62, timelines=0, exceptions=0
+- Chapter 4 Duty Exemption / Remission Schemes: rules=877, conditions=728, validations=857, workflows=815, authorities=257, timelines=372, exceptions=129
+- Chapter 5 Export Promotion Capital Goods (EPCG) Scheme: rules=174, conditions=158, validations=176, workflows=196, authorities=42, timelines=49, exceptions=22
+- Chapter 6 Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology: rules=283, conditions=210, validations=258, workflows=292, authorities=81, timelines=111, exceptions=44
+- Chapter 7 Deemed Exports: rules=76, conditions=59, validations=73, workflows=79, authorities=21, timelines=26, exceptions=21
+- Chapter 8 Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes: rules=17, conditions=5, validations=0, workflows=52, authorities=40, timelines=0, exceptions=1
+- Chapter 9 Promoting Cross Border Trade in Digital Economy Promoting Cross Border Trade in Digital Economy: rules=13, conditions=9, validations=13, workflows=8, authorities=2, timelines=2, exceptions=0
+- Chapter 10 SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies: rules=330, conditions=525, validations=368, workflows=380, authorities=104, timelines=223, exceptions=55
 
 ## Master Knowledge Map
 DGFT
 |
-+-- Chapter 1: Legal Framework and Trade Facilitation
++-- Chapter 1: Legal Framework and Trade Facilitation Legal Framework and Trade Facilitation
 |   +-- 1.01 Notification of Procedure
 |   +-- 1.02 Objective
 |   +-- 1.03 Definition
@@ -48,7 +48,7 @@ DGFT
 |   +-- 2.09 IEC Format
 |   +-- 2.10 Validity of IEC
 |   +-- 2.11 Validity of IEC for EOUs / SEZs
-+-- Chapter 3: Developing Districts as Export Hubs
++-- Chapter 3: Developing Districts as Export Hubs Developing Districts as Export Hubs
 |   +-- 3.01 Policy
 |   +-- 3.02 Objective of policy
 |   +-- 3.03 District Export Promotion Committees -Institutional Mechanism at
@@ -113,7 +113,7 @@ DGFT
 |   +-- 7.09 Applicability of other Rules
 |   +-- 7.10 Payment of interest
 |   +-- 7.11 Internal Audit Mechanism
-+-- Chapter 8: Quality Complaints and Trade Disputes
++-- Chapter 8: Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes
 |   +-- 8.01 Committee on Quality Complaint & Trade Dispute (CQCTD)
 |   +-- 13 Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot
 |   +-- 17 Addl. DGFT, Addl. DGFT RA, Hyderabad
@@ -126,7 +126,7 @@ DGFT
 |   +-- 6 Representative of Export Inspection Agency: Member
 |   +-- 7 Nominee of Director of Industries of State Government: Member
 |   +-- 8 Nominee of Development Commissioner of MSME: Member
-+-- Chapter 9: Promoting Cross Border Trade in Digital Economy
++-- Chapter 9: Promoting Cross Border Trade in Digital Economy Promoting Cross Border Trade in Digital Economy
 |   +-- 9.00 Policy
 |   +-- 9.01 Foreign Trade Policy Benefits/Schemes to e-Commerce
 |   +-- 9.02 E-COMMERCE EXPORT HUBs (ECEHs)
@@ -146,6 +146,7 @@ DGFT
 |
 +-- Unified Topics
     +-- A-B -> Chapters 6
+    +-- A00 -> Chapters 10
     +-- A001 -> Chapters 
     +-- A002 -> Chapters 
     +-- A003 -> Chapters 
@@ -164,4 +165,3 @@ DGFT
     +-- A027 -> Chapters 
     +-- A028 -> Chapters 
     +-- A030 -> Chapters 
-    +-- A032 -> Chapters 

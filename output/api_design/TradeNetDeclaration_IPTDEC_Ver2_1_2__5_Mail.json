@@ -1,0 +1,38 @@
+{
+  "section": "5",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5",
+      "purpose": "Retrieve knowledge payload for section 5",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Mail/validate",
+      "purpose": "Validate inputs and documents for Mail",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

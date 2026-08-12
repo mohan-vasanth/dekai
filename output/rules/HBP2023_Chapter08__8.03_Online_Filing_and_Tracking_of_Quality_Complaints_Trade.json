@@ -1,0 +1,21 @@
+{
+  "chapter_number": "8",
+  "chapter_title": "Quality Complaints and Trade Disputes Quality Complaints and Trade Disputes",
+  "section": "8.03",
+  "title": "Online Filing and Tracking of Quality Complaints/Trade",
+  "business_rules": [
+    {
+      "rule_id": "CH8-SEC8_03-R001",
+      "rule_description": "IF validations pass THEN recommend action: Such complaint would be submitted online to the\njurisdictional Regional Authorities of DGFT as well as to the concerned Indian\nMission.",
+      "trigger": "Online Filing and Tracking of Quality Complaints/Trade",
+      "condition": "Section 8.03 is applicable",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Such complaint would be submitted online to the\njurisdictional Regional Authorities of DGFT as well as to the concerned Indian\nMission.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 8.03 - Online Filing and Tracking of Quality Complaints/Trade."
+    }
+  ],
+  "ai_rules": [
+    "IF validations pass THEN recommend action: Such complaint would be submitted online to the\njurisdictional Regional Authorities of DGFT as well as to the concerned Indian\nMission."
+  ]
+}

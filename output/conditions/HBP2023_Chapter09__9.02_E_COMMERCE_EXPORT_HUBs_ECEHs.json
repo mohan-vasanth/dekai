@@ -1,0 +1,63 @@
+{
+  "section": "9.02",
+  "conditions": [
+    "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+    "DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.",
+    "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.",
+    "DGFT shall notify procedures for supervision and inspections at\nECEHs.",
+    "168\n| | | | | | | Chapter-9\nProm | oti | ng | | Cro | ss Border T | rade in Digita | l Economy\n9.00 Policy | | | | | | |\nThe given chap | ter | ela | b | ora | tes on the proce | dures in relation to | the Policy as\nnotified under | ‘Cr | oss | | Bor | der E-Commerce | from India’ i.e., Ch | apter 9 of the\nForeign Trade | Pol | icy.",
+    "Applicati | on | for | c | rea | tion/notification | of an ECEH area | shall be made\nto the DGFT.",
+    "DGFT m | ay | spe | c | ify | export products | or markets, which | shall not be\neligible for EC | EH | ope | r | atio | ns.",
+    "The negative | list of items that ca | nnot be dealt\nwithin the ECE | Hs | shal | l | be | notified separate | ly."
+  ],
+  "condition_logic": [
+    {
+      "id": "9.9.02.1",
+      "if": "Application for creation/notification of an ECEH area shall be made\nto the DGFT.",
+      "then": "Route for review",
+      "source": "Application for creation/notification of an ECEH area shall be made\nto the DGFT."
+    },
+    {
+      "id": "9.9.02.2",
+      "if": "DGFT may specify export products or markets, which shall not be\neligible for ECEH operations.",
+      "then": "Route for review",
+      "source": "DGFT may specify export products or markets, which shall not be\neligible for ECEH operations."
+    },
+    {
+      "id": "9.9.02.3",
+      "if": "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately.",
+      "then": "Route for review",
+      "source": "The negative list of items that cannot be dealt\nwithin the ECEHs shall be notified separately."
+    },
+    {
+      "id": "9.9.02.4",
+      "if": "DGFT shall notify procedures for supervision and inspections at\nECEHs.",
+      "then": "Route for review",
+      "source": "DGFT shall notify procedures for supervision and inspections at\nECEHs."
+    },
+    {
+      "id": "9.9.02.5",
+      "if": "168\n| | | | | | | Chapter-9\nProm | oti | ng | | Cro | ss Border T | rade in Digita | l Economy\n9.00 Policy | | | | | | |\nThe given chap | ter | ela | b | ora | tes on the proce | dures in relation to | the Policy as\nnotified under | ‘Cr | oss | | Bor | der E-Commerce | from India’ i.e., Ch | apter 9 of the\nForeign Trade | Pol | icy.",
+      "then": "Route for review",
+      "source": "168\n| | | | | | | Chapter-9\nProm | oti | ng | | Cro | ss Border T | rade in Digita | l Economy\n9.00 Policy | | | | | | |\nThe given chap | ter | ela | b | ora | tes on the proce | dures in relation to | the Policy as\nnotified under | ‘Cr | oss | | Bor | der E-Commerce | from India’ i.e., Ch | apter 9 of the\nForeign Trade | Pol | icy."
+    },
+    {
+      "id": "9.9.02.6",
+      "if": "Applicati | on | for | c | rea | tion/notification | of an ECEH area | shall be made\nto the DGFT.",
+      "then": "Route for review",
+      "source": "Applicati | on | for | c | rea | tion/notification | of an ECEH area | shall be made\nto the DGFT."
+    },
+    {
+      "id": "9.9.02.7",
+      "if": "DGFT m | ay | spe | c | ify | export products | or markets, which | shall not be\neligible for EC | EH | ope | r | atio | ns.",
+      "then": "Route for review",
+      "source": "DGFT m | ay | spe | c | ify | export products | or markets, which | shall not be\neligible for EC | EH | ope | r | atio | ns."
+    },
+    {
+      "id": "9.9.02.8",
+      "if": "The negative | list of items that ca | nnot be dealt\nwithin the ECE | Hs | shal | l | be | notified separate | ly.",
+      "then": "Route for review",
+      "source": "The negative | list of items that ca | nnot be dealt\nwithin the ECE | Hs | shal | l | be | notified separate | ly."
+    }
+  ]
+}

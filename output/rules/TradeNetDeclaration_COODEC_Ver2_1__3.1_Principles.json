@@ -1,0 +1,19 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.COODEC Ver2.1",
+  "section": "3.1",
+  "title": "Principles",
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC3_1-R001",
+      "rule_description": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration. Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration and\nfor the grouping of document lines into a single trade item.",
+      "trigger": "Principles",
+      "condition": "3.1 Principles\nThis message incorporates the necessary trade, transport, statistical and Applicant/Declarant information on the application\nfor Certificate of Origin and/or IESGP Outward Declaration.",
+      "validation": "Provision has also been made for the inclusion of appropriate\ncommercial information which may be accepted by Issuing Authorities in lieu of supporting documentation.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3.1 - Principles."
+    }
+  ],
+  "ai_rules": []
+}

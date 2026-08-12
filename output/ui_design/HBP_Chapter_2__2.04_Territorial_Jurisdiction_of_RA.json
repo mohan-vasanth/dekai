@@ -1,0 +1,47 @@
+{
+  "section": "2.04",
+  "ui": [
+    {
+      "screen_id": "Territorial_Jurisdiction_of_RA_overview",
+      "name": "Territorial Jurisdiction of RA Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Territorial_Jurisdiction_of_RA_submission",
+      "name": "Territorial Jurisdiction of RA Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "ras_flag",
+        "and_flag",
+        "the_flag",
+        "por_flag",
+        "ftp_flag",
+        "for_flag"
+      ]
+    },
+    {
+      "screen_id": "Territorial_Jurisdiction_of_RA_exceptions",
+      "name": "Territorial Jurisdiction of RA Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

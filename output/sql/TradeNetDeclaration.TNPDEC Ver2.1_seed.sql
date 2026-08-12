@@ -2532,8 +2532,6 @@ Prepared by:
 TDS41-MDS-XML-TNPDEC-M
 Ref Tag name | User defined
 S R Repr | Remarks
-HEADER SECTION | |
-| tnp:Header |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:13
@@ -2687,7 +2685,6 @@ Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-TNPDEC-M
-| tnp:Cargo |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:13
@@ -2895,8 +2892,6 @@ Prepared by:
 TDS41-MDS-XML-TNPDEC-M
 Ref Tag name | User defined
 S R Repr | Remarks
-HEADER SECTION | |
-| tnp:Header |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:13
@@ -2995,7 +2990,6 @@ Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-TNPDEC-M
-| tnp:Cargo |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:13
@@ -4380,15 +4374,6 @@ Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-TNPDEC-M
-| cac:Licence |
-B064 cbc:Reference ID
-/cac:Licence | |
-cac:Supporting Document Reference | |
-B023 cbc:Document ID
-B033 cbc:Filename
-/cac:Supporting Document Reference
-ITEM SECTION | |
-| tnp:Item |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:13
@@ -4889,7 +4874,6 @@ Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-TNPDEC-M
-| tnp:Summary |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:13
@@ -5017,7 +5001,6 @@ Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-TNPDEC-M
-| End Declaration --------------------- | | | | | | | | | |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:13
@@ -6381,32 +6364,6 @@ e) PNG Image
 f) TIF Image
 B023 cbc:Document ID M 1 an..3 Specify Document type code.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B033 cbc:Filename M 1 an..70 Specify Filename of the document.');
-INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)
-OFFICIAL (CLOSED)
-Prepared by:
-TDS41-MDS-XML-TNPDEC-M
-| cac:Licence |
-B064 cbc:Reference ID
-/cac:Licence | |
-cac:Supporting Document Reference | |
-B023 cbc:Document ID
-B033 cbc:Filename
-/cac:Supporting Document Reference
-ITEM SECTION | |
-| tnp:Item |
-OFFICIAL (CLOSED)
-TRADENET MESSAGE
-18/11/2021 11:13
-AM
-Prepared by:
-For:
-Release Date
-18/11/2021
-Ver
-4.1
-Reference
-TRADENET
-Document Id.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-TNPDEC-M
 Trade Net Declaration.TNPDEC Ver2.1.doc
 OFFICIAL (CLOSED)
@@ -6853,24 +6810,6 @@ amount declared at line items.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B092 cbc:Total Outer Pack M 1 n..8 Specify Total Outer Pack.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B091 cbc:Total Gross Weight M 1 n..15 Specify Total Gross Weight
 unit Code (attribute) M 1 an..3 Specify unit (refer to weight measurement code in STDID Code List).');
-INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)
-OFFICIAL (CLOSED)
-Prepared by:
-TDS41-MDS-XML-TNPDEC-M
-| tnp:Summary |
-OFFICIAL (CLOSED)
-TRADENET MESSAGE
-18/11/2021 11:13
-AM
-Prepared by:
-For:
-Release Date
-18/11/2021
-Ver
-4.1
-Reference
-TRADENET
-Document Id.');
 INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-TNPDEC-M
 Trade Net Declaration.TNPDEC Ver2.1.doc
 OFFICIAL (CLOSED)
@@ -6980,7 +6919,6 @@ Trade Net Declaration.TNPDEC Ver2.1.doc Message Specification XML (TNPDEC)
 OFFICIAL (CLOSED)
 Prepared by:
 TDS41-MDS-XML-TNPDEC-M
-| End Declaration --------------------- | | | | | | | | | |
 OFFICIAL (CLOSED)
 TRADENET MESSAGE
 18/11/2021 11:13

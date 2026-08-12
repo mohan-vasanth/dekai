@@ -1,0 +1,55 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.51",
+  "title": "Maintenance of Proper Accounts",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_51-R001",
+      "rule_description": "4.51 Maintenance of Proper Accounts\nEvery Advance Authorisation holder shall maintain a true and proper account\nof consumption and utilisation of duty free imported / domestically procured\ngoods against each authorisation as prescribed in Appendix 4H or 4I, as\napplicable.",
+      "trigger": "Maintenance of Proper Accounts",
+      "condition": "Section 4.51 is applicable",
+      "validation": "4.51 Maintenance of Proper Accounts\nEvery Advance Authorisation holder shall maintain a true and proper account\nof consumption and utilisation of duty free imported / domestically procured\ngoods against each authorisation as prescribed in Appendix 4H or 4I, as\napplicable.",
+      "action": "4.51 Maintenance of Proper Accounts\nEvery Advance Authorisation holder shall maintain a true and proper account\nof consumption and utilisation of duty free imported / domestically procured\ngoods against each authorisation as prescribed in Appendix 4H or 4I, as\napplicable.",
+      "exception": "107\n(g) Paymen | t of d | uty, int | eres | t a | nd an | y dues for reg | ularis | ation shall, | however,\nbe with | out pr | ejudic | e to | an | y oth | er action that | may b | e taken by | Customs\nAuthori | ties at | any s | tage | un | der C | ustoms Act, 1 | 962.",
+      "output": "DEKAI should produce a compliance decision for 4.51 - Maintenance of Proper Accounts."
+    },
+    {
+      "rule_id": "CH4-SEC4_51-R002",
+      "rule_description": "These records are required to be filed online at the beginning of\neach licensing year for all those authorisations, which have been redeemed in\nprevious licensing year.",
+      "trigger": "Maintenance of Proper Accounts",
+      "condition": "Section 4.51 is applicable",
+      "validation": "These records are required to be filed online at the beginning of\neach licensing year for all those authorisations, which have been redeemed in\nprevious licensing year.",
+      "action": "The same may be submitted on the DGFT Website under\nDashboard----- Repository CA/CE Repository.",
+      "exception": "(g)\nPayment of duty, interest and any dues for regularisation shall, however,\nbe without prejudice to any other action that may be taken by Customs\nAuthorities at any stage under Customs Act, 1962.",
+      "output": "DEKAI should produce a compliance decision for 4.51 - Maintenance of Proper Accounts."
+    },
+    {
+      "rule_id": "CH4-SEC4_51-R003",
+      "rule_description": "107\n(g) Paymen | t of d | uty, int | eres | t a | nd an | y dues for reg | ularis | ation shall, | however,\nbe with | out pr | ejudic | e to | an | y oth | er action that | may b | e taken by | Customs\nAuthori | ties at | any s | tage | un | der C | ustoms Act, 1 | 962.",
+      "trigger": "Maintenance of Proper Accounts",
+      "condition": "Section 4.51 is applicable",
+      "validation": "107\n(g) Paymen | t of d | uty, int | eres | t a | nd an | y dues for reg | ularis | ation shall, | however,\nbe with | out pr | ejudic | e to | an | y oth | er action that | may b | e taken by | Customs\nAuthori | ties at | any s | tage | un | der C | ustoms Act, 1 | 962.",
+      "action": "107\n(g) Paymen | t of d | uty, int | eres | t a | nd an | y dues for reg | ularis | ation shall, | however,\nbe with | out pr | ejudic | e to | an | y oth | er action that | may b | e taken by | Customs\nAuthori | ties at | any s | tage | un | der C | ustoms Act, 1 | 962.",
+      "exception": "(g)\nPayment of duty, interest and any dues for regularisation shall, however,\nbe without prejudice to any other action that may be taken by Customs\nAuthorities at any stage under Customs Act, 1962.",
+      "output": "DEKAI should produce a compliance decision for 4.51 - Maintenance of Proper Accounts."
+    },
+    {
+      "rule_id": "CH4-SEC4_51-R004",
+      "rule_description": "(g)\nPayment of duty, interest and any dues for regularisation shall, however,\nbe without prejudice to any other action that may be taken by Customs\nAuthorities at any stage under Customs Act, 1962.",
+      "trigger": "Maintenance of Proper Accounts",
+      "condition": "Section 4.51 is applicable",
+      "validation": "(g)\nPayment of duty, interest and any dues for regularisation shall, however,\nbe without prejudice to any other action that may be taken by Customs\nAuthorities at any stage under Customs Act, 1962.",
+      "action": "| |\n51 Maintena | nce o | f Pro | per | Ac | coun | ts | | |\nEvery Advance | Auth | orisati | on h | old | er sh | all maintain | a true | and proper | account\nof consumption | and | utilisa | tion | of | duty | free importe | d / do | mestically | procured\ngoods against | each | autho | risat | io | n as | prescribed i | n App | endix 4H | or 4I, as\napplicable.",
+      "exception": "(g)\nPayment of duty, interest and any dues for regularisation shall, however,\nbe without prejudice to any other action that may be taken by Customs\nAuthorities at any stage under Customs Act, 1962.",
+      "output": "DEKAI should produce a compliance decision for 4.51 - Maintenance of Proper Accounts."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.51 Maintenance of Proper Accounts\nEvery Advance Authorisation holder shall maintain a true and proper account\nof consumption and utilisation of duty free imported / domestically procured\ngoods against each authorisation as prescribed in Appendix 4H or 4I, as\napplicable.",
+    "IF detected context matches section rule THEN enforce: These records are required to be filed online at the beginning of\neach licensing year for all those authorisations, which have been redeemed in\nprevious licensing year.",
+    "IF detected context matches section rule THEN enforce: 107\n(g) Paymen | t of d | uty, int | eres | t a | nd an | y dues for reg | ularis | ation shall, | however,\nbe with | out pr | ejudic | e to | an | y oth | er action that | may b | e taken by | Customs\nAuthori | ties at | any s | tage | un | der C | ustoms Act, 1 | 962.",
+    "IF detected context matches section rule THEN enforce: (g)\nPayment of duty, interest and any dues for regularisation shall, however,\nbe without prejudice to any other action that may be taken by Customs\nAuthorities at any stage under Customs Act, 1962.",
+    "IF validations pass THEN recommend action: 4.51 Maintenance of Proper Accounts\nEvery Advance Authorisation holder shall maintain a true and proper account\nof consumption and utilisation of duty free imported / domestically procured\ngoods against each authorisation as prescribed in Appendix 4H or 4I, as\napplicable."
+  ]
+}

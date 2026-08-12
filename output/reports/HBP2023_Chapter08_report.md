@@ -5,8 +5,8 @@
 - page_count: 4
 - section_count: 17
 - rule_count: 3
-- condition_count: 3
-- workflow_count: 49
+- condition_count: 4
+- workflow_count: 52
 - validation_count: 0
 - exception_count: 1
 - timeline_count: 0
@@ -32,4 +32,4 @@
 | 10 | Any other agency, as co-opted by Chairperson: Member. | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 8.03 | Online Filing and Tracking of Quality Complaints/Trade | 0 | 0 | 0 | 0 | 0 | 2 | 3 |
 | 8.04 | Mechanism for resolving Quality Complaints/Trade Disputes | 0 | 1 | 0 | 0 | 0 | 4 | 0 |
-| 8.05 | Choice to pursue other options | 0 | 1 | 0 | 1 | 0 | 1 | 0 |
+| 8.05 | Choice to pursue other options | 0 | 2 | 0 | 1 | 0 | 1 | 0 |

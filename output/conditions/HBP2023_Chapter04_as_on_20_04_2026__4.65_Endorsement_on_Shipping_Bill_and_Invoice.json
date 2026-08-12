@@ -1,0 +1,49 @@
+{
+  "section": "4.65",
+  "conditions": [
+    "If\npg.",
+    "| | |\n4.62 | Los | s of Gem and | Jewellery | in transit | | |\nCon | sign | ments of gem | and jewelle | ry items expo | rte | d out of count | ry and lost in\ntran | sit a | fter exports, | where forei | gn exchange | ag | ainst such exp | orts has been\nreal | ised | or insurance cl | aims settle | d, will also be | eli | gible for REP A | uthorisation.",
+    "In add | ition, Author | isa | tion shall also | be valid for\n| i | mport of empt | y jewellery | boxes up to | 5 | % of value of | Authorisation\n| w | ithin its over | all CIF val | ue.",
+    "Gem REP | A | uthorisations i | ssued against\n| e | xport of studd | ed gold / si | lver / platinu | m | jewellery arti | cles, shall also\n| b | e valid for imp | ort of cut a | nd polished p | rec | ious / semi- pr | ecious stones\n| o | ther than eme | rald up to | 10% of CIF va | lu | e of Authorisat | ion within its\n| o | verall CIF valu | e.",
+    "If\npurity of gold/silver/platinum used is same in respect of all or some of items\nmade out from each of these metals for export, exporter may give total weight of\ngold/silver/platinum and other details of such similar items which are of same\npurity.",
+    "In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.65.1",
+      "if": "If\npg.",
+      "then": "4.64 | Age | ncy Commiss | ion | | | |\nExp | orte | r availing schem | e of gold / | silver / platin | um | jewellery are a | llowed to pay\nage | ncy c | ommission su | bject to the | guidelines lai | d | down by RBI.",
+      "source": "If\npg."
+    },
+    {
+      "id": "4.4.65.2",
+      "if": "| | |\n4.62 | Los | s of Gem and | Jewellery | in transit | | |\nCon | sign | ments of gem | and jewelle | ry items expo | rte | d out of count | ry and lost in\ntran | sit a | fter exports, | where forei | gn exchange | ag | ainst such exp | orts has been\nreal | ised | or insurance cl | aims settle | d, will also be | eli | gible for REP A | uthorisation.",
+      "then": "4.64 | Age | ncy Commiss | ion | | | |\nExp | orte | r availing schem | e of gold / | silver / platin | um | jewellery are a | llowed to pay\nage | ncy c | ommission su | bject to the | guidelines lai | d | down by RBI.",
+      "source": "| | |\n4.62 | Los | s of Gem and | Jewellery | in transit | | |\nCon | sign | ments of gem | and jewelle | ry items expo | rte | d out of count | ry and lost in\ntran | sit a | fter exports, | where forei | gn exchange | ag | ainst such exp | orts has been\nreal | ised | or insurance cl | aims settle | d, will also be | eli | gible for REP A | uthorisation."
+    },
+    {
+      "id": "4.4.65.3",
+      "if": "In add | ition, Author | isa | tion shall also | be valid for\n| i | mport of empt | y jewellery | boxes up to | 5 | % of value of | Authorisation\n| w | ithin its over | all CIF val | ue.",
+      "then": "4.64 | Age | ncy Commiss | ion | | | |\nExp | orte | r availing schem | e of gold / | silver / platin | um | jewellery are a | llowed to pay\nage | ncy c | ommission su | bject to the | guidelines lai | d | down by RBI.",
+      "source": "In add | ition, Author | isa | tion shall also | be valid for\n| i | mport of empt | y jewellery | boxes up to | 5 | % of value of | Authorisation\n| w | ithin its over | all CIF val | ue."
+    },
+    {
+      "id": "4.4.65.4",
+      "if": "Gem REP | A | uthorisations i | ssued against\n| e | xport of studd | ed gold / si | lver / platinu | m | jewellery arti | cles, shall also\n| b | e valid for imp | ort of cut a | nd polished p | rec | ious / semi- pr | ecious stones\n| o | ther than eme | rald up to | 10% of CIF va | lu | e of Authorisat | ion within its\n| o | verall CIF valu | e.",
+      "then": "4.64 | Age | ncy Commiss | ion | | | |\nExp | orte | r availing schem | e of gold / | silver / platin | um | jewellery are a | llowed to pay\nage | ncy c | ommission su | bject to the | guidelines lai | d | down by RBI.",
+      "source": "Gem REP | A | uthorisations i | ssued against\n| e | xport of studd | ed gold / si | lver / platinu | m | jewellery arti | cles, shall also\n| b | e valid for imp | ort of cut a | nd polished p | rec | ious / semi- pr | ecious stones\n| o | ther than eme | rald up to | 10% of CIF va | lu | e of Authorisat | ion within its\n| o | verall CIF valu | e."
+    },
+    {
+      "id": "4.4.65.5",
+      "if": "If\npurity of gold/silver/platinum used is same in respect of all or some of items\nmade out from each of these metals for export, exporter may give total weight of\ngold/silver/platinum and other details of such similar items which are of same\npurity.",
+      "then": "4.64 | Age | ncy Commiss | ion | | | |\nExp | orte | r availing schem | e of gold / | silver / platin | um | jewellery are a | llowed to pay\nage | ncy c | ommission su | bject to the | guidelines lai | d | down by RBI.",
+      "source": "If\npurity of gold/silver/platinum used is same in respect of all or some of items\nmade out from each of these metals for export, exporter may give total weight of\ngold/silver/platinum and other details of such similar items which are of same\npurity."
+    },
+    {
+      "id": "4.4.65.6",
+      "if": "In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver.",
+      "then": "4.64 | Age | ncy Commiss | ion | | | |\nExp | orte | r availing schem | e of gold / | silver / platin | um | jewellery are a | llowed to pay\nage | ncy c | ommission su | bject to the | guidelines lai | d | down by RBI.",
+      "source": "In case of studded items, shipping bill shall also contain description,\nweight and value of precious / semi-precious stones / diamonds / pearls used in\nmanufacture and weight / value of any other precious metal used for alloying\ngold/silver."
+    }
+  ]
+}

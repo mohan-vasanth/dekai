@@ -1,0 +1,1397 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.19",
+  "title": "Processing of Application for Pharmaceutical Products.",
+  "purpose": "4.19 Processing of Application for Pharmaceutical Products.",
+  "purpose_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, 4.19 Processing of application for Pharmaceutical Products.",
+  "summary": "4.19 Processing of Application for Pharmaceutical Products. (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein. (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+  "business_meaning": "Processing of Application for Pharmaceutical Products. governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Processing of Application for Pharmaceutical Products. explains the operating rule set that DEKAI should enforce. Key control points include (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein. The section also drives actions such as (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein..",
+  "business_explanation_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, Processing of application for Pharmaceutical Products. explains the operating rule set that DEKAI should enforce. Key control points include (i) An application for grant of an Advance Authorisation under paragraph 4.18\nkandippa be filed online in ANF 4E to concerned Regional authority along with the\ndocuments uploaded therein. The section also drives actions such as (i) An application for grant of an Advance Authorisation under paragraph 4.18\nkandippa be filed online in ANF 4E to concerned Regional authority along with the\ndocuments uploaded therein..",
+  "business_logic": [
+    "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+    "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+    "Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+    "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_19-R001",
+      "rule_description": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "trigger": "Processing of Application for Pharmaceutical Products.",
+      "condition": "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "validation": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "action": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.19 - Processing of Application for Pharmaceutical Products.."
+    },
+    {
+      "rule_id": "CH4-SEC4_19-R002",
+      "rule_description": "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "trigger": "Processing of Application for Pharmaceutical Products.",
+      "condition": "The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures.",
+      "validation": "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "action": "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.19 - Processing of Application for Pharmaceutical Products.."
+    },
+    {
+      "rule_id": "CH4-SEC4_19-R003",
+      "rule_description": "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+      "trigger": "Processing of Application for Pharmaceutical Products.",
+      "condition": "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+      "validation": "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+      "action": "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.19 - Processing of Application for Pharmaceutical Products.."
+    },
+    {
+      "rule_id": "CH4-SEC4_19-R004",
+      "rule_description": "Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+      "trigger": "Processing of Application for Pharmaceutical Products.",
+      "condition": "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "validation": "Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+      "action": "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.19 - Processing of Application for Pharmaceutical Products.."
+    },
+    {
+      "rule_id": "CH4-SEC4_19-R005",
+      "rule_description": "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "trigger": "Processing of Application for Pharmaceutical Products.",
+      "condition": "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "validation": "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "action": "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.19 - Processing of Application for Pharmaceutical Products.."
+    },
+    {
+      "rule_id": "CH4-SEC4_19-R006",
+      "rule_description": "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "trigger": "Processing of Application for Pharmaceutical Products.",
+      "condition": "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "validation": "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "action": "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.19 - Processing of Application for Pharmaceutical Products.."
+    }
+  ],
+  "conditions": [
+    "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+    "The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures.",
+    "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+    "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.19.1",
+      "if": "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "then": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "source": "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant."
+    },
+    {
+      "id": "4.4.19.2",
+      "if": "The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures.",
+      "then": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "source": "The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures."
+    },
+    {
+      "id": "4.4.19.3",
+      "if": "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+      "then": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "source": "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation."
+    },
+    {
+      "id": "4.4.19.4",
+      "if": "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "then": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "source": "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant."
+    }
+  ],
+  "validations": [
+    "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+    "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+    "Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+    "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant."
+  ],
+  "exceptions": [],
+  "dependencies": [
+    "4.18",
+    "1",
+    "4"
+  ],
+  "documents": [
+    "Processing of Application",
+    "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+    "Chartered Engineer Certificate",
+    "Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+    "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant."
+  ],
+  "required_documents": [
+    "Processing of Application",
+    "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+    "Chartered Engineer Certificate",
+    "Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+    "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant."
+  ],
+  "tables": [
+    [
+      [
+        "of decis",
+        "io",
+        "n",
+        "on DGFT",
+        "website.",
+        "Representation beyon",
+        "d 90 days sh",
+        "a",
+        "ll",
+        "be",
+        "",
+        "subje",
+        "ct to"
+      ],
+      [
+        "paymen",
+        "t",
+        "of",
+        "compositi",
+        "on fee of",
+        "Rs. 5000/-. However,",
+        "no represent",
+        "a",
+        "tio",
+        "n",
+        "a",
+        "gains",
+        "t the"
+      ],
+      [
+        "decisio",
+        "n",
+        "of",
+        "Norms C",
+        "ommittee",
+        "after the period of",
+        "12 months f",
+        "r",
+        "om",
+        "t",
+        "h",
+        "e dat",
+        "e of"
+      ],
+      [
+        "uploadi",
+        "n",
+        "g o",
+        "f the decis",
+        "ion on DG",
+        "FT website will be ent",
+        "ertained.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "18 Pro",
+        "v",
+        "is",
+        "ion for Ph",
+        "armace",
+        "utical Products",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Region",
+        "al",
+        "A",
+        "uthority m",
+        "ay issue",
+        "Advance Authorisatio",
+        "n for pharma",
+        "c",
+        "eu",
+        "tic",
+        "a",
+        "l pro",
+        "ducts"
+      ],
+      [
+        "manufa",
+        "c",
+        "tu",
+        "red throug",
+        "h Non-In",
+        "fringing (NI) process.",
+        "A manufactu",
+        "r",
+        "er",
+        "e",
+        "x",
+        "porte",
+        "r can"
+      ],
+      [
+        "avail th",
+        "e",
+        "b",
+        "enefit of th",
+        "is provisi",
+        "on whether the SION o",
+        "r the adhoc n",
+        "o",
+        "rm",
+        "s",
+        "(",
+        "under",
+        "self-"
+      ],
+      [
+        "declare",
+        "d",
+        "b",
+        "asis in ter",
+        "ms of par",
+        "agraph 4.07 of the Ha",
+        "ndbook of Pr",
+        "o",
+        "ce",
+        "du",
+        "r",
+        "es) fo",
+        "r the"
+      ],
+      [
+        "said pr",
+        "od",
+        "u",
+        "ct is availa",
+        "ble or no",
+        "t. “Input combination",
+        "permitted un",
+        "d",
+        "er",
+        "NI",
+        "",
+        "proce",
+        "ss, as"
+      ],
+      [
+        "approv",
+        "ed",
+        "",
+        "by the con",
+        "cerned a",
+        "gency of the regulate",
+        "d markets”, s",
+        "h",
+        "all",
+        "b",
+        "e",
+        "expo",
+        "rter-"
+      ],
+      [
+        "specific",
+        "",
+        "an",
+        "d country",
+        "-specific",
+        "and shall be availabl",
+        "e only when",
+        "",
+        "th",
+        "e",
+        "e",
+        "xport",
+        "s are"
+      ],
+      [
+        "destine",
+        "d",
+        "fo",
+        "r the same",
+        "country.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "19 Pro",
+        "c",
+        "es",
+        "sing of A",
+        "pplicatio",
+        "n for Pharmaceutic",
+        "al Products",
+        ".",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(i)",
+        "A",
+        "n",
+        "application",
+        "for gran",
+        "t of an Advance Autho",
+        "risation unde",
+        "r",
+        "p",
+        "ara",
+        "",
+        "graph",
+        "4.18"
+      ],
+      [
+        "",
+        "sh",
+        "a",
+        "ll be filed o",
+        "nline in A",
+        "NF 4E to concerned Re",
+        "gional Author",
+        "i",
+        "ty",
+        "alo",
+        "n",
+        "g wit",
+        "h the"
+      ],
+      [
+        "",
+        "d",
+        "oc",
+        "uments up",
+        "loaded th",
+        "erein.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(ii)",
+        "In",
+        "p",
+        "ut combina",
+        "tion perm",
+        "itted under NI process",
+        "for manufact",
+        "u",
+        "ri",
+        "ng",
+        "t",
+        "he pr",
+        "oduct"
+      ],
+      [
+        "",
+        "sh",
+        "a",
+        "ll be certifi",
+        "ed by the",
+        "Chartered Engineer (C",
+        "hemical) afte",
+        "r",
+        "d",
+        "ue",
+        "v",
+        "erific",
+        "ation"
+      ],
+      [
+        "",
+        "of",
+        "t",
+        "he details o",
+        "f each inp",
+        "ut and its quantity as",
+        "given in Abbr",
+        "e",
+        "via",
+        "te",
+        "d",
+        "New",
+        "Drug"
+      ],
+      [
+        "",
+        "A",
+        "pp",
+        "lication (A",
+        "NDA) / D",
+        "rug Master File (DMF)",
+        "of the applica",
+        "n",
+        "t.",
+        "Th",
+        "e",
+        "Char",
+        "tered"
+      ],
+      [
+        "",
+        "E",
+        "ng",
+        "ineer (Che",
+        "mical) wi",
+        "ll certify the details as",
+        "per Appendi",
+        "x",
+        "4L",
+        "pr",
+        "",
+        "escrib",
+        "ed in"
+      ],
+      [
+        "",
+        "H",
+        "an",
+        "dbook of",
+        "Proced",
+        "ures. Regional Auth",
+        "ority shall",
+        "c",
+        "ro",
+        "ss-",
+        "",
+        "verify",
+        "the"
+      ],
+      [
+        "",
+        "re",
+        "q",
+        "uirement o",
+        "f inputs",
+        "as per the details give",
+        "n in the appli",
+        "c",
+        "ati",
+        "on",
+        "",
+        "along",
+        "-with"
+      ],
+      [
+        "",
+        "C",
+        "ha",
+        "rtered Eng",
+        "ineer Ce",
+        "rtificate accompanying",
+        "the applicat",
+        "i",
+        "on",
+        "an",
+        "",
+        "d issu",
+        "e the"
+      ],
+      [
+        "",
+        "au",
+        "t",
+        "horisation.",
+        "Regional",
+        "Authority shall not for",
+        "ward such app",
+        "l",
+        "ica",
+        "tio",
+        "",
+        "n to N",
+        "orms"
+      ],
+      [
+        "",
+        "C",
+        "om",
+        "mittee an",
+        "d the in",
+        "puts and export pro",
+        "duct so allo",
+        "w",
+        "ed",
+        "b",
+        "y",
+        "Reg",
+        "ional"
+      ],
+      [
+        "",
+        "A",
+        "ut",
+        "hority shal",
+        "l be treat",
+        "ed as input combinatio",
+        "ns permitted",
+        "u",
+        "nd",
+        "er",
+        "",
+        "NI Pro",
+        "cess."
+      ],
+      [
+        "20 Re",
+        "de",
+        "m",
+        "ption of",
+        "Authoris",
+        "ation issued under",
+        "paragraph",
+        "4",
+        ".1",
+        "8",
+        "o",
+        "f HB",
+        "P"
+      ],
+      [
+        "Provisi",
+        "on",
+        "s",
+        "contained",
+        "in paragr",
+        "aph 4.49 of HBP, exce",
+        "pt sub-parag",
+        "r",
+        "ap",
+        "h (",
+        "f",
+        "), sha",
+        "ll be"
+      ],
+      [
+        "applica",
+        "bl",
+        "e.",
+        "Regional",
+        "Authority",
+        "shall compare the",
+        "details of Ap",
+        "p",
+        "en",
+        "di",
+        "x",
+        "4-I,",
+        "duly"
+      ],
+      [
+        "verified",
+        "a",
+        "n",
+        "d certified",
+        "by the ju",
+        "risdictional Customs A",
+        "uthority, or",
+        "b",
+        "y t",
+        "he",
+        "",
+        "Chart",
+        "ered"
+      ],
+      [
+        "Enginee",
+        "r",
+        "(C",
+        "hemical) a",
+        "long wit",
+        "h cross attestation by t",
+        "he Chartered",
+        "",
+        "Ac",
+        "cou",
+        "",
+        "ntant",
+        "who"
+      ],
+      [
+        "shall bo",
+        "th",
+        "i",
+        "ndependen",
+        "tly verify",
+        "the inputs consumed",
+        "in the proces",
+        "s,",
+        "w",
+        "ith",
+        "",
+        "that o",
+        "f the"
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "type": "section",
+      "title": "Processing of Application for Pharmaceutical Products.",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.19 Processing of Application for Pharmaceutical Products.\n(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\n(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant. The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures. Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation. Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.\n4.19 Processing of Application for Pharmaceutical Products.\n(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\n(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant. The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures. Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation. Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+      "parentId": "",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 31,
+      "searchAliases": [
+        "Processing of Application for Pharmaceutical Products.",
+        "Processing of Application for Pharmaceutical Products",
+        "ProcessingofApplicationforPharmaceuticalProducts"
+      ],
+      "childIds": [
+        "4.19::validation::1::validation-rules",
+        "4.19::validation::2::validation-rules",
+        "4.19::validation::3::validation-rules",
+        "4.19::validation::4::validation-rules",
+        "4.19::validation::5::validation-rules",
+        "4.19::validation::6::validation-rules",
+        "4.19::business_rule::7::processing-of-application-for-pharmaceutical-pro",
+        "4.19::business_rule::8::processing-of-application-for-pharmaceutical-pro",
+        "4.19::business_rule::9::processing-of-application-for-pharmaceutical-pro",
+        "4.19::business_rule::10::processing-of-application-for-pharmaceutical-pro",
+        "4.19::business_rule::11::processing-of-application-for-pharmaceutical-pro",
+        "4.19::business_rule::12::processing-of-application-for-pharmaceutical-pro"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 31
+    },
+    {
+      "id": "4.19::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "parentId": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.19::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "parentId": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.19::validation::3::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+      "parentId": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.19::validation::4::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+      "parentId": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.19::validation::5::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "parentId": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.19::validation::6::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "parentId": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.19::business_rule::7::processing-of-application-for-pharmaceutical-pro",
+      "type": "business_rule",
+      "title": "Processing of Application for Pharmaceutical Products.",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "parentId": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Processing of Application for Pharmaceutical Products.",
+        "Processing of Application for Pharmaceutical Products",
+        "ProcessingofApplicationforPharmaceuticalProducts"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.19::business_rule::8::processing-of-application-for-pharmaceutical-pro",
+      "type": "business_rule",
+      "title": "Processing of Application for Pharmaceutical Products.",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "parentId": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Processing of Application for Pharmaceutical Products.",
+        "Processing of Application for Pharmaceutical Products",
+        "ProcessingofApplicationforPharmaceuticalProducts"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.19::business_rule::9::processing-of-application-for-pharmaceutical-pro",
+      "type": "business_rule",
+      "title": "Processing of Application for Pharmaceutical Products.",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+      "parentId": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Processing of Application for Pharmaceutical Products.",
+        "Processing of Application for Pharmaceutical Products",
+        "ProcessingofApplicationforPharmaceuticalProducts"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.19::business_rule::10::processing-of-application-for-pharmaceutical-pro",
+      "type": "business_rule",
+      "title": "Processing of Application for Pharmaceutical Products.",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+      "parentId": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Processing of Application for Pharmaceutical Products.",
+        "Processing of Application for Pharmaceutical Products",
+        "ProcessingofApplicationforPharmaceuticalProducts"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.19::business_rule::11::processing-of-application-for-pharmaceutical-pro",
+      "type": "business_rule",
+      "title": "Processing of Application for Pharmaceutical Products.",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "parentId": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Processing of Application for Pharmaceutical Products.",
+        "Processing of Application for Pharmaceutical Products",
+        "ProcessingofApplicationforPharmaceuticalProducts"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.19::business_rule::12::processing-of-application-for-pharmaceutical-pro",
+      "type": "business_rule",
+      "title": "Processing of Application for Pharmaceutical Products.",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "parentId": "4.19::section::0::processing-of-application-for-pharmaceutical-pro",
+      "sectionId": "4.19",
+      "sectionTitle": "Processing of Application for Pharmaceutical Products.",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 11,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Processing of Application for Pharmaceutical Products.",
+        "Processing of Application for Pharmaceutical Products",
+        "ProcessingofApplicationforPharmaceuticalProducts"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [
+    "Regional Authority"
+  ],
+  "timelines": [
+    "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+    "(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant."
+  ],
+  "actions": [
+    "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+    "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein."
+  ],
+  "workflow": [
+    "Evaluate condition: (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+    "Evaluate condition: The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures.",
+    "Evaluate condition: Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+    "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+    "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "Run validation: (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "Run validation: (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+    "Run validation: Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation."
+  ],
+  "workflow_ascii": "Processing of Application for Pharmaceutical Products.\nEvaluate condition: (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.\n   |\n   v\nEvaluate condition: The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures.\n   |\n   v\nEvaluate condition: Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.\n   |\n   v\n(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\n   |\n   v\nRegional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.\n   |\n   v\n(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\n   |\n   v\nRun validation: (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\n   |\n   v\nRun validation: (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.\n   |\n   v\nRun validation: Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+  "decision_tree": [
+    "IF (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant. THEN (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "IF The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures. THEN (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "IF Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation. THEN (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "IF (ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant. THEN (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein."
+  ],
+  "decision_tree_ascii": "Processing of Application for Pharmaceutical Products. Decision\nIF (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant. THEN (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\n   |\n   v\nIF The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures. THEN (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\n   |\n   v\nIF Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation. THEN (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\n   |\n   v\nIF (ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant. THEN (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+  "examples": [
+    "User asks to process Processing of Application for Pharmaceutical Products.; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Processing of Application for Pharmaceutical Products., submits Processing of Application, (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein., (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant., and DEKAI uses the extracted rules to (i) an application for grant of an advance authorisation under paragraph 4.18\nshall be filed online in anf 4e to concerned regional authority along with the\ndocuments uploaded therein..",
+  "real_world_example_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, Example: an importer or exporter invokes Processing of application for Pharmaceutical Products., submits Processing of application, (i) An application for grant of an Advance Authorisation under paragraph 4.18\nkandippa be filed online in ANF 4E to concerned Regional authority along with the\ndocuments uploaded therein., (ii) Input combination permitted under NI process for manufacturing the product\nkandippa be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\napplication (ANDA) / Drug Master File (DMF) of the applicant., and DEKAI uses the extracted rules to (i) an application for grant of an advance authorisation under paragraph 4.18\nkandippa be filed online in anf 4e to concerned regional authority along with the\ndocuments uploaded therein..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "IF detected context matches section rule THEN enforce: (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+    "IF detected context matches section rule THEN enforce: Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+    "IF detected context matches section rule THEN enforce: Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+    "IF detected context matches section rule THEN enforce: (i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "IF detected context matches section rule THEN enforce: (ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+    "IF validations pass THEN recommend action: (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "anf_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ANF"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "due_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:due"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "its_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:its"
+    },
+    {
+      "name": "new_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:New"
+    },
+    {
+      "name": "dmf_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:DMF"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Processing of Application"
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant."
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Chartered Engineer Certificate"
+    },
+    {
+      "name": "document_5_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process."
+    },
+    {
+      "name": "document_6_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.19",
+      "purpose": "Retrieve knowledge payload for section 4.19",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Processing-of-Application-for-Pharmaceutical-Products/validate",
+      "purpose": "Validate inputs and documents for Processing of Application for Pharmaceutical Products.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Processing-of-Application-for-Pharmaceutical-Products/execute",
+      "purpose": "Trigger business action for (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Processing_of_Application_for_Pharmaceutical_Products_overview",
+      "name": "Processing of Application for Pharmaceutical Products. Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Processing_of_Application_for_Pharmaceutical_Products_submission",
+      "name": "Processing of Application for Pharmaceutical Products. Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "anf_flag",
+        "the_flag",
+        "due_flag",
+        "and_flag",
+        "its_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Processing of Application for Pharmaceutical Products. require?",
+    "Which documents are needed for Processing of Application for Pharmaceutical Products.?",
+    "How does DEKAI validate Processing of Application for Pharmaceutical Products. requests?",
+    "What action should be taken for Processing of Application for Pharmaceutical Products.?"
+  ],
+  "expected_ai_answers": [
+    "Processing of Application for Pharmaceutical Products. requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: Processing of Application, (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein., (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant., Chartered Engineer Certificate, Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+    "DEKAI validates Processing of Application for Pharmaceutical Products. by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4.19?",
+      "answer_en": "Processing of Application for Pharmaceutical Products. explains the operating rule set that DEKAI should enforce. Key control points include (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein. The section also drives actions such as (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein..",
+      "question_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, What is the purpose of section 4.19?",
+      "answer_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, Processing of application for Pharmaceutical Products. explains the operating rule set that DEKAI should enforce. Key control points include (i) An application for grant of an Advance Authorisation under paragraph 4.18\nkandippa be filed online in ANF 4E to concerned Regional authority along with the\ndocuments uploaded therein. The section also drives actions such as (i) An application for grant of an Advance Authorisation under paragraph 4.18\nkandippa be filed online in ANF 4E to concerned Regional authority along with the\ndocuments uploaded therein.."
+    },
+    {
+      "question_en": "What documents are required under Processing of Application for Pharmaceutical Products.?",
+      "answer_en": "Processing of Application, (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein., (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant., Chartered Engineer Certificate, Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process., (i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein., (ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+      "question_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, What documents are required under Processing of application for Pharmaceutical Products.?",
+      "answer_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, Processing of application, (i) An application for grant of an Advance Authorisation under paragraph 4.18\nkandippa be filed online in ANF 4E to concerned Regional authority along with the\ndocuments uploaded therein., (ii) Input combination permitted under NI process for manufacturing the product\nkandippa be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\napplication (ANDA) / Drug Master File (DMF) of the applicant., Chartered Engineer Certificate, Regional authority kandippa not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nauthority kandippa be treated as input combinations permitted under NI Process., (i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nkandippa be filed online in ANF 4E to concerned Regional authority along with the\ndocuments uploaded therein., (ii)\nInput combination permitted under NI process for manufacturing the product\nkandippa be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\napplication (ANDA) / Drug Master File (DMF) of the applicant."
+    },
+    {
+      "question_en": "Which authority handles Processing of Application for Pharmaceutical Products.?",
+      "answer_en": "Regional Authority",
+      "question_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, Which authority handles Processing of application for Pharmaceutical Products.?",
+      "answer_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, Regional authority"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Processing of Application for Pharmaceutical Products.?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4.19, apply the extracted rules, and guide the user through Evaluate condition: (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant..",
+      "question_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, User asks: How do I comply with Processing of application for Pharmaceutical Products.?",
+      "answer_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, AI answers: DEKAI should evaluate section 4.19, apply the extracted rules, and guide the user through Evaluate condition: (ii) Input combination permitted under NI process for manufacturing the product\nkandippa be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\napplication (ANDA) / Drug Master File (DMF) of the applicant.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Processing of Application for Pharmaceutical Products.?",
+      "answer_en": "AI answers: Applicable validations are (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein., (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant., Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+      "question_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, User asks: Which validations apply to Processing of application for Pharmaceutical Products.?",
+      "answer_thanglish": "Indha Processing of Application for Pharmaceutical Products. section-la, AI answers: Applicable validations are (i) An application for grant of an Advance Authorisation under paragraph 4.18\nkandippa be filed online in ANF 4E to concerned Regional authority along with the\ndocuments uploaded therein., (ii) Input combination permitted under NI process for manufacturing the product\nkandippa be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\napplication (ANDA) / Drug Master File (DMF) of the applicant., Regional authority kandippa cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 4.19, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Processing of Application for Pharmaceutical Products. into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: Processing of Application, (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein., (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant., Chartered Engineer Certificate, Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process., (i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein..",
+    "Route escalations or approvals to: Regional Authority.",
+    "Show contextual links to related sections: 4.18, 1, 4."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Processing of Application for Pharmaceutical Products. section-la, Capture chapter 4, section 4.19, title, and page references as immutable knowledge metadata.",
+    "Indha Processing of Application for Pharmaceutical Products. section-la, Bind validations for Processing of application for Pharmaceutical Products. into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Processing of Application for Pharmaceutical Products. section-la, Expose document upload controls for: Processing of application, (i) An application for grant of an Advance Authorisation under paragraph 4.18\nkandippa be filed online in ANF 4E to concerned Regional authority along with the\ndocuments uploaded therein., (ii) Input combination permitted under NI process for manufacturing the product\nkandippa be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\napplication (ANDA) / Drug Master File (DMF) of the applicant., Chartered Engineer Certificate, Regional authority kandippa not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nauthority kandippa be treated as input combinations permitted under NI Process., (i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nkandippa be filed online in ANF 4E to concerned Regional authority along with the\ndocuments uploaded therein..",
+    "Indha Processing of Application for Pharmaceutical Products. section-la, Route escalations or approvals to: Regional authority.",
+    "Indha Processing of Application for Pharmaceutical Products. section-la, Show contextual links to related sections: 4.18, 1, 4."
+  ],
+  "keywords": [
+    "for",
+    "ANF",
+    "the",
+    "due",
+    "and",
+    "its",
+    "New",
+    "DMF",
+    "per",
+    "not",
+    "with",
+    "each",
+    "Drug",
+    "ANDA",
+    "File",
+    "will",
+    "such",
+    "grant",
+    "under",
+    "shall"
+  ],
+  "search_keywords": [
+    "for",
+    "ANF",
+    "the",
+    "due",
+    "and",
+    "its",
+    "New",
+    "DMF",
+    "per",
+    "not",
+    "with",
+    "each",
+    "Drug",
+    "ANDA",
+    "File",
+    "will",
+    "such",
+    "grant",
+    "under",
+    "shall"
+  ],
+  "intent": "Support Processing of Application for Pharmaceutical Products. processing and compliance validation.",
+  "tags": [
+    "4.19",
+    "Processing of Application for Pharmaceutical Products.",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "4.18",
+    "1",
+    "4"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.",
+    "(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.",
+    "Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.",
+    "Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+    "(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein."
+  ],
+  "page_numbers": [
+    11
+  ],
+  "pages": [
+    11
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "4.19 Processing of Application for Pharmaceutical Products.\n(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\n(ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant. The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures. Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation. Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.\n4.19 Processing of Application for Pharmaceutical Products.\n(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\n(ii)\nInput combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant. The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures. Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation. Regional Authority shall not forward such application to Norms\nCommittee and the inputs and export product so allowed by Regional\nAuthority shall be treated as input combinations permitted under NI Process.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.\"]\n    S2[\"Evaluate condition: The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.\"]\n    S2 --> S3\n    S4[\"(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\"]\n    S3 --> S4\n    S5[\"Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.\"]\n    S4 --> S5\n    S6[\"(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\"]\n    S5 --> S6\n    S7[\"Run validation: (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.\"]\n    S6 --> S7\n    S8[\"Run validation: (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.\"]\n    S7 --> S8\n    S9[\"Run validation: Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.\"]\n    S8 --> S9",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.;\n:Evaluate condition\\: The Chartered\nEngineer (Chemical) will certify the details as per Appendix 4L prescribed in\nHandbook of Procedures.;\n:Evaluate condition\\: Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.;\n:(i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.;\n:Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.;\n:(i)\nAn application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.;\n:Run validation\\: (i) An application for grant of an Advance Authorisation under paragraph 4.18\nshall be filed online in ANF 4E to concerned Regional Authority along with the\ndocuments uploaded therein.;\n:Run validation\\: (ii) Input combination permitted under NI process for manufacturing the product\nshall be certified by the Chartered Engineer (Chemical) after due verification\nof the details of each input and its quantity as given in Abbreviated New Drug\nApplication (ANDA) / Drug Master File (DMF) of the applicant.;\n:Run validation\\: Regional Authority shall cross-verify the\nrequirement of inputs as per the details given in the application along-with\nChartered Engineer Certificate accompanying the application and issue the\nauthorisation.;\nstop\n@enduml"
+}

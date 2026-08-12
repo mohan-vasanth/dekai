@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from collections import OrderedDict
 from html import escape
+import re
 from typing import Any, Iterable
 
 from .models import DocumentKnowledge, SectionKnowledge
@@ -362,9 +363,20 @@ class DocumentMarkdownConverter:
                 body_rows.append([label, value])
                 continue
             if len(values) == 2:
-                body_rows.append(values)
+                split_values = [self._split_label_value(value) for value in values]
+                if all(label and value for label, value in split_values):
+                    body_rows.extend([[label, value] for label, value in split_values])
+                else:
+                    body_rows.append(values)
                 continue
-            body_rows.append([values[0], "\n".join(values[1:])])
+            emitted = False
+            for value in values:
+                label, parsed_value = self._split_label_value(value)
+                if label and parsed_value:
+                    body_rows.append([label, parsed_value])
+                    emitted = True
+            if not emitted:
+                body_rows.append([values[0], "\n".join(values[1:])])
 
         return [["Field", "Value"], *body_rows] if body_rows else []
 
@@ -440,7 +452,7 @@ class DocumentMarkdownConverter:
         if normalized_line.count("|") >= 2:
             return True
 
-        folded_line = normalized_line.casefold()
+        folded_line = self._normalize_table_comparison_text(normalized_line)
         matched_cells = 0
         for table in tables:
             for row in table:
@@ -448,21 +460,41 @@ class DocumentMarkdownConverter:
                 if not non_empty_cells:
                     continue
 
-                joined_row = " ".join(non_empty_cells).casefold()
+                normalized_cells = [self._normalize_table_comparison_text(cell) for cell in non_empty_cells]
+                joined_row = " ".join(normalized_cells)
                 if folded_line == joined_row or folded_line in joined_row or joined_row in folded_line:
                     return True
 
                 row_cell_matches = 0
-                for cell in non_empty_cells:
-                    folded_cell = cell.casefold()
-                    if len(folded_cell) < 3:
+                fragments = self._table_comparison_fragments(non_empty_cells)
+                for fragment in fragments:
+                    if len(fragment) < 3:
                         continue
-                    if folded_line == folded_cell:
+                    if folded_line == fragment:
                         return True
-                    if folded_cell in folded_line:
+                    if fragment in folded_line or folded_line in fragment:
                         row_cell_matches += 1
                         matched_cells += 1
                 if row_cell_matches >= 2:
                     return True
 
         return matched_cells >= 2
+
+    def _normalize_table_comparison_text(self, value: str) -> str:
+        normalized = normalise_whitespace(str(value or ""))
+        normalized = re.sub(r"\s*:\s*", ": ", normalized)
+        normalized = re.sub(r"\s*/\s*", "/", normalized)
+        normalized = re.sub(r"\s+", " ", normalized)
+        return normalized.strip().casefold()
+
+    def _table_comparison_fragments(self, cells: list[str]) -> list[str]:
+        fragments: list[str] = []
+        for cell in cells:
+            normalized_cell = self._normalize_table_comparison_text(cell)
+            if normalized_cell:
+                fragments.append(normalized_cell)
+            for line in str(cell).splitlines():
+                normalized_line = self._normalize_table_comparison_text(line)
+                if normalized_line and normalized_line != normalized_cell:
+                    fragments.append(normalized_line)
+        return fragments

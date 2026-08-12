@@ -1,0 +1,59 @@
+{
+  "section": "2.70",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.70",
+      "purpose": "Retrieve knowledge payload for section 2.70",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Free-of-Cost-Exports-for-status-holders/validate",
+      "purpose": "Validate inputs and documents for Free of Cost Exports for status holders",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Free-of-Cost-Exports-for-status-holders/execute",
+      "purpose": "Trigger business action for 38\n2.67 Direct ne | gotiatio | n of ex | port docum | ent | s | | |\nIn cases where e | xporter d | irectly | negotiates doc | um | ent (not t | hrough auth | orise | d dealer)\nwith permission | of RBI, h | e is req | uired to sub | mit f | ollowing | documents | for a | vailing of\nbenefits under ex | port pro | motion | schemes: | | | | |\n(a) Permissio | n from R | BI allo | wing direct ne | got | iation of | documents | (not | required\nfor status holder | s), | | | | | | |\n(b) Copy of F | oreign In | ward R | emittance Ce | rtifi | cate (FIR | C) as per Fo | rm 1 | 0-H of\nIncome Tax Depa | rtment i | n lieu of | BRC, and | | | | |\n(c) Statement | giving d | etails o | f shipping bil | ls / | invoice | against whic | h FI | RC was\nissued.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

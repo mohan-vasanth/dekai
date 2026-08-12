@@ -1,0 +1,47 @@
+{
+  "section": "2.74",
+  "ui": [
+    {
+      "screen_id": "Offsetting_of_Export_Proceeds_overview",
+      "name": "Offsetting of Export Proceeds Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Offsetting_of_Export_Proceeds_submission",
+      "name": "Offsetting of Export Proceeds Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "rbi_flag",
+        "any_flag",
+        "can_flag",
+        "its_flag",
+        "ftp_flag",
+        "nie_flag"
+      ]
+    },
+    {
+      "screen_id": "Offsetting_of_Export_Proceeds_exceptions",
+      "name": "Offsetting of Export Proceeds Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

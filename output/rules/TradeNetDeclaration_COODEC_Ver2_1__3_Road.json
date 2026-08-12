@@ -1,0 +1,33 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.COODEC Ver2.1",
+  "section": "3",
+  "title": "Road",
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC3-R001",
+      "rule_description": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "trigger": "Road",
+      "condition": "3: Road\n4: Air\nB082 cbc:Mode Code M 1 n1 Specify Outward Transport Mode.",
+      "validation": "TDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n28 (Back-to-Back AIFTA Form AI)\n29 (Asean-Australia-New Zealand FTA Form AANZ)\n30 (Back-to-Back AANZFTA Form AANZ)\n31 (ASEAN-Hong Kong FTA Form AHK)\n32 (Back-to-Back AHKFTA Form AHK)\n33 Regional Comprehensive Economic Partnership (RCEP) Form RCEP\n34 Back-to-Back Form RCEP\nB015\ncbc:Copies Numeric\nC\n1 n..2\nSpecify additional number of copies required for this Certificate\nType.",
+      "action": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "exception": "B018\ncbc:Currency Code\nC\n1 a3\nAll values in the Certificate at item level will be assumed to be\nSGD unless specified here.",
+      "output": "DEKAI should produce a compliance decision for 3 - Road."
+    },
+    {
+      "rule_id": "CH-SEC3-R002",
+      "rule_description": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Outward Carrier Agent Party\nC\n1\na) Specify Outward Carrier Agent, must be registered with Customs.",
+      "trigger": "Road",
+      "condition": "B076 cbc:Conveyance Reference Number C 1 an..17 Mandatory for transport mode = 1, specify voyage number.",
+      "validation": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+      "action": "/cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Outward Carrier Agent Party\nC\n1\na) Specify Outward Carrier Agent, must be registered with Customs.",
+      "exception": "unit Code (attribute) M 1 an..3 Specify unit (refer to UN/ECE Recommendation No.",
+      "output": "DEKAI should produce a compliance decision for 3 - Road."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: /cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.",
+    "IF detected context matches section rule THEN enforce: /cac:Party Name\n/cac:Freight Forwarder Party\nA040\ncac:Outward Carrier Agent Party\nC\n1\na) Specify Outward Carrier Agent, must be registered with Customs.",
+    "IF validations pass THEN recommend action: /cac:Party Name\n/cac:Freight Forwarder Party\nA040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs."
+  ]
+}

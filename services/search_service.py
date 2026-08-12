@@ -9,7 +9,14 @@ from typing import Any
 from .embedding_service import embedding_service
 from .knowledge_engine import knowledge_engine_service
 from .retrieval_service import QueryAnalysis, analyze_question, infer_record_collections
-from parser.xml_utils import field_search_aliases, is_xml_field_query, normalized_tag_key, normalized_tag_root
+from parser.xml_utils import (
+    canonical_xml_tag,
+    extract_field_code_references,
+    field_search_aliases,
+    is_xml_field_query,
+    normalized_tag_key,
+    normalized_tag_root,
+)
 
 
 def _tokenize(value: str) -> list[str]:
@@ -154,7 +161,11 @@ class SearchService:
 
     def _structured_match_features(self, question: str, candidate: dict[str, Any]) -> dict[str, Any]:
         phrases = self._question_phrases(question)
+        query_xml_tag = canonical_xml_tag(question)
+        query_xml_tag_label = query_xml_tag.split(":", 1)[1] if ":" in query_xml_tag else ""
+        query_section_phrase = query_xml_tag_label or _normalize_match_text(phrases[1] if len(phrases) > 1 else question)
         heading = _normalize_match_text(candidate.get("heading", "") or candidate.get("title", ""))
+        query_field_codes = {code.upper() for code in extract_field_code_references(question)}
         query_aliases = [
             alias
             for alias in field_search_aliases(question)
@@ -168,14 +179,45 @@ class SearchService:
         query_root_keys = {
             normalized_tag_root(alias)
             for alias in query_aliases
-            if normalized_tag_root(alias)
+                if normalized_tag_root(alias)
         }
+        candidate_xml_tags = {
+            canonical_xml_tag(raw_value)
+            for raw_value in [
+                candidate.get("xmlTag", ""),
+                candidate.get("fieldName", ""),
+                candidate.get("tagName", ""),
+            ]
+            if canonical_xml_tag(raw_value)
+        }
+        section_names = {
+            _normalize_match_text(value)
+            for value in [
+                candidate.get("sectionName", ""),
+                candidate.get("heading", ""),
+                candidate.get("title", ""),
+            ]
+            if _normalize_match_text(value)
+        }
+        section_path = _normalize_match_text(candidate.get("sectionPath", ""))
 
         raw_candidate_fields = [
             str(field)
             for field in [candidate.get("tagName", ""), candidate.get("normalizedTagName", ""), *candidate.get("fieldNames", [])]
             if str(field).strip()
         ]
+        candidate_field_codes = {
+            str(code).strip().upper()
+            for code in [
+                candidate.get("fieldCode", ""),
+                *[
+                    field.get("field_code", "")
+                    for field in candidate.get("xmlFields", [])
+                    if isinstance(field, dict)
+                ],
+            ]
+            if str(code).strip()
+        }
         field_aliases: list[str] = []
         for field in candidate.get("fieldNames", []):
             field_aliases.extend(field_search_aliases(str(field)))
@@ -228,6 +270,15 @@ class SearchService:
             if normalized_tag_root(field)
         }
 
+        xml_tag_exact_match = bool(query_xml_tag and query_xml_tag in candidate_xml_tags)
+        section_name_exact_match = bool(query_section_phrase and query_section_phrase in section_names)
+        section_path_match = bool(
+            query_xml_tag
+            and (
+                query_xml_tag in section_path
+                or query_xml_tag_label in section_path
+            )
+        ) or bool(query_section_phrase and query_section_phrase in section_path)
         exact_heading = heading and any(phrase == heading for phrase in phrases)
         contains_heading = bool(heading) and any(phrase and (phrase in heading or heading in phrase) for phrase in phrases)
         exact_field_entry = next(
@@ -251,7 +302,8 @@ class SearchService:
             None,
         )
         contains_field = contains_field_entry[1] if contains_field_entry else ""
-        if not exact_field and (compact_field_match or root_field_match):
+        exact_field_code = next(iter(sorted(query_field_codes.intersection(candidate_field_codes))), "")
+        if not exact_field and compact_field_match:
             exact_field_entry = next(
                 (
                     entry
@@ -260,15 +312,6 @@ class SearchService:
                 ),
                 None,
             )
-            if exact_field_entry is None:
-                exact_field_entry = next(
-                    (
-                        entry
-                        for entry in candidate_field_entries
-                        if entry[3] and entry[3] in query_root_keys
-                    ),
-                    None,
-                )
             if exact_field_entry:
                 exact_field = exact_field_entry[1]
                 exact_field_label = exact_field_entry[0]
@@ -283,8 +326,17 @@ class SearchService:
             default=0.0,
         )
 
-        matched_heading = heading if exact_heading or contains_heading or fuzzy_heading_score >= 0.84 else ""
+        matched_heading = heading if exact_heading or contains_heading or section_name_exact_match or section_path_match or fuzzy_heading_score >= 0.84 else ""
         matched_field = exact_field_label or (contains_field_entry[0] if contains_field_entry else "")
+        if xml_tag_exact_match and not matched_field:
+            matched_field = next(
+                (
+                    value
+                    for value in [candidate.get("fieldName", ""), candidate.get("xmlTag", ""), candidate.get("tagName", ""), candidate.get("title", "")]
+                    if str(value).strip()
+                ),
+                "",
+            )
         if not matched_field and fuzzy_field_score >= 0.86 and candidate_field_entries:
             matched_field = max(
                 candidate_field_entries,
@@ -302,6 +354,11 @@ class SearchService:
 
         return {
             "questionPhrases": phrases,
+            "xmlTagExactMatch": xml_tag_exact_match,
+            "fieldCodeExactMatch": bool(exact_field_code),
+            "matchedFieldCode": exact_field_code,
+            "sectionNameExactMatch": section_name_exact_match,
+            "sectionPathMatch": section_path_match,
             "headingExactMatch": bool(exact_heading),
             "headingContainsMatch": bool(contains_heading),
             "fieldExactMatch": bool(exact_field),
@@ -398,9 +455,15 @@ class SearchService:
                 str(candidate.get("chapterTitle", "")),
                 str(candidate.get("documentName", "")),
                 str(candidate.get("preview", "")),
+                str(candidate.get("fieldCode", "")),
                 " ".join(str(field) for field in candidate.get("fieldNames", [])),
                 str(candidate.get("tagName", "")),
                 str(candidate.get("normalizedTagName", "")),
+                " ".join(
+                    str(field.get("field_code", ""))
+                    for field in candidate.get("xmlFields", [])
+                    if isinstance(field, dict)
+                ),
                 " ".join(
                     str(field.get("tag_name", ""))
                     for field in candidate.get("xmlFields", [])
@@ -462,6 +525,56 @@ class SearchService:
         codes.update(str(code).strip() for code in candidate.get("eximCodes", []) if str(code).strip())
         return codes
 
+    def _exact_xml_tag_candidates(self, analysis: QueryAnalysis, candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        if not analysis.canonical_field_reference:
+            return []
+        return [
+            candidate
+            for candidate in candidates
+            if self._structured_match_features(analysis.question, candidate).get("xmlTagExactMatch")
+        ]
+
+    def _exact_section_candidates(self, analysis: QueryAnalysis, candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        if not analysis.section_request_name and not analysis.detected_tag_name:
+            return []
+        return [
+            candidate
+            for candidate in candidates
+            if self._structured_match_features(analysis.question, candidate).get("sectionNameExactMatch")
+            or self._structured_match_features(analysis.question, candidate).get("sectionPathMatch")
+        ]
+
+    def _exact_field_code_candidates(self, analysis: QueryAnalysis, candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        if not analysis.field_codes:
+            return []
+        return [
+            candidate
+            for candidate in candidates
+            if self._structured_match_features(analysis.question, candidate).get("fieldCodeExactMatch")
+        ]
+
+    def _related_xml_tag_candidates(self, analysis: QueryAnalysis, candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        if not analysis.canonical_field_reference:
+            return []
+        related: list[dict[str, Any]] = []
+        for candidate in candidates:
+            features = self._structured_match_features(analysis.question, candidate)
+            namespace = str(candidate.get("namespace", "")).strip().lower()
+            if analysis.detected_namespace and namespace and namespace != analysis.detected_namespace:
+                continue
+            if any(
+                features.get(flag)
+                for flag in (
+                    "normalizedFieldExactMatch",
+                    "normalizedFieldRootMatch",
+                    "fieldContainsMatch",
+                    "headingContainsMatch",
+                    "sectionPathMatch",
+                )
+            ):
+                related.append(candidate)
+        return related
+
     def _metadata_lookup(self, analysis: QueryAnalysis, candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
         results: list[dict[str, Any]] = []
         for candidate in candidates:
@@ -473,8 +586,12 @@ class SearchService:
                 not exact_hs
                 and not exact_section
                 and not exact_chapter
+                and not structure_matches["xmlTagExactMatch"]
+                and not structure_matches["sectionNameExactMatch"]
+                and not structure_matches["sectionPathMatch"]
                 and not structure_matches["headingExactMatch"]
                 and not structure_matches["fieldExactMatch"]
+                and not structure_matches["fieldCodeExactMatch"]
                 and not structure_matches["normalizedFieldExactMatch"]
                 and not structure_matches["normalizedFieldRootMatch"]
                 and structure_matches["fuzzyHeadingScore"] < 0.9
@@ -489,6 +606,12 @@ class SearchService:
                 score += 200
             if exact_chapter:
                 score += 120
+            if structure_matches["xmlTagExactMatch"]:
+                score += 420
+            if structure_matches["sectionNameExactMatch"]:
+                score += 280
+            if structure_matches["sectionPathMatch"]:
+                score += 240
             if structure_matches["headingExactMatch"]:
                 score += 260
             elif structure_matches["headingContainsMatch"]:
@@ -497,6 +620,8 @@ class SearchService:
                 score += 90 * structure_matches["fuzzyHeadingScore"]
             if structure_matches["fieldExactMatch"]:
                 score += 230
+            elif structure_matches["fieldCodeExactMatch"]:
+                score += 220
             elif structure_matches["normalizedFieldExactMatch"]:
                 score += 215
             elif structure_matches["normalizedFieldRootMatch"]:
@@ -513,7 +638,7 @@ class SearchService:
                     "exactSectionMatch": exact_section,
                     "exactChapterMatch": exact_chapter,
                     **structure_matches,
-                    "confidence": 0.99 if exact_hs else 0.96 if structure_matches["fieldExactMatch"] or structure_matches["normalizedFieldExactMatch"] else 0.93 if exact_section else 0.88,
+                    "confidence": 0.995 if structure_matches["xmlTagExactMatch"] else 0.99 if exact_hs else 0.972 if structure_matches["sectionNameExactMatch"] or structure_matches["sectionPathMatch"] else 0.968 if structure_matches["fieldCodeExactMatch"] else 0.96 if structure_matches["fieldExactMatch"] or structure_matches["normalizedFieldExactMatch"] else 0.93 if exact_section else 0.88,
                 }
             )
         results.sort(key=lambda item: float(item.get("metadataScore", 0.0)), reverse=True)
@@ -560,6 +685,12 @@ class SearchService:
                 score += 8.0
             if matched_tokens and any(token in title_text for token in matched_tokens):
                 score += 2.5
+            if structure_matches["xmlTagExactMatch"]:
+                score += 12.0
+            if structure_matches["sectionNameExactMatch"]:
+                score += 9.5
+            elif structure_matches["sectionPathMatch"]:
+                score += 7.5
             if structure_matches["headingExactMatch"]:
                 score += 10.0
             elif structure_matches["headingContainsMatch"]:
@@ -568,6 +699,8 @@ class SearchService:
                 score += structure_matches["fuzzyHeadingScore"] * 4.0
             if structure_matches["fieldExactMatch"]:
                 score += 9.0
+            elif structure_matches["fieldCodeExactMatch"]:
+                score += 8.8
             elif structure_matches["normalizedFieldExactMatch"]:
                 score += 8.5
             elif structure_matches["normalizedFieldRootMatch"]:
@@ -626,10 +759,16 @@ class SearchService:
         )
 
     def _confidence(self, candidate: dict[str, Any]) -> float:
+        if candidate.get("xmlTagExactMatch"):
+            return 0.995
         if candidate.get("exactHsMatch"):
             return 0.99
+        if candidate.get("sectionNameExactMatch") or candidate.get("sectionPathMatch"):
+            return 0.972
         if candidate.get("headingExactMatch") or candidate.get("fieldExactMatch"):
             return 0.97
+        if candidate.get("fieldCodeExactMatch"):
+            return 0.968
         if candidate.get("normalizedFieldExactMatch"):
             return 0.965
         if candidate.get("normalizedFieldRootMatch"):
@@ -669,12 +808,16 @@ class SearchService:
 
         reranked: list[dict[str, Any]] = []
         for candidate in merged.values():
+            exact_xml_tag = 1 if candidate.get("xmlTagExactMatch") else 0
             exact_hs = 1 if candidate.get("exactHsMatch") else 0
             exact_section = 1 if candidate.get("exactSectionMatch") else 0
             exact_chapter = 1 if candidate.get("exactChapterMatch") else 0
             exact_table = 1 if candidate.get("isTableRow") and bool(analysis.hs_codes) and candidate.get("exactHsMatch") else 0
+            exact_section_name = 1 if candidate.get("sectionNameExactMatch") else 0
+            section_path_match = 1 if candidate.get("sectionPathMatch") else 0
             exact_heading = 1 if candidate.get("headingExactMatch") else 0
             exact_field = 1 if candidate.get("fieldExactMatch") else 0
+            exact_field_code = 1 if candidate.get("fieldCodeExactMatch") else 0
             normalized_field = 1 if candidate.get("normalizedFieldExactMatch") else 0
             normalized_root = 1 if candidate.get("normalizedFieldRootMatch") else 0
             contains_heading = 1 if candidate.get("headingContainsMatch") else 0
@@ -684,12 +827,16 @@ class SearchService:
             keyword_score = float(candidate.get("metadataScore", 0.0)) + float(candidate.get("bm25Score", 0.0))
             semantic_score = float(candidate.get("vectorSimilarity", 0.0))
             final_score = (
-                (exact_hs * 500.0)
+                (exact_xml_tag * 720.0)
+                + (exact_hs * 500.0)
+                + (exact_section_name * 360.0)
+                + (section_path_match * 300.0)
                 + (exact_section * 120.0)
                 + (exact_chapter * 80.0)
                 + (exact_table * 50.0)
                 + (exact_heading * 220.0)
                 + (exact_field * 200.0)
+                + (exact_field_code * 190.0)
                 + (normalized_field * 180.0)
                 + (normalized_root * 150.0)
                 + (contains_heading * 110.0)
@@ -704,12 +851,16 @@ class SearchService:
             candidate["rankingReasons"] = [
                 reason
                 for reason, enabled in (
+                    ("exact_xml_tag_match", bool(exact_xml_tag)),
                     ("exact_hs_code_match", bool(exact_hs)),
+                    ("exact_section_name_match", bool(exact_section_name)),
+                    ("section_path_match", bool(section_path_match)),
                     ("exact_section_match", bool(exact_section)),
                     ("exact_chapter_match", bool(exact_chapter)),
                     ("exact_table_row_match", bool(exact_table)),
                     ("exact_heading_match", bool(exact_heading)),
                     ("exact_field_match", bool(exact_field)),
+                    ("exact_field_code_match", bool(exact_field_code)),
                     ("normalized_field_exact_match", bool(normalized_field)),
                     ("normalized_field_root_match", bool(normalized_root)),
                     ("heading_contains_match", bool(contains_heading)),
@@ -725,12 +876,16 @@ class SearchService:
 
         reranked.sort(
             key=lambda item: (
+                1 if item.get("xmlTagExactMatch") else 0,
                 1 if item.get("exactHsMatch") else 0,
+                1 if item.get("sectionNameExactMatch") else 0,
+                1 if item.get("sectionPathMatch") else 0,
                 1 if item.get("exactSectionMatch") else 0,
                 1 if item.get("exactChapterMatch") else 0,
                 1 if item.get("isTableRow") else 0,
                 1 if item.get("headingExactMatch") else 0,
                 1 if item.get("fieldExactMatch") else 0,
+                1 if item.get("fieldCodeExactMatch") else 0,
                 1 if item.get("normalizedFieldExactMatch") else 0,
                 1 if item.get("normalizedFieldRootMatch") else 0,
                 float(item.get("fuzzyHeadingScore", 0.0)),
@@ -769,10 +924,36 @@ class SearchService:
             for candidate in self._candidates(index)
             if self._passes_filters(candidate, allowed_types, collection_filters, chapter_filters, section_filters, document_filters)
         ]
+        exact_xml_tag_candidates = self._exact_xml_tag_candidates(analysis, filtered_candidates)
+        exact_section_candidates = [] if exact_xml_tag_candidates else self._exact_section_candidates(analysis, filtered_candidates)
+        exact_field_code_candidates = [] if exact_xml_tag_candidates or exact_section_candidates else self._exact_field_code_candidates(analysis, filtered_candidates)
+        related_xml_tag_candidates = [] if exact_xml_tag_candidates or exact_section_candidates or exact_field_code_candidates else self._related_xml_tag_candidates(analysis, filtered_candidates)
+        retrieval_stage = "all_candidates"
+        stage_candidates = filtered_candidates
+        suppress_semantic = False
 
-        metadata_results = self._metadata_lookup(analysis, filtered_candidates)
-        bm25_results = self._bm25_search(analysis, filtered_candidates)
-        vector_results = self._vector_search(analysis, filtered_candidates)
+        if exact_xml_tag_candidates:
+            retrieval_stage = "exact_xml_tag"
+            stage_candidates = exact_xml_tag_candidates
+            suppress_semantic = True
+        elif exact_section_candidates:
+            retrieval_stage = "exact_section"
+            stage_candidates = exact_section_candidates
+        elif exact_field_code_candidates:
+            retrieval_stage = "exact_field_code"
+            stage_candidates = exact_field_code_candidates
+            suppress_semantic = True
+        elif related_xml_tag_candidates:
+            retrieval_stage = "related_xml_tag"
+            stage_candidates = related_xml_tag_candidates
+        elif analysis.canonical_field_reference:
+            retrieval_stage = "exact_xml_tag_not_found"
+            stage_candidates = []
+            suppress_semantic = True
+
+        metadata_results = self._metadata_lookup(analysis, stage_candidates)
+        bm25_results = self._bm25_search(analysis, stage_candidates)
+        vector_results = [] if suppress_semantic else self._vector_search(analysis, stage_candidates)
         merged_results, merged_total = self._merge_results(analysis, metadata_results, bm25_results, vector_results, limit)
         retrieved_document_ids = list(
             dict.fromkeys(
@@ -796,6 +977,13 @@ class SearchService:
             "document_filters": sorted(document_filters) if document_filters else [],
             "applied_document_filter": sorted(document_filters) if document_filters else [],
             "filtered_candidates_count": len(filtered_candidates),
+            "retrieval_stage": retrieval_stage,
+            "exact_xml_tag_query": analysis.canonical_field_reference,
+            "exact_xml_tag_match_count": len(exact_xml_tag_candidates),
+            "exact_section_match_count": len(exact_section_candidates),
+            "exact_field_code_match_count": len(exact_field_code_candidates),
+            "related_xml_tag_match_count": len(related_xml_tag_candidates),
+            "stage_candidates_count": len(stage_candidates),
             "metadata_results_count": len(metadata_results),
             "bm25_results_count": len(bm25_results),
             "vector_results_count": len(vector_results),
@@ -831,11 +1019,21 @@ class SearchService:
                     "documentName": item.get("documentName", ""),
                     "heading": item.get("heading", ""),
                     "fieldNames": item.get("fieldNames", []),
+                    "fieldCode": item.get("fieldCode", ""),
+                    "fieldName": item.get("fieldName", ""),
+                    "xmlTag": item.get("xmlTag", ""),
+                    "sectionName": item.get("sectionName", ""),
+                    "sectionPath": item.get("sectionPath", ""),
                     "sourcePages": item.get("sourcePages", []),
+                    "matchedFieldCode": item.get("matchedFieldCode", ""),
                     "matchedHeading": item.get("matchedHeading", ""),
                     "matchedField": item.get("matchedField", ""),
+                    "xmlTagExactMatch": bool(item.get("xmlTagExactMatch")),
+                    "sectionNameExactMatch": bool(item.get("sectionNameExactMatch")),
+                    "sectionPathMatch": bool(item.get("sectionPathMatch")),
                     "headingExactMatch": bool(item.get("headingExactMatch")),
                     "fieldExactMatch": bool(item.get("fieldExactMatch")),
+                    "fieldCodeExactMatch": bool(item.get("fieldCodeExactMatch")),
                     "normalizedFieldExactMatch": bool(item.get("normalizedFieldExactMatch")),
                     "normalizedFieldRootMatch": bool(item.get("normalizedFieldRootMatch")),
                     "score": item.get("score", 0),

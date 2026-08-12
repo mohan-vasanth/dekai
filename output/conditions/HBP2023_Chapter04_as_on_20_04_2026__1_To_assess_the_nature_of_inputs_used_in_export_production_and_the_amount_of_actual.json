@@ -1,0 +1,49 @@
+{
+  "section": "1",
+  "conditions": [
+    "Failu | re to comply | will\n| | render Nom | inated | Agency Certifica | te liable to | be cancelle | d in\n| | addition to | action | under FT (DR) | Act 1992, a | s amended, | after\n| | affording opp | ortuni | ty of personal he | aring.",
+    "Ther | eafter, | GJEPC shall forw | ard the co | mpiled half ye | arly\n| | returns alon | g with | its observation o | n performa | nce of Nomin | ated\n| | Agency to | DGFT | headquarters w | ithin one | month of e | very\n| | completed ha | lf year |.",
+    "In case of delay | in filing or n | on-submissio | n of\n| | half yearly r | eturn | within 15 days o | f every com | pleted half y | ear,\n| | GJEPC shall | seek c | omments of def | aulting Nom | inated Agen | cies.",
+    "Failure to comply will\nrender Nominated Agency Certificate liable to be cancelled in\naddition to action under FT (DR) Act 1992, as amended, after\naffording opportunity of personal hearing.",
+    "Thereafter, GJEPC shall forward the compiled half yearly\nreturns along with its observation on performance of Nominated\nAgency to DGFT headquarters within one month of every\ncompleted half year.",
+    "In case of delay in filing or non-submission of\nhalf yearly return within 15 days of every completed half year,\nGJEPC shall seek comments of defaulting Nominated Agencies."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.1.1",
+      "if": "Failu | re to comply | will\n| | render Nom | inated | Agency Certifica | te liable to | be cancelle | d in\n| | addition to | action | under FT (DR) | Act 1992, a | s amended, | after\n| | affording opp | ortuni | ty of personal he | aring.",
+      "then": "Failu | re to comply | will\n| | render Nom | inated | Agency Certifica | te liable to | be cancelle | d in\n| | addition to | action | under FT (DR) | Act 1992, a | s amended, | after\n| | affording opp | ortuni | ty of personal he | aring.",
+      "source": "Failu | re to comply | will\n| | render Nom | inated | Agency Certifica | te liable to | be cancelle | d in\n| | addition to | action | under FT (DR) | Act 1992, a | s amended, | after\n| | affording opp | ortuni | ty of personal he | aring."
+    },
+    {
+      "id": "4.1.2",
+      "if": "Ther | eafter, | GJEPC shall forw | ard the co | mpiled half ye | arly\n| | returns alon | g with | its observation o | n performa | nce of Nomin | ated\n| | Agency to | DGFT | headquarters w | ithin one | month of e | very\n| | completed ha | lf year |.",
+      "then": "Failu | re to comply | will\n| | render Nom | inated | Agency Certifica | te liable to | be cancelle | d in\n| | addition to | action | under FT (DR) | Act 1992, a | s amended, | after\n| | affording opp | ortuni | ty of personal he | aring.",
+      "source": "Ther | eafter, | GJEPC shall forw | ard the co | mpiled half ye | arly\n| | returns alon | g with | its observation o | n performa | nce of Nomin | ated\n| | Agency to | DGFT | headquarters w | ithin one | month of e | very\n| | completed ha | lf year |."
+    },
+    {
+      "id": "4.1.3",
+      "if": "In case of delay | in filing or n | on-submissio | n of\n| | half yearly r | eturn | within 15 days o | f every com | pleted half y | ear,\n| | GJEPC shall | seek c | omments of def | aulting Nom | inated Agen | cies.",
+      "then": "Failu | re to comply | will\n| | render Nom | inated | Agency Certifica | te liable to | be cancelle | d in\n| | addition to | action | under FT (DR) | Act 1992, a | s amended, | after\n| | affording opp | ortuni | ty of personal he | aring.",
+      "source": "In case of delay | in filing or n | on-submissio | n of\n| | half yearly r | eturn | within 15 days o | f every com | pleted half y | ear,\n| | GJEPC shall | seek c | omments of def | aulting Nom | inated Agen | cies."
+    },
+    {
+      "id": "4.1.4",
+      "if": "Failure to comply will\nrender Nominated Agency Certificate liable to be cancelled in\naddition to action under FT (DR) Act 1992, as amended, after\naffording opportunity of personal hearing.",
+      "then": "Failu | re to comply | will\n| | render Nom | inated | Agency Certifica | te liable to | be cancelle | d in\n| | addition to | action | under FT (DR) | Act 1992, a | s amended, | after\n| | affording opp | ortuni | ty of personal he | aring.",
+      "source": "Failure to comply will\nrender Nominated Agency Certificate liable to be cancelled in\naddition to action under FT (DR) Act 1992, as amended, after\naffording opportunity of personal hearing."
+    },
+    {
+      "id": "4.1.5",
+      "if": "Thereafter, GJEPC shall forward the compiled half yearly\nreturns along with its observation on performance of Nominated\nAgency to DGFT headquarters within one month of every\ncompleted half year.",
+      "then": "Failu | re to comply | will\n| | render Nom | inated | Agency Certifica | te liable to | be cancelle | d in\n| | addition to | action | under FT (DR) | Act 1992, a | s amended, | after\n| | affording opp | ortuni | ty of personal he | aring.",
+      "source": "Thereafter, GJEPC shall forward the compiled half yearly\nreturns along with its observation on performance of Nominated\nAgency to DGFT headquarters within one month of every\ncompleted half year."
+    },
+    {
+      "id": "4.1.6",
+      "if": "In case of delay in filing or non-submission of\nhalf yearly return within 15 days of every completed half year,\nGJEPC shall seek comments of defaulting Nominated Agencies.",
+      "then": "Failu | re to comply | will\n| | render Nom | inated | Agency Certifica | te liable to | be cancelle | d in\n| | addition to | action | under FT (DR) | Act 1992, a | s amended, | after\n| | affording opp | ortuni | ty of personal he | aring.",
+      "source": "In case of delay in filing or non-submission of\nhalf yearly return within 15 days of every completed half year,\nGJEPC shall seek comments of defaulting Nominated Agencies."
+    }
+  ]
+}

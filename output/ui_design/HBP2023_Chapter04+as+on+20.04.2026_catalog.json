@@ -170,6 +170,7 @@
     "Terms_of_payment_submission",
     "Port_of_Export_overview",
     "Port_of_Export_submission",
+    "Port_of_Export_exceptions",
     "Export_by_Post_overview",
     "Export_by_Post_submission",
     "Export_of_Cut_Polished_Diamonds_for_Certification_Grading_Re_overview",
@@ -179,6 +180,7 @@
     "Import_of_Diamonds_for_Certification_Grading_re_export_exceptions",
     "Enlistment_Authorisation_of_Laboratories_for_Certification_overview",
     "Enlistment_Authorisation_of_Laboratories_for_Certification_submission",
+    "Enlistment_Authorisation_of_Laboratories_for_Certification_exceptions",
     "Export_against_Supply_by_Foreign_Buyer_overview",
     "Export_against_Supply_by_Foreign_Buyer_submission",
     "Export_against_Supply_by_Foreign_Buyer_exceptions",
@@ -586,8 +588,8 @@
             "for_flag",
             "new_flag",
             "his_flag",
-            "the_flag",
-            "may_flag"
+            "uth_flag",
+            "ori_flag"
           ]
         },
         {
@@ -901,9 +903,9 @@
             "all_flag",
             "the_flag",
             "are_flag",
-            "and_flag",
             "get_flag",
-            "not_flag"
+            "not_flag",
+            "for_flag"
           ]
         },
         {
@@ -997,9 +999,9 @@
             "for_flag",
             "may_flag",
             "the_flag",
-            "and_flag",
-            "any_flag",
-            "pay_flag"
+            "und_flag",
+            "tee_flag",
+            "and_flag"
           ]
         },
         {
@@ -1404,12 +1406,12 @@
           "fields": [
             "section_code",
             "section_title",
+            "ion_flag",
+            "for_flag",
+            "fil_flag",
             "anf_flag",
             "the_flag",
-            "edi_flag",
-            "for_flag",
-            "may_flag",
-            "tax_flag"
+            "nor_flag"
           ]
         },
         {
@@ -1531,9 +1533,9 @@
             "for_flag",
             "may_flag",
             "the_flag",
-            "edi_flag",
+            "nce_flag",
             "tax_flag",
-            "and_flag"
+            "end_flag"
           ]
         },
         {
@@ -1617,9 +1619,9 @@
             "aro_flag",
             "for_flag",
             "and_flag",
+            "suc_flag",
             "the_flag",
-            "has_flag",
-            "can_flag"
+            "exp_flag"
           ]
         },
         {
@@ -1993,7 +1995,7 @@
             "for_flag",
             "the_flag",
             "ftp_flag",
-            "may_flag"
+            "ata_flag"
           ]
         },
         {
@@ -2164,8 +2166,8 @@
             "anf_flag",
             "all_flag",
             "and_flag",
-            "may_flag",
-            "six_flag"
+            "ion_flag",
+            "oth_flag"
           ]
         },
         {
@@ -2347,7 +2349,7 @@
             "re__flag",
             "fee_flag",
             "the_flag",
-            "had_flag"
+            "not_flag"
           ]
         },
         {
@@ -2691,7 +2693,7 @@
             "are_flag",
             "for_flag",
             "the_flag",
-            "dfia_flag"
+            "hal_flag"
           ]
         }
       ]
@@ -2801,11 +2803,11 @@
             "section_code",
             "section_title",
             "and_flag",
-            "any_flag",
-            "not_flag",
-            "loss_flag",
-            "gold_flag",
-            "gems_flag"
+            "for_flag",
+            "ion_flag",
+            "jew_flag",
+            "ade_flag",
+            "per_flag"
           ]
         }
       ]
@@ -3042,8 +3044,8 @@
             "its_flag",
             "for_flag",
             "fob_flag",
-            "all_flag",
-            "out_flag"
+            "ent_flag",
+            "the_flag"
           ]
         }
       ]
@@ -3276,12 +3278,22 @@
           "fields": [
             "section_code",
             "section_title",
+            "ban_flag",
             "and_flag",
+            "rea_flag",
             "rbi_flag",
-            "the_flag",
-            "goa_flag",
-            "fob_flag",
-            "per_flag"
+            "edp_flag",
+            "sys_flag"
+          ]
+        },
+        {
+          "screen_id": "Port_of_Export_exceptions",
+          "name": "Port of Export Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
           ]
         }
       ]
@@ -3443,7 +3455,17 @@
             "ltd_flag",
             "gia_flag",
             "pvt_flag",
-            "uae_flag"
+            "gob_flag"
+          ]
+        },
+        {
+          "screen_id": "Enlistment_Authorisation_of_Laboratories_for_Certification_exceptions",
+          "name": "Enlistment /Authorisation of Laboratories for Certification/ Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
           ]
         }
       ]
@@ -3526,10 +3548,10 @@
             "section_title",
             "for_flag",
             "the_flag",
-            "and_flag",
-            "ftp_flag",
-            "may_flag",
-            "pay_flag"
+            "ent_flag",
+            "app_flag",
+            "des_flag",
+            "ion_flag"
           ]
         }
       ]
@@ -3604,8 +3626,8 @@
             "for_flag",
             "any_flag",
             "the_flag",
-            "two_flag",
-            "and_flag"
+            "urn_flag",
+            "two_flag"
           ]
         },
         {
@@ -3690,8 +3712,8 @@
             "for_flag",
             "the_flag",
             "and_flag",
-            "gem_flag",
-            "epc_flag"
+            "jew_flag",
+            "ith_flag"
           ]
         },
         {
@@ -3787,7 +3809,7 @@
             "for_flag",
             "and_flag",
             "tax_flag",
-            "the_flag"
+            "ere_flag"
           ]
         },
         {
@@ -3835,7 +3857,7 @@
             "per_flag",
             "the_flag",
             "act_flag",
-            "lut_flag"
+            "enf_flag"
           ]
         },
         {
@@ -4003,11 +4025,11 @@
             "section_code",
             "section_title",
             "for_flag",
+            "cas_flag",
             "the_flag",
-            "and_flag",
-            "six_flag",
-            "per_flag",
-            "rbi_flag"
+            "dat_flag",
+            "pre_flag",
+            "sub_flag"
           ]
         },
         {
@@ -4216,8 +4238,8 @@
             "the_flag",
             "may_flag",
             "all_flag",
-            "and_flag",
-            "dta_flag"
+            "its_flag",
+            "and_flag"
           ]
         },
         {
@@ -4301,9 +4323,9 @@
             "the_flag",
             "and_flag",
             "ftp_flag",
-            "are_flag",
-            "for_flag",
-            "its_flag"
+            "lin_flag",
+            "ted_flag",
+            "are_flag"
           ]
         },
         {

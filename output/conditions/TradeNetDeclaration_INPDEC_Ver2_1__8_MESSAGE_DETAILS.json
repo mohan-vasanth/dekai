@@ -1,0 +1,483 @@
+{
+  "section": "8",
+  "conditions": [
+    "A062 cac:Unique Reference Number M 1 Format:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036 cbc:ID M 1 an..17 Specify Declarant entity identifier.",
+    "B020 cbc:Date M 1 n8 Specify date of Creation.",
+    "4 Specify sequence number.",
+    "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header).",
+    "B083 cbc:Common Access Reference M 1 an..7 INPDEC\nB021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg.",
+    "Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nRef Tag name | User defined\nS R Repr | Remarks\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "A062\ncac:Unique Reference Number\nM\n1\nFormat:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036\ncbc:ID\nM\n1 an..17\nSpecify Declarant entity identifier.",
+    "B020\ncbc:Date\nM\n1 n8\nSpecify date of Creation.",
+    "4\nSpecify sequence number.",
+    "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nMandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header).",
+    "B083\ncbc:Common Access Reference\nM\n1 an..7\nINPDEC\nB021\ncbc:Declaration Type\nM\n1 an..7\nSpecify Declaration Type eg.",
+    "OFFICIAL (CLOSED)\nAM\nB064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable.",
+    "if the currency code is not on\nthe Customs Exchange Rate List.",
+    "B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks.",
+    "B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any).",
+    "B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application.",
+    "B057 cbc:Processing Code One M 1 an..35 Specify processing code 1 such as:\n(1) No.",
+    "B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2 such as:\n(1) Voyage duration for seastore permits application.",
+    "B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3.",
+    "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\ninp:Cargo M 1\nB009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List).",
+    "A032 cac:Release Location M 1 Specify Place of Release.",
+    "B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists).",
+    "B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others).",
+    "/cac:Release Location\nA032 cac:Receipt Location M 1 Specify Place of Receipt.",
+    "/cac:Receipt Location\nA052 cac:Storage Location C 1 Specify place of storage for goods meant to be stored in FTZ, C2Y or\nCFW where there may be no out transport details.",
+    "5 Specify sequence number.",
+    "B027 cbc:Equipment ID M 1 an..13 Specify container number.",
+    "B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "TDS41-MDS-XML-INPDEC-M\nTrade Net Declaration.INPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nB064\ncbc:Previous Permit Number\nC\n1 an..35\nSpecify previous Permit Number if applicable.",
+    "B034\ncbc:Free Text\nM\n2 an..512\nSpecify general/trader’s remarks.",
+    "B007\ncbc:Banker Guarantee Code\nC\n1 an..3\nSpecify BG indicator (if any).",
+    "B089\ncbc:Customs Procedure Code\nM\n1 an..7\nSpecify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application.",
+    "B057\ncbc:Processing Code One\nM\n1 an..35\nSpecify processing code 1 such as:\n(1) No.",
+    "B057\ncbc:Processing Code Two\nC\n1 an..35\nSpecify processing code 2 such as:\n(1) Voyage duration for seastore permits application.",
+    "B057\ncbc:Processing Code Three\nC\n1 an..35\nSpecify processing code 3.",
+    "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\ninp:Cargo\nM\n1\nB009\ncbc:Cargo Packing Type\nM\n1 an..3\nSpecify Cargo Packing Type (refer to STDID Code List).",
+    "A032\ncac:Release Location\nM\n1\nSpecify Place of Release.",
+    "B039\ncbc:Location Code\nM\n1 an..7\nSpecify location code (refer to STDID Code Lists).",
+    "B040\ncbc:Location Name\nC\n1 an..256\nSpecify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others).",
+    "/cac:Release Location\nA032\ncac:Receipt Location\nM\n1\nSpecify Place of Receipt.",
+    "/cac:Receipt Location\nA052\ncac:Storage Location\nC\n1\nSpecify place of storage for goods meant to be stored in FTZ, C2Y or\nCFW where there may be no out transport details.",
+    "5\nSpecify sequence number.",
+    "B027\ncbc:Equipment ID\nM\n1 an..13\nSpecify container number.",
+    "B069\ncbc:Size Type Code\nM\n1 an5\nSpecify container type and size using the following valid codes:\nOFFICIAL (CLOSED)\nAM\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028 cbc:Equipment Weight Measure Numeric M 1 n..",
+    "3 Specify container weight (TNE).",
+    "A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container at the time\nof arrival.",
+    "B067 cbc:Seal ID M 1 an..35 Specify shipper seal number.",
+    "/cac:Transport Equipment Seal\n/cac:Transport Equipment\nB037 cbc:Supply Indicator C 1 boolean Specify Supply Indicator, if applicable.",
+    "A041 cac:Exhibition Temporary Import Period C 1 Format: CCYYMMDD\nNote 1:\na) For temporary consignment except for declaration type = TCI\",\nspecify Start/End Date of Exhibition/Temporary Import Period.",
+    "b) For blanket imports, specify Start Date.",
+    "B020 cbc:Start Date M 1 n8 Specify Start Date of Blanket/Exhibition/Temporary Import Period.",
+    "(refer to Note 1)\nB020 cbc:End Date C 1 n8 Specify End Date of Exhibition/Temporary Import Period.",
+    "(refer to\nNote 1)\n/cac:Exhibition Temporary Import Period\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "TDS41-MDS-XML-INPDEC-M\nTrade Net Declaration.INPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028\ncbc:Equipment Weight Measure Numeric\nM\n1 n..",
+    "3\nSpecify container weight (TNE).",
+    "A058\ncac:Transport Equipment Seal\nM\n1\nSpecify the shipper seal number affixed to the container at the time\nof arrival.",
+    "B067\ncbc:Seal ID\nM\n1 an..35\nSpecify shipper seal number.",
+    "/cac:Transport Equipment Seal\n/cac:Transport Equipment\nB037\ncbc:Supply Indicator\nC\n1 boolean\nSpecify Supply Indicator, if applicable.",
+    "A041\ncac:Exhibition Temporary Import Period\nC\n1\nFormat: CCYYMMDD\nNote 1:\na) For temporary consignment except for declaration type = TCI\",\nspecify Start/End Date of Exhibition/Temporary Import Period.",
+    "B020\ncbc:Start Date\nM\n1 n8\nSpecify Start Date of Blanket/Exhibition/Temporary Import Period.",
+    "(refer to Note 1)\nB020\ncbc:End Date\nC\n1 n8\nSpecify End Date of Exhibition/Temporary Import Period.",
+    "(refer to\nNote 1)\n/cac:Exhibition Temporary Import Period\nOFFICIAL (CLOSED)\nAM\ninp:Transport C 1 Notes:\n1) Specify Transport details.",
+    "a) For all Declaration Types, specify inward transport, except\nfor the following:\ni) goods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\nii) declaration type = BKT (Blanket)\niii) declaration type = SHO\niv) for goods previously exempted/suspended from duties/taxes\nv) supplementary declaration for schemes under AISS, IGDS\nsuch as place of receipt = AISSLOC, SPIGDS\nb) For Declaration Type = SFZ (when there is intergateway\nmovement):\ni) Specify Inward transport.",
+    "ii) Specify Outward transport (if goods are not meant for\nstorage).",
+    "c) For declaration type = REX, specify:\ni) Inward transport.",
+    "2) Outward Transport details need not be filled if goods are meant\nfor storage with valid place of storage as FTZ.",
+    "A026 cac:Inward Transport M 1 Specify Inward Transport.",
+    "A060 cac:Transport Means C 1 Specify inward transport mode."
+  ],
+  "condition_logic": [
+    {
+      "id": ".8.1",
+      "if": "A062 cac:Unique Reference Number M 1 Format:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036 cbc:ID M 1 an..17 Specify Declarant entity identifier.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "A062 cac:Unique Reference Number M 1 Format:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036 cbc:ID M 1 an..17 Specify Declarant entity identifier."
+    },
+    {
+      "id": ".8.2",
+      "if": "B020 cbc:Date M 1 n8 Specify date of Creation.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B020 cbc:Date M 1 n8 Specify date of Creation."
+    },
+    {
+      "id": ".8.3",
+      "if": "4 Specify sequence number.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "4 Specify sequence number."
+    },
+    {
+      "id": ".8.4",
+      "if": "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header)."
+    },
+    {
+      "id": ".8.5",
+      "if": "B083 cbc:Common Access Reference M 1 an..7 INPDEC\nB021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B083 cbc:Common Access Reference M 1 an..7 INPDEC\nB021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg."
+    },
+    {
+      "id": ".8.6",
+      "if": "Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nRef Tag name | User defined\nS R Repr | Remarks\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "Trade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nRef Tag name | User defined\nS R Repr | Remarks\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".8.7",
+      "if": "A062\ncac:Unique Reference Number\nM\n1\nFormat:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036\ncbc:ID\nM\n1 an..17\nSpecify Declarant entity identifier.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "A062\ncac:Unique Reference Number\nM\n1\nFormat:\nDeclarant entity identifier = XXXXXXXXXXXXXXXXX\nDate of Creation = CCYYMMDD\nSequence Numeric = 9999\nB036\ncbc:ID\nM\n1 an..17\nSpecify Declarant entity identifier."
+    },
+    {
+      "id": ".8.8",
+      "if": "B020\ncbc:Date\nM\n1 n8\nSpecify date of Creation.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B020\ncbc:Date\nM\n1 n8\nSpecify date of Creation."
+    },
+    {
+      "id": ".8.9",
+      "if": "4\nSpecify sequence number.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "4\nSpecify sequence number."
+    },
+    {
+      "id": ".8.10",
+      "if": "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nMandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nMandatory to specify Message Sender Id (must be same as the Sender\nId as specified in the interchange header)."
+    },
+    {
+      "id": ".8.11",
+      "if": "B083\ncbc:Common Access Reference\nM\n1 an..7\nINPDEC\nB021\ncbc:Declaration Type\nM\n1 an..7\nSpecify Declaration Type eg.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B083\ncbc:Common Access Reference\nM\n1 an..7\nINPDEC\nB021\ncbc:Declaration Type\nM\n1 an..7\nSpecify Declaration Type eg."
+    },
+    {
+      "id": ".8.12",
+      "if": "OFFICIAL (CLOSED)\nAM\nB064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "OFFICIAL (CLOSED)\nAM\nB064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable."
+    },
+    {
+      "id": ".8.13",
+      "if": "if the currency code is not on\nthe Customs Exchange Rate List.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "if the currency code is not on\nthe Customs Exchange Rate List."
+    },
+    {
+      "id": ".8.14",
+      "if": "B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B034 cbc:Free Text M 2 an..512 Specify general/trader’s remarks."
+    },
+    {
+      "id": ".8.15",
+      "if": "B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any)."
+    },
+    {
+      "id": ".8.16",
+      "if": "B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application."
+    },
+    {
+      "id": ".8.17",
+      "if": "B057 cbc:Processing Code One M 1 an..35 Specify processing code 1 such as:\n(1) No.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B057 cbc:Processing Code One M 1 an..35 Specify processing code 1 such as:\n(1) No."
+    },
+    {
+      "id": ".8.18",
+      "if": "B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2 such as:\n(1) Voyage duration for seastore permits application.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2 such as:\n(1) Voyage duration for seastore permits application."
+    },
+    {
+      "id": ".8.19",
+      "if": "B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3."
+    },
+    {
+      "id": ".8.20",
+      "if": "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\ninp:Cargo M 1\nB009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\ninp:Cargo M 1\nB009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List)."
+    },
+    {
+      "id": ".8.21",
+      "if": "A032 cac:Release Location M 1 Specify Place of Release.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "A032 cac:Release Location M 1 Specify Place of Release."
+    },
+    {
+      "id": ".8.22",
+      "if": "B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists)."
+    },
+    {
+      "id": ".8.23",
+      "if": "B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others)."
+    },
+    {
+      "id": ".8.24",
+      "if": "/cac:Release Location\nA032 cac:Receipt Location M 1 Specify Place of Receipt.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "/cac:Release Location\nA032 cac:Receipt Location M 1 Specify Place of Receipt."
+    },
+    {
+      "id": ".8.25",
+      "if": "/cac:Receipt Location\nA052 cac:Storage Location C 1 Specify place of storage for goods meant to be stored in FTZ, C2Y or\nCFW where there may be no out transport details.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "/cac:Receipt Location\nA052 cac:Storage Location C 1 Specify place of storage for goods meant to be stored in FTZ, C2Y or\nCFW where there may be no out transport details."
+    },
+    {
+      "id": ".8.26",
+      "if": "5 Specify sequence number.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "5 Specify sequence number."
+    },
+    {
+      "id": ".8.27",
+      "if": "B027 cbc:Equipment ID M 1 an..13 Specify container number.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B027 cbc:Equipment ID M 1 an..13 Specify container number."
+    },
+    {
+      "id": ".8.28",
+      "if": "B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".8.29",
+      "if": "TDS41-MDS-XML-INPDEC-M\nTrade Net Declaration.INPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nB064\ncbc:Previous Permit Number\nC\n1 an..35\nSpecify previous Permit Number if applicable.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "TDS41-MDS-XML-INPDEC-M\nTrade Net Declaration.INPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nB064\ncbc:Previous Permit Number\nC\n1 an..35\nSpecify previous Permit Number if applicable."
+    },
+    {
+      "id": ".8.30",
+      "if": "B034\ncbc:Free Text\nM\n2 an..512\nSpecify general/trader’s remarks.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B034\ncbc:Free Text\nM\n2 an..512\nSpecify general/trader’s remarks."
+    },
+    {
+      "id": ".8.31",
+      "if": "B007\ncbc:Banker Guarantee Code\nC\n1 an..3\nSpecify BG indicator (if any).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B007\ncbc:Banker Guarantee Code\nC\n1 an..3\nSpecify BG indicator (if any)."
+    },
+    {
+      "id": ".8.32",
+      "if": "B089\ncbc:Customs Procedure Code\nM\n1 an..7\nSpecify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B089\ncbc:Customs Procedure Code\nM\n1 an..7\nSpecify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application."
+    },
+    {
+      "id": ".8.33",
+      "if": "B057\ncbc:Processing Code One\nM\n1 an..35\nSpecify processing code 1 such as:\n(1) No.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B057\ncbc:Processing Code One\nM\n1 an..35\nSpecify processing code 1 such as:\n(1) No."
+    },
+    {
+      "id": ".8.34",
+      "if": "B057\ncbc:Processing Code Two\nC\n1 an..35\nSpecify processing code 2 such as:\n(1) Voyage duration for seastore permits application.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B057\ncbc:Processing Code Two\nC\n1 an..35\nSpecify processing code 2 such as:\n(1) Voyage duration for seastore permits application."
+    },
+    {
+      "id": ".8.35",
+      "if": "B057\ncbc:Processing Code Three\nC\n1 an..35\nSpecify processing code 3.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B057\ncbc:Processing Code Three\nC\n1 an..35\nSpecify processing code 3."
+    },
+    {
+      "id": ".8.36",
+      "if": "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\ninp:Cargo\nM\n1\nB009\ncbc:Cargo Packing Type\nM\n1 an..3\nSpecify Cargo Packing Type (refer to STDID Code List).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "/cac:CPCProcessing Code\n/cac:Customs Procedure Code Information\ninp:Cargo\nM\n1\nB009\ncbc:Cargo Packing Type\nM\n1 an..3\nSpecify Cargo Packing Type (refer to STDID Code List)."
+    },
+    {
+      "id": ".8.37",
+      "if": "A032\ncac:Release Location\nM\n1\nSpecify Place of Release.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "A032\ncac:Release Location\nM\n1\nSpecify Place of Release."
+    },
+    {
+      "id": ".8.38",
+      "if": "B039\ncbc:Location Code\nM\n1 an..7\nSpecify location code (refer to STDID Code Lists).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B039\ncbc:Location Code\nM\n1 an..7\nSpecify location code (refer to STDID Code Lists)."
+    },
+    {
+      "id": ".8.39",
+      "if": "B040\ncbc:Location Name\nC\n1 an..256\nSpecify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B040\ncbc:Location Name\nC\n1 an..256\nSpecify name and/address of location if the location code = SY\n(shipyard) or SC (sailing club) or O (others)."
+    },
+    {
+      "id": ".8.40",
+      "if": "/cac:Release Location\nA032\ncac:Receipt Location\nM\n1\nSpecify Place of Receipt.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "/cac:Release Location\nA032\ncac:Receipt Location\nM\n1\nSpecify Place of Receipt."
+    },
+    {
+      "id": ".8.41",
+      "if": "/cac:Receipt Location\nA052\ncac:Storage Location\nC\n1\nSpecify place of storage for goods meant to be stored in FTZ, C2Y or\nCFW where there may be no out transport details.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "/cac:Receipt Location\nA052\ncac:Storage Location\nC\n1\nSpecify place of storage for goods meant to be stored in FTZ, C2Y or\nCFW where there may be no out transport details."
+    },
+    {
+      "id": ".8.42",
+      "if": "5\nSpecify sequence number.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "5\nSpecify sequence number."
+    },
+    {
+      "id": ".8.43",
+      "if": "B027\ncbc:Equipment ID\nM\n1 an..13\nSpecify container number.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B027\ncbc:Equipment ID\nM\n1 an..13\nSpecify container number."
+    },
+    {
+      "id": ".8.44",
+      "if": "B069\ncbc:Size Type Code\nM\n1 an5\nSpecify container type and size using the following valid codes:\nOFFICIAL (CLOSED)\nAM\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028 cbc:Equipment Weight Measure Numeric M 1 n..",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B069\ncbc:Size Type Code\nM\n1 an5\nSpecify container type and size using the following valid codes:\nOFFICIAL (CLOSED)\nAM\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028 cbc:Equipment Weight Measure Numeric M 1 n.."
+    },
+    {
+      "id": ".8.45",
+      "if": "3 Specify container weight (TNE).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "3 Specify container weight (TNE)."
+    },
+    {
+      "id": ".8.46",
+      "if": "A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container at the time\nof arrival.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "A058 cac:Transport Equipment Seal M 1 Specify the shipper seal number affixed to the container at the time\nof arrival."
+    },
+    {
+      "id": ".8.47",
+      "if": "B067 cbc:Seal ID M 1 an..35 Specify shipper seal number.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B067 cbc:Seal ID M 1 an..35 Specify shipper seal number."
+    },
+    {
+      "id": ".8.48",
+      "if": "/cac:Transport Equipment Seal\n/cac:Transport Equipment\nB037 cbc:Supply Indicator C 1 boolean Specify Supply Indicator, if applicable.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "/cac:Transport Equipment Seal\n/cac:Transport Equipment\nB037 cbc:Supply Indicator C 1 boolean Specify Supply Indicator, if applicable."
+    },
+    {
+      "id": ".8.49",
+      "if": "A041 cac:Exhibition Temporary Import Period C 1 Format: CCYYMMDD\nNote 1:\na) For temporary consignment except for declaration type = TCI\",\nspecify Start/End Date of Exhibition/Temporary Import Period.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "A041 cac:Exhibition Temporary Import Period C 1 Format: CCYYMMDD\nNote 1:\na) For temporary consignment except for declaration type = TCI\",\nspecify Start/End Date of Exhibition/Temporary Import Period."
+    },
+    {
+      "id": ".8.50",
+      "if": "b) For blanket imports, specify Start Date.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "b) For blanket imports, specify Start Date."
+    },
+    {
+      "id": ".8.51",
+      "if": "B020 cbc:Start Date M 1 n8 Specify Start Date of Blanket/Exhibition/Temporary Import Period.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B020 cbc:Start Date M 1 n8 Specify Start Date of Blanket/Exhibition/Temporary Import Period."
+    },
+    {
+      "id": ".8.52",
+      "if": "(refer to Note 1)\nB020 cbc:End Date C 1 n8 Specify End Date of Exhibition/Temporary Import Period.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "(refer to Note 1)\nB020 cbc:End Date C 1 n8 Specify End Date of Exhibition/Temporary Import Period."
+    },
+    {
+      "id": ".8.53",
+      "if": "(refer to\nNote 1)\n/cac:Exhibition Temporary Import Period\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "(refer to\nNote 1)\n/cac:Exhibition Temporary Import Period\nTrade Net Declaration.INPDEC Ver2.1.doc Message Specification XML(INPDEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-INPDEC-M\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\n18/11/2021 10:56\nAM\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id."
+    },
+    {
+      "id": ".8.54",
+      "if": "TDS41-MDS-XML-INPDEC-M\nTrade Net Declaration.INPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028\ncbc:Equipment Weight Measure Numeric\nM\n1 n..",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "TDS41-MDS-XML-INPDEC-M\nTrade Net Declaration.INPDEC Ver2.1.doc\nOFFICIAL (CLOSED)\nFCL20\nFCL40\nFCL45\nLCL20\nLCL40\nLCL45\nwhere:\nFCL: Full Container Load\nLCL: Less Than Container Load\nB028\ncbc:Equipment Weight Measure Numeric\nM\n1 n.."
+    },
+    {
+      "id": ".8.55",
+      "if": "3\nSpecify container weight (TNE).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "3\nSpecify container weight (TNE)."
+    },
+    {
+      "id": ".8.56",
+      "if": "A058\ncac:Transport Equipment Seal\nM\n1\nSpecify the shipper seal number affixed to the container at the time\nof arrival.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "A058\ncac:Transport Equipment Seal\nM\n1\nSpecify the shipper seal number affixed to the container at the time\nof arrival."
+    },
+    {
+      "id": ".8.57",
+      "if": "B067\ncbc:Seal ID\nM\n1 an..35\nSpecify shipper seal number.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B067\ncbc:Seal ID\nM\n1 an..35\nSpecify shipper seal number."
+    },
+    {
+      "id": ".8.58",
+      "if": "/cac:Transport Equipment Seal\n/cac:Transport Equipment\nB037\ncbc:Supply Indicator\nC\n1 boolean\nSpecify Supply Indicator, if applicable.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "/cac:Transport Equipment Seal\n/cac:Transport Equipment\nB037\ncbc:Supply Indicator\nC\n1 boolean\nSpecify Supply Indicator, if applicable."
+    },
+    {
+      "id": ".8.59",
+      "if": "A041\ncac:Exhibition Temporary Import Period\nC\n1\nFormat: CCYYMMDD\nNote 1:\na) For temporary consignment except for declaration type = TCI\",\nspecify Start/End Date of Exhibition/Temporary Import Period.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "A041\ncac:Exhibition Temporary Import Period\nC\n1\nFormat: CCYYMMDD\nNote 1:\na) For temporary consignment except for declaration type = TCI\",\nspecify Start/End Date of Exhibition/Temporary Import Period."
+    },
+    {
+      "id": ".8.60",
+      "if": "B020\ncbc:Start Date\nM\n1 n8\nSpecify Start Date of Blanket/Exhibition/Temporary Import Period.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "B020\ncbc:Start Date\nM\n1 n8\nSpecify Start Date of Blanket/Exhibition/Temporary Import Period."
+    },
+    {
+      "id": ".8.61",
+      "if": "(refer to Note 1)\nB020\ncbc:End Date\nC\n1 n8\nSpecify End Date of Exhibition/Temporary Import Period.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "(refer to Note 1)\nB020\ncbc:End Date\nC\n1 n8\nSpecify End Date of Exhibition/Temporary Import Period."
+    },
+    {
+      "id": ".8.62",
+      "if": "(refer to\nNote 1)\n/cac:Exhibition Temporary Import Period\nOFFICIAL (CLOSED)\nAM\ninp:Transport C 1 Notes:\n1) Specify Transport details.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "(refer to\nNote 1)\n/cac:Exhibition Temporary Import Period\nOFFICIAL (CLOSED)\nAM\ninp:Transport C 1 Notes:\n1) Specify Transport details."
+    },
+    {
+      "id": ".8.63",
+      "if": "a) For all Declaration Types, specify inward transport, except\nfor the following:\ni) goods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\nii) declaration type = BKT (Blanket)\niii) declaration type = SHO\niv) for goods previously exempted/suspended from duties/taxes\nv) supplementary declaration for schemes under AISS, IGDS\nsuch as place of receipt = AISSLOC, SPIGDS\nb) For Declaration Type = SFZ (when there is intergateway\nmovement):\ni) Specify Inward transport.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "a) For all Declaration Types, specify inward transport, except\nfor the following:\ni) goods released from licensed premises such as Licensed\nWarehouse, Excise Factory, Zero-GST Warehouse, Bonded\nWarehouse\nii) declaration type = BKT (Blanket)\niii) declaration type = SHO\niv) for goods previously exempted/suspended from duties/taxes\nv) supplementary declaration for schemes under AISS, IGDS\nsuch as place of receipt = AISSLOC, SPIGDS\nb) For Declaration Type = SFZ (when there is intergateway\nmovement):\ni) Specify Inward transport."
+    },
+    {
+      "id": ".8.64",
+      "if": "ii) Specify Outward transport (if goods are not meant for\nstorage).",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "ii) Specify Outward transport (if goods are not meant for\nstorage)."
+    },
+    {
+      "id": ".8.65",
+      "if": "c) For declaration type = REX, specify:\ni) Inward transport.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "c) For declaration type = REX, specify:\ni) Inward transport."
+    },
+    {
+      "id": ".8.66",
+      "if": "2) Outward Transport details need not be filled if goods are meant\nfor storage with valid place of storage as FTZ.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "2) Outward Transport details need not be filled if goods are meant\nfor storage with valid place of storage as FTZ."
+    },
+    {
+      "id": ".8.67",
+      "if": "A026 cac:Inward Transport M 1 Specify Inward Transport.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "A026 cac:Inward Transport M 1 Specify Inward Transport."
+    },
+    {
+      "id": ".8.68",
+      "if": "A060 cac:Transport Means C 1 Specify inward transport mode.",
+      "then": "SFZ = Storage in FTZ\nAPS = Approved Premises/Schemes\nBKT = Blanket [including blanket GST Relief (and duty exemption)]\nGTR = GST Relief (and duty exemption)\nSHO = Shutout\nDES = Destruction\nREX = For Re-export\nTCS = Temporary import for exhibition/auctions with sales\nTCR = Temporary import for repairs\nTCE = Temporary import for exhibition/auctions without sales\nTCO = Temporary import for other purposes\nTCI = Temporary Export / Re-imported goods\nB037 cbc:Declaration Indicator M boolean Refers to the declaration at the frontend software: “I/We declare\nthat all the particulars in this Application are true and correct”.",
+      "source": "A060 cac:Transport Means C 1 Specify inward transport mode."
+    }
+  ]
+}

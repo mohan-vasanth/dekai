@@ -1,0 +1,564 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.COODEC Ver2.1",
+  "section": "6",
+  "title": "MESSAGE FUNCTION",
+  "purpose": "MESSAGE FUNCTION\nTransfer conditions for the TCODEC (COODEC) message are dependent on the Application Type.",
+  "purpose_thanglish": "Indha MESSAGE FUNCTION section-la, MESSAGE FUNCTION\nTransfer conditions for the TCODEC (COODEC) message are dependent on the application Type.",
+  "summary": "6. MESSAGE FUNCTION\nTransfer conditions for the TCODEC (COODEC) message are dependent on the Application Type. They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+  "business_meaning": "6.",
+  "business_explanation": "6. MESSAGE FUNCTION\nTransfer conditions for the TCODEC (COODEC) message are dependent on the Application Type. They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+  "business_explanation_thanglish": "Indha MESSAGE FUNCTION section-la, 6. MESSAGE FUNCTION\nTransfer conditions for the TCODEC (COODEC) message are dependent on the application Type. They are:\nCode application Type Transfer Conditions\nCOO application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC6-R001",
+      "rule_description": "IF validations pass THEN recommend action: They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "trigger": "MESSAGE FUNCTION",
+      "condition": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6 - MESSAGE FUNCTION."
+    }
+  ],
+  "conditions": [
+    "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+    "Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+    "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+    "They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+    "Sender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+    "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)"
+  ],
+  "condition_logic": [
+    {
+      "id": ".6.1",
+      "if": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "then": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "source": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes."
+    },
+    {
+      "id": ".6.2",
+      "if": "Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+      "then": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "source": "Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin."
+    },
+    {
+      "id": ".6.3",
+      "if": "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+      "then": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "source": "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes."
+    },
+    {
+      "id": ".6.4",
+      "if": "They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+      "then": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "source": "They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes."
+    },
+    {
+      "id": ".6.5",
+      "if": "Sender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+      "then": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "source": "Sender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin."
+    },
+    {
+      "id": ".6.6",
+      "if": "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)",
+      "then": "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "source": "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)"
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "8"
+  ],
+  "documents": [
+    "TCODEC (COODEC) message are dependent on the Application",
+    "Code Application",
+    "COO Application for Certificate",
+    "To allow the Declarant to apply for the Certificate",
+    "Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+    "Trade Net Declaration",
+    "Application for Certificate",
+    "| |\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "Sender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+    "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)"
+  ],
+  "required_documents": [
+    "TCODEC (COODEC) message are dependent on the Application",
+    "Code Application",
+    "COO Application for Certificate",
+    "To allow the Declarant to apply for the Certificate",
+    "Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+    "Trade Net Declaration",
+    "Application for Certificate",
+    "| |\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.",
+    "Sender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+    "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)"
+  ],
+  "tables": [
+    [
+      [
+        "Prepared by:\nCrimsonLogic Pte Ltd",
+        "For:\nSingapore Customs (SC)",
+        "Release Date\n18/11/2021",
+        "Ver\n4.1",
+        "Reference\nTRADENET",
+        "Document Id.\nTDS41-MDS-XML-COODEC-M"
+      ]
+    ],
+    [
+      [
+        "",
+        "Code",
+        "",
+        "",
+        "Application Type",
+        "",
+        "",
+        "Transfer Conditions",
+        ""
+      ],
+      [
+        "COO",
+        "",
+        "",
+        "Application for Certificate of\nOrigin only",
+        "",
+        "",
+        "To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+        "",
+        ""
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "6::section::0::message-function",
+      "type": "section",
+      "title": "MESSAGE FUNCTION",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6. MESSAGE FUNCTION\nTransfer conditions for the TCODEC (COODEC) message are dependent on the Application Type. They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.\nSender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin. Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes. | |\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n6. MESSAGE FUNCTION\nTransfer conditions for the TCODEC (COODEC) message are dependent on the Application Type. They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes.\nSender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin. Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)",
+      "parentId": "",
+      "sectionId": "6",
+      "sectionTitle": "MESSAGE FUNCTION",
+      "documentName": "TradeNetDeclaration.COODEC Ver2.1.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 67,
+      "searchAliases": [
+        "MESSAGE FUNCTION",
+        "MESSAGEFUNCTION"
+      ],
+      "childIds": [
+        "6::business_rule::1::message-function"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 67
+    },
+    {
+      "id": "6::business_rule::1::message-function",
+      "type": "business_rule",
+      "title": "MESSAGE FUNCTION",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "IF validations pass THEN recommend action: They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "parentId": "6::section::0::message-function",
+      "sectionId": "6",
+      "sectionTitle": "MESSAGE FUNCTION",
+      "documentName": "TradeNetDeclaration.COODEC Ver2.1.pdf",
+      "pageNumber": 6,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "MESSAGE FUNCTION",
+        "MESSAGEFUNCTION"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [
+    "TCODEC (COODCI) message (for Issuing Authorities",
+    "APERAK (STATUS) message (for Issuing Authorities",
+    "APERAK (ERRORM) message (for Issuing Authorities",
+    "Issuing Authorities"
+  ],
+  "timelines": [],
+  "actions": [
+    "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+    "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+    "They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+    "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)"
+  ],
+  "workflow": [
+    "Evaluate condition: They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+    "Evaluate condition: Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+    "Evaluate condition: Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+    "They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+    "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+    "They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes.",
+    "Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)"
+  ],
+  "workflow_ascii": "MESSAGE FUNCTION\nEvaluate condition: They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.\n   |\n   v\nEvaluate condition: Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.\n   |\n   v\nEvaluate condition: Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.\n   |\n   v\nThey are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.\n   |\n   v\nRefer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.\n   |\n   v\nThey are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes.\n   |\n   v\nRefer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)",
+  "decision_tree": [
+    "IF They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes. THEN They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+    "IF Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin. THEN They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+    "IF Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes. THEN They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+    "IF They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes. THEN They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+    "IF Sender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin. THEN They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes."
+  ],
+  "decision_tree_ascii": "MESSAGE FUNCTION Decision\nIF They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes. THEN They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.\n   |\n   v\nIF Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin. THEN They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.\n   |\n   v\nIF Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes. THEN They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.\n   |\n   v\nIF They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes. THEN They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.\n   |\n   v\nIF Sender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin. THEN They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+  "examples": [
+    "User asks to process MESSAGE FUNCTION; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes MESSAGE FUNCTION, submits TCODEC (COODEC) message are dependent on the Application, Code Application, COO Application for Certificate, and DEKAI uses the extracted rules to they are:\ncode application type transfer conditions\ncoo application for certificate of to allow the declarant to apply for the certificate of origin for\norigin only export purposes..",
+  "real_world_example_thanglish": "Indha MESSAGE FUNCTION section-la, Example: an importer or exporter invokes MESSAGE FUNCTION, submits TCODEC (COODEC) message are dependent on the application, Code application, COO application for Certificate, and DEKAI uses the extracted rules to they are:\ncode application type transfer conditions\ncoo application for certificate of to allow the declarant to apply for the certificate of origin for\norigin only export purposes..",
+  "ai_rules": [
+    "IF validations pass THEN recommend action: They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "are_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:are"
+    },
+    {
+      "name": "coo_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:COO"
+    },
+    {
+      "name": "air_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Air"
+    },
+    {
+      "name": "via_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:via"
+    },
+    {
+      "name": "net_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Net"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "TCODEC (COODEC) message are dependent on the Application"
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Code Application"
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "COO Application for Certificate"
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "To allow the Declarant to apply for the Certificate"
+    },
+    {
+      "name": "document_5_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin."
+    },
+    {
+      "name": "document_6_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Trade Net Declaration"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6",
+      "purpose": "Retrieve knowledge payload for section 6",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/MESSAGE-FUNCTION/validate",
+      "purpose": "Validate inputs and documents for MESSAGE FUNCTION",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/MESSAGE-FUNCTION/execute",
+      "purpose": "Trigger business action for They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "MESSAGE_FUNCTION_overview",
+      "name": "MESSAGE FUNCTION Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "MESSAGE_FUNCTION_submission",
+      "name": "MESSAGE FUNCTION Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "are_flag",
+        "coo_flag",
+        "air_flag",
+        "via_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does MESSAGE FUNCTION require?",
+    "Which documents are needed for MESSAGE FUNCTION?",
+    "How does DEKAI validate MESSAGE FUNCTION requests?",
+    "What action should be taken for MESSAGE FUNCTION?"
+  ],
+  "expected_ai_answers": [
+    "MESSAGE FUNCTION requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: TCODEC (COODEC) message are dependent on the Application, Code Application, COO Application for Certificate, To allow the Declarant to apply for the Certificate, Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.",
+    "DEKAI validates MESSAGE FUNCTION by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 6?",
+      "answer_en": "6. MESSAGE FUNCTION\nTransfer conditions for the TCODEC (COODEC) message are dependent on the Application Type. They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.",
+      "question_thanglish": "Indha MESSAGE FUNCTION section-la, What is the purpose of section 6?",
+      "answer_thanglish": "Indha MESSAGE FUNCTION section-la, 6. MESSAGE FUNCTION\nTransfer conditions for the TCODEC (COODEC) message are dependent on the application Type. They are:\nCode application Type Transfer Conditions\nCOO application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes."
+    },
+    {
+      "question_en": "What documents are required under MESSAGE FUNCTION?",
+      "answer_en": "TCODEC (COODEC) message are dependent on the Application, Code Application, COO Application for Certificate, To allow the Declarant to apply for the Certificate, Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin., Trade Net Declaration, Application for Certificate, | |\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id., Sender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin., Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)",
+      "question_thanglish": "Indha MESSAGE FUNCTION section-la, What documents are required under MESSAGE FUNCTION?",
+      "answer_thanglish": "Indha MESSAGE FUNCTION section-la, TCODEC (COODEC) message are dependent on the application, Code application, COO application for Certificate, To allow the Declarant to apply for the Certificate, Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin., Trade Net Declaration, application for Certificate, | |\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id., Sender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin., Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)"
+    },
+    {
+      "question_en": "Which authority handles MESSAGE FUNCTION?",
+      "answer_en": "TCODEC (COODCI) message (for Issuing Authorities, APERAK (STATUS) message (for Issuing Authorities, APERAK (ERRORM) message (for Issuing Authorities, Issuing Authorities",
+      "question_thanglish": "Indha MESSAGE FUNCTION section-la, Which authority handles MESSAGE FUNCTION?",
+      "answer_thanglish": "Indha MESSAGE FUNCTION section-la, TCODEC (COODCI) message (for Issuing Authorities, APERAK (STATUS) message (for Issuing Authorities, APERAK (ERRORM) message (for Issuing Authorities, Issuing Authorities"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with MESSAGE FUNCTION?",
+      "answer_en": "AI answers: DEKAI should evaluate section 6, apply the extracted rules, and guide the user through Evaluate condition: They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes..",
+      "question_thanglish": "Indha MESSAGE FUNCTION section-la, User asks: How do I comply with MESSAGE FUNCTION?",
+      "answer_thanglish": "Indha MESSAGE FUNCTION section-la, AI answers: DEKAI should evaluate section 6, apply the extracted rules, and guide the user through Evaluate condition: They are:\nCode application Type Transfer Conditions\nCOO application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to MESSAGE FUNCTION?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha MESSAGE FUNCTION section-la, User asks: Which validations apply to MESSAGE FUNCTION?",
+      "answer_thanglish": "Indha MESSAGE FUNCTION section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter , section 6, title, and page references as immutable knowledge metadata.",
+    "Bind validations for MESSAGE FUNCTION into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: TCODEC (COODEC) message are dependent on the Application, Code Application, COO Application for Certificate, To allow the Declarant to apply for the Certificate, Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin., Trade Net Declaration.",
+    "Route escalations or approvals to: TCODEC (COODCI) message (for Issuing Authorities, APERAK (STATUS) message (for Issuing Authorities, APERAK (ERRORM) message (for Issuing Authorities, Issuing Authorities.",
+    "Show contextual links to related sections: 1, 2, 3, 4, 8."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha MESSAGE FUNCTION section-la, Capture chapter , section 6, title, and page references as immutable knowledge metadata.",
+    "Indha MESSAGE FUNCTION section-la, Bind validations for MESSAGE FUNCTION into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha MESSAGE FUNCTION section-la, Expose document upload controls for: TCODEC (COODEC) message are dependent on the application, Code application, COO application for Certificate, To allow the Declarant to apply for the Certificate, Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin., Trade Net Declaration.",
+    "Indha MESSAGE FUNCTION section-la, Route escalations or approvals to: TCODEC (COODCI) message (for Issuing Authorities, APERAK (STATUS) message (for Issuing Authorities, APERAK (ERRORM) message (for Issuing Authorities, Issuing Authorities.",
+    "Indha MESSAGE FUNCTION section-la, Show contextual links to related sections: 1, 2, 3, 4, 8."
+  ],
+  "keywords": [
+    "for",
+    "the",
+    "are",
+    "COO",
+    "Air",
+    "via",
+    "Net",
+    "and",
+    "doc",
+    "XML",
+    "Ver",
+    "Type",
+    "They",
+    "Code",
+    "only",
+    "more",
+    "when",
+    "Date",
+    "allow",
+    "apply"
+  ],
+  "search_keywords": [
+    "for",
+    "the",
+    "are",
+    "COO",
+    "Air",
+    "via",
+    "Net",
+    "and",
+    "doc",
+    "XML",
+    "Ver",
+    "Type",
+    "They",
+    "Code",
+    "only",
+    "more",
+    "when",
+    "Date",
+    "allow",
+    "apply"
+  ],
+  "intent": "Support MESSAGE FUNCTION processing and compliance validation.",
+  "tags": [
+    "6",
+    "MESSAGE FUNCTION",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "8"
+  ],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    6,
+    7
+  ],
+  "pages": [
+    6,
+    7
+  ],
+  "source_document": "TradeNetDeclaration.COODEC Ver2.1.pdf",
+  "raw_text": "6. MESSAGE FUNCTION\nTransfer conditions for the TCODEC (COODEC) message are dependent on the Application Type. They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.\nSender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin. Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes. | |\nOFFICIAL (CLOSED)\nTRADENET MESSAGE\nPrepared by:\nFor:\nRelease Date\n18/11/2021\nVer\n4.1\nReference\nTRADENET\nDocument Id.\nTDS41-MDS-XML-COODEC-M\nTrade Net Declaration.COODEC Ver2.1.doc\nOFFICIAL (CLOSED)\n6. MESSAGE FUNCTION\nTransfer conditions for the TCODEC (COODEC) message are dependent on the Application Type. They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes.\nSender\n: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\n: SC\n(via Trade Net system)\nResponse message\n: TCODEC (COODCI) message\n(for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin. Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.\"]\n    S2[\"Evaluate condition: Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations: SC\n(via Trade Net system)\nResponse message: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.\"]\n    S2 --> S3\n    S4[\"They are:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.\"]\n    S3 --> S4\n    S5[\"Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.\"]\n    S4 --> S5\n    S6[\"They are:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes.\"]\n    S5 --> S6\n    S7[\"Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED)\"]\n    S6 --> S7",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: They are\\:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.;\n:Evaluate condition\\: Sender\\: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents, Declaring Agents\nLogical Destinations\\: SC\n(via Trade Net system)\nResponse message\\: TCODEC (COODCI) message (for Issuing Authorities to inform the Applicant/Declarant on their\napproval to the application for the Certificate of Origin.;\n:Evaluate condition\\: Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by\\:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.;\n:They are\\:\nCode Application Type Transfer Conditions\nCOO Application for Certificate of To allow the Declarant to apply for the Certificate of Origin for\nOrigin only export purposes.;\n:Refer to\nreference 2 for more details)\nAPERAK (STATUS) message (for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message (for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nTrade Net Declaration.COODEC Ver2.1.doc Message Specification XML (COODEC)\nOFFICIAL (CLOSED)\nPrepared by\\:\nTDS41-MDS-XML-COODEC-M\n| Code | | | Application Type | | | Transfer Conditions |\nCOO | | | Application for Certificate of\nOrigin only | | | To allow the Declarant to apply for the Certificate of Origin for\nexport purposes.;\n:They are\\:\nCode Application Type\nTransfer Conditions\nCOO\nApplication\nfor\nCertificate\nof\nOrigin only\nTo allow the Declarant to apply for the Certificate of Origin for\nexport purposes.;\n:Refer to\nreference 2 for more details)\nAPERAK (STATUS) message\n(for Issuing Authorities to inform the Applicant/Declarant on the\nrejection of the application; refer to reference 3 for more details)\nAPERAK (ERRORM) message\n(for Issuing Authorities and Trade Net System to inform the Declarant on\nthe errors found when processing the declaration message; refer to\nreference 4 for more details)\nOFFICIAL (CLOSED);\nstop\n@enduml"
+}

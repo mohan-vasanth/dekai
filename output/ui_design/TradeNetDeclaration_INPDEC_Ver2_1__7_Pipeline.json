@@ -1,0 +1,47 @@
+{
+  "section": "7",
+  "ui": [
+    {
+      "screen_id": "Pipeline_overview",
+      "name": "Pipeline Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Pipeline_submission",
+      "name": "Pipeline Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "cbc_flag",
+        "for_flag",
+        "net_flag",
+        "doc_flag",
+        "xml_flag",
+        "ver_flag"
+      ]
+    },
+    {
+      "screen_id": "Pipeline_exceptions",
+      "name": "Pipeline Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

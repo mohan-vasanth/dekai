@@ -1,0 +1,352 @@
+{
+  "chapter_number": "3",
+  "chapter_title": "Developing Districts as Export Hubs Developing Districts as Export Hubs",
+  "section": "5",
+  "title": "Map the existing trade infrastructure available for thrust sector in the",
+  "purpose": "Map the existing trade infrastructure available for thrust sector in the\ndistricts.",
+  "purpose_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, Map the existing trade infrastructure available for thrust sector in the\ndistricts.",
+  "summary": "5. Map the existing trade infrastructure available for thrust sector in the\ndistricts.",
+  "business_meaning": "5.",
+  "business_explanation": "5. Map the existing trade infrastructure available for thrust sector in the\ndistricts.",
+  "business_explanation_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, 5. Map the existing trade infrastructure available for thrust sector in the\ndistricts.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH3-SEC5-R001",
+      "rule_description": "5. Map the existing trade infrastructure available for thrust sector in the\ndistricts.",
+      "trigger": "Map the existing trade infrastructure available for thrust sector in the",
+      "condition": "Not explicitly covered in uploaded documents.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5 - Map the existing trade infrastructure available for thrust sector in the."
+    }
+  ],
+  "conditions": [],
+  "condition_logic": [],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [
+    [
+      [
+        "5.",
+        "",
+        "Map the existing trade infrastructure available for thrust sector in the",
+        ""
+      ],
+      [
+        "",
+        "",
+        "districts.",
+        ""
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "5::section::0::map-the-existing-trade-infrastructure-available-",
+      "type": "section",
+      "title": "Map the existing trade infrastructure available for thrust sector in the",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5. Map the existing trade infrastructure available for thrust sector in the\ndistricts.",
+      "parentId": "",
+      "sectionId": "5",
+      "sectionTitle": "Map the existing trade infrastructure available for thrust sector in the",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 1,
+      "searchAliases": [
+        "Map the existing trade infrastructure available for thrust sector in the",
+        "Maptheexistingtradeinfrastructureavailableforthrustsectorinthe"
+      ],
+      "childIds": [
+        "5::business_rule::1::map-the-existing-trade-infrastructure-available-"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 1
+    },
+    {
+      "id": "5::business_rule::1::map-the-existing-trade-infrastructure-available-",
+      "type": "business_rule",
+      "title": "Map the existing trade infrastructure available for thrust sector in the",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "5. Map the existing trade infrastructure available for thrust sector in the\ndistricts.",
+      "parentId": "5::section::0::map-the-existing-trade-infrastructure-available-",
+      "sectionId": "5",
+      "sectionTitle": "Map the existing trade infrastructure available for thrust sector in the",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Map the existing trade infrastructure available for thrust sector in the",
+        "Maptheexistingtradeinfrastructureavailableforthrustsectorinthe"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Review section 5 requirements",
+    "Capture applicant inputs",
+    "Route for authority decision"
+  ],
+  "workflow_ascii": "Map the existing trade infrastructure available for thrust sector in the\nReview section 5 requirements\n   |\n   v\nCapture applicant inputs\n   |\n   v\nRoute for authority decision",
+  "decision_tree": [
+    "IF section 5 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Map the existing trade infrastructure available for thrust sector in the Decision\nIF section 5 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Map the existing trade infrastructure available for thrust sector in the; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Map the existing trade infrastructure available for thrust sector in the, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the map the existing trade infrastructure available for thrust sector in the process.",
+  "real_world_example_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, Example: an importer or exporter invokes Map the existing trade infrastructure available for thrust sector in the, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the map the existing trade infrastructure available for thrust sector in the process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "map_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Map"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "trade_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:trade"
+    },
+    {
+      "name": "thrust_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:thrust"
+    },
+    {
+      "name": "sector_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:sector"
+    },
+    {
+      "name": "existing_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:existing"
+    },
+    {
+      "name": "available_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:available"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/5",
+      "purpose": "Retrieve knowledge payload for section 5",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Map-the-existing-trade-infrastructure-available-for-thrust-sector-in-the/validate",
+      "purpose": "Validate inputs and documents for Map the existing trade infrastructure available for thrust sector in the",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Map_the_existing_trade_infrastructure_available_for_thrust_sector_in_the_overview",
+      "name": "Map the existing trade infrastructure available for thrust sector in the Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Map_the_existing_trade_infrastructure_available_for_thrust_sector_in_the_submission",
+      "name": "Map the existing trade infrastructure available for thrust sector in the Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "map_flag",
+        "the_flag",
+        "for_flag",
+        "trade_flag",
+        "thrust_flag",
+        "sector_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Map the existing trade infrastructure available for thrust sector in the require?",
+    "Which documents are needed for Map the existing trade infrastructure available for thrust sector in the?",
+    "How does DEKAI validate Map the existing trade infrastructure available for thrust sector in the requests?"
+  ],
+  "expected_ai_answers": [
+    "Map the existing trade infrastructure available for thrust sector in the requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Map the existing trade infrastructure available for thrust sector in the by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 5?",
+      "answer_en": "5. Map the existing trade infrastructure available for thrust sector in the\ndistricts.",
+      "question_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, What is the purpose of section 5?",
+      "answer_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, 5. Map the existing trade infrastructure available for thrust sector in the\ndistricts."
+    },
+    {
+      "question_en": "What documents are required under Map the existing trade infrastructure available for thrust sector in the?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, What documents are required under Map the existing trade infrastructure available for thrust sector in the?",
+      "answer_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Map the existing trade infrastructure available for thrust sector in the?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, Which authority handles Map the existing trade infrastructure available for thrust sector in the?",
+      "answer_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Map the existing trade infrastructure available for thrust sector in the?",
+      "answer_en": "AI answers: DEKAI should evaluate section 5, apply the extracted rules, and guide the user through Review section 5 requirements.",
+      "question_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, User asks: How do I comply with Map the existing trade infrastructure available for thrust sector in the?",
+      "answer_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, AI answers: DEKAI should evaluate section 5, apply the extracted rules, and guide the user through Review section 5 requirements."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Map the existing trade infrastructure available for thrust sector in the?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, User asks: Which validations apply to Map the existing trade infrastructure available for thrust sector in the?",
+      "answer_thanglish": "Indha Map the existing trade infrastructure available for thrust sector in the section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 3, section 5, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Map the existing trade infrastructure available for thrust sector in the into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Map the existing trade infrastructure available for thrust sector in the section-la, Capture chapter 3, section 5, title, and page references as immutable knowledge metadata.",
+    "Indha Map the existing trade infrastructure available for thrust sector in the section-la, Bind validations for Map the existing trade infrastructure available for thrust sector in the into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "Map",
+    "the",
+    "for",
+    "trade",
+    "thrust",
+    "sector",
+    "existing",
+    "available",
+    "districts",
+    "infrastructure"
+  ],
+  "search_keywords": [
+    "Map",
+    "the",
+    "for",
+    "trade",
+    "thrust",
+    "sector",
+    "existing",
+    "available",
+    "districts",
+    "infrastructure"
+  ],
+  "intent": "Provide knowledge guidance for Map the existing trade infrastructure available for thrust sector in the.",
+  "tags": [
+    "5",
+    "Map the existing trade infrastructure available for thrust sector in the",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    4
+  ],
+  "pages": [
+    4
+  ],
+  "source_document": "HBP2023_Chapter03.pdf",
+  "raw_text": "5. Map the existing trade infrastructure available for thrust sector in the\ndistricts.",
+  "mermaid": "flowchart TD\n    S1[\"Review section 5 requirements\"]\n    S2[\"Capture applicant inputs\"]\n    S1 --> S2\n    S3[\"Route for authority decision\"]\n    S2 --> S3",
+  "plantuml": "@startuml\nstart\n:Review section 5 requirements;\n:Capture applicant inputs;\n:Route for authority decision;\nstop\n@enduml"
+}

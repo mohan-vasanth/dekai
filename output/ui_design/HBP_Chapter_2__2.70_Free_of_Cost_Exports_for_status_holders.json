@@ -1,0 +1,37 @@
+{
+  "section": "2.70",
+  "ui": [
+    {
+      "screen_id": "Free_of_Cost_Exports_for_status_holders_overview",
+      "name": "Free of Cost Exports for status holders Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Free_of_Cost_Exports_for_status_holders_submission",
+      "name": "Free of Cost Exports for status holders Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "and_flag",
+        "not_flag",
+        "ent_flag",
+        "doc_flag"
+      ]
+    }
+  ]
+}

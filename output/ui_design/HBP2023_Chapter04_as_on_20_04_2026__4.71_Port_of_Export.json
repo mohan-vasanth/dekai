@@ -1,0 +1,47 @@
+{
+  "section": "4.71",
+  "ui": [
+    {
+      "screen_id": "Port_of_Export_overview",
+      "name": "Port of Export Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Port_of_Export_submission",
+      "name": "Port of Export Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "ban_flag",
+        "and_flag",
+        "rea_flag",
+        "rbi_flag",
+        "edp_flag",
+        "sys_flag"
+      ]
+    },
+    {
+      "screen_id": "Port_of_Export_exceptions",
+      "name": "Port of Export Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

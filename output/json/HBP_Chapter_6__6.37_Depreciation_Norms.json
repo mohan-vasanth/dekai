@@ -1,0 +1,819 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.37",
+  "title": "Depreciation Norms",
+  "purpose": "6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.",
+  "purpose_thanglish": "Indha Depreciation Norms section-la, 6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.",
+  "summary": "6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items. (a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows. 10% for every quarter in first year;\n8% for every quarter in second year;\n5% for every quarter in third year;\n1% for every quarter in fourth and fifth year.",
+  "business_meaning": "Depreciation Norms governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Depreciation Norms explains the operating rule set that DEKAI should enforce. Key control points include (a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.",
+  "business_explanation_thanglish": "Indha Depreciation Norms section-la, Depreciation Norms explains the operating rule set that DEKAI should enforce. Key control points include (a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals kandippa be as follows.",
+  "business_logic": [
+    "(a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_37-R001",
+      "rule_description": "(a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.",
+      "trigger": "Depreciation Norms",
+      "condition": "6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.",
+      "validation": "(a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.37 - Depreciation Norms."
+    }
+  ],
+  "conditions": [
+    "6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.",
+    "10% for every quarter in first year;\n8% for every quarter in second year;\n5% for every quarter in third year;\n1% for every quarter in fourth and fifth year.",
+    "(b) Depreciation Norms for Other Capital Goods:\nFor capital goods, other than above, depreciation rate would be as follows:\n4% for every quarter in first year;\n3% for every quarter in second and third year;\n2.5% for every quarter in fourth and fifth year;\n2% for every quarter thereafter."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.37.1",
+      "if": "6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.",
+      "then": "Route for review",
+      "source": "6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items."
+    },
+    {
+      "id": "6.6.37.2",
+      "if": "10% for every quarter in first year;\n8% for every quarter in second year;\n5% for every quarter in third year;\n1% for every quarter in fourth and fifth year.",
+      "then": "Route for review",
+      "source": "10% for every quarter in first year;\n8% for every quarter in second year;\n5% for every quarter in third year;\n1% for every quarter in fourth and fifth year."
+    },
+    {
+      "id": "6.6.37.3",
+      "if": "(b) Depreciation Norms for Other Capital Goods:\nFor capital goods, other than above, depreciation rate would be as follows:\n4% for every quarter in first year;\n3% for every quarter in second and third year;\n2.5% for every quarter in fourth and fifth year;\n2% for every quarter thereafter.",
+      "then": "Route for review",
+      "source": "(b) Depreciation Norms for Other Capital Goods:\nFor capital goods, other than above, depreciation rate would be as follows:\n4% for every quarter in first year;\n3% for every quarter in second and third year;\n2.5% for every quarter in fourth and fifth year;\n2% for every quarter thereafter."
+    }
+  ],
+  "validations": [
+    "(a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows."
+  ],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [
+    [
+      [
+        "6.37",
+        "D",
+        "ep",
+        "re",
+        "ciation Norm",
+        "s",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Depr",
+        "e",
+        "cia",
+        "tion",
+        "up to 100% i",
+        "s permissible",
+        "for Co",
+        "mputers and",
+        "Compu",
+        "ter periphera"
+      ],
+      [
+        "5 yea",
+        "r",
+        "s a",
+        "nd 1",
+        "0 years in cas",
+        "e of other ite",
+        "ms.",
+        "",
+        "",
+        ""
+      ],
+      [
+        "(a) De",
+        "p",
+        "re",
+        "ciat",
+        "ion Norms for",
+        "Computers an",
+        "d Com",
+        "puter Periph",
+        "erals:",
+        ""
+      ],
+      [
+        "",
+        "D",
+        "ep",
+        "rec",
+        "iation for com",
+        "puters and co",
+        "mpute",
+        "r peripherals",
+        "shall b",
+        "e as follows."
+      ],
+      [
+        "",
+        "1",
+        "0%",
+        "fo",
+        "r every quarte",
+        "r in first year",
+        ";",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "8",
+        "%",
+        "for",
+        "every quarter",
+        "in second yea",
+        "r;",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "5",
+        "%",
+        "for",
+        "every quarter",
+        "in third year;",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "1",
+        "%",
+        "for",
+        "every quarter",
+        "in fourth and",
+        "fifth y",
+        "ear.",
+        "",
+        ""
+      ],
+      [
+        "(b) D",
+        "e",
+        "pr",
+        "ecia",
+        "tion Norms fo",
+        "r Other Capita",
+        "l Good",
+        "s:",
+        "",
+        ""
+      ],
+      [
+        "",
+        "F",
+        "or",
+        "cap",
+        "ital goods, oth",
+        "er than abov",
+        "e, depr",
+        "eciation rate",
+        "would",
+        "be as follows"
+      ],
+      [
+        "",
+        "4",
+        "%",
+        "for",
+        "every quarter",
+        "in first year;",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "3",
+        "%",
+        "for",
+        "every quarter",
+        "in second an",
+        "d third",
+        "year;",
+        "",
+        ""
+      ],
+      [
+        "",
+        "2",
+        ".5",
+        "% fo",
+        "r every quart",
+        "er in fourth a",
+        "nd fifth",
+        "year;",
+        "",
+        ""
+      ],
+      [
+        "",
+        "2",
+        "%",
+        "for",
+        "every quarter",
+        "thereafter.",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "6.38",
+        "C",
+        "on",
+        "ve",
+        "rsion",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "a)",
+        "",
+        "Existing DTA",
+        "units, may a",
+        "lso ap",
+        "ply for conv",
+        "ersion i",
+        "nto an EOU"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "/EHTP / STP",
+        "/ BTP unit,",
+        "but no",
+        "concession",
+        "in duti",
+        "es and taxes"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "would be av",
+        "ailable unde",
+        "r sch",
+        "eme for pla",
+        "nt, ma",
+        "chinery and"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "equipment al",
+        "ready installe",
+        "d. For t",
+        "his purpose,",
+        "DTA un",
+        "it may apply"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "to DC / Design",
+        "ated Officer c",
+        "oncer",
+        "ned in same",
+        "manner",
+        "as applicable"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "to new units.",
+        "In case there",
+        "is an",
+        "outstanding",
+        "export",
+        "commitment"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "under Advanc",
+        "e Authorisati",
+        "on Sch",
+        "eme, it will f",
+        "ollow t",
+        "he procedure"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "laid down in",
+        "Appendix 6M",
+        "of App",
+        "endices & AN",
+        "Fs. In c",
+        "ase DTA unit"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "has taken EP",
+        "CG authorisat",
+        "ion, th",
+        "e conversion",
+        "would",
+        "be permitted"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "only if either",
+        "the unit has f",
+        "ulfilled",
+        "the stipulat",
+        "ed Expo",
+        "rt obligation"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "and obtained",
+        "EODC or has",
+        "made",
+        "payment of a",
+        "pplicab",
+        "le duties and"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "taxes and com",
+        "pensation ce",
+        "ss on c",
+        "apital goods",
+        "import",
+        "ed under the"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "EPCG Scheme",
+        ".",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "b)",
+        "",
+        "Existing EHT",
+        "P / STP / BTP",
+        "units",
+        "may also ap",
+        "ply for",
+        "conversion /"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "merger to E",
+        "OU unit and",
+        "vice-v",
+        "ersa. In suc",
+        "h case",
+        "s, units will"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "continue to a",
+        "vail permissi",
+        "ble ex",
+        "emption in",
+        "duties",
+        "and taxes as"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "applicable un",
+        "der relevant s",
+        "cheme",
+        ". EHTP / STP",
+        "/ BTP u",
+        "nits desiring"
+      ]
+    ]
+  ],
+  "hierarchy_nodes": [
+    {
+      "id": "6.37::section::0::depreciation-norms",
+      "type": "section",
+      "title": "Depreciation Norms",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.\n(a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.\n10% for every quarter in first year;\n8% for every quarter in second year;\n5% for every quarter in third year;\n1% for every quarter in fourth and fifth year.\n(b) Depreciation Norms for Other Capital Goods:\nFor capital goods, other than above, depreciation rate would be as follows:\n4% for every quarter in first year;\n3% for every quarter in second and third year;\n2.5% for every quarter in fourth and fifth year;\n2% for every quarter thereafter.",
+      "parentId": "",
+      "sectionId": "6.37",
+      "sectionTitle": "Depreciation Norms",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 21,
+      "startLine": 0,
+      "endLine": 14,
+      "searchAliases": [
+        "Depreciation Norms",
+        "DepreciationNorms"
+      ],
+      "childIds": [
+        "6.37::validation::1::validation-rules",
+        "6.37::business_rule::2::depreciation-norms"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 14
+    },
+    {
+      "id": "6.37::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.",
+      "parentId": "6.37::section::0::depreciation-norms",
+      "sectionId": "6.37",
+      "sectionTitle": "Depreciation Norms",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 21,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.37::business_rule::2::depreciation-norms",
+      "type": "business_rule",
+      "title": "Depreciation Norms",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.",
+      "parentId": "6.37::section::0::depreciation-norms",
+      "sectionId": "6.37",
+      "sectionTitle": "Depreciation Norms",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 21,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Depreciation Norms",
+        "DepreciationNorms"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [
+    "6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.",
+    "(b) Depreciation Norms for Other Capital Goods:\nFor capital goods, other than above, depreciation rate would be as follows:\n4% for every quarter in first year;\n3% for every quarter in second and third year;\n2.5% for every quarter in fourth and fifth year;\n2% for every quarter thereafter."
+  ],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: 6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.",
+    "Evaluate condition: 10% for every quarter in first year;\n8% for every quarter in second year;\n5% for every quarter in third year;\n1% for every quarter in fourth and fifth year.",
+    "Evaluate condition: (b) Depreciation Norms for Other Capital Goods:\nFor capital goods, other than above, depreciation rate would be as follows:\n4% for every quarter in first year;\n3% for every quarter in second and third year;\n2.5% for every quarter in fourth and fifth year;\n2% for every quarter thereafter.",
+    "Run validation: (a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows."
+  ],
+  "workflow_ascii": "Depreciation Norms\nEvaluate condition: 6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.\n   |\n   v\nEvaluate condition: 10% for every quarter in first year;\n8% for every quarter in second year;\n5% for every quarter in third year;\n1% for every quarter in fourth and fifth year.\n   |\n   v\nEvaluate condition: (b) Depreciation Norms for Other Capital Goods:\nFor capital goods, other than above, depreciation rate would be as follows:\n4% for every quarter in first year;\n3% for every quarter in second and third year;\n2.5% for every quarter in fourth and fifth year;\n2% for every quarter thereafter.\n   |\n   v\nRun validation: (a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.",
+  "decision_tree": [
+    "IF section 6.37 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Depreciation Norms Decision\nIF section 6.37 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Depreciation Norms; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Depreciation Norms, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the depreciation norms process.",
+  "real_world_example_thanglish": "Indha Depreciation Norms section-la, Example: an importer or exporter invokes Depreciation Norms, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the depreciation norms process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "for_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:for"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "case_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:case"
+    },
+    {
+      "name": "year_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:year"
+    },
+    {
+      "name": "than_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:than"
+    },
+    {
+      "name": "rate_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:rate"
+    },
+    {
+      "name": "norms_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Norms"
+    },
+    {
+      "name": "years_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:years"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.37",
+      "purpose": "Retrieve knowledge payload for section 6.37",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Depreciation-Norms/validate",
+      "purpose": "Validate inputs and documents for Depreciation Norms",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Depreciation_Norms_overview",
+      "name": "Depreciation Norms Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Depreciation_Norms_submission",
+      "name": "Depreciation Norms Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "and_flag",
+        "case_flag",
+        "year_flag",
+        "than_flag",
+        "rate_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Depreciation Norms require?",
+    "Which documents are needed for Depreciation Norms?",
+    "How does DEKAI validate Depreciation Norms requests?"
+  ],
+  "expected_ai_answers": [
+    "Depreciation Norms requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Depreciation Norms by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 6.37?",
+      "answer_en": "Depreciation Norms explains the operating rule set that DEKAI should enforce. Key control points include (a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.",
+      "question_thanglish": "Indha Depreciation Norms section-la, What is the purpose of section 6.37?",
+      "answer_thanglish": "Indha Depreciation Norms section-la, Depreciation Norms explains the operating rule set that DEKAI should enforce. Key control points include (a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals kandippa be as follows."
+    },
+    {
+      "question_en": "What documents are required under Depreciation Norms?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Depreciation Norms section-la, What documents are required under Depreciation Norms?",
+      "answer_thanglish": "Indha Depreciation Norms section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Depreciation Norms?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Depreciation Norms section-la, Which authority handles Depreciation Norms?",
+      "answer_thanglish": "Indha Depreciation Norms section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Depreciation Norms?",
+      "answer_en": "AI answers: DEKAI should evaluate section 6.37, apply the extracted rules, and guide the user through Evaluate condition: 6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items..",
+      "question_thanglish": "Indha Depreciation Norms section-la, User asks: How do I comply with Depreciation Norms?",
+      "answer_thanglish": "Indha Depreciation Norms section-la, AI answers: DEKAI should evaluate section 6.37, apply the extracted rules, and guide the user through Evaluate condition: 6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Depreciation Norms?",
+      "answer_en": "AI answers: Applicable validations are (a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.",
+      "question_thanglish": "Indha Depreciation Norms section-la, User asks: Which validations apply to Depreciation Norms?",
+      "answer_thanglish": "Indha Depreciation Norms section-la, AI answers: Applicable validations are (a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals kandippa be as follows."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 6, section 6.37, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Depreciation Norms into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Depreciation Norms section-la, Capture chapter 6, section 6.37, title, and page references as immutable knowledge metadata.",
+    "Indha Depreciation Norms section-la, Bind validations for Depreciation Norms into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "for",
+    "and",
+    "case",
+    "year",
+    "than",
+    "rate",
+    "Norms",
+    "years",
+    "other",
+    "items",
+    "shall",
+    "every",
+    "first",
+    "third",
+    "fifth",
+    "Goods",
+    "above",
+    "would",
+    "second",
+    "fourth"
+  ],
+  "search_keywords": [
+    "for",
+    "and",
+    "case",
+    "year",
+    "than",
+    "rate",
+    "Norms",
+    "years",
+    "other",
+    "items",
+    "shall",
+    "every",
+    "first",
+    "third",
+    "fifth",
+    "Goods",
+    "above",
+    "would",
+    "second",
+    "fourth"
+  ],
+  "intent": "Provide knowledge guidance for Depreciation Norms.",
+  "tags": [
+    "6.37",
+    "Depreciation Norms",
+    "business-rule",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "(a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows."
+  ],
+  "page_numbers": [
+    21
+  ],
+  "pages": [
+    21
+  ],
+  "source_document": "HBP-Chapter-6.pdf",
+  "raw_text": "6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.\n(a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.\n10% for every quarter in first year;\n8% for every quarter in second year;\n5% for every quarter in third year;\n1% for every quarter in fourth and fifth year.\n(b) Depreciation Norms for Other Capital Goods:\nFor capital goods, other than above, depreciation rate would be as follows:\n4% for every quarter in first year;\n3% for every quarter in second and third year;\n2.5% for every quarter in fourth and fifth year;\n2% for every quarter thereafter.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.\"]\n    S2[\"Evaluate condition: 10% for every quarter in first year;\n8% for every quarter in second year;\n5% for every quarter in third year;\n1% for every quarter in fourth and fifth year.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: (b) Depreciation Norms for Other Capital Goods:\nFor capital goods, other than above, depreciation rate would be as follows:\n4% for every quarter in first year;\n3% for every quarter in second and third year;\n2.5% for every quarter in fourth and fifth year;\n2% for every quarter thereafter.\"]\n    S2 --> S3\n    S4[\"Run validation: (a) Depreciation Norms for Computers and Computer Peripherals:\nDepreciation for computers and computer peripherals shall be as follows.\"]\n    S3 --> S4",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 6.37 Depreciation Norms\nDepreciation up to 100% is permissible for Computers and Computer peripherals in\n5 years and 10 years in case of other items.;\n:Evaluate condition\\: 10% for every quarter in first year;\n8% for every quarter in second year;\n5% for every quarter in third year;\n1% for every quarter in fourth and fifth year.;\n:Evaluate condition\\: (b) Depreciation Norms for Other Capital Goods\\:\nFor capital goods, other than above, depreciation rate would be as follows\\:\n4% for every quarter in first year;\n3% for every quarter in second and third year;\n2.5% for every quarter in fourth and fifth year;\n2% for every quarter thereafter.;\n:Run validation\\: (a) Depreciation Norms for Computers and Computer Peripherals\\:\nDepreciation for computers and computer peripherals shall be as follows.;\nstop\n@enduml"
+}

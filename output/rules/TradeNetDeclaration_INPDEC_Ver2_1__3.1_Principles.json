@@ -1,0 +1,19 @@
+{
+  "chapter_number": "",
+  "chapter_title": "TradeNetDeclaration.INPDEC Ver2.1",
+  "section": "3.1",
+  "title": "Principles",
+  "business_rules": [
+    {
+      "rule_id": "CH-SEC3_1-R001",
+      "rule_description": "3.1 Principles\nThis message incorporates the necessary transport, statistical, and declaration information. Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration\nand for the grouping of document lines into a single customs item.",
+      "trigger": "Principles",
+      "condition": "The message\ncorrespondingly permits the use of single or multi-packaging concepts and their identification to a customs item.",
+      "validation": "Provision has also been\nmade for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of\nsupporting documentation.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3.1 - Principles."
+    }
+  ],
+  "ai_rules": []
+}

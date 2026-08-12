@@ -1,0 +1,33 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.04",
+  "title": "Territorial Jurisdiction of RA",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_04-R001",
+      "rule_description": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "trigger": "Territorial Jurisdiction of RA",
+      "condition": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "validation": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "action": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "exception": "Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+      "output": "DEKAI should produce a compliance decision for 2.04 - Territorial Jurisdiction of RA."
+    },
+    {
+      "rule_id": "CH2-SEC2_04-R002",
+      "rule_description": "Ea | ch application, unless\notherwise specified, shall | be submitte | d to | juris | dictional RA.",
+      "trigger": "Territorial Jurisdiction of RA",
+      "condition": "Procedu | re for app | licat | ions | for authori | s | atio | ns/ l | icense/ permissions/\ncertificates for import/exp | ort and appl | icat | ions | for benefits u | n | der | FTP | are laid out.",
+      "validation": "| | | | | | | |\n2.01 Coverage | | | | | | | |\nThis chapter covers p | rocedure fo | r | vario | us applicatio | n | s | inclu | ding their complete\ndocumentation.",
+      "action": "Docum | ents in regio | nal | lang | uages may be | t | rans | lated | into English or Hindi\nand the translated copy m | ay be self-ce | rtifi | ed a | nd submitted | a | long | with | the original copy.",
+      "exception": "2.02 Countries of Imp | orts/Exp | ort | s | | | | |\nUnless otherwise specifi | cally provid | ed, | inter | national trade | | (i.e |.",
+      "output": "DEKAI should produce a compliance decision for 2.04 - Territorial Jurisdiction of RA."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA.",
+    "IF detected context matches section rule THEN enforce: Ea | ch application, unless\notherwise specified, shall | be submitte | d to | juris | dictional RA.",
+    "IF validations pass THEN recommend action: Each application, unless\notherwise specified, shall be submitted to jurisdictional RA."
+  ]
+}

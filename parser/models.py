@@ -55,6 +55,14 @@ class SemanticChunk:
     is_table_row: bool = False
     heading: str = ""
     field_names: List[str] = field(default_factory=list)
+    document_type: str = ""
+    xml_tag: str = ""
+    field_code: str = ""
+    field_name: str = ""
+    section_name: str = ""
+    section_path: str = ""
+    page_number: int = 0
+    source_text: str = ""
     tag_name: str = ""
     normalized_tag_name: str = ""
     namespace: str = ""

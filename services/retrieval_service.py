@@ -5,7 +5,14 @@ from dataclasses import dataclass
 from typing import Any
 
 from parser.utils import extract_numeric_identifiers, normalize_numeric_identifier, unique_preserve
-from parser.xml_utils import extract_query_namespace, extract_section_request_target, is_xml_field_query, normalize_query_field_reference
+from parser.xml_utils import (
+    canonical_xml_tag,
+    extract_field_code_references,
+    extract_query_namespace,
+    extract_section_request_target,
+    is_xml_field_query,
+    normalize_query_field_reference,
+)
 
 
 TRADE_NET_XML_FIELD_INTENT = "TRADE_NET_XML_FIELD"
@@ -56,11 +63,14 @@ class QueryAnalysis:
     hs_codes: tuple[str, ...]
     section_numbers: tuple[str, ...]
     chapter_numbers: tuple[str, ...]
+    field_codes: tuple[str, ...]
     document_terms: tuple[str, ...]
     keywords: tuple[str, ...]
     section_request_name: str = ""
     detected_namespace: str = ""
     normalized_field_reference: str = ""
+    canonical_field_reference: str = ""
+    detected_tag_name: str = ""
 
 
 HS_TERMS = (
@@ -285,11 +295,14 @@ def _classify_question(
     hs_codes: tuple[str, ...],
     sections: tuple[str, ...],
     chapters: tuple[str, ...],
+    field_codes: tuple[str, ...],
     normalized: str,
     section_request_name: str = "",
 ) -> str:
     if hs_codes:
         return "HS Code Lookup"
+    if field_codes:
+        return "TRADE_NET_FIELD_CODE"
     if is_xml_field_query(question):
         return "TRADE_NET_XML_FIELD"
     if section_request_name:
@@ -313,6 +326,7 @@ def analyze_question(question: str) -> QueryAnalysis:
     cleaned_question = " ".join((question or "").split()).strip()
     normalized = _normalize(cleaned_question)
     hs_codes = tuple(extract_numeric_identifiers(cleaned_question))
+    field_codes = tuple(extract_field_code_references(cleaned_question))
     sections = _extract_explicit_section_ids(cleaned_question)
     chapters = _extract_explicit_chapters(cleaned_question)
     document_terms = _extract_document_terms(normalized)
@@ -320,14 +334,18 @@ def analyze_question(question: str) -> QueryAnalysis:
     section_request_name = extract_section_request_target(cleaned_question)
     detected_namespace = extract_query_namespace(cleaned_question)
     normalized_field_reference = normalize_query_field_reference(cleaned_question) if is_xml_field_query(cleaned_question) else ""
+    canonical_field_reference = canonical_xml_tag(cleaned_question) if is_xml_field_query(cleaned_question) else ""
+    detected_tag_name = canonical_field_reference.split(":", 1)[1] if ":" in canonical_field_reference else ""
     entities = tuple(
         unique_preserve(
             [
                 *hs_codes,
                 *[f"Section {section}" for section in sections],
                 *[f"Chapter {chapter}" for chapter in chapters],
+                *field_codes,
                 *([detected_namespace] if detected_namespace else []),
                 *([normalized_field_reference] if normalized_field_reference else []),
+                *([canonical_field_reference] if canonical_field_reference else []),
                 *([section_request_name] if section_request_name else []),
                 *document_terms,
                 *keywords[:8],
@@ -344,6 +362,7 @@ def analyze_question(question: str) -> QueryAnalysis:
             hs_codes,
             sections,
             chapters,
+            field_codes,
             normalized,
             section_request_name,
         ),
@@ -351,17 +370,20 @@ def analyze_question(question: str) -> QueryAnalysis:
         hs_codes=hs_codes,
         section_numbers=sections,
         chapter_numbers=chapters,
+        field_codes=field_codes,
         document_terms=document_terms,
         keywords=keywords,
         section_request_name=section_request_name,
         detected_namespace=detected_namespace,
         normalized_field_reference=normalized_field_reference,
+        canonical_field_reference=canonical_field_reference,
+        detected_tag_name=detected_tag_name,
     )
 
 
 class RetrievalDecisionService:
     def _trade_net_xml_field_plan(self, analysis: QueryAnalysis) -> RetrievalPlan:
-        topic = analysis.normalized_field_reference or analysis.question
+        topic = analysis.normalized_field_reference or next(iter(analysis.field_codes), "") or analysis.question
         return RetrievalPlan(
             question_understood=analysis.question,
             user_intent="Question Answering",
@@ -476,7 +498,7 @@ class RetrievalDecisionService:
                 detected_namespace=analysis.detected_namespace,
             )
 
-        if _contains_xml_like_tag(question_understood) or is_xml_field_query(question_understood):
+        if analysis.field_codes or _contains_xml_like_tag(question_understood) or is_xml_field_query(question_understood):
             return self._trade_net_xml_field_plan(analysis)
 
         if _contains_any(

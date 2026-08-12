@@ -1,0 +1,77 @@
+{
+  "section": "4.27",
+  "conditions": [
+    "88\n23 Modifi | cation | of SION | | | | | |\nAn applicat | ion for | modification | of existing | SION | shall be fil | ed on | line i | n ANF 4B to\nthe concern | ed Nor | ms Committe | e in DGFT h | eadq | uarters.",
+    "(ii) App | licant | would give | justification | for | seeking am | endm | ent | and Regional\nAut | hority w | ould consid | er it with spe | cific | approval of | Head | of Off | ice.",
+    "In case of\nany | major c | hange in inp | ut or reques | t for | more wasta | ge to t | hat a | llowed under\nSIO | N or ad | -hoc norm, | same shoul | d be | referred to | Nor | ms C | ommittee for\nratif | ication.",
+    "|\n6 Descri | ption o | f an Advan | ce Authori | sati | on | | |\nAn Advance | Author | isation shall |, inter-alia, s | pecif | y: | | |\n(a) Nam | es and | description | of items inclu | ding | specificatio | ns, w | here | applicable, to\nbe i | mporte | d and export | ed/supplied |; | | | |\n(b) Qua | ntity o | f each item | to be imp | orted | or wherev | er q | uantit | y cannot be\nindi | cated, v | alue of item | shall be ind | icate | d.",
+    "Whereve | r, qua | ntity | and value of\nindi | vidual i | nputs is a lim | iting factor | in SI | ON, same sh | all be | appli | cable;\n(c) Agg | regate C | IF value of i | mports; | | | | |\n(d) FOB | /FOR v | alue and qua | ntity of expo | rts/ | supplies; an | d | |\n(e) Vali | dity per | iod of impor | t and Export | Obli | gation Perio | d.",
+    "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority.",
+    "If in the intervening period (i.e.",
+    "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+    "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+    "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.27.1",
+      "if": "88\n23 Modifi | cation | of SION | | | | | |\nAn applicat | ion for | modification | of existing | SION | shall be fil | ed on | line i | n ANF 4B to\nthe concern | ed Nor | ms Committe | e in DGFT h | eadq | uarters.",
+      "then": "| | |\n24 Amend | ment | of Export it | em and in | puts | | | |\n(i) An a | pplicat | ion for amen | dment of an | expo | rt item or in | put o | r qua | ntity of input\nund | er SION | or under ad | -hoc Norms | shall | be filed onli | ne in | ANF | 4B.",
+      "source": "88\n23 Modifi | cation | of SION | | | | | |\nAn applicat | ion for | modification | of existing | SION | shall be fil | ed on | line i | n ANF 4B to\nthe concern | ed Nor | ms Committe | e in DGFT h | eadq | uarters."
+    },
+    {
+      "id": "4.4.27.2",
+      "if": "(ii) App | licant | would give | justification | for | seeking am | endm | ent | and Regional\nAut | hority w | ould consid | er it with spe | cific | approval of | Head | of Off | ice.",
+      "then": "| | |\n24 Amend | ment | of Export it | em and in | puts | | | |\n(i) An a | pplicat | ion for amen | dment of an | expo | rt item or in | put o | r qua | ntity of input\nund | er SION | or under ad | -hoc Norms | shall | be filed onli | ne in | ANF | 4B.",
+      "source": "(ii) App | licant | would give | justification | for | seeking am | endm | ent | and Regional\nAut | hority w | ould consid | er it with spe | cific | approval of | Head | of Off | ice."
+    },
+    {
+      "id": "4.4.27.3",
+      "if": "In case of\nany | major c | hange in inp | ut or reques | t for | more wasta | ge to t | hat a | llowed under\nSIO | N or ad | -hoc norm, | same shoul | d be | referred to | Nor | ms C | ommittee for\nratif | ication.",
+      "then": "| | |\n24 Amend | ment | of Export it | em and in | puts | | | |\n(i) An a | pplicat | ion for amen | dment of an | expo | rt item or in | put o | r qua | ntity of input\nund | er SION | or under ad | -hoc Norms | shall | be filed onli | ne in | ANF | 4B.",
+      "source": "In case of\nany | major c | hange in inp | ut or reques | t for | more wasta | ge to t | hat a | llowed under\nSIO | N or ad | -hoc norm, | same shoul | d be | referred to | Nor | ms C | ommittee for\nratif | ication."
+    },
+    {
+      "id": "4.4.27.4",
+      "if": "|\n6 Descri | ption o | f an Advan | ce Authori | sati | on | | |\nAn Advance | Author | isation shall |, inter-alia, s | pecif | y: | | |\n(a) Nam | es and | description | of items inclu | ding | specificatio | ns, w | here | applicable, to\nbe i | mporte | d and export | ed/supplied |; | | | |\n(b) Qua | ntity o | f each item | to be imp | orted | or wherev | er q | uantit | y cannot be\nindi | cated, v | alue of item | shall be ind | icate | d.",
+      "then": "| | |\n24 Amend | ment | of Export it | em and in | puts | | | |\n(i) An a | pplicat | ion for amen | dment of an | expo | rt item or in | put o | r qua | ntity of input\nund | er SION | or under ad | -hoc Norms | shall | be filed onli | ne in | ANF | 4B.",
+      "source": "|\n6 Descri | ption o | f an Advan | ce Authori | sati | on | | |\nAn Advance | Author | isation shall |, inter-alia, s | pecif | y: | | |\n(a) Nam | es and | description | of items inclu | ding | specificatio | ns, w | here | applicable, to\nbe i | mporte | d and export | ed/supplied |; | | | |\n(b) Qua | ntity o | f each item | to be imp | orted | or wherev | er q | uantit | y cannot be\nindi | cated, v | alue of item | shall be ind | icate | d."
+    },
+    {
+      "id": "4.4.27.5",
+      "if": "Whereve | r, qua | ntity | and value of\nindi | vidual i | nputs is a lim | iting factor | in SI | ON, same sh | all be | appli | cable;\n(c) Agg | regate C | IF value of i | mports; | | | | |\n(d) FOB | /FOR v | alue and qua | ntity of expo | rts/ | supplies; an | d | |\n(e) Vali | dity per | iod of impor | t and Export | Obli | gation Perio | d.",
+      "then": "| | |\n24 Amend | ment | of Export it | em and in | puts | | | |\n(i) An a | pplicat | ion for amen | dment of an | expo | rt item or in | put o | r qua | ntity of input\nund | er SION | or under ad | -hoc Norms | shall | be filed onli | ne in | ANF | 4B.",
+      "source": "Whereve | r, qua | ntity | and value of\nindi | vidual i | nputs is a lim | iting factor | in SI | ON, same sh | all be | appli | cable;\n(c) Agg | regate C | IF value of i | mports; | | | | |\n(d) FOB | /FOR v | alue and qua | ntity of expo | rts/ | supplies; an | d | |\n(e) Vali | dity per | iod of impor | t and Export | Obli | gation Perio | d."
+    },
+    {
+      "id": "4.4.27.6",
+      "if": "application is approved",
+      "then": "| | |\n24 Amend | ment | of Export it | em and in | puts | | | |\n(i) An a | pplicat | ion for amen | dment of an | expo | rt item or in | put o | r qua | ntity of input\nund | er SION | or under ad | -hoc Norms | shall | be filed onli | ne in | ANF | 4B.",
+      "source": "(b) If application is approved, authorisation shall be issued based on input/\noutput norms in force on the date of receipt of application by Regional\nAuthority."
+    },
+    {
+      "id": "4.4.27.7",
+      "if": "If in the intervening period (i.e.",
+      "then": "| | |\n24 Amend | ment | of Export it | em and in | puts | | | |\n(i) An a | pplicat | ion for amen | dment of an | expo | rt item or in | put o | r qua | ntity of input\nund | er SION | or under ad | -hoc Norms | shall | be filed onli | ne in | ANF | 4B.",
+      "source": "If in the intervening period (i.e."
+    },
+    {
+      "id": "4.4.27.8",
+      "if": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified.",
+      "then": "| | |\n24 Amend | ment | of Export it | em and in | puts | | | |\n(i) An a | pplicat | ion for amen | dment of an | expo | rt item or in | put o | r qua | ntity of input\nund | er SION | or under ad | -hoc Norms | shall | be filed onli | ne in | ANF | 4B.",
+      "source": "from date of filing of application\nand date of issue of authorisation) the norms get changed, the authorisation\nwill be issued in proportion to provisional exports / Deemed Export supplies\nalready made till any amendment in norms is notified."
+    },
+    {
+      "id": "4.4.27.9",
+      "if": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant.",
+      "then": "| | |\n24 Amend | ment | of Export it | em and in | puts | | | |\n(i) An a | pplicat | ion for amen | dment of an | expo | rt item or in | put o | r qua | ntity of input\nund | er SION | or under ad | -hoc Norms | shall | be filed onli | ne in | ANF | 4B.",
+      "source": "(c) The export of SCOMET items shall not be permitted against an Authorisation\nuntil and unless the requisite SCOMET Authorisation is obtained by the\napplicant."
+    },
+    {
+      "id": "4.4.27.10",
+      "if": "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs.",
+      "then": "| | |\n24 Amend | ment | of Export it | em and in | puts | | | |\n(i) An a | pplicat | ion for amen | dment of an | expo | rt item or in | put o | r qua | ntity of input\nund | er SION | or under ad | -hoc Norms | shall | be filed onli | ne in | ANF | 4B.",
+      "source": "(d) Inputs with pre-import condition shall not be considered for replenishment\nagainst Exports/Deemed Export supplies made before import of such inputs."
+    }
+  ]
+}

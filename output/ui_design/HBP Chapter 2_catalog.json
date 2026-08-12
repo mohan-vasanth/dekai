@@ -34,6 +34,7 @@
     "One_PAN_One_IEC_submission",
     "Surrender_of_IEC_overview",
     "Surrender_of_IEC_submission",
+    "Surrender_of_IEC_exceptions",
     "Modification_of_IEC_overview",
     "Modification_of_IEC_submission",
     "Profile_of_Importer_Exporter_overview",
@@ -72,6 +73,7 @@
     "Applicability_of_the_provision_submission",
     "Execution_of_BG_Legal_undertaking_for_Advance_Authorisation_overview",
     "Execution_of_BG_Legal_undertaking_for_Advance_Authorisation_submission",
+    "Execution_of_BG_Legal_undertaking_for_Advance_Authorisation_exceptions",
     "A_Any_firm_company_coming_under_the_NCLT_proceedings_shall_make_a_overview",
     "A_Any_firm_company_coming_under_the_NCLT_proceedings_shall_make_a_submission",
     "Advance_Payment_overview",
@@ -169,6 +171,7 @@
     "Gifts_Spares_Replacement_Goods_submission",
     "Export_by_post_overview",
     "Export_by_post_submission",
+    "Export_by_post_exceptions",
     "Direct_negotiation_of_export_documents_overview",
     "Direct_negotiation_of_export_documents_submission",
     "Application_for_Grant_of_Export_Authorisation_Certificate_overview",
@@ -186,6 +189,7 @@
     "Conversion_of_Shipping_Bill_from_one_Scheme_to_another_submission",
     "Offsetting_of_Export_Proceeds_overview",
     "Offsetting_of_Export_Proceeds_submission",
+    "Offsetting_of_Export_Proceeds_exceptions",
     "Quality_Certification_overview",
     "Quality_Certification_submission",
     "Track_and_Trace_system_for_export_of_drug_formulations_overview",
@@ -435,9 +439,9 @@
             "ras_flag",
             "and_flag",
             "the_flag",
-            "each_flag",
-            "given_flag",
-            "aayat_flag"
+            "por_flag",
+            "ftp_flag",
+            "for_flag"
           ]
         },
         {
@@ -828,8 +832,18 @@
             "not_flag",
             "may_flag",
             "the_flag",
-            "can_flag",
-            "all_flag"
+            "for_flag",
+            "gov_flag"
+          ]
+        },
+        {
+          "screen_id": "Surrender_of_IEC_exceptions",
+          "name": "Surrender of IEC Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
           ]
         }
       ]
@@ -1249,7 +1263,7 @@
             "any_flag",
             "not_flag",
             "the_flag",
-            "iii_flag"
+            "err_flag"
           ]
         },
         {
@@ -1494,10 +1508,20 @@
             "section_title",
             "for_flag",
             "the_flag",
+            "ven_flag",
             "was_flag",
-            "lut_flag",
-            "per_flag",
-            "has_flag"
+            "req_flag",
+            "fre_flag"
+          ]
+        },
+        {
+          "screen_id": "Execution_of_BG_Legal_undertaking_for_Advance_Authorisation_exceptions",
+          "name": "Execution of BG/Legal undertaking for Advance Authorisation/ Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
           ]
         }
       ]
@@ -1572,8 +1596,8 @@
             "for_flag",
             "the_flag",
             "lut_flag",
-            "per_flag",
-            "has_flag"
+            "ion_flag",
+            "per_flag"
           ]
         },
         {
@@ -2949,7 +2973,7 @@
             "may_flag",
             "cif_flag",
             "are_flag",
-            "iii_flag"
+            "cia_flag"
           ]
         },
         {
@@ -3166,10 +3190,20 @@
             "section_title",
             "for_flag",
             "and_flag",
-            "are_flag",
+            "ion_flag",
             "not_flag",
-            "due_flag",
-            "may_flag"
+            "sol_flag",
+            "due_flag"
+          ]
+        },
+        {
+          "screen_id": "Export_by_post_exceptions",
+          "name": "Export by post Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
           ]
         }
       ]
@@ -3320,8 +3354,8 @@
             "the_flag",
             "and_flag",
             "not_flag",
-            "any_flag",
-            "free_flag"
+            "ent_flag",
+            "doc_flag"
           ]
         }
       ]
@@ -3481,9 +3515,19 @@
             "rbi_flag",
             "any_flag",
             "can_flag",
-            "his_flag",
-            "and_flag",
-            "made_flag"
+            "its_flag",
+            "ftp_flag",
+            "nie_flag"
+          ]
+        },
+        {
+          "screen_id": "Offsetting_of_Export_Proceeds_exceptions",
+          "name": "Offsetting of Export Proceeds Exception Review",
+          "purpose": "Explain exception handling and manual review triggers.",
+          "widgets": [
+            "exception_banner",
+            "decision_tree",
+            "case_notes"
           ]
         }
       ]
@@ -3558,8 +3602,8 @@
             "for_flag",
             "the_flag",
             "his_flag",
-            "rbi_flag",
-            "per_flag"
+            "ses_flag",
+            "hav_flag"
           ]
         },
         {
@@ -3834,10 +3878,10 @@
             "section_title",
             "one_flag",
             "may_flag",
-            "get_flag",
-            "and_flag",
-            "epc_flag",
-            "rcmc_flag"
+            "app_flag",
+            "ter_flag",
+            "ass_flag",
+            "mem_flag"
           ]
         },
         {
@@ -4034,10 +4078,10 @@
             "section_title",
             "may_flag",
             "the_flag",
-            "with_flag",
-            "also_flag",
-            "grant_flag",
-            "their_flag"
+            "ste_flag",
+            "for_flag",
+            "ing_flag",
+            "and_flag"
           ]
         }
       ]
@@ -4170,8 +4214,8 @@
             "the_flag",
             "gsp_flag",
             "rex_flag",
-            "fee_flag",
-            "are_flag"
+            "wit_flag",
+            "fee_flag"
           ]
         }
       ]
@@ -4437,7 +4481,7 @@
             "fee_flag",
             "and_flag",
             "may_flag",
-            "epcg_flag"
+            "exp_flag"
           ]
         }
       ]

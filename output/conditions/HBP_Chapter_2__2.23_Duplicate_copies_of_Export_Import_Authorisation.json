@@ -1,0 +1,77 @@
+{
+  "section": "2.23",
+  "conditions": [
+    "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+    "18\n(i) If Authoris | ation/Scrip | or any | amendme | n | t | th | ereof coul | d | not | be transmitted to\nCustoms S | erver within | fifteen | working d | a | y | s fr | om the da | te | of | issue/amendment;\n(ii) If Authoris | ation/Scrip | rejected | by Custo | m | | s se | rver with | err | or | Code\n(iii) If request | for issue of | waiver | of Bond | / | E | OD | C was no | t c | on | sidered within the\nperiod spe | cified unde | r Para | 11.10 of | H | | BP, | where co | mp | le | te application was\nsubmitted | within the v | alidity o | f the Auth | o | | risa | tion.",
+    "RA shall\nverify the same b | efore revali | dation is | allowed.",
+    "| | |\nNotwithstanding | anything co | ntained | above, th | e | s | e p | rovisions | of | re | validation shall not\napply wherever, | the authoris | ation/sc | rip holde | r | h | ad | clear 6 m | ont | hs | period in hand for\nutilisation.",
+    "| | | | | | | | | |\n2.21 Authority | to Revalid | ate | | | | | | | |\nSuch revalidatio | n under Par | agraph | 2.20 abo | v | e | wo | uld be p | er | mit | ted under specific\norders of Head o | f concerned | Office a | nd such | r | e | vali | dation w | oul | d | be maximum up to\nthe extent of cust | ody period.",
+    "| | | | | | | | |\nPROCEDURE | FOR ISSU | ING D | UPLICA | T | | E C | OPIES | | |\n2.23 Duplicate | copies of E | xport / | Import | A | | uth | orisatio | n | |\nWhere a physical | copy of Aut | horisati | on/Perm | is | s | ion | s/ Licence | / | Ce | rtificate / is lost or\nmisplaced, an ap | plication for | issue of | a duplica | te | | ma | y be made | al | on | g with self-\n| | | | | | | | | | pg.",
+    "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+    "RA shall\nverify the same before revalidation is allowed.",
+    "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+    "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.23.1",
+      "if": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg."
+    },
+    {
+      "id": "2.2.23.2",
+      "if": "18\n(i) If Authoris | ation/Scrip | or any | amendme | n | t | th | ereof coul | d | not | be transmitted to\nCustoms S | erver within | fifteen | working d | a | y | s fr | om the da | te | of | issue/amendment;\n(ii) If Authoris | ation/Scrip | rejected | by Custo | m | | s se | rver with | err | or | Code\n(iii) If request | for issue of | waiver | of Bond | / | E | OD | C was no | t c | on | sidered within the\nperiod spe | cified unde | r Para | 11.10 of | H | | BP, | where co | mp | le | te application was\nsubmitted | within the v | alidity o | f the Auth | o | | risa | tion.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "18\n(i) If Authoris | ation/Scrip | or any | amendme | n | t | th | ereof coul | d | not | be transmitted to\nCustoms S | erver within | fifteen | working d | a | y | s fr | om the da | te | of | issue/amendment;\n(ii) If Authoris | ation/Scrip | rejected | by Custo | m | | s se | rver with | err | or | Code\n(iii) If request | for issue of | waiver | of Bond | / | E | OD | C was no | t c | on | sidered within the\nperiod spe | cified unde | r Para | 11.10 of | H | | BP, | where co | mp | le | te application was\nsubmitted | within the v | alidity o | f the Auth | o | | risa | tion."
+    },
+    {
+      "id": "2.2.23.3",
+      "if": "RA shall\nverify the same b | efore revali | dation is | allowed.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "RA shall\nverify the same b | efore revali | dation is | allowed."
+    },
+    {
+      "id": "2.2.23.4",
+      "if": "| | |\nNotwithstanding | anything co | ntained | above, th | e | s | e p | rovisions | of | re | validation shall not\napply wherever, | the authoris | ation/sc | rip holde | r | h | ad | clear 6 m | ont | hs | period in hand for\nutilisation.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "| | |\nNotwithstanding | anything co | ntained | above, th | e | s | e p | rovisions | of | re | validation shall not\napply wherever, | the authoris | ation/sc | rip holde | r | h | ad | clear 6 m | ont | hs | period in hand for\nutilisation."
+    },
+    {
+      "id": "2.2.23.5",
+      "if": "| | | | | | | | | |\n2.21 Authority | to Revalid | ate | | | | | | | |\nSuch revalidatio | n under Par | agraph | 2.20 abo | v | e | wo | uld be p | er | mit | ted under specific\norders of Head o | f concerned | Office a | nd such | r | e | vali | dation w | oul | d | be maximum up to\nthe extent of cust | ody period.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "| | | | | | | | | |\n2.21 Authority | to Revalid | ate | | | | | | | |\nSuch revalidatio | n under Par | agraph | 2.20 abo | v | e | wo | uld be p | er | mit | ted under specific\norders of Head o | f concerned | Office a | nd such | r | e | vali | dation w | oul | d | be maximum up to\nthe extent of cust | ody period."
+    },
+    {
+      "id": "2.2.23.6",
+      "if": "| | | | | | | | |\nPROCEDURE | FOR ISSU | ING D | UPLICA | T | | E C | OPIES | | |\n2.23 Duplicate | copies of E | xport / | Import | A | | uth | orisatio | n | |\nWhere a physical | copy of Aut | horisati | on/Perm | is | s | ion | s/ Licence | / | Ce | rtificate / is lost or\nmisplaced, an ap | plication for | issue of | a duplica | te | | ma | y be made | al | on | g with self-\n| | | | | | | | | | pg.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "| | | | | | | | |\nPROCEDURE | FOR ISSU | ING D | UPLICA | T | | E C | OPIES | | |\n2.23 Duplicate | copies of E | xport / | Import | A | | uth | orisatio | n | |\nWhere a physical | copy of Aut | horisati | on/Perm | is | s | ion | s/ Licence | / | Ce | rtificate / is lost or\nmisplaced, an ap | plication for | issue of | a duplica | te | | ma | y be made | al | on | g with self-\n| | | | | | | | | | pg."
+    },
+    {
+      "id": "2.2.23.7",
+      "if": "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "18\n(i)\nIf Authorisation/Scrip or any amendment thereof could not be transmitted to\nCustoms Server within fifteen working days from the date of issue/amendment;\n(ii)\nIf Authorisation/Scrip rejected by Customs server with error Code\n(iii)\nIf request for issue of waiver of Bond/EODC was not considered within the\nperiod specified under Para 11.10 of HBP, where complete application was\nsubmitted within the validity of the Authorisation."
+    },
+    {
+      "id": "2.2.23.8",
+      "if": "RA shall\nverify the same before revalidation is allowed.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "RA shall\nverify the same before revalidation is allowed."
+    },
+    {
+      "id": "2.2.23.9",
+      "if": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "Notwithstanding anything contained above, these provisions of revalidation shall not\napply wherever, the authorisation/scrip holder had clear 6 months period in hand for\nutilisation."
+    },
+    {
+      "id": "2.2.23.10",
+      "if": "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued.",
+      "then": "2.23 Duplicate copies of Export / Import Authorisation\nWhere a physical copy of Authorisation/Permissions/ Licence / Certificate / is lost or\nmisplaced, an application for issue of a duplicate may be made along with self-\npg.",
+      "source": "18\ndeclaration, as given in Appendix 2M, to concerned office where the original Licence\nwas issued."
+    }
+  ]
+}
