@@ -349,15 +349,19 @@ class PipelineService:
             self._run_pipeline(target_names=None, jobs_by_document=None)
 
     def _materialize_staged_upload(self, job: dict[str, Any]) -> None:
-        staged_path = Path(str(job.get("sourcePath", "")))
+        staged_source = str(job.get("sourcePath", "")).strip()
+        staged_path = Path(staged_source) if staged_source else self._staged_upload_path(str(job.get("id", "")), str(job.get("documentName", "")))
         if not staged_path.exists():
             raise FileNotFoundError(f"Staged upload for {job.get('documentName', 'document')} is unavailable.")
         target_path = CONFIG.input_pdf_dir / str(job.get("documentName", "document.pdf"))
         target_path.write_bytes(staged_path.read_bytes())
 
     def _cleanup_staged_upload(self, job: dict[str, Any]) -> None:
-        staged_path = Path(str(job.get("sourcePath", "")))
-        if not str(staged_path):
+        staged_source = str(job.get("sourcePath", "")).strip()
+        if not staged_source:
+            return
+        staged_path = Path(staged_source)
+        if staged_path == Path("."):
             return
         try:
             staged_path.unlink(missing_ok=True)

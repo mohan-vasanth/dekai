@@ -1,0 +1,12 @@
+{
+  "section": "1.12",
+  "workflow": [
+    "Evaluate condition: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.",
+    "Evaluate condition: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+    "Run validation: Decision of DGFT shall be final\nand binding thereon.",
+    "Run validation: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph."
+  ],
+  "workflow_ascii": "Appeal\nEvaluate condition: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.\n   |\n   v\nEvaluate condition: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.\n   |\n   v\nRun validation: Decision of DGFT shall be final\nand binding thereon.\n   |\n   v\nRun validation: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.\"]\n    S2[\"Evaluate condition: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.\"]\n    S1 --> S2\n    S3[\"Run validation: Decision of DGFT shall be final\nand binding thereon.\"]\n    S2 --> S3\n    S4[\"Run validation: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.\"]\n    S3 --> S4",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 1.12 Appeal\nAn applicant, who is not satisfied with decision taken to suspend or cancel Status\nCertificate, may file an appeal to DGFT within 45 days.;\n:Evaluate condition\\: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.;\n:Run validation\\: Decision of DGFT shall be final\nand binding thereon.;\n:Run validation\\: 9\nA reasonable opportunity shall be given to Status Holder before taking any action\nunder this paragraph.;\nstop\n@enduml"
+}

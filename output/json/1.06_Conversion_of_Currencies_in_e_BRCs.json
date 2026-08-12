@@ -1,0 +1,380 @@
+{
+  "chapter_number": "1",
+  "chapter_title": "Legal Framework and Trade Facilitation",
+  "section": "1.06",
+  "title": "Conversion of Currencies in e-BRCs",
+  "purpose": "Defines the operational requirements for Conversion of Currencies in e-BRCs.",
+  "purpose_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, Defines the operational requirements for Conversion of Currencies in e-BRCs.",
+  "summary": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate. (b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+  "business_meaning": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.",
+  "business_explanation": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate. (b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+  "business_explanation_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, 1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let export Order (LEO)\ndate. (b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH1-SEC1_06-R001",
+      "rule_description": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate. (b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+      "trigger": "Conversion of Currencies in e-BRCs",
+      "condition": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 1.06 - Conversion of Currencies in e-BRCs."
+    }
+  ],
+  "conditions": [
+    "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.",
+    "(b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC."
+  ],
+  "condition_logic": [
+    {
+      "id": "1.1.06.1",
+      "if": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.",
+      "then": "Route for review",
+      "source": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate."
+    },
+    {
+      "id": "1.1.06.2",
+      "if": "(b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+      "then": "Route for review",
+      "source": "(b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC."
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "1.06::section::0::conversion-of-currencies-in-e-brcs",
+      "type": "section",
+      "title": "Conversion of Currencies in e-BRCs",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.\n(b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+      "parentId": "",
+      "sectionId": "1.06",
+      "sectionTitle": "Conversion of Currencies in e-BRCs",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 8,
+      "searchAliases": [
+        "Conversion of Currencies in e-BRCs",
+        "Conversion of Currencies in e BR Cs",
+        "ConversionofCurrenciesineBRCs",
+        "Conversion of Currencies in e-BR Cs"
+      ],
+      "childIds": [
+        "1.06::business_rule::1::conversion-of-currencies-in-e-brcs"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 8
+    },
+    {
+      "id": "1.06::business_rule::1::conversion-of-currencies-in-e-brcs",
+      "type": "business_rule",
+      "title": "Conversion of Currencies in e-BRCs",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate. (b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+      "parentId": "1.06::section::0::conversion-of-currencies-in-e-brcs",
+      "sectionId": "1.06",
+      "sectionTitle": "Conversion of Currencies in e-BRCs",
+      "documentName": "HBP2023_Chapter01.pdf",
+      "pageNumber": 5,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Conversion of Currencies in e-BRCs",
+        "Conversion of Currencies in e BR Cs",
+        "ConversionofCurrenciesineBRCs",
+        "Conversion of Currencies in e-BR Cs"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [
+    "CBIC"
+  ],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: 1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.",
+    "Evaluate condition: (b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC."
+  ],
+  "workflow_ascii": "Conversion of Currencies in e-BRCs\nEvaluate condition: 1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.\n   |\n   v\nEvaluate condition: (b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+  "decision_tree": [
+    "IF section 1.06 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Conversion of Currencies in e-BRCs Decision\nIF section 1.06 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Conversion of Currencies in e-BRCs; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Conversion of Currencies in e-BRCs, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the conversion of currencies in e-brcs process.",
+  "real_world_example_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, Example: an importer or exporter invokes Conversion of Currencies in e-BRCs, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the conversion of currencies in e-brcs process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "are_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:are"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:The"
+    },
+    {
+      "name": "brc_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:BRC"
+    },
+    {
+      "name": "inr_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:INR"
+    },
+    {
+      "name": "let_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Let"
+    },
+    {
+      "name": "leo_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:LEO"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "cbic_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:CBIC"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/1.06",
+      "purpose": "Retrieve knowledge payload for section 1.06",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Conversion-of-Currencies-in-e-BRCs/validate",
+      "purpose": "Validate inputs and documents for Conversion of Currencies in e-BRCs",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Conversion_of_Currencies_in_e_BRCs_overview",
+      "name": "Conversion of Currencies in e-BRCs Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Conversion_of_Currencies_in_e_BRCs_submission",
+      "name": "Conversion of Currencies in e-BRCs Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "are_flag",
+        "the_flag",
+        "brc_flag",
+        "inr_flag",
+        "let_flag",
+        "leo_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Conversion of Currencies in e-BRCs require?",
+    "Which documents are needed for Conversion of Currencies in e-BRCs?",
+    "How does DEKAI validate Conversion of Currencies in e-BRCs requests?"
+  ],
+  "expected_ai_answers": [
+    "Conversion of Currencies in e-BRCs requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Conversion of Currencies in e-BRCs by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 1.06?",
+      "answer_en": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate. (b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+      "question_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, What is the purpose of section 1.06?",
+      "answer_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, 1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let export Order (LEO)\ndate. (b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC."
+    },
+    {
+      "question_en": "What documents are required under Conversion of Currencies in e-BRCs?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, What documents are required under Conversion of Currencies in e-BRCs?",
+      "answer_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Conversion of Currencies in e-BRCs?",
+      "answer_en": "CBIC",
+      "question_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, Which authority handles Conversion of Currencies in e-BRCs?",
+      "answer_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, CBIC"
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Conversion of Currencies in e-BRCs?",
+      "answer_en": "AI answers: DEKAI should evaluate section 1.06, apply the extracted rules, and guide the user through Evaluate condition: 1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate..",
+      "question_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, User asks: How do I comply with Conversion of Currencies in e-BRCs?",
+      "answer_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, AI answers: DEKAI should evaluate section 1.06, apply the extracted rules, and guide the user through Evaluate condition: 1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let export Order (LEO)\ndate.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Conversion of Currencies in e-BRCs?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, User asks: Which validations apply to Conversion of Currencies in e-BRCs?",
+      "answer_thanglish": "Indha Conversion of Currencies in e-BRCs section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 1, section 1.06, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Conversion of Currencies in e-BRCs into a rule engine keyed by the rule IDs extracted for this section.",
+    "Route escalations or approvals to: CBIC."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Conversion of Currencies in e-BRCs section-la, Capture chapter 1, section 1.06, title, and page references as immutable knowledge metadata.",
+    "Indha Conversion of Currencies in e-BRCs section-la, Bind validations for Conversion of Currencies in e-BRCs into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Conversion of Currencies in e-BRCs section-la, Route escalations or approvals to: CBIC."
+  ],
+  "keywords": [
+    "are",
+    "The",
+    "BRC",
+    "INR",
+    "Let",
+    "LEO",
+    "not",
+    "CBIC",
+    "bank",
+    "into",
+    "date",
+    "such",
+    "will",
+    "rate",
+    "where",
+    "rates",
+    "Rupee",
+    "using",
+    "Order",
+    "cases"
+  ],
+  "search_keywords": [
+    "are",
+    "The",
+    "BRC",
+    "INR",
+    "Let",
+    "LEO",
+    "not",
+    "CBIC",
+    "bank",
+    "into",
+    "date",
+    "such",
+    "will",
+    "rate",
+    "where",
+    "rates",
+    "Rupee",
+    "using",
+    "Order",
+    "cases"
+  ],
+  "intent": "Provide knowledge guidance for Conversion of Currencies in e-BRCs.",
+  "tags": [
+    "1.06",
+    "Conversion of Currencies in e-BRCs",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    5
+  ],
+  "pages": [
+    5
+  ],
+  "source_document": "HBP2023_Chapter01.pdf",
+  "raw_text": "1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.\n(b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: 1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.\"]\n    S2[\"Evaluate condition: (b) Currencies, where Exchange rates are not notified by CBIC: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: 1.06 Conversion of Currencies in e-BRCs\n(a) Currencies, where Exchange rates are notified by CBIC\\: The foreign exchange\nrealised (as mentioned by bank in the e BRC) is converted into Indian Rupee (INR)\nusing the monthly exchange rates published by CBIC as on Let Export Order (LEO)\ndate.;\n:Evaluate condition\\: (b) Currencies, where Exchange rates are not notified by CBIC\\: In such cases, total\nrealised value in INR (as mentioned by bank in the e BRC), will be converted into US$\nby using the US$ /INR exchange rate prevailing on the date of realisation as published\nby CBIC.;\nstop\n@enduml"
+}

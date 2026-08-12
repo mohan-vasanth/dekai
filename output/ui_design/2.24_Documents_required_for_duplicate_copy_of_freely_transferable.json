@@ -1,0 +1,37 @@
+{
+  "section": "2.24",
+  "ui": [
+    {
+      "screen_id": "Documents_required_for_duplicate_copy_of_freely_transferable_overview",
+      "name": "Documents required for duplicate copy of freely transferable Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Documents_required_for_duplicate_copy_of_freely_transferable_submission",
+      "name": "Documents required for duplicate copy of freely transferable Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "may_flag",
+        "fee_flag",
+        "fir_flag",
+        "iii_flag",
+        "copy_flag"
+      ]
+    }
+  ]
+}

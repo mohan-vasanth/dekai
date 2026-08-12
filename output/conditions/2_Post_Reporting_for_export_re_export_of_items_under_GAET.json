@@ -1,0 +1,28 @@
+{
+  "section": "2",
+  "conditions": [
+    "198\nwith intended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+    "After issuance of GAET authorization and before actual export, the\napplicant exporter must ensure the following:\n2.",
+    "In case of re-export of imported items, the additional documents as\nmentioned in 1.b.vii.(i) have to be submitted at the time of post\nreporting."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.2.1",
+      "if": "198\nwith intended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+      "then": "Post Reporting for export / re-export of items under GAET\na.",
+      "source": "198\nwith intended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii."
+    },
+    {
+      "id": "10.2.2",
+      "if": "After issuance of GAET authorization and before actual export, the\napplicant exporter must ensure the following:\n2.",
+      "then": "Post Reporting for export / re-export of items under GAET\na.",
+      "source": "After issuance of GAET authorization and before actual export, the\napplicant exporter must ensure the following:\n2."
+    },
+    {
+      "id": "10.2.3",
+      "if": "In case of re-export of imported items, the additional documents as\nmentioned in 1.b.vii.(i) have to be submitted at the time of post\nreporting.",
+      "then": "Post Reporting for export / re-export of items under GAET\na.",
+      "source": "In case of re-export of imported items, the additional documents as\nmentioned in 1.b.vii.(i) have to be submitted at the time of post\nreporting."
+    }
+  ]
+}

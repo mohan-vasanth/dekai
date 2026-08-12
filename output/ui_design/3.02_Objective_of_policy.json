@@ -1,0 +1,37 @@
+{
+  "section": "3.02",
+  "ui": [
+    {
+      "screen_id": "Objective_of_policy_overview",
+      "name": "Objective of policy Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Objective_of_policy_submission",
+      "name": "Objective of policy Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "hub_flag",
+        "for_flag",
+        "and_flag",
+        "aim_flag",
+        "any_flag"
+      ]
+    }
+  ]
+}

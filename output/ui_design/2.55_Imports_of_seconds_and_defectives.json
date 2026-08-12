@@ -1,0 +1,37 @@
+{
+  "section": "2.55",
+  "ui": [
+    {
+      "screen_id": "Imports_of_seconds_and_defectives_overview",
+      "name": "Imports of seconds and defectives Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Imports_of_seconds_and_defectives_submission",
+      "name": "Imports of seconds and defectives Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "for_flag",
+        "pet_flag",
+        "itc_flag",
+        "rags_flag",
+        "waste_flag"
+      ]
+    }
+  ]
+}

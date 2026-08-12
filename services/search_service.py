@@ -8,7 +8,7 @@ from typing import Any
 
 from .embedding_service import embedding_service
 from .knowledge_engine import knowledge_engine_service
-from .retrieval_service import QueryAnalysis, analyze_question, infer_record_collections
+from .retrieval_service import QueryAnalysis, analyze_question, infer_record_collections, rewrite_query
 from parser.xml_utils import (
     canonical_xml_tag,
     extract_field_code_references,
@@ -32,21 +32,28 @@ def _normalize_match_text(value: str) -> str:
 
 
 class SearchService:
+    structured_list_question_types = {"COUNT_REQUEST", "LIST_REQUEST", "CODELIST_LOOKUP", "TABLE_LOOKUP"}
     type_aliases = {
-        "keyword": {"section", "rule", "workflow", "condition", "definition", "chunk", "hierarchy", "document", "chapter", "concept"},
+        "keyword": {"section", "rule", "workflow", "condition", "definition", "chunk", "hierarchy", "document", "chapter", "concept", "field", "table", "example"},
         "document": {"document"},
         "chapter": {"chapter", "section", "concept"},
-        "section": {"section", "chunk", "hierarchy"},
+        "section": {"section", "chunk", "hierarchy", "field", "table"},
         "rule": {"rule"},
         "workflow": {"workflow"},
         "authority": {"section", "rule"},
         "condition": {"condition", "rule"},
-        "definition": {"definition", "concept"},
+        "definition": {"definition", "concept", "field"},
+        "field": {"field", "chunk", "hierarchy", "section"},
+        "table": {"table", "chunk", "section"},
+        "example": {"example", "section", "chunk"},
     }
     type_weights = {
         "section": 1.45,
         "chunk": 1.3,
         "hierarchy": 1.35,
+        "field": 1.5,
+        "table": 1.25,
+        "example": 1.0,
         "rule": 1.2,
         "workflow": 1.1,
         "condition": 1.05,
@@ -109,6 +116,7 @@ class SearchService:
 
     def __init__(self) -> None:
         self._last_debug: dict[str, Any] = {}
+        self._query_cache: dict[tuple[Any, ...], tuple[str | None, list[dict[str, Any]], dict[str, Any]]] = {}
 
     def _query_terms(self, value: str) -> set[str]:
         tokens = {token for token in _tokenize(value) if token not in self.stopwords}
@@ -459,6 +467,8 @@ class SearchService:
                 " ".join(str(field) for field in candidate.get("fieldNames", [])),
                 str(candidate.get("tagName", "")),
                 str(candidate.get("normalizedTagName", "")),
+                " ".join(str(alias) for alias in candidate.get("searchAliases", [])),
+                " ".join(str(column) for column in candidate.get("tableColumns", [])),
                 " ".join(
                     str(field.get("field_code", ""))
                     for field in candidate.get("xmlFields", [])
@@ -519,6 +529,178 @@ class SearchService:
         elif chapter_filters and candidate_type in {"chapter", "section", "chunk", "hierarchy", "rule", "workflow", "condition", "definition"}:
             return False
         return True
+
+    def _cache_key(
+        self,
+        query: str,
+        mode: str,
+        collection_filters: set[str] | frozenset[str] | None,
+        chapter_filters: set[str] | frozenset[str] | None,
+        section_filters: set[str] | frozenset[str] | None,
+        document_filters: set[str] | frozenset[str] | None,
+        limit: int,
+    ) -> tuple[Any, ...]:
+        return (
+            query.strip(),
+            mode,
+            tuple(sorted(collection_filters or [])),
+            tuple(sorted(chapter_filters or [])),
+            tuple(sorted(section_filters or [])),
+            tuple(sorted(document_filters or [])),
+            int(limit),
+        )
+
+    def _candidate_lookup(self, candidates: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
+        return {str(candidate.get("id", "")).strip(): candidate for candidate in candidates if str(candidate.get("id", "")).strip()}
+
+    def _index_candidates(
+        self,
+        index: dict[str, Any],
+        candidate_lookup: dict[str, dict[str, Any]],
+        values: list[str],
+        *index_names: str,
+    ) -> list[dict[str, Any]]:
+        matches: list[dict[str, Any]] = []
+        indexes = index.get("indexes", {})
+        seen_ids: set[str] = set()
+        for index_name in index_names:
+            mapping = indexes.get(index_name, {}) if isinstance(indexes, dict) else {}
+            if not isinstance(mapping, dict):
+                continue
+            for value in values:
+                normalized_value = _normalize_filter_value(value)
+                for candidate_id in mapping.get(normalized_value, []):
+                    candidate = candidate_lookup.get(str(candidate_id).strip())
+                    if not candidate:
+                        continue
+                    key = str(candidate.get("id", "")).strip()
+                    if key in seen_ids:
+                        continue
+                    seen_ids.add(key)
+                    matches.append(candidate)
+        return matches
+
+    def _entity_variants(self, analysis: QueryAnalysis) -> list[str]:
+        variants: list[str] = []
+        requested_entity = str(analysis.requested_entity or "").strip()
+        if requested_entity:
+            variants.append(requested_entity)
+            variants.extend(field_search_aliases(requested_entity))
+            if requested_entity.endswith(" type"):
+                variants.append(requested_entity.replace(" type", " types"))
+            elif requested_entity.endswith(" types"):
+                variants.append(requested_entity.replace(" types", " type"))
+        variants.extend(analysis.field_codes)
+        if not (requested_entity and analysis.question_type in self.structured_list_question_types):
+            variants.extend(
+                keyword
+                for keyword in analysis.keywords
+                if len(keyword) >= 4 and keyword not in {"available", "count", "list", "many", "show", "total"}
+            )
+        normalized = []
+        for value in variants:
+            cleaned = _normalize_match_text(value)
+            if cleaned and cleaned not in normalized:
+                normalized.append(cleaned)
+        return normalized
+
+    def _candidate_entity_values(self, candidate: dict[str, Any]) -> set[str]:
+        values = {
+            _normalize_match_text(value)
+            for value in [
+                candidate.get("title", ""),
+                candidate.get("heading", ""),
+                candidate.get("fieldName", ""),
+                candidate.get("xmlTag", ""),
+                candidate.get("tagName", ""),
+                candidate.get("normalizedTagName", ""),
+                candidate.get("sectionName", ""),
+            ]
+            if _normalize_match_text(value)
+        }
+        values.update(
+            _normalize_match_text(value)
+            for value in candidate.get("fieldNames", [])
+            if _normalize_match_text(value)
+        )
+        values.update(
+            _normalize_match_text(value)
+            for value in candidate.get("tableColumns", [])
+            if _normalize_match_text(value)
+        )
+        return values
+
+    def _exact_entity_candidates(
+        self,
+        analysis: QueryAnalysis,
+        candidates: list[dict[str, Any]],
+        *,
+        prefer_table: bool = False,
+    ) -> list[dict[str, Any]]:
+        variants = self._entity_variants(analysis)
+        if not variants:
+            return []
+
+        matches: list[tuple[tuple[float, ...], dict[str, Any]]] = []
+        for rank, candidate in enumerate(candidates):
+            candidate_type = str(candidate.get("type", "")).lower()
+            entity_values = self._candidate_entity_values(candidate)
+            if not entity_values:
+                continue
+
+            exact_variant = next((variant for variant in variants if variant in entity_values), "")
+            contains_variant = next(
+                (
+                    variant
+                    for variant in variants
+                    for value in entity_values
+                    if variant != value and (variant in value or value in variant)
+                ),
+                "",
+            )
+            candidate_text = _normalize_match_text(
+                " ".join(
+                    [
+                        str(candidate.get("fieldName", "")),
+                        str(candidate.get("text", "")),
+                        " ".join(str(field) for field in candidate.get("fieldNames", [])),
+                    ]
+                )
+            )
+            has_tabular_context = bool(candidate.get("isTableRow")) or (
+                "code" in entity_values
+                or "transfer conditions" in entity_values
+                or "table" in _normalize_match_text(str(candidate.get("title", "")))
+                or str(candidate.get("title", "")).strip().startswith(tuple(str(digit) for digit in range(10)))
+            )
+
+            if prefer_table:
+                if not (
+                    (exact_variant and has_tabular_context)
+                    or any(variant in candidate_text for variant in variants if variant)
+                    or (contains_variant and has_tabular_context)
+                ):
+                    continue
+            elif not exact_variant and not contains_variant:
+                continue
+
+            matches.append(
+                (
+                    (
+                        1.0 if exact_variant else 0.0,
+                        1.0 if prefer_table and has_tabular_context else 0.0,
+                        1.0 if candidate_type in {"field", "table"} else 0.0,
+                        1.0 if candidate.get("isTableRow") else 0.0,
+                        float(candidate.get("confidence", 0.0)),
+                        float(candidate.get("score", 0.0)),
+                        -float(rank),
+                    ),
+                    candidate,
+                )
+            )
+
+        matches.sort(key=lambda item: item[0], reverse=True)
+        return [candidate for _score, candidate in matches]
 
     def _normalized_codes(self, candidate: dict[str, Any]) -> set[str]:
         codes = {str(code).strip() for code in candidate.get("hsCodes", []) if str(code).strip()}
@@ -644,8 +826,9 @@ class SearchService:
         results.sort(key=lambda item: float(item.get("metadataScore", 0.0)), reverse=True)
         return results[:20]
 
-    def _bm25_search(self, analysis: QueryAnalysis, candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
-        query_tokens = list(self._query_terms(analysis.question))
+    def _bm25_search(self, analysis: QueryAnalysis, candidates: list[dict[str, Any]], rewrites: tuple[str, ...] = ()) -> list[dict[str, Any]]:
+        query_texts = rewrites or (analysis.question,)
+        query_tokens = list({token for value in query_texts for token in self._query_terms(value)})
         if not query_tokens:
             return []
 
@@ -679,7 +862,7 @@ class SearchService:
                 idf = log(1 + ((total_documents - doc_freq + 0.5) / (doc_freq + 0.5)))
                 denominator = frequency + k1 * (1 - b + b * (doc_length / avg_doc_length))
                 score += idf * ((frequency * (k1 + 1)) / max(1e-9, denominator))
-            if analysis.question.lower() in haystack:
+            if any(value.lower() in haystack for value in query_texts if value.strip()):
                 score += 6.0
             if any(code in haystack.replace(" ", "") for code in analysis.hs_codes):
                 score += 8.0
@@ -722,8 +905,8 @@ class SearchService:
         results.sort(key=lambda item: float(item.get("bm25Score", 0.0)), reverse=True)
         return results[:20]
 
-    def _vector_search(self, analysis: QueryAnalysis, candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
-        query_vector = embedding_service.embed_text(analysis.question)
+    def _vector_search(self, analysis: QueryAnalysis, candidates: list[dict[str, Any]], rewrites: tuple[str, ...] = ()) -> list[dict[str, Any]]:
+        query_vector = embedding_service.embed_text(" ".join(rewrites or (analysis.question,)))
         results: list[dict[str, Any]] = []
         for candidate in candidates:
             candidate_codes = self._normalized_codes(candidate)
@@ -918,16 +1101,61 @@ class SearchService:
             return []
 
         analysis = analyze_question(normalized)
+
+        cache_key = self._cache_key(
+            normalized,
+            mode,
+            collection_filters,
+            chapter_filters,
+            section_filters,
+            document_filters,
+            limit,
+        ) + (
+            analysis.question_type,
+            analysis.document_scope,
+            analysis.requested_entity,
+            tuple(analysis.document_codes),
+        )
+        cache_token = str(index.get("generatedAt", ""))
+        cached = self._query_cache.get(cache_key)
+        if cached and cached[0] == cache_token:
+            self._last_debug = {**cached[2], "cacheHit": True}
+            return [dict(item) for item in cached[1]]
+
+        rewrites = rewrite_query(normalized, analysis)
         allowed_types = self.type_aliases.get(mode, self.type_aliases["keyword"])
         filtered_candidates = [
             candidate
             for candidate in self._candidates(index)
             if self._passes_filters(candidate, allowed_types, collection_filters, chapter_filters, section_filters, document_filters)
         ]
+        candidate_lookup = self._candidate_lookup(filtered_candidates)
+        entity_variants = self._entity_variants(analysis)
+        indexed_field_candidates = self._index_candidates(
+            index,
+            candidate_lookup,
+            [
+                analysis.canonical_field_reference,
+                analysis.normalized_field_reference,
+                analysis.detected_tag_name,
+                *analysis.field_codes,
+                *analysis.keywords,
+            ],
+            "fieldIndex",
+            "aliasIndex",
+        )
+        indexed_table_candidates = self._index_candidates(
+            index,
+            candidate_lookup,
+            [analysis.requested_entity, *entity_variants, analysis.section_request_name, analysis.question],
+            "tableIndex",
+        )
+        exact_field_candidates = self._exact_entity_candidates(analysis, filtered_candidates)
+        exact_table_candidates = self._exact_entity_candidates(analysis, filtered_candidates, prefer_table=True)
         exact_xml_tag_candidates = self._exact_xml_tag_candidates(analysis, filtered_candidates)
-        exact_section_candidates = [] if exact_xml_tag_candidates else self._exact_section_candidates(analysis, filtered_candidates)
-        exact_field_code_candidates = [] if exact_xml_tag_candidates or exact_section_candidates else self._exact_field_code_candidates(analysis, filtered_candidates)
-        related_xml_tag_candidates = [] if exact_xml_tag_candidates or exact_section_candidates or exact_field_code_candidates else self._related_xml_tag_candidates(analysis, filtered_candidates)
+        exact_section_candidates = [] if exact_xml_tag_candidates or indexed_field_candidates or exact_field_candidates else self._exact_section_candidates(analysis, filtered_candidates)
+        exact_field_code_candidates = [] if exact_xml_tag_candidates or exact_section_candidates or indexed_field_candidates or exact_field_candidates else self._exact_field_code_candidates(analysis, filtered_candidates)
+        related_xml_tag_candidates = [] if exact_xml_tag_candidates or exact_section_candidates or exact_field_code_candidates or indexed_field_candidates or exact_field_candidates else self._related_xml_tag_candidates(analysis, filtered_candidates)
         retrieval_stage = "all_candidates"
         stage_candidates = filtered_candidates
         suppress_semantic = False
@@ -936,6 +1164,21 @@ class SearchService:
             retrieval_stage = "exact_xml_tag"
             stage_candidates = exact_xml_tag_candidates
             suppress_semantic = True
+        elif analysis.question_type in {"COUNT_REQUEST", "LIST_REQUEST", "CODELIST_LOOKUP", "TABLE_LOOKUP"} and (indexed_table_candidates or exact_table_candidates):
+            retrieval_stage = "exact_table"
+            stage_candidates = indexed_table_candidates or exact_table_candidates
+            suppress_semantic = True
+        elif exact_field_candidates:
+            retrieval_stage = "exact_field"
+            stage_candidates = exact_field_candidates
+            suppress_semantic = True
+        elif indexed_field_candidates:
+            retrieval_stage = "indexed_field"
+            stage_candidates = indexed_field_candidates
+            suppress_semantic = True
+        elif indexed_table_candidates and analysis.question_type == "TABLE_LOOKUP":
+            retrieval_stage = "indexed_table"
+            stage_candidates = indexed_table_candidates
         elif exact_section_candidates:
             retrieval_stage = "exact_section"
             stage_candidates = exact_section_candidates
@@ -952,8 +1195,8 @@ class SearchService:
             suppress_semantic = True
 
         metadata_results = self._metadata_lookup(analysis, stage_candidates)
-        bm25_results = self._bm25_search(analysis, stage_candidates)
-        vector_results = [] if suppress_semantic else self._vector_search(analysis, stage_candidates)
+        bm25_results = self._bm25_search(analysis, stage_candidates, rewrites)
+        vector_results = [] if suppress_semantic else self._vector_search(analysis, stage_candidates, rewrites)
         merged_results, merged_total = self._merge_results(analysis, metadata_results, bm25_results, vector_results, limit)
         retrieved_document_ids = list(
             dict.fromkeys(
@@ -968,16 +1211,25 @@ class SearchService:
             "original_query": query,
             "normalized_query": analysis.normalized_question,
             "detected_intent": analysis.question_classification,
+            "question_type": analysis.question_type,
+            "document_scope": analysis.document_scope,
             "detected_namespace": analysis.detected_namespace,
             "normalized_field_reference": analysis.normalized_field_reference,
+            "requested_entity": analysis.requested_entity,
+            "document_codes": list(analysis.document_codes),
             "detected_entities": list(analysis.entities),
             "detected_hs_code": list(analysis.hs_codes),
             "detected_keywords": sorted(self._query_terms(analysis.question)),
             "detected_phrases": self._question_phrases(analysis.question),
+            "query_rewrites": list(rewrites),
             "document_filters": sorted(document_filters) if document_filters else [],
             "applied_document_filter": sorted(document_filters) if document_filters else [],
             "filtered_candidates_count": len(filtered_candidates),
             "retrieval_stage": retrieval_stage,
+            "indexed_field_match_count": len(indexed_field_candidates),
+            "indexed_table_match_count": len(indexed_table_candidates),
+            "exact_field_match_count": len(exact_field_candidates),
+            "exact_table_match_count": len(exact_table_candidates),
             "exact_xml_tag_query": analysis.canonical_field_reference,
             "exact_xml_tag_match_count": len(exact_xml_tag_candidates),
             "exact_section_match_count": len(exact_section_candidates),
@@ -1045,7 +1297,9 @@ class SearchService:
                 }
                 for item in merged_results[:5]
             ],
+            "cacheHit": False,
         }
+        self._query_cache[cache_key] = (cache_token, [dict(item) for item in merged_results], dict(self._last_debug))
         return merged_results
 
     def search(self, query: str, mode: str = "keyword") -> list[dict[str, Any]]:

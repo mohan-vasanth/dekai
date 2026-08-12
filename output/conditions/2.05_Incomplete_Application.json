@@ -1,0 +1,28 @@
+{
+  "section": "2.05",
+  "conditions": [
+    "2.05 Incomplete Application\n(a) An incomplete or unauthorised application is liable to be rejected by the competent\nauthority with specific reason for rejection.",
+    "Such incomplete application may be re-\nopened on rectifying the deficiencies.",
+    "(b) If the deficiencies are not rectified by the applicant within a period of 90 days, the\napplication will be deemed to have been withdrawn."
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.05.1",
+      "if": "2.05 Incomplete Application\n(a) An incomplete or unauthorised application is liable to be rejected by the competent\nauthority with specific reason for rejection.",
+      "then": "2.05 Incomplete Application\n(a) An incomplete or unauthorised application is liable to be rejected by the competent\nauthority with specific reason for rejection.",
+      "source": "2.05 Incomplete Application\n(a) An incomplete or unauthorised application is liable to be rejected by the competent\nauthority with specific reason for rejection."
+    },
+    {
+      "id": "2.2.05.2",
+      "if": "Such incomplete application may be re-\nopened on rectifying the deficiencies.",
+      "then": "2.05 Incomplete Application\n(a) An incomplete or unauthorised application is liable to be rejected by the competent\nauthority with specific reason for rejection.",
+      "source": "Such incomplete application may be re-\nopened on rectifying the deficiencies."
+    },
+    {
+      "id": "2.2.05.3",
+      "if": "the deficiencies are not rectified by the applicant within a period of 90 days",
+      "then": "2.05 Incomplete Application\n(a) An incomplete or unauthorised application is liable to be rejected by the competent\nauthority with specific reason for rejection.",
+      "source": "(b) If the deficiencies are not rectified by the applicant within a period of 90 days, the\napplication will be deemed to have been withdrawn."
+    }
+  ]
+}

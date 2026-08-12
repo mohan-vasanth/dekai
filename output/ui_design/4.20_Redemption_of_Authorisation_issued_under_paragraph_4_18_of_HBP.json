@@ -1,0 +1,47 @@
+{
+  "section": "4.20",
+  "ui": [
+    {
+      "screen_id": "Redemption_of_Authorisation_issued_under_paragraph_4_18_of_HBP_overview",
+      "name": "Redemption of Authorisation issued under paragraph 4.18 of HBP Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Redemption_of_Authorisation_issued_under_paragraph_4_18_of_HBP_submission",
+      "name": "Redemption of Authorisation issued under paragraph 4.18 of HBP Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "hbp_flag",
+        "the_flag",
+        "and_flag",
+        "who_flag",
+        "for_flag",
+        "fee_flag"
+      ]
+    },
+    {
+      "screen_id": "Redemption_of_Authorisation_issued_under_paragraph_4_18_of_HBP_exceptions",
+      "name": "Redemption of Authorisation issued under paragraph 4.18 of HBP Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

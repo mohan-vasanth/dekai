@@ -1,0 +1,38 @@
+{
+  "section": "6.05",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.05",
+      "purpose": "Retrieve knowledge payload for section 6.05",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Repair-Remaking-of-Jewellery/validate",
+      "purpose": "Validate inputs and documents for Repair / Remaking of Jewellery",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

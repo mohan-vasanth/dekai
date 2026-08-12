@@ -16,6 +16,10 @@ class LLMConfigurationError(RuntimeError):
     pass
 
 
+class LLMRuntimeError(RuntimeError):
+    pass
+
+
 @dataclass(frozen=True)
 class ModelSpec:
     label: str
@@ -110,6 +114,17 @@ MODEL_SELECTION_PRIORITY = (
 
 
 class LLMService:
+    def _runtime_error_message(self, spec: ModelSpec, exc: Exception) -> str:
+        base_name = spec.label or spec.model_id or "Selected model"
+        if spec.provider == "ollama":
+            ollama_url = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434").rstrip("/")
+            if isinstance(exc, httpx.TimeoutException):
+                return f"{base_name} did not respond in time. Check that Ollama is running at {ollama_url} and that the model is available."
+            return f"{base_name} is unavailable. Check that Ollama is running at {ollama_url} and that the model is available."
+        if isinstance(exc, httpx.TimeoutException):
+            return f"{base_name} did not respond in time. Please try again or switch to another model."
+        return f"{base_name} is currently unavailable. Please try again or switch to another model."
+
     def supported_model_labels(self) -> list[str]:
         return [label for label in MODEL_SELECTION_PRIORITY if label in MODEL_SPECS]
 
@@ -170,15 +185,21 @@ class LLMService:
         spec = self.resolve_model(display_model)
         self.ensure_configured(spec)
 
-        if spec.provider == "openai":
-            return self._openai_generate(spec, system_prompt, user_prompt)
-        if spec.provider == "anthropic":
-            return self._anthropic_generate(spec, system_prompt, user_prompt)
-        if spec.provider == "gemini":
-            return self._gemini_generate(spec, system_prompt, user_prompt)
-        if spec.provider == "ollama":
-            return self._ollama_generate(spec, system_prompt, user_prompt)
-        raise LLMConfigurationError(f"Unsupported provider: {spec.provider}")
+        try:
+            if spec.provider == "openai":
+                return self._openai_generate(spec, system_prompt, user_prompt)
+            if spec.provider == "anthropic":
+                return self._anthropic_generate(spec, system_prompt, user_prompt)
+            if spec.provider == "gemini":
+                return self._gemini_generate(spec, system_prompt, user_prompt)
+            if spec.provider == "ollama":
+                return self._ollama_generate(spec, system_prompt, user_prompt)
+            raise LLMConfigurationError(f"Unsupported provider: {spec.provider}")
+        except LLMConfigurationError:
+            raise
+        except Exception as exc:
+            logger.warning("dekai_llm_runtime_error provider=%s model=%s error=%s", spec.provider, spec.model_id, exc)
+            raise LLMRuntimeError(self._runtime_error_message(spec, exc)) from exc
 
     def stream(
         self,
@@ -190,19 +211,25 @@ class LLMService:
         spec = self.resolve_model(display_model)
         self.ensure_configured(spec)
 
-        if spec.provider == "openai":
-            yield from self._openai_stream(spec, system_prompt, user_prompt)
-            return
-        if spec.provider == "anthropic":
-            yield from self._anthropic_stream(spec, system_prompt, user_prompt)
-            return
-        if spec.provider == "gemini":
-            yield from self._gemini_stream(spec, system_prompt, user_prompt)
-            return
-        if spec.provider == "ollama":
-            yield from self._ollama_stream(spec, system_prompt, user_prompt)
-            return
-        raise LLMConfigurationError(f"Unsupported provider: {spec.provider}")
+        try:
+            if spec.provider == "openai":
+                yield from self._openai_stream(spec, system_prompt, user_prompt)
+                return
+            if spec.provider == "anthropic":
+                yield from self._anthropic_stream(spec, system_prompt, user_prompt)
+                return
+            if spec.provider == "gemini":
+                yield from self._gemini_stream(spec, system_prompt, user_prompt)
+                return
+            if spec.provider == "ollama":
+                yield from self._ollama_stream(spec, system_prompt, user_prompt)
+                return
+            raise LLMConfigurationError(f"Unsupported provider: {spec.provider}")
+        except LLMConfigurationError:
+            raise
+        except Exception as exc:
+            logger.warning("dekai_llm_runtime_error provider=%s model=%s error=%s", spec.provider, spec.model_id, exc)
+            raise LLMRuntimeError(self._runtime_error_message(spec, exc)) from exc
 
     def _total_tokens(self, prompt_tokens: int | None, completion_tokens: int | None) -> int | None:
         if prompt_tokens is None and completion_tokens is None:

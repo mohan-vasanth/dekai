@@ -1,0 +1,9 @@
+{
+  "section": "3",
+  "workflow": [
+    "Evaluate condition: They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;"
+  ],
+  "workflow_ascii": "They have an agreement or purchase order, an excerpt of a contract\nEvaluate condition: They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;\"]",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: They have an agreement or purchase order, an excerpt of a contract\nfrom the entity (buyer/consignee/end-user) receiving the items\nwhich state that the export is for a permitted use / an end-use as\ndeclared in the EUC before the actual export;;\nstop\n@enduml"
+}

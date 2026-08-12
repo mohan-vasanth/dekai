@@ -1,0 +1,49 @@
+{
+  "section": "3.05",
+  "conditions": [
+    "Identifying the bottlenecks faced by the Industry.",
+    "Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.",
+    "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.",
+    "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+    "Clear identification of incentives/Support provided by the State and\nCentral Government.",
+    "Training\nand\ndevelopment\nneeds\nfor\nidentified\nexport\nproducts/services."
+  ],
+  "condition_logic": [
+    {
+      "id": "3.3.05.1",
+      "if": "Identifying the bottlenecks faced by the Industry.",
+      "then": "Route for review",
+      "source": "Identifying the bottlenecks faced by the Industry."
+    },
+    {
+      "id": "3.3.05.2",
+      "if": "Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms.",
+      "then": "Route for review",
+      "source": "Identifying\ninstitutional\nresponsibilities,\nspecifics\nof\npolicy,\nregulatory and operational reforms."
+    },
+    {
+      "id": "3.3.05.3",
+      "if": "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired.",
+      "then": "Route for review",
+      "source": "Identifying\ninfrastructure/utilities/logistics/Policy\ninterventions\nrequired."
+    },
+    {
+      "id": "3.3.05.4",
+      "if": "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation.",
+      "then": "Route for review",
+      "source": "Action Plan must identify quantifiable targets with specific timelines\nfor their implementation."
+    },
+    {
+      "id": "3.3.05.5",
+      "if": "Clear identification of incentives/Support provided by the State and\nCentral Government.",
+      "then": "Route for review",
+      "source": "Clear identification of incentives/Support provided by the State and\nCentral Government."
+    },
+    {
+      "id": "3.3.05.6",
+      "if": "Training\nand\ndevelopment\nneeds\nfor\nidentified\nexport\nproducts/services.",
+      "then": "Route for review",
+      "source": "Training\nand\ndevelopment\nneeds\nfor\nidentified\nexport\nproducts/services."
+    }
+  ]
+}

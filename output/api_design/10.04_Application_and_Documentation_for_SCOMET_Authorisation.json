@@ -1,0 +1,65 @@
+{
+  "section": "10.04",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/10.04",
+      "purpose": "Retrieve knowledge payload for section 10.04",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Application-and-Documentation-for-SCOMET-Authorisation/validate",
+      "purpose": "Validate inputs and documents for Application and Documentation for SCOMET Authorisation",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Application-and-Documentation-for-SCOMET-Authorisation/execute",
+      "purpose": "Trigger business action for (c) While submitting the online application, all the required documents as\napplicable and specified in relevant Appendices are to be uploaded as PDF\nfiles.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted",
+        "document_6_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

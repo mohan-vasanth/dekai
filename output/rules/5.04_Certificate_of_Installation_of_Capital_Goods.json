@@ -1,0 +1,44 @@
+{
+  "chapter_number": "5",
+  "chapter_title": "Export Promotion Capital Goods (EPCG) Scheme",
+  "section": "5.04",
+  "title": "Certificate of Installation of Capital Goods",
+  "business_rules": [
+    {
+      "rule_id": "CH5-SEC5_04-R001",
+      "rule_description": "5.04 Certificate of Installation of Capital Goods\n(a) Authorization holder shall produce, within 3 years from date of completion\nof import, to the concerned RA, a certificate from the jurisdictional Customs\nauthority or an independent Chartered Engineer, at the option of the\nauthorisation holder, confirming installation of capital goods/spares at\nfactory/premises of authorization holder or his supporting\n2\n2\nChapter-5\nExport Promotion Capital Goods (EPCG) Scheme\n5.04 Certificate of Installation of Capital Goods\n(a) Authorization holder shall produce, within 3 years from date of completion\nof import, to the concerned RA, a certificate from the jurisdictional Customs\nauthority or an independent Chartered Engineer, at the option of the\nauthorisation holder, confirming installation of capital goods/spares at\nfactory/premises of authorization holder or his supporting\nmanufacturer(s).",
+      "trigger": "Certificate of Installation of Capital Goods",
+      "condition": "5.04 Certificate of Installation of Capital Goods\n(a) Authorization holder shall produce, within 3 years from date of completion\nof import, to the concerned RA, a certificate from the jurisdictional Customs\nauthority or an independent Chartered Engineer, at the option of the\nauthorisation holder, confirming installation of capital goods/spares at\nfactory/premises of authorization holder or his supporting\n2\n2\nChapter-5\nExport Promotion Capital Goods (EPCG) Scheme\n5.04 Certificate of Installation of Capital Goods\n(a) Authorization holder shall produce, within 3 years from date of completion\nof import, to the concerned RA, a certificate from the jurisdictional Customs\nauthority or an independent Chartered Engineer, at the option of the\nauthorisation holder, confirming installation of capital goods/spares at\nfactory/premises of authorization holder or his supporting\nmanufacturer(s).",
+      "validation": "5.04 Certificate of Installation of Capital Goods\n(a) Authorization holder shall produce, within 3 years from date of completion\nof import, to the concerned RA, a certificate from the jurisdictional Customs\nauthority or an independent Chartered Engineer, at the option of the\nauthorisation holder, confirming installation of capital goods/spares at\nfactory/premises of authorization holder or his supporting\n2\n2\nChapter-5\nExport Promotion Capital Goods (EPCG) Scheme\n5.04 Certificate of Installation of Capital Goods\n(a) Authorization holder shall produce, within 3 years from date of completion\nof import, to the concerned RA, a certificate from the jurisdictional Customs\nauthority or an independent Chartered Engineer, at the option of the\nauthorisation holder, confirming installation of capital goods/spares at\nfactory/premises of authorization holder or his supporting\nmanufacturer(s).",
+      "action": "The RA may allow extension of the said period for\nsubmission of certificate, upto valid EO period with a payment of a\ncomposition fee of Rs.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.04 - Certificate of Installation of Capital Goods."
+    },
+    {
+      "rule_id": "CH5-SEC5_04-R002",
+      "rule_description": "Where\nthe authorisation holder opts for independent Chartered Engineer’s\ncertificate, he shall send a copy of the certificate to the jurisdictional\nCustoms Authority for intimation/record.",
+      "trigger": "Certificate of Installation of Capital Goods",
+      "condition": "The RA may allow extension of the said period for\nsubmission of certificate, upto valid EO period with a payment of a\ncomposition fee of Rs.",
+      "validation": "Where\nthe authorisation holder opts for independent Chartered Engineer’s\ncertificate, he shall send a copy of the certificate to the jurisdictional\nCustoms Authority for intimation/record.",
+      "action": "The RA may allow extension of the said period for\nsubmission of certificate, upto valid EO period with a payment of a\ncomposition fee of Rs.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.04 - Certificate of Installation of Capital Goods."
+    },
+    {
+      "rule_id": "CH5-SEC5_04-R003",
+      "rule_description": "The authorization holder shall be\npermitted to shift capital goods during the entire export obligation period\nto other units mentioned in the IEC and RCMC of the authorization holder\nsubject to production of fresh installation certificate to the RA concerned\nwithin six months of the shifting.",
+      "trigger": "Certificate of Installation of Capital Goods",
+      "condition": "Where\nthe authorisation holder opts for independent Chartered Engineer’s\ncertificate, he shall send a copy of the certificate to the jurisdictional\nCustoms Authority for intimation/record.",
+      "validation": "The authorization holder shall be\npermitted to shift capital goods during the entire export obligation period\nto other units mentioned in the IEC and RCMC of the authorization holder\nsubject to production of fresh installation certificate to the RA concerned\nwithin six months of the shifting.",
+      "action": "The RA may allow extension of the said period for\nsubmission of certificate, upto valid EO period with a payment of a\ncomposition fee of Rs.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 5.04 - Certificate of Installation of Capital Goods."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 5.04 Certificate of Installation of Capital Goods\n(a) Authorization holder shall produce, within 3 years from date of completion\nof import, to the concerned RA, a certificate from the jurisdictional Customs\nauthority or an independent Chartered Engineer, at the option of the\nauthorisation holder, confirming installation of capital goods/spares at\nfactory/premises of authorization holder or his supporting\n2\n2\nChapter-5\nExport Promotion Capital Goods (EPCG) Scheme\n5.04 Certificate of Installation of Capital Goods\n(a) Authorization holder shall produce, within 3 years from date of completion\nof import, to the concerned RA, a certificate from the jurisdictional Customs\nauthority or an independent Chartered Engineer, at the option of the\nauthorisation holder, confirming installation of capital goods/spares at\nfactory/premises of authorization holder or his supporting\nmanufacturer(s).",
+    "IF detected context matches section rule THEN enforce: Where\nthe authorisation holder opts for independent Chartered Engineer’s\ncertificate, he shall send a copy of the certificate to the jurisdictional\nCustoms Authority for intimation/record.",
+    "IF detected context matches section rule THEN enforce: The authorization holder shall be\npermitted to shift capital goods during the entire export obligation period\nto other units mentioned in the IEC and RCMC of the authorization holder\nsubject to production of fresh installation certificate to the RA concerned\nwithin six months of the shifting.",
+    "IF validations pass THEN recommend action: The RA may allow extension of the said period for\nsubmission of certificate, upto valid EO period with a payment of a\ncomposition fee of Rs."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "section": "7.02",
+  "ui": [
+    {
+      "screen_id": "Criteria_for_claiming_Benefits_overview",
+      "name": "Criteria for claiming Benefits Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Criteria_for_claiming_Benefits_submission",
+      "name": "Criteria for claiming Benefits Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "hbp_flag",
+        "ftp_flag",
+        "per_flag",
+        "ted_flag",
+        "aro_flag"
+      ]
+    },
+    {
+      "screen_id": "Criteria_for_claiming_Benefits_exceptions",
+      "name": "Criteria for claiming Benefits Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

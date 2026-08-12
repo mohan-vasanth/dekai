@@ -1,0 +1,22 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "10.03",
+  "title": "Supply of SCOMET Items from DTA to SEZ/Eo U and outside",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC10_03-R001",
+      "rule_description": "An annual report of such supplies\nfrom DTA to SEZ/EOU shall be reported to DGFT (Hqrs), by the DC of SEZ/EOU in\nthe prescribed proforma [Annexure 2 to Appendix-3] by 15th May of every financial\nyear, in respect of supplies from DTA to SEZ/EOU during the preceding financial\nyear.",
+      "trigger": "Supply of SCOMET Items from DTA to SEZ/Eo U and outside",
+      "condition": "Export Authorisation is, however, required if the SCOMET items are to\nbe physically exported outside the country from SEZ/EOU, i.e.",
+      "validation": "10.03 Supply of SCOMET Items from DTA to SEZ/Eo U and outside\nthe country\nNo export authorisation is required for supply of SCOMET items from DTA to\nSEZ/EOU.",
+      "action": "All supplies of SCOMET items from DTA to\nSEZ/EOU will be reported to the Development Commissioner (DC) of the\nrespective SEZ/Eo U by the supplier in the prescribed proforma [Annexure 1 to\nAppendix-3 to Schedule 2 of ITC (HS) Classifications of Export and Import Items]\nwithin one week of the supplies getting effected.",
+      "exception": "Export Authorisation is, however, required if the SCOMET items are to\nbe physically exported outside the country from SEZ/EOU, i.e.",
+      "output": "DEKAI should produce a compliance decision for 10.03 - Supply of SCOMET Items from DTA to SEZ/Eo U and outside."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: An annual report of such supplies\nfrom DTA to SEZ/EOU shall be reported to DGFT (Hqrs), by the DC of SEZ/EOU in\nthe prescribed proforma [Annexure 2 to Appendix-3] by 15th May of every financial\nyear, in respect of supplies from DTA to SEZ/EOU during the preceding financial\nyear.",
+    "IF validations pass THEN recommend action: All supplies of SCOMET items from DTA to\nSEZ/EOU will be reported to the Development Commissioner (DC) of the\nrespective SEZ/Eo U by the supplier in the prescribed proforma [Annexure 1 to\nAppendix-3 to Schedule 2 of ITC (HS) Classifications of Export and Import Items]\nwithin one week of the supplies getting effected."
+  ]
+}

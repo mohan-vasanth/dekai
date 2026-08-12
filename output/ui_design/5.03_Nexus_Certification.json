@@ -1,0 +1,37 @@
+{
+  "section": "5.03",
+  "ui": [
+    {
+      "screen_id": "Nexus_Certification_overview",
+      "name": "Nexus Certification Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Nexus_Certification_submission",
+      "name": "Nexus Certification Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "cec_flag",
+        "for_flag",
+        "act_flag",
+        "any_flag",
+        "and_flag"
+      ]
+    }
+  ]
+}

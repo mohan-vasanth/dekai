@@ -1,0 +1,35 @@
+{
+  "section": "4.26",
+  "conditions": [
+    "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a) Names and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b) Quantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",
+    "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c) Aggregate CIF value of imports;\n(d) FOB/FOR value and quantity of exports/supplies; and\n(e) Validity period of import and Export Obligation Period.",
+    "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a)\nNames and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b)\nQuantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",
+    "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c)\nAggregate CIF value of imports;\n(d)\nFOB/FOR value and quantity of exports/supplies; and\n(e)\nValidity period of import and Export Obligation Period."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.26.1",
+      "if": "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a) Names and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b) Quantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",
+      "then": "Route for review",
+      "source": "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a) Names and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b) Quantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated."
+    },
+    {
+      "id": "4.4.26.2",
+      "if": "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c) Aggregate CIF value of imports;\n(d) FOB/FOR value and quantity of exports/supplies; and\n(e) Validity period of import and Export Obligation Period.",
+      "then": "Route for review",
+      "source": "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c) Aggregate CIF value of imports;\n(d) FOB/FOR value and quantity of exports/supplies; and\n(e) Validity period of import and Export Obligation Period."
+    },
+    {
+      "id": "4.4.26.3",
+      "if": "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a)\nNames and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b)\nQuantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated.",
+      "then": "Route for review",
+      "source": "4.26 Description of an Advance Authorisation\nAn Advance Authorisation shall, inter-alia, specify:\n(a)\nNames and description of items including specifications, where applicable, to\nbe imported and exported/supplied;\n(b)\nQuantity of each item to be imported or wherever quantity cannot be\nindicated, value of item shall be indicated."
+    },
+    {
+      "id": "4.4.26.4",
+      "if": "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c)\nAggregate CIF value of imports;\n(d)\nFOB/FOR value and quantity of exports/supplies; and\n(e)\nValidity period of import and Export Obligation Period.",
+      "then": "Route for review",
+      "source": "Wherever, quantity and value of\nindividual inputs is a limiting factor in SION, same shall be applicable;\n(c)\nAggregate CIF value of imports;\n(d)\nFOB/FOR value and quantity of exports/supplies; and\n(e)\nValidity period of import and Export Obligation Period."
+    }
+  ]
+}

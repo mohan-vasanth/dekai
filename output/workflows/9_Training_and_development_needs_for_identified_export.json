@@ -1,0 +1,12 @@
+{
+  "section": "9",
+  "workflow": [
+    "Evaluate condition: Training and development needs for identified export\nproducts/services.",
+    "Evaluate condition: | | Identifying institutional responsibilities, specifics of policy, |\n| | regulatory and operational reforms.",
+    "Evaluate condition: | | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation.",
+    "Run validation: | | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation."
+  ],
+  "workflow_ascii": "Training and development needs for identified export\nEvaluate condition: Training and development needs for identified export\nproducts/services.\n   |\n   v\nEvaluate condition: | | Identifying institutional responsibilities, specifics of policy, |\n| | regulatory and operational reforms.\n   |\n   v\nEvaluate condition: | | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation.\n   |\n   v\nRun validation: | | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Training and development needs for identified export\nproducts/services.\"]\n    S2[\"Evaluate condition: | | Identifying institutional responsibilities, specifics of policy, |\n| | regulatory and operational reforms.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: | | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation.\"]\n    S2 --> S3\n    S4[\"Run validation: | | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation.\"]\n    S3 --> S4",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Training and development needs for identified export\nproducts/services.;\n:Evaluate condition\\: | | Identifying institutional responsibilities, specifics of policy, |\n| | regulatory and operational reforms.;\n:Evaluate condition\\: | | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation.;\n:Run validation\\: | | Action Plan must identify quantifiable targets with specific timelines |\n| | for their implementation.;\nstop\n@enduml"
+}

@@ -1,0 +1,47 @@
+{
+  "section": "2.36",
+  "ui": [
+    {
+      "screen_id": "Imports_under_Indo_US_Memorandum_of_Understanding_overview",
+      "name": "Imports under Indo-US Memorandum of Understanding Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Imports_under_Indo_US_Memorandum_of_Understanding_submission",
+      "name": "Imports under Indo-US Memorandum of Understanding Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "raw_flag",
+        "and_flag",
+        "usa_flag",
+        "are_flag",
+        "the_flag",
+        "for_flag"
+      ]
+    },
+    {
+      "screen_id": "Imports_under_Indo_US_Memorandum_of_Understanding_exceptions",
+      "name": "Imports under Indo-US Memorandum of Understanding Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

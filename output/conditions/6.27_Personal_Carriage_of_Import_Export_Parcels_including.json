@@ -1,0 +1,35 @@
+{
+  "section": "6.27",
+  "conditions": [
+    "Foreign Exchange Realisation / Encashment\nCertificate from Bank.",
+    "Bank Certificate of Export and Realisation.",
+    "d) Personal carriage of parts by foreign bound passengers shall be\nallowed in case same are required for repairs of exported goods at\npg.",
+    "d)\nPersonal carriage of parts by foreign bound passengers shall be\nallowed in case same are required for repairs of exported goods at\ncustomer site."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.27.1",
+      "if": "Foreign Exchange Realisation / Encashment\nCertificate from Bank.",
+      "then": "6.27 Personal Carriage of Import / Export Parcels including\nthrough Foreign Bound Passengers\na) For Personal carriage of jewellery by foreign bound passenger,\nfollowing documents shall be submitted by EOUs as proof of\nexports:\ni.",
+      "source": "Foreign Exchange Realisation / Encashment\nCertificate from Bank."
+    },
+    {
+      "id": "6.6.27.2",
+      "if": "Bank Certificate of Export and Realisation.",
+      "then": "6.27 Personal Carriage of Import / Export Parcels including\nthrough Foreign Bound Passengers\na) For Personal carriage of jewellery by foreign bound passenger,\nfollowing documents shall be submitted by EOUs as proof of\nexports:\ni.",
+      "source": "Bank Certificate of Export and Realisation."
+    },
+    {
+      "id": "6.6.27.3",
+      "if": "d) Personal carriage of parts by foreign bound passengers shall be\nallowed in case same are required for repairs of exported goods at\npg.",
+      "then": "6.27 Personal Carriage of Import / Export Parcels including\nthrough Foreign Bound Passengers\na) For Personal carriage of jewellery by foreign bound passenger,\nfollowing documents shall be submitted by EOUs as proof of\nexports:\ni.",
+      "source": "d) Personal carriage of parts by foreign bound passengers shall be\nallowed in case same are required for repairs of exported goods at\npg."
+    },
+    {
+      "id": "6.6.27.4",
+      "if": "d)\nPersonal carriage of parts by foreign bound passengers shall be\nallowed in case same are required for repairs of exported goods at\ncustomer site.",
+      "then": "6.27 Personal Carriage of Import / Export Parcels including\nthrough Foreign Bound Passengers\na) For Personal carriage of jewellery by foreign bound passenger,\nfollowing documents shall be submitted by EOUs as proof of\nexports:\ni.",
+      "source": "d)\nPersonal carriage of parts by foreign bound passengers shall be\nallowed in case same are required for repairs of exported goods at\ncustomer site."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "section": "4.85",
+  "ui": [
+    {
+      "screen_id": "Regularistion_of_Bonafide_Default_overview",
+      "name": "Regularistion of Bonafide Default Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Regularistion_of_Bonafide_Default_submission",
+      "name": "Regularistion of Bonafide Default Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "who_flag",
+        "has_flag",
+        "may_flag",
+        "the_flag",
+        "pay_flag",
+        "ftp_flag"
+      ]
+    }
+  ]
+}

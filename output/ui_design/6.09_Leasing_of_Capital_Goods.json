@@ -1,0 +1,37 @@
+{
+  "section": "6.09",
+  "ui": [
+    {
+      "screen_id": "Leasing_of_Capital_Goods_overview",
+      "name": "Leasing of Capital Goods Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Leasing_of_Capital_Goods_submission",
+      "name": "Leasing of Capital Goods Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "for_flag",
+        "nfe_flag",
+        "ftp_flag",
+        "free_flag",
+        "cost_flag"
+      ]
+    }
+  ]
+}

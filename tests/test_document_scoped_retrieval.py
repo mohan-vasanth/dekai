@@ -94,14 +94,14 @@ class DocumentScopedRetrievalTests(unittest.TestCase):
         answer = bundle["answer"]
         direct_answer = str(answer.get("directAnswer", ""))
 
-        self.assertFalse(bundle["skipLlm"])
+        self.assertTrue(bundle["skipLlm"])
         self.assertEqual(bundle["finalContextDocuments"], [self.INPDEC_DOCUMENT])
         self.assertEqual(answer.get("referencedPdf"), self.INPDEC_DOCUMENT)
-        self.assertEqual(answer.get("sourceSection"), "1 Maritime")
-        self.assertEqual(answer.get("sourcePages"), [12, 13])
-        for expected_value in ("Maritime", "Rail", "Road", "Air", "Mail", "Multimodal", "Pipeline"):
+        self.assertEqual(answer.get("sourceSection"), "8 MESSAGE DETAILS")
+        self.assertEqual(answer.get("sourcePages"), [9, 10, 11, 12])
+        self.assertIn("Total Count:\n7", direct_answer)
+        for expected_value in ("1 - Maritime", "2 - Rail", "3 - Road", "4 - Air", "5 - Mail", "6 - Multimodal (For future use)", "7 - Pipeline"):
             self.assertIn(expected_value, direct_answer)
-        self.assertNotIn("MESSAGE DETAILS", direct_answer)
         self.assertEqual(
             {
                 str(item.get("documentName", "")).strip()
@@ -110,27 +110,20 @@ class DocumentScopedRetrievalTests(unittest.TestCase):
             },
             {self.INPDEC_DOCUMENT},
         )
-        self.assertEqual(
-            [(chunk.get("sectionId"), chunk.get("title")) for chunk in bundle.get("selectedChunks", [])],
-            [
-                ("1", "Maritime"),
-                ("2", "Rail"),
-                ("3", "Road"),
-                ("4", "Air"),
-                ("5", "Mail"),
-                ("6", "Multimodal (For future use)"),
-                ("7", "Pipeline"),
-            ],
-        )
+        self.assertEqual([(chunk.get("sectionId"), chunk.get("title")) for chunk in bundle.get("selectedChunks", [])], [("8", "8 MESSAGE DETAILS")])
 
     def test_declaration_types_question_stays_inpdec_scoped(self) -> None:
         bundle = self._prepare_bundle("What are the declaration types listed in the INPDEC PDF?")
         answer = bundle["answer"]
+        direct_answer = str(answer.get("directAnswer", ""))
 
-        self.assertFalse(bundle["skipLlm"])
+        self.assertTrue(bundle["skipLlm"])
         self.assertEqual(bundle["finalContextDocuments"], [self.INPDEC_DOCUMENT])
         self.assertEqual(answer.get("referencedPdf"), self.INPDEC_DOCUMENT)
-        self.assertEqual(answer.get("sourceSection"), "8 MESSAGE DETAILS")
+        self.assertEqual(answer.get("sourceSection"), "6 MESSAGE FUNCTION")
+        self.assertIn("SFZ - Storage in FTZ", direct_answer)
+        self.assertIn("APS - Approved Premises/Schemes", direct_answer)
+        self.assertNotIn("Declaration Indicator", direct_answer)
         self.assertEqual(
             {
                 str(item.get("documentName", "")).strip()
@@ -139,6 +132,23 @@ class DocumentScopedRetrievalTests(unittest.TestCase):
             },
             {self.INPDEC_DOCUMENT},
         )
+
+    def test_declaration_type_count_request_returns_complete_exact_list(self) -> None:
+        bundle = self._prepare_bundle("How many declaration types are available in the INPDEC PDF? List them all.")
+        answer = bundle["answer"]
+        direct_answer = str(answer.get("directAnswer", ""))
+
+        self.assertTrue(bundle["skipLlm"])
+        self.assertEqual(answer.get("referencedPdf"), self.INPDEC_DOCUMENT)
+        self.assertEqual(answer.get("sourceSection"), "6 MESSAGE FUNCTION")
+        self.assertIn("Title:\nDeclaration Type", direct_answer)
+        self.assertIn("Total Count:\n4", direct_answer)
+        self.assertIn("1. APS - Approved Premises/Schemes", direct_answer)
+        self.assertIn("2. BKT - Blanket [including blanket GST Relief (& duty exemption)]", direct_answer)
+        self.assertIn("3. GTR - GST Relief (& duty exemption)", direct_answer)
+        self.assertIn("4. SFZ - Storage in FTZ", direct_answer)
+        self.assertNotIn("Declaration Indicator", direct_answer)
+        self.assertEqual(bundle["finalContextDocuments"], [self.INPDEC_DOCUMENT])
 
     def test_current_trade_net_document_locks_follow_up_transport_question(self) -> None:
         bundle = self._prepare_bundle(
@@ -147,11 +157,52 @@ class DocumentScopedRetrievalTests(unittest.TestCase):
         )
         answer = bundle["answer"]
 
-        self.assertFalse(bundle["skipLlm"])
+        self.assertTrue(bundle["skipLlm"])
         self.assertEqual(bundle["finalContextDocuments"], [self.INPDEC_DOCUMENT])
         self.assertEqual(answer.get("referencedPdf"), self.INPDEC_DOCUMENT)
-        self.assertEqual(answer.get("sourceSection"), "1 Maritime")
-        self.assertIn("Pipeline", str(answer.get("directAnswer", "")))
+        self.assertEqual(answer.get("sourceSection"), "8 MESSAGE DETAILS")
+        self.assertIn("7 - Pipeline", str(answer.get("directAnswer", "")))
+
+    def test_transport_mode_list_returns_grounded_enumeration_not_field_definition(self) -> None:
+        bundle = self._prepare_bundle("transport mode list")
+        answer = bundle["answer"]
+        direct_answer = str(answer.get("directAnswer", ""))
+
+        self.assertTrue(bundle["skipLlm"])
+        self.assertTrue(bundle["finalContextDocuments"])
+        self.assertTrue(str(answer.get("referencedPdf", "")).startswith("TradeNetDeclaration."))
+        self.assertIn("Total Count:\n7", direct_answer)
+        for expected_value in ("1 - Maritime", "2 - Rail", "3 - Road", "4 - Air", "5 - Mail", "6 - Multimodal (For future use)", "7 - Pipeline"):
+            self.assertIn(expected_value, direct_answer)
+        self.assertNotIn("Answer:\ncac:Transport Mode.", direct_answer)
+
+    def test_inp_prefix_query_locks_retrieval_to_inpdec_without_current_document(self) -> None:
+        bundle = self._prepare_bundle("inp:Header")
+
+        self._assert_exact_field_answer(
+            bundle,
+            expected_document=self.INPDEC_DOCUMENT,
+            expected_section="8 MESSAGE DETAILS",
+            expected_pages=[9],
+            required_phrases=("inp:Header", "B045"),
+            forbidden_phrases=("TradeNetDeclaration.COODEC", "TradeNetDeclaration.IPTDEC", "TradeNetDeclaration.TNPDEC"),
+            top_heading="inp:Header",
+        )
+
+    def test_outdec_request_does_not_fall_back_to_other_trade_net_documents(self) -> None:
+        bundle = self._prepare_bundle("outdec declaration type")
+
+        self.assertTrue(bundle["skipLlm"])
+        self.assertEqual(str(bundle["answer"].get("directAnswer", "")), self.NOT_FOUND_MESSAGE)
+        self.assertEqual(bundle["finalContextDocuments"], [])
+        self.assertEqual(
+            {
+                str(item.get("documentName", "")).strip()
+                for item in bundle.get("retrieval", [])
+                if str(item.get("documentName", "")).strip()
+            },
+            set(),
+        )
 
     def test_exact_inp_transport_query_returns_only_transport_field_context(self) -> None:
         bundle = self._prepare_bundle(

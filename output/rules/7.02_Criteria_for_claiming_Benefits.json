@@ -1,0 +1,147 @@
+{
+  "chapter_number": "7",
+  "chapter_title": "Deemed Exports",
+  "section": "7.02",
+  "title": "Criteria for claiming Benefits",
+  "business_rules": [
+    {
+      "rule_id": "CH7-SEC7_02-R001",
+      "rule_description": "7.02 Criteria for claiming Benefits\n(a) (i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "In case Advance Authorisation, as\npg.",
+      "validation": "7.02 Criteria for claiming Benefits\n(a) (i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+      "action": "7.02 Criteria for claiming Benefits\n(a) (i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+      "exception": "For supplies against\ninvalidation letter, TED refund shall be given in accordance with para\n7.03(c) of FTP, provided, there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_02-R002",
+      "rule_description": "For supplies against\ninvalidation letter, TED refund shall be given in accordance with para\n7.03(c) of FTP, provided, there is no exemption.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "In case Advance Authorisation, as\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+      "validation": "For supplies against\ninvalidation letter, TED refund shall be given in accordance with para\n7.03(c) of FTP, provided, there is no exemption.",
+      "action": "(b) In respect of supply of goods to EOU / EHTP / STP / BTP, Advance\nAuthorisation / DFIA can be obtained as per procedure given in the Chapter\n4 of HBP for exemption from payment of Terminal Excise Duty, procedure\nas per Excise Circular number 851/9/2007-CX dated 3.5.2007 read with\ncircular No.",
+      "exception": "TED refund for supplies against ARO shall be allowed in\naccordance with para 7.03(c) of FTP, provided, there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_02-R003",
+      "rule_description": "(ii) In respect of supply of goods to Advance Authorisation / DFIA,\nagainst ARO, procedure given in Chapter 4 of the HBP shall be\nfollowed.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+      "validation": "(ii) In respect of supply of goods to Advance Authorisation / DFIA,\nagainst ARO, procedure given in Chapter 4 of the HBP shall be\nfollowed.",
+      "action": "158\nChapter-7\nDeemed Exports\n7.02 Criteria for claiming Benefits\n(a)\n(i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+      "exception": "(b) In respect of supply of goods to EOU / EHTP / STP / BTP, Advance\nAuthorisation / DFIA can be obtained as per procedure given in the Chapter\n4 of HBP for exemption from payment of Terminal Excise Duty, procedure\nas per Excise Circular number 851/9/2007-CX dated 3.5.2007 read with\ncircular No.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_02-R004",
+      "rule_description": "TED refund for supplies against ARO shall be allowed in\naccordance with para 7.03(c) of FTP, provided, there is no exemption.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "(d) In respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C.",
+      "validation": "TED refund for supplies against ARO shall be allowed in\naccordance with para 7.03(c) of FTP, provided, there is no exemption.",
+      "action": "(b)\nIn respect of supply of goods to EOU / EHTP / STP / BTP, Advance\nAuthorisation / DFIA can be obtained as per procedure given in the Chapter\n4 of HBP for exemption from payment of Terminal Excise Duty, procedure\nas per Excise Circular number 851/9/2007-CX dated 3.5.2007 read with\ncircular No.",
+      "exception": "TED refund shall be given for supply of goods to EOU /\nEHTP / STP / BTP in accordance with para 7.03(c) of FTP, provided, there\nis no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_02-R005",
+      "rule_description": "Duty Drawback shall be allowed in accordance with para\n7.06 of FTP.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "validation": "Duty Drawback shall be allowed in accordance with para\n7.06 of FTP.",
+      "action": "In case Advance Authorisation, as\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+      "exception": "(b)\nIn respect of supply of goods to EOU / EHTP / STP / BTP, Advance\nAuthorisation / DFIA can be obtained as per procedure given in the Chapter\n4 of HBP for exemption from payment of Terminal Excise Duty, procedure\nas per Excise Circular number 851/9/2007-CX dated 3.5.2007 read with\ncircular No.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_02-R006",
+      "rule_description": "10/2009- Cus dated 25.2.2009, shall be followed for removal of\ngoods against CT-3.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "validation": "10/2009- Cus dated 25.2.2009, shall be followed for removal of\ngoods against CT-3.",
+      "action": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+      "exception": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_02-R007",
+      "rule_description": "TED refund shall be given for supply of goods to EOU /\nEHTP / STP / BTP in accordance with para 7.03(c) of FTP, provided, there\nis no exemption.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "validation": "TED refund shall be given for supply of goods to EOU /\nEHTP / STP / BTP in accordance with para 7.03(c) of FTP, provided, there\nis no exemption.",
+      "action": "(d) In respect of supply of goods to other categories as listed in the\nParagraph 7.02 (d), (e), (f) & (g) of FTP, Advance Authorisation / DFIA for\nimport of duty free inputs as provided under Chapter 4 of FTP may be\nobtained against Project Authority Certificate as per Appendix-7C.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_02-R008",
+      "rule_description": "158\nChapter-7\nDeemed Exports\n7.02 Criteria for claiming Benefits\n(a)\n(i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "validation": "158\nChapter-7\nDeemed Exports\n7.02 Criteria for claiming Benefits\n(a)\n(i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+      "action": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_02-R009",
+      "rule_description": "In case Advance Authorisation, as\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "validation": "In case Advance Authorisation, as\nprovided in Chapter 4 of FTP, is not obtained for import of duty free inputs\nagainst such supply, drawback claim for basic custom duty paid on inputs,\nused in the resultant product, shall be filed with the DC concerned.",
+      "action": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_02-R010",
+      "rule_description": "A DTA\nUnit shall claim benefits from the concerned RA.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "validation": "A DTA\nUnit shall claim benefits from the concerned RA.",
+      "action": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_02-R011",
+      "rule_description": "(c) In respect of supply of goods to an EPCG Authorisation holder, against\nInvalidation Letter, application for Advance Authorisation / DFIA shall be\nmade as per procedures given in Chapter 4 of HBP.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "validation": "(c) In respect of supply of goods to an EPCG Authorisation holder, against\nInvalidation Letter, application for Advance Authorisation / DFIA shall be\nmade as per procedures given in Chapter 4 of HBP.",
+      "action": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_02-R012",
+      "rule_description": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "validation": "If Advance Authorisation\n/ DFIA is not obtained for duty free inputs, Duty drawback shall be allowed\non basic custom duty paid on inputs used in the resultant product.",
+      "action": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    },
+    {
+      "rule_id": "CH7-SEC7_02-R013",
+      "rule_description": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "trigger": "Criteria for claiming Benefits",
+      "condition": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "validation": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "action": "However, if Advance Authorisation / DFIA is not obtained against such\nsupplies for duty free inputs as provided in Chapter 4 of FTP, claim for duty\ndrawback for basic custom duty may be filed as per ANF-7A.",
+      "exception": "TED refund for\nprojects mentioned in para 7.08(iii)(a) of FTP in respect of eligible items of\nsupply covered under schedule IV of Central Excise Act, 1944, shall be\navailable provided there is no exemption.",
+      "output": "DEKAI should produce a compliance decision for 7.02 - Criteria for claiming Benefits."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 7.02 Criteria for claiming Benefits\n(a) (i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP.",
+    "IF detected context matches section rule THEN enforce: For supplies against\ninvalidation letter, TED refund shall be given in accordance with para\n7.03(c) of FTP, provided, there is no exemption.",
+    "IF detected context matches section rule THEN enforce: (ii) In respect of supply of goods to Advance Authorisation / DFIA,\nagainst ARO, procedure given in Chapter 4 of the HBP shall be\nfollowed.",
+    "IF detected context matches section rule THEN enforce: TED refund for supplies against ARO shall be allowed in\naccordance with para 7.03(c) of FTP, provided, there is no exemption.",
+    "IF detected context matches section rule THEN enforce: Duty Drawback shall be allowed in accordance with para\n7.06 of FTP.",
+    "IF detected context matches section rule THEN enforce: 10/2009- Cus dated 25.2.2009, shall be followed for removal of\ngoods against CT-3.",
+    "IF validations pass THEN recommend action: 7.02 Criteria for claiming Benefits\n(a) (i) In respect of supply of intermediate goods to Advance Authorisation /\nDFIA holder, against Invalidation Letter, issued in terms of Paragraph\n4.30 of HBP, application to obtain Advance Authorisation for import of\nduty free inputs, as provided under Chapter 4 of FTP, shall be made as\nper procedures given in Chapter 4 of HBP."
+  ]
+}

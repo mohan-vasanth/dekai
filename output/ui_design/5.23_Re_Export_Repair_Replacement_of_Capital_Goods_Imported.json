@@ -1,0 +1,37 @@
+{
+  "section": "5.23",
+  "ui": [
+    {
+      "screen_id": "Re_Export_Repair_Replacement_of_Capital_Goods_Imported_overview",
+      "name": "Re-Export / Repair/Replacement of Capital Goods Imported Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Re_Export_Repair_Replacement_of_Capital_Goods_Imported_submission",
+      "name": "Re-Export / Repair/Replacement of Capital Goods Imported Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "are_flag",
+        "for_flag",
+        "use_flag",
+        "may_flag",
+        "the_flag",
+        "and_flag"
+      ]
+    }
+  ]
+}

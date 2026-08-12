@@ -24,8 +24,14 @@ from parser.xml_utils import (
 from .document_version_service import document_version_service
 from .conversation_service import conversation_service
 from .knowledge_engine import knowledge_engine_service
-from .llm_service import LLMConfigurationError, llm_service
-from .retrieval_service import TRADE_NET_XML_FIELD_INTENT, RetrievalPlan, analyze_question, retrieval_decision_service
+from .llm_service import LLMConfigurationError, LLMRuntimeError, llm_service
+from .retrieval_service import (
+    TRADE_NET_STRUCTURED_INTENT,
+    TRADE_NET_XML_FIELD_INTENT,
+    RetrievalPlan,
+    analyze_question,
+    retrieval_decision_service,
+)
 from .search_service import search_service
 from .settings_service import SUPPORTED_LANGUAGES
 
@@ -354,6 +360,22 @@ def _document_aliases(value: str) -> list[str]:
     aliases.extend(token for token in _document_tokens(normalized_stem) if len(token) >= 3)
     aliases.extend(token for token in _document_tokens(normalized_camel_stem) if len(token) >= 3)
 
+    normalized_blob = f"{normalized_stem} {normalized_camel_stem}"
+    if "inpdec" in normalized_blob:
+        aliases.extend(["inpdec", "inp", "import declaration"])
+    if "iptdec" in normalized_blob:
+        aliases.extend(["iptdec", "ipt", "import permit"])
+    if "outdec" in normalized_blob:
+        aliases.extend(["outdec", "out", "export declaration"])
+    if "coodec" in normalized_blob:
+        aliases.extend(["coodec", "coo", "certificate of origin"])
+    if "tnpdec" in normalized_blob:
+        aliases.extend(["tnpdec", "tnp", "trade net declaration"])
+    if "hbp" in normalized_blob:
+        aliases.extend(["hbp", "handbook of procedures", "hand book of procedures"])
+    if "dgft" in normalized_blob:
+        aliases.extend(["dgft"])
+
     chapter_match = re.search(r"\bchapter\s*(\d{1,2})\b", normalized_camel_stem or normalized_stem)
     if chapter_match:
         chapter_number = chapter_match.group(1)
@@ -484,6 +506,10 @@ class ChatService:
     minimum_confidence = 0.75
     semantic_minimum_confidence = 0.56
 
+    def __init__(self) -> None:
+        self._last_trace: dict[str, Any] = {}
+        self._bundle_cache: dict[tuple[str, ...], tuple[str | None, dict[str, Any]]] = {}
+
     def _ready_documents(self, index: dict[str, Any]) -> list[dict[str, Any]]:
         ready_documents: list[dict[str, Any]] = []
         for document in index.get("documents", []):
@@ -509,6 +535,22 @@ class ChatService:
     def _is_trade_net_document(self, document_name: str) -> bool:
         normalized = _normalize_alnum_words(document_name)
         return any(hint in normalized for hint in TRADE_NET_DOCUMENT_HINTS)
+
+    def _is_trade_net_structured_question(
+        self,
+        question: str,
+        plan: RetrievalPlan,
+        analysis: Any | None = None,
+    ) -> bool:
+        if plan.intent in {TRADE_NET_XML_FIELD_INTENT, TRADE_NET_STRUCTURED_INTENT}:
+            return True
+        if "TradeNet" in plan.knowledge_sources and "Message Specification" in plan.knowledge_sources:
+            return True
+        question_analysis = analysis or analyze_question(question)
+        requested_entity = _normalize(str(getattr(question_analysis, "requested_entity", "") or ""))
+        if any(code.upper().endswith("DEC") for code in getattr(question_analysis, "document_codes", ())):
+            return True
+        return requested_entity in {"transport mode", "declaration type", "mode code"}
 
     def _trade_net_ready_documents(self, ready_documents: list[dict[str, Any]]) -> list[dict[str, Any]]:
         return [
@@ -614,8 +656,17 @@ class ChatService:
 
     def _match_failed_document(self, question: str, failed_documents: list[dict[str, Any]]) -> dict[str, Any] | None:
         normalized_question = _normalize(question)
+        question_analysis = analyze_question(question)
+        requested_codes = {code.lower() for code in question_analysis.document_codes if code}
         question_tokens = set(_document_tokens(normalized_question))
         mentions_document = any(term in normalized_question for term in ("document", "pdf", "file", "upload"))
+
+        if requested_codes:
+            for failed_document in failed_documents:
+                alias_blob = " ".join(str(alias) for alias in failed_document.get("aliases", []))
+                if any(code in alias_blob for code in requested_codes):
+                    return failed_document
+            return None
 
         for failed_document in failed_documents:
             if any(alias and alias in normalized_question for alias in failed_document.get("aliases", [])):
@@ -634,13 +685,29 @@ class ChatService:
 
     def _match_ready_document(self, question: str, ready_documents: list[dict[str, Any]]) -> dict[str, Any] | None:
         normalized_question = _normalize(question)
+        question_analysis = analyze_question(question)
+        requested_codes = {code.lower() for code in question_analysis.document_codes if code}
         question_tokens = set(_document_tokens(normalized_question))
         mentions_document = any(term in normalized_question for term in ("document", "pdf", "file", "upload"))
         best_match: dict[str, Any] | None = None
         best_score = 0
 
+        if requested_codes:
+            exact_code_matches = []
+            for ready_document in ready_documents:
+                aliases_blob = " ".join(str(alias) for alias in ready_document.get("aliases", []))
+                if any(code in aliases_blob for code in requested_codes):
+                    exact_code_matches.append(ready_document)
+            if exact_code_matches:
+                return exact_code_matches[0]
+            return None
+
         for ready_document in ready_documents:
-            aliases = [alias for alias in ready_document.get("aliases", []) if alias]
+            aliases = [
+                alias
+                for alias in ready_document.get("aliases", [])
+                if alias and alias not in {"trade", "net", "declaration", "tradenetdeclaration"}
+            ]
             alias_hits = [alias for alias in aliases if alias in normalized_question]
             if alias_hits:
                 score = 100 + max(len(alias) for alias in alias_hits)
@@ -957,7 +1024,7 @@ class ChatService:
         lookup: dict[str, dict[str, Any]] = {}
         for section in sections:
             key = self._section_record_key(section)
-            if key:
+            if key and key not in lookup:
                 lookup[key] = section
         return lookup
 
@@ -2648,18 +2715,138 @@ class ChatService:
         normalized_question = _normalize(question)
         if is_xml_field_query(question) or bool(extract_field_code_references(question)):
             return True
+        analysis = analyze_question(question)
+        if analysis.requested_entity and analysis.question_type in {
+            "FIELD_LOOKUP",
+            "TABLE_LOOKUP",
+            "CODELIST_LOOKUP",
+            "LIST_REQUEST",
+            "COUNT_REQUEST",
+            "RULE_REQUEST",
+            "DEFINITION_REQUEST",
+        }:
+            return True
         return bool(re.search(r"\b(field|tag|element)\b", normalized_question))
 
-    def _best_trade_net_field_match(self, question: str, retrieval: list[dict[str, Any]]) -> dict[str, Any] | None:
+    def _requested_entity_variants(self, analysis: Any) -> set[str]:
+        requested_entity = str(getattr(analysis, "requested_entity", "") or "").strip()
+        variants: set[str] = set()
+        if requested_entity:
+            variants.add(_normalize(requested_entity))
+            for alias in field_search_aliases(requested_entity):
+                normalized_alias = _normalize(alias)
+                if normalized_alias:
+                    variants.add(normalized_alias)
+            if requested_entity.endswith(" type"):
+                variants.add(_normalize(requested_entity.replace(" type", " types")))
+            elif requested_entity.endswith(" types"):
+                variants.add(_normalize(requested_entity.replace(" types", " type")))
+        return {variant for variant in variants if variant}
+
+    def _candidate_entity_values(self, item: dict[str, Any]) -> set[str]:
+        values = {
+            _normalize(value)
+            for value in [
+                item.get("title", ""),
+                item.get("heading", ""),
+                item.get("matchedField", ""),
+                item.get("matchedHeading", ""),
+                item.get("fieldName", ""),
+                item.get("xmlTag", ""),
+                item.get("tagName", ""),
+            ]
+            if _normalize(value)
+        }
+        values.update(_normalize(field) for field in item.get("fieldNames", []) if _normalize(field))
+        return values
+
+    def _document_matches_requested_codes(self, document_name: str, document_codes: tuple[str, ...]) -> bool:
+        if not document_codes:
+            return True
+        aliases_blob = " ".join(_document_aliases(document_name))
+        for code in document_codes:
+            normalized_code = str(code or "").strip().upper()
+            if not normalized_code:
+                continue
+            if normalized_code == "DGFT" and self._is_dgft_document(document_name):
+                return True
+            if normalized_code == "HBP" and any(
+                alias in aliases_blob for alias in ("hbp", "handbook of procedures", "hand book of procedures")
+            ):
+                return True
+            if normalized_code in aliases_blob.upper():
+                return True
+        return False
+
+    def _explicit_document_scope(
+        self,
+        document_codes: tuple[str, ...],
+        ready_documents: list[dict[str, Any]],
+    ) -> tuple[list[dict[str, Any]], bool]:
+        if not document_codes:
+            return [], False
+
+        scoped_documents: list[dict[str, Any]] = []
+        for code in document_codes:
+            normalized_code = str(code or "").strip().upper()
+            if not normalized_code:
+                continue
+            if normalized_code == "DGFT":
+                scoped_documents.extend(
+                    document
+                    for document in ready_documents
+                    if self._is_dgft_document(str(document.get("name", "")))
+                )
+                continue
+            if normalized_code == "HBP":
+                scoped_documents.extend(
+                    document
+                    for document in ready_documents
+                    if any(
+                        alias in " ".join(str(item) for item in document.get("aliases", []))
+                        for alias in ("hbp", "handbook of procedures", "hand book of procedures")
+                    )
+                )
+                continue
+            scoped_documents.extend(
+                document
+                for document in ready_documents
+                if self._document_matches_requested_codes(str(document.get("name", "")), (normalized_code,))
+            )
+
+        unique_documents: list[dict[str, Any]] = []
+        seen_names: set[str] = set()
+        for document in scoped_documents:
+            normalized_name = _normalize(str(document.get("name", "")))
+            if not normalized_name or normalized_name in seen_names:
+                continue
+            seen_names.add(normalized_name)
+            unique_documents.append(document)
+        return unique_documents, True
+
+    def _best_trade_net_field_match(self, question: str, retrieval: list[dict[str, Any]], analysis: Any | None = None) -> dict[str, Any] | None:
+        analysis = analysis or analyze_question(question)
         query_field_codes = {code.upper() for code in extract_field_code_references(question)}
         structured_target = self._structured_query_target(question)
         field_lookup_question = self._is_trade_net_field_lookup_question(question)
+        requested_entity_variants = self._requested_entity_variants(analysis)
         candidates: list[tuple[tuple[float, ...], dict[str, Any]]] = []
+        exact_entity_candidates: list[tuple[tuple[float, ...], dict[str, Any]]] = []
 
         for rank, item in enumerate(retrieval[:16]):
             item_text = str(item.get("text", "") or "")
             text_upper = item_text.upper()
             section_name = _normalize(str(item.get("sectionName", "") or item.get("title", "")).strip())
+            candidate_entity_values = self._candidate_entity_values(item)
+            exact_requested_entity = bool(requested_entity_variants.intersection(candidate_entity_values))
+            related_requested_entity = bool(
+                requested_entity_variants
+                and any(
+                    variant in value or value in variant
+                    for variant in requested_entity_variants
+                    for value in candidate_entity_values
+                )
+            )
             exact_xml_tag = bool(item.get("xmlTagExactMatch"))
             exact_tag = bool(exact_xml_tag or item.get("fieldExactMatch") or item.get("normalizedFieldExactMatch"))
             exact_heading = bool(item.get("headingExactMatch"))
@@ -2667,10 +2854,16 @@ class ChatService:
             exact_field_code = bool(item.get("fieldCodeExactMatch")) or bool(query_field_codes and any(code in text_upper for code in query_field_codes))
             exact_section = bool(item.get("sectionNameExactMatch") or item.get("sectionPathMatch"))
             definition_section = 1.0 if structured_target.get("xmlTag") and "message details" in section_name else 0.0
-            related_field = bool(item.get("fieldContainsMatch") or item.get("normalizedFieldRootMatch") or item.get("headingContainsMatch"))
+            related_field = bool(item.get("fieldContainsMatch") or item.get("normalizedFieldRootMatch") or item.get("headingContainsMatch") or related_requested_entity)
             if structured_target.get("xmlTag") and not (exact_xml_tag or exact_section or exact_field_code):
                 continue
-            if not exact_field and not exact_field_code and not (field_lookup_question and related_field):
+            if requested_entity_variants and not exact_requested_entity and any(
+                requested_entity_variants.intersection(self._candidate_entity_values(candidate))
+                for candidate in retrieval[:16]
+            ):
+                if not exact_field_code:
+                    continue
+            if not exact_field and not exact_field_code and not exact_requested_entity and not (field_lookup_question and related_field):
                 continue
             page_numbers = [
                 int(page)
@@ -2682,6 +2875,7 @@ class ChatService:
                 (
                     (
                         1.0 if exact_xml_tag else 0.0,
+                        1.0 if exact_requested_entity else 0.0,
                         1.0 if exact_tag else 0.0,
                         1.0 if exact_field_code else 0.0,
                         definition_section,
@@ -2696,11 +2890,144 @@ class ChatService:
                     item,
                 )
             )
+            if exact_requested_entity:
+                exact_entity_candidates.append(candidates[-1])
 
+        if exact_entity_candidates:
+            exact_entity_candidates.sort(key=lambda item: item[0], reverse=True)
+            return exact_entity_candidates[0][1]
         if not candidates:
             return None
         candidates.sort(key=lambda item: item[0], reverse=True)
         return candidates[0][1]
+
+    def _parse_row_mapping(self, value: str) -> dict[str, str]:
+        mapping: dict[str, str] = {}
+        for fragment in [part.strip() for part in str(value or "").split(";") if part.strip()]:
+            if ":" not in fragment:
+                continue
+            key, raw_value = fragment.split(":", 1)
+            normalized_key = _normalize(key)
+            cleaned_value = " ".join(raw_value.split()).strip()
+            if normalized_key and cleaned_value:
+                mapping[normalized_key] = cleaned_value
+        return mapping
+
+    def _trade_net_list_answer_payload(
+        self,
+        question: str,
+        analysis: Any,
+        retrieval: list[dict[str, Any]],
+        sections: list[dict[str, Any]],
+        search_records: list[dict[str, Any]],
+        *,
+        allowed_document_names: list[str] | None = None,
+    ) -> dict[str, Any] | None:
+        if analysis.question_type not in {"COUNT_REQUEST", "LIST_REQUEST", "CODELIST_LOOKUP", "TABLE_LOOKUP"}:
+            return None
+        if not analysis.requested_entity:
+            return None
+
+        match = self._best_trade_net_field_match(question, retrieval, analysis=analysis)
+        if not match:
+            return None
+
+        allowed_documents = {_normalize(name) for name in (allowed_document_names or []) if _normalize(name)}
+        section_lookup = self._section_lookup(sections)
+        section = section_lookup.get(self._record_section_key(match), {})
+        if not section:
+            return None
+        document_name = str(section.get("documentName", "")).strip()
+        if allowed_documents and _normalize(document_name) not in allowed_documents:
+            return None
+        if not self._document_matches_requested_codes(document_name, analysis.document_codes):
+            return None
+
+        requested_variants = self._requested_entity_variants(analysis)
+        rows: list[tuple[str, str]] = []
+        seen_rows: set[tuple[str, str]] = set()
+        for record in search_records:
+            if self._record_section_key(record) != self._section_record_key(section):
+                continue
+            if _normalize(str(record.get("documentName", ""))) != _normalize(document_name):
+                continue
+            mapping = self._parse_row_mapping(record.get("fieldName", "") or record.get("text", ""))
+            if not mapping:
+                continue
+            code = mapping.get("code", "")
+            label = next((value for key, value in mapping.items() if key in requested_variants), "")
+            if not code or not label:
+                continue
+            row_key = (code, label.casefold())
+            if row_key in seen_rows:
+                continue
+            seen_rows.add(row_key)
+            rows.append((code, label))
+
+        normalized_entity = _normalize(analysis.requested_entity)
+        if not rows and normalized_entity == "transport mode":
+            for candidate_section in sections:
+                if _normalize(str(candidate_section.get("documentName", ""))) != _normalize(document_name):
+                    continue
+                section_id = str(candidate_section.get("id", "")).strip()
+                if not section_id.isdigit():
+                    continue
+                title = str(candidate_section.get("title", "")).strip()
+                title_label = re.sub(rf"^{re.escape(section_id)}\s*[.:-]?\s*", "", title).strip()
+                if title_label and not self._looks_like_structural_label(title_label) and len(title_label.split()) <= 5:
+                    row_key = (section_id, title_label.casefold())
+                    if row_key not in seen_rows:
+                        seen_rows.add(row_key)
+                        rows.append((section_id, title_label))
+                raw_text = str(candidate_section.get("rawText", "")).strip()
+                compact_lines = _nonempty_lines(raw_text)
+                if raw_text and compact_lines and len(compact_lines) <= 4:
+                    for item in self._extract_enumerated_items(raw_text):
+                        code = str(item.get("code", "")).strip()
+                        label = str(item.get("label", "")).strip()
+                        if not code or not label or self._looks_like_structural_label(label):
+                            continue
+                        row_key = (code, label.casefold())
+                        if row_key in seen_rows:
+                            continue
+                        seen_rows.add(row_key)
+                        rows.append((code, label))
+
+        if not rows:
+            return None
+
+        rows.sort(key=lambda item: item[0])
+        title = str(match.get("matchedField", "") or match.get("heading", "") or analysis.requested_entity).strip() or analysis.requested_entity
+        total_count = len(rows)
+        page_numbers = sorted({int(page) for page in section.get("sourcePages", []) if str(page).isdigit()})
+        source_payload = self._field_source_payload(section, match, heading=str(match.get("heading", "") or title).strip())
+        numbered_rows = "\n".join(f"{index}. {code} - {label}" for index, (code, label) in enumerate(rows, start=1))
+        answer_lines = [
+            "Title:",
+            title,
+            "",
+            "Total Count:",
+            str(total_count),
+            "",
+            "Complete List:",
+            numbered_rows,
+            "",
+            "Source:",
+            f"Document: {document_name}",
+            f"Section: {_section_label(section)}",
+            f"Pages: {', '.join(str(page) for page in page_numbers) if page_numbers else 'Not available'}",
+        ]
+        return {
+            "title": title,
+            "section": section,
+            "matchedItem": match,
+            "directAnswer": "\n".join(answer_lines).strip(),
+            "confidenceScore": max(0.98, float(match.get("confidence", 0.0))),
+            "sourcePayload": source_payload,
+            "relevantChapters": [_chapter_label(section)],
+            "relevantSections": [_section_label(section)],
+            "allowedValues": [f"{code}: {label}" for code, label in rows],
+        }
 
     def _field_detail_lines(self, question: str, item: dict[str, Any]) -> list[str]:
         query_codes = {code.upper() for code in extract_field_code_references(question)}
@@ -2835,9 +3162,10 @@ class ChatService:
         retrieval: list[dict[str, Any]],
         sections: list[dict[str, Any]],
         *,
+        analysis: Any | None = None,
         allowed_document_names: list[str] | None = None,
     ) -> dict[str, Any] | None:
-        match = self._best_trade_net_field_match(question, retrieval)
+        match = self._best_trade_net_field_match(question, retrieval, analysis=analysis)
         if not match:
             return None
 
@@ -4363,6 +4691,39 @@ class ChatService:
             return f"{cleaned_question}\n\nFollow-up context from the previous turn:\nQuestion: {previous_question}\nSource: {hint_text}"
         return f"{cleaned_question}\n\nFollow-up context from the previous turn:\nQuestion: {previous_question}"
 
+    def _bundle_cache_key(
+        self,
+        *,
+        question: str,
+        ai_model: str,
+        language: str,
+        current_document_name: str,
+        user_email: str,
+        conversation_turns: list[dict[str, Any]],
+    ) -> tuple[str, ...]:
+        last_turn = conversation_turns[-1] if conversation_turns else {}
+        last_turn_token = "|".join(
+            [
+                " ".join(str(last_turn.get("question", "")).split()).strip(),
+                " ".join(str(last_turn.get("answer", "")).split()).strip()[:120],
+                str((last_turn.get("metadata", {}) if isinstance(last_turn.get("metadata"), dict) else {}).get("documentName", "")).strip(),
+            ]
+        )
+        return (
+            " ".join(str(question or "").split()).strip(),
+            str(ai_model or "").strip(),
+            str(language or "").strip(),
+            str(current_document_name or "").strip(),
+            str(user_email or "").strip().lower(),
+            last_turn_token,
+        )
+
+    def _cached_bundle(self, cache_key: tuple[str, ...], cache_token: str | None) -> dict[str, Any] | None:
+        cached = self._bundle_cache.get(cache_key)
+        if not cached or cached[0] != cache_token:
+            return None
+        return json.loads(json.dumps(cached[1]))
+
     def _format_conversation_turns(self, conversation_turns: list[dict[str, Any]]) -> str:
         if not conversation_turns:
             return "None"
@@ -4561,6 +4922,27 @@ class ChatService:
         payload["languageUsed"] = language
         return payload
 
+    def _provider_runtime_fallback_answer(
+        self,
+        *,
+        question: str,
+        plan: RetrievalPlan,
+        ai_model: str,
+        language: str,
+        message: str,
+        answer: dict[str, Any] | None = None,
+    ) -> dict[str, Any]:
+        payload = dict(answer or self._empty_answer(question, plan, ai_model=ai_model, language=language))
+        fallback_answer = str(payload.get("directAnswer", "")).strip()
+        note = f"Note: {message}"
+        if fallback_answer and fallback_answer != MISSING_INFORMATION_MESSAGE:
+            payload["directAnswer"] = f"{fallback_answer}\n\n{note}"
+        else:
+            payload["directAnswer"] = note
+        payload["modelUsed"] = ai_model
+        payload["languageUsed"] = language
+        return payload
+
     def _prepare_answer_bundle(
         self,
         question: str,
@@ -4572,13 +4954,33 @@ class ChatService:
     ) -> dict[str, Any]:
         retrieval_started = perf_counter()
         index = knowledge_engine_service.load_index()
+        index_token = str(index.get("generatedAt", ""))
         ready_documents = self._ready_documents(index)
         failed_documents = self._failed_documents()
         conversation_turns = conversation_service.recent_turns(user_email, conversation_id)
         resolved_question = self._resolve_question(question, conversation_turns)
+        bundle_cache_key = self._bundle_cache_key(
+            question=resolved_question,
+            ai_model=ai_model,
+            language=language,
+            current_document_name=getattr(self, "_current_document_name", ""),
+            user_email=user_email,
+            conversation_turns=conversation_turns,
+        )
+        cached_bundle = self._cached_bundle(bundle_cache_key, index_token)
+        if cached_bundle is not None:
+            cached_bundle["retrievalTimeMs"] = round((perf_counter() - retrieval_started) * 1000, 2)
+            cached_bundle.setdefault("searchDebug", {})
+            cached_bundle["searchDebug"]["bundleCacheHit"] = True
+            return cached_bundle
         failed_document_match = self._match_failed_document(resolved_question, failed_documents)
         plan = retrieval_decision_service.detect_intent(resolved_question)
+        question_analysis = analyze_question(resolved_question)
         target_ready_document = self._match_ready_document(resolved_question, ready_documents)
+        explicit_scope_documents, explicit_document_requested = self._explicit_document_scope(
+            question_analysis.document_codes,
+            ready_documents,
+        )
         ready_document_count = len([document for document in index.get("documents", []) if str(document.get("status", "ready")) == "ready"])
 
         def _skip(
@@ -4651,16 +5053,49 @@ class ChatService:
 
         current_document_name = getattr(self, "_current_document_name", "")
         structured_target = self._structured_query_target(resolved_question)
+        trade_net_structured_question = self._is_trade_net_structured_question(
+            resolved_question,
+            plan,
+            question_analysis,
+        )
         if current_document_name:
             current_ready_document = self._find_ready_document_by_name(current_document_name, ready_documents)
 
+        if explicit_document_requested and not explicit_scope_documents and not failed_document_match:
+            answer = self._empty_answer(
+                question,
+                plan,
+                confidence_score=0.0,
+                ai_model=ai_model,
+                language=language,
+                direct_answer=SELECTED_DOCUMENT_NOT_FOUND_MESSAGE,
+            )
+            answer["questionUnderstood"] = resolved_question
+            return _skip(
+                answer,
+                "Rejected answer because the explicitly requested document is not available in the ready document set.",
+                search_debug={"requested_document_codes": list(question_analysis.document_codes)},
+                final_context_documents=[],
+            )
+
         if plan.intent == TRADE_NET_XML_FIELD_INTENT:
             selected_scope_label = "trade_net_xml_field"
-            trade_net_documents = self._trade_net_ready_documents(ready_documents)
-            if current_ready_document and self._is_trade_net_document(str(current_ready_document.get("name", ""))):
+            trade_net_documents = explicit_scope_documents or self._trade_net_ready_documents(ready_documents)
+            current_trade_net_document_allowed = bool(
+                current_ready_document
+                and self._is_trade_net_document(str(current_ready_document.get("name", "")))
+                and (
+                    not explicit_scope_documents
+                    or any(
+                        _normalize(str(current_ready_document.get("name", ""))) == _normalize(str(document.get("name", "")))
+                        for document in explicit_scope_documents
+                    )
+                )
+            )
+            if current_trade_net_document_allowed:
                 selected_document = current_ready_document
             elif trade_net_documents:
-                selected_document = trade_net_documents[0]
+                selected_document = target_ready_document if target_ready_document in trade_net_documents else trade_net_documents[0]
             if selected_document:
                 selected_document_name = str(selected_document.get("name", "")).strip()
                 retrieval, search_debug, locked_document_name = self._retrieve_trade_net_field_grounding(
@@ -4687,13 +5122,60 @@ class ChatService:
                     "selectionMethod": "trade_net_unavailable",
                     "rankedDocuments": [],
                 }
+        elif trade_net_structured_question:
+            selected_scope_label = "trade_net_structured"
+            trade_net_documents = explicit_scope_documents or self._trade_net_ready_documents(ready_documents)
+            candidate_documents = trade_net_documents or explicit_scope_documents or ready_documents
+            current_trade_net_document_allowed = bool(
+                current_ready_document
+                and self._is_trade_net_document(str(current_ready_document.get("name", "")))
+                and (
+                    not explicit_scope_documents
+                    or any(
+                        _normalize(str(current_ready_document.get("name", ""))) == _normalize(str(document.get("name", "")))
+                        for document in explicit_scope_documents
+                    )
+                )
+            )
+            if current_trade_net_document_allowed:
+                selected_document = current_ready_document
+                document_selection_debug = {
+                    "selectionMethod": "current_trade_net_document",
+                    "rankedDocuments": [
+                        {
+                            "name": str(current_ready_document.get("name", "")).strip(),
+                            "score": 25000.0,
+                            "reasons": ["current_trade_net_document"],
+                        }
+                    ],
+                }
+            else:
+                selected_document, document_selection_debug = self._select_best_document(
+                    question=resolved_question,
+                    plan=plan,
+                    ready_documents=candidate_documents,
+                    explicit_document=target_ready_document if target_ready_document in candidate_documents and len(candidate_documents) == 1 else None,
+                    current_document=current_ready_document if current_ready_document in candidate_documents else None,
+                )
+            if selected_document:
+                selected_document_name = str(selected_document.get("name", "")).strip()
+                allowed_document_names = [selected_document_name] if selected_document_name else []
+                retrieval, search_debug = self._retrieve_grounding(
+                    resolved_question,
+                    plan,
+                    scope_label=selected_scope_label,
+                    target_document_name=selected_document_name,
+                    document_names=allowed_document_names,
+                    collection_filters=None,
+                )
         else:
+            candidate_documents = explicit_scope_documents or ready_documents
             selected_document, document_selection_debug = self._select_best_document(
                 question=resolved_question,
                 plan=plan,
-                ready_documents=ready_documents,
-                explicit_document=target_ready_document,
-                current_document=current_ready_document,
+                ready_documents=candidate_documents,
+                explicit_document=target_ready_document if target_ready_document in candidate_documents and len(candidate_documents) == 1 else None,
+                current_document=current_ready_document if current_ready_document in candidate_documents else None,
             )
             if selected_document:
                 selected_document_name = str(selected_document.get("name", "")).strip()
@@ -4720,24 +5202,61 @@ class ChatService:
         workflows = index.get("workflows", [])
         chunks = index.get("chunks", [])
         examples = index.get("examples", [])
+        search_records = index.get("searchRecords", [])
 
+        if allowed_document_names and question_analysis.document_codes and not any(
+            self._document_matches_requested_codes(document_name, question_analysis.document_codes)
+            for document_name in allowed_document_names
+        ):
+            answer = self._empty_answer(
+                question,
+                plan,
+                confidence_score=0.0,
+                ai_model=ai_model,
+                language=language,
+                direct_answer=SELECTED_DOCUMENT_NOT_FOUND_MESSAGE,
+            )
+            answer["questionUnderstood"] = resolved_question
+            search_debug["requested_document_codes"] = list(question_analysis.document_codes)
+            return _skip(
+                answer,
+                "Rejected answer because the selected ready document did not match the explicitly requested document code.",
+                search_debug=search_debug,
+                final_context_documents=allowed_document_names,
+                retrieval_items=retrieval,
+            )
+
+        list_answer_payload = None
         field_answer_payload = None
         if retrieval and allowed_document_names:
             selected_document_name = allowed_document_names[0]
             selected_document_is_trade_net = self._is_trade_net_document(selected_document_name)
-            if plan.intent == TRADE_NET_XML_FIELD_INTENT or (
-                selected_document_is_trade_net and self._is_trade_net_field_lookup_question(resolved_question)
+            if selected_document_is_trade_net:
+                list_answer_payload = self._trade_net_list_answer_payload(
+                    resolved_question,
+                    question_analysis,
+                    retrieval,
+                    sections,
+                    search_records,
+                    allowed_document_names=allowed_document_names,
+                )
+            is_structured_list_request = question_analysis.question_type in {"COUNT_REQUEST", "LIST_REQUEST", "CODELIST_LOOKUP", "TABLE_LOOKUP"}
+            if not list_answer_payload and not is_structured_list_request and (
+                plan.intent == TRADE_NET_XML_FIELD_INTENT
+                or (selected_document_is_trade_net and self._is_trade_net_field_lookup_question(resolved_question))
             ):
                 field_answer_payload = self._field_query_answer_payload(
                     resolved_question,
                     retrieval,
                     sections,
+                    analysis=question_analysis,
                     allowed_document_names=allowed_document_names,
                 )
 
         if (
             (plan.intent == TRADE_NET_XML_FIELD_INTENT or self._is_trade_net_field_lookup_question(resolved_question))
             and allowed_document_names
+            and not list_answer_payload
             and not field_answer_payload
         ):
             answer = self._empty_answer(
@@ -4755,6 +5274,46 @@ class ChatService:
                 search_debug=search_debug,
                 final_context_documents=allowed_document_names,
                 retrieval_items=retrieval,
+            )
+
+        if list_answer_payload:
+            section = list_answer_payload["section"]
+            source_payload = list_answer_payload["sourcePayload"]
+            matched_item = list_answer_payload["matchedItem"]
+            answer = self._empty_answer(
+                question,
+                plan,
+                direct_answer=list_answer_payload["directAnswer"],
+                confidence_score=float(list_answer_payload["confidenceScore"]),
+                ai_model=ai_model,
+                language=language,
+            )
+            answer.update(
+                {
+                    "questionUnderstood": resolved_question,
+                    "title": list_answer_payload["title"] or str(section.get("title", "")).strip(),
+                    "sectionId": str(section.get("id", "")).strip(),
+                    "chapterNumber": str(section.get("chapterNumber", "")).strip(),
+                    "detectedIntent": plan.intent,
+                    "detectedTopic": plan.topic,
+                    "knowledgeSourcesUsed": list(plan.knowledge_sources),
+                    "relevantChapters": list(list_answer_payload["relevantChapters"]),
+                    "relevantSections": list(list_answer_payload["relevantSections"]),
+                    "importantNotes": list(list_answer_payload.get("allowedValues", [])),
+                    "modelUsed": ai_model,
+                    "languageUsed": language,
+                    **source_payload,
+                }
+            )
+            search_debug["selected_section"] = _section_label(section)
+            search_debug["requested_entity"] = question_analysis.requested_entity
+            return _skip(
+                answer,
+                "Answered from exact TradeNet list or code-list grounding without semantic fallback.",
+                search_debug=search_debug,
+                final_context_documents=source_payload.get("sourcePdfs", []),
+                retrieval_items=retrieval,
+                selected_chunks_payload=[matched_item],
             )
 
         if field_answer_payload:
@@ -5151,7 +5710,7 @@ class ChatService:
             include_full_section_text=full_content_request or plan.intent == "Section Request" or is_xml_field_query(resolved_question),
         )
 
-        return {
+        bundle = {
             "skipLlm": False,
             "answer": answer,
             "plan": plan,
@@ -5165,6 +5724,8 @@ class ChatService:
             "llmContext": llm_context,
             "retrievalTimeMs": round((perf_counter() - retrieval_started) * 1000, 2),
         }
+        self._bundle_cache[bundle_cache_key] = (index_token, json.loads(json.dumps(bundle)))
+        return bundle
 
     def build_answer(
         self,
@@ -5236,6 +5797,27 @@ class ChatService:
             )
             answer["telemetry"] = {
                 "provider": "configuration_error",
+                "displayModel": ai_model,
+                "apiModel": "",
+                "retrievalTimeMs": bundle["retrievalTimeMs"],
+                "llmResponseTimeMs": round((perf_counter() - llm_started) * 1000, 2),
+                "promptTokens": None,
+                "completionTokens": None,
+                "totalTokens": None,
+                "totalCostUsd": None,
+            }
+        except LLMRuntimeError as exc:
+            logger.warning("dekai_llm_runtime_fallback %s", str(exc))
+            answer = self._provider_runtime_fallback_answer(
+                question=question,
+                plan=plan,
+                ai_model=ai_model,
+                language=language,
+                message=str(exc),
+                answer=answer,
+            )
+            answer["telemetry"] = {
+                "provider": "runtime_error",
                 "displayModel": ai_model,
                 "apiModel": "",
                 "retrievalTimeMs": bundle["retrievalTimeMs"],
@@ -5369,6 +5951,27 @@ class ChatService:
             )
             answer["telemetry"] = {
                 "provider": "configuration_error",
+                "displayModel": ai_model,
+                "apiModel": "",
+                "retrievalTimeMs": bundle["retrievalTimeMs"],
+                "llmResponseTimeMs": round((perf_counter() - llm_started) * 1000, 2),
+                "promptTokens": None,
+                "completionTokens": None,
+                "totalTokens": None,
+                "totalCostUsd": None,
+            }
+        except LLMRuntimeError as exc:
+            logger.warning("dekai_llm_runtime_fallback %s", str(exc))
+            answer = self._provider_runtime_fallback_answer(
+                question=question,
+                plan=plan,
+                ai_model=ai_model,
+                language=language,
+                message=str(exc),
+                answer=answer,
+            )
+            answer["telemetry"] = {
+                "provider": "runtime_error",
                 "displayModel": ai_model,
                 "apiModel": "",
                 "retrievalTimeMs": bundle["retrievalTimeMs"],

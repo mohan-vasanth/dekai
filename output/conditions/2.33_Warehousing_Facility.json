@@ -1,0 +1,35 @@
+{
+  "section": "2.33",
+  "conditions": [
+    "Goods can be cleared against Bill\nof Entry for home consumption, on payment of custom duty and on submission\nof Authorisation wherever required, after an order for clearance of such goods\nfor home consumption is issued by competent customs authorities.",
+    "In case of\nclearance against duty free categories /concessional duty categories, exemption\n/ concession from duty shall be allowed.",
+    "CERTIFICATES\n2.33 Warehousing Facility\n(a)\nPublic / Private Customs Bonded Warehouses may be set up in DTA as per\nChapter-IX of Customs Act, 1962, to import items in terms of Paragraph 2.36 of\nFTP.",
+    "CERTIFICATES"
+  ],
+  "condition_logic": [
+    {
+      "id": "2.2.33.1",
+      "if": "Goods can be cleared against Bill\nof Entry for home consumption, on payment of custom duty and on submission\nof Authorisation wherever required, after an order for clearance of such goods\nfor home consumption is issued by competent customs authorities.",
+      "then": "On receipt of goods, such warehouses shall keep these goods for one year\nwithout payment of applicable customs duties.",
+      "source": "Goods can be cleared against Bill\nof Entry for home consumption, on payment of custom duty and on submission\nof Authorisation wherever required, after an order for clearance of such goods\nfor home consumption is issued by competent customs authorities."
+    },
+    {
+      "id": "2.2.33.2",
+      "if": "In case of\nclearance against duty free categories /concessional duty categories, exemption\n/ concession from duty shall be allowed.",
+      "then": "On receipt of goods, such warehouses shall keep these goods for one year\nwithout payment of applicable customs duties.",
+      "source": "In case of\nclearance against duty free categories /concessional duty categories, exemption\n/ concession from duty shall be allowed."
+    },
+    {
+      "id": "2.2.33.3",
+      "if": "CERTIFICATES\n2.33 Warehousing Facility\n(a)\nPublic / Private Customs Bonded Warehouses may be set up in DTA as per\nChapter-IX of Customs Act, 1962, to import items in terms of Paragraph 2.36 of\nFTP.",
+      "then": "On receipt of goods, such warehouses shall keep these goods for one year\nwithout payment of applicable customs duties.",
+      "source": "CERTIFICATES\n2.33 Warehousing Facility\n(a)\nPublic / Private Customs Bonded Warehouses may be set up in DTA as per\nChapter-IX of Customs Act, 1962, to import items in terms of Paragraph 2.36 of\nFTP."
+    },
+    {
+      "id": "2.2.33.4",
+      "if": "CERTIFICATES",
+      "then": "On receipt of goods, such warehouses shall keep these goods for one year\nwithout payment of applicable customs duties.",
+      "source": "CERTIFICATES"
+    }
+  ]
+}

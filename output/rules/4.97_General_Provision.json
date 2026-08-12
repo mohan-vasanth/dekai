@@ -1,0 +1,44 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.97",
+  "title": "General Provision",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_97-R001",
+      "rule_description": "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+      "trigger": "General Provision",
+      "condition": "No ARO/Invalidation letter/Certificate of supply (Co S) is allowed against DIA.",
+      "validation": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "action": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.97 - General Provision."
+    },
+    {
+      "rule_id": "CH4-SEC4_97-R002",
+      "rule_description": "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue.",
+      "trigger": "General Provision",
+      "condition": "Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+      "validation": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "action": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.97 - General Provision."
+    },
+    {
+      "rule_id": "CH4-SEC4_97-R003",
+      "rule_description": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "trigger": "General Provision",
+      "condition": "Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue.",
+      "validation": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "action": "Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.97 - General Provision."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Imported material may be used in any unit of Diamond Imprest Authorisation\nholder subject to condition of paragraph 4.10 of this Handbook or by jobber\n/ supporting manufacturer, provided same is endorsed on authorisation by\nRegional Authority.",
+    "IF detected context matches section rule THEN enforce: Goods exported under Diamond Imprest Authorisation may be re-imported\nin same or substantially same form subject to such conditions as may be\nspecified by Department of Revenue.",
+    "IF detected context matches section rule THEN enforce: Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import.",
+    "IF validations pass THEN recommend action: Authorisation holder shall also inform\nabout such re- importation to the Regional Authority which had issued the\nAuthorisation within one month from the date of re-import."
+  ]
+}

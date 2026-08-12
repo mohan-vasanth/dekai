@@ -4,6 +4,7 @@ import json
 import re
 from collections import defaultdict
 from datetime import datetime, timezone
+from html import escape
 from pathlib import Path
 from typing import Any
 
@@ -80,6 +81,22 @@ class KnowledgeEngineService:
         self.schema_path = runtime_store.knowledge_schema_path
 
     def _index_requires_refresh(self, payload: dict[str, Any]) -> bool:
+        required_top_level_keys = {
+            "documentMemories",
+            "sectionMemories",
+            "fieldMemories",
+            "tableMemories",
+            "ruleMemories",
+            "definitionMemories",
+            "exampleMemories",
+            "relationshipMemories",
+            "keywordMemories",
+            "entityMemories",
+            "synonymMemories",
+            "indexes",
+        }
+        if any(key not in payload for key in required_top_level_keys):
+            return True
         for collection_name in ("chunks", "searchRecords"):
             for item in payload.get(collection_name, []):
                 if not isinstance(item, dict):
@@ -290,6 +307,7 @@ class KnowledgeEngineService:
                 "title": title,
                 "chapterNumber": chapter_number,
                 "chapterTitle": str(section_payload.get("chapter_title", "DGFT Chapter")),
+                "documentTitle": Path(document_name).stem,
                 "documentName": document_name,
                 "documentType": _infer_document_type(document_name),
                 "sectionName": _section_name(section_id, title),
@@ -342,8 +360,15 @@ class KnowledgeEngineService:
                 "relatedSections": related_sections,
                 "sourcePages": pages,
                 "rawText": raw_text,
+                "keyValuePairs": self._extract_key_value_pairs(raw_text),
+                "codeBlocks": self._extract_code_blocks(raw_text),
+                "references": self._extract_references(raw_text),
+                "enumerations": self._extract_enumerations(raw_text),
             }
+            section_record["fieldDefinitions"] = self._field_definitions(section_record)
+            section_record["semanticTree"] = self._section_semantic_tree(section_record)
             section_record["tableRows"] = self._extract_table_rows(section_record, raw_text, pages)
+            section_record["codeLists"] = self._extract_code_lists(section_record)
             section_record["hsCodes"] = unique_preserve(
                 [*section_record["hsCodes"], *[code for row in section_record["tableRows"] for code in row.get("hsCodes", [])]]
             )
@@ -460,6 +485,95 @@ class KnowledgeEngineService:
 
             chunks.extend(section_record["tableRows"])
 
+            for field_index, field_definition in enumerate(section_record["fieldDefinitions"], start=1):
+                field_record = {
+                    "id": str(field_definition.get("id", "")) or f"{section_id}-field-{field_index}",
+                    "sectionId": section_id,
+                    "title": str(field_definition.get("fieldName", "") or field_definition.get("xmlTag", "") or title).strip(),
+                    "chapterNumber": chapter_number,
+                    "chapterTitle": section_record["chapterTitle"],
+                    "documentName": document_name,
+                    "fieldCode": str(field_definition.get("fieldCode", "")).strip(),
+                    "fieldName": str(field_definition.get("fieldName", "")).strip(),
+                    "xmlTag": str(field_definition.get("xmlTag", "")).strip(),
+                    "tagName": str(field_definition.get("tagName", "")).strip(),
+                    "normalizedTagName": str(field_definition.get("normalizedTagName", "")).strip(),
+                    "namespace": str(field_definition.get("namespace", "")).strip(),
+                    "aliases": unique_preserve(field_definition.get("aliases", [])),
+                    "summary": str(field_definition.get("summary", "")).strip(),
+                    "required": bool(field_definition.get("required", False)),
+                    "allowedValues": unique_preserve(field_definition.get("allowedValues", [])),
+                    "sourcePages": pages,
+                }
+                search_records.append(
+                    self._search_record(
+                        "field",
+                        field_record["id"],
+                        field_record["title"],
+                        " ".join(
+                            [
+                                field_record["summary"],
+                                " ".join(field_record["aliases"]),
+                                " ".join(field_record["allowedValues"]),
+                                "mandatory" if field_record["required"] else "",
+                            ]
+                        ).strip(),
+                        section_record,
+                        pages,
+                        extra={
+                            "heading": field_record["title"],
+                            "fieldNames": unique_preserve(
+                                [
+                                    field_record["fieldName"],
+                                    field_record["xmlTag"],
+                                    field_record["tagName"],
+                                    field_record["normalizedTagName"],
+                                    *field_record["aliases"],
+                                ]
+                            ),
+                            "fieldCode": field_record["fieldCode"],
+                            "fieldName": field_record["fieldName"] or field_record["title"],
+                            "xmlTag": field_record["xmlTag"],
+                            "tagName": field_record["tagName"],
+                            "normalizedTagName": field_record["normalizedTagName"],
+                            "namespace": field_record["namespace"],
+                            "documentType": section_record.get("documentType", ""),
+                            "sectionName": section_record.get("sectionName", ""),
+                            "sectionPath": section_record.get("sectionPath", ""),
+                            "sourceText": field_record["summary"],
+                            "searchAliases": field_record["aliases"],
+                            "required": field_record["required"],
+                            "allowedValues": field_record["allowedValues"],
+                        },
+                    )
+                )
+
+            for table_index, table in enumerate(section_record["tables"], start=1):
+                table_title = f"{title} Table {table_index}"
+                flattened_rows = [" | ".join(str(cell) for cell in row if str(cell).strip()) for row in table[:8]]
+                html_table = self._render_html_table(table)
+                search_records.append(
+                    self._search_record(
+                        "table",
+                        f"{section_id}-table-{table_index}",
+                        table_title,
+                        " ".join(flattened_rows),
+                        section_record,
+                        pages,
+                        extra={
+                            "heading": table_title,
+                            "fieldNames": unique_preserve(table[0] if table else []),
+                            "documentType": section_record.get("documentType", ""),
+                            "sectionName": section_record.get("sectionName", ""),
+                            "sectionPath": f'{section_record.get("sectionPath", "")} > Table {table_index}'.strip(),
+                            "sourceText": "\n".join(flattened_rows),
+                            "htmlTable": html_table,
+                            "tableColumns": unique_preserve(table[0] if table else []),
+                            "tableRows": table[1:] if len(table) > 1 else [],
+                        },
+                    )
+                )
+
             for rule in section_record["businessRules"]:
                 rule_record = {
                     "id": rule["id"],
@@ -562,15 +676,17 @@ class KnowledgeEngineService:
                 )
 
             for index, example in enumerate(section_record["examples"], start=1):
-                examples.append(
-                    {
-                        "id": f"{section_id}-example-{index}",
-                        "text": _clean(example, 220),
-                        "sectionId": section_id,
-                        "chapterNumber": chapter_number,
-                        "documentName": document_name,
-                        "sourcePages": pages,
-                    }
+                example_record = {
+                    "id": f"{section_id}-example-{index}",
+                    "text": _clean(example, 220),
+                    "sectionId": section_id,
+                    "chapterNumber": chapter_number,
+                    "documentName": document_name,
+                    "sourcePages": pages,
+                }
+                examples.append(example_record)
+                search_records.append(
+                    self._search_record("example", example_record["id"], title, example_record["text"], section_record, pages)
                 )
 
             for faq_index, faq_item in enumerate(faq_items, start=1):
@@ -754,6 +870,29 @@ class KnowledgeEngineService:
             )
 
         documents = self._documents(master, chapter_reports, report_by_document)
+        document_memories = self._document_memories(documents, sections)
+        section_memories = self._section_memories(sections)
+        field_memories = self._field_memories(sections)
+        table_memories = self._table_memories(sections)
+        rule_memories = self._rule_memories(rules)
+        definition_memories = self._definition_memories(definitions)
+        example_memories = self._example_memories(examples)
+        relationship_memories = self._relationship_memories(relationships)
+        keyword_memories = self._keyword_memories(keywords, sections)
+        entity_memories = self._entity_memories(sections, documents)
+        synonym_memories = self._synonym_memories(field_memories, documents, sections)
+        indexes = self._memory_indexes(
+            documents=documents,
+            sections=sections,
+            chunks=chunks,
+            search_records=search_records,
+            field_memories=field_memories,
+            table_memories=table_memories,
+            relationship_memories=relationship_memories,
+            keyword_memories=keyword_memories,
+            entity_memories=entity_memories,
+            synonym_memories=synonym_memories,
+        )
         statistics = {
             "documents": len(documents),
             "pages": sum(document["pages"] for document in documents),
@@ -770,6 +909,12 @@ class KnowledgeEngineService:
             "faqs": len(faqs),
             "keywords": len(keywords),
             "relationships": len(relationships),
+            "fieldMemories": len(field_memories),
+            "tableMemories": len(table_memories),
+            "documentMemories": len(document_memories),
+            "sectionMemories": len(section_memories),
+            "entityMemories": len(entity_memories),
+            "synonymMemories": len(synonym_memories),
             "embeddings": len(chunks) + len(search_records) + len(concepts),
             "vectorCount": len(chunks) + len(search_records) + len(concepts),
         }
@@ -795,6 +940,18 @@ class KnowledgeEngineService:
             "relationships": relationships,
             "chunks": chunks,
             "searchRecords": search_records,
+            "documentMemories": document_memories,
+            "sectionMemories": section_memories,
+            "fieldMemories": field_memories,
+            "tableMemories": table_memories,
+            "ruleMemories": rule_memories,
+            "definitionMemories": definition_memories,
+            "exampleMemories": example_memories,
+            "relationshipMemories": relationship_memories,
+            "keywordMemories": keyword_memories,
+            "entityMemories": entity_memories,
+            "synonymMemories": synonym_memories,
+            "indexes": indexes,
             "concepts": concepts,
             "knowledgeGraph": {"nodes": concepts, "edges": relationships},
             "statistics": statistics,
@@ -1026,6 +1183,444 @@ class KnowledgeEngineService:
             )
         return explorer
 
+    def _normalize_index_key(self, value: Any) -> str:
+        return _normalize_name(str(value or ""))
+
+    def _document_memories(self, documents: list[dict[str, Any]], sections: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        sections_by_document: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        for section in sections:
+            sections_by_document[str(section.get("documentName", ""))].append(section)
+
+        memories: list[dict[str, Any]] = []
+        for document in documents:
+            document_name = str(document.get("name", "")).strip()
+            document_sections = sections_by_document.get(document_name, [])
+            memories.append(
+                {
+                    "id": f'document-memory::{document.get("id", "")}',
+                    "documentId": document.get("id", ""),
+                    "documentName": document_name,
+                    "documentType": _infer_document_type(document_name),
+                    "summary": str(document.get("summary", "")).strip(),
+                    "keywords": unique_preserve(
+                        [
+                            *[str(section.get("title", "")) for section in document_sections[:10]],
+                            *[keyword for section in document_sections[:8] for keyword in section.get("keywords", [])[:6]],
+                        ]
+                    )[:40],
+                    "entities": unique_preserve(
+                        [
+                            *[str(section.get("documentType", "")) for section in document_sections if str(section.get("documentType", "")).strip()],
+                            *[code for section in document_sections for code in section.get("hsCodes", [])[:4]],
+                            *[str(field.get("fieldName", "")) for section in document_sections for field in section.get("fieldDefinitions", [])[:6]],
+                        ]
+                    )[:40],
+                    "chapters": unique_preserve(str(section.get("chapterNumber", "")) for section in document_sections if str(section.get("chapterNumber", "")).strip()),
+                    "sections": unique_preserve(str(section.get("id", "")) for section in document_sections if str(section.get("id", "")).strip()),
+                    "tree": [
+                        {
+                            "chapter": str(section.get("chapterNumber", "")).strip(),
+                            "section": str(section.get("id", "")).strip(),
+                            "title": str(section.get("title", "")).strip(),
+                            "children": list(section.get("semanticTree", [])),
+                        }
+                        for section in document_sections
+                    ],
+                    "vector": embedding_service.embed_text(
+                        " ".join(
+                            [
+                                document_name,
+                                str(document.get("summary", "")),
+                                " ".join(str(section.get("title", "")) for section in document_sections[:12]),
+                            ]
+                        )
+                    ),
+                }
+            )
+        return memories
+
+    def _section_memories(self, sections: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        return [
+            {
+                "id": f'section-memory::{section.get("documentName", "")}::{section.get("id", "")}',
+                "documentId": "-".join("".join(char.lower() if char.isalnum() else "-" for char in str(section.get("documentName", ""))).split("-")),
+                "documentName": section.get("documentName", ""),
+                "chapter": section.get("chapterNumber", ""),
+                "section": section.get("id", ""),
+                "subsection": "",
+                "page": section.get("sourcePages", [0])[0] if section.get("sourcePages") else 0,
+                "heading": section.get("title", ""),
+                "aliases": unique_preserve([section.get("title", ""), section.get("sectionName", "")]),
+                "keywords": unique_preserve(section.get("keywords", [])),
+                "entities": unique_preserve(
+                    [
+                        *section.get("hsCodes", []),
+                        *[definition.get("term", "") for definition in section.get("definitions", []) if isinstance(definition, dict)],
+                        *[field.get("fieldName", "") for field in section.get("fieldDefinitions", []) if isinstance(field, dict)],
+                    ]
+                ),
+                "relationships": unique_preserve(section.get("relatedSections", [])),
+                "summary": str(section.get("summary", "")).strip(),
+                "vector": embedding_service.embed_text(
+                    " ".join(
+                        [
+                            str(section.get("title", "")),
+                            str(section.get("summary", "")),
+                            " ".join(section.get("keywords", [])[:20]),
+                            " ".join(section.get("fieldNames", [])[:20]),
+                        ]
+                    )
+                ),
+            }
+            for section in sections
+        ]
+
+    def _field_memories(self, sections: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        memories: list[dict[str, Any]] = []
+        for section in sections:
+            for index, field in enumerate(section.get("fieldDefinitions", []), start=1):
+                if not isinstance(field, dict):
+                    continue
+                field_name = str(field.get("fieldName", "")).strip() or str(field.get("xmlTag", "")).strip()
+                if not field_name:
+                    continue
+                field_code = str(field.get("fieldCode", "")).strip()
+                xml_tag = str(field.get("xmlTag", "")).strip()
+                aliases = unique_preserve(field.get("aliases", []))
+                memories.append(
+                    {
+                        "id": str(field.get("id", "")) or f'{section.get("id", "")}-field-memory-{index}',
+                        "documentId": "-".join("".join(char.lower() if char.isalnum() else "-" for char in str(section.get("documentName", ""))).split("-")),
+                        "documentName": section.get("documentName", ""),
+                        "chapter": section.get("chapterNumber", ""),
+                        "section": section.get("id", ""),
+                        "subsection": str(field.get("parentId", "")).strip(),
+                        "page": section.get("sourcePages", [0])[0] if section.get("sourcePages") else 0,
+                        "field": field_name,
+                        "fieldCode": field_code,
+                        "xmlTag": xml_tag,
+                        "aliases": aliases,
+                        "keywords": unique_preserve([field_name, field_code, xml_tag, *aliases]),
+                        "entities": unique_preserve(field.get("allowedValues", [])),
+                        "relationships": unique_preserve([str(field.get("parentId", "")).strip()]),
+                        "summary": str(field.get("summary", "")).strip(),
+                        "required": bool(field.get("required", False)),
+                        "vector": embedding_service.embed_text(
+                            " ".join([field_name, field_code, xml_tag, str(field.get("summary", "")), " ".join(aliases)])
+                        ),
+                    }
+                )
+        return memories
+
+    def _table_memories(self, sections: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        memories: list[dict[str, Any]] = []
+        for section in sections:
+            for index, table in enumerate(section.get("tables", []), start=1):
+                if not isinstance(table, list) or not table:
+                    continue
+                columns = unique_preserve(table[0] if table else [])
+                row_text = [" | ".join(str(cell) for cell in row if str(cell).strip()) for row in table[1:9]]
+                memories.append(
+                    {
+                        "id": f'{section.get("id", "")}-table-memory-{index}',
+                        "documentId": "-".join("".join(char.lower() if char.isalnum() else "-" for char in str(section.get("documentName", ""))).split("-")),
+                        "documentName": section.get("documentName", ""),
+                        "chapter": section.get("chapterNumber", ""),
+                        "section": section.get("id", ""),
+                        "page": section.get("sourcePages", [0])[0] if section.get("sourcePages") else 0,
+                        "heading": f'{section.get("title", "")} Table {index}',
+                        "columns": columns,
+                        "rows": table[1:] if len(table) > 1 else [],
+                        "html": self._render_html_table(table),
+                        "aliases": columns,
+                        "keywords": unique_preserve([*columns, *section.get("keywords", [])[:12]]),
+                        "summary": " ".join(row_text[:4]).strip(),
+                        "vector": embedding_service.embed_text(
+                            " ".join([str(section.get("title", "")), " ".join(columns), " ".join(row_text[:6])])
+                        ),
+                    }
+                )
+        return memories
+
+    def _rule_memories(self, rules: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        return [
+            {
+                "id": f'rule-memory::{rule.get("id", "")}',
+                "documentName": rule.get("documentName", ""),
+                "chapter": rule.get("chapterNumber", ""),
+                "section": rule.get("sectionId", ""),
+                "aliases": unique_preserve([rule.get("ruleName", ""), rule.get("sectionTitle", "")]),
+                "keywords": unique_preserve([rule.get("ruleName", ""), rule.get("condition", ""), rule.get("exception", "")]),
+                "summary": rule.get("description", ""),
+            }
+            for rule in rules
+        ]
+
+    def _definition_memories(self, definitions: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        return [
+            {
+                "id": f'definition-memory::{item.get("id", "")}',
+                "documentName": item.get("documentName", ""),
+                "chapter": item.get("chapterNumber", ""),
+                "section": item.get("sectionId", ""),
+                "field": item.get("term", ""),
+                "aliases": unique_preserve([item.get("term", "")]),
+                "summary": item.get("definition", ""),
+            }
+            for item in definitions
+        ]
+
+    def _example_memories(self, examples: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        return [
+            {
+                "id": f'example-memory::{item.get("id", "")}',
+                "documentName": item.get("documentName", ""),
+                "chapter": item.get("chapterNumber", ""),
+                "section": item.get("sectionId", ""),
+                "summary": item.get("text", ""),
+            }
+            for item in examples
+        ]
+
+    def _relationship_memories(self, relationships: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        return [
+            {
+                "id": f'relationship-memory::{item.get("id", "")}',
+                "sourceType": item.get("sourceType", ""),
+                "sourceId": item.get("sourceId", ""),
+                "targetType": item.get("targetType", ""),
+                "targetId": item.get("targetId", ""),
+                "relation": item.get("relation", ""),
+            }
+            for item in relationships
+        ]
+
+    def _keyword_memories(self, keywords: list[dict[str, Any]], sections: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        section_lookup = {str(section.get("id", "")): section for section in sections}
+        memories: list[dict[str, Any]] = []
+        for item in keywords:
+            section = section_lookup.get(str(item.get("sectionId", "")), {})
+            memories.append(
+                {
+                    "id": f'keyword-memory::{item.get("id", "")}',
+                    "documentName": item.get("documentName", ""),
+                    "chapter": item.get("chapterNumber", ""),
+                    "section": item.get("sectionId", ""),
+                    "keyword": item.get("term", ""),
+                    "summary": str(section.get("summary", "")).strip(),
+                }
+            )
+        return memories
+
+    def _entity_memories(self, sections: list[dict[str, Any]], documents: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        memories: list[dict[str, Any]] = []
+        document_lookup = {str(document.get("name", "")): document for document in documents}
+        for section in sections:
+            entities = unique_preserve(
+                [
+                    *section.get("hsCodes", []),
+                    *[definition.get("term", "") for definition in section.get("definitions", []) if isinstance(definition, dict)],
+                    *[field.get("fieldName", "") for field in section.get("fieldDefinitions", []) if isinstance(field, dict)],
+                ]
+            )
+            for entity in entities:
+                if not str(entity).strip():
+                    continue
+                document = document_lookup.get(str(section.get("documentName", "")), {})
+                memories.append(
+                    {
+                        "id": f'entity-memory::{section.get("id", "")}::{self._normalize_index_key(entity)}',
+                        "documentId": document.get("id", ""),
+                        "documentName": section.get("documentName", ""),
+                        "chapter": section.get("chapterNumber", ""),
+                        "section": section.get("id", ""),
+                        "entity": entity,
+                        "aliases": field_search_aliases(str(entity)),
+                        "summary": str(section.get("summary", "")).strip(),
+                    }
+                )
+        return memories
+
+    def _synonym_memories(
+        self,
+        field_memories: list[dict[str, Any]],
+        documents: list[dict[str, Any]],
+        sections: list[dict[str, Any]],
+    ) -> list[dict[str, Any]]:
+        document_aliases = {
+            str(document.get("name", "")): unique_preserve(
+                [
+                    str(document.get("name", "")),
+                    Path(str(document.get("name", ""))).stem,
+                    str(document.get("chapterTitle", "")),
+                ]
+            )
+            for document in documents
+        }
+        section_aliases = {
+            f'{section.get("documentName", "")}::{section.get("id", "")}': unique_preserve(
+                [
+                    str(section.get("title", "")),
+                    str(section.get("sectionName", "")),
+                    f'{section.get("id", "")} {section.get("title", "")}'.strip(),
+                ]
+            )
+            for section in sections
+        }
+        memories: list[dict[str, Any]] = []
+        for field in field_memories:
+            aliases = unique_preserve([field.get("field", ""), field.get("fieldCode", ""), field.get("xmlTag", ""), *field.get("aliases", [])])
+            memories.append(
+                {
+                    "id": f'synonym-memory::{field.get("id", "")}',
+                    "targetType": "field",
+                    "targetId": field.get("id", ""),
+                    "aliases": aliases,
+                }
+            )
+        for document_name, aliases in document_aliases.items():
+            memories.append(
+                {
+                    "id": f'synonym-memory::document::{self._normalize_index_key(document_name)}',
+                    "targetType": "document",
+                    "targetId": document_name,
+                    "aliases": aliases,
+                }
+            )
+        for key, aliases in section_aliases.items():
+            memories.append(
+                {
+                    "id": f'synonym-memory::section::{self._normalize_index_key(key)}',
+                    "targetType": "section",
+                    "targetId": key,
+                    "aliases": aliases,
+                }
+            )
+        return memories
+
+    def _memory_indexes(
+        self,
+        *,
+        documents: list[dict[str, Any]],
+        sections: list[dict[str, Any]],
+        chunks: list[dict[str, Any]],
+        search_records: list[dict[str, Any]],
+        field_memories: list[dict[str, Any]],
+        table_memories: list[dict[str, Any]],
+        relationship_memories: list[dict[str, Any]],
+        keyword_memories: list[dict[str, Any]],
+        entity_memories: list[dict[str, Any]],
+        synonym_memories: list[dict[str, Any]],
+    ) -> dict[str, Any]:
+        keyword_index: dict[str, list[str]] = defaultdict(list)
+        field_index: dict[str, list[str]] = defaultdict(list)
+        table_index: dict[str, list[str]] = defaultdict(list)
+        hierarchy_index: dict[str, list[str]] = defaultdict(list)
+        metadata_index: dict[str, list[str]] = defaultdict(list)
+        alias_index: dict[str, list[str]] = defaultdict(list)
+        entity_index: dict[str, list[str]] = defaultdict(list)
+        document_index: dict[str, list[str]] = defaultdict(list)
+        section_index: dict[str, list[str]] = defaultdict(list)
+        vector_index: list[dict[str, Any]] = []
+
+        for document in documents:
+            document_key = self._normalize_index_key(document.get("name", ""))
+            document_index[document_key].append(str(document.get("id", "")))
+            metadata_index[f'document::{document_key}'].append(str(document.get("id", "")))
+            vector_index.append({"type": "document", "id": str(document.get("id", "")), "documentName": str(document.get("name", ""))})
+
+        for section in sections:
+            section_key = self._normalize_index_key(f'{section.get("documentName", "")}::{section.get("id", "")}')
+            section_index[section_key].append(str(section.get("id", "")))
+            hierarchy_index[section_key].extend(
+                str(node.get("id", ""))
+                for node in section.get("hierarchyNodes", [])
+                if isinstance(node, dict) and str(node.get("id", "")).strip()
+            )
+            metadata_index[f'section::{section_key}'].append(str(section.get("id", "")))
+            for keyword in section.get("keywords", []):
+                normalized_keyword = self._normalize_index_key(keyword)
+                if normalized_keyword:
+                    keyword_index[normalized_keyword].append(str(section.get("id", "")))
+            vector_index.append({"type": "section", "id": str(section.get("id", "")), "documentName": str(section.get("documentName", ""))})
+
+        for chunk in chunks:
+            vector_index.append({"type": "chunk", "id": str(chunk.get("id", "")), "documentName": str(chunk.get("documentName", ""))})
+            metadata_index[f'chunk::{self._normalize_index_key(chunk.get("id", ""))}'].append(str(chunk.get("id", "")))
+
+        for record in search_records:
+            metadata_key = self._normalize_index_key(
+                " ".join(
+                    [
+                        str(record.get("documentName", "")),
+                        str(record.get("chapterNumber", "")),
+                        str(record.get("sectionId", "")),
+                        str(record.get("pageNumber", "")),
+                    ]
+                )
+            )
+            if metadata_key:
+                metadata_index[metadata_key].append(str(record.get("id", "")))
+
+        for field in field_memories:
+            for value in [field.get("field", ""), field.get("fieldCode", ""), field.get("xmlTag", ""), *field.get("aliases", [])]:
+                normalized_value = self._normalize_index_key(value)
+                if normalized_value:
+                    field_index[normalized_value].append(str(field.get("id", "")))
+                    alias_index[normalized_value].append(str(field.get("id", "")))
+
+        for table in table_memories:
+            for value in [table.get("heading", ""), *table.get("columns", []), *table.get("aliases", [])]:
+                normalized_value = self._normalize_index_key(value)
+                if normalized_value:
+                    table_index[normalized_value].append(str(table.get("id", "")))
+
+        for keyword in keyword_memories:
+            normalized_value = self._normalize_index_key(keyword.get("keyword", ""))
+            if normalized_value:
+                keyword_index[normalized_value].append(str(keyword.get("id", "")))
+
+        for entity in entity_memories:
+            normalized_value = self._normalize_index_key(entity.get("entity", ""))
+            if normalized_value:
+                entity_index[normalized_value].append(str(entity.get("id", "")))
+            for alias in entity.get("aliases", []):
+                normalized_alias = self._normalize_index_key(alias)
+                if normalized_alias:
+                    alias_index[normalized_alias].append(str(entity.get("id", "")))
+
+        for synonym in synonym_memories:
+            for alias in synonym.get("aliases", []):
+                normalized_alias = self._normalize_index_key(alias)
+                if normalized_alias:
+                    alias_index[normalized_alias].append(str(synonym.get("targetId", "")))
+
+        for relationship in relationship_memories:
+            hierarchy_index[self._normalize_index_key(relationship.get("sourceId", ""))].append(str(relationship.get("targetId", "")))
+
+        return {
+            "vectorIndex": vector_index,
+            "keywordIndex": {key: unique_preserve(values) for key, values in keyword_index.items()},
+            "fieldIndex": {key: unique_preserve(values) for key, values in field_index.items()},
+            "tableIndex": {key: unique_preserve(values) for key, values in table_index.items()},
+            "hierarchyIndex": {key: unique_preserve(values) for key, values in hierarchy_index.items()},
+            "metadataIndex": {key: unique_preserve(values) for key, values in metadata_index.items()},
+            "aliasIndex": {key: unique_preserve(values) for key, values in alias_index.items()},
+            "entityIndex": {key: unique_preserve(values) for key, values in entity_index.items()},
+            "documentIndex": {key: unique_preserve(values) for key, values in document_index.items()},
+            "sectionIndex": {key: unique_preserve(values) for key, values in section_index.items()},
+        }
+
+    def _render_html_table(self, table: list[list[str]]) -> str:
+        if not table:
+            return ""
+        rows: list[str] = []
+        for row_index, row in enumerate(table):
+            tag = "th" if row_index == 0 else "td"
+            cells = "".join(f"<{tag}>{escape(str(cell or ''))}</{tag}>" for cell in row)
+            rows.append(f"<tr>{cells}</tr>")
+        return "<table>" + "".join(rows) + "</table>"
+
     def _extract_hs_codes(self, *values: Any) -> list[str]:
         codes: list[str] = []
         for value in values:
@@ -1160,6 +1755,159 @@ class KnowledgeEngineService:
             if any(marker in sentence.casefold() for marker in ["note", "provided that", "important", "caution", "explanation"])
         )[:8]
 
+    def _extract_key_value_pairs(self, raw_text: str) -> list[dict[str, str]]:
+        pairs: list[dict[str, str]] = []
+        for line in split_lines(raw_text):
+            match = re.match(r"^(?P<key>[A-Za-z][A-Za-z0-9 /&._()-]{1,80}?):\s*(?P<value>.+)$", line)
+            if not match:
+                continue
+            key = normalise_whitespace(match.group("key"))
+            value = normalise_whitespace(match.group("value"))
+            if len(value) < 2:
+                continue
+            pairs.append({"key": key, "value": value})
+        return pairs[:25]
+
+    def _extract_code_blocks(self, raw_text: str) -> list[str]:
+        blocks: list[str] = []
+        current: list[str] = []
+        for line in split_lines(raw_text):
+            looks_like_code = bool(
+                re.search(r"[<>]{1}|^\s*(?:cbc|cac|inp|ipt):|[{}]|^\s*/", line, flags=re.IGNORECASE)
+            )
+            if looks_like_code:
+                current.append(line)
+                continue
+            if len(current) >= 2:
+                blocks.append("\n".join(current))
+            current = []
+        if len(current) >= 2:
+            blocks.append("\n".join(current))
+        return unique_preserve(blocks)[:8]
+
+    def _extract_references(self, raw_text: str) -> list[str]:
+        reference_markers = ("refer", "reference", "appendix", "annexure", "schedule", "chapter", "section", "see also")
+        return unique_preserve(
+            sentence
+            for sentence in split_sentences(raw_text)
+            if any(marker in sentence.casefold() for marker in reference_markers)
+        )[:12]
+
+    def _extract_enumerations(self, raw_text: str) -> list[str]:
+        items = []
+        for line in split_lines(raw_text):
+            if re.match(r"^\s*(?:\d+[.)]|[a-zA-Z][.)]|[-*•])\s+", line):
+                items.append(line)
+        return unique_preserve(items)[:20]
+
+    def _field_definitions(self, section: dict[str, Any]) -> list[dict[str, Any]]:
+        definitions: list[dict[str, Any]] = []
+        seen: set[str] = set()
+        for index, field in enumerate(section.get("xmlFields", []), start=1):
+            if not isinstance(field, dict):
+                continue
+            field_name = str(field.get("tag_name", "")).strip() or str(field.get("normalized_tag_name", "")).strip()
+            if not field_name:
+                continue
+            fingerprint = self._normalize_index_key(field_name)
+            if fingerprint in seen:
+                continue
+            seen.add(fingerprint)
+            aliases = unique_preserve(field.get("search_aliases", []) or field_search_aliases(field_name))
+            definitions.append(
+                {
+                    "id": f'{section.get("id", "")}-field-{index}',
+                    "fieldName": field_name,
+                    "fieldCode": str(field.get("field_code", "")).strip(),
+                    "xmlTag": canonical_xml_tag(field_name),
+                    "tagName": str(field.get("tag_name", "")).strip(),
+                    "normalizedTagName": str(field.get("normalized_tag_name", "")).strip(),
+                    "namespace": str(field.get("namespace", "")).strip(),
+                    "aliases": aliases,
+                    "required": bool(str(field.get("cardinality", "")).strip().upper().startswith("M")),
+                    "summary": _clean(
+                        " ".join(
+                            [
+                                str(field.get("label", "")),
+                                str(field.get("description", "")),
+                                str(field.get("usage_notes", "")),
+                                str(field.get("title", "")),
+                            ]
+                        ),
+                        240,
+                    ),
+                    "allowedValues": unique_preserve(
+                        [
+                            *[str(value) for value in field.get("allowed_values", []) if str(value).strip()],
+                            *extract_numeric_identifiers(str(field.get("description", ""))),
+                        ]
+                    )[:20],
+                }
+            )
+        for definition in section.get("definitions", []):
+            if not isinstance(definition, dict):
+                continue
+            term = str(definition.get("term", "")).strip()
+            if not term:
+                continue
+            fingerprint = self._normalize_index_key(term)
+            if fingerprint in seen:
+                continue
+            seen.add(fingerprint)
+            aliases = unique_preserve(field_search_aliases(term))
+            definitions.append(
+                {
+                    "id": f'{section.get("id", "")}-field-definition-{len(definitions) + 1}',
+                    "fieldName": term,
+                    "fieldCode": "",
+                    "xmlTag": canonical_xml_tag(term),
+                    "tagName": term,
+                    "normalizedTagName": canonical_xml_tag(term),
+                    "namespace": "",
+                    "aliases": aliases,
+                    "required": False,
+                    "summary": str(definition.get("definition", "")).strip(),
+                    "allowedValues": [],
+                }
+            )
+        return definitions[:40]
+
+    def _extract_code_lists(self, section: dict[str, Any]) -> list[dict[str, str]]:
+        code_lists: list[dict[str, str]] = []
+        for row in section.get("tableRows", []):
+            code = next(iter(row.get("hsCodes", []) or row.get("eximCodes", [])), "")
+            description = str(row.get("description", "") or row.get("text", "")).strip()
+            if code and description:
+                code_lists.append({"code": code, "value": description})
+        for line in split_lines(str(section.get("rawText", ""))):
+            match = re.match(r"^(?P<code>[A-Za-z0-9._/-]{1,12})\s*[:=-]\s*(?P<value>.+)$", line)
+            if not match:
+                continue
+            code_lists.append({"code": match.group("code"), "value": normalise_whitespace(match.group("value"))})
+        unique_rows = []
+        seen: set[tuple[str, str]] = set()
+        for item in code_lists:
+            key = (item["code"], item["value"].casefold())
+            if key in seen:
+                continue
+            seen.add(key)
+            unique_rows.append(item)
+        return unique_rows[:40]
+
+    def _section_semantic_tree(self, section: dict[str, Any]) -> list[dict[str, Any]]:
+        children: list[dict[str, Any]] = []
+        for heading in section.get("headings", [])[:8]:
+            children.append({"type": "heading", "title": heading})
+        for field in section.get("fieldDefinitions", [])[:12]:
+            children.append({"type": "field", "title": str(field.get("fieldName", "")).strip()})
+        for index, table in enumerate(section.get("tables", []), start=1):
+            children.append({"type": "table", "title": f'Table {index}', "columns": unique_preserve(table[0] if table else [])})
+        for rule in section.get("businessRules", [])[:8]:
+            children.append({"type": "rule", "title": str(rule.get("name", "")).strip()})
+        for example in section.get("examples", [])[:4]:
+            children.append({"type": "example", "title": _clean(example, 120)})
+        return children
+
     def _extract_definitions(self, section_payload: dict[str, Any], definitions_by_term: dict[str, str]) -> dict[str, str]:
         matches = {}
         raw_text = str(section_payload.get("raw_text", ""))
@@ -1192,6 +1940,18 @@ class KnowledgeEngineService:
                 "definitions": ["id", "term", "definition", "sectionId", "sourcePages"],
                 "chunks": ["id", "sectionId", "sectionName", "sectionPath", "text", "sourceText", "documentType", "sourcePages", "pageNumber", "vector", "hsCodes", "eximCodes", "description", "chunkHash", "isTableRow", "heading", "fieldNames", "fieldCode", "fieldName", "xmlTag", "tagName", "normalizedTagName", "namespace", "xmlFields"],
                 "searchRecords": ["id", "type", "title", "text", "sourceText", "sectionId", "sectionName", "sectionPath", "documentName", "documentType", "sourcePages", "pageNumber", "heading", "fieldNames", "fieldCode", "fieldName", "xmlTag", "tagName", "normalizedTagName", "namespace", "nodeType", "parentId", "searchAliases"],
+                "documentMemories": ["id", "documentId", "documentName", "summary", "keywords", "entities", "chapters", "sections", "tree", "vector"],
+                "sectionMemories": ["id", "documentId", "documentName", "chapter", "section", "page", "heading", "aliases", "keywords", "entities", "relationships", "summary", "vector"],
+                "fieldMemories": ["id", "documentId", "documentName", "chapter", "section", "page", "field", "fieldCode", "xmlTag", "aliases", "keywords", "entities", "relationships", "summary", "required", "vector"],
+                "tableMemories": ["id", "documentId", "documentName", "chapter", "section", "page", "heading", "columns", "rows", "html", "aliases", "keywords", "summary", "vector"],
+                "ruleMemories": ["id", "documentName", "chapter", "section", "aliases", "keywords", "summary"],
+                "definitionMemories": ["id", "documentName", "chapter", "section", "field", "aliases", "summary"],
+                "exampleMemories": ["id", "documentName", "chapter", "section", "summary"],
+                "relationshipMemories": ["id", "sourceType", "sourceId", "targetType", "targetId", "relation"],
+                "keywordMemories": ["id", "documentName", "chapter", "section", "keyword", "summary"],
+                "entityMemories": ["id", "documentId", "documentName", "chapter", "section", "entity", "aliases", "summary"],
+                "synonymMemories": ["id", "targetType", "targetId", "aliases"],
+                "indexes": ["vectorIndex", "keywordIndex", "fieldIndex", "tableIndex", "hierarchyIndex", "metadataIndex", "aliasIndex", "entityIndex", "documentIndex", "sectionIndex"],
                 "relationships": ["id", "sourceType", "sourceId", "targetType", "targetId", "relation"],
                 "versionHistory": ["lineageId", "currentName", "versions"],
             },
@@ -1307,6 +2067,29 @@ class KnowledgeEngineService:
             "relationships": [],
             "chunks": [],
             "searchRecords": [],
+            "documentMemories": [],
+            "sectionMemories": [],
+            "fieldMemories": [],
+            "tableMemories": [],
+            "ruleMemories": [],
+            "definitionMemories": [],
+            "exampleMemories": [],
+            "relationshipMemories": [],
+            "keywordMemories": [],
+            "entityMemories": [],
+            "synonymMemories": [],
+            "indexes": {
+                "vectorIndex": [],
+                "keywordIndex": {},
+                "fieldIndex": {},
+                "tableIndex": {},
+                "hierarchyIndex": {},
+                "metadataIndex": {},
+                "aliasIndex": {},
+                "entityIndex": {},
+                "documentIndex": {},
+                "sectionIndex": {},
+            },
             "concepts": [],
             "knowledgeGraph": {"nodes": [], "edges": []},
             "statistics": {
@@ -1325,6 +2108,12 @@ class KnowledgeEngineService:
                 "faqs": 0,
                 "keywords": 0,
                 "relationships": 0,
+                "fieldMemories": 0,
+                "tableMemories": 0,
+                "documentMemories": 0,
+                "sectionMemories": 0,
+                "entityMemories": 0,
+                "synonymMemories": 0,
                 "embeddings": 0,
                 "vectorCount": 0,
             },

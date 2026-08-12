@@ -1,0 +1,44 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.13",
+  "title": "Authorisation in Excess of Entitlement",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_13-R001",
+      "rule_description": "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+      "trigger": "Authorisation in Excess of Entitlement",
+      "condition": "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+      "validation": "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+      "action": "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+      "exception": "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+      "output": "DEKAI should produce a compliance decision for 4.13 - Authorisation in Excess of Entitlement."
+    },
+    {
+      "rule_id": "CH4-SEC4_13-R002",
+      "rule_description": "Regional Authority\nshall make a specific endorsement to this effect on authorisation.",
+      "trigger": "Authorisation in Excess of Entitlement",
+      "condition": "Regional Authority\nshall make a specific endorsement to this effect on authorisation.",
+      "validation": "Regional Authority\nshall make a specific endorsement to this effect on authorisation.",
+      "action": "This provision shall\nalso apply to Status Holders.",
+      "exception": "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+      "output": "DEKAI should produce a compliance decision for 4.13 - Authorisation in Excess of Entitlement."
+    },
+    {
+      "rule_id": "CH4-SEC4_13-R003",
+      "rule_description": "This provision shall\nalso apply to Status Holders.",
+      "trigger": "Authorisation in Excess of Entitlement",
+      "condition": "Regional Authority\nshall make a specific endorsement to this effect on authorisation.",
+      "validation": "This provision shall\nalso apply to Status Holders.",
+      "action": "This provision shall\nalso apply to Status Holders.",
+      "exception": "4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+      "output": "DEKAI should produce a compliance decision for 4.13 - Authorisation in Excess of Entitlement."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties.",
+    "IF detected context matches section rule THEN enforce: Regional Authority\nshall make a specific endorsement to this effect on authorisation.",
+    "IF detected context matches section rule THEN enforce: This provision shall\nalso apply to Status Holders.",
+    "IF validations pass THEN recommend action: 4.13 Authorisation in Excess of Entitlement\nAn applicant shall be entitled for authorisation in excess of entitlement of CIF\nmentioned in paragraph 4.12 above subject to furnishing of 100% Bank Guarantee\nto Customs authority to cover exemption from customs duties."
+  ]
+}

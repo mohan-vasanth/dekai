@@ -1,0 +1,8610 @@
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '1', 'INTRODUCTION', 'INTRODUCTION
+This specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language
+(XML) between trading partners involved in Administration, commerce and transport.', 'Indha INTRODUCTION section-la, INTRODUCTION
+This specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language
+(XML) between trading partners involved in Administration, commerce and transport.', '1. INTRODUCTION
+This specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language
+(XML) between trading partners involved in Administration, commerce and transport. This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives
+from the Singapore Customs (SC)and Crimson Logic Pte Ltd.', 'INTRODUCTION governs how DGFT business controls should be applied, validated, and enforced.', 'INTRODUCTION explains the operating rule set that DEKAI should enforce. Key control points include This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives
+from the Singapore Customs (SC)and Crimson Logic Pte Ltd.', 'Indha INTRODUCTION section-la, INTRODUCTION explains the operating rule set that DEKAI should enforce. Key control points include This document kandippa be used as a baseline for the interface software design and kandippa be agreed upon by representatives
+from the Singapore Customs (SC)and Crimson Logic Pte Ltd.', '1. INTRODUCTION
+This specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language
+(XML) between trading partners involved in Administration, commerce and transport.
+This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives
+from the Singapore Customs (SC)and Crimson Logic Pte Ltd.', '[2]', '["the", "XML", "and", "for", "Pte", "Ltd", "This", "used", "upon", "from", "shall", "Logic", "Markup", "design", "agreed", "Customs", "message", "between", "trading", "Crimson"]', 'Provide knowledge guidance for INTRODUCTION.', '["1", "INTRODUCTION", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC1-R001', '1', 'This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives
+from the Singapore Customs (SC)and Crimson Logic Pte Ltd.', 'business_rule', 'INTRODUCTION', 'INTRODUCTION
+This specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language
+(XML) between trading partners involved in Administration, commerce and transport.', 'This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives
+from the Singapore Customs (SC)and Crimson Logic Pte Ltd.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 1 - INTRODUCTION.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'INTRODUCTION
+This specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language
+(XML) between trading partners involved in Administration, commerce and transport.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('1', 'This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives
+from the Singapore Customs (SC)and Crimson Logic Pte Ltd.');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'This specification provides the definition of the Customs Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('1', 'This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives
+from the Singapore Customs (SC)and Crimson Logic Pte Ltd.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'Customs');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'This specification provides the definition of the Customs');
+INSERT INTO authorities (section_code, authority_name) VALUES ('1', 'Singapore Customs');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 1, 'Evaluate condition: INTRODUCTION
+This specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language
+(XML) between trading partners involved in Administration, commerce and transport.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 2, 'Evaluate condition: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives
+from the Singapore Customs (SC)and Crimson Logic Pte Ltd.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 3, 'Run validation: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives
+from the Singapore Customs (SC)and Crimson Logic Pte Ltd.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'XML');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Pte');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Ltd');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'This');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'used');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'upon');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Logic');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Markup');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'design');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'agreed');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Customs');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'message');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'between');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'trading');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Crimson');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'INTRODUCTION');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '2', 'SCOPE', 'SCOPE
+The document shall provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).', 'Indha SCOPE section-la, SCOPE
+The document kandippa provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).', '2. SCOPE
+The document shall provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable). - message format.', 'SCOPE governs how DGFT business controls should be applied, validated, and enforced.', 'SCOPE explains the operating rule set that DEKAI should enforce. Key control points include SCOPE
+The document shall provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).', 'Indha SCOPE section-la, SCOPE explains the operating rule set that DEKAI should enforce. Key control points include SCOPE
+The document kandippa provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).', '2. SCOPE
+The document shall provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).
+- message format.
+The segments, composite data elements, data elements and codes used in this document are based on the respective
+directories in the UN/CEFACT. Refer to references 3 to 12 for more details.
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+2. SCOPE
+The document shall provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).
+- message format.
+The segments, composite data elements, data elements and codes used in this document are based on the respective
+directories in the UN/CEFACT. Refer to references 3 to 12 for more details.
+OFFICIAL (CLOSED)
+AM', '[2, 3]', '["The", "and", "for", "CAs", "are", "Net", "doc", "XML", "Ver", "from", "data", "used", "this", "more", "Date", "SCOPE", "shall", "Cargo", "codes", "based"]', 'Provide knowledge guidance for SCOPE.', '["2", "SCOPE", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC2-R001', '2', 'SCOPE
+The document shall provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).', 'business_rule', 'SCOPE', 'SCOPE
+The document shall provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).', 'SCOPE
+The document shall provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - SCOPE.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'SCOPE
+The document shall provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('2', 'Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO documents (section_code, document_name) VALUES ('2', 'SCOPE
+The document shall provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).');
+INSERT INTO documents (section_code, document_name) VALUES ('2', 'The segments, composite data elements, data elements and codes used in this document are based on the respective
+directories in the UN/CEFACT.');
+INSERT INTO documents (section_code, document_name) VALUES ('2', 'Trade Net Declaration');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 1, 'Evaluate condition: SCOPE
+The document shall provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 2, 'Evaluate condition: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 3, 'Run validation: SCOPE
+The document shall provide the following principles and details for the following:
+- criteria for passing information from Traders, Freight Forwarders, Cargo Agents and Shipping Agents to SC and CAs (if
+applicable).');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'CAs');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Net');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'doc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'XML');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Ver');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'from');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'data');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'used');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'this');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'more');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Date');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'SCOPE');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'shall');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Cargo');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'codes');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'based');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', '2');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'SCOPE');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '3', 'FIELD OF APPLICATION', 'FIELD OF APPLICATION
+The message specification provided in this document are intended for use for the exchange of information between the
+trading partners in international trade.', 'Indha FIELD OF APPLICATION section-la, FIELD OF application
+The message specification provided in this document are intended for use for the exchange of information between the
+trading partners in international trade.', '3. FIELD OF APPLICATION
+The message specification provided in this document are intended for use for the exchange of information between the
+trading partners in international trade. This message may be applied for both national and international trade.', '3.', '3. FIELD OF APPLICATION
+The message specification provided in this document are intended for use for the exchange of information between the
+trading partners in international trade. This message may be applied for both national and international trade.', 'Indha FIELD OF APPLICATION section-la, 3. FIELD OF application
+The message specification provided in this document are intended for use for the exchange of information between the
+trading partners in international trade. This message may be applied for both national and international trade.', '3. FIELD OF APPLICATION
+The message specification provided in this document are intended for use for the exchange of information between the
+trading partners in international trade. This message may be applied for both national and international trade. It is
+based on universal practice and is not dependent on the type of business or industry.', '[3]', '["The", "are", "for", "use", "may", "and", "not", "this", "both", "type", "FIELD", "trade", "based", "message", "between", "trading", "applied", "provided", "document", "intended"]', 'Provide knowledge guidance for FIELD OF APPLICATION.', '["3", "FIELD OF APPLICATION", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC3-R001', '3', '3. FIELD OF APPLICATION
+The message specification provided in this document are intended for use for the exchange of information between the
+trading partners in international trade. This message may be applied for both national and international trade.', 'business_rule', 'FIELD OF APPLICATION', 'FIELD OF APPLICATION
+The message specification provided in this document are intended for use for the exchange of information between the
+trading partners in international trade.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3 - FIELD OF APPLICATION.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3', 'FIELD OF APPLICATION
+The message specification provided in this document are intended for use for the exchange of information between the
+trading partners in international trade.');
+INSERT INTO documents (section_code, document_name) VALUES ('3', 'FIELD OF APPLICATION
+The message specification provided in this document are intended for use for the exchange of information between the
+trading partners in international trade.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 1, 'Evaluate condition: FIELD OF APPLICATION
+The message specification provided in this document are intended for use for the exchange of information between the
+trading partners in international trade.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'this');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'both');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'type');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'FIELD');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'trade');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'based');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'message');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'between');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'trading');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'applied');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'provided');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'document');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'intended');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', '3');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'FIELD OF APPLICATION');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '3.1', 'Principles', 'Provision has also been
+made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of
+supporting documentation.', 'Indha Principles section-la, Provision has also been
+made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of
+supporting documentation.', '3.1 Principles
+This message incorporates the necessary transport, statistical, and declaration information. Provision has also been
+made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of
+supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration
+and for the grouping of document lines into a single customs item.', '3.1 Principles
+This message incorporates the necessary transport, statistical, and declaration information.', '3.1 Principles
+This message incorporates the necessary transport, statistical, and declaration information. Provision has also been
+made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of
+supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration
+and for the grouping of document lines into a single customs item.', 'Indha Principles section-la, 3.1 Principles
+This message incorporates the necessary transport, statistical, and declaration information. Provision has also been
+made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of
+supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration
+and for the grouping of document lines into a single customs item.', '3.1 Principles
+This message incorporates the necessary transport, statistical, and declaration information. Provision has also been
+made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of
+supporting documentation.
+The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration
+and for the grouping of document lines into a single customs item. A customs item consists of the grouping of those
+document lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message
+correspondingly permits the use of single or multi-packaging concepts and their identification to a customs item.
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+3.1 Principles
+This message incorporates the necessary transport, statistical, and declaration information. Provision has also been
+made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of
+supporting documentation.
+The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration
+and for the grouping of document lines into a single customs item. A customs item consists of the grouping of those
+document lines having the same customs characteristics (eg. invoice number, Declaration Type etc). The message
+correspondingly permits the use of single or multi-packaging concepts and their identification to a customs item.
+OFFICIAL (CLOSED)
+AM', '[3, 4]', '["the", "and", "has", "for", "may", "one", "etc", "use", "Net", "doc", "XML", "Ver", "This", "also", "been", "made", "lieu", "more", "same", "into"]', 'Provide knowledge guidance for Principles.', '["3.1", "Principles", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC3_1-R001', '3.1', '3.1 Principles
+This message incorporates the necessary transport, statistical, and declaration information. Provision has also been
+made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of
+supporting documentation. The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration
+and for the grouping of document lines into a single customs item.', 'business_rule', 'Principles', 'The message
+correspondingly permits the use of single or multi-packaging concepts and their identification to a customs item.', 'Provision has also been
+made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of
+supporting documentation.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3.1 - Principles.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3.1', 'The message
+correspondingly permits the use of single or multi-packaging concepts and their identification to a customs item.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('3.1', 'Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO documents (section_code, document_name) VALUES ('3.1', '3.1 Principles
+This message incorporates the necessary transport, statistical, and declaration information.');
+INSERT INTO documents (section_code, document_name) VALUES ('3.1', 'Provision has also been
+made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of
+supporting documentation.');
+INSERT INTO documents (section_code, document_name) VALUES ('3.1', 'The design principles adopted allow for referencing one or more commercial documents pertaining to the same declaration
+and for the grouping of document lines into a single customs item.');
+INSERT INTO documents (section_code, document_name) VALUES ('3.1', 'A customs item consists of the grouping of those
+document lines having the same customs characteristics (eg.');
+INSERT INTO documents (section_code, document_name) VALUES ('3.1', 'invoice number, Declaration Type etc).');
+INSERT INTO documents (section_code, document_name) VALUES ('3.1', 'Trade Net Declaration');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3.1', 'Issuing Authorities');
+INSERT INTO authorities (section_code, authority_name) VALUES ('3.1', 'customs');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3.1', 1, 'Evaluate condition: The message
+correspondingly permits the use of single or multi-packaging concepts and their identification to a customs item.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3.1', 2, 'Evaluate condition: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3.1', 3, 'Run validation: Provision has also been
+made for the inclusion of appropriate commercial information which may be accepted by the Issuing Authorities in lieu of
+supporting documentation.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'has');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'may');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'one');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'etc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'Net');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'doc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'XML');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'Ver');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'This');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'also');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'been');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'made');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'lieu');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'more');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'same');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'keywords', 'into');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'tags', '3.1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'tags', 'Principles');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3.1', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '4', 'REFERENCES', '3, Code for the ECE/TRADE/201 1 Jan 96
+Representation of Names of Countries - ISO Country Code
+5 UN/ECE WP Trade Facilitation Recommendation No.', 'Indha REFERENCES section-la, 3, Code for the ECE/TRADE/201 1 Jan 96
+Representation of Names of Countries - ISO Country Code
+5 UN/ECE WP Trade Facilitation Recommendation No.', '4. REFERENCES
+S/ Document Name Document/Directory Rev Date
+N Reference
+1 Trade Net Declaration message specification TDS41-MDS-XML-
+DECLARATION-TX
+2 Trade Net Response message specification TDS41-MDS-XML-
+RESPONSE-TX
+3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules
+_2.0.doc
+4 UN/ECE WP Recommendation No. 3, Code for the ECE/TRADE/201 1 Jan 96
+Representation of Names of Countries - ISO Country Code
+5 UN/ECE WP Trade Facilitation Recommendation No.', '4.', '4. REFERENCES
+S/ Document Name Document/Directory Rev Date
+N Reference
+1 Trade Net Declaration message specification TDS41-MDS-XML-
+DECLARATION-TX
+2 Trade Net Response message specification TDS41-MDS-XML-
+RESPONSE-TX
+3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules
+_2.0.doc
+4 UN/ECE WP Recommendation No. 3, Code for the ECE/TRADE/201 1 Jan 96
+Representation of Names of Countries - ISO Country Code
+5 UN/ECE WP Trade Facilitation Recommendation No.', 'Indha REFERENCES section-la, 4. REFERENCES
+S/ Document Name Document/Directory Rev Date
+N Reference
+1 Trade Net Declaration message specification TDS41-MDS-XML-
+DECLARATION-TX
+2 Trade Net Response message specification TDS41-MDS-XML-
+RESPONSE-TX
+3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules
+_2.0.doc
+4 UN/ECE WP Recommendation No. 3, Code for the ECE/TRADE/201 1 Jan 96
+Representation of Names of Countries - ISO Country Code
+5 UN/ECE WP Trade Facilitation Recommendation No.', '4. REFERENCES
+S/ Document Name Document/Directory Rev Date
+N Reference
+1 Trade Net Declaration message specification TDS41-MDS-XML-
+DECLARATION-TX
+2 Trade Net Response message specification TDS41-MDS-XML-
+RESPONSE-TX
+3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules
+_2.0.doc
+4 UN/ECE WP Recommendation No. 3, Code for the ECE/TRADE/201 1 Jan 96
+Representation of Names of Countries - ISO Country Code
+5 UN/ECE WP Trade Facilitation Recommendation No. 9, ECE/TRADE/203 1 Jan 96
+Alphabetic Code for the Representation of Currencies
+6 UN/ECE WP Trade Facilitation Recommendation No. 16, ECE/TRADE/227 Dec 98
+UN/LOCODE - Code for the Trade and Transport Locations
+7 UN/ECE WP Trade Facilitation Recommendation No. 19, Code TRADE/CEFACT/2001/19 15 Jan 01
+for modes of transport
+8 UN/ECE WP Trade Facilitation Recommendation No. 20, Codes CEFACT/ICG/2010/IC01 13 Sep 10
+for Units of Measure Used in International Trade 3
+9 Codes for Units of Measure Used in International Trade CEFACT/ICG/2010/IC01 13 Sep 10
+Annex B: Code elements listed by Quantity 3
+Annex I
+10 Codes for Units of Measure Used in International Trade CEFACT/ICG/2010/IC01 13 Sep 10
+Annex C: Code elements listed by common code & name 3
+Annex II & Annex III
+11 UN/ECE WP Trade Facilitation Recommendation No. 21, Codes CEFACT/ICG/2010/IC01 12 Jul 10
+for Types of Cargo, Packages and Packaging Material 0/Rev.1
+12 STDID Code Lists STDID-TDS41-COD
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+S/
+N | Document Name | Document/Directory
+Reference | Rev | Date
+1 | Trade Net Declaration message specification | TDS41-MDS-XML-
+DECLARATION-TX | |
+2 | Trade Net Response message specification | TDS41-MDS-XML-
+RESPONSE-TX | |
+3 | UN/CEFACT XML Naming and Design Rules | Naming And Design Rules
+_2.0.doc | |
+4 | UN/ECE WP Recommendation No. 3, Code for the
+Representation of Names of Countries - ISO Country Code | ECE/TRADE/201 | | 1 Jan 96
+5 | UN/ECE WP Trade Facilitation Recommendation No. 9,
+Alphabetic Code for the Representation of Currencies | ECE/TRADE/203 | | 1 Jan 96
+6 | UN/ECE WP Trade Facilitation Recommendation No. 16,
+UN/LOCODE - Code for the Trade and Transport Locations | ECE/TRADE/227 | | Dec 98
+7 | UN/ECE WP Trade Facilitation Recommendation No. 19, Code
+for modes of transport | TRADE/CEFACT/2001/19 | | 15 Jan 01
+8 | UN/ECE WP Trade Facilitation Recommendation No. 20, Codes
+for Units of Measure Used in International Trade | CEFACT/ICG/2010/IC01
+3 | | 13 Sep 10
+9 | Codes for Units of Measure Used in International Trade
+Annex B: Code elements listed by Quantity | CEFACT/ICG/2010/IC01
+3
+Annex I | | 13 Sep 10
+10 | Codes for Units of Measure Used in International Trade
+Annex C: Code elements listed by common code & name | CEFACT/ICG/2010/IC01
+3
+Annex II & Annex III | | 13 Sep 10
+11 | UN/ECE WP Trade Facilitation Recommendation No. 21, Codes
+for Types of Cargo, Packages and Packaging Material | CEFACT/ICG/2010/IC01
+0/Rev.1 | | 12 Jul 10
+12 | STDID Code Lists | STDID-TDS41-COD | |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+4. REFERENCES
+S/
+N
+Document Name
+Document/Directory
+Reference
+Rev
+Date
+1
+Trade Net Declaration message specification
+TDS41-MDS-XML-
+DECLARATION-TX
+2
+Trade Net Response message specification
+TDS41-MDS-XML-
+RESPONSE-TX
+3
+UN/CEFACT XML Naming and Design Rules
+Naming And Design Rules
+_2.0.doc
+4
+UN/ECE WP Recommendation No. 3, Code for the
+Representation of Names of Countries - ISO Country Code
+ECE/TRADE/201
+1 Jan 96
+5
+UN/ECE WP Trade Facilitation Recommendation No. 9,
+Alphabetic Code for the Representation of Currencies
+ECE/TRADE/203
+1 Jan 96
+6
+UN/ECE WP Trade Facilitation Recommendation No. 16,
+UN/LOCODE - Code for the Trade and Transport Locations
+ECE/TRADE/227
+Dec 98
+7
+UN/ECE WP Trade Facilitation Recommendation No. 19, Code
+for modes of transport
+TRADE/CEFACT/2001/19
+15 Jan 01
+8
+UN/ECE WP Trade Facilitation Recommendation No. 20, Codes
+for Units of Measure Used in International Trade
+CEFACT/ICG/2010/IC01
+3
+13 Sep 10
+9
+Codes for Units of Measure Used in International Trade
+Annex B: Code elements listed by Quantity
+CEFACT/ICG/2010/IC01
+3
+Annex I
+13 Sep 10
+10
+Codes for Units of Measure Used in International Trade
+Annex C: Code elements listed by common code & name
+CEFACT/ICG/2010/IC01
+3
+Annex II & Annex III
+13 Sep 10
+11
+UN/ECE WP Trade Facilitation Recommendation No. 21, Codes
+for Types of Cargo, Packages and Packaging Material
+CEFACT/ICG/2010/IC01
+0/Rev.1
+12 Jul 10
+12
+STDID Code Lists
+STDID-TDS41-COD
+OFFICIAL (CLOSED)
+AM', '[4, 5]', '["Rev", "Net", "XML", "and", "doc", "for", "the", "Jan", "ISO", "Dec", "Sep", "III", "Jul", "COD", "Ver", "Name", "Date", "Code", "Used", "Trade"]', 'Provide knowledge guidance for REFERENCES.', '["4", "REFERENCES", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC4-R001', '4', '4. REFERENCES
+S/ Document Name Document/Directory Rev Date
+N Reference
+1 Trade Net Declaration message specification TDS41-MDS-XML-
+DECLARATION-TX
+2 Trade Net Response message specification TDS41-MDS-XML-
+RESPONSE-TX
+3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules
+_2.0.doc
+4 UN/ECE WP Recommendation No. 3, Code for the ECE/TRADE/201 1 Jan 96
+Representation of Names of Countries - ISO Country Code
+5 UN/ECE WP Trade Facilitation Recommendation No.', 'business_rule', 'REFERENCES', 'REFERENCES
+S/ Document Name Document/Directory Rev Date
+N Reference
+1 Trade Net Declaration message specification TDS41-MDS-XML-
+DECLARATION-TX
+2 Trade Net Response message specification TDS41-MDS-XML-
+RESPONSE-TX
+3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules
+_2.0.doc
+4 UN/ECE WP Recommendation No.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 4 - REFERENCES.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'REFERENCES
+S/ Document Name Document/Directory Rev Date
+N Reference
+1 Trade Net Declaration message specification TDS41-MDS-XML-
+DECLARATION-TX
+2 Trade Net Response message specification TDS41-MDS-XML-
+RESPONSE-TX
+3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules
+_2.0.doc
+4 UN/ECE WP Recommendation No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', '21, Codes CEFACT/ICG/2010/IC01 12 Jul 10
+for Types of Cargo, Packages and Packaging Material 0/Rev.1
+12 STDID Code Lists STDID-TDS41-COD
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+S/
+N | Document Name | Document/Directory
+Reference | Rev | Date
+1 | Trade Net Declaration message specification | TDS41-MDS-XML-
+DECLARATION-TX | |
+2 | Trade Net Response message specification | TDS41-MDS-XML-
+RESPONSE-TX | |
+3 | UN/CEFACT XML Naming and Design Rules | Naming And Design Rules
+_2.0.doc | |
+4 | UN/ECE WP Recommendation No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('4', 'REFERENCES
+S/
+N
+Document Name
+Document/Directory
+Reference
+Rev
+Date
+1
+Trade Net Declaration message specification
+TDS41-MDS-XML-
+DECLARATION-TX
+2
+Trade Net Response message specification
+TDS41-MDS-XML-
+RESPONSE-TX
+3
+UN/CEFACT XML Naming and Design Rules
+Naming And Design Rules
+_2.0.doc
+4
+UN/ECE WP Recommendation No.');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'S/ Document Name Document');
+INSERT INTO documents (section_code, document_name) VALUES ('4', 'Trade Net Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('4', '21, Codes
+for Types of Cargo, Packages and Packaging Material | CEFACT/ICG/2010/IC01
+0/Rev.1 | | 12 Jul 10
+12 | STDID Code Lists | STDID-TDS41-COD | |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 1, 'Evaluate condition: REFERENCES
+S/ Document Name Document/Directory Rev Date
+N Reference
+1 Trade Net Declaration message specification TDS41-MDS-XML-
+DECLARATION-TX
+2 Trade Net Response message specification TDS41-MDS-XML-
+RESPONSE-TX
+3 UN/CEFACT XML Naming and Design Rules Naming And Design Rules
+_2.0.doc
+4 UN/ECE WP Recommendation No.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 2, 'Evaluate condition: 21, Codes CEFACT/ICG/2010/IC01 12 Jul 10
+for Types of Cargo, Packages and Packaging Material 0/Rev.1
+12 STDID Code Lists STDID-TDS41-COD
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+S/
+N | Document Name | Document/Directory
+Reference | Rev | Date
+1 | Trade Net Declaration message specification | TDS41-MDS-XML-
+DECLARATION-TX | |
+2 | Trade Net Response message specification | TDS41-MDS-XML-
+RESPONSE-TX | |
+3 | UN/CEFACT XML Naming and Design Rules | Naming And Design Rules
+_2.0.doc | |
+4 | UN/ECE WP Recommendation No.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('4', 3, 'Evaluate condition: REFERENCES
+S/
+N
+Document Name
+Document/Directory
+Reference
+Rev
+Date
+1
+Trade Net Declaration message specification
+TDS41-MDS-XML-
+DECLARATION-TX
+2
+Trade Net Response message specification
+TDS41-MDS-XML-
+RESPONSE-TX
+3
+UN/CEFACT XML Naming and Design Rules
+Naming And Design Rules
+_2.0.doc
+4
+UN/ECE WP Recommendation No.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Rev');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Net');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'XML');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'doc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Jan');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'ISO');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Dec');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Sep');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'III');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Jul');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'COD');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Ver');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Name');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Date');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Code');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Used');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'keywords', 'Trade');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', '4');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'REFERENCES');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('4', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '5', 'DEFINITIONS AND ABBREVIATIONS', 'Defines the operational requirements for DEFINITIONS AND ABBREVIATIONS.', 'Indha DEFINITIONS AND ABBREVIATIONS section-la, Defines the operational requirements for DEFINITIONS AND ABBREVIATIONS.', '5. DEFINITIONS AND ABBREVIATIONS', '5.', '5. DEFINITIONS AND ABBREVIATIONS', 'Indha DEFINITIONS AND ABBREVIATIONS section-la, 5. DEFINITIONS AND ABBREVIATIONS', '5. DEFINITIONS AND ABBREVIATIONS', '[5]', '["AND", "DEFINITIONS", "ABBREVIATIONS"]', 'Provide knowledge guidance for DEFINITIONS AND ABBREVIATIONS.', '["5", "DEFINITIONS AND ABBREVIATIONS", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC5-R001', '5', '5. DEFINITIONS AND ABBREVIATIONS', 'business_rule', 'DEFINITIONS AND ABBREVIATIONS', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5 - DEFINITIONS AND ABBREVIATIONS.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 1, 'Review section 5 requirements');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 2, 'Capture applicant inputs');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 3, 'Route for authority decision');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'AND');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'DEFINITIONS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'ABBREVIATIONS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', '5');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'DEFINITIONS AND ABBREVIATIONS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '5.1', 'Abbreviations', '5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and Services Tax
+ISO International Standards Organisation
+MDS Message Design Specifications
+SC Singapore Customs
+STDID Singapore Trade Data Interchange Directory
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.', 'Indha Abbreviations section-la, 5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and Services Tax
+ISO International Standards Organisation
+MDS Message Design Specifications
+SC Singapore Customs
+STDID Singapore Trade Data Interchange Directory
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.', '5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and Services Tax
+ISO International Standards Organisation
+MDS Message Design Specifications
+SC Singapore Customs
+STDID Singapore Trade Data Interchange Directory
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id. TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+5.1 Abbreviations
+CA
+Controlling Agency
+Crimson Logic
+XML
+Extensible Markup Language
+FTZ
+Free Trade Zone
+GST
+Goods and Services Tax
+ISO
+International Standards Organisation
+MDS
+Message Design Specifications
+SC
+Singapore Customs
+STDID
+Singapore Trade Data Interchange Directory
+OFFICIAL (CLOSED)
+AM', '5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and Services Tax
+ISO International Standards Organisation
+MDS Message Design Specifications
+SC Singapore Customs
+STDID Singapore Trade Data Interchange Directory
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.', '5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and Services Tax
+ISO International Standards Organisation
+MDS Message Design Specifications
+SC Singapore Customs
+STDID Singapore Trade Data Interchange Directory
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id. TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+5.1 Abbreviations
+CA
+Controlling Agency
+Crimson Logic
+XML
+Extensible Markup Language
+FTZ
+Free Trade Zone
+GST
+Goods and Services Tax
+ISO
+International Standards Organisation
+MDS
+Message Design Specifications
+SC
+Singapore Customs
+STDID
+Singapore Trade Data Interchange Directory
+OFFICIAL (CLOSED)
+AM', 'Indha Abbreviations section-la, 5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and Services Tax
+ISO International Standards Organisation
+MDS Message Design Specifications
+SC Singapore Customs
+STDID Singapore Trade Data Interchange Directory
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id. TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+5.1 Abbreviations
+CA
+Controlling Agency
+Crimson Logic
+XML
+Extensible Markup Language
+FTZ
+Free Trade Zone
+GST
+Goods and Services Tax
+ISO
+International Standards Organisation
+MDS
+Message Design Specifications
+SC
+Singapore Customs
+STDID
+Singapore Trade Data Interchange Directory
+OFFICIAL (CLOSED)
+AM', '5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and Services Tax
+ISO International Standards Organisation
+MDS Message Design Specifications
+SC Singapore Customs
+STDID Singapore Trade Data Interchange Directory
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+5.1 Abbreviations
+CA
+Controlling Agency
+Crimson Logic
+XML
+Extensible Markup Language
+FTZ
+Free Trade Zone
+GST
+Goods and Services Tax
+ISO
+International Standards Organisation
+MDS
+Message Design Specifications
+SC
+Singapore Customs
+STDID
+Singapore Trade Data Interchange Directory
+OFFICIAL (CLOSED)
+AM', '[5, 6]', '["Pte", "Ltd", "XML", "FTZ", "GST", "and", "Tax", "ISO", "MDS", "Net", "doc", "For", "Ver", "Free", "Zone", "Data", "Date", "Logic", "Trade", "Goods"]', 'Provide knowledge guidance for Abbreviations.', '["5.1", "Abbreviations", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC5_1-R001', '5.1', '5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and Services Tax
+ISO International Standards Organisation
+MDS Message Design Specifications
+SC Singapore Customs
+STDID Singapore Trade Data Interchange Directory
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id. TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+5.1 Abbreviations
+CA
+Controlling Agency
+Crimson Logic
+XML
+Extensible Markup Language
+FTZ
+Free Trade Zone
+GST
+Goods and Services Tax
+ISO
+International Standards Organisation
+MDS
+Message Design Specifications
+SC
+Singapore Customs
+STDID
+Singapore Trade Data Interchange Directory
+OFFICIAL (CLOSED)
+AM', 'business_rule', 'Abbreviations', '5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and Services Tax
+ISO International Standards Organisation
+MDS Message Design Specifications
+SC Singapore Customs
+STDID Singapore Trade Data Interchange Directory
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5.1 - Abbreviations.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.1', '5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and Services Tax
+ISO International Standards Organisation
+MDS Message Design Specifications
+SC Singapore Customs
+STDID Singapore Trade Data Interchange Directory
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('5.1', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+5.1 Abbreviations
+CA
+Controlling Agency
+Crimson Logic
+XML
+Extensible Markup Language
+FTZ
+Free Trade Zone
+GST
+Goods and Services Tax
+ISO
+International Standards Organisation
+MDS
+Message Design Specifications
+SC
+Singapore Customs
+STDID
+Singapore Trade Data Interchange Directory
+OFFICIAL (CLOSED)
+AM');
+INSERT INTO documents (section_code, document_name) VALUES ('5.1', 'Trade Net Declaration');
+INSERT INTO authorities (section_code, authority_name) VALUES ('5.1', 'Customs');
+INSERT INTO authorities (section_code, authority_name) VALUES ('5.1', 'SC Singapore Customs');
+INSERT INTO authorities (section_code, authority_name) VALUES ('5.1', 'Singapore Customs');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.1', 1, 'Evaluate condition: 5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and Services Tax
+ISO International Standards Organisation
+MDS Message Design Specifications
+SC Singapore Customs
+STDID Singapore Trade Data Interchange Directory
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5.1', 2, 'Evaluate condition: TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+5.1 Abbreviations
+CA
+Controlling Agency
+Crimson Logic
+XML
+Extensible Markup Language
+FTZ
+Free Trade Zone
+GST
+Goods and Services Tax
+ISO
+International Standards Organisation
+MDS
+Message Design Specifications
+SC
+Singapore Customs
+STDID
+Singapore Trade Data Interchange Directory
+OFFICIAL (CLOSED)
+AM');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'Pte');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'Ltd');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'XML');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'FTZ');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'GST');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'Tax');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'ISO');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'MDS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'Net');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'doc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'For');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'Ver');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'Free');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'Zone');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'Data');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'Date');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'Logic');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'Trade');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'keywords', 'Goods');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'tags', '5.1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'tags', 'Abbreviations');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5.1', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '6', 'MESSAGE FUNCTION', 'MESSAGE FUNCTION
+The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the
+purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export
+or transit.', 'Indha MESSAGE FUNCTION section-la, MESSAGE FUNCTION
+The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the
+purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export
+or transit.', '6. MESSAGE FUNCTION
+The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the
+purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export
+or transit. Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS Approved Premises/Schemes To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.', '6.', '6. MESSAGE FUNCTION
+The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the
+purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export
+or transit. Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS Approved Premises/Schemes To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.', 'Indha MESSAGE FUNCTION section-la, 6. MESSAGE FUNCTION
+The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the
+purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export
+or transit. Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) export of GST paid or locally manufactured goods
+APS Approved Premises/Schemes To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.', '6. MESSAGE FUNCTION
+The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the
+purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export
+or transit.
+Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS Approved Premises/Schemes To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.
+E.g. of “LW” are LWV(Licensed Warehouse for Motor Vehicles) and LWP
+(Licensed Warehouse for Petroleum)
+E.g. of “BW” are ZGS (Zero GST Warehouse) and BWP (Bonded Warehouse
+for Petroleum).
+BKT Blanket - To allow the Declarant to submit Declarations such as:
+a) DFS
+b) gold (hand carried)
+c) petroleum products or chemicals:
+i) dutiable
+ii) non-dutiable
+- CO application is not applicable for this declaration type.
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| Code | | | Declaration Type | | | Transfer Conditions |
+DRT | | | Direct (including storage in FTZ) | | | To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods | |
+APS | | | Approved Premises/Schemes | | | To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.
+E.g. of “LW” are LWV(Licensed Warehouse for Motor Vehicles) and LWP
+(Licensed Warehouse for Petroleum)
+E.g. of “BW” are ZGS (Zero GST Warehouse) and BWP (Bonded Warehouse
+for Petroleum). | |
+BKT | | | Blanket | | | - To allow the Declarant to submit Declarations such as:
+a) DFS
+b) gold (hand carried)
+c) petroleum products or chemicals:
+i) dutiable
+ii) non-dutiable
+- CO application is not applicable for this declaration type. | |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+6. MESSAGE FUNCTION
+The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the
+purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export
+or transit.
+Transfer conditions are:
+Code Declaration Type
+Transfer Conditions
+DRT
+Direct (including storage in FTZ)
+To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS
+Approved Premises/Schemes
+To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.
+E.g. of “LW” are LWV(Licensed Warehouse for Motor Vehicles) and LWP
+(Licensed Warehouse for Petroleum)
+E.g. of “BW” are ZGS (Zero GST Warehouse) and BWP (Bonded Warehouse
+for Petroleum).
+BKT
+Blanket
+- To allow the Declarant to submit Declarations such as:
+a) DFS
+b) gold (hand carried)
+c) petroleum products or chemicals:
+i) dutiable
+ii)
+non-dutiable
+- CO application is not applicable for this declaration type.
+OFFICIAL (CLOSED)
+AM
+TCS Temporary Import for To allow the Declarant to submit a Declaration for export of goods
+exhibition/auctions with sales previously imported under Temporary Import for exhibition/auctions
+with sales
+TCR Temporary Import for repairs To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for repairs
+TCE Temporary Import for To allow the Declarant to submit a Declaration for export of goods
+exhibition/auctions without sales previously imported under Temporary Import for exhibition/auctions
+without sales
+TCO Temporary Import for other To allow the Declarant to submit a Declaration for export of goods
+purposes previously imported under Temporary Import for other purposes
+TCI Temporary Export / Re-imported To allow the Declarant to submit a Declaration for Temporary Export /
+goods Re-imported goods
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+TCS | Temporary Import for
+exhibition/auctions with sales | To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for exhibition/auctions
+with sales
+TCR | Temporary Import for repairs | To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for repairs
+TCE | Temporary Import for
+exhibition/auctions without sales | To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for exhibition/auctions
+without sales
+TCO | Temporary Import for other
+purposes | To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for other purposes
+TCI | Temporary Export / Re-imported
+goods | To allow the Declarant to submit a Declaration for Temporary Export /
+Re-imported goods
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+TCS
+Temporary Import for
+exhibition/auctions with sales
+To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for exhibition/auctions
+with sales
+TCR
+Temporary Import for repairs
+To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for repairs
+TCE
+Temporary Import for
+exhibition/auctions without sales
+To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for exhibition/auctions
+without sales
+TCO
+Temporary Import for other
+purposes
+To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for other purposes
+TCI
+Temporary Export / Re-imported
+goods
+To allow the Declarant to submit a Declaration for Temporary Export /
+Re-imported goods
+OFFICIAL (CLOSED)
+AM
+Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents
+Logical Destinations: SC and CAs (if applicable)(via Trade Net system)
+Response message: Trade Net Response message
+- for the Issuing Authorities to issue the respective Permit to the Declarant; refer to
+reference 2 for more details
+- for the Issuing Authorities to inform the Declarant on the rejection of
+the declaration; refer to reference 3 for more details)
+- for the Issuing Authorities and Trade Net system to inform the Declarant
+on the errors found when processing the declaration message; refer to
+reference 4 for more details)', '[6, 7, 8]', '["The", "Net", "and", "for", "are", "DRT", "FTZ", "GST", "APS", "any", "LWV", "LWP", "ZGS", "BWP", "BKT", "DFS", "not", "doc", "XML", "Ver"]', 'Support MESSAGE FUNCTION processing and compliance validation.', '["6", "MESSAGE FUNCTION", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC6-R001', '6', 'IF validations pass THEN recommend action: Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS Approved Premises/Schemes To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.', 'business_rule', 'MESSAGE FUNCTION', 'MESSAGE FUNCTION
+The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the
+purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export
+or transit.', 'Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS Approved Premises/Schemes To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.', 'Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS Approved Premises/Schemes To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6 - MESSAGE FUNCTION.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'MESSAGE FUNCTION
+The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the
+purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export
+or transit.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS Approved Premises/Schemes To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| Code | | | Declaration Type | | | Transfer Conditions |
+DRT | | | Direct (including storage in FTZ) | | | To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods | |
+APS | | | Approved Premises/Schemes | | | To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'Transfer conditions are:
+Code Declaration Type
+Transfer Conditions
+DRT
+Direct (including storage in FTZ)
+To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS
+Approved Premises/Schemes
+To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'OFFICIAL (CLOSED)
+AM
+TCS Temporary Import for To allow the Declarant to submit a Declaration for export of goods
+exhibition/auctions with sales previously imported under Temporary Import for exhibition/auctions
+with sales
+TCR Temporary Import for repairs To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for repairs
+TCE Temporary Import for To allow the Declarant to submit a Declaration for export of goods
+exhibition/auctions without sales previously imported under Temporary Import for exhibition/auctions
+without sales
+TCO Temporary Import for other To allow the Declarant to submit a Declaration for export of goods
+purposes previously imported under Temporary Import for other purposes
+TCI Temporary Export / Re-imported To allow the Declarant to submit a Declaration for Temporary Export /
+goods Re-imported goods
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+TCS | Temporary Import for
+exhibition/auctions with sales | To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for exhibition/auctions
+with sales
+TCR | Temporary Import for repairs | To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for repairs
+TCE | Temporary Import for
+exhibition/auctions without sales | To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for exhibition/auctions
+without sales
+TCO | Temporary Import for other
+purposes | To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for other purposes
+TCI | Temporary Export / Re-imported
+goods | To allow the Declarant to submit a Declaration for Temporary Export /
+Re-imported goods
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('6', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+TCS
+Temporary Import for
+exhibition/auctions with sales
+To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for exhibition/auctions
+with sales
+TCR
+Temporary Import for repairs
+To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for repairs
+TCE
+Temporary Import for
+exhibition/auctions without sales
+To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for exhibition/auctions
+without sales
+TCO
+Temporary Import for other
+purposes
+To allow the Declarant to submit a Declaration for export of goods
+previously imported under Temporary Import for other purposes
+TCI
+Temporary Export / Re-imported
+goods
+To allow the Declarant to submit a Declaration for Temporary Export /
+Re-imported goods
+OFFICIAL (CLOSED)
+AM
+Sender: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents
+Logical Destinations: SC and CAs (if applicable)(via Trade Net system)
+Response message: Trade Net Response message
+- for the Issuing Authorities to issue the respective Permit to the Declarant; refer to
+reference 2 for more details
+- for the Issuing Authorities to inform the Declarant on the rejection of
+the declaration; refer to reference 3 for more details)
+- for the Issuing Authorities and Trade Net system to inform the Declarant
+on the errors found when processing the declaration message; refer to
+reference 4 for more details)');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'The Trade Net Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'Code Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'of “LW” are LWV(Licensed Warehouse for Motor Vehicles) and LWP
+(Licensed Warehouse for Petroleum)
+E.g.');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'BKT Blanket - To allow the Declarant to submit Declarations such as:
+a) DFS
+b) gold (hand carried)
+c) petroleum products or chemicals:
+i) dutiable
+ii) non-dutiable
+- CO application is not applicable for this declaration type.');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'Trade Net Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('6', '| |
+BKT | | | Blanket | | | - To allow the Declarant to submit Declarations such as:
+a) DFS
+b) gold (hand carried)
+c) petroleum products or chemicals:
+i) dutiable
+ii) non-dutiable
+- CO application is not applicable for this declaration type.');
+INSERT INTO documents (section_code, document_name) VALUES ('6', '| |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'BKT
+Blanket
+- To allow the Declarant to submit Declarations such as:
+a) DFS
+b) gold (hand carried)
+c) petroleum products or chemicals:
+i) dutiable
+ii)
+non-dutiable
+- CO application is not applicable for this declaration type.');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'TCS Temporary Import for To allow the Declarant to submit a Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'Import for repairs To allow the Declarant to submit a Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'TCE Temporary Import for To allow the Declarant to submit a Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'Import for other To allow the Declarant to submit a Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'Export / Re-imported To allow the Declarant to submit a Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('6', 'To allow the Declarant to submit a Declaration');
+INSERT INTO authorities (section_code, authority_name) VALUES ('6', 'Issuing Authorities');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 1, 'Evaluate condition: MESSAGE FUNCTION
+The Trade Net Declaration message permits the transfer of data from the Declarant to SC and CA (if applicable) for the
+purpose of meeting legislative and/or operational requirements in respect of the declaration of goods for import, export
+or transit.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 2, 'Evaluate condition: Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS Approved Premises/Schemes To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 3, 'Evaluate condition: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| Code | | | Declaration Type | | | Transfer Conditions |
+DRT | | | Direct (including storage in FTZ) | | | To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods | |
+APS | | | Approved Premises/Schemes | | | To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 4, 'Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS Approved Premises/Schemes To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 5, 'BKT Blanket - To allow the Declarant to submit Declarations such as:
+a) DFS
+b) gold (hand carried)
+c) petroleum products or chemicals:
+i) dutiable
+ii) non-dutiable
+- CO application is not applicable for this declaration type.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 6, 'Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| Code | | | Declaration Type | | | Transfer Conditions |
+DRT | | | Direct (including storage in FTZ) | | | To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods | |
+APS | | | Approved Premises/Schemes | | | To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 7, '| |
+BKT | | | Blanket | | | - To allow the Declarant to submit Declarations such as:
+a) DFS
+b) gold (hand carried)
+c) petroleum products or chemicals:
+i) dutiable
+ii) non-dutiable
+- CO application is not applicable for this declaration type.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 8, 'Transfer conditions are:
+Code Declaration Type
+Transfer Conditions
+DRT
+Direct (including storage in FTZ)
+To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS
+Approved Premises/Schemes
+To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 9, 'BKT
+Blanket
+- To allow the Declarant to submit Declarations such as:
+a) DFS
+b) gold (hand carried)
+c) petroleum products or chemicals:
+i) dutiable
+ii)
+non-dutiable
+- CO application is not applicable for this declaration type.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 10, 'Run validation: Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS Approved Premises/Schemes To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 11, 'Run validation: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| Code | | | Declaration Type | | | Transfer Conditions |
+DRT | | | Direct (including storage in FTZ) | | | To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods | |
+APS | | | Approved Premises/Schemes | | | To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 12, 'Run validation: Transfer conditions are:
+Code Declaration Type
+Transfer Conditions
+DRT
+Direct (including storage in FTZ)
+To allow the Declarant to submit Declarations for:
+a) from same FTZ
+b) from different FTZ (inter-gateway movement)
+c) Export of GST paid or locally manufactured goods
+APS
+Approved Premises/Schemes
+To allow the Declarant to submit Declarations for:
+a) from approved premises:
+i) seastores
+ii) other than seastores
+Note: In general, any references to “LW” (or Licensed Warehouse) and
+“BW” (or Bonded Warehouse) refer to licensed premises used for storing
+dutiable and non-dutiable goods, respectively.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'The');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'Net');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'for');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'DRT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'FTZ');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'GST');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'APS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'LWV');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'LWP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'ZGS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'BWP');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'BKT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'DFS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'doc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'XML');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'Ver');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', '6');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'MESSAGE FUNCTION');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '7', 'MESSAGE DEFINITION', 'MESSAGE DEFINITION
+Refer to reference 1, chapter 4, Message Definition.', 'Indha MESSAGE DEFINITION section-la, MESSAGE DEFINITION
+Refer to reference 1, chapter 4, Message Definition.', '7. MESSAGE DEFINITION
+Refer to reference 1, chapter 4, Message Definition. Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.', '7.', '7. MESSAGE DEFINITION
+Refer to reference 1, chapter 4, Message Definition. Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.', 'Indha MESSAGE DEFINITION section-la, 7. MESSAGE DEFINITION
+Refer to reference 1, chapter 4, Message Definition. Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.', '7. MESSAGE DEFINITION
+Refer to reference 1, chapter 4, Message Definition.
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+Sender
+: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents
+Logical Destinations
+: SC and CAs (if applicable)(via Trade Net system)
+Response message: Trade Net Response message
+- for the Issuing Authorities to issue the respective Permit to the Declarant; refer to
+reference 2 for more details
+- for the Issuing Authorities to inform the Declarant on the rejection of
+the declaration; refer to reference 3 for more details)
+- for the Issuing Authorities and Trade Net system to inform the Declarant
+on the errors found when processing the declaration message; refer to
+reference 4 for more details)
+7. MESSAGE DEFINITION
+Refer to reference 1, chapter 4, Message Definition.
+OFFICIAL (CLOSED)
+AM', '[8, 9]', '["Net", "doc", "XML", "For", "Ver", "Air", "and", "CAs", "via", "the", "Date", "more", "when", "Refer", "Trade", "Cargo", "issue", "found", "OUTDEC", "CLOSED"]', 'Support MESSAGE DEFINITION processing and compliance validation.', '["7", "MESSAGE DEFINITION", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R001', '7', 'IF validations pass THEN recommend action: TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+Sender
+: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents
+Logical Destinations
+: SC and CAs (if applicable)(via Trade Net system)
+Response message: Trade Net Response message
+- for the Issuing Authorities to issue the respective Permit to the Declarant; refer to
+reference 2 for more details
+- for the Issuing Authorities to inform the Declarant on the rejection of
+the declaration; refer to reference 3 for more details)
+- for the Issuing Authorities and Trade Net system to inform the Declarant
+on the errors found when processing the declaration message; refer to
+reference 4 for more details)
+7.', 'business_rule', 'MESSAGE DEFINITION', 'Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.', 'Not explicitly covered in uploaded documents.', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+Sender
+: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents
+Logical Destinations
+: SC and CAs (if applicable)(via Trade Net system)
+Response message: Trade Net Response message
+- for the Issuing Authorities to issue the respective Permit to the Declarant; refer to
+reference 2 for more details
+- for the Issuing Authorities to inform the Declarant on the rejection of
+the declaration; refer to reference 3 for more details)
+- for the Issuing Authorities and Trade Net system to inform the Declarant
+on the errors found when processing the declaration message; refer to
+reference 4 for more details)
+7.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 7 - MESSAGE DEFINITION.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+Sender
+: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents
+Logical Destinations
+: SC and CAs (if applicable)(via Trade Net system)
+Response message: Trade Net Response message
+- for the Issuing Authorities to issue the respective Permit to the Declarant; refer to
+reference 2 for more details
+- for the Issuing Authorities to inform the Declarant on the rejection of
+the declaration; refer to reference 3 for more details)
+- for the Issuing Authorities and Trade Net system to inform the Declarant
+on the errors found when processing the declaration message; refer to
+reference 4 for more details)
+7.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Trade Net Declaration');
+INSERT INTO authorities (section_code, authority_name) VALUES ('7', 'Issuing Authorities');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 1, 'Evaluate condition: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 2, 'Evaluate condition: TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+Sender
+: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents
+Logical Destinations
+: SC and CAs (if applicable)(via Trade Net system)
+Response message: Trade Net Response message
+- for the Issuing Authorities to issue the respective Permit to the Declarant; refer to
+reference 2 for more details
+- for the Issuing Authorities to inform the Declarant on the rejection of
+the declaration; refer to reference 3 for more details)
+- for the Issuing Authorities and Trade Net system to inform the Declarant
+on the errors found when processing the declaration message; refer to
+reference 4 for more details)
+7.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 3, 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+Sender
+: Traders, Freight Forwarders, Air Cargo Agents, Shipping Agents
+Logical Destinations
+: SC and CAs (if applicable)(via Trade Net system)
+Response message: Trade Net Response message
+- for the Issuing Authorities to issue the respective Permit to the Declarant; refer to
+reference 2 for more details
+- for the Issuing Authorities to inform the Declarant on the rejection of
+the declaration; refer to reference 3 for more details)
+- for the Issuing Authorities and Trade Net system to inform the Declarant
+on the errors found when processing the declaration message; refer to
+reference 4 for more details)
+7.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Net');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'doc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'XML');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'For');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Ver');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Air');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'CAs');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'via');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Date');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'more');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'when');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Refer');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Trade');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Cargo');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'issue');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'found');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'OUTDEC');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'CLOSED');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', '7');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'MESSAGE DEFINITION');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '8', 'MESSAGE DETAILS', 'Defines the operational requirements for MESSAGE DETAILS.', 'Indha MESSAGE DETAILS section-la, Defines the operational requirements for MESSAGE DETAILS.', '8. MESSAGE DETAILS
+User defined
+Ref Tag name S R Repr Remarks
+HEADER SECTION
+out:Header M 1
+B045 cbc:Message Reference M 1 an..14 Sender unique message reference. Sequence number of messages in the
+interchange (Sender generated).', 'MESSAGE DETAILS governs how DGFT business controls should be applied, validated, and enforced.', 'MESSAGE DETAILS explains the operating rule set that DEKAI should enforce. Key control points include /cac:Unique Reference Number
+B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender
+Id as specified in the interchange header). The section also drives actions such as DRT=Direct (Including storage in FTZ)
+BKT=Blanket
+APS=Approved Premises/Schemes
+For Temporary Consignment:
+a) TCS=Temporary Import for exhibition/auctions with sales
+b) TCR=Temporary Import for repairs
+c) TCE=Temporary Import for exhibition/auctions without sales
+d) TCO=Temporary Import for other purposes
+e) TCI=Temporary Export / Re-imported goods
+B037 cbc:Declaration Indicator M boolean a) Mandatory for all Declaration Types..', 'Indha MESSAGE DETAILS section-la, MESSAGE DETAILS explains the operating rule set that DEKAI should enforce. Key control points include /cac:Unique Reference Number
+B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender
+Id as specified in the interchange header). The section also drives actions such as DRT=Direct (Including storage in FTZ)
+BKT=Blanket
+APS=Approved Premises/Schemes
+For Temporary Consignment:
+a) TCS=Temporary import for exhibition/auctions with sales
+b) TCR=Temporary import for repairs
+c) TCE=Temporary import for exhibition/auctions without sales
+d) TCO=Temporary import for other purposes
+e) TCI=Temporary export / Re-imported goods
+B037 cbc:Declaration Indicator M boolean a) Mandatory for all Declaration Types..', '8. MESSAGE DETAILS
+User defined
+Ref Tag name S R Repr Remarks
+HEADER SECTION
+out:Header M 1
+B045 cbc:Message Reference M 1 an..14 Sender unique message reference. Sequence number of messages in the
+interchange (Sender generated).
+A062 cac:Unique Reference Number M 1 Format:
+Declarant entity identifier = XXXXXXXXXXXXXXXXX
+Date of Creation = CCYYMMDD
+Sequence Numeric = 9999
+B036 cbc:ID M 1 an..17 Specify Declarant entity identifier.
+B020 cbc:Date M 1 n8 Specify date of Creation.
+B068 cbc:Sequence Numeric M 1 n.. 4 Specify sequence number.
+/cac:Unique Reference Number
+B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender
+Id as specified in the interchange header).
+B083 cbc:Common Access Reference M 1 an..7 OUTDEC
+B021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg.
+DRT=Direct (Including storage in FTZ)
+BKT=Blanket
+APS=Approved Premises/Schemes
+For Temporary Consignment:
+a) TCS=Temporary Import for exhibition/auctions with sales
+b) TCR=Temporary Import for repairs
+c) TCE=Temporary Import for exhibition/auctions without sales
+d) TCO=Temporary Import for other purposes
+e) TCI=Temporary Export / Re-imported goods
+B037 cbc:Declaration Indicator M boolean a) Mandatory for all Declaration Types. Refers to the declaration at
+the frontend software: “I/We declare that all the particulars in
+this Application are true and correct”.
+b) With CO Application: “I/We declare that all the product(s) to be
+exported in this Application has/have been registered with the
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+Ref Tag name | User defined
+S R Repr | Remarks
+HEADER SECTION | |
+| out:Header |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+8. MESSAGE DETAILS
+User defined
+Ref
+Tag name
+S
+R Repr
+Remarks
+HEADER SECTION
+out:Header
+M
+1
+B045
+cbc:Message Reference
+M
+1 an..14
+Sender unique message reference. Sequence number of messages in the
+interchange (Sender generated).
+A062
+cac:Unique Reference Number
+M
+1
+Format:
+Declarant entity identifier = XXXXXXXXXXXXXXXXX
+Date of Creation = CCYYMMDD
+Sequence Numeric = 9999
+B036
+cbc:ID
+M
+1 an..17
+Specify Declarant entity identifier.
+B020
+cbc:Date
+M
+1 n8
+Specify date of Creation.
+B068
+cbc:Sequence Numeric
+M
+1 n.. 4
+Specify sequence number.
+/cac:Unique Reference Number
+B065
+cbc:Declarant ID
+M
+1 an..17
+Mandatory to specify Message Sender Id (must be same as the Sender
+Id as specified in the interchange header).
+B083
+cbc:Common Access Reference
+M
+1 an..7
+OUTDEC
+B021
+cbc:Declaration Type
+M
+1 an..7
+Specify Declaration Type eg.
+DRT=Direct (Including storage in FTZ)
+BKT=Blanket
+APS=Approved Premises/Schemes
+For Temporary Consignment:
+a) TCS=Temporary Import for exhibition/auctions with sales
+b) TCR=Temporary Import for repairs
+c) TCE=Temporary Import for exhibition/auctions without sales
+d) TCO=Temporary Import for other purposes
+e) TCI=Temporary Export / Re-imported goods
+B037
+cbc:Declaration Indicator
+M
+boolean
+a) Mandatory for all Declaration Types. Refers to the declaration at
+the frontend software: “I/We declare that all the particulars in
+this Application are true and correct”.
+b) With CO Application: “I/We declare that all the product(s) to be
+exported in this Application has/have been registered with the
+OFFICIAL (CLOSED)
+AM
+TTSB of Singapore Customs and qualify(s) for the respective
+Certificates applied for”.
+B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable.
+A066 cac:Remarks C 5 Provide general information.
+i) For Outward without CO, Repeat once and specify Free Text at most
+2 times.
+ii) For Outward with CO, Repeat at most 5 times and specify Free Text
+at most 5 times.
+B034 cbc:Free Text M 5 an..512 Specify general/trader’s remarks.
+/cac:Remarks
+B065 cbc:Additional Recipient ID C 3 an..17 Repeat at most 3 times for additional Recipient (for the purpose of
+receiving a copy of the message) ids.
+B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any).
+A068 cac:Customs Procedure Code Information C 5 Repeat at most 5 times.
+B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC) such as:
+(1) Required Code for seastore permits application.
+A069 cac:CPCProcessing Code C 5 Repeat at most 5 times each for Processing code 1, 2 and 3.
+B057 cbc:Processing Code One M 1 an..35 Specify processing code 1 such as:
+(1) No. of crew for seastore permits application.
+B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2 such as:
+(1) Voyage duration for seastore permits application.
+B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3.
+/cac:CPCProcessing Code
+/cac:Customs Procedure Code Information
+out:Certificate C 1 Specify for CO application only.
+B005 cbc:Application Product Type M 1 an2 Specify Application Product Type. The valid application product
+types are:
+NA=Application for non-textile products at Airport
+NH=Application for non-textile products at Headquarters
+TX=Application for textile products
+B079 cbc:Entry Year C 1 n4 FORMAT: CCYY
+Optional to specify Entry Year if Application Product Type = TX and
+Certificate Type = 9 or 18. Not applicable for others.
+B016 cbc:GSPDonor Country C 1 an2 Mandatory for Certificate Type 2 to specify GSP Donor Country
+(Donation Acting Country). Not applicable for others.
+Specify Country code (refer to UN/ECE Recommendation No. 3).
+A009 cac:Certificate Detail M 2 Repeat at most 2 times.
+B068 cbc:Sequence Numeric M 1 n..5 Specify the sequence number of the Certificate.
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| out:Certificate |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+TTSB of Singapore Customs and qualify(s) for the respective
+Certificates applied for”.
+B064
+cbc:Previous Permit Number
+C
+1 an..35
+Specify previous Permit Number if applicable.
+A066
+cac:Remarks
+C
+5
+Provide general information.
+i) For Outward without CO, Repeat once and specify Free Text at most
+2 times.
+ii) For Outward with CO, Repeat at most 5 times and specify Free Text
+at most 5 times.
+B034
+cbc:Free Text
+M
+5 an..512
+Specify general/trader’s remarks.
+/cac:Remarks
+B065
+cbc:Additional Recipient ID
+C
+3 an..17
+Repeat at most 3 times for additional Recipient (for the purpose of
+receiving a copy of the message) ids.
+B007
+cbc:Banker Guarantee Code
+C
+1 an..3
+Specify BG indicator (if any).
+A068
+cac:Customs Procedure Code Information
+C
+5
+Repeat at most 5 times.
+B089
+cbc:Customs Procedure Code
+M
+1 an..7
+Specify Customs Procedure Code (CPC) such as:
+(1) Required Code for seastore permits application.
+A069
+cac:CPCProcessing Code
+C
+5
+Repeat at most 5 times each for Processing code 1, 2 and 3.
+B057
+cbc:Processing Code One
+M
+1 an..35
+Specify processing code 1 such as:
+(1) No. of crew for seastore permits application.
+B057
+cbc:Processing Code Two
+C
+1 an..35
+Specify processing code 2 such as:
+(1) Voyage duration for seastore permits application.
+B057
+cbc:Processing Code Three
+C
+1 an..35
+Specify processing code 3.
+/cac:CPCProcessing Code
+/cac:Customs Procedure Code Information
+out:Certificate
+C
+1
+Specify for CO application only.
+B005
+cbc:Application Product Type
+M
+1 an2
+Specify Application Product Type. The valid application product
+types are:
+NA=Application for non-textile products at Airport
+NH=Application for non-textile products at Headquarters
+TX=Application for textile products
+B079
+cbc:Entry Year
+C
+1 n4
+FORMAT: CCYY
+Optional to specify Entry Year if Application Product Type = TX and
+Certificate Type = 9 or 18. Not applicable for others.
+B016
+cbc:GSPDonor Country
+C
+1 an2
+Mandatory for Certificate Type 2 to specify GSP Donor Country
+(Donation Acting Country). Not applicable for others.
+Specify Country code (refer to UN/ECE Recommendation No. 3).
+A009
+cac:Certificate Detail
+M
+2
+Repeat at most 2 times.
+B068
+cbc:Sequence Numeric
+M
+1 n..5
+Specify the sequence number of the Certificate.
+OFFICIAL (CLOSED)
+AM
+B011 cbc:Certificate Type M 1 an..2 Specify Certificate Type eg.
+1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Processing)
+5 (Commonwealth Preference Certificate)
+7 (Form W – reserve)
+9 (Ordinary Certificate of Origin for textile products to EU
+countries only)
+10 (Export Certificate for fresh cut orchids)
+12 (GSTP – Global System of Trade Preferences)
+16 (ATIGA Form D)
+17 (Back-to-Back ATIGA Form D)
+18 (Preferential CO for FTA)
+19 (Asean-China FTA Form E)
+20 (Back-to-Back ACFTA Form E)
+21 (India-Singapore CECA CO)
+22 (Back-to-Back AKFTA Form AK)
+23 (Asean-Korea FTA Form AK)
+24 (CO Generic Form Z)
+25 (Asean-Japan CEP Form AJ)
+26 (Back-to-Back AJCEP Form AJ)
+27 (Asean-India FTA Form AI)
+28 (Back-to-Back AIFTA Form AI)
+29 (Asean-Australia-New Zealand FTA Form AANZ)
+30 (Back-to-Back AANZFTA Form AANZ)
+31 (ASEAN-Hong Kong FTA Form AHK)
+32 (Back-to-Back AHKFTA Form AHK)
+33 Regional Comprehensive Economic Partnership (RCEP) Form RCEP
+34 Back-to-Back Form RCEP
+B015 cbc:Copies Numeric C 1 n..2 Specify additional number of copies required for this Certificate
+Type.
+/cac:Certificate Detail
+B014 cbc:Preference Content Percent C 1 n..3 i) If Certificate Type = 5, mandatory to specify the percentage of
+Commonwealth Preference Content in which the value of each and every
+manufactured article in its condition described in the Certificate
+is not less than the specified percentage.
+ii) Not applicable for other Certificate Type.
+B018 cbc:Currency Code C 1 a3 All values in the Certificate at item level will be assumed to be
+SGD unless specified here.
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+B011
+cbc:Certificate Type
+M
+1 an..2
+Specify Certificate Type eg.
+1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Processing)
+5 (Commonwealth Preference Certificate)
+7 (Form W – reserve)
+9 (Ordinary Certificate of Origin for textile products to EU
+countries only)
+10 (Export Certificate for fresh cut orchids)
+12 (GSTP – Global System of Trade Preferences)
+16 (ATIGA Form D)
+17 (Back-to-Back ATIGA Form D)
+18 (Preferential CO for FTA)
+19 (Asean-China FTA Form E)
+20 (Back-to-Back ACFTA Form E)
+21 (India-Singapore CECA CO)
+22 (Back-to-Back AKFTA Form AK)
+23 (Asean-Korea FTA Form AK)
+24 (CO Generic Form Z)
+25 (Asean-Japan CEP Form AJ)
+26 (Back-to-Back AJCEP Form AJ)
+27 (Asean-India FTA Form AI)
+28 (Back-to-Back AIFTA Form AI)
+29 (Asean-Australia-New Zealand FTA Form AANZ)
+30 (Back-to-Back AANZFTA Form AANZ)
+31 (ASEAN-Hong Kong FTA Form AHK)
+32 (Back-to-Back AHKFTA Form AHK)
+33 Regional Comprehensive Economic Partnership (RCEP) Form RCEP
+34 Back-to-Back Form RCEP
+B015
+cbc:Copies Numeric
+C
+1 n..2
+Specify additional number of copies required for this Certificate
+Type.
+/cac:Certificate Detail
+B014
+cbc:Preference Content Percent
+C
+1 n..3
+i) If Certificate Type = 5, mandatory to specify the percentage of
+Commonwealth Preference Content in which the value of each and every
+manufactured article in its condition described in the Certificate
+is not less than the specified percentage.
+ii) Not applicable for other Certificate Type.
+B018
+cbc:Currency Code
+C
+1 a3
+All values in the Certificate at item level will be assumed to be
+SGD unless specified here.
+OFFICIAL (CLOSED)
+AM
+Specify currency code (refer to UN/ECE Recommendation No. 9).
+B038 cbc:Additional Certificate Details C 5 an..35 Specify certificate additional details.
+B038 cbc:Transport Details C 5 an..35 Specify transport details.
+out:Cargo M 1
+B009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List).
+A032 cac:Release Location M 1 Specify Place of Release.
+B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists).
+B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY
+(shipyard) or SC (sailing club) or O (others).
+/cac:Release Location
+A032 cac:Receipt Location M 1 Specify Place of Receipt.
+B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists).
+B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY
+(shipyard) or SC (sailing club) or O (others).
+/cac:Receipt Location
+A052 cac:Storage Location C 1 Specify place of storage for goods meant to be stored in FTZ where
+there may be no out transport details.
+B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists).
+/cac:Storage Location
+A059 cac:Transport Equipment C 99 For all declaration types, repeat at most 99 times for containers at
+point of clearance.
+B068 cbc:Sequence Numeric M 1 n.. 5 Specify sequence number.
+B027 cbc:Equipment ID M 1 an..13 Specify container number.
+B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:
+FCL: Full Container Load
+LCL: Less Than Container Load
+B028 cbc:Equipment Weight Measure Numeric M 1 n.. 3 Specify container weight (TNE).
+A058 cac:Transport Equipment Seal M 1 This group is used in association with the container number as
+identified in the previous group ie. Transport Equipment, and the
+seal numbers are to be declared in the correct sequence in relation
+to the sequence for declaring the container numbers in Transport
+Equipment.
+B067 cbc:Seal ID M 1 an..35 Specify the shipper seal number affixed to the container.
+/cac:Transport Equipment Seal
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| out:Cargo |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+Specify currency code (refer to UN/ECE Recommendation No. 9).
+B038
+cbc:Additional Certificate Details
+C
+5 an..35
+Specify certificate additional details.
+B038
+cbc:Transport Details
+C
+5 an..35
+Specify transport details.
+out:Cargo
+M
+1
+B009
+cbc:Cargo Packing Type
+M
+1 an..3
+Specify Cargo Packing Type (refer to STDID Code List).
+A032
+cac:Release Location
+M
+1
+Specify Place of Release.
+B039
+cbc:Location Code
+M
+1 an..7
+Specify location code (refer to STDID Code Lists).
+B040
+cbc:Location Name
+C
+1 an..256
+Specify name and/address of location if the location code = SY
+(shipyard) or SC (sailing club) or O (others).
+/cac:Release Location
+A032
+cac:Receipt Location
+M
+1
+Specify Place of Receipt.
+B039
+cbc:Location Code
+M
+1 an..7
+Specify location code (refer to STDID Code Lists).
+B040
+cbc:Location Name
+C
+1 an..256
+Specify name and/address of location if the location code = SY
+(shipyard) or SC (sailing club) or O (others).
+/cac:Receipt Location
+A052
+cac:Storage Location
+C
+1
+Specify place of storage for goods meant to be stored in FTZ where
+there may be no out transport details.
+B039
+cbc:Location Code
+M
+1 an..7
+Specify location code (refer to STDID Code Lists).
+/cac:Storage Location
+A059
+cac:Transport Equipment
+C
+99
+For all declaration types, repeat at most 99 times for containers at
+point of clearance.
+B068
+cbc:Sequence Numeric
+M
+1 n.. 5
+Specify sequence number.
+B027
+cbc:Equipment ID
+M
+1 an..13
+Specify container number.
+B069
+cbc:Size Type Code
+M
+1 an5
+Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:
+FCL: Full Container Load
+LCL: Less Than Container Load
+B028
+cbc:Equipment Weight Measure Numeric
+M
+1 n.. 3
+Specify container weight (TNE).
+A058
+cac:Transport Equipment Seal
+M
+1
+This group is used in association with the container number as
+identified in the previous group ie. Transport Equipment, and the
+seal numbers are to be declared in the correct sequence in relation
+to the sequence for declaring the container numbers in Transport
+Equipment.
+B067
+cbc:Seal ID
+M
+1 an..35
+Specify the shipper seal number affixed to the container.
+/cac:Transport Equipment Seal
+OFFICIAL (CLOSED)
+AM
+/cac:Transport Equipment
+B020 cbc:Blanket Start Date C 1 n8 Format: CCYYMMDD
+For blanket imports, specify Start Date of Blanket.
+out:Transport C 1 Note 1:
+Specify transport details.
+a) For Declaration Type = DRT (when there is inter-gateway
+movement), specify:
+i) inward transport
+ii) outward transport
+b) For others, specify outward transport if not meant for storage.
+Note 2:
+Outward Transport details need not be filled if goods are meant for
+storage with valid FTZ place of storage.
+A026 cac:Inward Transport C 1 Specify Inward transport.
+i) Mandatory to specify inward Transport for Declaration Type = DRT
+(when there is inter-gateway movement) only.
+ii) Not applicable for others.
+A060 cac:Transport Means M 1 Specify inward transport mode.
+A061 cac:Transport Mode M 1 For all Declaration Types, valid codes (refer to UN/ECE
+Recommendation No. 19) are:', '[9, 10, 11, 12, 13]', '["Ref", "Tag", "out", "cbc", "the", "cac", "DRT", "FTZ", "BKT", "APS", "For", "TCS", "TCR", "TCE", "TCO", "TCI", "all", "are", "and", "Net"]', 'Support MESSAGE DETAILS processing and compliance validation.', '["8", "MESSAGE DETAILS", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC8-R001', '8', '/cac:Unique Reference Number
+B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender
+Id as specified in the interchange header).', 'business_rule', 'MESSAGE DETAILS', 'A062 cac:Unique Reference Number M 1 Format:
+Declarant entity identifier = XXXXXXXXXXXXXXXXX
+Date of Creation = CCYYMMDD
+Sequence Numeric = 9999
+B036 cbc:ID M 1 an..17 Specify Declarant entity identifier.', '/cac:Unique Reference Number
+B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender
+Id as specified in the interchange header).', 'DRT=Direct (Including storage in FTZ)
+BKT=Blanket
+APS=Approved Premises/Schemes
+For Temporary Consignment:
+a) TCS=Temporary Import for exhibition/auctions with sales
+b) TCR=Temporary Import for repairs
+c) TCE=Temporary Import for exhibition/auctions without sales
+d) TCO=Temporary Import for other purposes
+e) TCI=Temporary Export / Re-imported goods
+B037 cbc:Declaration Indicator M boolean a) Mandatory for all Declaration Types.', 'B018 cbc:Currency Code C 1 a3 All values in the Certificate at item level will be assumed to be
+SGD unless specified here.', 'DEKAI should produce a compliance decision for 8 - MESSAGE DETAILS.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC8-R002', '8', '/cac:Unique Reference Number
+B065
+cbc:Declarant ID
+M
+1 an..17
+Mandatory to specify Message Sender Id (must be same as the Sender
+Id as specified in the interchange header).', 'business_rule', 'MESSAGE DETAILS', 'B020 cbc:Date M 1 n8 Specify date of Creation.', 'DRT=Direct (Including storage in FTZ)
+BKT=Blanket
+APS=Approved Premises/Schemes
+For Temporary Consignment:
+a) TCS=Temporary Import for exhibition/auctions with sales
+b) TCR=Temporary Import for repairs
+c) TCE=Temporary Import for exhibition/auctions without sales
+d) TCO=Temporary Import for other purposes
+e) TCI=Temporary Export / Re-imported goods
+B037 cbc:Declaration Indicator M boolean a) Mandatory for all Declaration Types.', 'b) With CO Application: “I/We declare that all the product(s) to be
+exported in this Application has/have been registered with the
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+Ref Tag name | User defined
+S R Repr | Remarks
+HEADER SECTION | |
+| out:Header |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.', 'B018
+cbc:Currency Code
+C
+1 a3
+All values in the Certificate at item level will be assumed to be
+SGD unless specified here.', 'DEKAI should produce a compliance decision for 8 - MESSAGE DETAILS.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'A062 cac:Unique Reference Number M 1 Format:
+Declarant entity identifier = XXXXXXXXXXXXXXXXX
+Date of Creation = CCYYMMDD
+Sequence Numeric = 9999
+B036 cbc:ID M 1 an..17 Specify Declarant entity identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B020 cbc:Date M 1 n8 Specify date of Creation.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '4 Specify sequence number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '/cac:Unique Reference Number
+B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender
+Id as specified in the interchange header).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B083 cbc:Common Access Reference M 1 an..7 OUTDEC
+B021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'b) With CO Application: “I/We declare that all the product(s) to be
+exported in this Application has/have been registered with the
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+Ref Tag name | User defined
+S R Repr | Remarks
+HEADER SECTION | |
+| out:Header |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'A062
+cac:Unique Reference Number
+M
+1
+Format:
+Declarant entity identifier = XXXXXXXXXXXXXXXXX
+Date of Creation = CCYYMMDD
+Sequence Numeric = 9999
+B036
+cbc:ID
+M
+1 an..17
+Specify Declarant entity identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B020
+cbc:Date
+M
+1 n8
+Specify date of Creation.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '4
+Specify sequence number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '/cac:Unique Reference Number
+B065
+cbc:Declarant ID
+M
+1 an..17
+Mandatory to specify Message Sender Id (must be same as the Sender
+Id as specified in the interchange header).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B083
+cbc:Common Access Reference
+M
+1 an..7
+OUTDEC
+B021
+cbc:Declaration Type
+M
+1 an..7
+Specify Declaration Type eg.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'b) With CO Application: “I/We declare that all the product(s) to be
+exported in this Application has/have been registered with the
+OFFICIAL (CLOSED)
+AM
+TTSB of Singapore Customs and qualify(s) for the respective
+Certificates applied for”.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'i) For Outward without CO, Repeat once and specify Free Text at most
+2 times.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'ii) For Outward with CO, Repeat at most 5 times and specify Free Text
+at most 5 times.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B034 cbc:Free Text M 5 an..512 Specify general/trader’s remarks.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC) such as:
+(1) Required Code for seastore permits application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B057 cbc:Processing Code One M 1 an..35 Specify processing code 1 such as:
+(1) No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2 such as:
+(1) Voyage duration for seastore permits application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B057 cbc:Processing Code Three C 1 an..35 Specify processing code 3.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '/cac:CPCProcessing Code
+/cac:Customs Procedure Code Information
+out:Certificate C 1 Specify for CO application only.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B005 cbc:Application Product Type M 1 an2 Specify Application Product Type.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'The valid application product
+types are:
+NA=Application for non-textile products at Airport
+NH=Application for non-textile products at Headquarters
+TX=Application for textile products
+B079 cbc:Entry Year C 1 n4 FORMAT: CCYY
+Optional to specify Entry Year if Application Product Type = TX and
+Certificate Type = 9 or 18.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B016 cbc:GSPDonor Country C 1 an2 Mandatory for Certificate Type 2 to specify GSP Donor Country
+(Donation Acting Country).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'Specify Country code (refer to UN/ECE Recommendation No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'A009 cac:Certificate Detail M 2 Repeat at most 2 times.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B068 cbc:Sequence Numeric M 1 n..5 Specify the sequence number of the Certificate.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| out:Certificate |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+TTSB of Singapore Customs and qualify(s) for the respective
+Certificates applied for”.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B064
+cbc:Previous Permit Number
+C
+1 an..35
+Specify previous Permit Number if applicable.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B034
+cbc:Free Text
+M
+5 an..512
+Specify general/trader’s remarks.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B007
+cbc:Banker Guarantee Code
+C
+1 an..3
+Specify BG indicator (if any).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B089
+cbc:Customs Procedure Code
+M
+1 an..7
+Specify Customs Procedure Code (CPC) such as:
+(1) Required Code for seastore permits application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B057
+cbc:Processing Code One
+M
+1 an..35
+Specify processing code 1 such as:
+(1) No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B057
+cbc:Processing Code Two
+C
+1 an..35
+Specify processing code 2 such as:
+(1) Voyage duration for seastore permits application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B057
+cbc:Processing Code Three
+C
+1 an..35
+Specify processing code 3.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '/cac:CPCProcessing Code
+/cac:Customs Procedure Code Information
+out:Certificate
+C
+1
+Specify for CO application only.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B005
+cbc:Application Product Type
+M
+1 an2
+Specify Application Product Type.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'The valid application product
+types are:
+NA=Application for non-textile products at Airport
+NH=Application for non-textile products at Headquarters
+TX=Application for textile products
+B079
+cbc:Entry Year
+C
+1 n4
+FORMAT: CCYY
+Optional to specify Entry Year if Application Product Type = TX and
+Certificate Type = 9 or 18.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B016
+cbc:GSPDonor Country
+C
+1 an2
+Mandatory for Certificate Type 2 to specify GSP Donor Country
+(Donation Acting Country).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'A009
+cac:Certificate Detail
+M
+2
+Repeat at most 2 times.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B068
+cbc:Sequence Numeric
+M
+1 n..5
+Specify the sequence number of the Certificate.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'OFFICIAL (CLOSED)
+AM
+B011 cbc:Certificate Type M 1 an..2 Specify Certificate Type eg.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Processing)
+5 (Commonwealth Preference Certificate)
+7 (Form W – reserve)
+9 (Ordinary Certificate of Origin for textile products to EU
+countries only)
+10 (Export Certificate for fresh cut orchids)
+12 (GSTP – Global System of Trade Preferences)
+16 (ATIGA Form D)
+17 (Back-to-Back ATIGA Form D)
+18 (Preferential CO for FTA)
+19 (Asean-China FTA Form E)
+20 (Back-to-Back ACFTA Form E)
+21 (India-Singapore CECA CO)
+22 (Back-to-Back AKFTA Form AK)
+23 (Asean-Korea FTA Form AK)
+24 (CO Generic Form Z)
+25 (Asean-Japan CEP Form AJ)
+26 (Back-to-Back AJCEP Form AJ)
+27 (Asean-India FTA Form AI)
+28 (Back-to-Back AIFTA Form AI)
+29 (Asean-Australia-New Zealand FTA Form AANZ)
+30 (Back-to-Back AANZFTA Form AANZ)
+31 (ASEAN-Hong Kong FTA Form AHK)
+32 (Back-to-Back AHKFTA Form AHK)
+33 Regional Comprehensive Economic Partnership (RCEP) Form RCEP
+34 Back-to-Back Form RCEP
+B015 cbc:Copies Numeric C 1 n..2 Specify additional number of copies required for this Certificate
+Type.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '/cac:Certificate Detail
+B014 cbc:Preference Content Percent C 1 n..3 i) If Certificate Type = 5, mandatory to specify the percentage of
+Commonwealth Preference Content in which the value of each and every
+manufactured article in its condition described in the Certificate
+is not less than the specified percentage.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'ii) Not applicable for other Certificate Type.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B018 cbc:Currency Code C 1 a3 All values in the Certificate at item level will be assumed to be
+SGD unless specified here.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+B011
+cbc:Certificate Type
+M
+1 an..2
+Specify Certificate Type eg.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Processing)
+5 (Commonwealth Preference Certificate)
+7 (Form W – reserve)
+9 (Ordinary Certificate of Origin for textile products to EU
+countries only)
+10 (Export Certificate for fresh cut orchids)
+12 (GSTP – Global System of Trade Preferences)
+16 (ATIGA Form D)
+17 (Back-to-Back ATIGA Form D)
+18 (Preferential CO for FTA)
+19 (Asean-China FTA Form E)
+20 (Back-to-Back ACFTA Form E)
+21 (India-Singapore CECA CO)
+22 (Back-to-Back AKFTA Form AK)
+23 (Asean-Korea FTA Form AK)
+24 (CO Generic Form Z)
+25 (Asean-Japan CEP Form AJ)
+26 (Back-to-Back AJCEP Form AJ)
+27 (Asean-India FTA Form AI)
+28 (Back-to-Back AIFTA Form AI)
+29 (Asean-Australia-New Zealand FTA Form AANZ)
+30 (Back-to-Back AANZFTA Form AANZ)
+31 (ASEAN-Hong Kong FTA Form AHK)
+32 (Back-to-Back AHKFTA Form AHK)
+33 Regional Comprehensive Economic Partnership (RCEP) Form RCEP
+34 Back-to-Back Form RCEP
+B015
+cbc:Copies Numeric
+C
+1 n..2
+Specify additional number of copies required for this Certificate
+Type.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '/cac:Certificate Detail
+B014
+cbc:Preference Content Percent
+C
+1 n..3
+i) If Certificate Type = 5, mandatory to specify the percentage of
+Commonwealth Preference Content in which the value of each and every
+manufactured article in its condition described in the Certificate
+is not less than the specified percentage.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B018
+cbc:Currency Code
+C
+1 a3
+All values in the Certificate at item level will be assumed to be
+SGD unless specified here.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'OFFICIAL (CLOSED)
+AM
+Specify currency code (refer to UN/ECE Recommendation No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B038 cbc:Additional Certificate Details C 5 an..35 Specify certificate additional details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B038 cbc:Transport Details C 5 an..35 Specify transport details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'out:Cargo M 1
+B009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'A032 cac:Release Location M 1 Specify Place of Release.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY
+(shipyard) or SC (sailing club) or O (others).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '/cac:Release Location
+A032 cac:Receipt Location M 1 Specify Place of Receipt.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '/cac:Receipt Location
+A052 cac:Storage Location C 1 Specify place of storage for goods meant to be stored in FTZ where
+there may be no out transport details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '5 Specify sequence number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B027 cbc:Equipment ID M 1 an..13 Specify container number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:
+FCL: Full Container Load
+LCL: Less Than Container Load
+B028 cbc:Equipment Weight Measure Numeric M 1 n..');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '3 Specify container weight (TNE).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'A058 cac:Transport Equipment Seal M 1 This group is used in association with the container number as
+identified in the previous group ie.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B067 cbc:Seal ID M 1 an..35 Specify the shipper seal number affixed to the container.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '/cac:Transport Equipment Seal
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| out:Cargo |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+Specify currency code (refer to UN/ECE Recommendation No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B038
+cbc:Additional Certificate Details
+C
+5 an..35
+Specify certificate additional details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B038
+cbc:Transport Details
+C
+5 an..35
+Specify transport details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'out:Cargo
+M
+1
+B009
+cbc:Cargo Packing Type
+M
+1 an..3
+Specify Cargo Packing Type (refer to STDID Code List).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'A032
+cac:Release Location
+M
+1
+Specify Place of Release.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B039
+cbc:Location Code
+M
+1 an..7
+Specify location code (refer to STDID Code Lists).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B040
+cbc:Location Name
+C
+1 an..256
+Specify name and/address of location if the location code = SY
+(shipyard) or SC (sailing club) or O (others).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '/cac:Release Location
+A032
+cac:Receipt Location
+M
+1
+Specify Place of Receipt.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '/cac:Receipt Location
+A052
+cac:Storage Location
+C
+1
+Specify place of storage for goods meant to be stored in FTZ where
+there may be no out transport details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '5
+Specify sequence number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B027
+cbc:Equipment ID
+M
+1 an..13
+Specify container number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B069
+cbc:Size Type Code
+M
+1 an5
+Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:
+FCL: Full Container Load
+LCL: Less Than Container Load
+B028
+cbc:Equipment Weight Measure Numeric
+M
+1 n..');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '3
+Specify container weight (TNE).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'A058
+cac:Transport Equipment Seal
+M
+1
+This group is used in association with the container number as
+identified in the previous group ie.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'B067
+cbc:Seal ID
+M
+1 an..35
+Specify the shipper seal number affixed to the container.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', '/cac:Transport Equipment Seal
+OFFICIAL (CLOSED)
+AM
+/cac:Transport Equipment
+B020 cbc:Blanket Start Date C 1 n8 Format: CCYYMMDD
+For blanket imports, specify Start Date of Blanket.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'out:Transport C 1 Note 1:
+Specify transport details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'a) For Declaration Type = DRT (when there is inter-gateway
+movement), specify:
+i) inward transport
+ii) outward transport
+b) For others, specify outward transport if not meant for storage.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'Note 2:
+Outward Transport details need not be filled if goods are meant for
+storage with valid FTZ place of storage.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'A026 cac:Inward Transport C 1 Specify Inward transport.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'i) Mandatory to specify inward Transport for Declaration Type = DRT
+(when there is inter-gateway movement) only.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('8', 'A060 cac:Transport Means M 1 Specify inward transport mode.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Specify Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Declaration Indicator M boolean a) Mandatory for all Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Refers to the declaration at
+the frontend software: “I/We declare that all the particulars in
+this Application are true and correct”.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'With CO Application');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Trade Net Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Mandatory for all Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('8', '/cac:Remarks
+B065 cbc:Additional Recipient ID C 3 an..17 Repeat at most 3 times for additional Recipient (for the purpose of
+receiving a copy of the message) ids.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC) such as:
+(1) Required Code for seastore permits application.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'of crew for seastore permits application.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'B057 cbc:Processing Code Two C 1 an..35 Specify processing code 2 such as:
+(1) Voyage duration for seastore permits application.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', '/cac:CPCProcessing Code
+/cac:Customs Procedure Code Information
+out:Certificate C 1 Specify for CO application only.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Application Product Type M 1 an2 Specify Application');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Optional to specify Entry Year if Application');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'GSPDonor Country C 1 an2 Mandatory for Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'A009 cac:Certificate Detail M 2 Repeat at most 2 times.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Specify the sequence number of the Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', '/cac:Remarks
+B065
+cbc:Additional Recipient ID
+C
+3 an..17
+Repeat at most 3 times for additional Recipient (for the purpose of
+receiving a copy of the message) ids.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'B089
+cbc:Customs Procedure Code
+M
+1 an..7
+Specify Customs Procedure Code (CPC) such as:
+(1) Required Code for seastore permits application.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'B057
+cbc:Processing Code Two
+C
+1 an..35
+Specify processing code 2 such as:
+(1) Voyage duration for seastore permits application.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', '/cac:CPCProcessing Code
+/cac:Customs Procedure Code Information
+out:Certificate
+C
+1
+Specify for CO application only.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Specify Application');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Mandatory for Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'A009
+cac:Certificate Detail
+M
+2
+Repeat at most 2 times.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Specify Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Ordinary Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Commonwealth Preference Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Export Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Specify additional number of copies required for this Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'If Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Not applicable for other Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Currency Code C 1 a3 All values in the Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'All values in the Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Additional Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('8', '/cac:Storage Location
+A059 cac:Transport Equipment C 99 For all declaration types, repeat at most 99 times for containers at
+point of clearance.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', '/cac:Storage Location
+A059
+cac:Transport Equipment
+C
+99
+For all declaration types, repeat at most 99 times for containers at
+point of clearance.');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'For Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Mandatory to specify inward Transport for Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('8', 'Transport Mode M 1 For all Declaration');
+INSERT INTO authorities (section_code, authority_name) VALUES ('8', 'Customs');
+INSERT INTO authorities (section_code, authority_name) VALUES ('8', 'TTSB of Singapore Customs');
+INSERT INTO authorities (section_code, authority_name) VALUES ('8', 'Specify Customs');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('8', 'B018 cbc:Currency Code C 1 a3 All values in the Certificate at item level will be assumed to be
+SGD unless specified here.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('8', 'B018
+cbc:Currency Code
+C
+1 a3
+All values in the Certificate at item level will be assumed to be
+SGD unless specified here.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8', 1, 'Evaluate condition: A062 cac:Unique Reference Number M 1 Format:
+Declarant entity identifier = XXXXXXXXXXXXXXXXX
+Date of Creation = CCYYMMDD
+Sequence Numeric = 9999
+B036 cbc:ID M 1 an..17 Specify Declarant entity identifier.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8', 2, 'Evaluate condition: B020 cbc:Date M 1 n8 Specify date of Creation.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8', 3, 'Evaluate condition: 4 Specify sequence number.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8', 4, 'DRT=Direct (Including storage in FTZ)
+BKT=Blanket
+APS=Approved Premises/Schemes
+For Temporary Consignment:
+a) TCS=Temporary Import for exhibition/auctions with sales
+b) TCR=Temporary Import for repairs
+c) TCE=Temporary Import for exhibition/auctions without sales
+d) TCO=Temporary Import for other purposes
+e) TCI=Temporary Export / Re-imported goods
+B037 cbc:Declaration Indicator M boolean a) Mandatory for all Declaration Types.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8', 5, 'b) With CO Application: “I/We declare that all the product(s) to be
+exported in this Application has/have been registered with the
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+Ref Tag name | User defined
+S R Repr | Remarks
+HEADER SECTION | |
+| out:Header |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8', 6, 'DRT=Direct (Including storage in FTZ)
+BKT=Blanket
+APS=Approved Premises/Schemes
+For Temporary Consignment:
+a) TCS=Temporary Import for exhibition/auctions with sales
+b) TCR=Temporary Import for repairs
+c) TCE=Temporary Import for exhibition/auctions without sales
+d) TCO=Temporary Import for other purposes
+e) TCI=Temporary Export / Re-imported goods
+B037
+cbc:Declaration Indicator
+M
+boolean
+a) Mandatory for all Declaration Types.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8', 7, 'b) With CO Application: “I/We declare that all the product(s) to be
+exported in this Application has/have been registered with the
+OFFICIAL (CLOSED)
+AM
+TTSB of Singapore Customs and qualify(s) for the respective
+Certificates applied for”.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8', 8, 'Run validation: /cac:Unique Reference Number
+B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender
+Id as specified in the interchange header).');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8', 9, 'Run validation: DRT=Direct (Including storage in FTZ)
+BKT=Blanket
+APS=Approved Premises/Schemes
+For Temporary Consignment:
+a) TCS=Temporary Import for exhibition/auctions with sales
+b) TCR=Temporary Import for repairs
+c) TCE=Temporary Import for exhibition/auctions without sales
+d) TCO=Temporary Import for other purposes
+e) TCI=Temporary Export / Re-imported goods
+B037 cbc:Declaration Indicator M boolean a) Mandatory for all Declaration Types.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8', 10, 'Run validation: Refers to the declaration at
+the frontend software: “I/We declare that all the particulars in
+this Application are true and correct”.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('8', 11, 'Handle exception: B018 cbc:Currency Code C 1 a3 All values in the Certificate at item level will be assumed to be
+SGD unless specified here.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'Ref');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'Tag');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'out');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'cbc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'cac');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'DRT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'FTZ');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'BKT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'APS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'For');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'TCS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'TCR');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'TCE');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'TCO');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'TCI');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'all');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'keywords', 'Net');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', '8');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', 'MESSAGE DETAILS');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('8', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '1', 'Maritime', 'Defines the operational requirements for Maritime.', 'Indha Maritime section-la, Defines the operational requirements for Maritime.', '1: Maritime', '1: Maritime', '1: Maritime', 'Indha Maritime section-la, 1: Maritime', '1: Maritime', '[13, 14]', '["Maritime"]', 'Provide knowledge guidance for Maritime.', '["1", "Maritime", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC1-R001', '1', '1: Maritime', 'business_rule', 'Maritime', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 1 - Maritime.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 1, 'Review section 1 requirements');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 2, 'Capture applicant inputs');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('1', 3, 'Route for authority decision');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'keywords', 'Maritime');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', '1');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'Maritime');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('1', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '2', 'Rail', 'Defines the operational requirements for Rail.', 'Indha Rail section-la, Defines the operational requirements for Rail.', '2: Rail', '2: Rail', '2: Rail', 'Indha Rail section-la, 2: Rail', '2: Rail', '[13, 14]', '["Rail"]', 'Provide knowledge guidance for Rail.', '["2", "Rail", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC2-R001', '2', '2: Rail', 'business_rule', 'Rail', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 2 - Rail.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 1, 'Review section 2 requirements');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 2, 'Capture applicant inputs');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('2', 3, 'Route for authority decision');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'keywords', 'Rail');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', '2');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'Rail');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('2', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '3', 'Road', 'Defines the operational requirements for Road.', 'Indha Road section-la, Defines the operational requirements for Road.', '3: Road
+4: Air', '3: Road
+4: Air', '3: Road
+4: Air', 'Indha Road section-la, 3: Road
+4: Air', '3: Road
+4: Air', '[13, 14]', '["Air", "Road"]', 'Provide knowledge guidance for Road.', '["3", "Road", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC3-R001', '3', '3: Road
+4: Air', 'business_rule', 'Road', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 3 - Road.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 1, 'Review section 3 requirements');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 2, 'Capture applicant inputs');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('3', 3, 'Route for authority decision');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'Air');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'keywords', 'Road');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', '3');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'Road');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('3', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '5', 'Mail', 'Defines the operational requirements for Mail.', 'Indha Mail section-la, Defines the operational requirements for Mail.', '5: Mail', '5: Mail', '5: Mail', 'Indha Mail section-la, 5: Mail', '5: Mail', '[13, 14]', '["Mail"]', 'Provide knowledge guidance for Mail.', '["5", "Mail", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC5-R001', '5', '5: Mail', 'business_rule', 'Mail', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 5 - Mail.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 1, 'Review section 5 requirements');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 2, 'Capture applicant inputs');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('5', 3, 'Route for authority decision');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'keywords', 'Mail');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', '5');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'Mail');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('5', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '6', 'Multimodal (For future use)', '6: Multimodal (For future use)', 'Indha Multimodal (For future use) section-la, 6: Multimodal (For future use)', '6: Multimodal (For future use)', '6: Multimodal (For future use)', '6: Multimodal (For future use)', 'Indha Multimodal (For future use) section-la, 6: Multimodal (For future use)', '6: Multimodal (For future use)', '[13, 14]', '["For", "use", "future", "Multimodal"]', 'Provide knowledge guidance for Multimodal (For future use).', '["6", "Multimodal (For future use)", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC6-R001', '6', '6: Multimodal (For future use)', 'business_rule', 'Multimodal (For future use)', 'Not explicitly covered in uploaded documents.', 'Not explicitly covered in uploaded documents.', 'Manual review required.', 'No explicit exception found in uploaded documents.', 'DEKAI should produce a compliance decision for 6 - Multimodal (For future use).');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 1, 'Review section 6 requirements');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 2, 'Capture applicant inputs');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('6', 3, 'Route for authority decision');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'For');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'use');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'future');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'keywords', 'Multimodal');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', '6');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'Multimodal (For future use)');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('6', 'tags', 'dgft');
+INSERT INTO sections (source_document, chapter_number, chapter_title, section_code, title, purpose, purpose_thanglish, summary, business_meaning, business_explanation, business_explanation_thanglish, raw_text, pages, keywords, intent, tags) VALUES ('TradeNetDeclaration.OUTDEC Ver2.1.pdf', '', 'TradeNetDeclaration.OUTDEC Ver2.1', '7', 'Pipeline', 'B076 cbc:Conveyance Reference Number C 1 an..17 For transport mode = 1, specify inward voyage number.', 'Indha Pipeline section-la, B076 cbc:Conveyance Reference Number C 1 an..17 For transport mode = 1, specify inward voyage number.', '7: Pipeline
+B082 cbc:Mode Code M 1 n1 Specify Inward Transport Mode. B076 cbc:Conveyance Reference Number C 1 an..17 For transport mode = 1, specify inward voyage number. Specify ‘NA’
+if there is no inward voyage number.', 'Pipeline governs how DGFT business controls should be applied, validated, and enforced.', 'Pipeline explains the operating rule set that DEKAI should enforce. Key control points include /cac:Party Name
+/cac:Freight Forwarder Party
+A040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs. The section also drives actions such as B078 cbc:Net Register Tonnage C 1 n..15 Specify the Net Register Ton of outward vessel (TNE)..', 'Indha Pipeline section-la, Pipeline explains the operating rule set that DEKAI should enforce. Key control points include /cac:Party Name
+/cac:Freight Forwarder Party
+A040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs. The section also drives actions such as B078 cbc:Net Register Tonnage C 1 n..15 Specify the Net Register Ton of outward vessel (TNE)..', '7: Pipeline
+B082 cbc:Mode Code M 1 n1 Specify Inward Transport Mode.
+B076 cbc:Conveyance Reference Number C 1 an..17 For transport mode = 1, specify inward voyage number. Specify ‘NA’
+if there is no inward voyage number.
+For transport mode = 4, specify inward flight number. Specify ‘NA’
+if there is no inward flight number.
+B049 cbc:Transport Identifier C 1 an..35 For transport mode = 1, specify inward vessel name.
+For transport mode = 3, specify Vehicle Licence/Registration Number,
+if any.
+For transport mode = 4, specify inward Aircraft Registration Number
+for chartered flights, if any.
+/cac:Transport Mode
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+/cac:Transport Equipment
+B020
+cbc:Blanket Start Date
+C
+1 n8
+Format: CCYYMMDD
+For blanket imports, specify Start Date of Blanket.
+out:Transport
+C
+1
+Note 1:
+Specify transport details.
+a) For Declaration Type = DRT (when there is inter-gateway
+movement), specify:
+i)
+inward transport
+ii) outward transport
+b) For others, specify outward transport if not meant for storage.
+Note 2:
+Outward Transport details need not be filled if goods are meant for
+storage with valid FTZ place of storage.
+A026
+cac:Inward Transport
+C
+1
+Specify Inward transport.
+i) Mandatory to specify inward Transport for Declaration Type = DRT
+(when there is inter-gateway movement) only.
+ii) Not applicable for others.
+A060
+cac:Transport Means
+M
+1
+Specify inward transport mode.
+A061
+cac:Transport Mode
+M
+1
+For all Declaration Types, valid codes (refer to UN/ECE
+Recommendation No. 19) are:
+7: Pipeline
+B082
+cbc:Mode Code
+M
+1 n1
+Specify Inward Transport Mode.
+B076
+cbc:Conveyance Reference Number
+C
+1 an..17
+For transport mode = 1, specify inward voyage number. Specify ‘NA’
+if there is no inward voyage number.
+For transport mode = 4, specify inward flight number. Specify ‘NA’
+if there is no inward flight number.
+B049
+cbc:Transport Identifier
+C
+1 an..35
+For transport mode = 1, specify inward vessel name.
+For transport mode = 3, specify Vehicle Licence/Registration Number,
+if any.
+For transport mode = 4, specify inward Aircraft Registration Number
+for chartered flights, if any.
+/cac:Transport Mode
+OFFICIAL (CLOSED)
+AM
+B064 cbc:MAWBOUCROBLNumber C 1 an..35 For transport mode = 1, specify inward OUCR/ Ocean Bill of Lading
+Number.
+For transport mode = 4, specify inward Master Air Waybill.
+/cac:Transport Means
+B020 cbc:Arrival Date M 1 n8 Format: CCYYMMDD
+For inward transport, specify Date of Arrival.
+B055 cbc:Loading Port M 1 an..5 For inward transport, specify Place/Port of Loading.
+Specify the port code
+(refer to UN/ECE Recommendation No. 16).
+/cac:Inward Transport
+A036 cac:Outward Transport C 1 Mandatory to specify Outward transport except for goods meant for
+storage.
+A060 cac:Transport Means M 1 Mandatory to specify outward transport mode.
+A061 cac:Transport Mode M 1 For all Declaration Types, valid codes (refer to UN/ECE
+Recommendation No. 19) are:
+7: Pipeline
+B082 cbc:Mode Code M 1 n1 Specify Outward Transport Mode.
+B076 cbc:Conveyance Reference Number C 1 an..17 For transport mode = 1, specify outward voyage number. Specify ‘NA’
+if there is no outward voyage number.
+For transport mode = 4, specify outward flight number. Specify ‘NA’
+if there is no outward flight number.
+B049 cbc:Transport Identifier C 1 an..35 For transport mode = 1, specify outward vessel name.
+For transport mode = 3, specify Vehicle Licence/Registration Number,
+if any.
+For transport mode = 4, specify outward Aircraft Registration Number
+for chartered flights, if any.
+/cac:Transport Mode
+B064 cbc:MAWBOUCROBLNumber C 1 an..35 For transport mode = 1, specify outward OUCR/ Ocean Bill of Lading
+Number.
+For transport mode = 4, specify outward Master Air Waybill.
+/cac:Transport Means
+A002 cac:Additional Vessel Information C 1 For outward transport = 1, specify additional information for
+outward vessel.
+B077 cbc:Vessel Type C 1 an2 Specify vessel type. (refer to STDID Code Lists).
+B078 cbc:Net Register Tonnage C 1 n..15 Specify the Net Register Ton of outward vessel (TNE).
+B016 cbc:Vessel Nationality C 1 a2 Specify nationality of vessel for seastore permits application if
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+B064
+cbc:MAWBOUCROBLNumber
+C
+1 an..35
+For transport mode = 1, specify inward OUCR/ Ocean Bill of Lading
+Number.
+For transport mode = 4, specify inward Master Air Waybill.
+/cac:Transport Means
+B020
+cbc:Arrival Date
+M
+1 n8
+Format: CCYYMMDD
+For inward transport, specify Date of Arrival.
+B055
+cbc:Loading Port
+M
+1 an..5
+For inward transport, specify Place/Port of Loading.
+Specify the port code
+(refer to UN/ECE Recommendation No. 16).
+/cac:Inward Transport
+A036
+cac:Outward Transport
+C
+1
+Mandatory to specify Outward transport except for goods meant for
+storage.
+A060
+cac:Transport Means
+M
+1
+Mandatory to specify outward transport mode.
+A061
+cac:Transport Mode
+M
+1
+For all Declaration Types, valid codes (refer to UN/ECE
+Recommendation No. 19) are:
+7: Pipeline
+B082
+cbc:Mode Code
+M
+1 n1
+Specify Outward Transport Mode.
+B076
+cbc:Conveyance Reference Number
+C
+1 an..17
+For transport mode = 1, specify outward voyage number. Specify ‘NA’
+if there is no outward voyage number.
+For transport mode = 4, specify outward flight number. Specify ‘NA’
+if there is no outward flight number.
+B049
+cbc:Transport Identifier
+C
+1 an..35
+For transport mode = 1, specify outward vessel name.
+For transport mode = 3, specify Vehicle Licence/Registration Number,
+if any.
+For transport mode = 4, specify outward Aircraft Registration Number
+for chartered flights, if any.
+/cac:Transport Mode
+B064
+cbc:MAWBOUCROBLNumber
+C
+1 an..35
+For transport mode = 1, specify outward OUCR/ Ocean Bill of Lading
+Number.
+For transport mode = 4, specify outward Master Air Waybill.
+/cac:Transport Means
+A002
+cac:Additional Vessel Information
+C
+1
+For outward transport = 1, specify additional information for
+outward vessel.
+B077
+cbc:Vessel Type
+C
+1 an2
+Specify vessel type. (refer to STDID Code Lists).
+B078
+cbc:Net Register Tonnage
+C
+1 n..15
+Specify the Net Register Ton of outward vessel (TNE).
+B016
+cbc:Vessel Nationality
+C
+1 a2
+Specify nationality of vessel for seastore permits application if
+OFFICIAL (CLOSED)
+AM
+goods are liquor/tobacco products.
+Specify nationality of vessel (refer to UN/ECE Recommendation No.
+3).
+A034 cac:Towing Vessel C 1 Specify towing vessel identification if applicable.
+B076 cbc:Vessel ID M 1 an..17 Specify towing vessel voyage number.
+Specify ‘NA’ if there is no towing vessel voyage number.
+B049 cbc:Vessel Name M 1 an..35 Specify towing vessel name.
+/cac:Towing Vessel
+B055 cbc:Loading Next Port C 1 an..5 Specify Next port of call for seastore permits application.
+Specify port code (refer to UN/ECE Recommendation No. 16).
+B055 cbc:Loading Final Port C 1 an..5 Specify Final port of call for seastore permits application if goods
+are liquor/tobacco products.
+Specify port code (refer to UN/ECE Recommendation No. 16).
+/cac:Additional Vessel Information
+B020 cbc:Departure Date M 1 n8 Format: CCYYMMDD
+Specify Date of Departure.
+B055 cbc:Discharge Port C 1 an..5 Specify Port of Discharge except for seastore permits application.
+Specify port code (refer to UN/ECE Recommendation No. 16).
+B016 cbc:Final Destination Country C 1 a2 Specify Country of Final Destination except for seastore permits
+application.
+/cac:Outward Transport
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+goods are liquor/tobacco products.
+Specify nationality of vessel (refer to UN/ECE Recommendation No.
+3).
+A034
+cac:Towing Vessel
+C
+1
+Specify towing vessel identification if applicable.
+B076
+cbc:Vessel ID
+M
+1 an..17
+Specify towing vessel voyage number.
+Specify ‘NA’ if there is no towing vessel voyage number.
+B049
+cbc:Vessel Name
+M
+1 an..35
+Specify towing vessel name.
+/cac:Towing Vessel
+B055
+cbc:Loading Next Port
+C
+1 an..5
+Specify Next port of call for seastore permits application.
+Specify port code (refer to UN/ECE Recommendation No. 16).
+B055
+cbc:Loading Final Port
+C
+1 an..5
+Specify Final port of call for seastore permits application if goods
+are liquor/tobacco products.
+Specify port code (refer to UN/ECE Recommendation No. 16).
+/cac:Additional Vessel Information
+B020
+cbc:Departure Date
+M
+1 n8
+Format: CCYYMMDD
+Specify Date of Departure.
+B055
+cbc:Discharge Port
+C
+1 an..5
+Specify Port of Discharge except for seastore permits application.
+Specify port code (refer to UN/ECE Recommendation No. 16).
+B016
+cbc:Final Destination Country
+C
+1 a2
+Specify Country of Final Destination except for seastore permits
+application.
+/cac:Outward Transport
+OFFICIAL (CLOSED)
+AM
+out:Party M 1 Specify party details.
+a) For Declaration Type = DRT (when there is inter-gateway
+movement), specify Party Type:
+- (Declarant)
+- (Declaring Agent)
+- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or
+7)
+- (Outward Carrier Agent; optional for transport mode = 2, 3, 5
+or 7)
+- (Exporter)
+- (Importer).
+- (Consignee; optional)
+- (Freight Forwarder; optional)
+- (Manufacturer; optional)
+- (End User; optional)
+b) For others, specify Party Type:
+- (Declarant)
+- (Declaring Agent, if declared by Agent)
+- (Outward Carrier Agent; optional for blanket permits or goods
+stored in FTZ or transport mode 2, 3, 5 or 7)
+- (Exporter)
+- (Consignee; optional)
+- (Freight Forwarder; optional)
+- (Manufacturer; optional)
+- (End User; optional)
+A014 cac:Declarant Party M 1 Mandatory to specify the identity of the Declarant.
+A043 cac:Person Information M 1 Specify Declarant Person Information.
+B012 cbc:Code Value M 1 an..17 Specify Declarant Code.
+B093 cbc:Name M 1 an..100 Specify Declarant name.
+/cac:Person Information
+B071 cbc:Telephone M 1 an..25 Mandatory to specify Declarant contact number.
+/cac:Declarant Party
+A040 cac:Declaring Agent Party C 1 Specify Declaring Agent.
+A038 cac:Party Identification M 1 Specify Declaring Agent Party Identification.
+B036 cbc:ID M 1 an..17 Specify Declaring Agent Entity Identifier.
+/cac:Party Identification
+A039 cac:Party Name M 1 Specify Declaring Agent Party Name.
+B093 cbc:Name M 2 an..50 Specify Declaring Agent name.
+/cac:Party Name
+/cac:Declaring Agent Party
+A040 cac:Freight Forwarder Party C 1 Mandatory to specify Freight Forwarder/NVOCC/Cargo
+Agent/Consolidator for consol consignment.
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+out:Party
+M
+1
+Specify party details.
+a) For Declaration Type = DRT (when there is inter-gateway
+movement), specify Party Type:
+- (Declarant)
+- (Declaring Agent)
+- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or
+7)
+- (Outward Carrier Agent; optional for transport mode = 2, 3, 5
+or 7)
+- (Exporter)
+- (Importer).
+- (Consignee; optional)
+- (Freight Forwarder; optional)
+- (Manufacturer; optional)
+- (End User; optional)
+b) For others, specify Party Type:
+- (Declarant)
+- (Declaring Agent, if declared by Agent)
+- (Outward Carrier Agent; optional for blanket permits or goods
+stored in FTZ or transport mode 2, 3, 5 or 7)
+- (Exporter)
+- (Consignee; optional)
+- (Freight Forwarder; optional)
+- (Manufacturer; optional)
+- (End User; optional)
+A014
+cac:Declarant Party
+M
+1
+Mandatory to specify the identity of the Declarant.
+A043
+cac:Person Information
+M
+1
+Specify Declarant Person Information.
+B012
+cbc:Code Value
+M
+1 an..17
+Specify Declarant Code.
+B093
+cbc:Name
+M
+1 an..100
+Specify Declarant name.
+/cac:Person Information
+B071
+cbc:Telephone
+M
+1 an..25
+Mandatory to specify Declarant contact number.
+/cac:Declarant Party
+A040
+cac:Declaring Agent Party
+C
+1
+Specify Declaring Agent.
+A038
+cac:Party Identification
+M
+1
+Specify Declaring Agent Party Identification.
+B036
+cbc:ID
+M
+1 an..17
+Specify Declaring Agent Entity Identifier.
+/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Declaring Agent Party Name.
+B093
+cbc:Name
+M
+2 an..50
+Specify Declaring Agent name.
+/cac:Party Name
+/cac:Declaring Agent Party
+A040
+cac:Freight Forwarder Party
+C
+1
+Mandatory to specify Freight Forwarder/NVOCC/Cargo
+Agent/Consolidator for consol consignment.
+OFFICIAL (CLOSED)
+AM
+A038 cac:Party Identification M 1 Specify Freight Forwarder Party Identification.
+B036 cbc:ID M 1 an..17 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Entity
+Identifier.
+/cac:Party Identification
+A039 cac:Party Name M 1 Specify Freight Forwarder Party Name.
+B093 cbc:Name M 2 an..50 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator name.
+/cac:Party Name
+/cac:Freight Forwarder Party
+A040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.
+b) Mandatory to specify inward carrier agent if inward transport
+mode = 1 or 4 (optional for inward transport mode = 2, 3, 5 or 7).
+A038 cac:Party Identification M 1 Specify Inward Carrier Agent Party Identification.
+B036 cbc:ID M 1 an..17 Specify Inward Carrier Agent Entity Identifier.
+/cac:Party Identification
+A039 cac:Party Name M 1 Specify Inward Carrier Agent Party Name.
+B093 cbc:Name M 2 an..50 Specify Inward Carrier Agent name.
+/cac:Party Name
+/cac:Inward Carrier Agent Party
+A040 cac:Importer Party C 1 Specify Importer details.
+A038 cac:Party Identification M 1 Specify Importer Party Identification.
+B036 cbc:ID M 1 an..17 Specify Importer Entity Identifier.
+/cac:Party Identification
+A039 cac:Party Name M 1 Specify Importer Party Name.
+B093 cbc:Name M 2 an..35 Specify Importer name.
+/cac:Party Name
+/cac:Importer Party
+A040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.
+b) Mandatory to specify outward carrier agent if outward transport
+mode = 1 or 4 (optional for outward transport mode = 2, 3, 5 or 7).
+A038 cac:Party Identification M 1 Specify Outward Carrier Agent Party Identification.
+B036 cbc:ID M 1 an..17 Specify Outward Carrier Agent Entity Identifier.
+/cac:Party Identification
+A039 cac:Party Name M 1 Specify Outward Carrier Agent Party Name.
+B093 cbc:Name M 2 an..50 Specify Outward Carrier Agent name.
+/cac:Party Name
+/cac:Outward Carrier Agent Party
+A020 cac:Exporter Party M 1 Mandatory to specify Exporter details.
+A040 cac:Party Detail M 1 Specify Exporter Party details.
+A038 cac:Party Identification M 1 Specify Exporter Party Identification.
+B036 cbc:ID M 1 an..17 Specify Exporter Entity Identifier.
+/cac:Party Identification
+A039 cac:Party Name M 1 Specify Exporter Party Name.
+B093 cbc:Name M 2 an..35 Specify Exporter name.
+/cac:Party Name
+/cac:Party Detail
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+A038
+cac:Party Identification
+M
+1
+Specify Freight Forwarder Party Identification.
+B036
+cbc:ID
+M
+1 an..17
+Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Entity
+Identifier.
+/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Freight Forwarder Party Name.
+B093
+cbc:Name
+M
+2 an..50
+Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator name.
+/cac:Party Name
+/cac:Freight Forwarder Party
+A040
+cac:Inward Carrier Agent Party
+C
+1
+a) Specify Inward Carrier Agent, must be registered with Customs.
+b) Mandatory to specify inward carrier agent if inward transport
+mode = 1 or 4 (optional for inward transport mode = 2, 3, 5 or 7).
+A038
+cac:Party Identification
+M
+1
+Specify Inward Carrier Agent Party Identification.
+B036
+cbc:ID
+M
+1 an..17
+Specify Inward Carrier Agent Entity Identifier.
+/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Inward Carrier Agent Party Name.
+B093
+cbc:Name
+M
+2 an..50
+Specify Inward Carrier Agent name.
+/cac:Party Name
+/cac:Inward Carrier Agent Party
+A040
+cac:Importer Party
+C
+1
+Specify Importer details.
+A038
+cac:Party Identification
+M
+1
+Specify Importer Party Identification.
+B036
+cbc:ID
+M
+1 an..17
+Specify Importer Entity Identifier.
+/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Importer Party Name.
+B093
+cbc:Name
+M
+2 an..35
+Specify Importer name.
+/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.
+b) Mandatory to specify outward carrier agent if outward transport
+mode = 1 or 4 (optional for outward transport mode = 2, 3, 5 or 7).
+A038
+cac:Party Identification
+M
+1
+Specify Outward Carrier Agent Party Identification.
+B036
+cbc:ID
+M
+1 an..17
+Specify Outward Carrier Agent Entity Identifier.
+/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Outward Carrier Agent Party Name.
+B093
+cbc:Name
+M
+2 an..50
+Specify Outward Carrier Agent name.
+/cac:Party Name
+/cac:Outward Carrier Agent Party
+A020
+cac:Exporter Party
+M
+1
+Mandatory to specify Exporter details.
+A040
+cac:Party Detail
+M
+1
+Specify Exporter Party details.
+A038
+cac:Party Identification
+M
+1
+Specify Exporter Party Identification.
+B036
+cbc:ID
+M
+1 an..17
+Specify Exporter Entity Identifier.
+/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Exporter Party Name.
+B093
+cbc:Name
+M
+2 an..35
+Specify Exporter name.
+/cac:Party Name
+/cac:Party Detail
+OFFICIAL (CLOSED)
+AM
+A067 cac:Address C 1 Specify party address based on the following format except for
+address of Exporter that is required to be printed in CO. To declare
+the full address of exporter based on the first 3 lines.
+A003 cac:Address Line C 1
+B038 cbc:Line M 2 an..35 Specify Exporter Street and Number/PO Box (line 1 & 2 for CO).
+/cac:Address Line
+B084 cbc:City Name C 1 an..35 Specify Exporter city name (line 3 for CO).
+B085 cbc:Country Subentity Code C 1 an..9 Specify Exporter country subdivision code.
+B086 cbc:Country Subentity C 1 an..35 Specify Exporter country subdivision name.
+B087 cbc:Postal Zone C 1 an..9 Specify Exporter postal code.
+B016 cbc:Country Code M 1 a2 Specify Exporter country code.
+/cac:Address
+/cac:Exporter Party
+A013 cac:Consignee Party C 1 Specify consignee name and address for CO applications, strategic
+goods and goods released from licensed premises except for seastore
+permits or goods meant for storage.
+A039 cac:Party Name M 1 Specify Consignee Party Name.
+B093 cbc:Name M 2 an..35 Specify Consignee name.
+/cac:Party Name
+A067 cac:Address M 1 Specify Consignee address based on the following format except for
+address that is required to be printed in CO. To declare the full
+address based on the first 3 lines.
+A003 cac:Address Line M 1
+B038 cbc:Line M 2 an..35 Specify Consignee Street and Number/PO Box (line 1 & 2 for CO).
+/cac:Address Line
+B084 cbc:City Name C 1 an..35 Specify Consignee city name (line 3 for CO).
+B085 cbc:Country Subentity Code C 1 an..9 Specify Consignee country subdivision code.
+B086 cbc:Country Subentity C 1 an..35 Specify Consignee country subdivision name.
+B087 cbc:Postal Zone C 1 an..9 Specify Consignee postal code.
+B016 cbc:Country Code M 1 a2 Specify Consignee country code.
+/cac:Address
+/cac:Consignee Party
+A013 cac:End User Party C 1 For strategic goods, specify end user name and address.
+A039 cac:Party Name M 1 Specify End user Party Name.
+B093 cbc:Name M 2 an..50 Specify End user name.
+/cac:Party Name
+A067 cac:Address M 1 Specify End user address in following format.
+A003 cac:Address Line M 1
+B038 cbc:Line M 2 an..35 Specify End user Street and Number/PO Box.
+/cac:Address Line
+B084 cbc:City Name C 1 an..35 Specify End-user city name.
+B085 cbc:Country Subentity Code C 1 an..9 Specify End-user country subdivision code.
+B086 cbc:Country Subentity C 1 an..35 Specify End-user country subdivision name.
+B087 cbc:Postal Zone C 1 an..9 Specify End-user postal code.
+B016 cbc:Country Code M 1 a2 Specify End-user country code.
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+A067
+cac:Address
+C
+1
+Specify party address based on the following format except for
+address of Exporter that is required to be printed in CO. To declare
+the full address of exporter based on the first 3 lines.
+A003
+cac:Address Line
+C
+1
+B038
+cbc:Line
+M
+2 an..35
+Specify Exporter Street and Number/PO Box (line 1 & 2 for CO).
+/cac:Address Line
+B084
+cbc:City Name
+C
+1 an..35
+Specify Exporter city name (line 3 for CO).
+B085
+cbc:Country Subentity Code
+C
+1 an..9
+Specify Exporter country subdivision code.
+B086
+cbc:Country Subentity
+C
+1 an..35
+Specify Exporter country subdivision name.
+B087
+cbc:Postal Zone
+C
+1 an..9
+Specify Exporter postal code.
+B016
+cbc:Country Code
+M
+1 a2
+Specify Exporter country code.
+/cac:Address
+/cac:Exporter Party
+A013
+cac:Consignee Party
+C
+1
+Specify consignee name and address for CO applications, strategic
+goods and goods released from licensed premises except for seastore
+permits or goods meant for storage.
+A039
+cac:Party Name
+M
+1
+Specify Consignee Party Name.
+B093
+cbc:Name
+M
+2 an..35
+Specify Consignee name.
+/cac:Party Name
+A067
+cac:Address
+M
+1
+Specify Consignee address based on the following format except for
+address that is required to be printed in CO. To declare the full
+address based on the first 3 lines.
+A003
+cac:Address Line
+M
+1
+B038
+cbc:Line
+M
+2 an..35
+Specify Consignee Street and Number/PO Box (line 1 & 2 for CO).
+/cac:Address Line
+B084
+cbc:City Name
+C
+1 an..35
+Specify Consignee city name (line 3 for CO).
+B085
+cbc:Country Subentity Code
+C
+1 an..9
+Specify Consignee country subdivision code.
+B086
+cbc:Country Subentity
+C
+1 an..35
+Specify Consignee country subdivision name.
+B087
+cbc:Postal Zone
+C
+1 an..9
+Specify Consignee postal code.
+B016
+cbc:Country Code
+M
+1 a2
+Specify Consignee country code.
+/cac:Address
+/cac:Consignee Party
+A013
+cac:End User Party
+C
+1
+For strategic goods, specify end user name and address.
+A039
+cac:Party Name
+M
+1
+Specify End user Party Name.
+B093
+cbc:Name
+M
+2 an..50
+Specify End user name.
+/cac:Party Name
+A067
+cac:Address
+M
+1
+Specify End user address in following format.
+A003
+cac:Address Line
+M
+1
+B038
+cbc:Line
+M
+2 an..35
+Specify End user Street and Number/PO Box.
+/cac:Address Line
+B084
+cbc:City Name
+C
+1 an..35
+Specify End-user city name.
+B085
+cbc:Country Subentity Code
+C
+1 an..9
+Specify End-user country subdivision code.
+B086
+cbc:Country Subentity
+C
+1 an..35
+Specify End-user country subdivision name.
+B087
+cbc:Postal Zone
+C
+1 an..9
+Specify End-user postal code.
+B016
+cbc:Country Code
+M
+1 a2
+Specify End-user country code.
+OFFICIAL (CLOSED)
+AM
+/cac:Address
+/cac:End User Party
+A020 cac:Manufacturer Party C 1 For CO application, specify Manufacturer. Mandatory for Certificate
+Types = 1,2,5,9,10,16,18,19,21, 23, 25, 27, 29, 31 & 33. Optional
+for other Certificate Types).
+A040 cac:Party Detail M 1 Specify Manufacturer Party details.
+A038 cac:Party Identification M 1 Specify Manufacturer Party Identification.
+B036 cbc:ID M 1 an..17 Specify Manufacturer Entity Identifier.
+/cac:Party Identification
+A039 cac:Party Name M 1 Specify Manufacturer Party Name.
+B093 cbc:Name M 2 an..35 Specify Manufacturer name.
+/cac:Party Name
+/cac:Party Detail
+A067 cac:Address C 1 Specify Manufacturer address in following format
+A003 cac:Address Line C 1
+B038 cbc:Line M 2 an..35 Specify Manufacturer Street and Number/PO Box.
+/cac:Address Line
+B084 cbc:City Name C 1 an..35 Specify Manufacturer city name.
+B085 cbc:Country Subentity Code C 1 an..9 Specify Manufacturer country subdivision code.
+B086 cbc:Country Subentity C 1 an..35 Specify Manufacturer country subdivision name.
+B087 cbc:Postal Zone C 1 an..9 Specify Manufacturer postal code.
+B016 cbc:Country Code M 1 a2 Specify Manufacturer country code.
+/cac:Address
+/cac:Manufacturer Party
+cac:Licence C 5 Specify licences, certificates or other documents.
+B064 cbc:Reference ID M 1 an..35 Specify licences, certificates or other documents.
+/cac:Licence
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| cac:Licence |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+/cac:Address
+/cac:End User Party
+A020
+cac:Manufacturer Party
+C
+1
+For CO application, specify Manufacturer. Mandatory for Certificate
+Types = 1,2,5,9,10,16,18,19,21, 23, 25, 27, 29, 31 & 33. Optional
+for other Certificate Types).
+A040
+cac:Party Detail
+M
+1
+Specify Manufacturer Party details.
+A038
+cac:Party Identification
+M
+1
+Specify Manufacturer Party Identification.
+B036
+cbc:ID
+M
+1 an..17
+Specify Manufacturer Entity Identifier.
+/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Manufacturer Party Name.
+B093
+cbc:Name
+M
+2 an..35
+Specify Manufacturer name.
+/cac:Party Name
+/cac:Party Detail
+A067
+cac:Address
+C
+1
+Specify Manufacturer address in following format
+A003
+cac:Address Line
+C
+1
+B038
+cbc:Line
+M
+2 an..35
+Specify Manufacturer Street and Number/PO Box.
+/cac:Address Line
+B084
+cbc:City Name
+C
+1 an..35
+Specify Manufacturer city name.
+B085
+cbc:Country Subentity Code
+C
+1 an..9
+Specify Manufacturer country subdivision code.
+B086
+cbc:Country Subentity
+C
+1 an..35
+Specify Manufacturer country subdivision name.
+B087
+cbc:Postal Zone
+C
+1 an..9
+Specify Manufacturer postal code.
+B016
+cbc:Country Code
+M
+1 a2
+Specify Manufacturer country code.
+/cac:Address
+/cac:Manufacturer Party
+cac:Licence
+C
+5
+Specify licences, certificates or other documents.
+B064
+cbc:Reference ID
+M
+1 an..35
+Specify licences, certificates or other documents.
+/cac:Licence
+OFFICIAL (CLOSED)
+AM
+cac:Supporting Document Reference C 10 Repeat at most 10 times, specify supporting documents attached to
+the declaration if applicable.
+Only the following file formats are allowed:
+1) MS Word
+2) Adobe PDF
+3) MS Excel
+4) Image Files
+a) Bitmap
+b) JPEG
+c) GIF Image
+d) EMF Image
+e) PNG Image
+f) TIF Image
+B023 cbc:Document ID M 1 an..3 Specify Document type code. (Refer to STDID Code List).
+B033 cbc:Filename M 1 an..70 Specify Filename of the document.
+/cac:Supporting Document Reference
+ITEM SECTION
+out:Item M 50 Repeat at most 50 times.
+B068 cbc:Item Sequence Numeric M 1 n..5 Mandatory to specify item Sequence Number.
+B035 cbc:Item Harmonized System Code M 1 an..10 Mandatory to specify item Harmonized System code.
+B034 cbc:Goods Description M 2 an..512 Repeat at most 2 times for CO purposes. Repeat at least once for
+others.
+Specify description of the item.
+A030 cac:Item Quantity M 1 Specify the following for both dutiable and non-dutiable cargo.
+B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure
+unit specifier must match the measurement unit in the Singapore
+Trade Classification. Specify quantity and unit according to invoice
+if the measurement unit in Singapore Trade Classification = ‘-’
+unit Code (attribute) M 1 an..3 (value).
+Specify unit (refer to STDID code list).
+B058 cbc:Total Dutiable Quantity C 1 n..16 For dutiable cargo or goods to be bonded into or released from the
+Bonded Warehouse: Total dutiable quantity/weight/volume
+i) for products based on specific rates, mandatory to specify either
+dutiable weight or volume according to duty rate unit specifier
+ii) for others, mandatory to specify dutiable quantity according to
+unit price measurement.
+unit Code (attribute) M 1 an..3 Specify unit (refer to STDID code list).
+B058 cbc:Dutiable Quantity C 1 n..16 For dutiable cargo based on specific rates in accordance with duty
+rate unit specifier:
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+cac:Supporting Document Reference | |
+B023 cbc:Document ID
+B033 cbc:Filename
+/cac:Supporting Document Reference
+ITEM SECTION | |
+| out:Item |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+cac:Supporting Document Reference
+C
+10
+Repeat at most 10 times, specify supporting documents attached to
+the declaration if applicable.
+Only the following file formats are allowed:
+1) MS Word
+2) Adobe PDF
+3) MS Excel
+4) Image Files
+a) Bitmap
+b) JPEG
+c) GIF Image
+d) EMF Image
+e) PNG Image
+f) TIF Image
+B023
+cbc:Document ID
+M
+1 an..3
+Specify Document type code. (Refer to STDID Code List).
+B033
+cbc:Filename
+M
+1 an..70
+Specify Filename of the document.
+/cac:Supporting Document Reference
+ITEM SECTION
+out:Item
+M
+50
+Repeat at most 50 times.
+B068
+cbc:Item Sequence Numeric
+M
+1 n..5
+Mandatory to specify item Sequence Number.
+B035
+cbc:Item Harmonized System Code
+M
+1 an..10
+Mandatory to specify item Harmonized System code.
+B034
+cbc:Goods Description
+M
+2 an..512
+Repeat at most 2 times for CO purposes. Repeat at least once for
+others.
+Specify description of the item.
+A030
+cac:Item Quantity
+M
+1
+Specify the following for both dutiable and non-dutiable cargo.
+B058
+cbc:Harmonized System Quantity
+unit Code (attribute)
+M
+M
+1 n..16
+1 an..3
+For all Declaration Types, specify HS code quantity and the measure
+unit specifier must match the measurement unit in the Singapore
+Trade Classification. Specify quantity and unit according to invoice
+if the measurement unit in Singapore Trade Classification = ‘-’
+(value).
+Specify unit (refer to STDID code list).
+B058
+cbc:Total Dutiable Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an..3
+For dutiable cargo or goods to be bonded into or released from the
+Bonded Warehouse: Total dutiable quantity/weight/volume
+i) for products based on specific rates, mandatory to specify either
+dutiable weight or volume according to duty rate unit specifier
+ii) for others, mandatory to specify dutiable quantity according to
+unit price measurement.
+Specify unit (refer to STDID code list).
+B058
+cbc:Dutiable Quantity
+C
+1 n..16
+For dutiable cargo based on specific rates in accordance with duty
+rate unit specifier:
+OFFICIAL (CLOSED)
+AM
+i) Dutiable quantity/weight/volume.
+unit Code (attribute) M 1 an..3 Specify unit (refer to STDID code list).
+B052 cbc:Alcohol Percent C 1 n..7 Specify percentage of alcohol by volume for liquor attracting duty
+based on alcoholic strength.
+/cac:Item Quantity
+B016 cbc:Origin Country M 1 a2 Specify Country of Origin of goods.
+A057 cac:Transaction Value C 1 Specify transaction value except for trade facilitation granted by
+Customs.
+B003 cbc:Item CIFFOBValue M 1 n..16 Mandatory to specify item CIF/FOB value in SGD.
+/cac:Transaction Value
+A008 cac:CASCProduct C 5 Repeat at most 5 times, specify CA/SC product details.
+B057 cbc:CASCProduct Code C 1 an..17 Specify CA/SC product code such as:
+(1) Motor Vehicle product code (for dutiable motor vehicles to be
+released from licensed warehouse)
+(2) Product Code for strategic goods permit applications
+B058 cbc:CASCProduct Quantity C 1 n..16 Specify quantity and measurement unit of CA/SC product code.
+unit Code (attribute) M 1 an..3 Specify unit (refer to UN/ECE Recommendation No. 20).
+A001 cac:Additional CASCIdentification C 50 Repeat at most 50 times.
+Specify additional product details (ie. CA/SC code 1, 2, 3 and End
+use descriptions).
+B057 cbc:CASCCode One M 1 an..35 Examples:
+i) Engine No. for motor vehicles when MV product code is filled
+ii) “end use code 1” for strategic goods permit applications
+B057 cbc:CASCCode Two C 1 an..35 Examples:
+i) Chassis No. for motor vehicles when MV product code is filled
+ii) “end use code 2” for strategic goods permit applications
+B057 cbc:CASCCode Three C 1 an..35 Examples:
+i) Vehicle Type when MV product code is filled
+ii) “end use code 3” for strategic goods permit applications
+/cac:Additional CASCIdentification
+A017 cac:End Use Description C 1 Specify end-use description for strategic goods permit applications.
+B094 cbc:End Use Line M 1 an..256 Specify end-use description.
+/cac:End Use Description
+/cac:CASCProduct
+B049 cbc:Brand Name C 1 an..35 Specify brand name (if any).
+B022 cbc:Model Description C 1 an..35 Specify model description (if any).
+B037 cbc:Dangerous Goods Indicator C boolean Specify DG indicator for dangerous goods.
+A037 cac:Packing Description C 1 Mandatory to specify packing description for liquor/tobacco
+products; optional for others.
+Repeat at most 4 times and specify:
+1st time: outer-pack quantity
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+unit Code (attribute)
+M
+1 an..3
+i) Dutiable quantity/weight/volume.
+Specify unit (refer to STDID code list).
+B052
+cbc:Alcohol Percent
+C
+1 n..7
+Specify percentage of alcohol by volume for liquor attracting duty
+based on alcoholic strength.
+/cac:Item Quantity
+B016
+cbc:Origin Country
+M
+1 a2
+Specify Country of Origin of goods.
+A057
+cac:Transaction Value
+C
+1
+Specify transaction value except for trade facilitation granted by
+Customs.
+B003
+cbc:Item CIFFOBValue
+M
+1 n..16
+Mandatory to specify item CIF/FOB value in SGD.
+/cac:Transaction Value
+A008
+cac:CASCProduct
+C
+5
+Repeat at most 5 times, specify CA/SC product details.
+B057
+cbc:CASCProduct Code
+C
+1 an..17
+Specify CA/SC product code such as:
+(1) Motor Vehicle product code (for dutiable motor vehicles to be
+released from licensed warehouse)
+(2) Product Code for strategic goods permit applications
+B058
+cbc:CASCProduct Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an..3
+Specify quantity and measurement unit of CA/SC product code.
+Specify unit (refer to UN/ECE Recommendation No. 20).
+A001
+cac:Additional CASCIdentification
+C
+50
+Repeat at most 50 times.
+Specify additional product details (ie. CA/SC code 1, 2, 3 and End
+use descriptions).
+B057
+cbc:CASCCode One
+M
+1 an..35
+Examples:
+i)
+Engine No. for motor vehicles when MV product code is filled
+ii) “end use code 1” for strategic goods permit applications
+B057
+cbc:CASCCode Two
+C
+1 an..35
+Examples:
+i)
+Chassis No. for motor vehicles when MV product code is filled
+ii) “end use code 2” for strategic goods permit applications
+B057
+cbc:CASCCode Three
+C
+1 an..35
+Examples:
+i)
+Vehicle Type when MV product code is filled
+ii) “end use code 3” for strategic goods permit applications
+/cac:Additional CASCIdentification
+A017
+cac:End Use Description
+C
+1
+Specify end-use description for strategic goods permit applications.
+B094
+cbc:End Use Line
+M
+1 an..256
+Specify end-use description.
+/cac:End Use Description
+/cac:CASCProduct
+B049
+cbc:Brand Name
+C
+1 an..35
+Specify brand name (if any).
+B022
+cbc:Model Description
+C
+1 an..35
+Specify model description (if any).
+B037
+cbc:Dangerous Goods Indicator
+C
+boolean
+Specify DG indicator for dangerous goods.
+A037
+cac:Packing Description
+C
+1
+Mandatory to specify packing description for liquor/tobacco
+products; optional for others.
+Repeat at most 4 times and specify:
+1st time: outer-pack quantity
+OFFICIAL (CLOSED)
+AM
+2nd time: in-pack quantity
+3rd time: inner-pack quantity
+4th time: inmost-pack quantity
+B051 cbc:Outer Pack Quantity C 1 n..8 Specify outer-pack quantity.
+unit Code (attribute) M 1 an..3 For Packing unit type (refer to STDID Code Lists).
+B051 cbc:In Pack Quantity C 1 n..8 Specify in-pack quantity.
+unit Code (attribute) M 1 an..3 For Packing unit type (refer to STDID Code Lists).
+B051 cbc:Inner Pack Quantity C 1 n..8 Specify inner-pack quantity.
+unit Code (attribute) M 1 an..3 For Packing unit type (refer to STDID Code Lists).
+B051 cbc:Inmost Pack Quantity C 1 n..8 Specify inmost-pack quantity.
+unit Code (attribute) M 1 an..3 For Packing unit type (refer to STDID Code Lists).
+/cac:Packing Description
+B070 cac:Shipping Marks Information C 4 Specify markings on cargo for marks and numbers, if any.
+a) Repeat at most 4 times and specify:
+(1) 1st occurrence: 10 lines x 17 = 170 chars
+(2) 2nd occurrence: 10 lines x 17 = 170 chars
+(3) 3rd occurrence: 8 lines x 17 = 136 chars
+(4) 4th occurrence: 3 lines x 12 = 36 chars
+b) For CO application, repeat once and specify 10 lines of 17
+characters.
+B065 cbc:Shipping Marks M 10 an..17 Specify markings on cargo for marks and numbers.
+/cac:Shipping Marks Information
+A033 cac:Lot Identification C 1 For goods received into or released from Licensed Premises such as
+Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded
+Warehouse, specify current, previous lot number and marking, if
+applicable.
+B041 cbc:Current Lot Number C 1 an..30 Specify current lot number.
+B041 cbc:Previous Lot Number C 1 an..30 Specify previous lot number (if any).
+B043 cbc:Marking C 1 an..2 Specify marking for the goods, if applicable, such as “HW” Health
+Warning for tobacco products.
+/cac:Lot Identification
+B064 cbc:In HAWBHUCRHBLNumber C 1 an..35 Specify Inward HAWB/HUCR/HBL number for transport mode 1 or 4.
+B064 cbc:Out HAWBHUCRHBLNumber C 1 an..35 Specify Outward HAWB/HUCR/HBL number for transport mode 1 or 4.
+A028 cac:Item Certificate C 1
+B058 cbc:Item Certificate Quantity C 1 n..16 For CO application, Optional to specify Certificate item quantity
+and measurement unit to be printed on the Certificate. The
+measurement unit need not match the measurement unit in the
+Singapore Trade Classification.
+unit Code (attribute) M 1 an3 Specify unit (refer to UN/ECE Recommendation No. 20).
+B003 cbc:Item Value C 1 n..16 For CO application.
+i) This CIF/FOB value will be printed on the relevant certificates
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+2nd time: in-pack quantity
+3rd time: inner-pack quantity
+4th time: inmost-pack quantity
+B051
+cbc:Outer Pack Quantity
+unit Code (attribute)
+C
+M
+1 n..8
+1 an..3
+Specify outer-pack quantity.
+For Packing unit type (refer to STDID Code Lists).
+B051
+cbc:In Pack Quantity
+unit Code (attribute)
+C
+M
+1 n..8
+1 an..3
+Specify in-pack quantity.
+For Packing unit type (refer to STDID Code Lists).
+B051
+cbc:Inner Pack Quantity
+unit Code (attribute)
+C
+M
+1 n..8
+1 an..3
+Specify inner-pack quantity.
+For Packing unit type (refer to STDID Code Lists).
+B051
+cbc:Inmost Pack Quantity
+unit Code (attribute)
+C
+M
+1 n..8
+1 an..3
+Specify inmost-pack quantity.
+For Packing unit type (refer to STDID Code Lists).
+/cac:Packing Description
+B070
+cac:Shipping Marks Information
+C
+4
+Specify markings on cargo for marks and numbers, if any.
+a) Repeat at most 4 times and specify:
+(1) 1st occurrence: 10 lines x 17 = 170 chars
+(2) 2nd occurrence: 10 lines x 17 = 170 chars
+(3) 3rd occurrence: 8 lines x 17 = 136 chars
+(4) 4th occurrence: 3 lines x 12 = 36 chars
+b) For CO application, repeat once and specify 10 lines of 17
+characters.
+B065
+cbc:Shipping Marks
+M
+10 an..17
+Specify markings on cargo for marks and numbers.
+/cac:Shipping Marks Information
+A033
+cac:Lot Identification
+C
+1
+For goods received into or released from Licensed Premises such as
+Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded
+Warehouse, specify current, previous lot number and marking, if
+applicable.
+B041
+cbc:Current Lot Number
+C
+1 an..30
+Specify current lot number.
+B041
+cbc:Previous Lot Number
+C
+1 an..30
+Specify previous lot number (if any).
+B043
+cbc:Marking
+C
+1 an..2
+Specify marking for the goods, if applicable, such as “HW” Health
+Warning for tobacco products.
+/cac:Lot Identification
+B064
+cbc:In HAWBHUCRHBLNumber
+C
+1 an..35
+Specify Inward HAWB/HUCR/HBL number for transport mode 1 or 4.
+B064
+cbc:Out HAWBHUCRHBLNumber
+C
+1 an..35
+Specify Outward HAWB/HUCR/HBL number for transport mode 1 or 4.
+A028
+cac:Item Certificate
+C
+1
+B058
+cbc:Item Certificate Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an3
+For CO application, Optional to specify Certificate item quantity
+and measurement unit to be printed on the Certificate. The
+measurement unit need not match the measurement unit in the
+Singapore Trade Classification.
+Specify unit (refer to UN/ECE Recommendation No. 20).
+B003
+cbc:Item Value
+C
+1 n..16
+For CO application.
+i) This CIF/FOB value will be printed on the relevant certificates
+OFFICIAL (CLOSED)
+AM
+ii) Optional for Certificate Type = 9, 16, 17, 19, 20, 21, 22, 23,
+24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34. Not applicable for
+other Certificate Types.
+A027 cac:Item Certificate Description C 10 For CO application.
+Repeat at most ten times, Provide description of the item, including
+number and type of packages to be printed on the Certificate.
+B038 cbc:Line M 5 an..35 Specify certificate item description.
+/cac:Item Certificate Description
+B020 cbc:Manufacturing Cost Date C 1 n8 Format: CCYYMMDD
+For CO application, Specify Date of Manufacturing Cost
+Statement/Letter of Undertaking.
+B010 cbc:Textile Category Code C 1 an..5 For CO application.
+a) Applicable only for Application Product Type = TX.
+b) Mandatory to Certificate Type = 9.
+c) Optional for other Certificate Type.
+Specify textile category code.
+B058 cbc:Textile Quota Quantity C 1 n..16 For CO application.
+a) Applicable only for Application Product Type = TX.
+b) Mandatory to Certificate Type = 9.
+c) Optional for other Certificate Type.
+Specify textile quota quantity and measurement unit. The measurement
+unit need not match the measurement unit in the Singapore Trade
+Classification.
+unit Code (attribute) M 1 an3 Specify unit.
+B064 cbc:Item Invoice Number C 1 an..35 a) Optional to specify Invoice number except for CO application with
+Certificate Types =1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 24,
+25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.
+b) For CO application with Certificate Types =1, 2, 3, 12, 16, 17,
+19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34,
+optional to specify Invoice Number and Invoice date
+Specify invoice number.
+B020 cbc:Item Invoice Date C 1 n8 Format: CCYYMMDD
+Specify item invoice date.
+B050 cbc:Origin Criterion C 3 an..25 For CO application.
+a) Mandatory to specify Origin Criterion details if Certificate Type
+= 1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29,
+30, 31, 32, 33 & 34.
+b) Optional for Certificate Type = 24.
+c) Not applicable for other Certificate Types.
+Specify Origin Criterion according to rules and conditions.
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+ii) Optional for Certificate Type = 9, 16, 17, 19, 20, 21, 22, 23,
+24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34. Not applicable for
+other Certificate Types.
+A027
+cac:Item Certificate Description
+C
+10
+For CO application.
+Repeat at most ten times, Provide description of the item, including
+number and type of packages to be printed on the Certificate.
+B038
+cbc:Line
+M
+5 an..35
+Specify certificate item description.
+/cac:Item Certificate Description
+B020
+cbc:Manufacturing Cost Date
+C
+1 n8
+Format: CCYYMMDD
+For CO application, Specify Date of Manufacturing Cost
+Statement/Letter of Undertaking.
+B010
+cbc:Textile Category Code
+C
+1 an..5
+For CO application.
+a) Applicable only for Application Product Type = TX.
+b) Mandatory to Certificate Type = 9.
+c) Optional for other Certificate Type.
+Specify textile category code.
+B058
+cbc:Textile Quota Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an3
+For CO application.
+a) Applicable only for Application Product Type = TX.
+b) Mandatory to Certificate Type = 9.
+c) Optional for other Certificate Type.
+Specify textile quota quantity and measurement unit. The measurement
+unit need not match the measurement unit in the Singapore Trade
+Classification.
+Specify unit.
+B064
+cbc:Item Invoice Number
+C
+1 an..35
+a) Optional to specify Invoice number except for CO application with
+Certificate Types =1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 24,
+25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.
+b) For CO application with Certificate Types =1, 2, 3, 12, 16, 17,
+19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34,
+optional to specify Invoice Number and Invoice date
+Specify invoice number.
+B020
+cbc:Item Invoice Date
+C
+1 n8
+Format: CCYYMMDD
+Specify item invoice date.
+B050
+cbc:Origin Criterion
+C
+3 an..25
+For CO application.
+a) Mandatory to specify Origin Criterion details if Certificate Type
+= 1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29,
+30, 31, 32, 33 & 34.
+b) Optional for Certificate Type = 24.
+c) Not applicable for other Certificate Types.
+Specify Origin Criterion according to rules and conditions.
+OFFICIAL (CLOSED)
+AM
+B035 cbc:Harmonized System Code C 1 an..10 For CO application, Specify Harmonized System code (cater for 6
+digit), if applicable.
+B014 cbc:Content Percent C 1 n..3 For CO application, Specify percentage content of origin criterion
+details, if applicable.
+/cac:Item Certificate
+A054 cac:Tariff C 1 Note:
+To specify "PRI" if goods exported qualify for overseas preferential
+rates under self-certification.
+B056 cbc:Preferential Code C 1 an..3 Specify "PRI" when self-certification is applied for export.
+/cac:Tariff
+SUMMARY SECTION
+out:Summary M 1
+B068 cbc:Number Of Items M 1 n..5 Mandatory to specify total number of items declared.
+B003 cbc:Total CIFFOBValue C 1 n..16 Specify Total CIF/FOB value in SGD based on the sum of CIF/FOB
+amount declared at line items.
+B092 cbc:Total Outer Pack M 1 n..8 Mandatory for all declaration types to specify Total Outer Pack.
+unit Code (attribute) M 1 an..3 Specify unit (refer to UN/ECE Recommendation No. 20).
+B091 cbc:Total Gross Weight M 1 n..15 Specify Total Gross Weight (unit code must be TNE or KGM)
+unit Code (attribute) M 1 an..3 Specify unit (refer to weight measurement code in STDID Code List).
+i) For transport mode = 1, the unit code must be set to TNE.
+ii) For transport mode = 4, the unit code must be set to KGM.
+(Use inward transport mode for Declaration Type = DRT (when there is
+inter-gateway movement)).
+End Declaration ---------------------
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| out:Summary | | | | | | | | | |
+B068 cbc:Number Of Items
+B003 cbc:Total CIFFOBValue
+B092 cbc:Total Outer Pack
+unit Code (attribute)
+B091 cbc:Total Gross Weight
+unit Code (attribute) | | | | | | | | | | |
+| End Declaration --------------------- | | | | | | | | | |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.
+TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+B035
+cbc:Harmonized System Code
+C
+1 an..10
+For CO application, Specify Harmonized System code (cater for 6
+digit), if applicable.
+B014
+cbc:Content Percent
+C
+1 n..3
+For CO application, Specify percentage content of origin criterion
+details, if applicable.
+/cac:Item Certificate
+A054
+cac:Tariff
+C
+1
+Note:
+To specify "PRI" if goods exported qualify for overseas preferential
+rates under self-certification.
+B056
+cbc:Preferential Code
+C
+1 an..3
+Specify "PRI" when self-certification is applied for export.
+/cac:Tariff
+SUMMARY SECTION
+out:Summary
+M
+1
+B068
+cbc:Number Of Items
+M
+1 n..5
+Mandatory to specify total number of items declared.
+B003
+cbc:Total CIFFOBValue
+C
+1 n..16
+Specify Total CIF/FOB value in SGD based on the sum of CIF/FOB
+amount declared at line items.
+B092
+cbc:Total Outer Pack
+unit Code (attribute)
+M
+M
+1 n..8
+1 an..3
+Mandatory for all declaration types to specify Total Outer Pack.
+Specify unit (refer to UN/ECE Recommendation No. 20).
+B091
+cbc:Total Gross Weight
+unit Code (attribute)
+M
+M
+1 n..15
+1 an..3
+Specify Total Gross Weight (unit code must be TNE or KGM)
+Specify unit (refer to weight measurement code in STDID Code List).
+i) For transport mode = 1, the unit code must be set to TNE.
+ii) For transport mode = 4, the unit code must be set to KGM.
+(Use inward transport mode for Declaration Type = DRT (when there is
+inter-gateway movement)).
+End Declaration ---------------------', '[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]', '["cbc", "For", "any", "cac", "Net", "doc", "XML", "Ver", "out", "DRT", "not", "are", "FTZ", "all", "Air", "the", "Ton", "TNE", "End", "and"]', 'Support Pipeline processing and compliance validation.', '["7", "Pipeline", "business-rule", "document-driven", "dgft"]');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R001', '7', '/cac:Party Name
+/cac:Freight Forwarder Party
+A040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.', 'business_rule', 'Pipeline', '7: Pipeline
+B082 cbc:Mode Code M 1 n1 Specify Inward Transport Mode.', '/cac:Party Name
+/cac:Freight Forwarder Party
+A040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.', 'B078 cbc:Net Register Tonnage C 1 n..15 Specify the Net Register Ton of outward vessel (TNE).', '/cac:Inward Transport
+A036 cac:Outward Transport C 1 Mandatory to specify Outward transport except for goods meant for
+storage.', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R002', '7', '/cac:Party Name
+/cac:Importer Party
+A040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.', 'business_rule', 'Pipeline', 'B076 cbc:Conveyance Reference Number C 1 an..17 For transport mode = 1, specify inward voyage number.', '/cac:Party Name
+/cac:Importer Party
+A040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.', 'B078
+cbc:Net Register Tonnage
+C
+1 n..15
+Specify the Net Register Ton of outward vessel (TNE).', '/cac:Inward Transport
+A036
+cac:Outward Transport
+C
+1
+Mandatory to specify Outward transport except for goods meant for
+storage.', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R003', '7', '/cac:Party Name
+/cac:Freight Forwarder Party
+A040
+cac:Inward Carrier Agent Party
+C
+1
+a) Specify Inward Carrier Agent, must be registered with Customs.', 'business_rule', 'Pipeline', 'Specify ‘NA’
+if there is no inward voyage number.', '/cac:Party Name
+/cac:Freight Forwarder Party
+A040
+cac:Inward Carrier Agent Party
+C
+1
+a) Specify Inward Carrier Agent, must be registered with Customs.', '/cac:Party Name
+/cac:Freight Forwarder Party
+A040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.', 'B055 cbc:Discharge Port C 1 an..5 Specify Port of Discharge except for seastore permits application.', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R004', '7', '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.', 'business_rule', 'Pipeline', 'For transport mode = 4, specify inward flight number.', '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.', '/cac:Party Name
+/cac:Importer Party
+A040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.', 'B016 cbc:Final Destination Country C 1 a2 Specify Country of Final Destination except for seastore permits
+application.', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R005', '7', '/cac:Party Name
+/cac:Party Detail
+OFFICIAL (CLOSED)
+AM
+A067 cac:Address C 1 Specify party address based on the following format except for
+address of Exporter that is required to be printed in CO.', 'business_rule', 'Pipeline', 'Specify ‘NA’
+if there is no inward flight number.', '/cac:Party Name
+/cac:Party Detail
+OFFICIAL (CLOSED)
+AM
+A067 cac:Address C 1 Specify party address based on the following format except for
+address of Exporter that is required to be printed in CO.', '/cac:Party Name
+/cac:Freight Forwarder Party
+A040
+cac:Inward Carrier Agent Party
+C
+1
+a) Specify Inward Carrier Agent, must be registered with Customs.', 'B055
+cbc:Discharge Port
+C
+1 an..5
+Specify Port of Discharge except for seastore permits application.', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R006', '7', '/cac:Party Name
+A067 cac:Address M 1 Specify Consignee address based on the following format except for
+address that is required to be printed in CO.', 'business_rule', 'Pipeline', 'B049 cbc:Transport Identifier C 1 an..35 For transport mode = 1, specify inward vessel name.', '/cac:Party Name
+A067 cac:Address M 1 Specify Consignee address based on the following format except for
+address that is required to be printed in CO.', '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.', 'B016
+cbc:Final Destination Country
+C
+1 a2
+Specify Country of Final Destination except for seastore permits
+application.', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R007', '7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+A067
+cac:Address
+C
+1
+Specify party address based on the following format except for
+address of Exporter that is required to be printed in CO.', 'business_rule', 'Pipeline', 'For transport mode = 3, specify Vehicle Licence/Registration Number,
+if any.', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+A067
+cac:Address
+C
+1
+Specify party address based on the following format except for
+address of Exporter that is required to be printed in CO.', '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.', '/cac:Party Name
+/cac:Party Detail
+OFFICIAL (CLOSED)
+AM
+A067 cac:Address C 1 Specify party address based on the following format except for
+address of Exporter that is required to be printed in CO.', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R008', '7', '/cac:Party Name
+A067
+cac:Address
+M
+1
+Specify Consignee address based on the following format except for
+address that is required to be printed in CO.', 'business_rule', 'Pipeline', 'For transport mode = 4, specify inward Aircraft Registration Number
+for chartered flights, if any.', '/cac:Party Name
+A067
+cac:Address
+M
+1
+Specify Consignee address based on the following format except for
+address that is required to be printed in CO.', '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.', '/cac:Address
+/cac:Exporter Party
+A013 cac:Consignee Party C 1 Specify consignee name and address for CO applications, strategic
+goods and goods released from licensed premises except for seastore
+permits or goods meant for storage.', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R009', '7', 'B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure
+unit specifier must match the measurement unit in the Singapore
+Trade Classification.', 'business_rule', 'Pipeline', '/cac:Transport Mode
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.', 'B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure
+unit specifier must match the measurement unit in the Singapore
+Trade Classification.', '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.', '/cac:Party Name
+A067 cac:Address M 1 Specify Consignee address based on the following format except for
+address that is required to be printed in CO.', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R010', '7', 'B058
+cbc:Harmonized System Quantity
+unit Code (attribute)
+M
+M
+1 n..16
+1 an..3
+For all Declaration Types, specify HS code quantity and the measure
+unit specifier must match the measurement unit in the Singapore
+Trade Classification.', 'business_rule', 'Pipeline', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+/cac:Transport Equipment
+B020
+cbc:Blanket Start Date
+C
+1 n8
+Format: CCYYMMDD
+For blanket imports, specify Start Date of Blanket.', 'B058
+cbc:Harmonized System Quantity
+unit Code (attribute)
+M
+M
+1 n..16
+1 an..3
+For all Declaration Types, specify HS code quantity and the measure
+unit specifier must match the measurement unit in the Singapore
+Trade Classification.', '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+A067
+cac:Address
+C
+1
+Specify party address based on the following format except for
+address of Exporter that is required to be printed in CO.', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R011', '7', 'B091 cbc:Total Gross Weight M 1 n..15 Specify Total Gross Weight (unit code must be TNE or KGM)
+unit Code (attribute) M 1 an..3 Specify unit (refer to weight measurement code in STDID Code List).', 'business_rule', 'Pipeline', 'out:Transport
+C
+1
+Note 1:
+Specify transport details.', 'B091 cbc:Total Gross Weight M 1 n..15 Specify Total Gross Weight (unit code must be TNE or KGM)
+unit Code (attribute) M 1 an..3 Specify unit (refer to weight measurement code in STDID Code List).', '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.', '/cac:Address
+/cac:Exporter Party
+A013
+cac:Consignee Party
+C
+1
+Specify consignee name and address for CO applications, strategic
+goods and goods released from licensed premises except for seastore
+permits or goods meant for storage.', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R012', '7', 'i) For transport mode = 1, the unit code must be set to TNE.', 'business_rule', 'Pipeline', 'a) For Declaration Type = DRT (when there is inter-gateway
+movement), specify:
+i)
+inward transport
+ii) outward transport
+b) For others, specify outward transport if not meant for storage.', 'i) For transport mode = 1, the unit code must be set to TNE.', '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.', '/cac:Party Name
+A067
+cac:Address
+M
+1
+Specify Consignee address based on the following format except for
+address that is required to be printed in CO.', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R013', '7', 'ii) For transport mode = 4, the unit code must be set to KGM.', 'business_rule', 'Pipeline', 'Note 2:
+Outward Transport details need not be filled if goods are meant for
+storage with valid FTZ place of storage.', 'ii) For transport mode = 4, the unit code must be set to KGM.', '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.', 'Specify quantity and unit according to invoice
+if the measurement unit in Singapore Trade Classification = ‘-’
+unit Code (attribute) M 1 an..3 (value).', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO rules (rule_id, section_code, rule_text, rule_type, trigger_text, condition_text, validation_text, action_text, exception_text, output_text) VALUES ('CH-SEC7-R014', '7', 'B091
+cbc:Total Gross Weight
+unit Code (attribute)
+M
+M
+1 n..15
+1 an..3
+Specify Total Gross Weight (unit code must be TNE or KGM)
+Specify unit (refer to weight measurement code in STDID Code List).', 'business_rule', 'Pipeline', 'A026
+cac:Inward Transport
+C
+1
+Specify Inward transport.', 'B091
+cbc:Total Gross Weight
+unit Code (attribute)
+M
+M
+1 n..15
+1 an..3
+Specify Total Gross Weight (unit code must be TNE or KGM)
+Specify unit (refer to weight measurement code in STDID Code List).', '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.', 'unit Code (attribute) M 1 an..3 Specify unit (refer to STDID code list).', 'DEKAI should produce a compliance decision for 7 - Pipeline.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '7: Pipeline
+B082 cbc:Mode Code M 1 n1 Specify Inward Transport Mode.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B076 cbc:Conveyance Reference Number C 1 an..17 For transport mode = 1, specify inward voyage number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify ‘NA’
+if there is no inward voyage number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'For transport mode = 4, specify inward flight number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify ‘NA’
+if there is no inward flight number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B049 cbc:Transport Identifier C 1 an..35 For transport mode = 1, specify inward vessel name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'For transport mode = 3, specify Vehicle Licence/Registration Number,
+if any.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'For transport mode = 4, specify inward Aircraft Registration Number
+for chartered flights, if any.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Transport Mode
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+/cac:Transport Equipment
+B020
+cbc:Blanket Start Date
+C
+1 n8
+Format: CCYYMMDD
+For blanket imports, specify Start Date of Blanket.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'out:Transport
+C
+1
+Note 1:
+Specify transport details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'a) For Declaration Type = DRT (when there is inter-gateway
+movement), specify:
+i)
+inward transport
+ii) outward transport
+b) For others, specify outward transport if not meant for storage.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Note 2:
+Outward Transport details need not be filled if goods are meant for
+storage with valid FTZ place of storage.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A026
+cac:Inward Transport
+C
+1
+Specify Inward transport.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'i) Mandatory to specify inward Transport for Declaration Type = DRT
+(when there is inter-gateway movement) only.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A060
+cac:Transport Means
+M
+1
+Specify inward transport mode.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '19) are:
+7: Pipeline
+B082
+cbc:Mode Code
+M
+1 n1
+Specify Inward Transport Mode.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B076
+cbc:Conveyance Reference Number
+C
+1 an..17
+For transport mode = 1, specify inward voyage number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B049
+cbc:Transport Identifier
+C
+1 an..35
+For transport mode = 1, specify inward vessel name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Transport Mode
+OFFICIAL (CLOSED)
+AM
+B064 cbc:MAWBOUCROBLNumber C 1 an..35 For transport mode = 1, specify inward OUCR/ Ocean Bill of Lading
+Number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'For transport mode = 4, specify inward Master Air Waybill.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Transport Means
+B020 cbc:Arrival Date M 1 n8 Format: CCYYMMDD
+For inward transport, specify Date of Arrival.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B055 cbc:Loading Port M 1 an..5 For inward transport, specify Place/Port of Loading.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify the port code
+(refer to UN/ECE Recommendation No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Inward Transport
+A036 cac:Outward Transport C 1 Mandatory to specify Outward transport except for goods meant for
+storage.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A060 cac:Transport Means M 1 Mandatory to specify outward transport mode.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '19) are:
+7: Pipeline
+B082 cbc:Mode Code M 1 n1 Specify Outward Transport Mode.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B076 cbc:Conveyance Reference Number C 1 an..17 For transport mode = 1, specify outward voyage number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify ‘NA’
+if there is no outward voyage number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'For transport mode = 4, specify outward flight number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify ‘NA’
+if there is no outward flight number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B049 cbc:Transport Identifier C 1 an..35 For transport mode = 1, specify outward vessel name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'For transport mode = 4, specify outward Aircraft Registration Number
+for chartered flights, if any.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Transport Mode
+B064 cbc:MAWBOUCROBLNumber C 1 an..35 For transport mode = 1, specify outward OUCR/ Ocean Bill of Lading
+Number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'For transport mode = 4, specify outward Master Air Waybill.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Transport Means
+A002 cac:Additional Vessel Information C 1 For outward transport = 1, specify additional information for
+outward vessel.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B077 cbc:Vessel Type C 1 an2 Specify vessel type.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B078 cbc:Net Register Tonnage C 1 n..15 Specify the Net Register Ton of outward vessel (TNE).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B016 cbc:Vessel Nationality C 1 a2 Specify nationality of vessel for seastore permits application if
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+B064
+cbc:MAWBOUCROBLNumber
+C
+1 an..35
+For transport mode = 1, specify inward OUCR/ Ocean Bill of Lading
+Number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Transport Means
+B020
+cbc:Arrival Date
+M
+1 n8
+Format: CCYYMMDD
+For inward transport, specify Date of Arrival.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B055
+cbc:Loading Port
+M
+1 an..5
+For inward transport, specify Place/Port of Loading.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Inward Transport
+A036
+cac:Outward Transport
+C
+1
+Mandatory to specify Outward transport except for goods meant for
+storage.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A060
+cac:Transport Means
+M
+1
+Mandatory to specify outward transport mode.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '19) are:
+7: Pipeline
+B082
+cbc:Mode Code
+M
+1 n1
+Specify Outward Transport Mode.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B076
+cbc:Conveyance Reference Number
+C
+1 an..17
+For transport mode = 1, specify outward voyage number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B049
+cbc:Transport Identifier
+C
+1 an..35
+For transport mode = 1, specify outward vessel name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Transport Mode
+B064
+cbc:MAWBOUCROBLNumber
+C
+1 an..35
+For transport mode = 1, specify outward OUCR/ Ocean Bill of Lading
+Number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Transport Means
+A002
+cac:Additional Vessel Information
+C
+1
+For outward transport = 1, specify additional information for
+outward vessel.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B077
+cbc:Vessel Type
+C
+1 an2
+Specify vessel type.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B078
+cbc:Net Register Tonnage
+C
+1 n..15
+Specify the Net Register Ton of outward vessel (TNE).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B016
+cbc:Vessel Nationality
+C
+1 a2
+Specify nationality of vessel for seastore permits application if
+OFFICIAL (CLOSED)
+AM
+goods are liquor/tobacco products.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify nationality of vessel (refer to UN/ECE Recommendation No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A034 cac:Towing Vessel C 1 Specify towing vessel identification if applicable.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B076 cbc:Vessel ID M 1 an..17 Specify towing vessel voyage number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify ‘NA’ if there is no towing vessel voyage number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B049 cbc:Vessel Name M 1 an..35 Specify towing vessel name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Towing Vessel
+B055 cbc:Loading Next Port C 1 an..5 Specify Next port of call for seastore permits application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify port code (refer to UN/ECE Recommendation No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B055 cbc:Loading Final Port C 1 an..5 Specify Final port of call for seastore permits application if goods
+are liquor/tobacco products.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Additional Vessel Information
+B020 cbc:Departure Date M 1 n8 Format: CCYYMMDD
+Specify Date of Departure.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B055 cbc:Discharge Port C 1 an..5 Specify Port of Discharge except for seastore permits application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B016 cbc:Final Destination Country C 1 a2 Specify Country of Final Destination except for seastore permits
+application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Outward Transport
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A034
+cac:Towing Vessel
+C
+1
+Specify towing vessel identification if applicable.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B076
+cbc:Vessel ID
+M
+1 an..17
+Specify towing vessel voyage number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B049
+cbc:Vessel Name
+M
+1 an..35
+Specify towing vessel name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Towing Vessel
+B055
+cbc:Loading Next Port
+C
+1 an..5
+Specify Next port of call for seastore permits application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B055
+cbc:Loading Final Port
+C
+1 an..5
+Specify Final port of call for seastore permits application if goods
+are liquor/tobacco products.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Additional Vessel Information
+B020
+cbc:Departure Date
+M
+1 n8
+Format: CCYYMMDD
+Specify Date of Departure.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B055
+cbc:Discharge Port
+C
+1 an..5
+Specify Port of Discharge except for seastore permits application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B016
+cbc:Final Destination Country
+C
+1 a2
+Specify Country of Final Destination except for seastore permits
+application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Outward Transport
+OFFICIAL (CLOSED)
+AM
+out:Party M 1 Specify party details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'a) For Declaration Type = DRT (when there is inter-gateway
+movement), specify Party Type:
+- (Declarant)
+- (Declaring Agent)
+- (Inward Carrier Agent; optional for transport mode = 2, 3, 5 or
+7)
+- (Outward Carrier Agent; optional for transport mode = 2, 3, 5
+or 7)
+- (Exporter)
+- (Importer).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '- (Consignee; optional)
+- (Freight Forwarder; optional)
+- (Manufacturer; optional)
+- (End User; optional)
+b) For others, specify Party Type:
+- (Declarant)
+- (Declaring Agent, if declared by Agent)
+- (Outward Carrier Agent; optional for blanket permits or goods
+stored in FTZ or transport mode 2, 3, 5 or 7)
+- (Exporter)
+- (Consignee; optional)
+- (Freight Forwarder; optional)
+- (Manufacturer; optional)
+- (End User; optional)
+A014 cac:Declarant Party M 1 Mandatory to specify the identity of the Declarant.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A043 cac:Person Information M 1 Specify Declarant Person Information.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B012 cbc:Code Value M 1 an..17 Specify Declarant Code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093 cbc:Name M 1 an..100 Specify Declarant name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Person Information
+B071 cbc:Telephone M 1 an..25 Mandatory to specify Declarant contact number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Declarant Party
+A040 cac:Declaring Agent Party C 1 Specify Declaring Agent.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A038 cac:Party Identification M 1 Specify Declaring Agent Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036 cbc:ID M 1 an..17 Specify Declaring Agent Entity Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039 cac:Party Name M 1 Specify Declaring Agent Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093 cbc:Name M 2 an..50 Specify Declaring Agent name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Declaring Agent Party
+A040 cac:Freight Forwarder Party C 1 Mandatory to specify Freight Forwarder/NVOCC/Cargo
+Agent/Consolidator for consol consignment.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+out:Party
+M
+1
+Specify party details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '- (Consignee; optional)
+- (Freight Forwarder; optional)
+- (Manufacturer; optional)
+- (End User; optional)
+b) For others, specify Party Type:
+- (Declarant)
+- (Declaring Agent, if declared by Agent)
+- (Outward Carrier Agent; optional for blanket permits or goods
+stored in FTZ or transport mode 2, 3, 5 or 7)
+- (Exporter)
+- (Consignee; optional)
+- (Freight Forwarder; optional)
+- (Manufacturer; optional)
+- (End User; optional)
+A014
+cac:Declarant Party
+M
+1
+Mandatory to specify the identity of the Declarant.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A043
+cac:Person Information
+M
+1
+Specify Declarant Person Information.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B012
+cbc:Code Value
+M
+1 an..17
+Specify Declarant Code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093
+cbc:Name
+M
+1 an..100
+Specify Declarant name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Person Information
+B071
+cbc:Telephone
+M
+1 an..25
+Mandatory to specify Declarant contact number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Declarant Party
+A040
+cac:Declaring Agent Party
+C
+1
+Specify Declaring Agent.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A038
+cac:Party Identification
+M
+1
+Specify Declaring Agent Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036
+cbc:ID
+M
+1 an..17
+Specify Declaring Agent Entity Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Declaring Agent Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093
+cbc:Name
+M
+2 an..50
+Specify Declaring Agent name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Declaring Agent Party
+A040
+cac:Freight Forwarder Party
+C
+1
+Mandatory to specify Freight Forwarder/NVOCC/Cargo
+Agent/Consolidator for consol consignment.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'OFFICIAL (CLOSED)
+AM
+A038 cac:Party Identification M 1 Specify Freight Forwarder Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036 cbc:ID M 1 an..17 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Entity
+Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039 cac:Party Name M 1 Specify Freight Forwarder Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093 cbc:Name M 2 an..50 Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Freight Forwarder Party
+A040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'b) Mandatory to specify inward carrier agent if inward transport
+mode = 1 or 4 (optional for inward transport mode = 2, 3, 5 or 7).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A038 cac:Party Identification M 1 Specify Inward Carrier Agent Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036 cbc:ID M 1 an..17 Specify Inward Carrier Agent Entity Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039 cac:Party Name M 1 Specify Inward Carrier Agent Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093 cbc:Name M 2 an..50 Specify Inward Carrier Agent name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Inward Carrier Agent Party
+A040 cac:Importer Party C 1 Specify Importer details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A038 cac:Party Identification M 1 Specify Importer Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036 cbc:ID M 1 an..17 Specify Importer Entity Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039 cac:Party Name M 1 Specify Importer Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093 cbc:Name M 2 an..35 Specify Importer name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Importer Party
+A040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'b) Mandatory to specify outward carrier agent if outward transport
+mode = 1 or 4 (optional for outward transport mode = 2, 3, 5 or 7).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A038 cac:Party Identification M 1 Specify Outward Carrier Agent Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036 cbc:ID M 1 an..17 Specify Outward Carrier Agent Entity Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039 cac:Party Name M 1 Specify Outward Carrier Agent Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093 cbc:Name M 2 an..50 Specify Outward Carrier Agent name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Outward Carrier Agent Party
+A020 cac:Exporter Party M 1 Mandatory to specify Exporter details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A040 cac:Party Detail M 1 Specify Exporter Party details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A038 cac:Party Identification M 1 Specify Exporter Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036 cbc:ID M 1 an..17 Specify Exporter Entity Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039 cac:Party Name M 1 Specify Exporter Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093 cbc:Name M 2 an..35 Specify Exporter name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Party Detail
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+A038
+cac:Party Identification
+M
+1
+Specify Freight Forwarder Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036
+cbc:ID
+M
+1 an..17
+Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator Entity
+Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Freight Forwarder Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093
+cbc:Name
+M
+2 an..50
+Specify Freight Forwarder/NVOCC/Cargo Agent/Consolidator name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Freight Forwarder Party
+A040
+cac:Inward Carrier Agent Party
+C
+1
+a) Specify Inward Carrier Agent, must be registered with Customs.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A038
+cac:Party Identification
+M
+1
+Specify Inward Carrier Agent Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036
+cbc:ID
+M
+1 an..17
+Specify Inward Carrier Agent Entity Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Inward Carrier Agent Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093
+cbc:Name
+M
+2 an..50
+Specify Inward Carrier Agent name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Inward Carrier Agent Party
+A040
+cac:Importer Party
+C
+1
+Specify Importer details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A038
+cac:Party Identification
+M
+1
+Specify Importer Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036
+cbc:ID
+M
+1 an..17
+Specify Importer Entity Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Importer Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093
+cbc:Name
+M
+2 an..35
+Specify Importer name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A038
+cac:Party Identification
+M
+1
+Specify Outward Carrier Agent Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036
+cbc:ID
+M
+1 an..17
+Specify Outward Carrier Agent Entity Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Outward Carrier Agent Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093
+cbc:Name
+M
+2 an..50
+Specify Outward Carrier Agent name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Outward Carrier Agent Party
+A020
+cac:Exporter Party
+M
+1
+Mandatory to specify Exporter details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A040
+cac:Party Detail
+M
+1
+Specify Exporter Party details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A038
+cac:Party Identification
+M
+1
+Specify Exporter Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036
+cbc:ID
+M
+1 an..17
+Specify Exporter Entity Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Exporter Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093
+cbc:Name
+M
+2 an..35
+Specify Exporter name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Party Detail
+OFFICIAL (CLOSED)
+AM
+A067 cac:Address C 1 Specify party address based on the following format except for
+address of Exporter that is required to be printed in CO.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A003 cac:Address Line C 1
+B038 cbc:Line M 2 an..35 Specify Exporter Street and Number/PO Box (line 1 & 2 for CO).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address Line
+B084 cbc:City Name C 1 an..35 Specify Exporter city name (line 3 for CO).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B085 cbc:Country Subentity Code C 1 an..9 Specify Exporter country subdivision code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B086 cbc:Country Subentity C 1 an..35 Specify Exporter country subdivision name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B087 cbc:Postal Zone C 1 an..9 Specify Exporter postal code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B016 cbc:Country Code M 1 a2 Specify Exporter country code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address
+/cac:Exporter Party
+A013 cac:Consignee Party C 1 Specify consignee name and address for CO applications, strategic
+goods and goods released from licensed premises except for seastore
+permits or goods meant for storage.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A039 cac:Party Name M 1 Specify Consignee Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093 cbc:Name M 2 an..35 Specify Consignee name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+A067 cac:Address M 1 Specify Consignee address based on the following format except for
+address that is required to be printed in CO.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A003 cac:Address Line M 1
+B038 cbc:Line M 2 an..35 Specify Consignee Street and Number/PO Box (line 1 & 2 for CO).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address Line
+B084 cbc:City Name C 1 an..35 Specify Consignee city name (line 3 for CO).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B085 cbc:Country Subentity Code C 1 an..9 Specify Consignee country subdivision code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B086 cbc:Country Subentity C 1 an..35 Specify Consignee country subdivision name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B087 cbc:Postal Zone C 1 an..9 Specify Consignee postal code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B016 cbc:Country Code M 1 a2 Specify Consignee country code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address
+/cac:Consignee Party
+A013 cac:End User Party C 1 For strategic goods, specify end user name and address.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A039 cac:Party Name M 1 Specify End user Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093 cbc:Name M 2 an..50 Specify End user name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+A067 cac:Address M 1 Specify End user address in following format.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A003 cac:Address Line M 1
+B038 cbc:Line M 2 an..35 Specify End user Street and Number/PO Box.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address Line
+B084 cbc:City Name C 1 an..35 Specify End-user city name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B085 cbc:Country Subentity Code C 1 an..9 Specify End-user country subdivision code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B086 cbc:Country Subentity C 1 an..35 Specify End-user country subdivision name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B087 cbc:Postal Zone C 1 an..9 Specify End-user postal code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B016 cbc:Country Code M 1 a2 Specify End-user country code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+A067
+cac:Address
+C
+1
+Specify party address based on the following format except for
+address of Exporter that is required to be printed in CO.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A003
+cac:Address Line
+C
+1
+B038
+cbc:Line
+M
+2 an..35
+Specify Exporter Street and Number/PO Box (line 1 & 2 for CO).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address Line
+B084
+cbc:City Name
+C
+1 an..35
+Specify Exporter city name (line 3 for CO).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B085
+cbc:Country Subentity Code
+C
+1 an..9
+Specify Exporter country subdivision code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B086
+cbc:Country Subentity
+C
+1 an..35
+Specify Exporter country subdivision name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B087
+cbc:Postal Zone
+C
+1 an..9
+Specify Exporter postal code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B016
+cbc:Country Code
+M
+1 a2
+Specify Exporter country code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address
+/cac:Exporter Party
+A013
+cac:Consignee Party
+C
+1
+Specify consignee name and address for CO applications, strategic
+goods and goods released from licensed premises except for seastore
+permits or goods meant for storage.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A039
+cac:Party Name
+M
+1
+Specify Consignee Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093
+cbc:Name
+M
+2 an..35
+Specify Consignee name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+A067
+cac:Address
+M
+1
+Specify Consignee address based on the following format except for
+address that is required to be printed in CO.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A003
+cac:Address Line
+M
+1
+B038
+cbc:Line
+M
+2 an..35
+Specify Consignee Street and Number/PO Box (line 1 & 2 for CO).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address Line
+B084
+cbc:City Name
+C
+1 an..35
+Specify Consignee city name (line 3 for CO).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B085
+cbc:Country Subentity Code
+C
+1 an..9
+Specify Consignee country subdivision code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B086
+cbc:Country Subentity
+C
+1 an..35
+Specify Consignee country subdivision name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B087
+cbc:Postal Zone
+C
+1 an..9
+Specify Consignee postal code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B016
+cbc:Country Code
+M
+1 a2
+Specify Consignee country code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address
+/cac:Consignee Party
+A013
+cac:End User Party
+C
+1
+For strategic goods, specify end user name and address.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A039
+cac:Party Name
+M
+1
+Specify End user Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093
+cbc:Name
+M
+2 an..50
+Specify End user name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+A067
+cac:Address
+M
+1
+Specify End user address in following format.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A003
+cac:Address Line
+M
+1
+B038
+cbc:Line
+M
+2 an..35
+Specify End user Street and Number/PO Box.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address Line
+B084
+cbc:City Name
+C
+1 an..35
+Specify End-user city name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B085
+cbc:Country Subentity Code
+C
+1 an..9
+Specify End-user country subdivision code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B086
+cbc:Country Subentity
+C
+1 an..35
+Specify End-user country subdivision name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B087
+cbc:Postal Zone
+C
+1 an..9
+Specify End-user postal code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B016
+cbc:Country Code
+M
+1 a2
+Specify End-user country code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'OFFICIAL (CLOSED)
+AM
+/cac:Address
+/cac:End User Party
+A020 cac:Manufacturer Party C 1 For CO application, specify Manufacturer.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Mandatory for Certificate
+Types = 1,2,5,9,10,16,18,19,21, 23, 25, 27, 29, 31 & 33.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Optional
+for other Certificate Types).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A040 cac:Party Detail M 1 Specify Manufacturer Party details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A038 cac:Party Identification M 1 Specify Manufacturer Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036 cbc:ID M 1 an..17 Specify Manufacturer Entity Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039 cac:Party Name M 1 Specify Manufacturer Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093 cbc:Name M 2 an..35 Specify Manufacturer name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Party Detail
+A067 cac:Address C 1 Specify Manufacturer address in following format
+A003 cac:Address Line C 1
+B038 cbc:Line M 2 an..35 Specify Manufacturer Street and Number/PO Box.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address Line
+B084 cbc:City Name C 1 an..35 Specify Manufacturer city name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B085 cbc:Country Subentity Code C 1 an..9 Specify Manufacturer country subdivision code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B086 cbc:Country Subentity C 1 an..35 Specify Manufacturer country subdivision name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B087 cbc:Postal Zone C 1 an..9 Specify Manufacturer postal code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B016 cbc:Country Code M 1 a2 Specify Manufacturer country code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address
+/cac:Manufacturer Party
+cac:Licence C 5 Specify licences, certificates or other documents.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B064 cbc:Reference ID M 1 an..35 Specify licences, certificates or other documents.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Licence
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| cac:Licence |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+/cac:Address
+/cac:End User Party
+A020
+cac:Manufacturer Party
+C
+1
+For CO application, specify Manufacturer.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A040
+cac:Party Detail
+M
+1
+Specify Manufacturer Party details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A038
+cac:Party Identification
+M
+1
+Specify Manufacturer Party Identification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B036
+cbc:ID
+M
+1 an..17
+Specify Manufacturer Entity Identifier.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Identification
+A039
+cac:Party Name
+M
+1
+Specify Manufacturer Party Name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B093
+cbc:Name
+M
+2 an..35
+Specify Manufacturer name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Party Name
+/cac:Party Detail
+A067
+cac:Address
+C
+1
+Specify Manufacturer address in following format
+A003
+cac:Address Line
+C
+1
+B038
+cbc:Line
+M
+2 an..35
+Specify Manufacturer Street and Number/PO Box.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address Line
+B084
+cbc:City Name
+C
+1 an..35
+Specify Manufacturer city name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B085
+cbc:Country Subentity Code
+C
+1 an..9
+Specify Manufacturer country subdivision code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B086
+cbc:Country Subentity
+C
+1 an..35
+Specify Manufacturer country subdivision name.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B087
+cbc:Postal Zone
+C
+1 an..9
+Specify Manufacturer postal code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B016
+cbc:Country Code
+M
+1 a2
+Specify Manufacturer country code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Address
+/cac:Manufacturer Party
+cac:Licence
+C
+5
+Specify licences, certificates or other documents.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B064
+cbc:Reference ID
+M
+1 an..35
+Specify licences, certificates or other documents.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Licence
+OFFICIAL (CLOSED)
+AM
+cac:Supporting Document Reference C 10 Repeat at most 10 times, specify supporting documents attached to
+the declaration if applicable.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Only the following file formats are allowed:
+1) MS Word
+2) Adobe PDF
+3) MS Excel
+4) Image Files
+a) Bitmap
+b) JPEG
+c) GIF Image
+d) EMF Image
+e) PNG Image
+f) TIF Image
+B023 cbc:Document ID M 1 an..3 Specify Document type code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B033 cbc:Filename M 1 an..70 Specify Filename of the document.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B068 cbc:Item Sequence Numeric M 1 n..5 Mandatory to specify item Sequence Number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B035 cbc:Item Harmonized System Code M 1 an..10 Mandatory to specify item Harmonized System code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify description of the item.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A030 cac:Item Quantity M 1 Specify the following for both dutiable and non-dutiable cargo.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure
+unit specifier must match the measurement unit in the Singapore
+Trade Classification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify quantity and unit according to invoice
+if the measurement unit in Singapore Trade Classification = ‘-’
+unit Code (attribute) M 1 an..3 (value).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify unit (refer to STDID code list).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B058 cbc:Total Dutiable Quantity C 1 n..16 For dutiable cargo or goods to be bonded into or released from the
+Bonded Warehouse: Total dutiable quantity/weight/volume
+i) for products based on specific rates, mandatory to specify either
+dutiable weight or volume according to duty rate unit specifier
+ii) for others, mandatory to specify dutiable quantity according to
+unit price measurement.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'unit Code (attribute) M 1 an..3 Specify unit (refer to STDID code list).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B058 cbc:Dutiable Quantity C 1 n..16 For dutiable cargo based on specific rates in accordance with duty
+rate unit specifier:
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+cac:Supporting Document Reference | |
+B023 cbc:Document ID
+B033 cbc:Filename
+/cac:Supporting Document Reference
+ITEM SECTION | |
+| out:Item |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+cac:Supporting Document Reference
+C
+10
+Repeat at most 10 times, specify supporting documents attached to
+the declaration if applicable.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Only the following file formats are allowed:
+1) MS Word
+2) Adobe PDF
+3) MS Excel
+4) Image Files
+a) Bitmap
+b) JPEG
+c) GIF Image
+d) EMF Image
+e) PNG Image
+f) TIF Image
+B023
+cbc:Document ID
+M
+1 an..3
+Specify Document type code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B033
+cbc:Filename
+M
+1 an..70
+Specify Filename of the document.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B068
+cbc:Item Sequence Numeric
+M
+1 n..5
+Mandatory to specify item Sequence Number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B035
+cbc:Item Harmonized System Code
+M
+1 an..10
+Mandatory to specify item Harmonized System code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A030
+cac:Item Quantity
+M
+1
+Specify the following for both dutiable and non-dutiable cargo.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B058
+cbc:Harmonized System Quantity
+unit Code (attribute)
+M
+M
+1 n..16
+1 an..3
+For all Declaration Types, specify HS code quantity and the measure
+unit specifier must match the measurement unit in the Singapore
+Trade Classification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify quantity and unit according to invoice
+if the measurement unit in Singapore Trade Classification = ‘-’
+(value).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B058
+cbc:Total Dutiable Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an..3
+For dutiable cargo or goods to be bonded into or released from the
+Bonded Warehouse: Total dutiable quantity/weight/volume
+i) for products based on specific rates, mandatory to specify either
+dutiable weight or volume according to duty rate unit specifier
+ii) for others, mandatory to specify dutiable quantity according to
+unit price measurement.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B058
+cbc:Dutiable Quantity
+C
+1 n..16
+For dutiable cargo based on specific rates in accordance with duty
+rate unit specifier:
+OFFICIAL (CLOSED)
+AM
+i) Dutiable quantity/weight/volume.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B052 cbc:Alcohol Percent C 1 n..7 Specify percentage of alcohol by volume for liquor attracting duty
+based on alcoholic strength.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Item Quantity
+B016 cbc:Origin Country M 1 a2 Specify Country of Origin of goods.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A057 cac:Transaction Value C 1 Specify transaction value except for trade facilitation granted by
+Customs.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B003 cbc:Item CIFFOBValue M 1 n..16 Mandatory to specify item CIF/FOB value in SGD.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Transaction Value
+A008 cac:CASCProduct C 5 Repeat at most 5 times, specify CA/SC product details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B057 cbc:CASCProduct Code C 1 an..17 Specify CA/SC product code such as:
+(1) Motor Vehicle product code (for dutiable motor vehicles to be
+released from licensed warehouse)
+(2) Product Code for strategic goods permit applications
+B058 cbc:CASCProduct Quantity C 1 n..16 Specify quantity and measurement unit of CA/SC product code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'unit Code (attribute) M 1 an..3 Specify unit (refer to UN/ECE Recommendation No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A001 cac:Additional CASCIdentification C 50 Repeat at most 50 times.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify additional product details (ie.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'for motor vehicles when MV product code is filled
+ii) “end use code 1” for strategic goods permit applications
+B057 cbc:CASCCode Two C 1 an..35 Examples:
+i) Chassis No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'for motor vehicles when MV product code is filled
+ii) “end use code 2” for strategic goods permit applications
+B057 cbc:CASCCode Three C 1 an..35 Examples:
+i) Vehicle Type when MV product code is filled
+ii) “end use code 3” for strategic goods permit applications
+/cac:Additional CASCIdentification
+A017 cac:End Use Description C 1 Specify end-use description for strategic goods permit applications.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B094 cbc:End Use Line M 1 an..256 Specify end-use description.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:End Use Description
+/cac:CASCProduct
+B049 cbc:Brand Name C 1 an..35 Specify brand name (if any).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B022 cbc:Model Description C 1 an..35 Specify model description (if any).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B037 cbc:Dangerous Goods Indicator C boolean Specify DG indicator for dangerous goods.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A037 cac:Packing Description C 1 Mandatory to specify packing description for liquor/tobacco
+products; optional for others.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Repeat at most 4 times and specify:
+1st time: outer-pack quantity
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B052
+cbc:Alcohol Percent
+C
+1 n..7
+Specify percentage of alcohol by volume for liquor attracting duty
+based on alcoholic strength.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Item Quantity
+B016
+cbc:Origin Country
+M
+1 a2
+Specify Country of Origin of goods.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A057
+cac:Transaction Value
+C
+1
+Specify transaction value except for trade facilitation granted by
+Customs.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B003
+cbc:Item CIFFOBValue
+M
+1 n..16
+Mandatory to specify item CIF/FOB value in SGD.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Transaction Value
+A008
+cac:CASCProduct
+C
+5
+Repeat at most 5 times, specify CA/SC product details.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B057
+cbc:CASCProduct Code
+C
+1 an..17
+Specify CA/SC product code such as:
+(1) Motor Vehicle product code (for dutiable motor vehicles to be
+released from licensed warehouse)
+(2) Product Code for strategic goods permit applications
+B058
+cbc:CASCProduct Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an..3
+Specify quantity and measurement unit of CA/SC product code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify unit (refer to UN/ECE Recommendation No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A001
+cac:Additional CASCIdentification
+C
+50
+Repeat at most 50 times.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'for motor vehicles when MV product code is filled
+ii) “end use code 1” for strategic goods permit applications
+B057
+cbc:CASCCode Two
+C
+1 an..35
+Examples:
+i)
+Chassis No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'for motor vehicles when MV product code is filled
+ii) “end use code 2” for strategic goods permit applications
+B057
+cbc:CASCCode Three
+C
+1 an..35
+Examples:
+i)
+Vehicle Type when MV product code is filled
+ii) “end use code 3” for strategic goods permit applications
+/cac:Additional CASCIdentification
+A017
+cac:End Use Description
+C
+1
+Specify end-use description for strategic goods permit applications.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B094
+cbc:End Use Line
+M
+1 an..256
+Specify end-use description.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:End Use Description
+/cac:CASCProduct
+B049
+cbc:Brand Name
+C
+1 an..35
+Specify brand name (if any).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B022
+cbc:Model Description
+C
+1 an..35
+Specify model description (if any).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B037
+cbc:Dangerous Goods Indicator
+C
+boolean
+Specify DG indicator for dangerous goods.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A037
+cac:Packing Description
+C
+1
+Mandatory to specify packing description for liquor/tobacco
+products; optional for others.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Repeat at most 4 times and specify:
+1st time: outer-pack quantity
+OFFICIAL (CLOSED)
+AM
+2nd time: in-pack quantity
+3rd time: inner-pack quantity
+4th time: inmost-pack quantity
+B051 cbc:Outer Pack Quantity C 1 n..8 Specify outer-pack quantity.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B051 cbc:In Pack Quantity C 1 n..8 Specify in-pack quantity.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B051 cbc:Inner Pack Quantity C 1 n..8 Specify inner-pack quantity.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B051 cbc:Inmost Pack Quantity C 1 n..8 Specify inmost-pack quantity.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Packing Description
+B070 cac:Shipping Marks Information C 4 Specify markings on cargo for marks and numbers, if any.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'a) Repeat at most 4 times and specify:
+(1) 1st occurrence: 10 lines x 17 = 170 chars
+(2) 2nd occurrence: 10 lines x 17 = 170 chars
+(3) 3rd occurrence: 8 lines x 17 = 136 chars
+(4) 4th occurrence: 3 lines x 12 = 36 chars
+b) For CO application, repeat once and specify 10 lines of 17
+characters.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B065 cbc:Shipping Marks M 10 an..17 Specify markings on cargo for marks and numbers.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Shipping Marks Information
+A033 cac:Lot Identification C 1 For goods received into or released from Licensed Premises such as
+Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded
+Warehouse, specify current, previous lot number and marking, if
+applicable.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B041 cbc:Current Lot Number C 1 an..30 Specify current lot number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B041 cbc:Previous Lot Number C 1 an..30 Specify previous lot number (if any).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B043 cbc:Marking C 1 an..2 Specify marking for the goods, if applicable, such as “HW” Health
+Warning for tobacco products.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Lot Identification
+B064 cbc:In HAWBHUCRHBLNumber C 1 an..35 Specify Inward HAWB/HUCR/HBL number for transport mode 1 or 4.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B064 cbc:Out HAWBHUCRHBLNumber C 1 an..35 Specify Outward HAWB/HUCR/HBL number for transport mode 1 or 4.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A028 cac:Item Certificate C 1
+B058 cbc:Item Certificate Quantity C 1 n..16 For CO application, Optional to specify Certificate item quantity
+and measurement unit to be printed on the Certificate.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'The
+measurement unit need not match the measurement unit in the
+Singapore Trade Classification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'unit Code (attribute) M 1 an3 Specify unit (refer to UN/ECE Recommendation No.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'i) This CIF/FOB value will be printed on the relevant certificates
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+2nd time: in-pack quantity
+3rd time: inner-pack quantity
+4th time: inmost-pack quantity
+B051
+cbc:Outer Pack Quantity
+unit Code (attribute)
+C
+M
+1 n..8
+1 an..3
+Specify outer-pack quantity.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B051
+cbc:In Pack Quantity
+unit Code (attribute)
+C
+M
+1 n..8
+1 an..3
+Specify in-pack quantity.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B051
+cbc:Inner Pack Quantity
+unit Code (attribute)
+C
+M
+1 n..8
+1 an..3
+Specify inner-pack quantity.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B051
+cbc:Inmost Pack Quantity
+unit Code (attribute)
+C
+M
+1 n..8
+1 an..3
+Specify inmost-pack quantity.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Packing Description
+B070
+cac:Shipping Marks Information
+C
+4
+Specify markings on cargo for marks and numbers, if any.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B065
+cbc:Shipping Marks
+M
+10 an..17
+Specify markings on cargo for marks and numbers.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Shipping Marks Information
+A033
+cac:Lot Identification
+C
+1
+For goods received into or released from Licensed Premises such as
+Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded
+Warehouse, specify current, previous lot number and marking, if
+applicable.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B041
+cbc:Current Lot Number
+C
+1 an..30
+Specify current lot number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B041
+cbc:Previous Lot Number
+C
+1 an..30
+Specify previous lot number (if any).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B043
+cbc:Marking
+C
+1 an..2
+Specify marking for the goods, if applicable, such as “HW” Health
+Warning for tobacco products.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Lot Identification
+B064
+cbc:In HAWBHUCRHBLNumber
+C
+1 an..35
+Specify Inward HAWB/HUCR/HBL number for transport mode 1 or 4.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B064
+cbc:Out HAWBHUCRHBLNumber
+C
+1 an..35
+Specify Outward HAWB/HUCR/HBL number for transport mode 1 or 4.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A028
+cac:Item Certificate
+C
+1
+B058
+cbc:Item Certificate Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an3
+For CO application, Optional to specify Certificate item quantity
+and measurement unit to be printed on the Certificate.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'i) This CIF/FOB value will be printed on the relevant certificates
+OFFICIAL (CLOSED)
+AM
+ii) Optional for Certificate Type = 9, 16, 17, 19, 20, 21, 22, 23,
+24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Not applicable for
+other Certificate Types.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A027 cac:Item Certificate Description C 10 For CO application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Repeat at most ten times, Provide description of the item, including
+number and type of packages to be printed on the Certificate.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B038 cbc:Line M 5 an..35 Specify certificate item description.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Item Certificate Description
+B020 cbc:Manufacturing Cost Date C 1 n8 Format: CCYYMMDD
+For CO application, Specify Date of Manufacturing Cost
+Statement/Letter of Undertaking.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'b) Mandatory to Certificate Type = 9.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'c) Optional for other Certificate Type.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify textile category code.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify textile quota quantity and measurement unit.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'The measurement
+unit need not match the measurement unit in the Singapore Trade
+Classification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'unit Code (attribute) M 1 an3 Specify unit.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B064 cbc:Item Invoice Number C 1 an..35 a) Optional to specify Invoice number except for CO application with
+Certificate Types =1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 24,
+25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'b) For CO application with Certificate Types =1, 2, 3, 12, 16, 17,
+19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34,
+optional to specify Invoice Number and Invoice date
+Specify invoice number.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B020 cbc:Item Invoice Date C 1 n8 Format: CCYYMMDD
+Specify item invoice date.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'a) Mandatory to specify Origin Criterion details if Certificate Type
+= 1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29,
+30, 31, 32, 33 & 34.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'b) Optional for Certificate Type = 24.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'c) Not applicable for other Certificate Types.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify Origin Criterion according to rules and conditions.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+ii) Optional for Certificate Type = 9, 16, 17, 19, 20, 21, 22, 23,
+24, 25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'A027
+cac:Item Certificate Description
+C
+10
+For CO application.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B038
+cbc:Line
+M
+5 an..35
+Specify certificate item description.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Item Certificate Description
+B020
+cbc:Manufacturing Cost Date
+C
+1 n8
+Format: CCYYMMDD
+For CO application, Specify Date of Manufacturing Cost
+Statement/Letter of Undertaking.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'Specify unit.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B064
+cbc:Item Invoice Number
+C
+1 an..35
+a) Optional to specify Invoice number except for CO application with
+Certificate Types =1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 24,
+25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B020
+cbc:Item Invoice Date
+C
+1 n8
+Format: CCYYMMDD
+Specify item invoice date.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'OFFICIAL (CLOSED)
+AM
+B035 cbc:Harmonized System Code C 1 an..10 For CO application, Specify Harmonized System code (cater for 6
+digit), if applicable.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B014 cbc:Content Percent C 1 n..3 For CO application, Specify percentage content of origin criterion
+details, if applicable.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Item Certificate
+A054 cac:Tariff C 1 Note:
+To specify "PRI" if goods exported qualify for overseas preferential
+rates under self-certification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B056 cbc:Preferential Code C 1 an..3 Specify "PRI" when self-certification is applied for export.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Tariff
+SUMMARY SECTION
+out:Summary M 1
+B068 cbc:Number Of Items M 1 n..5 Mandatory to specify total number of items declared.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B003 cbc:Total CIFFOBValue C 1 n..16 Specify Total CIF/FOB value in SGD based on the sum of CIF/FOB
+amount declared at line items.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B092 cbc:Total Outer Pack M 1 n..8 Mandatory for all declaration types to specify Total Outer Pack.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B091 cbc:Total Gross Weight M 1 n..15 Specify Total Gross Weight (unit code must be TNE or KGM)
+unit Code (attribute) M 1 an..3 Specify unit (refer to weight measurement code in STDID Code List).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '(Use inward transport mode for Declaration Type = DRT (when there is
+inter-gateway movement)).');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'End Declaration ---------------------
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| out:Summary | | | | | | | | | |
+B068 cbc:Number Of Items
+B003 cbc:Total CIFFOBValue
+B092 cbc:Total Outer Pack
+unit Code (attribute)
+B091 cbc:Total Gross Weight
+unit Code (attribute) | | | | | | | | | | |
+| End Declaration --------------------- | | | | | | | | | |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+B035
+cbc:Harmonized System Code
+C
+1 an..10
+For CO application, Specify Harmonized System code (cater for 6
+digit), if applicable.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B014
+cbc:Content Percent
+C
+1 n..3
+For CO application, Specify percentage content of origin criterion
+details, if applicable.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Item Certificate
+A054
+cac:Tariff
+C
+1
+Note:
+To specify "PRI" if goods exported qualify for overseas preferential
+rates under self-certification.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B056
+cbc:Preferential Code
+C
+1 an..3
+Specify "PRI" when self-certification is applied for export.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', '/cac:Tariff
+SUMMARY SECTION
+out:Summary
+M
+1
+B068
+cbc:Number Of Items
+M
+1 n..5
+Mandatory to specify total number of items declared.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B003
+cbc:Total CIFFOBValue
+C
+1 n..16
+Specify Total CIF/FOB value in SGD based on the sum of CIF/FOB
+amount declared at line items.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B092
+cbc:Total Outer Pack
+unit Code (attribute)
+M
+M
+1 n..8
+1 an..3
+Mandatory for all declaration types to specify Total Outer Pack.');
+INSERT INTO conditions (section_code, condition_text) VALUES ('7', 'B091
+cbc:Total Gross Weight
+unit Code (attribute)
+M
+M
+1 n..15
+1 an..3
+Specify Total Gross Weight (unit code must be TNE or KGM)
+Specify unit (refer to weight measurement code in STDID Code List).');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Vehicle Licence');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Trade Net Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'For Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Mandatory to specify inward Transport for Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'For all Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'OUCR/ Ocean Bill');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'For transport mode = 4, specify inward Master Air Waybill.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Transport Mode M 1 For all Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'For transport mode = 4, specify outward Master Air Waybill.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B016
+cbc:Vessel Nationality
+C
+1 a2
+Specify nationality of vessel for seastore permits application if
+OFFICIAL (CLOSED)
+AM
+goods are liquor/tobacco products.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', '/cac:Towing Vessel
+B055 cbc:Loading Next Port C 1 an..5 Specify Next port of call for seastore permits application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B055 cbc:Loading Final Port C 1 an..5 Specify Final port of call for seastore permits application if goods
+are liquor/tobacco products.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B055 cbc:Discharge Port C 1 an..5 Specify Port of Discharge except for seastore permits application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B016 cbc:Final Destination Country C 1 a2 Specify Country of Final Destination except for seastore permits
+application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', '/cac:Towing Vessel
+B055
+cbc:Loading Next Port
+C
+1 an..5
+Specify Next port of call for seastore permits application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B055
+cbc:Loading Final Port
+C
+1 an..5
+Specify Final port of call for seastore permits application if goods
+are liquor/tobacco products.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B055
+cbc:Discharge Port
+C
+1 an..5
+Specify Port of Discharge except for seastore permits application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B016
+cbc:Final Destination Country
+C
+1 a2
+Specify Country of Final Destination except for seastore permits
+application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', '/cac:Address
+/cac:Exporter Party
+A013 cac:Consignee Party C 1 Specify consignee name and address for CO applications, strategic
+goods and goods released from licensed premises except for seastore
+permits or goods meant for storage.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', '/cac:Address
+/cac:Exporter Party
+A013
+cac:Consignee Party
+C
+1
+Specify consignee name and address for CO applications, strategic
+goods and goods released from licensed premises except for seastore
+permits or goods meant for storage.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'OFFICIAL (CLOSED)
+AM
+/cac:Address
+/cac:End User Party
+A020 cac:Manufacturer Party C 1 For CO application, specify Manufacturer.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Mandatory for Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Optional
+for other Certificate Types).');
+INSERT INTO documents (section_code, document_name) VALUES ('7', '/cac:Address
+/cac:Manufacturer Party
+cac:Licence C 5 Specify licences, certificates or other documents.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B064 cbc:Reference ID M 1 an..35 Specify licences, certificates or other documents.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', '/cac:Address
+/cac:Manufacturer Party
+cac:Licence
+C
+5
+Specify licences, certificates or other documents.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B064
+cbc:Reference ID
+M
+1 an..35
+Specify licences, certificates or other documents.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Supporting Document');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Specify Document');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B033 cbc:Filename M 1 an..70 Specify Filename of the document.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Specify quantity and unit according to invoice
+if the measurement unit in Singapore Trade Classification = ‘-’
+unit Code (attribute) M 1 an..3 (value).');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B033
+cbc:Filename
+M
+1 an..70
+Specify Filename of the document.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Specify quantity and unit according to invoice
+if the measurement unit in Singapore Trade Classification = ‘-’
+(value).');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B057 cbc:CASCProduct Code C 1 an..17 Specify CA/SC product code such as:
+(1) Motor Vehicle product code (for dutiable motor vehicles to be
+released from licensed warehouse)
+(2) Product Code for strategic goods permit applications
+B058 cbc:CASCProduct Quantity C 1 n..16 Specify quantity and measurement unit of CA/SC product code.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'for motor vehicles when MV product code is filled
+ii) “end use code 1” for strategic goods permit applications
+B057 cbc:CASCCode Two C 1 an..35 Examples:
+i) Chassis No.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'for motor vehicles when MV product code is filled
+ii) “end use code 2” for strategic goods permit applications
+B057 cbc:CASCCode Three C 1 an..35 Examples:
+i) Vehicle Type when MV product code is filled
+ii) “end use code 3” for strategic goods permit applications
+/cac:Additional CASCIdentification
+A017 cac:End Use Description C 1 Specify end-use description for strategic goods permit applications.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B057
+cbc:CASCProduct Code
+C
+1 an..17
+Specify CA/SC product code such as:
+(1) Motor Vehicle product code (for dutiable motor vehicles to be
+released from licensed warehouse)
+(2) Product Code for strategic goods permit applications
+B058
+cbc:CASCProduct Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an..3
+Specify quantity and measurement unit of CA/SC product code.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'for motor vehicles when MV product code is filled
+ii) “end use code 1” for strategic goods permit applications
+B057
+cbc:CASCCode Two
+C
+1 an..35
+Examples:
+i)
+Chassis No.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'for motor vehicles when MV product code is filled
+ii) “end use code 2” for strategic goods permit applications
+B057
+cbc:CASCCode Three
+C
+1 an..35
+Examples:
+i)
+Vehicle Type when MV product code is filled
+ii) “end use code 3” for strategic goods permit applications
+/cac:Additional CASCIdentification
+A017
+cac:End Use Description
+C
+1
+Specify end-use description for strategic goods permit applications.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'a) Repeat at most 4 times and specify:
+(1) 1st occurrence: 10 lines x 17 = 170 chars
+(2) 2nd occurrence: 10 lines x 17 = 170 chars
+(3) 3rd occurrence: 8 lines x 17 = 136 chars
+(4) 4th occurrence: 3 lines x 12 = 36 chars
+b) For CO application, repeat once and specify 10 lines of 17
+characters.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', '/cac:Shipping Marks Information
+A033 cac:Lot Identification C 1 For goods received into or released from Licensed Premises such as
+Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded
+Warehouse, specify current, previous lot number and marking, if
+applicable.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Item Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Optional to specify Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B003 cbc:Item Value C 1 n..16 For CO application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', '/cac:Shipping Marks Information
+A033
+cac:Lot Identification
+C
+1
+For goods received into or released from Licensed Premises such as
+Licensed Warehouse, Excise Factory, Zero-GST Warehouse, Bonded
+Warehouse, specify current, previous lot number and marking, if
+applicable.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B003
+cbc:Item Value
+C
+1 n..16
+For CO application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Optional for Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Not applicable for
+other Certificate Types.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Repeat at most ten times, Provide description of the item, including
+number and type of packages to be printed on the Certificate.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B038 cbc:Line M 5 an..35 Specify certificate item description.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B010 cbc:Textile Category Code C 1 an..5 For CO application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Applicable only for Application');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Mandatory to Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Optional for other Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B058 cbc:Textile Quota Quantity C 1 n..16 For CO application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Item Invoice');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Optional to specify Invoice');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'For CO application with Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Invoice Number and Invoice');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B050 cbc:Origin Criterion C 3 an..25 For CO application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Mandatory to specify Origin Criterion details if Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Not applicable for other Certificate');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B038
+cbc:Line
+M
+5 an..35
+Specify certificate item description.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B010
+cbc:Textile Category Code
+C
+1 an..5
+For CO application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B058
+cbc:Textile Quota Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an3
+For CO application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B050
+cbc:Origin Criterion
+C
+3 an..25
+For CO application.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'OFFICIAL (CLOSED)
+AM
+B035 cbc:Harmonized System Code C 1 an..10 For CO application, Specify Harmonized System code (cater for 6
+digit), if applicable.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B014 cbc:Content Percent C 1 n..3 For CO application, Specify percentage content of origin criterion
+details, if applicable.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B092 cbc:Total Outer Pack M 1 n..8 Mandatory for all declaration types to specify Total Outer Pack.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'Use inward transport mode for Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'End Declaration');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B014
+cbc:Content Percent
+C
+1 n..3
+For CO application, Specify percentage content of origin criterion
+details, if applicable.');
+INSERT INTO documents (section_code, document_name) VALUES ('7', 'B092
+cbc:Total Outer Pack
+unit Code (attribute)
+M
+M
+1 n..8
+1 an..3
+Mandatory for all declaration types to specify Total Outer Pack.');
+INSERT INTO authorities (section_code, authority_name) VALUES ('7', 'Customs');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', '/cac:Inward Transport
+A036 cac:Outward Transport C 1 Mandatory to specify Outward transport except for goods meant for
+storage.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', '/cac:Inward Transport
+A036
+cac:Outward Transport
+C
+1
+Mandatory to specify Outward transport except for goods meant for
+storage.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B055 cbc:Discharge Port C 1 an..5 Specify Port of Discharge except for seastore permits application.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B016 cbc:Final Destination Country C 1 a2 Specify Country of Final Destination except for seastore permits
+application.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B055
+cbc:Discharge Port
+C
+1 an..5
+Specify Port of Discharge except for seastore permits application.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B016
+cbc:Final Destination Country
+C
+1 a2
+Specify Country of Final Destination except for seastore permits
+application.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', '/cac:Party Name
+/cac:Party Detail
+OFFICIAL (CLOSED)
+AM
+A067 cac:Address C 1 Specify party address based on the following format except for
+address of Exporter that is required to be printed in CO.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', '/cac:Address
+/cac:Exporter Party
+A013 cac:Consignee Party C 1 Specify consignee name and address for CO applications, strategic
+goods and goods released from licensed premises except for seastore
+permits or goods meant for storage.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', '/cac:Party Name
+A067 cac:Address M 1 Specify Consignee address based on the following format except for
+address that is required to be printed in CO.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+A067
+cac:Address
+C
+1
+Specify party address based on the following format except for
+address of Exporter that is required to be printed in CO.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', '/cac:Address
+/cac:Exporter Party
+A013
+cac:Consignee Party
+C
+1
+Specify consignee name and address for CO applications, strategic
+goods and goods released from licensed premises except for seastore
+permits or goods meant for storage.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', '/cac:Party Name
+A067
+cac:Address
+M
+1
+Specify Consignee address based on the following format except for
+address that is required to be printed in CO.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'Specify quantity and unit according to invoice
+if the measurement unit in Singapore Trade Classification = ‘-’
+unit Code (attribute) M 1 an..3 (value).');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'unit Code (attribute) M 1 an..3 Specify unit (refer to STDID code list).');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B058
+cbc:Harmonized System Quantity
+unit Code (attribute)
+M
+M
+1 n..16
+1 an..3
+For all Declaration Types, specify HS code quantity and the measure
+unit specifier must match the measurement unit in the Singapore
+Trade Classification.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B058
+cbc:Total Dutiable Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an..3
+For dutiable cargo or goods to be bonded into or released from the
+Bonded Warehouse: Total dutiable quantity/weight/volume
+i) for products based on specific rates, mandatory to specify either
+dutiable weight or volume according to duty rate unit specifier
+ii) for others, mandatory to specify dutiable quantity according to
+unit price measurement.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'A057 cac:Transaction Value C 1 Specify transaction value except for trade facilitation granted by
+Customs.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'unit Code (attribute) M 1 an..3 Specify unit (refer to UN/ECE Recommendation No.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+unit Code (attribute)
+M
+1 an..3
+i) Dutiable quantity/weight/volume.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'A057
+cac:Transaction Value
+C
+1
+Specify transaction value except for trade facilitation granted by
+Customs.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B057
+cbc:CASCProduct Code
+C
+1 an..17
+Specify CA/SC product code such as:
+(1) Motor Vehicle product code (for dutiable motor vehicles to be
+released from licensed warehouse)
+(2) Product Code for strategic goods permit applications
+B058
+cbc:CASCProduct Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an..3
+Specify quantity and measurement unit of CA/SC product code.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'unit Code (attribute) M 1 an..3 For Packing unit type (refer to STDID Code Lists).');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'unit Code (attribute) M 1 an3 Specify unit (refer to UN/ECE Recommendation No.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'TDS41-MDS-XML-OUTDEC-M
+Trade Net Declaration.OUTDEC Ver2.1.doc
+OFFICIAL (CLOSED)
+2nd time: in-pack quantity
+3rd time: inner-pack quantity
+4th time: inmost-pack quantity
+B051
+cbc:Outer Pack Quantity
+unit Code (attribute)
+C
+M
+1 n..8
+1 an..3
+Specify outer-pack quantity.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B051
+cbc:In Pack Quantity
+unit Code (attribute)
+C
+M
+1 n..8
+1 an..3
+Specify in-pack quantity.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B051
+cbc:Inner Pack Quantity
+unit Code (attribute)
+C
+M
+1 n..8
+1 an..3
+Specify inner-pack quantity.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B051
+cbc:Inmost Pack Quantity
+unit Code (attribute)
+C
+M
+1 n..8
+1 an..3
+Specify inmost-pack quantity.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'A028
+cac:Item Certificate
+C
+1
+B058
+cbc:Item Certificate Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an3
+For CO application, Optional to specify Certificate item quantity
+and measurement unit to be printed on the Certificate.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'unit Code (attribute) M 1 an3 Specify unit.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B064 cbc:Item Invoice Number C 1 an..35 a) Optional to specify Invoice number except for CO application with
+Certificate Types =1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 24,
+25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B058
+cbc:Textile Quota Quantity
+unit Code (attribute)
+C
+M
+1 n..16
+1 an3
+For CO application.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B064
+cbc:Item Invoice Number
+C
+1 an..35
+a) Optional to specify Invoice number except for CO application with
+Certificate Types =1, 2, 3, 12, 16, 17, 19, 20, 21, 22, 23, 24,
+25, 26, 27, 28, 29, 30, 31, 32, 33 & 34.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B091 cbc:Total Gross Weight M 1 n..15 Specify Total Gross Weight (unit code must be TNE or KGM)
+unit Code (attribute) M 1 an..3 Specify unit (refer to weight measurement code in STDID Code List).');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'End Declaration ---------------------
+Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+| out:Summary | | | | | | | | | |
+B068 cbc:Number Of Items
+B003 cbc:Total CIFFOBValue
+B092 cbc:Total Outer Pack
+unit Code (attribute)
+B091 cbc:Total Gross Weight
+unit Code (attribute) | | | | | | | | | | |
+| End Declaration --------------------- | | | | | | | | | |
+OFFICIAL (CLOSED)
+TRADENET MESSAGE
+18/11/2021 11:12
+AM
+Prepared by:
+For:
+Release Date
+18/11/2021
+Ver
+4.1
+Reference
+TRADENET
+Document Id.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B092
+cbc:Total Outer Pack
+unit Code (attribute)
+M
+M
+1 n..8
+1 an..3
+Mandatory for all declaration types to specify Total Outer Pack.');
+INSERT INTO exceptions (section_code, exception_text) VALUES ('7', 'B091
+cbc:Total Gross Weight
+unit Code (attribute)
+M
+M
+1 n..15
+1 an..3
+Specify Total Gross Weight (unit code must be TNE or KGM)
+Specify unit (refer to weight measurement code in STDID Code List).');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 1, 'Evaluate condition: 7: Pipeline
+B082 cbc:Mode Code M 1 n1 Specify Inward Transport Mode.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 2, 'Evaluate condition: B076 cbc:Conveyance Reference Number C 1 an..17 For transport mode = 1, specify inward voyage number.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 3, 'Evaluate condition: Specify ‘NA’
+if there is no inward voyage number.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 4, 'B078 cbc:Net Register Tonnage C 1 n..15 Specify the Net Register Ton of outward vessel (TNE).');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 5, 'B078
+cbc:Net Register Tonnage
+C
+1 n..15
+Specify the Net Register Ton of outward vessel (TNE).');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 6, '/cac:Party Name
+/cac:Freight Forwarder Party
+A040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 7, '/cac:Party Name
+/cac:Importer Party
+A040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 8, '/cac:Party Name
+/cac:Freight Forwarder Party
+A040
+cac:Inward Carrier Agent Party
+C
+1
+a) Specify Inward Carrier Agent, must be registered with Customs.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 9, '/cac:Party Name
+/cac:Importer Party
+A040
+cac:Outward Carrier Agent Party
+C
+1
+a) Specify Outward Carrier Agent, must be registered with Customs.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 10, 'Run validation: /cac:Party Name
+/cac:Freight Forwarder Party
+A040 cac:Inward Carrier Agent Party C 1 a) Specify Inward Carrier Agent, must be registered with Customs.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 11, 'Run validation: /cac:Party Name
+/cac:Importer Party
+A040 cac:Outward Carrier Agent Party C 1 a) Specify Outward Carrier Agent, must be registered with Customs.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 12, 'Run validation: /cac:Party Name
+/cac:Freight Forwarder Party
+A040
+cac:Inward Carrier Agent Party
+C
+1
+a) Specify Inward Carrier Agent, must be registered with Customs.');
+INSERT INTO workflows (section_code, step_index, step_text) VALUES ('7', 13, 'Handle exception: /cac:Inward Transport
+A036 cac:Outward Transport C 1 Mandatory to specify Outward transport except for goods meant for
+storage.');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'cbc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'For');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'any');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'cac');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Net');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'doc');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'XML');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Ver');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'out');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'DRT');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'not');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'are');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'FTZ');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'all');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Air');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'the');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'Ton');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'TNE');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'End');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'keywords', 'and');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', '7');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'Pipeline');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'business-rule');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'document-driven');
+INSERT INTO entities (section_code, entity_type, entity_value) VALUES ('7', 'tags', 'dgft');
+INSERT INTO glossary (term, definition) VALUES ('A001', 'Referenced in context: A001 cac:Additional CASCIdentification C 50 Repeat at most 50 times.');
+INSERT INTO glossary (term, definition) VALUES ('A002', 'Referenced in context: /cac:Transport Means
+A002 cac:Additional Vessel Information C 1 For outward transport = 1, specify additional information for
+outward vessel');
+INSERT INTO glossary (term, definition) VALUES ('A003', 'Referenced in context: A003 cac:Address Line C 1
+B038 cbc:Line M 2 an..35 Specify Exporter Street and Number/PO Box (line 1 & 2 for CO).');
+INSERT INTO glossary (term, definition) VALUES ('A008', 'Referenced in context: /cac:Transaction Value
+A008 cac:CASCProduct C 5 Repeat at most 5 times, specify CA/SC product details.');
+INSERT INTO glossary (term, definition) VALUES ('A009', 'Referenced in context: A009 cac:Certificate Detail M 2 Repeat at most 2 times.');
+INSERT INTO glossary (term, definition) VALUES ('A013', 'Referenced in context: /cac:Address
+/cac:Exporter Party
+A013 cac:Consignee Party C 1 Specify consignee name and address for CO applications, strategic
+goods and go');
+INSERT INTO glossary (term, definition) VALUES ('A014', 'Referenced in context: - (Consignee; optional)
+- (Freight Forwarder; optional)
+- (Manufacturer; optional)
+- (End User; optional)
+b) For others, specify Party Type:');
+INSERT INTO glossary (term, definition) VALUES ('A017', 'Referenced in context: for motor vehicles when MV product code is filled
+ii) “end use code 2” for strategic goods permit applications
+B057 cbc:CASCCode Three C 1 a');
+INSERT INTO glossary (term, definition) VALUES ('A020', 'Referenced in context: /cac:Party Name
+/cac:Outward Carrier Agent Party
+A020 cac:Exporter Party M 1 Mandatory to specify Exporter details.');
+INSERT INTO glossary (term, definition) VALUES ('A026', 'Referenced in context: A026 cac:Inward Transport C 1 Specify Inward transport.');
+INSERT INTO glossary (term, definition) VALUES ('A027', 'Referenced in context: A027 cac:Item Certificate Description C 10 For CO application.');
+INSERT INTO glossary (term, definition) VALUES ('A028', 'Referenced in context: A028 cac:Item Certificate C 1
+B058 cbc:Item Certificate Quantity C 1 n..16 For CO application, Optional to specify Certificate item quantity');
+INSERT INTO glossary (term, definition) VALUES ('A030', 'Referenced in context: A030 cac:Item Quantity M 1 Specify the following for both dutiable and non-dutiable cargo.');
+INSERT INTO glossary (term, definition) VALUES ('A032', 'Referenced in context: A032 cac:Release Location M 1 Specify Place of Release.');
+INSERT INTO glossary (term, definition) VALUES ('A033', 'Referenced in context: /cac:Shipping Marks Information
+A033 cac:Lot Identification C 1 For goods received into or released from Licensed Premises such as
+Licensed');
+INSERT INTO glossary (term, definition) VALUES ('A034', 'Referenced in context: A034 cac:Towing Vessel C 1 Specify towing vessel identification if applicable.');
+INSERT INTO glossary (term, definition) VALUES ('A036', 'Referenced in context: /cac:Inward Transport
+A036 cac:Outward Transport C 1 Mandatory to specify Outward transport except for goods meant for
+storage.');
+INSERT INTO glossary (term, definition) VALUES ('A037', 'Referenced in context: A037 cac:Packing Description C 1 Mandatory to specify packing description for liquor/tobacco
+products; optional for others.');
+INSERT INTO glossary (term, definition) VALUES ('A038', 'Referenced in context: A038 cac:Party Identification M 1 Specify Declaring Agent Party Identification.');
+INSERT INTO glossary (term, definition) VALUES ('A039', 'Referenced in context: /cac:Party Identification
+A039 cac:Party Name M 1 Specify Declaring Agent Party Name.');
+INSERT INTO glossary (term, definition) VALUES ('A040', 'Referenced in context: /cac:Declarant Party
+A040 cac:Declaring Agent Party C 1 Specify Declaring Agent.');
+INSERT INTO glossary (term, definition) VALUES ('A043', 'Referenced in context: A043 cac:Person Information M 1 Specify Declarant Person Information.');
+INSERT INTO glossary (term, definition) VALUES ('A052', 'Referenced in context: /cac:Receipt Location
+A052 cac:Storage Location C 1 Specify place of storage for goods meant to be stored in FTZ where
+there may be no out t');
+INSERT INTO glossary (term, definition) VALUES ('A054', 'Referenced in context: /cac:Item Certificate
+A054 cac:Tariff C 1 Note:
+To specify "PRI" if goods exported qualify for overseas preferential
+rates under self-certif');
+INSERT INTO glossary (term, definition) VALUES ('A057', 'Referenced in context: A057 cac:Transaction Value C 1 Specify transaction value except for trade facilitation granted by
+Customs.');
+INSERT INTO glossary (term, definition) VALUES ('A058', 'Referenced in context: A058 cac:Transport Equipment Seal M 1 This group is used in association with the container number as
+identified in the previous group ie.');
+INSERT INTO glossary (term, definition) VALUES ('A059', 'Referenced in context: /cac:Storage Location
+A059 cac:Transport Equipment C 99 For all declaration types, repeat at most 99 times for containers at
+point of cleara');
+INSERT INTO glossary (term, definition) VALUES ('A060', 'Referenced in context: A060 cac:Transport Means M 1 Specify inward transport mode.');
+INSERT INTO glossary (term, definition) VALUES ('A061', 'Referenced in context: A061 cac:Transport Mode M 1 For all Declaration Types, valid codes (refer to UN/ECE
+Recommendation No.');
+INSERT INTO glossary (term, definition) VALUES ('A062', 'Referenced in context: A062 cac:Unique Reference Number M 1 Format:
+Declarant entity identifier = XXXXXXXXXXXXXXXXX
+Date of Creation = CCYYMMDD
+Sequence Numeric =');
+INSERT INTO glossary (term, definition) VALUES ('A066', 'Referenced in context: A066 cac:Remarks C 5 Provide general information.');
+INSERT INTO glossary (term, definition) VALUES ('A067', 'Referenced in context: /cac:Party Name
+/cac:Party Detail
+OFFICIAL (CLOSED)
+AM
+A067 cac:Address C 1 Specify party address based on the following format except for
+a');
+INSERT INTO glossary (term, definition) VALUES ('A068', 'Referenced in context: A068 cac:Customs Procedure Code Information C 5 Repeat at most 5 times.');
+INSERT INTO glossary (term, definition) VALUES ('A069', 'Referenced in context: A069 cac:CPCProcessing Code C 5 Repeat at most 5 times each for Processing code 1, 2 and 3.');
+INSERT INTO glossary (term, definition) VALUES ('AANZ', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('AANZFTA', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('ACFTA', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('AHK', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('AHKFTA', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('AI', 'Referenced in section title ''MESSAGE DETAILS''.');
+INSERT INTO glossary (term, definition) VALUES ('AIFTA', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('AJ', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('AJCEP', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('AK', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('AKFTA', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('AM', 'Referenced in context: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (C');
+INSERT INTO glossary (term, definition) VALUES ('AND', 'Referenced in section title ''DEFINITIONS AND ABBREVIATIONS''.');
+INSERT INTO glossary (term, definition) VALUES ('APS', 'Referenced in context: Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit De');
+INSERT INTO glossary (term, definition) VALUES ('ASEAN', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('ATIGA', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('B003', 'Referenced in context: B003 cbc:Item CIFFOBValue M 1 n..16 Mandatory to specify item CIF/FOB value in SGD.');
+INSERT INTO glossary (term, definition) VALUES ('B005', 'Referenced in context: B005 cbc:Application Product Type M 1 an2 Specify Application Product Type.');
+INSERT INTO glossary (term, definition) VALUES ('B007', 'Referenced in context: B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any).');
+INSERT INTO glossary (term, definition) VALUES ('B009', 'Referenced in context: out:Cargo M 1
+B009 cbc:Cargo Packing Type M 1 an..3 Specify Cargo Packing Type (refer to STDID Code List).');
+INSERT INTO glossary (term, definition) VALUES ('B010', 'Referenced in context: B010 cbc:Textile Category Code C 1 an..5 For CO application.');
+INSERT INTO glossary (term, definition) VALUES ('B011', 'Referenced in context: OFFICIAL (CLOSED)
+AM
+B011 cbc:Certificate Type M 1 an..2 Specify Certificate Type eg.');
+INSERT INTO glossary (term, definition) VALUES ('B012', 'Referenced in context: B012 cbc:Code Value M 1 an..17 Specify Declarant Code.');
+INSERT INTO glossary (term, definition) VALUES ('B014', 'Referenced in context: /cac:Certificate Detail
+B014 cbc:Preference Content Percent C 1 n..3 i) If Certificate Type = 5, mandatory to specify the percentage of
+Comm');
+INSERT INTO glossary (term, definition) VALUES ('B015', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('B016', 'Referenced in context: B016 cbc:GSPDonor Country C 1 an2 Mandatory for Certificate Type 2 to specify GSP Donor Country
+(Donation Acting Country).');
+INSERT INTO glossary (term, definition) VALUES ('B018', 'Referenced in context: B018 cbc:Currency Code C 1 a3 All values in the Certificate at item level will be assumed to be
+SGD unless specified here.');
+INSERT INTO glossary (term, definition) VALUES ('B020', 'Referenced in context: B020 cbc:Date M 1 n8 Specify date of Creation.');
+INSERT INTO glossary (term, definition) VALUES ('B021', 'Referenced in context: B083 cbc:Common Access Reference M 1 an..7 OUTDEC
+B021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg.');
+INSERT INTO glossary (term, definition) VALUES ('B022', 'Referenced in context: B022 cbc:Model Description C 1 an..35 Specify model description (if any).');
+INSERT INTO glossary (term, definition) VALUES ('B023', 'Referenced in context: Only the following file formats are allowed:
+1) MS Word
+2) Adobe PDF
+3) MS Excel
+4) Image Files
+a) Bitmap
+b) JPEG
+c) GIF Image
+d) EMF Image');
+INSERT INTO glossary (term, definition) VALUES ('B027', 'Referenced in context: B027 cbc:Equipment ID M 1 an..13 Specify container number.');
+INSERT INTO glossary (term, definition) VALUES ('B028', 'Referenced in context: B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:');
+INSERT INTO glossary (term, definition) VALUES ('B033', 'Referenced in context: B033 cbc:Filename M 1 an..70 Specify Filename of the document.');
+INSERT INTO glossary (term, definition) VALUES ('B034', 'Referenced in context: B034 cbc:Free Text M 5 an..512 Specify general/trader’s remarks.');
+INSERT INTO glossary (term, definition) VALUES ('B035', 'Referenced in context: B035 cbc:Item Harmonized System Code M 1 an..10 Mandatory to specify item Harmonized System code.');
+INSERT INTO glossary (term, definition) VALUES ('B036', 'Referenced in context: A062 cac:Unique Reference Number M 1 Format:
+Declarant entity identifier = XXXXXXXXXXXXXXXXX
+Date of Creation = CCYYMMDD
+Sequence Numeric =');
+INSERT INTO glossary (term, definition) VALUES ('B037', 'Referenced in context: DRT=Direct (Including storage in FTZ)
+BKT=Blanket
+APS=Approved Premises/Schemes
+For Temporary Consignment:
+a) TCS=Temporary Import for exhib');
+INSERT INTO glossary (term, definition) VALUES ('B038', 'Referenced in context: B038 cbc:Additional Certificate Details C 5 an..35 Specify certificate additional details.');
+INSERT INTO glossary (term, definition) VALUES ('B039', 'Referenced in context: B039 cbc:Location Code M 1 an..7 Specify location code (refer to STDID Code Lists).');
+INSERT INTO glossary (term, definition) VALUES ('B040', 'Referenced in context: B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY
+(shipyard) or SC (sailing club) or O (othe');
+INSERT INTO glossary (term, definition) VALUES ('B041', 'Referenced in context: B041 cbc:Current Lot Number C 1 an..30 Specify current lot number.');
+INSERT INTO glossary (term, definition) VALUES ('B043', 'Referenced in context: B043 cbc:Marking C 1 an..2 Specify marking for the goods, if applicable, such as “HW” Health
+Warning for tobacco products.');
+INSERT INTO glossary (term, definition) VALUES ('B045', 'Referenced in context: MESSAGE DETAILS
+User defined
+Ref Tag name S R Repr Remarks
+HEADER SECTION
+out:Header M 1
+B045 cbc:Message Reference M 1 an..14 Sender unique');
+INSERT INTO glossary (term, definition) VALUES ('B049', 'Referenced in context: B049 cbc:Transport Identifier C 1 an..35 For transport mode = 1, specify inward vessel name.');
+INSERT INTO glossary (term, definition) VALUES ('B050', 'Referenced in context: B050 cbc:Origin Criterion C 3 an..25 For CO application.');
+INSERT INTO glossary (term, definition) VALUES ('B051', 'Referenced in context: Repeat at most 4 times and specify:
+1st time: outer-pack quantity
+OFFICIAL (CLOSED)
+AM
+2nd time: in-pack quantity
+3rd time: inner-pack quant');
+INSERT INTO glossary (term, definition) VALUES ('B052', 'Referenced in context: B052 cbc:Alcohol Percent C 1 n..7 Specify percentage of alcohol by volume for liquor attracting duty
+based on alcoholic strength.');
+INSERT INTO glossary (term, definition) VALUES ('B055', 'Referenced in context: B055 cbc:Loading Port M 1 an..5 For inward transport, specify Place/Port of Loading.');
+INSERT INTO glossary (term, definition) VALUES ('B056', 'Referenced in context: B056 cbc:Preferential Code C 1 an..3 Specify "PRI" when self-certification is applied for export.');
+INSERT INTO glossary (term, definition) VALUES ('B057', 'Referenced in context: B057 cbc:Processing Code One M 1 an..35 Specify processing code 1 such as:
+(1) No.');
+INSERT INTO glossary (term, definition) VALUES ('B058', 'Referenced in context: B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure
+unit specifier must match');
+INSERT INTO glossary (term, definition) VALUES ('B064', 'Referenced in context: B064 cbc:Previous Permit Number C 1 an..35 Specify previous Permit Number if applicable.');
+INSERT INTO glossary (term, definition) VALUES ('B065', 'Referenced in context: /cac:Unique Reference Number
+B065 cbc:Declarant ID M 1 an..17 Mandatory to specify Message Sender Id (must be same as the Sender
+Id as speci');
+INSERT INTO glossary (term, definition) VALUES ('B067', 'Referenced in context: B067 cbc:Seal ID M 1 an..35 Specify the shipper seal number affixed to the container.');
+INSERT INTO glossary (term, definition) VALUES ('B068', 'Referenced in context: B068 cbc:Sequence Numeric M 1 n..');
+INSERT INTO glossary (term, definition) VALUES ('B069', 'Referenced in context: B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:');
+INSERT INTO glossary (term, definition) VALUES ('B070', 'Referenced in context: /cac:Packing Description
+B070 cac:Shipping Marks Information C 4 Specify markings on cargo for marks and numbers, if any.');
+INSERT INTO glossary (term, definition) VALUES ('B071', 'Referenced in context: /cac:Person Information
+B071 cbc:Telephone M 1 an..25 Mandatory to specify Declarant contact number.');
+INSERT INTO glossary (term, definition) VALUES ('B076', 'Referenced in context: B076 cbc:Conveyance Reference Number C 1 an..17 For transport mode = 1, specify inward voyage number.');
+INSERT INTO glossary (term, definition) VALUES ('B077', 'Referenced in context: B077 cbc:Vessel Type C 1 an2 Specify vessel type.');
+INSERT INTO glossary (term, definition) VALUES ('B078', 'Referenced in context: B078 cbc:Net Register Tonnage C 1 n..15 Specify the Net Register Ton of outward vessel (TNE).');
+INSERT INTO glossary (term, definition) VALUES ('B079', 'Referenced in context: The valid application product
+types are:
+NA=Application for non-textile products at Airport
+NH=Application for non-textile products at Headq');
+INSERT INTO glossary (term, definition) VALUES ('B082', 'Referenced in context: 7: Pipeline
+B082 cbc:Mode Code M 1 n1 Specify Inward Transport Mode.');
+INSERT INTO glossary (term, definition) VALUES ('B083', 'Referenced in context: B083 cbc:Common Access Reference M 1 an..7 OUTDEC
+B021 cbc:Declaration Type M 1 an..7 Specify Declaration Type eg.');
+INSERT INTO glossary (term, definition) VALUES ('B084', 'Referenced in context: /cac:Address Line
+B084 cbc:City Name C 1 an..35 Specify Exporter city name (line 3 for CO).');
+INSERT INTO glossary (term, definition) VALUES ('B085', 'Referenced in context: B085 cbc:Country Subentity Code C 1 an..9 Specify Exporter country subdivision code.');
+INSERT INTO glossary (term, definition) VALUES ('B086', 'Referenced in context: B086 cbc:Country Subentity C 1 an..35 Specify Exporter country subdivision name.');
+INSERT INTO glossary (term, definition) VALUES ('B087', 'Referenced in context: B087 cbc:Postal Zone C 1 an..9 Specify Exporter postal code.');
+INSERT INTO glossary (term, definition) VALUES ('B089', 'Referenced in context: B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC) such as:
+(1) Required Code for seastore permits application.');
+INSERT INTO glossary (term, definition) VALUES ('B091', 'Referenced in context: B091 cbc:Total Gross Weight M 1 n..15 Specify Total Gross Weight (unit code must be TNE or KGM)
+unit Code (attribute) M 1 an..3 Specify unit');
+INSERT INTO glossary (term, definition) VALUES ('B092', 'Referenced in context: B092 cbc:Total Outer Pack M 1 n..8 Mandatory for all declaration types to specify Total Outer Pack.');
+INSERT INTO glossary (term, definition) VALUES ('B093', 'Referenced in context: B093 cbc:Name M 1 an..100 Specify Declarant name.');
+INSERT INTO glossary (term, definition) VALUES ('B094', 'Referenced in context: B094 cbc:End Use Line M 1 an..256 Specify end-use description.');
+INSERT INTO glossary (term, definition) VALUES ('BG', 'Referenced in context: B007 cbc:Banker Guarantee Code C 1 an..3 Specify BG indicator (if any).');
+INSERT INTO glossary (term, definition) VALUES ('BKT', 'Referenced in context: BKT Blanket - To allow the Declarant to submit Declarations such as:
+a) DFS
+b) gold (hand carried)
+c) petroleum products or chemicals:
+i) du');
+INSERT INTO glossary (term, definition) VALUES ('BW', 'Referenced in context: Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit De');
+INSERT INTO glossary (term, definition) VALUES ('BWP', 'Referenced in context: of “BW” are ZGS (Zero GST Warehouse) and BWP (Bonded Warehouse
+for Petroleum).');
+INSERT INTO glossary (term, definition) VALUES ('CA', 'Referenced in context: 5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and');
+INSERT INTO glossary (term, definition) VALUES ('CCYY', 'Referenced in context: The valid application product
+types are:
+NA=Application for non-textile products at Airport
+NH=Application for non-textile products at Headq');
+INSERT INTO glossary (term, definition) VALUES ('CCYYMMDD', 'Referenced in context: A062 cac:Unique Reference Number M 1 Format:
+Declarant entity identifier = XXXXXXXXXXXXXXXXX
+Date of Creation = CCYYMMDD
+Sequence Numeric =');
+INSERT INTO glossary (term, definition) VALUES ('CECA', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('CEFACT', 'Referenced in context: The segments, composite data elements, data elements and codes used in this document are based on the respective
+directories in the UN/CEFAC');
+INSERT INTO glossary (term, definition) VALUES ('CEP', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('CIF', 'Referenced in context: B003 cbc:Item CIFFOBValue M 1 n..16 Mandatory to specify item CIF/FOB value in SGD.');
+INSERT INTO glossary (term, definition) VALUES ('CLOSED', 'Referenced in context: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (C');
+INSERT INTO glossary (term, definition) VALUES ('CO', 'Referenced in context: BKT Blanket - To allow the Declarant to submit Declarations such as:
+a) DFS
+b) gold (hand carried)
+c) petroleum products or chemicals:
+i) du');
+INSERT INTO glossary (term, definition) VALUES ('COD', 'Referenced in context: 21, Codes CEFACT/ICG/2010/IC01 12 Jul 10
+for Types of Cargo, Packages and Packaging Material 0/Rev.1
+12 STDID Code Lists STDID-TDS41-COD
+Tra');
+INSERT INTO glossary (term, definition) VALUES ('CPC', 'Referenced in context: B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC) such as:
+(1) Required Code for seastore permits application.');
+INSERT INTO glossary (term, definition) VALUES ('DEFINITION', 'Referenced in section title ''MESSAGE DEFINITION''.');
+INSERT INTO glossary (term, definition) VALUES ('DETAILS', 'Referenced in section title ''MESSAGE DETAILS''.');
+INSERT INTO glossary (term, definition) VALUES ('DFS', 'Referenced in context: BKT Blanket - To allow the Declarant to submit Declarations such as:
+a) DFS
+b) gold (hand carried)
+c) petroleum products or chemicals:
+i) du');
+INSERT INTO glossary (term, definition) VALUES ('DG', 'Referenced in context: B037 cbc:Dangerous Goods Indicator C boolean Specify DG indicator for dangerous goods.');
+INSERT INTO glossary (term, definition) VALUES ('DRT', 'Referenced in context: Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit De');
+INSERT INTO glossary (term, definition) VALUES ('ECE', 'Referenced in context: REFERENCES
+S/ Document Name Document/Directory Rev Date
+N Reference
+1 Trade Net Declaration message specification TDS41-MDS-XML-
+DECLARATION');
+INSERT INTO glossary (term, definition) VALUES ('EMF', 'Referenced in context: Only the following file formats are allowed:
+1) MS Word
+2) Adobe PDF
+3) MS Excel
+4) Image Files
+a) Bitmap
+b) JPEG
+c) GIF Image
+d) EMF Image');
+INSERT INTO glossary (term, definition) VALUES ('EU', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('FCL', 'Referenced in context: B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:');
+INSERT INTO glossary (term, definition) VALUES ('FCL20', 'Referenced in context: B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:');
+INSERT INTO glossary (term, definition) VALUES ('FCL40', 'Referenced in context: B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:');
+INSERT INTO glossary (term, definition) VALUES ('FCL45', 'Referenced in context: B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:');
+INSERT INTO glossary (term, definition) VALUES ('FIELD', 'Referenced in section title ''FIELD OF APPLICATION''.');
+INSERT INTO glossary (term, definition) VALUES ('FOB', 'Referenced in context: B003 cbc:Item CIFFOBValue M 1 n..16 Mandatory to specify item CIF/FOB value in SGD.');
+INSERT INTO glossary (term, definition) VALUES ('FORMAT', 'Referenced in context: The valid application product
+types are:
+NA=Application for non-textile products at Airport
+NH=Application for non-textile products at Headq');
+INSERT INTO glossary (term, definition) VALUES ('FTA', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('FTZ', 'Referenced in context: 5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and');
+INSERT INTO glossary (term, definition) VALUES ('FUNCTION', 'Referenced in section title ''MESSAGE FUNCTION''.');
+INSERT INTO glossary (term, definition) VALUES ('GIF', 'Referenced in context: Only the following file formats are allowed:
+1) MS Word
+2) Adobe PDF
+3) MS Excel
+4) Image Files
+a) Bitmap
+b) JPEG
+c) GIF Image
+d) EMF Image');
+INSERT INTO glossary (term, definition) VALUES ('GSP', 'Referenced in context: B016 cbc:GSPDonor Country C 1 an2 Mandatory for Certificate Type 2 to specify GSP Donor Country
+(Donation Acting Country).');
+INSERT INTO glossary (term, definition) VALUES ('GST', 'Referenced in context: 5.1 Abbreviations
+CA Controlling Agency
+Crimson Logic Crimson Logic Pte Ltd
+XML Extensible Markup Language
+FTZ Free Trade Zone
+GST Goods and');
+INSERT INTO glossary (term, definition) VALUES ('GSTP', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('HAWB', 'Referenced in context: /cac:Lot Identification
+B064 cbc:In HAWBHUCRHBLNumber C 1 an..35 Specify Inward HAWB/HUCR/HBL number for transport mode 1 or 4.');
+INSERT INTO glossary (term, definition) VALUES ('HBL', 'Referenced in context: /cac:Lot Identification
+B064 cbc:In HAWBHUCRHBLNumber C 1 an..35 Specify Inward HAWB/HUCR/HBL number for transport mode 1 or 4.');
+INSERT INTO glossary (term, definition) VALUES ('HEADER', 'Referenced in context: MESSAGE DETAILS
+User defined
+Ref Tag name S R Repr Remarks
+HEADER SECTION
+out:Header M 1
+B045 cbc:Message Reference M 1 an..14 Sender unique');
+INSERT INTO glossary (term, definition) VALUES ('HS', 'Referenced in context: B058 cbc:Harmonized System Quantity M 1 n..16 For all Declaration Types, specify HS code quantity and the measure
+unit specifier must match');
+INSERT INTO glossary (term, definition) VALUES ('HUCR', 'Referenced in context: /cac:Lot Identification
+B064 cbc:In HAWBHUCRHBLNumber C 1 an..35 Specify Inward HAWB/HUCR/HBL number for transport mode 1 or 4.');
+INSERT INTO glossary (term, definition) VALUES ('HW', 'Referenced in context: B043 cbc:Marking C 1 an..2 Specify marking for the goods, if applicable, such as “HW” Health
+Warning for tobacco products.');
+INSERT INTO glossary (term, definition) VALUES ('IC01', 'Referenced in context: 20, Codes CEFACT/ICG/2010/IC01 13 Sep 10
+for Units of Measure Used in International Trade 3
+9 Codes for Units of Measure Used in Internation');
+INSERT INTO glossary (term, definition) VALUES ('ICG', 'Referenced in context: 20, Codes CEFACT/ICG/2010/IC01 13 Sep 10
+for Units of Measure Used in International Trade 3
+9 Codes for Units of Measure Used in Internation');
+INSERT INTO glossary (term, definition) VALUES ('ID', 'Referenced in context: A062 cac:Unique Reference Number M 1 Format:
+Declarant entity identifier = XXXXXXXXXXXXXXXXX
+Date of Creation = CCYYMMDD
+Sequence Numeric =');
+INSERT INTO glossary (term, definition) VALUES ('II', 'Referenced in context: 20, Codes CEFACT/ICG/2010/IC01 13 Sep 10
+for Units of Measure Used in International Trade 3
+9 Codes for Units of Measure Used in Internation');
+INSERT INTO glossary (term, definition) VALUES ('III', 'Referenced in context: 20, Codes CEFACT/ICG/2010/IC01 13 Sep 10
+for Units of Measure Used in International Trade 3
+9 Codes for Units of Measure Used in Internation');
+INSERT INTO glossary (term, definition) VALUES ('ISO', 'Referenced in context: 3, Code for the ECE/TRADE/201 1 Jan 96
+Representation of Names of Countries - ISO Country Code
+5 UN/ECE WP Trade Facilitation Recommendation');
+INSERT INTO glossary (term, definition) VALUES ('ITEM', 'Referenced in context: /cac:Supporting Document Reference
+ITEM SECTION
+out:Item M 50 Repeat at most 50 times.');
+INSERT INTO glossary (term, definition) VALUES ('JPEG', 'Referenced in context: Only the following file formats are allowed:
+1) MS Word
+2) Adobe PDF
+3) MS Excel
+4) Image Files
+a) Bitmap
+b) JPEG
+c) GIF Image
+d) EMF Image');
+INSERT INTO glossary (term, definition) VALUES ('KGM', 'Referenced in context: B091 cbc:Total Gross Weight M 1 n..15 Specify Total Gross Weight (unit code must be TNE or KGM)
+unit Code (attribute) M 1 an..3 Specify unit');
+INSERT INTO glossary (term, definition) VALUES ('LCL', 'Referenced in context: B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:');
+INSERT INTO glossary (term, definition) VALUES ('LCL20', 'Referenced in context: B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:');
+INSERT INTO glossary (term, definition) VALUES ('LCL40', 'Referenced in context: B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:');
+INSERT INTO glossary (term, definition) VALUES ('LCL45', 'Referenced in context: B069 cbc:Size Type Code M 1 an5 Specify container type and size using the following valid codes:
+FCL20
+FCL40
+FCL45
+LCL20
+LCL40
+LCL45
+where:');
+INSERT INTO glossary (term, definition) VALUES ('LOCODE', 'Referenced in context: 16, ECE/TRADE/227 Dec 98
+UN/LOCODE - Code for the Trade and Transport Locations
+7 UN/ECE WP Trade Facilitation Recommendation No.');
+INSERT INTO glossary (term, definition) VALUES ('LW', 'Referenced in context: Transfer conditions are:
+Code Declaration Type Transfer Conditions
+DRT Direct (including storage in FTZ) To allow the Declarant to submit De');
+INSERT INTO glossary (term, definition) VALUES ('LWP', 'Referenced in context: of “LW” are LWV(Licensed Warehouse for Motor Vehicles) and LWP
+(Licensed Warehouse for Petroleum)
+E.g.');
+INSERT INTO glossary (term, definition) VALUES ('LWV', 'Referenced in context: of “LW” are LWV(Licensed Warehouse for Motor Vehicles) and LWP
+(Licensed Warehouse for Petroleum)
+E.g.');
+INSERT INTO glossary (term, definition) VALUES ('MDS', 'Referenced in context: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (C');
+INSERT INTO glossary (term, definition) VALUES ('MESSAGE', 'Referenced in context: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (C');
+INSERT INTO glossary (term, definition) VALUES ('MS', 'Referenced in context: Only the following file formats are allowed:
+1) MS Word
+2) Adobe PDF
+3) MS Excel
+4) Image Files
+a) Bitmap
+b) JPEG
+c) GIF Image
+d) EMF Image');
+INSERT INTO glossary (term, definition) VALUES ('MV', 'Referenced in context: for motor vehicles when MV product code is filled
+ii) “end use code 1” for strategic goods permit applications
+B057 cbc:CASCCode Two C 1 an.');
+INSERT INTO glossary (term, definition) VALUES ('NA', 'Referenced in context: The valid application product
+types are:
+NA=Application for non-textile products at Airport
+NH=Application for non-textile products at Headq');
+INSERT INTO glossary (term, definition) VALUES ('NH', 'Referenced in context: The valid application product
+types are:
+NA=Application for non-textile products at Airport
+NH=Application for non-textile products at Headq');
+INSERT INTO glossary (term, definition) VALUES ('NVOCC', 'Referenced in context: /cac:Party Name
+/cac:Declaring Agent Party
+A040 cac:Freight Forwarder Party C 1 Mandatory to specify Freight Forwarder/NVOCC/Cargo
+Agent/Con');
+INSERT INTO glossary (term, definition) VALUES ('OF', 'Referenced in section title ''FIELD OF APPLICATION''.');
+INSERT INTO glossary (term, definition) VALUES ('OFFICIAL', 'Referenced in context: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (C');
+INSERT INTO glossary (term, definition) VALUES ('OUCR', 'Referenced in context: /cac:Transport Mode
+OFFICIAL (CLOSED)
+AM
+B064 cbc:MAWBOUCROBLNumber C 1 an..35 For transport mode = 1, specify inward OUCR/ Ocean Bill of La');
+INSERT INTO glossary (term, definition) VALUES ('OUTDEC', 'Referenced in context: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (C');
+INSERT INTO glossary (term, definition) VALUES ('PDF', 'Referenced in context: Only the following file formats are allowed:
+1) MS Word
+2) Adobe PDF
+3) MS Excel
+4) Image Files
+a) Bitmap
+b) JPEG
+c) GIF Image
+d) EMF Image');
+INSERT INTO glossary (term, definition) VALUES ('PNG', 'Referenced in context: Only the following file formats are allowed:
+1) MS Word
+2) Adobe PDF
+3) MS Excel
+4) Image Files
+a) Bitmap
+b) JPEG
+c) GIF Image
+d) EMF Image');
+INSERT INTO glossary (term, definition) VALUES ('PO', 'Referenced in context: A003 cac:Address Line C 1
+B038 cbc:Line M 2 an..35 Specify Exporter Street and Number/PO Box (line 1 & 2 for CO).');
+INSERT INTO glossary (term, definition) VALUES ('PRI', 'Referenced in context: /cac:Item Certificate
+A054 cac:Tariff C 1 Note:
+To specify "PRI" if goods exported qualify for overseas preferential
+rates under self-certif');
+INSERT INTO glossary (term, definition) VALUES ('RCEP', 'Referenced in context: 1 (GSP Form A)
+2 (GSP Form A under Cumulative ASEAN)
+3 (Back-to-Back GSP Form A)
+4 (Ordinary Certificate of Origin)
+4A (Certificate of Proce');
+INSERT INTO glossary (term, definition) VALUES ('REFERENCES', 'Referenced in section title ''REFERENCES''.');
+INSERT INTO glossary (term, definition) VALUES ('RESPONSE', 'Referenced in context: REFERENCES
+S/ Document Name Document/Directory Rev Date
+N Reference
+1 Trade Net Declaration message specification TDS41-MDS-XML-
+DECLARATION');
+INSERT INTO glossary (term, definition) VALUES ('SC', 'Referenced in context: This document shall be used as a baseline for the interface software design and shall be agreed upon by representatives
+from the Singapore C');
+INSERT INTO glossary (term, definition) VALUES ('SCOPE', 'Referenced in section title ''SCOPE''.');
+INSERT INTO glossary (term, definition) VALUES ('SECTION', 'Referenced in context: MESSAGE DETAILS
+User defined
+Ref Tag name S R Repr Remarks
+HEADER SECTION
+out:Header M 1
+B045 cbc:Message Reference M 1 an..14 Sender unique');
+INSERT INTO glossary (term, definition) VALUES ('SGD', 'Referenced in context: B018 cbc:Currency Code C 1 a3 All values in the Certificate at item level will be assumed to be
+SGD unless specified here.');
+INSERT INTO glossary (term, definition) VALUES ('STDID', 'Referenced in context: 21, Codes CEFACT/ICG/2010/IC01 12 Jul 10
+for Types of Cargo, Packages and Packaging Material 0/Rev.1
+12 STDID Code Lists STDID-TDS41-COD
+Tra');
+INSERT INTO glossary (term, definition) VALUES ('SUMMARY', 'Referenced in context: /cac:Tariff
+SUMMARY SECTION
+out:Summary M 1
+B068 cbc:Number Of Items M 1 n..5 Mandatory to specify total number of items declared.');
+INSERT INTO glossary (term, definition) VALUES ('SY', 'Referenced in context: B040 cbc:Location Name C 1 an..256 Specify name and/address of location if the location code = SY
+(shipyard) or SC (sailing club) or O (othe');
+INSERT INTO glossary (term, definition) VALUES ('TCE', 'Referenced in context: OFFICIAL (CLOSED)
+AM
+TCS Temporary Import for To allow the Declarant to submit a Declaration for export of goods
+exhibition/auctions with sa');
+INSERT INTO glossary (term, definition) VALUES ('TCI', 'Referenced in context: OFFICIAL (CLOSED)
+AM
+TCS Temporary Import for To allow the Declarant to submit a Declaration for export of goods
+exhibition/auctions with sa');
+INSERT INTO glossary (term, definition) VALUES ('TCO', 'Referenced in context: OFFICIAL (CLOSED)
+AM
+TCS Temporary Import for To allow the Declarant to submit a Declaration for export of goods
+exhibition/auctions with sa');
+INSERT INTO glossary (term, definition) VALUES ('TCR', 'Referenced in context: OFFICIAL (CLOSED)
+AM
+TCS Temporary Import for To allow the Declarant to submit a Declaration for export of goods
+exhibition/auctions with sa');
+INSERT INTO glossary (term, definition) VALUES ('TCS', 'Referenced in context: OFFICIAL (CLOSED)
+AM
+TCS Temporary Import for To allow the Declarant to submit a Declaration for export of goods
+exhibition/auctions with sa');
+INSERT INTO glossary (term, definition) VALUES ('TDS41', 'Referenced in context: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (C');
+INSERT INTO glossary (term, definition) VALUES ('TIF', 'Referenced in context: Only the following file formats are allowed:
+1) MS Word
+2) Adobe PDF
+3) MS Excel
+4) Image Files
+a) Bitmap
+b) JPEG
+c) GIF Image
+d) EMF Image');
+INSERT INTO glossary (term, definition) VALUES ('TNE', 'Referenced in context: 3 Specify container weight (TNE).');
+INSERT INTO glossary (term, definition) VALUES ('TRADE', 'Referenced in context: 3, Code for the ECE/TRADE/201 1 Jan 96
+Representation of Names of Countries - ISO Country Code
+5 UN/ECE WP Trade Facilitation Recommendation');
+INSERT INTO glossary (term, definition) VALUES ('TRADENET', 'Referenced in context: Trade Net Declaration.OUTDEC Ver2.1.doc Message Specification XML (OUTDEC)
+OFFICIAL (CLOSED)
+Prepared by:
+TDS41-MDS-XML-OUTDEC-M
+OFFICIAL (C');
+INSERT INTO glossary (term, definition) VALUES ('TRANSPORT', 'A002
+cac:Additional Vessel Information
+C
+1
+For outward transport = 1, specify additional information for
+outward vessel');
+INSERT INTO glossary (term, definition) VALUES ('TTSB', 'Referenced in context: b) With CO Application: “I/We declare that all the product(s) to be
+exported in this Application has/have been registered with the
+OFFICIAL');
+INSERT INTO glossary (term, definition) VALUES ('TX', 'Referenced in context: REFERENCES
+S/ Document Name Document/Directory Rev Date
+N Reference
+1 Trade Net Declaration message specification TDS41-MDS-XML-
+DECLARATION');
+INSERT INTO glossary (term, definition) VALUES ('UN', 'Referenced in context: The segments, composite data elements, data elements and codes used in this document are based on the respective
+directories in the UN/CEFAC');
+INSERT INTO glossary (term, definition) VALUES ('WP', 'Referenced in context: REFERENCES
+S/ Document Name Document/Directory Rev Date
+N Reference
+1 Trade Net Declaration message specification TDS41-MDS-XML-
+DECLARATION');
+INSERT INTO glossary (term, definition) VALUES ('XML', 'Referenced in context: INTRODUCTION
+This specification provides the definition of the Customs Declaration message to be used in Extensible Markup Language
+(XML) be');
+INSERT INTO glossary (term, definition) VALUES ('ZGS', 'Referenced in context: of “BW” are ZGS (Zero GST Warehouse) and BWP (Bonded Warehouse
+for Petroleum).');

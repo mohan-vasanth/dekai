@@ -1,0 +1,10 @@
+{
+  "section": "2.17",
+  "workflow": [
+    "Run validation: However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export.",
+    "Handle exception: However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export."
+  ],
+  "workflow_ascii": "Date of reckoning of Import / Export\nRun validation: However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export.\n   |\n   v\nHandle exception: However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export.",
+  "mermaid": "flowchart TD\n    S1[\"Run validation: However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export.\"]\n    S2[\"Handle exception: However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Run validation\\: However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export.;\n:Handle exception\\: However, for benefit under FTP, Let Export Order (LEO) date shall\nbe the date of reckoning of export.;\nstop\n@enduml"
+}

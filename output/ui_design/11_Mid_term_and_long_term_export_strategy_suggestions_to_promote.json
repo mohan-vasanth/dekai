@@ -1,0 +1,37 @@
+{
+  "section": "11",
+  "ui": [
+    {
+      "screen_id": "Mid_term_and_long_term_export_strategy_suggestions_to_promote_overview",
+      "name": "Mid-term and long-term export strategy/suggestions to promote Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Mid_term_and_long_term_export_strategy_suggestions_to_promote_submission",
+      "name": "Mid-term and long-term export strategy/suggestions to promote Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "the_flag",
+        "from_flag",
+        "export_flag",
+        "promote_flag",
+        "exports_flag"
+      ]
+    }
+  ]
+}

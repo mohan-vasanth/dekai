@@ -1,0 +1,38 @@
+{
+  "section": "2.87",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/2.87",
+      "purpose": "Retrieve knowledge payload for section 2.87",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Interview-with-authorised-Officers/validate",
+      "purpose": "Validate inputs and documents for Interview with authorised Officers",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

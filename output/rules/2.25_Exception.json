@@ -1,0 +1,33 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.25",
+  "title": "Exception",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_25-R001",
+      "rule_description": "(i) to (iii) of Paragraph 2.24 above shall not be\nrequired.",
+      "trigger": "Exception",
+      "condition": "2.25 Exception\nWhen an Authorisation is lost by a Government agency and a proof to this effect is\nsubmitted, documents at serial nos.",
+      "validation": "(i) to (iii) of Paragraph 2.24 above shall not be\nrequired.",
+      "action": "2.25 Exception\nWhen an Authorisation is lost by a Government agency and a proof to this effect is\nsubmitted, documents at serial nos.",
+      "exception": "2.25 Exception\nWhen an Authorisation is lost by a Government agency and a proof to this effect is\nsubmitted, documents at serial nos.",
+      "output": "DEKAI should produce a compliance decision for 2.25 - Exception."
+    },
+    {
+      "rule_id": "CH2-SEC2_25-R002",
+      "rule_description": "In such cases, revalidation shall be for six months from date of endorsement.",
+      "trigger": "Exception",
+      "condition": "2.25 Exception\nWhen an Authorisation is lost by a Government agency and a proof to this effect is\nsubmitted, documents at serial nos.",
+      "validation": "In such cases, revalidation shall be for six months from date of endorsement.",
+      "action": "2.25 Exception\nWhen an Authorisation is lost by a Government agency and a proof to this effect is\nsubmitted, documents at serial nos.",
+      "exception": "2.25 Exception\nWhen an Authorisation is lost by a Government agency and a proof to this effect is\nsubmitted, documents at serial nos.",
+      "output": "DEKAI should produce a compliance decision for 2.25 - Exception."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (i) to (iii) of Paragraph 2.24 above shall not be\nrequired.",
+    "IF detected context matches section rule THEN enforce: In such cases, revalidation shall be for six months from date of endorsement.",
+    "IF validations pass THEN recommend action: 2.25 Exception\nWhen an Authorisation is lost by a Government agency and a proof to this effect is\nsubmitted, documents at serial nos."
+  ]
+}

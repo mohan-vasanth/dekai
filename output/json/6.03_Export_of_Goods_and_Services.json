@@ -1,0 +1,865 @@
+{
+  "chapter_number": "6",
+  "chapter_title": "Export Oriented Units (EOUs), Electronics Hardware Technology Parks (EHTPs), Software Technology Parks (STPs) and Bio-Technology",
+  "section": "6.03",
+  "title": "Export of Goods and Services",
+  "purpose": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+  "purpose_thanglish": "Indha Export of Goods and Services section-la, (b) EOUs kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+  "summary": "6.03 Export of Goods and Services\n(a) Software units may undertake exports using data communication\nlinks or in form of physical exports (which may be through courier\nservice also), including export of professional services. (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency. This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.",
+  "business_meaning": "Export of Goods and Services governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Export of Goods and Services explains the operating rule set that DEKAI should enforce. Key control points include (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency. The section also drives actions such as (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency..",
+  "business_explanation_thanglish": "Indha Export of Goods and Services section-la, export of Goods and Services explains the operating rule set that DEKAI should enforce. Key control points include (b) EOUs kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency. The section also drives actions such as (b) EOUs kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency..",
+  "business_logic": [
+    "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+    "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+    "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+    "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH6-SEC6_03-R001",
+      "rule_description": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "trigger": "Export of Goods and Services",
+      "condition": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "validation": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "action": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services."
+    },
+    {
+      "rule_id": "CH6-SEC6_03-R002",
+      "rule_description": "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+      "trigger": "Export of Goods and Services",
+      "condition": "This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.",
+      "validation": "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "action": "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services."
+    },
+    {
+      "rule_id": "CH6-SEC6_03-R003",
+      "rule_description": "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "trigger": "Export of Goods and Services",
+      "condition": "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+      "validation": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "action": "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services."
+    },
+    {
+      "rule_id": "CH6-SEC6_03-R004",
+      "rule_description": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "trigger": "Export of Goods and Services",
+      "condition": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "validation": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "action": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services."
+    },
+    {
+      "rule_id": "CH6-SEC6_03-R005",
+      "rule_description": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "trigger": "Export of Goods and Services",
+      "condition": "Where unit opts to continue,\nDC/Designated Officer will extend validity of the LOP/LOI.",
+      "validation": "(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "action": "Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services."
+    },
+    {
+      "rule_id": "CH6-SEC6_03-R006",
+      "rule_description": "(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "trigger": "Export of Goods and Services",
+      "condition": "If no\nintimation in this regard is received from unit within a period of\nsix months of expiry of the validity, DC/Designated Officer will,\nsuomoto, take action to cancel approval under the scheme and\ntake further action in this regard.",
+      "validation": "(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "action": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6.03 - Export of Goods and Services."
+    }
+  ],
+  "conditions": [
+    "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.",
+    "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+    "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+    "Where unit opts to continue,\nDC/Designated Officer will extend validity of the LOP/LOI.",
+    "If no\nintimation in this regard is received from unit within a period of\nsix months of expiry of the validity, DC/Designated Officer will,\nsuomoto, take action to cancel approval under the scheme and\ntake further action in this regard.",
+    "Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.",
+    "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+  ],
+  "condition_logic": [
+    {
+      "id": "6.6.03.1",
+      "if": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+    },
+    {
+      "id": "6.6.03.2",
+      "if": "This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate."
+    },
+    {
+      "id": "6.6.03.3",
+      "if": "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment."
+    },
+    {
+      "id": "6.6.03.4",
+      "if": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate."
+    },
+    {
+      "id": "6.6.03.5",
+      "if": "Where unit opts to continue,\nDC/Designated Officer will extend validity of the LOP/LOI.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "Where unit opts to continue,\nDC/Designated Officer will extend validity of the LOP/LOI."
+    },
+    {
+      "id": "6.6.03.6",
+      "if": "If no\nintimation in this regard is received from unit within a period of\nsix months of expiry of the validity, DC/Designated Officer will,\nsuomoto, take action to cancel approval under the scheme and\ntake further action in this regard.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "If no\nintimation in this regard is received from unit within a period of\nsix months of expiry of the validity, DC/Designated Officer will,\nsuomoto, take action to cancel approval under the scheme and\ntake further action in this regard."
+    },
+    {
+      "id": "6.6.03.7",
+      "if": "Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC."
+    },
+    {
+      "id": "6.6.03.8",
+      "if": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "then": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "source": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+    }
+  ],
+  "validations": [
+    "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+    "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+    "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export."
+  ],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [
+    "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.",
+    "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+    "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+    "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+  ],
+  "required_documents": [
+    "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.",
+    "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+    "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+    "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+  ],
+  "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "6.03::section::0::export-of-goods-and-services",
+      "type": "section",
+      "title": "Export of Goods and Services",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "6.03 Export of Goods and Services\n(a) Software units may undertake exports using data communication\nlinks or in form of physical exports (which may be through courier\nservice also), including export of professional services.\n(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency. This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate. Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.\n(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export. Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.\n(d) Gems & Jewellery EOUs may re-export imported goods and export\ndomestically procured goods, including goods generated out of\npartial processing/ manufacture. Besides, supply of unsuitable /\nbroken cut and polished diamonds, precious and semi-precious\nstones upto 5% of value of imported or indigenously procured\npg. 136\npg. 136\nscheme or opt out of scheme. Where unit opts to continue,\nDC/Designated Officer will extend validity of the LOP/LOI. If no\nintimation in this regard is received from unit within a period of\nsix months of expiry of the validity, DC/Designated Officer will,\nsuomoto, take action to cancel approval under the scheme and\ntake further action in this regard. Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.\n6.03 Export of Goods and Services\n(a)\nSoftware units may undertake exports using data communication\nlinks or in form of physical exports (which may be through courier\nservice also), including export of professional services.\n(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency. This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate. Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.\n(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export. Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.\n(d)\nGems & Jewellery EOUs may re-export imported goods and export\ndomestically procured goods, including goods generated out of\npartial processing/ manufacture. Besides, supply of unsuitable /\nbroken cut and polished diamonds, precious and semi-precious\nstones upto 5% of value of imported or indigenously procured\ngoods to DTA against valid Gems & Jewellery REP as applicable on\npayment of appropriate duty is also permitted.",
+      "parentId": "",
+      "sectionId": "6.03",
+      "sectionTitle": "Export of Goods and Services",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 54,
+      "searchAliases": [
+        "Export of Goods and Services",
+        "ExportofGoodsandServices"
+      ],
+      "childIds": [
+        "6.03::validation::1::validation-rules",
+        "6.03::validation::2::validation-rules",
+        "6.03::validation::3::validation-rules",
+        "6.03::validation::4::validation-rules",
+        "6.03::validation::5::validation-rules",
+        "6.03::business_rule::6::export-of-goods-and-services",
+        "6.03::business_rule::7::export-of-goods-and-services",
+        "6.03::business_rule::8::export-of-goods-and-services",
+        "6.03::business_rule::9::export-of-goods-and-services",
+        "6.03::business_rule::10::export-of-goods-and-services",
+        "6.03::business_rule::11::export-of-goods-and-services"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 54
+    },
+    {
+      "id": "6.03::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "parentId": "6.03::section::0::export-of-goods-and-services",
+      "sectionId": "6.03",
+      "sectionTitle": "Export of Goods and Services",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.03::validation::2::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "parentId": "6.03::section::0::export-of-goods-and-services",
+      "sectionId": "6.03",
+      "sectionTitle": "Export of Goods and Services",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.03::validation::3::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "parentId": "6.03::section::0::export-of-goods-and-services",
+      "sectionId": "6.03",
+      "sectionTitle": "Export of Goods and Services",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.03::validation::4::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "parentId": "6.03::section::0::export-of-goods-and-services",
+      "sectionId": "6.03",
+      "sectionTitle": "Export of Goods and Services",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.03::validation::5::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "parentId": "6.03::section::0::export-of-goods-and-services",
+      "sectionId": "6.03",
+      "sectionTitle": "Export of Goods and Services",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.03::business_rule::6::export-of-goods-and-services",
+      "type": "business_rule",
+      "title": "Export of Goods and Services",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "parentId": "6.03::section::0::export-of-goods-and-services",
+      "sectionId": "6.03",
+      "sectionTitle": "Export of Goods and Services",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Export of Goods and Services",
+        "ExportofGoodsandServices"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.03::business_rule::7::export-of-goods-and-services",
+      "type": "business_rule",
+      "title": "Export of Goods and Services",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+      "parentId": "6.03::section::0::export-of-goods-and-services",
+      "sectionId": "6.03",
+      "sectionTitle": "Export of Goods and Services",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Export of Goods and Services",
+        "ExportofGoodsandServices"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.03::business_rule::8::export-of-goods-and-services",
+      "type": "business_rule",
+      "title": "Export of Goods and Services",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "parentId": "6.03::section::0::export-of-goods-and-services",
+      "sectionId": "6.03",
+      "sectionTitle": "Export of Goods and Services",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Export of Goods and Services",
+        "ExportofGoodsandServices"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.03::business_rule::9::export-of-goods-and-services",
+      "type": "business_rule",
+      "title": "Export of Goods and Services",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "parentId": "6.03::section::0::export-of-goods-and-services",
+      "sectionId": "6.03",
+      "sectionTitle": "Export of Goods and Services",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Export of Goods and Services",
+        "ExportofGoodsandServices"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.03::business_rule::10::export-of-goods-and-services",
+      "type": "business_rule",
+      "title": "Export of Goods and Services",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "parentId": "6.03::section::0::export-of-goods-and-services",
+      "sectionId": "6.03",
+      "sectionTitle": "Export of Goods and Services",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Export of Goods and Services",
+        "ExportofGoodsandServices"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "6.03::business_rule::11::export-of-goods-and-services",
+      "type": "business_rule",
+      "title": "Export of Goods and Services",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+      "parentId": "6.03::section::0::export-of-goods-and-services",
+      "sectionId": "6.03",
+      "sectionTitle": "Export of Goods and Services",
+      "documentName": "HBP-Chapter-6.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Export of Goods and Services",
+        "ExportofGoodsandServices"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [
+    "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+    "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+    "If no\nintimation in this regard is received from unit within a period of\nsix months of expiry of the validity, DC/Designated Officer will,\nsuomoto, take action to cancel approval under the scheme and\ntake further action in this regard.",
+    "Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.",
+    "(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export."
+  ],
+  "actions": [
+    "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+    "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+    "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+    "Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.",
+    "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+    "Besides, supply of unsuitable /\nbroken cut and polished diamonds, precious and semi-precious\nstones upto 5% of value of imported or indigenously procured\ngoods to DTA against valid Gems & Jewellery REP as applicable on\npayment of appropriate duty is also permitted."
+  ],
+  "workflow": [
+    "Evaluate condition: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "Evaluate condition: This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.",
+    "Evaluate condition: Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+    "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+    "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+    "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+    "Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.",
+    "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "Run validation: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "Run validation: (c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+    "Run validation: Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate."
+  ],
+  "workflow_ascii": "Export of Goods and Services\nEvaluate condition: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.\n   |\n   v\nEvaluate condition: This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.\n   |\n   v\nEvaluate condition: Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.\n   |\n   v\n(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.\n   |\n   v\nCertificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.\n   |\n   v\n(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.\n   |\n   v\nPrice shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.\n   |\n   v\nWhere units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.\n   |\n   v\n(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.\n   |\n   v\nRun validation: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.\n   |\n   v\nRun validation: (c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.\n   |\n   v\nRun validation: Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+  "decision_tree": [
+    "IF (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency. THEN (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "IF This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate. THEN (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "IF Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment. THEN (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "IF Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate. THEN (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "IF Where unit opts to continue,\nDC/Designated Officer will extend validity of the LOP/LOI. THEN (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+  ],
+  "decision_tree_ascii": "Export of Goods and Services Decision\nIF (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency. THEN (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.\n   |\n   v\nIF This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate. THEN (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.\n   |\n   v\nIF Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment. THEN (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.\n   |\n   v\nIF Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate. THEN (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.\n   |\n   v\nIF Where unit opts to continue,\nDC/Designated Officer will extend validity of the LOP/LOI. THEN (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+  "examples": [
+    "User asks to process Export of Goods and Services; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Export of Goods and Services, submits (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency., This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate., Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment., and DEKAI uses the extracted rules to (b) eous shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency..",
+  "real_world_example_thanglish": "Indha Export of Goods and Services section-la, Example: an importer or exporter invokes export of Goods and Services, submits (b) EOUs kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency., This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate., Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment., and DEKAI uses the extracted rules to (b) eous kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency..",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "IF detected context matches section rule THEN enforce: Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+    "IF detected context matches section rule THEN enforce: (c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+    "IF detected context matches section rule THEN enforce: Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+    "IF detected context matches section rule THEN enforce: (b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "IF detected context matches section rule THEN enforce: (c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+    "IF validations pass THEN recommend action: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "may_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:may"
+    },
+    {
+      "name": "inr_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:INR"
+    },
+    {
+      "name": "not_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:not"
+    },
+    {
+      "name": "fix_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:fix"
+    },
+    {
+      "name": "who_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:who"
+    },
+    {
+      "name": "are_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:are"
+    },
+    {
+      "name": "out_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:out"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate."
+    },
+    {
+      "name": "document_3_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment."
+    },
+    {
+      "name": "document_4_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate."
+    },
+    {
+      "name": "document_5_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.03",
+      "purpose": "Retrieve knowledge payload for section 6.03",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Export-of-Goods-and-Services/validate",
+      "purpose": "Validate inputs and documents for Export of Goods and Services",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Export-of-Goods-and-Services/execute",
+      "purpose": "Trigger business action for (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Export_of_Goods_and_Services_overview",
+      "name": "Export of Goods and Services Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_of_Goods_and_Services_submission",
+      "name": "Export of Goods and Services Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "may_flag",
+        "inr_flag",
+        "not_flag",
+        "fix_flag",
+        "who_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Export of Goods and Services require?",
+    "Which documents are needed for Export of Goods and Services?",
+    "How does DEKAI validate Export of Goods and Services requests?",
+    "What action should be taken for Export of Goods and Services?"
+  ],
+  "expected_ai_answers": [
+    "Export of Goods and Services requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency., This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate., Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment., Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate., (b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "DEKAI validates Export of Goods and Services by checking conditions, required documents, authority references, and exception clauses before recommending an outcome.",
+    "The primary extracted action is: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 6.03?",
+      "answer_en": "Export of Goods and Services explains the operating rule set that DEKAI should enforce. Key control points include (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency. The section also drives actions such as (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency..",
+      "question_thanglish": "Indha Export of Goods and Services section-la, What is the purpose of section 6.03?",
+      "answer_thanglish": "Indha Export of Goods and Services section-la, export of Goods and Services explains the operating rule set that DEKAI should enforce. Key control points include (b) EOUs kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency. The section also drives actions such as (b) EOUs kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.."
+    },
+    {
+      "question_en": "What documents are required under Export of Goods and Services?",
+      "answer_en": "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency., This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate., Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment., Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate., (b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+      "question_thanglish": "Indha Export of Goods and Services section-la, What documents are required under export of Goods and Services?",
+      "answer_thanglish": "Indha Export of Goods and Services section-la, (b) EOUs kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency., This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate., Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment., Price kandippa be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate., (b)\nEOUs kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+    },
+    {
+      "question_en": "Which authority handles Export of Goods and Services?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Export of Goods and Services section-la, Which authority handles export of Goods and Services?",
+      "answer_thanglish": "Indha Export of Goods and Services section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Export of Goods and Services?",
+      "answer_en": "AI answers: DEKAI should evaluate section 6.03, apply the extracted rules, and guide the user through Evaluate condition: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency..",
+      "question_thanglish": "Indha Export of Goods and Services section-la, User asks: How do I comply with export of Goods and Services?",
+      "answer_thanglish": "Indha Export of Goods and Services section-la, AI answers: DEKAI should evaluate section 6.03, apply the extracted rules, and guide the user through Evaluate condition: (b) EOUs kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Export of Goods and Services?",
+      "answer_en": "AI answers: Applicable validations are (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency., (c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export., Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+      "question_thanglish": "Indha Export of Goods and Services section-la, User asks: Which validations apply to export of Goods and Services?",
+      "answer_thanglish": "Indha Export of Goods and Services section-la, AI answers: Applicable validations are (b) EOUs kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency., (c) Exporter kandippa have flexibility to fix price and repay gold loan\nwithin 180 days from date of export., Price kandippa be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 6, section 6.03, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Export of Goods and Services into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency., This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate., Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment., Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate., (b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Export of Goods and Services section-la, Capture chapter 6, section 6.03, title, and page references as immutable knowledge metadata.",
+    "Indha Export of Goods and Services section-la, Bind validations for export of Goods and Services into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Export of Goods and Services section-la, Expose document upload controls for: (b) EOUs kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency., This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate., Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment., Price kandippa be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate., (b)\nEOUs kandippa be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.."
+  ],
+  "keywords": [
+    "and",
+    "may",
+    "INR",
+    "not",
+    "fix",
+    "who",
+    "are",
+    "out",
+    "cut",
+    "opt",
+    "the",
+    "six",
+    "DTA",
+    "REP",
+    "data",
+    "form",
+    "also",
+    "EOUs",
+    "rate",
+    "This"
+  ],
+  "search_keywords": [
+    "and",
+    "may",
+    "INR",
+    "not",
+    "fix",
+    "who",
+    "are",
+    "out",
+    "cut",
+    "opt",
+    "the",
+    "six",
+    "DTA",
+    "REP",
+    "data",
+    "form",
+    "also",
+    "EOUs",
+    "rate",
+    "This"
+  ],
+  "intent": "Support Export of Goods and Services processing and compliance validation.",
+  "tags": [
+    "6.03",
+    "Export of Goods and Services",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [
+    "(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.",
+    "Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.",
+    "(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.",
+    "Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.",
+    "(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency."
+  ],
+  "page_numbers": [
+    4,
+    5
+  ],
+  "pages": [
+    4,
+    5
+  ],
+  "source_document": "HBP-Chapter-6.pdf",
+  "raw_text": "6.03 Export of Goods and Services\n(a) Software units may undertake exports using data communication\nlinks or in form of physical exports (which may be through courier\nservice also), including export of professional services.\n(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency. This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate. Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.\n(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export. Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.\n(d) Gems & Jewellery EOUs may re-export imported goods and export\ndomestically procured goods, including goods generated out of\npartial processing/ manufacture. Besides, supply of unsuitable /\nbroken cut and polished diamonds, precious and semi-precious\nstones upto 5% of value of imported or indigenously procured\npg. 136\npg. 136\nscheme or opt out of scheme. Where unit opts to continue,\nDC/Designated Officer will extend validity of the LOP/LOI. If no\nintimation in this regard is received from unit within a period of\nsix months of expiry of the validity, DC/Designated Officer will,\nsuomoto, take action to cancel approval under the scheme and\ntake further action in this regard. Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.\n6.03 Export of Goods and Services\n(a)\nSoftware units may undertake exports using data communication\nlinks or in form of physical exports (which may be through courier\nservice also), including export of professional services.\n(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency. This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate. Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.\n(c)\nExporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export. Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.\n(d)\nGems & Jewellery EOUs may re-export imported goods and export\ndomestically procured goods, including goods generated out of\npartial processing/ manufacture. Besides, supply of unsuitable /\nbroken cut and polished diamonds, precious and semi-precious\nstones upto 5% of value of imported or indigenously procured\ngoods to DTA against valid Gems & Jewellery REP as applicable on\npayment of appropriate duty is also permitted.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.\"]\n    S2[\"Evaluate condition: This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.\"]\n    S1 --> S2\n    S3[\"Evaluate condition: Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.\"]\n    S2 --> S3\n    S4[\"(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.\"]\n    S3 --> S4\n    S5[\"Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.\"]\n    S4 --> S5\n    S6[\"(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.\"]\n    S5 --> S6\n    S7[\"Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.\"]\n    S6 --> S7\n    S8[\"Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.\"]\n    S7 --> S8\n    S9[\"(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.\"]\n    S8 --> S9\n    S10[\"Run validation: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.\"]\n    S9 --> S10\n    S11[\"Run validation: (c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.\"]\n    S10 --> S11\n    S12[\"Run validation: Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.\"]\n    S11 --> S12",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.;\n:Evaluate condition\\: This rate will be based\non prevailing Gold / US$ rate and US$ / INR rate in notional rate\ncertificate.;\n:Evaluate condition\\: Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.;\n:(b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.;\n:Certificate issued by nominated agency should not be\nolder than 7 working days of date of shipment.;\n:(c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.;\n:Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.;\n:Where units give their option\nto continue after expiry of six months as stipulated above,\nDC/Designated Officer will grant extension after obtaining\napproval of BOA/IMSC.;\n:(b)\nEOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.;\n:Run validation\\: (b) EOUs shall be permitted to export jewellery on basis of a notional\nrate certificate issued by nominated agency.;\n:Run validation\\: (c) Exporter shall have flexibility to fix price and repay gold loan\nwithin 180 days from date of export.;\n:Run validation\\: Price shall be communicated\nto nominated agencies who will issue a certificate showing final\nconfirmation of rate to bank negotiating document, to ensure\nexport proceeds are realized at this rate.;\nstop\n@enduml"
+}

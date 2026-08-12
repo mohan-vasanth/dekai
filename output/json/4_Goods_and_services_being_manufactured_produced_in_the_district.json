@@ -1,0 +1,358 @@
+{
+  "chapter_number": "3",
+  "chapter_title": "Developing Districts as Export Hubs",
+  "section": "4",
+  "title": "Goods and services being manufactured/produced in the district,",
+  "purpose": "Defines the operational requirements for Goods and services being manufactured/produced in the district,.",
+  "purpose_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, Defines the operational requirements for Goods and services being manufactured/produced in the district,.",
+  "summary": "4. Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+  "business_meaning": "4.",
+  "business_explanation": "4. Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+  "business_explanation_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, 4. Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+  "business_logic": [],
+  "business_rules": [
+    {
+      "rule_id": "CH3-SEC4-R001",
+      "rule_description": "4. Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+      "trigger": "Goods and services being manufactured/produced in the district,",
+      "condition": "Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+      "validation": "Not explicitly covered in uploaded documents.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4 - Goods and services being manufactured/produced in the district,."
+    }
+  ],
+  "conditions": [
+    "Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products)."
+  ],
+  "condition_logic": [
+    {
+      "id": "3.4.1",
+      "if": "Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+      "then": "Route for review",
+      "source": "Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products)."
+    }
+  ],
+  "validations": [],
+  "exceptions": [],
+  "dependencies": [],
+  "documents": [],
+  "required_documents": [],
+  "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4::section::0::goods-and-services-being-manufactured-produced-i",
+      "type": "section",
+      "title": "Goods and services being manufactured/produced in the district,",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4. Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+      "parentId": "",
+      "sectionId": "4",
+      "sectionTitle": "Goods and services being manufactured/produced in the district,",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 2,
+      "searchAliases": [
+        "Goods and services being manufactured/produced in the district,",
+        "Goods and services being manufactured produced in the district",
+        "Goodsandservicesbeingmanufacturedproducedinthedistrict"
+      ],
+      "childIds": [
+        "4::business_rule::1::goods-and-services-being-manufactured-produced-i"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 2
+    },
+    {
+      "id": "4::business_rule::1::goods-and-services-being-manufactured-produced-i",
+      "type": "business_rule",
+      "title": "Goods and services being manufactured/produced in the district,",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4. Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+      "parentId": "4::section::0::goods-and-services-being-manufactured-produced-i",
+      "sectionId": "4",
+      "sectionTitle": "Goods and services being manufactured/produced in the district,",
+      "documentName": "HBP2023_Chapter03.pdf",
+      "pageNumber": 4,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Goods and services being manufactured/produced in the district,",
+        "Goods and services being manufactured produced in the district",
+        "Goodsandservicesbeingmanufacturedproducedinthedistrict"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products)."
+  ],
+  "workflow_ascii": "Goods and services being manufactured/produced in the district,\nEvaluate condition: Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+  "decision_tree": [
+    "IF section 4 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Goods and services being manufactured/produced in the district, Decision\nIF section 4 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Goods and services being manufactured/produced in the district,; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Goods and services being manufactured/produced in the district,, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the goods and services being manufactured/produced in the district, process.",
+  "real_world_example_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, Example: an importer or exporter invokes Goods and services being manufactured/produced in the district,, submits the prescribed DGFT records, and DEKAI uses the extracted rules to follow the goods and services being manufactured/produced in the district, process.",
+  "ai_rules": [],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "and_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:and"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "such_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:such"
+    },
+    {
+      "name": "goods_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Goods"
+    },
+    {
+      "name": "being_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:being"
+    },
+    {
+      "name": "items_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:items"
+    },
+    {
+      "name": "export_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:export"
+    },
+    {
+      "name": "services_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:services"
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4",
+      "purpose": "Retrieve knowledge payload for section 4",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Goods-and-services-being-manufactured-produced-in-the-district/validate",
+      "purpose": "Validate inputs and documents for Goods and services being manufactured/produced in the district,",
+      "request_fields": [
+        "section_code",
+        "section_title"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Goods_and_services_being_manufactured_produced_in_the_district_overview",
+      "name": "Goods and services being manufactured/produced in the district, Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Goods_and_services_being_manufactured_produced_in_the_district_submission",
+      "name": "Goods and services being manufactured/produced in the district, Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "the_flag",
+        "such_flag",
+        "goods_flag",
+        "being_flag",
+        "items_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Goods and services being manufactured/produced in the district, require?",
+    "Which documents are needed for Goods and services being manufactured/produced in the district,?",
+    "How does DEKAI validate Goods and services being manufactured/produced in the district, requests?"
+  ],
+  "expected_ai_answers": [
+    "Goods and services being manufactured/produced in the district, requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: no explicit documents were detected.",
+    "DEKAI validates Goods and services being manufactured/produced in the district, by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4?",
+      "answer_en": "4. Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+      "question_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, What is the purpose of section 4?",
+      "answer_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, 4. Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products)."
+    },
+    {
+      "question_en": "What documents are required under Goods and services being manufactured/produced in the district,?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, What documents are required under Goods and services being manufactured/produced in the district,?",
+      "answer_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, Not explicitly covered in uploaded documents."
+    },
+    {
+      "question_en": "Which authority handles Goods and services being manufactured/produced in the district,?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, Which authority handles Goods and services being manufactured/produced in the district,?",
+      "answer_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Goods and services being manufactured/produced in the district,?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4, apply the extracted rules, and guide the user through Evaluate condition: Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products)..",
+      "question_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, User asks: How do I comply with Goods and services being manufactured/produced in the district,?",
+      "answer_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, AI answers: DEKAI should evaluate section 4, apply the extracted rules, and guide the user through Evaluate condition: Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Goods and services being manufactured/produced in the district,?",
+      "answer_en": "AI answers: Applicable validations are not explicitly covered in the uploaded documents.",
+      "question_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, User asks: Which validations apply to Goods and services being manufactured/produced in the district,?",
+      "answer_thanglish": "Indha Goods and services being manufactured/produced in the district, section-la, AI answers: Applicable validations are not explicitly covered in the uploaded documents."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 3, section 4, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Goods and services being manufactured/produced in the district, into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Goods and services being manufactured/produced in the district, section-la, Capture chapter 3, section 4, title, and page references as immutable knowledge metadata.",
+    "Indha Goods and services being manufactured/produced in the district, section-la, Bind validations for Goods and services being manufactured/produced in the district, into a rule engine keyed by the rule IDs extracted for this section."
+  ],
+  "keywords": [
+    "and",
+    "the",
+    "such",
+    "Goods",
+    "being",
+    "items",
+    "export",
+    "services",
+    "district",
+    "identify",
+    "products",
+    "potential",
+    "available",
+    "districts",
+    "including",
+    "manufactured/produced"
+  ],
+  "search_keywords": [
+    "and",
+    "the",
+    "such",
+    "Goods",
+    "being",
+    "items",
+    "export",
+    "services",
+    "district",
+    "identify",
+    "products",
+    "potential",
+    "available",
+    "districts",
+    "including",
+    "manufactured/produced"
+  ],
+  "intent": "Provide knowledge guidance for Goods and services being manufactured/produced in the district,.",
+  "tags": [
+    "4",
+    "Goods and services being manufactured/produced in the district,",
+    "dgft"
+  ],
+  "related_sections": [],
+  "related_chapters": [],
+  "related_rules": [],
+  "page_numbers": [
+    4
+  ],
+  "pages": [
+    4
+  ],
+  "source_document": "HBP2023_Chapter03.pdf",
+  "raw_text": "4. Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).\"]",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Goods and services being manufactured/produced in the district,\nidentify the export potential of items available in such districts\n(including GI products).;\nstop\n@enduml"
+}

@@ -1,0 +1,47 @@
+{
+  "section": "2.64",
+  "ui": [
+    {
+      "screen_id": "Export_Policy_overview",
+      "name": "Export Policy Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Export_Policy_submission",
+      "name": "Export Policy Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "ftp_flag",
+        "itc_flag",
+        "may_flag",
+        "but_flag",
+        "and_flag",
+        "list_flag"
+      ]
+    },
+    {
+      "screen_id": "Export_Policy_exceptions",
+      "name": "Export Policy Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

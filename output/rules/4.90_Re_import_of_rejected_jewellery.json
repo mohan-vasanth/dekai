@@ -1,0 +1,33 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.90",
+  "title": "Re-import of rejected jewellery",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_90-R001",
+      "rule_description": "4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport of preceding year) with refund of any duty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+      "trigger": "Re-import of rejected jewellery",
+      "condition": "4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport of preceding year) with refund of any duty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+      "validation": "4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport of preceding year) with refund of any duty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+      "action": "4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport of preceding year) with refund of any duty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+      "exception": "4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport of preceding year) with refund of any duty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+      "output": "DEKAI should produce a compliance decision for 4.90 - Re-import of rejected jewellery."
+    },
+    {
+      "rule_id": "CH4-SEC4_90-R002",
+      "rule_description": "4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport\nof\npreceding\nyear)\nwith\nrefund\nof\nany\nduty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+      "trigger": "Re-import of rejected jewellery",
+      "condition": "4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport\nof\npreceding\nyear)\nwith\nrefund\nof\nany\nduty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+      "validation": "4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport\nof\npreceding\nyear)\nwith\nrefund\nof\nany\nduty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+      "action": "4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport\nof\npreceding\nyear)\nwith\nrefund\nof\nany\nduty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+      "exception": "4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport\nof\npreceding\nyear)\nwith\nrefund\nof\nany\nduty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+      "output": "DEKAI should produce a compliance decision for 4.90 - Re-import of rejected jewellery."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport of preceding year) with refund of any duty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+    "IF detected context matches section rule THEN enforce: 4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport\nof\npreceding\nyear)\nwith\nrefund\nof\nany\nduty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations.",
+    "IF validations pass THEN recommend action: 4.90 Re-import of rejected jewellery\nAn exporter of plain/ studded precious metal jewellery shall be allowed to re-\nimport duty free jewellery rejected and returned by buyer up to 2% of FOB\nvalue of exports in preceding licencing year (based on CA certified copy of\nexport of preceding year) with refund of any duty\nexemption/refund/replenishment benefit availed on inputs used as per\ncustoms rules and regulations."
+  ]
+}

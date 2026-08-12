@@ -1,0 +1,33 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "4",
+  "title": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC4-R001",
+      "rule_description": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+      "trigger": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any",
+      "condition": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "validation": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "action": "Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R) Act, 1992 for any."
+    },
+    {
+      "rule_id": "CH10-SEC4-R002",
+      "rule_description": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:",
+      "trigger": "Action will be taken against the exporter under FT (D & R) Act, 1992 for any",
+      "condition": "Authorized Economic Operator (AEO) T2 Certification of CBIC.",
+      "validation": "After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+      "action": "In case of re-export of imported items, the following additional documents have\nto be submitted:\n(i) Proof of import of the item(s):\n Documentary proof that the item(s) originally imported, match with\nintended item(s) of re-export;\n Bill of entry containing details of the items to be re-exported;\n Export License (if applicable) or any other documents showing that\nexport regulation of the country of export does not have any\nrestriction on re- export from India;\n In case of any such restriction, the exporter will provide a letter of\nexplanation detailing the list of countries/entities, to which re-\nexport/return is restricted / regulated;\n Purchase order\nviii.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4 - Action will be taken against the exporter under FT (D & R) Act, 1992 for any."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:\n4.",
+    "IF detected context matches section rule THEN enforce: After issuance of GAEIS authorization and before actual export, the applicant\nexporter must ensure the following:",
+    "IF validations pass THEN recommend action: Certified/Approved Internal Compliance Programme by the Compliance\nManager of the Company."
+  ]
+}

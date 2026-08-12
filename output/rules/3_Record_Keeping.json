@@ -1,0 +1,33 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "3",
+  "title": "Record Keeping",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC3-R001",
+      "rule_description": "Record Keeping\nThe exporter will be required to keep records of all the export documents, in\nmanual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years\nfrom the date of GAET issued by DGFT.",
+      "trigger": "Record Keeping",
+      "condition": "Section 3 is applicable",
+      "validation": "Record Keeping\nThe exporter will be required to keep records of all the export documents, in\nmanual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years\nfrom the date of GAET issued by DGFT.",
+      "action": "Record Keeping\nThe exporter will be required to keep records of all the export documents, in\nmanual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years\nfrom the date of GAET issued by DGFT.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - Record Keeping."
+    },
+    {
+      "rule_id": "CH10-SEC3-R002",
+      "rule_description": "Record Keeping\nThe exporter will be required to keep records of all the export documents, in\nmanual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date\nof GAEIS issued by DGFT.",
+      "trigger": "Record Keeping",
+      "condition": "Section 3 is applicable",
+      "validation": "Record Keeping\nThe exporter will be required to keep records of all the export documents, in\nmanual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date\nof GAEIS issued by DGFT.",
+      "action": "Record Keeping\nThe exporter will be required to keep records of all the export documents, in\nmanual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date\nof GAEIS issued by DGFT.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 3 - Record Keeping."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: Record Keeping\nThe exporter will be required to keep records of all the export documents, in\nmanual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years\nfrom the date of GAET issued by DGFT.",
+    "IF detected context matches section rule THEN enforce: Record Keeping\nThe exporter will be required to keep records of all the export documents, in\nmanual or electronic form, in terms of Para 10.18 of HBP, for 5 years from the date\nof GAEIS issued by DGFT.",
+    "IF validations pass THEN recommend action: Record Keeping\nThe exporter will be required to keep records of all the export documents, in\nmanual or electronic form, in terms of Para 10.18 of HBP, for a period of 5 years\nfrom the date of GAET issued by DGFT."
+  ]
+}

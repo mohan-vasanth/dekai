@@ -1,0 +1,63 @@
+{
+  "section": "7.05",
+  "conditions": [
+    "In cases where payment is received in advance and supply is\nmade subsequently, in such cases application can be filed within\n12 months from the last date of such supplies.",
+    "Claim can be filed\n‘Invalidation Letter / ARO wise’ against individual Authorisation within the\ntime limit as specified above.",
+    "Claims may also be filed where part\npayments have been received.",
+    "Deemed export benefits may be allowed after\n100% supplies have been made.",
+    "(c) An application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP.",
+    "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted.",
+    "(g)\nSub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods.",
+    "(c)\nAn application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP."
+  ],
+  "condition_logic": [
+    {
+      "id": "7.7.05.1",
+      "if": "In cases where payment is received in advance and supply is\nmade subsequently, in such cases application can be filed within\n12 months from the last date of such supplies.",
+      "then": "7.05 Frequency of application and time period for claiming TED /\nDrawback\n(a) In respect of supplies covered in Paragraphs 7.02 (a) to (c) of FTP,\napplication for TED refund / drawback (whichever applicable) may be filed\nwithin 12 months from the date of realisation of 100% payment against\nsuch supplies.",
+      "source": "In cases where payment is received in advance and supply is\nmade subsequently, in such cases application can be filed within\n12 months from the last date of such supplies."
+    },
+    {
+      "id": "7.7.05.2",
+      "if": "Claim can be filed\n‘Invalidation Letter / ARO wise’ against individual Authorisation within the\ntime limit as specified above.",
+      "then": "7.05 Frequency of application and time period for claiming TED /\nDrawback\n(a) In respect of supplies covered in Paragraphs 7.02 (a) to (c) of FTP,\napplication for TED refund / drawback (whichever applicable) may be filed\nwithin 12 months from the date of realisation of 100% payment against\nsuch supplies.",
+      "source": "Claim can be filed\n‘Invalidation Letter / ARO wise’ against individual Authorisation within the\ntime limit as specified above."
+    },
+    {
+      "id": "7.7.05.3",
+      "if": "Claims may also be filed where part\npayments have been received.",
+      "then": "7.05 Frequency of application and time period for claiming TED /\nDrawback\n(a) In respect of supplies covered in Paragraphs 7.02 (a) to (c) of FTP,\napplication for TED refund / drawback (whichever applicable) may be filed\nwithin 12 months from the date of realisation of 100% payment against\nsuch supplies.",
+      "source": "Claims may also be filed where part\npayments have been received."
+    },
+    {
+      "id": "7.7.05.4",
+      "if": "Deemed export benefits may be allowed after\n100% supplies have been made.",
+      "then": "7.05 Frequency of application and time period for claiming TED /\nDrawback\n(a) In respect of supplies covered in Paragraphs 7.02 (a) to (c) of FTP,\napplication for TED refund / drawback (whichever applicable) may be filed\nwithin 12 months from the date of realisation of 100% payment against\nsuch supplies.",
+      "source": "Deemed export benefits may be allowed after\n100% supplies have been made."
+    },
+    {
+      "id": "7.7.05.5",
+      "if": "(c) An application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP.",
+      "then": "7.05 Frequency of application and time period for claiming TED /\nDrawback\n(a) In respect of supplies covered in Paragraphs 7.02 (a) to (c) of FTP,\napplication for TED refund / drawback (whichever applicable) may be filed\nwithin 12 months from the date of realisation of 100% payment against\nsuch supplies.",
+      "source": "(c) An application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP."
+    },
+    {
+      "id": "7.7.05.6",
+      "if": "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted.",
+      "then": "7.05 Frequency of application and time period for claiming TED /\nDrawback\n(a) In respect of supplies covered in Paragraphs 7.02 (a) to (c) of FTP,\napplication for TED refund / drawback (whichever applicable) may be filed\nwithin 12 months from the date of realisation of 100% payment against\nsuch supplies.",
+      "source": "In respect of supplies covered under\nParagraph 7.02 (d) to (g) of the FTP, payment certificate issued by Project\nAuthority, in Appendix-7D, has also to be submitted."
+    },
+    {
+      "id": "7.7.05.7",
+      "if": "(g)\nSub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods.",
+      "then": "7.05 Frequency of application and time period for claiming TED /\nDrawback\n(a) In respect of supplies covered in Paragraphs 7.02 (a) to (c) of FTP,\napplication for TED refund / drawback (whichever applicable) may be filed\nwithin 12 months from the date of realisation of 100% payment against\nsuch supplies.",
+      "source": "(g)\nSub-contractor can also file claim provided its name is endorsed in\nthe Project Authority Certificate / Contract before supply of such goods."
+    },
+    {
+      "id": "7.7.05.8",
+      "if": "(c)\nAn application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP.",
+      "then": "7.05 Frequency of application and time period for claiming TED /\nDrawback\n(a) In respect of supplies covered in Paragraphs 7.02 (a) to (c) of FTP,\napplication for TED refund / drawback (whichever applicable) may be filed\nwithin 12 months from the date of realisation of 100% payment against\nsuch supplies.",
+      "source": "(c)\nAn application under ANF 7A shall pertain to only one category of\nsupply as specified in Para 7.02 of the FTP."
+    }
+  ]
+}

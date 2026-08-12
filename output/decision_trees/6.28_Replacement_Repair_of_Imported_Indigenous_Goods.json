@@ -1,0 +1,10 @@
+{
+  "section": "6.28",
+  "decision_tree": [
+    "IF However, if goods have been consumed /\ndestroyed in process of testing etc. THEN Any foreign exchange payment for this\npurpose will also be allowed.",
+    "IF a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms. THEN Any foreign exchange payment for this\npurpose will also be allowed.",
+    "IF exception applies (However, no permission will be\nrequired for sending capital goods for repair within country.) THEN route to manual review",
+    "IF exception applies (However, if goods have been consumed /\ndestroyed in process of testing etc.) THEN route to manual review"
+  ],
+  "decision_tree_ascii": "Replacement / Repair of Imported / Indigenous Goods Decision\nIF However, if goods have been consumed /\ndestroyed in process of testing etc. THEN Any foreign exchange payment for this\npurpose will also be allowed.\n   |\n   v\nIF a certificate from\nlaboratory / institution to this effect be furnished to\nCustoms. THEN Any foreign exchange payment for this\npurpose will also be allowed.\n   |\n   v\nIF exception applies (However, no permission will be\nrequired for sending capital goods for repair within country.) THEN route to manual review\n   |\n   v\nIF exception applies (However, if goods have been consumed /\ndestroyed in process of testing etc.) THEN route to manual review"
+}

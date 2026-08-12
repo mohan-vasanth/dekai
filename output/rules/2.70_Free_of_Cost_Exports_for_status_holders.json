@@ -1,0 +1,54 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.70",
+  "title": "Free of Cost Exports for status holders",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_70-R001",
+      "rule_description": "2.70 Free of Cost Exports for status holders\nStatus holders shall be entitled to export freely exportable items on free of cost basis\nfor export promotion subject to an annual limit of Rs.10 lakh or 2% of average annual\nexport realisation during preceding three licensing years whichever is lower.",
+      "trigger": "Free of Cost Exports for status holders",
+      "condition": "2.70 Free of Cost Exports for status holders\nStatus holders shall be entitled to export freely exportable items on free of cost basis\nfor export promotion subject to an annual limit of Rs.10 lakh or 2% of average annual\nexport realisation during preceding three licensing years whichever is lower.",
+      "validation": "2.70 Free of Cost Exports for status holders\nStatus holders shall be entitled to export freely exportable items on free of cost basis\nfor export promotion subject to an annual limit of Rs.10 lakh or 2% of average annual\nexport realisation during preceding three licensing years whichever is lower.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.70 - Free of Cost Exports for status holders."
+    },
+    {
+      "rule_id": "CH2-SEC2_70-R002",
+      "rule_description": "In case of government supplies and supplies of\nvaccines and lifesaving drugs to health programmes of international agencies such as\nUN and WHO-PAHO, the annual limit shall be upto 8% of the average annual export\nrealisation during preceding three licensing years.",
+      "trigger": "Free of Cost Exports for status holders",
+      "condition": "In case of government supplies and supplies of\nvaccines and lifesaving drugs to health programmes of international agencies such as\nUN and WHO-PAHO, the annual limit shall be upto 8% of the average annual export\nrealisation during preceding three licensing years.",
+      "validation": "In case of government supplies and supplies of\nvaccines and lifesaving drugs to health programmes of international agencies such as\nUN and WHO-PAHO, the annual limit shall be upto 8% of the average annual export\nrealisation during preceding three licensing years.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.70 - Free of Cost Exports for status holders."
+    },
+    {
+      "rule_id": "CH2-SEC2_70-R003",
+      "rule_description": "Such free of cost supplies shall not\npg.",
+      "trigger": "Free of Cost Exports for status holders",
+      "condition": "38\n2.70 Free of Cost Exports for status holders\nStatus holders shall be entitled to export freely exportable items on free of cost basis\nfor export promotion subject to an annual limit of Rs.10 lakh or 2% of average annual\nexport realisation during preceding three licensing years whichever is lower.",
+      "validation": "Such free of cost supplies shall not\npg.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.70 - Free of Cost Exports for status holders."
+    },
+    {
+      "rule_id": "CH2-SEC2_70-R004",
+      "rule_description": "38\n2.70 Free of Cost Exports for status holders\nStatus holders shall be entitled to export freely exportable items on free of cost basis\nfor export promotion subject to an annual limit of Rs.10 lakh or 2% of average annual\nexport realisation during preceding three licensing years whichever is lower.",
+      "trigger": "Free of Cost Exports for status holders",
+      "condition": "38\n2.70 Free of Cost Exports for status holders\nStatus holders shall be entitled to export freely exportable items on free of cost basis\nfor export promotion subject to an annual limit of Rs.10 lakh or 2% of average annual\nexport realisation during preceding three licensing years whichever is lower.",
+      "validation": "38\n2.70 Free of Cost Exports for status holders\nStatus holders shall be entitled to export freely exportable items on free of cost basis\nfor export promotion subject to an annual limit of Rs.10 lakh or 2% of average annual\nexport realisation during preceding three licensing years whichever is lower.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.70 - Free of Cost Exports for status holders."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.70 Free of Cost Exports for status holders\nStatus holders shall be entitled to export freely exportable items on free of cost basis\nfor export promotion subject to an annual limit of Rs.10 lakh or 2% of average annual\nexport realisation during preceding three licensing years whichever is lower.",
+    "IF detected context matches section rule THEN enforce: In case of government supplies and supplies of\nvaccines and lifesaving drugs to health programmes of international agencies such as\nUN and WHO-PAHO, the annual limit shall be upto 8% of the average annual export\nrealisation during preceding three licensing years.",
+    "IF detected context matches section rule THEN enforce: Such free of cost supplies shall not\npg.",
+    "IF detected context matches section rule THEN enforce: 38\n2.70 Free of Cost Exports for status holders\nStatus holders shall be entitled to export freely exportable items on free of cost basis\nfor export promotion subject to an annual limit of Rs.10 lakh or 2% of average annual\nexport realisation during preceding three licensing years whichever is lower."
+  ]
+}

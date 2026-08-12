@@ -1,0 +1,40 @@
+{
+  "section": "4.14",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.14",
+      "purpose": "Retrieve knowledge payload for section 4.14",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Application-and-On-line-Inter-Ministerial-Consultations-for-fixation-of/validate",
+      "purpose": "Validate inputs and documents for Application and On-line Inter-Ministerial Consultations for fixation of",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "section": "8",
+  "validations": [
+    "/cac:Unique Reference Number\nB065 cbc:Declarant ID M 1 an..17 Specify Message Sender Id (must be same as the Sender Id as\nspecified in the interchange header).",
+    "Refers to the declaration at\nthe frontend software: “I/We declare that all the particulars in\nthis Application are true and correct”.",
+    "/cac:Unique Reference Number\nB065\ncbc:Declarant ID\nM\n1 an..17\nSpecify Message Sender Id (must be same as the Sender Id as\nspecified in the interchange header).",
+    "B089 cbc:Customs Procedure Code M 1 an..7 Specify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application\nA069 cac:CPCProcessing Code C 5 Repeat at most 5 times each for Processing code 1, 2 and 3.",
+    "B089\ncbc:Customs Procedure Code\nM\n1 an..7\nSpecify Customs Procedure Code (CPC) such as:\n(1) Required Code for seastore permits application\nA069\ncac:CPCProcessing Code\nC\n5\nRepeat at most 5 times each for Processing code 1, 2 and 3."
+  ],
+  "errors": [
+    "Validation failed because the section requirements were not fully met."
+  ]
+}

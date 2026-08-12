@@ -1,0 +1,21 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.71",
+  "title": "Admissibility of benefits on payment through insurance cover",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_71-R001",
+      "rule_description": "IF validations pass THEN recommend action: 2.71 Admissibility of benefits on payment through insurance cover\n(I) Payment through ECGC cover would count for benefits under FTP.",
+      "trigger": "Admissibility of benefits on payment through insurance cover",
+      "condition": "RA after satisfying itself of the bona fide of the claim, will obtain\napproval of Additional DGFT (EDI) and then will upload the value (in lieu of\ne BRC value) in EDI system of DGFT for processing of the case.",
+      "validation": "(II) Payment through General/ Private Insurance companies:\nAmount of Insurance Cover for transit loss by General Insurance and Private\nApproved Insurance Companies in India would be treated as payment realized\nfor exports under various export promotion schemes.",
+      "action": "2.71 Admissibility of benefits on payment through insurance cover\n(I) Payment through ECGC cover would count for benefits under FTP.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 2.71 - Admissibility of benefits on payment through insurance cover."
+    }
+  ],
+  "ai_rules": [
+    "IF validations pass THEN recommend action: 2.71 Admissibility of benefits on payment through insurance cover\n(I) Payment through ECGC cover would count for benefits under FTP."
+  ]
+}

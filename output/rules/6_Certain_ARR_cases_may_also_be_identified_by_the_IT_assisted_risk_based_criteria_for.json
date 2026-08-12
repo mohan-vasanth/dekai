@@ -1,0 +1,66 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "6",
+  "title": "Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for",
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC6-R001",
+      "rule_description": "130\nclaiming RODTEP benefits shall be required to file an Annual RODTEP Return\n(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,\n2023.",
+      "trigger": "Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for",
+      "condition": "Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for\nfurther scrutiny to assess the nature of inputs used in export production and the\namount of actual taxes & duties incurred, as permissible under Para 4.54 of FTP.",
+      "validation": "130\nclaiming RODTEP benefits shall be required to file an Annual RODTEP Return\n(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,\n2023.",
+      "action": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6 - Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for."
+    },
+    {
+      "rule_id": "CH4-SEC6-R002",
+      "rule_description": "The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular\nfinancial year shall be filed on DGFT portal by 31st March of the next financial year\ni.e.",
+      "trigger": "Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for",
+      "condition": "After due assessment is made by the concerned authority, who has been mandated\nin this regard, the RODTEP scrip holder will be liable to refund/surrender any\nexcess claims based on the order passed after the scrutiny under the relevant\ncustoms head.",
+      "validation": "The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular\nfinancial year shall be filed on DGFT portal by 31st March of the next financial year\ni.e.",
+      "action": "Subsequent to the payment of the applicable composition fee, the Ro DTEP scrolls\nwill be resumed within 45 days, till an online API based message exchange is\nestablished between DGFT and Customs.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6 - Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for."
+    },
+    {
+      "rule_id": "CH4-SEC6-R003",
+      "rule_description": "RODTEP claims information for Financial Year 2023-24 shall be required to be\nfiled by 31.03.2025.",
+      "trigger": "Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for",
+      "condition": "Failure to regularise the excess claims within a specified time frame\nwill lead to stopping of further benefits under the Scheme.x\npg.",
+      "validation": "RODTEP claims information for Financial Year 2023-24 shall be required to be\nfiled by 31.03.2025.",
+      "action": "The physical/digital records substantiating the duty remission claims, as filed in\nARR, will need to be maintained for a period of five (5) years which may be\nproduced before the concerned authority assessing the ARR.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6 - Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for."
+    },
+    {
+      "rule_id": "CH4-SEC6-R004",
+      "rule_description": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+      "trigger": "Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for",
+      "condition": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+      "validation": "Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+      "action": "The physical/digital records substantiating the duty remission claims, as filed in\nARR, will need to be maintained for a period of five (5) years which may be\nproduced before the concerned authority assessing the ARR.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6 - Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for."
+    },
+    {
+      "rule_id": "CH4-SEC6-R005",
+      "rule_description": "The resumption of scroll out shall also\ncover the Shipping Bills that were not scrolled out earlier on account of non-\ncompliance of ARR.",
+      "trigger": "Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for",
+      "condition": "after\n30th June.",
+      "validation": "The resumption of scroll out shall also\ncover the Shipping Bills that were not scrolled out earlier on account of non-\ncompliance of ARR.",
+      "action": "The physical/digital records substantiating the duty remission claims, as filed in\nARR, will need to be maintained for a period of five (5) years which may be\nproduced before the concerned authority assessing the ARR.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 6 - Certain ARR cases may also be identified by the IT-assisted risk-based criteria, for."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 130\nclaiming RODTEP benefits shall be required to file an Annual RODTEP Return\n(ARR) as per the format given under Appendix-4RR of Handbook of Procedures,\n2023.",
+    "IF detected context matches section rule THEN enforce: The Annual RODTEP Return (ARR) for Ro DTEP claims filed in a particular\nfinancial year shall be filed on DGFT portal by 31st March of the next financial year\ni.e.",
+    "IF detected context matches section rule THEN enforce: RODTEP claims information for Financial Year 2023-24 shall be required to be\nfiled by 31.03.2025.",
+    "IF detected context matches section rule THEN enforce: Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e.",
+    "IF detected context matches section rule THEN enforce: The resumption of scroll out shall also\ncover the Shipping Bills that were not scrolled out earlier on account of non-\ncompliance of ARR.",
+    "IF validations pass THEN recommend action: Non-reporting of the ARR shall lead to denial of benefits under the RODTEP\nscheme and no further scroll out of RODTEP claims for the SBs will be permitted\nat the Customs Port of Export after the grace period of three (3) months i.e."
+  ]
+}

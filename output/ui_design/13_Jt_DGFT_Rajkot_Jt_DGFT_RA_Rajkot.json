@@ -1,0 +1,37 @@
+{
+  "section": "13",
+  "ui": [
+    {
+      "screen_id": "Jt_DGFT_Rajkot_Jt_DGFT_RA_Rajkot_overview",
+      "name": "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Jt_DGFT_Rajkot_Jt_DGFT_RA_Rajkot_submission",
+      "name": "Jt. DGFT, Rajkot Jt. DGFT RA, Rajkot Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "and_flag",
+        "dgft_flag",
+        "zone_flag",
+        "addl_flag",
+        "rajkot_flag",
+        "eastern_flag"
+      ]
+    }
+  ]
+}

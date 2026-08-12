@@ -1,0 +1,432 @@
+{
+  "chapter_number": "4",
+  "chapter_title": "Duty Exemption / Remission Schemes",
+  "section": "4.04",
+  "title": "Advance Authorisation",
+  "purpose": "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+  "purpose_thanglish": "Indha Advance Authorisation section-la, 4.04 Advance Authorisation\nApplicant kandippa file application online in ANF 4A.",
+  "summary": "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A. Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.",
+  "business_meaning": "Advance Authorisation governs how DGFT business controls should be applied, validated, and enforced.",
+  "business_explanation": "Advance Authorisation explains the operating rule set that DEKAI should enforce. Key control points include 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+  "business_explanation_thanglish": "Indha Advance Authorisation section-la, Advance Authorisation explains the operating rule set that DEKAI should enforce. Key control points include 4.04 Advance Authorisation\nApplicant kandippa file application online in ANF 4A.",
+  "business_logic": [
+    "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A."
+  ],
+  "business_rules": [
+    {
+      "rule_id": "CH4-SEC4_04-R001",
+      "rule_description": "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+      "trigger": "Advance Authorisation",
+      "condition": "Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.",
+      "validation": "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 4.04 - Advance Authorisation."
+    }
+  ],
+  "conditions": [
+    "Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures."
+  ],
+  "condition_logic": [
+    {
+      "id": "4.4.04.1",
+      "if": "Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.",
+      "then": "Route for review",
+      "source": "Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures."
+    }
+  ],
+  "validations": [
+    "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A."
+  ],
+  "exceptions": [],
+  "dependencies": [
+    "4.07",
+    "4"
+  ],
+  "documents": [
+    "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+    "Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures."
+  ],
+  "required_documents": [
+    "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+    "Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures."
+  ],
+  "tables": [],
+  "hierarchy_nodes": [
+    {
+      "id": "4.04::section::0::advance-authorisation",
+      "type": "section",
+      "title": "Advance Authorisation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A. Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.",
+      "parentId": "",
+      "sectionId": "4.04",
+      "sectionTitle": "Advance Authorisation",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 3,
+      "searchAliases": [
+        "Advance Authorisation",
+        "AdvanceAuthorisation"
+      ],
+      "childIds": [
+        "4.04::validation::1::validation-rules",
+        "4.04::business_rule::2::advance-authorisation"
+      ],
+      "depth": 0,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 3
+    },
+    {
+      "id": "4.04::validation::1::validation-rules",
+      "type": "validation",
+      "title": "Validation Rules",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+      "parentId": "4.04::section::0::advance-authorisation",
+      "sectionId": "4.04",
+      "sectionTitle": "Advance Authorisation",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Validation Rules",
+        "ValidationRules"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    },
+    {
+      "id": "4.04::business_rule::2::advance-authorisation",
+      "type": "business_rule",
+      "title": "Advance Authorisation",
+      "tagName": "",
+      "normalizedTagName": "",
+      "namespace": "",
+      "fieldCode": "",
+      "description": "",
+      "content": "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+      "parentId": "4.04::section::0::advance-authorisation",
+      "sectionId": "4.04",
+      "sectionTitle": "Advance Authorisation",
+      "documentName": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+      "pageNumber": 2,
+      "startLine": 0,
+      "endLine": 0,
+      "searchAliases": [
+        "Advance Authorisation",
+        "AdvanceAuthorisation"
+      ],
+      "childIds": [],
+      "depth": 1,
+      "boundaryStartLine": 0,
+      "boundaryEndLine": 0
+    }
+  ],
+  "authorities": [],
+  "timelines": [],
+  "actions": [],
+  "workflow": [
+    "Evaluate condition: Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.",
+    "Run validation: 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A."
+  ],
+  "workflow_ascii": "Advance Authorisation\nEvaluate condition: Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.\n   |\n   v\nRun validation: 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+  "decision_tree": [
+    "IF section 4.04 applies THEN proceed with standard DGFT workflow"
+  ],
+  "decision_tree_ascii": "Advance Authorisation Decision\nIF section 4.04 applies THEN proceed with standard DGFT workflow",
+  "examples": [
+    "User asks to process Advance Authorisation; the platform checks conditions, validations, and documents before action."
+  ],
+  "real_world_example": "Example: an importer or exporter invokes Advance Authorisation, submits 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A., Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures., and DEKAI uses the extracted rules to follow the advance authorisation process.",
+  "real_world_example_thanglish": "Indha Advance Authorisation section-la, Example: an importer or exporter invokes Advance Authorisation, submits 4.04 Advance Authorisation\nApplicant kandippa file application online in ANF 4A., Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures., and DEKAI uses the extracted rules to follow the advance authorisation process.",
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A."
+  ],
+  "database_fields": [
+    {
+      "name": "section_code",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "section_title",
+      "type": "string",
+      "required": true,
+      "source": "parsed_section_heading"
+    },
+    {
+      "name": "anf_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:ANF"
+    },
+    {
+      "name": "the_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:the"
+    },
+    {
+      "name": "per_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:per"
+    },
+    {
+      "name": "file_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:file"
+    },
+    {
+      "name": "same_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:Same"
+    },
+    {
+      "name": "form_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:form"
+    },
+    {
+      "name": "sion_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:SION"
+    },
+    {
+      "name": "have_flag",
+      "type": "boolean",
+      "required": false,
+      "source": "keyword:have"
+    },
+    {
+      "name": "document_1_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A."
+    },
+    {
+      "name": "document_2_submitted",
+      "type": "boolean",
+      "required": true,
+      "source": "Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures."
+    }
+  ],
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/4.04",
+      "purpose": "Retrieve knowledge payload for section 4.04",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Advance-Authorisation/validate",
+      "purpose": "Validate inputs and documents for Advance Authorisation",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    }
+  ],
+  "ui": [
+    {
+      "screen_id": "Advance_Authorisation_overview",
+      "name": "Advance Authorisation Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Advance_Authorisation_submission",
+      "name": "Advance Authorisation Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "anf_flag",
+        "the_flag",
+        "per_flag",
+        "file_flag",
+        "same_flag",
+        "form_flag"
+      ]
+    }
+  ],
+  "error_messages": [
+    "Validation failed because the section requirements were not fully met."
+  ],
+  "questions_users_may_ask": [
+    "What does Advance Authorisation require?",
+    "Which documents are needed for Advance Authorisation?",
+    "How does DEKAI validate Advance Authorisation requests?"
+  ],
+  "expected_ai_answers": [
+    "Advance Authorisation requires the platform to interpret the section text, apply the extracted business rules, and present the correct next action.",
+    "Required documents are inferred from the section text: 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A., Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.",
+    "DEKAI validates Advance Authorisation by checking conditions, required documents, authority references, and exception clauses before recommending an outcome."
+  ],
+  "faq": [
+    {
+      "question_en": "What is the purpose of section 4.04?",
+      "answer_en": "Advance Authorisation explains the operating rule set that DEKAI should enforce. Key control points include 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+      "question_thanglish": "Indha Advance Authorisation section-la, What is the purpose of section 4.04?",
+      "answer_thanglish": "Indha Advance Authorisation section-la, Advance Authorisation explains the operating rule set that DEKAI should enforce. Key control points include 4.04 Advance Authorisation\nApplicant kandippa file application online in ANF 4A."
+    },
+    {
+      "question_en": "What documents are required under Advance Authorisation?",
+      "answer_en": "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A., Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.",
+      "question_thanglish": "Indha Advance Authorisation section-la, What documents are required under Advance Authorisation?",
+      "answer_thanglish": "Indha Advance Authorisation section-la, 4.04 Advance Authorisation\nApplicant kandippa file application online in ANF 4A., Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures."
+    },
+    {
+      "question_en": "Which authority handles Advance Authorisation?",
+      "answer_en": "Not explicitly covered in uploaded documents.",
+      "question_thanglish": "Indha Advance Authorisation section-la, Which authority handles Advance Authorisation?",
+      "answer_thanglish": "Indha Advance Authorisation section-la, Not explicitly covered in uploaded documents."
+    }
+  ],
+  "ai_question_and_answer_examples": [
+    {
+      "question_en": "User asks: How do I comply with Advance Authorisation?",
+      "answer_en": "AI answers: DEKAI should evaluate section 4.04, apply the extracted rules, and guide the user through Evaluate condition: Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures..",
+      "question_thanglish": "Indha Advance Authorisation section-la, User asks: How do I comply with Advance Authorisation?",
+      "answer_thanglish": "Indha Advance Authorisation section-la, AI answers: DEKAI should evaluate section 4.04, apply the extracted rules, and guide the user through Evaluate condition: Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.."
+    },
+    {
+      "question_en": "User asks: Which validations apply to Advance Authorisation?",
+      "answer_en": "AI answers: Applicable validations are 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.",
+      "question_thanglish": "Indha Advance Authorisation section-la, User asks: Which validations apply to Advance Authorisation?",
+      "answer_thanglish": "Indha Advance Authorisation section-la, AI answers: Applicable validations are 4.04 Advance Authorisation\nApplicant kandippa file application online in ANF 4A."
+    }
+  ],
+  "dekai_ai_implementation_notes": [
+    "Capture chapter 4, section 4.04, title, and page references as immutable knowledge metadata.",
+    "Bind validations for Advance Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Expose document upload controls for: 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A., Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures..",
+    "Show contextual links to related sections: 4.07, 4."
+  ],
+  "dekai_ai_implementation_notes_thanglish": [
+    "Indha Advance Authorisation section-la, Capture chapter 4, section 4.04, title, and page references as immutable knowledge metadata.",
+    "Indha Advance Authorisation section-la, Bind validations for Advance Authorisation into a rule engine keyed by the rule IDs extracted for this section.",
+    "Indha Advance Authorisation section-la, Expose document upload controls for: 4.04 Advance Authorisation\nApplicant kandippa file application online in ANF 4A., Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures..",
+    "Indha Advance Authorisation section-la, Show contextual links to related sections: 4.07, 4."
+  ],
+  "keywords": [
+    "ANF",
+    "the",
+    "per",
+    "file",
+    "Same",
+    "form",
+    "SION",
+    "have",
+    "been",
+    "shall",
+    "where",
+    "Input",
+    "Norms",
+    "basis",
+    "adhoc",
+    "online",
+    "Output",
+    "Advance",
+    "Standard",
+    "notified"
+  ],
+  "search_keywords": [
+    "ANF",
+    "the",
+    "per",
+    "file",
+    "Same",
+    "form",
+    "SION",
+    "have",
+    "been",
+    "shall",
+    "where",
+    "Input",
+    "Norms",
+    "basis",
+    "adhoc",
+    "online",
+    "Output",
+    "Advance",
+    "Standard",
+    "notified"
+  ],
+  "intent": "Provide knowledge guidance for Advance Authorisation.",
+  "tags": [
+    "4.04",
+    "Advance Authorisation",
+    "business-rule",
+    "document-driven",
+    "dgft"
+  ],
+  "related_sections": [
+    "4.07",
+    "4"
+  ],
+  "related_chapters": [],
+  "related_rules": [
+    "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A."
+  ],
+  "page_numbers": [
+    2
+  ],
+  "pages": [
+    2
+  ],
+  "source_document": "HBP2023_Chapter04+as+on+20.04.2026.pdf",
+  "raw_text": "4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A. Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.",
+  "mermaid": "flowchart TD\n    S1[\"Evaluate condition: Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.\"]\n    S2[\"Run validation: 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.\"]\n    S1 --> S2",
+  "plantuml": "@startuml\nstart\n:Evaluate condition\\: Same form is applicable where\nStandard Input Output Norms (SION) have been notified or on the basis of adhoc\nnorms or on self-declaration basis as per paragraph 4.07 of Handbook of Procedures.;\n:Run validation\\: 4.04 Advance Authorisation\nApplicant shall file application online in ANF 4A.;\nstop\n@enduml"
+}

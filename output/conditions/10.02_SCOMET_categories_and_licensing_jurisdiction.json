@@ -1,0 +1,56 @@
+{
+  "section": "10.02",
+  "conditions": [
+    "10.02 SCOMET categories and licensing jurisdiction\nExport of dual use items, munitions and nuclear related items, including software\nand technology, covered under SCOMET list are permitted against an export\nauthorisation, unless prohibited or specifically exempted.",
+    "Licensing authorities for\nvarious categories of SCOMET items, as specified in Appendix 3 to Schedule 2 of\nITC (HS) and tabulated under Para 10.03 of FTP are as under:\n(a) The DGFT is the licensing authority for all SCOMET categories, including\nSub-category 6A007, 6A008, except Categories 0, 6, Note 2 of Commodity\nIdentification Note (CIN) of SCOMET list, and any other sub-category as may\nbe specified.",
+    "Applicable guidelines are notified by\nthe DAE for Nuclear Transfers (Exports) and Notification of schedule of\nPrescribed Substances, Prescribed Equipment and Technology\" issued\nunder Atomic Energy Act 1962 and Atomic Energy (Working of Mines,\nMinerals and Handling of Prescribed Substance) Rules 1984.",
+    "Authorisations for export of certain\nitems in Category 0 will not be granted unless transfer is under adequate\nphysical protection and is covered by appropriate International Atomic\nEnergy Agency (IAEA) safeguards, or any other mutually agreed controls on\ntransferred items.",
+    "SCOMET, is specified in Chapter 10 of FTP.",
+    "10.02\nSCOMET categories and licensing jurisdiction\nExport of dual use items, munitions and nuclear related items, including software\nand technology, covered under SCOMET list are permitted against an export\nauthorisation, unless prohibited or specifically exempted.",
+    "Licensing authorities for\nvarious categories of SCOMET items, as specified in Appendix 3 to Schedule 2 of\nITC (HS) and tabulated under Para 10.03 of FTP are as under:\n(a)\nThe DGFT is the licensing authority for all SCOMET categories, including\nSub-category 6A007, 6A008, except Categories 0, 6, Note 2 of Commodity\nIdentification Note (CIN) of SCOMET list, and any other sub-category as may\nbe specified."
+  ],
+  "condition_logic": [
+    {
+      "id": "10.10.02.1",
+      "if": "10.02 SCOMET categories and licensing jurisdiction\nExport of dual use items, munitions and nuclear related items, including software\nand technology, covered under SCOMET list are permitted against an export\nauthorisation, unless prohibited or specifically exempted.",
+      "then": "Applicable guidelines are notified by\nthe DAE for Nuclear Transfers (Exports) and Notification of schedule of\nPrescribed Substances, Prescribed Equipment and Technology\" issued\nunder Atomic Energy Act 1962 and Atomic Energy (Working of Mines,\nMinerals and Handling of Prescribed Substance) Rules 1984.",
+      "source": "10.02 SCOMET categories and licensing jurisdiction\nExport of dual use items, munitions and nuclear related items, including software\nand technology, covered under SCOMET list are permitted against an export\nauthorisation, unless prohibited or specifically exempted."
+    },
+    {
+      "id": "10.10.02.2",
+      "if": "Licensing authorities for\nvarious categories of SCOMET items, as specified in Appendix 3 to Schedule 2 of\nITC (HS) and tabulated under Para 10.03 of FTP are as under:\n(a) The DGFT is the licensing authority for all SCOMET categories, including\nSub-category 6A007, 6A008, except Categories 0, 6, Note 2 of Commodity\nIdentification Note (CIN) of SCOMET list, and any other sub-category as may\nbe specified.",
+      "then": "Applicable guidelines are notified by\nthe DAE for Nuclear Transfers (Exports) and Notification of schedule of\nPrescribed Substances, Prescribed Equipment and Technology\" issued\nunder Atomic Energy Act 1962 and Atomic Energy (Working of Mines,\nMinerals and Handling of Prescribed Substance) Rules 1984.",
+      "source": "Licensing authorities for\nvarious categories of SCOMET items, as specified in Appendix 3 to Schedule 2 of\nITC (HS) and tabulated under Para 10.03 of FTP are as under:\n(a) The DGFT is the licensing authority for all SCOMET categories, including\nSub-category 6A007, 6A008, except Categories 0, 6, Note 2 of Commodity\nIdentification Note (CIN) of SCOMET list, and any other sub-category as may\nbe specified."
+    },
+    {
+      "id": "10.10.02.3",
+      "if": "Applicable guidelines are notified by\nthe DAE for Nuclear Transfers (Exports) and Notification of schedule of\nPrescribed Substances, Prescribed Equipment and Technology\" issued\nunder Atomic Energy Act 1962 and Atomic Energy (Working of Mines,\nMinerals and Handling of Prescribed Substance) Rules 1984.",
+      "then": "Applicable guidelines are notified by\nthe DAE for Nuclear Transfers (Exports) and Notification of schedule of\nPrescribed Substances, Prescribed Equipment and Technology\" issued\nunder Atomic Energy Act 1962 and Atomic Energy (Working of Mines,\nMinerals and Handling of Prescribed Substance) Rules 1984.",
+      "source": "Applicable guidelines are notified by\nthe DAE for Nuclear Transfers (Exports) and Notification of schedule of\nPrescribed Substances, Prescribed Equipment and Technology\" issued\nunder Atomic Energy Act 1962 and Atomic Energy (Working of Mines,\nMinerals and Handling of Prescribed Substance) Rules 1984."
+    },
+    {
+      "id": "10.10.02.4",
+      "if": "Authorisations for export of certain\nitems in Category 0 will not be granted unless transfer is under adequate\nphysical protection and is covered by appropriate International Atomic\nEnergy Agency (IAEA) safeguards, or any other mutually agreed controls on\ntransferred items.",
+      "then": "Applicable guidelines are notified by\nthe DAE for Nuclear Transfers (Exports) and Notification of schedule of\nPrescribed Substances, Prescribed Equipment and Technology\" issued\nunder Atomic Energy Act 1962 and Atomic Energy (Working of Mines,\nMinerals and Handling of Prescribed Substance) Rules 1984.",
+      "source": "Authorisations for export of certain\nitems in Category 0 will not be granted unless transfer is under adequate\nphysical protection and is covered by appropriate International Atomic\nEnergy Agency (IAEA) safeguards, or any other mutually agreed controls on\ntransferred items."
+    },
+    {
+      "id": "10.10.02.5",
+      "if": "SCOMET, is specified in Chapter 10 of FTP.",
+      "then": "Applicable guidelines are notified by\nthe DAE for Nuclear Transfers (Exports) and Notification of schedule of\nPrescribed Substances, Prescribed Equipment and Technology\" issued\nunder Atomic Energy Act 1962 and Atomic Energy (Working of Mines,\nMinerals and Handling of Prescribed Substance) Rules 1984.",
+      "source": "SCOMET, is specified in Chapter 10 of FTP."
+    },
+    {
+      "id": "10.10.02.6",
+      "if": "10.02\nSCOMET categories and licensing jurisdiction\nExport of dual use items, munitions and nuclear related items, including software\nand technology, covered under SCOMET list are permitted against an export\nauthorisation, unless prohibited or specifically exempted.",
+      "then": "Applicable guidelines are notified by\nthe DAE for Nuclear Transfers (Exports) and Notification of schedule of\nPrescribed Substances, Prescribed Equipment and Technology\" issued\nunder Atomic Energy Act 1962 and Atomic Energy (Working of Mines,\nMinerals and Handling of Prescribed Substance) Rules 1984.",
+      "source": "10.02\nSCOMET categories and licensing jurisdiction\nExport of dual use items, munitions and nuclear related items, including software\nand technology, covered under SCOMET list are permitted against an export\nauthorisation, unless prohibited or specifically exempted."
+    },
+    {
+      "id": "10.10.02.7",
+      "if": "Licensing authorities for\nvarious categories of SCOMET items, as specified in Appendix 3 to Schedule 2 of\nITC (HS) and tabulated under Para 10.03 of FTP are as under:\n(a)\nThe DGFT is the licensing authority for all SCOMET categories, including\nSub-category 6A007, 6A008, except Categories 0, 6, Note 2 of Commodity\nIdentification Note (CIN) of SCOMET list, and any other sub-category as may\nbe specified.",
+      "then": "Applicable guidelines are notified by\nthe DAE for Nuclear Transfers (Exports) and Notification of schedule of\nPrescribed Substances, Prescribed Equipment and Technology\" issued\nunder Atomic Energy Act 1962 and Atomic Energy (Working of Mines,\nMinerals and Handling of Prescribed Substance) Rules 1984.",
+      "source": "Licensing authorities for\nvarious categories of SCOMET items, as specified in Appendix 3 to Schedule 2 of\nITC (HS) and tabulated under Para 10.03 of FTP are as under:\n(a)\nThe DGFT is the licensing authority for all SCOMET categories, including\nSub-category 6A007, 6A008, except Categories 0, 6, Note 2 of Commodity\nIdentification Note (CIN) of SCOMET list, and any other sub-category as may\nbe specified."
+    }
+  ]
+}

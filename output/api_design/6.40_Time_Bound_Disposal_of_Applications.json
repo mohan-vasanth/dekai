@@ -1,0 +1,63 @@
+{
+  "section": "6.40",
+  "apis": [
+    {
+      "method": "GET",
+      "path": "/api/dgft/sections/6.40",
+      "purpose": "Retrieve knowledge payload for section 6.40",
+      "query_params": [
+        "include=workflow,decision_tree,validations"
+      ],
+      "response_fields": [
+        "section",
+        "title",
+        "summary",
+        "conditions",
+        "validations",
+        "exceptions",
+        "workflow",
+        "decision_tree"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Time-Bound-Disposal-of-Applications/validate",
+      "purpose": "Validate inputs and documents for Time Bound Disposal of Applications",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted"
+      ],
+      "response_fields": [
+        "status",
+        "errors",
+        "warnings",
+        "next_actions"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/api/dgft/Time-Bound-Disposal-of-Applications/execute",
+      "purpose": "Trigger business action for for disposal\n(days)\n1 Issue of Lo P / Lo I 15\n2 Conversion of Lo P / Lo I 15\n3 Acceptance of LUT 3\n4 Renewal of LUT 3\n5 Permission for broad banding / Diversification 3\n6 Permission for change in locations 7\n7 Permission for Advance DTA sale 2\n8 Permission for merger of units 7\n9 Permission for enhancement of production capacity 3\n10 Cancellation of Lo P 3\n11 Permission for debonding / exit 7\n12 Permission for DTA sale 2\n13 Eligibility certificate for employment visa for lower 2\nlevel technicians\n14 Issue of Green Card 2\n15 Renewal of Green Card Same\nDay\n16 Permission to lease CG 1\n17 Permission for disposal of scrap / waste 2\n18 Permission for change in name 2\n19 Inter Unit Transfer 2\n20 Wastage Norms, ad-hoc 2\n21 Permission for re-import Same\nday\n22 Permission for re-export Same\nday\n23 Permission for replacement / repair of goods Same\nday\n24 Authorisation of softex form 1\n25 Reimbursement of CST claims 7\n26 Issue of GSP Certificate Same\nday\npg.",
+      "request_fields": [
+        "section_code",
+        "section_title",
+        "document_1_submitted",
+        "document_2_submitted",
+        "document_3_submitted",
+        "document_4_submitted",
+        "document_5_submitted"
+      ],
+      "response_fields": [
+        "reference_id",
+        "status",
+        "authority",
+        "timeline"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "section": "4.34",
+  "ui": [
+    {
+      "screen_id": "Execution_of_BG_LUT_overview",
+      "name": "Execution of BG/LUT Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Execution_of_BG_LUT_submission",
+      "name": "Execution of BG/LUT Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "the_flag",
+        "lut_flag",
+        "has_flag",
+        "can_flag",
+        "get_flag",
+        "any_flag"
+      ]
+    },
+    {
+      "screen_id": "Execution_of_BG_LUT_exceptions",
+      "name": "Execution of BG/LUT Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

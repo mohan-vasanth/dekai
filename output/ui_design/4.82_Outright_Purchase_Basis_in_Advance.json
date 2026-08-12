@@ -1,0 +1,47 @@
+{
+  "section": "4.82",
+  "ui": [
+    {
+      "screen_id": "Outright_Purchase_Basis_in_Advance_overview",
+      "name": "Outright Purchase Basis in Advance Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Outright_Purchase_Basis_in_Advance_submission",
+      "name": "Outright Purchase Basis in Advance Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "may_flag",
+        "for_flag",
+        "the_flag",
+        "lut_flag",
+        "and_flag",
+        "its_flag"
+      ]
+    },
+    {
+      "screen_id": "Outright_Purchase_Basis_in_Advance_exceptions",
+      "name": "Outright Purchase Basis in Advance Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}

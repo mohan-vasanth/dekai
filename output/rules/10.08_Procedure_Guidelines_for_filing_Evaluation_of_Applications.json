@@ -1,0 +1,32 @@
+{
+  "chapter_number": "10",
+  "chapter_title": "SCOMET: Special Chemicals, Organisms, Materials, Equipment and Technologies",
+  "section": "10.08",
+  "title": "Procedure/ Guidelines for filing / Evaluation of Applications",
+  "business_rules": [
+    {
+      "rule_id": "CH10-SEC10_08-R001",
+      "rule_description": "10.08 Procedure/ Guidelines for filing / Evaluation of Applications\nfor Entering into an Arrangement or Understanding for Site Visits,\nOn-site Verification and Access to Records /Documentation\nAn application for entering into an arrangement or understanding involving site\nvisit, on-site verification or access to records/documentation by a foreign\ngovernment or a foreign third party either acting directly or through an Indian\nparty as mentioned in Appendix 3 of Schedule 2 of ITC (HS) Classifications of\nExport and Import Items shall be made to DGFT (Hqrs.), New Delhi, in proforma\nANF 10E along with relevant documents as prescribed therein, including Appendix\n10L.",
+      "trigger": "Procedure/ Guidelines for filing / Evaluation of Applications",
+      "condition": "10.08 Procedure/ Guidelines for filing / Evaluation of Applications\nfor Entering into an Arrangement or Understanding for Site Visits,\nOn-site Verification and Access to Records /Documentation\nAn application for entering into an arrangement or understanding involving site\nvisit, on-site verification or access to records/documentation by a foreign\ngovernment or a foreign third party either acting directly or through an Indian\nparty as mentioned in Appendix 3 of Schedule 2 of ITC (HS) Classifications of\nExport and Import Items shall be made to DGFT (Hqrs.), New Delhi, in proforma\nANF 10E along with relevant documents as prescribed therein, including Appendix\n10L.",
+      "validation": "10.08 Procedure/ Guidelines for filing / Evaluation of Applications\nfor Entering into an Arrangement or Understanding for Site Visits,\nOn-site Verification and Access to Records /Documentation\nAn application for entering into an arrangement or understanding involving site\nvisit, on-site verification or access to records/documentation by a foreign\ngovernment or a foreign third party either acting directly or through an Indian\nparty as mentioned in Appendix 3 of Schedule 2 of ITC (HS) Classifications of\nExport and Import Items shall be made to DGFT (Hqrs.), New Delhi, in proforma\nANF 10E along with relevant documents as prescribed therein, including Appendix\n10L.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10.08 - Procedure/ Guidelines for filing / Evaluation of Applications."
+    },
+    {
+      "rule_id": "CH10-SEC10_08-R002",
+      "rule_description": "These applications shall be considered by IMWG in DGFT (Hqrs.) based on the\nguidelines/general criteria as specified in Appendix-10A and permission for\narrangement or understanding involving site visit, on-site verification or access to\nrecords / documentation will be subject to the conditions specified in Appendix-\n10A.",
+      "trigger": "Procedure/ Guidelines for filing / Evaluation of Applications",
+      "condition": "These applications shall be considered by IMWG in DGFT (Hqrs.) based on the\nguidelines/general criteria as specified in Appendix-10A and permission for\narrangement or understanding involving site visit, on-site verification or access to\nrecords / documentation will be subject to the conditions specified in Appendix-\n10A.",
+      "validation": "These applications shall be considered by IMWG in DGFT (Hqrs.) based on the\nguidelines/general criteria as specified in Appendix-10A and permission for\narrangement or understanding involving site visit, on-site verification or access to\nrecords / documentation will be subject to the conditions specified in Appendix-\n10A.",
+      "action": "Manual review required.",
+      "exception": "No explicit exception found in uploaded documents.",
+      "output": "DEKAI should produce a compliance decision for 10.08 - Procedure/ Guidelines for filing / Evaluation of Applications."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 10.08 Procedure/ Guidelines for filing / Evaluation of Applications\nfor Entering into an Arrangement or Understanding for Site Visits,\nOn-site Verification and Access to Records /Documentation\nAn application for entering into an arrangement or understanding involving site\nvisit, on-site verification or access to records/documentation by a foreign\ngovernment or a foreign third party either acting directly or through an Indian\nparty as mentioned in Appendix 3 of Schedule 2 of ITC (HS) Classifications of\nExport and Import Items shall be made to DGFT (Hqrs.), New Delhi, in proforma\nANF 10E along with relevant documents as prescribed therein, including Appendix\n10L.",
+    "IF detected context matches section rule THEN enforce: These applications shall be considered by IMWG in DGFT (Hqrs.) based on the\nguidelines/general criteria as specified in Appendix-10A and permission for\narrangement or understanding involving site visit, on-site verification or access to\nrecords / documentation will be subject to the conditions specified in Appendix-\n10A."
+  ]
+}

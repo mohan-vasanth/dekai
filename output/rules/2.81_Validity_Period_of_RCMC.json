@@ -1,0 +1,22 @@
+{
+  "chapter_number": "2",
+  "chapter_title": "General Provisions Regarding Imports and Exports",
+  "section": "2.81",
+  "title": "Validity Period of RCMC",
+  "business_rules": [
+    {
+      "rule_id": "CH2-SEC2_81-R001",
+      "rule_description": "2.81 Validity Period of RCMC\nRCMC shall be deemed to be valid from 1st April of licensing year in which it was\nissued and shall be valid for five years ending 31st March of the licensing year, unless\notherwise specified.",
+      "trigger": "Validity Period of RCMC",
+      "condition": "2.81 Validity Period of RCMC\nRCMC shall be deemed to be valid from 1st April of licensing year in which it was\nissued and shall be valid for five years ending 31st March of the licensing year, unless\notherwise specified.",
+      "validation": "2.81 Validity Period of RCMC\nRCMC shall be deemed to be valid from 1st April of licensing year in which it was\nissued and shall be valid for five years ending 31st March of the licensing year, unless\notherwise specified.",
+      "action": "2.81 Validity Period of RCMC\nRCMC shall be deemed to be valid from 1st April of licensing year in which it was\nissued and shall be valid for five years ending 31st March of the licensing year, unless\notherwise specified.",
+      "exception": "2.81 Validity Period of RCMC\nRCMC shall be deemed to be valid from 1st April of licensing year in which it was\nissued and shall be valid for five years ending 31st March of the licensing year, unless\notherwise specified.",
+      "output": "DEKAI should produce a compliance decision for 2.81 - Validity Period of RCMC."
+    }
+  ],
+  "ai_rules": [
+    "IF detected context matches section rule THEN enforce: 2.81 Validity Period of RCMC\nRCMC shall be deemed to be valid from 1st April of licensing year in which it was\nissued and shall be valid for five years ending 31st March of the licensing year, unless\notherwise specified.",
+    "IF validations pass THEN recommend action: 2.81 Validity Period of RCMC\nRCMC shall be deemed to be valid from 1st April of licensing year in which it was\nissued and shall be valid for five years ending 31st March of the licensing year, unless\notherwise specified."
+  ]
+}

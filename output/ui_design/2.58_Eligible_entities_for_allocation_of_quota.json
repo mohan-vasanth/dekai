@@ -1,0 +1,47 @@
+{
+  "section": "2.58",
+  "ui": [
+    {
+      "screen_id": "Eligible_entities_for_allocation_of_quota_overview",
+      "name": "Eligible entities for allocation of quota Overview",
+      "purpose": "Show section summary, authority, timeline, and eligibility cues.",
+      "widgets": [
+        "summary_card",
+        "conditions_table",
+        "authority_badges",
+        "timeline_panel"
+      ]
+    },
+    {
+      "screen_id": "Eligible_entities_for_allocation_of_quota_submission",
+      "name": "Eligible entities for allocation of quota Submission",
+      "purpose": "Capture applicant data and supporting documents.",
+      "widgets": [
+        "dynamic_form",
+        "document_uploader",
+        "validation_panel",
+        "next_action_footer"
+      ],
+      "fields": [
+        "section_code",
+        "section_title",
+        "for_flag",
+        "the_flag",
+        "hbp_flag",
+        "and_flag",
+        "oil_flag",
+        "fat_flag"
+      ]
+    },
+    {
+      "screen_id": "Eligible_entities_for_allocation_of_quota_exceptions",
+      "name": "Eligible entities for allocation of quota Exception Review",
+      "purpose": "Explain exception handling and manual review triggers.",
+      "widgets": [
+        "exception_banner",
+        "decision_tree",
+        "case_notes"
+      ]
+    }
+  ]
+}
